@@ -4,7 +4,7 @@ excerpt: "The best solar proposal software Malaysia installers need quotes insid
 description: "Best solar proposal software Malaysia 2026. SurgePV vs Aurora, PVsyst, OpenSolar on NEM 3.0 quota, the 75% MD cap, GITA tax allowance and SEDA approval timelines."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-malaysia.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 A Malaysian solar quote is decided before the design starts. Domestic NEM 3.0 installations are capped at 12 kWp, and non-domestic installations at 75% of Maximum Demand taken from the TNB bill. Above that, nothing is permissible regardless of roof area. The scheme is also quota-based through SEDA in periodic finite rounds, so approval is not automatic, and without it TNB will not fit the bi-directional meter. Then the whole process takes 4 to 6 months from application to first billing. A proposal that ignores any of those three facts is a proposal that will be revised. This guide compares the platforms Malaysian installers should shortlist for quoting.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - NEM 3.0 caps domestic at 12 kWp and non-domestic at 75% of Maximum Demand.
 > - Export offsets imports 1:1 at the [tariff](/glossary/tariff/) rate, so self-consumption and export are worth the same.
 > - The scheme is quota-based via SEDA. No approval means no bi-directional meter and no legal export.
@@ -57,7 +57,8 @@ A Malaysian solar quote is decided before the design starts. Domestic NEM 3.0 in
 
 ## Quote The Cap, Not The Roof
 
-> **What most Malaysian commercial quotes get wrong.** They present a system sized to available roof, then discover at SEDA application that 75% of Maximum Demand permits far less. The revision costs the survey, the customer's confidence, and a place in a quota round that may not reopen for months.
+> [!WARNING] What most Malaysian commercial quotes get wrong
+> They present a system sized to available roof, then discover at SEDA application that 75% of Maximum Demand permits far less. The revision costs the survey, the customer's confidence, and a place in a quota round that may not reopen for months.
 
 The sequence that works is unglamorous and reliable. Take the Maximum Demand from the TNB bill. Multiply by 0.75. That is the ceiling. Check whether roof area supports it. Only then design.
 
@@ -103,6 +104,8 @@ Common on Malaysian commercial work because of the PE stamp requirement. Produce
 
 ## Malaysia Solar Proposal Software Comparison
 
+Table: Malaysia solar proposal software compared by cap enforcement, GITA, quota and SLD capability
+
 | Tool | Capacity caps enforced | GITA modelling | Timeline and quota surfaced | Auto SLD for PE stamp | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Configurable | Configurable | Yes | Yes | $1,299 to $1,899 |
@@ -122,6 +125,8 @@ Common on Malaysian commercial work because of the PE stamp requirement. Produce
 ## Worked Example: 300 kWp Factory, With And Without Quota
 
 An illustrative calculation, not a specific customer project. Inputs: 400 kW Maximum Demand giving a 300 kWp ceiling, 1,450 kWh per kWp specific yield, 435,000 kWh generation, 65% consumed on site during production hours, tariff RM 0.50 per kWh, installed cost RM 660,000.
+
+Table: A 300 kWp factory with NEM 3.0 quota versus self-consumption only (illustrative)
 
 | Line | With NEM 3.0 quota | Self-consumption only |
 | --- | --- | --- |

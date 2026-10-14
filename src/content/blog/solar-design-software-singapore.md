@@ -4,7 +4,7 @@ excerpt: "The best solar design software Singapore installers need models the SC
 description: "Best solar design software Singapore 2026. SurgePV vs Aurora, PVsyst, HelioScope on SCT vs ECIS, EMA generation licensing, SP Group connection and SS 638."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-design-software-singapore.webp"
 author: "Keyur Rakholiya"
@@ -36,7 +36,7 @@ featured: false
 
 [Singapore](/blog/solar-software-singapore/) solar has a decision most markets do not: which export scheme the customer sits under. SCT pays a fixed rate near S$0.20 per kWh and settles simply through SP Services. ECIS pays the variable USEP wholesale rate, typically 10 to 20 cents per kWh, requires EMC Market Participant registration, and caps at 10 MWac per installation. One is predictable, the other is exposed to wholesale price movement and can only be estimated properly with an hourly generation profile matched against a price curve. Add a 1 MWac licensing threshold that adds three to six months of EMA processing, and Singapore rewards [design software](https://www.surgepv.com/blog/ai-solar-design-software) that can model the specific commercial arrangement rather than a generic export assumption.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - SCT pays roughly S$0.20 per kWh fixed, registered with SP Services, no stated installation cap.
 > - ECIS pays the variable USEP rate, typically 10 to 20 cents per kWh, needs EMC Market Participant registration, capped at 10 MWac per installation.
 > - Systems below 1 MWac need no EMA Generation Licence. At or above 1 MWac a full licence is required via the ELISE portal, taking an estimated three to six months.
@@ -57,12 +57,15 @@ Singapore is a small market by installed capacity and an unusually sophisticated
 
 ## SCT Versus ECIS, And Why It Is A Modelling Question
 
+Table: Singapore export schemes compared by rate, registration and cap
+
 | Scheme | Rate | Registration | Cap |
 | --- | --- | --- | --- |
 | SCT | Approximately S$0.20 per kWh, fixed | SP Services direct | None stated |
 | ECIS | USEP variable, typically 10 to 20 cents per kWh | EMC Market Participant | 10 MWac per installation |
 
-> **What most Singapore proposals get wrong.** They quote ECIS at an average USEP figure and present it as though it were a fixed rate. Averaging a variable price against a variable generation profile produces a number that is right only by coincidence, because the two are correlated. Solar exports most at midday, and midday USEP is not the daily average.
+> [!WARNING] What most Singapore proposals get wrong
+> They quote ECIS at an average USEP figure and present it as though it were a fixed rate. Averaging a variable price against a variable generation profile produces a number that is right only by coincidence, because the two are correlated. Solar exports most at midday, and midday USEP is not the daily average.
 
 SCT is the simpler product and the honest default for customers who want certainty. At roughly S$0.20 per kWh it also sits above the low end of the USEP range, so it is not obviously the worse commercial choice. ECIS makes sense where the customer has the appetite and the administrative capacity for Market Participant registration and believes wholesale prices will favour them.
 
@@ -102,6 +105,8 @@ Common on institutional and JTC-driven projects. Produces defensible engineering
 
 ## Singapore Solar Design Software Comparison
 
+Table: Singapore solar design software compared by ECIS profile, shading and threshold visibility
+
 | Tool | Hourly profile for ECIS | Inter-building shading accuracy | AC rating visible against 1 MWac | Tropical thermal model | Proposals included | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Module-level, 8,760-hour | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -121,6 +126,8 @@ Common on institutional and JTC-driven projects. Produces defensible engineering
 ## Worked Example: 800 kWp Industrial Rooftop, SCT Versus ECIS
 
 An illustrative calculation, not a specific customer project. Inputs: 800 kWp DC, 720 kWac, 1,250 kWh per kWp specific yield, 1,000,000 kWh generation, 70% self-consumed, 300,000 kWh exported, import at S$0.28 per kWh.
+
+Table: An 800 kWp industrial rooftop under SCT versus ECIS (illustrative)
 
 | Line | Under SCT | Under ECIS |
 | --- | --- | --- |

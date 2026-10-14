@@ -4,7 +4,7 @@ excerpt: "A Saudi proposal that quotes generation instead of displaced consumpti
 description: "Best solar proposal software Saudi Arabia 2026. SurgePV vs Aurora, PVsyst, HelioScope on net billing at 5 halalas, tiered commercial and industrial tariffs, the 5 MW cap and soiling assumptions."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-saudi-arabia.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 A [Saudi](/blog/solar-software-saudi-arabia/) solar proposal has one question to answer, and it is not how much energy the system will generate. Under the Small-Scale Solar PV framework surplus credits at roughly 5 halalas per kWh while commercial import tariffs run in tiers up to around 32 and industrial up to around 20. Value comes almost entirely from displaced consumption, so the number that matters is how much of the generation the facility actually uses and what tier that displaced energy would have cost. A proposal built around annual yield is answering a question the customer is not asking, and it will produce a payback figure that can be wrong by a factor of two or more. This guide compares the platforms Saudi installers should shortlist.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Exports credit at around 5 halalas per kWh; commercial imports reach roughly 32 and industrial around 20.
 > - The return comes from displaced consumption, so the customer's tariff tier is the first question, not the roof.
 > - A well-designed Saudi system exports little, so a large export revenue line signals an oversized system.
@@ -57,9 +57,12 @@ For the design-side comparison see our [best solar design software Saudi Arabia]
 
 ## Establish The Tariff Tier Before Anything Else
 
-> **What most Saudi quotes get wrong.** They lead with system size and annual generation, then apply an assumed average electricity price to the whole output. Under a tiered tariff with a 5 halala export floor, that method can be wrong in both directions at once: overstating the value of exported energy by a factor of several, and misstating the value of displaced energy depending on which tier the customer occupies.
+> [!WARNING] What most Saudi quotes get wrong
+> They lead with system size and annual generation, then apply an assumed average electricity price to the whole output. Under a tiered tariff with a 5 halala export floor, that method can be wrong in both directions at once: overstating the value of exported energy by a factor of several, and misstating the value of displaced energy depending on which tier the customer occupies.
 
 The correct sequence inverts the usual one.
+
+Table: Saudi Arabia proposal sequence: the question to answer first and why
 
 | Step | Question | Why it comes first |
 | --- | --- | --- |
@@ -133,6 +136,8 @@ The default on larger Saudi projects. Defensible engineering, and the usual home
 
 ## Saudi Arabia Solar Proposal Software Comparison
 
+Table: Saudi Arabia solar proposal software compared by tariff tier, net billing and soiling capability
+
 | Tool | Tariff tier by customer type | Net billing at 5 halalas | Soiling with cleaning sensitivity | Portfolio cap awareness | Arabic proposals | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -145,6 +150,8 @@ The default on larger Saudi projects. Defensible engineering, and the usual home
 ## Worked Example: The Same 400 kWp Quoted Two Ways
 
 An illustrative calculation, not a specific customer project. Inputs: a commercial facility on an upper tariff tier near 32 halalas, 400 kWp array, strong daytime load, export credited at 5 halalas.
+
+Table: The same 400 kWp system quoted on averaged assumptions versus quoted properly (illustrative)
 
 | Line | Quoted on averaged assumptions | Quoted properly |
 | --- | --- | --- |

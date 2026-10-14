@@ -4,7 +4,7 @@ excerpt: "Salderingsregeling ends 1 January 2027. The best solar proposal softwa
 description: "Best solar proposal software Netherlands 2026. SurgePV vs OpenSolar, PV*SOL, Aurora on the salderingsregeling phase-out, terugleverkosten and post-2027 payback."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-netherlands.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 Every Dutch solar proposal written between now and 1 January 2027 has a shelf life problem. The salderingsregeling ends on that date, confirmed when the Senate approved the termination in December 2024. A system quoted today will spend a few months under [net metering](/glossary/net-metering/) and roughly twenty-five years without it. Yet the standard Dutch quote still leads with a payback figure calculated under netting, which describes the shortest and least representative period of the customer's ownership. This guide compares the platforms Dutch installers should be using to quote honestly through the transition, and explains why the battery line moves from optional extra to the centre of the document.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Salderingsregeling ends 1 January 2027. Senate approved December 2024, after the House agreed in November 2024.
 > - Suppliers set export compensation from that date, expected around 5 to 10 cents per kWh, with a government floor preventing negative rates.
 > - Residential payback moves from roughly 7 to 9 years to roughly 12 to 17 years.
@@ -66,7 +66,8 @@ The [Netherlands](/blog/solar-software-netherlands/) is about to run a live expe
 
 ## The Payback Conversation Dutch Installers Are About To Have
 
-> **What most Dutch quotes will get wrong through 2026.** They will present a seven year payback because that is what the salderingsregeling delivers, and the customer will discover in January 2027 that the number no longer holds. The installer will not have lied. They will have quoted the current rules. The customer will not care about that distinction.
+> [!WARNING] What most Dutch quotes will get wrong through 2026
+> They will present a seven year payback because that is what the salderingsregeling delivers, and the customer will discover in January 2027 that the number no longer holds. The installer will not have lied. They will have quoted the current rules. The customer will not care about that distinction.
 
 The commercially interesting point is that honesty here is an advantage rather than a cost. A homeowner comparing three quotes, two showing seven year paybacks and one showing a twelve year payback with a clear explanation and a battery option, is being given something the other two did not provide. In a market where the policy change is widely reported and half a million social housing tenants are already being told they will lose money, credibility is worth more than an attractive number.
 
@@ -94,6 +95,8 @@ Common in smaller Dutch operations, and flexible enough to model the transition 
 
 ## Netherlands Solar Proposal Software Comparison
 
+Table: Netherlands solar proposal software compared by export split, post-2027 logic and battery sizing
+
 | Tool | Self-consumption and export split | Post-2027 export logic | Terugleverkosten | Battery sizing from hourly surplus | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes, configurable | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -113,6 +116,8 @@ Common in smaller Dutch operations, and flexible enough to model the transition 
 ## Worked Example: How The Same Quote Reads Under Both Regimes
 
 An illustrative calculation using published expectations for post-2027 compensation. Inputs: 4.8 kWp, 4,560 kWh generation, 3,400 kWh consumption, import at 30 cents per kWh, post-2027 export at 7 cents per kWh, self-consumption 32% without storage, installed cost EUR 5,400.
+
+Table: The same quote under salderingsregeling and from 2027, with and without a 5 kWh battery (illustrative)
 
 | Line | Under salderingsregeling | From 2027, no battery | From 2027, plus 5 kWh battery |
 | --- | --- | --- | --- |

@@ -4,7 +4,7 @@ excerpt: "The best solar proposal software Germany installers need models the 20
 description: "Best solar proposal software Germany 2026. SurgePV vs PV*SOL, Aurora, OpenSolar on EEG rates, Solarspitzengesetz, VDE-AR-N 4105 and smart meter feed-in limits."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-proposal-software-germany.webp"
 author: "Akash Hirapara"
@@ -36,7 +36,7 @@ featured: false
 
 German solar quoting broke in a specific way in 2025, and most [proposal software](https://www.surgepv.com/blog/solar-proposal-software-germany) has not adjusted. The Solarspitzengesetz removed EEG payment entitlement during negative wholesale price intervals for systems commissioned after 25 February 2025. Negative price hours are no longer rare in a grid with this much installed PV, and they cluster in exactly the sunny midday periods when the array exports most. So the old calculation, exported kWh multiplied by the EEG rate, now overstates near-term feed-in income. Add the 60% feed-in cap for systems without smart meter control, and a German proposal built on a simple export assumption can be materially wrong. This guide compares the platforms German installers should shortlist.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The 2026 Einspeisevergütung is 7.78 ct/kWh for partial feed-in and 12.34 ct/kWh for full feed-in up to 10 kWp, for systems commissioned 1 February to 31 July 2026.
 > - The Solarspitzengesetz removes EEG payment during negative price intervals for systems commissioned after 25 February 2025, adding the lost time to the end of the 20 year term.
 > - Systems without a smart meter and control device must limit feed-in to 60% of installed capacity. Smart meter control is required at 7 kWp and above for full feed-in.
@@ -69,7 +69,8 @@ Germany has the deepest installed base in Europe and the most sophisticated regu
 
 ## The Negative-Price Problem Most Tools Ignore
 
-> **What most German proposals get wrong.** They compute feed-in income as exported kWh multiplied by the EEG rate. Since February 2025 that formula has been structurally optimistic, because the hours with the most export are increasingly the hours with negative wholesale prices and therefore no EEG payment.
+> [!WARNING] What most German proposals get wrong
+> They compute feed-in income as exported kWh multiplied by the EEG rate. Since February 2025 that formula has been structurally optimistic, because the hours with the most export are increasingly the hours with negative wholesale prices and therefore no EEG payment.
 
 The mechanism is worth understanding because it changes what a good design looks like. Negative prices occur when generation exceeds demand, which in Germany means sunny, windy, low-demand periods. Those are precisely the hours when a south-facing array is at maximum output. So the correlation is unhelpful: the array exports most exactly when the export is worth least.
 
@@ -102,6 +103,8 @@ The most common German setup, and the main source of stale EEG rates in circulat
 
 ## Germany Solar Proposal Software Comparison
 
+Table: Germany solar proposal software compared by EEG, negative-price and VDE-AR-N 4105 capability
+
 | Tool | EEG rate by commissioning window | Solarspitzengesetz negative-price rule | 60% feed-in cap | VDE-AR-N 4105 checks | German-language proposals | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -123,6 +126,8 @@ The most common German setup, and the main source of stale EEG rates in circulat
 
 An illustrative calculation showing why orientation now interacts with the tariff rule. Inputs: 9.6 kWp, 1,020 kWh per kWp specific yield, 9,792 kWh generation, 4,200 kWh household consumption, import at 32 ct per kWh, partial feed-in at 7.78 ct per kWh.
 
+Table: A 9.6 kWp system near Stuttgart: south-facing versus east-west split (illustrative)
+
 | Line | South-facing | East-west split |
 | --- | --- | --- |
 | Annual generation | 9,792 kWh | 9,204 kWh |
@@ -143,7 +148,9 @@ The east-west array generates 6% less electricity and returns 13% more money in 
 - **Choose OpenSolar** for small straightforward residential where entry cost dominates.
 - **Choose PVsyst** where a lender names it for a bankable report.
 - **Choose a local German tool** if Netzbetreiber paperwork throughput is your bottleneck rather than design.
-- **Retire the spreadsheet** if it carries a typed EEG rate, because that number changes on a schedule.
+
+> [!TIP] Evaluation step
+> **Retire the spreadsheet** if it carries a typed EEG rate, because that number changes on a schedule.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

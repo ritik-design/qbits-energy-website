@@ -4,7 +4,7 @@ excerpt: "Under net billing an exported kilowatt-hour is worth a fraction of an 
 description: "Solar shading analysis software Poland 2026: net billing and RCEm pricing, 52 degrees north winter sun, self-consumption weighted shading loss, and why the hour of a shadow matters more than its size."
 category: "Solar Software"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-solar-shading-analysis-software-poland.webp"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ featured: false
 
 Polish solar [shading analysis](/glossary/shading-analysis/) is a pricing problem more than a geometry problem. Since net billing replaced [net metering](/glossary/net-metering/) in April 2022, exported kilowatt-hours are settled at the market reference rate rather than banked one for one, and that rate sits far below what a prosumer pays to import. In May 2026 the RCEm settlement rate was 191.37 PLN per MWh, roughly 0.19 PLN per kWh, against retail import several times higher. So two obstructions that produce identical annual shading percentages can differ by a factor of four or five in what they cost, depending entirely on which hours their shadows fall. This guide covers what [shading analysis](/glossary/shading-analysis/) has to do differently in [Poland](/blog/solar-software-poland/), and which tools do it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Under net billing, exported kilowatt-hours settle near 0.19 PLN while imported ones cost several times that, so the hour a shadow falls decides its cost.
 > - RCEm moves month to month, from 132.92 PLN per MWh in April 2026 to 191.37 in May, so the shading economics need a range rather than a fixed rate.
 > - Self-consumption is roughly 30 to 40 percent without storage and 70 to 80 percent with a battery, which changes what shading destroys.
@@ -60,6 +60,8 @@ Under the old net metering rules the grid acted as a bank. A kilowatt-hour expor
 
 Net billing removed that. Exports now settle at RCEm and imports are bought at retail. The gap between those two numbers is the whole design problem.
 
+Table: What a shadow destroys under Polish net billing, what it is worth, and the design implication
+
 | What the shadow destroys | Roughly what it is worth | Design implication |
 | --- | --- | --- |
 | A kilowatt-hour that would have been exported | RCEm, near 0.19 PLN in May 2026 | Low cost, mitigation rarely pays |
@@ -68,7 +70,8 @@ Net billing removed that. Exports now settle at RCEm and imports are bought at r
 
 The third row is the one most tools miss entirely. On a system with storage, midday shading does not simply reduce cheap exports. It reduces the charge available for the evening peak, which converts a low-value loss into a high-value one. Any tool that does not simulate the battery alongside the shading will price this wrongly.
 
-> **Why the annual percentage misleads in Poland.** Consider two houses with a 7% annual shading loss each. On the first, the shadow falls between eleven and two on a household that is empty during the day, so almost all of it was export. On the second, the shadow falls from three in the afternoon onward on a household with a heat pump. The first loses perhaps a few hundred zloty a year. The second loses several times that. The shading reports are identical.
+> [!WARNING] Why the annual percentage misleads in Poland
+> Consider two houses with a 7% annual shading loss each. On the first, the shadow falls between eleven and two on a household that is empty during the day, so almost all of it was export. On the second, the shadow falls from three in the afternoon onward on a household with a heat pump. The first loses perhaps a few hundred zloty a year. The second loses several times that. The shading reports are identical.
 
 ## RCEm Volatility And What To Tell A Customer
 
@@ -89,6 +92,8 @@ The practical consequence is ordering. Model the storage decision and the shadin
 ## Latitude: Severe Geometry, Small Energy
 
 Poland runs from roughly 49 degrees north at the southern border to about 55 in the north. Midwinter solar noon altitude is low and shadows are correspondingly long.
+
+Table: Shadow length from a 2 m chimney by solar altitude
 
 | Solar altitude | Shadow length from a 2 m chimney |
 | --- | --- |
@@ -112,6 +117,8 @@ Where the winter geometry does deserve real attention is ground-mount and flat-r
 ## Worked Example: The Same Shadow On Two Polish Houses
 
 An illustrative calculation showing why the annual percentage is not the answer, not a specific customer project. Both houses have a 6 kW array, roughly 6,000 kWh annual generation, and an identical 7% annual shading loss of about 420 kWh. RCEm assumed at 0.19 PLN per kWh.
+
+Table: The same shadow on two Polish houses: empty daytime versus heat pump and battery (illustrative)
 
 | | House A, empty daytime, no battery | House B, heat pump and 10 kWh battery |
 | --- | --- | --- |

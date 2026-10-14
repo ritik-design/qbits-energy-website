@@ -4,7 +4,7 @@ excerpt: "Scambio sul Posto closed in May 2025 and most Italian quoting software
 description: "Best solar software Italy 2026: the full stack for design, proposals, CRM and compliance. Ritiro Dedicato, the end of Scambio sul Posto, the 50% detrazione and CEI 0-21."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-italy.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 Italian solar software has a correctness problem rather than a capability problem. Scambio sul Posto closed to systems put into operation from 29 May 2025 under ARERA resolution 78/2025/R/efr, and Ritiro Dedicato replaced it with GSE buyback at roughly 8 to 14 cents per kWh, guaranteed for 20 years up to 1 MWp. That is not a rate adjustment. Annual netting behaved like a bank and Ritiro Dedicato is a wholesale-linked sale, so the value of exported energy fell by a factor of several and the correct system size changed with it. A great many Italian templates, spreadsheets and imported platforms still model the old scheme. This guide covers what the Italian stack has to do now.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Scambio sul Posto is closed to systems put into operation from 29 May 2025, under ARERA resolution 78/2025/R/efr.
 > - Ritiro Dedicato is the reference: GSE buyback at roughly 8 to 14 cents per kWh up to 1 MWp, guaranteed 20 years.
 > - Export now pays well below retail, so hourly self-consumption decides the return and sizing follows the load curve.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And What The Mechanism Change Did
 
+Table: Six software categories and what the Italian market requires of each
+
 | Category | What it does | Effect of the 2025 change |
 | --- | --- | --- |
 | Design and simulation | Layout, shading, hourly self-consumption | Must now optimise self-consumption, not generation |
@@ -66,7 +68,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Connection, commissioning, GSE registration | Mechanism registration differs |
 | Monitoring | Performance, service, warranty | Unaffected |
 
-> **Where the disruption is concentrated.** Four of six categories were untouched by the largest change in the Italian market in a decade. The damage is entirely in design and proposals, and specifically in whether the tool knows which scheme applies. That makes the remedy narrow: you are not rebuilding a stack, you are replacing or reconfiguring one capability.
+> [!IMPORTANT] Where the disruption is concentrated
+> Four of six categories were untouched by the largest change in the Italian market in a decade. The damage is entirely in design and proposals, and specifically in whether the tool knows which scheme applies. That makes the remedy narrow: you are not rebuilding a stack, you are replacing or reconfiguring one capability.
 
 ## What Is Genuinely Italy-Specific
 
@@ -123,6 +126,8 @@ The default in many Italian practices, and the most likely place a closed scheme
 
 ## Italy Solar Software Stack Comparison
 
+Table: Italy solar software stack compared by capability and tool
+
 | Capability | SurgePV | PV*SOL | PVsyst | HelioScope | Aurora |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Yes | Yes |
@@ -137,6 +142,8 @@ The default in many Italian practices, and the most likely place a closed scheme
 ## Worked Example: 6 kWp In Central Italy, Old Logic Versus New
 
 An illustrative calculation, not a specific customer project. Inputs: 6 kWp array, roughly 7,800 kWh annual generation, household consumption 4,200 kWh, self-consumption 35% without storage, Ritiro Dedicato at 11 cents per kWh.
+
+Table: A 6 kWp system in central Italy, old logic versus new (illustrative)
 
 | Line | Quoted on Scambio sul Posto logic | Actual under Ritiro Dedicato |
 | --- | --- | --- |
@@ -155,7 +162,9 @@ The second insight is where the remaining upside sits. Raising self-consumption 
 - **Choose SurgePV** if you need Ritiro Dedicato modelling, honest deduction cashflow and battery dispatch in one tool.
 - **Choose PV*SOL** if you are desktop-based, work mainly residential, and value its component depth.
 - **Choose PVsyst** where a lender names it on commercial or ground-mount work, paired with separate quoting.
-- **Audit your template for Scambio sul Posto assumptions** before anything else. It is free and it is probably necessary.
+
+> [!TIP] Evaluation step
+> **Audit your template for Scambio sul Posto assumptions** before anything else. It is free and it is probably necessary.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

@@ -4,7 +4,7 @@ excerpt: "Single-phase residential is capped near 10 kVA and three-phase near 25
 description: "Best solar software South Africa 2026: the full stack for design, proposals, CRM and compliance. NRS 097-2-1:2024, SANS 10142-1, SSEG approval, CoC issuance and Section 12B deductions."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-south-africa.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 South African solar design has hard ceilings, and the most common software failure is not enforcing them early. Residential single-phase is typically limited to 10 kVA and three-phase to 25 kVA across Eskom and the major municipalities. A tool that lets an engineer lay out a system past those limits and only surfaces the problem at approval has not saved anyone time, it has moved the rework to the most expensive point in the process, usually after the customer has seen a number. Above 25 kVA the picture changes again, since ECSA Professional Engineer sign-off now applies. This guide covers what the South African stack has to do.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Residential single-phase is typically capped near 10 kVA and three-phase near 25 kVA across Eskom and the major municipalities.
 > - Above 25 kVA, ECSA Professional Engineer sign-off applies under an October 2025 policy update.
 > - NRS 097-2-1:2024 governs LV grid integration including protection, anti-islanding, export limits and metering.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And Where Compliance Sits
 
+Table: Six software categories and what the South African market requires of each
+
 | Category | What it does | How tightly it must integrate |
 | --- | --- | --- |
 | Design and simulation | Layout within kVA limits, NRS 097 compliance, yield | Core, and it must enforce the limits |
@@ -66,7 +68,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Scheduling, install, inspection, energisation | Should receive the design |
 | Monitoring | Performance, service, warranty | Standalone, connects to the installed base |
 
-> **The design constraint most tools treat as paperwork.** Capacity limits and the 25 kVA sign-off threshold are properties of the design, not of the approval process. A tool that surfaces them only when you export a compliance pack has let an engineer waste time and, worse, may have let a salesperson quote a system that cannot be built as drawn.
+> [!IMPORTANT] The design constraint most tools treat as paperwork
+> Capacity limits and the 25 kVA sign-off threshold are properties of the design, not of the approval process. A tool that surfaces them only when you export a compliance pack has let an engineer waste time and, worse, may have let a salesperson quote a system that cannot be built as drawn.
 
 ## What Is Genuinely South Africa-Specific
 
@@ -121,6 +124,8 @@ Common, and the usual place a 25 kVA threshold gets crossed without anyone notic
 
 ## South Africa Solar Software Stack Comparison
 
+Table: South Africa solar software stack compared by capability and tool
+
 | Capability | SurgePV | PVsyst | HelioScope | Aurora | OpenSolar |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Yes | Partial |
@@ -135,6 +140,8 @@ Common, and the usual place a 25 kVA threshold gets crossed without anyone notic
 ## Worked Example: What Happens At 26 kVA
 
 An illustrative comparison, not a specific customer project. A commercial design initially scoped at 24 kVA that grows during negotiation as the client adds load.
+
+Table: A South African system designed at 24 kVA versus 26 kVA (illustrative)
 
 | | Design at 24 kVA | Design at 26 kVA |
 | --- | --- | --- |
@@ -153,8 +160,10 @@ The same logic applies to the residential ceilings, and more often. An engineer 
 - **Choose SurgePV** if you want kVA limits enforced at design time, NRS 097 and SANS references, and backup modelling in one tool.
 - **Choose PVsyst** where a lender names it on commercial or ground-mount work, paired with separate quoting.
 - **Choose HelioScope** if your team is engineering-only on commercial rooftops.
-- **Test any international platform on the kVA ceilings** before buying it for South African work.
 - **Model batteries on backup coverage.** It is what the customer is buying, whatever the payback says.
+
+> [!TIP] Evaluation step
+> **Test any international platform on the kVA ceilings** before buying it for South African work.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

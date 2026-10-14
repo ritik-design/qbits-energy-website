@@ -4,7 +4,7 @@ excerpt: "The prime is gone and surplus sells at 1.1 centimes. French software b
 description: "Best solar software France 2026: the full stack for design, proposals, CRM and compliance. The S21 reform, the abolished prime à l'autoconsommation, 1.1 c/kWh surplus, NF C 15-712 and Consuel."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-france.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 Every French solar proposal written before 5 June 2026 contained two revenue lines that no longer exist. The prime à l'autoconsommation was abolished for new installations under the revised S21 arrêté, and surplus buyback for new applications fell to 1.1 centimes per kWh excluding tax. Against a retail price many times higher, exported energy became close to worthless in the space of a single day. Quotes issued the week before were correct. Templates that were accurate in May now promise an upfront bonus the customer will not receive and export revenue roughly twenty times larger than what arrives. This guide covers what the French stack has to do now.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The prime à l'autoconsommation was abolished for new installations from 5 June 2026 under the revised S21 arrêté.
 > - Surplus buyback for new applications is 1.1 centimes per kWh excluding tax, roughly a twentieth of retail import.
 > - Connections validated by Enedis before that date keep old tariffs and bonus for twenty years, creating two populations of systems.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And Where The Damage Is
 
+Table: Six software categories and what the French market requires of each
+
 | Category | What it does | Effect of the June 2026 reform |
 | --- | --- | --- |
 | Design and simulation | Layout, hourly self-consumption, battery dispatch | Sizing logic inverted |
@@ -66,7 +68,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Enedis connection, commissioning | Connection date now has 20-year consequences |
 | Monitoring | Performance, service, warranty | Unaffected |
 
-> **The narrow shape of the problem.** Four of six categories are untouched. The disruption is concentrated in design and proposals, which makes the remedy focused: verify your core tool models the post-reform rates, and confirm it can simulate storage hourly. Everything else in your stack is fine.
+> [!IMPORTANT] The narrow shape of the problem
+> Four of six categories are untouched. The disruption is concentrated in design and proposals, which makes the remedy focused: verify your core tool models the post-reform rates, and confirm it can simulate storage hourly. Everything else in your stack is fine.
 
 ## What Is Genuinely France-Specific Right Now
 
@@ -121,6 +124,8 @@ Common in smaller French practices, and the single most likely place an abolishe
 
 ## France Solar Software Stack Comparison
 
+Table: France solar software stack compared by capability and tool
+
 | Capability | SurgePV | PV*SOL | PVsyst | OpenSolar | Aurora |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Partial | Yes |
@@ -135,6 +140,8 @@ Common in smaller French practices, and the single most likely place an abolishe
 ## Worked Example: 6 kWp Near Lyon, Three Ways To Quote It
 
 An illustrative comparison, not a specific customer project. Household consuming 4,000 kWh a year, roof supporting 6 kWp, roughly 7,200 kWh generation, 35% self-consumption without storage rising to about 70% with a battery.
+
+Table: A 6 kWp system near Lyon quoted three ways (illustrative)
 
 | | A: old template | B: current rates | C: current rates plus storage |
 | --- | --- | --- | --- |
@@ -153,7 +160,9 @@ Column C is the answer to that problem. Doubling self-consumption roughly double
 - **Choose SurgePV** if you need post-reform tariff logic, hourly self-consumption and battery dispatch in one tool.
 - **Choose PV*SOL** if you are desktop-based, work mainly residential, and value its component depth.
 - **Choose PVsyst** where a lender names it on commercial or ground-mount work, paired with separate quoting.
-- **Audit your template for the prime before buying anything.** It is free, it takes an hour, and it is probably necessary.
+
+> [!TIP] Evaluation step
+> **Audit your template for the prime before buying anything.** It is free, it takes an hour, and it is probably necessary.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

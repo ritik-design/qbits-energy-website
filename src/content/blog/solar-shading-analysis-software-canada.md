@@ -4,7 +4,7 @@ excerpt: "At Canadian latitudes the December sun sits under 20 degrees, so shado
 description: "Solar shading analysis software Canada 2026: winter sun angles, snow cover, inter-row spacing on ground mount, and why provincial net metering changes what a shading loss costs."
 category: "Solar Software"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-solar-shading-analysis-software-canada.webp"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ featured: false
 
 Canadian solar [shading analysis](/glossary/shading-analysis/) is a winter problem wearing an annual disguise. At Canadian latitudes the sun sits below roughly 20 degrees at solar noon in late December, against 50 degrees or more in June. Because shadow length scales inversely with the tangent of solar altitude, the same chimney that casts a 2 metre shadow in summer casts something closer to 6 metres in midwinter. Any model that reports an annual shading percentage averages that concentrated loss across twelve months and hides it. This guide covers what [shading analysis](/glossary/shading-analysis/) has to do differently in [Canada](/blog/solar-software-canada/), and which tools do it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - December solar noon altitude at Canadian latitudes runs under 20 degrees, producing shadows roughly three times summer length from the same obstruction.
 > - Annual-average shading figures conceal losses that concentrate almost entirely into four months.
 > - Snow losses land in the same months and compound with shading, so both belong in the loss chain.
@@ -58,6 +58,8 @@ The general methodology is covered in our [solar shading analysis software](/blo
 
 Shadow length from an obstruction of height h is approximately h divided by the tangent of the solar altitude angle. That relationship is not linear, and it turns punishing at low angles.
 
+Table: Shadow length from a 2 m obstruction by solar altitude in Canada
+
 | Solar altitude | Shadow length from a 2 m obstruction |
 | --- | --- |
 | 60 degrees, southern summer noon | 1.2 m |
@@ -69,7 +71,8 @@ Shadow length from an obstruction of height h is approximately h divided by the 
 
 The bottom rows are the Canadian design problem. An obstruction that is irrelevant in July governs the array for much of the winter day, and the hours either side of noon are worse than noon itself.
 
-> **What most Canadian shading reports get wrong.** They present one annual shading loss percentage. On a roof with a significant south-side obstruction, that single figure might read 6%, while the actual profile is close to 1% from May to August and above 20% from November to February. The customer sees 6% and budgets for a smooth year. The system delivers a winter that looks broken.
+> [!WARNING] What most Canadian shading reports get wrong
+> They present one annual shading loss percentage. On a roof with a significant south-side obstruction, that single figure might read 6%, while the actual profile is close to 1% from May to August and above 20% from November to February. The customer sees 6% and budgets for a smooth year. The system delivers a winter that looks broken.
 
 The correct output is monthly. A shading report that cannot break loss down by month is not describing a Canadian installation.
 
@@ -84,6 +87,8 @@ Two design responses follow. Steeper tilt sheds snow faster and also improves wi
 ## Pricing The Loss: Province Decides What Shading Costs
 
 A shading loss is only as expensive as the energy it destroys, and Canadian export rates vary by more than three to one.
+
+Table: Canadian provinces compared by export credit and the cost of a shaded exported kilowatt-hour
 
 | Province | Export credit | What a shaded exported kWh costs |
 | --- | --- | --- |
@@ -115,6 +120,8 @@ That calculation cannot be done with a geometric rule or a solstice diagram. It 
 ## Worked Example: Chimney Shadow On A Toronto Rooftop
 
 An illustrative calculation showing why the monthly profile matters, not a specific customer project. Inputs: 8 kW array, 1,150 kWh per kW specific yield, single 2 m chimney on the south slope, Ontario retail credit at $0.145.
+
+Table: Chimney shadow on a Toronto rooftop, month by month (illustrative)
 
 | Month | Unshaded output | With chimney shading | Loss | Loss value at $0.145 |
 | --- | --- | --- | --- | --- |

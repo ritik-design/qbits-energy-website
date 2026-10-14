@@ -4,7 +4,7 @@ excerpt: "A Spanish quote promising a zero bill is promising something the rules
 description: "Best solar proposal software Spain 2026. SurgePV vs Aurora, PVsyst, PV*SOL on compensación simplificada, the monthly zero floor, hourly spot pricing, IBI relief and regional IDAE grants."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-spain.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 The most damaging line in a Spanish solar proposal is the promise of a zero electricity bill. It is not an aggressive estimate, it is a claim the rules do not permit. Under compensación simplificada the surplus credit cannot take the energy component of the bill below zero, and there are fixed charges beyond the energy component that solar never touches. Every customer sold on a zero bill receives an invoice within a month that contradicts the document they signed. This guide compares the platforms Spanish installers should shortlist, and covers what a proposal has to show instead.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Compensación simplificada credits cannot take the energy component of the bill below zero, so a zero bill is not achievable.
 > - Settlement is monthly with no rollover, so summer surplus above the monthly cap is lost rather than banked.
 > - Proposals should present twelve monthly rows, not an annual summary that conceals both winter imports and summer waste.
@@ -57,7 +57,8 @@ For the design-side comparison see our [best solar design software Spain](/blog/
 
 ## Why The Zero Bill Promise Fails
 
-> **What most Spanish quotes get wrong.** They subtract annual surplus credit from annual consumption cost, arrive at approximately zero, and present that as the outcome. The arithmetic is fine. The rules it ignores are not.
+> [!WARNING] What most Spanish quotes get wrong
+> They subtract annual surplus credit from annual consumption cost, arrive at approximately zero, and present that as the outcome. The arithmetic is fine. The rules it ignores are not.
 
 Two separate constraints stand between a Spanish household and a zero bill.
 
@@ -72,6 +73,8 @@ There is a commercial argument here as well as an ethical one. Once a customer u
 ## Twelve Rows, Not One
 
 The single highest-value change most Spanish installers can make to their proposal template is replacing the annual summary with a monthly table.
+
+Table: What an annual summary shows versus what the monthly table reveals
 
 | What an annual summary shows | What the monthly table reveals |
 | --- | --- |
@@ -131,6 +134,8 @@ The Spanish default in smaller practices, and the usual origin of the annual-tot
 
 ## Spain Solar Proposal Software Comparison
 
+Table: Spain solar proposal software compared by monthly settlement, spot pricing and regional grant capability
+
 | Tool | Monthly settlement with zero floor | Hourly spot pricing | Regional grant configuration | Collective scheme quoting | Spanish proposals | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -143,6 +148,8 @@ The Spanish default in smaller practices, and the usual origin of the annual-tot
 ## Worked Example: What The Customer's June Bill Actually Says
 
 An illustrative calculation, not a specific customer project. Inputs: 5 kWp array near Valencia, household consuming 4,500 kWh a year, self-consumption around 35%. Four representative months shown.
+
+Table: What the customer's June bill actually says, month by month (illustrative)
 
 | Month | Generation | Consumption | Surplus | Credit realised | Bill outcome |
 | --- | --- | --- | --- | --- | --- |

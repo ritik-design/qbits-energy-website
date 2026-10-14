@@ -4,7 +4,7 @@ excerpt: "Since 5 June 2026 surplus sells at 1.1 centimes and the autoconsommati
 description: "Best solar design software France 2026. SurgePV vs PV*SOL, Aurora, PVsyst on the S21 reform, the end of the prime à l'autoconsommation, 1.1 c/kWh surplus buyback and NF C 15-712."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-design-software-france.webp"
 author: "Keyur Rakholiya"
@@ -36,7 +36,7 @@ featured: false
 
 French solar design changed shape on 5 June 2026. The revised S21 tariff arrêté abolished the prime à l'autoconsommation for new installations and cut the surplus buyback rate to 1.1 centimes per kWh excluding tax. Against a regulated retail price many times higher, the value of an exported kilowatt-hour collapsed by an order of magnitude. Every design habit built over the previous decade, filling the available roof, treating surplus as revenue, positioning storage as an optional extra, is now wrong. This guide covers what French [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has to do under the new regime, and which tools do it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The prime à l'autoconsommation was abolished for new installations from 5 June 2026 under the revised S21 arrêté.
 > - Surplus buyback for new applications is 1.1 centimes per kWh excluding tax, roughly a twentieth of retail import.
 > - Connection requests validated by Enedis before 5 June 2026 keep the old tariffs and bonus for twenty years.
@@ -62,6 +62,8 @@ The old regime paid an upfront bonus per kilowatt installed and bought surplus a
 
 The new regime removes the bonus and prices surplus at 1.1 centimes. Nothing pushes toward capacity any more.
 
+Table: What the S21 reform changes for design, before and after 5 June 2026
+
 | | Before 5 June 2026 | After |
 | --- | --- | --- |
 | Upfront bonus | Prime à l'autoconsommation, scaled with power | None for new installations |
@@ -72,7 +74,8 @@ The new regime removes the bonus and prices surplus at 1.1 centimes. Nothing pus
 
 The last row is the design problem in one line. Capacity beyond what the household consumes during daylight now generates energy worth roughly a twentieth of what the same household pays to import. It is not quite worthless, but it is close enough that a designer who keeps adding modules is adding cost without adding value.
 
-> **The habit that has to go.** Quoting a system by roof area. Under the old tariff that was defensible, because surplus had a buyer and the bonus rewarded scale. Under the new one it produces oversized systems with disappointing paybacks, and the customer discovers this from their first annual statement rather than from the proposal.
+> [!WARNING] The habit that has to go
+> Quoting a system by roof area. Under the old tariff that was defensible, because surplus had a buyer and the bonus rewarded scale. Under the new one it produces oversized systems with disappointing paybacks, and the customer discovers this from their first annual statement rather than from the proposal.
 
 ## Self-Consumption Is Now The Whole Calculation
 
@@ -129,6 +132,8 @@ Still common in smaller French practices. Flexible, and the most likely place a 
 
 ## France Solar Design Software Comparison
 
+Table: France solar design software compared by self-consumption, battery and post-reform tariff capability
+
 | Tool | Hourly self-consumption | Battery dispatch modelling | Post-reform tariff logic | NF C 15-712 awareness | French proposals | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -141,6 +146,8 @@ Still common in smaller French practices. Flexible, and the most likely place a 
 ## Worked Example: 6 kWp Near Lyon, Old Rules Versus New
 
 An illustrative calculation showing how the reform changes the recommended design, not a specific customer project. Inputs: 6 kWp array, roughly 7,200 kWh annual generation, household consumption 4,000 kWh, 35% self-consumption without storage.
+
+Table: A 6 kWp system near Lyon under old rules versus new (illustrative)
 
 | Line | Pre-reform assumptions | Post-reform reality |
 | --- | --- | --- |

@@ -4,7 +4,7 @@ excerpt: "Spanish credits settle monthly, never roll over, and cannot take the b
 description: "Best solar software Spain 2026: the full stack for design, proposals, CRM and compliance. RD 244/2019, compensación simplificada, the monthly zero floor and 5 km collective self-consumption."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-spain.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 Spanish solar software has to handle a settlement rule that most platforms cannot represent. Under compensación simplificada, surplus is credited monthly at the hourly spot price, the credit can never take the energy component of the bill below zero, and nothing carries into the following month. Those three constraints work together, and their combined effect is that a system sized against annual consumption will generate summer surplus that is neither banked nor paid. An annual model shows that energy as fully compensated. The customer's June bill shows otherwise, and the array they bought is larger than their household can use. This guide covers what the Spanish stack has to do.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - RD 244/2019 remains operative, with compensación simplificada unchanged in its core mechanism since 2019.
 > - Surplus credits monthly at the hourly spot price, capped so the energy component of the bill cannot go below zero.
 > - There is no rollover, so summer surplus beyond the monthly cap is lost outright.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And The Settlement Problem
 
+Table: Six software categories and what the Spanish market requires of each
+
 | Category | What it does | Spanish complication |
 | --- | --- | --- |
 | Design and simulation | Layout, yield, monthly settlement check | Must settle monthly, not annually |
@@ -66,7 +68,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Scheduling, install, commissioning | Regional variation |
 | Monitoring | Performance, service, warranty | Standalone |
 
-> **The one capability that matters.** Everything else on this list is ordinary. The design row is not, because a tool that settles annually will recommend a system that discards energy every summer and neither you nor the customer will see it until the bills arrive. When evaluating any platform for Spanish work, this is the question to ask first.
+> [!IMPORTANT] The one capability that matters
+> Everything else on this list is ordinary. The design row is not, because a tool that settles annually will recommend a system that discards energy every summer and neither you nor the customer will see it until the bills arrive. When evaluating any platform for Spanish work, this is the question to ask first.
 
 ## What Is Genuinely Spain-Specific
 
@@ -121,6 +124,8 @@ The Spanish default in smaller practices, and the usual origin of an annual-tota
 
 ## Spain Solar Software Stack Comparison
 
+Table: Spain solar software stack compared by capability and tool
+
 | Capability | SurgePV | PV*SOL | PVsyst | HelioScope | Aurora |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Yes | Yes |
@@ -135,6 +140,8 @@ The Spanish default in smaller practices, and the usual origin of an annual-tota
 ## Worked Example: Annual Versus Monthly Settlement
 
 An illustrative calculation, not a specific customer project. Inputs: 5 kWp array near Valencia, roughly 8,000 kWh annual generation, household consumption 4,500 kWh, self-consumption around 35%.
+
+Table: Annual settlement model versus monthly settlement with a floor (illustrative)
 
 | | Annual model | Monthly settlement with floor |
 | --- | --- | --- |
@@ -154,8 +161,10 @@ The design responses are worth ranking, because a good tool surfaces all four. S
 - **Choose SurgePV** if you need monthly settlement with the zero floor, hourly pricing and collective allocation in one tool.
 - **Choose PV*SOL** if you are desktop-based and value its component depth, accepting manual settlement handling.
 - **Choose PVsyst** where a lender names it on commercial or ground-mount work, paired with separate quoting.
-- **Test any platform on monthly settlement before buying.** It is the one capability the Spanish market genuinely requires.
 - **Never let a tool project a zero bill.** The regulation does not permit it and the first invoice will prove it.
+
+> [!TIP] Evaluation step
+> **Test any platform on monthly settlement before buying.** It is the one capability the Spanish market genuinely requires.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

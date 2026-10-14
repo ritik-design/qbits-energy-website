@@ -4,7 +4,7 @@ excerpt: "SCT pays a fixed rate, ECIS pays the volatile wholesale price. Choosin
 description: "Best solar software Singapore 2026: the full stack for design, proposals, CRM and compliance. SCT versus ECIS, the 1 MWac licence threshold, LEW submission and SS 638 wiring."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-singapore.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 Singapore gives solar customers a choice most markets do not, and it is a choice made almost entirely on modelling. The Solar Capability Transfer scheme pays roughly S$0.20 per kWh at a fixed rate. The Enhanced Central Intermediary Scheme pays the variable USEP wholesale rate, typically 10 to 20 cents per kWh, with EMC Market Participant registration and a 10 MWac cap. One offers certainty, the other exposure to wholesale movement, and the difference over a system's life is larger than most design decisions will produce. Yet most quoting tools cannot represent a variable wholesale rate at all. This guide covers what the Singapore stack has to do.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - SCT pays roughly S$0.20 per kWh fixed, registered with SP Services, no stated installation cap.
 > - ECIS pays the variable USEP rate, typically 10 to 20 cents per kWh, needs EMC Market Participant registration, capped at 10 MWac.
 > - The scheme choice is a modelling exercise and it moves the return more than most design decisions.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And The Scheme Decision
 
+Table: Six software categories and what the Singapore market requires of each
+
 | Category | What it does | Singapore emphasis |
 | --- | --- | --- |
 | Design and simulation | Layout, inter-building shading, yield | Density makes shading the dominant variable |
@@ -66,7 +68,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | EI application, install, commissioning | Licence adds three to six months above 1 MWac |
 | Monitoring | Performance, service, warranty | Standalone |
 
-> **What makes the Singapore stack unusual.** In most markets the proposal tool applies a tariff the customer already has. Here it has to help the customer choose between two schemes with different risk profiles, one of which is tied to a wholesale price. That is a genuinely analytical job and it is the main thing your software should be good at.
+> [!IMPORTANT] What makes the Singapore stack unusual
+> In most markets the proposal tool applies a tariff the customer already has. Here it has to help the customer choose between two schemes with different risk profiles, one of which is tied to a wholesale price. That is a genuinely analytical job and it is the main thing your software should be good at.
 
 ## What Is Genuinely Singapore-Specific
 
@@ -123,6 +126,8 @@ Common on larger Singapore projects. Defensible engineering, and the usual home 
 
 ## Singapore Solar Software Stack Comparison
 
+Table: Singapore solar software stack compared by capability and tool
+
 | Capability | SurgePV | PVsyst | HelioScope | Aurora | OpenSolar |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Yes | Partial |
@@ -137,6 +142,8 @@ Common on larger Singapore projects. Defensible engineering, and the usual home 
 ## Worked Example: The Same Rooftop Under Both Schemes
 
 An illustrative comparison, not a specific customer project. A commercial rooftop exporting a meaningful share of its generation.
+
+Table: The same rooftop under SCT and ECIS (illustrative)
 
 | | Under SCT | Under ECIS |
 | --- | --- | --- |
@@ -156,8 +163,10 @@ The modelling point worth stressing is the second row. Presenting ECIS at an ave
 - **Choose SurgePV** if you need both export schemes modelled with USEP variability and the 1 MWac threshold flagged.
 - **Choose PVsyst** where a lender or large commercial client names it, paired with separate quoting.
 - **Choose HelioScope** if your team is engineering-only on commercial rooftops.
-- **Prioritise inter-building shading accuracy.** In Singapore's density it is the dominant technical variable.
 - **Do not average USEP.** It removes the only characteristic that distinguishes ECIS from SCT.
+
+> [!TIP] Evaluation step
+> **Prioritise inter-building shading accuracy.** In Singapore's density it is the dominant technical variable.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

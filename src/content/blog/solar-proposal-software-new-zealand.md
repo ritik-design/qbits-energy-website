@@ -4,7 +4,7 @@ excerpt: "Buyback rates run from 5 cents to 40 cents depending on retailer, plan
 description: "Best solar proposal software New Zealand 2026. SurgePV vs Aurora, PVsyst, PV*SOL on retailer buyback spreads, time-varying export plans from July 2026, no feed-in tariff and battery arbitrage."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-new-zealand.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 There is no such thing as the [New Zealand](https://www.surgepv.com/best-solar-software/proposal-new-zealand) solar buyback rate. Published rates run from around 5 cents per kWh at the low end among the major retailers to 17 cents flat on plans such as Meridian Solar Plan and Octopus Flexi, with peaks reaching around 24 cents on Meridian's winter peak and up to 40 cents on Octopus OctopusPeaker in winter. Since 1 July 2026 the four largest retailers, holding roughly 87 percent of connections, must also offer a plan where the rate varies through the day. A proposal carrying one export number is not simplifying, it is guessing, and the guess can be wrong by a factor of several. This guide compares the platforms [New Zealand](/blog/solar-software-new-zealand/) installers should shortlist.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Rates span roughly 5 cents to 17 cents flat, with peaks around 24 cents and up to 40 cents on some winter peak plans.
 > - Since 1 July 2026 the big four must offer a time-varying export plan; the rule sets shape, not level, and there is no floor.
 > - Peak export rates generally fall in the evening, when the array is producing nothing.
@@ -57,9 +57,12 @@ For the design-side comparison see our [best solar design software New Zealand](
 
 ## The Headline Rate Is Usually Unreachable
 
-> **What most New Zealand quotes get wrong.** They take the customer's headline buyback rate, multiply it by annual export, and present the result. On a flat plan that is roughly right. On a time-varying plan the headline figure is the peak, the peak falls in the evening, and an array without storage exports almost nothing then.
+> [!WARNING] What most New Zealand quotes get wrong
+> They take the customer's headline buyback rate, multiply it by annual export, and present the result. On a flat plan that is roughly right. On a time-varying plan the headline figure is the peak, the peak falls in the evening, and an array without storage exports almost nothing then.
 
 The gap between the advertised rate and the achievable rate is the central honesty problem in New Zealand quoting today, and it grew rather than shrank when time-varying plans became mandatory for the majors.
+
+Table: Advertised buyback rate versus what an array without storage actually earns
 
 | What the customer sees advertised | What an array without storage actually earns |
 | --- | --- |
@@ -124,6 +127,8 @@ The default in smaller practices, and the most likely place one flat buyback rat
 
 ## New Zealand Solar Proposal Software Comparison
 
+Table: New Zealand solar proposal software compared by export profile, plan comparison and storage handling
+
 | Tool | Hourly retailer export profiles | Effective achieved rate reporting | Plan comparison for one system | Storage in main comparison | Rate sensitivity | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -136,6 +141,8 @@ The default in smaller practices, and the most likely place one flat buyback rat
 ## Worked Example: The Advertised Rate Versus The Achieved Rate
 
 An illustrative calculation, not a specific customer project. Inputs: 6 kW array, household with modest daytime and strong evening consumption, on a time-varying plan whose advertised winter peak is high and whose midday rate is low.
+
+Table: The advertised rate versus the achieved rate, with and without storage (illustrative)
 
 | | Quoted at the advertised peak | Quoted at the achieved profile | With storage |
 | --- | --- | --- | --- |
@@ -154,7 +161,9 @@ The second column is honest and looks worse. That is the commercial problem, and
 - **Choose SurgePV** if you need hourly retailer profiles, achieved-rate reporting and plan comparison in the same document.
 - **Choose PVsyst** where a lender names it on commercial or ground-mount work, paired with separate quoting.
 - **Choose PV*SOL** if your team is desktop-based and does detailed residential modelling.
-- **Avoid single-rate export assumptions.** Since July 2026 they misrepresent most of the market and overstate most quotes.
+
+> [!TIP] Evaluation step
+> **Avoid single-rate export assumptions.** Since July 2026 they misrepresent most of the market and overstate most quotes.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

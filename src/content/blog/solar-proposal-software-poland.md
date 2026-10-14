@@ -4,7 +4,7 @@ excerpt: "RCEm moved 40 percent in a single month. A Polish proposal quoting one
 description: "Best solar proposal software Poland 2026. SurgePV vs Aurora, PVsyst, PV*SOL on net billing, RCEm volatility, Mój Prąd storage weighting, 8 percent VAT and honest payback ranges."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-poland.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 The hardest number in a Polish solar proposal is the one nobody can pin down. RCEm, the market reference rate that settles prosumer exports under net billing, was 132.92 PLN per MWh in April 2026, the lowest since the mechanism was introduced, and 191.37 in May. That is a swing of more than 40 percent in the value of exported energy inside a single month. A proposal that quotes one export rate as fact is quoting a number that may be wrong before the customer signs. The way out is not a better forecast, it is a document built around the part of the value that does not move. This guide compares the platforms Polish installers should shortlist.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - RCEm moved from 132.92 PLN/MWh in April 2026 to 191.37 in May, so export value is not a fixed input.
 > - Exported energy settles near 0.19 PLN per kWh against retail import several times higher.
 > - Build the proposal around self-consumption, which is stable, rather than export revenue, which is not.
@@ -57,9 +57,12 @@ For the design-side comparison see our [best solar design software Poland](/blog
 
 ## Build The Document On What Does Not Move
 
-> **What most Polish quotes get wrong.** They lead with annual generation and attach an export revenue figure calculated at whatever RCEm happened to be that month. Both numbers look precise and one of them is close to meaningless.
+> [!WARNING] What most Polish quotes get wrong
+> They lead with annual generation and attach an export revenue figure calculated at whatever RCEm happened to be that month. Both numbers look precise and one of them is close to meaningless.
 
 The structural fix is to reorganise the proposal around the stable half of the equation.
+
+Table: Poland proposal components by stability and where each belongs in the document
 
 | Component | Stability | Where it belongs |
 | --- | --- | --- |
@@ -129,6 +132,8 @@ The Polish default in smaller practices, and the most likely place a single hard
 
 ## Poland Solar Proposal Software Comparison
 
+Table: Poland solar proposal software compared by export pricing, RCEm sensitivity and Mój Prąd handling
+
 | Tool | Split export and self-consumption pricing | RCEm sensitivity testing | Mój Prąd by configuration | Multi-option comparison | Polish proposals | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -141,6 +146,8 @@ The Polish default in smaller practices, and the most likely place a single hard
 ## Worked Example: The Same System Quoted In Two Months
 
 An illustrative calculation showing why a point estimate fails, not a specific customer project. Inputs: 8 kWp array, 8,000 kWh generation, 5,000 kWh consumption, 35% self-consumption, 5,200 kWh exported.
+
+Table: The same system quoted in April, in May and as a range (illustrative)
 
 | | Quoted in April at 0.133 PLN | Quoted in May at 0.191 PLN | Quoted as a range |
 | --- | --- | --- | --- |
@@ -159,7 +166,9 @@ Note what does not change across the columns: avoided import. That is the argume
 - **Choose SurgePV** if you need split net billing pricing, RCEm sensitivity and configuration-linked subsidy modelling in one document.
 - **Choose PVsyst** where a lender names it on commercial or ground-mount work, paired with separate quoting.
 - **Choose PV*SOL** if your team is desktop-based and does detailed residential modelling.
-- **Avoid single-figure paybacks and hard-coded export rates.** In Poland both will be wrong within a quarter.
+
+> [!TIP] Evaluation step
+> **Avoid single-figure paybacks and hard-coded export rates.** In Poland both will be wrong within a quarter.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

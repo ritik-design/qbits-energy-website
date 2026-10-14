@@ -4,7 +4,7 @@ excerpt: "Clean Export Guarantee rates run from 15.2 to 32 cents depending on su
 description: "Best solar proposal software Ireland 2026. SurgePV vs Aurora, PVsyst, HelioScope on the SEAI grant taper, Clean Export Guarantee rates, NC6 and NC7 connection and the EUR 400 tax exemption."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-ireland.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 An Irish solar proposal has two numbers that resist averaging. The SEAI grant tapers by kilowatt band rather than scaling with system size, so support per kilowatt falls sharply above 2 kWp and stops at 4. And the Clean Export Guarantee is set by the supplier, across a standard range running from roughly 15.2 to 32.0 cents per kWh, so the value of every exported unit varies by more than two to one depending on who the customer buys electricity from. Most proposal tools handle both as flat assumptions, which produces quotes that are wrong for nearly every household and wrong in a direction nobody can predict. This guide compares the platforms Irish installers should shortlist.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - SEAI grant tapers: EUR 700/kWp for the first 2 kWp, EUR 200/kWp for the next 2, capped at EUR 1,800 from 4 kWp.
 > - Clean Export Guarantee standard rates run roughly 15.2 to 32.0 cents per kWh by supplier, with Pinergy at 25.0 cents near the top of standard offerings.
 > - First EUR 400 of annual export income is income tax exempt through the end of 2028.
@@ -59,6 +59,8 @@ For the design-side comparison see our [best solar design software Ireland](/blo
 
 The SEAI structure is worth spelling out in full, because the shape is unusual.
 
+Table: SEAI grant by system size, grant per kWp and marginal grant on the last kWp
+
 | System size | Grant | Grant per kWp | Marginal grant on the last kWp |
 | --- | --- | --- | --- |
 | 1 kWp | EUR 700 | EUR 700 | EUR 700 |
@@ -69,7 +71,8 @@ The SEAI structure is worth spelling out in full, because the shape is unusual.
 
 The right-hand column is the one that drives the recommendation. Going from 2 kWp to 3 kWp draws EUR 200 of support against a full kilowatt of cost. Going from 4 kWp to 6 kWp draws nothing.
 
-> **What most Irish quotes get wrong.** They present the grant as a percentage discount on the total. On a 6 kWp system the EUR 1,800 maximum is a much smaller proportion of cost than on a 3 kWp system, so a percentage framing flatters the small system and understates how much of a larger one the customer is funding themselves.
+> [!WARNING] What most Irish quotes get wrong
+> They present the grant as a percentage discount on the total. On a 6 kWp system the EUR 1,800 maximum is a much smaller proportion of cost than on a 3 kWp system, so a percentage framing flatters the small system and understates how much of a larger one the customer is funding themselves.
 
 This does not mean small systems are the right answer. Above the grant ceiling the marginal kilowatt has to justify itself on energy value alone, and on an Irish roof with good orientation it frequently still does, particularly for a household with high daytime consumption or an electric vehicle. The point is that the argument changes at 4 kWp, and the proposal should make that visible rather than hiding it inside an averaged discount.
 
@@ -96,6 +99,8 @@ There is a second-order effect worth understanding even if it does not always be
 ## Connection Pathway Decides The Programme
 
 NC6 and NC7 are not two versions of the same form.
+
+Table: Connection pathways NC6 and NC7 compared
 
 | | NC6 | NC7 |
 | --- | --- | --- |
@@ -137,6 +142,8 @@ The Irish default. Flexible, and the usual home of a hard-coded grant percentage
 
 ## Ireland Solar Proposal Software Comparison
 
+Table: Ireland solar proposal software compared by grant, export rate, exemption and connection capability
+
 | Tool | Banded SEAI grant | Supplier-specific export rate | EUR 400 exemption | NC6/NC7 awareness | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -156,6 +163,8 @@ The Irish default. Flexible, and the usual home of a hard-coded grant percentage
 ## Worked Example: 5 kWp Residential, Low Versus High Export Rate
 
 An illustrative calculation, not a specific customer project. Inputs: 5 kWp array, roughly 4,500 kWh annual generation, 35% self-consumption, 2,925 kWh exported, SEAI grant at the EUR 1,800 maximum, identical hardware and installation in both columns.
+
+Table: A 5 kWp residential system at a low versus a high supplier export rate (illustrative)
 
 | Line | Supplier at 15.2 c | Supplier at 25.0 c |
 | --- | --- | --- |

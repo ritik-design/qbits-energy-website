@@ -4,7 +4,7 @@ excerpt: "PV yield simulation software turns a layout into a bankable yield repo
 description: "PV yield simulation software 2026: the 8,760-hour module-level methodology, P50/P75/P90 outputs and SurgePV's bankable browser simulation engine."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-pv-yield-simulation-software.webp"
 author: "Nirav Dhanani"
@@ -40,7 +40,7 @@ faqs:
 
 [PV yield](https://heavendesigns.in/blog/pv-yield-simulation-software/) [simulation software](https://heavendesigns.in/blog/solar-simulation-software/) turns a layout into a bankable yield report lenders accept for project finance. This guide explains the 8,760-hour module-level methodology, the P50, P75, P90 framework, and the [SurgePV](https://surgepv.com/) workflow that ships browser-based bankable [PV simulation](https://surgepv.com/solar-simulation-software) on every paid plan.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - 8,760-hour module-level simulation is the bankable standard.
 > - [SurgePV](https://surgepv.com/) ships this engine on every paid plan, tied to a [bankable yield report](https://surgepv.com/generation-financial-tool).
 > - PVsyst remains lender-mandated on some first-of-its-kind projects.
@@ -75,13 +75,16 @@ A year has 8,760 hours. The simulator computes irradiance, shading, and yield at
 
 ## P50, P75, P90 Explained
 
+Table: P50, P75 and P90 yield estimates: meaning and typical use
+
 | Metric | Meaning | Use case |
 | --- | --- | --- |
 | P50 | 50% probability of meeting or exceeding | Internal planning, sales conversation |
 | P75 | 75% probability | Mid-confidence financial modelling |
 | P90 | 90% probability (conservative) | Lender debt sizing for project finance |
 
-Lenders typically size project debt against P90 to absorb yield variability. The gap between P50 and P90 reflects modelled uncertainty (weather variability, soiling assumptions, equipment degradation).
+> [!TIP] Read the P50 to P90 gap
+> Lenders typically size project debt against P90 to absorb yield variability. The gap between P50 and P90 reflects modelled uncertainty (weather variability, soiling assumptions, equipment degradation).
 
 ## What SurgePV Bundles With PV Yield Simulation
 
@@ -96,6 +99,8 @@ Lenders typically size project debt against P90 to absorb yield variability. The
 All included on every paid plan.
 
 ## PV Yield Simulation Across Competing Tools
+
+Table: PV yield simulation compared across tools: resolution, module-level modelling, probability bands, plans and delivery
 
 | Tool | 8,760-hour | Module-level | P50/P75/P90 | All plans | Browser |
 | --- | --- | --- | --- | --- | --- |

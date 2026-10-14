@@ -4,7 +4,7 @@ excerpt: "Scambio sul Posto closed to new systems in May 2025. Any Italian propo
 description: "Best solar proposal software Italy 2026. SurgePV vs Aurora, PVsyst, HelioScope on Ritiro Dedicato, the 50% Restructuring Bonus, CEI 0-21 and the end of Scambio sul Posto."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-italy.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 The most common error in an Italian solar proposal in 2026 is quoting a scheme that no longer accepts new entrants. Scambio sul Posto closed to systems commissioned from 29 May 2025 under ARERA resolution 78/2025/R/efr, and a great many templates, spreadsheets and imported platforms still model it. The replacement, Ritiro Dedicato, is not a variation on [net metering](/glossary/net-metering/). It is a wholesale-linked buyback at roughly 8 to 14 cents per kWh against a retail import price several times higher, which moves essentially all of the project's value into self-consumption and changes the correct system size. This guide compares the platforms Italian installers should shortlist for quoting.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Scambio sul Posto is closed to systems commissioned from 29 May 2025 under ARERA resolution 78/2025/R/efr.
 > - Ritiro Dedicato is the reference mechanism: GSE buyback around 8 to 14 cents per kWh up to 1 MWp, guaranteed 20 years.
 > - Because export is now worth a fraction of retail, sizing should track the daytime load curve and storage is easier to justify.
@@ -57,7 +57,8 @@ For the design-side comparison see our [best solar design software Italy](/blog/
 
 ## The Mechanism Changed, And So Did The Right Answer
 
-> **What most Italian quotes still get wrong.** They present exported energy as if it comes back at something close to retail. Under Scambio sul Posto that was broadly defensible. Under Ritiro Dedicato it is not, and a proposal built on the old assumption overstates the return on every surplus kilowatt-hour by a factor of three or more.
+> [!WARNING] What most Italian quotes still get wrong
+> They present exported energy as if it comes back at something close to retail. Under Scambio sul Posto that was broadly defensible. Under Ritiro Dedicato it is not, and a proposal built on the old assumption overstates the return on every surplus kilowatt-hour by a factor of three or more.
 
 The design consequence follows directly. Under the old scheme, a generously sized array was close to harmless, because surplus was banked at near-retail value and returned later. That made "fill the roof" a reasonable default and made storage a hard sell.
 
@@ -111,6 +112,8 @@ The default for many Italian consultancies. Defensible engineering, and the most
 
 ## Italy Solar Proposal Software Comparison
 
+Table: Italy solar proposal software compared by Ritiro Dedicato, deduction cashflow and storage capability
+
 | Tool | Ritiro Dedicato modelled | Multi-year deduction cashflow | Hourly self-consumption | Storage simulation | Italian proposals | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -130,6 +133,8 @@ The default for many Italian consultancies. Defensible engineering, and the most
 ## Worked Example: 6 kWp Residential, Old Assumption Versus Current Rules
 
 An illustrative calculation, not a specific customer project. Inputs: 6 kWp array in central Italy, 7,800 kWh annual generation, household consumption 4,200 kWh, self-consumption 35% without storage, retail import assumed well above the buyback rate, Ritiro Dedicato at 11 cents per kWh.
+
+Table: A 6 kWp residential system quoted on Scambio sul Posto logic versus actual Ritiro Dedicato (illustrative)
 
 | Line | Quoted on Scambio sul Posto logic | Actual under Ritiro Dedicato |
 | --- | --- | --- |

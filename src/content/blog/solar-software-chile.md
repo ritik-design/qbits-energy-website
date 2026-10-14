@@ -4,7 +4,7 @@ excerpt: "Chile runs 4,000 kilometres from the Atacama to Patagonia. A national 
 description: "Best solar software Chile 2026: the full stack for design, proposals, CRM and compliance. Ley 21.118 net billing, the pure energy price, non-expiring credits, the 300 kW PMGD threshold."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-chile.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 Chile is the hardest country in this series to build a [software stack](https://quickestimate.co/blog/solar-installer-software-stack) for, and the reason is geography rather than regulation. The country runs roughly 4,000 kilometres from the Atacama, carrying some of the highest solar resource measured anywhere, to Patagonia and sub-Antarctic conditions. Irradiance, temperature, [soiling](/glossary/soiling/) rate and seasonal shape all change dramatically along that range, which means a national weather file is not a simplification but an error in almost every location. Layered on top is Ley 21.118, which credits exports at the pure energy price yet lets credits accumulate indefinitely, a combination no other market in this series shares. This guide covers what the Chilean stack has to do.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Ley 21.118 credits surplus at the pure energy price, without transport or distribution, so export is worth well below retail.
 > - Credits do not expire while the customer maintains their contract, so surplus carries forward rather than being lost monthly.
 > - That combination makes modest oversizing far less punishing than in monthly-reset markets.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And The Geography Problem
 
+Table: Six software categories and what the Chilean market requires of each
+
 | Category | What it does | Chilean requirement |
 | --- | --- | --- |
 | Design and simulation | Layout, yield, soiling, site weather | Site-specific weather is mandatory |
@@ -66,7 +68,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Scheduling, install, commissioning | Regional logistics vary hugely |
 | Monitoring | Performance, service, soiling detection | Feeds cleaning in the north |
 
-> **The requirement most tools fail.** Not the tariff logic, the weather. A platform that defaults to a country-level dataset is unsuitable for Chilean work regardless of how good its other capabilities are, because a design in Antofagasta and one in Puerto Montt have almost nothing in common except the hardware.
+> [!IMPORTANT] The requirement most tools fail
+> Not the tariff logic, the weather. A platform that defaults to a country-level dataset is unsuitable for Chilean work regardless of how good its other capabilities are, because a design in Antofagasta and one in Puerto Montt have almost nothing in common except the hardware.
 
 ## What Is Genuinely Chile-Specific
 
@@ -121,6 +124,8 @@ Common on larger Chilean projects. Defensible engineering, and the usual home of
 
 ## Chile Solar Software Stack Comparison
 
+Table: Chile solar software stack compared by capability and tool
+
 | Capability | SurgePV | PVsyst | PV*SOL | HelioScope | Aurora |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Yes | Yes |
@@ -135,6 +140,8 @@ Common on larger Chilean projects. Defensible engineering, and the usual home of
 ## Worked Example: The Same Array In Antofagasta And Puerto Montt
 
 An illustrative comparison, not a specific customer project. Identical 10 kWp commercial rooftop array, identical hardware, two locations roughly 3,000 kilometres apart.
+
+Table: The same 10 kWp array in Antofagasta and Puerto Montt (illustrative)
 
 | | Antofagasta, northern desert | Puerto Montt, south |
 | --- | --- | --- |

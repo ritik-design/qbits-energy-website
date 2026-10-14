@@ -4,7 +4,7 @@ excerpt: "RCEm moved 40 percent in one month. Polish software that treats the ex
 description: "Best solar software Poland 2026: the full stack for design, proposals, CRM and compliance. Net billing, RCEm volatility, Mój Prąd storage weighting, self-consumption modelling and 8% VAT."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-poland.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 Polish solar software has to price two different kinds of kilowatt-hour. Since net billing replaced [net metering](/glossary/net-metering/) on 1 April 2022, exports settle at the RCEm market reference rate while imports are bought at retail, and the gap between those numbers is the entire design problem. In May 2026 RCEm was 191.37 PLN per MWh, roughly 0.19 PLN per kWh. The month before it was 132.92, the lowest since the mechanism began. So the export side of the equation is both low and volatile, while the self-consumption side is high and stable. A tool that reports one annual generation figure cannot express any of that. This guide covers what the Polish stack has to do.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Net billing has applied since 1 April 2022, with exports settled at RCEm rather than banked.
 > - RCEm was 191.37 PLN/MWh in May 2026 and 132.92 in April, a swing of more than 40 percent in one month.
 > - Retail import costs several times the export rate, so self-consumption holds nearly all the value.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And The Two-Price Problem
 
+Table: Six software categories and what the Polish market requires of each
+
 | Category | What it does | Polish requirement |
 | --- | --- | --- |
 | Design and simulation | Layout, hourly self-consumption, battery dispatch | Must split export from self-consumption |
@@ -66,7 +68,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Scheduling, install, meter change | Standard |
 | Monitoring | Performance, service, warranty | Standalone |
 
-> **What most Polish stacks are still doing.** Producing an annual generation figure and attaching an export revenue line at whatever RCEm happened to be that month. Both numbers look precise and one of them is close to meaningless. The fix is structural rather than cosmetic: the tool has to know which hours the household consumes and which it exports.
+> [!IMPORTANT] What most Polish stacks are still doing
+> Producing an annual generation figure and attaching an export revenue line at whatever RCEm happened to be that month. Both numbers look precise and one of them is close to meaningless. The fix is structural rather than cosmetic: the tool has to know which hours the household consumes and which it exports.
 
 ## What Is Genuinely Poland-Specific
 
@@ -123,6 +126,8 @@ Common, and the most likely place a single hard-coded export rate is doing the w
 
 ## Poland Solar Software Stack Comparison
 
+Table: Poland solar software stack compared by capability and tool
+
 | Capability | SurgePV | PV*SOL | PVsyst | OpenSolar | Aurora |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Partial | Yes |
@@ -137,6 +142,8 @@ Common, and the most likely place a single hard-coded export rate is doing the w
 ## Worked Example: 8 kWp Near Kraków, With And Without Storage
 
 An illustrative calculation, not a specific customer project. Inputs: 8 kWp array, roughly 8,000 kWh annual generation, household consumption 5,000 kWh, RCEm assumed at 0.19 PLN per kWh.
+
+Table: An 8 kWp system near Kraków, panels only versus with 10 kWh storage (illustrative)
 
 | | Panels only | Panels plus 10 kWh storage |
 | --- | --- | --- |
@@ -158,8 +165,10 @@ Note what happens to the export line: it falls, and that is the design working c
 - **Choose SurgePV** if you need split net billing pricing, battery dispatch and configuration-linked subsidy modelling in one tool.
 - **Choose PV*SOL** if you are desktop-based and value its component depth, accepting manual net billing handling.
 - **Choose PVsyst** where a lender names it on commercial or ground-mount work, paired with separate quoting.
-- **Verify your tool is not still assuming net metering.** Poland left that mechanism in 2022 and the sizing logic changed with it.
 - **Quote payback as a range.** Single figures derived from one month's RCEm do not survive a quarter.
+
+> [!TIP] Evaluation step
+> **Verify your tool is not still assuming net metering.** Poland left that mechanism in 2022 and the sizing logic changed with it.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

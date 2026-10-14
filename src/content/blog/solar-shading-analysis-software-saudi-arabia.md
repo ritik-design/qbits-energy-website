@@ -4,7 +4,7 @@ excerpt: "Exported power is credited at 5 halalas per kWh while commercial impor
 description: "Solar shading analysis software Saudi Arabia 2026: net billing at 5 halalas per kWh, soiling of 2 to 5 percent per day, dust storm recovery, and why shading must be modelled against on-site load."
 category: "Solar Software"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-shading-analysis-software-saudi-arabia.webp"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ featured: false
 
 [Saudi](/blog/solar-software-saudi-arabia/) solar [shading analysis](https://www.surgepv.com/best-solar-software/shading-analysis) is governed by a number that has nothing to do with geometry. Under the Kingdom's Small-Scale Solar PV framework, surplus exported to the grid is credited at roughly 5 halalas per kWh, while commercial import tariffs run in tiers up to around 32 halalas and industrial up to around 20. That is a gap of up to six to one between what a self-consumed kilowatt-hour is worth and what an exported one is worth. A shading report that gives you one annual percentage has told you the quantity of the loss and withheld its price. This guide covers what shading analysis has to do differently in [Saudi Arabia](https://www.surgepv.com/best-solar-software/saudi-arabia), and which tools do it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Exports settle near 5 halalas per kWh against commercial imports up to roughly 32, so the hour a shadow falls can change its cost sixfold.
 > - Systems are sized to on-site load rather than available roof, which means shading must be assessed against a consumption profile.
 > - Measured Saudi soiling losses run around 2 to 5 percent per day, with a single sandstorm observed to cut output about 20 percent.
@@ -58,6 +58,8 @@ The general methodology is covered in our [solar shading analysis software](/blo
 
 The Small-Scale Solar PV framework covers grid-connected systems from 1 kW to 2 MW and settles exports through net billing rather than net metering. The consequence for design is that surplus generation is close to worthless relative to displaced consumption.
 
+Table: What a shadow destroys in Saudi Arabia, what it is worth, and whether mitigation pays
+
 | What the shadow destroys | Roughly what it is worth | Does mitigation pay? |
 | --- | --- | --- |
 | A kilowatt-hour that would have been exported | About 5 halalas | Almost never |
@@ -68,7 +70,8 @@ This reshapes the whole design brief. In markets with generous export compensati
 
 Shading analysis inherits that logic. The question is not how many kilowatt-hours the shadow destroys but how many *billable* kilowatt-hours it destroys, and those are only the ones that would have been consumed on site. On a system deliberately sized below peak daytime load, essentially every shaded kilowatt-hour is expensive. On a system that overshoots at midday, the midday shadow is nearly free.
 
-> **The question to ask before quoting a mitigation.** Not "how much energy does this obstruction cost?" but "in the hours this obstruction shades, is the facility importing or exporting?" If it is exporting, the shadow costs 5 halalas per unit and the tree stays.
+> [!IMPORTANT] The question to ask before quoting a mitigation
+> Not "how much energy does this obstruction cost?" but "in the hours this obstruction shades, is the facility importing or exporting?" If it is exporting, the shadow costs 5 halalas per unit and the tree stays.
 
 ## Soiling At Saudi Rates
 
@@ -112,6 +115,8 @@ Here the Saudi capacity position changes the answer relative to a purely area-co
 ## Worked Example: The Same Array Against Two Load Profiles
 
 An illustrative calculation showing why the load profile decides the recommendation, not a specific customer project. Both sites have a 300 kWp rooftop array with an identical 8% annual shading loss of roughly 42 MWh, arising mostly from parapet and inter-row geometry.
+
+Table: The same array against two load profiles (illustrative)
 
 | | Site A, daytime load exceeds generation | Site B, generation exceeds midday load |
 | --- | --- | --- |

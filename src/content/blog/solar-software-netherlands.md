@@ -4,7 +4,7 @@ excerpt: "Salderingsregeling ends on 1 January 2027. Every Dutch quoting tool bu
 description: "Best solar software Netherlands 2026: the full stack for design, proposals, CRM and monitoring. The end of salderingsregeling, terugleverkosten, hourly self-consumption and battery dispatch."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-netherlands.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 Dutch solar software has a deadline. The salderingsregeling ends on 1 January 2027, with termination approved by the Senate in December 2024, and from that date suppliers set export compensation, expected in the region of 5 to 10 cents per kWh against a government floor. Annual netting, the mechanism nearly every Dutch quoting tool is built around, simply stops applying. Residential payback projections move from roughly 7 to 9 years to roughly 12 to 17. Any system being sold today has most of its life on the far side of that change, and most proposals do not say so. This guide covers what the Dutch stack has to do now.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Salderingsregeling ends 1 January 2027; the Senate approved termination in December 2024.
 > - Suppliers will set export compensation from that date, expected around 5 to 10 cents per kWh with a government floor.
 > - Residential payback is projected to move from roughly 7 to 9 years to roughly 12 to 17 years.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And The One That Matters Right Now
 
+Table: Six software categories and what the Dutch market requires of each
+
 | Category | What it does | Status for 2027 |
 | --- | --- | --- |
 | Design and simulation | Layout, shading, yield, hourly self-consumption | Must add hourly self-consumption and battery dispatch |
@@ -66,7 +68,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Monitoring | Performance, service, warranty | Unaffected |
 | Compliance | Grid connection and installation standards | Unaffected |
 
-> **The unusual thing about the Dutch situation.** Four of the six categories are unaffected by the biggest regulatory change in the market's history. The disruption is concentrated entirely in design and proposals, and specifically in whether those tools can model a world without annual netting. That makes the software decision unusually focused: you are not rebuilding a stack, you are replacing one capability that most incumbents do not have.
+> [!IMPORTANT] The unusual thing about the Dutch situation
+> Four of the six categories are unaffected by the biggest regulatory change in the market's history. The disruption is concentrated entirely in design and proposals, and specifically in whether those tools can model a world without annual netting. That makes the software decision unusually focused: you are not rebuilding a stack, you are replacing one capability that most incumbents do not have.
 
 ## What Is Genuinely Netherlands-Specific Right Now
 
@@ -117,6 +120,8 @@ The most common Dutch quoting tool and the one with the clearest expiry date.
 
 ## Netherlands Solar Software Stack Comparison
 
+Table: Netherlands solar software stack compared by capability and tool
+
 | Capability | SurgePV | PV*SOL | PVsyst | OpenSolar | Aurora |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Partial | Yes |
@@ -130,6 +135,8 @@ The most common Dutch quoting tool and the one with the clearest expiry date.
 ## Worked Example: The Same System, Quoted Three Ways
 
 An illustrative comparison, not a specific customer project. A residential array installed in 2026 with a projected life well beyond 2027.
+
+Table: The same system quoted three ways: saldering only, post-2027 only, and a two-period model (illustrative)
 
 | | A: quoted on saldering only | B: quoted on post-2027 only | C: two-period model |
 | --- | --- | --- | --- |
@@ -151,7 +158,9 @@ Column C is the only version that is both accurate and competitive. It shows the
 - **Choose SurgePV** if you need two-period tariff modelling, hourly self-consumption and battery dispatch in one document.
 - **Choose PV*SOL** if you are desktop-based, work mainly residential, and value its component depth.
 - **Choose PVsyst** where a lender names it on commercial or ground-mount work, paired with separate quoting.
-- **Retire annual-netting spreadsheets now,** rather than in December 2026. Systems sold today already outlive the scheme.
+
+> [!TIP] Evaluation step
+> **Retire annual-netting spreadsheets now,** rather than in December 2026. Systems sold today already outlive the scheme.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

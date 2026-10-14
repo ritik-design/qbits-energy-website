@@ -4,7 +4,7 @@ excerpt: "Falling export prices turned Australian solar into a self-consumption 
 description: "Best solar software Australia 2026: the full stack for design, proposals, CRM, STC claims and monitoring. AS/NZS 4777.2, SRES, state feed-in tariffs and battery modelling."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-australia.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 Australian solar software has to answer a question that did not matter a decade ago. When feed-in tariffs were generous, a system that generated plenty of energy earned plenty of money and the timing barely mattered, so annual kilowatt-hours was a reasonable headline. Export prices have fallen since, retail prices have not, and the return now depends on how much of the generation the household uses at the moment it is produced. That single shift makes self-consumption the design metric, forces battery modelling into ordinary residential jobs, and renders a large part of the traditional Australian sales pitch obsolete. This guide covers what the stack has to do now.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - An Australian solar business runs six software categories, with STC calculation and claim handling a genuine workstream.
 > - Falling export prices mean self-consumption, not annual output, is the design metric.
 > - That forces battery modelling into jobs where it used to be an optional upsell.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And Which Ones Have To Talk
 
+Table: Six software categories and what the Australian market requires of each
+
 | Category | What it does | How tightly it must integrate |
 | --- | --- | --- |
 | Design and simulation | Layout, shading, yield, self-consumption, battery dispatch | Core. Everything downstream derives from it |
@@ -66,7 +68,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Scheduling, install, CEC-accredited sign-off | Should receive the design |
 | Monitoring | Performance, service, warranty | Standalone, connects to the installed base |
 
-> **What changed, and what most stacks have not caught up with.** The design row used to mean layout and yield. It now has to mean self-consumption and battery dispatch, because those determine the financial outcome. A tool that produces an excellent annual generation figure and cannot say what proportion the household will actually use is answering a question that stopped mattering.
+> [!IMPORTANT] What changed, and what most stacks have not caught up with
+> The design row used to mean layout and yield. It now has to mean self-consumption and battery dispatch, because those determine the financial outcome. A tool that produces an excellent annual generation figure and cannot say what proportion the household will actually use is answering a question that stopped mattering.
 
 ## What Is Genuinely Australia-Specific
 
@@ -119,6 +122,8 @@ Common in smaller practices, and the usual home of an STC figure that was correc
 
 ## Australia Solar Software Stack Comparison
 
+Table: Australia solar software stack compared by capability and tool
+
 | Capability | SurgePV | OpenSolar | PVsyst | HelioScope | Aurora |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Partial | Yes | Yes | Yes |
@@ -133,6 +138,8 @@ Common in smaller practices, and the usual home of an STC figure that was correc
 ## Worked Example: Why The Old Pitch Stopped Working
 
 An illustrative comparison, not a specific customer project. A 6.6 kW residential system, household with modest daytime consumption, on a state feed-in rate that has fallen substantially.
+
+Table: The solar pitch that used to work versus the pitch that works now
 
 | | The pitch that used to work | The pitch that works now |
 | --- | --- | --- |
@@ -153,7 +160,9 @@ The right column is harder to produce, because it requires hourly modelling of g
 - **Start with OpenSolar** if you are doing a handful of straightforward residential jobs a month and want to spend nothing while building volume.
 - **Choose PVsyst** where a lender names it on commercial or utility work, paired with separate quoting.
 - **Choose HelioScope** if your team is engineering-only on commercial rooftops.
-- **Scrutinise per-project pricing.** It is cheapest exactly when you are smallest and most expensive exactly when you succeed.
+
+> [!TIP] Evaluation step
+> **Scrutinise per-project pricing.** It is cheapest exactly when you are smallest and most expensive exactly when you succeed.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

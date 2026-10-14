@@ -4,7 +4,7 @@ excerpt: "Net billing pays RCEm for exports and charges retail for imports. Poli
 description: "Best solar design software Poland 2026. SurgePV vs PV*SOL, Aurora, PVsyst on net billing, RCEm settlement rates, Mój Prąd storage weighting and self-consumption modelling."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-design-software-poland.webp"
 author: "Keyur Rakholiya"
@@ -36,7 +36,7 @@ featured: false
 
 Polish solar design stopped being about generation in April 2022. Net billing replaced [net metering](/glossary/net-metering/), exports now settle at the RCEm market reference rate rather than being banked one for one, and that rate sits far below what a prosumer pays to import. In May 2026 RCEm was 191.37 PLN per MWh, roughly 0.19 PLN per kWh, and the month before it was 132.92, the lowest since the mechanism began. Against retail import several times higher, capacity that generates energy the household cannot use at that moment earns very little. The design question became how much of the generation lands inside the load curve, and that is an hourly question. This guide covers what Polish [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has to do, and which tools do it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Net billing has applied since 1 April 2022, with exports settled at RCEm rather than banked.
 > - RCEm was 191.37 PLN/MWh in May 2026 and 132.92 in April, the lowest since introduction, so export value is volatile.
 > - Retail import costs several times the export rate, so self-consumption is where nearly all the value sits.
@@ -62,6 +62,8 @@ Under the old net metering arrangement the grid behaved like a bank. Energy expo
 
 Net billing removed that equivalence. Exports are sold at RCEm and imports are bought at retail, and the gap between the two is the entire design problem.
 
+Table: Poland net metering before April 2022 versus net billing now
+
 | | Net metering, before April 2022 | Net billing, now |
 | --- | --- | --- |
 | Export treatment | Banked, returned at a discount | Sold at RCEm |
@@ -70,7 +72,8 @@ Net billing removed that equivalence. Exports are sold at RCEm and imports are b
 | Correct sizing basis | Annual consumption | Daytime load curve |
 | Role of storage | Marginal | Central |
 
-> **What most Polish sizing still gets wrong.** It fills the roof and compares annual totals. Under net billing that produces a system whose surplus is sold at a fraction of what the same household pays to buy energy back four hours later, and no annual comparison will reveal the loss because the annual totals still balance.
+> [!WARNING] What most Polish sizing still gets wrong
+> It fills the roof and compares annual totals. Under net billing that produces a system whose surplus is sold at a fraction of what the same household pays to buy energy back four hours later, and no annual comparison will reveal the loss because the annual totals still balance.
 
 The design consequence is uncomfortable for anyone selling by the kilowatt. Beyond the point where generation meets daytime load, each additional kilowatt earns roughly a fifth of what it would if the household could use it. That does not make additional capacity worthless, but it does mean the marginal kilowatt has to be justified against a much lower value than the first one.
 
@@ -137,6 +140,8 @@ Still common, and the most likely place a pre-2022 net metering assumption is qu
 
 ## Poland Solar Design Software Comparison
 
+Table: Poland solar design software compared by self-consumption, battery and net billing capability
+
 | Tool | Hourly self-consumption | Battery dispatch modelling | Net billing and RCEm pricing | Mój Prąd configuration | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -149,6 +154,8 @@ Still common, and the most likely place a pre-2022 net metering assumption is qu
 ## Worked Example: 8 kWp Near Kraków, With And Without Storage
 
 An illustrative calculation showing where the value moves, not a specific customer project. Inputs: 8 kWp array, roughly 8,000 kWh annual generation, household consumption 5,000 kWh, RCEm assumed at 0.19 PLN per kWh.
+
+Table: An 8 kWp system near Kraków, panels only versus with 10 kWh storage (illustrative)
 
 | | Panels only | Panels plus 10 kWh storage |
 | --- | --- | --- |

@@ -4,7 +4,7 @@ excerpt: "The best solar proposal software Singapore installers need presents SC
 description: "Best solar proposal software Singapore 2026. SurgePV vs Aurora, PVsyst, HelioScope on SCT vs ECIS settlement, EMA licensing timelines, SS 638 and Scope 2 reporting."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-singapore.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 [Singapore](/blog/solar-software-singapore/) proposals get judged on two numbers that most quoting tools handle badly. The first is ECIS revenue, which depends on the variable USEP wholesale rate and therefore on when the array exports rather than how much it exports in total. Averaging a variable price against a correlated generation curve produces a figure that is right only by accident. The second is the AC rating against the 1 MWac EMA licensing threshold, where crossing the line adds an estimated three to six months of processing that most customers do not know about until it is quoted. This guide compares the platforms Singapore installers should shortlist for quoting.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - SCT pays approximately S$0.20 per kWh fixed via SP Services, no stated installation cap.
 > - ECIS pays the variable USEP rate, typically 10 to 20 cents per kWh, needs EMC Market Participant registration, caps at 10 MWac per installation.
 > - Below 1 MWac no EMA Generation Licence. At or above, a licence via the ELISE portal takes an estimated three to six months.
@@ -57,7 +57,8 @@ Singapore demand is overwhelmingly commercial, industrial and institutional, and
 
 ## Present ECIS As A Range, Not A Number
 
-> **What most Singapore proposals get wrong.** They quote ECIS at an average USEP figure and present it with the same confidence as the fixed SCT rate. Those are not comparable claims. One is a contracted price and the other is a forecast of a wholesale market, and dressing the second up as the first is the kind of precision that erodes trust when the settlements arrive.
+> [!WARNING] What most Singapore proposals get wrong
+> They quote ECIS at an average USEP figure and present it with the same confidence as the fixed SCT rate. Those are not comparable claims. One is a contracted price and the other is a forecast of a wholesale market, and dressing the second up as the first is the kind of precision that erodes trust when the settlements arrive.
 
 The honest structure shows SCT as a single number, because it is one, and ECIS as a range with the assumptions visible. The range should come from running the hourly generation profile against a USEP price profile rather than multiplying annual kWh by an average, because the two series are correlated: solar exports most at midday, and midday pricing is not representative of the daily mean.
 
@@ -101,6 +102,8 @@ Standard on institutional and JTC-driven work. Defensible engineering, and the u
 
 ## Singapore Solar Proposal Software Comparison
 
+Table: Singapore solar proposal software compared by ECIS, threshold and reporting capability
+
 | Tool | ECIS modelled hourly | AC rating vs 1 MWac surfaced | Self-consumption led | Emissions reporting output | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Configurable | Yes | $1,299 to $1,899 |
@@ -120,6 +123,8 @@ Standard on institutional and JTC-driven work. Defensible engineering, and the u
 ## Worked Example: 1.15 MWp Industrial Roof, Either Side Of The Threshold
 
 An illustrative calculation, not a specific customer project. Inputs: usable roof supporting 1.15 MWp DC, 1,250 kWh per kWp specific yield, 70% self-consumption, import at S$0.28 per kWh, SCT export at S$0.20 per kWh.
+
+Table: 1.15 MWp industrial roof designed below versus above the 1 MWac threshold (illustrative)
 
 | Line | Designed to 990 kWac | Designed to 1,035 kWac |
 | --- | --- | --- |

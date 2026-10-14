@@ -4,7 +4,7 @@ excerpt: "Four utilities, four different credit rules, and a residential tariff 
 description: "Best solar software UAE 2026: the full stack for design, proposals, CRM and compliance. DEWA Shams Dubai, ADDC, EtihadWE credit expiry, ECAS certification and Scope 2 reporting."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-uae.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 The UAE is four solar markets sharing a currency. DEWA credits Dubai customers at their own slab rate with indefinite rollover. Abu Dhabi's ADDC and AADC give kWh offset only, no cash, at up to 5 MW per premises. EtihadWE in the Northern Emirates issues credits that expire every December. Sharjah's SEWA has no published distributed solar programme at all. Layer on an Abu Dhabi residential [tariff](/glossary/tariff/) spread of roughly four to one between subsidised nationals and expatriates, and a [software stack](https://quickestimate.co/blog/solar-installer-software-stack) configured for one emirate will produce confidently wrong numbers in the others. This guide covers what the UAE stack actually has to handle.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Four utility regimes with different credit mechanisms, capacity limits and expiry rules.
 > - DEWA Shams Dubai: 1 MW per plot, credited at the consumer's own slab rate, residential 29 to 44 fils, indefinite rollover.
 > - ADDC and AADC Abu Dhabi: 5 MW per premises, kWh offset only, no cash payment, indefinite accumulation.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And The Utility Problem
 
+Table: Six software categories and what the UAE market requires of each
+
 | Category | What it does | UAE complication |
 | --- | --- | --- |
 | Design and simulation | Layout, parapet shading, soiling, yield | Flat roofs mean self-shading dominates |
@@ -66,7 +68,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Utility application, inspection, energisation | Process differs by utility |
 | Monitoring | Performance, service, Scope 2 reporting | Corporate clients increasingly require it |
 
-> **The configuration requirement.** Most platforms let you set a country. The UAE needs you to set a utility, because the credit mechanism, the capacity ceiling and whether credits expire are all utility-level properties. A tool with one national tariff field cannot represent the market.
+> [!IMPORTANT] The configuration requirement
+> Most platforms let you set a country. The UAE needs you to set a utility, because the credit mechanism, the capacity ceiling and whether credits expire are all utility-level properties. A tool with one national tariff field cannot represent the market.
 
 ## What Is Genuinely UAE-Specific
 
@@ -125,6 +128,8 @@ The default on large UAE projects. Defensible engineering, and the usual source 
 
 ## UAE Solar Software Stack Comparison
 
+Table: UAE solar software stack compared by capability and tool
+
 | Capability | SurgePV | PVsyst | HelioScope | Aurora | Enact |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Yes | Partial |
@@ -139,6 +144,8 @@ The default on large UAE projects. Defensible engineering, and the usual source 
 ## Worked Example: 300 kW Commercial, Dubai Versus Northern Emirates
 
 An illustrative calculation, not a specific customer project. Inputs: 300 kW DC, 1,750 kWh per kW specific yield, 525,000 kWh generation, 380,000 kWh self-consumed, 145,000 kWh exported, commercial tariff at 44 fils per kWh.
+
+Table: A 300 kW commercial system in Dubai (DEWA) versus the Northern Emirates (EtihadWE), illustrative
 
 | Line | Dubai, DEWA | Northern Emirates, EtihadWE |
 | --- | --- | --- |
@@ -159,7 +166,9 @@ The design response matters as much as the number. On the EtihadWE profile the c
 - **Choose PVsyst** where a lender or offtaker names it on large ground-mount, paired with separate quoting.
 - **Choose HelioScope** if your team is engineering-only on C&I rooftops.
 - **Avoid Aurora and Enact** for UAE work. Both assume incentive structures that do not exist here.
-- **Confirm EtihadWE availability** before promising a Northern Emirates connection, since the aggregate cap is allocated first-come first-served.
+
+> [!TIP] Evaluation step
+> **Confirm EtihadWE availability** before promising a Northern Emirates connection, since the aggregate cap is allocated first-come first-served.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

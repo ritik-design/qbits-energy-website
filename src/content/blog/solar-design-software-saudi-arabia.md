@@ -4,7 +4,7 @@ excerpt: "Exports earn 5 halalas while commercial imports reach 32. Saudi system
 description: "Best solar design software Saudi Arabia 2026. SurgePV vs PVsyst, Aurora, HelioScope on the Small-Scale Solar PV framework, net billing at 5 halalas, the 5 MW area cap and soiling modelling."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-design-software-saudi-arabia.webp"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ featured: false
 
 [Saudi](/blog/solar-software-saudi-arabia/) solar design is governed by a ratio rather than a resource. The Kingdom has exceptional irradiance, but under the Small-Scale Solar PV framework exports settle at roughly 5 halalas per kWh while commercial import tariffs run in tiers up to around 32 halalas and industrial up to around 20. Energy the site uses is worth up to six times energy it sells. That single fact means Saudi systems are sized to the daytime load curve rather than to the available roof, and it means the design tool has to model consumption as carefully as it models generation. Add dust losses running several percent a day and the yield model needs work too. This guide covers what Saudi [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has to do, and which tools do it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The Small-Scale Solar PV framework covers 1 kW to 2 MW with net billing rather than net metering.
 > - Exports credit at around 5 halalas per kWh; commercial imports run up to roughly 32 and industrial up to around 20.
 > - That six to one spread means sizing tracks the daytime load curve, not the roof.
@@ -59,13 +59,16 @@ For the quoting side see our [best solar proposal software Saudi Arabia](/blog/s
 
 In markets with generous export compensation, the design objective is maximum annual generation and the roof gets filled. Saudi Arabia is the opposite case.
 
+Table: What a kilowatt-hour does in Saudi Arabia, what it is worth, and the design implication
+
 | What the kilowatt-hour does | Roughly what it is worth | Design implication |
 | --- | --- | --- |
 | Exported to the grid | About 5 halalas | Nearly worthless, avoid producing it |
 | Displaces industrial import | Up to about 20 halalas | Valuable |
 | Displaces commercial import at the top tier | Up to about 32 halalas | Highly valuable |
 
-> **What most Saudi designs get wrong.** They treat abundant irradiance as a reason to maximise capacity. But irradiance determines how much energy you can produce, and the tariff determines what that energy is worth. In the Kingdom those two point in opposite directions above the daytime load, and the tariff wins.
+> [!WARNING] What most Saudi designs get wrong
+> They treat abundant irradiance as a reason to maximise capacity. But irradiance determines how much energy you can produce, and the tariff determines what that energy is worth. In the Kingdom those two point in opposite directions above the daytime load, and the tariff wins.
 
 The practical method is straightforward. Obtain or model the facility's hourly consumption. Overlay the generation profile. Size the array so that the overlap is maximised and the overshoot is small. Every kilowatt beyond that point earns 5 halalas.
 
@@ -136,6 +139,8 @@ The default on larger Saudi projects. Defensible engineering, and the usual home
 
 ## Saudi Arabia Solar Design Software Comparison
 
+Table: Saudi Arabia solar design software compared by load matching, net billing and soiling capability
+
 | Tool | Hourly load and self-consumption | Net billing pricing both sides | Time-varying soiling | Parapet and spacing optimisation | Arabic proposals | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -148,6 +153,8 @@ The default on larger Saudi projects. Defensible engineering, and the usual home
 ## Worked Example: 500 kWp Rooftop, Roof-Filled Versus Load-Matched
 
 An illustrative calculation showing why the tariff beats the irradiance, not a specific customer project. Inputs: a commercial facility with strong daytime load, roof capable of 500 kWp, commercial tariff assumed near 32 halalas at the top tier, export at 5 halalas.
+
+Table: A 500 kWp rooftop, roof-filled versus load-matched (illustrative)
 
 | | Roof-filled at 500 kWp | Load-matched at 340 kWp |
 | --- | --- | --- |

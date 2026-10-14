@@ -4,7 +4,7 @@ excerpt: "An April 2026 DOE circular lifted the non-residential cap from 100 kW 
 description: "Best solar software Philippines 2026: the full stack for design, proposals, CRM and monitoring. Net metering at the generation rate, the new 1 MW cap, PEC compliance and DU approval timelines."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-philippines.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 The Philippine solar market changed size in April 2026. A Department of Energy circular lifted the non-residential [net metering](https://heavendesigns.in/blog/apepdcl-solar-net-metering-guide/) capacity cap from 100 kW to 1 MW, a tenfold increase that opens commercial and industrial projects which were simply not possible under the scheme before. The opportunity is real and most quoting tools in the market have not caught up: they are configured against the old ceiling, they price exported energy at the retail rate when the scheme actually credits the blended generation rate, and they have no way to model the larger commercial loads the change makes addressable. This guide covers what the Philippine stack has to do now.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - An April 2026 DOE circular lifted the non-residential cap from 100 kW to 1 MW, a tenfold increase.
 > - [Net metering](/glossary/net-metering/) credits the blended generation rate, roughly PHP 5 to 6 per kWh for Meralco, about 50 to 60 percent of retail.
 > - That gap means self-consumption is worth far more than export, so sizing follows the daytime load curve.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And What The Cap Change Did To Them
 
+Table: Six software categories and what the Philippine market requires of each
+
 | Category | What it does | Effect of the 1 MW change |
 | --- | --- | --- |
 | Design and simulation | Layout, shading, yield, load matching | Must now handle commercial scale and hourly load profiles |
@@ -66,7 +68,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | DU application, LGU permit, CFEI, inspection | Timeline management matters more on larger jobs |
 | Monitoring | Performance, service, warranty | Commercial clients expect it as standard |
 
-> **What the tenfold increase actually demands.** Residential net metering work can be done reasonably well with layout tools and a tariff assumption. Commercial work at up to 1 MW cannot, because the value depends on matching generation to an industrial or commercial load curve, and because the buyer will interrogate the numbers. Teams moving into the segment the circular opened need a different class of modelling than the one that served them at residential scale.
+> [!IMPORTANT] What the tenfold increase actually demands
+> Residential net metering work can be done reasonably well with layout tools and a tariff assumption. Commercial work at up to 1 MW cannot, because the value depends on matching generation to an industrial or commercial load curve, and because the buyer will interrogate the numbers. Teams moving into the segment the circular opened need a different class of modelling than the one that served them at residential scale.
 
 ## What Is Genuinely Philippines-Specific
 
@@ -119,6 +122,8 @@ Common, and the usual home of a retail tariff applied to exported energy.
 
 ## Philippines Solar Software Stack Comparison
 
+Table: Philippines solar software stack compared by capability and tool
+
 | Capability | SurgePV | PVsyst | HelioScope | Aurora | OpenSolar |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Yes | Partial |
@@ -133,6 +138,8 @@ Common, and the usual home of a retail tariff applied to exported energy.
 ## Worked Example: A 400 kW Commercial Rooftop Under The New Cap
 
 An illustrative calculation, not a specific customer project. A manufacturing facility with strong daytime load, now able to install at a scale the old 100 kW ceiling prohibited.
+
+Table: A 400 kW commercial rooftop quoted at the retail rate versus quoted correctly (illustrative)
 
 | Line | Quoted at retail rate | Quoted correctly |
 | --- | --- | --- |
@@ -152,7 +159,9 @@ At residential scale that error is embarrassing. On a 400 kW commercial project 
 - **Choose PVsyst** where a lender or offtaker names it on financed commercial work, paired with separate quoting.
 - **Choose HelioScope** if your team is engineering-only on commercial rooftops.
 - **Start with OpenSolar** for straightforward residential volume while you build toward commercial work.
-- **Retire retail-rate export assumptions.** They were tolerable at 100 kW and are not at 1 MW.
+
+> [!TIP] Evaluation step
+> **Retire retail-rate export assumptions.** They were tolerable at 100 kW and are not at 1 MW.
 
 After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quickestimate.co/) takes the handoff from SurgePV by API.
 

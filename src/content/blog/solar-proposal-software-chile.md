@@ -4,7 +4,7 @@ excerpt: "Chilean credits are paid at the pure energy price but never expire. Th
 description: "Best solar proposal software Chile 2026. SurgePV vs Aurora, PVsyst, PV*SOL on Ley 21.118, the pure energy price, non-expiring credit accumulation, the 300 kW PMGD threshold and site weather."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-chile.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 [Chile](/blog/solar-software-chile/) combines two features that no other market in this series pairs together. Exported surplus is credited at the pure energy price, stripped of the transport and distribution components that make up much of a retail bill, so export is worth well below import. But those credits do not expire while the customer maintains their contract, so surplus accumulates and carries forward automatically instead of being destroyed at month end. The first fact argues for tight sizing. The second softens the penalty for getting it slightly wrong. A proposal that understands only one of them gives the wrong advice, and most templates imported from other markets understand only one. This guide compares the platforms Chilean installers should shortlist.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Ley 21.118 credits surplus at the pure energy price, without transport or distribution, so export is worth well below retail.
 > - Credits do not expire while the contract is maintained, so summer surplus banks and offsets winter consumption.
 > - That combination makes modest oversizing far less punishing than in monthly-reset markets like Spain.
@@ -57,7 +57,8 @@ For the design-side comparison see our [best solar design software Chile](/blog/
 
 ## Explain The Pure Energy Price Before Anything Else
 
-> **What most Chilean quotes get wrong.** They apply the customer's retail tariff to exported energy. Under Ley 21.118 the credit is the energy component alone, without transport, distribution or the other elements of a retail bill, so the real credit is materially lower.
+> [!WARNING] What most Chilean quotes get wrong
+> They apply the customer's retail tariff to exported energy. Under Ley 21.118 the credit is the energy component alone, without transport, distribution or the other elements of a retail bill, so the real credit is materially lower.
 
 Customers almost universally assume that a kilowatt-hour they send to the grid is worth what a kilowatt-hour they take from it costs. It is a reasonable assumption and it is wrong, and it is far better corrected in your document than by their first statement.
 
@@ -70,6 +71,8 @@ Once that lands, the rest of the proposal follows naturally. Energy the customer
 Here is where imported templates go wrong in the other direction, and it matters because the Chilean answer is genuinely different.
 
 In markets with monthly reset, surplus above the cap is destroyed and oversizing is severely punished. Chilean credits do not behave that way. Accumulated credits remain available while the customer maintains their contract, so a summer surplus carries forward and is applied automatically in later months.
+
+Table: Expiring-credit markets compared with Chile
 
 | | Expiring-credit markets | Chile |
 | --- | --- | --- |
@@ -136,6 +139,8 @@ Common on larger Chilean projects, and the usual home of a retail rate applied t
 
 ## Chile Solar Proposal Software Comparison
 
+Table: Chile solar proposal software compared by credit pricing, weather, 300 kW threshold and language capability
+
 | Tool | Pure energy credit pricing | Credit balance across months | Site-specific weather | 300 kW and PMGD comparison | Spanish proposals | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -148,6 +153,8 @@ Common on larger Chilean projects, and the usual home of a retail rate applied t
 ## Worked Example: Why The Credit Balance Table Sells The Job
 
 An illustrative calculation, not a specific customer project. Inputs: residential system in central Chile, generation exceeding consumption in summer and falling short in winter, credits accumulating at the pure energy price.
+
+Table: Credit balance by period: generation versus consumption and what the customer sees (illustrative)
 
 | Period | Generation vs consumption | What happens to the balance | What the customer sees |
 | --- | --- | --- | --- |

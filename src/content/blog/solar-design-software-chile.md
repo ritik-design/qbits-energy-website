@@ -4,7 +4,7 @@ excerpt: "Chile runs from the Atacama to Patagonia, and net billing pays only th
 description: "Best solar design software Chile 2026. SurgePV vs PVsyst, Aurora, PV*SOL on Ley 21.118 net billing, the pure energy price, the 300 kW threshold to PMGD and extreme latitude range."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-design-software-chile.webp"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ featured: false
 
 [Chile](/blog/solar-software-chile/) is the hardest country in this series to design for, and the reason is geography. The country runs roughly 4,000 kilometres from the Atacama, which carries some of the highest solar resource measured anywhere, to Patagonia and sub-Antarctic conditions in the far south. Irradiance, temperature, [soiling](/glossary/soiling/) rate and the seasonal shape of generation all change dramatically along that range. Layered on top is Ley 21.118, which credits exported energy at the pure energy price, stripped of the transport and distribution components that make up much of a retail bill. This guide covers what Chilean [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has to handle, and which tools do it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Ley 21.118 credits surplus at the pure energy price, without transport or distribution components, so export is worth well below retail.
 > - Credits do not expire while the customer maintains their contract, so surplus carries forward rather than being lost monthly.
 > - Regulated clients can inject with systems up to 300 kW; above that the PMGD regime applies with different rules.
@@ -59,6 +59,8 @@ For the quoting side see our [best solar proposal software Chile](/blog/solar-pr
 
 Most country design guides can reasonably talk about national conditions. Chile cannot.
 
+Table: Chile by region: conditions and the dominant design concern
+
 | Region | Conditions | Dominant design concern |
 | --- | --- | --- |
 | Northern desert | Exceptional irradiance, high altitude, heavy dust | Soiling, UV and temperature at altitude |
@@ -66,7 +68,8 @@ Most country design guides can reasonably talk about national conditions. Chile 
 | South | Lower resource, higher cloud, wide seasonal swing | Winter output and seasonal credit accumulation |
 | Far south | Sub-Antarctic, very low winter sun | Steep seasonality, marginal winter contribution |
 
-> **What a national assumption does here.** It overstates yield in the south and understates it in the north, and it gets the seasonal shape wrong in both. Because the credit accumulates rather than expiring, the seasonal shape matters less financially in Chile than in a monthly-reset market, but it still determines what the customer experiences month to month and whether their expectations were set correctly.
+> [!IMPORTANT] What a national assumption does here
+> It overstates yield in the south and understates it in the north, and it gets the seasonal shape wrong in both. Because the credit accumulates rather than expiring, the seasonal shape matters less financially in Chile than in a monthly-reset market, but it still determines what the customer experiences month to month and whether their expectations were set correctly.
 
 The practical requirement is unglamorous and non-negotiable: site-specific weather data on every project. Any tool that defaults to a country-level dataset is unsuitable for Chilean work regardless of how good its other capabilities are.
 
@@ -133,6 +136,8 @@ Common on larger Chilean projects. Defensible engineering, and the usual home of
 
 ## Chile Solar Design Software Comparison
 
+Table: Chile solar design software compared by weather, credit modelling, 300 kW threshold and soiling capability
+
 | Tool | Site-specific weather | Pure energy credit modelling | Credit accumulation | 300 kW threshold and PMGD comparison | Time-varying soiling | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -145,6 +150,8 @@ Common on larger Chilean projects. Defensible engineering, and the usual home of
 ## Worked Example: The Same Array In Antofagasta And Puerto Montt
 
 An illustrative calculation showing why national assumptions fail, not a specific customer project. Inputs: identical 10 kWp commercial rooftop array, identical hardware, two locations roughly 3,000 kilometres apart.
+
+Table: The same array in Antofagasta and Puerto Montt (illustrative)
 
 | | Antofagasta, northern desert | Puerto Montt, south |
 | --- | --- | --- |

@@ -4,12 +4,17 @@ import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
-import { getProductsByCategory } from '../../data/products';
+import { getProductsByCategory, type Product } from '../../data/products';
 import AmbassadorProduct from '../../components/brand-ambassador/AmbassadorProduct.astro';
 
 const onGridProducts = getProductsByCategory('on-grid');
 const singlePhase = onGridProducts.filter(p => p.phase === 'single');
 const threePhase = onGridProducts.filter(p => p.phase === 'three');
+
+const kw = (p: Product) => (p.powerMin === p.powerMax ? `${p.powerMin} kW` : `${p.powerMin}–${p.powerMax} kW`);
+const mpptText = (p: Product) => (/\d/.test(p.mpptLabel) ? p.mpptLabel : `${p.mppt} MPPT${p.mppt > 1 ? 's' : ''}`);
+const enquiryHref = (p: Product) =>
+  `/contact-us/?subject=Product+Inquiry&model=${encodeURIComponent(p.name)}&from=%2Fon-grid-inverter%2F#lead-form`;
 
 const featureIcons: Record<string, string> = {
   'IP66 Weather Protection': 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z',
@@ -53,8 +58,8 @@ const onGridSchema = {
 ---
 
 <Layout
-  title="On-Grid Solar Inverters India - 1.5 kW to 320 kW | Qbits Energy"
-  description="High-efficiency on-grid solar inverters from 1.5kW to 320kW. Compare exact single- and three-phase models, MPPT limits and datasheets."
+  title="Qbits On-Grid Solar Inverters: 1.5 kW to 320 kW"
+  description="Qbits single- and three-phase on-grid solar inverters from 1.5 kW to 320 kW. Compare MPPT count, efficiency and AC rating by model and download datasheets."
   canonical="/on-grid-inverter/"
 >
   <HeaderV2 />
@@ -75,6 +80,87 @@ const onGridSchema = {
       <p class="mt-3 text-slate-600">A suitable on-grid inverter must match the project's AC connection and the proposed modules' voltage and current. The QB-4/5/6KTLD datasheet specifies two independent MPPTs, an 80–550 V tracking range, 550 V maximum DC input and 20 A per tracker. A 50 V start-up figure is not its normal tracking range.</p>
       <p class="mt-3 text-slate-600"><a class="text-brand-600 underline" href="/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf">Check that model's datasheet</a>, compare <a class="text-brand-600 underline" href="/blog/single-vs-3-phase-inverter/">single versus three phase</a> and use the <a class="text-brand-600 underline" href="/string-sizing-calculator/">string-sizing screen</a>. For an exact recommendation, <a class="text-brand-600 underline" href="/contact-us/?subject=Product+Inquiry&from=%2Fon-grid-inverter%2F#lead-form">send your panel and connection details</a>.</p>
     </div></section>
+    <!-- Model selector table -->
+    <section class="py-12 bg-white" aria-labelledby="ongrid-compare-heading"><div class="container-main max-w-6xl">
+      <h2 id="ongrid-compare-heading" class="text-2xl font-bold text-slate-900">Compare on-grid models side by side</h2>
+      <p class="mt-3 text-slate-600 max-w-3xl">Each row is a model family from the published product data. The kW figure is the range across the family, and efficiency is the maximum figure quoted for it, so confirm the exact rating on the datasheet for the model you shortlist.</p>
+      <div class="mt-6 overflow-x-auto rounded-2xl border border-slate-200">
+        <table class="min-w-full text-left text-sm">
+          <caption class="sr-only">Qbits on-grid inverter families by capacity, phase, MPPT count and maximum efficiency</caption>
+          <thead class="bg-slate-100 text-xs uppercase tracking-wider text-slate-600">
+            <tr>
+              <th scope="col" class="px-4 py-3 font-semibold">Model</th>
+              <th scope="col" class="px-4 py-3 font-semibold">Capacity</th>
+              <th scope="col" class="px-4 py-3 font-semibold">Phase</th>
+              <th scope="col" class="px-4 py-3 font-semibold">MPPT</th>
+              <th scope="col" class="px-4 py-3 font-semibold">Max efficiency</th>
+              <th scope="col" class="px-4 py-3 font-semibold">Details</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white text-slate-700">
+            {onGridProducts.map((p) => (
+              <tr class="border-t border-slate-100 align-top">
+                <th scope="row" class="px-4 py-3 font-semibold text-slate-900"><a href={`/our-products/${p.id}/`} class="text-brand-600 hover:text-brand-700">{p.name}</a></th>
+                <td class="px-4 py-3 whitespace-nowrap">{kw(p)}</td>
+                <td class="px-4 py-3 whitespace-nowrap">{p.phase === 'single' ? 'Single-phase' : 'Three-phase'}</td>
+                <td class="px-4 py-3">{mpptText(p)}</td>
+                <td class="px-4 py-3">{p.efficiency}</td>
+                <td class="px-4 py-3 whitespace-nowrap">
+                  <a href={`/our-products/${p.id}/`} class="text-brand-600 hover:text-brand-700 font-medium">Model page</a>
+                  {p.datasheet && (<span> &middot; <a href={p.datasheet} class="text-brand-600 hover:text-brand-700 font-medium">Datasheet (PDF)</a></span>)}
+                  <span> &middot; <a href={enquiryHref(p)} class="text-brand-600 hover:text-brand-700 font-medium">Enquire</a></span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div></section>
+
+    <!-- Common sizes -->
+    <section class="py-12 bg-slate-50" aria-labelledby="ongrid-sizes-heading"><div class="container-main max-w-6xl">
+      <h2 id="ongrid-sizes-heading" class="text-2xl font-bold text-slate-900">Common system sizes and where to start</h2>
+      <p class="mt-3 text-slate-600 max-w-3xl">These are starting points for a shortlist, not a recommendation. The final choice depends on your connection, panels and roof.</p>
+      <div class="mt-6 grid gap-6 md:grid-cols-3">
+        <div class="rounded-2xl border border-slate-200 bg-white p-6">
+          <h3 class="text-lg font-bold text-slate-900">3 kW</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed">QB 3.0KTLS is a single-phase model with one MPPT, in the <a class="text-brand-600 underline" href="/our-products/QB-1.5-4.0KTLS/">QB-1.5-4.0KTLS family</a>. Read the <a class="text-brand-600 underline" href="/blog/best-3kw-solar-inverter-india-2026/">3 kW inverter guide</a> for on-grid and hybrid options at this size.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-6">
+          <h3 class="text-lg font-bold text-slate-900">5 kW</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed">QB 5KTLS has one MPPT (<a class="text-brand-600 underline" href="/our-products/QB-4.6-6KTLS/">QB-4.6-6KTLS family</a>), QB 5KTLD has two (<a class="text-brand-600 underline" href="/our-products/QB-4-6KTLD/">QB-4-6KTLD family</a>), and QB 5KTLC is three-phase. The <a class="text-brand-600 underline" href="/blog/best-5kw-solar-inverter-india-2026/">5 kW inverter guide</a> compares them by use case.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-6">
+          <h3 class="text-lg font-bold text-slate-900">10 kW</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed">QB 10KTLC is a three-phase model with two MPPTs, in the <a class="text-brand-600 underline" href="/our-products/QB-6-17KTLC/">QB-6-17KTLC family</a>. The <a class="text-brand-600 underline" href="/blog/best-10kw-solar-inverter-india-2026/">10 kW inverter guide</a> covers three-phase picks for villas, shops and small units.</p>
+        </div>
+      </div>
+    </div></section>
+
+    <!-- How to choose -->
+    <section class="py-12 bg-white" aria-labelledby="ongrid-choose-heading"><div class="container-main max-w-6xl">
+      <h2 id="ongrid-choose-heading" class="text-2xl font-bold text-slate-900">How to choose between on-grid models</h2>
+      <div class="mt-6 grid gap-6 md:grid-cols-2">
+        <div>
+          <h3 class="text-lg font-bold text-slate-900">Single-phase or three-phase</h3>
+          <p class="mt-2 text-slate-600 leading-relaxed">Match the inverter to the supply at your meter. A single-phase connection takes a single-phase inverter and a three-phase connection takes a three-phase one. DISCOMs set their own capacity limits for single-phase connections, so check yours before shortlisting. The <a class="text-brand-600 underline" href="/blog/single-vs-3-phase-inverter/">single versus three phase guide</a> walks through the decision.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-slate-900">Size to the sanctioned load and the array</h3>
+          <p class="mt-2 text-slate-600 leading-relaxed">Many DISCOMs limit solar capacity to the sanctioned load or contract demand shown on your electricity bill, so start there. Then pair the inverter's AC rating with the array's DC size. A DC array moderately larger than the AC rating is common, but too large a ratio clips output at midday. See <a class="text-brand-600 underline" href="/blog/solar-inverter-sizing/">solar inverter sizing</a> for the arithmetic.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-slate-900">Number of MPPTs</h3>
+          <p class="mt-2 text-slate-600 leading-relaxed">One MPPT suits a roof where every panel faces the same way with the same shade. Roofs with two orientations, or a mix of shaded and open areas, are easier to design with separate MPPT inputs, so check the MPPT column above. <a class="text-brand-600 underline" href="/blog/dual-mppt-vs-single-mppt/">Dual versus single MPPT</a> explains when the extra input is worth it.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-slate-900">On-grid or hybrid</h3>
+          <p class="mt-2 text-slate-600 leading-relaxed">An on-grid inverter exports to the grid and does not supply the home during an outage on its own. If you need backup from a battery, look at the <a class="text-brand-600 underline" href="/hybrid-inverter/">hybrid inverters</a> instead, and read <a class="text-brand-600 underline" href="/blog/on-grid-vs-hybrid/">on-grid versus hybrid</a> to compare the two.</p>
+        </div>
+      </div>
+      <p class="mt-8 text-slate-600">For installers and dealers who want to supply these models, see <a class="text-brand-600 underline" href="/become-our-partner/">how to become a Qbits partner</a>.</p>
+    </div></section>
+
     <section class="section-padding bg-white" aria-labelledby="single-phase-heading">
       <div class="container-main">
         <div class="text-center max-w-2xl mx-auto mb-16">
@@ -87,7 +173,7 @@ const onGridSchema = {
             Single Phase Inverters
           </h2>
           <p class="mt-4 text-slate-500">
-            Perfect for <a href="/residential-solution/" class="text-brand-600 hover:text-brand-700 font-medium">residential installations</a>. Compact design, high efficiency, and <a href="/blog/solar-inverter-monitoring-systems-in-india/" class="text-brand-600 hover:text-brand-700 font-medium">monitoring options</a> that vary by model and accessory.
+            Suited to <a href="/residential-solution/" class="text-brand-600 hover:text-brand-700 font-medium">residential installations</a>, with <a href="/blog/solar-inverter-monitoring-systems-in-india/" class="text-brand-600 hover:text-brand-700 font-medium">monitoring options</a> that vary by model and accessory. Each model lists its own maximum efficiency.
           </p>
         </div>
 

@@ -62,7 +62,6 @@ faqs:
   - q: "Does CERC regulate green hydrogen?"
     a: "Increasingly, as green hydrogen pricing models intersect with electricity tariffs. CERC has issued draft frameworks for green tariff and green attributes trading."
 author: "Nirav Dhanani"
-seoTitle: "CERC: Role in Indian Electricity and Solar Regulation"
 ---
 
 ## What is CERC

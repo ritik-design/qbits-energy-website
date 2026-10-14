@@ -1,8 +1,7 @@
 ---
-title: '5 kW Hybrid Inverter Price in India: What a Quote Includes'
-seoTitle: '5 kW Hybrid Inverter Price in India: Quote Guide'
+title: "5kW Hybrid Inverter Price in India 2026: Brands, Specs, and What You Actually Pay"
 excerpt: 'Compare current inverter-only price evidence, installed-system exclusions and the exact questions to ask before choosing a 5 kW hybrid inverter.'
-description: 'Compare current 5 kW hybrid inverter price evidence in India, see what equipment-only listings exclude, and check a quote before buying.'
+description: "5kW hybrid inverter prices in India for 2026: dated brand price bands, cost drivers, battery pairing cost, PM Surya Ghar eligibility and a 3BHK checklist."
 category: Buying Guide
 date: 2026-07-23
 updatedDate: 2026-09-26

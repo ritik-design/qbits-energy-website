@@ -1,8 +1,7 @@
 ---
-title: 'Solar Panel Price in India: Per Watt, Per kW and Installed Cost'
-seoTitle: 'Solar Panel Price in India: Per Watt, Per kW & Installed Cost'
+title: "Solar Panel Price in India 2026: Per Watt, Brand and Wattage"
 excerpt: Compare dated solar panel prices in ₹/W and ₹/kWp with the official installed-system benchmark, subsidy treatment and quote exclusions.
-description: Compare dated solar panel prices in ₹/W and ₹/kWp with the official installed-system benchmark, subsidy treatment and quote exclusions.
+description: "Solar panel price in India per watt, per panel and per kW: dated prices for Waaree, Adani, Tata, Luminous and Goldi, DCR vs non-DCR, 5% GST and installed cost."
 category: Buying Guide
 date: 2026-07-23
 updatedDate: 2026-09-26

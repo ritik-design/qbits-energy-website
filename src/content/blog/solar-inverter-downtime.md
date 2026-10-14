@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Downtime: Diagnosis and Escalation"
 excerpt: "managing inverter downtime with a safety-first process and evidence checks instead of unsupported failure rates or service promises."
-description: "managing inverter downtime with a safety-first process and evidence checks instead of unsupported failure rates or service promises."
+description: "How to diagnose solar inverter downtime safely and escalate it, with a checklist for logging faults and verifying the service support you are promised."
 category: "Maintenance"
 date: 2026-09-23
 updatedDate: 2026-09-23

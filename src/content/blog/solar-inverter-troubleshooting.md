@@ -1,7 +1,7 @@
 ---
-title: 'Solar Inverter Troubleshooting: 15 Symptoms and Next Steps'
+title: "Solar Inverter Troubleshooting: 15 Common Problems"
 excerpt: "Solar inverter troubleshooting in order: safe isolation, status lights, a triage ladder, and how to tell an inverter fault from an array fault."
-description: Diagnose solar inverter symptoms safely and in the right order. Read the status indicators, run the triage ladder, separate inverter from array from grid from monitoring, then collect the evidence support will ask for.
+description: "Diagnose 15 common solar inverter problems safely: low output, tripping, overheating, earth faults, communication errors and hybrid battery faults."
 category: Maintenance
 date: 2026-03-13
 updatedDate: 2026-09-24
@@ -33,7 +33,6 @@ faqs:
   a: Treat smoke, a burning smell, audible arcing, visible scorching, water inside an enclosure, or a repeatedly tripping breaker as urgent. Stop troubleshooting, keep people away, and follow the site isolation procedure with qualified help. Insulation resistance, ground fault, and arc fault alarms also warrant a stop, because they indicate a possible electrical safety defect rather than a performance issue.
 - q: How often should a rooftop solar inverter be serviced?
   a: Most inverter problems in India are environmental, so a pre-monsoon and a pre-summer check covers the majority of cases. Each check should cover ventilation clearance, heat sink cleanliness, cable entry seals, earthing continuity, and a review of the monitoring history for warnings that never became faults. Logging derating events before they become shutdowns is the cheapest maintenance there is.
-seoTitle: 'Solar Inverter Troubleshooting: Symptom Checklist'
 relatedSlugs:
 - solar-inverter-error-codes-guide
 - solar-inverter-low-output-causes-india

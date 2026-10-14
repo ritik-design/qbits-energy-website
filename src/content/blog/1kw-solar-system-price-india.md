@@ -1,8 +1,7 @@
 ---
-title: '1 kW Solar System Cost in India: A Sourced Breakdown'
-seoTitle: '1 kW Solar System Price in India: Cost Before and After Subsidy'
+title: "1kW Solar System Price in India 2026: Cost Breakdown"
 excerpt: Understand 1 kW solar cost in India by separating panel-only, equipment-only, installed, pre-subsidy and post-subsidy figures.
-description: A sourced 1 kW solar system cost guide for India, with dated panel examples, the MNRE benchmark, CFA arithmetic and an itemised quote checklist.
+description: "1kW solar system price in India 2026: panel, inverter and installation cost breakdown, MNRE benchmark, 1 kW PM Surya Ghar subsidy and expected generation."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-09-26

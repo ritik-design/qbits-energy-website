@@ -1,7 +1,7 @@
 ---
-title: GST on Solar Inverters and Panels 2026
+title: "GST on Solar Inverters and Panels 2026"
 excerpt: "GST on solar inverter quotes: the 5% entry 437, heading 8504 at 18%, the 70:30 split, input tax credit, and a compliant invoice."
-description: "GST on solar inverter quotes: the 5% entry 437, heading 8504 at 18%, the 70:30 split, input tax credit, and a compliant invoice."
+description: "GST on solar inverters and panels in 2026: the 5% rate for specified solar devices since 22 Sep 2025, HSN codes, the 70:30 rule, ITC and invoices."
 category: Policy
 date: 2026-06-05
 updatedDate: 2026-09-24
@@ -34,7 +34,6 @@ faqs:
   a: No. The MNRE operational guidelines state that the CFA is provided irrespective of the size of the inverter installed. Assistance is computed on the rated DC capacity of the module system, not on inverter capacity. The inverter must still meet the technical specification defined in the scheme. Scheme conditions, timelines, and any state top-up vary by State and DISCOM.
 - q: What must a GST invoice for solar equipment show?
   a: Rule 46 of the CGST Rules, 2017 lists the particulars. They include the supplier's GSTIN, a unique serial number, the date of issue, the recipient's details, the HSN code, the description, the quantity, the total value, the taxable value, the rate of tax, the amount of tax, and a signature. For an inter-State supply the invoice must also show the place of supply along with the name of the State. Check that the final invoice repeats the same descriptions and classifications as the quote you accepted.
-seoTitle: 'Solar GST Rates & HSN: Panels, Inverters, Batteries'
 relatedSlugs:
 - solar-panel-price-india
 - 5kw-hybrid-inverter-price-india

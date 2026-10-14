@@ -1,7 +1,7 @@
 ---
-title: "How to Choose a 5 kW Solar Inverter in India"
+title: "Best 5kW Solar Inverter in India 2026, Compared by Use Case"
 excerpt: "Best 5 kW solar inverter in India: load fit, single versus three phase, the 18 A current limit, DC to AC ratio, and warranty terms."
-description: "A buying guide to the best 5 kW solar inverter in India, covering generation maths, phase choice, the datasheet lines that matter, and string sizing."
+description: "Compare the best 5kW solar inverters in India by use case: on-grid, hybrid and budget models with datasheet specs, subsidy maths and sizing checks."
 category: "Buying Guide"
 date: 2026-09-23
 updatedDate: 2026-09-24

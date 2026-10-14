@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Reliability Index: Evidence Checklist"
 excerpt: "evaluating inverter reliability evidence with a safety-first process and evidence checks instead of unsupported failure rates or service promises."
-description: "evaluating inverter reliability evidence with a safety-first process and evidence checks instead of unsupported failure rates or service promises."
+description: "How to check the evidence behind a solar inverter's reliability claims: failure rates, service records and warranty documents, with a safety-first checklist."
 category: "Maintenance"
 date: 2026-09-23
 updatedDate: 2026-09-23

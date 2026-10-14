@@ -1,7 +1,7 @@
 ---
-title: 'On-Grid vs Hybrid Inverter: Which Should You Buy?'
+title: "On-Grid vs Hybrid Inverter: Which Should You Buy?"
 excerpt: Why on-grid systems go dark in an outage, what hybrid backup actually covers, and how to decide from your load list instead of a payback rule.
-description: On-grid vs hybrid solar inverters in India. Understand anti-islanding, real backup limits, added system scope, battery retrofits and PM Surya Ghar rules.
+description: "Compare on-grid and hybrid solar inverters on cost, backup and battery payback for Indian grid conditions, with a decision matrix and sourced cost examples."
 category: Comparison
 date: 2026-06-05
 updatedDate: 2026-09-23
@@ -27,7 +27,6 @@ faqs:
   a: It can, if the installation meets the current scheme conditions. MNRE bases central financial assistance on eligible installed solar module capacity, not on added battery capacity, so the battery does not increase the assistance. Vendor, domestic content, technical and DISCOM requirements still apply and vary by state.
 - q: Do I still need a separate UPS with a hybrid inverter?
   a: Possibly, for interruption sensitive equipment. A hybrid inverter transfers to backup with a short break rather than instantaneously. Desktop computers, some medical devices and certain networking equipment may still need their own UPS. Confirm the transfer behaviour for the exact model rather than assuming it is seamless.
-seoTitle: 'On-Grid vs Hybrid Solar Inverter: Which Fits?'
 relatedSlugs:
 - best-hybrid-solar-inverter-india-2026
 - battery-sizing-hybrid-solar

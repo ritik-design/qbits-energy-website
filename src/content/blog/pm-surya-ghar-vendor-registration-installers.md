@@ -1,8 +1,7 @@
 ---
-title: "PM Surya Ghar Vendor Registration for Installers"
-seoTitle: "PM Surya Ghar Vendor Registration: Installer Guide"
+title: "PM Surya Ghar Vendor Login and Registration for Installers"
 excerpt: "Choose state or national PM Surya Ghar vendor registration, prepare the referenced declaration and PBG checks, and understand your duties after approval."
-description: "An evidence-based PM Surya Ghar vendor registration guide for solar installers, covering state and national routes, documents, PBG checks, duties, and limits."
+description: "PM Surya Ghar vendor login and registration for installers: portal steps, documents and DISCOM empanelment. Homeowners: verify vendors separately."
 category: "Policy"
 date: 2026-09-26
 readTime: "12 min"

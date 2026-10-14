@@ -1,7 +1,7 @@
 ---
-title: 'Solar Insurance in India 2026: What It Covers, What It Costs, and Do You Need It'
+title: "Solar Insurance in India 2026: What It Covers, What It Costs, and Do You Need It"
 excerpt: "Solar insurance in India explained: what fire, burglary and breakdown policies cover, how home insurance treats a rooftop array, and what a claim needs."
-description: "Solar insurance in India explained: what fire, burglary and breakdown policies cover, how home insurance treats a rooftop array, and what a claim needs."
+description: "Solar insurance in India for 2026: what rooftop policies cover, who sells them, dated premium examples, what home insurance includes and how to claim."
 category: Guide
 date: 2026-07-23
 updatedDate: 2026-09-24
@@ -33,7 +33,6 @@ faqs:
 - q: Should I insure the system during installation?
   a: Yes, and it is usually the contractor's obligation. During storage, erection, and testing, an Erection All Risk or storage-cum-erection policy covers physical loss to the equipment and third-party liability. Confirm who holds it, what period it runs for, and exactly when cover shifts to your operating policy at handover. A gap between contractor cover ending and owner cover starting is common and avoidable.
 featured: false
-seoTitle: 'Solar Insurance in India: What to Check'
 relatedSlugs:
 - solar-inverter-warranty
 - solar-inverter-warranty-claim

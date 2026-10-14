@@ -3,6 +3,14 @@ import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
+import { products, type Product } from '../../data/products';
+
+// Three-phase on-grid families are the commercial and industrial range.
+const ciProducts = products.filter(p => p.category === 'on-grid' && p.phase === 'three');
+const kw = (p: Product) => (p.powerMin === p.powerMax ? `${p.powerMin} kW` : `${p.powerMin}–${p.powerMax} kW`);
+const mpptText = (p: Product) => (/\d/.test(p.mpptLabel) ? p.mpptLabel : `${p.mppt} MPPT${p.mppt > 1 ? 's' : ''}`);
+const enquiryHref = (p: Product) =>
+  `/contact-us/?subject=Product+Inquiry&model=${encodeURIComponent(p.name)}&from=%2Fc-i-solution%2F#lead-form`;
 
 const features = [
   { title: 'Three-Phase, 5 to 320 kW', desc: 'Published three-phase models run from QB 5KTLC to QB 320K-EHV. Choose the exact model for your site, grid voltage and array.', icon: 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4' },
@@ -22,15 +30,15 @@ const segments = [
 
 const roiStats = [
   { value: '5–320', label: 'Published three-phase range', suffix: ' kW' },
-  { value: '1 / 3', label: 'Connection phases', suffix: '' },
-  { value: 'Model', label: 'Verify MPPT limits', suffix: '' },
+  { value: String(ciProducts.length), label: 'Three-phase model families', suffix: '' },
+  { value: `${Math.min(...ciProducts.map(p => p.mppt))}–${Math.max(...ciProducts.map(p => p.mppt))}`, label: 'MPPTs, varies by model', suffix: '' },
   { value: 'Site', label: 'Model project ROI', suffix: '' },
 ];
 ---
 
 <Layout
-  title="Commercial & Industrial Solar Inverters | Qbits"
-  description="Evaluate Qbits inverter families for commercial and industrial projects. Check phase, AC voltage, exact-model documents and written terms before an EPC RFQ."
+  title="Qbits Commercial and Industrial Solar Inverters, 5-320 kW"
+  description="Evaluate Qbits three-phase inverter families for commercial and industrial projects: phase, AC voltage, exact-model documents and written terms."
   canonical="/c-i-solution/"
 >
   <HeaderV2 />
@@ -67,18 +75,18 @@ const roiStats = [
               Specify the Inverter for Your Project
             </h2>
             <p class="text-lg text-brand-600 font-semibold mb-6">
-              Lower Costs. Higher Returns. Sustainable Operations.
+              Match the inverter to your grid connection and array.
             </p>
             <p class="text-slate-600 leading-relaxed mb-6">
-              Qbits commercial and industrial inverters are designed for <a href="/blog/solar-inverter-for-factory/" class="text-brand-600 font-medium hover:underline">factories</a>, warehouses, offices, and <a href="https://heavengreenenergy.com/industrial-solar/" class="text-brand-600 font-medium hover:underline">large-scale installations</a>. Check the exact model limits, monitoring options and site assumptions before estimating <a href="/blog/solar-irr-payback-ci-india/" class="text-brand-600 font-medium hover:underline">return on investment</a>.
+              Qbits publishes three-phase inverter families for <a href="/blog/solar-inverter-for-factory/" class="text-brand-600 font-medium hover:underline">factories</a>, warehouses, offices, and large-scale installations. Check the exact model limits, monitoring options and site assumptions before estimating <a href="/blog/solar-irr-payback-ci-india/" class="text-brand-600 font-medium hover:underline">return on investment</a>.
             </p>
             <p class="text-slate-600 leading-relaxed mb-8">
               Published three-phase families extend from 5 kW to 320 kW. Models with multiple <a href="/glossary/mppt/" class="text-brand-600 font-medium hover:underline">MPPTs</a> may support separately designed array groups when their voltage and current limits permit. Request the current <a href="/glossary/bis-certification/" class="text-brand-600 font-medium hover:underline">BIS</a>, <a href="/glossary/iec-62109/" class="text-brand-600 font-medium hover:underline">IEC</a> and project evidence for the exact SKU instead of treating a standard cited in a datasheet as a current certificate.
             </p>
             <div class="flex flex-wrap gap-4">
               <a href="/our-products/" class="btn-primary">Explore Inverters</a>
-              <a href="/contact-us/?subject=EPC+%2F+Bulk+Supply&role=EPC+Company&from=%2Fc-i-solution%2F#lead-form" class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-slate-200 px-8 py-4 text-sm font-semibold text-slate-700 hover:border-brand-300 hover:text-brand-600 transition-all">
-                Request an Inverter Recommendation
+              <a href="/contact-us/?subject=Project+Consultation&from=%2Fc-i-solution%2F#lead-form" class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-slate-200 px-8 py-4 text-sm font-semibold text-slate-700 hover:border-brand-300 hover:text-brand-600 transition-all">
+                Discuss Your Requirements
               </a>
             </div>
           </div>
@@ -90,7 +98,76 @@ const roiStats = [
       <div class="container-main max-w-5xl">
         <h2 id="procurement-heading" class="text-2xl font-bold text-slate-900">Prepare the inverter requirement before requesting a quote</h2>
         <p class="mt-3 text-slate-600">Provide the project location, grid voltage and phase, proposed PV array, model or capacity shortlist, number of units and delivery schedule. Separate inverter AC capacity from array DC capacity and total project size.</p>
-        <p class="mt-3 text-slate-600">Check <a class="text-brand-600 underline" href="/download-datasheets/">model datasheets</a> and the <a class="text-brand-600 underline" href="/blog/inverter-suppliers-india/">EPC supplier qualification checklist</a>. The <a class="text-brand-600 underline" href="/our-products/QB-225-320K-EHV/">225–320 kW EHV family</a> specifies an 800 Vac connection; assess its transformer and grid requirements separately from low-voltage rooftop families.</p>
+        <p class="mt-3 text-slate-600">Check <a class="text-brand-600 underline" href="/download-datasheets/">model datasheets</a> and the <a class="text-brand-600 underline" href="/blog/inverter-suppliers-india/">EPC supplier qualification checklist</a>. If you are an EPC buying several units, you can <a class="text-brand-600 underline" href="/contact-us/?subject=EPC+%2F+Bulk+Supply&role=EPC+Company&from=%2Fc-i-solution%2F#lead-form">send a bulk supply enquiry</a>. The <a class="text-brand-600 underline" href="/our-products/QB-225-320K-EHV/">225–320 kW EHV family</a> specifies an 800 Vac connection; assess its transformer and grid requirements separately from low-voltage rooftop families.</p>
+      </div>
+    </section>
+
+    <!-- Model selector table -->
+    <section class="py-12 bg-white" aria-labelledby="ci-compare-heading">
+      <div class="container-main max-w-6xl">
+        <h2 id="ci-compare-heading" class="text-2xl font-bold text-slate-900">Compare three-phase models</h2>
+        <p class="mt-3 text-slate-600 max-w-3xl">Each row is a three-phase on-grid family from the published product data. The kW figure is the range across the family, and MPPT count and efficiency are as listed for it, so confirm the exact figures on the datasheet for the model you shortlist. For the high-capacity <a class="text-brand-600 underline" href="/our-products/QB-225-320K-EHV/">225–320 kW EHV family</a>, check the grid connection voltage first.</p>
+        <div class="mt-6 overflow-x-auto rounded-2xl border border-slate-200">
+          <table class="min-w-full text-left text-sm">
+            <caption class="sr-only">Qbits three-phase on-grid inverter families by capacity, MPPT count and maximum efficiency</caption>
+            <thead class="bg-slate-100 text-xs uppercase tracking-wider text-slate-600">
+              <tr>
+                <th scope="col" class="px-4 py-3 font-semibold">Model</th>
+                <th scope="col" class="px-4 py-3 font-semibold">Capacity</th>
+                <th scope="col" class="px-4 py-3 font-semibold">Phase</th>
+                <th scope="col" class="px-4 py-3 font-semibold">MPPT</th>
+                <th scope="col" class="px-4 py-3 font-semibold">Max efficiency</th>
+                <th scope="col" class="px-4 py-3 font-semibold">Details</th>
+              </tr>
+            </thead>
+            <tbody class="bg-white text-slate-700">
+              {ciProducts.map((p) => (
+                <tr class="border-t border-slate-100 align-top">
+                  <th scope="row" class="px-4 py-3 font-semibold text-slate-900"><a href={`/our-products/${p.id}/`} class="text-brand-600 hover:text-brand-700">{p.name}</a></th>
+                  <td class="px-4 py-3 whitespace-nowrap">{kw(p)}</td>
+                  <td class="px-4 py-3 whitespace-nowrap">Three-phase</td>
+                  <td class="px-4 py-3">{mpptText(p)}</td>
+                  <td class="px-4 py-3">{p.efficiency}</td>
+                  <td class="px-4 py-3 whitespace-nowrap">
+                    <a href={`/our-products/${p.id}/`} class="text-brand-600 hover:text-brand-700 font-medium">Model page</a>
+                    {p.datasheet && (<span> &middot; <a href={p.datasheet} class="text-brand-600 hover:text-brand-700 font-medium">Datasheet (PDF)</a></span>)}
+                    <span> &middot; <a href={enquiryHref(p)} class="text-brand-600 hover:text-brand-700 font-medium">Enquire</a></span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to choose -->
+    <section class="py-12 bg-slate-50" aria-labelledby="ci-choose-heading">
+      <div class="container-main max-w-6xl">
+        <h2 id="ci-choose-heading" class="text-2xl font-bold text-slate-900">How to choose a commercial or industrial inverter</h2>
+        <div class="mt-6 grid gap-6 md:grid-cols-2">
+          <div>
+            <h3 class="text-lg font-bold text-slate-900">Start from the connection</h3>
+            <p class="mt-2 text-slate-600 leading-relaxed">Note the supply voltage, sanctioned load or contract demand, and who approves the interconnection. Many DISCOMs limit solar capacity to the sanctioned load or contract demand. The <a class="text-brand-600 underline" href="/blog/3-phase-solar-inverter/">three-phase inverter buyer guide</a> covers what to check on a three-phase connection.</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-slate-900">Separate AC and DC capacity</h3>
+            <p class="mt-2 text-slate-600 leading-relaxed">The inverter's AC rating, the array's DC size and the total project size are three different numbers. Choose the inverter count from the AC load and the connection, then check the array fits within each model's input limits. <a class="text-brand-600 underline" href="/blog/solar-inverter-for-factory/">Solar inverters for factories</a> walks through typical industrial loads.</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-slate-900">Plan MPPTs around roof zones</h3>
+            <p class="mt-2 text-slate-600 leading-relaxed">Give each roof zone with a different tilt, orientation or shading its own MPPT where you can. A mid-size example is <a class="text-brand-600 underline" href="/our-products/QB-30-40KTLC-Pro/">QB 30/33/36/40KTLC-Pro</a>, a three-phase family listed with 3 MPPTs and a maximum efficiency of 98.6–98.7% by model. Larger roofs may suit families with more MPPTs, as the table shows.</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-slate-900">Check strings and the business case</h3>
+            <p class="mt-2 text-slate-600 leading-relaxed">Check string voltage and current against each MPPT's limits using the <a class="text-brand-600 underline" href="/string-sizing-calculator/">string sizing calculator</a> as a first screen. When you estimate returns, use your own tariff, load and installed cost, as in <a class="text-brand-600 underline" href="/blog/solar-irr-payback-ci-india/">solar IRR and payback for C&amp;I</a>.</p>
+          </div>
+        </div>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="/contact-us/?subject=Project+Consultation&from=%2Fc-i-solution%2F#lead-form" class="btn-primary">Discuss Your Requirements</a>
+          <a href="/download-datasheets/" class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-slate-200 px-8 py-4 text-sm font-semibold text-slate-700 hover:border-brand-300 hover:text-brand-600 transition-all">Download Datasheets</a>
+        </div>
+        <p class="mt-6 text-slate-600">Installers and dealers who want to supply these models can <a class="text-brand-600 underline" href="/become-our-partner/">apply to become a Qbits partner</a>.</p>
       </div>
     </section>
 
@@ -101,11 +178,11 @@ const roiStats = [
         <div class="text-center max-w-2xl mx-auto mb-12">
           <span class="section-label justify-center text-brand-400">
             <span class="w-8 h-px bg-brand-400"></span>
-            ROI
+            Range
             <span class="w-8 h-px bg-brand-400"></span>
           </span>
           <h2 id="roi-heading" class="text-3xl sm:text-4xl font-bold text-white mt-6">
-            Numbers That Matter
+            The Three-Phase Range at a Glance
           </h2>
         </div>
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
@@ -156,7 +233,7 @@ const roiStats = [
             <span class="w-8 h-px bg-brand-500"></span>
           </span>
           <h2 id="segment-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
-            Industries We Serve
+            Where Three-Phase Inverters Are Used
           </h2>
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -180,10 +257,10 @@ const roiStats = [
       <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
       <div class="container-main relative text-center max-w-3xl">
         <h2 class="text-3xl sm:text-4xl font-bold mb-6">Ready to Shortlist Your Project’s Inverters?</h2>
-        <p class="text-lg text-brand-100 mb-10">Share your project requirements and request model-specific pricing, availability and documents.</p>
+        <p class="text-lg text-brand-100 mb-10">Share your project requirements and request model-specific pricing, availability and documents. Pricing is quoted for the exact model.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="/contact-us/?subject=EPC+%2F+Bulk+Supply&role=EPC+Company&from=%2Fc-i-solution%2F#lead-form" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-brand-600 shadow-lg hover:bg-brand-50 transition-all">Request a Project Inverter Quote</a>
-          <a href="/our-products/" class="btn-outline">View Products</a>
+          <a href="/contact-us/?subject=Project+Consultation&from=%2Fc-i-solution%2F#lead-form" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-brand-600 shadow-lg hover:bg-brand-50 transition-all">Discuss Your Requirements</a>
+          <a href="/download-datasheets/" class="btn-outline">Download Datasheets</a>
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 ---
 term: DISCOM
-title: 'DISCOM: Meaning and Role in Indian Rooftop Solar'
-description: A DISCOM is an electricity distribution company. Learn its role in service connections, rooftop-solar approval, metering and billing.
+title: "DISCOM: Definition, Role, Functions & Solar Net Metering Process in India"
+description: "A DISCOM is an electricity distribution company that delivers power to retail consumers. Guide to role, structure and solar net metering process."
 category: Regulatory
 categorySlug: regulatory
 priority: P0

@@ -1,7 +1,7 @@
 ---
 term: "GST on Solar"
 title: "GST on Solar: Definition, Rates & Indian Solar Cost Impact"
-description: "GST on solar equipment is 12 percent for modules and inverters. Full guide to rates and project cost impact."
+description: "Solar GST is 5 percent on panels and complete solar systems since 22 September 2025, down from 12 percent. Installation services are taxed at 18 percent."
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"

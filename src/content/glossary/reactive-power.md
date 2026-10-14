@@ -60,7 +60,6 @@ faqs:
   - q: "Are central inverters used for reactive support?"
     a: "Yes. Utility-scale central inverters often serve as STATCOM-like reactive sources at the plant point of coupling."
 author: "Keyur Rakholiya"
-seoTitle: "Reactive Power: Meaning and Solar Inverter Power Factor"
 ---
 
 ## What is reactive power

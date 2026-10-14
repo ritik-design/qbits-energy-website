@@ -64,7 +64,6 @@ faqs:
   - q: "Are central inverters cheaper than string per watt?"
     a: "They were cheaper by 15 to 25 percent before 2020. By 2025 the price gap has shrunk to 5 to 10 percent, and many developers consider string the better lifecycle cost option."
 author: "Nirav Dhanani"
-seoTitle: "Central Inverter: How It Works and String Inverter Comparison"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

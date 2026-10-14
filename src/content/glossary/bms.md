@@ -64,7 +64,6 @@ faqs:
   - q: "Are open-source BMS reliable?"
     a: "Some are well-engineered. For safety-critical applications, certified commercial BMS is recommended."
 author: "Nirav Dhanani"
-seoTitle: "Battery Management System (BMS): Functions and Solar Storage"
 ---
 
 ## What is a BMS

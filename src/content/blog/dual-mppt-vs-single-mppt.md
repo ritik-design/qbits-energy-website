@@ -1,7 +1,7 @@
 ---
-title: Dual MPPT vs Single MPPT, When You Actually Need It
+title: "Dual MPPT vs Single MPPT, When You Actually Need It"
 excerpt: Two trackers help on split roofs and mismatched strings, and change nothing on a uniform array. How to tell which case you are in before you pay for it.
-description: Understand single vs dual MPPT solar inverters. Decide from roof orientation, shading and string voltage limits, using the exact inverter datasheet.
+description: "Dual MPPT vs single MPPT for Indian rooftops: east-west splits, partial shading, cost premium and a decision flowchart, with exact datasheet examples."
 category: Technology
 date: 2026-06-05
 readTime: 9 min
@@ -27,7 +27,6 @@ faqs:
   a: The QB-4/5/6KTLD datasheet identifies a single phase family with two MPPTs, 20 A maximum input current per tracker, 550 V maximum DC voltage and an 80 to 550 V MPPT range. The QB-4.6/5/6KTLS datasheet is a separate single MPPT family. Confirm the exact variant being quoted.
 - q: Can I add a second string to an unused MPPT later?
   a: Only within the inverter's rated limits for voltage, current and total PV power, and only if the design still satisfies protection requirements. An unused tracker is not an open invitation to expand. Have the addition checked against the datasheet and the approved design before ordering modules.
-seoTitle: 'Single vs Dual MPPT: When Two Trackers Help'
 relatedSlugs:
 - mppt
 - solar-inverter-sizing

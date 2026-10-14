@@ -1,7 +1,7 @@
 ---
-title: 'Free Solar Panel Scheme: What the Government Actually Offers in 2026'
+title: "Free Solar Panel Scheme: What the Government Actually Offers in 2026"
 excerpt: There is no free panel giveaway. What PM Surya Ghar actually pays, what you still fund, and how to tell a real offer from a harvesting scam.
-description: Is the free solar panel scheme real? What PM Surya Ghar central assistance actually covers, what homeowners still pay, and how to verify an offer before signing.
+description: "Is the free solar panel scheme real? What PM Surya Ghar central assistance covers, loan and RESCO routes, and the red flags of a solar scam."
 category: Policy
 date: 2026-07-23
 updatedDate: 2026-09-23
@@ -29,7 +29,6 @@ faqs:
 - q: Where should I verify an offer?
   a: The official PM Surya Ghar portal and your DISCOM. Verify the vendor's registration through the official route rather than a certificate image sent on WhatsApp, and confirm the exact equipment documents separately. The portal and the DISCOM control the decision, not the installer.
 featured: false
-seoTitle: 'Free Solar Panel Scheme in India: What It Means'
 relatedSlugs:
 - pm-surya-ghar-yojana-complete-guide
 - empanelled-vendor-pm-surya-ghar

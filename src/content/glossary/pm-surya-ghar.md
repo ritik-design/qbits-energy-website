@@ -64,7 +64,6 @@ faqs:
   - q: "What states are most active under PM Surya Ghar?"
     a: "Gujarat, Maharashtra, Uttar Pradesh, Rajasthan, Andhra Pradesh and Karnataka are the highest-volume states. Implementation pace varies by DISCOM readiness."
 author: "Nirav Dhanani"
-seoTitle: "PM Surya Ghar: Eligibility, Subsidy and Application Guide"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

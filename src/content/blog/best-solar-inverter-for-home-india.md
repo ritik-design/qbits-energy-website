@@ -1,8 +1,7 @@
 ---
-title: "How to Choose a Solar Inverter for Your Home"
-seoTitle: "How to Choose a Solar Inverter for Home in India"
+title: "Best Solar Inverter for Home in India 2026, by Home Size"
 excerpt: "Choose a home solar inverter by backup need, grid phase, array design, roof layout and written product terms, not by BHK size or brand rank alone."
-description: "A practical decision tree for choosing an on-grid or hybrid solar inverter for an Indian home, including sizing, phase, MPPT, warranty and handover checks."
+description: "Match your home to the right solar inverter: typical kW for 1BHK to villa, on-grid vs hybrid for power-cut areas, phase, and exact models to shortlist."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-09-26

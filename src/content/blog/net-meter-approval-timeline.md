@@ -1,7 +1,7 @@
 ---
-title: 'Net Meter Approval Time in India 2026: DISCOM Timelines and How to Speed It Up'
+title: "Net Meter Approval Time in India 2026: DISCOM Timelines and How to Speed It Up"
 excerpt: 'Net meter approval time in India, stage by stage: the statutory DISCOM clocks, where applications actually stall, and how to escalate a delay.'
-description: 'Net meter approval time in India, stage by stage: the statutory DISCOM clocks, where applications actually stall, and how to escalate a delay.'
+description: "How long solar net meter approval takes in India in 2026: official vs actual DISCOM timelines, where applications stall and how to escalate."
 category: Guide
 date: 2026-07-23
 updatedDate: 2026-09-24
@@ -37,7 +37,6 @@ faqs:
 - q: What documents cause the most avoidable delays?
   a: Mismatches between the approved proposal and the installed equipment are the single most avoidable cause. That includes inverter model numbers, serial numbers, and installed capacity. Sanctioned load is the second, because most state regulations cap system capacity at or below the sanctioned load or contract demand. Missing test reports, an unsigned interconnection agreement, and an unseeded bank account round out the list.
 featured: false
-seoTitle: 'Net Meter Approval Timeline: Every Stage, Explained'
 relatedSlugs:
 - how-to-apply-net-metering-india
 - gross-metering-vs-net-metering

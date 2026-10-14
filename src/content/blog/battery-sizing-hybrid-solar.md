@@ -1,7 +1,7 @@
 ---
-title: How to Size a Battery for a Hybrid Solar Inverter
+title: "How to Size a Battery for a Hybrid Solar Inverter"
 excerpt: Size a hybrid battery from measured loads, backup hours, usable capacity and losses. Check a worked example, power limits and battery compatibility.
-description: Size a hybrid battery from measured loads, backup hours, usable capacity and losses. Check a worked example, power limits and battery compatibility.
+description: "Hybrid inverter battery sizing guide for Indian homes: load calculation, DoD, C-rate limits, 48V vs 96V systems, and LFP vs lead-acid comparison."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-09-23
@@ -27,7 +27,6 @@ faqs:
   a: Only if it can also recharge between outages. A battery sized for one long outage may be of little use in a run of repeated cuts if there is insufficient generation and time to recharge in between. Check the available charging window, not just the capacity.
 - q: Does the battery need to run my air conditioner?
   a: Decide that explicitly, because it changes the design substantially. Air conditioners draw a large running load and a much larger starting surge, which pushes both the battery discharge current and the inverter surge requirement up. Many backup designs deliberately exclude them for that reason.
-seoTitle: 'Hybrid Solar Battery Sizing: Loads, kWh & Runtime'
 relatedSlugs:
 - best-solar-battery-brands-india-2026
 - inverter-battery-connection-diagram

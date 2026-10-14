@@ -1,7 +1,7 @@
 ---
 title: How to Apply for Net Metering in India
 excerpt: The stage by stage DISCOM route, the documents that actually get checked, and the rejection causes that send applications back to the start.
-description: How to apply for net metering in India. DISCOM application stages, required documents, technical feasibility, common rejection causes and meter commissioning.
+description: "Step-by-step guide to applying for net metering in India: the 6-step process, required documents, DISCOM portals, timelines and common rejection reasons."
 category: Policy
 date: 2026-06-05
 updatedDate: 2026-09-23

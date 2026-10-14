@@ -173,8 +173,8 @@ for (const v of INVERTERS) {
 ---
 
 <Layout
-  title="Solar Inverter String and Battery Sizing Calculator | Qbits"
-  description="Screen PV string voltage, per-MPPT current and hybrid battery assumptions using stored equipment data. Download inputs and results for exact-model engineering review."
+  title="Solar Panel String Sizing Calculator (PV Voltage and MPPT)"
+  description="Check PV string voltage, per-MPPT current and DC/AC ratio for Qbits inverters using stored 550–715 W modules. Download inputs and results for review."
   canonical="/string-sizing-calculator/"
 >
   <HeaderV2 />
@@ -199,7 +199,7 @@ for (const v of INVERTERS) {
           </div>
           <div>
             <h2 class="text-xl sm:text-2xl font-bold text-slate-900 leading-tight">Solar String and Battery Sizing Calculator</h2>
-            <p class="text-slate-500 mt-1">Run a preliminary string screen, then verify the exact documents and project design.</p>
+            <p class="text-slate-500 mt-1">Pick a module and a Qbits inverter, enter the module count and your site's module temperatures, and see how the modules could be split into strings across the MPPTs. It is a first screen: check the result against the module and inverter datasheets and your site conditions before you design or buy.</p>
           </div>
         </div>
 
@@ -308,17 +308,23 @@ for (const v of INVERTERS) {
 
       </div>
     </section>
-  </main>
 
-  <section class="container-main py-12 max-w-4xl prose prose-slate">
-    <h2>How to use this solar string calculator</h2>
+    <section class="container-main py-12 max-w-4xl prose prose-slate" aria-labelledby="calc-guide-heading">
+    <h2 id="calc-guide-heading">How to use this solar string calculator</h2>
     <p>Select the exact panel and inverter, enter the module count and project-specific module temperatures, then review each MPPT separately. Cold-corrected open-circuit voltage must stay within all applicable equipment limits; hot operating voltage must remain in the tracking window.</p>
     <p>For an illustrative module with 50 V Voc and a −0.25%/°C coefficient at −5°C, corrected Voc is 53.75 V. Ten modules in series give 537.5 V. Compare that with the inverter, module and other equipment limits before adding design margins. This example is not a model recommendation.</p>
+    <h2>What it calculates</h2>
+    <p>For the module and inverter you pick, the tool works out a string size, how many strings and modules go on each MPPT, the voltage window across your temperature range, the per-MPPT current against the stored limit, and the DC/AC ratio with an illustrative peak-clipping comparison. For hybrid systems it also estimates battery energy from your backup loads, in illustrative 5&nbsp;kWh units. You can download the inputs and results as a JSON file.</p>
+    <h2>What you enter</h2>
+    <p>System type (on-grid or hybrid), one of the stored modules (Adani, Vikram Solar and Waaree, 550 W to 715 W), a Qbits inverter, the number of modules, and the minimum and maximum module temperature. Hybrid mode adds backup loads, depth of discharge, backup days and a battery-to-load efficiency assumption. The default temperatures are illustrations and should be replaced with your site's values.</p>
     <h2>What the result does and does not check</h2>
     <p>This is a preliminary voltage and current screen. The stored catalogue values require verification against the supplied model revision. Short-circuit current is conservatively screened against the stored operating-current limit because separate certified Isc limits are not available in this dataset. A result is not a complete electrical design or approval.</p>
-    <p>Verify maximum permitted PV power, module system-voltage limits, bifacial current uplift, design factors, cable and fuse ratings, protection, startup/full-power tracking requirements, battery discharge power and local utility rules separately. Peak clipping is an illustrative power comparison, not an annual energy forecast.</p>
-    <p>Use the <a href="/download-datasheets/">Qbits datasheets</a>, <a href="/blog/how-to-read-solar-inverter-datasheets/">datasheet guide</a> and <a href="/blog/battery-sizing-hybrid-solar/">battery-sizing worksheet</a>. For a project check, <a href="/contact-us/">send the exact equipment documents and layout to Qbits</a>.</p>
+    <p>Verify maximum permitted PV power, module system-voltage limits, bifacial current uplift, design factors, cable and fuse ratings, protection, startup/full-power tracking requirements, battery discharge power and local utility rules separately. Peak clipping is an illustrative power comparison, not an annual energy forecast. The battery estimate sizes energy only; it does not compare your load power with the inverter's off-grid rating or battery current limits.</p>
+    <h2>Check the result against the documents</h2>
+    <p>Open the <a href="/download-datasheets/">Qbits inverter datasheets</a> for the exact model and compare MPPT voltage window, current limits and MPPT count. Browse <a href="/on-grid-inverter/">on-grid inverters</a> or <a href="/hybrid-inverter/">hybrid inverters</a> to compare families, and see the <a href="/blog/how-to-read-solar-inverter-datasheets/">datasheet guide</a> and <a href="/blog/battery-sizing-hybrid-solar/">battery-sizing worksheet</a>. After you calculate, the result panel links the matching model page and datasheet, and you can <a href="/contact-us/">send the equipment documents and layout to Qbits</a> for a technical review.</p>
   </section>
+  </main>
+
   <Footer />
 </Layout>
 

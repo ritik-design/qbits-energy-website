@@ -63,7 +63,6 @@ faqs:
   - q: "What is the future of LeTID?"
     a: "Industry transition to TOPCon n-type largely eliminates LeTID concerns. Legacy PERC modules with potential LeTID remain in field."
 author: "Nirav Dhanani"
-seoTitle: "LeTID: Light and Temperature-Induced Module Degradation"
 ---
 
 ## What is LeTID

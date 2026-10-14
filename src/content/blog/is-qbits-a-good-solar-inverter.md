@@ -1,6 +1,6 @@
 ---
 title: "Is Qbits a Good Solar Inverter? What Buyers Should Verify"
-seoTitle: "Is Qbits a Good Solar Inverter? Evidence-Based Review"
+seoTitle: "Is Qbits a Good Solar Inverter? An Honest Buyer's Review"
 excerpt: "A transparent Qbits inverter review based on current model documents, with the warranty, certificate, battery, monitoring and service evidence buyers should request."
 description: "Is Qbits a good solar inverter? Review exact Qbits specifications, known evidence gaps and the documents to verify before choosing an on-grid or hybrid model."
 category: "Buying Guide"

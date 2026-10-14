@@ -1,7 +1,7 @@
 ---
-title: PM Surya Ghar Muft Bijli Yojana, Complete 2026 Guide
+title: "PM Surya Ghar Muft Bijli Yojana, Complete 2026 Guide"
 excerpt: PM Surya Ghar explained, MNRE subsidy slabs, eligibility, documents, the DISCOM journey, real timelines, and what the scheme does not cover.
-description: PM Surya Ghar explained, MNRE subsidy slabs, eligibility, documents, the DISCOM journey, real timelines, and what the scheme does not cover.
+description: "PM Surya Ghar Muft Bijli Yojana 2026: MNRE subsidy slabs, eligibility, documents, application steps, vendor choice, inspection and the price list."
 category: Policy
 date: 2026-06-05
 updatedDate: 2026-09-24
@@ -35,7 +35,6 @@ faqs:
   a: Off-grid installations are not eligible for central assistance under the scheme. Grid-connected systems that do not export, including battery hybrid systems, can be eligible subject to approval by the state electricity regulatory commission, with the DISCOM verifying reverse power relay protection. Adding a battery does not create a separate grant, because assistance is still calculated on installed module capacity.
 - q: What happens if I already took a rooftop subsidy earlier?
   a: You can claim only on the balance capacity, and only up to 3 kW of overall plant size. The guidelines give a worked case, a household with 1 kW under Phase II that expands to 4 kW can claim on the additional 2 kW, which is ₹48,000. A system is eligible for assistance only once after installation. A relocated or shifted system is not eligible.
-seoTitle: 'PM Surya Ghar 2026: Slabs, Eligibility, Process, Timelines'
 relatedSlugs:
 - pm-surya-ghar-eligibility
 - pm-surya-ghar-documents-required

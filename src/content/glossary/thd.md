@@ -1,7 +1,7 @@
 ---
 term: Total Harmonic Distortion (THD)
-title: 'THD: Total Harmonic Distortion in Solar Inverters'
-description: THD measures harmonic distortion relative to the fundamental waveform. See the formula, a checked example, THD versus TDD and what an inverter datasheet claim means.
+title: "THD (Total Harmonic Distortion): Definition, Formula, Limits & Solar Inverter Applications"
+description: "THD measures harmonic content in voltage or current. Guide to formula, IEEE 519 limits, measurement and Indian solar inverter compliance."
 category: Power Quality
 categorySlug: power-quality
 priority: P1

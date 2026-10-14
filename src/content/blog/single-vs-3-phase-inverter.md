@@ -1,7 +1,7 @@
 ---
-title: 'Single-Phase vs 3-Phase Solar Inverter: Which Fits?'
+title: "Single-Phase vs 3-Phase Solar Inverter: Which Fits?"
 excerpt: How to read your sanctioned connection, why phase-wise netting can cost you credits, and when a three-phase inverter is actually required.
-description: Single-phase vs three-phase solar inverters in India. Check your sanctioned connection, understand phase-wise net metering, and match the inverter correctly.
+description: "Single-phase vs 3-phase solar inverter: identify your connection type, DISCOM capacity limits by phase, and which inverter series fits your home or business."
 category: Comparison
 date: 2026-06-05
 updatedDate: 2026-09-23
@@ -28,7 +28,6 @@ faqs:
 - q: Can I upgrade from single-phase to three-phase later?
   a: Usually yes, by applying to the DISCOM for a connection change, but it is an application with cost, inspection and possibly a meter change. If your load is close to the threshold or you expect to add heavy equipment, settle the connection question before buying the inverter rather than after.
 featured: false
-seoTitle: Single vs Three-Phase Solar Inverters
 relatedSlugs:
 - on-grid-inverter
 - solar-inverter-sizing

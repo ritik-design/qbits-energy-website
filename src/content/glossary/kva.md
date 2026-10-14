@@ -1,7 +1,7 @@
 ---
 term: kVA
-title: 'kVA vs kW: Apparent Power and Inverter Sizing'
-description: kVA measures apparent AC power; kW measures active power. See single-phase and three-phase formulas, a checked example and what an inverter rating means.
+title: "kVA (Kilovolt-Ampere): Definition, Calculation & Solar Applications"
+description: "kVA is the unit of apparent power in AC circuits. Guide to calculation and solar inverter/transformer applications."
 category: Electrical Basics
 categorySlug: electrical-basics
 priority: P2

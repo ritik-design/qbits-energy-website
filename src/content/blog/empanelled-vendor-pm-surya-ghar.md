@@ -1,8 +1,7 @@
 ---
-title: "How to Verify a PM Surya Ghar Vendor Before You Pay"
-seoTitle: "PM Surya Ghar Vendor List: Verify a Vendor"
+title: "PM Surya Ghar Vendor List: How to Check a Vendor District-Wise"
 excerpt: "Check a PM Surya Ghar vendor on the official portal, match the business to its quote and understand what registration does not guarantee."
-description: "A homeowner's PM Surya Ghar vendor verification checklist covering the official portal, business identity, quote scope and Qbits service partners."
+description: "How to find and verify a PM Surya Ghar empanelled vendor on the official portal: district-wise vendor list, name check, red flags, documents and complaints."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-09-26

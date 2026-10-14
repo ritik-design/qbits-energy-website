@@ -1,7 +1,7 @@
 ---
 term: "Bidirectional Meter"
-title: "Bidirectional Meter: Solar Import and Export"
-description: "A bidirectional electricity meter records grid import and solar export separately. Learn what to read and what to confirm with your DISCOM."
+title: "Bidirectional Meter: Definition, Meaning, How It Works, Benefits & Applications"
+description: "A bidirectional meter records both energy import and export for net-metered solar customers. Complete guide to working, accuracy and Indian installation."
 category: "Metering and Grid"
 categorySlug: "metering-grid"
 priority: "P1"

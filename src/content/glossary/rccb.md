@@ -63,7 +63,6 @@ faqs:
   - q: "Are RCCBs BIS-certified?"
     a: "Yes. IS 12640-1 covers AC RCCBs. Manufacturer must hold BIS license."
 author: "Nirav Dhanani"
-seoTitle: "RCCB: Residual Current Protection in Solar Installations"
 ---
 
 ## What is an RCCB

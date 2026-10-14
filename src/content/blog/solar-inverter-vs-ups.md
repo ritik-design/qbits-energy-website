@@ -1,7 +1,7 @@
 ---
 title: Solar Inverter vs UPS, What's the Real Difference?
 excerpt: Three different machines get called inverters in India. Which one keeps your computer alive through a cut, and why transfer time decides it.
-description: Solar inverter vs UPS vs home inverter in India. Transfer time, backup behaviour, runtime versus power rating, surge limits and which equipment needs which.
+description: "Solar inverter vs UPS vs home inverter in India: transfer time, backup behaviour, runtime vs power rating, hybrid inverters and the common buyer mistake."
 category: Comparison
 date: 2026-06-05
 updatedDate: 2026-09-23
@@ -27,7 +27,6 @@ faqs:
   a: Not directly. A UPS expects an AC input and manages its own battery internally. Connecting PV to it is not a supported arrangement. The correct approaches are either a hybrid solar inverter with a battery, or a solar system that feeds the building while a separate UPS protects specific equipment.
 - q: Do I need both a hybrid inverter and a UPS?
   a: Often yes, and that is a reasonable design rather than a redundancy. The hybrid inverter carries general backup loads through a cut, while a small UPS bridges the transfer break for equipment that cannot tolerate it, such as a desktop computer, a router or certain medical devices.
-seoTitle: 'Solar Inverter vs UPS: Backup and Transfer'
 relatedSlugs:
 - on-grid-vs-hybrid
 - battery-sizing-hybrid-solar

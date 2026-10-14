@@ -1,7 +1,7 @@
 ---
-title: 'MNRE Rooftop Solar Scheme: Structure, CFA and Who Approves What'
+title: "MNRE Rooftop Solar Scheme, Complete 2026 Guide"
 excerpt: How the MNRE rooftop solar scheme is built, Phase II components, CFA routing through DISCOMs, registered vendors, and which body approves what.
-description: The MNRE rooftop solar scheme explained as an institution. Phase II components, CFA routing, the roles of MNRE, REC, SECI, state agencies and DISCOMs.
+description: "MNRE rooftop solar scheme 2026: PM Surya Ghar CFA slabs, official guideline and specification PDFs, vendor registration, DISCOM steps and who approves what."
 category: Policy
 date: 2026-06-05
 updatedDate: 2026-09-24
@@ -34,7 +34,6 @@ faqs:
   a: Net metering is a Ministry of Power and state regulator subject, not an MNRE one. The Electricity (Rights of Consumers) Amendment Rules, 2021 permit net metering up to 500 kW or the sanctioned load, whichever is lower. The actual metering, banking, and settlement arrangement follows regulations made by your State Electricity Regulatory Commission. Gujarat's regulator, for example, has allowed rooftop net metering from 1 kW to 1 MW.
 - q: How far along is the programme against its target?
   a: Grid connected rooftop capacity stood at 32.59 GW as on 31.08.2026 against the programme objective of 40,000 MW, according to MNRE's physical progress data. PM Surya Ghar accounted for 39,38,805 systems serving 47,47,341 households as on 20.07.2026, with ₹27,323.55 crore disbursed. More than 65 lakh applications were still pending as of June 2026. The gap between applications and completed installations is where the programme is slowest.
-seoTitle: 'MNRE Rooftop Solar Scheme: Structure, CFA and Roles'
 relatedSlugs:
 - pm-surya-ghar-yojana-complete-guide
 - empanelled-vendor-pm-surya-ghar

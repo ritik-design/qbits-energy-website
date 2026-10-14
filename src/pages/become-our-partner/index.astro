@@ -17,11 +17,63 @@ const indianStates = [
   'Andaman and Nicobar Islands', 'Chandigarh', 'Dadra and Nagar Haveli and Daman and Diu', 'Delhi',
   'Jammu and Kashmir', 'Ladakh', 'Lakshadweep', 'Puducherry',
 ];
+
+// Visible FAQ (also emitted as FAQPage JSON-LD below). Answers state only what the page and site already say.
+const partnerFaqs = [
+  {
+    q: 'Who can apply to become a Qbits partner?',
+    a: 'The application has four business types: dealer, distributor, EPC and system integrator. Pick the one that matches how your business actually buys and sells solar inverters.',
+  },
+  {
+    q: 'What happens after I submit the application?',
+    a: 'The Qbits team reviews the details you submitted and contacts you about the relevant partner route. Submitting does not guarantee an appointment, and this page does not state a response time.',
+  },
+  {
+    q: 'Which fields are required?',
+    a: 'Company name, registered address, official business email, a 10-digit WhatsApp number and a GST number. State and city are optional, as are the business, infrastructure, financial and sales questions.',
+  },
+  {
+    q: 'Does the page state margins, territories or minimum orders?',
+    a: 'No. Qbits does not publish margins, territories, incentives, training, minimum orders or lead commitments on this page. Ask the partner team directly and get any terms you rely on in writing.',
+  },
+  {
+    q: 'Which Qbits products would I be selling?',
+    a: 'Qbits publishes on-grid inverters from 1.5 kW to 320 kW and hybrid inverters from 3 kW to 12 kW. Browse the model pages and datasheets before you apply.',
+  },
+  {
+    q: 'Can I ask a question before filling in the full form?',
+    a: 'Yes. Use the short dealer, distributor or EPC enquiry buttons above the form, or message the team on WhatsApp.',
+  },
+];
+const partnerFaqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: partnerFaqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+
+// Dealer guides already published on this site (all exist under src/content/blog).
+const dealerGuides = [
+  { href: '/blog/how-to-become-a-solar-inverter-partner-in-india/', label: 'How to become a Qbits solar inverter dealer in India' },
+  { href: '/blog/qbits-partner-application-guide/', label: 'What the Qbits partner application asks and why' },
+  { href: '/blog/become-qbits-distributor/', label: 'How to become a Qbits solar inverter distributor' },
+  { href: '/blog/dealer-vs-distributor-vs-epc/', label: 'Dealer vs distributor vs EPC vs system integrator' },
+  { href: '/blog/solar-dealer-agreement-checklist/', label: 'Solar dealer agreement: territory, termination and buyback checklist' },
+  { href: '/blog/solar-distributor-credit-territory-terms/', label: 'Distributor credit and territory terms: a practical review guide' },
+  { href: '/blog/solar-dealer-margin-india/', label: 'Solar dealer margins in India: what is actually published?' },
+  { href: '/blog/solar-dealership-investment-india/', label: 'How much investment does a solar dealership need in India?' },
+  { href: '/blog/working-capital-solar-dealers/', label: 'Working capital and stock financing for solar dealers' },
+  { href: '/blog/gst-udyam-solar-inverter-dealer/', label: 'GST and Udyam registration for solar inverter dealers' },
+  { href: '/blog/indian-inverter-partner-programmes/', label: 'Indian solar inverter partner programmes compared' },
+];
 ---
 
 <Layout
-  title="Qbits Inverter Partners: Dealers, Distributors & EPCs"
-  description="Join the Qbits Energy channel partner program. Apply as a dealer, distributor, EPC or system integrator for solar inverters across India."
+  title="Become a Qbits Solar Inverter Dealer or Distributor"
+  description="Apply to become a Qbits solar inverter dealer, distributor or EPC partner in India. Share your business details and region; terms are confirmed on approval."
   canonical="/become-our-partner/"
 >
   <HeaderV2 />
@@ -31,7 +83,7 @@ const indianStates = [
       label="Channel Partner"
       title="Become Our"
       highlight="Partner"
-      description="Apply to discuss Qbits inverter products, territory, commercial terms, training and support arrangements for your business."
+      description="Apply as a dealer, distributor, EPC or system integrator. The Qbits partner team reviews your details and contacts you to discuss the next step."
       bgImage="/homepage/built-for-india.webp"
       centered={true}
     />
@@ -47,6 +99,37 @@ const indianStates = [
         <a class="btn-primary" href="/contact-us/?subject=EPC+%2F+Bulk+Supply&role=EPC+Company&from=%2Fbecome-our-partner%2F#lead-form">EPC / Installer Enquiry</a>
       </div>
       <p class="mt-3 text-sm text-slate-500">Start with a short enquiry if you need to discuss the route first. Use the detailed application below when you are ready to share your business profile.</p>
+    </div></section>
+    <!-- Opportunity overview: product range, who applies, what happens next, what the form asks -->
+    <section class="py-12 bg-slate-50" aria-labelledby="overview-heading"><div class="container-main max-w-5xl">
+      <h2 id="overview-heading" class="text-2xl font-bold text-slate-900">What you would be selling, who applies and what happens next</h2>
+      <div class="mt-6 grid gap-6 md:grid-cols-2">
+        <div class="rounded-2xl bg-white p-6 ring-1 ring-slate-200">
+          <h3 class="text-lg font-bold text-slate-900">The Qbits product range</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed">The Qbits range is solar inverters. The published range is <a class="text-brand-600 underline" href="/on-grid-inverter/">on-grid inverters from 1.5 kW to 320 kW</a> (single-phase and three-phase, residential to utility-scale) and <a class="text-brand-600 underline" href="/hybrid-inverter/">hybrid inverters from 3 kW to 12 kW</a>. See every model on the <a class="text-brand-600 underline" href="/our-products/">products page</a>, then read the exact-model <a class="text-brand-600 underline" href="/download-datasheets/">datasheets</a>. Specifications differ by model, so check the one you plan to stock.</p>
+        </div>
+        <div class="rounded-2xl bg-white p-6 ring-1 ring-slate-200">
+          <h3 class="text-lg font-bold text-slate-900">Who the programme is for</h3>
+          <ul class="mt-2 space-y-2 text-sm text-slate-600 leading-relaxed">
+            <li><strong class="text-slate-900">Dealers:</strong> businesses that sell inverters to installers and end customers.</li>
+            <li><strong class="text-slate-900">Distributors:</strong> businesses that supply inverters on to dealers and installers.</li>
+            <li><strong class="text-slate-900">EPCs and system integrators:</strong> companies that design and install solar systems and buy inverters for those projects.</li>
+          </ul>
+          <p class="mt-3 text-sm text-slate-600">Not sure which fits? Read <a class="text-brand-600 underline" href="/blog/dealer-vs-distributor-vs-epc/">dealer vs distributor vs EPC</a>.</p>
+        </div>
+        <div class="rounded-2xl bg-white p-6 ring-1 ring-slate-200">
+          <h3 class="text-lg font-bold text-slate-900">What happens after you apply</h3>
+          <ol class="mt-2 list-decimal space-y-2 pl-5 text-sm text-slate-600 leading-relaxed">
+            <li>You submit the application below. It goes to the Qbits team.</li>
+            <li>The team reviews your details. Submitting does not guarantee an appointment.</li>
+            <li>The team contacts you to discuss the relevant partner route and terms. This page does not publish margins, territories, incentives, training, minimum orders or lead commitments, so ask about anything you need and get it in writing before you commit.</li>
+          </ol>
+        </div>
+        <div class="rounded-2xl bg-white p-6 ring-1 ring-slate-200">
+          <h3 class="text-lg font-bold text-slate-900">What the form asks, and why</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed">Required: company name, registered address, business email, WhatsApp number and GST number, so Qbits can identify the business and reach you. The rest describes your business: partner type, brands you use now, office, warehouse and team, finances, and your sales plan and experience. These answers give the team a business profile to review. Qbits does not publish a pass mark or scoring for any answer. State and city are optional. Details are covered in <a class="text-brand-600 underline" href="/blog/qbits-partner-application-guide/">what the application asks and why</a> and the <a class="text-brand-600 underline" href="/privacy-policy/">privacy policy</a>.</p>
+        </div>
+      </div>
     </div></section>
     <section class="section-padding bg-slate-50" aria-labelledby="form-heading">
       <div class="container-main">
@@ -303,13 +386,13 @@ const indianStates = [
     <!-- Brand Ambassador -->
     <AmbassadorDealer />
 
-    <!-- Why Partner -->
+    <!-- After you apply -->
     <section class="section-padding bg-white" aria-labelledby="why-partner-heading">
       <div class="container-main">
         <div class="text-center max-w-2xl mx-auto mb-16">
           <span class="section-label justify-center">
             <span class="w-8 h-px bg-brand-500"></span>
-            Why Partner With Us
+            Before You Commit
             <span class="w-8 h-px bg-brand-500"></span>
           </span>
           <h2 id="why-partner-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
@@ -322,32 +405,53 @@ const indianStates = [
               <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
             </div>
             <h3 class="text-lg font-bold text-slate-900 mb-2">Talk to the Partner Team</h3>
-            <p class="text-sm text-slate-500">Your application starts a conversation with the Qbits team about the partner route and terms. Pricing, territory and incentives are set in the signed agreement, not on this page.</p>
+            <p class="text-sm text-slate-500">Your application starts a conversation with the Qbits team about the partner route. Commercial terms are discussed with the team directly; none are published on this page.</p>
           </div>
           <div class="bg-slate-50 rounded-2xl p-8 text-center hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 hover:-translate-y-1 group">
             <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
               <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zM12 9v4m0 0h.01"/></svg>
             </div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">Technical Support</h3>
-            <p class="text-sm text-slate-500">Ask the partner team which account support and <a href="/download-datasheets/" class="text-brand-600 hover:underline">product training</a> apply to your agreement.</p>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Check the Products</h3>
+            <p class="text-sm text-slate-500">Review the <a href="/our-products/" class="text-brand-600 hover:underline">model pages</a> and <a href="/download-datasheets/" class="text-brand-600 hover:underline">exact-model datasheets</a> so your questions to the team are specific.</p>
           </div>
           <div class="bg-slate-50 rounded-2xl p-8 text-center hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 hover:-translate-y-1 group">
             <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
               <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"/></svg>
             </div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">Marketing Support</h3>
-            <p class="text-sm text-slate-500">Confirm any co-branded materials, lead arrangements or campaign support in the signed partner agreement.</p>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Ask About Support</h3>
+            <p class="text-sm text-slate-500">Ask the partner team which technical, marketing and service support applies to your route, and get anything you rely on in writing.</p>
           </div>
           <div class="bg-slate-50 rounded-2xl p-8 text-center hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 hover:-translate-y-1 group">
             <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
               <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
             </div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">Quality Assurance</h3>
-            <p class="text-sm text-slate-500">Review exact-model <a href="/our-products/" class="text-brand-600 hover:underline">solar inverter</a> datasheets and obtain the current written <a href="/blog/12-year-solar-inverter-warranty/" class="text-brand-600 hover:underline">warranty terms</a>.</p>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Confirm Documents and Warranty</h3>
+            <p class="text-sm text-slate-500">Request the current written warranty and certificates for the exact model you plan to sell. Public datasheets do not define the base warranty term, so ask for it in writing.</p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Partner FAQ + guides -->
+    <section class="py-16 bg-slate-50" aria-labelledby="partner-faq-heading"><div class="container-main max-w-4xl">
+      <h2 id="partner-faq-heading" class="text-3xl font-bold text-slate-900">Partner application questions</h2>
+      <dl class="mt-8 space-y-6">
+        {partnerFaqs.map((f) => (
+          <div>
+            <dt class="font-semibold text-slate-900">{f.q}</dt>
+            <dd class="mt-1 text-slate-600 leading-relaxed">{f.a}</dd>
+          </div>
+        ))}
+      </dl>
+      <h3 class="mt-12 text-xl font-bold text-slate-900">Guides for dealers, distributors and EPCs</h3>
+      <p class="mt-2 text-sm text-slate-600">Independent reading on the questions applicants usually have. These guides explain the market and the paperwork; they do not set Qbits terms.</p>
+      <ul class="mt-4 grid gap-x-8 gap-y-2 sm:grid-cols-2 text-sm">
+        {dealerGuides.map((g) => (
+          <li><a class="text-brand-600 underline" href={g.href}>{g.label}</a></li>
+        ))}
+      </ul>
+    </div></section>
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(partnerFaqSchema)} />
 
     <!-- CTA -->
     <section class="py-24 lg:py-32 bg-brand-500 text-white relative overflow-hidden">

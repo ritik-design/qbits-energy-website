@@ -1,7 +1,7 @@
 ---
 term: Zero Export
-title: 'Zero Export Solar: Meaning, Control and Verification'
-description: Understand how zero-export solar limits grid injection, what a CT or meter does, and what to verify during commissioning.
+title: "Zero Export: Definition, Meaning, How It Works, Benefits & Applications"
+description: "Zero export is an inverter control mode that prevents solar power from flowing back to the grid. Guide to working, sensors and Indian C&I applications."
 category: Metering and Grid
 categorySlug: metering-grid
 priority: P1

@@ -62,7 +62,6 @@ faqs:
   - q: "What is the typical payback period for gross metering?"
     a: "6 to 9 years for commercial customers depending on FIT. Net metering usually pays back in 4 to 6 years for the same customer category. The gap is the difference between FIT and retail tariff."
 author: "Nirav Dhanani"
-seoTitle: "Gross Metering: How Solar Export Billing Works"
 ---
 
 ## What is gross metering

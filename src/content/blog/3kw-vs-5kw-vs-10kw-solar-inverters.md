@@ -2,7 +2,7 @@
 title: '5 kW vs 8 kW vs 10 kW Solar Inverter: Which Size Fits?'
 seoTitle: '5 kW vs 8 kW vs 10 kW Solar Inverter'
 excerpt: 'Choose between 5 kW, 8 kW, and 10 kW solar inverters using annual energy, roof design, phase, exact DC limits, and transparent assumptions.'
-description: 'Compare 5 kW, 8 kW, and 10 kW on-grid solar inverter sizing with exact Qbits model evidence, worked calculations, phase checks, and a retained 3 kW path.'
+description: "Compare 5 kW, 8 kW and 10 kW on-grid inverter sizing with exact Qbits model specs, worked calculations and phase checks, and when 3 kW still fits."
 category: Buying Guide
 date: 2026-04-22
 updatedDate: 2026-09-26

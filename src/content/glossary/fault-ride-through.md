@@ -61,7 +61,6 @@ faqs:
   - q: "What standards govern FRT in India?"
     a: "CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019, IS 17387 and IEC 61400-27."
 author: "Keyur Rakholiya"
-seoTitle: "Fault Ride Through: Meaning and Solar Inverter Behaviour"
 ---
 
 ## What is fault ride through

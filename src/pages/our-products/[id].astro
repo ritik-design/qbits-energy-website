@@ -2,7 +2,8 @@
 import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
-import { products, getProductById, getRelatedProducts, WARRANTY_NOTE } from '../../data/products';
+import { getEntry } from 'astro:content';
+import { products, getProductById, getRelatedProducts, getProductPowerLabel, getProductSeoTitle, getProductSeoDescription, WARRANTY_NOTE } from '../../data/products';
 import { productImageSizes } from '../../data/product-images';
 
 export function getStaticPaths() {
@@ -11,7 +12,6 @@ export function getStaticPaths() {
 
 const { id } = Astro.params;
 const product = getProductById(id!);
-const related = product ? getRelatedProducts(product) : [];
 
 if (!product) {
   return Astro.redirect('/404');
@@ -22,8 +22,21 @@ const categoryColor = isOnGrid ? 'brand' : 'accent';
 const categoryBg = isOnGrid ? 'bg-brand-50 text-brand-700' : 'bg-accent/10 text-accent-dark';
 const categoryLabel = isOnGrid ? 'On-Grid' : 'Hybrid';
 const phaseLabel = product.phase === 'single' ? 'Single-Phase' : 'Three-Phase';
-const powerLabel = `${product.powerMin}–${product.powerMax} ${product.powerUnit}`;
-const quoteUrl = `/contact-us/?${new URLSearchParams({ subject: 'Product Inquiry', model: product.id, from: `/our-products/${product.id}/` })}#lead-form`;
+const powerLabel = getProductPowerLabel(product);
+const typeLabel = `${phaseLabel.toLowerCase()} ${categoryLabel.toLowerCase()}`;
+// Sibling models: same category and phase (the EHV family has none; see getRelatedProducts).
+const samePhaseSiblings = getRelatedProducts(product, 20).sort((a, b) => a.powerMax - b.powerMax);
+// A lone model in its phase (the three-phase hybrid) falls back to the other models of the same type.
+const useTypeFallback = samePhaseSiblings.length === 0 && product.id !== 'QB-225-320K-EHV';
+const siblings = useTypeFallback
+  ? products.filter(p => p.category === product.category && p.id !== product.id).sort((a, b) => a.powerMax - b.powerMax)
+  : samePhaseSiblings;
+const siblingsHeading = useTypeFallback ? `Other ${categoryLabel.toLowerCase()} models` : `Other ${typeLabel} models`;
+const hubUrl = isOnGrid ? '/on-grid-inverter/' : '/hybrid-inverter/';
+// "Guides for this model": blog posts mapped in products.ts. Skip any slug that no longer exists.
+const guideEntries = (await Promise.all((product.guides ?? []).map((slug) => getEntry('blog', slug)))).filter(Boolean);
+// The contact form reads ?subject, ?model, ?message and ?from and prefills the enquiry from them.
+const quoteUrl = `/contact-us/?${new URLSearchParams({ subject: 'Product Inquiry', model: product.id, message: `I would like pricing, availability and written warranty terms for the ${product.name}.`, from: `/our-products/${product.id}/` })}#lead-form`;
 const documentUrl = `/contact-us/?${new URLSearchParams({ subject: 'Technical Documents', model: product.id, from: `/our-products/${product.id}/` })}#lead-form`;
 const heroDimensions = product.image ? productImageSizes[product.image] : undefined;
 const datasheetNotes: Record<string, string> = {
@@ -34,6 +47,37 @@ const datasheetNotes: Record<string, string> = {
 
 const SITE = 'https://qbitsenergy.com';
 const productUrl = `${SITE}/our-products/${product.id}/`;
+const whatsappText = `I am interested in the ${product.name} (${productUrl})`;
+const whatsappUrl = `https://api.whatsapp.com/send?phone=919979192935&text=${encodeURIComponent(whatsappText)}`;
+
+// Spec rows. A row is shown only when this model's own datasheet states it (see products.ts).
+const specRows: [string, string | undefined][] = [
+  ['Model', product.id],
+  ['Series', product.series],
+  ['Category', categoryLabel],
+  ['Phase', product.phase === 'single' ? 'Single Phase' : 'Three Phase'],
+  ['Power Range', `${product.powerMin}-${product.powerMax}${product.powerUnit}`],
+  ['Rated Output Power by Variant', product.ratedOutput],
+  ['Max Efficiency', product.efficiency],
+  ['MPPT', product.mpptLabel],
+  ['DC Voltage Range', product.voltageRange],
+  ['Max DC Input Current', product.maxInputCurrent],
+  ['Grid Voltage Range', product.gridVoltageRange],
+  ['AC Frequency', product.frequency],
+  ['Operating Temperature', product.operatingTemperature],
+  ['Protection Rating', product.protection],
+  ['Display', product.display],
+  ['Communication', product.communication],
+  ['Safety and EMC Standards (as printed on the datasheet)', product.safetyStandard],
+  ['Grid-Connection Standards (as printed on the datasheet)', product.gridStandard],
+  ['Warranty', product.warranty],
+];
+const visibleSpecRows = specRows.filter((row): row is [string, string] => Boolean(row[1]));
+// Schema properties mirror rows that are visible in the table above.
+const schemaSpecLabels = new Set(['Rated Output Power by Variant', 'Max Efficiency', 'MPPT', 'DC Voltage Range', 'Max DC Input Current', 'Grid Voltage Range', 'Operating Temperature', 'Protection Rating']);
+const additionalProperty = visibleSpecRows
+  .filter(([label]) => schemaSpecLabels.has(label))
+  .map(([label, value]) => ({ '@type': 'PropertyValue', name: label, value }));
 
 const warrantyPhrase = 'model-specific written warranty terms available on request';
 
@@ -53,6 +97,7 @@ const productSchema = {
     url: SITE,
   },
   category: isOnGrid ? 'On-Grid Solar Inverter' : 'Hybrid Solar Inverter',
+  additionalProperty,
   // No `offers` block: pricing is quote-based through the dealer/partner network, not
   // published per-unit. An Offer without a required `price` fails Rich Results validation,
   // so a valid Product with no offers is correct here rather than a fabricated price.
@@ -70,8 +115,8 @@ const breadcrumbSchema = {
 ---
 
 <Layout
-  title={`${product.id}: ${powerLabel} ${categoryLabel} Inverter | Qbits`}
-  description={`Compare the ${product.id} ${powerLabel} ${phaseLabel.toLowerCase()} ${categoryLabel.toLowerCase()} inverter family. Download the datasheet and request exact-model pricing, availability and written warranty terms.`}
+  title={getProductSeoTitle(product)}
+  description={getProductSeoDescription(product)}
   canonical={`/our-products/${product.id}/`}
   ogImage={`/og/product-${product.id}.webp`}
 >
@@ -157,22 +202,16 @@ const breadcrumbSchema = {
               ))}
             </div>
 
-            <!-- Certifications -->
-            <div class="flex items-center gap-2 mb-8">
-              {product.certifications.map(cert => (
-                <span class="inline-flex items-center rounded-lg bg-slate-100 px-3 py-1.5 text-xs font-bold text-slate-600">{cert}</span>
-              ))}
-            </div>
-
             <div class="flex flex-wrap gap-3">
-              <a href={quoteUrl} class="btn-primary">Request Model Pricing</a>
+              <a href={quoteUrl} class="btn-primary" data-cta="product_quote" data-model={product.id}>Request a quote for {product.id}</a>
               {product.datasheet && (
-                <a href={product.datasheet} target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-slate-200 px-8 py-4 text-sm font-semibold text-slate-700 hover:border-brand-300 hover:text-brand-600 transition-all">
+                <a href={product.datasheet} target="_blank" rel="noopener noreferrer" data-cta="product_datasheet" data-model={product.id} class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-slate-200 px-8 py-4 text-sm font-semibold text-slate-700 hover:border-brand-300 hover:text-brand-600 transition-all">
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                  Datasheet
+                  Download datasheet (PDF)
                 </a>
               )}
             </div>
+            <p class="mt-4 text-sm text-slate-500">Need other models? See <a href="/download-datasheets/" class="text-brand-600 underline">all Qbits inverter datasheets</a>.</p>
           </div>
         </div>
       </div>
@@ -191,21 +230,7 @@ const breadcrumbSchema = {
           <div class="bg-white rounded-2xl shadow-xl shadow-slate-900/5 overflow-hidden">
             <table class="w-full text-sm">
               <tbody class="divide-y divide-slate-100">
-                {[
-                  ['Model', product.id],
-                  ['Series', product.series],
-                  ['Category', categoryLabel],
-                  ['Phase', product.phase === 'single' ? 'Single Phase' : 'Three Phase'],
-                  ['Power Range', `${product.powerMin}-${product.powerMax}${product.powerUnit}`],
-                  ['Max Efficiency', product.efficiency],
-                  ['MPPT', product.mpptLabel],
-                  ['DC Voltage Range', product.voltageRange],
-                  ['AC Frequency', product.frequency],
-                  ['Protection Rating', product.protection],
-                  ['Display', product.display],
-                  ['Communication', product.communication],
-                  ['Warranty', product.warranty],
-                ].map(([label, value]) => (
+                {visibleSpecRows.map(([label, value]) => (
                   <tr class="hover:bg-slate-50/50 transition-colors">
                     <td class="px-6 py-4 font-semibold text-slate-700 w-2/5">{label}</td>
                     <td class="px-6 py-4 text-slate-600">{value}</td>
@@ -240,6 +265,7 @@ const breadcrumbSchema = {
               <span class="w-8 h-px bg-brand-500"></span>
             </span>
             <h2 id="downloads-heading" class="text-3xl font-bold text-slate-900 mt-6">Product Documents</h2>
+            <p class="mt-4 text-slate-500">Datasheet for the {product.id} family, or the <a href="/download-datasheets/" class="text-brand-600 underline">full set of Qbits inverter datasheets</a>.</p>
           </div>
           <div class="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
             <a href={product.datasheet} target="_blank" rel="noopener noreferrer" class="group bg-slate-50 rounded-2xl p-8 text-center hover:bg-brand-500 transition-all duration-500">
@@ -261,42 +287,35 @@ const breadcrumbSchema = {
       </section>
     )}
 
-    <!-- Related Products -->
-    {related.length > 0 && (
-      <section class="section-padding bg-slate-50">
+    <!-- Other models of the same type, and guides that mention this model -->
+    {(siblings.length > 0 || guideEntries.length > 0) && (
+      <section class="py-16 lg:py-20 bg-slate-50" aria-label="Other models and guides">
         <div class="container-main">
-          <div class="text-center max-w-2xl mx-auto mb-12">
-            <span class="section-label justify-center">
-              <span class="w-8 h-px bg-brand-500"></span>
-              You May Also Like
-              <span class="w-8 h-px bg-brand-500"></span>
-            </span>
-            <h2 class="text-3xl font-bold text-slate-900 mt-6">Related Products</h2>
-          </div>
-          <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {related.map(r => (
-              <a href={`/our-products/${r.id}/`} class="group bg-white rounded-2xl border border-slate-200 p-6 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500">
-                <div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-slate-50 to-slate-100 mb-4 overflow-hidden flex items-center justify-center">
-                  {r.image ? (
-                    <img width={productImageSizes[r.image]?.width} height={productImageSizes[r.image]?.height} src={r.image} alt={r.name} class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" decoding="async" />
-                  ) : (
-                    <div class="w-10 h-10 rounded-lg bg-slate-200 flex items-center justify-center">
-                      <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                      </svg>
-                    </div>
-                  )}
-                </div>
-                <div class="flex items-center justify-between mb-2">
-                  <span class={`text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-full ${r.category === 'on-grid' ? 'bg-brand-50 text-brand-700' : 'bg-accent/10 text-accent-dark'}`}>
-                    {r.category === 'on-grid' ? 'On-Grid' : 'Hybrid'}
-                  </span>
-                  <span class="text-xs text-slate-400 font-mono">{r.id}</span>
-                </div>
-                <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-1">{r.name}</h3>
-                <p class="text-sm text-slate-500">{r.powerMax}kW | {r.efficiency} | {r.mpptLabel}</p>
-              </a>
-            ))}
+          <div class={`max-w-4xl mx-auto grid gap-10 ${siblings.length > 0 && guideEntries.length > 0 ? 'md:grid-cols-2' : ''}`}>
+            {siblings.length > 0 && (
+              <div>
+                <h2 class="text-2xl font-bold text-slate-900">{siblingsHeading}</h2>
+                <ul class="mt-5 space-y-3 text-sm text-slate-600">
+                  {siblings.map(r => (
+                    <li>
+                      <a href={`/our-products/${r.id}/`} class="font-semibold text-brand-600 underline hover:text-brand-700">{r.name}: {getProductPowerLabel(r)} {r.phase === 'single' ? 'single-phase' : 'three-phase'} {r.category === 'on-grid' ? 'on-grid' : 'hybrid'} inverter</a>
+                      <span class="block text-slate-500">{r.mpptLabel}; {r.efficiency.replace(' maximum', '')} max efficiency</span>
+                    </li>
+                  ))}
+                </ul>
+                <p class="mt-5 text-sm text-slate-500">Compare every family on the <a href={hubUrl} class="text-brand-600 underline">{isOnGrid ? 'on-grid' : 'hybrid'} inverter range</a> page or in the <a href="/our-products/" class="text-brand-600 underline">full Qbits product list</a>.</p>
+              </div>
+            )}
+            {guideEntries.length > 0 && (
+              <div>
+                <h2 class="text-2xl font-bold text-slate-900">Guides for this model</h2>
+                <ul class="mt-5 space-y-3 text-sm">
+                  {guideEntries.map(g => (
+                    <li><a href={`/blog/${g!.id}/`} class="font-semibold text-brand-600 underline hover:text-brand-700">{g!.data.title}</a></li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </section>
@@ -309,8 +328,8 @@ const breadcrumbSchema = {
         <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Ready to Order?</h2>
         <p class="text-lg text-slate-400 mb-10">Get in touch with our sales team for pricing, availability, and delivery information.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href={quoteUrl} class="btn-primary">Request an Inverter Quote</a>
-          <a href="https://wa.me/919979192935" target="_blank" rel="noopener noreferrer" class="btn-outline">WhatsApp Inquiry</a>
+          <a href={quoteUrl} class="btn-primary" data-cta="product_quote_bottom" data-model={product.id}>Request a quote for {product.id}</a>
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="btn-outline" data-cta="product_whatsapp" data-model={product.id}>WhatsApp about the {product.id}</a>
         </div>
       </div>
     </section>

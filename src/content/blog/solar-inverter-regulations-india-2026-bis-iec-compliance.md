@@ -1,8 +1,7 @@
 ---
-title: 'Solar Inverter Regulations 2026: BIS vs ALMM Stocking Checklist'
-seoTitle: 'Solar Inverter Regulations India 2026: BIS vs ALMM'
+title: "Solar Inverter Regulations 2026: BIS/IEC Compliance"
 excerpt: 'BIS and ALMM answer different procurement questions. Use this exact-model checklist before an EPC or dealer stocks a solar inverter brand in India.'
-description: 'BIS vs ALMM for solar procurement in India, with the current inverter QCO standards, ALMM scope, scheme checks, and exact documents to verify before stocking.'
+description: "Solar inverter regulations in India 2026: BIS certification under IS 16221/IS 16169, IEC standards, MNRE and CEA grid norms, and the documents to verify."
 category: Guide
 date: 2026-03-22
 updatedDate: 2026-09-26

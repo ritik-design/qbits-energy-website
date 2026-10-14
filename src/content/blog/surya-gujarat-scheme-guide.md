@@ -1,7 +1,7 @@
 ---
-title: "SURYA Gujarat 2026: Subsidy and Application"
+title: "Solar Subsidy in Gujarat 2026: SURYA Gujarat and PM Surya Ghar"
 excerpt: "How the Surya Gujarat scheme relates to PM Surya Ghar, the subsidy slabs that actually pay, and the GUVNL discom route, with sources."
-description: "SURYA Gujarat and PM Surya Ghar differ. Check the current subsidy slabs, your discom, vendor registration, GERC net metering and application steps before installing solar."
+description: "Solar subsidy in Gujarat 2026: PM Surya Ghar assistance, SURYA Gujarat status, UGVCL, PGVCL, MGVCL, DGVCL and Torrent steps, last dates, documents."
 category: "Policy"
 date: 2026-07-23
 updatedDate: 2026-09-24

@@ -1,8 +1,7 @@
 ---
-title: "How to Read a Solar Inverter Datasheet for a BOQ or Tender"
-seoTitle: "How to Read an Inverter Datasheet for BOQs and Tenders"
+title: "How to Read Solar Inverter Datasheets"
 excerpt: "Turn an exact-model inverter datasheet into checked design inputs, BOQ line items, a tender compliance matrix, and a traceable technical submission."
-description: "A practical EPC workflow for reading solar inverter datasheets, checking model limits, writing BOQ line items, and proving tender compliance."
+description: "How to read a solar inverter datasheet like a procurement engineer: the specs that matter, red flags, and a comparison checklist with a worked example."
 category: "EPC"
 date: 2026-05-11
 updatedDate: 2026-09-26

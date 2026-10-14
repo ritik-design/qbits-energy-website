@@ -1,7 +1,7 @@
 ---
 title: 'Solar Inverter Circuit Diagram Explained: From DC Strings to AC Grid'
 excerpt: 'A solar inverter circuit diagram at both levels: the array-to-grid single line diagram, the MPPT and IGBT stages inside, and the protection circuits.'
-description: 'Read a solar inverter circuit diagram at both levels. The array-to-meter single line diagram, the internal MPPT boost and IGBT bridge signal path, transformer and transformerless topology, and the protection circuits that trip on Indian grids.'
+description: "A block-by-block walkthrough of a solar inverter circuit diagram: DC input, MPPT boost, DC link, IGBT bridge, output filter, grid relay and control board."
 category: Technical
 date: 2026-07-23
 updatedDate: 2026-09-24
@@ -37,7 +37,6 @@ faqs:
 - q: "Why does the single line diagram show isolators on both the DC and AC side?"
   a: "Because both sides must be capable of being made safe independently. A DC isolator separates the array from the inverter while the grid supply is still live. An AC isolator separates the inverter from the distribution board and the grid. Maintenance, fault finding, and emergency access all depend on having both present and correctly placed."
 featured: false
-seoTitle: 'Solar Inverter Circuit Diagram: SLD and Internal Topology'
 relatedSlugs:
 - solar-inverter-wiring-diagram
 - inverter-battery-connection-diagram

@@ -1,7 +1,7 @@
 ---
 title: 'Solar Inverter Wiring Diagram for Indian Homes 2026: Panels to Meter Board'
 excerpt: A practical solar inverter wiring diagram guide covering the DC run, cable sizing, AC protection, earthing, metering and commissioning checks.
-description: A practical solar inverter wiring diagram guide covering the DC run, conductor sizing, AC isolation and RCD type, earthing, metering position, single versus three phase, and commissioning checks.
+description: "Solar inverter wiring diagram for an Indian home: DC strings, isolators, SPD and earthing, AC output to the DB, net meter connection and cable sizing."
 category: Technical
 date: 2026-07-23
 updatedDate: 2026-09-24
@@ -37,7 +37,6 @@ faqs:
 - q: Does bad wiring void an inverter warranty?
   a: It can. Most manufacturers exclude damage caused by incorrect installation, reversed polarity, exceeding the rated input voltage or current, inadequate earthing, and water ingress through an unsealed gland. Keep the commissioning records, torque checks and as-built drawings, because they are the evidence that the installation followed the manual. Obtain the current written warranty terms for the exact quoted model before purchase rather than relying on a summary.
 featured: false
-seoTitle: 'Solar Inverter Wiring Diagram: Full System Connections'
 relatedSlugs:
 - inverter-battery-connection-diagram
 - solar-inverter-circuit-diagram

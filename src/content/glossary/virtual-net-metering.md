@@ -59,7 +59,6 @@ faqs:
   - q: "Can I move VNM benefit to a new tenant?"
     a: "Only with a formal change in the beneficiary list, filed with the DISCOM."
 author: "Nirav Dhanani"
-seoTitle: "Virtual Net Metering: Shared Solar Credit Allocation"
 ---
 
 ## What is virtual net metering

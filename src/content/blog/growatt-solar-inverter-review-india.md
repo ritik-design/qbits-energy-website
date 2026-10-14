@@ -1,7 +1,7 @@
 ---
 title: "Growatt Solar Inverter Review India 2026: Honest"
 excerpt: "Our growatt solar inverter review finds a genuinely capable mid-market brand with competitive street pricing and wide availability, though in our installer experience after-sales turnaround depends heavily on local distributor presence, and the documents we reviewed state a 5-year repair warranty."
-description: "Evaluate a Growatt solar inverter in India using its exact datasheet, application fit, monitoring setup, warranty terms and local support evidence."
+description: "Growatt solar inverters in India reviewed from official datasheets: MIN, MOD and MAX on-grid and SPH hybrid series, warranty terms and monitoring."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08

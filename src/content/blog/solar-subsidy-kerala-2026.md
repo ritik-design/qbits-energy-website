@@ -1,7 +1,7 @@
 ---
-title: "Kerala Solar Subsidy 2026: KSEB Steps"
+title: "Solar Subsidy in Kerala 2026, KSEB Reality Check"
 excerpt: "Kerala households can check central PM Surya Ghar assistance and their KSEB connection process. Verify any extra state benefit and project yield before signing."
-description: "Check the 2026 residential solar subsidy in Kerala, central PM Surya Ghar amounts, KSEB steps, vendor documents and realistic quote questions."
+description: "Solar subsidy in Kerala 2026: PM Surya Ghar amounts, KSEB net-metering steps and timelines, status check, monsoon generation effects and state policy."
 category: "Policy"
 date: 2026-07-23
 updatedDate: 2026-09-23

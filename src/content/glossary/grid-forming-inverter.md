@@ -1,7 +1,7 @@
 ---
 term: Grid-Forming Inverter
 title: 'Grid-Forming Inverter: Definition, Working & Applications'
-description: 'Grid-forming vs grid-following inverters: voltage control, islanded operation, grid services and the evidence to request before specifying a model.'
+description: "Grid-forming inverters create voltage and frequency. Full guide to working and emerging Indian applications."
 category: Grid Compliance
 categorySlug: grid-compliance
 priority: P2

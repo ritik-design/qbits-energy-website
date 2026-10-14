@@ -4,11 +4,17 @@ import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
-import { getProductsByCategory } from '../../data/products';
+import { getProductsByCategory, type Product } from '../../data/products';
 
 const hybridProducts = getProductsByCategory('hybrid');
 const singlePhase = hybridProducts.filter(p => p.phase === 'single');
 const threePhase = hybridProducts.filter(p => p.phase === 'three');
+
+const kw = (p: Product) => (p.powerMin === p.powerMax ? `${p.powerMin} kW` : `${p.powerMin}–${p.powerMax} kW`);
+const mpptText = (p: Product) => (/\d/.test(p.mpptLabel) ? p.mpptLabel : `${p.mppt} MPPT${p.mppt > 1 ? 's' : ''}`);
+const batteryCurrent = (p: Product) => (p.features.find(f => /battery current/i.test(f)) ?? '').replace(/\s*battery current/i, '');
+const enquiryHref = (p: Product) =>
+  `/contact-us/?subject=Product+Inquiry&model=${encodeURIComponent(p.name)}&from=%2Fhybrid-inverter%2F#lead-form`;
 
 const keyFeatures = [
   { icon: 'M13 10V3L4 14h7v7l9-11h-7z', title: 'Model-specific battery current limits' },
@@ -63,8 +69,8 @@ const hybridSchema = {
 ---
 
 <Layout
-  title="Hybrid Solar Inverters India - Battery-Ready 3 kW to 12 kW | Qbits Energy"
-  description="Intelligent battery-ready hybrid solar inverters from 3kW to 12kW. Compare exact battery, PV and backup-output limits for each model."
+  title="Qbits Hybrid Solar Inverters: 3 kW to 12 kW, 48 V Battery"
+  description="Qbits single- and three-phase hybrid inverters from 3 kW to 12 kW for 48 V batteries. Compare battery current, PV input and MPPT; get datasheets."
   canonical="/hybrid-inverter/"
 >
   <HeaderV2 />
@@ -112,6 +118,71 @@ const hybridSchema = {
       </div>
     </section>
 
+    <!-- Model selector table -->
+    <section class="py-12 bg-slate-50" aria-labelledby="hybrid-compare-heading"><div class="container-main max-w-6xl">
+      <h2 id="hybrid-compare-heading" class="text-2xl font-bold text-slate-900">Compare hybrid models side by side</h2>
+      <p class="mt-3 text-slate-600 max-w-3xl">Each row is a model family from the published product data. All three QBH datasheets list a 48 V rated battery voltage and accept lithium or lead-acid batteries, subject to compatibility. The kW figure is the range across the family, so confirm the exact rating and battery current on the datasheet.</p>
+      <div class="mt-6 overflow-x-auto rounded-2xl border border-slate-200">
+        <table class="min-w-full text-left text-sm">
+          <caption class="sr-only">Qbits hybrid inverter families by capacity, phase, MPPT count, battery current, PV input and maximum efficiency</caption>
+          <thead class="bg-slate-100 text-xs uppercase tracking-wider text-slate-600">
+            <tr>
+              <th scope="col" class="px-4 py-3 font-semibold">Model</th>
+              <th scope="col" class="px-4 py-3 font-semibold">Capacity</th>
+              <th scope="col" class="px-4 py-3 font-semibold">Phase</th>
+              <th scope="col" class="px-4 py-3 font-semibold">MPPT</th>
+              <th scope="col" class="px-4 py-3 font-semibold">Battery current</th>
+              <th scope="col" class="px-4 py-3 font-semibold">PV input</th>
+              <th scope="col" class="px-4 py-3 font-semibold">Max efficiency</th>
+              <th scope="col" class="px-4 py-3 font-semibold">Details</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white text-slate-700">
+            {hybridProducts.map((p) => (
+              <tr class="border-t border-slate-100 align-top">
+                <th scope="row" class="px-4 py-3 font-semibold text-slate-900"><a href={`/our-products/${p.id}/`} class="text-accent hover:text-accent-dark">{p.name}</a></th>
+                <td class="px-4 py-3 whitespace-nowrap">{kw(p)}</td>
+                <td class="px-4 py-3 whitespace-nowrap">{p.phase === 'single' ? 'Single-phase' : 'Three-phase'}</td>
+                <td class="px-4 py-3">{mpptText(p)}</td>
+                <td class="px-4 py-3 whitespace-nowrap">{batteryCurrent(p)}</td>
+                <td class="px-4 py-3">{p.voltageRange}</td>
+                <td class="px-4 py-3">{p.efficiency}</td>
+                <td class="px-4 py-3 whitespace-nowrap">
+                  <a href={`/our-products/${p.id}/`} class="text-accent hover:text-accent-dark font-medium">Model page</a>
+                  {p.datasheet && (<span> &middot; <a href={p.datasheet} class="text-accent hover:text-accent-dark font-medium">Datasheet (PDF)</a></span>)}
+                  <span> &middot; <a href={enquiryHref(p)} class="text-accent hover:text-accent-dark font-medium">Enquire</a></span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div></section>
+
+    <!-- How to choose -->
+    <section class="py-12 bg-white" aria-labelledby="hybrid-choose-heading"><div class="container-main max-w-6xl">
+      <h2 id="hybrid-choose-heading" class="text-2xl font-bold text-slate-900">How to choose between hybrid models</h2>
+      <div class="mt-6 grid gap-6 md:grid-cols-2">
+        <div>
+          <h3 class="text-lg font-bold text-slate-900">Start with the loads you want to back up</h3>
+          <p class="mt-2 text-slate-600 leading-relaxed">List the appliances that must keep running in an outage, their wattage and how many hours you need. That sets the backup power and battery size, and the inverter follows from it. The <a class="text-accent underline" href="/blog/battery-sizing-hybrid-solar/">battery sizing guide</a> has a worksheet for this.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-slate-900">Match battery current and capacity</h3>
+          <p class="mt-2 text-slate-600 leading-relaxed">The battery current column shows the maximum charge and discharge current the inverter supports. The battery you pair with it must be rated to deliver and accept that current, and its BMS must communicate with the inverter. Confirm compatibility with the battery maker before ordering.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-slate-900">Single-phase or three-phase</h3>
+          <p class="mt-2 text-slate-600 leading-relaxed">Pick the phase that matches your supply and the loads you want on backup. The QBH single-phase families cover 3 to 8 kW and the three-phase family covers 5 to 12 kW. For help with the decision, read <a class="text-accent underline" href="/blog/single-vs-3-phase-inverter/">single versus three phase</a>.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-slate-900">MPPT inputs and the PV array</h3>
+          <p class="mt-2 text-slate-600 leading-relaxed">Check that your string voltage stays inside the PV input range in the table, including on cold mornings. Roofs facing two directions are easier with two MPPTs. The <a class="text-accent underline" href="/string-sizing-calculator/">string sizing calculator</a> gives a first check of a panel and inverter pairing.</p>
+        </div>
+      </div>
+      <p class="mt-8 text-slate-600">If you do not need battery backup, <a class="text-accent underline" href="/blog/on-grid-vs-hybrid/">on-grid versus hybrid</a> explains the trade-off, and the <a class="text-accent underline" href="/on-grid-inverter/">on-grid range</a> may fit better. For comparisons across brands, see <a class="text-accent underline" href="/blog/best-hybrid-solar-inverter-india-2026/">the hybrid inverter comparison</a> and the <a class="text-accent underline" href="/blog/hybrid-inverter-price-india/">hybrid inverter price guide</a>. Installers and dealers can <a class="text-accent underline" href="/become-our-partner/">apply to become a Qbits partner</a>.</p>
+    </div></section>
+
     <!-- Single Phase -->
     <section class="section-padding bg-slate-50" aria-labelledby="single-phase-heading">
       <div class="container-main">
@@ -125,7 +196,7 @@ const hybridSchema = {
             Single Phase Hybrid
           </h2>
           <p class="mt-4 text-slate-500">
-            Ideal for <a href="https://heavengreenenergy.com/residential-solar/" class="text-accent hover:text-accent-dark underline underline-offset-2 font-medium">homes and small businesses</a>. Store solar energy for evening use or <a href="/blog/solar-inverter-power-cut-backup/" class="text-accent hover:text-accent-dark underline underline-offset-2 font-medium">power cuts</a>. Available in 3kW to 8kW options.
+            Suited to <a href="/residential-solution/" class="text-accent hover:text-accent-dark underline underline-offset-2 font-medium">homes</a> and small businesses. Store solar energy for evening use or <a href="/blog/solar-inverter-power-cut-backup/" class="text-accent hover:text-accent-dark underline underline-offset-2 font-medium">power cuts</a>. Available in 3kW to 8kW options.
           </p>
         </div>
 

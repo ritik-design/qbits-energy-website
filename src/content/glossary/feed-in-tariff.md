@@ -64,7 +64,6 @@ faqs:
   - q: "Can FIT projects access accelerated depreciation?"
     a: "Yes. Commercial solar plants under FIT qualify for 40 percent accelerated depreciation under the Income Tax Act."
 author: "Nirav Dhanani"
-seoTitle: "Feed-In Tariff: Meaning and Solar Payment Structure"
 ---
 
 ## What is feed in tariff

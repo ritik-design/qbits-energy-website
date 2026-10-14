@@ -1,7 +1,7 @@
 ---
-title: "3 kW Solar Inverter Price in India: Hindi Guide"
+title: "3kW Solar Inverter Price in India 2026 (Hindi)"
 excerpt: "3 kW solar inverter ka sahi price ek verified model aur itemised quote se milta hai. On-grid, hybrid, battery aur subsidy ko alag compare karein."
-description: "3 kW solar inverter price ko sahi tarah compare karein. On-grid, hybrid, battery, installation aur PM Surya Ghar subsidy ka Hindi guide."
+description: "3kW solar inverter price India 2026 में kya hai? Inverter-only vs full installed cost, PM Surya Ghar 3 kW subsidy slab, EMI aur payback का Hindi guide।"
 category: "Buying Guide"
 date: 2026-08-02
 updatedDate: 2026-09-23

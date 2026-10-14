@@ -1,7 +1,7 @@
 ---
 term: CUF
-title: 'CUF (Capacity Utilisation Factor) in Solar: Formula and Example'
-description: Capacity utilisation factor compares energy generated with nameplate capacity over the same period. Learn the formula, a checked 1 MW example and what changes a solar CUF.
+title: "CUF (Capacity Utilisation Factor): Definition, Calculation & Solar Applications"
+description: "CUF measures the actual output of a solar plant relative to its rated capacity. Guide to calculation and Indian benchmarks."
 category: Performance
 categorySlug: performance-efficiency
 priority: P0

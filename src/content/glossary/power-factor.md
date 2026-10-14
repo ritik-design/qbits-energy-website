@@ -1,7 +1,7 @@
 ---
 term: Power Factor
-title: 'Power Factor: kW, kVA and Solar Inverter Reactive Power'
-description: Power factor is active power divided by apparent power. Learn the formula, a checked example, leading and lagging operation, and why site rules matter.
+title: "Power Factor: Definition, Calculation & Solar Inverter Applications"
+description: "Power factor is the ratio of active to apparent power. Guide to calculation, penalty schedules and inverter reactive support."
 category: Power Quality
 categorySlug: power-quality
 priority: P1

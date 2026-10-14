@@ -63,7 +63,6 @@ faqs:
   - q: "Which SERCs are considered consumer-friendly for solar?"
     a: "Maharashtra MERC, Karnataka KERC, Delhi DERC, Kerala KSERC and Rajasthan RERC are often cited as having clearer net metering frameworks."
 author: "Nirav Dhanani"
-seoTitle: "SERC: State Electricity Regulation and Solar Tariffs"
 ---
 
 ## What is a SERC

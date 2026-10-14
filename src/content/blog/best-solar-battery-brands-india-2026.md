@@ -1,8 +1,7 @@
 ---
-title: Best Solar Battery Brands in India
-seoTitle: 'Best Solar Battery Brands in India: Evidence-led Guide'
+title: "Best Solar Battery Brands in India 2026"
 excerpt: Compare solar battery brands in India using exact product evidence, with conditional picks for lithium and tubular systems plus compatibility checks.
-description: Compare solar battery brands in India using exact product evidence, with conditional picks for lithium and tubular systems plus compatibility checks.
+description: "Compare solar battery brands in India: Pylontech, Livguard, Exide, Amaron, Luminous and Loom Solar by chemistry, cycle life, warranty terms and inverter fit."
 category: Comparison
 date: 2026-06-05
 updatedDate: 2026-09-26

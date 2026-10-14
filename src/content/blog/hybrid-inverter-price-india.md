@@ -1,7 +1,7 @@
 ---
-title: 'Hybrid Solar Inverter Price in India 2026: What You Are Actually Paying For'
+title: "Hybrid Solar Inverter Price in India 2026: 3kW-10kW by Brand"
 excerpt: "Hybrid inverter price in India: dated listings, why hybrids cost more than on-grid, battery cost share, subsidy and GST, plus a 10-year worked example."
-description: "Hybrid inverter price in India: dated listings, why hybrids cost more than on-grid, battery cost share, subsidy and GST, plus a 10-year worked example."
+description: "Hybrid solar inverter price in India 2026: 3 kW to 10 kW price bands by brand from dated listings, cost drivers, battery add-on cost and subsidy maths."
 category: Buying Guide
 date: 2026-07-23
 updatedDate: 2026-09-24
@@ -33,7 +33,6 @@ faqs:
 - q: "What does a Qbits hybrid inverter cost?"
   a: "Qbits does not publish retail prices. The QBH hybrid range is sold quote-based through dealers and channel partners, so the number depends on model, phase, battery current requirement, and your location. The published catalogue gives specifications, not pricing. Send your load list, phase, and module datasheet to get a dated model-specific quote."
 featured: false
-seoTitle: "Hybrid Inverter Price in India: What Drives the Cost"
 relatedSlugs:
 - 5kw-hybrid-inverter-price-india
 - on-grid-vs-hybrid

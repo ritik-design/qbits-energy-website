@@ -1,7 +1,7 @@
 ---
 title: 'Solar Inverter Error Codes: India Troubleshooting'
 excerpt: F01 does not mean the same thing on two brands. How to read a fault by symptom group, which codes are safe to investigate, and which need an electrician.
-description: Solar inverter error codes in India. Symptom based troubleshooting for grid, DC, isolation and communication faults, and when to stop and call service.
+description: "Solar inverter error codes explained for India: grid, DC, isolation, temperature and communication codes by brand, safe first checks and when to call."
 category: Maintenance
 date: 2026-06-05
 updatedDate: 2026-09-23
@@ -27,7 +27,6 @@ faqs:
   a: Check the local display first. An app can report stale data, a logger dropout or an account issue while the inverter generates normally. Compare the app's last update timestamp with the local status. If the inverter display is clear and generation is normal, the problem is likely in the monitoring chain.
 - q: Can I open the inverter to investigate a code?
   a: No. Do not open a live inverter or a DC enclosure. Switching off the AC side does not make PV conductors safe, because the array produces voltage whenever it is illuminated. All internal investigation belongs to qualified service.
-seoTitle: 'Solar Inverter Error Codes: Safe First Checks'
 relatedSlugs:
 - solar-inverter-low-output-causes-india
 - solar-inverter-wifi-not-connecting-fix

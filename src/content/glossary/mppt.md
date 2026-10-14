@@ -1,7 +1,7 @@
 ---
 term: MPPT
-title: 'MPPT in Solar: Meaning, Voltage Range and Tracker Count'
-description: Learn what maximum power point tracking does, why voltage and current limits matter, and when two independent MPPT inputs help a solar array.
+title: "MPPT: Definition, Meaning, How It Works, Benefits & Applications"
+description: "MPPT (Maximum Power Point Tracking) is the algorithm that extracts maximum power from solar panels. Guide to working, algorithms and inverter sizing."
 category: MPPT and Strings
 categorySlug: mppt-strings
 priority: P0

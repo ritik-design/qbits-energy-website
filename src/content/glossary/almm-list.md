@@ -1,7 +1,7 @@
 ---
 term: "ALMM List"
 title: "ALMM List: Definition, Meaning, Compliance & Indian Solar Applications"
-description: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+description: "ALMM is MNRE's Approved List of Models and Manufacturers for solar PV modules (List I) and cells (List II). Learn which projects must use it and how to check."
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P0"

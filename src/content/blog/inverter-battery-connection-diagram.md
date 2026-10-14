@@ -1,7 +1,7 @@
 ---
-title: Inverter Battery Connection Diagram and Sizing Guide for Hybrid Solar
+title: "Inverter Battery Connection Diagram and Sizing Guide for Hybrid Solar"
 excerpt: 'Inverter battery connection diagram explained: series vs parallel, 48 V banks, fuse and isolator placement, cable sizing, earthing and BMS wiring.'
-description: A practical inverter battery connection diagram guide covering series and parallel topology, 48 V banks, DC protection placement, cable sizing arithmetic, earthing, and BMS communication wiring.
+description: "How batteries connect to a hybrid solar inverter: 48 V DC bus, CAN and RS485 BMS links, series and parallel banks, cable and fuse sizing, mistakes."
 category: Technical
 date: 2026-07-23
 updatedDate: 2026-09-24
@@ -37,7 +37,6 @@ faqs:
 - q: Is inverter battery wiring a DIY job?
   a: No. A 48 V lithium bank can deliver thousands of amps into a short circuit, and a DC arc does not self-extinguish at a current zero the way an AC arc does. A dropped spanner across two terminals is enough to cause serious burns and equipment damage. This work belongs with a qualified, licensed electrician working to the manufacturer instructions and to the Central Electricity Authority safety regulations applicable in your state.
 featured: false
-seoTitle: 'Inverter Battery Connection Diagram: Wiring, Fuse & Cable Size'
 relatedSlugs:
 - solar-inverter-wiring-diagram
 - battery-sizing-hybrid-solar

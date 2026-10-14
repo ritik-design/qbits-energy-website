@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Market in India 2026, Industry Report"
 excerpt: "A source-led guide to India's solar inverter market: segment definitions, PM Surya Ghar and ALMM context, brand landscape, and why public market-share estimates need care."
-description: "A source-led guide to India solar inverter market data, segment definitions, policy context and the limits of public market-share estimates."
+description: "Indian solar inverter market 2026: sourced market size estimates, segment splits, brand landscape, policy drivers and top states by rooftop capacity."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08

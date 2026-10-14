@@ -4,61 +4,76 @@ import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
 
+// Model page and quote links per datasheet row. Ids match src/data/products.ts; contact form reads ?model=.
+const modelPage = (id: string) => `/our-products/${id}/`;
+const quoteLink = (id: string) => `/contact-us/?subject=Product%20Inquiry&model=${encodeURIComponent(id)}&from=%2Fdownload-datasheets%2F#lead-form`;
+
 const onGridDocs = [
   {
     name: 'QB-1.5/2.0/2.7/3.0/3.3/3.6/4.0 KTLS',
     desc: 'Single Phase & Single MPPT',
     link: '/datasheets/products/QB_Data-Sheet_2.0-4.0-kw_1MPPT_1Phs.pdf',
+    model: 'QB-1.5-4.0KTLS',
   },
   {
     name: 'QB-4/5/6 KTLD',
     desc: 'Single Phase & Dual MPPT',
     link: '/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf',
+    model: 'QB-4-6KTLD',
   },
   {
     name: 'QB-4.6/5/6 KTLS',
     desc: 'Single Phase & Single MPPT',
     link: '/datasheets/products/QB_Data-Sheet_4.6-6.0-kw_1MPPT_1Phs.pdf',
+    model: 'QB-4.6-6KTLS',
   },
   {
     name: 'QB-6/8/10/12/15/17 KTLC',
     desc: 'Three Phase & Dual MPPT',
     link: '/datasheets/products/QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf',
+    model: 'QB-6-17KTLC',
   },
   {
     name: 'QB-20/23/25/28/30 KTLC',
     desc: 'Three Phase & Dual MPPT',
     link: '/datasheets/products/QB_Data-Sheet_20.0-30.0-kw_3Phs.pdf',
+    model: 'QB-20-30KTLC',
   },
   {
     name: 'QB-30/33/36/40 KTLC-Pro',
     desc: 'Three Phase & Multi MPPT',
     link: '/datasheets/products/QB_Data-Sheet_30.0-40.0-kw_3Phs.pdf',
+    model: 'QB-30-40KTLC-Pro',
   },
   {
     name: 'QB-40/45/50 KTLC-Plus',
     desc: 'Three Phase & Multi MPPT',
     link: '/datasheets/products/QB_Data-Sheet_40.0-50.0-kw_3Phs.pdf',
+    model: 'QB-40-50KTLC-Plus',
   },
   {
     name: 'QB-50/60 KTLC',
     desc: 'Three Phase & Multi MPPT',
     link: '/datasheets/products/QB_Data-Sheet_50.0-60.0-kw_3Phs.pdf',
+    model: 'QB-50-60KTLC',
   },
   {
     name: 'QB-70/75/80/90/100/110 KTLC-Pro',
     desc: 'Three Phase & Multi MPPT',
     link: '/datasheets/products/QB_Data-Sheet_70.0-100.0-kw_3Phs.pdf',
+    model: 'QB-70-110KTLC-Pro',
   },
   {
     name: 'QB-80/90/100/110/125 KTLC',
     desc: 'Three Phase & Multi MPPT',
     link: '/datasheets/products/QB_Data-Sheet_80.0-125.0-kw_3Phs.pdf',
+    model: 'QB-80-125KTLC',
   },
   {
     name: 'QB-225/320 K-EHV',
     desc: 'Three Phase & Multi MPPT (Utility-Scale)',
     link: '/datasheets/products/QB_Data-Sheet_225.0-320.0-kw_3Phs_Utility-Scale.pdf',
+    model: 'QB-225-320K-EHV',
   },
 ];
 
@@ -67,23 +82,26 @@ const hybridDocs = [
     name: 'QBH-3KS/3K6S/4KS/4K6S/5KS/6KS48P',
     desc: 'Single Phase',
     link: '/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf',
+    model: 'QBH-3-6KS48P',
   },
   {
     name: 'QBH-7KS/7K6S/8KS48P',
     desc: 'Single Phase',
     link: '/datasheets/products/Qbits-Hybride-Inverter-Catalogue-2.pdf',
+    model: 'QBH-7-8KS48P',
   },
   {
     name: 'QBH-5/6/7/8/10/12KS48P3',
     desc: 'Three Phase',
     link: '/datasheets/products/Qbits-Hybride-Inverter-Catalogue-3.pdf',
+    model: 'QBH-5-12KS48P3',
   },
 ];
 ---
 
 <Layout
-  title="Qbits Inverter Datasheets: On-Grid & Hybrid Models"
-  description="Download Qbits inverter product datasheets and identify the right model. Request installation manuals, warranty terms and certificates where needed."
+  title="Qbits Inverter Datasheets (PDF): On-Grid and Hybrid Models"
+  description="Download Qbits on-grid and hybrid inverter datasheet PDFs by model, or get the product catalogue by email. Request manuals and warranty terms by model."
   canonical="/download-datasheets/"
 >
   <HeaderV2 />
@@ -98,8 +116,9 @@ const hybridDocs = [
 
     <!-- Soft email opt-in CTA - bundle all datasheets to your inbox -->
     <section class="py-8 bg-white" aria-labelledby="document-check-heading"><div class="container-main max-w-5xl">
-      <h2 id="document-check-heading" class="text-2xl font-bold text-slate-900">Find the document for the exact model</h2>
-      <p class="mt-3 text-slate-600">The QB-4/5/6KTLD file below is the two-MPPT single-phase family; QB-4.6/5/6KTLS is the one-MPPT family. The QBH-3KS/3K6S/4KS/4K6S/5KS/6KS48P hybrid catalogue covers several variants with different current and MPPT counts. Check the model label on the supplied unit against the document before designing strings or batteries.</p>
+      <h2 id="document-check-heading" class="text-2xl font-bold text-slate-900">Qbits inverter datasheets by model, and the catalogue by email</h2>
+      <p class="mt-3 text-slate-600">There are two ways to get Qbits product documents. <strong class="text-slate-900">Individual datasheets</strong> are PDFs for each model family, listed below for <a class="text-brand-600 underline" href="/on-grid-inverter/">on-grid</a> and <a class="text-brand-600 underline" href="/hybrid-inverter/">hybrid</a> inverters. They need no form. Each row also links to that model's page on <a class="text-brand-600 underline" href="/our-products/">our products</a>, where the specifications sit beside the datasheet. The <strong class="text-slate-900">product catalogue</strong> is one PDF with an overview and technical specifications; submit the short form below and a link to it is emailed to you. The form does not send every datasheet.</p>
+      <p class="mt-3 text-slate-600">The QB-4/5/6KTLD file below is the two-MPPT single-phase family; QB-4.6/5/6KTLS is the one-MPPT family. The QBH-3KS/3K6S/4KS/4K6S/5KS/6KS48P hybrid catalogue covers several variants with different current and MPPT counts. Check the model label on the supplied unit against the document before designing strings or batteries, and use the <a class="text-brand-600 underline" href="/string-sizing-calculator/">string sizing calculator</a> only as a first screen.</p>
       <p class="mt-3 text-slate-600">These downloads are product datasheets. For a model-specific installation manual, battery compatibility confirmation, certificate or written warranty, <a class="text-brand-600 underline" href="/contact-us/">contact Qbits with the exact SKU and serial number</a>.</p>
     </div></section>
     <section class="bg-gradient-to-br from-brand-600 via-brand-700 to-slate-900 py-12 lg:py-16 text-white relative overflow-hidden" aria-labelledby="bundle-heading">
@@ -306,6 +325,7 @@ const hybridDocs = [
                     <th class="text-left px-6 py-4 font-semibold">Product Name</th>
                     <th class="text-left px-6 py-4 font-semibold">Description</th>
                     <th class="text-left px-6 py-4 font-semibold">Download</th>
+                    <th class="text-left px-6 py-4 font-semibold">This model</th>
                   </tr>
                 </thead>
                 <tbody class="divide-y divide-slate-100">
@@ -318,6 +338,11 @@ const hybridDocs = [
                           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
                           Datasheet
                         </a>
+                      </td>
+                      <td class="px-6 py-5 text-xs font-medium">
+                        <a href={modelPage(doc.model)} class="text-slate-700 underline hover:text-brand-700">Model page</a>
+                        <span class="text-slate-300" aria-hidden="true"> | </span>
+                        <a href={quoteLink(doc.model)} class="text-slate-700 underline hover:text-brand-700">Request a quote</a>
                       </td>
                     </tr>
                   ))}
@@ -352,6 +377,7 @@ const hybridDocs = [
                     <th class="text-left px-6 py-4 font-semibold">Product Name</th>
                     <th class="text-left px-6 py-4 font-semibold">Description</th>
                     <th class="text-left px-6 py-4 font-semibold">Download</th>
+                    <th class="text-left px-6 py-4 font-semibold">This model</th>
                   </tr>
                 </thead>
                 <tbody class="divide-y divide-slate-100">
@@ -364,6 +390,11 @@ const hybridDocs = [
                           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
                           Datasheet
                         </a>
+                      </td>
+                      <td class="px-6 py-5 text-xs font-medium">
+                        <a href={modelPage(doc.model)} class="text-slate-700 underline hover:text-brand-700">Model page</a>
+                        <span class="text-slate-300" aria-hidden="true"> | </span>
+                        <a href={quoteLink(doc.model)} class="text-slate-700 underline hover:text-brand-700">Request a quote</a>
                       </td>
                     </tr>
                   ))}

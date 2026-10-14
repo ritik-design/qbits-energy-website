@@ -57,7 +57,6 @@ faqs:
   - q: "How do I dispute a smart meter reading?"
     a: "Raise a complaint with the DISCOM with the meter serial number and dispute period. DISCOMs can download interval data from the meter or via AMI for verification."
 author: "Nirav Dhanani"
-seoTitle: "Smart Meter: Meaning, Readings and Solar Applications"
 ---
 
 ## What is a smart meter

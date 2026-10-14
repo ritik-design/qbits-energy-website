@@ -62,7 +62,6 @@ faqs:
   - q: "What documents are needed for net metering?"
     a: "The list differs by DISCOM, so use your DISCOM's checklist or the national rooftop portal. It usually includes proof of identity and of ownership or the owner's consent, a recent electricity bill with the sanctioned load, the system capacity and single-line diagram, equipment details with test certificates, the installer's details and the application fee. After inspection the DISCOM installs a net or bi-directional meter."
 author: "Nirav Dhanani"
-seoTitle: "Net Metering in India: Meaning, Billing and Approval Checks"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

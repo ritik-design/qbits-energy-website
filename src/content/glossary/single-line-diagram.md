@@ -1,7 +1,7 @@
 ---
 term: "Single Line Diagram"
-title: "Solar SLD: What a One-Line Diagram Shows"
-description: "A solar single line diagram shows the main electrical path, ratings and protection. Learn what to check before a DISCOM or engineering submission."
+title: "Single Line Diagram (SLD): Definition & Solar Project Applications"
+description: "SLD is the simplified one-line electrical drawing. Guide to symbols, content and Indian solar applications."
 category: "Installation"
 categorySlug: "installation"
 priority: "P1"

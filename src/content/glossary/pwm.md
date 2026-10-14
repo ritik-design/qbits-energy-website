@@ -63,7 +63,6 @@ faqs:
   - q: "What is the price of a PWM charge controller in India?"
     a: "Approximate 2026 prices: 10 A 12 V ₹400 to ₹900, 20 A 12/24 V ₹800 to ₹1,800, 30 A 12/24 V ₹1,200 to ₹2,500. Modern MPPT alternatives start around ₹2,500 to ₹4,500."
 author: "Keyur Rakholiya"
-seoTitle: "PWM Solar Charge Controller: Meaning and MPPT Comparison"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

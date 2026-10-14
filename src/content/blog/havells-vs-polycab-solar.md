@@ -1,7 +1,7 @@
 ---
 title: 'Havells vs Polycab Solar Inverter 2026: Honest Comparison'
 excerpt: Havells vs Polycab for solar, compared on verified inverter ranges, warranty years, cable strengths, ALMM status, and dealer questions.
-description: Havells vs Polycab for solar, compared on verified inverter ranges, warranty years, cable strengths, ALMM status, and dealer questions.
+description: "Havells vs Polycab solar inverters compared: residential and commercial ranges, specs, published warranty terms, service networks and best fit."
 category: Comparison
 date: 2026-07-23
 updatedDate: 2026-09-24
@@ -36,7 +36,6 @@ faqs:
 - q: What should I do if the catalogue and the dealer quote disagree on warranty?
   a: Treat the written warranty document for your exact SKU as the only binding figure. Polycab's printed catalogue shows 7 years, while its own online store exposes a warranty filter offering 5 and 8 years, so channel figures and catalogue figures can differ. Ask for the document that names the remedy, the freight and labour liability, the registration deadline, the exclusions, and the entity that honours the claim. Years without those terms are not comparable data.
 featured: false
-seoTitle: 'Havells vs Polycab Solar Inverters: Model Check'
 relatedSlugs:
 - best-solar-inverter-india
 - on-grid-vs-hybrid

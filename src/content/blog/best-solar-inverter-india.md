@@ -1,8 +1,7 @@
 ---
-title: "Best Solar Inverter in India: Compare by Use Case"
-seoTitle: "Best Solar Inverter in India: Exact-Model Comparison"
+title: "Best Solar Inverter in India 2026: Top 10 Compared by Use Case"
 excerpt: "Choose the right inverter type first, then compare exact 5 kW on-grid models on MPPT range, input current, efficiency, enclosure and written support terms."
-description: "Compare solar inverters in India by use case, with a like-for-like 5 kW on-grid table and a practical exact-model buying checklist."
+description: "Compare 10 solar inverter brands in India by exact model: efficiency, MPPT, phase, monitoring and service checks, with picks by home size and use case."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-09-26

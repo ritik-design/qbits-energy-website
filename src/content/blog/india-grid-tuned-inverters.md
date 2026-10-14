@@ -1,7 +1,7 @@
 ---
 title: "India-Grid-Tuned Solar Inverters, Explained"
 excerpt: "India-grid-tuned inverters handle wide voltage swings, harmonic-heavy loads, and frequent islanding events that trip generic firmware. Here is why it matters for every EPC project."
-description: "Generic inverter firmware trips on India's 180–270V grid range and heavy harmonics. India-grid-tuned firmware fixes these failure modes for EPCs."
+description: "Generic inverter firmware trips on India's grid voltage swings and heavy harmonics. India-grid-tuned firmware fixes these failure modes for EPCs."
 category: Technology
 date: 2026-06-05
 readTime: "16 min"

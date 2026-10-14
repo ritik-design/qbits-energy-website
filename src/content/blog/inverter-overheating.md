@@ -1,7 +1,7 @@
 ---
-title: 'Solar Inverter Overheating: Causes, Derating and Fixes'
+title: "Inverter Overheating: Temperature Range, Derating and Fixes"
 excerpt: Why inverters cut output in the afternoon, how thermal derating differs from a real fault, and the checks to run before you call for service.
-description: Understand solar inverter overheating in India. Learn how thermal derating works, what the fault codes mean, and which checks to run before calling service.
+description: "Why solar inverters overheat in Indian summers: operating temperature range, thermal derating, warning signs, fault codes and safe checks."
 category: Maintenance
 date: 2026-04-04
 readTime: 9 min
@@ -29,7 +29,6 @@ faqs:
 - q: Does overheating shorten inverter life?
   a: Sustained high internal temperature is one of the recognised ageing mechanisms for power electronics, particularly for electrolytic capacitors. This is the engineering reason manufacturers specify clearances and derating curves. Running a unit inside its rated envelope is the practical way to avoid accelerating that wear.
 updatedDate: 2026-09-23
-seoTitle: 'Solar Inverter Overheating: Signs, Derating and Safe Checks'
 relatedSlugs:
 - solar-inverter-low-output-causes-india
 - solar-inverter-error-codes-guide

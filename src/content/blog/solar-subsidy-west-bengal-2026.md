@@ -1,7 +1,7 @@
 ---
-title: Solar Subsidy in West Bengal 2026, WBSEDCL + Central
+title: "Solar Subsidy in West Bengal 2026, WBSEDCL + Central"
 excerpt: Solar subsidy in West Bengal 2026, verified PM Surya Ghar slabs, the WBSEDCL route, the 5 kW net metering line, and what a state top-up really means.
-description: Solar subsidy in West Bengal 2026, verified PM Surya Ghar slabs, the WBSEDCL route, the 5 kW net metering line, and what a state top-up really means.
+description: "West Bengal solar subsidy 2026: PM Surya Ghar central assistance (MNRE slabs), WBSEDCL net metering, eligibility, documents and application steps."
 category: Policy
 date: 2026-06-05
 updatedDate: 2026-09-24
@@ -33,7 +33,6 @@ faqs:
   a: No. MNRE guidelines (2024) make the Domestic Content Requirement an essential condition, meaning domestically manufactured modules built from domestically manufactured cells. Use of non-DCR modules in any form makes the installation ineligible for central assistance. Consumers who opt out of the subsidy through the Give It Up option are free to use non-DCR equipment. This condition applies to modules and cells, and should not be confused with inverter specifications.
 - q: Does the scheme guarantee 300 free units every month?
   a: No. The MNRE guidelines (2024) state an objective of helping provide free or low-cost electricity to 1 crore households up to 300 units per month. That is a scheme objective, not a per-household entitlement. What you actually save depends on your generation, your consumption pattern, your metering arrangement, and the tariff set by WBERC. A household on net billing settles exports differently from one on net metering.
-seoTitle: 'West Bengal Solar Subsidy: Check the Official Route'
 relatedSlugs:
 - pm-surya-ghar-yojana-complete-guide
 - empanelled-vendor-pm-surya-ghar

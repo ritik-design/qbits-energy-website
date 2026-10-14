@@ -1,7 +1,7 @@
 ---
-title: "How to Compare Wi-Fi Solar Inverters in India"
+title: "Best WiFi Solar Inverter in India 2026: 5 Brands Compared"
 excerpt: "choosing a connected inverter with model-specific checks for apps, loggers, alerts, connectivity, data access, and support."
-description: "choosing a connected inverter with model-specific checks for apps, loggers, alerts, connectivity, data access, and support."
+description: "Compare WiFi solar inverters in India: monitoring hardware, loggers, alerts, offline behaviour and app support across five brands, with exact models."
 category: "Technology"
 date: 2026-09-23
 updatedDate: 2026-09-23

@@ -1,7 +1,7 @@
 ---
-title: "How to Choose a Solar Inverter for Your Home"
+title: "How to Choose a Solar Inverter for Home: 8-Point Checklist"
 excerpt: "Choose a home solar inverter from your bill, loads, outage needs, grid connection, array design, battery plan, site conditions, and exact model documents."
-description: "Learn how to choose a solar inverter for home using load, outage, phase, panel, battery, site, warranty, and installer-document checks."
+description: "How to choose a solar inverter for home in India with eight checks: load, outages, phase, panels, battery, site, warranty documents and handover."
 category: "Buying Guide"
 date: 2026-03-22
 updatedDate: 2026-09-23

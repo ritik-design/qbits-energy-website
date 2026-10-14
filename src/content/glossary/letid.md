@@ -31,7 +31,6 @@ relatedTerms:
   - { slug: "p-type-silicon", term: "P-Type Silicon" }
   - { slug: "module-efficiency", term: "Module Efficiency" }
   - { slug: "iec-61215", term: "IEC 61215" }
-  - { slug: "performance-warranty", term: "Performance Warranty" }
 faqs:
   - q: "What is LeTID in simple words?"
     a: "Slow loss of solar panel output that happens over years when panels run hot and bright. Mostly affects older PERC modules; modern PERC controls it."

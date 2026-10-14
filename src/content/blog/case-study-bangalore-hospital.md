@@ -22,7 +22,7 @@ faqs:
     a: "No. Approval and tax treatment depend on the legal entity, site, equipment, transaction and rules in force. Verify them through the relevant authority and qualified advisers."
 ---
 
-> **Illustrative planning scenario, not a customer case study.** The 50 kW capacity is a working brief, not a recommendation. Qbits has not supplied a signed customer record, site survey, interval load file, design, quotation, commissioning report or measured performance dataset for this page. Every project outcome is therefore not established.
+> **Illustrative planning scenario, not a customer case study.** The 50 kW capacity is a working brief, not a recommendation. This page is not based on a signed customer record, site survey, interval load file, design, quotation, commissioning report or measured performance dataset. Every project outcome is therefore unknown.
 
 A hospital cannot let a rooftop generation project blur the boundary between ordinary building loads and clinical continuity systems. This scenario shows the evidence needed to assess a 50 kW working brief while keeping patient safety and facility responsibility explicit.
 
@@ -34,17 +34,17 @@ A credible answer must survive three checks: the design is electrically safe, th
 
 ## Evidence required before sizing
 
-| Input | What to collect | Current evidence |
+| Input | What to collect | Status in this scenario |
 | --- | --- | --- |
-| Load segregation | Signed schedule of critical, essential and non-critical circuits | not established |
-| Interval demand | Metered daytime demand and operating calendar | not established |
-| Continuity systems | UPS, generator, ATS and essential-distribution drawings | not established |
-| Tariff and billing | Twelve months of bills, tariff category and export treatment | not established |
-| Site constraints | Survey, shading, structure, cable route, access and environment | not established |
-| Utility process | Current connection, metering and inspection requirements | not established |
-| Commercial scope | Itemised quote, taxes, exclusions, warranty and service duties | not established |
+| Load segregation | Signed schedule of critical, essential and non-critical circuits | To be collected |
+| Interval demand | Metered daytime demand and operating calendar | To be collected |
+| Continuity systems | UPS, generator, ATS and essential-distribution drawings | To be collected |
+| Tariff and billing | Twelve months of bills, tariff category and export treatment | To be collected |
+| Site constraints | Survey, shading, structure, cable route, access and environment | To be collected |
+| Utility process | Current connection, metering and inspection requirements | To be collected |
+| Commercial scope | Itemised quote, taxes, exclusions, warranty and service duties | To be collected |
 
-A missing input should stay not established. Replacing it with a typical value creates a neat payback number but not a reliable hospital decision.
+A missing input should stay marked as unknown. Replacing it with a typical value creates a neat payback number but not a reliable hospital decision.
 
 ## Engineering controls for a hospital
 
@@ -71,7 +71,7 @@ Do not publish a generation, saving, return or payback result until the calculat
 
 ## What can be said about Qbits equipment?
 
-The retained Qbits catalogue publishes on-grid and hybrid inverter families with model-specific ratings. It does not prove that a Qbits model is suitable for this hospital. It also does not establish universal harmonic performance, monitoring functions, certification, warranty terms, service coverage or project support.
+Qbits' published catalogue lists on-grid and hybrid inverter families with model-specific ratings. That does not prove that a Qbits model is suitable for this hospital. Nor does it state universal harmonic performance, monitoring functions, certification, warranty terms, service coverage or project support.
 
 If Qbits is shortlisted, record the exact SKU and request its current datasheet, installation manual, applicable certificates, monitoring scope, written warranty and service terms. Compare those documents with the final hospital design. MNRE's current ALMM page concerns PV module and cell lists, not an inverter list.
 

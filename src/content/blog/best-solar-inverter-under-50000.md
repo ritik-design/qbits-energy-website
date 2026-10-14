@@ -16,19 +16,19 @@ keywords:
   - 3kw solar inverter price 2026
 faqs:
   - q: "Which is the best solar inverter under ₹50,000 in India in 2026?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "There is no single best inverter at this price, because the right unit depends on your roof and your load. Under ₹50,000 you are usually choosing between a 3kW on-grid inverter from a mainstream brand, a smaller or budget 5kW on-grid unit, or a basic 3kW hybrid. Compare the exact model on MPPT count, DC voltage window, written warranty terms, local service access and a dated itemised quote, not on a ranking."
   - q: "What size inverter can I buy for under ₹50,000?"
     a: "Think in terms of capacity class rather than a single model, because Qbits sells through dealers on a quote basis and publishes no price. As a category, single-phase on-grid string inverters in the smaller capacity classes are the ones that usually fall inside a budget like this, while three-phase and hybrid units sit higher because they carry more power electronics and, in the hybrid case, battery charging hardware. Ask for a dated itemised quote naming the exact model, and check what the figure includes before comparing it with another."
   - q: "Is a 3kW solar system enough for an Indian home?"
     a: "A 3kW system suits a typical 1 to 2 BHK home, or a 3 BHK with modest usage, generating roughly 12 to 14 units per day in most Indian cities. It comfortably runs fans, lights, a fridge, a TV, and a washing machine. A single 1.5-tonne AC pushes it close to its limit. If your monthly bill exceeds 400 units, a 5kW system is usually the better fit. Size the system to your average daily units from the last 12 months of bills."
   - q: "Does a sub-₹50,000 inverter qualify for PM Surya Ghar subsidy?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The inverter's price does not decide subsidy eligibility. The installation does: the vendor must be registered with your DISCOM, the modules must meet the scheme's requirements and be listed on the MNRE ALMM module list, and the inverter must meet the scheme and DISCOM technical conditions. MNRE publishes no ALMM list for inverters, so ask for the exact model's BIS registration and current certificates and confirm the requirements with your DISCOM before you buy."
   - q: "What warranty should I expect on a solar inverter under ₹50,000?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "Mainstream budget string inverters are commonly sold with about 5 years, and many brands offer paid extensions. The headline duration matters less than the remedy (repair or replacement), the registration deadline, who pays freight and labour, and the exclusions. Qbits' public datasheets describe an expandable warranty but do not define the base term, so it is left out of any duration comparison here; get the current written warranty for the exact model before buying."
   - q: "Can I add a battery to a budget on-grid inverter later?"
     a: "No. A standard on-grid inverter cannot accept a battery without being replaced entirely. It lacks the battery management hardware and bidirectional converter that hybrid inverters have. If there is any real chance you will want backup power within five years, buy a hybrid inverter now. The premium of ₹15,000 to ₹25,000 today is far cheaper than replacing a ₹40,000 on-grid inverter in year three."
   - q: "Are cheap Chinese inverters like Growatt reliable in India?"
-    a: "Growatt sells in high volume in India and its units are ALMM-listed with acceptable 97.5% plus efficiency, so the hardware itself is adequate. The reliability risk is service, not electronics. Growatt has no direct service field force in India, so repairs depend on your installer's competence and spares stock. In cities with several experienced Growatt installers this works fine. In smaller towns, a 5-year warranty can mean a 3-week wait for a replacement unit."
+    a: "Growatt sells in high volume in India and its units have an acceptable 97.5% plus efficiency, so the hardware itself is adequate. The reliability risk is service, not electronics. Growatt has no direct service field force in India, so repairs depend on your installer's competence and spares stock. In cities with several experienced Growatt installers this works fine. In smaller towns, a 5-year warranty can mean a 3-week wait for a replacement unit."
 featured: false
 ---
 
@@ -78,8 +78,8 @@ The scheme had solarised 40 lakh households by May 2026, according to Union Mini
 
 | Buyer type | Best pick | Why |
 | --- | --- | --- |
-| **Qbits buyer** | Current exact-model quote required | current published evidence does not establish a Qbits inverter below ₹50,000 |
-| **Best lowest price** | Growatt MIN 3000TL / MIC 3300TL-X | Cheapest ALMM-compliant unit, adequate specs, high sales volume |
+| **Qbits buyer** | Current exact-model quote required | Qbits publishes no price, so a dated quote for the exact model decides whether it fits under ₹50,000 |
+| **Best lowest price** | Growatt MIN 3000TL / MIC 3300TL-X | Among the cheapest options, adequate specs, high sales volume |
 | **Best Indian mass brand** | Luminous GTI 3kW | Wide service network, local manufacturing, familiar brand |
 | **Best specs per rupee** | GoodWe GW3000-NS | Dual MPPT, solid efficiency, competitive price |
 | **Widest availability** | Microtek GTI 3.3kW | Stocked by most electrical distributors, easy spares |
@@ -92,7 +92,7 @@ These five represent the realistic shortlist for a budget buyer in 2026. We make
 
 ### Qbits model documentation
 
-The current Qbits public datasheets do not establish a retail price. Price below ₹50,000 is therefore not established until the exact SKU, tax, accessories, seller and quote date are documented. The operating category and outage behavior must also be checked for that SKU.
+Qbits' public datasheets do not list a retail price, so whether a Qbits inverter fits under ₹50,000 depends on the exact model, tax, accessories, seller and quote date. Ask a dealer for a dated quote, and check the operating category and outage behaviour of that model.
 
 **Best for:** homeowners in reliable-grid areas who plan to stay in the house for a decade or more.
 
@@ -116,7 +116,7 @@ Specs are mid-pack: around 97.5% efficiency, IP65, app-based monitoring, 5-year 
 
 GoodWe's GW3000-NS is the quiet overachiever of this segment. Dual MPPT, roughly 97.8% efficiency, IP65, and prices of ₹30,000 to ₹40,000 make it the strongest spec sheet per rupee among the imports. The SEMS monitoring portal is functional and gives proper generation history.
 
-Warranty is 5 years standard, extendable in some channels. Service is installer-dependent across most of India, though GoodWe's installer network is strong in Gujarat, Maharashtra, and Karnataka. Verify ALMM listing for the exact model variant, because GoodWe lists models individually.
+Warranty is 5 years standard, extendable in some channels. Service is installer-dependent across most of India, though GoodWe's installer network is strong in Gujarat, Maharashtra, and Karnataka. Ask for the exact model variant's current certificates, because GoodWe documents its models individually.
 
 **Best for:** buyers with east-west or shaded roofs who need dual MPPT done well, in cities with established GoodWe installers.
 
@@ -132,8 +132,8 @@ Specs are basic: single or dual MPPT depending on variant, around 97% efficiency
 
 | Metric | Qbits | Growatt | Luminous | GoodWe | Microtek |
 | --- | --- | --- | --- | --- | --- |
-| **Price band (inverter only)** | not established; current quote required | Recheck current quote | Recheck current quote | Recheck current quote | Recheck current quote |
-| **Warranty** | not established; current written terms required | Recheck exact-model India terms | Recheck exact-model India terms | Recheck exact-model India terms | Recheck exact-model India terms |
+| **Price band (inverter only)** | Not published; current quote required | Recheck current quote | Recheck current quote | Recheck current quote | Recheck current quote |
+| **Warranty** | Base term not published; current written terms required | Recheck exact-model India terms | Recheck exact-model India terms | Recheck exact-model India terms | Recheck exact-model India terms |
 | **Peak efficiency** | Check exact-model datasheet | Check exact-model datasheet | Check exact-model datasheet | Check exact-model datasheet | Check exact-model datasheet |
 | **IP rating** | Check exact-model datasheet and site limits | Check exact model | Check exact model | Check exact model | Check exact model |
 | **MPPT** | Check exact-model tracker layout and limits | Check exact model | Check exact model | Check exact model | Check exact model |
@@ -151,7 +151,7 @@ Every inverter under ₹50,000 involves a compromise somewhere. Here is what the
 
 **One to two efficiency points.** Budget units run 97% to 97.8% against 98% plus for premium models. On a 3kW system, one efficiency point is worth roughly 48 units a year, or about ₹360 at ₹7.50 per unit. Notice this is small. Warranty depth matters ten times more than efficiency at this margin. Buyers who shop by efficiency alone are optimising the wrong number.
 
-**Service depth.** Only Qbits and Luminous have anything resembling a direct service network in this segment. The imports run on installer goodwill. Before you sign, ask your installer two questions: how many of this exact model have you installed, and where is your nearest spare unit. Vague answers are your answer.
+**Service depth.** Luminous has the widest service reach among these picks, and Qbits publishes a service-partner locator at [service-partner locator](/authorized-service-partners/). The imports mostly run on installer goodwill. Before you sign, ask your installer two questions: how many of this exact model have you installed, and where is your nearest spare unit. Vague answers are your answer.
 
 **Backup capability.** Every on-grid inverter on this list goes dark during a power cut, by design. Anti-islanding rules require it. If your area sees two or more hours of daily cuts, an on-grid inverter at any price is the wrong purchase. The savings math in this post then does not apply to you.
 
@@ -171,7 +171,7 @@ A ₹50,000 cap is sensible for many buyers. It is not sensible for all. Three s
 
 Most regret in this segment comes from process errors, not hardware. The [solar inverter buying mistakes](/blog/solar-inverter-buying-mistakes/) post covers the full list. Three matter most at this price.
 
-**Mistake 1: Buying a non-ALMM unit to save ₹8,000.** The subsidy forfeiture is ₹78,000 on a 3kW system. Verify the exact model number on the MNRE ALMM list before paying anything.
+**Mistake 1: Buying non-compliant equipment to save ₹8,000.** The subsidy at risk is ₹78,000 on a 3kW system. Check that the modules are on the MNRE ALMM module list, and ask for the inverter's exact model number with its BIS registration and current certificates before paying anything.
 
 **Mistake 2: Trusting the installer's brand preference blindly.** Installers push the brands they stock and service. That is not always bad advice, since installer-supported brands get fixed faster. But ask why, and get a second quote from another registered vendor. Two quotes routinely surface ₹15,000 to ₹25,000 of price spread on identical systems.
 
@@ -179,6 +179,6 @@ Most regret in this segment comes from process errors, not hardware. The [solar 
 
 ## The Bottom Line
 
-- Confirm the exact model's ALMM listing on the MNRE portal, and get the certificate number in writing from your installer.
+- Confirm the modules' entry on the MNRE ALMM module list and the inverter's current certificates, and get the certificate numbers in writing from your installer.
 - Get itemised quotes from two PM Surya Ghar registered vendors, with inverter model, warranty terms, and mounting location spelled out.
-- If you want a 3kW system designed around the TLS-3K with a straight answer on net cost after subsidy, [request a quote from Qbits](/contact-us/).
+- If you want a Qbits inverter from the QB 1.5 to 4.0KTLS single-phase range for a 3kW system, [contact Qbits](/contact-us/) and ask for a dated quote for the exact model.

@@ -31,7 +31,6 @@ relatedTerms:
   - { slug: "resco", term: "RESCO" }
   - { slug: "tariff", term: "Tariff" }
   - { slug: "discount-rate", term: "Discount Rate" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
 faqs:
   - q: "What is payback period in simple words?"
     a: "How many years it takes for the money you save from solar to add up to the cost of installing it. Indian PM Surya Ghar residential systems pay back in 2.5 to 5 years typically."

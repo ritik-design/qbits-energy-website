@@ -22,7 +22,7 @@ faqs:
   - q: "How do I calculate clipping losses?"
     a: "Use simulation software like PVsyst with TMY irradiance data, panel specs, and inverter efficiency curves. Example: a 55 kW array on a 50 kW inverter in Ahmedabad clips ~180 hours annually, losing ~1,200 kWh (1.8% of production)."
   - q: "Does clipping void warranty?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "Clipping alone does not normally void a warranty, but many manufacturers limit the permitted DC oversizing ratio or maximum DC input in their warranty terms, and a design outside those limits can give grounds to reject a claim. Confirm the permitted DC:AC range and the written warranty wording for the exact model before you finalise the design. For Qbits, the public datasheets describe an expandable warranty but do not define the base term, so get the current written warranty for the model you are quoting."
   - q: "How do I explain clipping to clients?"
     a: "Use the highway analogy: the inverter is a four-lane highway; sometimes you have six lanes of cars, so some wait - but during the other 23 hours of the day, all four lanes operate full, instead of mostly empty. Net throughput is much higher."
 ---
@@ -186,9 +186,9 @@ Continuously adjust parameters based on real-time conditions to maximise energy 
 
 Premium platforms integrate weather forecasting with monitoring, enabling sophisticated energy management in hybrid systems with storage by shifting battery charging schedules.
 
-### Qbits evidence to request
+### What to request for a Qbits model
 
-Use the exact model datasheet and design limits to assess DC oversizing and clipping. Maximum efficiency and enclosure rating do not prove efficiency during sustained clipping, thermal performance at the site, component origin, monitoring functions or warranty coverage. Request the derating curve, permitted DC:AC design range, monitoring scope and written warranty for the quoted SKU. Unavailable items remain not established.
+Use the exact model datasheet and design limits to assess DC oversizing and clipping. Maximum efficiency and enclosure rating say nothing about efficiency during sustained clipping, thermal performance at the site, component origin, monitoring functions or warranty coverage. Request the derating curve, permitted DC:AC design range, monitoring scope and written warranty for the quoted SKU. If the public datasheet does not state an item, ask for it in writing.
 
 ## Key Specifications Summary
 

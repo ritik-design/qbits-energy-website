@@ -216,7 +216,7 @@ Choosing between a budget installation and a premium one is not just a question 
 
 | | Premium Installation | Budget Installation |
 | --- | --- | --- |
-| **Inverter warranty** | ✓ 10–12 years full replacement | ✗ 2–5 years parts only |
+| **Inverter warranty** | ✓ Longer term (often 10 to 12 years) with the remedy stated in writing | ✗ 2–5 years, often parts only |
 | **Panel brand** | ✓ Tier-1 ALMM-listed modules | ✗ Unrated or unrecognised brand |
 | **BOS quality** | ✓ Hot-dip galvanised steel, 6 mm² DC cable | ✗ Powder-coated mild steel, 4 mm² cable |
 | **Net metering filing** | ✓ Installer manages the process end-to-end | ✗ Often left to the homeowner |
@@ -237,7 +237,7 @@ The mistakes below are responsible for most post-installation regret among India
 - **Comparing per-watt prices across quotes without knowing what each includes.** A ₹45/Wp quote with no BOS and a ₹58/Wp quote with complete BOS, earthing, and net metering application are not comparable. Always calculate total installed cost, not per-watt price.
 - **Accepting "subsidy already applied" quotes without verifying eligibility.** Subsidy under PM Surya Ghar requires MNRE registration through the national portal. An installer who claims the subsidy is already built into the price without having registered your application is misrepresenting the process, the subsidy is paid post-installation to your bank account.
 - **Choosing the lowest-wattage panel to save upfront.** Installing 330 Wp poly panels to save ₹4,000 on a 3 kW system results in six panels instead of five, more mounting hardware, more cabling, and more roof area consumed. The saving on panels is frequently smaller than the added BOS cost.
-- **Ignoring the inverter service network.** An inverter that fails in month 14 is only as good as the service partner who can reach your home within 72 hours. Before signing, ask the installer which service centre handles your pincode, and call that service centre to verify it is active.
+- **Ignoring the inverter service network.** An inverter that fails in month 14 is only as good as the service partner who can reach your home quickly. Before signing, ask the installer which service centre handles your pincode, get the response time in writing, and call that service centre to verify it is active.
 - **Not reading the warranty document before signing.** "model-specific written warranty" can mean 12-year full replacement or 12-year pro-rated or 12-year parts-only. These are fundamentally different risk profiles. Ask for the warranty certificate, not just the marketing claim.
 - **Skipping the AMC conversation.** A solar system requires at least one professional cleaning and one electrical inspection per year to maintain performance and warranty validity. Homeowners who skip AMC often see 5–8% annual yield degradation from soiling alone, in dusty cities like Delhi, Jaipur, or Kanpur, the loss can reach 12–15% without regular cleaning.
 

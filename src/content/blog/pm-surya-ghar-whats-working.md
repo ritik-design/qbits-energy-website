@@ -16,7 +16,7 @@ keywords:
   - pm surya ghar apartment flat owners
 faqs:
   - q: "What is the honest assessment of PM Surya Ghar Muft Bijli Yojana in 2026?"
-    a: "MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models, then obtain the inverter documents required by the scheme and DISCOM separately."
+    a: "PM Surya Ghar works well as a demand engine: the central subsidy of up to ₹78,000 and a single national portal have pulled millions of households into rooftop solar. It works less well on the supply side. DISCOM net metering and inspection queues, vendor empanelment rules that can exclude good smaller installers, subsidy disbursement delays and the lack of a practical route for apartment owners are the main problems. The scheme is a good programme running below its potential because of solvable infrastructure issues, not because of weak demand."
   - q: "Why are DISCOM net metering approvals so slow under PM Surya Ghar?"
     a: "Most DISCOMs lack dedicated rooftop solar processing teams. The same engineers who handle commercial HT connections are responsible for residential solar applications. Net metering meter procurement, installation scheduling, and grid-synchronisation inspections are often batched quarterly rather than processed on demand. States with dedicated solar cells - Gujarat, Karnataka - process applications in 30–45 days. States without dedicated cells routinely take 4–9 months."
   - q: "Can apartment and flat owners get PM Surya Ghar subsidy?"
@@ -24,7 +24,7 @@ faqs:
   - q: "How long does PM Surya Ghar subsidy disbursement actually take?"
     a: "MNRE targets 30 days from commissioning report submission to bank transfer. In practice, Gujarat and Maharashtra disburse within 30–60 days. States with slower smart meter rollout - parts of UP, Bihar, Madhya Pradesh - can take 90–120 days or longer. The main delay drivers are smart meter shortages, DISCOM inspection backlogs, and Aadhaar-linked bank account mismatches at the PFMS payment gateway."
   - q: "Is the current ALMM scope mandate helping or hurting the solar market?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "It does both, and the effect depends on the buyer. ALMM covers solar PV modules (List-I) and cells (List-II), and its main benefit is a quality and traceability floor for the equipment that qualifies for subsidy. The trade-off is a narrower choice of modules and, at times, tighter supply. MNRE publishes no ALMM list for inverters, so the mandate does not set an inverter quality floor, and buyers still need to check each inverter's certificates separately."
   - q: "What is the vendor empanelment problem in PM Surya Ghar?"
     a: "Vendor empanelment is handled at the state DISCOM level, and the criteria vary widely. Some DISCOMs require a minimum turnover threshold that automatically excludes smaller quality installers. Others require a local registered office even when the company provides after-sales service nationally. The result is that some homeowners in Tier-2 and Tier-3 cities are forced to choose from a short empanelled list that does not include the installer with the best track record in their area."
   - q: "What three policy changes would most improve PM Surya Ghar adoption?"
@@ -34,7 +34,7 @@ faqs:
   - q: "Which states are implementing PM Surya Ghar most effectively?"
     a: "Gujarat, Karnataka, and Maharashtra consistently process applications fastest and have the highest per-capita registrations. Gujarat benefits from a long tradition of solar-friendly DISCOM policy and a dedicated renewable energy cell in GUVNL. Karnataka's BESCOM has a dedicated rooftop solar team. Maharashtra's MSEDCL has digitised its inspection workflow. States with slower uptake include Bihar, Jharkhand, and parts of Uttar Pradesh, where DISCOM digitisation lags."
   - q: "What does PM Surya Ghar mean for solar inverter buyers choosing equipment?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The ALMM requirement applies to modules and cells, not inverters, so there is no ALMM list to check an inverter against. For the inverter, ask the supplier for the exact model's BIS registration and current test certificates, confirm that your DISCOM accepts the make and model for net metering, and check that the monitoring setup meets the scheme's data requirements. Get the inverter warranty and service terms in writing, because the subsidy payback depends on the system running reliably for years."
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

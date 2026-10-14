@@ -252,7 +252,7 @@ For how Isolator plays out in real projects, these guides go deeper:
 - [Solar Inverter Wiring Diagram for Indian Homes 2026: Panels to Meter Board](/blog/solar-inverter-wiring-diagram/)
 - [Solar Inverter Band Ho Jaye Toh Kya Karein](/blog/solar-inverter-band-ho-jaye-kya-karein/)
 - [Pre-Monsoon Solar System Inspection Checklist India](/blog/pre-monsoon-solar-inspection-checklist/)
-- [Solar Inverter Fails? 72-Hour Action Plan](/blog/solar-inverter-failure-action/)
+- [Solar Inverter Failure: Safe First Actions](/blog/solar-inverter-failure-action/)
 
 ## Sources
 

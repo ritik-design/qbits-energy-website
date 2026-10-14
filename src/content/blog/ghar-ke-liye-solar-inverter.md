@@ -1,6 +1,6 @@
 ---
 title: "Ghar ke Liye Best Solar Inverter Kaise Chunein (2026)"
-excerpt: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
+excerpt: "घर के लिए solar inverter कैसे चुनें: load, on-grid या hybrid type, model datasheet, warranty, GST और installer checks की practical guide।"
 description: "Ghar ke liye solar inverter choose karne ka practical guide: load, on-grid ya hybrid type, model datasheet, warranty aur installer checks."
 category: "Buying Guide"
 date: 2026-08-02
@@ -16,19 +16,19 @@ keywords:
   - solar inverter selection hindi
 faqs:
   - q: "घर के लिए कौन सा solar inverter सबसे अच्छा है?"
-    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
+    a: "कोई एक inverter हर घर के लिए सबसे अच्छा नहीं होता। Bijli cut कम हों तो on-grid, ज़्यादा हों या backup चाहिए तो hybrid लें। Single-phase या three-phase connection के हिसाब से model चुनें, array का DC string design और MPPT count datasheet से match करें, और exact model की written warranty तथा अपने district में service partner confirm करें।"
   - q: "3 kW घर के लिए कितने kW का inverter चाहिए?"
     a: "3 kW panel array के लिए 3 kW का inverter standard choice है, लेकिन 2.5 kW से 3.3 kW तक कुछ भी चल जाता है। India में DC oversizing common practice है, यानी inverter की rating panel capacity से 10 से 20 percent कम रखी जाती है क्योंकि panels rated output बहुत कम देर के लिए ही देते हैं। Inverter datasheet में maximum DC input देखकर confirm करें कि आपका array उस limit के अंदर है।"
   - q: "क्या घर के solar inverter पर PM Surya Ghar subsidy मिलती है?"
-    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
+    a: "Subsidy पूरे rooftop system पर मिलती है, अकेले inverter पर नहीं, और यह DISCOM-empanelled vendor से installation तथा net meter inspection जैसी शर्तों पर निर्भर है। MNRE inverter के लिए कोई ALMM list प्रकाशित नहीं करता (List-I modules की और List-II cells की है), इसलिए vendor से inverter के exact model का BIS registration और current certificates माँगें, और scheme की inverter-संबंधी requirements DISCOM या portal पर confirm करें।"
   - q: "Solar inverter पर GST कितना लगता है?"
-    a: "Solar inverter पर GST 12 percent लगता है। Vendor का quote GST-inclusive है या exclusive, यह लिखित में confirm करें, क्योंकि 5 kW system में यह ₹4,000 से ₹8,000 का फर्क बना देता है। Subsidised installations में भी GST आपके invoice पर दिखना चाहिए।"
+    a: "22 सितंबर 2025 से solar panels और complete solar power generating systems पर GST 12% की जगह 5% है (GST Council की 56वीं बैठक, 3 सितंबर 2025; CBIC अधिसूचना 9/2025-Integrated Tax (Rate), 17 सितंबर 2025)। Goods और installation वाले composite supply पर 70:30 का deemed valuation लगता है: 70% goods पर 5% और 30% service पर 18%, यानी effective लगभग 8.9%। अलग से बिकने वाले inverter या battery और केवल installation service पर 18% लग सकता है, इसलिए vendor से लिखित में पूछें कि वह किस entry पर GST लगा रहा है और quote GST-inclusive है या exclusive।"
   - q: "गाँव में voltage ऊपर नीचे होता है, कौन सा inverter लें?"
-    a: "Rural और semi-urban areas के लिए wide AC voltage window वाला inverter लें, आदर्श रूप से 150V से 270V तक operating range। Narrow window (200V से 250V) वाले inverters low voltage पर बार बार trip होते हैं और generation का बड़ा हिस्सा चला जाता है। Datasheet में AC voltage range और reconnect time दोनों check करें।"
+    a: "Rural और semi-urban areas में ऐसा inverter लें जिसकी AC voltage range चौड़ी हो और reconnect time कम हो। Narrow window वाले inverters low या high voltage पर बार बार trip हो सकते हैं और generation का हिस्सा चला जाता है। Allowed grid range model पर और DISCOM की connection शर्तों तथा inverter की grid-code setting पर निर्भर करती है, इसलिए exact model की datasheet या manual में AC voltage range और reconnect time दोनों check करें।"
   - q: "IP65 और IP66 rating में क्या फर्क है?"
     a: "दोनों dust-tight हैं, फर्क पानी में है। IP65 low pressure water jets से बचाता है, IP66 तेज़ pressure वाले jets से। Indian monsoon, coastal humidity और terrace पर सीधे बारिश पड़ने वाली जगहों पर IP66 लेना बेहतर है। अगर inverter छाया में, दीवार पर, shed के नीचे लगेगा तो IP65 भी काफी है।"
   - q: "घर के solar inverter की warranty कितनी होनी चाहिए?"
-    a: "Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।"
+    a: "सिर्फ साल की संख्या नहीं, remedy भी देखें: replacement मिलेगा या repair, कौन ship और fit करेगा, labour और freight cover हैं या नहीं, registration की deadline क्या है और exclusions क्या हैं। Indian brands आम तौर पर 5 से 12 साल की range में warranty देते हैं, और 25 साल के system में कम से कम एक inverter replacement आ सकती है, इसलिए लंबी और लिखित warranty बेहतर है। Qbits की public datasheets expandable warranty बताती हैं पर base term तय नहीं करतीं, इसलिए exact model की current written warranty लें।"
   - q: "क्या घर के लिए off-grid inverter लेना चाहिए?"
     a: "ज़्यादातर घरों के लिए नहीं। Off-grid inverter तब समझ आता है जब grid connection है ही नहीं, जैसे farmhouse, हिल area या नया plot। Off-grid में net metering नहीं मिलती, battery bank बड़ा चाहिए और PM Surya Ghar subsidy आमतौर पर grid-connected systems को मिलती है। Grid available हो तो hybrid बेहतर रास्ता है।"
 featured: false
@@ -43,8 +43,8 @@ language: hi
 > - Bijli cut रोज़ 2 घंटे से कम है तो [on-grid inverter](/glossary/on-grid-inverter/) लें, ज़्यादा है तो hybrid। [Off-grid](https://www.heavengreenenergy.com/blog/on-grid-vs-off-grid-vs-hybrid-solar-systems-gujarat) सिर्फ तब जब grid connection ही नहीं है।
 > - Inverter की rating panel array से 10 से 20 percent कम रखना normal है, यानी 3 kW panels पर 2.5 से 3 kW inverter।
 
-> - Solar inverter पर GST 12 percent है, quote में यह अलग से लिखा होना चाहिए।
-> - Rural और semi-urban घरों के लिए 150V से 270V का wide voltage window सबसे ज़्यादा मायने रखता है।
+> - Solar systems पर GST 22 सितंबर 2025 से 5% है (पहले 12%), और quote में GST का treatment अलग से लिखा होना चाहिए।
+> - Rural और semi-urban घरों के लिए चौड़ी AC voltage range और कम reconnect time सबसे ज़्यादा मायने रखते हैं।
 > - Warranty 10 साल से कम वाला inverter 25 साल के system में महँगा पड़ता है, premium Indian brands 12 साल देते हैं।
 
 अगर आप अभी तय कर रहे हैं कि inverter होता क्या है और करता क्या है, तो पहले [solar inverter kya hai](/blog/solar-inverter-kya-hai-hindi/) पढ़ लें। और अगर आप selection के बाद installation का पूरा process जानना चाहते हैं, वो अलग guide में है: [ghar mein solar panel kaise lagwayein](/blog/ghar-mein-solar-panel-kaise-lagwayein/)। यह post सिर्फ चुनने पर focus करता है।
@@ -122,12 +122,13 @@ PM Surya Ghar Muft Bijli Yojana में central subsidy पहले 2 kW प�
 
 1. Installation DISCOM-empanelled vendor ने की हो। खुद लगवाई तो subsidy नहीं।
 
-3. Inverter Phase III listing में हो, पुरानी Phase I या II listing अब portal पर accept नहीं होती।
+2. Panels MNRE की ALMM List-I में listed हों।
+3. Inverter का exact model BIS registration और current certificates के साथ हो। MNRE inverter के लिए कोई ALMM list प्रकाशित नहीं करता, इसलिए inverter की requirements DISCOM से confirm करें।
 4. Net meter लगकर DISCOM inspection pass हो।
 
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
+MNRE ALMM List-I (modules) और List-II (cells) प्रकाशित करता है, inverter की कोई list नहीं। इसलिए panels के exact model को current list से check कीजिए, और inverter के लिए certificates और DISCOM की requirements अलग से verify कीजिए।
 
-एक और चीज़ जो quote में छुपी रहती है: solar inverter पर GST 12 percent है। कुछ vendors quote GST-exclusive देते हैं और invoice के time amount बढ़ जाता है। Written में "GST inclusive" लिखवाइए।
+एक और चीज़ जो quote में छुपी रहती है: GST। 22 सितंबर 2025 से solar panels और complete solar systems पर GST 12% की जगह 5% है (installation सहित composite supply पर 70:30 valuation से effective लगभग 8.9%), जबकि अलग से बिकने वाले inverter और केवल installation service पर 18% लग सकता है। कुछ vendors quote GST-exclusive देते हैं और invoice के time amount बढ़ जाता है। Written में "GST inclusive" लिखवाइए और पूछिए कि कौन सी entry लगाई गई है। विस्तार [GST on solar inverters](/blog/gst-on-solar-inverters-2026/) guide में है।
 
 ## Warranty, IP Rating aur Voltage Window: Datasheet ki Teen Lines
 
@@ -143,9 +144,9 @@ IP65 और IP66 दोनों dust-tight हैं। फर्क पान�
 
 ### Voltage Window
 
-यह spec सबसे कम देखी जाती है और semi-urban तथा rural घरों में सबसे ज़्यादा फर्क डालती है। भारत के कई इलाकों में शाम के time grid voltage 180V तक गिर जाता है और रात में 260V तक चढ़ जाता है। Narrow window (मान लीजिए 200V से 250V) वाला inverter हर उतार चढ़ाव पर trip करता है, फिर reconnect होने में कई मिनट लगाता है। दिन भर में यह generation का अच्छा खासा हिस्सा खा जाता है।
+यह spec सबसे कम देखी जाती है और semi-urban तथा rural घरों में सबसे ज़्यादा फर्क डालती है। भारत के कई इलाकों में शाम के time grid voltage काफ़ी गिर जाता है और रात में चढ़ जाता है। Narrow window वाला inverter हर उतार चढ़ाव पर trip कर सकता है, फिर reconnect होने में कई मिनट लगाता है। दिन भर में यह generation का अच्छा खासा हिस्सा खा जाता है।
 
-150V से 270V range वाला inverter उसी grid पर चुपचाप चलता रहता है। Datasheet में "AC voltage range" और "reconnect time" दोनों देखिए। यह किसी brochure का marketing point नहीं, यह वो एक spec है जिसकी वजह से दो पड़ोसी एक ही size के system से अलग अलग units बनाते हैं।
+चौड़ी range वाला inverter उसी grid पर आमतौर पर चलता रहता है। Allowed grid range model पर और DISCOM की connection शर्तों तथा inverter की grid-code setting पर निर्भर करती है, इसलिए exact model की datasheet या manual में "AC voltage range" और "reconnect time" दोनों देखिए। यह किसी brochure का marketing point नहीं, यह वो एक spec है जिसकी वजह से दो पड़ोसी एक ही size के system से अलग अलग units बनाते हैं।
 
 <div class="inline-cta">
 <h3>Apne Ghar ke Liye Sahi Model Dekhiye</h3>
@@ -191,10 +192,10 @@ Vendor को हाँ बोलने से पहले यह list एक �
 
 1. Type आपके cut pattern से match करता है, vendor की सलाह से नहीं।
 2. Inverter rating array के 80 से 100 percent के बीच है।
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
+3. Panels ALMM List-I में हैं और inverter के exact model का BIS registration तथा current certificates मिल गए। MNRE inverter के लिए ALMM list नहीं देता।
 4. Warranty 10 साल या ज़्यादा, written में, full replacement।
 5. IP66 अगर mounting outdoor है।
-6. AC voltage window 150V से 270V, अगर आपका इलाका unstable supply वाला है।
+6. अगर आपका इलाका unstable supply वाला है, तो exact model की datasheet में AC voltage range और reconnect time check करें और DISCOM की शर्तों से match करें।
 7. District में service partner का नाम और नंबर मिल गया।
 8. Quote GST-inclusive है और उसमें cables, earthing तथा net meter fee शामिल हैं।
 9. Vendor DISCOM-empanelled है, portal पर नाम check किया।
@@ -214,5 +215,5 @@ MNRE's current ALMM page publishes PV module and cell lists, not an inverter lis
 <h3>Apne Bill Bhejiye, Sizing Hum Kar Denge</h3>
 <p>पिछले तीन महीने के bill और roof की एक photo भेजिए। हम आपके घर के लिए सही capacity, inverter type और subsidy के बाद का net cost निकालकर दे देंगे।</p>
 <a href="/contact-us/" class="cta-btn">Free Quote Lein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">ALMM listed models only, 12 साल warranty के साथ।</p>
+<p class="cta-sub">Exact model की datasheet और written warranty के साथ।</p>
 </div>

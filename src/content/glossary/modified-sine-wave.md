@@ -44,7 +44,7 @@ faqs:
   - q: "Why does MSW damage equipment?"
     a: "The sharp steps in the waveform contain high-frequency harmonics that stress capacitors, magnetics and switching power supplies in modern electronics."
   - q: "Are MSW inverters still sold in India?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Yes, mainly as low-cost home UPS and off-grid inverters. Grid-tied solar inverters cannot use a modified sine wave because they must synchronise with the grid. For motors, compressors and sensitive electronics a pure sine wave inverter is the safer choice."
   - q: "Is square wave same as MSW?"
     a: "Square wave is the simplest. MSW adds a zero-voltage step between positive and negative half-cycles."
   - q: "What is the cost difference?"

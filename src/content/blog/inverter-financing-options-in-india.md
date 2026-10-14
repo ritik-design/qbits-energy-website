@@ -25,7 +25,7 @@ faqs:
   - q: "What's the best financing model for small to mid-sized EPCs?"
     a: "Project-specific financing aligning inverter payments with client billing schedules. EMI with 12-24 month tenures matches typical inverter payback timelines for commercial projects. For working capital management, EPCs should establish revolving credit lines with banks specialising in renewable energy or NBFCs that understand the solar EPC cash cycle. Suppliers often extend 30-45 day credit terms to established EPCs which provides additional working capital relief beyond formal financing."
   - q: "Does warranty length affect financing terms?"
-    a: "Yes, materially. Extended warranties (12-year vs 5-year) reduce lender risk by guaranteeing equipment value during the loan period, enabling more favourable interest rates and higher loan-to-value ratios. For commercial solar loans backed by IREDA or major Indian banks, a model-specific written warranty often unlocks 0.5-1.0% lower rates or extended 60-month tenor compared to 5-year repair warranties. The financing advantage often exceeds the upfront premium of the better warranty - making longer-warranty inverters financially superior on TCO basis."
+    a: "It can, but lenders differ and there is no fixed rule. A longer manufacturer warranty with a clear written remedy lowers the risk of a mid-loan replacement, and some lenders take that into account when they set tenor, loan-to-value or pricing. Others look only at the borrower's credit profile and the project cash flows. Ask the lender what it requires, do not assume a rate concession until it confirms in writing, and weigh any premium for a longer warranty against the cost of a paid replacement over the loan period."
   - q: "What documentation is required for solar inverter loan applications?"
     a: "For business borrowers: business registration certificate, GST returns for the last 2 years, 2-3 years of audited income tax returns, bank statements (6-12 months), inverter quotations from approved manufacturers, client contracts demonstrating project pipeline. For residential borrowers: identity and address proof, income proof (salary slips or ITR), bank statements, PM Surya Ghar registration if applicable. IREDA loans require additional technical documentation including system design, panel specifications, and EPC technical capability."
   - q: "What's the difference between CAPEX and OPEX models for commercial solar?"
@@ -193,7 +193,7 @@ Choose based on rate, processing speed, and relationship match to your project p
 
 Comprehensive TCO analysis extends beyond initial purchase to integrate financing structure:
 
-- **[12-year warranties](/blog/12-year-solar-inverter-warranty/) reduce replacement risk** and improve financing terms (lower rates, higher LTV)
+- **[Long inverter warranties](/blog/12-year-solar-inverter-warranty/) reduce replacement risk** and may help financing terms with some lenders, so ask the lender what it will credit
 - **Tax optimisation through depreciation** can reduce effective costs by 25-40%
 - **Subsidy disbursement timing** affects working capital requirements
 - **EMI vs bill savings comparison** determines cash-flow neutrality
@@ -246,7 +246,7 @@ Standard documentation across most loan applications:
 ## Where Qbits Fits
 
 - Ask Qbits for a dated, itemised quote and the exact equipment schedule required by the lender.
-- Bank empanelment, loan eligibility, loan-to-value treatment and financing support are not established until confirmed by the lender and Qbits commercial team.
+- Bank empanelment, loan eligibility, loan-to-value treatment and financing support depend on the lender, so confirm them with the lender and with your Qbits dealer or the Qbits team before relying on them.
 - Warranty terms must come from the current written policy; do not assume they improve loan terms.
 - Scheme eligibility depends on the current applicant, vendor, equipment and approval process. ALMM is not an inverter list.
 - For an OPEX or PPA project, the project company and lender must approve the complete design and contract, not the inverter brand alone.

@@ -98,7 +98,7 @@ What follows from that:
 - The scheme's domestic content conditions run through the module and cell lists, so they give you no test for the inverter.
 - Rejecting a quote because a rival vendor says the inverter is "not ALMM listed" is rejecting it on a criterion that does not exist.
 
-Use the model documents instead. The [ALMM glossary entry](/glossary/almm-list/) explains what the lists do cover. Qbits states it is ALMM Phase III listed; treat that as a brand statement and still ask for model-level paperwork.
+Use the model documents instead. The [ALMM glossary entry](/glossary/almm-list/) explains what the lists do cover. MNRE publishes no ALMM list for inverters, so ask the seller for the exact model's BIS registration and current certificates, and confirm the inverter requirements with your DISCOM.
 
 ## Worked example: sizing the inverter when the subsidy is capped
 

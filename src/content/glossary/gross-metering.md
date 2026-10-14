@@ -27,11 +27,9 @@ relatedTerms:
   - { slug: "discom", term: "DISCOM" }
   - { slug: "on-grid-inverter", term: "On Grid Inverter" }
   - { slug: "ppa", term: "Power Purchase Agreement" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "virtual-net-metering", term: "Virtual Net Metering" }
   - { slug: "zero-export", term: "Zero Export" }
   - { slug: "average-pooled-cost", term: "Average Pooled Cost" }
-  - { slug: "self-consumption", term: "Self Consumption" }
 faqs:
   - q: "What is gross metering in simple words?"
     a: "All the solar power you make goes to the DISCOM at a fixed rate. You pay your normal bill for whatever you consume. Generation and consumption are billed separately."

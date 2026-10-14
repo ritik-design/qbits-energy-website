@@ -22,12 +22,12 @@ relatedSlugs:
 faqs:
 - q: How do I know whether I need a three-phase solar inverter?
   a: Check the phase on the electricity bill, meter record, sanction letter, and proposed interconnection approval. Then ask the installer to show why the inverter's exact output configuration matches that service. Do not rely on a universal capacity threshold because utility rules and connection conditions vary.
-- q: What is the minimum Qbits three-phase on-grid inverter in the reviewed datasheet?
-  a: The current linked Qbits KTLC datasheet starts with QB-6KTLC at 6,000 W rated output. The repository product name also mentions 5 kW, but the reviewed PDF does not include a QB-5KTLC column. Request an exact 5 kW document before treating that variant as covered.
+- q: What is the smallest Qbits three-phase on-grid inverter?
+  a: Qbits' published KTLC datasheet starts with the QB-6KTLC at 6,000 W rated output. The wider KTLC product range also lists a 5 kW variant, but the datasheet linked on the site has no QB-5KTLC column. Request the exact 5 kW document before treating that variant as covered.
 - q: Can a Qbits QB-6KTLC be connected to a single-phase supply?
-  a: The reviewed QB-6KTLC sheet publishes 400 V rated three-phase grid output. It is not an equipment match for an ordinary single-phase supply. If a service upgrade is proposed, obtain the DISCOM approval and final electrical design before ordering equipment.
+  a: The QB-6KTLC datasheet publishes 400 V rated three-phase grid output. It is not an equipment match for an ordinary single-phase supply. If a service upgrade is proposed, obtain the DISCOM approval and final electrical design before ordering equipment.
 - q: Will a QB-6KTLC or another KTLC model provide backup during a power cut?
-  a: No backup capability is established by this on-grid datasheet. Do not assume the KTLC family can energise home loads when the grid is absent. Backup requires a supported hybrid or other backup architecture with isolation, battery compatibility, protected circuits, and verified transfer behaviour.
+  a: This on-grid datasheet lists no backup capability. Do not assume the KTLC family can energise home loads when the grid is absent. Backup requires a supported hybrid or other backup architecture with isolation, battery compatibility, protected circuits, and verified transfer behaviour.
 - q: Does the Qbits KTLC datasheet prove current BIS or DISCOM approval?
   a: No. It prints standards and a registration number, but a datasheet is not the current certificate file or a DISCOM approval list. Request the applicable certificate and confirm that its model scope includes the exact quoted SKU.
 - q: Are three-phase solar inverters covered by ALMM?
@@ -36,7 +36,7 @@ faqs:
 
 The **best solar inverter for a three-phase connection is the exact model that matches the approved grid service, proposed AC capacity, PV strings, topology, and current documentation**. A building having three phases does not make every three-phase inverter suitable, and a nationwide kW threshold cannot replace the local interconnection decision.
 
-For the current Qbits on-grid range reviewed here, the public datasheet names QB-6KTLC, QB-8KTLC, QB-10KTLC, QB-12KTLC, QB-15KTLC, and QB-17KTLC. All six are documented as 400 V three-phase, dual-MPPT models. Their DC input power, input current, strings per tracker, output current, and efficiency vary by exact column.
+In Qbits' published three-phase on-grid datasheet, the models named are QB-6KTLC, QB-8KTLC, QB-10KTLC, QB-12KTLC, QB-15KTLC, and QB-17KTLC. All six are documented as 400 V three-phase, dual-MPPT models. Their DC input power, input current, strings per tracker, output current, and efficiency vary by exact column.
 
 Qbits publishes this article and sells the KTLC family. We did not independently test the inverters, inspect installations, or verify current stock, prices, warranty remedies, service outcomes, certificate validity, scheme eligibility, or acceptance by a particular DISCOM.
 
@@ -52,7 +52,7 @@ Start with the electricity connection, not the solar quote. Collect:
 - the current state and DISCOM interconnection requirements;
 - any approved load or phase change that must occur before commissioning.
 
-The common shortcut is to say that every property above one nationwide capacity must use a three-phase inverter. The sources reviewed for this article do not support that universal rule. A threshold may apply in a specific utility, tariff category, connection agreement, or project route. Put the controlling document and clause in the design file.
+The common shortcut is to say that every property above one nationwide capacity must use a three-phase inverter. There is no single nationwide capacity rule that applies everywhere. A threshold may apply in a specific utility, tariff category, connection agreement, or project route. Put the controlling document and clause in the design file.
 
 Likewise, a three-phase electricity bill does not automatically prove that every small PV inverter must be three phase. The permitted arrangement depends on the service, inverter capacity, phase allocation, export rules, and utility approval. Ask for a written connection decision rather than relying on a salesperson's rule of thumb.
 
@@ -60,13 +60,13 @@ The [single-phase versus three-phase inverter guide](/blog/single-vs-3-phase-inv
 
 ## Decide whether the system is on-grid or backup-capable
 
-The QB-6/8/10/12/15/17KTLC document is titled `On-grid Inverter`. It does not establish battery input, backup output, islanded operation, or power-cut transfer behaviour.
+The QB-6/8/10/12/15/17KTLC document is titled `On-grid Inverter`. It does not list battery input, backup output, islanded operation, or power-cut transfer behaviour.
 
 That matters for homes and small businesses with three-phase service. A three-phase on-grid inverter can reduce grid imports when the utility is present, subject to the approved design. It should not be bought to keep lights, pumps, air conditioners, or other loads running during an outage.
 
 If backup is required, define the protected circuits, phase arrangement, running and starting loads, battery, isolation method, and transfer requirement first. Then compare exact hybrid or backup models whose documents cover those functions. The [on-grid, hybrid, and off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) owns that topology choice.
 
-## What the current Qbits KTLC source establishes
+## What the Qbits KTLC datasheet states
 
 The current Qbits product record routes buyers to `QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf`. We visually checked that PDF on 26 September 2026.
 
@@ -79,7 +79,7 @@ The current Qbits product record routes buyers to `QB_Data-Sheet_6.0-17.0-kw_2MP
 | QB-15KTLC | 15,000 W | 16.5 kVA | 22,500 W | 20 A / 30 A | 1 / 2 | 98.7% |
 | QB-17KTLC | 17,000 W | 18.7 kVA | 25,500 W | 20 A / 30 A | 1 / 2 | 98.7% |
 
-Shared family fields in the reviewed sheet include:
+Shared family fields in the datasheet include:
 
 - 1,100 V maximum DC input;
 - 180 to 1,000 V MPPT operating range;
@@ -119,7 +119,7 @@ The design should reconcile:
 7. any export-control, metering, or protection conditions;
 8. temperature, installation, and derating limits from the exact manual.
 
-A QB-10KTLC label means 10,000 W rated AC output in the reviewed sheet. It does not automatically make the model correct for a 10 kWp panel array, a 10 kW sanctioned load, or a property using 10 kW at one moment. The string and grid design still have to fit.
+A QB-10KTLC label means 10,000 W rated AC output in the datasheet. It does not automatically make the model correct for a 10 kWp panel array, a 10 kW sanctioned load, or a property using 10 kW at one moment. The string and grid design still have to fit.
 
 ## Match the panel strings to the exact model
 
@@ -139,7 +139,7 @@ Use the [solar inverter sizing guide](/blog/solar-inverter-sizing/) to structure
 
 Two MPPTs can independently track two correctly designed groups. That can help when roof planes have different orientations, tilts, or operating conditions.
 
-It does not remove the need to satisfy voltage and current limits on each tracker. It also does not mean two mismatched strings should be paralleled onto one input. The QB-15KTLC and QB-17KTLC allow two strings on the second MPPT according to the reviewed table, but the combined current and short-circuit-current design still needs documented approval.
+It does not remove the need to satisfy voltage and current limits on each tracker. It also does not mean two mismatched strings should be paralleled onto one input. The QB-15KTLC and QB-17KTLC allow two strings on the second MPPT according to the datasheet table, but the combined current and short-circuit-current design still needs documented approval.
 
 Ask the installer to label every string, tracker, module count, orientation, Voc, Vmp, Isc, Imp, temperature correction, and cable route on the single-line diagram and commissioning record.
 
@@ -147,7 +147,7 @@ Ask the installer to label every string, tracker, module count, orientation, Voc
 
 The maximum-efficiency labels range from 98.5% to 98.7%, while the published Euro-efficiency labels range from 98.0% to 98.2%.
 
-That 0.2 percentage-point maximum-efficiency spread does not prove an annual-energy difference. Maximum efficiency is one declared operating point. Site yield also depends on the DC design, loading profile, temperature, clipping, grid availability, voltage events, curtailment, soiling, shading, cable losses, and inverter availability.
+That 0.2 percentage-point maximum-efficiency spread does not translate into a predictable annual-energy difference. Maximum efficiency is one declared operating point. Site yield also depends on the DC design, loading profile, temperature, clipping, grid availability, voltage events, curtailment, soiling, shading, cable losses, and inverter availability.
 
 Choose the capacity and input architecture first. Use efficiency only as one like-for-like field after the model fits the grid and array.
 
@@ -157,7 +157,7 @@ The KTLC sheet publishes 400 V rated grid output, 310 to 480 Vac grid range, THD
 
 It also lists reverse-polarity, short-circuit, output-overcurrent, output-overvoltage, insulation-resistance, residual-current, surge, grid-monitoring, islanding, temperature, and integrated DC-switch protections.
 
-These are manufacturer declarations. They do not prove current compliance, correct settings, or site acceptance. Request the exact installation manual, test reports or certificates required by the project, and the approved grid profile. Protection must also be designed at system level; an inverter feature list does not replace external switchgear, earthing, cable protection, isolation, or the interconnection design.
+These are manufacturer declarations. They are not proof of current compliance, correct settings, or site acceptance. Request the exact installation manual, test reports or certificates required by the project, and the approved grid profile. Protection must also be designed at system level; an inverter feature list does not replace external switchgear, earthing, cable protection, isolation, or the interconnection design.
 
 ## ALMM, standards, and warranty need separate documents
 
@@ -165,7 +165,7 @@ MNRE's [ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufactur
 
 The Qbits PDF prints standards and BIS registration number `R-41270628`. A printed number is a lead for verification, not the current certificate file. Ask for the certificate, issuer record, validity, and model scope required for the transaction.
 
-The same caution applies to the `Expandable Warranty` badge. The reviewed sheet does not establish a base term, extension term, price, registration deadline, remedy, labour, freight, exclusions, transfer, or claim process. Obtain the current written warranty for the exact SKU before comparing it with another offer.
+The same caution applies to the `Expandable Warranty` badge. The public datasheet does not state a base term, extension term, price, registration deadline, remedy, labour, freight, exclusions, transfer, or claim process. Obtain the current written warranty for the exact SKU before comparing it with another offer.
 
 ## The quote should contain more than an inverter model
 

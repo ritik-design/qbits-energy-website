@@ -24,13 +24,11 @@ relatedTerms:
   - { slug: "mcb", term: "MCB" }
   - { slug: "spd", term: "SPD" }
   - { slug: "fuse", term: "Fuse" }
-  - { slug: "lightning-protection", term: "Lightning Protection" }
   - { slug: "ceig", term: "CEIG" }
   - { slug: "single-line-diagram", term: "Single Line Diagram" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "mounting-structure", term: "Mounting Structure" }
   - { slug: "junction-box", term: "Junction Box" }
-  - { slug: "leakage-current", term: "Leakage Current" }
   - { slug: "voltage", term: "Voltage" }
   - { slug: "pm-surya-ghar", term: "PM Surya Ghar" }
 faqs:

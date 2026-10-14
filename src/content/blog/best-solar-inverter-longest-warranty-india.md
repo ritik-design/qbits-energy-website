@@ -200,13 +200,13 @@ If a clause is absent from the document, record it as unknown rather than assumi
 
 ## What Qbits publishes, held to the same test
 
-Qbits publishes the longest headline term in this comparison, so it earns the same scrutiny applied to everyone else above. Here is the position, stated precisely.
+Qbits publishes this page, so its own warranty position gets the same scrutiny applied to everyone else above. Here is the position, stated precisely.
 
 Qbits publishes an **expandable warranty** whose base term, remedy, registration deadline and exclusions are **not defined in its public datasheets**, a note that appears on every Qbits product page. That is a documentary gap rather than a short term, but for a buyer comparing offers the practical effect is the same: there is nothing here to weigh against a Havells or UTL document until you obtain the written terms for your exact model. No current written service level sets a dispatch time either, so ask what happens once a claim is approved and get the answer in writing.
 
-Now the limitation, from Qbits own data file. The warranty note in `the current Qbits product records` records that the public datasheets describe an expandable warranty but do not define the base term, the remedy detail, the registration deadline, or the exclusions. Every product entry in that file lists its warranty field as "request current written terms". That is an honest gap in public documentation, and it means a Qbits buyer needs to do exactly what this guide asks of a Sungrow or Growatt buyer: obtain the current written warranty for the exact quoted model before purchase.
+The product pages direct buyers to request the current written terms for the exact model. That is a gap in the public documentation, and it means a Qbits buyer needs to do exactly what this guide asks of a Sungrow or Growatt buyer: obtain the current written warranty for the exact quoted model before purchase.
 
-Alongside the warranty, the published brand claims are 50,000+ installations, presence across 33 states and UTs, 2100+ authorised service partners, and 1,000+ quality tests. Those are the company's own published figures rather than independently audited ones. Qbits also states it is ALMM Phase III listed, which is again a brand statement: MNRE publishes ALMM lists for modules and cells rather than inverters, so ask for the current certificate covering your exact model.
+Qbits sells through a dealer channel and a published service-partner locator. On certification, MNRE publishes ALMM lists for modules and cells and no list for inverters, so ask the seller for the exact model's BIS registration and current certificates, and for PM Surya Ghar confirm the requirements with your DISCOM.
 
 On hardware, the TLS, TLD, TLC and QBH series all list IP66 protection in the product data, and efficiency varies by model, so quote the figure for the SKU you are considering rather than the range topper. The range itself spans single-phase on-grid from 1.5 kW, three-phase to 320 kW, and [hybrid inverter](/glossary/hybrid-inverter/) models from 3 kW to 12 kW. Specifications by series are listed on the [products pages](/our-products/), and the service network is searchable through the [authorised service partner directory](/authorized-service-partners/).
 
@@ -226,7 +226,7 @@ Most refusals turn on evidence rather than on bad faith: a missing commissioning
 
 ## The Bottom Line
 
-The longest warranty in India, on published duration, is 12 years from Qbits with units above 30 kW at 8 years, then 10 years from Havells and from UTL on its F Series line. That ranking is a starting point and not an answer. Growatt's 5.5-year dispatch cap, Sungrow's coastal bands, Deye's remaining-term replacement rule and GoodWe's conditional hybrid extension all change what a year of cover is worth, and every one of them is a disclosed contract term rather than a trick.
+The longest warranty in India, on published duration, is 10 years from Havells and from UTL on its F Series line. Qbits is left out of that ranking because its base term is not published. That ranking is a starting point and not an answer. Growatt's 5.5-year dispatch cap, Sungrow's coastal bands, Deye's remaining-term replacement rule and GoodWe's conditional hybrid extension all change what a year of cover is worth, and every one of them is a disclosed contract term rather than a trick.
 
 Rank the documents, not the numbers. Then keep the paperwork that makes a claim assessable.
 

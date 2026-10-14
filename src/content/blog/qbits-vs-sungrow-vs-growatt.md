@@ -14,7 +14,7 @@ keywords:
   - "inverter warranty comparison"
 faqs:
   - q: "Which is better, Qbits, Sungrow or Growatt?"
-    a: "There is no universal winner, and the honest answer depends on system size and site. Sungrow has the deepest engineering ladder for large inland commercial and utility work. Growatt has the widest dealer and spares availability for price-led residential jobs. Qbits competes on per-model electrical detail and a published service partner network, though its public datasheets do not define a base warranty term, so that row has to be settled in writing. Compare exact model numbers, not brand names."
+    a: "There is no universal winner, and the honest answer depends on system size and site. Sungrow has the deepest engineering ladder for large inland commercial and utility work. Growatt has the widest dealer and spares availability for price-led residential jobs. Qbits competes on per-model electrical detail and a published service partner network, though its public datasheets describe an expandable warranty without defining the base term, so that row has to be settled in writing. Compare exact model numbers, not brand names."
   - q: "Does Sungrow's warranty cover coastal sites in India?"
     a: "Only partly, and the clause is explicit. Sungrow's APAC warranty terms limit cover to 2 years for non-C5 products installed between 2 and 5 kilometres of the coastline, and void the warranty inside 2 kilometres. C5-enclosure products are limited to 2 years within 500 metres of the coastline. Salt mist corrosion beyond the design specification is a listed exclusion. This affects buyers across Gujarat, Kerala, Tamil Nadu, and coastal Odisha, so specify the enclosure grade the manufacturer requires."
   - q: "What is the Growatt factory dispatch cap on warranty?"
@@ -33,7 +33,7 @@ faqs:
     a: "Read the coastal clause before the specification sheet. Sungrow publishes distance-based derogations that reduce or void cover near the coastline without the specified enclosure grade. Any brand can be the right answer if its written terms cover your distance from the sea and its enclosure rating suits the salt load. Get the exclusion clause and the required enclosure grade in writing, for the exact model number."
 ---
 
-Three brands reach the same Indian rooftop shortlist for three different reasons. Sungrow arrives on engineering depth at scale. Growatt arrives on dealer availability and price. Qbits arrives on warranty term and a published service partner network.
+Three brands reach the same Indian rooftop shortlist for three different reasons. Sungrow arrives on engineering depth at scale. Growatt arrives on dealer availability and price. Qbits arrives on per-model datasheets and a published service partner network.
 
 **Disclosure: Qbits publishes this page, and Qbits is one of the three brands compared.** Weigh the page accordingly.
 
@@ -49,7 +49,7 @@ The guide starts with who each company is and what it sells in India. Then a spe
 > - Qbits sells inverters only. No panels, no battery SKUs, no installation. That is the real limit on choosing it.
 > - CEA Regulation 11(6) sets the trip envelope: 110% and 80% of nominal voltage, 50.5 Hz and 47.5 Hz, island clearing inside 2 seconds.
 
-**Short version.** Sungrow suits inland commercial and utility projects where engineering depth matters and the site is away from the coast. Growatt suits price-led residential work with a local dealer who stocks spares. Qbits suits buyers who rank warranty term and service partner coverage above brand familiarity, and who are buying inverters separately from panels. Compare the written terms for one exact model number, not the three brand names.
+**Short version.** Sungrow suits inland commercial and utility projects where engineering depth matters and the site is away from the coast. Growatt suits price-led residential work with a local dealer who stocks spares. Qbits suits buyers who rank per-model datasheet detail and service partner coverage above brand familiarity, and who are buying inverters separately from panels. Compare the written terms for one exact model number, not the three brand names.
 
 ## Where these three brands genuinely compete
 
@@ -67,11 +67,11 @@ Origin and Indian footprint move the decision more than most specification rows,
 
 **Growatt** is a Chinese manufacturer with arguably the widest dealer availability of any imported brand in India. MIN TL-X single-phase units appear across a large share of residential quotations, roughly 2.5 kW to 10 kW with dual MPPT. Three-phase MID and MAX families cover commercial work, and SPH covers hybrid. Channel liquidity is the point here. When a unit fails in year four, a distributor who already holds the board matters more than a datasheet. See the [Growatt model review](/blog/growatt-solar-inverter-review-india/) and the direct [Sungrow versus Growatt comparison](/blog/sungrow-vs-growatt-comparison/).
 
-**Qbits** is an Indian brand selling on-grid and hybrid string inverters through a dealer channel. Its published brand claims include 50,000+ installations, presence across 33 states and UTs, 2100+ authorised service partners, and 1,000+ quality tests. Qbits states it is ALMM Phase III listed, which is the company's own statement rather than a scheme confirmation, and MNRE publishes ALMM lists for modules and cells rather than inverters, so ask for the current certificate covering your exact model. Pricing is quote based through dealers, so there is no public list price to benchmark against the other two. That is a genuine disadvantage when you are trying to compare value rather than terms.
+**Qbits** is an Indian brand selling on-grid and hybrid string inverters through a dealer channel. It lists its service partners by state and district in a published [service-partner locator](/authorized-service-partners/). MNRE publishes ALMM lists for modules and cells and no list for inverters, so ask the seller for the exact model's BIS registration and current certificates. Pricing is quote based through dealers, so there is no public list price to benchmark against the other two. That is a genuine disadvantage when you are trying to compare value rather than terms.
 
 ## Specification comparison from published datasheets
 
-The Qbits column below is taken from the repository product data behind the [datasheet library](/download-datasheets/). The other two columns carry a specification only where this page holds a source for it. Everything else is marked for verification rather than guessed, because a wrong voltage window is worse than a blank cell.
+The Qbits column below is taken from Qbits' published product data behind the [datasheet library](/download-datasheets/). The other two columns carry a specification only where this page holds a source for it. Everything else is marked for verification rather than guessed, because a wrong voltage window is worse than a blank cell.
 
 | Item | Qbits (published) | Sungrow | Growatt | Verify on the current datasheet |
 | --- | --- | --- | --- | --- |
@@ -107,7 +107,7 @@ The practical consequence matches Sungrow's production-date cap. Stock that sat 
 | Start date | First installation | Installation certificate date | Confirm in writing |
 | Cap from factory | 6 years from production date | Install within 6 months of delivery | Confirm in writing |
 | Coastal exclusion | Published, distance based | Confirm in writing | Confirm in writing |
-| Remedy | Confirm in writing | Confirm in writing | Full unit replacement |
+| Remedy | Confirm in writing | Confirm in writing | Confirm in writing |
 | Extension available | Up to 25 years total | Buy within 2 years of install | Described as expandable |
 
 ## Worked example: what a production-date cap actually costs
@@ -143,7 +143,7 @@ All three publish a monitoring app and a cloud portal. The differences that matt
 
 Qbits publishes live iOS and Android listings for its own monitoring app. Sungrow uses iSolarCloud and Growatt uses ShinePhone, by the brands' own published app names. Confirm which portal serves your exact model, because a brand can run more than one platform across product generations.
 
-Then close five questions for whichever brand you pick. Does the model need a separate logger, dongle, or SIM to report at all. Who owns the plant account, and how is it transferred if you change installers. Is per-MPPT string data visible, or only plant totals. Which faults raise an alert, and does it reach you or only the dealer. How long is history retained.
+Then settle five questions for whichever brand you pick. Does the model need a separate logger, dongle, or SIM to report at all. Who owns the plant account, and how is it transferred if you change installers. Is per-MPPT string data visible, or only plant totals. Which faults raise an alert, and does it reach you or only the dealer. How long is history retained.
 
 Per-string visibility is the one worth paying for, because it is how you catch an underperforming string before the annual bill does.
 
@@ -173,7 +173,7 @@ The uncomfortable implication applies here too: no table can rank the variable t
 
 These are starting points, and the service partner test above overrides all of them.
 
-- **2 kW to 3 kW home, grid tied, subsidy claimed.** Growatt, if your installer stocks it and can show the delivery date. Qbits if the longer replacement term is worth more than a lower sticker price. Verify scheme eligibility for the exact model with your DISCOM, since ALMM lists cover modules and cells, not inverters.
+- **2 kW to 3 kW home, grid tied, subsidy claimed.** Growatt, if your installer stocks it and can show the delivery date. Qbits if its per-model datasheet fit and written warranty, once you have them, are worth more than a lower sticker price. Verify scheme eligibility for the exact model with your DISCOM, since ALMM lists cover modules and cells, not inverters.
 - **5 kW home, grid tied, no backup.** Growatt on price and spares liquidity. This is the segment where Growatt's channel depth is a genuine advantage over both others, and a buyer with a strong local Growatt dealer should probably take it.
 - **5 kW to 12 kW home with battery backup.** Compare hybrid battery protocol lists first, because compatibility decides this, not the brand. Get written confirmation of the exact battery model, nominal voltage, current limit, and BMS protocol from whichever brand you shortlist. "Lithium compatible" alone proves nothing.
 - **Coastal site, any size.** Read Sungrow's distance clause before anything else, and specify the enclosure grade the manufacturer requires for full cover. If your site is inside 2 kilometres of the coastline, that clause alone may settle the decision against Sungrow. For exactly the same reason, demand each competing brand's written coastal exclusion rather than assuming it has none.
@@ -199,7 +199,7 @@ Record any unanswered item as unknown and award it no points. A load-bearing pro
 
 ## The Bottom Line
 
-None of these three brands wins on every axis, and a page published by one of them should not pretend otherwise. Sungrow is the right answer for inland large-scale work, and its coastal clause is the right reason to rule it out near the sea. Growatt is the right answer for price-led residential jobs with a stocking dealer, and its install window is the right reason to check the delivery date. Qbits offers the longest published term and a full replacement remedy, and its limits are real: inverters only, quote-based pricing, and public datasheets that do not define the base warranty term.
+None of these three brands wins on every axis, and a page published by one of them should not pretend otherwise. Sungrow is the right answer for inland large-scale work, and its coastal clause is the right reason to rule it out near the sea. Growatt is the right answer for price-led residential jobs with a stocking dealer, and its install window is the right reason to check the delivery date. Qbits publishes the most per-model electrical detail of the three, and its limits are real: inverters only, quote-based pricing, and public datasheets that do not define the base warranty term.
 
 - Read the production or delivery date off the nameplate before you accept any imported unit, and put it in the handover document.
 - Phone the service partner each brand names for your pincode, and ask their last turnaround time on this exact model.

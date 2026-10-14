@@ -50,7 +50,7 @@ Do not rely on “complete system warranty” unless the contract defines every 
 
 ## What does a solar product warranty cover?
 
-**A product warranty is the manufacturer's written obligation for a named product and stated conditions.** Modules, inverters, batteries, meters and communications equipment can each have separate policies. A duration in a quotation does not establish whether the remedy is repair, replacement, parts, credit or another stated outcome.
+**A product warranty is the manufacturer's written obligation for a named product and stated conditions.** Modules, inverters, batteries, meters and communications equipment can each have separate policies. A duration in a quotation does not tell you whether the remedy is repair, replacement, parts, credit or another stated outcome.
 
 For each product, retain the exact model and serial number, invoice, warranty policy, registration confirmation and authorised claim route. Compare these terms:
 

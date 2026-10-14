@@ -27,10 +27,8 @@ relatedTerms:
   - { slug: "mppt", term: "MPPT" }
   - { slug: "micro-inverter", term: "Micro Inverter" }
   - { slug: "dc-optimiser", term: "DC Optimiser" }
-  - { slug: "bypass-diode", term: "Bypass Diode" }
   - { slug: "solar-yield", term: "Solar Yield" }
   - { slug: "pr", term: "Performance Ratio" }
-  - { slug: "row-spacing", term: "Row Spacing" }
   - { slug: "hot-spot", term: "Hot Spot" }
 faqs:
   - q: "What is shading analysis in simple words?"

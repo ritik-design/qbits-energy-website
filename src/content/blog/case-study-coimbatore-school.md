@@ -22,7 +22,7 @@ faqs:
     a: "No. Eligibility and tax treatment depend on the applicant, site, equipment, transaction and rules in force. Verify them through the relevant official authority and qualified adviser."
 ---
 
-> **Illustrative planning scenario, not a customer case study.** The 25 kW capacity is a working brief, not a recommendation. Qbits has not supplied a signed customer record, site survey, interval load file, design, quotation, commissioning report or measured performance dataset for this page. Every project outcome is therefore not established.
+> **Illustrative planning scenario, not a customer case study.** The 25 kW capacity is a working brief, not a recommendation. This page is not based on a signed customer record, site survey, interval load file, design, quotation, commissioning report or measured performance dataset. Every project outcome is therefore unknown.
 
 A school load changes across teaching days, holidays, examinations and events. This scenario shows how to test a 25 kW working brief without pretending that one timetable, tariff or roof applies to every campus.
 
@@ -34,17 +34,17 @@ A credible answer must be electrically safe, acceptable under the current projec
 
 ## Evidence required before sizing
 
-| Input | What to collect | Current evidence |
+| Input | What to collect | Status in this scenario |
 | --- | --- | --- |
-| Operating calendar | Teaching days, holidays, events and vacation loads | not established |
-| Interval demand | Daytime load for classrooms, labs, offices and common services | not established |
-| Roof governance | Structural review, safe access and child-protection controls | not established |
-| Tariff and billing | Twelve months of bills, tariff category, demand charges and export treatment | not established |
-| Site constraints | Survey, shading, structure, cable route, access and environment | not established |
-| Utility process | Current connection, metering and inspection requirements | not established |
-| Commercial scope | Itemised quote, taxes, exclusions, warranty and service duties | not established |
+| Operating calendar | Teaching days, holidays, events and vacation loads | To be collected |
+| Interval demand | Daytime load for classrooms, labs, offices and common services | To be collected |
+| Roof governance | Structural review, safe access and child-protection controls | To be collected |
+| Tariff and billing | Twelve months of bills, tariff category, demand charges and export treatment | To be collected |
+| Site constraints | Survey, shading, structure, cable route, access and environment | To be collected |
+| Utility process | Current connection, metering and inspection requirements | To be collected |
+| Commercial scope | Itemised quote, taxes, exclusions, warranty and service duties | To be collected |
 
-A missing input should stay not established. Replacing it with a typical value creates a neat result but not a reliable decision.
+A missing input should stay marked as unknown. Replacing it with a typical value creates a neat result but not a reliable decision.
 
 ## Engineering controls for this site
 
@@ -70,7 +70,7 @@ Do not publish a generation, saving, return or payback result until the calculat
 
 ## What can be said about Qbits equipment?
 
-The retained Qbits catalogue publishes on-grid and hybrid inverter families with model-specific ratings. It does not prove that a Qbits model is suitable for this scenario. It also does not establish universal battery compatibility, transfer time, monitoring functions, harmonic performance, certification, warranty terms, service coverage or project support.
+Qbits' published catalogue lists on-grid and hybrid inverter families with model-specific ratings. That does not prove that a Qbits model is suitable for this scenario. Nor does it state universal battery compatibility, transfer time, monitoring functions, harmonic performance, certification, warranty terms, service coverage or project support.
 
 If Qbits is shortlisted, record the exact SKU and request its current datasheet, installation manual, applicable certificates, monitoring scope, written warranty and service terms. Compare those documents with the final design. MNRE's current ALMM page concerns PV module and cell lists, not an inverter list.
 

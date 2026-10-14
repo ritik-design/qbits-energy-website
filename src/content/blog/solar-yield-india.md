@@ -225,7 +225,7 @@ The inverter accounts for 1 to 3 percentage points of annual yield, which sounds
 | Revenue gap at ₹8/unit | - | −₹26,400/year |
 | 12-year cumulative gap | - | −₹3,16,800 |
 
-An inverter that handles India's wide voltage fluctuations (the 180 to 270 V range that stresses standard inverters on DISCOM feeders) maintains its efficiency rating under real grid conditions rather than only at the laboratory test point. This is one of the practical reasons India-grid-tuned firmware matters: an inverter that dips to 88 to 90 percent efficiency during grid voltage events loses additional generation that never appears in a laboratory spec sheet but shows up clearly in monthly monitoring data.
+An inverter that handles India's wide voltage fluctuations (the drift from nominal voltage that stresses some inverters on weak DISCOM feeders) maintains its efficiency rating under real grid conditions rather than only at the laboratory test point. This is one of the practical reasons India-grid-tuned firmware matters: an inverter that dips to 88 to 90 percent efficiency during grid voltage events loses additional generation that never appears in a laboratory spec sheet but shows up clearly in monthly monitoring data.
 
 [Inverter monitoring systems](/blog/solar-inverter-monitoring-systems-in-india/) that report daily yield data are the practical tool for catching this gap early. If your actual monthly kWh per kWp is consistently 8 to 10 percent below your state benchmark, the inverter is likely the first place to investigate.
 

@@ -132,7 +132,7 @@ A 2kW system uses 4 panels at 530–540 Wp each. Panels must be monocrystalline 
 A 2kW on-grid inverter is a single-[MPPT](/glossary/mppt/) string inverter with a nominal output of 2kW and a maximum DC input capacity of 2.4–3.2 kW (to allow [DC oversizing](/glossary/dc-oversizing/)). Key specifications to verify:
 
 - **[BIS certification](/glossary/bis-certification/)** under IS 16221, non-negotiable for grid connectivity
-- **Voltage range**: must operate between 180V and 270V AC for Indian grid compatibility
+- **Voltage range**: the allowed AC grid range depends on the model and on your DISCOM's connection conditions, so read it from the exact model's datasheet
 - **[Peak efficiency](/glossary/inverter-efficiency/)**: 97% or above minimises conversion losses
 - **Monitoring**: Wi-Fi or 4G monitoring to track daily generation via app
 

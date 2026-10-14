@@ -30,8 +30,6 @@ relatedTerms:
   - { slug: "voltage", term: "Voltage" }
   - { slug: "encapsulant", term: "Encapsulant" }
   - { slug: "back-sheet", term: "Back Sheet" }
-  - { slug: "shading-loss", term: "Shading Loss" }
-  - { slug: "monocrystalline", term: "Monocrystalline" }
 faqs:
   - q: "What is a busbar in simple words?"
     a: "A thin metallic strip on the front of a solar cell that collects the electricity the cell generates and passes it to the next cell. Modern cells use many thin busbars for better performance."

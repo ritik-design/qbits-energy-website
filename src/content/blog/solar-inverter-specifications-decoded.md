@@ -22,7 +22,7 @@ faqs:
   - q: "How much does 0.5% efficiency difference impact ROI?"
     a: "For a 100 kW system generating 150,000 kWh/year, 0.5% loss = 750 kWh = ₹6,000/year = ₹1,50,000+ over 25 years."
   - q: "When is the model-specific written warranty premium worth it?"
-    a: "Always for commercial installations. Full replacement warranties eliminate repair downtime, warranty-voiding damage issues, and reduce service call obligations - protecting margins across all projects."
+    a: "For commercial installations a longer warranty with a clear remedy is usually worth paying for, because inverter downtime is lost generation. A full-replacement remedy avoids repair downtime and reduces service call obligations, but only if the exclusions are narrow. Check the term, the start date, who pays freight and labour, and the registration deadline before you price the premium."
   - q: "What's the most overlooked specification?"
     a: "Temperature derating curve. Rooftops in India regularly exceed 50°C, and inverters that derate above this point lose 3–5% summer generation. Always calculate expected output at site ambient, not nameplate."
 ---
@@ -34,7 +34,7 @@ EPCs and solar installation companies in India lose thousands of rupees per proj
 > - THD must stay below 3% (ideally under 2%); high THD causes grid rejection during commissioning.
 > - IP66 is the practical minimum for Indian rooftops, monsoon, coastal salt, and desert dust all demand it over IP65.
 > - A 0.5% efficiency difference on a 100 kW system is worth roughly ₹1,50,000+ over 25 years.
-> - Full replacement warranties (12 years) beat repair warranties by eliminating downtime and warranty-voiding damage disputes.
+> - Full replacement warranties beat repair-only warranties by cutting downtime, but read the term, start date and exclusions before comparing headline years.
 > - Temperature derating curve is the most overlooked spec, Indian rooftops routinely exceed 50°C.
 
 ## 1. [DC Oversizing](/glossary/dc-oversizing/) Capability
@@ -117,7 +117,7 @@ Advanced monitoring provides **string-level diagnostics** and **predictive maint
 | Tier | Term |
 | --- | --- |
 | Standard | 5–10 years |
-| Premium | **12 years full replacement** |
+| Premium | **10 to 12 years, with the remedy stated in writing** |
 
 Full replacement warranties are superior to repair warranties. Digital warranty systems streamline claims processing. Read [the honest truth about solar inverter warranty in India](/blog/solar-inverter-warranty/) for the fine print to check before signing.
 
@@ -153,7 +153,7 @@ These affect installation labour and cost. Engineering teams building a full tec
 Leading [solar inverter manufacturers](/blog/solar-inverter-manufacturers-in-india/) verify:
 
 - **An automated end-of-line test sequence on every unit**, with the protocol available on request
-- German-grade components
+- Disclosed component makes, with a bill of materials on request
 - 24–48 hour burn-in testing
 - Full component traceability
 
@@ -171,16 +171,16 @@ See [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inv
 | Peak efficiency | 98%+ |
 | Weighted efficiency | 97.5%+ |
 | Operating temp | Full output to 45–50°C |
-| Warranty | 12 years full replacement |
-| Quality tests | 1,000+ per unit |
+| Warranty | Term and remedy stated in writing; full replacement preferred |
+| Quality tests | End-of-line test on every unit, protocol on request |
 
 Comparing these 15 parameters across multiple brands by hand is tedious at scale; platforms like [SurgePV's solar design tools](https://surgepv.com/tools/) let EPCs pull inverter specs directly into a system design rather than juggling a stack of PDFs.
 
 ## How to verify a Qbits specification
 
-Use the current datasheet for the exact model. the current published documents show model-specific values for maximum efficiency, PV input, MPPT layout, operating range, communications and enclosure rating. They do not establish one universal DC-oversizing allowance, component origin, monitoring service, test count, certificate set or warranty term across the range.
+Use the current datasheet for the exact model. Qbits' published datasheets show model-specific values for maximum efficiency, PV input, MPPT layout, operating range, communications and enclosure rating. They do not state one universal DC-oversizing allowance, component origin, monitoring service, test count, certificate set or warranty term across the range.
 
-Request the current certificate, installation manual, monitoring scope and written warranty for the quoted SKU. Record any unavailable item as not established.
+Request the current certificate, installation manual, monitoring scope and written warranty for the quoted SKU. If any of these items is not available, record it as an open question to resolve before you order.
 
 ## Closing
 

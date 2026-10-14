@@ -22,12 +22,8 @@ quickFacts:
 relatedTerms:
   - { slug: "anti-islanding", term: "Anti-Islanding" }
   - { slug: "reactive-power", term: "Reactive Power" }
-  - { slug: "grid-code", term: "Grid Code" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "central-inverter", term: "Central Inverter" }
-  - { slug: "phase-locked-loop", term: "Phase Locked Loop" }
-  - { slug: "voltage-sag", term: "Voltage Sag" }
-  - { slug: "frequency-response", term: "Frequency Response" }
   - { slug: "smart-inverter", term: "Smart Inverter" }
   - { slug: "discom", term: "DISCOM" }
   - { slug: "harmonics", term: "Harmonics" }

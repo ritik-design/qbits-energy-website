@@ -27,10 +27,7 @@ relatedTerms:
   - { slug: "module-efficiency", term: "Module Efficiency" }
   - { slug: "albedo", term: "Albedo" }
   - { slug: "tilt-angle", term: "Tilt Angle" }
-  - { slug: "agrivoltaics", term: "Agrivoltaics" }
-  - { slug: "ground-mount", term: "Ground Mount" }
   - { slug: "mounting-structure", term: "Mounting Structure" }
-  - { slug: "ground-clearance", term: "Ground Clearance" }
   - { slug: "cuf", term: "CUF" }
   - { slug: "shading-analysis", term: "Shading Analysis" }
 faqs:

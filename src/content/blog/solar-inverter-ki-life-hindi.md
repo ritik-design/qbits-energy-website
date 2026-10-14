@@ -17,7 +17,7 @@ keywords:
   - ip66 solar inverter hindi
 faqs:
   - q: "Solar inverter ki life kitne saal hoti hai?"
-    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
+    a: "Aam taur par ek solar inverter 8 se 15 saal chalta hai, jabki solar panel 25 se 30 saal chalte hain। Inverter ki asli life model, installation ki quality, garmi, dhool, grid voltage, earthing aur maintenance par depend karti hai। Isliye exact model ka datasheet aur written warranty dekhein, aur system budget mein ek inverter replacement ka paisa pehle se plan karke rakhein।"
   - q: "Solar panel aur inverter ki life mein kitna farak hai?"
     a: "Solar panels 25 se 30 saal chalte hain aur unka performance warranty aksar 25 saal ka hota hai। Inverter usse kaafi kam chalta hai, 8 se 15 saal। Iska matlab yeh hai ki 25 saal ke system life mein kam se kam ek inverter replacement lagbhag pakki hai, aur sasta inverter liya to do ya teen bhi ho sakti hain। Isliye system budget banate waqt ek replacement ka paisa alag se plan karna chahiye।"
   - q: "India mein solar inverter jaldi kharab kyun ho jaata hai?"
@@ -79,7 +79,7 @@ Failure aksar ek dramatic event nahi hota। Dheere dheere degradation hoti hai,
 
 **Dust ingress.** North India ki dhool, Rajasthan ki sand, aur khet ke paas ki bhoosi heat sink fins aur cooling fan mein jam jaati hai। Cooling ruk gayi to heat ka problem apne aap double ho jaata hai।
 
-**Voltage surge aur grid instability.** Bahut se Indian feeders par voltage 180V se 270V ke beech jhoolta hai। Lightning season mein induced surge alag। Inverter ke input protection devices in surges ko absorb karte karte thak jaate hain।
+**Voltage surge aur grid instability.** Bahut se Indian feeders par voltage nominal 230V se kaafi upar-neeche jhoolta hai। Lightning season mein induced surge alag। Inverter ke input protection devices in surges ko absorb karte karte thak jaate hain।
 
 **Kharab earthing.** Yeh sabse under-rated karan hai। Proper earth pit aur low resistance earthing na ho to surge ka rasta inverter ke andar se hi jaata hai। Field mein humne dekha hai ki bahut se "inverter fail ho gaya" cases asal mein earthing failure hote hain।
 

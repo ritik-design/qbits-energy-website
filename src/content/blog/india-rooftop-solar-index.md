@@ -14,7 +14,7 @@ keywords:
   - "rooftop solar evidence framework"
 faqs:
   - q: "Does Qbits publish a verified state readiness score?"
-    a: "No verified first-party dataset supporting the earlier composite scores was retained. Those scores and rankings have been removed. Compare dated official indicators separately."
+    a: "No. Qbits does not publish a state readiness score or ranking, because conditions differ by DISCOM, tariff order and date. Compare dated official indicators for your state separately: installed capacity, scheme terms, net-metering rules, tariff and DISCOM processing."
   - q: "Can one state-wide number represent every DISCOM?"
     a: "Usually not. Rules, portals, feeder conditions, tariffs, processing, and implementation can differ by DISCOM, consumer category, project size, and date."
 ---
@@ -33,7 +33,7 @@ A state ranking is only credible when the raw observations, definitions, dates, 
 | Installer or vendor availability | Current official directory where one exists | Status date, scope and verification method |
 | Grid capacity | Utility planning or hosting-capacity evidence | Feeder, voltage level, method and coverage |
 
-Do not combine missing or incomparable indicators into a precise score. Report them as not established until evidence is available.
+Do not combine missing or incomparable indicators into a precise score. Leave a missing indicator out until a dated official source is available.
 
 ## Avoid state-wide generalisations
 

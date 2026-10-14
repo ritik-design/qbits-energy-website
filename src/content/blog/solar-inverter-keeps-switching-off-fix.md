@@ -34,7 +34,7 @@ faqs:
 Your solar inverter starts up in the morning, generates power for a few hours, then switches off. Half an hour later it restarts automatically, generates for an hour, then trips again. By evening you have lost hours of potential generation to repeated cycling, and you are not sure whether this is a serious fault or a normal protective response.
 
 > **TL;DR**
-> - Four causes explain almost every repeated trip: grid voltage outside the 180-270 V range (most common), over-temperature shutdown, anti-islanding trips during power cuts, and overload from high-inrush loads.
+> - Four causes explain almost every repeated trip: grid voltage outside the inverter's permitted AC range (most common), over-temperature shutdown, anti-islanding trips during power cuts, and overload from high-inrush loads.
 > - A trip that auto-restarts after roughly 5 minutes is usually a correct protective response to the grid, not a hardware fault.
 > - Anti-islanding trips during [DISCOM](/glossary/discom/) power cuts are mandatory and correct under IEC 62116; they are not a malfunction.
 > - Cleaning dust-blocked cooling vents resolves 40-50% of over-temperature shutdown cases.
@@ -43,7 +43,7 @@ Your solar inverter starts up in the morning, generates power for a few hours, t
 
 This is one of the most anxiety-inducing solar system behaviours for Indian homeowners, and one of the most misdiagnosed. The good news is that a solar inverter that keeps switching off is almost always reacting correctly to an external condition. Understanding which condition is causing the trip tells you exactly what to fix.
 
-> **Direct answer.** A solar inverter that keeps switching off in India has four primary causes: grid voltage outside the 180–270 V operating range (most common), over-temperature shutdown from inadequate ventilation, anti-islanding trips during utility power cuts, and overload from high-inrush loads. Each cause has a distinct signature in the monitoring app and a specific fix.
+> **Direct answer.** A solar inverter that keeps switching off in India has four primary causes: grid voltage outside the inverter's permitted AC operating range (most common), over-temperature shutdown from inadequate ventilation, anti-islanding trips during utility power cuts, and overload from high-inrush loads. Each cause has a distinct signature in the monitoring app and a specific fix.
 
 If your inverter is switching off and not restarting at all (not cycling but remaining off) that is a different scenario covered in the [solar inverter downtime guide](/blog/solar-inverter-downtime/). For error codes shown during the shutdown, cross-reference the [solar inverter error codes guide](/blog/solar-inverter-error-codes-guide/).
 
@@ -61,33 +61,33 @@ Before diagnosing, clarify what the inverter is actually doing:
 
 ## Cause 1: Grid Voltage Out of Range (Most Common in India)
 
-The single most common cause of repeated solar inverter trips in India is grid [voltage](/glossary/voltage/) that falls outside the inverter's permitted operating range: 180 V at the lower end and 270 V (or 253 V for stricter IEC compliance) at the upper end.
+The single most common cause of repeated solar inverter trips in India is grid [voltage](/glossary/voltage/) that falls outside the inverter's permitted operating range. The lower and upper limits depend on the model and on the grid-code setting applied at commissioning, so read them from the exact model's manual.
 
-### Under-Voltage Trips (Below 180 V)
+### Under-Voltage Trips (Below the Lower Limit)
 
-Grid under-voltage occurs when the local distribution transformer is overloaded, a common condition in Tier-2 and Tier-3 towns during afternoon peak demand hours. The voltage sags below 180 V and the inverter's under-voltage protection disconnects the AC output. As load drops in the evening, voltage recovers and the inverter reconnects.
+Grid under-voltage occurs when the local distribution transformer is overloaded, a common condition in Tier-2 and Tier-3 towns during afternoon peak demand hours. The voltage sags below the inverter's lower limit and its under-voltage protection disconnects the AC output. As load drops in the evening, voltage recovers and the inverter reconnects.
 
 **Signs this is the cause:**
 - Trips occur consistently in the afternoon (2 PM–6 PM), peak grid demand period
-- Monitoring app shows AC voltage dropping to 165–178 V before the trip
+- Monitoring app shows AC voltage dropping towards the inverter's lower limit before the trip
 - Neighbours on the same transformer also report appliance issues
 
 **Resolution:** Document the voltage readings from your monitoring app (with timestamps) and submit a formal complaint to your DISCOM. Repeated low-voltage complaints from multiple customers on the same feeder typically trigger a transformer replacement or tap adjustment. This is a grid infrastructure issue, not an inverter defect.
 
-### Over-Voltage Trips (Above 253 V)
+### Over-Voltage Trips (Above the Upper Limit)
 
 Grid over-voltage is the opposite problem, and has become increasingly common in solar-dense localities as residential export feeds back into the local distribution network. When many homes export simultaneously (typically 10 AM–2 PM), the local transformer voltage rises above the safe limit.
 
 **Signs this is the cause:**
 - Trips occur during peak solar hours (10 AM–2 PM)
-- Monitoring app shows AC voltage at 250–260 V before the trip
+- Monitoring app shows AC voltage climbing towards the inverter's upper limit before the trip
 - The problem is worse on sunny days than cloudy ones
 
 **Resolution:** Report to your DISCOM with the voltage log. Ask your installer whether your inverter supports volt-watt response mode, a function that reduces export power when voltage rises above a threshold, preventing the trip while still generating some power.
 
-> **253 V.** The upper grid voltage limit defined in [IEC 62116](https://www.iec.ch/){target="_blank" rel="noopener"} for grid-connected solar inverters in the Indian 230 V nominal system. Inverters must disconnect within 2 seconds of detecting voltage above this threshold, this is a regulatory requirement, not an inverter design choice. The [Ministry of New and Renewable Energy (MNRE)](https://mnre.gov.in/){target="_blank" rel="noopener"} PM Surya Ghar technical guidelines reiterate this grid voltage operating window for all grid-tied residential inverters approved under the programme.
+> **Voltage limits.** The voltage limits an inverter trips on come from its grid-code configuration, which should follow the CEA technical standards for connectivity and your DISCOM's connection conditions. Read the exact limits from your model's manual and ask your installer which setting was applied at commissioning. Disconnecting when voltage leaves the configured window is a protective function, not a defect.
 
-According to [Mercom India's India Solar Market Leaderboard Q1 2025](https://www.mercomindia.com/){target="_blank" rel="noopener"}, grid voltage fluctuation is among the top three service complaints from residential solar owners in Tier-2 and Tier-3 Indian cities, confirming this is a systemic infrastructure issue rather than a product defect.
+Grid voltage fluctuation is a frequent cause of trips in Tier-2 and Tier-3 Indian cities, and it is usually a grid infrastructure issue rather than a product defect.
 
 ## Cause 2: Over-Temperature Shutdown
 
@@ -149,7 +149,7 @@ The most powerful diagnostic tool for repeated inverter shutdowns is your monito
 
 1. **Open the event log:** Filter by "Faults" or "Alarms." Find the exact timestamp of the trip. Note the fault code, this is the inverter's first-hand record of what parameter was out of range.
 
-2. **Check AC voltage at the trip time:** Navigate to the historical voltage data and find the voltage reading in the 30 seconds before the fault code. Under 180 V means under-voltage trip. Over 250 V means over-voltage trip. Normal voltage (210–240 V) eliminates grid voltage as the cause.
+2. **Check AC voltage at the trip time:** Navigate to the historical voltage data and find the voltage reading in the 30 seconds before the fault code. A reading at or near the inverter's lower limit means an under-voltage trip, and a reading at or near its upper limit means an over-voltage trip. A reading close to the nominal 230 V eliminates grid voltage as the cause.
 
 3. **Check inverter temperature at the trip time:** Find the internal temperature reading at the same timestamp. Above 70 °C confirms an over-temperature trip. Below 60 °C eliminates thermal cause.
 
@@ -184,7 +184,7 @@ If you no longer have an active installer relationship, find a local solar insta
 - Trips on a warranty-covered unit where the installer is unresponsive
 - Trips that started after a lightning event or a particularly severe power surge
 
-For any of these urgent scenarios, the [72-hour action plan for a failed solar inverter](/blog/solar-inverter-failure-action/) walks through the diagnosis, escalation, and warranty-claim sequence step by step.
+For any of these urgent scenarios, the [Safe First Actions guide for a failed solar inverter](/blog/solar-inverter-failure-action/) walks through the diagnosis, escalation, and warranty-claim sequence step by step.
 
 Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included) and [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation).
 

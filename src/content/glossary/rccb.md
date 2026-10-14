@@ -28,10 +28,7 @@ relatedTerms:
   - { slug: "current", term: "Current" }
   - { slug: "voltage", term: "Voltage" }
   - { slug: "ac-cable", term: "AC Cable" }
-  - { slug: "distribution-board", term: "Distribution Board" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
-  - { slug: "residual-current", term: "Residual Current" }
-  - { slug: "leakage-current", term: "Leakage Current" }
   - { slug: "transformerless-inverter", term: "Transformerless Inverter" }
   - { slug: "ev-charger", term: "EV Charger" }
 faqs:

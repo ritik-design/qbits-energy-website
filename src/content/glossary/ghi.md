@@ -28,7 +28,6 @@ relatedTerms:
   - { slug: "solar-yield", term: "Solar Yield" }
   - { slug: "cuf", term: "CUF" }
   - { slug: "pr", term: "Performance Ratio" }
-  - { slug: "pyranometer", term: "Pyranometer" }
   - { slug: "albedo", term: "Albedo" }
   - { slug: "irradiation", term: "Irradiation" }
   - { slug: "p50-p90", term: "P50 / P90" }

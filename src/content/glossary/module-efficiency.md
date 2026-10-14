@@ -27,7 +27,6 @@ relatedTerms:
   - { slug: "hjt-cell", term: "HJT Cell" }
   - { slug: "half-cut-cell", term: "Half-Cut Cell" }
   - { slug: "bifacial-module", term: "Bifacial Module" }
-  - { slug: "wattage", term: "Module Wattage" }
   - { slug: "stc", term: "Standard Test Conditions" }
   - { slug: "degradation", term: "Module Degradation" }
   - { slug: "noct", term: "NOCT" }

@@ -32,7 +32,7 @@ faqs:
   - q: "Is net metering available for hospitals in India?"
     a: "Yes. Hospitals registered as commercial consumers are eligible for net metering under each state's SERC regulations, subject to the sanctioned load and distribution company (DISCOM) approval. Most states permit commercial net metering up to the sanctioned load capacity. Export tariffs vary from ₹2 to ₹4 per kWh depending on the state, and the annual settlement typically offsets the hospital's electricity bill directly. Hospitals with 24-hour operation and relatively flat consumption profiles tend to see better net metering economics than facilities with pronounced daytime demand peaks."
   - q: "What certifications should a hospital administrator verify before purchasing a solar inverter?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Ask for the exact model's BIS registration under the applicable PV inverter safety standard (IS 16221), the test reports or certificates for the grid-connection and EMC requirements your DISCOM applies, and the datasheet IP rating. MNRE publishes ALMM lists for modules and cells only, so there is no ALMM check for the inverter itself, though the modules do need to be ALMM-listed. For a hospital, also have your electrical consultant confirm that the declared THD, transfer behaviour and protection settings suit your critical-load requirements."
   - q: "How does solar affect a hospital's carbon reporting and ESG commitments?"
     a: "A 100 kW solar installation in India displacing grid power at an emission factor of 0.71 kg CO2/kWh ([CEA grid emission factor for the national grid](https://cea.nic.in/)) avoids approximately 57 tonnes of CO2 per year. Over the 25-year panel lifespan, this amounts to over 1,400 tonnes of avoided emissions. For hospitals pursuing NABH-Green or pursuing corporate ESG targets, documented solar generation data - exportable from the monitoring system - provides the audit trail needed for sustainability reports and third-party carbon assessments."
 ---
@@ -143,7 +143,7 @@ The most common architecture for a 50–200 kW Indian hospital solar installatio
 
 The critical engineering challenge in a hospital is ensuring that the solar inverter does not shut down due to anti-islanding when the DG comes online. Standard hybrid inverters detect voltage and frequency anomalies during the DG startup transient and may interpret them as a grid event, triggering an anti-islanding shutdown. The solution is a DG-ready hybrid inverter, one that supports generator mode operation, either through a dedicated frequency-shift detection algorithm or through a separate contact signal from the AMF panel that instructs the inverter to hold online during the DG transition.
 
-Qbits hybrid inverters support generator mode with a configurable AMF contact input, allowing the inverter to remain online during DG startup without producing a back-feed hazard. This is a specification point that hospital procurement teams must verify with any inverter vendor, not assume as a standard feature.
+Generator mode with a configurable AMF contact input lets a hybrid inverter stay online during DG startup without producing a back-feed hazard. This is a specification point that hospital procurement teams must verify for the exact model with any inverter vendor, including Qbits, and not assume as a standard feature.
 
 > **30–50%.** The typical reduction in diesel generator runtime (and proportional fuel cost savings) achieved by a correctly sized hospital solar system that covers daytime non-critical loads. *Source - [IRENA Renewable Power Generation Costs Report](https://www.irena.org/publications), 2025.*
 
@@ -235,7 +235,7 @@ The [solar inverter vs UPS](/blog/solar-inverter-vs-ups/) comparison covers the 
 
 ## Where Qbits Fits in a Hospital Solar System
 
-Hospital power systems are safety-critical. The retained Qbits documents do not establish universal AI, WhatsApp, energy-balance reporting or SCADA-replacement capability. The responsible hospital engineer must define monitoring, alarms, redundancy, isolation, transfer and power-quality requirements, then verify the exact equipment and integration design.
+Hospital power systems are safety-critical. Qbits' public datasheets do not list AI, WhatsApp, energy-balance reporting or SCADA-replacement capability as features of every model. The responsible hospital engineer must define monitoring, alarms, redundancy, isolation, transfer and power-quality requirements, then verify the exact equipment and integration design.
 
 - **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[C&I Solar Solutions](/c-i-solution/)**: Ask which engineering or project services are available and obtain the responsible party, deliverables and exclusions in writing.

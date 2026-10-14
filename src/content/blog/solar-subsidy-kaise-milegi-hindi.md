@@ -20,7 +20,7 @@ faqs:
   - q: "Solar subsidy के लिए कौन eligible है?"
     a: "Domestic electricity connection वाले भारतीय नागरिक eligible हैं। Agricultural connection, commercial connection वाले eligible नहीं हैं। Renter (किरायेदार) apply नहीं कर सकते - घर का मालिक apply करे। पहले से central solar subsidy न ली हो।"
   - q: "Solar subsidy reject क्यों होती है?"
-    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
+    a: "आम कारण ये हैं: Aadhaar, electricity bill और bank account में नाम या details का mismatch, DISCOM feasibility में feeder capacity या consumer number की गलती, roof के ownership का proof न होना, non-empanelled vendor से installation, scheme की requirement पूरी न करने वाले modules, और commissioning की समय-सीमा चूक जाना। Reject होने पर portal पर कारण देखें, details ठीक करके दोबारा submit करें, और जरूरत हो तो DISCOM से सीधे बात करें।"
   - q: "Solar subsidy bank में कब आती है?"
     a: "DISCOM inspection clear होने के 20-30 दिन के बाद subsidy PFMS के through direct bank transfer होती है। Application से total time 45-90 दिन। Delay होने पर pm surya ghar portal पर grievance raise करें।"
   - q: "Solar subsidy के लिए कौन से documents चाहिए?"
@@ -30,7 +30,7 @@ faqs:
   - q: "State subsidy और central subsidy में क्या difference है?"
     a: "Central PM Surya Ghar subsidy ₹78,000 maximum है - यह MNRE देती है। State subsidy कुछ states में central के ऊपर additional amount देती है - जैसे Gujarat, Maharashtra, Rajasthan। State subsidy अलग portal/agency से process होती है।"
   - q: "ALMM क्या है - कैसे verify करें?"
-    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
+    a: "ALMM यानी Approved List of Models and Manufacturers, जो MNRE maintain करती है। इसमें solar modules (List-I) और cells (List-II) की सूची है। Subsidy वाले project में modules इसी सूची के होने चाहिए, और आप MNRE के ALMM page पर manufacturer और model नाम से verify कर सकते हैं। Inverter के लिए MNRE की कोई ALMM सूची नहीं है, इसलिए inverter के exact model का BIS registration और current certificates vendor से माँगें, और DISCOM से requirements confirm करें।"
 language: hi
 ---
 

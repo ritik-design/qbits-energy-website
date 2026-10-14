@@ -22,15 +22,15 @@ faqs:
   - q: "What is the PM Surya Ghar subsidy for a system under ₹1 lakh?"
     a: "For a 1kW system, the PM Surya Ghar central subsidy is ₹30,000. For a 2kW system, the subsidy is ₹60,000. These subsidies are paid directly to the homeowner's bank account after DISCOM verification. They bring a ₹65,000–₹85,000 (1kW) or ₹1,00,000–₹1,30,000 (2kW) gross system within or close to the ₹1 lakh net target. Applying for PM Surya Ghar subsidy through the national portal is mandatory before installation begins."
   - q: "What are the risks of buying a cheap solar system in India?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The main risks are non-compliant or mislabelled modules, an undersized or unbranded inverter with a short warranty, thin balance-of-system scope (no proper earthing, surge protection or cabling), and an installer who is not registered with your DISCOM. Any of these can cost you the subsidy or force an early replacement. Ask for itemised quotes that name the module and inverter models, the warranty terms in writing, and the full scope of work, and compare at least two."
   - q: "Can I get a hybrid solar system under ₹1 lakh in India?"
     a: "Not with a meaningful battery. A hybrid inverter alone (without battery) for 1–2kW adds ₹20,000–₹35,000 over an on-grid inverter, pushing the net system cost to ₹70,000–₹90,000. With a 2.4kWh LiFePO4 battery (the smallest practical size), total cost rises to ₹1,20,000–₹1,60,000 net after subsidy. For a genuine ₹1 lakh budget, an on-grid 2kW system is the only complete, warranty-valid option."
   - q: "Which brands offer reliable solar systems under ₹1 lakh (net cost) in India?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Look past the brand name to the specific equipment and the vendor. Choose modules from the MNRE ALMM module list, an inverter whose exact model has current certificates and a written warranty, and a vendor registered with your DISCOM that has a local service presence. Then compare itemised quotes from at least two such vendors. A well-known brand on a thin quote is a worse buy than a modest brand with full scope and written terms."
   - q: "What is the minimum system size I should consider for solar in India?"
     a: "The minimum practical solar system for an Indian home is 1kW - generating 3.5 to 5 kWh/day, enough to offset lighting, fans, and a refrigerator. Anything below 1kW (individual panels sold without a complete system) is not subsidy-eligible and typically lacks proper grid-tie inverter compliance. For a home with any air conditioning, 2kW is the practical minimum."
   - q: "How do I verify that a solar system under ₹1 lakh is PM Surya Ghar compliant?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Check four things. The vendor must be registered for PM Surya Ghar with your DISCOM, and you apply through the national portal before installation. The modules must be on the MNRE ALMM module list and meet the scheme's requirements. MNRE publishes no ALMM list for inverters, so ask for the exact inverter model's BIS registration and current certificates. Finally, the quote must come with a GST invoice, because subsidy disbursal needs one."
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
@@ -136,8 +136,8 @@ At the ₹1 lakh budget level, every rupee matters. Here is what the typical ₹
 | Quality tier | Panels | Inverter warranty | BOS | Expected 25-yr generation |
 | --- | --- | --- | --- | --- |
 | **Budget (~₹60,000 net, 2kW)** | Polycrystalline 380Wp, Tier-3 brand | 2–3 years | Basic, unbranded | ~55,000 kWh |
-| **Mid-range (~₹70,000 net, 2kW)** | Mono PERC 530Wp, Tier-2 brand | 5–7 years, ALMM listed | Branded SPD, Al structure | ~62,000 kWh |
-| **Quality (~₹80,000 net, 2kW)** | Mono PERC 550Wp, Tier-1 brand, BIS | 12 years full replacement | Full BOS scope, proper earthing | ~68,000 kWh |
+| **Mid-range (~₹70,000 net, 2kW)** | Mono PERC 530Wp, Tier-2 brand | 5–7 years, certificates checked | Branded SPD, Al structure | ~62,000 kWh |
+| **Quality (~₹80,000 net, 2kW)** | Mono PERC 550Wp, Tier-1 brand, BIS | 10 years or more where offered, remedy confirmed in writing | Full BOS scope, proper earthing | ~68,000 kWh |
 
 The 13,000 kWh generation difference between budget and quality over 25 years equals ₹91,000 at ₹7/unit. The quality system pays for its ₹20,000 premium 4.5 times over through extra generation alone, before accounting for the avoided cost of inverter replacement.
 
@@ -184,10 +184,10 @@ In Gujarat and Rajasthan, a 2kW system is genuinely available under ₹50,000 ne
 
 ## Qbits model documentation
 
-The budget solar buyer deserves the same model-specific written warranty and IP66 protection as the large installation, not a lesser product because the system is smaller. Qbits offers the TLS-1500 (1.5kW) and TLS-2000 (2kW) with identical specifications and warranty terms as the larger-capacity products.
+The budget solar buyer deserves a model-specific written warranty and a properly protected enclosure, just like the large installation, and should not get a lesser product because the system is smaller. For 1 to 2kW, Qbits' published catalogue lists the QB 1.5 to 4.0KTLS single-phase range, which starts at 1.5kW. Pick the exact model for your array size and check its current datasheet at [datasheet library](/download-datasheets/).
 
 - **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Verify your 1–2kW string configuration and panel layout before ordering.
 - **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
-[Get a verified quote at contact-us](/contact-us/), share your electricity bill and Qbits will right-size the system to your actual consumption and budget.
+[Contact Qbits](/contact-us/) and share your electricity bill so the right inverter model can be matched to your actual consumption and budget. Qbits sells inverters through dealers, so ask for a dated quote for the exact model.

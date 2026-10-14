@@ -29,7 +29,6 @@ relatedTerms:
   - { slug: "cuf", term: "CUF" }
   - { slug: "pr", term: "Performance Ratio" }
   - { slug: "bifacial-module", term: "Bifacial Module" }
-  - { slug: "single-axis-tracker", term: "Single-Axis Tracker" }
   - { slug: "stc", term: "STC" }
   - { slug: "ghi", term: "GHI" }
   - { slug: "lcoe", term: "LCOE" }

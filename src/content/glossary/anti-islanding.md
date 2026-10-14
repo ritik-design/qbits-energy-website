@@ -26,11 +26,8 @@ relatedTerms:
   - { slug: "hybrid-inverter", term: "Hybrid Inverter" }
   - { slug: "string-inverter", term: "String Inverter" }
   - { slug: "central-inverter", term: "Central Inverter" }
-  - { slug: "frt", term: "Fault Ride Through" }
-  - { slug: "grid-code", term: "Grid Code" }
-  - { slug: "phase-locked-loop", term: "Phase Locked Loop" }
+  - { slug: "fault-ride-through", term: "Fault Ride Through" }
   - { slug: "net-metering", term: "Net Metering" }
-  - { slug: "frequency-response", term: "Frequency Response" }
   - { slug: "discom", term: "DISCOM" }
   - { slug: "smart-inverter", term: "Smart Inverter" }
   - { slug: "almm-list", term: "ALMM List" }

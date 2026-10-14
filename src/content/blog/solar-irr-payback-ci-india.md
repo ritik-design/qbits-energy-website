@@ -165,7 +165,7 @@ This package makes the solar decision defensible to the board or investment comm
 
 ## Where Qbits Fits in the C&I IRR Model
 
-An inverter-replacement scenario can materially affect a C&I model, but the timing, cost and effect must come from documented assumptions and a validated calculation. The retained Qbits evidence does not establish a warranty that eliminates a Year 12 replacement cost. Keep that cost in the base or sensitivity case unless current written terms justify another treatment.
+An inverter-replacement scenario can materially affect a C&I model, but the timing, cost and effect must come from documented assumptions and a validated calculation. Qbits' public datasheets describe an expandable warranty but do not define the base term or remedy, so do not assume a warranty removes a Year 12 replacement cost. Keep that cost in the base or sensitivity case unless current written terms justify another treatment.
 
 - **[C&I Solutions](/c-i-solution/)**: Ask which project services are available and obtain the responsible party, deliverables, exclusions and fees in writing.
 

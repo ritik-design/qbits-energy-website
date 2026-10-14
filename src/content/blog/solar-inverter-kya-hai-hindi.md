@@ -22,9 +22,9 @@ faqs:
   - q: "1 kW solar inverter se kitni bijli banti hai?"
     a: "1 kW solar inverter se pratidin 4 se 5 units bijli banti hai - shehar aur location ke hisaab se. Rajasthan, Gujarat, MP jaise states mein 5 se 5.5 units roz milte hain. Kerala aur West Bengal mein 4 se 4.5 units. Mahine mein 120 se 165 units per kW generate hoti hain."
   - q: "Solar inverter ki life kitni hoti hai?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Achha string inverter aam taur par lagbhag 10 se 15 saal chalta hai, jabki solar panel 25 saal ya usse zyada ke liye bante hain. Asli life temperature, dhool aur nami, load, installation quality aur maintenance par depend karti hai. Isliye system ki poori life mein kam se kam ek inverter replacement ka plan rakhna samajhdari hai. Warranty ke saal life ki guarantee nahi hote, isliye written warranty terms bhi padhein."
   - q: "ALMM kya hai aur inverter mein kyun zaroori hai?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "ALMM yaani Approved List of Models and Manufacturers MNRE ki list hai. Isme List-I solar module ke liye aur List-II solar cell ke liye hai, inverter ke liye koi ALMM list nahi hai. Isliye PM Surya Ghar jaise scheme mein module ALMM-listed manufacturer ke hone chahiye, aur inverter ke liye seller se exact model ka BIS registration aur current certificate maangein. DISCOM ki koi alag requirement ho to use bhi confirm karein."
   - q: "Solar inverter kahan lagaya jaata hai?"
     a: "Solar inverter rooftop ke paas ya ghar ki deewar par lagaya jaata hai - usually chhaon mein ya indoor mein. Direct sunlight mein nahi lagana chahiye kyunki garmi se inverter overheat hota hai. IP65 ya IP66 rated inverter outdoor bhi laga sakte hain lekin shade preferred hai."
   - q: "Solar inverter ki cost kitni hoti hai?"
@@ -167,12 +167,12 @@ IP Rating (Ingress Protection) batati hai ki inverter dust aur water se kitna pr
 
 India mein monsoon aur dust ke liye minimum IP65, better IP66. Bihar, Bengal, Kerala mein IP66 essential hai. [IP65 vs IP66 guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) mein India-specific guidance hai.
 
-## ALMM Certification: PM Surya Ghar Ke Liye Mandatory
+## ALMM Aur Certificate Check: PM Surya Ghar Ke Liye
 
-**ALMM verification kaise karein:**
+**Verification kaise karein:**
 1. [MNRE ALMM Portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} par jaayein
-2. Inverter brand aur model number search karein
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
+2. Solar module ka manufacturer aur model number search karein (MNRE ALMM List-I modules ke liye aur List-II cells ke liye hai, inverter ke liye koi list nahi hai)
+3. Inverter ke liye seller se exact model ka BIS registration aur current certificate maangein, aur DISCOM ki requirement alag se confirm karein
 
 ## Inverter Monitoring: App Se Kaise Track Karein
 
@@ -252,9 +252,7 @@ Understanding the brand landscape helps you make an informed choice. Aap Heaven 
 
 **Indian manufacturers:** Luminous, UTL, Sukam, Microtek, strong distribution network, good service in Tier 2 and Tier 3 cities, warranty 2-5 years standard.
 
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
-
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
+Brand chunte waqt sirf Indian ya international label na dekhein. Exact model ka datasheet, BIS registration aur written warranty terms maangein, aur DISCOM ya scheme ki requirement alag se confirm karein.
 
 [Top 10 solar inverter brands India 2026](/blog/top-10-solar-inverter-brands-india-2026/), detailed brand analysis with market share data.
 

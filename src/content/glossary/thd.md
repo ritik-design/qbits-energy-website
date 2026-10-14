@@ -22,7 +22,6 @@ quickFacts:
 relatedTerms:
 - { slug: harmonics, term: Harmonics }
 - { slug: power-factor, term: Power Factor }
-- { slug: tdd, term: Total Demand Distortion }
 - { slug: solar-inverter, term: Solar Inverter }
 faqs:
 - q: What is THD in simple terms?

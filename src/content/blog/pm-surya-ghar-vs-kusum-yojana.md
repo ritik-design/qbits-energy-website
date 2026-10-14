@@ -26,7 +26,7 @@ faqs:
   - q: "Which scheme has a faster application process - PM Surya Ghar or KUSUM?"
     a: "PM Surya Ghar typically has a faster and more digitalised application process through the pmsuryaghar.gov.in portal, which provides real-time status tracking and direct bank transfer. KUSUM applications are handled through state nodal agencies and state DISCOMs, with more manual processes and longer timelines in many states. KUSUM Component B and C applications can take 3 to 12 months from application to installation depending on state, while PM Surya Ghar averages 45 to 90 days in 2026."
   - q: "Is ALMM compliance required for KUSUM Yojana?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "ALMM applies to solar modules (List-I) and cells (List-II), not to inverters or pump controllers. Equipment conditions under KUSUM come from the scheme guidelines and the state nodal agency, and they can include module requirements such as ALMM and domestic content. Confirm the current requirement for your component with the state nodal agency, and for any inverter or pump controller ask the supplier for the exact model's certificates."
   - q: "Can I get both PM Surya Ghar and KUSUM benefits?"
     a: "Yes, if you have both a domestic electricity connection (for your house) and an agricultural connection (for your farm), you can potentially access PM Surya Ghar for the residential rooftop and KUSUM Component B or C for the agricultural pump. These are separate government programmes with separate budgets and separate application portals. Both applications must be for genuinely separate connections and installations - you cannot claim two subsidies for a single solar system."
   - q: "What happens to my electricity bill under KUSUM Component C?"
@@ -152,7 +152,7 @@ For KUSUM specifically, contact your state's nodal agency and your agricultural 
 - **A farmer applying only to KUSUM when a home solar system is also needed**: Missed opportunity. A farming household can benefit from both schemes simultaneously for different installations.
 - **Expecting PM Surya Ghar to cover pump solarisation**: The scheme covers only rooftop systems on residential buildings.
 - **Treating KUSUM as a faster process than PM Surya Ghar**: In practice, KUSUM typically takes significantly longer due to state-level implementation variability.
-- **Not verifying ALMM compliance for KUSUM equipment**: Both schemes require ALMM-listed components. Farmers are sometimes less familiar with this requirement and accept non-listed equipment from local dealers.
+- **Not verifying module compliance for KUSUM equipment**: Both schemes set conditions on the solar modules, which are checked against the ALMM lists, and MNRE publishes no ALMM list for inverters or pump controllers. Farmers are sometimes less familiar with this requirement and accept unverified modules from local dealers.
 
 ## Where Qbits Fits
 

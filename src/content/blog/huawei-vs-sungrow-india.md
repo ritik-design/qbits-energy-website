@@ -21,15 +21,15 @@ faqs:
   - q: "What is the price of a 5kW Sungrow inverter in India in 2026?"
     a: "A 5 kW Sungrow SG5.0RS single-phase string inverter costs Rs 55,000 to Rs 65,000 in India in 2026, inverter only, based on Q2 2026 procurement data from Indian EPC buyers. The 3 kW SG3.0RS runs Rs 38,000 to Rs 44,000 and the 10 kW three-phase model runs Rs 1.05 Lakh to Rs 1.20 Lakh. Prices vary by distributor, state, and order quantity. These figures exclude panels, structure, cabling, and installation."
   - q: "Are Huawei residential inverters easily available in India?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Less easily than Sungrow's residential range. Huawei's India business is concentrated in utility and large C&I projects, so residential stock and bench support depend on the importing distributor. Before ordering, ask for the exact model's stock status, the written India warranty and the local service route."
   - q: "What warranty do Huawei and Sungrow offer in India?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "Sungrow lists a 10-year standard warranty on its residential SG and SH models, with paid extensions available. Huawei publishes a 60-month (5-year) standard warranty for its C&I SUN2000 inverters, with extensions sold separately. Terms differ by model and by the importing distributor, so get the current written India warranty for the exact model before relying on a headline number."
   - q: "Is Sungrow ALMM listed and eligible for PM Surya Ghar subsidy?"
-    a: "Yes, Sungrow's residential and commercial models sold through official India channels appear on the ALMM register and qualify for PM Surya Ghar Muft Bijli Yojana subsidy when installed by an empanelled vendor. The central subsidy is Rs 30,000 per kW for the first 2 kW and Rs 18,000 for the third kW, capped at Rs 78,000 with nothing paid on capacity above 3 kW. Always verify the specific model number on the current ALMM list, because listing is model-specific and updated periodically."
+    a: "MNRE publishes ALMM lists for solar modules (List-I) and cells (List-II), not for inverters, so no inverter is ALMM listed. For PM Surya Ghar subsidy, the modules must be on ALMM List-I, the installer must be an empanelled vendor, and the DISCOM confirms inverter requirements, so ask the seller for the exact inverter model's BIS registration and current certificates. The central subsidy is Rs 30,000 per kW for the first 2 kW and Rs 18,000 for the third kW, capped at Rs 78,000 with nothing paid on capacity above 3 kW. Confirm the current rules on the PM Surya Ghar portal and with your DISCOM before ordering."
   - q: "How fast is warranty claim service for Chinese inverter brands in India?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "It varies by brand and city. Industry-observed response for Sungrow runs about 4 to 6 days in covered cities and longer in Tier-3 towns. For Huawei it depends on the importing distributor's stock, and replacement boards for less common models can ship from overseas, adding 2 to 4 weeks. Ask for the response process and replacement route in writing before you buy."
   - q: "Should I buy a Chinese inverter or a made-in-India inverter in 2026?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "Choose on the exact model, not the country of origin. Compare the written warranty and remedy, the local service route for your pincode, spare availability, the DC string fit and the monitoring system. A made-in-India inverter can make sense when you value a nearby service team and a written replacement process, and a Chinese brand can make sense when its warranty and stock in your city are documented."
 featured: false
 ---
 
@@ -48,7 +48,7 @@ This guide compares Huawei vs Sungrow on the things that decide an Indian purcha
 > - Huawei's standard C&I inverter warranty is 60 months (5 years) per its official policy; Sungrow residential is 10 years standard.
 > - Warranty claim response in India averages 4 to 6 days for Sungrow and varies widely for Huawei depending on the importing distributor.
 
-> - Both brands qualify for [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy only if the exact model is ALMM listed and installed by an empanelled vendor.
+> - For [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy, the modules must be on ALMM List-I and the installer must be an empanelled vendor. MNRE publishes no ALMM list for inverters, so ask for each inverter model's BIS registration and current certificates.
 
 If you are still deciding between inverter types rather than brands, start with the [on-grid vs hybrid](/blog/on-grid-vs-hybrid/) explainer and come back. This post assumes you have already shortlisted Tier-1 Chinese hardware and want the honest India picture.
 
@@ -140,23 +140,23 @@ The assumption behind most Huawei vs Sungrow searches is that picking a giant re
 
 **Myth: Efficiency differences decide the purchase.** Between Huawei at 98.6% and Sungrow at 98.4%, the annual difference on a 5 kW system is about Rs 130. A single week of claim-related downtime erases a decade of that gap.
 
-Country of origin does not establish hardware quality, firmware suitability, warranty depth or service speed. Compare the exact India-market SKU, approved grid settings, monitoring system, current warranty and local service route. A site with unstable voltage needs measured grid data and a model-specific engineering review, not a nationality-based assumption.
+Country of origin does not decide hardware quality, firmware suitability, warranty depth or service speed. Compare the exact India-market SKU, approved grid settings, monitoring system, current warranty and local service route. A site with unstable voltage needs measured grid data and a model-specific engineering review, not a nationality-based assumption.
 
 ## Huawei vs Sungrow vs Qbits: Side-by-Side
 
-| Evidence field | Huawei | Sungrow | Qbits |
+| Check | Huawei | Sungrow | Qbits |
 | --- | --- | --- | --- |
 | Exact India-market SKU | Request current document | Request current document | Request current document |
 | Efficiency and derating | Check exact datasheet | Check exact datasheet | Check exact datasheet |
-| Warranty and remedy | Obtain current India terms | Obtain current India terms | not established until current written terms are supplied |
+| Warranty and remedy | Obtain current India terms | Obtain current India terms | Get the current written terms for the exact model |
 | Enclosure and environment | Check model and installation limits | Check model and installation limits | Check model and installation limits |
 | Local service | Confirm responsible party and postcode coverage | Confirm responsible party and postcode coverage | Confirm responsible party and postcode coverage |
 | Grid settings | Match model documents to approved project settings | Match model documents to approved project settings | Match model documents to approved project settings |
 | Monitoring | Confirm hardware, functions, account and fees | Confirm hardware, functions, account and fees | Confirm hardware, functions, account and fees |
-| Origin | Verify sale and origin documents | Verify sale and origin documents | not established unless current sale documents state it |
+| Origin | Verify sale and origin documents | Verify sale and origin documents | Check the sale documents for the origin |
 | Scheme and utility fit | Verify exact project requirements | Verify exact project requirements | Verify exact project requirements; ALMM is not an inverter list |
 
-This comparison cannot establish a universal winner. The decision depends on the exact model, design, evidence pack, contract and service route available for the site.
+This comparison cannot name a universal winner. The decision depends on the exact model, design, document pack, contract and service route available for the site.
 
 ## Which Should You Buy? The Decision Framework
 
@@ -166,7 +166,7 @@ Match the brand to the segment, then check the service radius before signing.
 
 - **Utility or 100+ kW C&I fleet:** Huawei SUN2000-330KTL vs Sungrow SG250HX is the genuine head-to-head. Decide on O&M contract terms and fleet monitoring needs, not hardware specs.
 
-Whichever brand you choose, the subsidy gate is the same: the exact model must be ALMM listed and the installer must be an empanelled vendor. The [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) guide has the current central and state numbers, and [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) is the authoritative portal for vendor verification.
+Whichever brand you choose, the subsidy gate is the same: the modules must be on ALMM List-I, the installer must be an empanelled vendor, and the exact inverter model needs current BIS registration and certificates (MNRE publishes no ALMM list for inverters). The [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) guide has the current central and state numbers, and [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) is the authoritative portal for vendor verification.
 
 The European premium pair is compared on the same basis in [Fronius vs SMA in India](/blog/fronius-vs-sma-india/).
 
@@ -176,5 +176,5 @@ Huawei vs Sungrow in India is not a spec-sheet fight; it is a segment and servic
 
 Three steps before you sign any quote:
 
-- Get itemised quotes for your top two brands. Confirm the exact model on the current [ALMM list via MNRE](https://mnre.gov.in/) and verify installer empanelment on the PM Surya Ghar portal.
+- Get itemised quotes for your top two brands. Confirm the modules are on the current [ALMM list via MNRE](https://mnre.gov.in/), ask for each inverter's BIS registration and certificates, and verify installer empanelment on the PM Surya Ghar portal.
 - Ask each brand's distributor, in writing, for the nearest authorised service point and the committed claim response time for your pin code.

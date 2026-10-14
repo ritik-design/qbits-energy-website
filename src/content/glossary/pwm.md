@@ -22,7 +22,6 @@ quickFacts:
   relatedTechnologies: "MPPT, charge controller, sine wave inversion, IGBT, MOSFET"
 relatedTerms:
   - { slug: "mppt", term: "MPPT" }
-  - { slug: "charge-controller", term: "Charge Controller" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "off-grid-inverter", term: "Off Grid Inverter" }
   - { slug: "battery-soc", term: "Battery SOC" }
@@ -31,9 +30,7 @@ relatedTerms:
   - { slug: "lfp-battery", term: "LFP Battery" }
   - { slug: "sine-wave-inverter", term: "Sine Wave Inverter" }
   - { slug: "modified-sine-wave", term: "Modified Sine Wave" }
-  - { slug: "solar-lantern", term: "Solar Lantern" }
   - { slug: "open-circuit-voltage", term: "Open Circuit Voltage" }
-  - { slug: "duty-cycle", term: "Duty Cycle" }
 faqs:
   - q: "What is PWM in simple words?"
     a: "PWM is a switching technique that turns a transistor on and off many times a second. By varying how long the switch is on each cycle, you control the average voltage or current delivered. In solar, it shows up in charge controllers and inverters."

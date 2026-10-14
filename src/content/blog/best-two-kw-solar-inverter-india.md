@@ -27,7 +27,7 @@ faqs:
   - q: "Is higher maximum efficiency enough to choose an inverter?"
     a: "No. Maximum efficiency is a laboratory peak, not an annual-yield, reliability or service result. Compare the exact string limits, MPPT arrangement, enclosure, weighted efficiency where available, installation environment, written warranty and local claim route."
   - q: "Does a 2 kW inverter qualify a home for PM Surya Ghar subsidy?"
-    a: "The inverter rating alone does not establish eligibility. Scheme assistance is calculated using eligible rooftop solar capacity and current programme rules. The registered-vendor process, modules, exact equipment documents, technical feasibility and DISCOM requirements also matter. Verify the current portal and your DISCOM before ordering."
+    a: "The inverter rating alone does not decide eligibility. Scheme assistance is calculated using eligible rooftop solar capacity and current programme rules. The registered-vendor process, modules, exact equipment documents, technical feasibility and DISCOM requirements also matter. Verify the current portal and your DISCOM before ordering."
 featured: false
 relatedSlugs:
   - "2kw-solar-system-price-india"
@@ -68,7 +68,7 @@ The list is alphabetical. “Best” means best fit for a stated design conditio
 
 ## Four exact 2 kW solar inverter models compared
 
-All values below come from the linked first-party product page, datasheet or official catalogue. They do not establish India stock, scheme acceptance or warranty performance.
+All values below come from the linked first-party product page, datasheet or official catalogue. They say nothing about India stock, scheme acceptance or warranty performance.
 
 | Exact model | AC type and rating | MPPTs / strings | MPPT range | Maximum DC voltage | Maximum DC input current | Published maximum efficiency | Enclosure |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -105,7 +105,7 @@ The current [Qbits QB 1.5 to 4.0KTLS product route](/our-products/QB-1.5-4.0KTLS
 
 Those fields create a clear conditional advantage inside this four-model comparison: Qbits is the only entry combining a published 20 A maximum input with IP66. That is not proof of better reliability, energy yield or service. It is a paper specification that matters only when the proposed module and installation location require it.
 
-Qbits' current public records describe an expandable warranty but do not establish the base term, remedy, registration deadline or exclusions. They also do not establish a universal local service response, applicable certificate for every suffix or independent field-failure result.
+Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline or exclusions. They also do not state a universal local service response, the applicable certificate for every suffix or any independent field-failure result, so get these in writing for the exact model.
 
 **Conditional verdict:** QB-2.0KTLS is the best documented specification match here when a correctly calculated one-string design needs up to 20 A input and the mounting plan calls for IP66. The buyer still needs current warranty, compliance, stock and local-service documents before payment.
 
@@ -125,10 +125,10 @@ A credible shortlist is not a logo collection.
 
 - Havells publishes an Enviro GTi 2200 NG, which is rated at 2.2 kW rather than exactly 2 kW. It was excluded to preserve a like-for-like AC rating.
 - Luminous publishes the exact 2 kW NXI 120 product route, but that page does not expose the MPPT range, maximum DC voltage and maximum input current needed for the same-dimension table.
-- Growatt's official sitemap referenced the MIC 750 to 3300TL-X family, but the referenced product route returned a 404 during this review.
-- Sungrow's official catalogue named an SG2.0RS-S family, but the current product-detail route reviewed did not present a matching exact-model page and datasheet together.
+- Growatt's official sitemap referenced the MIC 750 to 3300TL-X family, but the referenced product page returned a 404 when we checked.
+- Sungrow's official catalogue named an SG2.0RS-S family, but the current product-detail page did not present a matching exact-model page and datasheet together.
 
-Exclusion does not mean those brands lack a suitable product. It means they did not clear this edition's exact-model and accessible-source gate. `COMPARISON_REVIEW` remains open so a qualified reviewer can add a model when equivalent current evidence is available.
+Exclusion does not mean those brands lack a suitable product. It means they did not clear this edition's exact-model and accessible-source gate. We will add a model here once an equivalent current datasheet is available.
 
 ## Match the inverter to the module, not only the kW number
 
@@ -156,7 +156,7 @@ If the roof has two materially different planes, compare a dual-MPPT model even 
 
 ## What this comparison cannot tell you
 
-The reviewed documents are manufacturer sources. They establish published product specifications. They do not establish:
+The sources used here are manufacturer documents. They give published product specifications. They do not tell you:
 
 - independent field reliability or failure rates;
 - annual energy yield on the same Indian test roof;
@@ -168,7 +168,7 @@ The reviewed documents are manufacturer sources. They establish published produc
 - monitoring hardware included in the quoted box;
 - installer workmanship or commissioning quality.
 
-That boundary matters. A maximum-efficiency number does not predict service response. An IP rating does not prove warranty coverage for water ingress. A standards list on a datasheet is not the same as a current certificate matched to the exact suffix.
+That limit matters. A maximum-efficiency number does not predict service response. An IP rating does not prove warranty coverage for water ingress. A standards list on a datasheet is not the same as a current certificate matched to the exact suffix.
 
 ## The documents to request from every finalist
 

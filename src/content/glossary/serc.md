@@ -29,7 +29,6 @@ relatedTerms:
   - { slug: "tariff", term: "Tariff" }
   - { slug: "feed-in-tariff", term: "Feed In Tariff" }
   - { slug: "virtual-net-metering", term: "Virtual Net Metering" }
-  - { slug: "tod-tariff", term: "ToD Tariff" }
   - { slug: "rec", term: "Renewable Energy Certificate" }
   - { slug: "electricity-act-2003", term: "Electricity Act 2003" }
 faqs:

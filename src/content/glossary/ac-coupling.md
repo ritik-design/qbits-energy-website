@@ -24,14 +24,10 @@ relatedTerms:
   - { slug: "hybrid-inverter", term: "Hybrid Inverter" }
   - { slug: "on-grid-inverter", term: "On Grid Inverter" }
   - { slug: "off-grid-inverter", term: "Off Grid Inverter" }
-  - { slug: "battery-inverter", term: "Battery Inverter" }
   - { slug: "round-trip-efficiency", term: "Round Trip Efficiency" }
   - { slug: "lfp-battery", term: "LFP Battery" }
   - { slug: "bms", term: "BMS" }
-  - { slug: "ems", term: "Energy Management System" }
   - { slug: "anti-islanding", term: "Anti-Islanding" }
-  - { slug: "self-consumption", term: "Self Consumption" }
-  - { slug: "retrofit", term: "Retrofit" }
   - { slug: "micro-inverter", term: "Micro Inverter" }
   - { slug: "bess", term: "BESS" }
 faqs:

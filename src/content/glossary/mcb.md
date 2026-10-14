@@ -28,7 +28,6 @@ relatedTerms:
   - { slug: "current", term: "Current" }
   - { slug: "voltage", term: "Voltage" }
   - { slug: "ac-cable", term: "AC Cable" }
-  - { slug: "distribution-board", term: "Distribution Board" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "junction-box", term: "Junction Box" }
   - { slug: "single-line-diagram", term: "Single Line Diagram" }

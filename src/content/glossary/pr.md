@@ -24,7 +24,6 @@ relatedTerms:
   - { slug: "solar-yield", term: "Solar Yield" }
   - { slug: "ghi", term: "GHI" }
   - { slug: "peak-sun-hours", term: "Peak Sun Hours" }
-  - { slug: "shading-loss", term: "Shading Loss" }
   - { slug: "soiling", term: "Soiling" }
   - { slug: "ppa", term: "Power Purchase Agreement" }
   - { slug: "lcoe", term: "LCOE" }

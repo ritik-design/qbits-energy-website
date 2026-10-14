@@ -24,7 +24,7 @@ faqs:
   - q: "Does panel oversizing void an inverter warranty?"
     a: "Only the written policy and exact product limits can answer that. Check maximum DC voltage, MPPT range, input and short-circuit current, any stated array-power limit, approved design conditions and warranty exclusions. Do not infer warranty coverage from a marketing phrase or another model's datasheet."
   - q: "How should clipping loss be valued?"
-    a: "Use a reviewed interval-based energy model and the owner's approved value for energy at the clipped times. Export limits, self-consumption, tariffs and curtailment can change that value. Report the model inputs and sensitivity range rather than multiplying a generic clipping percentage by a generic tariff."
+    a: "Use an interval-based energy model and the owner's approved value for energy at the clipped times. Export limits, self-consumption, tariffs and curtailment can change that value. Report the model inputs and sensitivity range rather than multiplying a generic clipping percentage by a generic tariff."
 featured: false
 ---
 
@@ -38,7 +38,7 @@ This article explains the decision framework and a labelled arithmetic example. 
 
 `DC/AC ratio = array DC nameplate capacity (kWp) ÷ inverter rated AC output (kWac)`
 
-Illustrative arithmetic only: a declared 6 kWp array paired with a declared 5 kWac inverter has a ratio of `6 ÷ 5 = 1.20`. This example does not establish that the pairing is electrically permitted or economically useful. Voltage, current, MPPT, array-power, connection and warranty checks still control the design.
+Illustrative arithmetic only: a declared 6 kWp array paired with a declared 5 kWac inverter has a ratio of `6 ÷ 5 = 1.20`. This example does not show that the pairing is electrically permitted or economically useful. Voltage, current, MPPT, array-power, connection and warranty checks still control the design.
 
 Keep AC apparent-power fields separate from rated real-power fields. If a tender or model uses a different definition, state it before comparing ratios.
 
@@ -112,7 +112,7 @@ Use a tool capable of representing the proposed layout and inverter behaviour, t
 
 Use sensitivity analysis for uncertain items such as weather, degradation, curtailment, tariff or self-consumption. If the preferred scenario changes under a small input movement, report that threshold. Do not publish a confident payback from a generic Indian tariff or an invented yield uplift.
 
-The [inverter TCO worksheet](/blog/inverter-tco/) provides a structure for dated costs and present-value assumptions. Finance and commercial owners should approve the value of future energy.
+The [inverter TCO worksheet](/blog/inverter-tco/) provides a structure for dated costs and present-value assumptions. The finance team or system owner should approve the value placed on future energy.
 
 ## Does a higher ratio affect inverter life or warranty?
 

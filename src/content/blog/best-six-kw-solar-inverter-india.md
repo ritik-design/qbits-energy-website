@@ -30,7 +30,7 @@ faqs:
 - q: Can a 6 kW inverter run a 6 kW home during an outage?
   a: Not merely because its rated output is 6 kW. On-grid inverters normally stop exporting when the grid is absent. Backup capability, continuous backup output, surge handling, battery limits, and protected loads must all be verified on an exact hybrid or backup product.
 - q: What is the difference between Qbits QB-6KTLS and QB-6KTLD?
-  a: They are different on-grid families. The reviewed QB-6KTLS document publishes one MPPT and one string. The separate QB-6KTLD family publishes two MPPTs. Do not use a KTLD specification to approve a KTLS quote.
+  a: They are different on-grid families. The QB-6KTLS datasheet publishes one MPPT and one string. The separate QB-6KTLD family publishes two MPPTs. Do not use a KTLD specification to approve a KTLS quote.
 ---
 
 The **best 6 kW solar inverter in India is the exact model that fits your roof layout, module string, grid connection, and documentation requirements**. A brand name or a 6 kW label cannot settle that decision.
@@ -45,8 +45,8 @@ All three products below are current manufacturer-documented, 6 kW rated, single
 
 | Exact model | Conditional best fit | Main reason | Important limit |
 | --- | --- | --- | --- |
-| GoodWe GW6000-DNS-30 | Two roof planes where IP66 is required in the specification | Two MPPTs, one string per tracker, IP66 | 16 A maximum input per MPPT; India stock and commercial terms not established here |
-| Sungrow SG6.0RS-L | Two roof planes where a published 9 kWp recommended PV input is useful | Two MPPTs, one string per tracker, 9 kWp recommended maximum PV input | IP65; rated and maximum apparent output are both 6,000 VA in the reviewed sheet |
+| GoodWe GW6000-DNS-30 | Two roof planes where IP66 is required in the specification | Two MPPTs, one string per tracker, IP66 | 16 A maximum input per MPPT; confirm India stock and commercial terms with the seller |
+| Sungrow SG6.0RS-L | Two roof planes where a published 9 kWp recommended PV input is useful | Two MPPTs, one string per tracker, 9 kWp recommended maximum PV input | IP65; rated and maximum apparent output are both 6,000 VA in the datasheet |
 | Qbits QB-6KTLS | One simple array where one tracker and one string are sufficient | 20 A maximum DC input, 98.1% maximum efficiency, IP66, 9 kg | One MPPT and one string; public written warranty terms remain incomplete |
 
 This is a fit ranking, not a reliability ranking. A product's position changes when the roof, module current, string voltage, connection type, or document requirement changes.
@@ -56,10 +56,10 @@ This is a fit ranking, not a reliability ranking. A product's position changes w
 A useful best list needs rules that can disqualify a convenient answer. We used five:
 
 1. **Same operating class.** Every compared model must be rated at 6 kW, single phase, grid connected, and intended for PV string input.
-2. **Exact current primary evidence.** The model must have a current manufacturer product page or family datasheet with a model-specific column.
+2. **Exact current manufacturer documents.** The model must have a current manufacturer product page or family datasheet with a model-specific column.
 3. **Same decision fields.** We compare MPPT count, strings, voltage, current, AC output, efficiency, enclosure, cooling, size, weight, and communication for all three.
 4. **Unknowns remain unknown.** A missing warranty remedy, certificate file, price, service result, or approval is not inferred from a logo or series page.
-5. **Conditional verdicts only.** Published specifications can establish design fit. They cannot establish lifetime reliability, annual yield, service quality, or ownership cost without additional evidence.
+5. **Conditional verdicts only.** Published specifications can show design fit. They cannot show lifetime reliability, annual yield, service quality, or ownership cost without additional data.
 
 GoodWe and Sungrow appear before Qbits so the publisher does not receive automatic first position. No placement is based on payment, sales volume, search popularity, or a private commercial arrangement.
 
@@ -78,7 +78,7 @@ The values below come from the current [GoodWe DNS G3 datasheet](https://en.good
 | MPPT operating range | 40 to 560 V | 40 to 560 V | 40 to 600 V |
 | Starting voltage | 50 V | 50 V | 50 V |
 | Maximum PV input current | 16 A per MPPT | 16 A per MPPT | 20 A total on one MPPT |
-| Maximum short-circuit current | 23 A per MPPT | 20 A per MPPT | Not separately stated in the reviewed sheet |
+| Maximum short-circuit current | 23 A per MPPT | 20 A per MPPT | Not separately stated in the datasheet |
 | Published PV input ceiling | Technical table does not state one; page copy says 150% DC oversizing | 9 kWp recommended maximum | 7,500 W maximum DC input |
 | Maximum efficiency | 97.9% | 97.9% | 98.1% |
 | European efficiency | 97.4% | 97.5% | 97.5% |
@@ -87,7 +87,7 @@ The values below come from the current [GoodWe DNS G3 datasheet](https://en.good
 | Dimensions | 350 x 410 x 143 mm | 445 x 325 x 150 mm | 347 x 368 x 167 mm |
 | Weight | 13.4 kg | 10.5 kg | 9 kg |
 | Published communication | Wi-Fi; RS485, LAN, or 4G options | WLAN | Wi-Fi; optional RS485 or GPRS |
-| Complete governing warranty terms reviewed | No | No | No |
+| Complete governing warranty terms published | No | No | No |
 
 Do not compare the current row casually. GoodWe and Sungrow publish 16 A **per MPPT** across two trackers. Qbits publishes 20 A on its one tracker. Twenty is a larger number than sixteen, but it is not more total design flexibility than two independent inputs. The correct question is whether the planned string current and roof layout fit the exact architecture.
 
@@ -95,7 +95,7 @@ Do not compare the current row casually. GoodWe and Sungrow publish 16 A **per M
 
 A roof split east and west, or two planes with different tilt or shade conditions, often benefits from separate trackers. GoodWe and Sungrow both publish two independent MPPTs with one string per tracker. The Qbits QB-6KTLS publishes one MPPT and one string.
 
-That makes GoodWe and Sungrow the defensible shortlist when two independently operating strings are required. The documents reviewed here do not support breaking the tie on reliability, service, or warranty.
+That makes GoodWe and Sungrow the defensible shortlist when two independently operating strings are required. The public datasheets give no basis for breaking the tie on reliability, service, or warranty.
 
 GoodWe publishes IP66, 16 A maximum input and 23 A short-circuit current per MPPT, a 40 to 560 V MPPT range, and 97.9% maximum efficiency. Its technical table does not give a model-specific maximum PV input-power row. The product copy says the DNS G3 family permits 150% DC oversizing, but a buyer should still request the exact user-manual conditions and full-load MPPT window before fixing the array size.
 
@@ -123,7 +123,7 @@ The [on-grid, hybrid, and off-grid decision guide](/blog/on-grid-vs-hybrid-vs-of
 
 ## Single phase, three phase, and the connection check
 
-GoodWe GW6000-DNS-30, Sungrow SG6.0RS-L, and Qbits QB-6KTLS are all published as single-phase models. That does not prove a 6 kW single-phase installation will be accepted at every address.
+GoodWe GW6000-DNS-30, Sungrow SG6.0RS-L, and Qbits QB-6KTLS are all published as single-phase models. That does not mean a 6 kW single-phase installation will be accepted at every address.
 
 Check the electricity bill, sanctioned load, service phase, current state regulation, DISCOM procedure, and installer design. If the property has a three-phase connection or the local route requires balanced three-phase export at this capacity, compare exact three-phase models instead of forcing a single-phase shortlist.
 
@@ -136,13 +136,13 @@ Start with the exact module datasheet and the site's design temperatures. The in
 1. **Cold open-circuit voltage.** The string Voc after the temperature correction must remain below the inverter's maximum DC voltage.
 2. **Operating voltage.** The string's expected operating voltage must remain inside the useful MPPT window, including temperature effects.
 3. **Operating current.** The module-string current must remain within the input-current limit for the specific tracker.
-4. **Short-circuit current.** The corrected string Isc must remain within the published short-circuit-current limit. The reviewed Qbits KTLS sheet does not state a separate Isc limit, so request it in writing before design approval.
+4. **Short-circuit current.** The corrected string Isc must remain within the published short-circuit-current limit. The Qbits KTLS datasheet does not state a separate Isc limit, so request it in writing before design approval.
 
 One MPPT cannot independently optimise two mismatched strings. Two strings placed on different orientations should not be paralleled onto one tracker merely because the connector arrangement can be improvised. Use the published input architecture.
 
 The [solar inverter sizing guide](/blog/solar-inverter-sizing/) covers the calculation sequence. Do not copy a string count from a different 6 kW model.
 
-## What the efficiency figures do and do not prove
+## What the efficiency figures do and do not tell you
 
 The three maximum-efficiency labels are close: 97.9% for GoodWe, 97.9% for Sungrow, and 98.1% for Qbits. The European-efficiency labels are 97.4%, 97.5%, and 97.5%, respectively.
 
@@ -152,9 +152,9 @@ A 0.2 percentage-point headline difference is too small to rescue a poor string 
 
 ## Warranty, service, approvals, and price remain open
 
-The public documents reviewed here do not provide a complete, symmetric basis for ranking warranty or service. We did not establish the same current product-warranty term, remedy, registration deadline, labour coverage, freight responsibility, exclusions, or claim route for all three exact models.
+Warranty and service cannot be ranked like for like from the public datasheets. For all three exact models, ask for the current product-warranty term, remedy, registration deadline, labour coverage, freight responsibility, exclusions, and claim route in writing. Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline or exclusions.
 
-The same restraint applies to approvals. A standards list or registration number printed on a datasheet is not a substitute for the current certificate file whose scope includes the exact supplied model. Global product evidence also does not prove current India stock, local service capacity, or acceptance by a specific DISCOM.
+The same restraint applies to approvals. A standards list or registration number printed on a datasheet is not a substitute for the current certificate file whose scope includes the exact supplied model. A global product datasheet also does not confirm current India stock, local service capacity, or acceptance by a specific DISCOM.
 
 Price is omitted because a fair comparison needs three quotes with the same GST treatment, logger, meter, protection, commissioning, warranty extension, freight, and installation scope. A bare inverter price beside an installed price is not a ranking.
 
@@ -171,7 +171,7 @@ Ask every supplier for:
 
 ## Final recommendation
 
-Choose **GoodWe GW6000-DNS-30 or Sungrow SG6.0RS-L** when the roof needs two independent trackers. Their current sheets establish dual-MPPT architecture, but they do not establish a winner on reliability, service, warranty, or price.
+Choose **GoodWe GW6000-DNS-30 or Sungrow SG6.0RS-L** when the roof needs two independent trackers. Their current sheets show a dual-MPPT architecture, but they do not point to a winner on reliability, service, warranty, or price.
 
 Choose **Qbits QB-6KTLS** when one MPPT and one string are appropriate, its 20 A input and voltage limits fit the exact module design, and the supplier closes the warranty, certificate, and installation-document gaps before payment.
 

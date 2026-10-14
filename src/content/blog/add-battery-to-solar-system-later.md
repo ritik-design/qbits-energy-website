@@ -20,7 +20,7 @@ faqs:
   - q: "Can I add a battery to my solar system later?"
     a: "Often there is a technical path, but not every existing inverter, array, switchboard, meter, warranty, or approval supports the same retrofit. Options may include using a documented battery-ready hybrid system, replacing the inverter, adding compatible AC-coupled storage, or installing a separate backup system after qualified design review."
   - q: "What does battery-ready solar inverter mean?"
-    a: "Treat battery-ready as a claim that needs exact-model evidence. Verify supported battery voltage and current, communication protocol, approved battery models, firmware, operating modes, backup output, protection, expansion limits, commissioning procedure, and warranty conditions. A connector or marketing label alone does not establish future compatibility."
+    a: "Treat battery-ready as a claim that needs exact-model documents behind it. Verify supported battery voltage and current, communication protocol, approved battery models, firmware, operating modes, backup output, protection, expansion limits, commissioning procedure, and warranty conditions. A connector or marketing label alone does not establish future compatibility."
   - q: "What is the difference between DC-coupled and AC-coupled battery storage?"
     a: "A DC-coupled design connects storage through a compatible hybrid or charge-control path on the DC side. An AC-coupled design uses a battery inverter on the AC side and must coordinate with the existing PV system, measurement, protection, grid-loss operation, and controls. Neither is universally suitable."
   - q: "Will adding a battery later provide power-cut backup?"
@@ -45,7 +45,7 @@ Qbits publishes this guide and sells hybrid inverters, but not batteries. We did
 
 **Common paths include adding a documented compatible battery to an installed hybrid inverter, replacing an on-grid inverter with a hybrid system, adding approved AC-coupled storage, or building a separate backup system for selected circuits.** Each path changes equipment, controls, protection, operating modes, warranties, approvals, cost, and commissioning scope differently.
 
-| Path | Existing equipment retained | Main evidence needed |
+| Path | Existing equipment kept | Main things to check |
 | --- | --- | --- |
 | Add battery to installed hybrid | Array and inverter may remain | Approved battery pairing, firmware, settings, protection and commissioning procedure |
 | Replace inverter with hybrid | Array may remain after redesign check | String compatibility, new inverter and battery pairing, grid and backup design |
@@ -75,7 +75,7 @@ Keep the documents supplied at the initial purchase. A future website change sho
 
 ## Is a battery-ready on-grid inverter a real product category?
 
-**Usually, the phrase mixes two different product categories.** An ordinary on-grid string inverter works in parallel with the grid and does not acquire a battery interface later. A hybrid inverter can publish both on-grid output and battery-input specifications, but those rows alone do not prove it may be commissioned without a battery today and paired with any battery tomorrow.
+**Usually, the phrase mixes two different product categories.** An ordinary on-grid string inverter works in parallel with the grid and does not acquire a battery interface later. A hybrid inverter can publish both on-grid output and battery-input specifications, but those rows alone do not show it can be commissioned without a battery today and paired with any battery tomorrow.
 
 | Wording on a quote | What it establishes | What is still needed |
 | --- | --- | --- |

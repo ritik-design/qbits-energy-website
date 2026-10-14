@@ -28,8 +28,8 @@ faqs:
     a: "Zero export, sometimes called export limiting, is a configuration where the inverter throttles its output so that no power flows into the grid. It is delivered with a current transformer or smart meter at the point of supply, feeding a setpoint back to the inverter. DISCOMs commonly require it where net metering is unavailable, where the sanctioned load or transformer capacity will not accept export, or for captive commercial connections. Confirm the requirement in writing before you finalise the inverter, because export limiting needs the right accessory and the right firmware."
   - q: "Should I choose a single-phase or three-phase on-grid inverter?"
     a: "The service connection decides, not the system size. A single-phase connection takes a single-phase inverter. A three-phase connection above roughly 5 kW is normally better served by a three-phase inverter, which keeps the injection balanced across all three phases. Feeding a large single-phase inverter onto one leg of a three-phase supply creates voltage unbalance that many DISCOMs restrict. Check the sanctioned load and phase on your current electricity bill before shortlisting anything."
-  - q: "Does the 12-year Qbits warranty apply to every model?"
-    a: "Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Ask for them before payment and read the registration deadline. "
+  - q: "Does one Qbits warranty term apply to every model?"
+    a: "No single term is published for every Qbits model. Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline or exclusions, so get the current written warranty for the exact quoted model before payment and read the registration deadline."
 ---
 
 Most guides to the best on-grid solar inverter in India rank brands. That is the wrong unit of analysis. One brand ships single-phase and three-phase units, 1.5 kW and 320 kW units, one-tracker and twelve-tracker units. The badge tells you nothing about whether the box in your quotation suits your roof. The specification does.
@@ -182,7 +182,7 @@ Per-model numbers in a blog post go stale within a product cycle, and most publi
 
 Use this alongside the [brand-level ranking of Indian inverter makers](/blog/top-10-solar-inverter-brands-india-2026/), which compares companies rather than specifications, and the [general homeowner selection guide](/blog/best-solar-inverter-for-home-india/). For a capacity-specific shortlist, the [5 kW guide](/blog/best-5kw-solar-inverter-india-2026/) goes deeper on that size than a cross-capacity article can, and its siblings cover 3 kW and 10 kW.
 
-One note on ALMM, because it is misreported constantly. MNRE publishes ALMM List-I for modules and List-II for cells. There is no MNRE approved list for inverters. Any claim that your inverter must appear on an ALMM list for PM Surya Ghar is wrong. Qbits states it is ALMM Phase III listed; treat that as the company's own statement and ask for the current certificate covering the exact model your project, tender, or utility requires.
+One note on ALMM, because it is misreported constantly. MNRE publishes ALMM List-I for modules and List-II for cells. There is no MNRE approved list for inverters. Any claim that your inverter must appear on an ALMM list for PM Surya Ghar is wrong. So ask the seller for the exact model's BIS registration and current certificates, and for PM Surya Ghar confirm the requirements with your DISCOM.
 
 ## Commissioning: the documents to demand at handover
 
@@ -193,11 +193,11 @@ Commissioning is where a good specification becomes a working asset, and where m
 3. **Insulation resistance and earth continuity readings**, referenced to IS 732:2019 and IS 3043:2018 (Bureau of Indian Standards).
 4. **Inverter configuration record:** firmware version, grid code setting applied, and the export limit setpoint if one is configured.
 5. **The written warranty document** for the exact inverter model and this sale, including the registration deadline.
-6. **Monitoring account in your own name**, with the login handed over, not retained by the installer.
+6. **Monitoring account in your own name**, with the login handed over, not kept by the installer.
 7. **Serial numbers** of the inverter and every panel, photographed and recorded.
 8. **Service route in writing:** the entity that handles a claim, the ticket channel, and what is chargeable.
 
-On the last two points, Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Get them before payment.
+On the last two points: Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline or exclusions, so get the current written warranty for the exact quoted model, and the service route in writing, before payment.
 
 ## Why the cheapest on-grid inverter usually costs more over ten years
 

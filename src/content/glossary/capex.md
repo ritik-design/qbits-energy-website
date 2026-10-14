@@ -29,7 +29,6 @@ relatedTerms:
   - { slug: "wacc", term: "WACC" }
   - { slug: "pm-surya-ghar", term: "PM Surya Ghar" }
   - { slug: "almm-list", term: "ALMM List" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "central-inverter", term: "Central Inverter" }
   - { slug: "string-inverter", term: "String Inverter" }
 faqs:

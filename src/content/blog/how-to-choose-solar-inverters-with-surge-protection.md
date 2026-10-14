@@ -216,9 +216,9 @@ When specifying inverters for any Indian installation, require:
 
 ## Where Qbits Fits
 
-The retained Qbits datasheets do not establish one surge-protection design across every model. For the exact SKU, request the installation manual and evidence for internal DC and AC protection, SPD type, nominal and maximum discharge current, voltage protection level, status indication and replacement method. Also confirm which external SPDs the site design requires.
+Surge-protection design varies by Qbits model, and the public datasheets do not describe one design for every model. For the exact SKU, request the installation manual and documentation for internal DC and AC protection, SPD type, nominal and maximum discharge current, voltage protection level, status indication and replacement method. Also confirm which external SPDs the site design requires.
 
-Surge-related warranty coverage, test-report availability and monitoring alerts are not established until Qbits supplies the controlling documents. Do not infer them from the enclosure rating or a generic brand feature list.
+Surge-related warranty coverage, test-report availability and monitoring alerts are not stated in the public datasheets, so ask Qbits or the seller for the controlling documents. Do not infer them from the enclosure rating or a generic brand feature list.
 
 Related guides:
 

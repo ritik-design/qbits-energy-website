@@ -27,7 +27,6 @@ relatedTerms:
   - { slug: "mppt", term: "MPPT" }
   - { slug: "pwm", term: "PWM" }
   - { slug: "lithium-ion-battery", term: "Lithium Ion Battery" }
-  - { slug: "charge-controller", term: "Charge Controller" }
   - { slug: "battery-soc", term: "Battery SOC" }
   - { slug: "battery-dod", term: "Battery DOD" }
   - { slug: "inverter-efficiency", term: "Inverter Efficiency" }

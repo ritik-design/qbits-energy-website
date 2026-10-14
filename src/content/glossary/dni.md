@@ -25,11 +25,8 @@ relatedTerms:
   - { slug: "peak-sun-hours", term: "Peak Sun Hours" }
   - { slug: "tilt-angle", term: "Tilt Angle" }
   - { slug: "azimuth", term: "Azimuth" }
-  - { slug: "csp", term: "CSP" }
-  - { slug: "single-axis-tracker", term: "Single-Axis Tracker" }
   - { slug: "bifacial-module", term: "Bifacial Module" }
   - { slug: "solar-yield", term: "Solar Yield" }
-  - { slug: "pyranometer", term: "Pyranometer" }
   - { slug: "p50-p90", term: "P50 / P90" }
   - { slug: "irradiation", term: "Irradiation" }
 faqs:

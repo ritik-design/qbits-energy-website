@@ -26,10 +26,8 @@ relatedTerms:
   - { slug: "kusum", term: "PM-KUSUM" }
   - { slug: "cea", term: "CEA" }
   - { slug: "cerc", term: "CERC" }
-  - { slug: "secl", term: "SECI" }
   - { slug: "net-metering", term: "Net Metering" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
-  - { slug: "renewable-purchase-obligation", term: "RPO" }
+  - { slug: "rpo", term: "RPO" }
   - { slug: "rec", term: "Renewable Energy Certificate" }
   - { slug: "green-hydrogen", term: "Green Hydrogen" }
 faqs:

@@ -32,7 +32,6 @@ relatedTerms:
   - { slug: "anti-islanding", term: "Anti-Islanding" }
   - { slug: "ac-coupling", term: "AC Coupling" }
   - { slug: "dc-coupling", term: "DC Coupling" }
-  - { slug: "self-consumption", term: "Self Consumption" }
   - { slug: "lfp-battery", term: "LFP Battery" }
   - { slug: "ev-charger", term: "EV Charger" }
 faqs:
@@ -45,7 +44,7 @@ faqs:
   - q: "What battery should I pair with a hybrid inverter?"
     a: "Lithium iron phosphate at 48 V or high-voltage stacks of 100 to 600 V. The battery must match the inverter's communication protocol, typically CAN bus, and be in the manufacturer's compatibility list."
   - q: "Is a hybrid inverter eligible for PM Surya Ghar subsidy?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "PM Surya Ghar assistance is calculated on the rated capacity of the solar modules, not on the inverter type. MNRE publishes no ALMM list for inverters, so a hybrid inverter is not excluded on that ground, but it must meet the scheme's technical specification and the DISCOM must accept the connection for net metering. Confirm the current rules with your DISCOM or the PM Surya Ghar portal before buying."
   - q: "Can I add a battery to my existing on grid inverter later?"
     a: "Yes, through AC coupling. A separate battery inverter and lithium pack are added downstream of the existing inverter. It is more expensive than buying a hybrid upfront."
   - q: "What is the efficiency of a hybrid inverter?"

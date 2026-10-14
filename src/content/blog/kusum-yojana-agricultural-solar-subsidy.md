@@ -340,7 +340,7 @@ Three Qbits resources worth bookmarking if you are planning a KUSUM installation
 
 - **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 
-Qbits manufacturing origin, KUSUM acceptance, service coverage and response time are not established until the responsible owners provide current project and sale documents.
+For any Qbits quote, ask the seller to confirm in writing the manufacturing origin of the exact model, whether it is accepted for your KUSUM project, the service coverage for your location and the response time.
 
 ## Comparing Diesel, Grid Power, and KUSUM Solar: The Full Picture
 

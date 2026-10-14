@@ -26,7 +26,7 @@ faqs:
   - q: "What meter is needed for net metering?"
     a: "A four-quadrant bidirectional smart meter with AMI (Advanced Metering Infrastructure) capability, as mandated by CEA Smart Meter Regulations 2023. The DISCOM procures and installs this meter at your cost (₹2,000–₹15,000 depending on phase and size). Tamper detection, time-stamped logs, and DISCOM authorised seals are mandatory. The old single-direction meter must be removed."
   - q: "Is an ALMM-listed inverter required for net metering?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "No inverter can be ALMM listed, because MNRE publishes ALMM lists for solar PV modules and cells only, not for inverters. Net metering depends on your DISCOM's technical conditions. Verify the inverter's exact model documents, its BIS registration and current certificates, and any scheme or DISCOM requirement separately."
   - q: "How long does net metering approval take in India?"
     a: "The PM Surya Ghar portal targets 30 days from application to commissioning. In practice, most applicants wait 45–90 days, with the main delays occurring at the technical feasibility study and bidirectional meter installation stages. States with well-staffed DISCOMs (Gujarat, Karnataka) process faster than states with capacity constraints (parts of UP, Bihar, and Jharkhand)."
   - q: "What happens to unused net metering credits at year-end?"
@@ -34,7 +34,7 @@ faqs:
   - q: "Does net metering work during a power cut?"
     a: "No. An on-grid inverter shuts down automatically within milliseconds of grid failure for anti-islanding protection, as required by IEC 62116. This safety mechanism ensures your system does not energise a dead distribution line and endanger linemen. If you need backup power during outages, a hybrid inverter with a battery bank is required - the battery stores surplus solar during the day and supplies the house when the grid is down."
   - q: "What documents are needed for the net metering application?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Requirements differ by DISCOM and state, but applications typically include the application form, identity proof, a recent electricity bill with your consumer number, proof of ownership or an owner's consent for the roof, a single-line diagram and technical details of the system, and datasheets and certificates for the modules and inverter. Installer details and a connection agreement with the DISCOM are also commonly required. Check your DISCOM's net metering portal for the exact checklist."
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.

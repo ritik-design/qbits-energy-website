@@ -24,14 +24,11 @@ relatedTerms:
   - { slug: "power-factor", term: "Power Factor" }
   - { slug: "kwh", term: "kWh" }
   - { slug: "kva", term: "kVA" }
-  - { slug: "short-circuit-current", term: "Short Circuit Current" }
   - { slug: "fuse", term: "Fuse" }
   - { slug: "mcb", term: "MCB" }
   - { slug: "rccb", term: "RCCB" }
   - { slug: "dc-cable", term: "DC Cable" }
   - { slug: "ac-cable", term: "AC Cable" }
-  - { slug: "current-transformer", term: "Current Transformer" }
-  - { slug: "fault-current", term: "Fault Current" }
   - { slug: "bms", term: "BMS" }
   - { slug: "spd", term: "SPD" }
 faqs:

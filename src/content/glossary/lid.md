@@ -21,7 +21,6 @@ quickFacts:
   relatedTechnologies: "PERC, gallium-doped silicon, n-type silicon"
 relatedTerms:
   - { slug: "degradation", term: "Module Degradation" }
-  - { slug: "pid", term: "PID" }
   - { slug: "letid", term: "LeTID" }
   - { slug: "perc-cell", term: "PERC Cell" }
   - { slug: "topcon-cell", term: "TOPCon Cell" }
@@ -30,8 +29,6 @@ relatedTerms:
   - { slug: "polycrystalline", term: "Polycrystalline" }
   - { slug: "module-efficiency", term: "Module Efficiency" }
   - { slug: "n-type-silicon", term: "N-Type Silicon" }
-  - { slug: "performance-warranty", term: "Performance Warranty" }
-  - { slug: "wattage", term: "Module Wattage" }
 faqs:
   - q: "What is LID in simple words?"
     a: "The drop in solar panel output that happens in the first month of operation. It is a one-time loss, after which annual degradation takes over."

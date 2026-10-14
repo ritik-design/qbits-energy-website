@@ -34,7 +34,7 @@ faqs:
   - q: "What is the payback period for a solar-plus-EV setup in India?"
     a: "A 5 kW hybrid system costing ₹3.5–4 Lakh (after PM Surya Ghar subsidy) combined with a 10 kWh battery at ₹1.2–1.5 Lakh gives a combined investment of roughly ₹5 Lakh. If the system offsets ₹8,000/month in electricity and EV charging costs, the simple payback is 52–63 months, or 4.5–5.5 years. At rising grid tariffs of 8–10% per year, the actual payback shortens further."
   - q: "Which Qbits inverter is recommended for solar EV charging at home?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "For solar EV charging with an evening or overnight top-up you need a hybrid inverter, so look at the Qbits QBH hybrid series: single-phase QBH 3 to 6 kW and QBH 7 to 8 kW models, and three-phase QBH 5 to 12 kW models. Choose by supply phase, charger power plus simultaneous household load, PV string design, battery voltage and current limits, and the backup you need. Confirm battery compatibility in writing, read the current datasheet at /download-datasheets/, and get the written warranty for the exact model."
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
@@ -186,7 +186,7 @@ Different inverter classes suit different EV-solar scenarios. The comparison bel
 
 ### Standard Hybrid Inverter (5–10 kW)
 
-An EV-charging design must start from the charger, simultaneous house loads, supply phase, sanctioned load, PV array, desired backup behavior and battery limits. A 5 to 10 kW label does not prove the system can carry an EV charger without overload, and CAN or RS485 does not prove battery compatibility. The retained Qbits documents do not support the older HS model or universal sub-20-millisecond claim previously stated here.
+An EV-charging design must start from the charger, simultaneous house loads, supply phase, sanctioned load, PV array, desired backup behavior and battery limits. A 5 to 10 kW label does not mean the system can carry an EV charger without overload, and CAN or RS485 does not mean the battery is compatible. Qbits' published hybrid datasheet describes switching within 10 seconds, so do not treat it as an instant changeover.
 
 The 5 kW class is appropriate for two-wheelers and compact EVs. The 7–10 kW class covers full-size passenger EVs with 7.2 kW home chargers.
 

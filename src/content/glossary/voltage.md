@@ -25,11 +25,8 @@ relatedTerms:
   - { slug: "kwh", term: "kWh" }
   - { slug: "kva", term: "kVA" }
   - { slug: "open-circuit-voltage", term: "Open Circuit Voltage" }
-  - { slug: "short-circuit-current", term: "Short Circuit Current" }
   - { slug: "mppt", term: "MPPT" }
   - { slug: "string-sizing", term: "String Sizing" }
-  - { slug: "high-tension", term: "HT" }
-  - { slug: "low-tension", term: "LT" }
   - { slug: "ac-coupling", term: "AC Coupling" }
   - { slug: "dc-coupling", term: "DC Coupling" }
 faqs:

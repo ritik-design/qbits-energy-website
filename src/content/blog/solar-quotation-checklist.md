@@ -100,7 +100,7 @@ Check whether the quote covers:
 | Monitoring | Who owns the account, data, connectivity, subscription and handover? |
 | Post-handover changes | Who handles a model, firmware, meter, tariff or portal change? |
 
-Do not accept a guaranteed approval or disbursement date from a seller when the authority controls the decision. The [net-metering application guide](/blog/how-to-apply-net-metering-india/) explains the current evidence boundary.
+Do not accept a guaranteed approval or disbursement date from a seller when the authority controls the decision. The [net-metering application guide](/blog/how-to-apply-net-metering-india/) explains what the DISCOM controls and what a seller can promise.
 
 ## How should taxes, prices, exclusions and changes be compared?
 

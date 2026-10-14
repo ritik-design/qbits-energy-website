@@ -20,7 +20,7 @@ faqs:
   - q: "What is Sukam's warranty on solar inverters?"
     a: "Sukam offers a warranty of 1 to 2 years on its solar inverters - comparable to UTL's and shorter than Luminous's standard terms. This short warranty period reflects Sukam's value-tier positioning in the Indian market. For buyers who purchase a Sukam solar inverter, the warranty provides minimal protection against mid-life inverter failure in a system designed to operate for 25 years. Buyers should budget for likely replacement costs within 3–5 years of installation if purchasing Sukam inverters at the standard warranty level."
   - q: "Is Luminous better than Sukam for PM Surya Ghar?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The subsidy does not depend on the inverter brand. It depends on ALMM-listed modules, an empanelled vendor and your DISCOM's inspection. MNRE's ALMM lists cover modules and cells, not inverters, so neither brand's inverter is ALMM-listed. Choose between them on the exact model's BIS registration and test certificates, its grid-connection suitability and the written warranty, and confirm the DISCOM accepts the quoted inverter."
   - q: "Does Sukam have good after-sales service in India?"
     a: "Sukam has an established dealer and service network across India, with particular strength in smaller towns and semi-urban markets - especially in northern and eastern India. Sukam has been in the power electronics and inverter business for over 25 years, giving it deep brand recognition among electricians and small dealers. However, Sukam's solar-specific service infrastructure is less developed than its UPS/inverter service network. For solar inverter warranty claims, buyers should confirm local service centre availability before purchase rather than relying on Sukam's overall brand presence."
   - q: "Is Sukam a reliable solar inverter brand?"
@@ -28,7 +28,7 @@ faqs:
   - q: "Which brand has a wider distribution network - Luminous or Sukam?"
     a: "Luminous has the wider national distribution network, backed by Schneider Electric's India distribution infrastructure. Luminous has dealer coverage in all major states, including metros, Tier-1, and most Tier-2 cities. Sukam's distribution is broader in specific regions - particularly northern India states like UP, Bihar, Rajasthan, and smaller towns in central India - where it has built a loyal dealer community through its UPS and power backup business. In southern India and western metros, Luminous's distribution is materially stronger."
   - q: "How does Qbits compare to both Luminous and Sukam?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "Qbits focuses on string inverters: single-phase and three-phase on-grid models and single-phase and three-phase hybrid models, with no panels, batteries or UPS range. Luminous and Sukam are broader power-backup brands, so compare exact models rather than brands. Match phase, DC string design, MPPT count and backup need first, then compare each model's current datasheet and written warranty terms. Qbits datasheets are at /download-datasheets/."
   - q: "Is Sukam owned by an Indian company?"
     a: "Yes. Sukam (Su-Kam Power Systems Limited) is an Indian company founded in 1998 and based in Haryana. It has been publicly listed on Indian stock exchanges. Unlike Luminous, which is majority-owned by Schneider Electric, Sukam remains an independent Indian company. This means Sukam does not have the multinational financial backing that Luminous benefits from, which is relevant to warranty enforceability and long-term brand stability over the life of a 25-year solar system."
 ---
@@ -45,7 +45,7 @@ This comparison applies the **6-Axis Indian Brand Evaluation** to score both bra
 > - Luminous wins the 6-Axis Indian Brand Evaluation overall, 42/60 vs Sukam's 33/60.
 > - Sukam's standard warranty is 1–2 years, the shortest among named Indian brands; Luminous offers 2–5 years with Schneider Electric-backed enforceability.
 > - Sukam undercuts Luminous on price by 20–35% and has stronger legacy dealer depth in UP, Bihar, and other northern/eastern Tier-2/3 markets.
-> - Luminous has broader ALMM-listed model coverage, making it the safer default for PM Surya Ghar subsidy-eligible installations.
+> - Luminous has the broader grid-tied range, but PM Surya Ghar eligibility rests on ALMM-listed modules and your DISCOM's requirements, so verify the exact inverter model's certificates for either brand.
 
 For broader brand context, see [the best Indian solar inverter brands guide](/blog/best-indian-solar-inverter-brands/) and the [luminous vs microtek comparison](/blog/luminous-vs-microtek-comparison/) for a related Indian brand analysis.
 
@@ -71,7 +71,7 @@ The **6-Axis Indian Brand Evaluation** scores both Luminous and Sukam on the six
 2. **Warranty Terms**: Coverage length, type, and enforceability.
 3. **Service Network**: Geographic reach and practical resolution speed.
 4. **Pricing**: Upfront cost and total cost of ownership.
-5. **ALMM Compliance**: PM Surya Ghar eligibility.
+5. **Certification and Subsidy Readiness**: PM Surya Ghar documentation.
 6. **Quality and Brand Longevity**: Manufacturing quality and 25-year brand stability.
 
 ## Axis 1: Product Range and Solar Technology Depth
@@ -82,7 +82,7 @@ Luminous's solar PCU approach blurs the line between a solar inverter and a sola
 | --- | --- | --- |
 | On-grid solar inverter range | ✓ Growing (NXI/NXT series) | ✗ Limited |
 | Hybrid/off-grid range | ✓ Solar PCU range | ✓ Core strength |
-| ALMM-listed models | Multiple | Narrow |
+| Model certificates and datasheets | Verify per model | Verify per model |
 | Wi-Fi monitoring available | ✓ Newer models | ✗ Limited |
 | Score | 7/10 | 5/10 |
 
@@ -135,14 +135,14 @@ Both brands are positioned in the value-to-mid market. Sukam is the lower-priced
 | Short-warranty replacement risk | ₹10,000–₹20,000 | ₹10,000–₹20,000 |
 | Score | 7/10 | 8/10 (budget positioning) |
 
-## Axis 5: ALMM Compliance and PM Surya Ghar Eligibility
+## Axis 5: Certification and PM Surya Ghar Eligibility
 
-**Sukam** has a narrower range of ALMM-listed models, and its on-grid product range is less developed. Buyers who are selecting Sukam for a PM Surya Ghar subsidy-eligible installation must verify ALMM status at the specific model level on the [official MNRE ALMM portal](https://mnre.gov.in/) before purchase, do not rely on dealer assurance.
+MNRE's ALMM lists cover solar modules and cells, not inverters, so no inverter is ALMM listed. For a PM Surya Ghar installation the inverter question is whether the exact model has current BIS registration and test certificates, and whether your DISCOM accepts it. **Sukam** has a narrower on-grid product range, so buyers selecting Sukam for a subsidy installation must verify the certificates of the specific model before purchase, and not rely on dealer assurance.
 
-| ALMM Axis | Luminous | Sukam |
+| Certification Axis | Luminous | Sukam |
 | --- | --- | --- |
-| On-grid ALMM-listed models | ✓ Multiple | ✗ Narrow |
-| ALMM compliance management | Active | Developing |
+| On-grid models to choose from | ✓ Multiple | ✗ Narrow |
+| Certificate documentation | Verify per model | Verify per model |
 | PM Surya Ghar suitability | ✓ Strong | ✓ With model verification |
 | Score | 8/10 | 5/10 |
 
@@ -171,7 +171,7 @@ This ownership does not guarantee product quality, but it does mean Luminous's w
 | Warranty Terms | 5/10 | 3/10 |
 | Service Network | 7/10 | 6/10 |
 | Pricing | 7/10 | 8/10 |
-| ALMM Compliance | 8/10 | 5/10 |
+| Certification and Subsidy Readiness | 8/10 | 5/10 |
 | Quality and Longevity | 8/10 | 6/10 |
 | **Total** | **42/60** | **33/60** |
 
@@ -186,10 +186,10 @@ This ownership does not guarantee product quality, but it does mean Luminous's w
 - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify the exact module/cell models and check inverter documents separately.
 - **Ignoring monitoring capability**: Sukam's monitoring is minimal. Luminous has improved, but neither brand offers WhatsApp-native fault alerts. Without real-time monitoring, faults are detected late, sometimes only when the next electricity bill arrives.
 
-## Where Qbits Fits as the Engineering-First Alternative
+## Where Qbits Fits
 
 - **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
-- **[Why Qbits](/why-qbits/)**: The engineering case for the specifications that Luminous and Sukam have not yet matched.
+- **[Why Qbits](/why-qbits/)**: Qbits' own overview of its inverter range and design approach.
 - **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 
-For buyers who want a quote that includes a genuine comparison of the model-specific written warranty value against Luminous and Sukam's standard terms, [request a quote at contact-us](/contact-us/). The total-cost comparison is straightforward and most buyers find the maths changes the decision.
+For buyers who want to compare a Qbits quote against Luminous and Sukam, [request a quote at contact-us](/contact-us/) and ask for the written warranty terms for the exact model. Then compare itemised total cost, including warranty terms and service response, across all three.

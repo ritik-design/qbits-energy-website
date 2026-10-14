@@ -30,7 +30,6 @@ relatedTerms:
   - { slug: "central-inverter", term: "Central Inverter" }
   - { slug: "string-inverter", term: "String Inverter" }
   - { slug: "earthing", term: "Earthing" }
-  - { slug: "scada", term: "SCADA" }
   - { slug: "single-line-diagram", term: "Single Line Diagram" }
   - { slug: "mppt", term: "MPPT" }
 faqs:

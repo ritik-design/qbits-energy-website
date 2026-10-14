@@ -21,11 +21,11 @@ faqs:
   - q: "What is the price of a Fronius 5kW inverter in India in 2026?"
     a: "The Fronius Primo 5 kW single-phase inverter sells for approximately ₹65,000 to ₹75,000 in India in 2026, depending on the distributor and city. The three-phase Symo range runs significantly higher, with the 10 kW Symo listed near ₹1.86 Lakh by some finance portals. These prices include import duty and distributor margins, which is why they sit 30 to 50% above comparable Indian-made units. Prices vary by distributor, so always collect two or three itemised quotes before deciding."
   - q: "What warranty do Fronius and SMA offer in India?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "The warranty period depends on the exact model and on the terms the importer or distributor offers in India, so read it from the current datasheet and the written India warranty rather than from the brand name. Ask who honours the warranty locally (the manufacturer, the importer or the installer), whether it covers labour, freight and a replacement unit, how long the registration window is, and what the extension options cost. Get all of this in writing before you pay."
   - q: "Are Fronius and SMA inverters eligible for PM Surya Ghar subsidy?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "ALMM does not decide this for inverters. MNRE publishes ALMM lists for solar PV modules and cells only, and there is no ALMM list for inverters, so the subsidy depends on your modules being ALMM-listed and on the inverter meeting the DISCOM's requirements. Ask the seller for the exact inverter model's BIS registration and current test certificates, and confirm with your DISCOM that the model is acceptable for the scheme before you order an imported unit."
   - q: "How long does Fronius or SMA service take in India?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "It depends on the importer, the city and whether a trained service partner is nearby, so there is no single figure. Before buying, ask for the response time and the replacement process in writing: who visits, how soon, whether a spare unit is stocked in India or shipped from abroad, and what happens to generation while you wait. Imported units can take longer when parts are not held locally, which is why the service route matters as much as the datasheet."
   - q: "Is the Fronius GEN24 hybrid worth buying in India?"
     a: "The Fronius GEN24 Plus is a genuinely strong hybrid inverter with native battery support, PV Point backup up to 3 kW without a battery, and excellent monitoring through Solar.web. The problem in India is cost and support: a GEN24 Primo Plus lands at roughly ₹1.1 to ₹1.4 Lakh after duty, versus ₹68,000 to ₹85,000 for an Indian hybrid with a model-specific written warranty and local service. If you value the Fronius ecosystem and have a certified installer nearby, it is a good product. For value per rupee and service speed, an Indian hybrid usually wins."
   - q: "Why are European inverters more expensive in India?"
@@ -46,7 +46,7 @@ Fronius and SMA are the two premium European inverter brands most often quoted t
 
 > - Imported inverters carry around 20% basic customs duty plus IGST, which explains most of the price gap.
 > - Service for both brands runs through importers and distributors, with typical replacement turnaround of one to four weeks and no published on-site SLA for homes.
-> - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy requires the exact model on the ALMM list; check before paying any advance, because a non-listed model forfeits up to ₹78,000.
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy requires ALMM-listed modules; MNRE publishes no ALMM list for inverters, so check the exact inverter model's BIS registration and DISCOM acceptance before paying any advance.
 
 **Short version.** Fronius and SMA should be compared with any Indian alternative at exact-model level. Obtain current India datasheets, prices, warranty terms and local service evidence for every shortlisted model; this page does not assume one universal service deadline.
 
@@ -97,29 +97,29 @@ To be fair, both companies do some things well. SMA's Smart Connected platform m
 
 ## Subsidy Eligibility: The ALMM Gate
 
-Premium pricing means nothing if the inverter kills your subsidy. Under PM Surya Ghar Muft Bijli Yojana, the central subsidy is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW. Nothing is paid on capacity above 3 kW. The total is capped at ₹78,000 for systems of 3 kW and above, according to the [PM Surya Ghar portal, 2026](https://pmsuryaghar.gov.in/). A 5 kW system qualifies for the same ₹78,000.
+Premium pricing means nothing if the inverter kills your subsidy. Under PM Surya Ghar Muft Bijli Yojana, the central subsidy is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW. Nothing is paid on capacity above 3 kW. The total is capped at ₹78,000 for systems of 3 kW and above, according to the [PM Surya Ghar portal, 2026](https://pmsuryaghar.gov.in/). A 5 kW system qualifies for the same ₹78,000. The ALMM requirement applies to the modules and cells. MNRE publishes no ALMM list for inverters, so for the inverter ask for the exact model's BIS registration and current certificates, and confirm DISCOM acceptance before you pay.
 
 ## Fronius vs SMA vs Qbits: Side by Side
 
-| Evidence field | Fronius | SMA | Qbits |
+| Field | Fronius | SMA | Qbits |
 | --- | --- | --- | --- |
 | Exact India-market SKU | Request current document | Request current document | Request current document |
 | Maximum efficiency | Check the exact current datasheet | Check the exact current datasheet | Check the exact current datasheet |
-| Warranty | Obtain current India terms | Obtain current India terms | not established until current written terms are supplied |
-| Warranty extension | Obtain current India terms | Obtain current India terms | not established |
+| Warranty | Obtain current India terms | Obtain current India terms | Request current written terms |
+| Warranty extension | Obtain current India terms | Obtain current India terms | Request current written terms |
 | Enclosure and cooling | Check exact model and installation limits | Check exact model and installation limits | Check exact model and installation limits |
 | Monitoring | Confirm hardware, account and supported functions | Confirm hardware, account and supported functions | Confirm hardware, account and supported functions |
 | India service model | Confirm local written route | Confirm local written route | Confirm local written route |
 | ALMM | MNRE's current page lists modules and cells, not inverters | Same ALMM scope | Same ALMM scope |
-| Indicative 5 kW price | Obtain a dated comparable quote | Obtain a dated comparable quote | not established; obtain a dated comparable quote |
+| Indicative 5 kW price | Obtain a dated comparable quote | Obtain a dated comparable quote | Obtain a dated comparable quote |
 
-Three observations follow from the evidence table. A headline maximum-efficiency difference is not an annual-yield calculation. Cooling and acoustic behaviour must be checked for the exact model and installation location. Monitoring should be demonstrated with the quoted logger and account, including alert channels and ongoing fees. No universal Qbits WhatsApp report is established by the current published documents.
+Three observations follow from the table. A headline maximum-efficiency difference is not an annual-yield calculation. Cooling and acoustic behaviour must be checked for the exact model and installation location. Monitoring should be demonstrated with the quoted logger and account, including alert channels and ongoing fees. Qbits' public datasheets do not describe a standard WhatsApp report, so ask which alerts the exact model supports.
 
 ## Myth Busting: "European Means More Reliable on Indian Grids"
 
 The most persistent myth in this segment is that European inverters handle Indian conditions better because they are built to higher standards. The build quality is real. The India-fit is not automatic.
 
-European inverters are engineered for stable 230 V grids, temperate ambient temperatures, and clean installations. Indian residential grids routinely swing between 180 and 270 V. Ambient rooftop temperatures cross 45 °C in May, and monsoon humidity tests every seal on the enclosure. An inverter tuned for German grid codes can nuisance-trip on voltage excursions that an India-tuned unit rides through without blinking. Every trip is lost generation.
+European inverters are engineered for stable 230 V grids, temperate ambient temperatures, and clean installations. Indian residential grids can see wide voltage swings, and the allowed range depends on the DISCOM's connection conditions and the inverter's grid-code setting. Ambient rooftop temperatures cross 45 °C in May, and monsoon humidity tests every seal on the enclosure. An inverter tuned for German grid codes can nuisance-trip on voltage excursions that an India-tuned unit rides through without blinking. Every trip is lost generation.
 
 The exception is worth stating plainly. This holds for large commercial and utility plants with dedicated O&M contracts and on-site spares. There, SMA's Tripower and Fronius's Symo and Eco lines have deep Indian track records. Their grid-management features are also ahead of most domestic options. Premium European hardware earns its premium in that segment.
 
@@ -139,6 +139,6 @@ Fronius and SMA make some of the best inverters in the world, and we say that wi
 
 Three things to do before you sign anything:
 
-- Get itemised quotes for your exact system size from at least two installers: one quoting a Fronius or SMA unit, one quoting an Indian ALMM-listed unit. Compare warranty cost per year, not sticker price.
-- Verify the ALMM listing of the exact quoted model on the PM Surya Ghar portal, and confirm the installer's empanelled vendor registration before paying an advance.
+- Get itemised quotes for your exact system size from at least two installers: one quoting a Fronius or SMA unit, one quoting an Indian-made unit. Compare warranty cost per year, not sticker price.
+- Verify the ALMM listing of the quoted modules, the inverter's BIS registration and certificates for the exact model, and confirm the installer's empanelled vendor registration before paying an advance.
 [Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

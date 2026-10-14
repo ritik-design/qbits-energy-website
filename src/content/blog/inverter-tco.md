@@ -155,7 +155,7 @@ If the preferred candidate changes after a small input movement, say so. That is
 
 Check which efficiency measure is reported, the operating conditions, part-load behaviour, clipping assumptions, temperature effects and auxiliary consumption. If the project energy model cannot distinguish the candidates credibly, leave the claimed energy-value difference out of TCO and compare the documented specifications separately.
 
-The [datasheet-reading guide](/blog/how-to-read-solar-inverter-datasheets/) explains why peak efficiency is not annual energy. Any calculated energy difference should be retained with the model version and approved assumptions.
+The [datasheet-reading guide](/blog/how-to-read-solar-inverter-datasheets/) explains why peak efficiency is not annual energy. Any calculated energy difference should be kept with the model version and approved assumptions.
 
 ## A review-ready inverter TCO worksheet
 

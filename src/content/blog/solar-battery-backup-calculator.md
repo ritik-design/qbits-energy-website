@@ -361,7 +361,7 @@ For homeowners uncertain whether to invest in solar backup or stick with a conve
 
 ## Avoiding the Five Sizing Mistakes Indian Homeowners Make
 
-Backup system sizing errors can create overload, inadequate runtime or incompatible equipment. Qbits has not supplied audited installation-team data or a state-by-state error dataset for this guide.
+Backup system sizing errors can create overload, inadequate runtime or incompatible equipment. The five mistakes below are the ones to check before you finalise the design.
 
 **Mistake 1: Using peak load instead of average load**
 An air conditioner's compressor draws 1,100–1,500 W at startup. If your home's "peak load" includes the AC, your backup load estimate is inflated. The correct figure is the average load of appliances you will actually run during an outage, almost never the AC.

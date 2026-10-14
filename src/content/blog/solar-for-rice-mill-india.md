@@ -27,7 +27,7 @@ faqs:
   - q: "Is PM-KUSUM subsidy available for rice mills?"
     a: "Rice mills are not direct beneficiaries under PM-KUSUM, which targets farmers, pumps, and agricultural feeders under Components A, B, and C. Mills benefit indirectly when their agricultural feeder is solarised, because daytime supply becomes more reliable. For the mill itself, the relevant routes are state net metering for commercial and industrial consumers, accelerated depreciation, MSME solar loans, and group captive or open access arrangements for larger plants."
   - q: "Which inverter is best for a rice mill solar system?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Pick a three-phase string inverter sized to the plant, with an IP66 enclosure for husk dust, enough MPPTs to split strings by shed and tilt, the AC grid range your DISCOM requires and remote monitoring that reaches the owner. For a 60 to 75 kWp plant, one inverter of that size or two smaller units for redundancy both work. Qbits' three-phase on-grid ranges (from QB 5 to 17KTLC up to QB 80 to 125KTLC) list IP66 enclosures; choose the model by DC string design and MPPT count, and check the current datasheet at /download-datasheets/."
   - q: "Does a rice mill solar system work during power cuts?"
     a: "A standard on-grid rice mill solar system does not work during power cuts because anti-islanding protection shuts the inverter down when the grid fails. Mills with frequent outages have three options: keep the DG set for outage hours, add a small battery-backed hybrid section for control panels and lighting, or explore a hybrid plant with enough battery to carry partial milling load. Most mills choose the first option because batteries for a 50 kW milling load are still expensive."
 featured: false
@@ -131,7 +131,7 @@ Sizing a rice mill plant has three steps: energy sizing, roof check, and inverte
 Inverter specifications that matter for a rice mill specifically:
 
 - **IP66 ingress protection.** Rice husk dust is fine, abrasive, and conductive when damp. It coats everything. IP65 is the floor; IP66 is what survives a decade next to a huller.
-- **Wide grid voltage tolerance.** Rural feeders in milling belts swing hard when every mill on the feeder starts up in October. Firmware tuned for 180 to 270 V per phase rides through sags that trip import-tuned units.
+- **Wide grid voltage tolerance.** Rural feeders in milling belts swing hard when every mill on the feeder starts up in October. The allowed AC grid range depends on the model and on your DISCOM's connection conditions, so read it from the exact model's datasheet or manual and ask whether the grid-code setting suits sags on a milling feeder.
 - **Multiple MPPTs.** Mill roofs often mix orientations across sheds. Four to six MPPTs let you split strings by shed and tilt without mismatch losses.
 - **Remote monitoring that reaches the owner.** WhatsApp alerts beat a web portal for an owner on the mill floor, not at a desk.
 

@@ -16,9 +16,9 @@ keywords:
   - ALMM solar inverter subsidy
 faqs:
   - q: "What is the most common mistake when buying a solar inverter in India?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The most common mistake is choosing on purchase price alone. A cheaper inverter can cost more over its life once repairs, a paid replacement and the generation lost during downtime are counted, and a short or unclear warranty makes that worse. The next most common are a wrong topology for local power cuts (on-grid where a hybrid is needed), an unchecked compliance paper trail, and a brand with no authorised service partner near you. Compare quotes on total cost, written warranty terms and local service, not on the day-one price."
   - q: "Does a non-ALMM inverter disqualify me from the PM Surya Ghar subsidy?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The question is based on a misunderstanding, because MNRE publishes ALMM lists only for solar modules (List-I) and cells (List-II) and has no ALMM list for inverters. For the subsidy, the modules must come from an ALMM-listed manufacturer. For the inverter, ask the seller for the exact model's BIS registration and current certificates, and confirm any further requirement with your DISCOM and the PM Surya Ghar portal before you buy."
   - q: "How many hours of power cuts per day justify a hybrid inverter over an on-grid inverter?"
     a: "If your location experiences more than 4 hours of grid outage per day, a hybrid inverter with battery storage is the right choice. On-grid inverters shut down automatically during grid failures as a safety measure called anti-islanding. In states like UP, Bihar, and rural Maharashtra where 6–10 hour outages are common, buying an on-grid-only inverter means solar generation stops entirely during the hours you need it most."
   - q: "What is the difference between a 5-year and a 12-year solar inverter warranty in India?"
@@ -26,11 +26,11 @@ faqs:
   - q: "How do I check if a solar inverter brand has service centres near me?"
     a: "Ask the vendor for a pincode-searchable service partner list or call the brand's toll-free number and request the nearest authorised service centre address. A legitimate national brand will give you a specific address and contact name within minutes. If the response is vague ('our team will come to you') without a named partner, treat that as a red flag for service network depth."
   - q: "What is the ALMM list and why does it matter for solar inverter buyers?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The ALMM is the Approved List of Models and Manufacturers kept by MNRE. It has a List-I for solar PV modules and a List-II for solar cells, and it has no list for inverters. It matters to an inverter buyer mainly because it is sometimes wrongly applied to inverters. Check the ALMM list for your modules, and for the inverter ask for the exact model's BIS registration and current certificates and confirm any DISCOM or scheme requirement."
   - q: "Can I upgrade an on-grid inverter to a hybrid inverter later?"
     a: "In most cases, no - not without replacing the inverter unit. On-grid inverters lack the DC-coupled battery charge controller, multi-source management firmware, and switchover relay that hybrid units require. The changeover typically costs ₹35,000–₹55,000 for a 5 kW system, including the new inverter, rewiring, and recommissioning. Buying the right topology the first time is always cheaper."
   - q: "What questions should I ask a solar vendor before buying an inverter?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Ask for the exact model number and datasheet, the BIS registration and current certificates for that model, the written warranty with its term, remedy, start date and exclusions, and who pays freight and labour on a claim. Ask for the nearest authorised service partner with an address and a response time in writing. Check that the phase, voltage window, MPPT count and maximum DC current suit your array, and ask what monitoring is included. Get all of it itemised in the quotation."
   - q: "How much does the wrong inverter topology actually cost in UP or Bihar?"
     a: "In areas with 6–8 hours of daily outages, an on-grid inverter produces zero power during those hours. A 3 kW system losing 6 hours of generation daily at ₹8 per unit forfeits roughly ₹5,250 per month, or ₹63,000 per year in potential savings. Over a 12-year life, that is over ₹7 Lakh in lost value - far more than the ₹40,000–₹60,000 premium a hybrid inverter carries at purchase."
 ---
@@ -45,7 +45,7 @@ This post maps the five most expensive mistakes Indian homeowners make when buyi
 > - Choosing the cheapest inverter on price alone typically costs ₹25,000-₹40,000 more over 12 years once mid-life repairs and replacement are factored in.
 > - A model-specific written warranty is the safest structure; most budget brands offer only a 2-5 year repair-only warranty with narrow coverage.
 > - Buy a hybrid inverter, not on-grid, if daily power cuts exceed 4 hours; on-grid inverters shut down completely during grid failure due to anti-islanding protection.
-> - Skipping the ALMM check can forfeit the full PM Surya Ghar subsidy (up to ₹78,000 for a 3 kW system) since DISCOMs reject non-ALMM installations outright.
+> - Skipping the compliance check can put the PM Surya Ghar subsidy (up to ₹78,000 for a 3 kW system) at risk: modules must come from MNRE's ALMM List-I, and the inverter's certificates should be checked against the DISCOM's requirements.
 > - Around 60% of inverter faults need an on-site technician, so a brand with no local service partner near you means weeks of downtime when something fails.
 
 If you are still in the early stages of deciding what to buy, the full [solar inverter buying guide for homes in India](/blog/how-to-choose-solar-inverter-for-home-india/) covers sizing, topology, and feature comparison in detail. This post focuses specifically on where buyers go wrong, and what those errors cost in practice.
@@ -127,20 +127,20 @@ The [on-grid vs hybrid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decis
 
 **Before committing to a topology, ask your vendor to pull the local DISCOM outage report.** Most DISCOMs publish average outage hours by feeder area. If your vendor cannot produce this data, request your neighbours' experience directly. WhatsApp resident welfare association groups are a reliable source of local grid reliability data.
 
-## Mistake 4: Skipping the ALMM Check Before Purchase
+## Mistake 4: Skipping the Compliance Check Before Purchase
 
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the buyer's bank account after DISCOM verification. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-### How to Verify ALMM Status in 3 Minutes
+### How to Verify Compliance in 3 Minutes
 
-1. Visit the [MNRE ALMM portal](https://mnre.gov.in/almm-list/), the list is publicly searchable.
-2. Search by manufacturer name and model number, both must match exactly.
-3. Confirm the phase (Phase I, II, or III), Phase III is current; Phase I/II status may affect newer subsidy applications.
-4. Screenshot the result and share it with your installer before signing.
+1. For modules, visit the [MNRE ALMM portal](https://mnre.gov.in/almm-list/), the list is publicly searchable. MNRE publishes List-I for modules and List-II for cells, and no list for inverters.
+2. Search by module manufacturer name and model number, both must match exactly.
+3. For the inverter, ask the seller for the exact model's BIS registration and current test certificates, and confirm any scheme or DISCOM requirement.
+4. Screenshot the module result, keep the inverter certificates, and share both with your installer before signing.
 
-A related complication: some DISCOM jurisdictions now require the [empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/) to certify equipment as ALMM-compliant before submitting the net metering application. An installer who is not empanelled or who uses non-ALMM gear can get your net metering rejected even after the panels are on the roof.
+A related complication: some DISCOM jurisdictions now require the [empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/) to certify the equipment, including the modules' ALMM status, before submitting the net metering application. An installer who is not empanelled or who uses non-compliant gear can get your net metering rejected even after the panels are on the roof.
 
-**The rule**: verify ALMM status on the MNRE portal the day before you transfer payment, not the day before installation.
+**The rule**: verify the modules' ALMM status on the MNRE portal and collect the inverter's certificates the day before you transfer payment, not the day before installation.
 
 ## Mistake 5: Choosing a Brand With No Local Service Network
 
@@ -167,7 +167,7 @@ The [solar inverter reliability index](/blog/solar-inverter-reliability-index/) 
 - **Call that number**: verify it is answered and staffed by someone who knows the product.
 - **Check the brand's authorised service partner page**: legitimate national brands maintain a pincode-searchable directory.
 - **Ask the installer about past service experiences**: an EPC installer in your area who has worked with the brand multiple times is the best proxy for real service quality.
-- **Request the brand's RMA SLA**: response time to reach site after a service ticket is logged. Best-in-market Indian brands commit to 72-hour on-site response. Anything beyond 7 days is a risk flag.
+- **Request the brand's RMA SLA**: response time to reach site after a service ticket is logged. Ask for an on-site response target in writing; anything beyond 7 days is a risk flag.
 
 ## The 5-Question Inverter Audit: A Pre-Purchase Framework
 
@@ -175,6 +175,7 @@ Before transferring any payment for a solar inverter, run through these five que
 
 ### The 5-Question Inverter Audit
 
+1. **Do I hold the compliance papers?**: The modules should be on the current MNRE ALMM List-I, and for the inverter you should have the exact model's BIS registration and current certificates.
 2. **Does the warranty cover full unit replacement, and for how many years?**: Anything less than 10 years full replacement warrants a hard negotiation or a different brand.
 3. **Is the inverter topology right for my grid reliability?**: Pull the DISCOM outage data for your feeder area. More than 4 hours per day requires hybrid.
 4. **What is the nearest authorised service centre, and what is the RMA response time?**: Get a name and address, not a phone number.
@@ -184,8 +185,8 @@ If any question produces a vague answer, that is diagnostic information about th
 
 | Question | Pass criteria | Fail signal |
 | --- | --- | --- |
-| ALMM status | Model found on current MNRE list | "We are in the process of listing" |
-| Warranty depth | 10–12 years full replacement, in writing | "5-year standard, extendable" |
+| Compliance papers | Modules on current ALMM List-I; inverter's BIS registration and certificates in hand | "We are still getting the certificates" |
+| Warranty depth | Term, remedy and exclusions stated in writing for the exact model | Term or remedy not stated in writing |
 | Topology fit | Hybrid recommended if > 4 hr outages | "On-grid is fine everywhere" |
 | Service network | Named partner address within 50 km | "We will send a technician" |
 | 12-yr TCO | Lower than any cheaper alternative | Quote only covers unit price |

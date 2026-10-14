@@ -31,7 +31,6 @@ relatedTerms:
   - { slug: "cerc", term: "CERC" }
   - { slug: "serc", term: "SERC" }
   - { slug: "lcoe", term: "LCOE" }
-  - { slug: "open-access", term: "Open Access" }
 faqs:
   - q: "What is APPC in simple words?"
     a: "The average price a DISCOM pays to buy electricity from all its suppliers (thermal, hydro, renewable). Used as a reference price in various regulations."

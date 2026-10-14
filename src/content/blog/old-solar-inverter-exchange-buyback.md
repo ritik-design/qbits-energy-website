@@ -35,7 +35,7 @@ faqs:
 featured: false
 ---
 
-> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+> **Qbits warranty and service terms:** Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline, service response time, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 

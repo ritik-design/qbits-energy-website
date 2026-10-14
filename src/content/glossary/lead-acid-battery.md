@@ -25,12 +25,9 @@ relatedTerms:
   - { slug: "battery-soc", term: "Battery SOC" }
   - { slug: "battery-dod", term: "Battery DOD" }
   - { slug: "cycle-life", term: "Cycle Life" }
-  - { slug: "charge-controller", term: "Charge Controller" }
   - { slug: "off-grid-inverter", term: "Off Grid Inverter" }
   - { slug: "pwm", term: "PWM" }
   - { slug: "deep-discharge", term: "Deep Discharge" }
-  - { slug: "equalisation", term: "Equalisation Charging" }
-  - { slug: "specific-gravity", term: "Specific Gravity" }
   - { slug: "round-trip-efficiency", term: "Round Trip Efficiency" }
   - { slug: "ups", term: "UPS" }
 faqs:

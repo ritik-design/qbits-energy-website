@@ -229,7 +229,7 @@ The concern is valid. Industrial loads inject [harmonics](/glossary/harmonics/) 
 - **THD output < 3%** at full load, this is the IEC 61000-3-2 Class A threshold that protects VFD-driven motors and precision equipment. Inverters with THD above 5% at partial load will cause nuisance tripping on VFDs.
 - **Power factor > 0.99**: industrial loads with poor power factor reduce the effective kVA delivered by the inverter; a high-power-factor inverter compensates without requiring additional capacitor banks.
 - **IEC 62116 anti-islanding**: mandatory for any solar-plus-DG hybrid. The inverter must detect the DG bus and either synchronise or trip safely to prevent alternator damage. See our glossary entry on [anti-islanding protection](/glossary/anti-islanding/) for the full technical explanation.
-- **Wide voltage tolerance**: industrial feeders in India swing from 180 V to 270 V depending on DISCOM load. An inverter rated for 180–270 V continues generating through these swings rather than tripping offline.
+- **Wide voltage tolerance**: industrial feeders in India can drift well away from nominal voltage depending on DISCOM load. The allowed AC grid range depends on the model and its grid-code setting, so read it from the exact model's datasheet or manual to confirm the inverter keeps generating through normal swings rather than tripping offline.
 
 ### The DG synchronisation protocol
 
@@ -282,7 +282,7 @@ This ₹2.5 lakh first-year saving, combined with the fuel savings that begin fr
 
 Our detailed [solar inverter depreciation in India guide](/blog/solar-inverter-depreciation-in-india/) walks through the Section 32 computation with financial year examples and the year-by-year WDV schedule for commercial installations.
 
-GST input tax credit is also available on solar equipment for GST-registered businesses, a further cash-flow improvement that reduces the effective CAPEX by 5–12% depending on the GST rate applicable to the business's output supply.
+GST input tax credit is also available on solar equipment for GST-registered businesses, a further cash-flow improvement. GST on complete solar power generating systems has been 5% since 22 September 2025 (it was 12% before), and a composite supply of equipment plus installation works out to about 8.9% on the 70:30 deemed valuation, so the credit available is correspondingly lower than it was. Components sold separately, such as batteries or a standalone inverter, can still attract 18%, so confirm the rate on the quotation. See [GST on solar inverters](/blog/gst-on-solar-inverters-2026/) for the sourced rates.
 
 ## When to Choose Solar, When to Keep Diesel: The Decision Matrix
 
@@ -324,11 +324,11 @@ The financial result depends on project inputs and implementation. The following
 
 C&I buyers replacing diesel generators need an inverter that does more than convert DC to AC. They need one that handles industrial harmonic environments, survives Indian grid volatility, is backed by a local warranty that actually delivers, and provides the fleet-level monitoring data their CFO will demand at the quarterly board meeting.
 
-- **[Hybrid Inverters](/hybrid-inverter/)**: Review the exact model, battery and control documents. Automatic DG synchronisation without additional hardware is not established by the retained Qbits evidence.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review the exact model, battery and control documents. Qbits' public datasheets do not state automatic DG synchronisation without additional hardware, so confirm it for the exact model before designing around it.
 
 - **[Download Technical Datasheets](/download-datasheets/)**: Start with the public specifications and request any THD curve, VFD compatibility report or grid evidence required for the exact SKU.
 
-Qbits warranty duration, remedy, RMA process, manufacturing origin and response time are not established until the relevant owners provide current written terms. A factory should place any required uptime, spares and response obligations in the project contract rather than infer them from brand copy.
+Qbits' public datasheets do not define the warranty base term, remedy, RMA process or response time, so get current written terms for the exact model. A factory should place any required uptime, spares and response obligations in the project contract rather than infer them from brand copy.
 
 If you are evaluating a DG displacement project, [send Qbits the measured load and fuel data](/contact-us/) and ask what analysis can be provided. Confirm the method, assumptions, reviewer, deliverable, timing, and commercial terms. Do not describe a preliminary model as bankable without lender and qualified professional review.
 
@@ -336,7 +336,7 @@ If you are evaluating a DG displacement project, [send Qbits the measured load a
 
 The numbers are unambiguous. Diesel-generated power costs ₹22–27 per kWh all-in. Solar-generated power over 25 years costs ₹2–3.5 per kWh. The spread is ₹18–25 per kWh, a gap so wide that even under conservative assumptions (partial DG displacement, high CAPEX, low grid tariff savings), C&I solar delivers IRR above 18% for most Indian industrial sites.
 
-The strategic question is not whether to switch. It is how fast to transition and which architecture to choose for the interim period. For most factories running a DG set more than four hours per day, the answer is a rooftop solar system sized for full daytime load, with the DG retained as overnight backup during the first two to three years. As battery costs continue to fall (and they will) the DG is phased out entirely. Factories and process plants that need a turnkey partner for the physical installation, not just the inverter, can start with an industrial solar installation EPC team that handles everything from mounting to commissioning.
+The strategic question is not whether to switch. It is how fast to transition and which architecture to choose for the interim period. For most factories running a DG set more than four hours per day, the answer is a rooftop solar system sized for full daytime load, with the DG kept as overnight backup during the first two to three years. As battery costs continue to fall (and they will) the DG is phased out entirely. Factories and process plants that need a turnkey partner for the physical installation, not just the inverter, can start with an industrial solar installation EPC team that handles everything from mounting to commissioning.
 
 The [accelerated depreciation benefit](/blog/solar-inverter-depreciation-in-india/) cuts the effective CAPEX by 10–12% in Year 1. The [C&I solar EPC process](/blog/solar-epc-india/) from survey to commissioning typically takes six to ten weeks. The [payback period](/glossary/payback-period/) for a full DG-displacement installation can be under one year.
 

@@ -86,7 +86,7 @@ Use `TBC` only with an owner and closure date. A blank cell is not flexibility. 
 
 A model name alone is not enough. Record the datasheet title or file, revision or issue date where shown, and the date the buyer checked it. If a certificate or manual has a different model string, ask the bidder to map the exact quoted model to the document in writing.
 
-For Qbits models, begin with the [current public datasheet library](/download-datasheets/). That page separates model families and tells buyers to request the exact-model manual, certificate, battery compatibility confirmation, or written warranty when the public datasheet does not establish it.
+For Qbits models, begin with the [current public datasheet library](/download-datasheets/). That page separates model families and tells buyers to request the exact-model manual, certificate, battery compatibility confirmation, or written warranty when the public datasheet does not state it.
 
 ## Create a project-specific evidence matrix
 
@@ -97,7 +97,7 @@ There is no safe universal label called `all approvals included`. Requirements c
 | Issuing or controlling body | Name the body or contract document | Confirm it is the correct authority for this project |
 | Exact requirement | Quote the clause, standard, or approval requested | Check scope, jurisdiction, and effective date |
 | Exact model covered | Give the full model designation | Match it to the order schedule and certificate scope |
-| Current evidence | Provide the document, number, date, and status | Verify through the issuing body's route where available |
+| Current document | Provide the document, number, date, and status | Verify through the issuing body's route where available |
 | Exceptions | State every gap or pending item | Assign an owner, decision, and closure date |
 
 The [BIS Compulsory Registration Scheme portal](https://www.crsbis.in/BIS/) provides a public registration-search route. Search the exact registration and model details relevant to the offered equipment. Do not treat a logo on a brochure as equivalent to the current record.
@@ -163,7 +163,7 @@ Require a written change request before dispatch. It should contain:
 - accessory, monitoring, manual, and settings impact;
 - price, tax, delivery, warranty, and service impact;
 - affected sites and quantities; and
-- approval by the authorised technical and commercial owners.
+- approval by the authorised technical and commercial leads.
 
 The same rule applies to a split shipment, changed seller, alternate communications device, or revised delivery location. No response should mean `not approved`, not implied consent.
 
@@ -215,7 +215,7 @@ A datasheet icon or warranty duration does not settle remedy, exclusions, regist
 
 Use the [bulk-buyer inverter warranty and service checklist](/blog/inverter-warranty-service-checklist-bulk-buyers/) to request the exact-model warranty, service schedule, RMA procedure, cost-responsibility matrix, and escalation list.
 
-Current Qbits public product data says its public datasheets describe an expandable warranty but do not establish the base term, remedy, registration deadline, or exclusions. Obtain the current written terms for the exact quoted model before purchase. Do not copy a term from another model, an old article, or a sales call into the order.
+Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline, or exclusions. Obtain the current written terms for the exact quoted model before purchase. Do not copy a term from another model, an old article, or a sales call into the order.
 
 ## Send Qbits an order-ready request
 
@@ -233,7 +233,7 @@ When you [request a bulk inverter quotation from Qbits](/contact-us/), include:
 - inspection and acceptance requirements; and
 - the commercial response table and deviation format.
 
-Treat availability, delivery, price, tax, warranty, service, and support as current written quotation terms only. The public site does not establish them for a particular order.
+Treat availability, delivery, price, tax, warranty, service, and support as current written quotation terms only. The public site does not fix them for a particular order.
 
 ## The release test
 

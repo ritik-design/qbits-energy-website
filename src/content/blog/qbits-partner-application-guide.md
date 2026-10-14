@@ -136,7 +136,7 @@ Build the target from named assumptions. Consider the customers you already serv
 
 Use the experience field to describe relevant work plainly. Useful details include the business role, market served, years active, customer types, product categories, and the parts of the sales or service process your team actually handled. Do not invent customer counts, project results, service capacity, or authorisations.
 
-Selecting `Yes` for brand promotion does not establish a marketing budget, lead entitlement, reimbursement, approved claims, or access to brand assets. Those details still need written terms.
+Selecting `Yes` for brand promotion does not create a marketing budget, lead entitlement, reimbursement, approved claims, or access to brand assets. Those details still need written terms.
 
 ## What happens to the submitted information?
 

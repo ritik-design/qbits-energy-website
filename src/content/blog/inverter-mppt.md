@@ -169,14 +169,14 @@ The MPPT circuit is one of the most electronically complex and thermally stresse
 
 ### Component Quality Signals
 
-Inverters built with **German-grade electronics** in MPPT and power stages offer measurably better reliability:
+The quality of the components in the MPPT and power stages affects long-term reliability. Ask the seller for the bill of materials and the make of each of these parts:
 
 - MPPT controller IC
 - Power MOSFETs / IGBTs
 - Capacitors
 - Inductors
 
-Degradation in any of these causes tracking accuracy to drift over time, reducing yield without triggering obvious faults. A manufacturer running **1,000+ automated quality tests** per unit catches MPPT issues before shipment.
+Degradation in any of these causes tracking accuracy to drift over time, reducing yield without triggering obvious faults. A manufacturer that tests every unit under load before shipment is more likely to catch MPPT issues early, so ask for the end-of-line test process.
 
 ### Warranty as a Reliability Signal
 
@@ -185,7 +185,7 @@ Degradation in any of these causes tracking accuracy to drift over time, reducin
 | 10 years or more with full replacement | Strong manufacturer confidence in MPPT and power stage |
 | 3–5 years | Manufacturer expects degradation within that window |
 
-The [12-year solar inverter warranty](/blog/12-year-solar-inverter-warranty/) is fast becoming the industry baseline in India; **BIS/IEC certification** is a baseline floor, not a ceiling, look for manufacturers exceeding it.
+Many Indian makers now advertise 10 to 12 year warranties, so read what a [12-year solar inverter warranty](/blog/12-year-solar-inverter-warranty/) actually covers before comparing headline numbers; **BIS/IEC certification** is a baseline floor, not a ceiling, look for manufacturers exceeding it.
 
 ## Red Flags When Evaluating MPPT Specifications
 
@@ -248,5 +248,5 @@ Inverter MPPT performance is the technical core of every solar system's energy y
 | Start-up voltage (commercial) | <200V |
 | MPPT sampling rate | >100 Hz |
 | Yield loss with poor MPPT | 10–15% annually |
-| Warranty benchmark | 12 years (full replacement) |
-| Quality tests per unit | 1,000+ |
+| Written warranty | Term, remedy and exclusions confirmed in writing for the exact model |
+| Quality testing per unit | Ask for the manufacturer's end-of-line test process |

@@ -46,13 +46,13 @@ faqs:
 - q: What is a grid-forming inverter in simple words?
   a: It controls its own voltage reference rather than relying entirely on another source to establish the AC waveform. Its permitted operating modes and loads still depend on the complete design.
 - q: Are all hybrid inverters grid-forming?
-  a: A hybrid product label does not establish utility-scale grid-forming performance. A backup output may form an islanded AC supply, but confirm the exact operating modes, protection, current limits and test evidence with the manufacturer.
+  a: A hybrid product label does not show utility-scale grid-forming performance. A backup output may form an islanded AC supply, but confirm the exact operating modes, protection, current limits and test evidence with the manufacturer.
 - q: Does grid-forming capability guarantee black start?
   a: No. Black start also needs an available energy source, a controlled energisation sequence, protection coordination and verified equipment capability. Request the specified test and operating limits.
 - q: What is IEEE 2800?
   a: IEEE 2800-2022 is a published US standard for interconnection and interoperability of inverter-based resources connecting to transmission power systems. It is not an automatic Indian approval or proof that a particular inverter has grid-forming capability.
 - q: Does Qbits publish a grid-forming capability certificate?
-  a: The public inverter family information used for this guide does not establish such a certificate. Request exact-model documents and project-specific engineering confirmation; do not infer the capability from a hybrid or backup label.
+  a: Qbits' public datasheets do not list such a certificate. Request exact-model documents and project-specific engineering confirmation; do not infer the capability from a hybrid or backup label.
 author: Nirav Dhanani
 ---
 
@@ -69,14 +69,14 @@ The [grid-forming research roadmap](https://research-hub.nlr.gov/en/publications
 | Reference | Synchronises to an existing voltage reference | Controls an internal voltage reference |
 | Islanded operation | Needs another source to establish the AC supply | May establish the supply when the complete system is designed for it |
 | Grid connection | Must meet the applicable interconnection requirements | Must also meet those requirements; the control label is not an approval |
-| Black start | Not established by the label | Also not established by the label; verify equipment and system capability |
+| Black start | Not implied by the label | Also not implied by the label; verify equipment and system capability |
 | Project evidence | Controls, protection, operating limits and test results | Those documents plus the specified grid-forming functions and tests |
 
-Do not infer black start, inertia response, overload duration or parallel operation from this table. The manufacturer and project designer must establish each required function separately.
+Do not infer black start, inertia response, overload duration or parallel operation from this table. The manufacturer and project designer must confirm each required function separately.
 
-## What hybrid backup does and does not establish
+## What hybrid backup does and does not provide
 
-A [hybrid inverter](/glossary/hybrid-inverter/) may supply selected loads while disconnected from the utility. That does not by itself establish every service expected from a transmission-connected grid-forming resource.
+A [hybrid inverter](/glossary/hybrid-inverter/) may supply selected loads while disconnected from the utility. That does not by itself provide every service expected from a transmission-connected grid-forming resource.
 
 Confirm the backup wiring arrangement, supported loads, battery availability, transfer behaviour, fault response and permitted control mode. Use the [hybrid selection guide](/blog/how-to-choose-hybrid-solar-inverter/) to prepare those questions. Do not assume all models within a brand use the same controls.
 
@@ -99,11 +99,11 @@ A sales description is not a test report. Record the exact model, firmware where
 
 [IEEE 2800-2022](https://standards.ieee.org/ieee/7003/10453/) is a published standard for inverter-based resources connected to US transmission systems. The older description of it as an emerging or unfinished standard was incorrect.
 
-For an Indian project, check the current tender, connection agreement, regulator and utility requirements that apply to that project. An overseas standard citation does not establish Indian approval. The [BIS standard-information portal](https://www.bis.gov.in/know-your-standard/?lang=en) can help locate the applicable Indian standard and supporting information; it does not replace exact-model approval evidence.
+For an Indian project, check the current tender, connection agreement, regulator and utility requirements that apply to that project. An overseas standard citation is not Indian approval. The [BIS standard-information portal](https://www.bis.gov.in/know-your-standard/?lang=en) can help locate the applicable Indian standard and supporting information; it does not replace exact-model approval evidence.
 
 ## Applying this to a Qbits enquiry
 
-Qbits publishes [on-grid](/on-grid-inverter/) and [hybrid](/hybrid-inverter/) inverter families. Those category names do not establish a utility-scale grid-forming service, black-start test result or project approval.
+Qbits publishes [on-grid](/on-grid-inverter/) and [hybrid](/hybrid-inverter/) inverter families. Those category names do not by themselves mean a utility-scale grid-forming service, a black-start test result or project approval.
 
 Start with the [public datasheet library](/download-datasheets/). If the proposed project needs a specific control function, send the exact requirement and request model-specific confirmation through the [technical-document enquiry](/contact-us/?subject=Technical+Documents&from=%2Fglossary%2Fgrid-forming-inverter%2F#lead-form).
 

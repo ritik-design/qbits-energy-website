@@ -26,13 +26,7 @@ relatedTerms:
   - { slug: "ev-charger", term: "EV Charger" }
   - { slug: "ppa", term: "Power Purchase Agreement" }
   - { slug: "resco", term: "RESCO" }
-  - { slug: "open-access", term: "Open Access" }
-  - { slug: "captive-plant", term: "Captive Plant" }
   - { slug: "lcoe", term: "LCOE" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
-  - { slug: "carbon-credit", term: "Carbon Credit" }
-  - { slug: "net-zero", term: "Net Zero" }
-  - { slug: "scope-2-emissions", term: "Scope 2 Emissions" }
 faqs:
   - q: "What is ESG in simple words?"
     a: "A way to measure how a company impacts the environment, treats people and is governed. Solar is the most direct way to improve the E (environmental) score."

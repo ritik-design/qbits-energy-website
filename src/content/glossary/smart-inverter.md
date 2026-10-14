@@ -23,14 +23,12 @@ relatedTerms:
   - { slug: "reactive-power", term: "Reactive Power" }
   - { slug: "fault-ride-through", term: "Fault Ride Through" }
   - { slug: "anti-islanding", term: "Anti-Islanding" }
-  - { slug: "grid-code", term: "Grid Code" }
   - { slug: "cea", term: "CEA" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "on-grid-inverter", term: "On Grid Inverter" }
   - { slug: "hybrid-inverter", term: "Hybrid Inverter" }
   - { slug: "power-factor", term: "Power Factor" }
   - { slug: "harmonics", term: "Harmonics" }
-  - { slug: "ems", term: "Energy Management System" }
   - { slug: "grid-forming-inverter", term: "Grid-Forming Inverter" }
 faqs:
   - q: "What is a smart inverter in simple words?"
@@ -52,7 +50,7 @@ faqs:
   - q: "What is UL 1741 SA?"
     a: "US smart inverter standard with grid support functions. SB is the updated successor."
   - q: "Do smart inverters cost more?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Usually a little more than a basic model, because they add communication hardware, grid-support functions and monitoring software. The gap varies by brand and rating, so compare quotes for the same kW rating and ask what the extra cost buys, such as remote monitoring, firmware updates, grid-support settings and a defined service process."
   - q: "How are smart functions configured?"
     a: "Through inverter settings during commissioning. DISCOM may specify required configurations."
   - q: "Can smart inverters replace capacitor banks?"

@@ -21,7 +21,7 @@ faqs:
   - q: "What documents are needed for an inverter warranty claim?"
     a: "At minimum the purchase invoice with date, the written warranty document that applied at the time of sale, the commissioning report, a photograph of the rating label showing model and serial number, and the installer's details. Add the fault evidence: the error code copied exactly, the timestamp, a photograph of the display and a monitoring screenshot. If the system took a government subsidy, keep the DISCOM approval and net metering paperwork with the file, because it proves the commissioning date independently."
   - q: "What does dispatch within 72 hours of claim approval actually mean?"
-    a: "It is a figure that circulates in the Indian inverter market, and no current written Qbits service term establishes it, so ask for the committed action in writing rather than relying on the number. Where a dispatch window is quoted at all, the clock starts when the claim is approved, not when you first complain. Everything before approval, meaning diagnosis, document verification and any site inspection, sits outside that window and its duration depends heavily on how complete your evidence is. Readers consistently misread it as a 72 hour fix from the first phone call, which it is not."
+    a: "It is a figure that circulates in the Indian inverter market, and Qbits' public documents do not state a dispatch commitment, so ask for the committed action in writing rather than relying on the number. Where a dispatch window is quoted at all, the clock starts when the claim is approved, not when you first complain. Everything before approval, meaning diagnosis, document verification and any site inspection, sits outside that window and its duration depends heavily on how complete your evidence is. Readers consistently misread it as a 72 hour fix from the first phone call, which it is not."
   - q: "What voids a solar inverter warranty?"
     a: "The common voiding causes are unauthorised repair or opening of the enclosure, incorrect installation, missing or inadequate earthing, surge and lightning damage, water ingress through a badly fitted cable gland, rodent damage, and operating the unit outside the grid or ambient temperature limits printed in its manual. Most of these are installation or environmental matters rather than product defects, which is why manufacturers ask for installation photographs. Your written warranty document lists the exclusions that actually apply to your model and date of sale."
   - q: "Who pays freight and labour on an approved warranty claim?"
@@ -41,7 +41,7 @@ What follows covers the evidence to gather before you call, the documents your i
 > **TL;DR**
 > - A product warranty covers the inverter only. Array, earthing, cabling, monitoring and grid faults are installer or DISCOM matters, and misfiling them is the commonest reason a claim stalls.
 > - Claim in order: installer first if their contract is live, then the distributor named on the invoice, then the manufacturer's authorised service channel.
-> - Any dispatch window you are quoted starts at claim approval, not at your first complaint, and no current written Qbits service term establishes one.
+> - Any dispatch window you are quoted starts at claim approval, not at your first complaint, and Qbits' public documents do not state one.
 > - Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written terms for your exact model and sale.
 > - Freight, labour, recommissioning and access equipment are usually excluded even on an approved claim.
 > - A written refusal can be escalated. Under the Consumer Protection Act, 2019, a complaint must be filed within 2 years of the cause of action.
@@ -110,7 +110,7 @@ Three parties can be responsible and they have different roles. Readers usually 
 
 The distinction matters commercially, not just procedurally. A fault caused by an undersized DC cable or a missing earth is an installation matter even though the inverter is what stopped working. That division is set out in the [installation versus product warranty explainer](/blog/solar-installation-vs-product-warranty/), and it decides who pays.
 
-Two practical notes. First, always obtain a ticket number in writing, from whoever you approach, and quote it in every later message. Second, if the installer has closed down, go to the manufacturer's service network directly rather than to a random local technician. Qbits publishes a network of 2100+ authorised service partners across 33 states and UTs, and the [authorised service partner directory](/authorized-service-partners/) is the route to a technician whose diagnosis the manufacturer will accept. An unauthorised repair, however competent, is an exclusion on most policies.
+Two practical notes. First, always obtain a ticket number in writing, from whoever you approach, and quote it in every later message. Second, if the installer has closed down, go to the manufacturer's service network directly rather than to a random local technician. Qbits lists its authorised service partners in a published locator, and the [authorised service partner directory](/authorized-service-partners/) is the route to a technician whose diagnosis the manufacturer will accept. An unauthorised repair, however competent, is an exclusion on most policies.
 
 ## What the manufacturer will ask for, and why each item matters
 
@@ -134,7 +134,7 @@ Expect a remote diagnosis step before any site visit. A meaningful share of repo
 
 ## Approval, not complaint, starts the dispatch clock
 
-A 72 hour dispatch figure circulates widely in the Indian inverter market, and you may well be quoted it. Treat it carefully for two reasons. No current written Qbits service term establishes it, so ask for the committed action in writing rather than relying on the number. And every version of it starts at claim approval, not at your first call, so it was never a promise that a working inverter reaches your roof three days after you notice a fault.
+A 72 hour dispatch figure circulates widely in the Indian inverter market, and you may well be quoted it. Treat it carefully for two reasons. Qbits' public documents do not state a dispatch commitment, so ask for the committed action in writing rather than relying on the number. And every version of it starts at claim approval, not at your first call, so it was never a promise that a working inverter reaches your roof three days after you notice a fault.
 
 Approval gates three things: whether the unit is in term, whether the cause is a covered defect rather than an excluded event, and which remedy applies. Everything before approval, meaning diagnosis, document verification and any site inspection, sits outside whatever dispatch window you are quoted. Its duration depends mostly on the completeness of your file.
 
@@ -147,7 +147,7 @@ So the honest timeline has two halves.
 | Remote diagnosis | Manufacturer support | Not published |
 | Site inspection, if required | Service partner | Not published |
 | Approval decision | Manufacturer | Not published |
-| Approval to dispatch | Manufacturer | Not established in current written terms; ask for the committed action |
+| Approval to dispatch | Manufacturer | Not stated in public terms; ask for the committed action |
 | Dispatch to delivery | Courier or transporter | Not published; varies by location |
 | Delivery to recommissioning | Your installer | Not published; depends on their availability |
 

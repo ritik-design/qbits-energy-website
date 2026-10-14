@@ -236,7 +236,7 @@ Suppliers unable to publish the full-load noise rating (or providing only "quiet
 - Check the exact model's cooling topology, acoustic rating and stated test conditions.
 - Confirm whether the datasheet or manual permits the proposed mounting location and clearances.
 - Do not infer acoustic performance from IP rating, component adjectives or transformerless topology alone.
-- Noise-related warranty coverage and monitoring alerts are not established until supported by the current policy and model documents.
+- Noise-related warranty coverage and monitoring alerts vary by brand and model, so confirm them in the current warranty policy and model documents before relying on them.
 
 Related guides:
 

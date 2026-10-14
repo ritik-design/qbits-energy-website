@@ -18,7 +18,7 @@ faqs:
   - q: "What size solar system does a 2 BHK home need in India?"
     a: "A 2 BHK Indian home typically needs a 3kW on-grid solar system. Monthly electricity consumption for a standard 2 BHK with two air conditioners, refrigerator, washing machine, fans, and lights ranges from 400 to 600 units. A 3kW system generates 350 to 500 units per month in most Indian cities, covering 60 to 90% of the household bill. For lighter consumption below 350 units per month (no AC or only one AC used sparingly), a 2kW system may suffice."
   - q: "What is the cost of a solar system for a 2 BHK in India in 2026?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The cost is the sum of five parts: panels, the inverter, balance of system (mounting structure, cables, protection and earthing), installation and commissioning including the DISCOM net-metering application, and GST. GST on a bundled turnkey solar contract works out to about 8.9% effective (70% goods at 5% and 30% services at 18%). The PM Surya Ghar central subsidy of up to ₹78,000 for a 3 kW system lowers your net outlay. Compare itemised written quotes, because panel brand, inverter brand and phase, structure type and installer margin explain most of the gap between two quotes."
   - q: "What is the monthly electricity consumption of a 2 BHK home in India?"
     a: "A typical 2 BHK Indian home consumes 400 to 600 units of electricity per month. The primary loads are 2 inverter air conditioners (1-ton each, 6 hours/day), a refrigerator (200L, 24 hours), a washing machine (1 load/day), 4 ceiling fans (10 hours each), 10 LED lights (5 hours each), and a television. Heavy users with a 1.5-ton AC or a washing machine dryer may reach 600 to 700 units/month."
   - q: "How much can solar reduce the electricity bill for a 2 BHK?"
@@ -28,7 +28,7 @@ faqs:
   - q: "Can a 3kW solar system run 2 air conditioners in a 2 BHK?"
     a: "A 3kW solar system can run one 1-ton AC (900W) plus other standard household loads simultaneously. Running two 1-ton ACs simultaneously (1,800W) plus a refrigerator, fans, and lights (approximately 900W) totals 2,700W - close to the 3kW inverter limit. In practice, during peak solar hours (10 AM to 3 PM), a 3kW system can power both ACs if they are 3-star or 5-star inverter models consuming around 700–800W each at steady state."
   - q: "Which inverter is best for a 2 BHK 3kW solar system?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "For a 2 BHK on a single-phase connection, a 3 kW single-phase on-grid inverter is the usual fit when the aim is lower bills. Choose a hybrid inverter with a battery only if you need outage backup. Qbits' range includes a 3.0 kW model in the QB 1.5 to 4.0KTLS single-phase on-grid family and a 3 kW model in the QBH 3 to 6KS48P single-phase hybrid family. Check the DC string design and MPPT layout against your panels, and confirm the current datasheet at /download-datasheets/ before you buy."
   - q: "Is a 2 BHK on the ground floor of an apartment eligible for PM Surya Ghar subsidy?"
     a: "The PM Surya Ghar subsidy is available to apartment dwellers only if the system is installed on the rooftop of the building and the electricity meter is under their name. In a multi-storey apartment building, only the top-floor owner or the housing society (as a group net metering subscriber) can typically install rooftop solar. Ground-floor and mid-floor apartment owners face practical limitations - group net metering schemes for societies can overcome this in some states."
 ---
@@ -173,7 +173,7 @@ These payback periods are genuinely outstanding for any household investment. Af
 
 The Qbits product library includes a 3.0 kW single-phase on-grid model in the QB 1.5/2.0/2.7/3.0/3.3/3.6/4.0KTLS family and a 3 kW hybrid model in the QBH 3KS/3K6S/4KS/4K6S/5KS/6KS48P family. These products have different electrical roles. An on-grid unit is not outage backup; a hybrid design also requires an approved battery, backup-circuit design and model-specific settings.
 
-Use the current datasheet to check PV voltage, current, MPPT layout, phase, enclosure and operating limits. Qbits retail price, battery-model compatibility, transfer time, certificate status, universal monitoring functions and warranty terms are not established from the current published documents. Obtain a dated quote and the controlling documents for the exact SKU before selection.
+Use the current datasheet to check PV voltage, current, MPPT layout, phase, enclosure and operating limits. The public datasheets do not give a retail price, battery-model compatibility list, transfer time, certificate status or warranty terms for every model. Obtain a dated quote, the current certificates and the written warranty for the exact SKU before selection.
 
 ## Common Mistakes 2 BHK Buyers Make
 

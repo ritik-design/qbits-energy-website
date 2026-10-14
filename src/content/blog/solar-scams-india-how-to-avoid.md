@@ -163,7 +163,7 @@ Insist on these clauses, in writing:
 - **Equipment schedule.** Exact brand, model number, wattage, and quantity for panels, inverter, structure, cables, and protections. Add a clause that any substitution needs your written approval.
 - **Price and payment schedule.** Total price with GST breakup, tied to the milestone structure from the earlier section.
 - **Timeline with penalty.** Installation start and completion dates, with a per-week delay penalty or refund trigger.
-- **Warranty terms.** Panel product and performance warranty, inverter warranty, and workmanship warranty, each with duration and claim process. For context, the strongest inverter warranties in India now run 12 years full replacement, so treat anything unstated as nonexistent.
+- **Warranty terms.** Panel product and performance warranty, inverter warranty, and workmanship warranty, each with duration and claim process. For context, some Indian makers offer long inverter warranties of 10 to 12 years, but the term, remedy and exclusions matter more than the headline number, so treat anything unstated as nonexistent.
 - **DISCOM and subsidy responsibility.** Who files the net-metering application, who follows up the subsidy claim, and what happens if vendor error causes rejection.
 - **Exit clause.** Refund terms if the vendor abandons the project.
 

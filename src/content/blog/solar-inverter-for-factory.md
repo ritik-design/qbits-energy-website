@@ -111,7 +111,7 @@ A [string inverter](/glossary/string-inverter/) connects a string or bank of str
 - Partial failure tolerance, one inverter failure drops output by one inverter's share (typically 10–20%), not the whole plant
 - No AC room required, string inverters mount directly on the structural frame or an external wall
 - Modular expansion, add units as factory load or rooftop space increases
-- Faster field replacement, a failed board is replaced within 24–72 hours from local stock
+- Faster field replacement, a failed board can be swapped quickly when the vendor holds local stock, so ask for the committed replacement time in writing
 
 **Limitations:**
 - Higher per-kW cost at very large scale (above 500 kWp)

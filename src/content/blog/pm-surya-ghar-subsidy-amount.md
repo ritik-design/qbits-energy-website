@@ -20,7 +20,7 @@ faqs:
   - q: "Can I get PM Surya Ghar subsidy on a 5 kW system?"
     a: "Yes, a 5 kW system is eligible, but the central subsidy is capped at ₹78,000 - the same amount as a 3 kW system. The subsidy calculation applies only to the first 3 kW of installed capacity. The remaining 2 kW beyond the subsidised limit receives no additional central government support. However, a 5 kW system qualifies fully for net metering and any applicable state-level top-up subsidies within their respective caps."
   - q: "Does the PM Surya Ghar subsidy apply to the inverter separately?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "No. Central financial assistance under PM Surya Ghar is worked out on the rated capacity of the whole grid-connected rooftop system (₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, capped at 3 kW), not on individual components. The inverter is part of that system, so it does not earn a separate subsidy line. Ask your registered vendor for the exact inverter model's BIS registration and current certificates, and confirm any further requirement with your DISCOM."
   - q: "How long does PM Surya Ghar subsidy payment take after commissioning?"
     a: "MNRE mandates subsidy disbursement within 30 days of commissioning report submission. In practice, fast-processing states such as Gujarat and Maharashtra complete transfers in 30 to 60 days. States with slower smart-meter rollout or higher application backlogs can take up to 90 days. The subsidy is credited directly to the Aadhaar-linked bank account registered on the national portal. Mismatched bank details are the most common cause of delayed or failed transfers."
   - q: "Can NRIs apply for PM Surya Ghar subsidy?"
@@ -32,7 +32,7 @@ faqs:
   - q: "Which states offer additional top-up subsidies on top of the central PM Surya Ghar amount?"
     a: "As of June 2026, Gujarat provides ₹10,000 to ₹20,000 per kW additional through GEDA for systems up to 3 kW. Maharashtra offers ₹15,000 per kW for economically weaker and lower-income group applicants through MSEDCL. Rajasthan provides ₹5,000 to ₹10,000 per kW additional under its state solar policy. Uttar Pradesh offers a flat ₹15,000 per household additional benefit. In these states, the combined central plus state subsidy for a 3 kW system can reach ₹93,000 to ₹1,38,000 - dramatically improving payback economics."
   - q: "Does the PM Surya Ghar subsidy apply to battery storage separately?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The central assistance is calculated on the kW capacity of the rooftop solar system, not on a battery, so you should treat a battery and a hybrid inverter's extra cost as your own expense unless your DISCOM or state scheme states otherwise in writing. Check the current MNRE guidelines and your state's rules before you buy, and confirm with the DISCOM that a hybrid or battery-backed design is acceptable for the subsidised connection."
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
@@ -250,7 +250,7 @@ The [CAPEX](/glossary/capex/) model for PM Surya Ghar (where you own the system 
 
 [Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
-Qbits service coverage, response time and remedy are not established until the the Qbits service and warranty team provide current written terms for the location and model.
+Qbits' public material does not state service coverage, response time or remedy for your location, so ask the Qbits team for the current written terms for your location and model.
 
 ## PM Surya Ghar Subsidy Amount: Frequently Missed Nuances
 

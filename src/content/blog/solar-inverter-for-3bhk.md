@@ -37,7 +37,7 @@ faqs:
     a: "For apartment dwellers, a solar rooftop system requires DISCOM approval and housing society consent, which many high-rise societies still restrict. If approval is granted, an on-grid system without battery is simpler to install and subsidy-eligible. A hybrid inverter with battery becomes valuable when the apartment experiences 3–6 hours of daily power cuts and has no common-area DG backup. Ground-floor or basement flat residents typically have no viable rooftop access and should explore community solar or group net-metering arrangements instead."
 ---
 
-> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+> **Qbits warranty and service terms:** Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline, service response time, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
@@ -254,7 +254,7 @@ Buying a solar inverter is a decision that stays with the home for 12–25 years
 
 **Undersizing the inverter to save ₹10,000–15,000 upfront.** A 3 kW inverter for a 3 BHK with two ACs means the system curtails generation whenever the load exceeds 3 kW, which happens daily during summer afternoons. The "savings" disappear within 18 months in lost generation. The [3 kW vs 5 kW vs 10 kW inverter comparison](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) demonstrates this clearly with year-on-year generation data.
 
-**Ignoring the warranty fine print.** A "10-year warranty" that covers only defects in manufacturing and excludes weather damage, surge events, and component depreciation is worth very little in practice. Ask the vendor specifically: "Is this a warranty with a written remedy or a parts-only warranty?" A model-specific written warranty means the manufacturer ships a new unit to your door within 72 hours of a confirmed fault, no labour charge, no argument.
+**Ignoring the warranty fine print.** A "10-year warranty" that covers only defects in manufacturing and excludes weather damage, surge events, and component depreciation is worth very little in practice. Ask the vendor specifically: "Is this a warranty with a written remedy or a parts-only warranty?" A model-specific written warranty states the remedy, the response process and who pays freight and labour. Ask for that in writing before you pay.
 
 **Not accounting for shading from new construction.** A neighbouring building under construction today may cast a shadow on your south-facing roof within two years. Install panels with east-west bias or choose a dual-[MPPT](/glossary/mppt/) inverter that handles partial shading without the entire string dropping in output.
 

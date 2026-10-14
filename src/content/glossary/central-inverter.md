@@ -24,14 +24,11 @@ relatedTerms:
   - { slug: "string-inverter", term: "String Inverter" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "mppt", term: "MPPT" }
-  - { slug: "transformer", term: "Step-Up Transformer" }
-  - { slug: "scada", term: "SCADA" }
-  - { slug: "plant-controller", term: "Plant Controller" }
   - { slug: "reactive-power", term: "Reactive Power" }
   - { slug: "dc-oversizing", term: "DC Oversizing" }
   - { slug: "ppa", term: "Power Purchase Agreement" }
   - { slug: "anti-islanding", term: "Anti-Islanding" }
-  - { slug: "frt", term: "Fault Ride Through" }
+  - { slug: "fault-ride-through", term: "Fault Ride Through" }
   - { slug: "harmonics", term: "Harmonics" }
   - { slug: "thd", term: "Total Harmonic Distortion (THD)" }
   - { slug: "bess", term: "BESS" }

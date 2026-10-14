@@ -20,15 +20,15 @@ faqs:
   - q: "What is UTL's warranty on solar inverters?"
     a: "UTL offers a warranty of 1 to 2 years on its solar inverters depending on the product line, with some premium models carrying extended terms. This is shorter than Luminous's standard warranty and significantly shorter than the 12-year benchmark that represents best practice for solar inverters designed to operate for 25 years. UTL's short warranty period reflects its value-tier positioning - the brand competes on upfront price, not on long-term warranty assurance. Buyers who purchase UTL inverters should budget for a replacement event within the first 5 years of operation."
   - q: "Does Luminous have ALMM listing for PM Surya Ghar?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "No inverter brand does, because MNRE publishes ALMM List-I for solar PV modules and List-II for solar PV cells and no list for inverters. For the subsidy, the modules must meet the ALMM and DCR rules. For a Luminous or UTL inverter, ask the seller for the exact model's BIS registration and current certificates, and confirm any inverter requirement with the DISCOM."
   - q: "Is UTL a reliable brand for solar inverters?"
     a: "UTL (Universal Technical & Infrastructure) is a well-established Indian brand that has been in the power electronics market for over two decades. Its inverters have a loyal following in rural and semi-urban markets, particularly for off-grid and hybrid battery-based systems. UTL's reliability is adequate for its price positioning, but its short warranty terms (1–2 years) and lower-specification electronics mean that long-term reliability over a 25-year solar system life is less assured than for premium brands. In Tier-2 and Tier-3 markets, UTL's dense dealer network is its primary service advantage."
   - q: "Does Luminous make on-grid solar inverters?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Luminous lists solar inverters in more than one category, and some models are grid-tied while others are hybrid or off-grid backup units. Check the datasheet of the exact model to see which type it is, whether it supports net metering, and which grid-code setting it uses. Then ask the seller for the model's BIS registration and current certificates."
   - q: "Which Indian solar inverter brand has better after-sales service?"
     a: "Both UTL and Luminous have extensive India service networks, which is their shared advantage over most Chinese OEM brands. Luminous has a larger national service infrastructure backed by Schneider Electric's distribution reach, making it stronger in metros and large Tier-2 cities. UTL has deeper penetration in smaller towns and rural markets in states like UP, Bihar, Rajasthan, Jharkhand, and Odisha, where Luminous's coverage is thinner. The practical service experience in your specific location depends more on your city's dealer density than on the national comparison."
   - q: "How does Qbits compare to UTL and Luminous?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "Qbits sells inverters only, not panels or batteries. Its published range covers single-phase on-grid (QB 1.5 to 4.0KTLS, QB 4.2 to 6KTLS and QB 4/5/6 KTLD), three-phase on-grid (from QB 5 to 17KTLC up to larger Pro, Plus and EHV models) and hybrid (QBH single-phase and three-phase). Compare it with UTL and Luminous model by model: phase, DC string design, MPPT count and backup need first, then the written warranty, which Qbits' public datasheets describe as expandable without defining the base term. Current datasheets are at /download-datasheets/."
   - q: "Is Luminous owned by Schneider Electric?"
     a: "Yes. Luminous Power Technologies is majority-owned by Schneider Electric, one of the world's largest energy management companies. This ownership gives Luminous access to Schneider's global engineering resources, quality management systems, and financial stability. For Indian buyers, this translates to stronger warranty enforceability and more predictable long-term brand presence compared to purely Indian-funded brands. The Schneider connection is one of Luminous's most material competitive advantages in the Indian solar inverter market."
 ---
@@ -89,7 +89,7 @@ Luminous's UPS heritage gives its engineering team real power conversion experti
 | On-grid solar inverter range | Limited | Strong (NXI/NXT series) |
 | Off-grid / hybrid range | Strong | Adequate (Solar PCU range) |
 | Residential capacity range | 0.5–7.5 kW | 1–10 kW |
-| ALMM-listed models | Some models | Multiple models |
+| Inverter certificates | Verify exact model | Verify exact model |
 | Wi-Fi / app monitoring | Limited | Available on newer models |
 
 ## Pillar 2: Warranty Terms
@@ -173,7 +173,7 @@ Both UTL and Luminous are positioned well below the international premium tier (
 | --- | --- | --- |
 | **Luminous** | ✓ Schneider Electric backing = warranty enforceability | ✗ 2–5 year warranty still short for long-life systems |
 | | ✓ Broader product range including grid-tied | ✗ Premium over UTL in price - not always justified |
-| | ✓ ALMM-listed models for PM Surya Ghar | ✗ Rural service coverage not as deep as UTL |
+| | ✓ Broader range, so more models to check against subsidy and DISCOM requirements | ✗ Rural service coverage not as deep as UTL |
 | | ✓ Improving monitoring capability | ✗ Not engineering-first - UPS heritage, not solar-native |
 
 **Verdict:** Luminous leads on overall quality, product range, and warranty security. UTL leads on rural service depth and price. Neither brand offers a warranty term suitable for the full life of a 25-year solar system.
@@ -184,7 +184,7 @@ Buyers comparing UTL and Luminous for the first time frequently make avoidable e
 
 - **Choosing UTL solely on price**: The ₹5,000–₹10,000 upfront saving is real, but UTL's 1–2 year warranty means replacement risk begins almost immediately. See [the solar inverter buying mistakes guide](/blog/solar-inverter-buying-mistakes/) for how to avoid price-only decisions.
 - **Assuming Luminous is fully "solar-first"**: Luminous's core engineering heritage is in UPS and power conditioning. The solar inverter range is newer and less tested against long-term solar-specific stress factors than brands that have built inverters exclusively for solar from the start.
-- **Not checking ALMM listing at model level**: For PM Surya Ghar subsidy claims, ALMM listing must be verified at the exact model level on the MNRE portal. The fact that "Luminous has ALMM models" does not mean the specific unit your dealer is selling is listed.
+- **Not checking certificates at model level**: MNRE publishes ALMM lists for modules and cells and none for inverters, so for PM Surya Ghar claims ask for the exact inverter model's BIS registration and current certificates, and confirm DISCOM requirements. A brand's other approved models say nothing about the specific unit your dealer is selling.
 - **Ignoring monitoring capability**: UTL's monitoring is minimal. Luminous has improved, but neither brand offers WhatsApp-native monitoring. If you do not have an app that tells you when something is wrong, you find out when the electricity bill stays high next month, after weeks of lost generation.
 
 Elsewhere in the Heaven Group network, see [Luminous versus Microtek](https://www.heavengreenenergy.com/blog/luminous-vs-microtek-inverter) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).

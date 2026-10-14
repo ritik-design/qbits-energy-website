@@ -30,8 +30,6 @@ relatedTerms:
   - { slug: "isolator", term: "Isolator" }
   - { slug: "mcb", term: "MCB" }
   - { slug: "site-survey", term: "Site Survey" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
-  - { slug: "ground-mount", term: "Ground Mount" }
 faqs:
   - q: "What is conduit in simple words?"
     a: "A tube that holds and protects electrical cables. Like a sleeve around the wires that keeps them safe from sun, rain, rats and accidental damage."

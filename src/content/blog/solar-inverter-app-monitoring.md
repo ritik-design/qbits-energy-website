@@ -23,7 +23,7 @@ relatedSlugs:
   - "smart-solar-inverter"
 faqs:
   - q: "Which is the best Wi-Fi solar inverter in India?"
-    a: "There is no single winner for every home. GoodWe GW5000-DNS-30 has documented protocol and communication-module compatibility, but the included module needs confirmation. Qbits QB 5KTLD publishes Wi-Fi with optional RS485 or GPRS, while Qbits also publishes Android and iOS apps; the exact SKU-to-app pairing is not established publicly. Solis S6-GR1P5K-S has the clearest exact manual for optional Wi-Fi or GPRS and SolisCloud local access. Sungrow SG5.0RS-L connects to iSolarCloud, but its exact communication hardware remains unverified in the sources checked."
+    a: "There is no single winner for every home. GoodWe GW5000-DNS-30 has documented protocol and communication-module compatibility, but the included module needs confirmation. Qbits QB 5KTLD publishes Wi-Fi with optional RS485 or GPRS, while Qbits also publishes Android and iOS apps; the public documents do not say which app pairs with the exact SKU, so ask for that in writing. Solis S6-GR1P5K-S has the clearest exact manual for optional Wi-Fi or GPRS and SolisCloud local access. Sungrow SG5.0RS-L connects to iSolarCloud, but its exact communication hardware was not stated in the sources we checked."
   - q: "Is the Wi-Fi dongle included with a solar inverter?"
     a: "Do not assume it is included. A datasheet may list Wi-Fi compatibility without saying whether the logger, dongle, or antenna is inside the quoted package. Ask for the communication accessory name and part number in writing."
   - q: "Will solar monitoring stop if my home internet fails?"
@@ -36,7 +36,7 @@ faqs:
 
 The best Wi-Fi solar inverter is not the one with the longest app feature list. It is the one whose exact inverter, communication accessory, owner account, and alert path work together after the installer leaves.
 
-For a 5 kW, single-phase, on-grid home system in India, four candidates have enough official **app and monitoring evidence** to compare: **GoodWe GW5000-DNS-30, Qbits QB 5KTLD, Solis S6-GR1P5K-S, and Sungrow SG5.0RS-L**. The checked sources do not establish exact Wi-Fi hardware or exact app pairing for all four. Their published evidence differs enough that there is no honest universal winner.
+For a 5 kW, single-phase, on-grid home system in India, four candidates have enough official **app and monitoring documentation** to compare: **GoodWe GW5000-DNS-30, Qbits QB 5KTLD, Solis S6-GR1P5K-S, and Sungrow SG5.0RS-L**. The sources we checked do not state the exact Wi-Fi hardware or app pairing for all four. The published documentation differs enough that there is no honest universal winner.
 
 > **Quick verdict**
 > - **GoodWe GW5000-DNS-30:** best documented protocol and communication-module compatibility in this shortlist, subject to the exact module and firmware.
@@ -59,22 +59,22 @@ Qbits publishes this comparison and sells the QB 5KTLD. That commercial interest
 
 ## The comparison at a glance
 
-Evidence and page availability were checked on 26 September 2026.
+Documents and page availability were checked on 26 September 2026.
 
 | Exact model | Official monitoring route | Published inverter communication | Best documented fit | Important unknown before purchase |
 | --- | --- | --- | --- | --- |
 | GoodWe GW5000-DNS-30 | SEMS+ | DNS G3 publishes Modbus RTU and SunSpec; GoodWe's compatibility list maps DNS G3 to several plug-in communication modules subject to firmware | Buyer who wants documented integration options and will lock the exact module in the quote | Included module, owner register access, current India module availability, export rights, retention |
-| Qbits QB 5KTLD | Qbits Android and iOS apps exist; exact SKU pairing is unverified | Wi-Fi; optional RS485 or GPRS in current Qbits product data | Buyer who already prefers the QB 5KTLD electrically and can obtain a written monitoring bill of materials | Exact app pairing, logger inclusion, app fields for this SKU, owner export and transfer process |
+| Qbits QB 5KTLD | Qbits Android and iOS apps exist; exact SKU pairing is not stated publicly | Wi-Fi; optional RS485 or GPRS in current Qbits product data | Buyer who already prefers the QB 5KTLD electrically and can obtain a written monitoring bill of materials | Exact app pairing, logger inclusion, app fields for this SKU, owner export and transfer process |
 | Solis S6-GR1P5K-S | SolisCloud app and local Bluetooth connection in the exact manual | Wi-Fi or GPRS through optional communication devices | Buyer who wants the clearest exact-model setup trail and will order the named accessory | Included stick, India-applicable part number, data interval, export rights, retention |
-| Sungrow SG5.0RS-L | iSolarCloud | Communication hardware not established by the India launch source checked | Buyer whose installer can demonstrate the exact SG5.0RS-L setup before handover | Whether the quoted route is Wi-Fi, supplied logger, local interfaces, export, retention, owner transfer |
+| Sungrow SG5.0RS-L | iSolarCloud | Communication hardware not stated in the India launch source we checked | Buyer whose installer can demonstrate the exact SG5.0RS-L setup before handover | Whether the quoted route is Wi-Fi, supplied logger, local interfaces, export, retention, owner transfer |
 
 This table compares documentation, not product quality. A missing public answer may exist in an installer manual or commercial pack. Get it attached to the quote.
 
 ## 1. GoodWe GW5000-DNS-30: best documented protocol flexibility
 
-GoodWe's current [DNS G3 product page](https://en.goodwe.com/dns-g3) names the GW5000-DNS-30 in a 3 to 6 kW, single-phase, dual-MPPT range. It also publishes Modbus RTU and SunSpec support. Those protocols can support a local integration only when the exact interface, firmware, register map, and account permissions are documented. Their names alone do not prove owner access.
+GoodWe's current [DNS G3 product page](https://en.goodwe.com/dns-g3) names the GW5000-DNS-30 in a 3 to 6 kW, single-phase, dual-MPPT range. It also publishes Modbus RTU and SunSpec support. Those protocols can support a local integration only when the exact interface, firmware, register map, and account permissions are documented. Their names alone do not guarantee owner access.
 
-GoodWe's official [inverter and IoT compatibility list](https://en.goodwe.com/Ftp/EN/Downloads/User%20Manual/GW_Compatibility-list-of-GoodWe-inverters-and-IoT-products-EN.pdf) maps DNS G3 to several plug-in communication modules, with firmware conditions on some routes. It is compatibility evidence, not packing-list evidence. The document does not establish which module ships with a GW5000-DNS-30 quote or which compatible options are currently supplied in India.
+GoodWe's official [inverter and IoT compatibility list](https://en.goodwe.com/Ftp/EN/Downloads/User%20Manual/GW_Compatibility-list-of-GoodWe-inverters-and-IoT-products-EN.pdf) maps DNS G3 to several plug-in communication modules, with firmware conditions on some routes. It is a compatibility list, not a packing list. The document does not say which module ships with a GW5000-DNS-30 quote or which compatible options are currently supplied in India.
 
 The [GoodWe SEMS+ page](https://en.goodwe.com/sems-series-smart-energy-management-system) describes real-time plant monitoring, charts, alarms, maintenance functions, and different account levels for owners, installers, and EPC companies. The product page also links 24-hour load monitoring to a separate GoodWe HomeKit 1000.
 

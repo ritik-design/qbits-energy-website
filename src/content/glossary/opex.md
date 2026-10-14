@@ -26,12 +26,7 @@ relatedTerms:
   - { slug: "payback-period", term: "Payback Period" }
   - { slug: "ppa", term: "Power Purchase Agreement" }
   - { slug: "soiling", term: "Soiling" }
-  - { slug: "preventive-maintenance", term: "Preventive Maintenance" }
   - { slug: "resco", term: "RESCO" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
-  - { slug: "scada", term: "SCADA" }
-  - { slug: "cleaning", term: "Solar Cleaning" }
-  - { slug: "insurance", term: "Solar Insurance" }
 faqs:
   - q: "What is OPEX in simple words?"
     a: "The ongoing costs of running a solar plant. Cleaning, monitoring, repairs, insurance, taxes. Spread over the project's 25-year life."

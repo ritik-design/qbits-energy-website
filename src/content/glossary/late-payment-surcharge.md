@@ -25,13 +25,11 @@ relatedTerms:
   - { slug: "discom", term: "DISCOM" }
   - { slug: "cerc", term: "CERC" }
   - { slug: "serc", term: "SERC" }
-  - { slug: "secl", term: "SECI" }
   - { slug: "irr", term: "IRR" }
   - { slug: "wacc", term: "WACC" }
   - { slug: "rpo", term: "RPO" }
   - { slug: "tariff", term: "Tariff" }
   - { slug: "rec", term: "REC" }
-  - { slug: "open-access", term: "Open Access" }
 faqs:
   - q: "What is LPS in simple words?"
     a: "Rules that make DISCOMs pay solar developers on time by charging escalating penalties for delays. If DISCOM pays late, they pay extra."

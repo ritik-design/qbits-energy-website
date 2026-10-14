@@ -25,13 +25,10 @@ relatedTerms:
   - { slug: "cerc", term: "CERC" }
   - { slug: "serc", term: "SERC" }
   - { slug: "discom", term: "DISCOM" }
-  - { slug: "open-access", term: "Open Access" }
-  - { slug: "renewable-purchase-obligation", term: "RPO" }
+  - { slug: "rpo", term: "RPO" }
   - { slug: "rec", term: "Renewable Energy Certificate" }
   - { slug: "net-metering", term: "Net Metering" }
   - { slug: "tariff", term: "Tariff" }
-  - { slug: "captive-plant", term: "Captive Plant" }
-  - { slug: "electricity-amendment-bill", term: "Electricity Amendment Bill" }
 faqs:
   - q: "What is the Electricity Act 2003?"
     a: "India's primary electricity law. It restructured the electricity sector, separated generation, transmission and distribution, and created independent regulators."

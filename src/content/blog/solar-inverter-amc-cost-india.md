@@ -20,7 +20,7 @@ faqs:
   - q: "What does a solar AMC typically include?"
     a: "A standard solar AMC includes scheduled panel cleaning (monthly to quarterly), inverter inspection and error-log review, electrical safety checks on earthing and connections, performance verification against expected generation, and minor consumables such as fuses and connectors. Premium or comprehensive AMCs add thermal imaging of connectors, IV-curve testing of strings, inverter firmware updates, priority breakdown response, and sometimes component replacement. Always get the inclusion list in writing, because the word AMC alone guarantees nothing."
   - q: "Is an AMC necessary if my inverter has a model-specific written warranty?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "Not for the inverter itself, but you still need maintenance. A written warranty covers manufacturing defects in the inverter for a stated period, subject to its remedy, labour, freight and exclusion clauses. It does not cover panel cleaning, routine inspections or performance checks. Read the warranty line by line, and buy an AMC only for what the warranty leaves out, such as cleaning, earthing and connection checks and monitoring review. Paying an AMC to insure an inverter that is already under warranty means paying twice for the same risk."
   - q: "What is the difference between warranty and AMC?"
     a: "Warranty is a manufacturer promise that the product will be repaired or replaced if it fails due to a defect within a stated period, typically 5 to 12 years for string inverters, according to GreenLancer (2026). An AMC is a paid annual service agreement, usually with your installer or a third party, covering scheduled preventive work like cleaning, inspections, and minor repairs. Warranty responds to failures; AMC tries to prevent them. Labour and transport are often excluded from warranties, which is the gap AMC sellers target."
   - q: "How much does a single solar service visit cost in India?"
@@ -165,7 +165,7 @@ Also consider [solar insurance in India](/blog/solar-insurance-india/) for the r
 
 ## Qbits model documentation
 
-Qbits is the publisher, so treat this section as first-party context. the current published documents do not establish a 12-year term, full failure coverage, a response SLA, universal monitoring alerts or an AMC price. Obtain the exact model warranty and compare it with the proposed AMC line by line.
+Qbits is the publisher, so treat this section as first-party context. Qbits' public datasheets describe an expandable warranty but do not define the base term, the remedy, a response SLA or universal monitoring alerts, and they carry no AMC price. Obtain the exact model warranty and compare it with the proposed AMC line by line.
 
 The AMC should state preventive checks, exclusions, visits, labour, travel, parts, cleaning, monitoring and emergency response. Basic [solar inverter troubleshooting](/blog/solar-inverter-troubleshooting/) may help classify a fault, but unsafe or unresolved conditions require a qualified person and the model-specific service route.
 

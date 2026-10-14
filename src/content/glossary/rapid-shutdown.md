@@ -27,7 +27,6 @@ relatedTerms:
   - { slug: "isolator", term: "Isolator" }
   - { slug: "anti-islanding", term: "Anti-Islanding" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "voltage", term: "Voltage" }
   - { slug: "mc4-connector", term: "MC4 Connector" }
   - { slug: "earthing", term: "Earthing" }

@@ -27,11 +27,8 @@ relatedTerms:
   - { slug: "lfp-battery", term: "LFP Battery" }
   - { slug: "bms", term: "BMS" }
   - { slug: "mppt", term: "MPPT" }
-  - { slug: "ems", term: "Energy Management System" }
   - { slug: "round-trip-efficiency", term: "Round Trip Efficiency" }
   - { slug: "battery-soc", term: "Battery SOC" }
-  - { slug: "self-consumption", term: "Self Consumption" }
-  - { slug: "dc-bus", term: "DC Bus" }
   - { slug: "grid-forming-inverter", term: "Grid-Forming Inverter" }
   - { slug: "string-sizing", term: "String Sizing" }
 faqs:

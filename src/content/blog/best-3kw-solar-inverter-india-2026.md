@@ -120,7 +120,7 @@ Answer capsule: a useful brand comparison at 3 kW compares configuration, not re
 
 Two things are worth reading off that table. Most single-phase 3 kW units are single-MPPT, so a split roof narrows your shortlist fast. And the dual-MPPT single-phase option in the Qbits range begins at 4 kW, a pattern that repeats across brands.
 
-Qbits states it is ALMM Phase III listed. Treat that as the company's own statement and ask for the current certificate covering the exact model you are buying. Whatever you shortlist, pull the model-specific document from a source like the [Qbits datasheet library](/download-datasheets/) and compare like with like. A brochure summary is not a datasheet.
+MNRE publishes no ALMM list for inverters, so ask the seller for the exact model's BIS registration and current certificates, and for PM Surya Ghar confirm the requirements with your DISCOM. Whatever you shortlist, pull the model-specific document from a source like the [Qbits datasheet library](/download-datasheets/) and compare like with like. A brochure summary is not a datasheet.
 
 ## Warranty terms, compared properly
 

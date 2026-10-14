@@ -11,7 +11,7 @@ keywords:
   - pure sine wave inverter
   - sine wave solar inverter
   - quality solar inverter
-shortDefinition: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+shortDefinition: "A sine wave inverter converts DC into AC with a smooth sine-shaped waveform, the same shape as grid power, so that motors, electronics and grid-tied systems run properly on its output."
 quickFacts:
   industry: "Solar Inverters"
   primaryUse: "Producing grid-quality AC from DC"
@@ -38,7 +38,7 @@ faqs:
   - q: "What is a sine wave inverter in simple words?"
     a: "An inverter that produces clean, smooth AC electricity suitable for any device, identical in quality to grid power."
   - q: "Are all solar inverters sine wave?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Grid-tied solar inverters must output a sine wave to synchronise with the grid, so on-grid and hybrid solar inverters are sine wave. Some low-cost home UPS and off-grid inverters still use a modified (stepped) sine wave, which can make motors hum and some electronics run hot. The datasheet states the waveform."
   - q: "Sine wave vs square wave?"
     a: "Sine wave: smooth sinusoidal, universal compatibility. Square wave: harsh stepped output, limited compatibility."
   - q: "What is the difference between sine wave and pure sine wave?"

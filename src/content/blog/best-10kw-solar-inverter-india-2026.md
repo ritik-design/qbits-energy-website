@@ -106,7 +106,7 @@ Answer capsule: five datasheet lines decide the outcome. MPPT count against your
 
 **Ingress protection.** The Qbits catalogue lists IP66 across its series. At 10 kW the unit is often wall-mounted outdoors near the array to keep DC runs short, which makes the enclosure rating matter more than on a shaded indoor 3 kW install.
 
-Pull the model-specific document rather than a brochure summary. Qbits states it is ALMM Phase III listed. Treat that as the company's own statement and ask for the current certificate covering the exact model you are buying.
+Pull the model-specific document rather than a brochure summary. MNRE publishes no ALMM list for inverters, so ask the seller for the exact model's BIS registration and current certificates, and for PM Surya Ghar confirm the requirements with your DISCOM.
 
 ## String sizing and the DC to AC ratio
 

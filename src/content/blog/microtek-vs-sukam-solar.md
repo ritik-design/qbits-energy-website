@@ -22,23 +22,23 @@ faqs:
   - q: "Is Su-Kam still in business in 2026?"
     a: "Su-Kam Power Systems still exists as a company and its products remain on sale through dealers and online marketplaces, but the business is a shadow of its pre-2019 self. The company entered insolvency proceedings around 2019, and its founder has publicly described how the dealer and service network dissolved during that period. You can still buy Su-Kam inverters and solar PCUs, but verify local service availability and spare-parts support before committing to a 10-year-plus ownership horizon."
   - q: "Does Microtek make MPPT solar inverters?"
-    a: "Yes. Microtek's current solar range uses MPPT (Maximum Power Point Tracking) charge controllers, which extract 20 to 30 percent more energy than the older PWM technology. However, Microtek still sells legacy PWM-based solar UPS models at the budget end, so check the exact model's specification sheet before buying. For any system above 1 kW, or any installation claiming PM Surya Ghar subsidy, insist on an MPPT-based, ALMM-listed model."
+    a: "Yes. Microtek's current solar range uses MPPT (Maximum Power Point Tracking) charge controllers, which extract 20 to 30 percent more energy than the older PWM technology. However, Microtek still sells legacy PWM-based solar UPS models at the budget end, so check the exact model's specification sheet before buying. For any system above 1 kW, or any installation claiming PM Surya Ghar subsidy, insist on an MPPT-based model with its exact-model certificates in hand, and ALMM-listed modules."
   - q: "What warranty do Microtek and Su-Kam offer on solar inverters?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "Microtek advertises up to 10 years on its grid-tie inverters and typically 2 to 5 years on solar PCUs, depending on the model line. Su-Kam solar PCUs commonly carry 2 to 3 years through current dealer listings, and enforcement after its insolvency depends on the regional support the current company provides. Whichever you choose, get the warranty certificate for the exact model in writing and ask whether the remedy is repair or replacement and who honours claims locally."
   - q: "Are Microtek and Su-Kam inverters eligible for PM Surya Ghar subsidy?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Subsidy eligibility depends on the system, not the brand. Under PM Surya Ghar the system must be grid-connected, use ALMM-listed modules and go through a registered vendor, so off-grid PCUs from either brand do not qualify. MNRE publishes no ALMM list for inverters, so for an on-grid Microtek or Su-Kam model check the exact model's BIS registration and current certificates, and confirm the DISCOM's requirements."
   - q: "Which is better for a power-cut area, Microtek or Su-Kam?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "For a power-cut area you need a unit that stores energy, meaning a solar PCU or hybrid inverter with a battery. Microtek's PCUs are the more current choice, with MPPT charge control and an active dealer network, but most models lack fast automatic switchover, zero-export control and lithium BMS communication. Su-Kam's hybrid PCUs follow an older UPS design with solar charging added, and service depends on the individual dealer. If outages are frequent, shortlist a true hybrid inverter and compare switchover behaviour, battery compatibility and written service terms."
 featured: false
 ---
 
-> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+> **Qbits warranty and service terms:** Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline, service response time, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 About 500 people a month search "microtek vs sukam" before buying a solar inverter. Most of them are in Tier-2 and Tier-3 towns, sitting between two names they grew up with. Both brands earned their reputations in the 2000s backup-power era, when every Indian home needed an inverter and battery to survive load shedding. That history is exactly why this comparison is harder than it looks.
 
-The solar market of 2026 is not the UPS market of 2010. Today's buyer needs [MPPT](/glossary/mppt/) charge control, grid-tie compliance, ALMM listing for [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy, and a service network that will still answer the phone in year eight. Legacy brand trust helps, but it does not guarantee any of those four things.
+The solar market of 2026 is not the UPS market of 2010. Today's buyer needs [MPPT](/glossary/mppt/) charge control, grid-tie compliance, ALMM-listed modules for [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy, and a service network that will still answer the phone in year eight. Legacy brand trust helps, but it does not guarantee any of those four things.
 
 This post compares Microtek and Su-Kam on what actually matters for a solar purchase in 2026: current solar range, technology currency, warranty depth, service reality, and price. We also show where a modern specialist brand fits, because the honest answer for many buyers is neither of the two.
 
@@ -93,11 +93,11 @@ Prices below are inverter-only street prices for mid-2026, excluding panels, bat
 | Comparison item | Microtek | Su-Kam | Qbits |
 | --- | --- | --- | --- |
 | Exact model and electrical role | Verify current document | Verify current document | Use the current product library and model datasheet |
-| Dated price | Obtain seller quote | Obtain seller quote | not established until quoted |
-| Warranty and remedy | Obtain current written policy | Obtain current written policy | Universal term and remedy not established; catalogue says expandable warranty |
-| Monitoring | Verify included hardware and service | Verify included hardware and service | Model-specific interface; AI and WhatsApp defaults not established |
+| Dated price | Obtain seller quote | Obtain seller quote | Obtain seller quote |
+| Warranty and remedy | Obtain current written policy | Obtain current written policy | Public datasheets describe an expandable warranty without a base term; get the written warranty |
+| Monitoring | Verify included hardware and service | Verify included hardware and service | Model-specific interface; check the datasheet before assuming AI or WhatsApp features |
 | Compliance | Match exact model documents to project | Match exact model documents to project | Match exact model documents to project; ALMM is not an inverter list |
-| Service | Confirm postcode and responsible party | Confirm postcode and responsible party | Coverage and response time not established until confirmed in writing |
+| Service | Confirm postcode and responsible party | Confirm postcode and responsible party | Confirm coverage and response time in writing |
 
 Microtek's 3 kW solar pricing of ₹32,000 to ₹48,000, according to [pmsgcalculator.in](https://pmsgcalculator.in/article-solar-inverter-selection-guide-string-vs-micro-vs-hybrid.html), 2026, makes it one of the cheapest MPPT routes into solar. Su-Kam undercuts even that at the small end, but the saving shrinks fast once you price in warranty risk and limited model availability.
 
@@ -107,12 +107,13 @@ This section matters more than any spec comparison if you are buying a subsidise
 
 Three rules trip buyers up:
 
+1. **Modules must be ALMM-listed.** MNRE publishes ALMM List-I for modules and List-II for cells, and no list for inverters, so check the inverter's exact-model certificates and the DISCOM's requirements separately.
 2. **The system must be grid-connected.** Off-grid PCUs from either brand do not qualify, regardless of ALMM status. A Microtek or Su-Kam PCU with batteries is an off-grid or backup system in the scheme's eyes.
 3. **The vendor must be registered.** The subsidy application flows through the PM Surya Ghar portal via an empanelled installer.
 
 ## Where Qbits Fits as the Modern Alternative
 
-We make inverters, so read this section as an informed party, not a neutral referee. The case for considering Qbits alongside these two legacy names rests on four verifiable facts.
+We make inverters, so read this section as an informed party, not a neutral referee. The case for considering Qbits alongside these two legacy names is one of design fit, not price or warranty. Qbits lists single-phase on-grid inverters (the QB 1.5 to 4.0KTLS and QB 4.2 to 6KTLS ranges) and QBH hybrid inverters, all with IP66 listed, so a net-metered rooftop and a power-cut home can each find a matching family. Check the current datasheets at [download-datasheets](/download-datasheets/) for the exact model.
 
 ## The Tradeoffs: When Each Brand Is the Right Call
 
@@ -126,7 +127,7 @@ No comparison is honest without admitting where the other side wins. Here is the
 
 Whichever way you lean, run these five checks with your dealer before paying an advance:
 
-1. Ask for the exact model number and check its ALMM status on the MNRE portal if you want subsidy.
+1. Ask for the exact model number and its BIS registration and current certificates, and check that the modules are ALMM-listed if you want subsidy.
 2. Confirm MPPT, not PWM, on the specific unit's datasheet for anything above 1 kW.
 3. Get the warranty term in writing, including whether it is full replacement or repair-only, and who honours it locally.
 4. Ask the dealer how many warranty claims they have processed for that brand in the past 12 months.
@@ -143,5 +144,5 @@ Microtek vs Su-Kam in 2026 is not a close fight. Microtek has the living product
 Your three next steps:
 
 - Shortlist by topology first: decide on-grid, hybrid, or off-grid using your outage hours, then compare models within that category.
-- Verify ALMM listing and warranty terms for the exact quoted model, in writing, before paying any advance.
+- Verify the exact quoted model's certificates and warranty terms, in writing, before paying any advance.
 [Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

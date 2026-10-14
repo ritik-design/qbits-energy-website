@@ -21,22 +21,22 @@ relatedSlugs:
   - "how-to-choose-solar-inverter-for-home-india"
 faqs:
   - q: "Is Qbits a good solar inverter for a home?"
-    a: "Qbits is reasonable to shortlist when the exact model's current electrical specifications fit the proposed solar array and the seller supplies the missing warranty, certificate, monitoring, compatibility and service documents. Public product documents alone do not establish universal reliability or service outcomes."
+    a: "Qbits is reasonable to shortlist when the exact model's current electrical specifications fit the proposed solar array and the seller supplies the missing warranty, certificate, monitoring, compatibility and service documents. Public product documents alone cannot show how any inverter will perform or be serviced at your address."
   - q: "Does a Qbits on-grid inverter provide backup during a power cut?"
-    a: "The QB-5KTLD reviewed here is an on-grid inverter, not a backup system. Do not assume it can power loads during an outage. If backup is required, compare an exact hybrid model, compatible battery, defined backup output, changeover behaviour and protected-load design."
+    a: "The QB-5KTLD is an on-grid inverter, not a backup system. Do not assume it can power loads during an outage. If backup is required, compare an exact hybrid model, compatible battery, defined backup output, changeover behaviour and protected-load design."
   - q: "What warranty does a Qbits inverter have?"
-    a: "The current public datasheets reviewed use the phrase expandable warranty, but they do not establish the base term, extension price, registration deadline, remedy, labour or freight terms, or exclusions. Obtain the complete written warranty for the exact model and invoice before payment."
+    a: "Qbits' public datasheets describe an expandable warranty but do not define the base term, extension price, registration deadline, remedy, labour or freight terms, or exclusions. Obtain the complete written warranty for the exact model and invoice before payment."
   - q: "Is the QBH-5KS48P compatible with every 48 V lithium battery?"
-    a: "No such universal compatibility is established. Its product document states a 48 V battery class and lead-acid or lithium support, but buyers still need written confirmation for the exact battery model, battery-management-system protocol, firmware, current limits and warranty pairing."
+    a: "Not automatically. Its product document states a 48 V battery class and lead-acid or lithium support, but buyers still need written confirmation for the exact battery model, battery-management-system protocol, firmware, current limits and warranty pairing."
   - q: "Are Qbits inverters BIS certified?"
-    a: "A reviewed Qbits datasheet prints standards and a BIS registration number, but a datasheet is not the current exact-model certificate file. Ask for the applicable certificate, verify the named company and model coverage, and confirm current DISCOM or scheme requirements separately."
+    a: "A Qbits datasheet prints standards and a BIS registration number, but a datasheet is not the current exact-model certificate file. Ask for the applicable certificate, verify the named company and model coverage, and confirm current DISCOM or scheme requirements separately."
   - q: "Which Qbits model should I choose?"
     a: "Choose the operating type before the brand or kW rating. Use an on-grid model when the project is designed for grid-connected generation without battery backup, or a hybrid model only when its battery and backup specifications match the required loads. Have an installer validate the exact module strings, phase, current, voltage and protection design."
 ---
 
-**Qbits can be a reasonable inverter to shortlist, but the public evidence does not support an unconditional “yes.”** A good choice is an exact model whose electrical limits fit the project and whose seller supplies the warranty, certificate, monitoring, compatibility and service documents that the public product sheet does not settle.
+**Qbits can be a reasonable inverter to shortlist, but public datasheets alone do not support an unconditional “yes.”** A good choice is an exact model whose electrical limits fit the project and whose seller supplies the warranty, certificate, monitoring, compatibility and service documents that the public product sheet does not settle.
 
-**Disclosure:** Qbits publishes this article and sells the products being evaluated. This is a document audit, not an independent long-term test or a customer-review study. We do not use Qbits' own marketing claims as proof of field reliability, service quality or customer outcomes.
+**Disclosure:** Qbits publishes this article and sells the products being evaluated. This is a review of published documents, not an independent long-term test or a customer-review study. We do not use Qbits' own marketing claims as proof of field reliability, service quality or customer outcomes.
 
 > **The short version**
 >
@@ -44,7 +44,7 @@ faqs:
 > - The QB-5KTLD sheet publishes two MPPTs, 5 kW rated output, IP66 and separate maximum and European efficiency figures.
 > - The QBH-5KS48P sheet publishes a 48 V battery class, 5 kW rated off-grid output, IP66 and lead-acid or lithium support.
 > - Those specifications are manufacturer statements. They are not independent reliability results.
-> - Public material reviewed here does not establish complete warranty terms, exact battery compatibility, current exact-model certificate files, service outcomes or monitoring-account terms.
+> - Public material does not give complete warranty terms, exact battery compatibility, current exact-model certificate files, service outcomes or monitoring-account terms.
 > - Download the exact datasheet, then close those gaps in writing before paying.
 
 ## What “good” means in this review
@@ -62,7 +62,7 @@ We use six checks:
 
 This method deliberately excludes popularity, sales claims and brochure superlatives. A large installation count would not prove that the quoted model suits your array. An efficiency percentage would not prove a low field-failure rate. A service-network number would not prove response time at your address.
 
-## What current Qbits documents establish
+## What current Qbits documents publish
 
 Qbits publishes model-family documents for current on-grid and hybrid products. That is useful because a buyer can inspect phase, rated output, Maximum Power Point Tracking (MPPT) layout, input-voltage limits, efficiency, communications and enclosure rating before accepting a quote.
 
@@ -86,11 +86,11 @@ The values come from Qbits' current family datasheets. They should be read as se
 
 If a quote uses a different suffix, stop using this table. Similar model names can have different phase, MPPT, current, voltage or communications details. Use the [Qbits datasheet library](/download-datasheets/) to locate the family document, then request the exact installation manual and sale documents.
 
-## What the public documents do not establish
+## What the public documents do not tell you
 
-The evidence gaps are the most important part of an honest Qbits inverter review.
+The gaps in the public documents are the most important part of an honest Qbits inverter review.
 
-The reviewed public material does not establish:
+The public datasheets do not tell you:
 
 - comparative failure rates or expected service life;
 - independently measured energy yield at Indian homes;
@@ -140,11 +140,11 @@ For lead-acid batteries, ask for the bank configuration, capacity, charge settin
 
 The same discipline applies to backup performance. The QBH document publishes 5,000 W rated off-grid output for this model. That does not promise that every household load will start or run together. The installer must produce an essential-load schedule with running watts, motor-starting demand, allowed simultaneous loads and expected battery runtime.
 
-The datasheet wording reviewed for the QBH family describes switching within **10 seconds**. Do not let that become “instant” or “milliseconds” in a sales conversation. If an uninterrupted supply is critical for a computer, medical device, server or control system, obtain the exact transfer behaviour and design a suitable power-quality solution around the real requirement.
+The datasheet wording for the QBH family describes switching within **10 seconds**. Do not let that become “instant” or “milliseconds” in a sales conversation. If an uninterrupted supply is critical for a computer, medical device, server or control system, obtain the exact transfer behaviour and design a suitable power-quality solution around the real requirement.
 
 ## Get the warranty before comparing years
 
-The reviewed Qbits datasheets use the phrase **“Expandable Warranty.”** That phrase does not establish the base term or what an extension covers.
+Qbits' public datasheets describe an **“Expandable Warranty”** but do not define the base term, what an extension covers, the registration deadline or the exclusions.
 
 Before payment, request one document tied to the exact model and invoice that states:
 
@@ -162,7 +162,7 @@ Do not rely on a verbal period or a number copied from a general catalogue. The 
 
 ## Verify certificates and project approval separately
 
-The reviewed QB-5KTLD family datasheet prints standards and a BIS registration number. That is not the same as having the current certificate file in hand.
+The QB-5KTLD family datasheet prints standards and a BIS registration number. That is not the same as having the current certificate file in hand.
 
 Ask for the applicable document, then check:
 
@@ -200,7 +200,7 @@ Ask the seller or service contact:
 
 - Do you handle this exact model in my pincode?
 - Who performs commissioning and retains the record?
-- What evidence is required to open a case?
+- What documents are required to open a case?
 - Which faults can be diagnosed remotely?
 - Are labour, travel and freight chargeable?
 - Where is the unit sent if a workshop repair is needed?
@@ -214,7 +214,7 @@ Keep the answers in writing. This is more useful than a nationwide network numbe
 
 **Pause** when the proposal shows only a brand and kW number, uses an on-grid model to promise backup, assumes any 48 V battery will work, offers a warranty period without terms, or presents a logo as proof of exact-model certification.
 
-Also pause if the seller refuses to show the string calculation or essential-load schedule. Those are not optional details. They are the design evidence that connects an inverter specification to your roof and appliances.
+Also pause if the seller refuses to show the string calculation or essential-load schedule. Those are not optional details. They are the design records that connect an inverter specification to your roof and appliances.
 
 ## The final Qbits inverter document checklist
 

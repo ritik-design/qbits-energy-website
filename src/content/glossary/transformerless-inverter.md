@@ -43,7 +43,7 @@ faqs:
   - q: "What topologies are transformerless?"
     a: "H5, H6, HERIC, NPC (Neutral Point Clamped), T-type, and active NPC variants. All eliminate the line-frequency transformer."
   - q: "Is transformerless ALMM-listed?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "ALMM does not list inverters of any design, transformerless or otherwise; it covers only solar modules and cells. For a transformerless inverter, ask for the exact model's BIS registration, safety test reports and details of its DC-injection and residual-current protection, and confirm any DISCOM requirement."
   - q: "Are transformerless inverters safe?"
     a: "Yes when properly designed with Type B RCCB, ground fault detection and PV insulation monitoring per IEC 62109."
   - q: "Do transformerless inverters need special earthing?"

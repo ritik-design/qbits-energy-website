@@ -29,7 +29,6 @@ relatedTerms:
   - { slug: "voltage", term: "Voltage" }
   - { slug: "mc4-connector", term: "MC4 Connector" }
   - { slug: "string-sizing", term: "String Sizing" }
-  - { slug: "short-circuit-current", term: "Short Circuit Current" }
   - { slug: "dc-cable", term: "DC Cable" }
   - { slug: "junction-box", term: "Junction Box" }
   - { slug: "open-circuit-voltage", term: "Open Circuit Voltage" }

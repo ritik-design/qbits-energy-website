@@ -30,7 +30,6 @@ relatedTerms:
   - { slug: "bidirectional-meter", term: "Bidirectional Meter" }
   - { slug: "resco", term: "RESCO" }
   - { slug: "capex", term: "CAPEX" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "smart-meter", term: "Smart Meter" }
   - { slug: "rpo", term: "RPO" }
 faqs:

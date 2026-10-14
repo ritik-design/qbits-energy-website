@@ -142,7 +142,7 @@ The Indian Renewable Energy Development Agency ([IREDA](https://www.ireda.in/)) 
 - **Processing time**: 15–30 working days.
 - **Security**: Hypothecation of the solar assets; no collateral required below ₹10 lakh.
 
-IREDA loans are disbursed directly to the installer after verification that the vendor is on the MNRE-approved list. This protects borrowers from fraudulent installers, a material risk in a market where quality varies widely. The [ALMM list and Phase III compliance guide](/blog/almm-list-phase-iii-guide/) explains how to verify whether your installer's equipment qualifies. For the full Suryodaya scheme breakdown, partner bank list, and EMI worked examples, see the [IREDA solar loan guide](/blog/solar-loan-ireda/).
+IREDA loans are disbursed directly to the installer after verification that the vendor is on the MNRE-approved list. This protects borrowers from fraudulent installers, a material risk in a market where quality varies widely. The [ALMM scope guide](/blog/almm-list-phase-iii-guide/) explains how to verify whether your installer's modules and cells are on the lists and why no inverter list exists. For the full Suryodaya scheme breakdown, partner bank list, and EMI worked examples, see the [IREDA solar loan guide](/blog/solar-loan-ireda/).
 
 IREDA has disbursed over ₹65,000 crore in renewable energy loans since inception, and the individual solar loan book has grown at 40%+ annually since the PM Surya Ghar scheme launched. *Source - [IREDA Annual Report 2025–26](https://www.ireda.in/).*
 

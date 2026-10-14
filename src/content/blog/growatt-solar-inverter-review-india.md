@@ -20,7 +20,7 @@ faqs:
   - q: "What is the Growatt warranty period in India?"
     a: "The warranty documentation we have seen for Growatt models sold in India states a 5-year standard term covering parts and repair labour rather than full unit replacement. Extended warranty options exist in some markets, but availability through Indian dealers varies. On a repair-based warranty, the usual remedy is a technician visit or a spare part rather than an automatic replacement unit, which is a different commitment from the full-replacement warranties some other brands publish. Terms can change by model and by year, so always confirm the current warranty document in writing with your dealer before purchase."
   - q: "Is Growatt ALMM listed in India?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "MNRE publishes ALMM List-I for solar modules and List-II for cells, and no ALMM list for inverters, so there is no inverter ALMM listing to check for Growatt or any other brand. Ask your seller for the exact Growatt model's BIS registration and current certificates. If you are applying for the PM Surya Ghar subsidy, confirm the inverter requirements with your DISCOM before you buy."
   - q: "Which Growatt model is best for home use in India?"
     a: "For a standard Indian residential rooftop of 3 to 10 kW, the Growatt MID series (MID 3000-10000TL3-X) is the appropriate choice. It covers single-phase and three-phase configurations, supports dual-MPPT tracking for split-orientation roofs, and connects to the ShinePhone monitoring app. The MID series is widely stocked by Indian distributors and EPCs. For buyers who want battery backup capability, the SPF series covers off-grid and hybrid applications, though the monitoring and feature set is more basic compared to dedicated hybrid platforms."
   - q: "Is Growatt reliable long-term in India?"
@@ -32,7 +32,7 @@ faqs:
   - q: "What is the ShinePhone app and how good is it?"
     a: "ShinePhone is Growatt's proprietary monitoring application, available on Android and iOS. It provides real-time power generation data, yield history, system fault alerts, and basic energy analytics. For residential users, ShinePhone is functional and covers the monitoring essentials without overwhelming complexity. Compared to Sungrow's iSolarCloud or WhatsApp-native monitoring platforms, the ShinePhone build we used did not surface advanced fleet management, detailed string-level diagnostics, or AI-driven anomaly detection; app feature sets change with updates, so check the current version before relying on this. For a single home system, it is adequate; for an EPC managing dozens of sites, it falls short."
   - q: "Can I get PM Surya Ghar subsidy with a Growatt inverter?"
-    a: "MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models, then obtain the inverter documents required by the scheme and DISCOM separately."
+    a: "Subsidy approval depends on the scheme's conditions and your DISCOM, not on the inverter brand alone. Under PM Surya Ghar the modules must meet the scheme's requirements, including ALMM and domestic-content conditions, and MNRE publishes no ALMM list for inverters. For the Growatt inverter, collect the exact model's BIS registration and current certificates, and ask the DISCOM or the empanelled vendor to confirm in writing whether any inverter condition applies before you order."
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
@@ -113,7 +113,7 @@ Rather than a generic evaluation, this framework applies six India-specific crit
 
 5. **Grid compatibility for Indian conditions**: 6/10. Growatt inverters operate within the voltage and frequency bands required by Indian grid standards. The MID series handles the 230 V single-phase Indian grid adequately. The public documentation we reviewed for these models does not detail India-specific tuning for the tolerance variations (frequency excursions, voltage sag, and undervoltage ride-through) common in Tier-2 and Tier-3 DISCOM areas, in the way brands that market India-grid-tuned firmware do. This is a documentation gap we observed, not evidence of higher failure rates in weak-grid areas, and the manufacturer may be able to supply the detail on request. Understanding the [temperature coefficient](/glossary/temperature-coefficient/) behaviour of both panels and inverters is important for Indian rooftop performance modelling.
 
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
+6. **Certification and compliance documents**: 5/10. MNRE publishes no ALMM list for inverters, so there is no ALMM listing to show for Growatt or any other inverter brand. The buyer has to check the exact model's BIS registration and current certificates instead, and distributors do not always hand these over unprompted. Ask for them before paying a deposit, and for PM Surya Ghar confirm any inverter requirement with your DISCOM.
 
 This framework gives Growatt an aggregate score of approximately **34/60** (57%) on India-specific criteria, a mid-range result that correctly reflects a mid-market brand: not the best choice for buyers who prioritise warranty depth and service certainty, but a legitimate option for price-sensitive buyers with reliable local distributor access.
 
@@ -134,7 +134,7 @@ A pricing gap is usually present in the quotations we see, though its size is no
 
 > **₹25,000–₹35,000.** The approximate cost of replacing a 5 kW string inverter in India in 2026, including supply and installation labour. This is the financial exposure a buyer takes if their inverter fails after the warranty period. *Source - [Mercom India Solar Market Report](https://www.mercomindia.com/), Q1 2026.*
 
-For a detailed side-by-side worksheet covering Growatt, Sungrow and Qbits, see the [Qbits vs Sungrow vs Growatt comparison](/blog/qbits-vs-sungrow-vs-growatt/). The dedicated [Qbits vs Growatt comparison](/blog/qbits-vs-growatt-honest-comparison/) can help if you have exact quotations in hand. Qbits manufacturing origin is not established from the current published documents.
+For a detailed side-by-side worksheet covering Growatt, Sungrow and Qbits, see the [Qbits vs Sungrow vs Growatt comparison](/blog/qbits-vs-sungrow-vs-growatt/). The dedicated [Qbits vs Growatt comparison](/blog/qbits-vs-growatt-honest-comparison/) can help if you have exact quotations in hand. Qbits' public datasheets do not state where its inverters are manufactured, so ask the seller for the country of origin in writing.
 
 ## Growatt Performance on Indian Rooftops: Temperature Derating and Efficiency
 
@@ -182,7 +182,7 @@ This section applies the 6-Point framework results to specific buyer profiles. T
 
 **Growatt is the wrong choice for:**
 
-- **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify the exact module/cell models and check inverter documents separately.
+- **Buyers who need certificate paperwork up front**, because MNRE publishes no ALMM list for inverters and the exact model's BIS registration and certificates must be obtained from the distributor. If a distributor cannot supply them, choose another seller.
 - **Buyers in Tier-2 and Tier-3 cities** where no active local distributor can be identified, since in our experience that is what makes after-sales resolution times unpredictable. Check your own pincode before ruling it in or out.
 - **Buyers prioritising warranty depth** as a primary criterion, the 5-year repair warranty is a genuine weakness against 10-year full-replacement alternatives.
 - **Coastal and high-humidity installations** where IP66 protection provides a meaningful reliability advantage over IP65.
@@ -195,13 +195,13 @@ This section applies the 6-Point framework results to specific buyer profiles. T
 | | ✓ Dual-MPPT for split roofs | ✗ IP65 (not IP66) on standard models |
 | | ✓ ShinePhone adequate for home use | ✗ ShinePhone thin on EPC fleet tools |
 | **Growatt SPF (Hybrid)** | ✓ Battery backup capability | ✗ Basic hybrid management in our view |
-| | ✓ One-brand sourcing for EPCs | ✗ ALMM status requires verification |
+| | ✓ One-brand sourcing for EPCs | ✗ Certificates need checking per model |
 
 ## Common Mistakes When Buying Growatt in India
 
 Several avoidable errors appear repeatedly when Indian buyers purchase Growatt inverters. Understanding these before purchase saves significant frustration later.
 
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
+**Assuming an ALMM listing covers the inverter.** MNRE publishes ALMM lists for modules and cells only. Ask for the exact Growatt model's BIS registration and current certificates, and confirm any inverter condition for PM Surya Ghar with your DISCOM.
 
 **Not confirming the warranty terms in writing.** The standard term on the documents we reviewed is a 5-year repair warranty. Verbal summaries at the point of sale can blur the difference between repair and replacement cover, whichever brand is being sold. Get the warranty card and read the specific terms before paying a deposit.
 

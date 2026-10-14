@@ -232,7 +232,7 @@ Elsewhere in the Heaven Group network, see [how to evaluate installer credibilit
 - A hybrid system can serve selected loads only when the exact inverter, battery and backup distribution are designed for them.
 - Monitoring access, alert channels and account transfer between tenants must be confirmed for the exact logger and application.
 - PM Surya Ghar eligibility depends on the applicant, connection, vendor, equipment and current process. ALMM is not an inverter list.
-- Warranty duration, remedy and transfer to a later tenant or owner are not established until stated in current written terms.
+- Warranty duration, remedy and transfer to a later tenant or owner depend on the written terms for the exact model, so get those terms before you buy.
 
 - **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[On-Grid Inverters](/on-grid-inverter/)**: for tenant-landlord agreements where the grid connection and net metering is the primary goal.

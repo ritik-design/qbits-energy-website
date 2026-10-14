@@ -19,7 +19,7 @@ faqs:
   - q: "Is a 12-year inverter warranty better than a 10-year one?"
     a: "Not automatically. Duration and remedy are separate contract terms, and a longer term with discretionary repair can deliver less than a shorter term with full unit replacement and stated freight cover. The start date matters just as much, because a term measured from factory dispatch can lose several months before the system is even commissioned. Compare the remedy, the start event, the exclusions and the cost liability before comparing the year count."
   - q: "What term does Qbits publish for its inverters?"
-    a: "Qbits publishes an expandable warranty, and the note carried on every Qbits product page states that the public datasheets do not define the base term, remedy, registration deadline or exclusions. So there is no published Qbits figure to rely on, and that includes any 12 year figure you may have seen quoted elsewhere. Obtain the current written warranty for your exact model and date of purchase, then read it against the four items in this guide."
+    a: "Qbits' public datasheets describe an expandable warranty but do not give the base term, the remedy, the registration deadline or the exclusions. So there is no published Qbits figure to rely on, and that includes any 12 year figure you may have seen quoted elsewhere. Obtain the current written warranty for your exact model and date of purchase, then read it against the four items in this guide."
   - q: "Why do inverters above 30 kW often carry a shorter warranty?"
     a: "Larger units sit in commercial and industrial service, where they run more hours at higher loading and in harsher plant-room conditions. The replacement unit costs more, and access, freight and lifting equipment cost more again. Commercial buyers also tend to negotiate a priced extended warranty and an operations and maintenance contract rather than rely on a consumer-style term. A shorter base term at the top of a range is normal across the industry and is a pricing decision, not a quality signal."
   - q: "Does an inverter warranty start at installation or at the factory?"
@@ -56,7 +56,7 @@ This guide is about the 12-year term specifically: what it means, what it costs 
 
 A 12-year term is a base product warranty: a written promise to remedy manufacturing defects in the inverter for 144 months from a defined start event. It is not insurance, not a performance promise, and not a service contract. Four things define it. The remedy, the start event, the exclusions, and who pays to deliver the remedy.
 
-One thing is worth stating plainly, since this guide is published by an inverter maker. Qbits publishes an expandable warranty, and the note on every Qbits product page says the public datasheets do not define the base term, the remedy, the registration deadline or the exclusions. So Qbits is not an example of a well documented 12 year term. It is an example of why you should ask for the document.
+One thing is worth stating plainly, since this guide is published by an inverter maker. Qbits' public datasheets describe an expandable warranty but do not give the base term, the remedy, the registration deadline or the exclusions. So Qbits is not an example of a well documented 12 year term. It is an example of why you should ask for the document.
 
 That admission is the most useful sentence on this page. A published figure and a governing contract are different documents. Ask for the written warranty that applies to your exact model and date of purchase. Read the four clauses above, then keep the accepted copy with the invoice. The [datasheet library](/download-datasheets/) identifies the equipment; the terms come from the manufacturer or the authorised seller.
 
@@ -127,7 +127,7 @@ Published terms differ across brands sold in India. Every line below is a contra
 
 | Brand | Term as published | The condition that decides it |
 | --- | --- | --- |
-| Qbits | Not defined in public material | The note on every Qbits product page states that the public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the written terms for your model and purchase date |
+| Qbits | Not published | The public datasheets describe an expandable warranty but do not give the base term, remedy, registration deadline or exclusions, so obtain the written terms for your model and purchase date |
 | Havells | 10-year standard term printed on every Enviro GTi grid-tie datasheet | Datasheet-level term; the same datasheets state 97.5% to 98.9% efficiency, mostly IP65, BIS R-41165239 |
 | Polycab | 7 years printed in the Polycab Solar Catalogue 2025, with 5 years on the 350 kW UT series | The company's own web store shows 5 and 8 year filters, which reads inconsistently with the catalogue, so ask which document governs your purchase |
 | Growatt | 5 years named in passing; the procedure defers to a product table, the sales order and the warranty card | Runs from the installation certificate and requires installation within six months of delivery, so stock time shortens the cover you receive |
@@ -200,11 +200,11 @@ Send these to the supplier by email and keep the reply. A written answer costs t
 11. Is the term transferable on sale of the property, and what notification is required?
 12. For how long are spare parts and an equivalent replacement model committed to be available?
 
-Match the answers against the written document rather than against the quotation. Where a clause is absent, record it as not established instead of assuming the favourable reading.
+Match the answers against the written document rather than against the quotation. Where a clause is absent, record it as missing instead of assuming the favourable reading.
 
 ## The Bottom Line
 
-A 12-year inverter warranty is a strong starting position and a weak conclusion. Four things decide its value: the remedy behind it, the event that starts the clock, the conditions that shorten it, and whether the entity that owes it will still be serving India in year nine. None of the four can be read off a headline number, which is the whole argument of this guide. Qbits publishes this page and its own public datasheets do not define those four items either, so apply the same standard here that you would apply to any other brand, and get the governing document before you decide.
+A 12-year inverter warranty is a strong starting position and a weak conclusion. Four things decide its value: the remedy behind it, the event that starts the clock, the conditions that shorten it, and whether the entity that owes it will still be serving India in year nine. None of the four can be read off a headline number, which is the whole argument of this guide. Qbits publishes this page, and its public datasheets do not give those four items either, so apply the same standard here that you would apply to any other brand, and get the governing document before you decide.
 
 - Obtain the written warranty for your exact model number and date of purchase, then read four clauses first: remedy, start event, exclusions, and who pays freight and labour.
 - Record your commissioning date, register the unit immediately if registration is required, and file the serial number photograph with the invoice on day one.

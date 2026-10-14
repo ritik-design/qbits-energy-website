@@ -23,14 +23,11 @@ relatedTerms:
   - { slug: "ppa", term: "Power Purchase Agreement" }
   - { slug: "capex", term: "CAPEX" }
   - { slug: "opex", term: "OPEX" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "irr", term: "IRR" }
   - { slug: "payback-period", term: "Payback Period" }
   - { slug: "net-metering", term: "Net Metering" }
   - { slug: "lcoe", term: "LCOE" }
-  - { slug: "open-access", term: "Open Access" }
   - { slug: "feed-in-tariff", term: "Feed In Tariff" }
-  - { slug: "captive-plant", term: "Captive Plant" }
   - { slug: "pm-surya-ghar", term: "PM Surya Ghar" }
 faqs:
   - q: "What is RESCO in simple words?"

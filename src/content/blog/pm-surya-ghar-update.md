@@ -16,7 +16,7 @@ keywords:
   - rooftop solar subsidy india 2026
 faqs:
   - q: "What is the PM Surya Ghar 2026 update in one paragraph?"
-    a: "MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models, then obtain the inverter documents required by the scheme and DISCOM separately."
+    a: "The central subsidy is unchanged: ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, capped at ₹78,000. What changed is the process. The portal was redesigned in January 2026, an MNRE circular asks DISCOMs to clear feasibility applications within 15 working days, some states revised their top-ups (Gujarat increased, Uttar Pradesh paused) and empanelled vendor standards rose. Check the modules against the ALMM lists and ask for the inverter's BIS registration and certificates separately."
   - q: "Has the PM Surya Ghar subsidy amount changed in 2026?"
     a: "No. The central government subsidy structure has not changed. It remains ₹30,000 per kW for the first 2 kW installed and ₹18,000 per kW for the third kilowatt, giving a maximum of ₹78,000 for systems of 3 kW or larger. The subsidy is capped at 3 kW regardless of how large the system is. Some states have revised their additional top-up subsidies - Gujarat increased its top-up while some northern states paused theirs pending DISCOM restructuring."
   - q: "What is current ALMM scope and why does it matter for homeowners?"
@@ -24,15 +24,15 @@ faqs:
   - q: "How long does the PM Surya Ghar application take in 2026?"
     a: "The official MNRE target is 30 days from commissioning report to subsidy credit. The portal's redesigned dashboard, rolled out in January 2026, reduced average approval timelines by an estimated 20–30% in states with integrated DISCOM systems. In practice, Gujarat and Maharashtra applicants report 30–45 day end-to-end timelines, while slower DISCOM states take 60–90 days. Incomplete documentation - wrong Aadhaar linkage, missing net-metering number, or non-ALMM equipment - remains the primary cause of delays."
   - q: "What are the most common reasons for PM Surya Ghar rejection in 2026?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The usual causes are a mismatch between the name on the electricity bill and the Aadhaar, installing a system size different from the DISCOM feasibility letter, claiming the subsidy before net metering is activated and the bidirectional meter is installed, uploading the commissioning report before the DISCOM inspection, and using modules that are not on the ALMM list. Fix the name match before you register and keep the installed size equal to the approved size."
   - q: "Can I apply for PM Surya Ghar if I live in an apartment?"
     a: "Yes, with conditions. Individual flat owners can apply for a rooftop system on their designated terrace portion with a no-objection certificate from the Resident Welfare Association. Alternatively, the RWA can apply for a common-area solar installation eligible for ₹18,000 per kW up to 500 kW. The 2026 portal update added a clearer RWA application track, reducing the back-and-forth that previously caused apartment applications to be returned."
   - q: "Does PM Surya Ghar cover hybrid inverters with batteries?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The central subsidy applies to hybrid systems as well as on-grid ones, but it is calculated on the solar capacity and the battery itself is not subsidised centrally. Ask the seller for the hybrid inverter model's BIS registration and certificates, and confirm any inverter or battery requirement with your DISCOM before ordering."
   - q: "What is the PM Surya Ghar target and how much progress has been made?"
-    a: "MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models, then obtain the inverter documents required by the scheme and DISCOM separately."
+    a: "The scheme targets 1 crore household installations with a total outlay of ₹75,021 crore. As of mid-June 2026, the PM Surya Ghar portal reported over 6 lakh households had completed the full cycle of installation, commissioning, DISCOM inspection and subsidy credit, with more applications at various approval stages."
   - q: "What questions should I ask my installer before signing a PM Surya Ghar contract?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Ask whether the installer is an empanelled vendor on the PM Surya Ghar portal, which ALMM-listed module model will be supplied, and which inverter model comes with its BIS registration, certificates and written warranty. Ask who handles the DISCOM feasibility letter, net-metering application and commissioning inspection, and confirm the installed size will match the approved size. Do not sign before the feasibility letter arrives, and remember the subsidy is paid to your bank account, not deducted from the invoice."
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
@@ -57,7 +57,7 @@ A further multi-lakh pipeline sits at various approval stages. The numbers refle
 
 > **₹75,021 crore.** The total approved outlay for PM Surya Ghar Muft Bijli Yojana, covering central subsidies for 1 crore residential households across India. *Source - [MNRE PM Surya Ghar Scheme Document](https://mnre.gov.in/), 2024.*
 
-The pace of disbursement accelerated in early 2026 for three reasons: the portal redesign that went live in January 2026 reduced manual paperwork re-entry; MNRE issued a circular mandating DISCOMs to clear feasibility applications within 15 working days (down from a 30-day guideline); and the expansion of the ALMM list to cover Phase III equipment gave empanelled vendors a clearer equipment specification to follow.
+The pace of disbursement accelerated in early 2026 for three reasons: the portal redesign that went live in January 2026 reduced manual paperwork re-entry; MNRE issued a circular mandating DISCOMs to clear feasibility applications within 15 working days (down from a 30-day guideline); and the ALMM module and cell lists gave empanelled vendors a clearer equipment specification to follow.
 
 For context, India had approximately 11 GW of total rooftop solar capacity at the end of 2025 according to the [Central Electricity Authority](https://cea.nic.in/) (CEA), making the scheme's 1-crore target a transformational addition that would nearly double the residential segment's contribution.
 
@@ -92,7 +92,7 @@ The 2025-26 financial year brought four material changes to how the scheme opera
 
 ### ALMM and inverter compliance are separate checks
 
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
+MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check the inverter's BIS registration, certificates and DISCOM requirements separately.
 
 ### Simplified Portal and Reduced DISCOM Approval Timelines
 
@@ -122,17 +122,15 @@ Always verify the current state top-up directly with your state's nodal agency o
 
 The empanelled vendor qualification bar also rose in 2025-26. DISCOMs now require empanelled vendors to demonstrate:
 
-- Proof of sourcing only ALMM-listed equipment for all PM Surya Ghar jobs.
+- Proof of sourcing only ALMM-listed modules (and cells where required) for all PM Surya Ghar jobs.
 - A minimum number of completed installations with DISCOM commissioning records (the threshold varies by state but is typically 10–25 completed rooftop systems).
 - Updated bank guarantee amounts in line with revised guidelines.
 
 This has reduced the number of low-quality pop-up installers who were taking deposits and delivering substandard work. The practical benefit for homeowners is that any vendor you find on the PM Surya Ghar portal has cleared a higher baseline than before. Read the [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) to understand how to verify a vendor's current standing before you pay. Installers looking to meet the tightened bar can review what it takes to become a certified channel partner with an established EPC network.
 
-## Qbits model documentation
+## The Five Gates Behind Most Rejections
 
 Most subsidy rejections in 2026 trace back to one of five gates in the application process. Clearing all five before installation starts eliminates the vast majority of rejection risk.
-
-### Qbits model documentation
 
 1. **Gate 1, Aadhaar-DISCOM name match**: Confirm that the name on your electricity bill exactly matches the name on your Aadhaar card. A single-letter mismatch (e.g., "Suresh Kumar" vs "S. Kumar") triggers an automatic Aadhaar DBT verification failure. Correct this with your DISCOM before registering on the portal.
 

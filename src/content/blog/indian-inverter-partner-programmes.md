@@ -20,13 +20,13 @@ relatedSlugs:
   - solar-dealer-agreement-checklist
 faqs:
   - q: "Which solar inverter partner programme is best in India?"
-    a: "There is no universal winner. First choose the operating model: product resale, distribution, branded retail, project execution, or lead generation. Then compare the written agreement, commercial schedule, product scope, territory, stock duties, service responsibility, support, and exit terms. A public programme page is evidence of the application route, not proof of commercial value or partner outcomes."
+    a: "There is no universal winner. First choose the operating model: product resale, distribution, branded retail, project execution, or lead generation. Then compare the written agreement, commercial schedule, product scope, territory, stock duties, service responsibility, support, and exit terms. A public programme page shows the application route, not the commercial value or partner outcomes."
   - q: "Is a solar channel partner the same as a dealer?"
     a: "Not necessarily. One brand may use channel partner for a stockist or reseller, while another uses it for a local salesperson who does not hold inventory or execute projects. The agreement must define who buys products, invoices customers, installs, services, owns leads, and carries payment risk."
   - q: "Does submitting a partner form guarantee margin or territory?"
     a: "No. A form starts an enquiry or review. Margin, prices, credit, stock commitments, territory, exclusivity, leads, targets, service obligations, approval, and termination rights need to appear in the approved agreement and its schedules."
   - q: "Why does this comparison not rank programmes by earnings?"
-    a: "The reviewed public pages do not provide comparable, complete earnings evidence. A headline margin without its price base, exclusions, targets, payout trigger, returns, service costs, and working-capital cycle cannot support a fair ranking."
+    a: "The public pages do not provide comparable, complete earnings data. A headline margin without its price base, exclusions, targets, payout trigger, returns, service costs, and working-capital cycle cannot support a fair ranking."
   - q: "What should I request before signing a solar partner agreement?"
     a: "Request the final agreement and schedules covering legal entities, role, products, customers, geography, prices, rebates, payment, stock, delivery, returns, leads, marketing, training, installation, warranty, service, data, targets, liability, term, termination, and post-termination duties."
 ---
@@ -35,7 +35,7 @@ faqs:
 
 This review compares current official pages from Qbits, Luminous, Servotech, Spectra Solar Power, Waaree, and UTL. Their models are not interchangeable. Some are product-resale routes. Some combine installation and service. Spectra describes a lead-generation model in which its own team handles technical execution, so it is included as a boundary case rather than labelled an inverter dealership.
 
-> **Disclosure:** Qbits Energy publishes this article and recruits channel partners. Qbits is assessed under the same evidence rules as every named brand. We reviewed public pages, not private agreements or partner results. An not established entry means the public source did not establish the term.
+> **Disclosure:** Qbits Energy publishes this article and recruits channel partners. Qbits is compared on the same criteria as every other named brand. We read public pages, not private agreements or partner results. Where a cell says a term is not stated, the public source did not give it.
 
 ## How we selected and compared the programmes
 
@@ -47,17 +47,17 @@ Every programme was tested on the same six dimensions:
 2. **First application:** the information requested before a discussion or review.
 3. **Operating responsibility:** who sells, stocks, surveys, installs, commissions, or services.
 4. **Public support description:** training, marketing, tools, technical support, operations, or lead handling named on the page.
-5. **Commercial transparency:** whether the page establishes usable terms for pricing, margin, credit, territory, stock, leads, targets, or payout.
+5. **Commercial transparency:** whether the page states usable terms for pricing, margin, credit, territory, stock, leads, targets, or payout.
 6. **Decision gap:** what still needs a written proposal, schedule, or agreement.
 
-We did not score reliability, profitability, brand value, or programme quality. The public pages do not provide comparable outcome evidence for those claims. We also excluded testimonials, directory listings, search snippets, and third-party franchise estimates from the comparison.
+We did not score reliability, profitability, brand value, or programme quality. The public pages do not provide comparable outcome data for those claims. We also excluded testimonials, directory listings, search snippets, and third-party franchise estimates from the comparison.
 
 ## Programme structure at a glance
 
 | Official programme page | Public role or model | What the first route reveals | Publicly described support | Main decision gap |
 | --- | --- | --- | --- | --- |
 | [Qbits partner application](/become-our-partner/) | Dealer, Distributor, EPC, or System Integrator in one form | Detailed company, tax, infrastructure, team, capital, sales, and experience questions | The page invites discussion of training and support; exact arrangements must be confirmed | No public commercial schedule, acceptance rule, territory grant, or service allocation |
-| [Luminous Become a Partner](https://www.luminousindia.com/become-a-partner) | Broad partner enquiry by product category | Contact, location, and category, including Solar or Inverters & Battery | No detailed programme support schedule on the application page | The applicant role, operating duties, selection process, and commercial terms are not established |
+| [Luminous Become a Partner](https://www.luminousindia.com/become-a-partner) | Broad partner enquiry by product category | Contact, location, and category, including Solar or Inverters & Battery | No detailed programme support schedule on the application page | The applicant role, operating duties, selection process, and commercial terms are not stated on the page |
 | [Servotech solar dealership and distributorship](https://www.servotech.in/solar-dealership-distributorship/) | Separate Dealership and Distributorship choices | Role choice and enquiry route | Servotech describes product guidance, training, marketing materials, events, service support, and potential lead sharing | Lead eligibility or volume, area scope, commercial schedule, stock duties, and enforceable support terms need written confirmation |
 | [Spectra Solar channel partner](https://spectrasolarpower.com/channel-partner-with-us) | Local lead generation and sales closure; Spectra says its team handles technical execution | Interest, orientation, agreement, onboarding, then tool access | Marketing materials, CRM, app, proposal tool, calculator, onboarding, and project execution | This is not an inverter-resale appointment; territory, payout, customer payment, lead ownership, liability, and exit terms need contract review |
 | [Waaree partner network](https://www.waaree.com/partner/) | Franchise Partner, Authorised Selling Point, or Retailer; page also addresses distributors and dealers | Role-led partner route plus a visible franchise network | Waaree describes training, marketing, and pre-sales and post-sales assistance | The page spans survey, sales, installation, and service, but exact role boundaries and commercial duties require an agreement |
@@ -65,7 +65,7 @@ We did not score reliability, profitability, brand value, or programme quality. 
 
 The table compares what each brand publishes, not what every approved partner eventually receives. A support category named on a webpage may be conditional, role-specific, or governed by a separate policy. Ask for the deliverable, owner, timing, cost, eligibility, and withdrawal rule in writing.
 
-## What each public route does well, and what it cannot prove
+## What each public route does well, and what it cannot show
 
 ### Qbits: the most detailed first-stage business profile
 
@@ -87,7 +87,7 @@ Treat this as a contact route, not a complete programme description. Ask which r
 
 Servotech separates Dealership and Distributorship on its official page. It also names training, marketing materials, events, technical guidance, service support, and potential customer leads among its programme benefits.
 
-That is useful disclosure because an applicant can turn each heading into a precise evidence request. For example, `potential customer leads` still needs rules for eligibility, allocation, duplication, ownership, acceptance, reporting, and withdrawal. The page does not establish a lead volume or business result.
+That is useful disclosure because an applicant can turn each heading into a precise question to ask. For example, `potential customer leads` still needs rules for eligibility, allocation, duplication, ownership, acceptance, reporting, and withdrawal. The page does not state a lead volume or business result.
 
 Servotech also describes area rights. A webpage heading is not a territory schedule. Confirm the geography, channels, excluded customers, online sales, direct accounts, performance conditions, review rights, and consequences of conflict in the proposed agreement.
 
@@ -95,7 +95,7 @@ Servotech also describes area rights. A webpage heading is not a territory sched
 
 Spectra says its channel partner focuses on market awareness, lead generation, and sales closure. Its internal team handles survey, engineering, installation, DISCOM coordination, net metering, commissioning, and AMC. It also says the route requires no inventory investment or infrastructure setup.
 
-This is the clearest operating split in the reviewed set. It may suit a local network builder who wants a sales role without product stocking or technical execution.
+This is the clearest operating split in this comparison. It may suit a local network builder who wants a sales role without product stocking or technical execution.
 
 It is not a like-for-like substitute for an inverter dealership. The partner does not appear to select, buy, stock, and resell an inverter line under the described model. Spectra says the agreed margin is credited after full customer payment, which creates a payment dependency that should be defined carefully in the agreement.
 
@@ -125,7 +125,7 @@ The biggest mistake is comparing programme headlines before confirming that the 
 | Run a branded solar retail outlet | UTL Solar Shoppe or a relevant Waaree franchise or retail route | Both brands publish an explicit retail or franchise format |
 | Generate local project leads while another company executes | Spectra Solar channel partner | Its public model assigns technical execution to Spectra rather than the channel partner |
 | Apply once while declaring an EPC or integration role | Qbits EPC or System Integrator choice | The form explicitly allows those roles, though the commercial and technical scope remains unpublished |
-| Start with a short category enquiry | Luminous Become a Partner | The first form is brief, but the programme structure must be established after contact |
+| Start with a short category enquiry | Luminous Become a Partner | The first form is brief, but the programme structure must be confirmed after contact |
 | Evaluate publicly named lead support | Servotech | It explicitly describes potential lead sharing, without publishing a quantity or outcome guarantee |
 
 These are route-fit observations, not programme endorsements. A suitable label can still lead to unsuitable terms. An unfamiliar label can still produce a workable agreement if the responsibilities are clear.
@@ -151,7 +151,7 @@ Mark each row `verified`, `clarification required`, or `unacceptable`. Leave mis
 
 ## More published benefits do not automatically mean a stronger programme
 
-A detailed webpage can help you ask better questions. It cannot prove that support was delivered, that partners were profitable, or that a benefit applies to your tier and territory. A sparse page can lead to a strong private agreement. A polished page can lead to a weak one.
+A detailed webpage can help you ask better questions. It cannot show that support was delivered, that partners were profitable, or that a benefit applies to your tier and territory. A sparse page can lead to a strong private agreement. A polished page can lead to a weak one.
 
 The contract should convert each important headline into an operating rule:
 

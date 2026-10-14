@@ -28,8 +28,6 @@ relatedTerms:
   - { slug: "commissioning", term: "Commissioning" }
   - { slug: "discom", term: "DISCOM" }
   - { slug: "net-metering", term: "Net Metering" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
-  - { slug: "ground-mount", term: "Ground Mount" }
   - { slug: "earthing", term: "Earthing" }
   - { slug: "pm-surya-ghar", term: "PM Surya Ghar" }
   - { slug: "kusum", term: "PM-KUSUM" }
@@ -255,7 +253,7 @@ Site survey is the foundation of any solar installation. It evaluates roof or la
 
 ## Need professional site survey for solar?
 
-The retained Qbits documents do not establish a standard site-survey service, geographic coverage, deliverables or fee. [Contact Qbits](/contact-us/) to ask whether a survey is available for the project location and to obtain its scope, responsible party, price and deliverables in writing. Otherwise, appoint a qualified project designer or installer.
+Qbits' public material does not describe a standard site-survey service, its coverage area, deliverables or fee. [Contact Qbits](/contact-us/) to ask whether a survey is available for the project location and to get its scope, responsible party, price and deliverables in writing. Otherwise, appoint a qualified project designer or installer.
 
 ## Further reading
 

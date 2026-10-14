@@ -19,7 +19,7 @@ faqs:
     a: "Record the model, serial number, time, display or LED state, and monitoring screenshot. Follow the exact manual and contact a qualified installer or service provider. Do not open the enclosure."
 ---
 
-Evaluating inverter reliability evidence cannot be reduced to a brand score or a universal recovery deadline. Reliability depends on the exact model, design, installation, grid, environment, maintenance, firmware, and how a “failure” is defined and counted. Comparable field data is not retained for the brands discussed on this site.
+Evaluating inverter reliability evidence cannot be reduced to a brand score or a universal recovery deadline. Reliability depends on the exact model, design, installation, grid, environment, maintenance, firmware, and how a “failure” is defined and counted. Comparable field data is not publicly available for the brands discussed on this site.
 
 > **Safety first:** Solar PV conductors can remain energised in daylight, and inverter internals can contain hazardous voltage. Do not open the enclosure or improvise electrical tests. Follow the exact manual and use a qualified technician.
 
@@ -46,7 +46,7 @@ Without this context, labels such as “most reliable,” “lowest RMA,” or �
 
 ## Qbits document limit
 
-The retained Qbits datasheets provide model-specific specifications and describe an expandable warranty. They do not provide audited field failure rates, a universal service deadline, or complete warranty terms. Obtain the current manual, warranty, service process, and relevant certificates for the exact model.
+Qbits' public datasheets provide model-specific specifications and describe an expandable warranty. They do not publish audited field failure rates, a service deadline, or complete warranty terms. Obtain the current manual, warranty, service process, and relevant certificates for the exact model.
 
 ## Safe escalation path
 

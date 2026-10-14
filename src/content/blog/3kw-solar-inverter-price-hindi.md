@@ -21,7 +21,7 @@ faqs:
   - q: "3 kW par PM Surya Ghar assistance kitni ho sakti hai?"
     a: "MNRE ke residential CFA guidelines mein standard calculation pehle kW ke liye ₹30,000, doosre ke liye ₹30,000 aur teesre ke liye ₹18,000 hai. Eligible 3 kW installation ka usual central cap ₹78,000 hai, lekin apne application mein approved amount verify karein."
   - q: "Kya inverter ko ALMM listed hona chahiye?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "ALMM list MNRE sirf solar module (List-I) aur cell (List-II) ke liye publish karta hai. Inverter ke liye koi ALMM list nahi hai, isliye inverter ko is list mein check nahi kiya ja sakta. Seller se exact model ka BIS registration aur current certificate maangein, aur PM Surya Ghar mein DISCOM ki requirement alag se confirm karein. Modules ke liye ALMM List-I mein naam check karein."
   - q: "3 kW quote compare karte waqt kya maangein?"
     a: "Exact model numbers, quantity, taxes, warranty, modules, mounting structure, cables, protection, earthing, labour, metering, portal work aur payment milestones ko alag line items mein maangein. Hybrid quote mein battery model aur usable capacity bhi likhi honi chahiye."
 featured: false

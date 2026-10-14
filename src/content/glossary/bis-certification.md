@@ -12,7 +12,7 @@ keywords:
   - bis solar inverter
   - bis solar module
   - is 14286 bis
-shortDefinition: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+shortDefinition: "BIS certification is the Bureau of Indian Standards' product registration showing that equipment such as solar PV modules and grid-connected inverters meets the applicable Indian Standard, and it is required under India's solar quality control orders before those products can be sold."
 quickFacts:
   industry: "Indian Quality Certification"
   primaryUse: "Mandatory quality compliance for solar equipment sold in India"

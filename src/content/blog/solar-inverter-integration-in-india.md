@@ -18,7 +18,7 @@ faqs:
   - q: "What's the typical residential inverter integration timeline?"
     a: "1-2 days for on-grid systems including mechanical installation, DC and AC wiring, configuration, monitoring setup, and performance validation. Hybrid systems add approximately 0.5-1 day for battery installation, BMS configuration, and operating mode programming. Commercial installations of 25 kW or larger typically require 2-4 days. The timeline excludes DISCOM net metering approval which is a separate parallel process with state-specific timelines."
   - q: "Is DISCOM approval required for grid-connected solar installations?"
-    a: "MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models, then obtain the inverter documents required by the scheme and DISCOM separately."
+    a: "Yes. A grid-connected system needs the DISCOM's approval before it is commissioned or exports power, under the CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations and the state's net-metering and connection rules. The process normally covers a technical feasibility check, an application with documents such as the single-line diagram and equipment datasheets and certificates, inspection, net-meter installation and written permission to synchronise. Forms, fees and timelines vary by DISCOM, so do not energise or export before approval is in hand."
   - q: "What panel compatibility do modern inverters support?"
     a: "Modern Indian-market inverters work with standard crystalline silicon panels up to 750W (and increasingly 800W+ for utility applications). High-wattage panel compatibility requires the inverter to support wide DC input voltage range (1000V+ max), high current handling per string, and 130-150% DC oversizing capability. Always confirm specific panel datasheet compatibility against the inverter datasheet - particularly the Voc at minimum site temperature and Isc per string."
   - q: "What earthing standard applies to solar inverter integration in India?"
@@ -236,7 +236,7 @@ The configuration that determines whether the inverter operates at peak efficien
 
 - **Firmware updates** applied to latest version
 - **[BIS certificate](/glossary/bis-certification/)** verified and recorded
-- **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify the exact module/cell models and check inverter documents separately.
+- **Module and inverter documents** checked: MNRE's ALMM lists cover modules and cells only, so verify the exact module and cell models against the current lists and keep the inverter's certificates on file
 - **Certification compliance** documented, following the same nine-standard framework in the [solar inverter certifications guide](/blog/solar-inverter-certifications/)
 
 ### Documentation produced
@@ -305,7 +305,7 @@ The final phase that protects warranty and customer satisfaction.
 ## Where Qbits Fits
 
 - Obtain the current installation manual for the exact SKU before design or commissioning.
-- Training, commissioning support and partner-program availability are not established until confirmed in writing.
+- Ask for training, commissioning support and partner-program availability in writing before you rely on them.
 - Confirm warranty registration, required commissioning evidence and claim steps in the current policy.
 - Confirm the logger, application, account owner, alert channels and subscription for the exact model.
 - Use the current partner directory only as a starting point, then confirm status, scope and location coverage.

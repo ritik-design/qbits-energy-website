@@ -279,7 +279,7 @@ If the values will become bid requirements, use the [peak versus weighted invert
 
 An ingress protection class describes resistance to dust and water. It does not replace the installation manual's temperature, clearance, exposure, and mounting requirements.
 
-Warranty scope also sits outside a headline specification. The current Qbits public datasheets describe an expandable warranty but do not establish the base term, remedy, registration deadline, labour allocation, freight allocation, or exclusions. Obtain the current written terms for the exact quoted model before the tender response promises any of them.
+Warranty scope also sits outside a headline specification. Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline, labour allocation, freight allocation, or exclusions. Obtain the current written terms for the exact quoted model before the tender response promises any of them.
 
 ## Run the four-document consistency check
 
@@ -300,6 +300,6 @@ Before submission, compare the datasheet, BOQ, supplier quotation, and complianc
 
 The most damaging error is often not a bad calculation. It is a correct calculation attached to a different model than the one priced.
 
-Start with the [Qbits datasheet library](/download-datasheets/), select the exact model family, and build the document register before writing the BOQ. Request model-specific manuals, certificates, compatibility confirmations, and written warranty terms separately when the datasheet does not establish them.
+Start with the [Qbits datasheet library](/download-datasheets/), select the exact model family, and build the document register before writing the BOQ. Request model-specific manuals, certificates, compatibility confirmations, and written warranty terms separately when the datasheet does not state them.
 
 **Sources checked 26 September 2026:** current Qbits QB 4/5/6 KTLD, QB 4.6/5/6 KTLS, and QBH 3 to 6 kW single-phase product documents; the Qbits datasheet library; the live Qbits product data; and the BIS CRS public portal.

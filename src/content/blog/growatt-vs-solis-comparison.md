@@ -16,11 +16,11 @@ keywords:
   - best solar inverter for home india
 faqs:
   - q: "Which is better for Indian homes - Growatt or Solis?"
-    a: "Growatt is generally the better fit for Indian residential buyers who want a familiar brand with wider dealer coverage and proven PM Surya Ghar subsidy track records. Solis is stronger for commercial and industrial string applications where higher MPPT input ranges and efficiency at scale matter more. Both have ALMM-listed models, so subsidy eligibility is available from both brands - but buyers must verify the specific model on the current MNRE ALMM list before purchase, as listings are model-specific, not brand-wide."
+    a: "Growatt is generally the better fit for Indian residential buyers who want a familiar brand with wider dealer coverage and proven PM Surya Ghar subsidy track records. Solis is stronger for commercial and industrial string applications where higher MPPT input ranges and efficiency at scale matter more. Neither brand can be called ALMM-listed for inverters, because MNRE publishes ALMM lists for modules and cells only. For PM Surya Ghar, confirm the exact inverter model's certificates and the DISCOM's requirements before purchase, because acceptance is model-specific, not brand-wide."
   - q: "Does Solis have after-sales service in India?"
     a: "Solis (Ginlong Technologies) has established a presence in the Indian market and appointed authorised distributors across major states. However, Solis's India service infrastructure is less dense than Growatt's, particularly outside the tier-1 metros. Service resolution times in tier-2 and tier-3 markets tend to be longer for Solis than for Growatt, because the distributor network is newer. Buyers in smaller cities should confirm local authorised service availability before purchase, rather than relying on the national brand footprint."
   - q: "Is Growatt ALMM listed in India 2026?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "MNRE publishes ALMM List-I for solar PV modules and List-II for cells, and no list for inverters, so no Growatt inverter is \"ALMM listed\" in the way a module can be. For a PM Surya Ghar or other subsidised project, check the exact Growatt model's BIS registration and current certificates, and confirm the scheme and DISCOM requirements separately."
   - q: "What is the warranty on Solis inverters in India?"
     a: "Solis inverters in India typically carry a 5-year standard warranty, with paid extension options available up to 10 years in some product lines. The warranty covers repair, not full unit replacement in most cases. The enforceability of the warranty in India depends on the local authorised distributor - Solis is a Chinese OEM (Ginlong Technologies) and warranty claims are handled through the Indian distribution channel rather than directly through a local Solis entity. Buyers should confirm the specific warranty terms, extension options, and claims process with the local distributor at the time of purchase."
   - q: "Which has a better monitoring app - ShinePhone (Growatt) or SolisCloud?"
@@ -28,12 +28,12 @@ faqs:
   - q: "Is Solis better than Growatt for commercial solar projects?"
     a: "Solis has a stronger product range for commercial string inverter applications, particularly in the 30 kW to 110 kW capacity band. Solis's high-power string inverters offer wider DC voltage windows and higher MPPT input counts that suit larger commercial roof layouts with varied string orientations. Growatt also has commercial product lines, but Growatt's Indian market strength is concentrated in the residential 3–10 kW segment. For C&I buyers evaluating 50–500 kW projects, Solis's commercial string range deserves serious consideration alongside global brands like Sungrow and Huawei."
   - q: "How does Qbits compare to Growatt and Solis for Indian homes?"
-    a: "The retained Qbits documents do not establish this as a universal product or service term. Confirm the current model datasheet, monitoring interface, written warranty, and service process for the exact SKU and sale."
+    a: "Qbits sells on-grid inverters from 1.5 kW to 320 kW and hybrid models from 3 to 12 kW, so it competes with Growatt and Solis in the residential range. Choose by phase, DC string design, MPPT count and backup need, then check the current datasheet at /download-datasheets/ for the exact model. Qbits' public datasheets do not define a base warranty term, so get the written warranty and service process for the exact model before comparing it with Growatt or Solis."
   - q: "What is the price difference between Growatt and Solis inverters in India?"
     a: "In the residential 3–10 kW segment, Growatt and Solis are broadly similar in price point - both are mid-market Chinese OEMs competing on volume. Growatt typically trades at a slight premium over Solis in the Indian residential market because of brand recognition and larger dealer network margins. For commercial string inverters above 30 kW, Solis can be competitively priced against Growatt's commercial range. Exact pricing varies by distributor, state, and purchase volume. Both brands are generally 15–25 percent lower in upfront cost than premium global brands like Sungrow or Fronius."
 ---
 
-> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+> **Qbits warranty and service terms:** Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline, service response time, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
@@ -42,7 +42,7 @@ faqs:
 > - Solis has the stronger commercial string inverter range (30–110 kW+, up to 12 MPPT inputs), making it the better fit for C&I projects above 30 kW.
 > - Both brands share the same 5-year repair-based standard warranty, leaving buyers exposed to a ₹15,000–₹25,000 replacement cost from year 6 onward.
 > - Neither ShinePhone (Growatt) nor SolisCloud (Solis) offers WhatsApp-native alerts, which matters in a market where app-fatigue reduces monitoring engagement.
-> - ALMM listing is model-specific for both brands and must be verified on the MNRE portal before every purchase, regardless of brand reputation.
+> - MNRE publishes no ALMM list for inverters, so verify each exact model's BIS registration and current certificates before every purchase, regardless of brand reputation.
 
 This comparison applies the **6-Point Brand Evaluation Framework**: a structured scoring method covering warranty, MPPT range, monitoring, India service network, pricing, and ALMM compliance, to give an honest verdict. Neither brand is dismissed; both have genuine strengths. The goal is a clear, data-grounded recommendation for the specific context of Indian rooftop solar.
 
@@ -56,7 +56,7 @@ Inverter failures account for approximately 60% of all solar service calls in In
 
 Three structural realities shape the India-specific context for this comparison:
 
-- **Grid voltage instability**: Indian grids regularly swing between 180 V and 270 V, well outside the 220–240 V European range for which most Chinese OEM inverters are calibrated. Inverters that are not India-grid-tuned trip more frequently, reducing annual yield and increasing service events.
+- **Grid voltage instability**: Indian distribution voltage often drifts well away from nominal, and the allowed AC grid range depends on the inverter model, its grid-code setting and the DISCOM's connection conditions. Inverters that are not tuned for Indian grid conditions trip more frequently, reducing annual yield and increasing service events. Read the range from the exact model's datasheet or manual.
 - **Climate severity**: Rooftop temperatures on Indian flat roofs commonly reach 65–75 °C in summer. IP rating and thermal derating behaviour directly affect inverter lifespan. An IP65 enclosure can allow dust ingress in dry desert states; IP66 is the more appropriate standard. The [IEC 60529 ingress protection standard](https://www.iec.ch/dyn/www/f?p=103:23:0::::FSP_ORG_ID,FSP_LANG_ID:1276,25) defines the difference between IP65 and IP66 protection levels.
 
 ## The 6-Point Brand Evaluation Framework: How It Works
@@ -70,7 +70,7 @@ The **6-Point Brand Evaluation Framework** scores both brands on the six dimensi
 3. **Monitoring Platform**: App usability, alert latency, and adoption ease in the Indian context.
 4. **India Service Network**: Service centre density, RMA turnaround time, and Tier-2/3 city coverage.
 5. **Price and Value**: Upfront cost and 10-year total cost of ownership.
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
+6. **Certification and Compliance Documents**: Whether the exact model's BIS registration and current certificates are available, since MNRE publishes no ALMM list for inverters.
 
 Each axis is assessed below with the honest score and the reasoning behind it.
 
@@ -174,19 +174,19 @@ Both Growatt and Solis are mid-market Chinese OEMs positioned below the premium 
 | Replacement cost from yr 6 | ₹15,000–₹25,000 | ₹15,000–₹25,000 |
 | Score | 7/10 | 7/10 |
 
-## Axis 6: ALMM Compliance
+## Axis 6: Certification and Compliance Documents
 
-- **Growatt** has maintained consistent ALMM presence across multiple list versions and has multiple residential models listed. This gives installers reasonable confidence that the brand will maintain compliance as list revisions occur.
-- **Solis** also has ALMM-listed models, though the range of listed models has been narrower than Growatt's in some list versions. Buyers must verify the specific model number against the current MNRE list.
+- **Growatt**: MNRE publishes no ALMM list for inverters, so there is no list presence to score. Ask the supplier for the exact residential model's BIS registration and current certificates.
+- **Solis**: the same applies. Public information does not separate the two brands on this axis, so both are scored equally. Buyers must verify the specific model number's current certificates.
 
-> **Important:** ALMM compliance is model-specific, not brand-wide. The ALMM list is updated periodically by MNRE. Buyers and installers must check the [current ALMM list at the official MNRE portal](https://mnre.gov.in/) before every purchase order, regardless of brand. The [PM Surya Ghar scheme guidelines](https://pmsuryaghar.gov.in/) also specify that only ALMM-listed equipment qualifies for central subsidy disbursement.
+> **Important:** Certification is model-specific, not brand-wide. MNRE's [ALMM lists](https://mnre.gov.in/) cover modules (List-I) and cells (List-II), not inverters, and they are updated periodically. For a PM Surya Ghar project, the [scheme guidelines](https://pmsuryaghar.gov.in/) require ALMM-listed modules, and the inverter's certificates and the DISCOM's requirements need to be confirmed separately before every purchase order, regardless of brand.
 
-| ALMM Axis | Growatt | Solis |
+| Certification Axis | Growatt | Solis |
 | --- | --- | --- |
-| Phase III listed models | Multiple residential models | Select models |
-| List consistency | Maintained across revisions | Maintained in some product lines |
+| MNRE ALMM list for inverters | None exists | None exists |
+| Exact-model BIS registration and certificates | Ask the supplier | Ask the supplier |
 | Model-level verification required | Yes | Yes |
-| Score | 8/10 | 7/10 |
+| Score | 7/10 | 7/10 |
 
 ## Verdict and Pros-Cons
 
@@ -199,15 +199,14 @@ Based on the 6-Point Brand Evaluation Framework, here is how the two brands scor
 | Monitoring Platform | 6/10 | 6/10 |
 | India Service Network | 7/10 | 5/10 |
 | Price and Value | 7/10 | 7/10 |
-| ALMM Compliance | 8/10 | 7/10 |
-| **Total** | **41/60** | **37/60** |
+| Certification and Compliance Documents | 7/10 | 7/10 |
+| **Total** | **40/60** | **37/60** |
 
 ### Growatt
 
 | | Pros | Cons |
 | --- | --- | --- |
 | **Growatt** | ✓ Wider India dealer and service network | ✗ 5-year repair warranty - replacement cost from year 6 |
-| ALMM scope | Verify current PV module and cell requirements | Check inverter documents separately |
 | | ✓ Longer India track record (10+ years installed) | ✗ Repair TAT of 3–6 weeks on warranty claims |
 | | ✓ Competitive mid-market pricing | ✗ India-grid firmware not always country-specific |
 
@@ -218,7 +217,7 @@ Based on the 6-Point Brand Evaluation Framework, here is how the two brands scor
 | **Solis** | ✓ Stronger commercial string inverter range (30–110 kW+) | ✗ Thinner India service network outside major states |
 | | ✓ SolisCloud platform cleaner for multi-site commercial | ✗ Newer India presence - less repair depot depth |
 | | ✓ Competitive pricing vs Growatt in some markets | ✗ 5-year repair warranty same as Growatt's limitation |
-| | ✓ ALMM-listed models available | ✗ Residential firmware India-tuning less documented |
+| | ✓ Broad range of string models | ✗ Residential firmware India-tuning less documented |
 
 **Verdict for Indian residential buyers:** Growatt is the more appropriate choice for homeowners who want a mid-market inverter with broad dealer reach and a solid India service track record. For buyers who need a home system in a Tier-2/3 city, Growatt's wider distributor footprint reduces service risk meaningfully.
 
@@ -228,7 +227,7 @@ Based on the 6-Point Brand Evaluation Framework, here is how the two brands scor
 
 Buyers who research Growatt vs Solis frequently make a set of predictable mistakes that lead to suboptimal decisions. Understanding these helps you avoid them.
 
-- **Assuming brand ALMM = model ALMM**: ALMM listing applies to specific model numbers, not to a brand as a whole. Verify your exact model on the MNRE portal before purchase, not the brand's marketing materials.
+- **Assuming an inverter is "ALMM listed"**: MNRE publishes ALMM lists for modules and cells only. Verify your exact inverter model's BIS registration and current certificates, not the brand's marketing materials.
 - **Ignoring post-warranty replacement cost**: Both brands have a 5-year standard warranty. A 25-year solar system outlives the warranty by 20 years. Factoring ₹15,000–₹25,000 replacement cost into the comparison changes the economics substantially. Read more in [the inverter warranty comparison guide](/blog/solar-inverter-warranty/).
 - **Comparing specs without India-grid context**: Inverter efficiency ratings are measured at 25 °C under STC conditions. Indian rooftop operation at 45–65 °C degrades effective output. Confirm the inverter's thermal derating curve for Indian ambient temperatures, not just the headline efficiency number.
 - **Overlooking service geography**: A brand's national service presence does not tell you what happens in your specific district. Before purchase, ask the dealer: "Which authorised service centre handles my area, and what is the documented RMA turnaround time?"

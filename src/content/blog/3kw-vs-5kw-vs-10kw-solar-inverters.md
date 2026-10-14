@@ -28,18 +28,18 @@ faqs:
 - q: Can a 5 kW inverter run a home using more than 5 kW?
   a: In an on-grid system with the utility available, the grid can supply the portion of household demand that exceeds current solar output, subject to the connection and installation design. A 5 kW on-grid inverter does not create 5 kW of outage backup. Hybrid or off-grid backup must be sized from simultaneous loads, starting demand, battery power, and required runtime.
 - q: Can I connect 8 kW of panels to a 5 kW inverter?
-  a: Not from the capacity labels alone. The DC-to-AC ratio would be 1.60, but the exact inverter's maximum DC power, voltage, current, short-circuit-current limit, MPPT window, string count, and manufacturer rules all still apply. The Qbits QB-5KTLS sheet reviewed here publishes a 7,500 W maximum DC input, so an 8 kWp proposal would exceed that exact model's published ceiling.
+  a: Not from the capacity labels alone. The DC-to-AC ratio would be 1.60, but the exact inverter's maximum DC power, voltage, current, short-circuit-current limit, MPPT window, string count, and manufacturer rules all still apply. The Qbits QB-5KTLS datasheet publishes a 7,500 W maximum DC input, so an 8 kWp proposal would exceed that exact model's published ceiling.
 - q: Do 8 kW and 10 kW solar inverters require three-phase electricity?
-  a: The exact Qbits QB-8KTLC and QB-10KTLC models reviewed here are three-phase products rated at 400 V. That is a product fact, not a nationwide rule for every brand. Confirm the property's service phase, sanctioned load, applicable DISCOM procedure, and exact inverter before selecting a capacity.
+  a: In Qbits' published datasheets, the QB-8KTLC and QB-10KTLC models are three-phase products rated at 400 V. That is a product fact, not a nationwide rule for every brand. Confirm the property's service phase, sanctioned load, applicable DISCOM procedure, and exact inverter before selecting a capacity.
 - q: Is 3 kW still enough for a small home?
-  a: It can be, when the annual energy target, usable roof, grid route, and array design support that size. The retained Qbits QB-3KTLS example is a 3,000 W single-phase on-grid model with one MPPT. Do not select it from bedroom count or subsidy alone.
+  a: It can be, when the annual energy target, usable roof, grid route, and array design support that size. The Qbits QB-3KTLS is a 3,000 W single-phase on-grid model with one MPPT. Do not select it from bedroom count or subsidy alone.
 ---
 
 Choose between a **5 kW, 8 kW, and 10 kW solar inverter** only after the energy target and PV array are known. The inverter label is an AC conversion limit, not a promise of daily generation, a household-size category, or the amount of backup available during a power cut.
 
 For the current Qbits on-grid range, the exact comparison is also a phase and architecture decision. **QB-5KTLS** is a 5,000 W single-phase, single-MPPT model. **QB-8KTLC** and **QB-10KTLC** are 8,000 W and 10,000 W three-phase, dual-MPPT models. The larger units are not simply scaled copies of the 5 kW product.
 
-Qbits publishes this article and sells all three model families. The current datasheets support the technical fields below. They do not establish that a particular capacity fits your bill, roof, connection, local approval, or future load. Qbits pricing, complete warranty terms, certificate validity, installation outcome, and annual generation are not ranked here.
+Qbits publishes this article and sells all three model families. The current datasheets support the technical fields below. They cannot tell you whether a particular capacity fits your bill, roof, connection, local approval, or future load. Qbits pricing, complete warranty terms, certificate validity, installation outcome, and annual generation are not ranked here.
 
 ## The short answer
 
@@ -48,7 +48,7 @@ Qbits publishes this article and sells all three model families. The current dat
 | 5 kW | The designed array and permitted grid output fit the exact 5 kW model, and a single-phase product matches the site | The property is described as a 3 BHK or has one large bill |
 | 8 kW | The modeled energy target needs a larger array, the DC design fits, and the proposed exact model matches the connection phase | It sits between 5 kW and 10 kW and feels like safe headroom |
 | 10 kW | The annual energy target, usable roof, approved connection, and exact string design justify the full capacity | The home has several appliances whose nameplate watts add to 10 kW |
-| 3 kW retained path | A smaller energy target and array fit the site and exact model | It reaches an incentive threshold or sounds standard for a small home |
+| 3 kW | A smaller energy target and array fit the site and exact model | It reaches an incentive threshold or sounds standard for a small home |
 
 The right sequence is **energy target, roof model, array design, connection check, then inverter model**. Reversing that order turns a round capacity number into a guess.
 
@@ -94,9 +94,9 @@ Then check the exact model's maximum DC power, maximum voltage, MPPT window, sta
 
 Confirm service phase, sanctioned load, allowable inverter capacity, export arrangement, protection, metering, and the current DISCOM process. A three-phase model cannot be approved from a single-phase assumption. A sanctioned-load upgrade or phase change is a separate project input, not an automatic consequence of choosing a larger inverter.
 
-## Exact Qbits capacity evidence
+## Exact Qbits capacity data
 
-The table uses current Qbits datasheets for one exact model at each retained capacity. These are manufacturer declarations, not independent performance tests.
+The table uses current Qbits datasheets for one exact model at each capacity. These are manufacturer declarations, not independent performance tests.
 
 | Published field | QB-3KTLS | QB-5KTLS | QB-8KTLC | QB-10KTLC |
 | --- | --- | --- | --- | --- |
@@ -129,7 +129,7 @@ Those figures create hard boundaries:
 
 - a proposed array above 7.5 kWp exceeds the published DC-power ceiling for this exact model;
 - two differently oriented roof groups cannot be independently controlled by its one tracker;
-- a high-current module must fit the 20 A input limit and the missing short-circuit-current evidence must be requested;
+- a high-current module must fit the 20 A input limit and the missing short-circuit-current limit must be requested;
 - string voltage must stay within the exact limits after temperature correction.
 
 Choose 5 kW because the design fits, not because it is assumed to be the standard residential size.
@@ -161,9 +161,9 @@ Before moving from 8 kW to 10 kW, document:
 
 If those fields are blank, the larger label is not yet a design decision.
 
-## The retained 3 kW path
+## The 3 kW option
 
-The legacy URL originally compared 3 kW, 5 kW, and 10 kW. The 3 kW decision remains useful for a smaller project, so it stays in this guide rather than being discarded.
+This guide once compared 3 kW, 5 kW, and 10 kW. The 3 kW decision remains useful for a smaller project, so it stays here.
 
 QB-3KTLS is a 3,000 W single-phase on-grid inverter with 6,000 W maximum DC input, one MPPT, one string, 20 A maximum DC input, 550 V maximum DC, and a 40 to 550 V MPPT range.
 
@@ -184,7 +184,7 @@ Assume a project has these planning inputs:
 
 The illustrative DC-to-AC ratios are:
 
-| Candidate AC rating | Calculation | Ratio | Immediate evidence result |
+| Candidate AC rating | Calculation | Ratio | Immediate result |
 | --- | --- | --- | --- |
 | 5 kW | 8.0 ÷ 5.0 | 1.60 | QB-5KTLS is disqualified because 8.0 kWp exceeds its published 7.5 kW maximum DC input |
 | 8 kW | 8.0 ÷ 8.0 | 1.00 | QB-8KTLC remains a candidate, subject to voltage, current, string, phase, and approval checks |
@@ -223,7 +223,7 @@ Do not publish or accept a nationwide statement that every 8 kW or 10 kW system 
 
 ## Array and string checks for every capacity
 
-Before approving 5 kW, 8 kW, 10 kW, or the retained 3 kW path, require a string calculation that shows:
+Before approving 5 kW, 8 kW, 10 kW, or a 3 kW system, require a string calculation that shows:
 
 1. module make, model, quantity, and string layout;
 2. cold-corrected open-circuit voltage below maximum DC voltage;
@@ -234,7 +234,7 @@ Before approving 5 kW, 8 kW, 10 kW, or the retained 3 kW path, require a string 
 7. expected clipping and the objective behind the DC-to-AC ratio;
 8. independent tracker use for different roof groups.
 
-The reviewed Qbits KTLS and KTLC sheets do not publish a separate maximum short-circuit-current row. Request that limit and the current installation manual before approving the module pairing.
+Qbits' KTLS and KTLC datasheets do not publish a separate maximum short-circuit-current row. Request that limit and the current installation manual before approving the module pairing.
 
 ## What not to use as a sizing shortcut
 
@@ -243,7 +243,7 @@ Avoid these common shortcuts:
 - **BHK count:** floor plan does not reveal annual kilowatt-hours or roof yield.
 - **Monthly rupee bill:** tariff and non-energy charges obscure consumption.
 - **Sum of every appliance nameplate:** that is not the sizing method for grid-connected annual energy offset.
-- **Maximum subsidy:** an incentive threshold does not establish the useful array size.
+- **Maximum subsidy:** an incentive threshold does not tell you the useful array size.
 - **Maximum roof fill:** export limits and consumption may make a smaller system more rational.
 - **Largest affordable inverter:** spare AC capacity does not create solar energy.
 - **Generic DC oversizing percentage:** the exact model's power, voltage, current, and string limits still control.
@@ -273,6 +273,6 @@ Choose **8 kW** when the modeled target needs the additional AC capacity, the ar
 
 Choose **10 kW** when a larger documented energy target, roof, connection, and string design justify it. Do not expect a 10 kW inverter to create more energy from an undersized array.
 
-Keep **3 kW** in the decision when the project is genuinely smaller. It remains a valid capacity, but only after the same evidence checks.
+Keep **3 kW** in the decision when the project is genuinely smaller. It remains a valid capacity, but only after the same checks.
 
 Compare the current [Qbits product families](/our-products/) after the size, phase, topology, and string design are known. The correct capacity is the smallest exact model that satisfies the approved design without crossing its published limits.

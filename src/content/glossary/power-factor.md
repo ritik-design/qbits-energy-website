@@ -20,7 +20,6 @@ quickFacts:
 relatedTerms:
 - { slug: kva, term: kVA }
 - { slug: reactive-power, term: Reactive Power }
-- { slug: apparent-power, term: Apparent Power }
 - { slug: thd, term: THD }
 faqs:
 - q: What is the power factor formula?

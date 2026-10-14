@@ -42,7 +42,7 @@ That matters because inverters rarely die all at once. They die one component at
 
 This guide walks the inside of a string inverter part by part. For each component you get three things: what the part does, how it fails in Indian operating conditions, and what its specification tells a buyer about the unit as a whole.
 
-Scope note. This is about the parts, not the circuit. The signal path and topology are covered in the [solar inverter circuit diagram guide](/blog/solar-inverter-circuit-diagram/). External cabling sits in the [wiring diagram guide](/blog/solar-inverter-wiring-diagram/), and battery side cabling in the [battery connection diagram](/blog/inverter-battery-connection-diagram/). Read those for how things connect. Read this one for what the things are.
+This guide is about the parts, not the circuit. The signal path and topology are covered in the [solar inverter circuit diagram guide](/blog/solar-inverter-circuit-diagram/). External cabling sits in the [wiring diagram guide](/blog/solar-inverter-wiring-diagram/), and battery side cabling in the [battery connection diagram](/blog/inverter-battery-connection-diagram/). Read those for how things connect. Read this one for what the things are.
 
 > **TL;DR**
 > - DC link capacitors set the practical service life of most inverters, because electrolyte loss tracks temperature far more strongly than load.
@@ -218,7 +218,7 @@ What a component specification genuinely tells you is narrower:
 
 Warranty terms are the second signal, and they need reading carefully. A long warranty is a statement about the manufacturer's own failure-rate model and balance sheet, not proof about any individual part. What matters is the interaction between term, coverage and service reach.
 
-Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. So obtain the current written warranty for the exact model quoted, and read the exclusions rather than the headline. The [inverter warranty guide](/blog/solar-inverter-warranty/) covers what those documents usually leave out.
+Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model, and read the exclusions rather than the headline. The [inverter warranty guide](/blog/solar-inverter-warranty/) covers what those documents usually leave out.
 
 Three exclusions repeatedly turn into disputes: damage attributed to surge or lightning, damage attributed to water ingress, and consumables. All three map onto the components in this article. If SPDs, glands and fans are excluded, the manufacturer has told you which parts it expects to wear out.
 

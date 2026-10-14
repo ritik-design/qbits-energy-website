@@ -22,7 +22,7 @@ faqs:
   - q: "What is the Qbits warranty and what is the Luminous warranty?"
     a: "Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so request the current written terms for the exact quoted model. Luminous lists a 2-year base warranty in its general warranty material, while individual store listings have shown longer periods such as 36 months on one hybrid model. Ask each seller which document version governs your invoice."
   - q: "Does ALMM list solar inverters?"
-    a: "No. MNRE publishes ALMM List-I for solar PV modules and List-II for solar cells. There is no MNRE inverter list, so the widely repeated claim that an inverter must appear on ALMM List-II for PM Surya Ghar is false. Qbits states it is ALMM Phase III listed; treat that as a brand statement and verify the certificates your scheme, tender or DISCOM actually asks for."
+    a: "No. MNRE publishes ALMM List-I for solar PV modules and List-II for solar cells. There is no MNRE inverter list, so the widely repeated claim that an inverter must appear on ALMM List-II for PM Surya Ghar is false. For an inverter, ask the seller for the exact model's BIS registration and current certificates, and verify what your scheme, tender or DISCOM actually asks for."
   - q: "Which brand is easier to service in a small town?"
     a: "Luminous has the wider consumer footprint. Its own site publishes a 100K+ channel network built over 38+ years, and it operates a public service centre locator plus annual care packages. A specialist inverter brand works through a narrower dealer and service-partner list. Before you buy either one, get the responsible service entity, the ticket channel and the parts route named in writing for your pin code."
   - q: "Can I compare the two brands on price?"
@@ -53,9 +53,9 @@ Footprint is published, so start there rather than with opinion.
 
 Luminous Power Technologies Pvt. Ltd. publishes 38+ years of experience, 41+ countries served, 8 manufacturing units, a 100K+ strong channel network, 100Mn+ customers and 6000+ employees, according to the Luminous India about page (checked 24 September 2026). Head office is at Plot No. 150, Sector 44, Gurgaon, with a registered office in Mayapuri, New Delhi.
 
-Qbits publishes 50,000+ installations, 8+ years, on its own site (checked 24 September 2026). Those are brand claims on both sides. Neither set has been independently audited here, so read them as scale indicators rather than performance evidence.
+Qbits sells through a dealer channel and a published [service-partner locator](/authorized-service-partners/), and this page does not rely on any Qbits footprint figure. The Luminous numbers are brand claims taken from its own about page and have not been independently audited here, so read them as scale indicators rather than performance evidence.
 
-The gap in years and channel count is not small, and it matters commercially. A 38-year consumer brand carries shelf presence, dealer familiarity, financing tie-ups and name recognition that an 8-year specialist does not. If your decision weight sits on brand recognition and retail reach, Luminous leads on both and the comparison can stop here.
+The gap in years and channel count is not small, and it matters commercially. A 38-year consumer brand carries shelf presence, dealer familiarity, financing tie-ups and name recognition that a younger specialist does not. If your decision weight sits on brand recognition and retail reach, Luminous leads on both and the comparison can stop here.
 
 ## Home UPS, PCU, or grid-tied string inverter: which one you need
 
@@ -135,7 +135,7 @@ The specialist model works differently and deserves judging on its own terms. Sa
 
 Luminous runs ConnectX as its monitoring app and sells a Data Logger product line as a separate category, per the Luminous India products navigation (checked 24 September 2026). The hybrid solution page names ConnectX as the monitoring path for its systems.
 
-Qbits ships Wi-Fi monitoring as standard on every series in its current product records, with optional RS485 or GPRS, and publishes live iOS and Android app listings. The larger utility-scale units add a Bluetooth app alongside the LED display. What those records do not establish is that every monitoring feature exists on every model, so verify per SKU.
+Qbits ships Wi-Fi monitoring as standard on every series in its current product records, with optional RS485 or GPRS, and publishes live iOS and Android app listings. The larger utility-scale units add a Bluetooth app alongside the LED display. What those records do not confirm is that every monitoring feature exists on every model, so verify per SKU.
 
 The question that actually causes disputes is ownership. If the installer creates the plant under their own account, you can lose visibility when the relationship ends. Get the account transferred to you at handover. The [guide to solar inverter app monitoring](/blog/solar-inverter-app-monitoring/) lists the fields worth checking before commissioning.
 
@@ -155,7 +155,7 @@ That same regulation states a DISCOM may prescribe a narrower range. A factory d
 
 Anti-islanding test method is separate: IS 16169:2019 is the Indian adoption of IEC 62116 Edition 2.0 (2014-02), brought in under the MNRE Solar Systems, Devices and Components Goods Order, 2025, notified 27 January 2025. Inverter safety sits under IS 16221 (Part 2):2015, which adopts IEC 62109-2:2011. Keep the two apart when reading a certificate.
 
-One correction applies to both brands, because installers repeat it constantly. There is no MNRE inverter list. ALMM List-I covers solar PV modules and List-II covers solar cells, so the claim that an inverter must appear on ALMM List-II for PM Surya Ghar is false. Qbits states it is ALMM Phase III listed; treat that as a brand statement and ask for the certificates your scheme, tender or DISCOM actually names.
+One correction applies to both brands, because installers repeat it constantly. There is no MNRE inverter list. ALMM List-I covers solar PV modules and List-II covers solar cells, so the claim that an inverter must appear on ALMM List-II for PM Surya Ghar is false. For an inverter, ask for the exact model's BIS registration and current certificates, and for the documents your scheme, tender or DISCOM actually names.
 
 For the protection mechanism itself, see [how anti-islanding protection works](/blog/anti-islanding-protection-solar-inverters/).
 
@@ -227,7 +227,7 @@ For a cross-check on how a different full-range consumer brand compares against 
 
 ## The Bottom Line
 
-Qbits and Luminous compete for the same buyer less often than the search query implies. Luminous is a 38-year consumer energy brand with a 100K+ channel network, a full product range, and a fulfilment chain that includes installation and financing. Qbits is an 8-year grid-tied and hybrid inverter specialist selling inverters only, through dealers and service partners, with an expandable warranty whose base term is not defined in public material and a documented instruction to obtain written terms per quote. Both must satisfy CEA Regulation 11(6) to connect. Neither wins on brand-level argument, and this page does not claim Qbits does.
+Qbits and Luminous compete for the same buyer less often than the search query implies. Luminous is a 38-year consumer energy brand with a 100K+ channel network, a full product range, and a fulfilment chain that includes installation and financing. Qbits is a younger grid-tied and hybrid inverter specialist selling inverters only, through dealers and service partners, with an expandable warranty whose base term is not defined in public material and a documented instruction to obtain written terms per quote. Both must satisfy CEA Regulation 11(6) to connect. Neither wins on brand-level argument, and this page does not claim Qbits does.
 
 Three actions:
 

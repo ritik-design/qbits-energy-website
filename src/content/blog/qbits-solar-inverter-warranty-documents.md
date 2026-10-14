@@ -47,7 +47,7 @@ That is the honest extent of it. Everything a claim actually turns on sits outsi
 
 ## What the public material does not define
 
-The note published on every `/our-products/` page is explicit. The public datasheets do not establish:
+The note published on every `/our-products/` page is explicit. The public datasheets do not define:
 
 - the **base term**, meaning the length of cover before any extension;
 - the **remedy**, meaning what Qbits will actually do when a unit fails;

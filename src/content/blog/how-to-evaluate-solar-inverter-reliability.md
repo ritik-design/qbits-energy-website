@@ -22,19 +22,19 @@ faqs:
   - q: "What's a more reliable indicator of performance than peak efficiency?"
     a: "Efficiency curves across the full operating range (not just peak), combined with field MTBF (Mean Time Between Failures) data from real installations. An inverter with 98% peak efficiency but 92% at 20% load underperforms one with consistent 97% across all load points. Always request weighted efficiency (European or CEC) which reflects real-world generation patterns, not lab-perfect numbers measured at single operating points."
   - q: "Why does IP66 matter more than IP65 for Indian reliability?"
-    a: "Indian rooftops face monsoon-driven rain hitting enclosures from multiple angles, dust storms, and coastal salt-laden humidity. IP65 protects against low-pressure water jets from one direction; IP66 handles powerful water jets from any direction with 8x the flow rate. Field data shows inverters below IP66 fail at 15%+ rates during first monsoon in high-rainfall zones, while IP66 stays below 2%. Environmental ingress causes 15-20% of all inverter failures in the first decade across India."
+    a: "Indian rooftops face monsoon-driven rain hitting enclosures from multiple angles, dust storms, and coastal salt-laden humidity. IP65 protects against low-pressure water jets from one direction; IP66 handles powerful water jets from any direction at a much higher flow rate. Water and dust ingress is a recognised cause of inverter failures on exposed rooftops, so a higher rating gives more margin, but the rating alone does not guarantee reliability. Check the gasket, cable glands and mounting position as well."
   - q: "What signals manufacturer reliability beyond the product specs?"
     a: "Parent company financial stability and audited financials, verified installed base in India with at least 1,000 commissioned units, years in business (5+ minimum, 10+ preferred), channel partner program maturity, India-based service infrastructure with service centres mapped to your project geography, and digital warranty system supporting RMA tracking. A model-specific written warranty is only as strong as the company that has to honour it - verify the company exists with operational scale before relying on the warranty in your financial model."
   - q: "Are integrated DC and AC SPDs better than external add-ons?"
     a: "Yes, materially better. Integrated surge protection devices are factory-tuned to the specific inverter's electrical characteristics, have fewer connection failure points, respond faster to surge events, and survive multiple surge cycles before requiring replacement. Quality inverters include 20 kA+ surge current capacity as standard, not as a paid add-on. External SPDs are acceptable as a second layer of protection but should not be relied upon as the primary defence."
   - q: "What manufacturing testing protocol indicates real quality?"
-    a: "Automated unit-level testing where every inverter (not a sample batch) goes through 1,000+ individual tests before shipment. Tests should cover component-level validation, post-soldering X-ray inspection, automated test equipment (ATE) across the full operating range from 5% to 110% rated power, and statistical process control tracking trends. Batch sampling alone is insufficient - reputable manufacturers test every unit and provide serial-number-linked test reports on request."
+    a: "Automated unit-level testing where every inverter (not a sample batch) goes through a documented sequence of tests before shipment. Tests should cover component-level validation, post-soldering X-ray inspection, automated test equipment (ATE) across the full operating range from 5% to 110% rated power, and statistical process control tracking trends. Batch sampling alone is insufficient - reputable manufacturers test every unit and provide serial-number-linked test reports on request."
   - q: "What does 'German-grade components' actually mean?"
-    a: "Electronic parts manufactured to stringent European standards (VDE, TUV, IEC) with superior materials, rigorous testing, comprehensive documentation, and long-term availability. Specific manufacturers include Infineon and Vishay (semiconductors, IGBTs), Nippon Chemi-Con and Rubycon and Nichicon (105 deg C-rated Japanese capacitors). The component sourcing differs materially from generic Chinese or unverified supplier alternatives, with annual failure rates of 2-3% vs 8-12% and operational lifespans of 15-20 years vs 5-8 years."
+    a: "It is a marketing phrase, not a standard or a certification. It usually suggests parts from established European or Japanese suppliers, for example Infineon or Vishay for semiconductors and IGBTs, and Nippon Chemi-Con, Rubycon or Nichicon for 105 deg C-rated capacitors. The phrase itself guarantees nothing, so ask for the bill of materials with manufacturer and part numbers for the exact model, plus the datasheets for the capacitors and IGBTs. Thermal design, derating and test discipline matter as much as where the parts come from."
   - q: "Is the 20-30% cost premium for premium inverters worth it?"
     a: "Yes, for any installation intended to operate 10+ years. The 20-30% upfront premium for quality components, IP66 protection, and model-specific written warranty pays for itself by avoiding even a single mid-life replacement cycle (which costs the equivalent of the original inverter unit). Total 25-year ownership costs heavily favour premium components even when only the warranty event probability is considered, before factoring in the generation efficiency advantage."
   - q: "What's the most common cause of inverter failure in Indian conditions?"
-    a: "Capacitor failure due to heat stress. Indian rooftop ambient temperatures regularly hit 45-48 deg C in summer, with internal enclosure temperatures 10-15 deg C higher. Standard 85 deg C-rated electrolytic capacitors degrade rapidly at these temperatures. Premium 105 deg C-rated Japanese capacitors operate within their thermal design margin and last 2-3x longer in the same conditions. Capacitor quality is the single most important component selection factor for Indian reliability."
+    a: "Capacitor failure due to heat stress. Indian rooftop ambient temperatures regularly hit 45-48 deg C in summer, with internal enclosure temperatures 10-15 deg C higher. Standard 85 deg C-rated electrolytic capacitors degrade rapidly at these temperatures. Capacitors rated for 105 deg C operate within their thermal design margin and last considerably longer in the same conditions. Capacitor quality is the single most important component selection factor for Indian reliability."
   - q: "How do I verify reliability and quality claims before bulk procurement?"
     a: "Five-step verification: (1) Request component datasheets showing manufacturer and grade for capacitors and IGBTs. (2) Request certification documents directly from issuing labs (BIS, IEC, IP66 from NABL-accredited labs), not just supplier-provided copies. (3) Conduct factory audits for any supplier expected to take more than 5% of annual procurement spend. (4) Request references from installers with 2-3 years of operational history on the specific inverter model - ask about field failure rates, RMA experiences, and ongoing performance. (5) Run a 20-50 unit pilot before bulk commitment."
   - q: "What field MTBF data should a manufacturer provide?"
@@ -47,7 +47,7 @@ For solar EPCs in India, inverter quality, reliability, and testing rigour direc
 
 > **TL;DR**
 > - Evaluate reliability across 9 indicators: components, certifications, factory testing, warranty, manufacturer track record, weather protection, surge protection, monitoring, and efficiency.
-> - Premium components (105 °C Japanese capacitors, Infineon IGBTs) last 15-20 years versus 3-5 years for generic parts, at only a 20-30% cost premium.
+> - Better-rated components (for example 105 °C capacitors and named-brand IGBTs) cope with Indian rooftop heat for longer than generic parts, so ask for the bill of materials instead of trusting a label like "German-grade".
 > - A 10-model-specific written warranty signals real manufacturer confidence; 5-7 year repair-only terms signal an expected mid-life failure.
 > - Reputable manufacturers run automated end-of-line testing on every unit with burn-in and thermal cycling, not batch sampling.
 > - Watch for 8 quality red flags, including generic components, sample-only QC, IP54/IP65 in place of IP66, and pro-rated warranty coverage.
@@ -99,7 +99,7 @@ Third-party validation from NABL-accredited testing labs matters far more than m
 The single biggest separator between reliable and unreliable inverters is factory testing rigour:
 
 - **Automated unit-level testing** - every inverter tested, not batch sampling
-- **1,000+ tests per unit** for premium manufacturers, covering component, electrical, safety, environmental
+- **A documented per-unit test sequence** for premium manufacturers, covering component, electrical, safety, environmental
 - **Burn-in testing** for 24-48 hours under load before shipment
 - **Thermal cycling tests** verifying performance across 40 deg C+ swings common on Indian rooftops
 - **Vibration testing** for transport and installation conditions
@@ -318,7 +318,7 @@ Apply this scorecard to every candidate supplier:
 
 | Indicator | Quality threshold |
 | --- | --- |
-| Components | German-grade or Japanese-grade (Infineon, Nippon Chemi-Con) |
+| Components | Manufacturer and grade documented (for example Infineon IGBTs, Nippon Chemi-Con capacitors) |
 | ALMM scope | Verify current PV module and cell requirements |
 | Factory testing | Written test protocol, burn-in duration, and per-unit records |
 | Warranty | Written base term, and whether the remedy is replacement or repair |
@@ -357,9 +357,9 @@ EPCs formalising this checklist across a growing team often fold it into the sam
 
 ## Where Qbits Fits
 
-Apply the reliability framework to Qbits in the same way as any other supplier. the current published documents provide model-specific electrical ratings and describe an expandable warranty. They do not establish component brands, a universal factory-test count, range-wide accredited reports, a warranty duration or remedy, AI or WhatsApp functions, an installed-base figure, or a universal certificate set.
+Apply the reliability framework to Qbits in the same way as any other supplier. Qbits' public datasheets give model-specific electrical ratings and describe an expandable warranty. They do not state component brands, a factory-test count, accredited test reports for the whole range, a warranty duration or remedy, an installed-base figure, or a single certificate set that covers every model.
 
-Ask Qbits for model-matched test reports, certificate scope, quality records, field-failure evidence, monitoring documentation, the current written warranty and local service terms. Record any unavailable evidence as not established rather than converting positioning into a reliability score.
+Ask Qbits for model-matched test reports, certificate scope, quality records, field-failure evidence, monitoring documentation, the current written warranty and local service terms. Where a document is unavailable, mark that item as unanswered rather than converting marketing positioning into a reliability score.
 
 Related guides:
 

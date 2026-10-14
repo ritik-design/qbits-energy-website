@@ -24,7 +24,6 @@ relatedTerms:
   - { slug: "cerc", term: "CERC" }
   - { slug: "serc", term: "SERC" }
   - { slug: "discom", term: "DISCOM" }
-  - { slug: "grid-code", term: "Grid Code" }
   - { slug: "anti-islanding", term: "Anti-Islanding" }
   - { slug: "fault-ride-through", term: "Fault Ride Through" }
   - { slug: "reactive-power", term: "Reactive Power" }

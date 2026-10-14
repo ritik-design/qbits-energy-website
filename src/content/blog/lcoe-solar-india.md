@@ -30,10 +30,10 @@ faqs:
   - q: "How does LCOE compare to a Power Purchase Agreement (PPA) rate?"
     a: "A PPA rate is the per-unit price an RESCO charges a C&I buyer in a zero-CAPEX arrangement. Typical PPA rates in India range from ₹4.5–6.5/kWh for commercial rooftop installations. A buyer with CAPEX access and a company WACC below 10% should calculate their own LCOE first - if their LCOE is ₹2.8/kWh, a PPA at ₹5.5/kWh is not in their interest. The LCOE calculation is therefore the benchmark against which a PPA offer should be judged."
   - q: "What inputs does a bank or project financier require for C&I solar loan approval?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Lenders typically ask for the borrower's financial statements and credit history, the project's technical design and a bill of quantities, an itemised EPC or vendor quotation, the electricity bill and sanctioned load, the DISCOM or open-access approval status, the PPA or offtake terms if any, and the equipment datasheets and warranty documents. Requirements differ by bank, so get the lender's checklist before you finalise the quotation. Ask your vendor for model-wise datasheets and written warranty terms early, because lenders often want them with the application."
 ---
 
-> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+> **Qbits warranty and service terms:** Qbits' public datasheets describe an expandable warranty but do not give a base term, remedy, registration deadline, service response time or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 

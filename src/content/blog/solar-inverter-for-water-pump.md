@@ -32,7 +32,7 @@ faqs:
   - q: "What is the KUSUM scheme subsidy amount for a 5 HP solar pump?"
     a: "Under KUSUM Component-B, the central government subsidy is 30% of the benchmark cost set by MNRE. For a 5 HP solar pump, MNRE benchmark costs are in the range of ₹2.5 to ₹3.5 lakh depending on pump type (surface or submersible) and state. Central subsidy covers ₹75,000 to ₹1.05 lakh; the state matches this with another 30%. The farmer's net cash outflow is 10% upfront (₹25,000 to ₹35,000) plus loan repayments on 30% over 5–7 years. Actual state-level benchmark costs vary - always verify with the state nodal agency before applying."
   - q: "Can a Qbits on-grid inverter power a grid-connected agricultural pump under KUSUM Component-C?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Possibly, but it is not something to assume. Qbits publishes grid-tied on-grid and hybrid inverters, not a standalone solar-pump controller, so its range does not fit Component-B pumps. For Component-C, the state implementing agency and the DISCOM set the approved equipment and the package conditions, and Qbits' public documents do not state eligibility for the scheme. Ask the implementing agency for its current equipment requirements, and ask the seller for the exact inverter model's datasheet and current certificates before you commit."
   - q: "What size solar inverter do I need for a 5 HP agricultural pump on a grid-connected setup?"
     a: "Size on starting behaviour rather than the nameplate rating. A 5 HP motor is roughly 3.7 kW of mechanical output, and its electrical input is higher again once motor efficiency is accounted for. Started direct on line it can draw several times its running current for a short period, so you either add a soft starter or variable frequency drive to limit that surge, or you specify enough headroom to ride through it. Note also that on a grid-connected setup the solar system offsets consumption at the meter rather than driving the pump directly, so the pump's own supply and protection still have to be rated for the motor."
 ---
@@ -50,7 +50,7 @@ This guide explains the difference between a solar pump controller and a grid-ti
 > - Use the Pump Sizing Triangle: convert HP to kW (×0.746), divide by motor efficiency (÷0.80), then multiply by 1.5–2.0 for inrush headroom.
 > - Standalone off-grid pumps (KUSUM Component-B) need a dedicated solar pump controller with VFD and get 60% total subsidy; grid-connected pumps ([KUSUM Component-C](https://www.heavengreenenergy.com/blog/kusum-component-c-grid-tied-pump)) need a standard on-grid inverter and no DISCOM approval is skipped.
 > - A 2 HP submersible pump needs roughly 2.2–2.5 kWp of panels; a 5 HP pump needs 4.5–5.5 kWp.
-> - Qbits publishes grid-tied on-grid and hybrid inverter families. the current published documents do not establish a standalone Component-B pump controller or universal Component-C eligibility.
+> - Qbits publishes grid-tied on-grid and hybrid inverter families. Its public documents do not describe a standalone Component-B pump controller or state eligibility for Component-C.
 
 > **Direct answer.** A solar inverter for a water pump must be sized for inrush current, motors draw 5–7× their rated current at start-up. Use the Pump Sizing Triangle: (1) convert HP to kW (×0.746), (2) divide by motor efficiency (÷0.80), (3) multiply by 1.5 for inrush headroom. For standalone off-grid pumps, choose a dedicated solar pump controller with VFD; for grid-connected pumps under KUSUM Component-C, a standard on-grid inverter sized to the solar array is correct. KUSUM Component-B subsidises standalone solar pumps at 60% total subsidy for 0.5–7.5 HP systems.
 
@@ -255,7 +255,7 @@ Applying for KUSUM Component-B involves state-level agencies, not a central nati
 
 ## Where Qbits Fits in Solar Pump Setups
 
-Qbits publishes grid-tied on-grid and hybrid inverter families; the retained product documents do not establish a standalone solar-pump controller. For any KUSUM project, verify the current component rules, empanelment, pump/controller package and exact approved equipment through the official implementing route.
+Qbits publishes grid-tied on-grid and hybrid inverter families, and its public documents do not describe a standalone solar-pump controller. For any KUSUM project, verify the current component rules, empanelment, pump/controller package and exact approved equipment through the official implementing route.
 
 - **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Use this free tool to confirm your panel-string configuration matches the selected Qbits inverter's MPPT voltage range before finalising the design.

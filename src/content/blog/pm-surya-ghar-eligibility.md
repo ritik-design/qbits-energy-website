@@ -1,6 +1,6 @@
 ---
 title: "PM Surya Ghar Eligibility: Who Qualifies in 2026?"
-excerpt: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+excerpt: "Check who qualifies for PM Surya Ghar in 2026: applicant, premises, electricity tariff category, system size and documents, and how to confirm your status with the portal and your DISCOM."
 description: "Check PM Surya Ghar eligibility through the official portal and DISCOM, with guidance on applicant, premises, system and document requirements."
 category: "Policy"
 date: 2026-06-05
@@ -24,7 +24,7 @@ faqs:
   - q: "Can an NRI apply for PM Surya Ghar for their property in India?"
     a: "An NRI cannot apply directly if they are not the active electricity consumer on record with the DISCOM. If the NRI's family member residing at the property holds the electricity connection in their name, that family member can apply. Alternatively, the NRI may authorise a family member through a notarised Power of Attorney to manage the application process, provided the electricity account is in that person's name. The Aadhaar requirement means the applicant must be physically present in India or have an existing enrolled Aadhaar."
   - q: "Can I apply if I already have solar panels installed?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "It depends on the system. A property that already has a grid-connected plant may be considered for an upgrade or replacement, subject to DISCOM approval, and the existing capacity and any earlier subsidy are taken into account. A system that was installed and commissioned before you registered cannot normally be claimed retrospectively, because the subsidy follows the scheme's own application and inspection sequence. An existing off-grid system that never received central subsidy is generally treated as a candidate for conversion to a grid-connected setup. Confirm your case with the DISCOM and the national portal before you buy anything."
   - q: "Are commercial or industrial electricity consumers eligible?"
     a: "No. PM Surya Ghar Muft Bijli Yojana is explicitly restricted to residential electricity consumers. Properties billed under commercial tariff (LT-2, HT-2 or equivalent tariff codes depending on the state DISCOM) or industrial tariff are not eligible. Mixed-use properties - for example, a shop on the ground floor and residence above - must separate the electricity connections. Only the residential connection qualifies. Applicants should verify their tariff category on their electricity bill before applying."
   - q: "What is the minimum and maximum system size for the subsidy?"
@@ -32,7 +32,7 @@ faqs:
   - q: "Does property ownership need to be in my name?"
     a: "Ownership documents need to confirm that the applicant has a legal right to install solar on the property. In most states, the electricity connection and property ownership should align. If the property is jointly owned, any co-owner can apply, but the electricity connection must be in their name. Inherited properties where the electricity connection has not yet been transferred to the heir's name may require a no-objection from the estate or a legal heir certificate before the DISCOM processes the application."
   - q: "Which inverter brands are approved for PM Surya Ghar?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "There is no ALMM list for inverters, so no inverter brand list can be derived from ALMM: MNRE's ALMM lists cover solar modules and cells only. What matters for an inverter is the exact model's BIS registration and current certificates, plus any technical conditions in the scheme guidelines and your DISCOM's connection rules. Ask the empanelled vendor for those documents for the exact model quoted, and confirm with the DISCOM before ordering."
   - q: "What happens if my DISCOM does not support net metering?"
     a: "PM Surya Ghar requires that the DISCOM in your area supports grid connectivity and net metering for residential consumers. In areas served by private DISCOMs (such as BEST in parts of Mumbai, TPDDL in Delhi, or CESC in Kolkata), the process and eligibility conditions may differ from state DISCOMs. Some private DISCOMs have their own empanelled vendor lists and approval timelines. Applicants in areas with private DISCOMs should visit the DISCOM office or their official website to confirm participation in the PM Surya Ghar scheme before applying."
 featured: false
@@ -211,6 +211,8 @@ The central government sets the baseline eligibility criteria, but state governm
 State variations matter most in three situations: when the property is in an area served by a private DISCOM, when the applicant is claiming a state top-up subsidy, and when the documentation requirements exceed the standard central government checklist. Always verify the current requirements on the state DISCOM's official portal before submitting an application.
 
 ## ALMM and inverter compliance are separate checks
+
+ALMM applies to solar modules and cells, and MNRE publishes no ALMM list for inverters. The inverter is checked separately, through the exact model's BIS registration and current certificates and your DISCOM's connection requirements, so ask the vendor for these documents before you sign.
 
 The payback period calculation changes significantly when the subsidy is lost. Our analysis of [solar inverter payback periods in India](/blog/solar-inverter-payback-period-in-india/) shows that the ₹78,000 central subsidy reduces payback time by 1.5 to 2.5 years for a typical 3 kW residential system, a difference substantial enough to make inverter selection a financial decision, not just a technical one.
 

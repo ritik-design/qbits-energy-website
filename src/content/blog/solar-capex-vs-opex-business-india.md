@@ -152,9 +152,9 @@ A backup-critical worked example is in [solar for clinics and nursing homes](/bl
 
 For C&I buyers who choose the CAPEX model, the inverter is the highest-value component decision because it sits at the centre of all generation and because inverter failure during the high-IRR early years of the system life is the primary risk to financial performance.
 
-The retained Qbits catalogue identifies several three-phase on-grid families for commercial applications. It does not establish one universal harmonic limit, warranty term, financing eligibility, ALMM status, monitoring interface or project outcome across those families. A CAPEX buyer should match the exact model, datasheet revision and supporting documents to the electrical design and lender requirements.
+Qbits' published catalogue lists several three-phase on-grid families for commercial applications. Harmonic limits, warranty terms, financing eligibility, monitoring interfaces and project outcomes vary by model, so no single figure applies across those families. A CAPEX buyer should match the exact model, datasheet revision and supporting documents to the electrical design and lender requirements.
 
-For each shortlisted Qbits model, request the applicable harmonic test evidence, grid-interface documents, monitoring hardware and software scope, written warranty, service process and commercial quote. Record any item not supplied as not established in the bid comparison rather than filling the gap with a brand-level assumption.
+For each shortlisted Qbits model, request the applicable harmonic test reports, grid-interface documents, monitoring hardware and software scope, written warranty, service process and commercial quote. Mark any item the supplier does not provide as missing in the bid comparison rather than filling the gap with a brand-level assumption.
 
 - **[C&I Solar Solution](/c-i-solution/)**: Industrial solar from 50 kW to multi-MW.
 - **[On-Grid Inverters](/on-grid-inverter/)**: Request exact-model harmonic evidence and check the project's point-of-connection requirements; no universal Qbits THD value is stated here.

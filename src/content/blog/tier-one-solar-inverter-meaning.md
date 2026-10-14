@@ -140,10 +140,10 @@ Use wording like this as a starting point:
 
 Then define the acceptable quarter, any permitted status-change window, and the consequence if the maker is absent at bid submission or before supply. Procurement and legal teams should adapt the clause to the project. There is no universal Tier 1 tender rule.
 
-## The Qbits evidence boundary
+## Qbits and Tier 1 status
 
-This article does not claim that Qbits appears on a current Tier 1 list. The public BNEF methodology explains the classification, while the current maker list is available to clients. No retained primary record establishes a current Qbits listing, so the claim remains unmade.
+This article does not claim that Qbits appears on a current Tier 1 list. The public BNEF methodology explains the classification, while the current maker list is available only to BNEF clients. If a seller says a Qbits inverter is Tier 1, ask them to show the status on the current list through an authorised subscriber.
 
 For a Qbits bid, start with the offered model rather than a brand label. [Download the current Qbits datasheet](/download-datasheets/), freeze its model and revision, and add the required conformity, test, warranty, service, and project evidence as separate controlled records.
 
-**Sources checked 26 September 2026:** BloombergNEF's Tier 1 reports page and Tier 1 Power Inverter Methodology dated 18 March 2026; MNRE's Solar Systems, Devices and Components Goods Order, 2025; and the current Qbits repository publishing and product records. The article summarises classification boundaries and does not reproduce or publish the client-only maker list.
+**Sources checked 26 September 2026:** BloombergNEF's Tier 1 reports page and Tier 1 Power Inverter Methodology dated 18 March 2026; MNRE's Solar Systems, Devices and Components Goods Order, 2025; and Qbits' published product datasheets. The article summarises classification boundaries and does not reproduce or publish the client-only maker list.

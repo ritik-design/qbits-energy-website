@@ -28,8 +28,6 @@ relatedTerms:
   - { slug: "solar-yield", term: "Solar Yield" }
   - { slug: "cuf", term: "CUF" }
   - { slug: "irradiation", term: "Irradiation" }
-  - { slug: "ground-clearance", term: "Ground Clearance" }
-  - { slug: "row-spacing", term: "Row Spacing" }
   - { slug: "plane-of-array", term: "Plane of Array" }
   - { slug: "shading-analysis", term: "Shading Analysis" }
 faqs:

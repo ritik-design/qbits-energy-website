@@ -25,7 +25,7 @@ faqs:
   - q: "Is European efficiency the same as MPPT efficiency?"
     a: "No. European efficiency is a weighted conversion-efficiency metric. MPPT efficiency measures how well the tracker captures the available maximum power from the PV source. They test different functions and need separate tender rows."
   - q: "Can a tender compare maximum efficiency from one inverter with European efficiency from another?"
-    a: "No. The labels, test conditions, and calculation methods differ. Compare the same metric under the same named method and compatible conditions. Otherwise mark the comparison as not established and request clarification."
+    a: "No. The labels, test conditions, and calculation methods differ. Compare the same metric under the same named method and compatible conditions. Otherwise mark the comparison as inconclusive and request clarification."
   - q: "Does an IEC standard listed on a datasheet prove the offered model passed the test?"
     a: "Not by itself. A standards list is an index, not necessarily the tender evidence. If the tender requires proof, ask for the exact-model test report, its issuing laboratory, report number, date, standard edition, test conditions, and model scope."
   - q: "What if a bidder publishes only maximum inverter efficiency?"
@@ -68,7 +68,7 @@ The word *efficiency* is too broad for a compliance matrix. Start by deciding wh
 
 ## Why a minimum percentage is not enough
 
-Suppose one bid says "98.4 percent maximum efficiency" and another says "97.8 percent European efficiency". The first number may be higher, but the tender has not established that the first inverter performs better. The values answer different questions.
+Suppose one bid says "98.4 percent maximum efficiency" and another says "97.8 percent European efficiency". The first number may be higher, but the two numbers cannot show that the first inverter performs better. The values answer different questions.
 
 The same problem appears when bids use the same label without the same conditions:
 
@@ -184,6 +184,6 @@ Before issue:
 - publish the comparison and scoring rule; and
 - keep annual-energy modelling in its own schedule.
 
-Before submission, use the [Qbits datasheet library](/download-datasheets/) to retrieve the current document for the exact model under consideration. Record its file and retrieval date, then request any test report or condition that the datasheet does not establish.
+Before submission, use the [Qbits datasheet library](/download-datasheets/) to retrieve the current document for the exact model under consideration. Record its file and retrieval date, then request any test report or condition that the datasheet does not cover.
 
-**Sources checked 26 September 2026:** IEC 61683:1999 and IEC 62891:2020 publication records from the International Electrotechnical Commission; the current Qbits QB 4/5/6 KTLD datasheet; the live Qbits product record; and the existing Qbits datasheet, supplier-selection, procurement, efficiency, and tender content owners.
+**Sources checked 26 September 2026:** IEC 61683:1999 and IEC 62891:2020 publication records from the International Electrotechnical Commission; the current Qbits QB 4/5/6 KTLD datasheet; the live Qbits product record; and the related Qbits datasheet, supplier-selection, procurement, efficiency, and tender guides on this site.

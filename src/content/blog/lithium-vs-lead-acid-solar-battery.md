@@ -20,7 +20,7 @@ faqs:
   - q: "How should lithium and lead-acid battery capacity be compared?"
     a: "Compare usable delivered energy within the exact model's permitted operating window and power limits, not nominal amp-hours alone. Record nominal energy, permitted state-of-charge or depth-of-discharge window, inverter cut-offs, conversion losses, temperature limits, ageing basis, reserve, and the load profile used for the comparison."
   - q: "Does lithium battery last longer than lead acid?"
-    a: "Many individual lithium and lead-acid products publish different cycle and calendar-life conditions, but chemistry names alone do not establish project life. Compare the exact model's test conditions, depth of discharge, temperature, charge and discharge rate, end-of-life definition, calendar limit, warranty, and expected site duty without converting rated cycles directly into guaranteed years."
+    a: "Many individual lithium and lead-acid products publish different cycle and calendar-life conditions, but chemistry names alone do not determine project life. Compare the exact model's test conditions, depth of discharge, temperature, charge and discharge rate, end-of-life definition, calendar limit, warranty, and expected site duty without converting rated cycles directly into guaranteed years."
   - q: "Do lead-acid solar batteries need maintenance?"
     a: "Maintenance depends on the exact lead-acid type and manufacturer instructions. Flooded products may require tasks that sealed products do not, along with ventilation and inspection requirements. Never infer a water-top-up, equalisation, cleaning, interval, or charging procedure from the chemistry label. Use the exact model manual and qualified service process."
   - q: "Can lithium and lead-acid batteries use the same hybrid inverter?"
@@ -29,7 +29,7 @@ faqs:
 
 A fair **lithium vs lead-acid solar battery** comparison uses exact models and the same required service. Compare usable delivered energy, power, cycling, environment, maintenance, inverter and BMS compatibility, warranty, installed cost, finance, service, and supported replacement scenarios. Do not turn chemistry-wide averages into a project life, price, safety, or savings guarantee.
 
-This approach intentionally avoids the old page's universal cycle counts, temperature derating, maintenance schedules, prices, and ten-year cost claims. Those values belong to named products, defined test conditions, current quotes, and an approved installation.
+This approach intentionally avoids universal cycle counts, temperature derating, maintenance schedules, prices, and ten-year cost claims. Those values belong to named products, defined test conditions, current quotes, and an approved installation.
 
 ## What must be equal before comparing battery chemistries?
 

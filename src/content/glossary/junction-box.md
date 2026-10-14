@@ -22,7 +22,6 @@ quickFacts:
 relatedTerms:
   - { slug: "combiner-box", term: "Combiner Box" }
   - { slug: "mc4-connector", term: "MC4 Connector" }
-  - { slug: "bypass-diode", term: "Bypass Diode" }
   - { slug: "dc-cable", term: "DC Cable" }
   - { slug: "ac-cable", term: "AC Cable" }
   - { slug: "fuse", term: "Fuse" }

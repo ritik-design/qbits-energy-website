@@ -19,20 +19,19 @@ quickFacts:
   primaryUse: "Subsidising residential rooftop solar"
   commonUsers: "Indian residential customers, DISCOMs, installers, EPCs"
   relevantStandards: "MNRE scheme guidelines, ALMM, CEA Smart Meter Regulations 2023"
-  relatedTechnologies: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+  relatedTechnologies: "PV modules, inverters, net meters, rooftop mounting structures"
 relatedTerms:
   - { slug: "mnre", term: "MNRE" }
   - { slug: "almm-list", term: "ALMM List" }
   - { slug: "net-metering", term: "Net Metering" }
   - { slug: "discom", term: "DISCOM" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "on-grid-inverter", term: "On Grid Inverter" }
   - { slug: "bidirectional-meter", term: "Bidirectional Meter" }
   - { slug: "smart-meter", term: "Smart Meter" }
   - { slug: "capex", term: "CAPEX" }
   - { slug: "payback-period", term: "Payback Period" }
   - { slug: "kusum", term: "PM-KUSUM" }
-  - { slug: "renewable-energy-certificate", term: "REC" }
+  - { slug: "rec", term: "Renewable Energy Certificate" }
 faqs:
   - q: "What is PM Surya Ghar Muft Bijli Yojana?"
     a: "A central government scheme launched in February 2024 to subsidise rooftop solar for 10 million Indian residential customers by 2027, with grants of up to ₹78,000 per household."
@@ -47,7 +46,7 @@ faqs:
   - q: "How long does PM Surya Ghar approval take?"
     a: "Target is 30 days from application to commissioning. Actual times range from 30 to 90 days depending on DISCOM and district."
   - q: "Can I get subsidy for a hybrid inverter under PM Surya Ghar?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "PM Surya Ghar assistance is calculated on the rated capacity of the solar modules, not on the inverter type. MNRE publishes no ALMM list for inverters, so a hybrid inverter is not excluded on that ground, but it must meet the scheme's technical specification and the DISCOM must accept the connection for net metering. Confirm the current rules with your DISCOM or the PM Surya Ghar portal before buying."
   - q: "Is PM Surya Ghar only for new connections?"
     a: "No. Existing residential connections can apply as long as they have a valid DISCOM account and sanctioned load."
   - q: "What documents are needed for PM Surya Ghar?"

@@ -30,8 +30,6 @@ relatedTerms:
   - { slug: "solar-yield", term: "Solar Yield" }
   - { slug: "bifacial-module", term: "Bifacial Module" }
   - { slug: "cuf", term: "CUF" }
-  - { slug: "ground-clearance", term: "Ground Clearance" }
-  - { slug: "row-spacing", term: "Row Spacing" }
 faqs:
   - q: "What is tilt angle in simple words?"
     a: "The angle at which solar panels are tipped up from the ground. 0 degrees is flat, 90 degrees is vertical. The right tilt catches the most sun."

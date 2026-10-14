@@ -240,7 +240,7 @@ Modern inverters supporting [up to 100% DC oversizing](/glossary/dc-oversizing/)
 
 **[IP66 weather protection](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/)**: complete dust ingress protection and protection against powerful water jets, is the gold standard for rooftop installations and critical for surviving Indian monsoons.
 
-German-grade electronic components and integrated DC/AC SPDs prevent the kind of failures that lead to ₹50,000–₹1,50,000 mid-life replacements.
+Good-quality electronic components and integrated DC/AC SPDs reduce the kind of failures that lead to costly mid-life replacements. Ask the seller for the bill of materials and the written warranty for the exact model.
 
 ## Decision Framework for EPCs
 
@@ -274,6 +274,6 @@ Clients planning long-term ownership or concerned about grid instability often v
 
 On-grid systems deliver unmatched simplicity, lowest upfront cost, and fastest payback in stable-grid regions with favourable net metering. Hybrid inverters command premium pricing but deliver superior value in grid-unstable regions, for clients with critical backup requirements, and where demand-charge management or time-of-use optimisation justifies the investment.
 
-Quality matters in both categories. Inverters with **12-year warranties, IP66 weather protection, AI-powered monitoring, and German-grade components** deliver superior long-term value over a 25-year system life.
+Quality matters in both categories. Over a 25-year system life, check the written warranty term and remedy, the IP rating, the monitoring features and the component quality of the exact model before you compare quotes.
 
 For a broader look at where [off-grid inverters](/glossary/off-grid-inverter/) fit alongside these two configurations, read [on-grid vs hybrid vs off-grid inverters: the 2026 decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/). A shorter side-by-side summary is also available at [on-grid vs hybrid inverter: which should you actually buy?](/blog/on-grid-vs-hybrid/)

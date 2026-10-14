@@ -218,7 +218,7 @@ DISCOM commissioning refusals require equipment replacement, reinstallation labo
 
 ### Warranty Protection
 
-Manufacturers can deny coverage if certification irregularities exist. **[12-year warranties](/blog/12-year-solar-inverter-warranty/) only provide value when rights are protected.**
+Manufacturers can deny coverage if certification irregularities exist. **[Long inverter warranties](/blog/12-year-solar-inverter-warranty/) only provide value when rights are protected.**
 
 ### Legal Liability
 

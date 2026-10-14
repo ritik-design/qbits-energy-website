@@ -184,4 +184,4 @@ Three actions to take this month:
 
 - Pull your last 12 months of HT bills and compute your effective per-unit tariff including demand charges. That number is the benchmark every offer must beat.
 - Shortlist two or three group captive offers. Run the landed-cost checklist from this guide on each, including exit terms and the generation guarantee.
-- For a product or commercial enquiry, [contact Qbits](/contact-us/) and ask whether a review is available. The reviewer, method, deliverable, fee and response time are not established until confirmed in writing. Obtain independent legal, tax, technical and financial advice before committing equity.
+- For a product or commercial enquiry, [contact Qbits](/contact-us/) and ask whether a review is available. Get the reviewer, method, deliverable, fee and response time confirmed in writing first. Obtain independent legal, tax, technical and financial advice before committing equity.

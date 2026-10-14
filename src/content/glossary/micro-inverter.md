@@ -25,15 +25,13 @@ relatedTerms:
   - { slug: "string-inverter", term: "String Inverter" }
   - { slug: "central-inverter", term: "Central Inverter" }
   - { slug: "mppt", term: "MPPT" }
-  - { slug: "module-level-power-electronics", term: "Module Level Power Electronics" }
+  - { slug: "mlpe", term: "MLPE" }
   - { slug: "dc-optimiser", term: "DC Optimiser" }
-  - { slug: "shading-loss", term: "Shading Loss" }
   - { slug: "ac-coupling", term: "AC Coupling" }
   - { slug: "anti-islanding", term: "Anti-Islanding" }
   - { slug: "on-grid-inverter", term: "On Grid Inverter" }
   - { slug: "rapid-shutdown", term: "Rapid Shutdown" }
   - { slug: "inverter-efficiency", term: "Inverter Efficiency" }
-  - { slug: "mlpe", term: "MLPE" }
   - { slug: "shading-analysis", term: "Shading Analysis" }
 faqs:
   - q: "What is a micro inverter in simple words?"
@@ -51,7 +49,7 @@ faqs:
   - q: "Can micro inverters be paired with a battery?"
     a: "Yes, through AC coupling. A separate battery inverter or AC battery sits beside the AC trunk and absorbs surplus or supplies backup AC during grid outages."
   - q: "Are micro inverters ALMM listed in India?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "No inverter of any type is on an ALMM list, because MNRE publishes ALMM lists only for solar PV modules and cells. For a micro inverter, ask for the exact model's BIS registration, safety test reports and grid-compliance documents, and confirm any DISCOM or scheme requirement before buying."
   - q: "What is the efficiency of a micro inverter?"
     a: "Modern micro inverters hit 95 to 97 percent peak efficiency, with weighted efficiency around 96.5 percent. The slightly lower efficiency than string inverters is usually offset by better mismatch and shading performance."
   - q: "Why are micro inverters more expensive?"

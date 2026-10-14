@@ -22,7 +22,7 @@ faqs:
     a: "No. Eligibility and tax treatment depend on the applicant, site, equipment, transaction and rules in force. Verify them through the relevant official authority and qualified adviser."
 ---
 
-> **Illustrative planning scenario, not a customer case study.** The 40 kW capacity is a working brief, not a recommendation. Qbits has not supplied a signed customer record, site survey, interval load file, design, quotation, commissioning report or measured performance dataset for this page. Every project outcome is therefore not established.
+> **Illustrative planning scenario, not a customer case study.** The 40 kW capacity is a working brief, not a recommendation. This page is not based on a signed customer record, site survey, interval load file, design, quotation, commissioning report or measured performance dataset. Every project outcome is therefore unknown.
 
 Cold storage has continuous refrigeration duty, cycling compressors and potentially sensitive controls. This scenario tests a 40 kW working brief without presenting an invented facility, bill or operating result.
 
@@ -34,17 +34,17 @@ A credible answer must be electrically safe, acceptable under the current projec
 
 ## Evidence required before sizing
 
-| Input | What to collect | Current evidence |
+| Input | What to collect | Status in this scenario |
 | --- | --- | --- |
-| Compressor profile | Interval kW, starts, duty cycle and seasonal behaviour | not established |
-| Power quality | Voltage, current, power factor and harmonic measurements | not established |
-| Continuity requirement | Temperature tolerance, alarms, generator and recovery procedure | not established |
-| Tariff and billing | Twelve months of bills, tariff category, demand charges and export treatment | not established |
-| Site constraints | Survey, shading, structure, cable route, access and environment | not established |
-| Utility process | Current connection, metering and inspection requirements | not established |
-| Commercial scope | Itemised quote, taxes, exclusions, warranty and service duties | not established |
+| Compressor profile | Interval kW, starts, duty cycle and seasonal behaviour | To be collected |
+| Power quality | Voltage, current, power factor and harmonic measurements | To be collected |
+| Continuity requirement | Temperature tolerance, alarms, generator and recovery procedure | To be collected |
+| Tariff and billing | Twelve months of bills, tariff category, demand charges and export treatment | To be collected |
+| Site constraints | Survey, shading, structure, cable route, access and environment | To be collected |
+| Utility process | Current connection, metering and inspection requirements | To be collected |
+| Commercial scope | Itemised quote, taxes, exclusions, warranty and service duties | To be collected |
 
-A missing input should stay not established. Replacing it with a typical value creates a neat result but not a reliable decision.
+A missing input should stay marked as unknown. Replacing it with a typical value creates a neat result but not a reliable decision.
 
 ## Engineering controls for this site
 
@@ -70,7 +70,7 @@ Do not publish a generation, saving, return or payback result until the calculat
 
 ## What can be said about Qbits equipment?
 
-The retained Qbits catalogue publishes on-grid and hybrid inverter families with model-specific ratings. It does not prove that a Qbits model is suitable for this scenario. It also does not establish universal battery compatibility, transfer time, monitoring functions, harmonic performance, certification, warranty terms, service coverage or project support.
+Qbits' published catalogue lists on-grid and hybrid inverter families with model-specific ratings. That does not prove that a Qbits model is suitable for this scenario. Nor does it state universal battery compatibility, transfer time, monitoring functions, harmonic performance, certification, warranty terms, service coverage or project support.
 
 If Qbits is shortlisted, record the exact SKU and request its current datasheet, installation manual, applicable certificates, monitoring scope, written warranty and service terms. Compare those documents with the final design. MNRE's current ALMM page concerns PV module and cell lists, not an inverter list.
 

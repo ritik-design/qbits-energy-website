@@ -31,7 +31,6 @@ relatedTerms:
   - { slug: "mppt", term: "MPPT" }
   - { slug: "string-sizing", term: "String Sizing" }
   - { slug: "cuf", term: "CUF" }
-  - { slug: "self-consumption", term: "Self Consumption" }
 faqs:
   - q: "What is azimuth in simple words?"
     a: "The direction your solar panel faces, like a compass bearing. Due south is best for India and the rest of the northern hemisphere."

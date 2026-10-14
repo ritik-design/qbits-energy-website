@@ -233,7 +233,7 @@ Quality grounding delivers measurable financial return:
 - Use a project commissioning checklist approved by the responsible electrical professional.
 - Confirm which measurements Qbits requires for warranty registration and later claims.
 - Confirm which ground-fault or insulation signals the exact model and logger expose.
-- Technical support and installer training availability are not established until supplied in writing.
+- Ask whether technical support and installer training are available, and get the answer in writing.
 
 Related guides:
 

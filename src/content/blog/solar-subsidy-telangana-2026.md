@@ -26,7 +26,7 @@ faqs:
   - q: "What does Telangana Solar Policy 2021 provide?"
     a: "The Telangana Solar Policy 2021, administered by TSREDCO (Telangana State Renewable Energy Development Corporation), targets utility-scale and commercial rooftop solar expansion. For residential consumers, the 2021 policy provides the regulatory framework supporting net metering and grid connectivity rights but does not include a direct state cash subsidy on top of PM Surya Ghar. TSREDCO facilitates state vendor registration and coordinates with both DISCOMs. Homeowners should check tsredco.telangana.gov.in for any updated state incentives beyond PM Surya Ghar."
   - q: "What documents are required for Telangana solar subsidy?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "You typically need a recent TSSPDCL or TSNPDCL electricity bill showing your consumer number, an Aadhaar card with a mobile number for OTP verification, a PAN card, and a bank passbook or cancelled cheque for an Aadhaar-linked account. You also need proof of property ownership (a registered sale deed, Patta passbook or property tax receipt), an owners association NOC if you live in an apartment, rooftop photographs, and a technical feasibility form with a single-line diagram from a DISCOM-empanelled installer. Requirements can change, so confirm the current list on the PM Surya Ghar portal and with your DISCOM."
   - q: "How does Hyderabad's large C&I solar market benefit residential buyers?"
     a: "Hyderabad has one of India's largest concentrated commercial and industrial solar markets, driven by the city's tech park installer network, pharmaceutical corridors, and data centre demand. This has created a mature installer network of experienced solar EPCs, quality panel suppliers, and inverter specialists. Residential buyers in Hyderabad benefit from this installer network: more competition among quality installers, access to well-tested system designs, and a larger pool of TSSPDCL-empanelled vendors with genuine DISCOM process experience. Residential buyers should seek vendors with C&I experience for technical quality, while confirming their residential PM Surya Ghar empanelment specifically."
   - q: "What solar irradiance does Telangana receive?"
@@ -160,7 +160,7 @@ Under TSERC (Telangana State Electricity Regulatory Commission) net metering reg
 - **Property ownership**: Registered sale deed, Patta passbook (land records), or property tax receipt from GHMC, Municipality, or Gram Panchayat
 - **For apartments**: Apartment owners association NOC; Hyderabad has a large gated community and apartment housing stock where this is routinely needed
 - **Rooftop photographs**: Multiple angles; Hyderabad's apartment culture means shadow-free area per unit may be limited
-- **Technical feasibility form**: From [DISCOM](/glossary/discom/)-empanelled installer with single-line diagram and ALMM certificates
+- **Technical feasibility form**: From [DISCOM](/glossary/discom/)-empanelled installer with single-line diagram and the ALMM details of the proposed modules
 
 ## Timeline: What Is Realistic for Telangana in 2026
 

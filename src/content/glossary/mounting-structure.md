@@ -25,13 +25,6 @@ relatedTerms:
   - { slug: "site-survey", term: "Site Survey" }
   - { slug: "shading-analysis", term: "Shading Analysis" }
   - { slug: "earthing", term: "Earthing" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
-  - { slug: "ground-mount", term: "Ground Mount" }
-  - { slug: "carport", term: "Carport" }
-  - { slug: "tracker", term: "Solar Tracker" }
-  - { slug: "wind-load", term: "Wind Load" }
-  - { slug: "row-spacing", term: "Row Spacing" }
-  - { slug: "ground-clearance", term: "Ground Clearance" }
 faqs:
   - q: "What is a mounting structure in simple words?"
     a: "The metal frame that holds solar panels at the right tilt and direction, screwed into the roof or driven into the ground."

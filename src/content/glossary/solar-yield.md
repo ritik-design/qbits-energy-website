@@ -31,7 +31,6 @@ relatedTerms:
   - { slug: "p50-p90", term: "P50 / P90" }
   - { slug: "degradation", term: "Module Degradation" }
   - { slug: "bifacial-module", term: "Bifacial Module" }
-  - { slug: "shading-loss", term: "Shading Loss" }
   - { slug: "soiling", term: "Soiling" }
 faqs:
   - q: "What is solar yield in simple words?"

@@ -25,13 +25,8 @@ relatedTerms:
   - { slug: "irr", term: "IRR" }
   - { slug: "resco", term: "RESCO" }
   - { slug: "capex", term: "CAPEX" }
-  - { slug: "open-access", term: "Open Access" }
-  - { slug: "secl", term: "SECI" }
   - { slug: "discom", term: "DISCOM" }
-  - { slug: "renewable-purchase-obligation", term: "RPO" }
-  - { slug: "captive-plant", term: "Captive Plant" }
-  - { slug: "ppa-tariff", term: "PPA Tariff" }
-  - { slug: "round-the-clock", term: "Round The Clock Power" }
+  - { slug: "rpo", term: "RPO" }
 faqs:
   - q: "What is a PPA in simple words?"
     a: "A long-term electricity supply contract. A solar generator agrees to sell electricity at a fixed rate, and a buyer agrees to take it for 25 years."

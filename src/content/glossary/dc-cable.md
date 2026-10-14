@@ -26,7 +26,6 @@ relatedTerms:
   - { slug: "string-sizing", term: "String Sizing" }
   - { slug: "voltage", term: "Voltage" }
   - { slug: "current", term: "Current" }
-  - { slug: "voltage-drop", term: "Voltage Drop" }
   - { slug: "fuse", term: "Fuse" }
   - { slug: "isolator", term: "Isolator" }
   - { slug: "conduit", term: "Conduit" }

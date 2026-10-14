@@ -22,7 +22,7 @@ faqs:
   - q: "UP-Bihar में hybrid solar system की total cost क्या है?"
     a: "3 kW hybrid system + 5 kWh LFP battery: ₹2.8 lakh से ₹3.5 lakh gross। PM Surya Ghar subsidy ₹78,000 (solar inverter + panels पर, battery पर नहीं)। Net cost ₹2.0-2.7 lakh। DG generator eliminate होने से additional savings - effective payback 4-6 साल।"
   - q: "UPPCL और BSPHCL में PM Surya Ghar subsidy कैसे मिलेगी?"
-    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
+    a: "पहले PM Surya Ghar portal पर अपना state, DISCOM (UPPCL या BSPHCL) और consumer number डालकर registration और rooftop application करें। Feasibility approval के बाद DISCOM-empanelled vendor से installation कराएँ, फिर net meter और DISCOM inspection के बाद commissioning certificate के साथ bank details submit करें। Subsidy सीधे bank account में आती है। Panels ALMM List-I के होने चाहिए। Inverter के लिए MNRE कोई ALMM list नहीं देता, इसलिए exact model का BIS registration और DISCOM की requirements vendor से लिखित में confirm करें।"
   - q: "Hybrid solar battery के लिए कौन सी battery best है?"
     a: "LFP (Lithium Iron Phosphate) battery best है - 3,000-6,000 cycles, safer, heat tolerant। Lead-acid 500-1,200 cycles, 3-4 साल में replace। UP-Bihar में 45°C summers में LFP much better performance देती है। Minimum 5-year warranty on battery mandatory। Popular brands: Luminous (LFP), Okaya (LFP), Nexcharge, BatterySmart।"
   - q: "क्या hybrid solar DG generator को replace कर सकता है?"
@@ -30,7 +30,7 @@ faqs:
   - q: "क्या net metering UP-Bihar में available है hybrid के लिए?"
     a: "हाँ, hybrid solar भी net metering के लिए eligible है। Excess generation जब battery full हो और grid available हो, grid को export होती है। UPPCL और BSPHCL दोनों net metering enable करते हैं। Power cut में export नहीं होती - but battery में stored होती है। Net metering income on-grid से कम होगी power cut areas में।"
   - q: "UPPCL voltage fluctuation के लिए hybrid inverter में क्या spec चाहिए?"
-    a: "UPPCL, खासकर rural और peri-urban areas में, voltage 170V से 265V के बीच swing करता है। Hybrid inverter की AC input range 150-270V होनी चाहिए - narrow range inverters nuisance trips करते हैं। India-grid-tuned firmware वाले inverters इस voltage range को reliably handle करते हैं।"
+    a: "UPPCL, खासकर rural और peri-urban areas में, voltage काफ़ी ऊपर नीचे होता है। ऐसे में चौड़ी AC input range और कम reconnect time वाला hybrid inverter चुनें - narrow range inverters nuisance trips करते हैं। Allowed grid range model पर और DISCOM की connection शर्तों तथा inverter की grid-code setting पर निर्भर करती है, इसलिए exact model की datasheet या manual में AC voltage range और reconnect time check करें।"
 language: hi
 ---
 
@@ -176,7 +176,7 @@ Power cut duration के हिसाब से battery size (detailed methodol
 
 UP-Bihar की electrical conditions:
 
-- **Wide input voltage range**: 150-270V AC input (UPPCL-BSPHCL की voltage swings के लिए)
+- **Wide input voltage range**: चौड़ी AC input range, exact model की datasheet के अनुसार (UPPCL-BSPHCL की voltage swings के लिए)
 - **[LFP battery](/glossary/lfp-battery/) compatibility**: LFP chemistry support mandatory (lead-acid se better)
 - **IP65/IP66**: Monsoon protection (both states have heavy monsoon)
 - **High ambient temperature rating**: 60°C internal, for 45°C+ summers
@@ -206,9 +206,9 @@ UP-Bihar की electrical conditions:
 - Exact QBH model का PV range, AC limits, battery voltage/current, MPPT count, enclosure और temperature derating current datasheet में check करें।
 - LFP compatibility केवल chemistry name से prove नहीं होती। Approved battery model, BMS protocol, firmware और settings written form में confirm करें।
 - ALMM module/cell lists inverter approval list नहीं हैं। Scheme और DISCOM requirements अलग verify करें।
-- Warranty term, remedy, RMA process, district coverage और response time not established हैं जब तक current written terms न मिलें।
+- Qbits की public datasheets expandable warranty बताती हैं, पर warranty term, remedy, RMA process, district coverage और response time तय नहीं करतीं। Current written terms exact model के लिए माँगें।
 
-- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Hybrid Inverters](/hybrid-inverter/)**: current QBH model documents देखें और exact battery, firmware, PV, backup-output, transfer, communication, warranty तथा project requirements लिखित में confirm करें।
 - **[On-Grid Inverters](/on-grid-inverter/)**: Grid-connected generation के लिए exact model और site approval requirements check करें।
 - **[Authorized Service Partners](/authorized-service-partners/)**: Current directory देखें, फिर exact location और service scope written form में confirm करें।
 - **[Solar battery backup calculator](/blog/solar-battery-backup-calculator/)**: Exact battery sizing

@@ -13,7 +13,7 @@ keywords:
   - mnre almm
   - solar module almm
   - inverter almm
-shortDefinition: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+shortDefinition: "The Approved List of Models and Manufacturers (ALMM) is the register MNRE maintains of approved solar PV module makers and models (List-I) and solar cell makers (List-II) that projects covered by the ALMM Order must use; MNRE publishes no ALMM list for inverters."
 quickFacts:
   industry: "Solar Equipment Regulation"
   primaryUse: "Mandatory equipment list for subsidised solar projects"
@@ -27,15 +27,12 @@ relatedTerms:
   - { slug: "discom", term: "DISCOM" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "monocrystalline", term: "Monocrystalline" }
-  - { slug: "secl", term: "SECI" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "module-efficiency", term: "Module Efficiency" }
   - { slug: "on-grid-inverter", term: "On Grid Inverter" }
-  - { slug: "wattage", term: "Module Wattage" }
   - { slug: "cea", term: "CEA" }
 faqs:
   - q: "What is the ALMM list?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The Approved List of Models and Manufacturers (ALMM) is the register MNRE maintains of solar PV modules (List-I) and solar cells (List-II) from approved manufacturers. Projects covered by the ALMM Order, such as subsidised rooftop systems and central tenders, must use listed products. MNRE publishes no ALMM list for inverters."
   - q: "What does ALMM stand for?"
     a: "Approved List of Models and Manufacturers."
   - q: "Is ALMM mandatory for all solar projects in India?"
@@ -47,7 +44,7 @@ faqs:
   - q: "Is ALMM the same as BIS certification?"
     a: "No. BIS certifies the product to a quality standard. ALMM additionally requires origin verification and factory inspection by NISE. ALMM listing requires BIS as a prerequisite."
   - q: "Are imported modules ALMM eligible?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Generally no. ALMM List-I covers modules from approved manufacturers, and each entry is tied to a specific manufacturer, model and manufacturing location. An imported module can be used on a project covered by the ALMM Order only if that exact model and factory appear on the current list, so check MNRE's ALMM page before buying."
   - q: "What is List I of ALMM?"
     a: "List I covers solar PV modules manufactured in India. List II covers solar cells and came into force on 1 June 2026, so List-I modules must use List-II cells. There is no List III for inverters. MNRE has proposed a wafer list with compliance from 1 June 2028, but it is not in force. MNRE publishes no ALMM list for inverters at any phase."
   - q: "How often is ALMM updated?"

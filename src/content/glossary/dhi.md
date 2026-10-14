@@ -26,7 +26,6 @@ relatedTerms:
   - { slug: "azimuth", term: "Azimuth" }
   - { slug: "bifacial-module", term: "Bifacial Module" }
   - { slug: "solar-yield", term: "Solar Yield" }
-  - { slug: "pyranometer", term: "Pyranometer" }
   - { slug: "albedo", term: "Albedo" }
   - { slug: "p50-p90", term: "P50 / P90" }
   - { slug: "shading-analysis", term: "Shading Analysis" }

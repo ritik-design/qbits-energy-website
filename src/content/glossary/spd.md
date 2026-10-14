@@ -24,14 +24,11 @@ relatedTerms:
   - { slug: "rccb", term: "RCCB" }
   - { slug: "fuse", term: "Fuse" }
   - { slug: "earthing", term: "Earthing" }
-  - { slug: "lightning-protection", term: "Lightning Protection" }
-  - { slug: "lightning-arrestor", term: "Lightning Arrestor" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "combiner-box", term: "Combiner Box" }
   - { slug: "dc-cable", term: "DC Cable" }
   - { slug: "ac-cable", term: "AC Cable" }
   - { slug: "isolator", term: "Isolator" }
-  - { slug: "distribution-board", term: "Distribution Board" }
   - { slug: "ev-charger", term: "EV Charger" }
 faqs:
   - q: "What is SPD in simple words?"

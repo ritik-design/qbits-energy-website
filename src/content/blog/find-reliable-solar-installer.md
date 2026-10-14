@@ -18,7 +18,7 @@ faqs:
   - q: "How do I verify a solar installer is registered with PM Surya Ghar?"
     a: "Log into pmsuryaghar.gov.in, navigate to the registered vendor section, and select your state and DISCOM. The portal displays a searchable list of empanelled vendors by district. Ask the installer to share their DISCOM registration number before any site visit. Cross-check that number against the portal list to confirm it is current and valid. An expired or missing registration is a clear disqualification - walk away and choose a verified vendor from the official list."
   - q: "What is the ALMM list and why does it matter for choosing an installer?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "ALMM is the Approved List of Models and Manufacturers that MNRE publishes for solar PV modules (List-I) and cells (List-II). Under PM Surya Ghar the modules in your system must come from the ALMM list, so the installer should name the exact module make and model in the quotation and show its current ALMM entry. MNRE publishes no ALMM list for inverters, so check the inverter's BIS registration and current test certificates and confirm any scheme or DISCOM requirements separately. An installer who cannot name the module model or point to its ALMM entry is a red flag."
   - q: "How many references should I ask a solar installer to provide?"
     a: "Ask for at least three recent installations within 10 kilometres of your property, all completed within the past 18 months. Visit at least one of those sites in person, speak with the homeowner, and observe the quality of cable management, panel alignment, earthing connections, and conduit neatness. A confident installer will readily provide references. An installer who hesitates, offers references that are far away, or cannot produce phone numbers should be treated with caution."
   - q: "Does a solar installer need a licensed electrician on their team?"
@@ -32,9 +32,9 @@ faqs:
   - q: "How do I check whether a solar installer has done net metering approvals in my area?"
     a: "Ask the installer directly for the DISCOM application reference numbers of their three most recent net metering approvals in your district or city. Contact your DISCOM helpline and verify that those reference numbers exist and that the applications were approved. An installer with a consistent commissioning track record in your specific DISCOM jurisdiction understands the local paperwork requirements and is far less likely to leave you with a connected-but-unapproved system."
   - q: "What monitoring capability should a reliable solar installer offer?"
-    a: "The retained Qbits documents do not establish this as a universal product or service term. Confirm the current model datasheet, monitoring interface, written warranty, and service process for the exact SKU and sale."
+    a: "A reliable installer should set up the inverter's monitoring before leaving the site: connect it to your Wi-Fi or a SIM-based module, create your account on the monitoring app or portal, and show you the live generation reading. Ask which monitoring platform the inverter uses, who owns the account login, and whether alerts for faults and zero generation reach you as well as the installer. Monitoring features differ between models, so confirm the interface for the exact inverter in the quotation."
   - q: "Is the cheapest solar quote always the worst option?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Not always, but an unusually low quote deserves questions before you accept it. Price differences usually come from the module and inverter make, the mounting structure and cable grades, the earthing and protection devices, the installation labour, and whether net metering paperwork and the AMC are included. Ask for itemised, model-specific quotes from at least three installers, compare them line by line, and check that the cheapest one is not leaving out components or using uncertified equipment. The best quote is the one that is complete, verifiable and backed by a written warranty and service commitment."
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
@@ -63,7 +63,7 @@ Independent quality assessments by industry bodies have documented the consequen
 
 The financial implication is direct. On a 3 kW system producing an average of 4 units per day, a 20% shortfall means 292 fewer units per year, roughly ₹2,000–₹2,500 in lost generation at ₹7–8 per unit, every single year for 25 years. That is ₹50,000–₹60,000 of compounding loss from a single bad installation decision.
 
-Installation quality can affect safety, performance and warranty eligibility, but requirements and remedies vary by model and contract. The retained Qbits evidence does not define a universal authorised-installer condition or exclusion. Read the controlling warranty and installation documents before work starts.
+Installation quality can affect safety, performance and warranty eligibility, but requirements and remedies vary by model and contract. Warranty conditions about who may install the equipment differ between manufacturers and models, so read the warranty and installation manual for the exact model before work starts.
 
 For homeowners pursuing the PM Surya Ghar subsidy, the stakes are even higher. The [DISCOM](/glossary/discom/) commissioning inspection can fail if the installer used non-ALMM equipment or filed paperwork incorrectly, costing you the central government subsidy of up to ₹78,000. According to the [MNRE PM Surya Ghar portal](https://pmsuryaghar.gov.in/), over 1 crore applications had been registered by mid-2026, making installer quality a national-scale consumer protection concern.
 
@@ -108,16 +108,16 @@ For a detailed explanation of what empanelment means and what documents an empan
 
 ## Step 2: Verify ALMM-Listed Equipment in the Quotation
 
-This matters for two reasons. First, the [DISCOM](/glossary/discom/) commissioning inspector will record the model numbers of installed equipment during their site visit. If any component is not ALMM-listed, the inspection fails and your subsidy cannot be processed. Second, ALMM listing is a strong proxy for genuine BIS certification and manufacturer accountability, uncertified assemblers cannot obtain ALMM approval.
+This matters for two reasons. First, the [DISCOM](/glossary/discom/) commissioning inspector will record the model numbers of installed equipment during their site visit. If the modules are not ALMM-listed, the inspection fails and your subsidy cannot be processed. Second, ALMM listing is a strong proxy for genuine BIS certification and manufacturer accountability, uncertified assemblers cannot obtain ALMM approval.
 
 How to check:
 
 - Visit the MNRE ALMM portal at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/).
-- The list is divided into Module and Inverter sections. Check both.
+- The list is divided into List-I (modules) and List-II (cells). MNRE publishes no inverter list, so check modules and cells here.
 - Download the current PDF and search for the exact brand and model name from the installer's quotation.
-- current ALMM module and cell requirements
+- Check the current ALMM module and cell requirements.
 
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
+Verify the exact proposed module and cell models against the current orders, and check the inverter's certificates and DISCOM requirements separately.
 
 ## Step 3: Visit Three Local References in Person
 
@@ -263,7 +263,7 @@ Some signals are not warnings to investigate further, they are clear grounds for
 
 **Cons / red flags that disqualify:**
 - ✗ Cannot provide DISCOM registration number, or the number does not verify
-- ✗ Refuses to share ALMM certificates for panels or inverter
+- ✗ Refuses to share the ALMM entry for the panels or the inverter's BIS and test certificates
 - ✗ Bundled lump-sum quotation, refuses to itemise
 - ✗ References are all in other cities or cannot be independently verified
 - ✗ Claims CEA licence requirements "do not apply" to solar

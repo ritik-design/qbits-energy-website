@@ -159,11 +159,11 @@ Do not convert `clarification required` into a middle score. That rewards a bidd
 
 Add the accepted warranty, service schedule, RMA process, cost matrix and escalation list to the final contract hierarchy. State how later changes are approved and communicated across units already delivered, units in transit and future orders.
 
-## What Qbits documentation establishes today
+## What Qbits publishes today
 
-Qbits publishes this checklist and sells competing inverter products, so apply the same evidence standard to Qbits.
+Qbits publishes this checklist and sells competing inverter products, so apply the same standard to Qbits.
 
-The current Qbits product data states that public datasheets describe an expandable warranty but do not establish the base term, remedy, registration deadline or exclusions. It instructs buyers to obtain the current written warranty for the exact quoted model before purchase. The public material also does not establish an RMA response time, dispatch promise, restoration time, spare-unit commitment or cost allocation.
+Qbits' public datasheets describe an expandable warranty but do not give the base term, remedy, registration deadline or exclusions, and buyers are told to obtain the current written warranty for the exact quoted model before purchase. The public material also does not state an RMA response time, dispatch promise, restoration time, spare-unit commitment or cost allocation, so ask for each of these in writing.
 
 Start with the [Qbits datasheet library](/download-datasheets/) to identify the exact model. For a bulk enquiry, [request the current model-specific warranty and service documents from Qbits](/contact-us/). Include the model list, quantities, deployment states, expected commissioning window and the five document schedules required above.
 

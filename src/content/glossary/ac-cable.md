@@ -28,7 +28,6 @@ relatedTerms:
   - { slug: "single-line-diagram", term: "Single Line Diagram" }
   - { slug: "voltage", term: "Voltage" }
   - { slug: "current", term: "Current" }
-  - { slug: "voltage-drop", term: "Voltage Drop" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "earthing", term: "Earthing" }
   - { slug: "bidirectional-meter", term: "Bidirectional Meter" }

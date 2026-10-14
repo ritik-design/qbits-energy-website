@@ -221,13 +221,13 @@ Collect all of the following:
 
 Two things to keep out of the ticket. Never send passwords, OTPs, or portal credentials through a public support channel or a WhatsApp group. And do not photograph a code you have already cleared, because the timestamp is the part that matters.
 
-For Qbits units, the [datasheet library](/download-datasheets/) confirms the model and its rated specifications, and the [authorised service partner network](/authorized-service-partners/) is the route for on-site attention. Qbits publishes 2100+ authorised service partners across 33 states and UTs.
+For Qbits units, the [datasheet library](/download-datasheets/) confirms the model and its rated specifications, and the [authorised service partner network](/authorized-service-partners/) is the route for on-site attention. Check the partner locator for your area and confirm in writing which partner covers your site.
 
 ## Warranty and RMA, at a high level
 
 Know what a product warranty covers before you file. It covers the inverter. It does not cover the installation around it. Array wiring, earthing defects, mounting, DISCOM voltage conditions, and monitoring routers go to the installer or the utility instead. That division is the commonest reason a claim stalls.
 
-Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Ask what happens once a claim is approved, and get the committed action in writing, because no current published service level establishes it. Your written warranty document and purchase contract govern the actual entitlement, including proof of purchase and commissioning records.
+Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Ask what happens once a claim is approved, and get the committed action in writing, because Qbits does not publish a service response time. Your written warranty document and purchase contract govern the actual entitlement, including proof of purchase and commissioning records.
 
 The process runs in a predictable order.
 

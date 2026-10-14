@@ -25,7 +25,6 @@ relatedTerms:
   - { slug: "string-sizing", term: "String Sizing" }
   - { slug: "voltage", term: "Voltage" }
   - { slug: "mppt", term: "MPPT" }
-  - { slug: "short-circuit-current", term: "Short Circuit Current" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "string-inverter", term: "String Inverter" }
   - { slug: "central-inverter", term: "Central Inverter" }

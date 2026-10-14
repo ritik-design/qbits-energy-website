@@ -26,10 +26,7 @@ relatedTerms:
   - { slug: "hjt-cell", term: "HJT Cell" }
   - { slug: "module-efficiency", term: "Module Efficiency" }
   - { slug: "bifacial-module", term: "Bifacial Module" }
-  - { slug: "shading-loss", term: "Shading Loss" }
-  - { slug: "bypass-diode", term: "Bypass Diode" }
   - { slug: "almm-list", term: "ALMM List" }
-  - { slug: "wattage", term: "Module Wattage" }
   - { slug: "string-inverter", term: "String Inverter" }
   - { slug: "junction-box", term: "Junction Box" }
 faqs:

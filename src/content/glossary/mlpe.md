@@ -26,11 +26,9 @@ relatedTerms:
   - { slug: "rapid-shutdown", term: "Rapid Shutdown" }
   - { slug: "mppt", term: "MPPT" }
   - { slug: "shading-analysis", term: "Shading Analysis" }
-  - { slug: "shading-loss", term: "Shading Loss" }
   - { slug: "monocrystalline", term: "Monocrystalline" }
   - { slug: "ac-coupling", term: "AC Coupling" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "junction-box", term: "Junction Box" }
 faqs:
   - q: "What is MLPE in simple words?"
@@ -42,7 +40,7 @@ faqs:
   - q: "Why use MLPE?"
     a: "Panel-level monitoring, shade tolerance, mismatch reduction, mixed orientation support, rapid shutdown safety."
   - q: "Are MLPE devices ALMM-listed?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "MLPE devices (optimisers, micro inverters and rapid-shutdown units) are not covered by ALMM, which lists only solar PV modules (List-I) and solar cells (List-II). Ask the seller for the exact model's safety test reports and BIS registration where applicable, and confirm any DISCOM or scheme requirement."
   - q: "Microinverter vs DC optimiser?"
     a: "Microinverter: AC output, distributed conversion, no central inverter. DC optimiser: DC output, central string inverter still needed."
   - q: "What is the cost premium for MLPE?"

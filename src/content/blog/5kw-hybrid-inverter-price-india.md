@@ -52,7 +52,7 @@ The table separates facts that search results often blend together. It is not a 
 | [Luminous Solar Hybrid TX 5 kVA](https://www.luminousindia.com/solar-inverters/solar-hybrid-tx-5kva) | ₹63,899 including taxes; MRP ₹1,10,000 | Manufacturer store, single-phase hybrid inverter, 5 kW rated output, 48 V, one inverter in box | Battery, installation and project hardware are not listed as box contents |
 | [Nexus DEV HYD 5 kW 24 V](https://www.nexussolarenergy.in/product/dev-hyd-5kw-24v-mppt-solar-inverter/) | MRP ₹81,375 including taxes | Manufacturer product page, 5 kW hybrid inverter, 24 V battery platform | Battery, supplied accessories and installed scope must be confirmed before comparison |
 | Qbits QBH-5KS48P3 | Current written quote required | Three-phase 5 kW variant in the QBH 5 to 12 kW product range | Qbits publishes no product price; this article does not create one |
-| Complete installed 5 kW hybrid project | Site-specific quote required | Inverter, modules, battery, structure, protection, wiring, labour and approvals as applicable | No current primary installed-system price has been retained for this page |
+| Complete installed 5 kW hybrid project | Site-specific quote required | Inverter, modules, battery, structure, protection, wiring, labour and approvals as applicable | No current primary installed-system price is available for this page |
 
 Nexus has published a broader ₹75,000 to ₹1,60,000 category band in its manufacturer buying guide. Its method and sample are not disclosed, and its linked 5 kW product price changed after the guide was updated. That range stays out of the headline answer until a price reviewer can verify it against like-for-like current quotes.
 

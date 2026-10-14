@@ -14,16 +14,16 @@ keywords:
   - "inverter WiFi monitoring"
 faqs:
   - q: "Does every Qbits inverter have the same monitoring functions?"
-    a: "No universal feature set is established by the current published documents. Communication options vary by model, and functions can depend on a logger, network, commissioning, account permissions, and app version."
+    a: "No. Monitoring options vary by series and model. Qbits' published datasheets list Wi-Fi on the on-grid series with RS485 or GPRS as options, and the hybrid series differ again. What you actually get also depends on the logger, network, commissioning, account permissions and app version, so check the datasheet for the exact model."
   - q: "Does Qbits provide mobile apps?"
-    a: "Qbits has public iOS and Android app listings. An app listing does not prove that every inverter supports every displayed function."
+    a: "Yes, Qbits has public iOS and Android app listings. An app listing only shows that an application exists, and not every inverter supports every function the app displays, so confirm the functions for your exact model before buying."
 ---
 
-Evaluating ai-labelled inverter features should be evaluated at the exact model and installation level. An app-store listing proves that an application exists. It does not prove that every inverter includes the required logger, every feature works on every SKU, or every alert and data field is available without configuration.
+AI-labelled inverter features should be judged at the exact model and installation level. An app-store listing shows that an application exists. It does not show that every inverter includes the required logger, every feature works on every SKU, or every alert and data field is available without configuration.
 
 ## What to verify before purchase
 
-| Item | Evidence to request |
+| Item | What to ask for |
 | --- | --- |
 | Compatible interface | Exact inverter, logger, dongle, meter, CT and firmware combination |
 | Network | Wi-Fi band, Ethernet, cellular, SIM and offline behaviour |
@@ -38,9 +38,9 @@ Evaluating ai-labelled inverter features should be evaluated at the exact model 
 
 The owner should receive the plant account, device identifiers, login recovery route, logger details, network requirements, and a demonstration using live site data. Confirm that the displayed inverter and meter values correspond to the installed equipment. Record who retains installer or fleet-level access.
 
-## What monitoring can and cannot prove
+## What monitoring can and cannot show
 
-Monitoring can show reported operating data and fault states from connected equipment. It cannot, by itself, prove the cause of a fault, validate wiring safety, replace insulation or earthing tests, or guarantee that an alert will be delivered. Missing data may result from the logger, router, internet connection, account, server, meter, or inverter.
+Monitoring can show reported operating data and fault states from connected equipment. It cannot, by itself, confirm the cause of a fault, validate wiring safety, replace insulation or earthing tests, or guarantee that an alert will be delivered. Missing data may result from the logger, router, internet connection, account, server, meter, or inverter.
 
 ## Comparing apps and portals
 

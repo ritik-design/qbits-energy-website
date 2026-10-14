@@ -213,7 +213,7 @@ A review of [the best solar inverter for home use in India](/blog/best-solar-inv
 
 ## Where Qbits Fits
 
-The retained Qbits catalogue contains string-inverter families for single-phase and three-phase applications. Family names and ratings vary, so use the exact current datasheet and confirm the manufacturer of record, environmental limits, grid settings, warranty, and service route.
+Qbits' published catalogue lists string-inverter families for single-phase and three-phase applications. Family names and ratings vary, so use the exact current datasheet and confirm the manufacturer of record, environmental limits, grid settings, warranty, and service route.
 
 A shade-loss percentage alone does not select an inverter architecture. Compare the exact roof geometry, string options, module-level requirements, inverter documents, safety design, warranty and installed cost before choosing string or module-level equipment.
 

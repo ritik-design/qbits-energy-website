@@ -25,7 +25,7 @@ faqs:
   - q: "Why should I compare kVA against kW carefully?"
     a: "Because they measure different things. Microtek rates its solar PCU series in kVA, which is apparent power, and its grid-tied series in kW, which is real power. A 5 kVA unit at a 0.8 power factor delivers about 4 kW of real output, so it is not equivalent to a 5 kW grid-tied inverter. Convert both sides to the same unit before you compare price per kW, and ask each vendor for the rated output power factor."
   - q: "Does ALMM list solar inverters?"
-    a: "No. MNRE's ALMM publishes List-I for solar PV modules and List-II for cells. There is no MNRE inverter list, so any claim that an inverter must appear on ALMM List-II for PM Surya Ghar is incorrect. Qbits states it is ALMM Phase III listed; treat that as a brand statement and verify inverter requirements separately with your DISCOM and the applicable scheme."
+    a: "No. MNRE's ALMM publishes List-I for solar PV modules and List-II for cells. There is no MNRE inverter list, so any claim that an inverter must appear on ALMM List-II for PM Surya Ghar is incorrect. Ask the seller for the exact inverter model's BIS registration and current certificates, and confirm inverter requirements separately with your DISCOM and the applicable scheme."
   - q: "Which buyer should pick Microtek over Qbits?"
     a: "The buyer who needs battery backup rather than export, in an area with long outages or no working net metering, who wants one brand for the inverter, battery, panel and wiring, bought from a nearby electrical shop. Microtek publishes four off-grid PCU series and three solar conversion kits; Qbits publishes neither. Microtek also prints a warranty period on its own public pages, which is easier to check before paying than a quote-based term."
   - q: "Does Qbits sell panels, batteries or installation?"
@@ -43,7 +43,7 @@ This guide covers each company's published footprint, the PCU versus grid-tied d
 > **TL;DR**
 > - Microtek labels all four of its solar Power Conditioning Unit series "Inverter Type: Off-Grid" on its own category page (microtek.in, checked 24 September 2026). An off-grid PCU does not export to the grid.
 > - Microtek prints "10 Years" on both grid-tied series, "5 Years" on the Solar Hybrid Inverter, "2 Years" on every PCU series, and "1 Year" on Solar Management Units (microtek.in, 2026). That is a genuine advantage in verifiability.
-> - Qbits publishes an expandable warranty and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so you must obtain the written terms for your exact model.
+> - Qbits' public datasheets describe an expandable warranty but do not give the base term, remedy, registration deadline or exclusions, so you must obtain the written terms for your exact model.
 > - Qbits sells solar inverters only. Microtek also sells panels, batteries, home UPS, stabilizers and wiring, and publishes "1Lac+ Dealer Network" and "500+ Service Points" (microtek.in, 2026).
 > - Qbits three-phase on-grid runs to 320 kW with 12 MPPTs and a 1500 V DC limit. Microtek's published three-phase grid-tied range is 5.5 kW to 250 kW (microtek.in, 2026).
 > - kVA is not kW. A 5 kVA PCU at a 0.8 power factor delivers about 4 kW of real output.
@@ -56,7 +56,7 @@ The footprint difference here is larger than the specification difference, and i
 
 Microtek is a full-range Indian power electronics and electricals brand. Its published categories are power backup (inverter and home UPS, inverter batteries, lithium batteries), critical power backup (online and line-interactive UPS), voltage stabilizers, solar solutions, and electricals including domestic wires, cables and circuit protection devices, according to [microtek.in](https://microtek.in/) (checked 24 September 2026). The same site publishes "500+ Service Points", "1200+ Service Engineers", "1Lac+ Dealer Network", "2000+ employees", and "4 manufacturing units across India and presence in over 29 countries". One practical note for anyone chasing old links: microtekdirect.com now returns a permanent redirect to microtek.in, checked 24 September 2026.
 
-Qbits publishes a narrower scope. It sells solar inverters in two families, on-grid and hybrid, and nothing else. Its published brand claims are 50,000+ installations, 130+ channel partners, presence across 33 states and UTs, 2100+ authorised service partners, and 1,000+ quality tests. Qbits states it is Approved List of Models and Manufacturers (ALMM) Phase III listed. Read those as brand claims, not audited figures, and note that "service partners" and Microtek's "service points" are not the same unit of measurement, so the two numbers cannot be subtracted from each other.
+Qbits publishes a narrower scope. It sells solar inverters in two families, on-grid and hybrid, and nothing else. It sells through a dealer channel and lists authorised service partners in a public locator at [service-partner locator](/authorized-service-partners/). Note that "service partners" and Microtek's "service points" are not the same unit of measurement, so any counts the two brands publish cannot be subtracted from each other.
 
 Microtek's breadth is a real advantage for a category of buyer. If you want the inverter, the battery, the panel, the stabilizer and the house wiring on one invoice, from one warranty desk, bought at a shop you can walk into, Qbits cannot serve you at all. That is not a small gap. It is the single biggest reason a homeowner reasonably picks Microtek.
 
@@ -145,7 +145,7 @@ Compare documents, not headline numbers. A period without terms tells you almost
 
 Microtek's position is easier to check before purchase. Its own category pages print "10 Years" on both grid-tied series, "5 Years" on the Solar Hybrid Inverter, "2 Years" on all four PCU series, and "1 Year" on Solar Management Units (microtek.in, checked 24 September 2026). You can read those before contacting a dealer. Credit where it is due: publishing a period publicly, per series, is better practice than making a buyer ask.
 
-Qbits publishes an expandable warranty, and the note carried on every Qbits product page is explicit that the public datasheets do not define the base term, remedy, registration deadline or exclusions. Microtek prints periods on its own public pages, so on this row Microtek is the brand you can actually read before buying. Obtain the current written Qbits warranty for the exact quoted model before purchase. On service logistics, no current written Qbits term sets a dispatch time, so ask for the committed action after claim approval in writing.
+Qbits' public datasheets describe an expandable warranty but do not give the base term, remedy, registration deadline or exclusions. Microtek prints periods on its own public pages, so on this row Microtek is the brand you can actually read before buying. Obtain the current written Qbits warranty for the exact quoted model before purchase. On service logistics, Qbits' public material does not state a dispatch time, so ask for the committed action after claim approval in writing.
 
 Whichever brand you shortlist, the questions are identical:
 
@@ -165,7 +165,7 @@ Service is where the two brands diverge most, and where Microtek has a structura
 
 Microtek publishes "500+ Service Points", "1200+ Service Engineers", and "1Lac+ Dealer Network" (microtek.in, 2026). Practically, that means an electrician in a district town has probably handled Microtek hardware, and a replacement is often available over the counter. For a homeowner far from a metro, that reduces downtime risk more than any specification does.
 
-Qbits publishes 130+ channel partners and 2100+ authorised service partners across 33 states and UTs. Those are different categories to Microtek's counts, so they are not comparable arithmetic. Check coverage for your own district against the [authorised service partner network](/authorized-service-partners/) rather than relying on a national number.
+Qbits and Microtek describe their networks in different categories, such as channel partners, authorised service partners and service points, so any counts they publish are not comparable arithmetic. Check coverage for your own district against the [authorised service partner network](/authorized-service-partners/) rather than relying on a national number.
 
 The rule that applies to both: a directory entry is not a service level agreement. Get the responsible entity named in the quotation, with a ticket channel, working hours, a spares route, travel charges, and any response target in writing.
 
@@ -235,7 +235,7 @@ Answer these honestly. The topology answer does most of the work.
 5. A long full-unit replacement term matters more than counter availability, and you will get that term in writing.
 6. You accept sourcing panels, batteries, structure and installation elsewhere.
 
-Be clear about the trade with Qbits. It sells inverters only. No panels, no batteries, no mounting, no installation, no stabilizers, no home UPS, no wiring. Its retail footprint is 130+ channel partners against Microtek's published "1Lac+ Dealer Network". Its public datasheets do not define the base warranty term, while Microtek prints a period per series. If breadth, walk-in retail, and a pre-published warranty period are what you value, Microtek is the better fit and you should buy it.
+Be clear about the trade with Qbits. It sells inverters only. No panels, no batteries, no mounting, no installation, no stabilizers, no home UPS, no wiring. Its retail footprint is a dealer channel, against Microtek's published "1Lac+ Dealer Network". Its public datasheets do not give the base warranty term, while Microtek prints a period per series. If breadth, walk-in retail, and a pre-published warranty period are what you value, Microtek is the better fit and you should buy it.
 
 If the Qbits side fits, start from the [on-grid inverter range](/on-grid-inverter/). For legacy Indian shortlists, see our [Microtek and Su-Kam comparison](/blog/microtek-vs-sukam-solar/) and the [Luminous and Microtek comparison](/blog/luminous-vs-microtek-comparison/).
 

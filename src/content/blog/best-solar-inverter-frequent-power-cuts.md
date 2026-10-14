@@ -28,16 +28,16 @@ faqs:
 - q: Does a fast transfer time make a hybrid inverter a UPS?
   a: Not by itself. A published transfer time is one condition. The actual inverter mode, load type, battery state, wiring, firmware, settings, and test condition also matter. Sensitive or safety-critical equipment may still need a purpose-designed UPS or other qualified architecture.
 - q: Can any 48 V lithium battery work with a 48 V hybrid inverter?
-  a: No. Nominal voltage alone does not establish compatibility. Confirm the full voltage window, charge and discharge current, chemistry, BMS protocol, cable pinout, firmware, approved battery model, and warranty responsibility in writing.
+  a: No. Nominal voltage alone does not guarantee compatibility. Confirm the full voltage window, charge and discharge current, chemistry, BMS protocol, cable pinout, firmware, approved battery model, and warranty responsibility in writing.
 - q: Should the whole house be connected to backup?
   a: Not automatically. A protected-load board usually separates essential circuits from high-demand or non-essential loads. The design should record running demand, starting behaviour, priority, required duration, and what happens during overload or low battery.
 ---
 
 The **best solar inverter for frequent power cuts is a hybrid system whose exact backup output, battery pairing, isolation design, protected circuits, and transfer behaviour are documented and tested together**. Choosing by brand, inverter kW, or battery kWh alone is unsafe.
 
-From the current public evidence reviewed on 26 September 2026, GoodWe GW5000-ES-20 has the clearest starting case for a 5 kW-class home that needs fast transfer: its manufacturer page publishes 5,000 VA nominal backup output and family-level switching to backup in under 10 ms. Growatt SPH 5000TL BL-UP also publishes under 10 ms switching, but its backup ceiling is 4,000 W despite a 5,000 W grid-output label. Qbits QBH-5KS48P publishes a 5,000 W off-grid output figure and 120 A battery current, but its current catalogue literally says switching occurs "within 10 seconds". That wording must be clarified before using it for interruption-sensitive loads.
+From the current public specifications checked on 26 September 2026, GoodWe GW5000-ES-20 has the clearest starting case for a 5 kW-class home that needs fast transfer: its manufacturer page publishes 5,000 VA nominal backup output and family-level switching to backup in under 10 ms. Growatt SPH 5000TL BL-UP also publishes under 10 ms switching, but its backup ceiling is 4,000 W despite a 5,000 W grid-output label. Qbits QBH-5KS48P publishes a 5,000 W off-grid output figure and 120 A battery current, but its current catalogue literally says switching occurs "within 10 seconds". That wording must be clarified before using it for interruption-sensitive loads.
 
-Qbits publishes this article and sells hybrid inverters. The company therefore receives the same evidence test as GoodWe and Growatt, including an explicit penalty for unclear public documentation. We did not field-test these products or verify prices, stock, battery pairings, warranty remedies, service outcomes, certificates, or acceptance by a particular DISCOM.
+Qbits publishes this article and sells hybrid inverters. The company therefore receives the same checks as GoodWe and Growatt, including an explicit penalty for unclear public documentation. We did not field-test these products or verify prices, stock, battery pairings, warranty remedies, service outcomes, certificates, or acceptance by a particular DISCOM.
 
 ## The six gates for a power-cut system
 
@@ -61,12 +61,12 @@ This is not a broad hybrid-inverter ranking. It is a power-cut-readiness compari
 | Published grid-side output | 5,000 VA maximum apparent output | 5,000 W maximum AC output | 5,500 W maximum apparent output on-grid |
 | Published backup output | 5,000 VA nominal apparent output | 4,000 W maximum AC backup output | 5,000 W rated off-grid apparent output, as printed |
 | Published transfer wording | Family page says automatic backup switching in less than 10 ms | Exact family sheet says switch time under 10 ms | Catalogue says switching as UPS "within 10 seconds" |
-| Battery voltage evidence | 40 to 60 V | 42 to 59 V | 48 V rated; charging voltage configurable to 60 V or less |
+| Battery voltage window | 40 to 60 V | 42 to 59 V | 48 V rated; charging voltage configurable to 60 V or less |
 | Maximum battery current | 120 A continuous charge or discharge | 85 A charge and discharge | 120 A charge or discharge |
 | PV tracking | 2 MPPTs; 16 A maximum per MPPT | 2 MPPTs; 13.5 A maximum per MPPT | 2 MPPTs; 18 A maximum per MPPT |
-| Public exact approved battery list reviewed | Not established here | Not established here | Not established here |
-| Complete written warranty reviewed | No | No | No |
-| India stock, local service, certificate and DISCOM status | Not established | Not established | Not established |
+| Exact approved battery list in the public source | Not stated | Not stated | Not stated |
+| Complete written warranty in the public source | No | No | No |
+| India stock, local service, certificate and DISCOM status | Confirm with the seller | Confirm with the seller | Confirm with the seller |
 
 Sources: current [GoodWe ES G2 manufacturer page](https://en.goodwe.com/es-g2), Growatt's [April 2026 SPH 3000-6000TL BL-UP datasheet](https://en.growatt.com/upload/file/SPH_3000-6000TL_BL-UP_Datasheet_202604.pdf), and the current [Qbits QBH 3-6 kW single-phase catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf). Manufacturer statements are not independent test results.
 
@@ -78,7 +78,7 @@ GoodWe's current ES G2 page names GW5000-ES-20 in its product table and describe
 
 That combination gives GoodWe the clearest public starting case here when the selected circuits require a 5 kVA-class backup output and the buyer needs a sub-10 ms manufacturer statement.
 
-It is still a starting case, not proof that every connected device will ride through. The reviewed page does not establish the exact approved battery, firmware combination, transfer test load, Indian stock, local warranty remedy, service response, or site wiring. Ask for the manual and compatibility list tied to the quoted hardware, then witness the actual grid-loss test.
+It is still a starting case, not proof that every connected device will ride through. The manufacturer page does not state the exact approved battery, firmware combination, transfer test load, Indian stock, local warranty remedy, service response, or site wiring. Ask for the manual and compatibility list tied to the quoted hardware, then witness the actual grid-loss test.
 
 ## Conditional verdict: Growatt is explicit, but backup stops at 4 kW
 

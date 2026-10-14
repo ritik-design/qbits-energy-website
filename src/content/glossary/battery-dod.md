@@ -26,7 +26,6 @@ relatedTerms:
   - { slug: "lead-acid-battery", term: "Lead Acid Battery" }
   - { slug: "lithium-ion-battery", term: "Lithium Ion Battery" }
   - { slug: "bms", term: "BMS" }
-  - { slug: "usable-capacity", term: "Usable Capacity" }
   - { slug: "round-trip-efficiency", term: "Round Trip Efficiency" }
   - { slug: "off-grid-inverter", term: "Off Grid Inverter" }
   - { slug: "hybrid-inverter", term: "Hybrid Inverter" }

@@ -28,7 +28,7 @@ faqs:
   - q: "Is an 8 kW on-grid inverter the same as an 8 kW hybrid inverter?"
     a: "No. An ordinary on-grid inverter stops energising the grid connection during a utility outage. A hybrid backup system needs a supported battery and a correctly designed protected-load circuit. Compare models of the same operating type."
   - q: "Does this comparison prove that all three models are sold and approved in India?"
-    a: "No. The manufacturer documents establish published product specifications. Obtain a current India-market quote, exact-model compliance documents, battery approval and the relevant DISCOM requirements before ordering."
+    a: "No. The manufacturers' datasheets only list published product specifications. Obtain a current India-market quote, exact-model compliance documents, battery approval and the relevant DISCOM requirements before ordering."
 ---
 
 **The best 8 kW solar inverter for a home is the one whose documented backup output, battery pairing and PV inputs fit the actual design.** For a single-phase hybrid shortlist, Qbits QBH-8KS48P, GoodWe GW8000-ES-C10 and Deye SUN-8K-SG05LP1-EU each publish useful technical evidence. None can be named a universal winner from those documents alone.
@@ -82,7 +82,7 @@ GoodWe's ES Uniq page lists GW8000-ES-C10 with an 8,000 VA nominal backup figure
 
 The Qbits [QBH 7 to 8 kW catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-2.pdf) names QBH-8KS48P. Its 8 kW column lists two MPPTs, a 150 to 450 V tracking range, 500 V maximum DC input, 16,000 W maximum DC input and 8,000 W rated off-grid apparent output. The document describes lithium or lead-acid battery classes, but does not name an approved battery pairing.
 
-**Shortlist Qbits** when that exact model fits the design and Qbits or the seller resolves the 120 A versus 190 A discrepancy in writing, identifies the battery and BMS pairing, and supplies the complete current warranty and model-specific compliance documents. Qbits' public datasheets do not establish the base warranty term, remedy, registration deadline or exclusions.
+**Shortlist Qbits** when that exact model fits the design and Qbits or the seller resolves the 120 A versus 190 A discrepancy in writing, identifies the battery and BMS pairing, and supplies the complete current warranty and model-specific compliance documents. Qbits' public datasheets do not state the base warranty term, remedy, registration deadline or exclusions.
 
 ## An 8 kW nameplate cannot size your backup system
 
@@ -119,6 +119,6 @@ No ordinary grid-tied inverter keeps the house energised when the utility supply
 
 ## Your next decision
 
-If you need a single-phase 8 kW hybrid system, send the same load schedule and document request to the sellers of the models you shortlist. Compare the returned evidence before comparing price. Keep any unverified battery pairing, Qbits current conflict, regional model, warranty or DISCOM requirement open until its responsible party answers in writing.
+If you need a single-phase 8 kW hybrid system, send the same load schedule and document request to the sellers of the models you shortlist. Compare the documents the sellers return before comparing price. Keep any unverified battery pairing, Qbits current conflict, regional model, warranty or DISCOM requirement open until its responsible party answers in writing.
 
 [Review the Qbits 7 to 8 kW hybrid family and its current documents](/our-products/QBH-7-8KS48P/) if QBH-8KS48P is one of your candidates.

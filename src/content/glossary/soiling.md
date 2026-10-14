@@ -30,7 +30,6 @@ relatedTerms:
   - { slug: "monocrystalline", term: "Monocrystalline" }
   - { slug: "bifacial-module", term: "Bifacial Module" }
   - { slug: "hot-spot", term: "Hot Spot" }
-  - { slug: "preventive-maintenance", term: "Preventive Maintenance" }
   - { slug: "albedo", term: "Albedo" }
 faqs:
   - q: "What is soiling in simple words?"

@@ -16,7 +16,7 @@ keywords:
   - LCOE solar
 faqs:
   - q: "What's the average inverter payback period in India in 2026?"
-    a: "Commercial/industrial on-grid systems: 4–7 years. Residential systems slightly longer. Premium 98% efficient inverters with 12-year warranties typically achieve the lower end. Net metering states can cut payback by 12–24 months."
+    a: "Commercial/industrial on-grid systems: 4–7 years. Residential systems slightly longer. Higher-efficiency inverters (around 98%) backed by a longer written warranty typically achieve the lower end. Net metering states can cut payback by 12–24 months."
   - q: "Does higher efficiency always pay back faster?"
     a: "Generally yes. A 98% vs 95% efficiency gap delivers 0.5–1.5 years payback advantage on commercial systems. The advantage is largest in high-tariff states and at larger capacities."
   - q: "Is a model-specific written warranty worth the premium?"
@@ -30,7 +30,7 @@ faqs:
 Inverter efficiency, reliability, and warranty directly decide how fast a solar investment pays back. In 2026, with rising tariffs and faster adoption, accurate payback math is what separates EPCs, facility owners, and distributors who maximise project returns from the ones who underbid and underperform.
 
 > **TL;DR**
-> - Commercial and industrial on-grid systems typically pay back in 4–7 years; premium 98%-efficient inverters with 12-year warranties land at the shorter end.
+> - Commercial and industrial on-grid systems typically pay back in 4–7 years; higher-efficiency inverters (around 98%) with a longer written warranty land at the shorter end.
 > - A 3% efficiency gap (98% vs 95%) costs ₹27,000–₹36,000 a year on a 50–100 kW system in lost generation alone.
 > - Premium inverters carry a 20–35% upfront premium but show a ₹3.5–5.5 lakh 25-year TCO advantage over budget units on a 100 kW system.
 > - Active [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) states (Gujarat, Maharashtra, Rajasthan, Karnataka) cut payback by 12–24 months by monetising surplus exports.
@@ -116,7 +116,7 @@ A **₹1,20,000 premium for the 98% inverter** recovers in **~4.4 years** from e
 
 ### 25-Year TCO Case Study: 100 kW (Maharashtra, ₹10/kWh)
 
-| Category | Premium (98%, 12-yr warranty) | Budget (95%, 5-yr warranty) |
+| Category | Premium (98%, longer written warranty) | Budget (95%, 5-yr warranty) |
 | --- | --- | --- |
 | 25-year TCO | ₹8,50,000 | ₹12,00,000–14,00,000 |
 | Net advantage | - | **₹3,50,000–5,50,000** |
@@ -153,7 +153,7 @@ Failures at years 7–9 mean full replacement borne by owner, disrupting cash fl
 
 ### Bankability
 
-Lenders increasingly require 10+ year warranties for debt financing. 12-year coverage from established manufacturers [strengthens financing cases](https://surgepv.com/generation-financial-tool/) and can improve loan terms.
+Lenders increasingly require 10+ year warranties for debt financing. A longer written warranty from an established manufacturer [strengthens financing cases](https://surgepv.com/generation-financial-tool/) and can improve loan terms.
 
 ## On-Grid vs Hybrid Payback
 
@@ -205,7 +205,7 @@ Integrated DC/AC SPDs prevent lightning and grid-related failures, critical in r
 | Commercial tariff range | ₹6–12/kWh |
 | Solar generation cost | <₹3/kWh |
 | Efficiency standards | 95–98% (budget–premium) |
-| Warranty options | 5 yrs (budget), 12 yrs (premium) |
+| Warranty options | 5 yrs (budget), longer written terms (premium; get them in writing) |
 | Annual degradation | 0.5–1.5% |
 | Recommended IP rating | IP66 |
 | System lifespan | 25 years |
@@ -215,4 +215,4 @@ Integrated DC/AC SPDs prevent lightning and grid-related failures, critical in r
 
 ## Closing
 
-Inverter payback is not just an upfront-cost calculation, it is a 25-year financial model that combines efficiency, degradation, warranty coverage, monitoring, and grid relationships. Premium inverters with 12-year warranties and AI monitoring consistently win this analysis in India's high-tariff environment, often by 3–5 years of TCO advantage.
+Inverter payback is not just an upfront-cost calculation, it is a 25-year financial model that combines efficiency, degradation, warranty coverage, monitoring, and grid relationships. Premium inverters with a longer written warranty and good monitoring tend to win this analysis in India's high-tariff environment, but confirm the exact warranty terms, replacement process and efficiency figures for each model before relying on any TCO advantage.

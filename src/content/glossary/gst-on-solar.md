@@ -5,14 +5,14 @@ description: "GST on solar equipment is 12 percent for modules and inverters. Fu
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - gst on solar
   - solar gst rate
   - solar gst india
   - module gst
   - inverter gst
-shortDefinition: "GST (Goods and Services Tax) on solar equipment in India is 12 percent for modules, inverters and most solar-specific products. Installation services attract 18 percent. GST adds 12-15 percent to total solar project cost, recoverable for business customers through input tax credit."
+shortDefinition: "GST (Goods and Services Tax) on solar in India is 5 percent on solar panels and complete solar power generating systems since 22 September 2025, down from 12 percent. Installation services attract 18 percent, so a composite supply is valued 70 percent goods and 30 percent services, about 8.9 percent in total, and business customers can recover the GST through input tax credit."
 quickFacts:
   industry: "Solar Taxation"
   primaryUse: "Project cost component"
@@ -34,64 +34,61 @@ relatedTerms:
   - { slug: "discom", term: "DISCOM" }
 faqs:
   - q: "What is GST on solar in simple words?"
-    a: "The Indian goods and services tax applied to solar equipment and installation. 12 percent on equipment, 18 percent on services."
+    a: "The Indian goods and services tax applied to solar equipment and installation. Since 22 September 2025 solar panels and complete solar power generating systems are taxed at 5 percent, installation services at 18 percent."
   - q: "What is the GST rate on solar modules?"
-    a: "12 percent on solar PV modules, cells, and most solar equipment."
+    a: "5 percent on solar PV modules and cells since 22 September 2025, under Schedule I entry 437 of Notification 9/2025-Integrated Tax (Rate). It was 12 percent from 1 October 2021 until 21 September 2025."
   - q: "What is GST on solar inverters?"
-    a: "12 percent for solar-specific inverters under HSN 8504."
+    a: "It depends on classification. Inverters fall under heading 8504 (static converters), which Schedule II entry 477 of Notification 9/2025-Integrated Tax (Rate) places at 18 percent, while a device supplied as part of a solar power generating system or described as a solar power based device can fall under the 5 percent entry 437. Ask the supplier which entry it relies on and get it in writing."
   - q: "What is GST on services?"
-    a: "18 percent on solar installation services, engineering and project management."
+    a: "18 percent on solar installation, engineering and project management services. When goods and installation are supplied together as one solar power plant, the 70:30 rule deems 70 percent of the value to be goods at 5 percent and 30 percent to be services at 18 percent."
   - q: "Can I claim input tax credit?"
-    a: "Yes for business customers. ITC offsets output GST. Residential consumers cannot claim ITC."
+    a: "Yes for business customers, subject to the CGST Act conditions. Credit offsets output GST. Residential consumers are not GST registered for their home and cannot claim it."
   - q: "Has GST on solar changed?"
-    a: "Yes. 2017: 5 percent on solar plants. 2021: increased to 12 percent. Subsequent debates and clarifications."
+    a: "Yes. Solar equipment was taxed at 5 percent from July 2017, raised to 12 percent from 1 October 2021, and cut back to 5 percent from 22 September 2025 after the GST Council's 56th meeting."
   - q: "Is GST applicable on PM Surya Ghar?"
-    a: "GST applies to equipment and installation. Subsidy is government grant separate from GST. Net of subsidy + GST is what customer pays."
+    a: "GST applies to the equipment and installation invoice. The subsidy is a separate central financial assistance and does not reduce the GST on the invoice. Your net cost is the invoice including GST minus the subsidy you receive."
   - q: "Does GST add to project cost?"
-    a: "Yes by 12-15 percent. Recovered through ITC for business customers."
+    a: "Yes. On a composite supply with the 70:30 split it adds about 8.9 percent (it added about 13.8 percent at the earlier 12 percent goods rate). Business customers can recover it through input tax credit."
   - q: "What is the GST rate breakdown?"
-    a: "Modules: 12%. Inverters: 12%. Mounting: 12%. Cables: 12%. Installation services: 18%. Civil works: 18%."
+    a: "Modules and cells: 5 percent. Complete solar power generating system, goods portion: 5 percent. Installation services: 18 percent. Composite supply: 70 percent at 5 percent plus 30 percent at 18 percent. Standalone inverters, batteries, mounting structures and civil works can attract 18 percent depending on classification, so confirm each line."
   - q: "Is GST on solar same across states?"
-    a: "Yes. GST is centralised. State-specific levies (electricity duty) separate."
+    a: "Yes. The rate is set nationally by the GST Council. It is collected as CGST plus SGST within a state and as IGST between states. State-specific levies such as electricity duty are separate."
   - q: "What is the impact on residential payback?"
-    a: "GST included in capex extends payback by 6-12 months. Lower for subsidised PM Surya Ghar."
+    a: "GST is part of a household's capital cost, so the lower rate shortens payback slightly. MNRE's PIB release of 17 September 2025 estimated that a 3 kW rooftop system became about ₹9,000 to ₹10,500 cheaper after the cut."
   - q: "Can ITC be claimed retrospectively?"
-    a: "Generally not. ITC must be claimed in the tax period of receipt."
+    a: "Generally not. Input tax credit must be claimed within the time limit set in the CGST Act, and only for tax periods in which the conditions are met. Ask your tax adviser about the cut-off."
   - q: "Does GST apply to imports?"
-    a: "Yes. IGST on imports applied at landed cost including customs duty."
+    a: "Yes. IGST is charged on imports on the value including customs duty, at the rate that applies to the imported item."
   - q: "What is the GST on solar power sales?"
-    a: "Electricity supply is exempt from GST. Solar power sold to DISCOM not subject to GST."
+    a: "Electricity supply is exempt from GST, so solar power sold to a DISCOM is not subject to GST."
   - q: "Is GST on solar disputed?"
-    a: "Past disputes about effective rate (5% vs 12%). Current 12 percent generally accepted but periodic legal challenges occur."
+    a: "Classification is the live question, mainly whether a standalone inverter sits under the 5 percent entry 437 or heading 8504 at 18 percent, and how a composite supply is valued. Ask the supplier for the notification entry it relies on."
 author: "Akash Hirapara"
 ---
-
 ## What is GST on solar
 
-GST (Goods and Services Tax) on solar in India is the consumption tax applied to solar PV equipment, installation services and related goods and services. Following the 2017 introduction of GST and subsequent 2021 rate revisions, current rates are:
+GST (Goods and Services Tax) on solar in India is the consumption tax applied to solar PV equipment, installation services and related goods and services. The GST Council's 56th meeting (3 September 2025) cut GST on renewable energy devices, solar panels and complete solar power generating systems from 12% to 5%. CBIC notified the change in Notification 9/2025-Integrated Tax (Rate) on 17 September 2025, and it took effect on 22 September 2025. Current rates are:
 
-- Solar PV modules and cells: 12%
-- Solar inverters: 12% under HSN 8504
-- Mounting structures: 12% (for solar-specific) or 18% (general structures)
-- DC and AC cables: 12%
-- Junction boxes, connectors: 12%
-- Installation services: 18%
-- Civil works: 18%
+- Solar PV modules and cells: 5%
+- Complete solar power generating system, goods portion: 5%
+- Installation, engineering and commissioning services: 18%
+- Solar inverters: 5% or 18% depending on classification (heading 8504 sits at 18%, so confirm the entry the supplier relies on)
+- Mounting structures and civil works: usually 18%
 - Battery storage equipment: 18%
 - Electricity supply: Exempt
 
-The 2021 rate increase from 5 percent to 12 percent for solar equipment was controversial. The current 12 percent rate adds approximately 12-15 percent to total project cost. Business customers can claim input tax credit (ITC) to offset their own GST obligations, while residential customers (including PM Surya Ghar beneficiaries) cannot. The full rate breakdown by component is worked through in our [GST on solar inverters and panels guide](/blog/gst-on-solar-inverters-2026/).
+Solar equipment was taxed at 5% when GST began in July 2017, then at 12% from 1 October 2021 until 21 September 2025. Many older articles and quotes still show the 12% figure. On a composite supply of equipment plus installation, the 70:30 rule values 70% of the contract as goods at 5% and 30% as services at 18%, which is about 8.9% in total (it was about 13.8% at the earlier 12% goods rate). Business customers can claim input tax credit (ITC) to offset their own GST obligations, while residential customers (including PM Surya Ghar beneficiaries) cannot. The full rate breakdown by component is worked through in our [GST on solar inverters and panels guide](/blog/gst-on-solar-inverters-2026/).
 
 > **TL;DR**
-> - GST on solar equipment (modules, inverters, cables) is 12 percent; installation and civil work services attract 18 percent.
-> - Total GST adds roughly 12 to 15 percent to overall project cost.
+> - GST on solar panels and complete solar power generating systems is 5 percent from 22 September 2025, down from 12 percent; installation and civil work services attract 18 percent.
+> - A composite supply is valued 70:30, so total GST works out to about 8.9 percent of the contract value.
 > - Business customers recover GST through input tax credit; residential customers, including PM Surya Ghar beneficiaries, absorb it in full.
-> - The rate rose from 5 percent at GST's 2017 introduction to 12 percent from October 2021.
+> - The rate was 5 percent at GST's 2017 introduction, 12 percent from October 2021, and 5 percent again from 22 September 2025.
 > - Electricity supply itself is GST-exempt, so solar power sold to a DISCOM is not taxed.
 
 ## Why GST on solar matters
 
-Project cost. Adds 12-15 percent to total [capex](/glossary/capex/).
+Project cost. Adds roughly 9 percent to a composite project's [capex](/glossary/capex/) under the 70:30 rule.
 
 ITC for business. Recoverable for taxpaying corporates, alongside [accelerated depreciation](/glossary/accelerated-depreciation/) benefits.
 
@@ -105,52 +102,54 @@ PPA economics. GST affects developer cost structure.
 
 | Item | Rate |
 |---|---|
-| Solar PV modules and cells | 12% |
-| [Solar inverters](/glossary/solar-inverter/) (HSN 8504) | 12% |
-| Solar pumps | 12% |
-| Solar lanterns | 12% |
-| Mounting structures (solar-specific) | 12% |
-| Solar cables | 12% |
-| Connectors and junction boxes | 12% |
+| Solar PV modules and cells | 5% |
+| Complete solar power generating system (goods portion) | 5% |
+| [Solar inverters](/glossary/solar-inverter/) (HSN 8504) | 5% or 18%, depending on classification |
+| Other solar power based devices listed in entry 437 | 5% |
+| Mounting structures | Usually 18% |
+| Battery storage equipment | 18% |
 | Installation services | 18% |
 | Civil works for solar | 18% |
-| Battery storage equipment | 18% |
+| Composite supply (equipment plus installation) | 70% at 5% and 30% at 18%, about 8.9% in total |
 | Electricity supply | Exempt |
-| Land lease for solar | 18% |
+
+Rates apply from 22 September 2025 under Notification 9/2025-Integrated Tax (Rate) and its Central Tax (Rate) counterpart. Check the notification in force on the invoice date and confirm each line with the supplier, because a rate depends on how the item is described and classified.
 
 ## Technical deep dive
 
 ### Impact on residential PM Surya Ghar
 
-For typical 3 kW residential:
-- Equipment cost (pre-GST): ₹1.20 lakh
-- Installation service: ₹30,000
-- Total pre-GST: ₹1.50 lakh
-- GST on equipment (5%, Schedule I entry 437): ₹6,000
-- GST on services (18%): ₹5,400
-- Total with GST: ₹1.61 lakh
-- PM Surya Ghar subsidy: ₹78,000 (max)
-- Net customer cost: ₹83,400
+An illustrative 3 kW residential system supplied and installed under one contract (not a Qbits price):
+- Contract value (pre-GST): ₹1,50,000
+- Goods, deemed 70 percent: ₹1,05,000 at 5 percent = ₹5,250
+- Services, deemed 30 percent: ₹45,000 at 18 percent = ₹8,100
+- Total GST: ₹13,350 (about 8.9 percent)
+- Total with GST: ₹1,63,350
+- PM Surya Ghar subsidy: up to ₹78,000 for a 3 kW system
+- Net customer cost: about ₹85,350
+
+At the earlier 12 percent goods rate the same contract carried ₹20,700 of GST, so the cut saves about ₹7,350 on this example.
 
 ### Impact on C&I solar
 
-For 100 kW C&I:
+An illustrative 100 kW C&I project under one contract:
 - Total project cost (pre-GST): ₹40 lakh
-- GST (~13% blended): ₹5.2 lakh
-- Total with GST: ₹45.2 lakh
-- ITC recovery (for business with output GST): ₹5.2 lakh
+- GST (about 8.9 percent under the 70:30 split): ₹3.56 lakh
+- Total with GST: ₹43.56 lakh
+- ITC recovery (for a business that can claim it): ₹3.56 lakh
 - Net effective cost: ₹40 lakh
 
 For business customers, GST is effectively pass-through (collected and offset), a structure most commercial EPC installations already factor into their quotes.
 
 ### Historical timeline
 
-| Year | Solar equipment GST |
+| Period | Solar equipment GST |
 |---|---|
 | Pre-July 2017 | Pre-GST (various VAT) |
-| July 2017 | 5% on solar plant |
-| October 2021 | Increased to 12% |
-| Current | 12% standard |
+| July 2017 | 5% |
+| 1 October 2021 | Increased to 12% |
+| 22 September 2025 | Reduced to 5% (Notification 9/2025-Integrated Tax (Rate)) |
+| Current | 5% on solar power generating systems and panels |
 
 ### ITC mechanism
 
@@ -184,17 +183,19 @@ Consult tax advisor for complex structures.
 
 Account for GST in project cash flow models.
 
+Ask the supplier which notification entry each invoice line relies on.
+
 ## Indian market context
 
-GST Council reviews rates periodically.
+The GST Council reviews rates periodically, so confirm the rate in force on the invoice date.
 
-Industry petitions for solar GST reduction continue.
+The September 2025 reduction applies to supplies from 22 September 2025; invoices for earlier supplies can still show 12 percent.
 
 Some states provide GST refund on renewable equipment.
 
 PLI scheme partially offsets GST through manufacturing incentive.
 
-ALMM-listed equipment treated under standard GST rates.
+ALMM-listed equipment is treated under the same GST rates as other solar equipment.
 
 ## Standards and certifications
 
@@ -207,7 +208,7 @@ ALMM-listed equipment treated under standard GST rates.
 
 ## Key takeaways
 
-GST on Indian solar: 12 percent on equipment, 18 percent on services. Adds 12-15 percent to total project cost. Business customers recover through ITC; residential absorbs full GST. PM Surya Ghar customers see GST on top of subsidised equipment. CERC tariff methodology incorporates GST in benchmark. Project cost models must include GST and ITC treatment.
+GST on Indian solar: 5 percent on panels and complete solar power generating systems from 22 September 2025, 18 percent on installation services, about 8.9 percent overall on a composite supply under the 70:30 rule. Business customers recover through ITC; residential absorbs full GST. PM Surya Ghar customers see GST on top of subsidised equipment. Project cost models must include GST and ITC treatment, and must state which notification entry each line relies on.
 
 ## Further reading
 
@@ -220,12 +221,8 @@ For how GST on Solar plays out in real projects, these guides go deeper:
 
 ## Sources
 
+- [PIB, Government of India: release on GST rate changes for renewable energy devices (17 September 2025)](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2167486&reg=48&lang=2)
+- [GST Council, 56th meeting FAQs (September 2025)](https://gstcouncil.gov.in/sites/default/files/2025-09/faq_0.pdf)
+- CBIC Notification 9/2025-Integrated Tax (Rate), 17 September 2025, with the Central Tax (Rate) counterpart.
 - Central Goods and Services Tax Act 2017.
-- GST Council notifications and circulars.
-- CBIC clarifications on solar GST.
 - HSN classification for solar equipment.
-- CERC Tariff Regulations 2024.
-- Big Four tax advisory publications.
-- IRENA renewable tax study.
-- IEA India Energy Outlook 2024.
-- MNRE GST impact assessment.

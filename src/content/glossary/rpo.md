@@ -29,8 +29,6 @@ relatedTerms:
   - { slug: "ppa", term: "Power Purchase Agreement" }
   - { slug: "feed-in-tariff", term: "Feed In Tariff" }
   - { slug: "esg", term: "ESG" }
-  - { slug: "captive-plant", term: "Captive Plant" }
-  - { slug: "open-access", term: "Open Access" }
   - { slug: "green-hydrogen", term: "Green Hydrogen" }
 faqs:
   - q: "What is RPO in simple words?"

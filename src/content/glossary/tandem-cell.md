@@ -27,7 +27,6 @@ relatedTerms:
   - { slug: "ibc-cell", term: "IBC Cell" }
   - { slug: "module-efficiency", term: "Module Efficiency" }
   - { slug: "monocrystalline", term: "Monocrystalline" }
-  - { slug: "thin-film", term: "Thin Film" }
   - { slug: "stc", term: "STC" }
   - { slug: "encapsulant", term: "Encapsulant" }
   - { slug: "degradation", term: "Module Degradation" }

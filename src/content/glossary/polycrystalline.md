@@ -29,9 +29,7 @@ relatedTerms:
   - { slug: "half-cut-cell", term: "Half-Cut Cell" }
   - { slug: "almm-list", term: "ALMM List" }
   - { slug: "bis-certification", term: "BIS Certification" }
-  - { slug: "thin-film", term: "Thin Film" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
-  - { slug: "wattage", term: "Module Wattage" }
 faqs:
   - q: "What is a polycrystalline panel in simple words?"
     a: "A solar panel whose cells are cast from molten silicon that hardens with many small crystals inside. Slightly cheaper historically but less efficient than mono."

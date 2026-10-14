@@ -27,11 +27,9 @@ relatedTerms:
   - { slug: "tariff", term: "Tariff" }
   - { slug: "feed-in-tariff", term: "Feed In Tariff" }
   - { slug: "ppa", term: "Power Purchase Agreement" }
-  - { slug: "renewable-purchase-obligation", term: "RPO" }
+  - { slug: "rpo", term: "RPO" }
   - { slug: "rec", term: "Renewable Energy Certificate" }
   - { slug: "electricity-act-2003", term: "Electricity Act 2003" }
-  - { slug: "appellate-tribunal", term: "Appellate Tribunal" }
-  - { slug: "secl", term: "SECI" }
 faqs:
   - q: "What is CERC in simple words?"
     a: "India's central regulator for electricity. They set inter-state transmission charges, regulate central PSUs and decide rules for the power market."

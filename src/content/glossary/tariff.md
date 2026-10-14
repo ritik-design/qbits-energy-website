@@ -27,7 +27,6 @@ relatedTerms:
   - { slug: "cerc", term: "CERC" }
   - { slug: "net-metering", term: "Net Metering" }
   - { slug: "gross-metering", term: "Gross Metering" }
-  - { slug: "tod-tariff", term: "Time-of-Day Tariff" }
   - { slug: "average-pooled-cost", term: "Average Pooled Cost" }
   - { slug: "smart-meter", term: "Smart Meter" }
   - { slug: "kwh", term: "kWh" }

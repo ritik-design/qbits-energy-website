@@ -44,4 +44,4 @@ Record the fault exactly as displayed, the time, grid measurements if safely ava
 
 ## Firmware and protection settings
 
-Firmware can affect grid protection, control, monitoring, and compatibility. The retained Qbits documents do not provide a public release-note archive, update matrix, or universal settings file. Obtain the approved firmware and procedure for the exact SKU. Back up settings and record the pre-update and post-update versions when the manufacturer or qualified service party authorises an update.
+Firmware can affect grid protection, control, monitoring, and compatibility. Qbits does not publish a public release-note archive, update matrix, or universal settings file. Obtain the approved firmware and procedure for the exact SKU. Back up settings and record the pre-update and post-update versions when the manufacturer or qualified service party authorises an update.

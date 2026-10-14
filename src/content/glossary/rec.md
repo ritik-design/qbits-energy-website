@@ -26,12 +26,8 @@ relatedTerms:
   - { slug: "discom", term: "DISCOM" }
   - { slug: "cerc", term: "CERC" }
   - { slug: "feed-in-tariff", term: "Feed In Tariff" }
-  - { slug: "open-access", term: "Open Access" }
   - { slug: "mnre", term: "MNRE" }
   - { slug: "green-hydrogen", term: "Green Hydrogen" }
-  - { slug: "carbon-credit", term: "Carbon Credit" }
-  - { slug: "captive-plant", term: "Captive Plant" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
 faqs:
   - q: "What is a REC in simple words?"
     a: "A certificate proving that one megawatt-hour of renewable energy was generated. Generators can sell electricity at one price and the green certificate separately, monetising the renewable attribute."

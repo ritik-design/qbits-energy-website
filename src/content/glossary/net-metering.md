@@ -27,11 +27,8 @@ relatedTerms:
   - { slug: "smart-meter", term: "Smart Meter" }
   - { slug: "discom", term: "DISCOM" }
   - { slug: "pm-surya-ghar", term: "PM Surya Ghar" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "feed-in-tariff", term: "Feed In Tariff" }
   - { slug: "virtual-net-metering", term: "Virtual Net Metering" }
-  - { slug: "group-net-metering", term: "Group Net Metering" }
-  - { slug: "self-consumption", term: "Self Consumption" }
   - { slug: "anti-islanding", term: "Anti-Islanding" }
 faqs:
   - q: "What is net metering in simple words?"
@@ -63,7 +60,7 @@ faqs:
   - q: "What is virtual net metering?"
     a: "An arrangement where multiple consumers share generation from a single solar plant located elsewhere, with credits proportioned among their meters. Common for group housing in Delhi, Kerala and Karnataka."
   - q: "What documents are needed for net metering?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "The list differs by DISCOM, so use your DISCOM's checklist or the national rooftop portal. It usually includes proof of identity and of ownership or the owner's consent, a recent electricity bill with the sanctioned load, the system capacity and single-line diagram, equipment details with test certificates, the installer's details and the application fee. After inspection the DISCOM installs a net or bi-directional meter."
 author: "Nirav Dhanani"
 seoTitle: "Net Metering in India: Meaning, Billing and Approval Checks"
 ---

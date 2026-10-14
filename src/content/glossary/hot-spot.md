@@ -20,10 +20,8 @@ quickFacts:
   relevantStandards: "IEC 61215, IEC 61730"
   relatedTechnologies: "Bypass diode, junction box, micro-inverter"
 relatedTerms:
-  - { slug: "bypass-diode", term: "Bypass Diode" }
   - { slug: "junction-box", term: "Junction Box" }
   - { slug: "shading-analysis", term: "Shading Analysis" }
-  - { slug: "shading-loss", term: "Shading Loss" }
   - { slug: "monocrystalline", term: "Monocrystalline" }
   - { slug: "polycrystalline", term: "Polycrystalline" }
   - { slug: "module-efficiency", term: "Module Efficiency" }

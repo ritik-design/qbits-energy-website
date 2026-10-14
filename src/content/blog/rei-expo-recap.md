@@ -1,6 +1,6 @@
 ---
 title: "REI Expo 2026 Recap: Top Solar Industry Trends"
-excerpt: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+excerpt: "A recap of the inverter, storage, high-wattage module and bifacial trends at REI Expo 2026, with the checks EPC buyers should run before changing their vendor shortlist."
 description: "A cautious REI Expo trend review that separates observed themes from vendor claims and explains what solar buyers should verify afterward."
 category: Industry
 date: 2026-06-05
@@ -28,9 +28,9 @@ faqs:
   - q: "How is EV charging integration showing up in solar inverter products?"
     a: "Several inverter manufacturers at REI 2026 showcased inverters with built-in EV charger communication protocols - specifically OCPP 1.6 and ISO 15118 compatibility - allowing the inverter to modulate charge rate based on solar generation surplus. This solar-to-EV direct charging architecture eliminates a separate EVSE controller, reducing system cost and installation time for commercial rooftop projects that want both solar and fleet charging. The segment is early-stage but represents a meaningful differentiation for EPC installers pitching to logistics, hospitality, and educational institution clients."
   - q: "Which made-in-India solar inverter brands gained the most ground at REI 2026?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "There is no verified ranking. Exhibition floor space is not market share, and the trade-floor signal at REI 2026 was simply a larger made-in-India presence than in earlier editions. Judge any brand on the exact model's datasheet, current certificates, written warranty terms and local service arrangements. Treat any claim that an inverter is 'ALMM-compliant' with caution, because MNRE publishes ALMM lists for modules and cells only."
   - q: "What procurement criteria should EPC installers apply after REI 2026?"
-    a: "MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models, then obtain the inverter documents required by the scheme and DISCOM separately."
+    a: "Check five things for each shortlisted inverter: the MPPT voltage window and per-string current limit against the modules you plan to use, the exact model's current certificates, the written warranty terms including remedy and registration deadline, the monitoring interface and who owns the account, and the local service route with a written response commitment. Verify module and cell models against the MNRE ALMM lists separately, since there is no ALMM list for inverters."
   - q: "How does bifacial module adoption at REI 2026 affect inverter selection?"
     a: "Bifacial solar panels produce 5–15% additional generation from rear-surface albedo reflection, which raises effective module output - often pushing actual power delivery above the nameplate STC rating under field conditions. This means inverters paired with bifacial arrays must carry a higher DC input margin to avoid clipping the rear-surface bonus generation. At REI 2026, inverter vendors updated their DC oversizing guidance from the traditional 1.2× to 1.3–1.4× when specifying systems with bifacial modules on elevated or reflective mounting surfaces."
 ---
@@ -46,7 +46,7 @@ These are not forecasts. They are confirmed observations from the product launch
 > - Hybrid inverters with integrated battery management occupied roughly 60% of inverter floor space, up sharply from on-grid dominance as recently as 2023.
 > - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify both equipment categories separately.
 > - Bifacial modules pushed DC oversizing guidance from the old 1.2x standard to 1.3-1.4x, and 700W+ panels now need inverters with Vmax up to 1,500V and Isc tolerances of 18-22A.
-> - Made-in-India brands gained structural ground on ALMM compliance, 48-72 hour RMA turnaround, and India-grid-tuned firmware, not just price.
+> - Made-in-India brands gained ground on local service response, India-grid-tuned firmware and total cost of ownership, not just price.
 > - Solar-plus-storage and solar-to-EV charging integration emerged as the next convergence point for C&I procurement above 25 kW.
 
 ## AI Monitoring Becomes Standard, Not Optional
@@ -94,7 +94,7 @@ The most analytically useful output of any trade exhibition is a distillation of
 
 4. **Battery-ready architecture**: Even for projects specified as on-grid only, EPC installers at REI 2026 were preferring inverters with a battery-ready design, a hardware provision for adding storage later without inverter replacement. The incremental cost is marginal; the future-proofing value is significant in a market where storage economics are improving every quarter.
 
-These four signals apply across project sizes from 3 kW residential to 500 kW C&I. The weighting shifts by segment (ALMM compliance dominates residential PM Surya Ghar work, while AI monitoring and battery readiness weigh more heavily in C&I procurement) but all four must be present in the vendor specification before an informed EPC will commit volume.
+These four signals apply across project sizes from 3 kW residential to 500 kW C&I. The weighting shifts by segment (module ALMM compliance dominates residential PM Surya Ghar work, while AI monitoring and battery readiness weigh more heavily in C&I procurement) but all four must be present in the vendor specification before an informed EPC will commit volume.
 
 ## Bifacial Panel Adoption and the Inverter Specification Gap
 
@@ -117,13 +117,11 @@ The [dc oversizing in solar](/blog/dc-oversizing-in-solar/) post covers the unde
 
 MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
 
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
+### Tier 1: ALMM-Listed Modules and Cells
 
-### Tier 1: ALMM-Listed Products
+For modules and cells, check each proposed model against the current ALMM List-I and List-II entries and the orders in force on your project date.
 
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
-
-### The Compliance Dividend for Listed Brands
+### What to Check on Inverters Instead
 
 For inverter procurement, compare the exact model's current certificates, test evidence, grid-interface documents, service terms, and project requirements. The MNRE ALMM page addresses module and cell lists, so it should not be used as an inverter-market ranking or a claim about a manufacturer's competitive position.
 
@@ -135,7 +133,7 @@ Four structural factors are driving this shift, all visible in the REI 2026 trad
 
 - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify the exact module/cell models and check inverter documents separately.
 - **Service infrastructure**: the RMA (return merchandise authorisation) turnaround time for imported inverters in Tier-2 and Tier-3 Indian cities frequently exceeds 15–30 days. Domestic brands with regional service networks are quoting 48–72 hour board replacement SLAs, which reduces EPC liability under project performance guarantees.
-- **India-grid-tuned firmware**: the Indian grid operates at voltage ranges of 180–270 V, frequency deviations outside IEC norms, and harmonic profiles that differ from European or Chinese grid assumptions. Inverters firmware-tuned for these conditions show measurably lower fault rates in installed-base data.
+- **India-grid-tuned firmware**: the Indian grid can show wide voltage swings, frequency deviations and harmonic profiles that differ from European or Chinese grid assumptions. The accepted AC window depends on the model and the DISCOM's grid-code setting, so ask each vendor how its firmware is configured for your connection.
 - **Local engineering support**: the ability to reach an application engineer by phone on a Tuesday afternoon (not submit a support ticket and wait) is increasingly a quantifiable procurement criterion. EPC project managers managing tight commissioning schedules cannot absorb 48-hour email response cycles.
 
 The [Indian vs international solar inverters](/blog/indian-vs-international-solar-inverters/) comparison on this site provides a structured side-by-side analysis of these criteria across specific brands.

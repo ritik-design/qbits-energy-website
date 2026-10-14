@@ -19,8 +19,6 @@ quickFacts:
   relatedTechnologies: Inverters, transformers and generators
 relatedTerms:
 - { slug: power-factor, term: Power Factor }
-- { slug: active-power, term: Active Power }
-- { slug: apparent-power, term: Apparent Power }
 - { slug: solar-inverter, term: Solar Inverter }
 faqs:
 - q: What does kVA mean?

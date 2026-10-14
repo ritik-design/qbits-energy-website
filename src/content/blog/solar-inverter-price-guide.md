@@ -65,7 +65,7 @@ Here is where a typical string inverter's cost actually lives, and what makes ea
 
 | Cost block | What it does | What makes it cost more |
 | --- | --- | --- |
-| Power switches | Convert DC to AC | Higher current rating, better switching devices, tighter thermal margin. Qbits describes its switching stage as German IGBT Technology |
+| Power switches | Convert DC to AC | Higher current rating, better switching devices, tighter thermal margin. Qbits' catalogue lists German IGBT technology among its design features |
 | Magnetics | Boost inductors, filter chokes | More MPPT trackers means more inductors; higher DC current means heavier copper |
 | DC link capacitors | Smooth the DC bus | Longer rated life at high ambient temperature, which matters on Indian terraces |
 | Enclosure and cooling | Keep water, dust and heat out | Higher protection rating, potting, forced cooling, corrosion-resistant finish |
@@ -173,7 +173,7 @@ The guidelines also set a 15-day clock after DISCOM approval, a 30-day clock for
 
 Slabs and state practice change, so confirm the [current subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) before you build it into a budget. Rules vary by state and by DISCOM, and no subsidy outcome is certain for any given applicant.
 
-While on the scheme, correct one claim you will hear from sellers. There is no ALMM list for inverters. MNRE publishes List-I for solar modules and List-II for solar cells, with List-II in force from 1 June 2026. Qbits states that it is ALMM Phase III listed, and that is a brand statement, not a scheme requirement for inverters.
+While on the scheme, correct one claim you will hear from sellers. There is no ALMM list for inverters. MNRE publishes List-I for solar modules and List-II for solar cells, with List-II in force from 1 June 2026. Because there is no inverter list, ask the seller for the exact inverter model's BIS registration and current certificates, and for PM Surya Ghar confirm any inverter requirement with your DISCOM.
 
 ## Worked example: the 10-year cost of owning the cheaper inverter
 
@@ -208,7 +208,7 @@ Count the steps that clock has to pass through.
 
 A low price usually means one or more of those steps is weaker. Shorter warranty means step 2 can end in a rejection. Thin service coverage means steps 3 and 4 take a week rather than a day. No bundled monitoring means step 1 can take a month, because nobody watches a meter daily. That is why service footprint and claim wording belong in a price comparison rather than in a separate conversation.
 
-Ask the brand two concrete questions. Where is the nearest authorised service point, by name and road distance? What is the committed action once a claim is approved? Qbits, for example, and publishes 2100+ authorised service partners across 33 states and UTs. Whatever the brand, get the answer in writing, then treat a distant service point as a real cost in the comparison above.
+Ask the brand two concrete questions. Where is the nearest authorised service point, by name and road distance? What is the committed action once a claim is approved? Qbits, for example, sells through a dealer channel and publishes a service-partner locator at /authorized-service-partners/. Whatever the brand, get the answer in writing, then treat a distant service point as a real cost in the comparison above.
 
 Credit where it is due: several Indian brands publish long warranty terms openly. Havells prints 10 years on its Enviro GTi datasheets. Polycab prints 7 years in its 2025 catalogue. A published term you can read beats a verbal promise from any seller.
 

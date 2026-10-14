@@ -227,7 +227,7 @@ Most monitoring disappointment is a specification failure at purchase, not a pro
 | Who diagnoses the alert, and is a visit chargeable? | A named party and a stated rate card |
 | Is any of this in the warranty document? | Yes, or an honest no |
 
-On the last two, get the service arrangement and the warranty separated cleanly, because they are different contracts. Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Monitoring behaviour is a separate matter, so ask for both in writing. The public datasheets on the [product range](/our-products/) do not define every warranty term, so request the current written terms for the exact quoted model.
+On the last two, get the service arrangement and the warranty separated cleanly, because they are different contracts. Qbits publishes an expandable warranty, and its public datasheets on the [product range](/our-products/) do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Monitoring behaviour is a separate matter, so ask for both in writing.
 
 Finally, apply the same live acceptance test to every shortlisted brand. Measure setup time, update interval, data completeness, alert delivery, history depth, export, account transfer, recovery, and behaviour after an internet outage. Do not score a screenshot as measured performance.
 

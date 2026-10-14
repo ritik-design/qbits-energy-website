@@ -19,7 +19,7 @@ faqs:
     a: "Record the model, serial number, time, display or LED state, and monitoring screenshot. Follow the exact manual and contact a qualified installer or service provider. Do not open the enclosure."
 ---
 
-Responding to an inverter fault cannot be reduced to a brand score or a universal recovery deadline. Reliability depends on the exact model, design, installation, grid, environment, maintenance, firmware, and how a “failure” is defined and counted. Comparable field data is not retained for the brands discussed on this site.
+Responding to an inverter fault cannot be reduced to a brand score or a universal recovery deadline. Reliability depends on the exact model, design, installation, grid, environment, maintenance, firmware, and how a “failure” is defined and counted. Comparable public field data is not available for the brands discussed on this site.
 
 > **Safety first:** Solar PV conductors can remain energised in daylight, and inverter internals can contain hazardous voltage. Do not open the enclosure or improvise electrical tests. Follow the exact manual and use a qualified technician.
 
@@ -44,9 +44,9 @@ A stopped inverter may be responding to a grid outage, grid voltage or frequency
 
 Without this context, labels such as “most reliable,” “lowest RMA,” or “fastest service” are marketing claims, not comparable evidence.
 
-## Qbits document limit
+## What Qbits' public documents cover
 
-The retained Qbits datasheets provide model-specific specifications and describe an expandable warranty. They do not provide audited field failure rates, a universal service deadline, or complete warranty terms. Obtain the current manual, warranty, service process, and relevant certificates for the exact model.
+Qbits' published datasheets give model-specific specifications and describe an expandable warranty. They do not give audited field failure rates, a universal service deadline, or complete warranty terms. Obtain the current manual, warranty, service process, and relevant certificates for the exact model.
 
 ## Safe escalation path
 

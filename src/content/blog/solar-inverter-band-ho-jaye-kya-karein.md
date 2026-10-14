@@ -250,7 +250,7 @@ Beeping patterns और meanings:
 
 [Solar annual maintenance checklist](/blog/solar-annual-maintenance-checklist-india/), complete preventive maintenance guide। Iss guide ke aage bhi common problems face ho rahe hain toh [solar inverter troubleshooting, 15 common problems](/blog/solar-inverter-troubleshooting/) mein broader coverage hai।
 
-- **written RMA process**: Fault confirmed से 72 घंटे में replacement - full [72-hour action plan](/blog/solar-inverter-failure-action/) यहाँ देखें
+- **written RMA process**: Replacement की process और response time लिखित में confirm करें - पूरी जानकारी के लिए [Safe First Actions](/blog/solar-inverter-failure-action/) देखें
 - **Phone support**: Error code diagnosis phone पर
 - **Service network**: [Authorized service partners](/authorized-service-partners/) India-wide
 

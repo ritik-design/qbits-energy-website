@@ -22,20 +22,17 @@ quickFacts:
   relatedTechnologies: "PERC, TOPCon, HJT, encapsulant, back sheet"
 relatedTerms:
   - { slug: "lid", term: "LID" }
-  - { slug: "pid", term: "PID" }
   - { slug: "letid", term: "LeTID" }
   - { slug: "monocrystalline", term: "Monocrystalline" }
   - { slug: "perc-cell", term: "PERC Cell" }
   - { slug: "topcon-cell", term: "TOPCon Cell" }
   - { slug: "hjt-cell", term: "HJT Cell" }
   - { slug: "module-efficiency", term: "Module Efficiency" }
-  - { slug: "performance-warranty", term: "Performance Warranty" }
   - { slug: "almm-list", term: "ALMM List" }
   - { slug: "hot-spot", term: "Hot Spot" }
   - { slug: "encapsulant", term: "Encapsulant" }
   - { slug: "back-sheet", term: "Back Sheet" }
   - { slug: "junction-box", term: "Junction Box" }
-  - { slug: "almm-list", term: "ALMM List" }
   - { slug: "solar-yield", term: "Solar Yield" }
 faqs:
   - q: "What is module degradation in simple words?"

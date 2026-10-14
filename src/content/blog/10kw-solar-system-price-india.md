@@ -24,7 +24,7 @@ faqs:
   - q: "What is the payback period for a 10kW commercial solar system in India?"
     a: "For a commercial buyer claiming 40% accelerated depreciation, effective payback is 2.5 to 4 years. For a residential buyer with the ₹78,000 PM Surya Ghar subsidy, payback is 5 to 8 years at ₹6 to ₹8 per unit. Commercial tariffs in India (₹8 to ₹12 per unit) shorten payback significantly compared to residential."
   - q: "Which Qbits inverter is recommended for a 10kW solar system?"
-    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
+    a: "For a 10 kW array on a three-phase supply, Qbits' published on-grid catalogue lists the QB 5/6/8/10/12/15/17KTLC three-phase range with dual MPPT inputs. If you also want battery backup, the published hybrid range includes the QBH 5/6/7/8/10/12KS48P3 three-phase models. Choose by phase, DC string design, MPPT count and backup need, then check the current datasheet at /download-datasheets/ for the exact model."
   - q: "Is a 10kW solar system single-phase or three-phase?"
     a: "A 10kW residential solar system can be either single-phase or three-phase depending on the home's power connection. Most Indian homes above 5kW load have a three-phase supply. A three-phase 10kW solar inverter distributes generation across all three phases, which improves efficiency and reduces cable losses. Single-phase 10kW inverters are available but are typically used where only a single-phase supply exists. For commercial premises, three-phase is strongly recommended."
   - q: "What is accelerated depreciation for solar in India?"

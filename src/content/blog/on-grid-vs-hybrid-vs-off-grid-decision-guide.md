@@ -18,7 +18,7 @@ faqs:
   - q: "Will an on-grid solar inverter provide backup power during a power cut?"
     a: "No. An on-grid (grid-tied) inverter shuts down automatically the moment the grid fails - this is a mandatory anti-islanding safety requirement under IEC 62116 and enforced by every Indian DISCOM. If you experience frequent power cuts lasting more than two hours per day, an on-grid-only system will leave you in the dark during those periods. A hybrid inverter with a battery bank is the correct choice for backup power while still exporting to the grid when the sun shines."
   - q: "Are hybrid inverters eligible for the PM Surya Ghar Muft Bijli Yojana subsidy in India?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "It depends on the scheme rules and your DISCOM, so confirm before buying. PM Surya Ghar subsidy is for grid-connected residential rooftop solar installed through the national portal by an empanelled vendor, and the central assistance is tied to the solar capacity, not to battery storage. A hybrid inverter running in grid-connected mode may be accepted, but approval of the exact model rests with the DISCOM and the scheme guidelines. MNRE publishes no ALMM list for inverters (the module requirement is separate), so ask the vendor for the exact model's BIS registration and current certificates."
   - q: "How much extra does a hybrid inverter cost compared to an on-grid inverter of the same capacity?"
     a: "A hybrid inverter typically costs 25–40 percent more than an equivalent on-grid model at the inverter level alone. On top of that, you must budget for a battery bank - a 10 kWh lithium iron phosphate (LFP) battery system in India costs roughly ₹70,000–₹1,20,000 in 2026. Total capex for a hybrid system is usually 50–80 percent higher than a comparable on-grid installation. The higher upfront cost is offset by the value of backup power and future energy independence."
   - q: "Can I add a battery to my existing on-grid inverter later?"
@@ -91,7 +91,7 @@ The table below benchmarks all three types across the twelve dimensions that mat
 | **Battery required** | ✗ No | Optional (future-ready) | ✓ Mandatory |
 | **Upfront cost (3 kW)** | ₹1.2–1.6 Lakh (post-subsidy) | ₹1.8–2.5 Lakh (without battery) | ₹2.5–4 Lakh (with battery) |
 | **Typical payback** | 4–6 years | 7–10 years | 10–14 years |
-| **ALMM compliance** | ✓ Required | ✓ Required | Typically not ALMM-regulated |
+| **ALMM compliance (modules)** | ✓ Modules must be ALMM-listed | ✓ Modules must be ALMM-listed | Typically not ALMM-regulated |
 | **Installation complexity** | Low | Moderate | High |
 | **Scalability** | Add more panels | Add panels + battery | Limited by battery bank |
 | **Best for** | Urban grid-reliable zones | High-outage urban/semi-urban | Rural / no-grid locations |
@@ -155,7 +155,7 @@ The [payback period analysis](/blog/solar-inverter-payback-period-in-india/) sho
 | | ✓ Fastest payback (4–6 years) | ✗ Cannot expand to battery without rewiring |
 | | ✓ Full PM Surya Ghar subsidy eligible | ✗ Dependent on DISCOM for net-metering credits |
 | | ✓ Simplest installation and commissioning | ✗ Not suitable for high-outage regions |
-| | ✓ ALMM-listed models available nationally | ✗ Export revenue subject to policy changes |
+| | ✓ ALMM-listed modules available nationally | ✗ Export revenue subject to policy changes |
 
 - **Sizing**: a common mistake is selecting an inverter with a higher [DC oversizing](/glossary/dc-oversizing/) ratio than the local grid allows. Use the [string sizing calculator](/string-sizing-calculator/) to confirm compatibility before you quote.
 - **Grid export limit**: some DISCOMs cap export at 90 percent of sanctioned load. Over-sizing your system beyond this limit generates panels that rarely produce billable units.
@@ -187,7 +187,7 @@ The [MPPT explainer](/blog/inverter-mppt/) details how the charge controller man
 | | ✓ Battery-ready: buy now, add battery later | ✗ Longer payback (7–10 years with battery) |
 | | ✓ Future-proof against tariff rises | ✗ Slightly more complex installation |
 | | ✓ PM Surya Ghar subsidy on inverter | ✗ Battery not subsidised |
-| | ✓ ALMM-listed models available | |
+| | ✓ ALMM-listed modules available | |
 
 - **Battery chemistry matters**: [lithium iron phosphate (LFP)](/glossary/lfp-battery/) batteries are the recommended chemistry for hybrid systems in India: they tolerate the 40–48 °C ambient temperatures common in Indian summers better than NMC chemistry, and their 3,000–6,000 cycle life means a 10-year operational life before replacement.
 - **Battery sizing**: for a home with a 2 kW critical load (fans, lights, refrigerator), a 5 kWh battery provides approximately 2.5 hours of autonomy. For a 4-hour cut-coverage target, plan for 8–10 kWh. The [solar inverter sizing guide](/blog/solar-inverter-sizing/) covers load calculation methodology, and installers who want to model this against generation yield can cross-check it with [SurgePV's battery sizing tools](https://surgepv.com/hub/energy-storage/battery-sizing/).
@@ -273,6 +273,8 @@ An off-grid system for a home with a functioning DISCOM connection is almost alw
 The most common hybrid installation mistake is pairing a 5 kW hybrid inverter with a 5 kWh battery and expecting four hours of backup for a home drawing 2 kW. The maths: 5 kWh ÷ 2 kW = 2.5 hours, minus inverter and battery losses, equals roughly 2 hours of real-world autonomy. If four-hour backup is the goal, the battery must be sized at 10–12 kWh. Many installers under-size batteries to hit a target quote price; the buyer discovers the limitation only during the first long power cut. Always specify your required backup duration in writing before signing an installation contract.
 
 **Mistake 4: Not verifying ALMM status for subsidy eligibility**
+
+For subsidised projects, the solar modules must be on MNRE's current ALMM List-I. MNRE publishes no ALMM list for inverters, so for the inverter ask for the exact model's BIS registration and current certificates, and confirm the scheme and DISCOM requirements before you pay.
 
 ---
 

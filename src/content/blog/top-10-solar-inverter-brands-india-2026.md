@@ -47,7 +47,7 @@ This guide compares ten brands that publish a homeowner-relevant solar inverter 
 > - Dedicated PV brands publish grid-tied and storage families. Indian electrical and power-backup brands often mix grid-tied inverters, solar PCUs and home UPS products.
 > - A global product page does not prove that the same model is sold or supported in India.
 > - Do not compare warranty years, efficiency or MPPT count at brand level. Compare the exact SKUs on the same dimensions.
-> - Qbits' public datasheets do not establish a universal base warranty term or remedy. Ask for current written terms for the quoted model.
+> - Qbits' public datasheets describe an expandable warranty but do not define the base term or remedy. Ask for current written terms for the quoted model.
 
 **Short version.** Start with system type, rating and phase. Then ask two or three brands for an exact model number, current datasheet, written warranty, applicable compliance documents and a named service route. The brand that answers those questions clearly is a safer finalist than the brand with the strongest headline.
 
@@ -87,7 +87,7 @@ Every row below uses a current official source. "Public evidence" means only wha
 
 Sungrow's [official product catalogue](https://en.sungrowpower.com/ProductsHome/0/3/all-products) separates string inverters from storage products. The public catalogue includes residential SG string families and SH hybrid families. That is a useful starting point when a homeowner has not yet settled the on-grid versus backup decision.
 
-The strength is product-category clarity. The limitation is geography. A global catalogue does not establish which variant is sold through an Indian distributor, which certificates apply to it, or who handles a residential claim in your district.
+The strength is product-category clarity. The limitation is geography. A global catalogue does not tell you which variant is sold through an Indian distributor, which certificates apply to it, or who handles a residential claim in your district.
 
 **Conditional verdict:** shortlist Sungrow if the quote names an India-market SKU and the seller provides the matching datasheet, written warranty and service contact. Do not transfer specifications from a similarly named global variant.
 
@@ -129,7 +129,7 @@ Qbits publishes this page, so its entry needs the strictest boundary. The curren
 
 For example, the current QB 4/5/6 KTLD datasheet describes a single-phase, dual-MPPT family. That is an exact-model-family fact, not evidence that Qbits is more reliable than the other brands in this guide.
 
-There is also a material unknown. Qbits' public datasheets describe an expandable warranty but do not define the universal base term, remedy, registration deadline or exclusions. Those terms must come from the current written document for the quoted model and sale.
+There is also a gap in the public information. Qbits' public datasheets describe an expandable warranty but do not define the universal base term, remedy, registration deadline or exclusions. Those terms must come from the current written document for the quoted model and sale.
 
 **Conditional verdict:** compare Qbits when its exact datasheet fits the array and the seller supplies current warranty, certificate and service documents. Do not select it because Qbits placed itself in a list it publishes.
 

@@ -30,18 +30,8 @@ relatedTerms:
   term: String Inverter
 - slug: micro-inverter
   term: Micro Inverter
-- slug: charge-controller
-  term: Charge Controller
-- slug: i-v-curve
-  term: I-V Curve
 - slug: open-circuit-voltage
   term: Open Circuit Voltage
-- slug: short-circuit-current
-  term: Short Circuit Current
-- slug: irradiance
-  term: Irradiance
-- slug: shading-loss
-  term: Shading Loss
 - slug: dc-optimiser
   term: DC Optimiser
 - slug: string-sizing

@@ -23,8 +23,8 @@ faqs:
     a: "Maximum Power Point Tracking (MPPT) is a real-time algorithm inside the inverter that continuously adjusts the electrical load it presents to the solar panels. Every combination of sunlight intensity and panel temperature has one specific voltage-current operating point where the panel delivers its highest watt output - the maximum power point. The MPPT algorithm sweeps through voltage points hundreds of times per second and settles at the combination that delivers the most power to the inverter. On a partially cloudy day, MPPT can recover 20–30% more energy than a fixed-voltage system would capture."
   - q: "What are the three types of solar inverters?"
     a: "The three main types are on-grid inverters (also called grid-tied inverters), hybrid inverters, and off-grid inverters. On-grid inverters export surplus power to the grid and are the most common for residential and commercial rooftop installations in India. Hybrid inverters add battery charging and backup capability while staying connected to the grid. Off-grid inverters operate independently from the grid, storing all power in batteries, and are typically used in remote locations or areas with no grid access."
-  - q: "Why does the Indian grid voltage range (180–270 V) matter for inverter selection?"
-    a: "The Indian grid routinely swings between 180 V and 270 V, far wider than the 220–240 V band seen in Europe. An inverter specified for a narrow European voltage window will trip offline or trigger protection faults during Indian voltage events, causing energy losses during peak generation hours. India-specific inverter firmware with a wide AC input acceptance range (typically 180–270 V at 47–52 Hz) keeps the inverter operational through these swings, protecting the solar yield and the connected appliances."
+  - q: "Why does the Indian grid voltage range matter for inverter selection?"
+    a: "Grid voltage at an Indian rooftop can swing well outside the nominal 230 V, especially on long or heavily loaded feeders, and often by more than in markets with tighter distribution. An inverter with a narrow AC acceptance window will trip offline or raise protection faults during those events, causing energy losses during peak generation hours. The allowed AC range depends on the model, on the DISCOM's connection conditions and on the inverter's grid-code setting, so read it from the datasheet or installation manual of the exact model you are buying."
   - q: "What is anti-islanding protection in a solar inverter?"
     a: "Anti-islanding is a mandatory safety function required by BIS and IEC 62116 standards. When the utility grid goes down for maintenance or a fault, the inverter must detect the power failure and shut down within 2 seconds to prevent back-feeding live electricity onto what linemen believe to be a dead line. The inverter detects the absence of the grid reference signal and trips offline. Without anti-islanding protection, a grid-tied solar system would be hazardous to utility workers and is illegal under Indian grid interconnection regulations."
   - q: "What is total harmonic distortion (THD) and why does it matter?"
@@ -34,7 +34,7 @@ faqs:
   - q: "Can a solar inverter work without a battery?"
     a: "Yes. On-grid inverters work entirely without a battery. They synchronise their AC output directly to the grid, export surplus power, and import grid power when solar generation falls short of demand. The grid itself acts as a virtual infinite battery - absorbing excess energy and supplying power on demand. Battery storage becomes relevant when the goal is backup power during grid outages (for which a hybrid inverter is needed) or load shifting to avoid peak tariff periods."
   - q: "What certifications should a solar inverter have in India?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "Ask for the exact model's test reports and certificates: product safety to IEC 62109-1 and 62109-2, anti-islanding to IEC 62116, and BIS registration where it applies to the product. Grid-connected systems must also meet the DISCOM's connection conditions and the CEA technical standards for connectivity. MNRE's ALMM lists cover solar modules and cells, not inverters, so do not accept an ALMM claim for an inverter. For a PM Surya Ghar installation, confirm the document requirements with the DISCOM."
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
@@ -45,7 +45,7 @@ Indian households install solar panels every year expecting lower bills and ener
 > - A solar inverter converts panel DC into 230 V, 50 Hz AC through a 5-stage chain: input filtering, MPPT regulation, DC link stabilisation, IGBT switching, and output filtering.
 > - MPPT tracking recovers 20-30% more energy than a fixed-voltage system on a partly cloudy day.
 > - India uses three inverter topologies: on-grid (cheapest, no backup), hybrid (battery backup with 20 ms switchover), and off-grid (fully battery-dependent).
-> - Indian grid voltage swings between 180 V and 270 V, so inverters need India-tuned firmware, not narrow-band European designs.
+> - Indian grid voltage can swing well outside the nominal 230 V, so inverters need India-tuned firmware, not narrow-band European designs.
 > - Inverters cause 60-70% of solar service calls, making IP66 sealing and a model-specific written warranty the two specs worth checking first.
 
 **Short version.** A solar inverter takes DC from the panels, tracks the array's maximum power point with an MPPT algorithm, and switches that DC through high-speed transistors (IGBTs) tens of thousands of times per second to synthesise a clean 230 V, 50 Hz AC sine wave. The 5-Stage DC-to-AC Conversion Chain (input filtering, MPPT regulation, DC link stabilisation, IGBT switching, AC output filtering) runs in real time, continuously, for the system's life.
@@ -67,7 +67,7 @@ This means the DC input to the inverter is never perfectly stable. It fluctuates
 - **Enforcing safety functions**: detecting grid faults, over-voltage, under-voltage, islanding conditions, and ground faults, and tripping offline within the response times mandated by BIS and IEC standards.
 - **Reporting performance data**: streaming real-time generation, fault codes, and grid parameters to a monitoring platform.
 
-An inverter that performs all six functions reliably, at 98% peak efficiency, through Indian summers where rooftop temperatures reach 60 °C and the grid voltage bounces between 180 V and 270 V, is an engineering achievement. One that is merely cheap and adequately sized for the panel count is a different product entirely.
+An inverter that performs all six functions reliably, at 98% peak efficiency, through Indian summers where rooftop temperatures reach 60 °C and the grid voltage bounces well outside the nominal 230 V, is an engineering achievement. One that is merely cheap and adequately sized for the panel count is a different product entirely.
 
 The difference between a 96% efficient inverter and a 98% efficient inverter sounds small. On a 5 kW system generating 22 units per day, that 2-percentage-point gap costs roughly 0.44 units daily (about 160 units per year) which at ₹7/unit equals ₹1,120 in annual generation losses. Over a 12-year inverter life, the less efficient inverter leaves ₹13,440 of potential generation on the table, before accounting for rising tariffs.
 
@@ -196,9 +196,9 @@ India's power grid imposes operating conditions that no European or American inv
 
 ### Wide Voltage Swings
 
-The Bureau of Energy Efficiency and Central Electricity Authority data show that distribution voltage in Indian networks routinely sits outside the ±6% band permitted by IS 12360. In practice, many [DISCOM](/glossary/discom/) feeders deliver anywhere from 180 V to 270 V depending on load conditions, feeder length, and transformer tap settings. An inverter with a narrow AC voltage acceptance window (say 195–255 V) will trip offline during low-voltage afternoons when factory loads are heaviest or during overnight high-voltage conditions when industrial loads drop. Each trip is a period of zero solar generation.
+Distribution voltage in Indian networks can sit outside the ±6% band of IS 12360. In practice, many [DISCOM](/glossary/discom/) feeders see large swings depending on load conditions, feeder length, and transformer tap settings. An inverter with a narrow AC voltage acceptance window will trip offline during low-voltage afternoons when factory loads are heaviest or during overnight high-voltage conditions when industrial loads drop. Each trip is a period of zero solar generation.
 
-India-tuned firmware with an acceptance range of 180–270 V keeps the inverter online through virtually all real-world grid events, recovering generation that a narrow-window inverter would lose. According to field data compiled by [Mercom India](https://www.mercomindia.com/), voltage excursion events are among the top three causes of inverter downtime in Indian residential installations.
+India-tuned firmware with a wider AC acceptance range, set within the DISCOM's connection conditions, keeps the inverter online through more real-world grid events and recovers generation that a narrow-window inverter would lose. Voltage excursions are a common cause of inverter trips in Indian installations, so ask for the acceptance range and grid-code setting of the exact model in writing.
 
 ### Frequent Grid Outages
 

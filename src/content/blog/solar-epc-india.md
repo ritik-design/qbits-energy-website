@@ -127,7 +127,7 @@ Procurement considerations:
 | Warranty | Full unit replacement vs repair only, plus the written base term |
 | After-sales | Service network coverage, India-based support |
 | Quality testing | Ask for the factory test protocol and the per-unit test record |
-| Components | German-grade electronics vs generic |
+| Components | Ask for the bill of materials: power semiconductor and capacitor makes |
 | Supply chain | Lead times, delivery reliability |
 | [TCO](/blog/inverter-tco/) | 25-year cost analysis, not unit price alone |
 

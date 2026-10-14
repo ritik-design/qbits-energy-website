@@ -25,11 +25,9 @@ relatedTerms:
   - { slug: "string-inverter", term: "String Inverter" }
   - { slug: "mppt", term: "MPPT" }
   - { slug: "shading-analysis", term: "Shading Analysis" }
-  - { slug: "shading-loss", term: "Shading Loss" }
   - { slug: "monocrystalline", term: "Monocrystalline" }
   - { slug: "rapid-shutdown", term: "Rapid Shutdown" }
   - { slug: "solar-inverter", term: "Solar Inverter" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "module-efficiency", term: "Module Efficiency" }
   - { slug: "junction-box", term: "Junction Box" }
 faqs:
@@ -40,7 +38,7 @@ faqs:
   - q: "Why use DC optimisers?"
     a: "Shade tolerance, panel-level monitoring, partial shade recovery, rapid shutdown compliance. Costs less than microinverters but more than plain string."
   - q: "Are optimisers ALMM-listed?"
-    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+    a: "No. MNRE's ALMM lists only solar PV modules (List-I) and solar cells (List-II); it has no list for optimisers or inverters. For an optimiser, ask for the exact model's safety test reports, its compatibility with the inverter you plan to use, and confirm any scheme or DISCOM requirement before ordering."
   - q: "What is SolarEdge?"
     a: "Major DC optimiser manufacturer. SolarEdge HD-Wave inverters pair with SolarEdge optimisers under each panel."
   - q: "What is Tigo?"

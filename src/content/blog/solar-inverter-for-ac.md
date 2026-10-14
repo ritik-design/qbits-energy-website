@@ -71,11 +71,11 @@ The reading order is alphabetical by brand, with Qbits in the middle. It is not 
 
 The values below come from the current [GoodWe ES G2 product page](https://en.goodwe.com/es-g2), [Qbits QBH single-phase catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf), and [Growatt SPH TL BL-UP datasheet](https://en.growatt.com/upload/file/SPH_3000-6000TL_BL-UP_Datasheet_202604.pdf), checked on 26 September 2026.
 
-| Exact model | Published backup output | Published short-duration or heavy-load evidence | Battery input | PV tracking | Evidence boundary |
+| Exact model | Published backup output | Published short-duration or heavy-load figure | Battery input | PV tracking | What to confirm |
 | --- | --- | --- | --- | --- | --- |
-| GoodWe GW5000-ES-20 | 5,000 VA nominal backup apparent power | Product page says the family supports heavy loads such as air conditioners; exact peak value is not shown in the reviewed table | 40 to 60 V; 120 A maximum continuous charge or discharge | 2 MPPTs; 16 A maximum input per MPPT | AC start must be checked against a current detailed datasheet or manual, exact battery list, and site load schedule |
-| Qbits QBH-5KS48P | 5,000 W in the catalogue's rated off-grid apparent-output row | Greater than 200% for 15 seconds in the family's maximum-output-apparent-power row | 48 V rated; configurable charge voltage up to 60 V; 120 A maximum charge or discharge | 2 MPPTs; 18 A maximum input per tracker | Source unit wording is retained; exact battery pairing, current manual, and complete warranty remain unverified |
-| Growatt SPH 5000TL BL-UP | 4,000 W maximum backup AC output | No separate peak figure in the reviewed sheet | 42 to 59 V; 85 A maximum charge and discharge; 4,000 W continuous charging and discharging power | 2 MPPTs; 13.5 A maximum input per tracker | India availability, exact battery pairing, starting duty, and local terms need confirmation |
+| GoodWe GW5000-ES-20 | 5,000 VA nominal backup apparent power | Product page says the family supports heavy loads such as air conditioners; the exact peak value is not shown in the product page table | 40 to 60 V; 120 A maximum continuous charge or discharge | 2 MPPTs; 16 A maximum input per MPPT | AC start must be checked against a current detailed datasheet or manual, exact battery list, and site load schedule |
+| Qbits QBH-5KS48P | 5,000 W in the catalogue's rated off-grid apparent-output row | Greater than 200% for 15 seconds in the family's maximum-output-apparent-power row | 48 V rated; configurable charge voltage up to 60 V; 120 A maximum charge or discharge | 2 MPPTs; 18 A maximum input per tracker | Units are quoted as the catalogue prints them; confirm the exact battery pairing, current manual and written warranty |
+| Growatt SPH 5000TL BL-UP | 4,000 W maximum backup AC output | No separate peak figure in the datasheet | 42 to 59 V; 85 A maximum charge and discharge; 4,000 W continuous charging and discharging power | 2 MPPTs; 13.5 A maximum input per tracker | India availability, exact battery pairing, starting duty, and local terms need confirmation |
 
 Do not silently treat W and VA as the same unit. Real power, apparent power, power factor, waveform, and duration all matter with motor loads. The table preserves the units each manufacturer publishes.
 
@@ -93,7 +93,7 @@ The product page says ES G2 can switch to backup in less than 10 ms and is inten
 
 The Qbits catalogue identifies QBH-5KS48P as a single-phase model with 5,000 W in its rated off-grid apparent-output row. It prints greater than 200% for 15 seconds in the family's maximum-output-apparent-power row. The same exact model column publishes a 48 V rated battery input, up to 60 V configurable charging voltage, 120 A maximum battery charge or discharge current, two MPPTs, and 18 A input per tracker.
 
-This is the strongest published short-duration declaration in the three-source set. It is still not permission to connect any AC. The catalogue uses W in a row labelled apparent power, does not publish an exact approved battery list, and does not establish the battery's ability to supply the corresponding current. The designer must close those gaps.
+This is the strongest published short-duration figure of the three sources. It is still not permission to connect any AC. The catalogue uses W in a row labelled apparent power, does not publish an exact approved battery list, and does not state whether the battery can supply the corresponding current. The designer must close those gaps.
 
 The brochure also prints a switching statement as “within 10 seconds.” That wording is not used here as a transfer-time promise because it needs manufacturer clarification. A decimal or unit should never be silently repaired in a safety-relevant purchase decision.
 
@@ -211,4 +211,4 @@ For **daytime AC bill reduction with a reliable grid**, start with an on-grid en
 
 For **AC operation during outages**, begin with the exact load and start event. GoodWe GW5000-ES-20 is the clearest 5 kVA continuous backup comparison point, but its detailed peak evidence must be obtained. Qbits QBH-5KS48P publishes the clearest short-duration row in this set, but the source wording, battery pairing, and exact start duty need technical confirmation. Growatt SPH 5000TL BL-UP is a defensible option when its explicit 4,000 W backup ceiling covers the designed load.
 
-Choose none of them yet if the supplier cannot prove the exact AC start, battery power, backup output, and protected-load plan. The right inverter is the one that passes those checks, not the one with the largest number in its model name.
+Choose none of them yet if the supplier cannot demonstrate the exact AC start, battery power, backup output, and protected-load plan. The right inverter is the one that passes those checks, not the one with the largest number in its model name.

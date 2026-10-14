@@ -139,7 +139,7 @@ Because the grant is model-specific, a change to the bill of materials or the ma
 
 MNRE has reduced the friction. Enlistment fees were cut by up to 80%, validity was extended from 2 years to 4 years, and provisional enlistment with time-bound processing was introduced, according to AZB Partners (2025).
 
-A recent List-I entry shows the granularity. MNRE added **Havells India Limited** to ALMM List-I on 6 July 2026, for its Surat facility, with 1,221 MW of enlisted capacity and validity to 5 July 2030. One legal entity, one plant, one capacity figure, one expiry date. A quotation reading "Havells is ALMM approved" has not established that the offered model sits inside that entry.
+A recent List-I entry shows the granularity. MNRE added **Havells India Limited** to ALMM List-I on 6 July 2026, for its Surat facility, with 1,221 MW of enlisted capacity and validity to 5 July 2030. One legal entity, one plant, one capacity figure, one expiry date. A quotation reading "Havells is ALMM approved" does not show that the offered model sits inside that entry.
 
 ## DCR and ALMM answer different questions
 
@@ -190,9 +190,9 @@ MNRE does impose inverter-specific obligations outside ALMM. Its notice of 17 Au
 
 A generic "BIS and IEC compliant" sentence is not evidence. Match each certificate to the certificate holder, the exact model or declared family, the standard and edition, the issue and validity dates, the issuing body, and the specific project requirement it satisfies. The [inverter regulations guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) sets out that matching process.
 
-That rule applies to our own products too. Qbits states it is ALMM Phase III listed in its own site copy. MNRE's published ALMM lists cover solar PV modules and solar PV cells rather than inverters, and no MNRE ALMM instrument we could locate uses the word "Phase". We are not resolving that gap by asserting anything MNRE has not published.
+That rule applies to our own products too. MNRE's published ALMM lists cover solar PV modules and solar PV cells rather than inverters, and no MNRE ALMM instrument we could locate uses the word "Phase", so no inverter should be described as ALMM Phase III listed. MNRE publishes no ALMM list for inverters: ask the seller for the exact model's BIS registration and current certificates, and for PM Surya Ghar confirm the requirements with the DISCOM.
 
-So ask for the exact model designation and the standards, BIS registration and grid-interface documents the project requires. Start with the [product range](/our-products/), then request the current certificate set for that model in writing. Missing evidence stays not established until a document arrives. For the array side, the [string sizing calculator](/string-sizing-calculator/) carries current module datasheet parameters, which is where module selection and inverter window checks meet.
+So ask for the exact model designation and the standards, BIS registration and grid-interface documents the project requires. Start with the [product range](/our-products/), then request the current certificate set for that model in writing. Until a document arrives, treat the claim as unconfirmed. For the array side, the [string sizing calculator](/string-sizing-calculator/) carries current module datasheet parameters, which is where module selection and inverter window checks meet.
 
 ## How to verify an ALMM claim in eight steps
 
@@ -207,7 +207,7 @@ Treat verification as a record you can hand to an auditor, not a conversation yo
 7. Compare the delivered module label and the quotation against that same model code.
 8. Recheck before commissioning if the project timeline is long, and file the dated PDF.
 
-If any step fails, record the status as not established and obtain written confirmation from the scheme, tender or DISCOM authority. A seller's assurance is not an approval. For subsidised residential work, the [empanelled vendor checks](/blog/empanelled-vendor-pm-surya-ghar/) sit alongside this file, not inside it. On the equipment side, the [inverter procurement guide](/blog/inverter-procurement-india/) covers what to ask for and when.
+If any step fails, record the status as unconfirmed and obtain written confirmation from the scheme, tender or DISCOM authority. A seller's assurance is not an approval. For subsidised residential work, the [empanelled vendor checks](/blog/empanelled-vendor-pm-surya-ghar/) sit alongside this file, not inside it. On the equipment side, the [inverter procurement guide](/blog/inverter-procurement-india/) covers what to ask for and when.
 
 ## Common ALMM misconceptions
 

@@ -28,11 +28,7 @@ relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "central-inverter", term: "Central Inverter" }
   - { slug: "string-inverter", term: "String Inverter" }
-  - { slug: "ieee-519", term: "IEEE 519" }
-  - { slug: "lcl-filter", term: "LCL Filter" }
   - { slug: "pwm", term: "PWM" }
-  - { slug: "grid-code", term: "Grid Code" }
-  - { slug: "power-quality", term: "Power Quality" }
 faqs:
   - q: "What are harmonics in simple words?"
     a: "Extra ripples on what should be a clean AC sine wave. They are unwanted frequencies sitting on top of the 50 Hz fundamental, caused by switching electronics and non-linear loads."

@@ -23,15 +23,7 @@ quickFacts:
 relatedTerms:
   - { slug: "bidirectional-meter", term: "Bidirectional Meter" }
   - { slug: "net-metering", term: "Net Metering" }
-  - { slug: "ami", term: "AMI" }
-  - { slug: "mdms", term: "MDMS" }
-  - { slug: "tod-tariff", term: "Time-of-Day Tariff" }
-  - { slug: "prepaid-meter", term: "Prepaid Meter" }
   - { slug: "discom", term: "DISCOM" }
-  - { slug: "rdss", term: "RDSS" }
-  - { slug: "demand-response", term: "Demand Response" }
-  - { slug: "dlms-cosem", term: "DLMS/COSEM" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "ev-charger", term: "EV Charger" }
 faqs:
   - q: "What is a smart meter in simple words?"

@@ -63,7 +63,7 @@ The UAE combines high irradiance, low soft costs, and a regulatory environment t
 | DEWA Shams Dubai | Dubai | 1 MW per plot | Consumer's own slab rate | Indefinite rollover |
 | ADDC / AADC | Abu Dhabi, Al Ain | 5 MW per premises | kWh offset, no cash payment | Indefinite accumulation |
 | EtihadWE | Ajman, UAQ, RAK, Fujairah | Aggregate cap, first-come | Calendar-year kWh credits | Expires at year-end |
-| SEWA | Sharjah | No published programme | Not established | Not applicable |
+| SEWA | Sharjah | No published programme | No published mechanism | Not applicable |
 
 > **What most UAE quotes get wrong.** They apply one export assumption emirate-wide. In Dubai, where credits roll over indefinitely at the consumer's slab rate, a slightly oversized array is defensible. Under EtihadWE, where credits expire annually, the same oversizing throws away energy every December. Same hardware, opposite recommendation, one border apart.
 

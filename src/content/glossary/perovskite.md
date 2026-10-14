@@ -30,7 +30,6 @@ relatedTerms:
   - { slug: "back-sheet", term: "Back Sheet" }
   - { slug: "n-type-silicon", term: "N-Type Silicon" }
   - { slug: "stc", term: "STC" }
-  - { slug: "thin-film", term: "Thin Film" }
   - { slug: "bifacial-module", term: "Bifacial Module" }
 faqs:
   - q: "What is perovskite in simple words?"

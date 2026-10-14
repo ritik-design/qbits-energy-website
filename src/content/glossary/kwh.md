@@ -28,10 +28,8 @@ relatedTerms:
   - { slug: "smart-meter", term: "Smart Meter" }
   - { slug: "tariff", term: "Tariff" }
   - { slug: "net-metering", term: "Net Metering" }
-  - { slug: "tod-tariff", term: "ToD Tariff" }
   - { slug: "peak-sun-hours", term: "Peak Sun Hours" }
   - { slug: "cuf", term: "CUF" }
-  - { slug: "energy-meter", term: "Energy Meter" }
   - { slug: "ppa", term: "Power Purchase Agreement" }
   - { slug: "pm-surya-ghar", term: "PM Surya Ghar" }
 faqs:

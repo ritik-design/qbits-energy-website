@@ -128,7 +128,7 @@ Official datasheets are strong evidence for model specifications. They are weak 
 - the final installed price on an equal commercial scope;
 - acceptance for your current scheme, state or DISCOM process.
 
-Qbits has the same evidence boundary as its competitors. Its public datasheets describe an expandable warranty but do not establish a universal base term, remedy, registration deadline or exclusions. Request the current written terms for the exact quoted model.
+Qbits is in the same position as its competitors on warranty. Its public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline or exclusions. Request the current written terms for the exact quoted model.
 
 ## Compare hybrid inverters on hybrid dimensions
 

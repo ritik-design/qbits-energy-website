@@ -48,7 +48,7 @@ Get the solar system design right, and a cold storage facility sees some of the 
 > - A single-phase inverter cannot serve a cold storage facility; compressors, fans, and pumps all run on 3-phase motors.
 > - A 50 kW system typically pays back in about 4 years, saving roughly ₹7.5 Lakh a year in electricity for a ₹30 Lakh investment.
 
-> **Direct answer.** A 40 kW cold storage facility in India requires a 30–50 kW 3-phase solar system, with the inverter specified for THD < 5%, high surge capacity (6–8× nameplate for DOL-start compressors), and VFD compatibility. Battery backup is strongly recommended for facilities in power-cut zones. Use the Cold Storage Solar Sizing Protocol in this guide to design correctly from the first day.
+> **Direct answer.** A 40 kW cold storage facility in India requires a 30–50 kW 3-phase solar system (the [30-40 kW QB KTLC-Pro three-phase inverter](/our-products/QB-30-40KTLC-Pro/) covers part of that range), with the inverter specified for THD < 5%, high surge capacity (6–8× nameplate for DOL-start compressors), and VFD compatibility. Battery backup is strongly recommended for facilities in power-cut zones. Use the Cold Storage Solar Sizing Protocol in this guide to design correctly from the first day.
 
 This guide covers cold storage load analysis, compressor surge handling, THD requirements, VFD compatibility, battery backup sizing, and the specific inverter specifications needed for a reliable cold storage solar installation.
 

@@ -178,9 +178,9 @@ One correction worth carrying into vendor conversations. Inverters do not need A
 
 ## On-grid against hybrid at 3 kW, and the battery problem
 
-An **on-grid** system exports to the utility and uses net metering to offset imports. It gives you no power during an outage, because anti-islanding protection deliberately shuts the inverter down to protect line workers. That is a safety requirement rather than a product limitation.
+An **[on-grid](/on-grid-inverter/)** system exports to the utility and uses net metering to offset imports. It gives you no power during an outage, because anti-islanding protection deliberately shuts the inverter down to protect line workers. That is a safety requirement rather than a product limitation.
 
-A **hybrid** system adds a battery and dedicated backup circuits. At 3 kW the battery becomes the dominant cost driver above the array, and it can approach or exceed the combined cost of the inverter, structure, and cabling. That is an industry-observed pattern, not a quoted figure.
+A **hybrid** system adds a battery and dedicated backup circuits; see our [hybrid models if you need backup](/hybrid-inverter/). At 3 kW the battery becomes the dominant cost driver above the array, and it can approach or exceed the combined cost of the inverter, structure, and cabling. That is an industry-observed pattern, not a quoted figure.
 
 | Consideration | On-grid at 3 kW | Hybrid at 3 kW |
 | --- | --- | --- |
@@ -192,7 +192,7 @@ A **hybrid** system adds a battery and dedicated backup circuits. At 3 kW the ba
 
 The energy budget is the honest test. A 3 kW array producing roughly 10.1 kWh on a good day has to serve daytime loads, export, and battery charging from the same pool. Size the backup around the loads you genuinely need during a cut, then check whether 3 kW can refill that store on a cloudy day.
 
-The [on-grid, hybrid, and off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) works through the architecture choice, and the [3 kW inverter buyer guide](/blog/best-3kw-solar-inverter-india-2026/) covers the inverter-side specifications once you have picked a topology.
+The [on-grid, hybrid, and off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) works through the architecture choice, and the [3 kW inverter buyer guide](/blog/best-3kw-solar-inverter-india-2026/) covers the inverter-side specifications once you have picked a topology; for a single-phase unit, see our [QB 3.0KTLS single-phase on-grid inverter](/our-products/QB-1.5-4.0KTLS/).
 
 ## The myth that 3 kW is the best value per kilowatt
 

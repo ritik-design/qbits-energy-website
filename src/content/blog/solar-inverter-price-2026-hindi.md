@@ -41,7 +41,7 @@ language: hi
 Solar inverter खरीदते समय price सबसे पहला question होता है - और सबसे confusing भी। इसलिए: ₹5,000 का inverter भी मिलता है, ₹80,000 का भी। Difference क्या है? कौन सा लेना चाहिए? इस guide में 2026 के realistic price ranges हैं, brand comparison है, और hidden costs की list है जो vendor quote में mention नहीं होती।
 
 > **TL;DR**
-> - 3 kW on-grid inverter ₹15,000-₹35,000 में मिलता है; 5 kW hybrid ₹45,000-₹80,000 में, brand tier के हिसाब से।
+> - 3 kW [on-grid inverter](/on-grid-inverter/) ₹15,000-₹35,000 में मिलता है; 5 kW hybrid ₹45,000-₹80,000 में, brand tier के हिसाब से।
 > - Full 3 kW system (panels + inverter + installation) [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy ₹78,000 के बाद net ₹72,000-₹1.07 lakh पड़ता है।
 > - Hidden costs (earthing, conduit, net metering fee) typically ₹10,000-₹25,000 अलग से आते हैं - "all-inclusive" quote माँगें।
 

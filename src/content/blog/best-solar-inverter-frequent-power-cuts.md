@@ -90,7 +90,7 @@ The public sheet says lithium or lead-acid, but that category label is not an ap
 
 ## Qbits has useful backup numbers and a transfer-document gap
 
-The current Qbits catalogue names QBH-5KS48P and publishes 5,000 W rated off-grid apparent output, more than 200% maximum off-grid apparent output for 15 seconds, a 48 V rated battery input, and 120 A maximum charge or discharge current. It also publishes two MPPTs at 18 A per tracker and IP66.
+The current Qbits catalogue names [QBH-5KS48P](/our-products/QBH-3-6KS48P/) and publishes 5,000 W rated off-grid apparent output, more than 200% maximum off-grid apparent output for 15 seconds, a 48 V rated battery input, and 120 A maximum charge or discharge current. It also publishes two MPPTs at 18 A per tracker and IP66.
 
 The transfer line is not publication-ready evidence for interruption-sensitive loads. It reads: "Switching as uninterruptible power supply within 10 seconds." Ten seconds is materially different from ten milliseconds. The wording may be a unit or translation error, but an editor cannot correct a manufacturer document by assumption.
 

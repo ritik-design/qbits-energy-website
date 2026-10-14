@@ -57,7 +57,7 @@ Solar inverter बंद हो जाए तो panic न करें। ज�
 
 **Check 1, Grid Power है?**
 - अपने घर का कोई switch on करें - grid power से कुछ चल रहा है?
-- On-grid solar inverter power cut में automatically बंद होता है - यह normal behavior है
+- [On-grid solar inverter](/on-grid-inverter/) power cut में automatically बंद होता है - यह normal behavior है
 - Power cut में बंद inverter = no problem, कुछ नहीं करना
 
 **Check 2, Display पर कुछ है?**

@@ -146,7 +146,7 @@ Choose 8 kW when the modeled energy target and connection support it. Do not sel
 
 ## 10 kW: more capacity is useful only when the system can use it
 
-QB-10KTLC publishes 10,000 W rated output, 15,000 W maximum DC input, 11 kVA maximum apparent output, and the same two-tracker, one-string-per-tracker architecture as QB-8KTLC. It is also a 400 V three-phase product.
+[QB-10KTLC](/our-products/QB-6-17KTLC/) publishes 10,000 W rated output, 15,000 W maximum DC input, 11 kVA maximum apparent output, and the same two-tracker, one-string-per-tracker architecture as QB-8KTLC. It is also a 400 V three-phase product.
 
 The additional AC capacity can reduce clipping for a suitably larger array. It does not produce extra energy from the same small array, create more roof area, increase export permission, or provide outage backup.
 

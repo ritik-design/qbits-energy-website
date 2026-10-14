@@ -39,7 +39,7 @@ EPCs and solar installation companies in India lose thousands of rupees per proj
 
 ## 1. [DC Oversizing](/glossary/dc-oversizing/) Capability
 
-Defines max panel capacity beyond rated AC output. Quality inverters support **100–150% oversizing**: enabling future expansion and optimal energy harvest with modern 750W+ panels. For the full sizing methodology, see [solar inverter sizing: 12 critical questions](/blog/solar-inverter-sizing/).
+Defines max panel capacity beyond rated AC output. Quality inverters support **100–150% oversizing**: enabling future expansion and optimal energy harvest with modern 750W+ panels. For the full sizing methodology, see [solar inverter sizing: 12 critical questions](/blog/solar-inverter-sizing/). For the voltage window, use the [string sizing calculator](/string-sizing-calculator/).
 
 ## 2. Start-Up Voltage and Low-Light Performance
 
@@ -178,7 +178,7 @@ Comparing these 15 parameters across multiple brands by hand is tedious at scale
 
 ## How to verify a Qbits specification
 
-Use the current datasheet for the exact model. Qbits' published datasheets show model-specific values for maximum efficiency, PV input, MPPT layout, operating range, communications and enclosure rating. They do not state one universal DC-oversizing allowance, component origin, monitoring service, test count, certificate set or warranty term across the range.
+Use the current datasheet for the exact model. [Qbits' published datasheets](/download-datasheets/) show model-specific values for maximum efficiency, PV input, MPPT layout, operating range, communications and enclosure rating. They do not state one universal DC-oversizing allowance, component origin, monitoring service, test count, certificate set or warranty term across the range.
 
 Request the current certificate, installation manual, monitoring scope and written warranty for the quoted SKU. If any of these items is not available, record it as an open question to resolve before you order.
 

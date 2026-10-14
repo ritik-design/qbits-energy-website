@@ -78,7 +78,7 @@ SPDs use voltage-limiting components, most commonly metal oxide varistors (MOVs)
 > - Replace an SPD immediately when its indicator shows end-of-life, and budget for replacement every 5 to 10 years in lightning-prone regions even without a visible trigger.
 > - SPD cost (a few thousand rupees) is negligible next to the inverter and module investment it protects.
 
-For Indian solar installations, CEA Measures Relating to Safety and IS 17387 require SPD on both the DC side (between PV modules and inverter) and the AC side (between inverter and grid). Indian thunderstorm activity makes SPD non-optional for plant longevity, a risk our [surge protection buyer's guide](/blog/how-to-choose-solar-inverters-with-surge-protection/) covers in more depth.
+For Indian solar installations, CEA Measures Relating to Safety and IS 17387 require SPD on both the [DC side (between PV modules and inverter)](/blog/solar-inverter-wiring-diagram/) and the AC side (between inverter and grid). Indian thunderstorm activity makes SPD non-optional for plant longevity, a risk our [surge protection buyer's guide](/blog/how-to-choose-solar-inverters-with-surge-protection/) covers in more depth.
 
 ## Why SPDs matter
 

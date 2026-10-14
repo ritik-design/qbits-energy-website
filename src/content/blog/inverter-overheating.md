@@ -28,7 +28,7 @@ faqs:
   a: Improvised cooling inside the enclosure is unsafe and is not a fix. External shading and correcting the clearances specified in the installation manual are legitimate. If the unit still derates heavily in mild conditions, the problem is more likely placement, a fan fault or a sensor issue, and it needs a service inspection.
 - q: Does overheating shorten inverter life?
   a: Sustained high internal temperature is one of the recognised ageing mechanisms for power electronics, particularly for electrolytic capacitors. This is the engineering reason manufacturers specify clearances and derating curves. Running a unit inside its rated envelope is the practical way to avoid accelerating that wear.
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 relatedSlugs:
 - solar-inverter-low-output-causes-india
 - solar-inverter-error-codes-guide
@@ -80,6 +80,27 @@ Manufacturers publish an operating range and, separately, the point at which out
 
 The [Qbits single phase hybrid catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf) states an operating ambient range of minus 25 to 60 degrees C with derating above 45 degrees C for that family. That figure describes that family. It does not describe every Qbits series, and it certainly does not describe another manufacturer's unit.
 
+## Published operating temperature ranges by Qbits model
+
+The table lists the operating temperature range printed in each model's datasheet, as transcribed in the Qbits product specification. A blank derating column means the datasheet does not state a derating point, not that none exists. Check the installation manual for the curve.
+
+| Model family | Operating temperature range | Derating point stated |
+| --- | --- | --- |
+| QB 1.5 to 4.0 kW TLS | -25 to +60 degrees C | Not stated in the specification |
+| QB 4.2 to 6 kW TLS | -25 to +60 degrees C | Not stated in the specification |
+| QB 4/5/6 kW TLD | -25 to +60 degrees C | Not stated in the specification |
+| QB 5 to 17 kW TLC | -25 to +60 degrees C | Not stated in the specification |
+| QB 20 to 30 kW TLC | -25 to +60 degrees C | Not stated in the specification |
+| QB 30 to 40 kW TLC-Pro | -25 to +60 degrees C | Not stated in the specification |
+| QB 40 to 50 kW TLC-Plus | -25 to +60 degrees C | Not stated in the specification |
+| QB 50 and 60 kW TLC | -25 to +60 degrees C | Not stated in the specification |
+| QB 70 to 110 kW TLC-Pro | -25 to +60 degrees C | Not stated in the specification |
+| QB 80 to 125 kW TLC | -25 to +60 degrees C | Not stated in the specification |
+| QB 225 and 320 kW EHV | -30 to +60 degrees C | Not stated in the specification |
+| QBH 3 to 8 kW single-phase and 5 to 12 kW three-phase hybrid | -25 to +60 degrees C | Derating above 45 degrees C |
+
+Read the table with care. An operating range is the span in which the unit is specified to work, and output may be reduced well before the upper end. The range is also an ambient figure, so it says nothing about how hot the enclosure gets in direct sun. The model-level datasheets are in the [datasheet library](/download-datasheets/), and the families are described on the [on-grid inverter](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) pages.
+
 Two practical consequences follow.
 
 First, a number you read in a forum post or a competitor's marketing sheet is not a specification for your equipment. Check your own manual.
@@ -121,6 +142,10 @@ Placement is fixed at installation and expensive to change afterwards, which is 
 
 A shade structure that blocks direct sun while leaving the airflow path fully open is usually the single most effective retrofit for a unit that derates harder than expected.
 
+## What a temperature fault looks like on the display
+
+When internal temperature crosses the protection limit, most inverters show a temperature message and reduce power or stop. The label differs by manufacturer. The Growatt MIN 7000TL-X2 to 10000TL-X2 manual lists "Error: 408, Over Temperature" and tells the user to restart if the ambient temperature is under a stated limit and to contact the manufacturer if the message stays. The Solis 4G single-phase manual lists "OV-TEM, Over Temperature" and suggests checking the ventilation around the inverter and whether direct sunshine is falling on it in hot weather. Those two examples show the pattern. They are not Qbits codes. For Qbits equipment, use the fault list in the manual for your exact model, and read the [error codes guide](/blog/solar-inverter-error-codes-guide/) to group a message when you do not have it.
+
 ## When it is a genuine fault
 
 Escalate to qualified service, rather than continuing to investigate yourself, when any of the following appear.
@@ -145,4 +170,4 @@ A good service request answers the questions the engineer would otherwise have t
 - Photographs of the installation location showing orientation, clearances and surroundings.
 - Observed output figures alongside the conditions at the time.
 
-The [datasheet library](/download-datasheets/) helps you identify the correct product family and its published limits, and [contact Qbits](/contact-us/) routes a model specific question to the right team.
+The [datasheet library](/download-datasheets/) helps you identify the correct product family and its published limits. Raise the request on the [Qbits support helpdesk](https://support.qbitsenergy.com/helpdesk/qbits-service-620){target="_blank" rel="noopener"}, and use the [authorized service partners directory](/authorized-service-partners/) to find a partner near you. Confirm scope and any charges with the partner before work starts.

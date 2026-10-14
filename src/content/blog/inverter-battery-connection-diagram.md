@@ -4,7 +4,7 @@ excerpt: 'Inverter battery connection diagram explained: series vs parallel, 48 
 description: "How batteries connect to a hybrid solar inverter: 48 V DC bus, CAN and RS485 BMS links, series and parallel banks, cable and fuse sizing, mistakes."
 category: Technical
 date: 2026-07-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: 13 min
 image: "/og/blog-inverter-battery-connection-diagram.webp"
 author: Keyur Rakholiya
@@ -46,6 +46,8 @@ relatedSlugs:
 Most people searching for an inverter battery connection diagram want one picture that solves the whole job. That picture does not exist. The correct wiring depends on your bank voltage, your battery chemistry, your cable run length, and the current limits printed in your inverter manual. Change one of those and the conductor size, the protective device, and sometimes the topology change with it.
 
 What does transfer is the topology. Every inverter battery connection has two paths. The **DC power path** carries full load current through protection and heavy conductors. The **BMS data path** is a low-voltage communication cable on its own protocol and pinout. Confusing the two causes most commissioning failures on lithium banks.
+
+This guide covers the battery side of a hybrid system only. For the on-grid picture, with PV strings running to the inverter and the inverter to the meter, read the [solar inverter wiring diagram guide](/blog/solar-inverter-wiring-diagram/).
 
 Below: the series and parallel arithmetic, why 48 V banks replaced 12 V and 24 V, the connection order, protection placement, a cable sizing calculation with the formula shown, earthing, CAN bus wiring, and the mistakes that kill hardware.
 
@@ -166,9 +168,31 @@ A = (2 × L × I × resistivity) ÷ allowed drop = (2 × 3 × 115.7 × 0.0172) �
 
 **Step 4, pick the standard size.** 25 mm² passes the nominal case and fails the worst case, so 35 mm² is the practical selection.
 
-**Step 5, size the protective device.** A common basis is 1.25 times continuous current: 115.7 × 1.25 = 144.6 A, so 150 A or 160 A is the nearest standard rating above. It must sit below the derated ampacity of the cable.
+**Step 5, size the protective device.** A common basis is 1.25 times continuous current: 115.7 × 1.25 = 144.6 A, so 150 A or 160 A is the nearest standard rating above. It must sit below the derated ampacity of the cable. The 1.25 factor is the continuous-load convention of the US National Electrical Code, explained for solar circuits by [Mayfield Renewables](https://www.mayfield.energy/technical-articles/how-to-calculate-wire-size-amp-nec-690-8-b/). Indian practice follows IS 732 and the manufacturer's instructions, so treat 1.25 as a starting point, not a rule that overrides the battery and inverter manuals.
 
 This does not settle ampacity at your ambient temperature, derating for grouping and conduit, terminal ratings, or prospective fault current. Those come from IS 732:2019, the Code of Practice for Electrical Wiring Installations, Bureau of Indian Standards (2019).
+
+## Battery current limits of the Qbits QBH hybrids, and what they imply for cable
+
+The worked example above started from a 5 kW load. A second way in is to start from the maximum charge and discharge current printed in the inverter datasheet. All QBH models print 48 V as the rated battery voltage and a maximum charging voltage of 60 V or less, configurable. The currents below are from the Qbits datasheets for the [3 to 6 kW](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf), [7 to 8 kW](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-2.pdf) and [three-phase](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-3.pdf) families, as printed in October 2026. The cable column reuses the method above at 3 m one way, 1% of 48 V drop and copper at 0.0172 ohm mm² per m.
+
+| QBH model | Rated battery voltage | Max charge/discharge current | Conductor area for 1% drop over 3 m | Next standard size up | 1.25 × current |
+| --- | --- | --- | --- | --- | --- |
+| QBH-3KS48P | 48 V | 75 A | 16.1 mm² | 25 mm² | 93.8 A |
+| QBH-3K6S48P | 48 V | 90 A | 19.4 mm² | 25 mm² | 112.5 A |
+| QBH-4KS48P | 48 V | 100 A | 21.5 mm² | 25 mm² | 125.0 A |
+| QBH-4K6S48P | 48 V | 110 A | 23.7 mm² | 25 mm² | 137.5 A |
+| QBH-5KS48P, QBH-6KS48P | 48 V | 120 A | 25.8 mm² | 35 mm² | 150.0 A |
+| QBH-7KS48P | 48 V | 175 A | 37.6 mm² | 50 mm² | 218.8 A |
+| QBH-7K6S48P, QBH-8KS48P | 48 V | 190 A | 40.9 mm² | 50 mm² | 237.5 A |
+| QBH-5KS48P3 | 48 V | 120 A | 25.8 mm² | 35 mm² | 150.0 A |
+| QBH-6KS48P3 | 48 V | 125 A | 26.9 mm² | 35 mm² | 156.3 A |
+| QBH-7KS48P3 | 48 V | 150 A | 32.2 mm² | 35 mm² | 187.5 A |
+| QBH-8KS48P3 | 48 V | 190 A | 40.9 mm² | 50 mm² | 237.5 A |
+| QBH-10KS48P3 | 48 V | 210 A | 45.2 mm² | 50 mm² | 262.5 A |
+| QBH-12KS48P3 | 48 V | 250 A | 53.8 mm² | 70 mm² | 312.5 A |
+
+Read the table as an upper bound, not a design. It assumes the inverter runs at its full battery current, which most homes never do. The real limit is the lower of the inverter figure and the battery's own maximum, so a battery rated below the inverter figure sets the current you size for. Ampacity at your ambient temperature, grouping, terminal ratings and prospective fault current still come from IS 732:2019 and the manuals. The "next standard size" column rounds to the usual metric series of 25, 35, 50 and 70 mm².
 
 ## Earthing and bonding the battery circuit
 
@@ -238,7 +262,7 @@ A lithium bank compounds it. Internal resistance is low, so short-circuit curren
 
 Electrical installation work in India falls under the Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023, and licensing sits with the state electrical inspectorate. Rules vary by state and by DISCOM. Engage a licensed electrician who works to the manufacturer instructions and hands over test records.
 
-One note on the AC side. The Qbits single-phase hybrid catalogue states "UPS switching within 10 seconds". Take that phrasing as written and check it against your backup loads.
+One note on the AC side. The Qbits single-phase hybrid datasheet prints "Switching as uninterruptible power supply within 10 seconds". Take that phrasing as written and check it against your backup loads.
 
 ## The Bottom Line
 

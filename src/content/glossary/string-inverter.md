@@ -77,7 +77,7 @@ A string inverter is a centralised [solar inverter](/glossary/solar-inverter/) t
 > - ALMM listing and BIS certification under IS 16221/IS 17387 are mandatory for subsidy eligibility and DISCOM commissioning.
 > - Typical lifespan is 10–15 years, with capacitors and fans wearing first.
 
-It is the most common inverter topology in Indian solar. Residential rooftops use single-phase string inverters in the 1 to 10 kW range. Commercial and industrial sites use three-phase string inverters from 10 to 100 kW. Utility-scale plants increasingly use 200 to 350 kW string inverters distributed across the field instead of central 1 MW units.
+It is the most common inverter topology in Indian solar. Residential rooftops use single-phase string inverters in the 1 to 10 kW range. Commercial and industrial sites use [three-phase string inverters](/blog/3-phase-solar-inverter/) from 10 to 100 kW. Utility-scale plants increasingly use 200 to 350 kW string inverters distributed across the field instead of central 1 MW units.
 
 The defining trade-off is granularity. A string inverter optimises a string, not a panel. When the string is uniform in orientation, tilt and shading, the string inverter delivers near-microinverter yield at a fraction of the cost. When mismatched, the weakest panel drags the string down.
 

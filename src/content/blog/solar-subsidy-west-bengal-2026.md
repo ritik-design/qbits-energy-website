@@ -4,7 +4,7 @@ excerpt: Solar subsidy in West Bengal 2026, verified PM Surya Ghar slabs, the WB
 description: "West Bengal solar subsidy 2026: PM Surya Ghar central assistance (MNRE slabs), WBSEDCL net metering, eligibility, documents and application steps."
 category: Policy
 date: 2026-06-05
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: 13 min
 image: "/og/blog-solar-subsidy-west-bengal-2026.webp"
 author: Akash Hirapara
@@ -20,13 +20,13 @@ faqs:
 - q: How much central assistance can a 3 kWp West Bengal home receive?
   a: Under the MNRE operational guidelines for PM Surya Ghar (2024), central financial assistance is ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third kWp. That works out to ₹78,000 for a 3 kWp system. No additional central assistance is paid above 3 kWp, so a 6 kWp system also receives ₹78,000. The amount is subject to eligibility, DISCOM inspection, and approval, and it is never guaranteed in advance.
 - q: Can I get net metering in West Bengal for a 5 kW rooftop system?
-  a: WBSEDCL PROCEDURES-C (2021) allows net metering for non-agricultural consumers with sanctioned load or contract demand up to 5 kW. Above that threshold, non-agricultural consumers are placed under a net billing arrangement instead. All agricultural consumers may avail net metering regardless of load. The threshold is set by the WBERC renewable energy regulations as amended, so confirm the current position with WBSEDCL before you size the array.
+  a: Under WBSEDCL PROCEDURES-C (2021), non-agricultural consumers with sanctioned load or contract demand up to 5 kW could take net metering, and larger loads were placed on net billing. In 2025 WBERC notified its Grid Interactive Rooftop Solar Photovoltaic System for Prosumers Regulations, which trade press (Energetica India, Mercom) reports let prosumers choose net metering, net billing or gross metering, with capacity capped at sanctioned load or contract demand. We could not read the final regulation text, so ask WBSEDCL or CESC in writing which arrangement applies to your connection and capacity before you size the array.
 - q: Which DISCOM applies to me in West Bengal?
   a: Use the utility name printed on your electricity bill rather than your postal address. WBSEDCL serves most of the state, while CESC Limited is the licensee for Kolkata and adjoining areas. India Power operates in the Asansol area and Durgapur Projects Limited is a deemed licensee in the Durgapur industrial area. Each licensee runs its own connection procedure, so forms and timelines from one do not apply to another.
 - q: What does WBSEDCL charge to apply for a solar connection?
-  a: WBSEDCL PROCEDURES-C (2021) sets an application fee of ₹500 plus GST for LV and MV consumers and ₹2,000 plus GST for HV and EHV consumers. The procedure exempts government-funded projects and projects under different schemes from the application fee. It also lists a testing fee of ₹1,200 per solar generation meter procured by the consumer. Meter and modem costs are quoted separately by WBSEDCL and are borne by the consumer.
+  a: WBSEDCL PROCEDURES-C (2021) set an application fee of ₹500 plus GST for LV and MV consumers and ₹2,000 plus GST for HV and EHV consumers, with a testing fee of ₹1,200 per generation meter procured by the consumer. Trade press on the 2025 WBERC prosumer regulations reports a fee of ₹1,000 for low and medium voltage connections and ₹5,000 for high and extra high voltage. Confirm the figure on your licensee's current fee schedule, because the 2021 procedure may have been replaced. Meter and modem costs are quoted separately and are borne by the consumer.
 - q: How long does the West Bengal process take end to end?
-  a: WBSEDCL PROCEDURES-C (2021) allows 20 days for the technical feasibility inspection, 90 days for you to pay the quotation, and 180 days for you to complete installation after go-ahead clearance. Connectivity inspection follows within 10 days of your work completion report, and meter installation with grid synchronisation within 15 days after that. MNRE then processes the central assistance within 15 days of DISCOM approval. These are outer limits in the procedure, not a service promise for any individual application.
+  a: WBSEDCL PROCEDURES-C (2021) allowed 20 days for the technical feasibility inspection, 90 days for you to pay the quotation, and 180 days for you to complete installation after go-ahead clearance. Connectivity inspection followed within 10 days of your work completion report, and meter installation with grid synchronisation within 15 days after that. The central Electricity (Rights of Consumers) Rules, as amended in February 2024, removed the feasibility study for rooftop systems up to 10 kW, and the 2025 WBERC regulations are reported to do the same. MNRE then processes the central assistance within 15 days of DISCOM approval. These are outer limits, not a service promise for any individual application.
 - q: Do I have to use an empanelled vendor?
   a: Yes for the central assistance. MNRE guidelines (2024) state the scheme is implemented only through vendors registered on the National Portal, so choosing an unregistered installer forfeits the subsidy. WBSEDCL separately publishes an empanelled vendor list for its rooftop solar programme. Registered vendors must also provide a 5-year comprehensive maintenance contract from the date of commissioning. Verify the vendor on the portal itself, not from a brochure.
 - q: Are non-DCR solar modules allowed if I want the subsidy?
@@ -41,17 +41,19 @@ relatedSlugs:
 
 Most pages about solar subsidy in West Bengal repeat the same three numbers and stop. The useful questions sit underneath those numbers. Does West Bengal actually add state money on top of the central assistance, and can you find the order that says so? Which metering arrangement will your utility give you, and at what sanctioned load does it change? How long does WBSEDCL have to inspect, quote, and synchronise? Two of the answers contradict what the national guides tell you, and one of them decides whether your export credits are worth anything.
 
-This guide answers them from primary documents, then covers eligibility, documents, timings, a worked example, and why applications stall here. The central slabs come from the MNRE operational guidelines for PM Surya Ghar. The West Bengal process, the metering threshold, the fees, and the statutory timelines come from WBSEDCL PROCEDURES-C (2021), framed under the WBERC renewable energy regulations. Where a figure circulates without an official source behind it, this guide says so instead of repeating it.
+This guide answers them from primary documents, then covers eligibility, documents, timings, a worked example, and why applications stall here. The central slabs come from the [MNRE operational guidelines for PM Surya Ghar](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/). The WBSEDCL process comes from its [WBSEDCL PROCEDURES-C (2021) document](https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Solar/Procedure-C.pdf), and the state regulator, WBERC, has since notified newer prosumer regulations that may change parts of it. Where a figure circulates without an official source behind it, this guide says so instead of repeating it.
+
+**Checked on 14 October 2026.** We read MNRE's guideline text and WBSEDCL's Procedure-C PDF directly. We could not open pmsuryaghar.gov.in, and we could not read the final WBERC 2025 regulation text, so those points rest on trade-press summaries and are labelled that way.
 
 > **TL;DR**
 > - Central assistance is ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third, capped at ₹78,000, per MNRE operational guidelines (2024).
 > - A West Bengal state top-up of ₹5,000, ₹10,000, and ₹15,000 by slab was announced in July 2026 and reported by trade press, but no official state notification could be located.
-> - WBSEDCL PROCEDURES-C (2021) allows net metering only for non-agricultural consumers with sanctioned load up to 5 kW. Above 5 kW, non-agricultural consumers get net billing.
+> - WBSEDCL PROCEDURES-C (2021) allowed net metering only up to 5 kW of sanctioned load for non-agricultural consumers. WBERC's 2025 prosumer regulations are reported to let prosumers choose net metering, net billing or gross metering, so confirm which rule your utility applies.
 > - Installed capacity must be at least 1 kWp and must not exceed your contract demand or sanctioned load, except for government-funded or scheme projects.
-> - WBSEDCL has 20 days for the feasibility inspection, and you get 180 days from go-ahead clearance to install.
+> - Rooftop systems up to 10 kW need no technical feasibility study under the central Rules as amended in February 2024. Above 10 kW, the study clock is 15 days. Installation windows are 180 days under Procedure-C (2021).
 > - Domestic Content Requirement modules are mandatory. Non-DCR equipment makes the installation ineligible, per MNRE (2024).
 
-**Short version.** Eligible West Bengal homes receive central assistance of ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third kWp, capped at ₹78,000, under MNRE PM Surya Ghar guidelines (2024). A state top-up was announced in July 2026 but no official notification is publicly traceable. Apply on the national portal, then follow WBSEDCL PROCEDURES-C (2021) for feasibility, metering, and synchronisation.
+**Short version.** Eligible West Bengal homes receive central assistance of ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third kWp, capped at ₹78,000, under MNRE PM Surya Ghar guidelines (2024). A state top-up was announced in July 2026 but no official notification is publicly traceable. Apply on the national portal, then follow your licensee's current procedure for feasibility, metering, and synchronisation.
 
 ## What the central subsidy pays in West Bengal
 
@@ -76,7 +78,7 @@ This is where competing pages guess, so here is the verified position. MNRE guid
 
 West Bengal launched PM Surya Ghar at the state secretariat in July 2026 and announced additional state assistance. Reported amounts are ₹5,000 above the central ₹30,000, ₹10,000 above ₹60,000, and ₹15,000 above ₹78,000, according to Energetica India (2026). The state set a target of 5 lakh households by March 2027 against a central target of 1 lakh.
 
-We could not locate the underlying order on any West Bengal government domain, and WBSEDCL's published subsidy pages do not carry those amounts. Figures for the Scheduled Caste and Scheduled Tribe grant conflict too. The 2026-27 state Budget announced ₹5,000 for SC and ST beneficiaries alongside a ₹100 crore rooftop allocation, according to Energetica India (2026), while later coverage reported ₹15,000.
+We could not locate the underlying order on any West Bengal government domain, and WBSEDCL's published subsidy pages do not carry those amounts. A second check on 14 October 2026 found installer guides that say there is no separate state top-up for homes, and no official source that confirms one. Figures for the Scheduled Caste and Scheduled Tribe grant conflict too. The 2026-27 state Budget announced ₹5,000 for SC and ST beneficiaries alongside a ₹100 crore rooftop allocation, according to Energetica India (2026), while later coverage reported ₹15,000.
 
 So the accurate statement is this. A residential state top-up has been announced but is not documented in any official notification we could verify. One West Bengal state subsidy is documented: under KUSUM-C for agricultural consumers, WBSEDCL states 30% comes from the state and 30% from the centre. Different scheme, different consumer class.
 
@@ -95,7 +97,7 @@ Everything below is the WBSEDCL route. If your bill names another licensee, ask 
 
 ## The WBSEDCL application and feasibility route
 
-WBSEDCL PROCEDURES-C (2021) is the approved connection procedure for solar PV under net metering and net billing. It was framed under regulation 16.9 of the WBERC renewable energy regulations as amended, and states an effective date of 1 January 2022. Work through it in order.
+WBSEDCL PROCEDURES-C (2021) is the connection procedure WBSEDCL published for solar PV under net metering and net billing. It was framed under regulation 16.9 of the WBERC renewable energy regulations as amended, and states an effective date of 1 January 2022. WBERC's 2025 prosumer regulations require licensees to publish updated procedures and an online portal, so check WBSEDCL's [solar process page](https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Solar/Process%20Flow%20for%20SPV%20Connection.pdf) for the version in force. The steps below follow the 2021 procedure as the last version we could read in full.
 
 1. Register on the national PM Surya Ghar portal with the consumer account number exactly as printed on your bill, and pick a vendor registered on the portal.
 2. Submit Form S1 in duplicate to WBSEDCL, online or at the office that issues your energy bill, with the ₹500 plus GST application fee for LV and MV consumers.
@@ -107,11 +109,11 @@ WBSEDCL PROCEDURES-C (2021) is the approved connection procedure for solar PV un
 
 One clause catches people out. Cumulative solar capacity on a feeder or distribution transformer cannot exceed 100% of that asset's capacity, allocated first come first serve. A neighbour's approval can therefore change your outcome. Our [net metering walkthrough](/blog/how-to-apply-net-metering-india/) covers the national stages.
 
-## Net metering or net billing, the 5 kW line
+## Net metering, net billing or gross metering: the 5 kW line and what replaced it
 
-This is the section most West Bengal pages get wrong, and it changes the economics more than the subsidy does. MNRE guidelines (2024) cite the Electricity (Rights of Consumers) Rules, 2020, under which applications up to 10 kW are deemed accepted without separate technical feasibility approval. Many national guides stop there and imply 10 kW net metering everywhere.
+This is the section most West Bengal pages get wrong, and it changes the economics more than the subsidy does. MNRE guidelines (2024) cite the Electricity (Rights of Consumers) Rules, 2020, under which applications up to 10 kW are deemed accepted without separate technical feasibility approval (the [PIB release on the February 2024 amendment](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2008289) explains the change). Many national guides stop there and imply 10 kW net metering everywhere.
 
-West Bengal does not work that way. WBSEDCL PROCEDURES-C (2021) states the position plainly.
+In West Bengal the metering choice is set by the state regulator, not by the Rules. WBSEDCL PROCEDURES-C (2021) stated the position this way.
 
 | Consumer and load | Arrangement |
 | --- | --- |
@@ -119,9 +121,13 @@ West Bengal does not work that way. WBSEDCL PROCEDURES-C (2021) states the posit
 | Non-agricultural, sanctioned load or contract demand above 5 kW | Net billing only |
 | Agricultural consumers, any load | Net metering may be availed |
 
-The procedure also caps installed capacity at your contract demand in kVA or sanctioned load in kW, exempting government-funded and scheme projects, and sets a floor of 1 kWp. So raising your sanctioned load to fit a bigger array can push you out of net metering at the same time. Energy accounting follows Schedule-1 of the WBERC regulations for net metering and Schedule-2 for net billing, which settle exports on different bases.
+The procedure also caps installed capacity at your contract demand in kVA or sanctioned load in kW, exempting government-funded and scheme projects, and sets a floor of 1 kWp.
 
-One more clause matters before you expand later. An existing net-metered consumer who adds capacity is assessed afresh for eligibility. The old arrangement does not carry over automatically. Compare the mechanics in our [net versus gross metering breakdown](/blog/gross-metering-vs-net-metering/).
+**What changed in 2025.** In August 2025 trade press ([Energetica India](https://www.energetica-india.net/news/wberc-issues-grid-interactive-rooftop-solar-pv-regulations-2025), [Mercom India](https://www.mercomindia.com/west-bengal-issues-rooftop-solar-regulations-for-prosumers)) reported that WBERC had notified the Grid Interactive Rooftop Solar Photovoltaic System for Prosumers Regulations, 2025. The summaries report these provisions: prosumers may choose net metering, net billing or gross metering; capacity is limited to the sanctioned load or contract demand; systems up to 10 kW are approved without a feasibility study; the application fee is ₹1,000 for low and medium voltage connections; and installation must be completed within 180 days, extendable by 90 days. These come from news reports, not the gazette text, and the 5 kW rule above may no longer be the operative test. WBERC publishes the regulations on [wberc.gov.in](https://www.wberc.gov.in/); ask WBSEDCL or CESC which arrangement they will give your connection and get the answer in writing.
+
+Under either rule, raising your sanctioned load to fit a bigger array can change the metering arrangement offered to you, so settle the load and the arrangement together. Energy accounting follows Schedule-1 of the WBERC regulations for net metering and Schedule-2 for net billing, which settle exports on different bases.
+
+One more clause matters before you expand later. Under Procedure-C (2021), an existing net-metered consumer who adds capacity is assessed afresh for eligibility. The old arrangement does not carry over automatically. Compare the mechanics in our [net versus gross metering breakdown](/blog/gross-metering-vs-net-metering/).
 
 ## Eligibility and excluded categories
 
@@ -144,7 +150,7 @@ On costs, Procedure-C lists the application fee, the net or consumer meter and m
 
 ## A realistic timeline, from the procedure itself
 
-Procedure-C sets outer limits for each stage. They are useful because a delay beyond them is a legitimate escalation, not a complaint about slow service. Track the dates yourself.
+Procedure-C (2021) set outer limits for each stage. They are useful because a delay beyond them is a legitimate escalation, not a complaint about slow service. Track the dates yourself. For rooftop systems up to 10 kW the feasibility inspection row may no longer apply, because the amended central Rules and the reported 2025 WBERC regulations remove the feasibility study at that size.
 
 | Stage | Limit under Procedure-C (2021) |
 | --- | --- |
@@ -156,7 +162,7 @@ Procedure-C sets outer limits for each stage. They are useful because a delay be
 | Copy of fitness certificate | 5 days from testing |
 | Meter installation and grid synchronisation | 15 days from successful connectivity inspection |
 
-MNRE (2024) then processes the assistance within 15 days of DISCOM approval, released through an e-token you redeem from your portal profile. Where you took a listed loan, the money goes to the loan account first. A household that moves quickly can reach synchronisation in roughly 2 to 4 months. Nobody can promise that for your application. Compare against our [approval timeline notes](/blog/net-meter-approval-timeline/).
+MNRE (2024) then processes the assistance within 15 days of DISCOM approval, released through an e-token you redeem from your portal profile. Where you took a listed loan, the money goes to the loan account first. Nobody can promise an elapsed time for your application. Compare against our [approval timeline notes](/blog/net-meter-approval-timeline/).
 
 ## The empanelled vendor requirement is not paperwork
 
@@ -182,7 +188,7 @@ Assumptions: a domestic WBSEDCL consumer, sanctioned load of 5 kW or less, a 3 k
 
 If the announced ₹15,000 top-up at this slab is live for your application and routed through the portal, the balance at benchmark falls to ₹52,000. Treat that line as conditional, because we could not verify the top-up from an official notification.
 
-Two cautions. The benchmark is an administrative reference, not a market price, and MNRE revises it at midterm review. Your actual quote is negotiated, so it can sit above or below ₹1,45,000, and the assistance does not move with it. State-by-state context is in our [all-states subsidy overview](/blog/solar-subsidy-2026-all-states/).
+Two cautions. The benchmark is an administrative reference, not a market price, and MNRE revises it at midterm review. Your actual quote is negotiated, so it can sit above or below ₹1,45,000, and the assistance does not move with it. State-by-state context is in our [all-states subsidy overview](/blog/solar-subsidy-all-states/).
 
 ## Common reasons West Bengal applications stall
 
@@ -201,7 +207,7 @@ Our [rejection reasons guide](/blog/pm-surya-ghar-rejection-reasons/) works thro
 
 Rules in West Bengal vary by licensee, consumer category, and sanctioned load, and they change. Nothing here is an approval or a slab amount promised to you. Build your budget on central assistance you can verify on the portal, and treat any state top-up as a bonus until your application shows it.
 
-Inverter selection sits inside this process too. Procedure-C requires an automatic inverter with a synchronisation device, anti-islanding detection, and harmonic distortion within CEA limits, so grid-code compliance is an approval condition. Qbits supplies solar inverters only, through dealers, and does not handle modules, installation, or subsidy claims.
+Inverter selection sits inside this process too. Procedure-C requires an automatic inverter with a synchronisation device, anti-islanding detection, and harmonic distortion within CEA limits, so grid-code compliance is an approval condition. Qbits is an inverter manufacturer and does not supply modules, install systems or file subsidy claims. Compare grid-tied options on the [on-grid inverter page](/on-grid-inverter/), look at the [hybrid inverter range](/hybrid-inverter/) if you want battery backup, and use the [service partner directory](/authorized-service-partners/) to see who supports Qbits inverters near you. Installers who want to supply them can use the [partner programme](/become-our-partner/).
 
 - Pull your bill, confirm the licensee and your sanctioned load, and check whether 5 kW puts you on net metering or net billing before sizing anything.
 - Ask any vendor for the state top-up notification by name and date, and refuse to net it off the quote until it appears on your portal application.

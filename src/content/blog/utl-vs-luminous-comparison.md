@@ -44,7 +44,7 @@ This comparison applies the **5-Pillar Indian Brand Evaluation** to score both b
 For broader context, see [the best Indian solar inverter brands guide](/blog/best-indian-solar-inverter-brands/) and [the made-in-India solar inverters 2026 roundup](/blog/made-in-india-solar-inverters-2026/).
 
 > **TL;DR**
-> - Luminous suits urban grid-tied homeowners who want net metering and PM Surya Ghar subsidy eligibility; UTL suits rural and semi-urban buyers who need reliable off-grid or hybrid backup.
+> - Luminous suits urban [grid-tied](/on-grid-inverter/) homeowners who want net metering and PM Surya Ghar subsidy eligibility; UTL suits rural and semi-urban buyers who need reliable off-grid or hybrid backup.
 > - UTL's standard warranty is just 1–2 years; Luminous offers 2–5 years, both fall well short of the 12-year benchmark serious buyers should expect.
 > - UTL has the deepest small-town dealer network in northern and eastern India (UP, Bihar, Jharkhand, Rajasthan, Odisha); Luminous leads in metro and Tier-1 service.
 > - A 3 kW UTL inverter costs ₹12,000–18,000 versus Luminous's ₹18,000–28,000, the premium reflects Schneider Electric's quality backing and longer warranty.

@@ -182,6 +182,6 @@ Final questions:
 7. Which costs are included now, deferred, provisional, or unknown?
 8. What happens if the expected battery or firmware is discontinued?
 
-Use the [hybrid inverter range](/hybrid-inverter/) to identify candidate models, then request the exact compatibility and backup specification. Current public Qbits datasheets do not provide a complete battery-compatibility list and retrofit procedure for every model, so product, BMS, battery, solar-design and qualified electrical review is required.
+Use the [hybrid inverter range](/hybrid-inverter/) to identify candidate models, such as the [QBH 5KS48P single-phase hybrid](/our-products/QBH-3-6KS48P/), then request the exact compatibility and backup specification. Current public Qbits datasheets do not provide a complete battery-compatibility list and retrofit procedure for every model, so product, BMS, battery, solar-design and qualified electrical review is required.
 
 **Sources checked 26 September 2026:** current Qbits architecture, battery-sizing, power-cut backup, string-sizing, AC-coupling and DC-coupling guides plus public datasheets. No universal retrofit, battery-free backup, compatibility, price or warranty outcome is claimed.

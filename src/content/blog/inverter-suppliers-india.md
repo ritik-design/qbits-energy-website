@@ -46,7 +46,7 @@ Use hard gates first. Confirm the model, document set, project fit, compliance r
 
 One company may perform several roles. That is fine when the quotation, authorisation, warranty, and service documents agree. The risk appears when every party points to another party after a problem.
 
-Before shortlisting a distributor or dealer, confirm its status through a manufacturer-controlled contact. Match the confirmed legal entity to the quotation, tax record, bank beneficiary, and eventual invoice. Ask what happens to open orders, warranty registrations, and installed units if the appointment changes.
+Before shortlisting a distributor or dealer, confirm its status through a manufacturer-controlled contact. If you want to stock Qbits, [apply as a Qbits dealer or EPC partner](/become-our-partner/). Match the confirmed legal entity to the quotation, tax record, bank beneficiary, and eventual invoice. Ask what happens to open orders, warranty registrations, and installed units if the appointment changes.
 
 ## Build the project requirement before comparing suppliers
 
@@ -182,7 +182,7 @@ Do not manufacture a warranty incident to test service. Instead, use a tabletop 
 
 ## Where Qbits enters the comparison
 
-Qbits publishes on-grid and hybrid inverter families, but supplier qualification still has to happen at model level. Start with the [Qbits datasheet library](/download-datasheets/) and identify the exact family and SKU relevant to the design. The library also explains that installation manuals, battery compatibility confirmations, certificates, and written warranty terms should be requested separately for the exact model.
+Qbits publishes [on-grid](/on-grid-inverter/) and [hybrid](/hybrid-inverter/) inverter families, but supplier qualification still has to happen at model level. Start with the [Qbits datasheet library](/download-datasheets/) and identify the exact family and SKU relevant to the design. The library also explains that installation manuals, battery compatibility confirmations, certificates, and written warranty terms should be requested separately for the exact model.
 
 Do not award Qbits a score because Qbits publishes this checklist. Apply the same gates, evidence table, and project-specific weights to Qbits and every competing supplier. Where evidence is unavailable, mark the row `clarify` rather than filling the gap with a marketing claim.
 

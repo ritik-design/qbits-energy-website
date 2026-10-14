@@ -43,7 +43,7 @@ language: hi
 Solar लगवाने की सोच रहे हैं तो सबसे पहला सवाल यही आता है: solar panel lagane ka kharcha आखिर कितना है। Problem यह है कि जो number आपको WhatsApp पर मिलता है वह अक्सर सिर्फ panel और inverter का होता है। असली bill में structure, cable, conduit, earthing, lightning arrestor, net metering fee, labour, transport और AMC भी जुड़ते हैं। यही वजह है कि ₹1.5 lakh का quote final settlement में ₹1.9 lakh बन जाता है और buyer को लगता है कि उसे ठगा गया। यह guide उस पूरे bill को line by line खोलती है, 3 kW और 5 kW दोनों के लिए, फिर [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy घटाकर बताती है कि जेब से actually कितना जाएगा।
 
 > **TL;DR**
-> - 3 kW on-grid system का all-in installed cost 2026 में ₹1.55 lakh से ₹2.10 lakh, 5 kW का ₹2.45 lakh से ₹3.25 lakh।
+> - 3 kW [on-grid](/on-grid-inverter/) system का all-in installed cost 2026 में ₹1.55 lakh से ₹2.10 lakh, 5 kW का ₹2.45 lakh से ₹3.25 lakh।
 > - Hidden line items (earthing, SPD, conduit, net meter, civil work, transport) ₹20,000 से ₹50,000 अलग से जोड़ते हैं।
 > - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy maximum ₹78,000 है और 3 kW पर cap हो जाती है, 5 kW वाले को भी उतना ही मिलता है।
 > - Net out-of-pocket: 3 kW में ₹77,000 से ₹1.32 lakh, 5 kW में ₹1.67 lakh से ₹2.47 lakh।

@@ -62,9 +62,9 @@ The [single-phase versus three-phase inverter guide](/blog/single-vs-3-phase-inv
 
 The QB-6/8/10/12/15/17KTLC document is titled `On-grid Inverter`. It does not list battery input, backup output, islanded operation, or power-cut transfer behaviour.
 
-That matters for homes and small businesses with three-phase service. A three-phase on-grid inverter can reduce grid imports when the utility is present, subject to the approved design. It should not be bought to keep lights, pumps, air conditioners, or other loads running during an outage.
+That matters for homes and small businesses with three-phase service. A [three-phase on-grid inverter](/on-grid-inverter/) can reduce grid imports when the utility is present, subject to the approved design. It should not be bought to keep lights, pumps, air conditioners, or other loads running during an outage.
 
-If backup is required, define the protected circuits, phase arrangement, running and starting loads, battery, isolation method, and transfer requirement first. Then compare exact hybrid or backup models whose documents cover those functions. The [on-grid, hybrid, and off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) owns that topology choice.
+If backup is required, define the protected circuits, phase arrangement, running and starting loads, battery, isolation method, and transfer requirement first. Then compare exact [hybrid or backup models](/hybrid-inverter/) whose documents cover those functions. The [on-grid, hybrid, and off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) owns that topology choice.
 
 ## What the Qbits KTLC datasheet states
 

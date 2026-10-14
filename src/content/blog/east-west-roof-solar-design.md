@@ -136,7 +136,7 @@ One honest caveat before the list. Suppose your roof offers a clean, unshaded so
 
 ## Dual-MPPT: The Non-Negotiable Inverter Requirement
 
-An east-west layout fails without one specific piece of hardware: an inverter with two independent [MPPT](/glossary/mppt/) trackers.
+An east-west layout fails without one specific piece of hardware: an inverter with two independent [MPPT](/glossary/mppt/) trackers, such as the [dual-MPPT QB 5KTLD](/our-products/QB-4-6KTLD/).
 
 Here is why. East-facing and west-facing strings produce different voltages and currents at any given moment, because they see different irradiance. A single MPPT forces all connected panels onto one shared operating point, which is a compromise that suits neither string. The measured penalty for paralleling mismatched orientations on one tracker is 8 to 15 percent of lost generation, on top of the orientation loss itself.
 

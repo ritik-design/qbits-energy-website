@@ -30,7 +30,7 @@ featured: false
 
 **DC/AC ratio compares the PV array's DC nameplate capacity with the inverter's rated AC output.** A larger array may improve energy capture in some hours and clip in others, but no ratio is automatically optimal for India. The design must pass exact electrical and warranty limits, then be compared through a consistent site model.
 
-This article explains the decision framework and a labelled arithmetic example. It does not recommend a universal oversizing percentage or promise an energy, ROI or lifespan result.
+This article explains the decision framework and a labelled arithmetic example. For the voltage side of an array, the [string sizing calculator](/string-sizing-calculator/) is the companion tool. It does not recommend a universal oversizing percentage or promise an energy, ROI or lifespan result.
 
 ## How is DC/AC ratio calculated?
 

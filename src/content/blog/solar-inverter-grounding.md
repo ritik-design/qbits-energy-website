@@ -178,7 +178,7 @@ Additional requirements for hybrid inverter installations:
 - **DC bus grounding topology** specific to the hybrid inverter model
 - **Battery enclosure earthing** to safety ground
 
-Hybrid inverter grounding is more complex than on-grid - always follow the manufacturer's specification exactly. Incorrect grounding can damage the battery management system or inverter during grid transitions.
+Hybrid inverter grounding is more complex than on-grid - always follow the manufacturer's specification exactly (see our [Qbits inverter datasheets](/download-datasheets/)). Incorrect grounding can damage the battery management system or inverter during grid transitions.
 
 ### Voltage Fluctuation Protection and PID Mitigation
 

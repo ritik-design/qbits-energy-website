@@ -33,7 +33,7 @@ faqs:
     a: "Reconcile the delivery note with the purchase order, count units and accessories, capture model and serial numbers, inspect packaging and enclosures, record visible damage, verify the required document pack, quarantine exceptions, and follow the agreed inspection or functional-test plan before acceptance."
 ---
 
-A bulk inverter order is ready only when the EPC can match **each site, exact model, quantity, document, delivery milestone, acceptance test, and commercial responsibility** across the design, quotation, and purchase order.
+A bulk inverter order is ready only when the EPC can match **each site, exact model, quantity, document, delivery milestone, acceptance test, and commercial responsibility** across the design, quotation, and purchase order. EPCs buying Qbits units can [apply as a Qbits dealer or EPC partner](/become-our-partner/).
 
 Do not order from a family brochure or a verbal stock confirmation. Freeze the transaction in a controlled order schedule. Mark every missing answer as `clarification required`, and resolve it before dispatch or through an authorised written exception.
 

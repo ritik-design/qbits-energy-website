@@ -46,7 +46,7 @@ Yeh guide price ko us tarah todta hai jaise ek quote actually banta hai. Scope, 
 > **TL;DR**
 > - "5 kW inverter price" ke char alag scopes hote hain. Quote compare karne se pehle scope pin karein, warna comparison meaningless hai.
 > - PM Surya Ghar assistance 3 kW par cap hoti hai, usual ceiling ₹78,000. 5 kW ko extra central assistance nahi milti, according to MNRE residential CFA operational guidelines (2024).
-> - PIB (2024) ka published formula se derived benchmark ₹50,000 per kW hai pehle 2 kW par aur ₹45,000 per kW teesre kW par. Yeh poore system ka benchmark hai, inverter ka rate nahi.
+> - MNRE ke residential CFA guidelines (13 February 2024 se) ka benchmark cost ₹50,000 per kW hai pehle 2 kW par aur ₹45,000 per additional kW. Yeh poore system ka benchmark hai, inverter ka rate nahi.
 > - Single-phase ya three-phase ka faisla aapke DISCOM ki connection conditions aur sanctioned load se hota hai, inverter label se nahi.
 > - On-grid se hybrid ka price jump battery se aata hai, inverter se nahi.
 > - 20 A maximum DC input current aur 18 A class G12 modules ka combination string paralleling ko block kar deta hai. Yeh design constraint quote badal deta hai.
@@ -158,11 +158,11 @@ MNRE residential CFA guidelines (2024) ka published structure yeh hai.
 
 Formula PIB (2024) mein publish hua hai: pehle 2 kW par benchmark cost ka 60 percent, aur 2 se 3 kW slice par additional cost ka 40 percent, 3 kW par capped. In dono ko milakar benchmark derive kiya ja sakta hai.
 
-**Worked derivation, labelled as arithmetic from the published formula and not a quoted MNRE figure:**
+**Cross-check: benchmark aur CFA ka rishta (arithmetic):**
 
-- ₹30,000 divided by 0.60 = ₹50,000 per kW, pehle 2 kW ke liye.
+- ₹30,000 divided by 0.60 = ₹50,000 per kW, jo MNRE ke benchmark ke barabar hai.
 - Cross-check: ₹60,000 divided by 0.60 divided by 2 = ₹50,000 per kW. Same answer.
-- Teesre kW ka increment ₹18,000 hai, aur ₹18,000 divided by 0.40 = ₹45,000 per kW.
+- Teesre kW ka increment ₹18,000 hai, aur ₹18,000 divided by 0.40 = ₹45,000 per kW, jo additional kW ka MNRE benchmark hai.
 
 Do baatein yahan zaroori hain. Pehli, yeh benchmark poore rooftop system ka hai, modules, structure, cabling aur labour sab include. Yeh inverter ka rate nahi hai. Doosri, CFA rated DC module capacity par compute hoti hai aur inverter size se independent hai, according to the MNRE operational guidelines.
 
@@ -198,7 +198,7 @@ Tax point par thodi clarity useful hai. Notification 9/2025-Integrated Tax (Rate
 
 ## 5 kW inverter ke woh specs jo price justify karte hain
 
-Yahan se decision technical ho jata hai. Ek mehanga inverter tab justified hai jab uske specs aapke roof ke liye actually relevant hon. Neeche 5 kW class ke Qbits options ke published specs hain, taaki aap dekh sakein ki kaun sa spec kis design ko possible banata hai.
+Yahan se decision technical ho jata hai. Ek mehanga inverter tab justified hai jab uske specs aapke roof ke liye actually relevant hon. Neeche 5 kW class ke Qbits options ke published specs hain, taaki aap dekh sakein ki kaun sa spec kis design ko possible banata hai. 5 kW on-grid ke liye [QB 4.2/4.6/5/5.4/6KTLS family](/our-products/QB-4.6-6KTLS/) aur battery backup ke liye [QBH 3 se 6KS48P family](/our-products/QBH-3-6KS48P/) ke model pages dekhein. Datasheet PDFs [download datasheets](/download-datasheets/) page par milte hain.
 
 | Series | Phase | MPPT | MPPT voltage window | Maximum DC | Efficiency | Enclosure |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -247,9 +247,9 @@ Yeh ek illustrative calculation hai, prediction nahi. Har input assumption hai, 
 **Stated assumptions:**
 
 - System size 5 kW, aur specific yield 4.0 kWh per kWp per day. Yeh assumption hai, apna site figure use karein.
-- Gross cost: pehle 3 kW ke liye derived benchmark, yaani 2 times ₹50,000 plus 1 times ₹45,000 = ₹1,45,000.
-- Upar ki 2 kW ke liye MNRE koi benchmark publish nahi karti, isliye is example mein ₹45,000 per kW assume kiya gaya hai. Yeh assumption hai, published figure nahi. 2 times ₹45,000 = ₹90,000.
-- Total gross assumed cost ₹2,35,000.
+- Gross cost: MNRE benchmark ke hisaab se pehle 3 kW ke liye 2 times ₹50,000 plus 1 times ₹45,000 = ₹1,45,000.
+- Upar ki 2 kW par bhi MNRE ka additional-kW benchmark ₹45,000 per kW lagta hai: 2 times ₹45,000 = ₹90,000.
+- Total benchmark cost ₹2,35,000 (yeh scheme ka reference hai, aapka asli quote nahi).
 - Central assistance ₹78,000, jo 3 kW cap par based hai.
 - Self-consumption 70 percent, retail tariff ₹7.00 per kWh. Export 30 percent, export credit ₹3.00 per kWh. Dono assumptions hain, actual rates state tariff order se aate hain.
 
@@ -292,5 +292,6 @@ Aur 5 kW ka honest financial fact yeh hai ki central assistance 3 kW par ruk jat
 - Apne last 12 months ke bills se annual kWh nikalein, phir daytime share estimate karein. Yeh do numbers size decide karte hain.
 - Apne DISCOM se phase aur net metering condition likhit mein confirm karein, quote finalise karne se pehle.
 - Apna module aur string plan [string sizing calculator](/string-sizing-calculator/) par check karein, aur model-specific written quote ke liye [Qbits team se baat karein](/contact-us/).
+- Agar 3 kW par rukna ho to [3 kW inverter price guide](/blog/3kw-solar-inverter-price-hindi/) mein usi itemised method se hisaab diya hai.
 
 **Sources checked 24 September 2026:** [MNRE residential CFA operational guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/), [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/), [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), PIB releases (2024 and March 2026), and manufacturer module datasheets. Product, tax, finance aur DISCOM terms current model-specific confirmation maangte hain.

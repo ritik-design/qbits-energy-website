@@ -4,7 +4,7 @@ excerpt: 'BIS and ALMM answer different procurement questions. Use this exact-mo
 description: "Solar inverter regulations in India 2026: BIS certification under IS 16221/IS 16169, IEC standards, MNRE and CEA grid norms, and the documents to verify."
 category: Guide
 date: 2026-03-22
-updatedDate: 2026-09-26
+updatedDate: 2026-10-14
 readTime: 13 min
 image: /og/blog-solar-inverter-regulations-india-2026-bis-iec-compliance.webp
 author: Keyur Rakholiya
@@ -110,6 +110,25 @@ The [official framework notice](https://mnre.gov.in/en/notice/framework-for-enli
 
 That programme is not ALMM and is not a BIS licence. Before quoting for PM Surya Ghar work, check the latest scheme notices rather than relying on the 2024 framework alone.
 
+## The grid side: CEA connectivity regulations and the DISCOM
+
+BIS covers the product. The connection to the distribution network is governed separately. The national reference is the Central Electricity Authority's Technical Standards for Connectivity below 33 kilovolts Regulations, 2013, dated 30 September 2013, with an amendment dated 6 February 2019. They apply to distributed generation resources, charging stations and prosumers connected to the system below 33 kV. A [CEA regulation summary hosted by CBIP](https://www.cbip.org/cearegulations/CEA%20DATA/Connectivity/Connectivity%20Regulation/Summary%20Connectivity%20Regulation.pdf){target="_blank" rel="noopener"} states the following for distributed generation using inverters, checked on 14 October 2026.
+
+| Topic | What the summary states |
+| --- | --- |
+| Harmonic current injection | Must not exceed the limits in IEEE 519 |
+| DC injection | Must not exceed 0.5 percent of full rated output at the interconnection point |
+| Flicker | Must stay within the limits in IEC 61000 |
+| Voltage trip | Over and under voltage trip functions at above 110 percent and below 80 percent of nominal, with clearing time up to two seconds |
+| Frequency trip | Over and under frequency trip functions at 50.5 Hz and below 47.5 Hz, with clearing time up to 0.2 seconds |
+| Synchronisation | An inverter does not need a separate synchronising device if one is built into it |
+| Measurement | Harmonic, DC injection and flicker measurement with calibrated meters before commissioning and once a year |
+| Licensee discretion | The appropriate licensee may prescribe a narrower voltage or frequency range |
+
+Two cautions apply. The summary is a secondary document, so confirm any number you rely on against the gazetted regulation and any later amendment. And the last row matters most in practice: your DISCOM's connection conditions can be tighter than the national figures. The connection agreement, the inspection checklist and the settings written in the commissioning record are what govern a particular installation.
+
+The product standards sit beside these requirements. IS 16221 (Part 2) / IEC 62109-2 covers inverter safety, including insulation and residual current monitoring. IS 16169 / IEC 62116 covers islanding prevention, the behaviour that makes an on-grid inverter stop when the grid fails. The [circuit diagram guide](/blog/solar-inverter-circuit-diagram/) shows where each protection sits inside the inverter.
+
 ## Product conformity does not approve the project
 
 Product evidence answers whether the equipment follows the specified product route. It does not approve a design, connection or subsidy file.
@@ -169,6 +188,6 @@ The [Tier 1 solar inverter explainer](/blog/tier-one-solar-inverter-meaning/) se
 
 Qbits public datasheets identify model families and technical values. They do not, by themselves, establish a current BIS licence, ALMM status, tender eligibility, subsidy eligibility or DISCOM approval for the exact unit being considered. This article therefore makes no current Qbits certification or approval claim.
 
-[Download the Qbits datasheet for the exact model](/download-datasheets/) and add it to the model register. Then obtain and verify every current certificate, licence, scheme document and project-specific approval required for the intended use before committing stock.
+The [BIS certification glossary entry](/glossary/bis-certification/) explains the registration route in plain terms. [Download the Qbits datasheet for the exact model](/download-datasheets/) and add it to the model register. The families are described on the [on-grid inverter](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) pages. Then obtain and verify every current certificate, licence, scheme document and project-specific approval required for the intended use before committing stock.
 
-**Source position:** National QCO and BIS points were checked against MNRE S.O. 492(E) dated 27 January 2025, MNRE S.O. 3706(E) dated 3 July 2026, the current BIS Scheme II page and the BIS CRS public search. ALMM scope was checked against MNRE’s page updated 16 September 2026. PM Surya Ghar distinctions were checked against MNRE documents dated 21 June 2024 and 13 June 2024. Rules and lists can change, and a qualified regulated review is required before publication or live procurement use.
+**Source position:** National QCO and BIS points were checked against MNRE S.O. 492(E) dated 27 January 2025, MNRE S.O. 3706(E) dated 3 July 2026, the current BIS Scheme II page and the BIS CRS public search. ALMM scope was checked against MNRE’s page updated 16 September 2026. PM Surya Ghar distinctions were checked against MNRE documents dated 21 June 2024 and 13 June 2024. CEA connectivity points were checked on 14 October 2026 against a CBIP-hosted summary of the 2013 regulations as amended on 6 February 2019. Rules and lists can change, and a qualified regulated review is required before publication or live procurement use.

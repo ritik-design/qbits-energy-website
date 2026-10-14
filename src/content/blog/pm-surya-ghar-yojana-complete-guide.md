@@ -4,8 +4,8 @@ excerpt: PM Surya Ghar explained, MNRE subsidy slabs, eligibility, documents, th
 description: "PM Surya Ghar Muft Bijli Yojana 2026: MNRE subsidy slabs, eligibility, documents, application steps, vendor choice, inspection and the price list."
 category: Policy
 date: 2026-06-05
-updatedDate: 2026-09-24
-readTime: 13 min
+updatedDate: 2026-10-14
+readTime: 17 min
 image: "/og/blog-pm-surya-ghar-yojana-complete-guide.webp"
 author: Nirav Dhanani
 keywords:
@@ -40,6 +40,8 @@ relatedSlugs:
 - pm-surya-ghar-documents-required
 - pm-surya-ghar-rejection-reasons
 - empanelled-vendor-pm-surya-ghar
+- pm-surya-ghar-subsidy-amount
+- solar-subsidy-all-states
 ---
 
 Most guides on PM Surya Ghar: Muft Bijli Yojana stop at one number, ₹78,000. It is a real number. It is also the least useful fact about the scheme.
@@ -108,6 +110,29 @@ Now change one input. Keep the state, raise capacity to 5 kWp. CFA stays ₹78,0
 
 The benchmark cost derives the slab. It is not a price control and not what your vendor will quote. There is no tendering or rate discovery by DISCOMs, and rates are mutually decided between consumer and registered vendor.
 
+## PM Surya Ghar yojana price list: what the MNRE benchmark cost means
+
+People search for a "PM Surya Ghar price list" expecting a rate card for solar systems. There is no government price list that sets what an installer may charge. The guidelines say the consumer and the registered vendor agree rates between themselves, and that DISCOMs do not run tenders or rate discovery for this scheme.
+
+What MNRE does publish is a **benchmark cost**, and the subsidy is a percentage of it. Per the guidelines, the benchmark has applied since 13 February 2024: ₹50,000 per kW for the first 2 kW and ₹45,000 for each additional kW. For the special-category States and UTs it is ₹55,000 for the first 2 kW and ₹49,500 for each additional kW. The central assistance is 60% of the benchmark for the first 2 kWp and 40% of the benchmark for the additional kWp (MNRE, 2024; checked October 2026).
+
+| System size (module capacity) | Benchmark cost, general states | Central assistance | Benchmark cost, special-category states | Central assistance |
+| --- | --- | --- | --- | --- |
+| 1 kWp | ₹50,000 | ₹30,000 | ₹55,000 | ₹33,000 |
+| 2 kWp | ₹1,00,000 | ₹60,000 | ₹1,10,000 | ₹66,000 |
+| 3 kWp | ₹1,45,000 | ₹78,000 | ₹1,59,500 | ₹85,800 |
+| Above 3 kWp | Not extended | ₹78,000 (no increase) | Not extended | ₹85,800 (no increase) |
+
+Part-kilowatts are paid pro rata. The guidelines' own examples are 1.5 kW at ₹45,000 and 2.5 kW at ₹69,000.
+
+Three readings of this table matter:
+
+- **It is not a quote.** A real quote depends on module and inverter choice, roof type, structure, cable run and the vendor's margin. A quote above or below the benchmark does not change the assistance, which depends only on installed module capacity.
+- **It is not a cap on your spend.** Nothing in the guidelines stops you paying more than the benchmark. Equally, the CFA is not reduced if you pay less.
+- **Indicative component costs are a separate item.** The guidelines say MNRE will publish indicative costs for modules, inverters and other equipment so consumers are not overcharged. Check the national portal for the current list rather than trusting a screenshot, and use it alongside the [solar quotation checklist](/blog/solar-quotation-checklist/). The vendor profile on the portal is also meant to show the specifications and prices that vendor offers.
+
+If you want the subsidy figure for an exact size without doing the arithmetic, the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) has size-by-size tables.
+
 ## The application journey, step by step
 
 The whole scheme runs through one [national portal](https://pmsuryaghar.gov.in/). There is no offline route for claiming assistance. The sequence below follows the method of implementation set out in the MNRE guidelines (MNRE, 2024).
@@ -123,6 +148,16 @@ The whole scheme runs through one [national portal](https://pmsuryaghar.gov.in/)
 
 Vendor selection quietly decides the rest. Our [registered vendor checklist](/blog/empanelled-vendor-pm-surya-ghar/) covers verification, and the [application walkthrough](/blog/pm-surya-ghar-apply-online/) covers portal mechanics.
 
+## Choosing the vendor: what the guidelines let you check
+
+Vendor choice is the one decision the scheme leaves entirely to you, so it deserves more care than the subsidy slab. Three provisions in the guidelines help.
+
+First, the vendor must be registered on the national portal, either at state level with the DISCOM or nodal agency, or at national level through the programme's implementation agency. Second, the registered vendor's profile is meant to show the system specifications offered, prices offered, key contacts, a vendor rating and consumer feedback. The rating is based on the scale of installations, equipment quality, workmanship and service. Third, a registered vendor owes the consumer five years of free repair and maintenance under the Comprehensive Maintenance Contract from commissioning, and must hand over the component manufacturers' warranty documents.
+
+The guidelines also let MNRE or the state agency inspect installations and de-register a vendor or levy penalties for non-compliant work, after notice. That is a process safeguard, not a guarantee about any single vendor.
+
+Before you pay an advance, compare at least three registered vendors on written scope, not just price: module make and model, inverter make and model, structure, cabling, who handles the DISCOM paperwork, and who answers the phone after commissioning. For how to find the vendor list district by district and what a portal record does and does not prove, read the [homeowner's vendor verification guide](/blog/empanelled-vendor-pm-surya-ghar/). Installers who need to register will find the steps in the [installer registration guide](/blog/pm-surya-ghar-vendor-registration-installers/).
+
 ## Documents you need at each stage
 
 Documents arrive in waves, and each wave has a different owner. Confusing them stalls files. At application you supply identity and connection records. After installation your vendor supplies technical records. At disbursal your bank record has to survive a check.
@@ -137,6 +172,20 @@ Documents arrive in waves, and each wave has a different owner. Confusing them s
 
 The guidelines are specific. The vendor must hand you those technical documents and help upload them. A vendor who refuses is a signal, not an inconvenience. The full [document checklist](/blog/pm-surya-ghar-documents-required/) lists state-level variations.
 
+## Loans and the finance route
+
+You do not need to pay the whole system cost from savings. The guidelines let the consumer opt for financing through the national portal, where loan products from banks and financial institutions are listed and can be selected through the Jan Samarth portal integration or directly with the lender. They say that standardised low-interest loan products, priced in the range of the repo rate plus 50 basis points, are envisaged for residential systems up to 3 kW, and that similar products should exist for sizes above 3 kW that get no subsidy.
+
+How the loan and the subsidy interact:
+
+- If you take a loan, you enter the loan account details in your consumer profile. When you redeem the e-token, the CFA is credited to the loan account rather than your savings account.
+- If the CFA is larger than the outstanding loan, the loan is cleared first and the remainder goes to your bank account.
+- Banks make their own credit decisions. A subsidy-eligible system does not guarantee a sanctioned loan.
+
+On rates, the Press Information Bureau reported in March 2025 that PM Surya Ghar loans of up to ₹2 lakh were available collateral-free at about 6.75% from public sector banks ([PIB, March 2025](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2111106&reg=48&lang=2)). Lender rates move, and secondary sources quote different current figures, so confirm the rate, tenure and processing time with the lender or on the portal before you plan around a number. Our guides to [inverter and solar financing options](/blog/inverter-financing-options-in-india/) and [choosing a bank for a solar loan](/blog/best-bank-solar-loan-india-2026/) compare the practical differences.
+
+**Own capital, loan, or third-party ownership?** These guidelines cover only the capex mode, where the consumer funds the system from savings or borrowings. They state that RESCO models (a third party makes the investment) and utility-led or state-led aggregation models fall under separate guidelines, which MNRE has published on its rooftop programme page. If an offer says you pay nothing and a company owns the system, ask which guideline it relies on, who the registered applicant is, and who receives the CFA. Do not assume the ₹78,000 reaches you. The [free solar panel scheme reality check](/blog/free-solar-panel-scheme-reality/) explains how to test such offers.
+
 ## Realistic timelines, and where files actually stall
 
 Here is the honest position. The MNRE guidelines fix only two clocks. Central assistance is processed within 15 days of DISCOM approval. Grievances raised through the portal, app, or national call centre are to be resolved within 30 days. Every other stage runs on state regulations and DISCOM capacity, which vary widely.
@@ -147,13 +196,46 @@ First, feasibility. Where a state has not yet operationalised the deemed-approva
 
 Track the file yourself rather than relying on your installer's word. The [status check guide](/blog/pm-surya-ghar-status-check/) explains what each portal label means. The [net metering application guide](/blog/how-to-apply-net-metering-india/) covers the metering stage in detail.
 
+## How to size a system under the scheme
+
+The slab stops at 3 kWp, but your roof and your bills do not. A sensible sequence:
+
+1. **Start from the bills.** Average your units consumed over the last 12 months from your electricity bills, so seasonal air-conditioner load is counted.
+2. **Convert units to kW.** A common planning figure is that each kW of modules yields roughly 4 to 5 units a day, or around 120 to 150 units a month, in much of India. Actual output depends on location, tilt, shading, soiling and temperature, so ask the vendor for a generation estimate for your roof and treat it as an estimate, not a promise.
+3. **Check sanctioned load.** A proposed capacity above your sanctioned load can trigger a load-enhancement step first. Confirm the rule with your DISCOM.
+4. **Check the roof.** As a rough guide, each kW needs about 8 to 10 square metres of shadow-free area. Water tanks, parapets and neighbouring buildings change this.
+5. **Compare sizes against the slab.** Up to 3 kWp every added kW earns subsidy, although the third kW earns less (₹18,000) than the first two (₹30,000 each). Above 3 kWp the subsidy is flat, so the extra kW is justified only by your own consumption, not by the scheme.
+
+A system sized well above your consumption exports more power, and the credit you receive for exports is set by your state regulator, not by the central scheme. For the engineering side, including string layout, MPPT channels and DC to AC ratios, see the [solar inverter sizing guide](/blog/solar-inverter-sizing/) and the [string sizing calculator](/string-sizing-calculator/).
+
+## After commissioning: net metering and your bill
+
+Once the DISCOM has inspected the system and fitted the meter, your connection records energy in both directions. The guidelines say all metering arrangements approved by the state regulator are covered by the scheme: net metering, gross metering, net billing, virtual net metering and group net metering. Which one applies to you, and how surplus units are credited or paid for, depends on your state's regulations.
+
+Under net metering, the units you export are set against the units you import in the billing cycle, so you pay for the difference plus fixed charges. The "300 free units" headline is a rough generation estimate for a 3 kW system, not an entitlement. A zero or near-zero bill depends on your consumption, the system's actual output, your tariff and your DISCOM's fixed charges, and the scheme does not promise it. Self-consumption during daylight usually saves more than exporting, because the import tariff is typically higher than the export credit, but check your own state's numbers.
+
+Read the [net metering complete guide](/blog/net-metering-india-complete-guide/) for state rules, the [net metering application guide](/blog/how-to-apply-net-metering-india/) for the paperwork, and the [net meter approval timeline](/blog/net-meter-approval-timeline/) for how long each stage can run.
+
 ## State top-up subsidies, and how they stack
 
-State assistance is a separate layer with separate rules. The MNRE guidelines permit State and UT governments to supplement the central amount for the residential sector. The state framework must align with central support and adhere to scheme guidelines. Disbursement of the state component is to be integrated with the national portal (MNRE, 2024).
+State assistance is a separate layer with separate rules. The MNRE guidelines permit State and UT governments to supplement the central amount for the residential sector. The state framework must align with central support and adhere to scheme guidelines, and disbursement of the state component is to be integrated with the national portal (MNRE, 2024).
 
-There is a gate on it. MNRE and the State or UT energy department must sign a Memorandum of Understanding first. Without it, no additional state subsidy can be released under the scheme.
+There is a gate on it. Under the MoU clause of the guidelines, MNRE and the State or UT must sign a Memorandum of Understanding, and that MoU is mandatory for releasing any additional state or UT subsidy under the scheme. In practice your total is central plus state, claimed through linked but distinct processes. The state amount depends on where you live and on that state's budget and order for the year you apply.
 
-In practice, your total is central plus state, claimed through linked but distinct processes. The state amount depends on where you live and on that state's budget position in the year you apply. Published state figures circulate widely and go stale quickly. Confirm the current amount with your state nodal agency before you sign anything. Our [state-by-state subsidy tracker](/blog/solar-subsidy-2026-all-states/) is the starting point, not the last word.
+Published state figures circulate widely and go stale quickly. The table below lists only what we could confirm against an official state source on **14 October 2026**. States that are not listed are not necessarily without a top-up. It means we found no current official order we could cite, and the secondary sources we saw contradicted each other.
+
+| State or UT | What the official source says | Source and what to check |
+| --- | --- | --- |
+| Delhi | Residential state capital subsidy of ₹26,000 per kW for systems up to 3 kW, subject to a formula: the lower of the Discom Trusteeship Model bid cost minus the PM Surya Ghar subsidy, or ₹26,000 times capacity. The state subsidy is capped at ₹78,000 overall. No additional state subsidy for systems above 3 kW up to 10 kW. Housing societies get ₹11,000 per kWp for common facilities. | [Delhi solar portal, State Subsidy page](https://solar.delhi.gov.in/page/state-subsidy), page showing an update date of 14 October 2026. The Delhi policy has been amended more than once, so read the current amendment and the disbursal SOP linked there. |
+| Gujarat, Maharashtra, Uttar Pradesh, Tamil Nadu, Karnataka and others | We found no state order we could verify. Vendor blogs quote figures that differ from one another, so we do not repeat them. | Ask the state nodal agency or DISCOM for the current government order, and read our state guides for what each one confirmed: [Gujarat](/blog/surya-gujarat-scheme-guide/), [Maharashtra](/blog/solar-subsidy-maharashtra-2026/), [Uttar Pradesh](/blog/solar-subsidy-uttar-pradesh-2026/), [Tamil Nadu](/blog/solar-subsidy-tamil-nadu-2026/), [Karnataka](/blog/solar-subsidy-karnataka-2026/). |
+
+Two cautions follow from this. First, if a vendor quotes a state top-up, ask for the order number and date, and check that the application route is the one the order describes. Second, state subsidies can be limited to the first batch of applicants or tied to a particular installation model, as the Delhi formula shows, so a figure that was true in one month can lapse in the next. The [all-states subsidy tracker](/blog/solar-subsidy-all-states/) is the starting point for a state-by-state check, and the [Delhi guide](/blog/solar-subsidy-delhi-2026/) covers that state in more depth.
+
+## Where the scheme stands in October 2026
+
+The Cabinet approved PM Surya Ghar on 29 February 2024 with an outlay of ₹75,021 crore, to be implemented till FY 2026-27, which ends on 31 March 2027. The target is rooftop solar in one crore households. The guidelines also say the scheme is fund-limited and that applications on the national portal are limited to one crore active applications, after which MNRE may set a time period for completing installations.
+
+Progress is substantial but behind the original trajectory. The Press Information Bureau reported more than 33 lakh systems installed and over ₹22,750 crore disbursed as of May 2026 ([PIB, 2026](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268992)). Gaps between registrations and commissioned systems usually come from the stages described above: DISCOM inspection capacity, smart-meter availability and vendor coverage in smaller towns. We found no official announcement extending the scheme beyond March 2027 as of 14 October 2026. If you plan to install, work back from 31 March 2027 and allow for DISCOM queues, because a system must be commissioned and the claim processed under the rules in force. Check pmsuryaghar.gov.in for any change.
 
 ## Why applications get rejected
 
@@ -191,7 +273,7 @@ Do not conflate the module list with the inverter rules. MNRE's [Approved List o
 
 Inverters sit in the scheme's technical annexure instead. It requires compliance with the Solar Photovoltaic Inverters Quality Control Order dated 30 August 2017 and its amendments. It adds the applicable BIS and IEC standards for efficiency measurement and environmental testing. Integrated maximum power point tracking, electromagnetic compatibility, minimum 20% overload capability, anti-islanding protection, and inbuilt data communication are all specified (MNRE, 2024).
 
-The consequence is simple. Your inverter cannot raise the subsidy, but a non-compliant one can hold it up at inspection. Qbits sells solar inverters, not modules or installation. Its published product documents cite standards including IS 16221, IS 16169, and IEC 62109. Pull the exact model datasheet for your DISCOM rather than relying on a brochure line. Our [on-grid inverter range](/on-grid-inverter/) sets out where each topology fits.
+The consequence is simple. Your inverter cannot raise the subsidy, but a non-compliant one can hold it up at inspection. Qbits sells solar inverters, not modules or installation. Its published product documents cite standards including IS 16221, IS 16169, and IEC 62109. Pull the exact model datasheet for your DISCOM rather than relying on a brochure line. Our [on-grid inverter range](/on-grid-inverter/) sets out where each topology fits, and the [hybrid inverter range](/hybrid-inverter/) covers battery-ready systems, which still earn assistance only on module capacity. For the institutions behind the scheme and the official guideline PDFs, see the [MNRE rooftop solar scheme guide](/blog/mnre-rooftop-solar-scheme/).
 
 ## The Bottom Line
 

@@ -39,7 +39,7 @@ faqs:
 
 A solar system for under ₹1 lakh, is it real, or is it the solar equivalent of a highway billboard advertising ₹12 per square foot flats? The confusion is understandable because the answer depends entirely on whether you are counting the gross price or the net price after the PM Surya Ghar subsidy.
 
-Here is the unvarnished truth: with the right subsidy, a ₹1 lakh budget buys a complete, ALMM-compliant, 2kW on-grid solar system for a small Indian home. Without the subsidy, ₹1 lakh buys either a compromised 2kW system or a reliable 1kW system, nothing more.
+Here is the unvarnished truth: with the right subsidy, a ₹1 lakh budget buys a complete, ALMM-compliant, 2kW [on-grid](/on-grid-inverter/) solar system for a small Indian home. Without the subsidy, ₹1 lakh buys either a compromised 2kW system or a reliable 1kW system, nothing more.
 
 > **Direct answer.** Under ₹1 lakh (net cost after PM Surya Ghar subsidy) buys a 1kW system for ₹35,000–₹55,000 or a 2kW system for ₹40,000–₹70,000. Apply the **₹1 Lakh Solar Budget Checklist** to every quote you receive: ALMM compliance, certified panels, full BOS scope, GST invoice, and empanelled installer. Anything missing from this checklist is a red flag that will cost you more than you save.
 

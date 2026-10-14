@@ -4,7 +4,7 @@ excerpt: "Turn an exact-model inverter datasheet into checked design inputs, BOQ
 description: "How to read a solar inverter datasheet like a procurement engineer: the specs that matter, red flags, and a comparison checklist with a worked example."
 category: "EPC"
 date: 2026-05-11
-updatedDate: 2026-09-26
+updatedDate: 2026-10-14
 readTime: "15 min"
 image: "/og/blog-how-to-read-solar-inverter-datasheets.webp"
 author: "Keyur Rakholiya"
@@ -131,11 +131,12 @@ answer different requirements.
 
 ## Work through one exact datasheet
 
-The current [QB 4/5/6 KTLD datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf) separates the QB-4KTLD, QB-5KTLD, and QB-6KTLD models. The table below uses only values printed in that file, checked on 26 September 2026.
+The current [QB 4/5/6 KTLD datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf) separates the QB-4KTLD, QB-5KTLD, and QB-6KTLD models. The table below uses only values printed in that file, checked on 14 October 2026.
 
 | Datasheet field | Published value | Engineering use |
 | --- | --- | --- |
 | Model range | QB-4KTLD, QB-5KTLD, QB-6KTLD | Select one exact offered model |
+| Maximum DC input power | 6,000 W, 7,500 W, or 9,000 W by model | Upper limit on connected DC power. Compare with array size and clipping |
 | Maximum DC voltage | 550 V | Check corrected cold string Voc |
 | MPPT voltage range | 80 to 550 V | Check operating voltage across design conditions |
 | Start-up voltage | 50 V | Starting threshold only |
@@ -144,13 +145,15 @@ The current [QB 4/5/6 KTLD datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0
 | Maximum strings per MPPT | 1/1 | Do not assume extra parallel inputs |
 | Rated AC output | 4,000 W, 5,000 W, or 6,000 W by model | Match the exact SKU to the AC design |
 | Maximum output | 4.4 kVA, 5.5 kVA, or 6.6 kVA by model | Keep apparent power distinct from rated active power |
+| Grid voltage range | 160 to 270 Vac, adjustable | Capability of the unit. The commissioned setting follows the DISCOM and grid code |
+| Operating temperature range | -25 to +60 degrees C | Ambient range. Check the manual for any derating |
 | Maximum efficiency | 98.1 percent | Peak value, not annual conversion |
 | European efficiency | 97.5 percent | Compare only with the same metric |
 | Display | LED, with LCD optional | State the selected display in the offer |
 | Communication | Wi-Fi, with RS485 or GPRS optional | Add the selected interface to scope |
 | Protection class | IP66 | Check installation instructions separately |
 
-The [QB 4.6/5/6 KTLS datasheet](/datasheets/products/QB_Data-Sheet_4.6-6.0-kw_1MPPT_1Phs.pdf) overlaps in capacity but describes a single-MPPT family. A tender response that says only "Qbits 5 kW" does not distinguish these products.
+The same model has a [product page](/our-products/QB-4-6KTLD/). Read the datasheet row by row against your own calculation: the maximum DC voltage and the 20/20 A input limit feed the string checks above, and the grid voltage and temperature rows go to the design input sheet as capabilities, not as guaranteed operating conditions. The [QB 4.6/5/6 KTLS datasheet](/datasheets/products/QB_Data-Sheet_4.6-6.0-kw_1MPPT_1Phs.pdf) overlaps in capacity but describes a single-MPPT family. A tender response that says only "Qbits 5 kW" does not distinguish these products.
 
 ## Convert extracted values into a design input sheet
 
@@ -266,7 +269,7 @@ For a hybrid inverter, add the battery and backup-side fields to the extraction 
 - parallel-operation rules; and
 - generator input or control requirements where applicable.
 
-The current [QBH 3 to 6 kW single-phase catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf) lists maximum battery charge and discharge current from 75 A to 120 A across its variants. The 120 A value does not describe the QBH-3KS48P, which lists 75 A. This is why a family maximum cannot be copied into every BOQ line.
+The current [QBH 3 to 6 kW single-phase catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf) lists maximum battery charge and discharge current from 75 A to 120 A across its variants. The 120 A value does not describe the QBH-3KS48P, which lists 75 A. This is why a family maximum cannot be copied into every BOQ line. The [hybrid inverter page](/hybrid-inverter/) lists the QBH families so you can match the right catalogue to the right model, and the [on-grid inverter page](/on-grid-inverter/) does the same for the TLS, TLD and TLC families.
 
 Battery compatibility also requires more than a voltage match. Obtain the current written compatibility evidence for the exact inverter, battery, firmware, and BMS combination.
 

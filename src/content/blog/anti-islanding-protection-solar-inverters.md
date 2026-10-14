@@ -41,7 +41,7 @@ relatedSlugs:
 
 Your panels are in full sun. The grid goes out. Your rooftop system shuts down with it and the house goes dark. Nothing is broken. That is anti-islanding protection doing exactly what Indian regulation requires.
 
-**Anti-islanding protection** forces a grid-connected solar inverter to stop energising the utility line once the grid disappears. Without it, your inverter would keep pushing power into a cable that a line worker has isolated and believes is dead. It is not a fault, not a warranty issue, and not something an installer can legitimately switch off.
+**Anti-islanding protection** forces a [grid-connected](/on-grid-inverter/) solar inverter to stop energising the utility line once the grid disappears. Without it, your inverter would keep pushing power into a cable that a line worker has isolated and believes is dead. It is not a fault, not a warranty issue, and not something an installer can legitimately switch off.
 
 India makes this mandatory. The Central Electricity Authority requires cessation within two seconds of an unintended island forming, and every grid-tied inverter sold here is type-tested against IS 16169:2019, the Indian adoption of IEC 62116:2014.
 

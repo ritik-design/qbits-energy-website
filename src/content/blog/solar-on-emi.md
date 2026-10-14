@@ -57,7 +57,7 @@ The single most important number in this decision is not the interest rate, it i
 
 The instinct to pay cash and avoid debt is understandable. Solar systems, however, are one of the rare asset classes where financing accelerates your net worth (not depletes it) provided the EMI is structured correctly.
 
-Consider a 3 kW on-grid system installed in Maharashtra. Post-subsidy cost: ₹1.5 lakh. Monthly electricity savings at ₹8/unit tariff: approximately ₹3,000–₹3,600. If you wait 18 months to accumulate ₹1.5 lakh in cash, you pay ₹54,000–₹64,800 in electricity bills during that wait period. Had you taken a loan on day one, you would have started saving immediately and the EMI would have been lower than the electricity bill savings.
+Consider a 3 kW [on-grid](/on-grid-inverter/) system installed in Maharashtra. Post-subsidy cost: ₹1.5 lakh. Monthly electricity savings at ₹8/unit tariff: approximately ₹3,000–₹3,600. If you wait 18 months to accumulate ₹1.5 lakh in cash, you pay ₹54,000–₹64,800 in electricity bills during that wait period. Had you taken a loan on day one, you would have started saving immediately and the EMI would have been lower than the electricity bill savings.
 
 The [payback period for solar inverters in India](/blog/solar-inverter-payback-period-in-india/) for a typical residential system sits between 4 and 7 years. A 10-year loan at 9% on ₹1.5 lakh costs approximately ₹45,000 in total interest. You are paying ₹45,000 to access ₹1.5 lakh in returns over 25 years, an extremely favourable trade.
 

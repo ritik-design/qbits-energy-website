@@ -94,7 +94,7 @@ Intentional clipping through strategic oversizing typically delivers **superior 
 - High-irradiance sites (Rajasthan, Gujarat, Karnataka) suit aggressive oversizing
 - C&I rooftops with limited area benefit most from oversizing
 
-Getting the DC:AC ratio right at this stage is a job for detailed rooftop engineering design, not a rule of thumb applied after the panels are already on order.
+Getting the DC:AC ratio right at this stage is a job for detailed rooftop engineering design, not a rule of thumb applied after the panels are already on order. The [string sizing calculator](/string-sizing-calculator/) checks the voltage side.
 
 ## 6. What Is the Optimal Clipping Threshold?
 
@@ -156,7 +156,7 @@ But hybrid clipping prevention depends on:
 - **Battery state of charge**: if full, clipping still occurs
 - **Battery charging rate**: if 15 kW excess but battery accepts 10 kW, 5 kW still clips
 
-Economic analysis for hybrid systems is more complex, stored energy value during peak-rate or backup periods can justify more aggressive DC oversizing than pure on-grid.
+Economic analysis for [hybrid systems](/hybrid-inverter/) is more complex, stored energy value during peak-rate or backup periods can justify more aggressive DC oversizing than pure [on-grid](/on-grid-inverter/).
 
 ## 11. How to Explain Clipping to Clients
 
@@ -188,7 +188,7 @@ Premium platforms integrate weather forecasting with monitoring, enabling sophis
 
 ### What to request for a Qbits model
 
-Use the exact model datasheet and design limits to assess DC oversizing and clipping. Maximum efficiency and enclosure rating say nothing about efficiency during sustained clipping, thermal performance at the site, component origin, monitoring functions or warranty coverage. Request the derating curve, permitted DC:AC design range, monitoring scope and written warranty for the quoted SKU. If the public datasheet does not state an item, ask for it in writing.
+Use the [exact model datasheet](/download-datasheets/) and design limits to assess DC oversizing and clipping. Maximum efficiency and enclosure rating say nothing about efficiency during sustained clipping, thermal performance at the site, component origin, monitoring functions or warranty coverage. Request the derating curve, permitted DC:AC design range, monitoring scope and written warranty for the quoted SKU. If the public datasheet does not state an item, ask for it in writing.
 
 ## Key Specifications Summary
 

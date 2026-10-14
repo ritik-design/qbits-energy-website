@@ -4,7 +4,7 @@ excerpt: How the MNRE rooftop solar scheme is built, Phase II components, CFA ro
 description: "MNRE rooftop solar scheme 2026: PM Surya Ghar CFA slabs, official guideline and specification PDFs, vendor registration, DISCOM steps and who approves what."
 category: Policy
 date: 2026-06-05
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: 13 min
 image: "/og/blog-mnre-rooftop-solar-scheme.webp"
 author: Nirav Dhanani
@@ -148,6 +148,31 @@ Verification is mechanical now. Since 1 December 2024, a module whose DCR creden
 Inverters sit under the quality control order, which has itself been superseded. MNRE's 2017 compulsory registration order named IS 16221 (Part 2):2015 and IS 16169:2014 for PV inverters. The Solar Systems, Devices and Components Goods Order, 2025 replaced it, gazetted 27 January 2025 under the BIS Act, 2016. MNRE has since extended the inverter items on a self certification route to 31 December 2026. That relaxation has been extended more than once, so check MNRE's lab policy page for the live notification. The [inverter regulations guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) explains which standard does which job.
 
 MNRE publishes no ALMM list for inverters, so ask the seller for the exact model's BIS registration and current certificates, and for PM Surya Ghar confirm the inverter requirements with your DISCOM. Standards cited in published Qbits documents include IS 16221, IS 16169, IEC 62109, and IEC 62116. Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Pull the [on-grid inverter](/on-grid-inverter/) documents and match identifiers.
+
+## MNRE guidelines and specifications PDFs: where the official documents are
+
+Two of the most searched phrases for this scheme are "MNRE guidelines for rooftop solar PDF" and "MNRE specifications for rooftop solar". Both point to documents MNRE hosts itself. Use the originals, because summaries (including this one) can lag an amendment. The links below were taken from MNRE's [Grid Connected Rooftop Solar Programme page](https://mnre.gov.in/en/grid-connected-solar-rooftop-programme/) and the notices linked from it, checked on 14 October 2026.
+
+| Document | Date shown | What it governs |
+| --- | --- | --- |
+| [Operational Guidelines for the component "CFA to Residential Consumers"](https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/07/202407021768035484.pdf) (PDF) | July 2024 upload | CFA structure, benchmark cost, method of implementation, vendor rules, grievance, MoU with states, plus Annexures 1 to 5 |
+| [Amendment in guidelines for the residential CFA component](https://mnre.gov.in/en/notice/amendment-in-guidelines-for-implementation-of-pm-surya-ghar-muft-bijli-yojana-for-the-component-of-cfa-to-residential-consumers/) (notice page and [PDF](https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2025/07/202507081690964295.pdf)) | 7 July 2025 | Amended guideline text. Read this alongside the original, because it is the later version |
+| [Clarification in the operational guidelines](https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2025/02/202502141369282676.pdf) (PDF) | February 2025 | Clarifications to the residential CFA guidelines |
+| [Process of vendor registration on the National Portal](https://mnre.gov.in/en/notice/process-of-vendor-registration-for-pm-surya-ghar-scheme-on-the-national-portal/) (notice with PDF) | 7 May 2024 | How installers register. Installers can follow the [registration guide](/blog/pm-surya-ghar-vendor-registration-installers/) |
+| [Framework for Vendor Rating Programme](https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/07/202407241429497422.pdf) (PDF) | July 2024 upload | How registered vendors are rated on the portal |
+| [Operational guidelines: Payment Security Mechanism and CFA for RESCO and Utility Led Aggregation models](https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/12/20241230101814137.pdf) (PDF) | December 2024 upload | The routes the residential guideline excludes |
+| [Admissibility of CFA for residential projects under Phase II](https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2023/01/2023012761.pdf) (PDF) | 27 January 2023 | The older Phase II residential CFA position |
+
+### What the technical specification annexure covers
+
+MNRE's "specifications" are not a separate brochure. For residential PM Surya Ghar they sit in Annexure 3 of the operational guidelines, titled technical specifications for rooftop solar plants installed under the CFA component. It lists the system components and sets minimum requirements for each. In summary:
+
+- **Modules.** Domestically manufactured modules using domestically manufactured cells, tested to the relevant IEC or BIS standards (for example IEC 61215 or IS 14286, and IS/IEC 61730), with a minimum fill factor of 75% and a power temperature coefficient of -0.4% per degree C or better for crystalline modules. Module capacity must also follow the ALMM modules order.
+- **Inverters.** Compliance with the Solar Photovoltaic Inverters Quality Control Order of 30 August 2017 and its amendments, IEC or BIS efficiency and environmental test standards, integrated MPPT, IEC 61000 electromagnetic compatibility, minimum 20% overload capability, IP54 indoor or IP65 outdoor enclosure, anti-islanding protection, and a built-in way to send system data through SIM, dongle or Wi-Fi.
+- **Mounting structure.** Elevated structures need a minimum ground clearance of 8 feet at the lowest point to qualify for CFA. Roof-mounted structures carry their own minimum clearance from the roof surface.
+- **Scope and warranty.** The vendor handles documentation, the project completion report, net meter supply and grid connection, attendance at DISCOM testing, and five years of comprehensive operation and maintenance. The guideline calls for a five-year system warranty from commissioning and the delivery of each component maker's warranty papers.
+
+The detailed clause list is long and MNRE can amend it, so treat the PDF as the reference. The DISCOM checks the installation against this annexure at inspection, so ask your vendor for a written compliance statement against it before the install. The [solar inverter regulations guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) explains how the inverter standards fit together.
 
 ## Net metering is a state decision, not a central one
 

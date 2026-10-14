@@ -4,24 +4,24 @@ excerpt: "How the Surya Gujarat scheme relates to PM Surya Ghar, the subsidy sla
 description: "Solar subsidy in Gujarat 2026: PM Surya Ghar assistance, SURYA Gujarat status, UGVCL, PGVCL, MGVCL, DGVCL and Torrent steps, last dates, documents."
 category: "Policy"
 date: 2026-07-23
-updatedDate: 2026-09-24
-readTime: "11 min"
+updatedDate: 2026-10-14
+readTime: "14 min"
 image: "/og/blog-surya-gujarat-scheme-guide.webp"
 author: "Akash Hirapara"
 keywords:
   - surya gujarat scheme
   - surya gujarat subsidy amount
   - gujarat solar subsidy
+  - solar subsidy in gujarat last date
+  - gujarat solar subsidy 2026
   - pm surya ghar gujarat
 faqs:
   - q: "Is the Surya Gujarat scheme still open for new applications in 2026?"
-    a: "The SURYA Gujarat portal run by Gujarat Urja Vikas Nigam Limited is still live, but the last new-application window shown on its homepage ran from 23 November 2023 to 8 December 2023, for PGVCL, MGVCL and Torrent Surat tenders. Its published discovered rates are dated 2020-21. New residential applications in Gujarat now route through the National Portal for PM Surya Ghar: Muft Bijli Yojana. Treat the state portal as a tracking and empanelment reference, not as the current intake channel, and confirm the live position with your discom."
+    a: "The SURYA Gujarat portal run by Gujarat Urja Vikas Nigam Limited is still live, but the last new-application window shown on its homepage ran from 23 November 2023 to 8 December 2023, for PGVCL, MGVCL and Torrent Surat tenders. Its published discovered rates are dated 2020-21. New residential applications in Gujarat now route through the National Portal for PM Surya Ghar: Muft Bijli Yojana. Treat the state portal as a tracking and empanelment reference, not as the current intake channel, and confirm the live position with your discom. For the central scheme, MNRE's guidelines set the implementation period to 31 March 2027, and no extension had been announced as of October 2026."
   - q: "How much subsidy does a 3 kW rooftop system get in Gujarat?"
     a: "Under the MNRE Operational Guidelines issued as Order No. 318/17/2024-Grid Connected Rooftop dated 16 March 2024, central financial assistance is ₹30,000 per kWp for the first 2 kW and ₹18,000 per kWp for the third kW. That works out to ₹78,000 at 3 kW, which is also the cap for a single household. Gujarat is not a special category state, so the higher ₹33,000 and ₹19,800 rates do not apply. Your actual amount depends on installed capacity, eligibility and the calendar year in which you registered."
-  - q: "Does the Gujarat state top-up stack on top of the PM Surya Ghar subsidy?"
-    a: "Stacking is permitted in principle. Clause (i) of the MNRE Operational Guidelines (2024) states that state and union territory governments may supplement the central assistance with an additional subsidy, and that the disbursement process for any state component must be integrated with the National Portal. The practical test is therefore simple: a real state top-up appears inside your portal application. Ask for the current government or discom order before you put any top-up into your budget."
-  - q: "Is the ₹10,000 per kW GEDA subsidy still available?"
-    a: "That figure is old. It was reported as a Gujarat Energy Development Agency subsidy of ₹10,000 per kW of installed PV with a maximum of ₹20,000 per consumer, released after installation and commissioning, according to PV Tech (2016). No current GEDA order confirming the same amount for a 2026 PM Surya Ghar application could be verified for this guide. Do not budget against it unless your discom or GEDA gives you the current order in writing."
+  - q: "Does a Gujarat state top-up stack on PM Surya Ghar, and is the old ₹10,000 per kW GEDA figure still valid?"
+    a: "Stacking is allowed in principle. Clause 5(i) of the MNRE guidelines lets states supplement the central assistance, provided the state component is disbursed through the National Portal. We could not find a current Gujarat order confirming any state top-up as of October 2026. The ₹10,000 per kW (maximum ₹20,000 per consumer) GEDA figure was reported by PV Tech in 2016 and should not be budgeted against unless your discom or GEDA gives you the current order in writing. A real top-up appears inside your portal application."
   - q: "Which discom handles rooftop solar in Gujarat?"
     a: "Use the licensee printed on your electricity bill, not a district list. The four GUVNL distribution companies are UGVCL, MGVCL, PGVCL and DGVCL, each covering a different part of the state. Some consumers, including parts of Ahmedabad, Gandhinagar and Surat, are served by Torrent Power, a private distribution licensee. Your licensee controls feasibility, the connectivity agreement, the net meter and the inspection that releases your subsidy."
   - q: "What rate does Gujarat pay for surplus rooftop solar exported to the grid?"
@@ -51,6 +51,16 @@ This guide separates three things that get blended together. First, what Surya G
 
 **Short version.** Surya Gujarat is Gujarat's state rooftop solar programme, run by GUVNL through UGVCL, MGVCL, PGVCL, DGVCL and Torrent Power. In 2026 the subsidy that actually disburses is central: ₹30,000 per kWp for the first 2 kW and ₹18,000 for the third, capped at ₹78,000, per MNRE (2024). Any Gujarat state top-up must come through the National Portal, backed by a current order.
 
+## Is the SURYA Gujarat state top-up open right now?
+
+**No verified state top-up is open for new residential applications as of October 2026.** Here is what that rests on.
+
+- The SURYA Gujarat portal (GUVNL) still shows its last new-application window as 23 November 2023 to 8 December 2023, and its discovered rates are labelled 2020-21.
+- We searched for a Gujarat government, GEDA or GUVNL order announcing a current per-kW residential top-up and found none. Installer blogs quote different figures (₹10,000 per kW, ₹15,000 per kW, or flat sums for 1 to 3 kW), and none of them cites a notification.
+- MNRE's guidelines (clause 5(i)) require any state component to be disbursed through the National Portal, so a real top-up would show up in your application, not only on a quotation.
+
+If a vendor tells you Gujarat will add an amount, ask for the order number and the date. If they cannot give one, plan your budget on the central assistance only. This position can change if the state issues a new order, so re-check GEDA, GUVNL and your discom before you sign.
+
 ## What Surya Gujarat actually is
 
 Surya Gujarat is a single-window rooftop photovoltaic portal operated by GUVNL, supported by GIZ and AHAsolar. It handles vendor empanelment, consumer applications and tracking. It is a delivery channel and an empanelment register, not a separate cheque.
@@ -79,11 +89,11 @@ The slabs are set in the MNRE Operational Guidelines issued as Order No. 318/17/
 | Third kW | ₹18,000 per kWp | Yes |
 | Above 3 kW | No further assistance for a single household | Yes |
 | Special category states | ₹33,000 and ₹19,800 per kWp | No |
-| Group housing society common facilities | ₹18,000 per kWp, up to the lower of 20 x 3 kW or 100 kW | Yes |
+| Group housing society common facilities | ₹18,000 per kWp, up to 500 kWp at 3 kWp per house | Yes |
 
 Gujarat is not on the special category list, per MNRE (2024). That list covers Uttarakhand, Himachal Pradesh, Jammu and Kashmir, Ladakh, the North East including Sikkim, and the island union territories. A Gujarat household uses the standard rates.
 
-One detail decides which year's rates apply. Subsidy rates are notified per calendar year and apply to beneficiaries who registered on the National Portal during that year, per MNRE Office Memorandum dated 10 June 2022. Your registration date, not your commissioning date, anchors the slab. Our [Gujarat subsidy overview](/blog/solar-subsidy-gujarat-2026/) tracks the state picture.
+One detail decides which year's rates apply. Subsidy rates are notified per calendar year and apply to beneficiaries who registered on the National Portal during that year, per MNRE Office Memorandum dated 10 June 2022. Your registration date, not your commissioning date, anchors the slab. For other states side by side, see our [state-wise solar subsidy comparison](/blog/solar-subsidy-all-states/).
 
 ## Who is eligible, and who is excluded
 
@@ -97,6 +107,26 @@ The exclusions are specific rather than general:
 - **Group housing society connections** claiming the common-facility rate, unless dedicated to common facilities only. That capacity ceiling also counts plants residents already installed.
 
 GERC Notification No. 5/2016 adds a floor and a ceiling: not less than 1 kW, not more than 1 MW. After its First Amendment (Notification No. 2 of 2017), residential consumers were freed from the 50% of sanctioned load cap that still binds other categories. Our [discom glossary entry](/glossary/discom/) defines the licensee terms.
+
+## Gujarat discoms: who serves which area
+
+Use the licensee named on your electricity bill. The table below is a guide to the usual regional split, drawn from GUVNL's company profile and public references. Boundaries at city edges differ by source (Gandhinagar and Bharuch are two examples), so the bill, not the table, decides.
+
+| Licensee | Region | Typical areas (verify on your bill) |
+| --- | --- | --- |
+| UGVCL | North Gujarat | Mehsana, Banaskantha, Patan, Sabarkantha, Aravalli and parts of Gandhinagar district |
+| MGVCL | Central Gujarat | Vadodara, Anand, Kheda, Panchmahal, Dahod, Mahisagar, Chhota Udaipur |
+| PGVCL | Saurashtra and Kutch | Rajkot, Jamnagar, Bhavnagar, Junagadh, Kutch, Porbandar, Amreli, Surendranagar, Morbi |
+| DGVCL | South Gujarat | Surat district outside the city licence area, Bharuch, Navsari, Valsad, Tapi, Narmada, Dang |
+| Torrent Power | Private licensee | Ahmedabad and Gandhinagar city areas and an area of Surat city |
+
+The steps are the same for every licensee, but the contact points differ:
+
+1. **UGVCL, MGVCL, PGVCL, DGVCL.** Register on the National Portal, choose the discom from the portal list, and pick a vendor registered with it. The discom does the physical inspection and net metering under the GERC rules.
+2. **Torrent Power.** The portal application still starts on the National Portal, but inspection, the net meter and the connectivity agreement are Torrent's. Ask the vendor which Torrent office handles your area before the design is frozen.
+3. **All licensees.** Ask for written confirmation of the inspection date, the meter type and who submits completion documents. Do not assume that another licensee's timeline applies to yours.
+
+We have not published per-discom turnaround figures. Earlier versions of Gujarat guides quoted fixed day counts per discom, but we found no published discom data to support them, so this guide uses the stage durations prescribed in the GERC regulations (table below) instead.
 
 ## How to apply through the portal and your discom
 
@@ -182,6 +212,21 @@ This is labelled arithmetic on published benchmark figures. It is not a quotatio
 
 Central assistance covers ₹78,000 of a ₹1,45,000 benchmark, about 53.8%. Quotations differ from the benchmark in both directions, and assistance is paid on installed capacity, not on what you spent. MNRE publishes its own examples on the same basis: 1.5 kW yields ₹45,000 and 2.5 kW yields ₹69,000, per MNRE (2024). Size to your consumption first, using our [string sizing calculator](/string-sizing-calculator/) once you have module and [on-grid inverter](/on-grid-inverter/) candidates.
 
+## What to put in a Gujarat solar quote
+
+An installer should show the gross project cost separately from any assistance. A projected subsidy is not cash received, and payback depends on your actual bill, roof and export treatment. Ask for these items in writing:
+
+| Item | Evidence to request |
+| --- | --- |
+| Central PM Surya Ghar assistance | Amount and status shown in your own portal application |
+| Gujarat state top-up, if claimed | The current government or discom order, who is eligible, the claim channel and funding status |
+| Full system cost | Itemised modules, inverter, structure, cables and protection, meter work, labour and tax |
+| Modules | Exact model numbers and DCR status. MNRE's [ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) lists modules and cells, not inverters |
+| Inverter | Exact model, datasheet and the grid and safety documents your discom asks for |
+| Export credit | The GERC billing terms for your commissioning year |
+
+Keep any unverified state benefit out of the base case. For a roof-specific generation estimate, use the [solar quotation checklist](/blog/solar-quotation-checklist/) and the [irradiance guide](/blog/solar-irradiance-data-india-statewise/).
+
 ## Why Gujarat applications get rejected or stall
 
 Most refusals are documentary or technical. Very few are discretionary.
@@ -211,7 +256,21 @@ This is the section most sales conversations skip. Every point comes from the pu
 
 **The state portal's own rates are old.** Its discovered rates page is labelled 2020-21, weak ground for arguing a 2026 quotation down.
 
-On our own scope: Qbits manufactures solar inverters and does not install, so we cannot file your application. We can document the inverter side for your discom.
+On our own scope: Qbits manufactures solar inverters and does not install, so we cannot file your application. For an on-grid system, see our [on-grid inverter range](/on-grid-inverter/) and its datasheets for the documents your discom asks for. To find installers and service partners near you, use the [Qbits partner directory](/authorized-service-partners/) and then verify each one on the National Portal as described in our [vendor guide](/blog/empanelled-vendor-pm-surya-ghar/).
+
+## Solar subsidy in Gujarat: is there a last date?
+
+There are three different "dates" people mix up, and they have different answers.
+
+| What you mean | What is published | Source |
+| --- | --- | --- |
+| Central PM Surya Ghar scheme end | Implementation period runs to **31 March 2027** | MNRE guidelines, clause 2(d) |
+| A deadline for your own application | No household-level cut-off is stated in the guidelines | MNRE guidelines |
+| SURYA Gujarat state window | Last new-application window shown: 23 November 2023 to 8 December 2023 | SURYA Gujarat portal (GUVNL) |
+
+As of October 2026 we found no official notice extending PM Surya Ghar beyond 31 March 2027, and none ending it earlier. That does not make waiting safe. Assistance is released only after your system is installed, inspected by the discom and approved on the portal, so a project started close to the end date can miss the window if inspection slips. Work backwards from the end of March 2027, allow for your discom's queue, and ask the vendor in writing what happens to the contract if the application is not approved in time.
+
+Any "last date" shown in a social post, WhatsApp forward or sales pitch should be checked against the National Portal and your discom before you pay a deposit.
 
 ## The Bottom Line
 
@@ -223,4 +282,4 @@ Three things to do next:
 - **Get the top-up in writing or leave it out.** Ask your discom or GEDA for the current state-benefit order, and exclude any unverified top-up from your net cost.
 - **Document the inverter side before you commit.** Talk to our team via [contact us](/contact-us/) for the datasheets and compliance documents your discom asks for at inspection.
 
-**Sources checked 24 September 2026:** MNRE Order No. 318/17/2024-Grid Connected Rooftop (16 March 2024); MNRE OM F. No. 318/6/2022-GCRT (10 June 2022); GERC Notification No. 5/2016 (18 June 2016) with Notification No. 2 of 2017; MNRE state-wise installed renewable capacity as on 31 August 2026; PIB and MNRE (25 March 2026); SURYA Gujarat portal, GUVNL; JMK Research (2026); PV Tech (2016); SaurEnergy (2020, 2026). Rules change and vary by discom, so verify with your own licensee first.
+**Sources checked 24 September 2026 and re-checked 14 October 2026 (state top-up status, scheme end date, loan terms, discom areas):** MNRE Order No. 318/17/2024-Grid Connected Rooftop (16 March 2024); MNRE OM F. No. 318/6/2022-GCRT (10 June 2022); GERC Notification No. 5/2016 (18 June 2016) with Notification No. 2 of 2017; MNRE state-wise installed renewable capacity as on 31 August 2026; PIB and MNRE (25 March 2026); SURYA Gujarat portal, GUVNL; JMK Research (2026); PV Tech (2016); SaurEnergy (2020, 2026); MNRE operational guidelines for residential CFA (clauses 2(d), 5, 6, 7), as read on 14 October 2026; PIB release of March 2026 for loan terms; GUVNL company profile for discom areas. The National Portal and PIB pages returned access errors on 14 October 2026, so figures from them are taken from the MNRE guideline text and from news summaries of PIB releases. Rules change and vary by discom, so verify with your own licensee first.

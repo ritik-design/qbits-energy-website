@@ -77,7 +77,7 @@ Scope fix karna ek procedure hai, feeling nahi. Har vendor ko same bill of quant
 
 Yeh chha steps order mein chalaein.
 
-1. Apna requirement likhein: array DC capacity in Wp, inverter AC rating in kW, phase, aur on-grid ya hybrid.
+1. Apna requirement likhein: array DC capacity in Wp, inverter AC rating in kW, phase, aur [on-grid](/on-grid-inverter/) ya hybrid.
 2. Quote scope declare karein: inverter only, supply only, installed inverter, ya complete system. Vendor ko choose karne ka option na dein.
 3. Har line item ko alag maangein, merged "supply and installation" line accept na karein.
 4. Tax ko line-wise maangein, HSN code ke saath.
@@ -115,7 +115,7 @@ Do drivers par confusion sabse zyada hoti hai. Phase choice aapke inverter ke la
 
 Doosra MPPT hai. Zyada MPPT ko marketing number ki tarah na dekhein. Agar array ek hi tilt aur azimuth par hai to single MPPT theek kaam karta hai. Do roof faces ya partial shading par dual MPPT genuinely behave better karta hai, jaise [dual MPPT versus single MPPT](/blog/dual-mppt-vs-single-mppt/) mein explain kiya gaya hai.
 
-Hybrid ka rate structure alag hai kyunki usme battery ka question aa jata hai. Uska full breakdown [hybrid inverter price analysis](/blog/hybrid-inverter-price-india/) mein hai.
+[Hybrid](/hybrid-inverter/) ka rate structure alag hai kyunki usme battery ka question aa jata hai. Uska full breakdown [hybrid inverter price analysis](/blog/hybrid-inverter-price-india/) mein hai.
 
 ## Per-watt sochna: kisi bhi quote ko comparable ₹/W mein badlein
 

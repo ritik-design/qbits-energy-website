@@ -40,7 +40,7 @@ What follows: who each company is by published footprint, the home UPS versus gr
 > **TL;DR**
 > - Luminous publishes 38+ years of experience, 41+ countries, 8 manufacturing units and a 100K+ channel network on its own about page, checked 24 September 2026. No specialist matches that retail reach.
 > - Luminous sells panels, solar batteries, charge controllers, home inverters, high capacity inverters and ConnectX monitoring. Qbits sells solar inverters only: no panels, no batteries, no installation.
-> - Around half the Luminous solar inverter page is off-grid and PCU product. Those behave differently from a grid-tied string inverter, and buyers pick the wrong category often.
+> - Around half the Luminous solar inverter page is off-grid and PCU product. Those behave differently from a [grid-tied string inverter](/on-grid-inverter/), and buyers pick the wrong category often.
 > - Qbits publishes an expandable warranty with no base term defined in public material. Luminous lists a 2-year base warranty, while one store listing showed 36 months. Compare documents, not numbers.
 > - Both must meet CEA Regulation 11(6) trip settings to connect, and your DISCOM may prescribe a narrower range.
 > - Buyers who want one brand, one retail counter and one installer for the whole system should pick Luminous. This page says so plainly.

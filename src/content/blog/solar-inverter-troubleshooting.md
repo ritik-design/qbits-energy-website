@@ -4,7 +4,7 @@ excerpt: "Solar inverter troubleshooting in order: safe isolation, status lights
 description: "Diagnose 15 common solar inverter problems safely: low output, tripping, overheating, earth faults, communication errors and hybrid battery faults."
 category: Maintenance
 date: 2026-03-13
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: 11 min
 image: "/og/blog-solar-inverter-troubleshooting.webp"
 author: Keyur Rakholiya
@@ -99,27 +99,29 @@ Fifteen symptoms is too many to hold in your head. Four states is not. Place the
 
 The ladder matters because steps 2 and 3 get misdiagnosed as step 4. An owner who reports "inverter dead" when the real state is "derating at 2pm in May" gets the wrong engineer with the wrong parts.
 
-## Symptom, likely cause, and the correct next step
+## The 15 common problems: cause, safe check and when to call
 
-This table is a routing device, not a diagnosis. One displayed phrase can have several causes, and the manufacturer manual for your exact model and firmware supplies the definition.
+This table is a routing device, not a diagnosis. One displayed phrase can have several causes, and the manufacturer manual for your exact model and firmware supplies the definition. Every "safe check" is something you can do from outside the enclosure. The last column says when the problem stops being an owner task.
 
-| Symptom | What it may indicate | Correct next step |
-| --- | --- | --- |
-| No display in daylight | No DC, no AC, or internal supply failure | Confirm breaker positions and grid presence, then escalate |
-| Display on, zero AC output | Night, standby, protection event, or PV-side loss | Record time, local status, and exact code |
-| Output lower than expected | Soiling, shade, temperature, clipping, or a real fault | Compare like-for-like days using the [low output guide](/blog/solar-inverter-low-output-causes-india/) |
-| Grid over-voltage trip | Weak or long feeder, high local export, or wiring voltage rise | See [grid overvoltage](/blog/solar-inverter-grid-overvoltage/) and involve the DISCOM |
-| Grid under-voltage trip | Utility-side voltage condition, not automatically a PV defect | Log frequency and duration; do not alter thresholds |
-| Frequency error | Grid interface limit or measurement issue | Record the reading and code; leave grid settings alone |
-| Insulation resistance or Riso fault | Moisture, damaged DC insulation, or a degraded cable run | Stop. This needs a licensed electrician with an insulation tester |
-| Ground fault or GFDI alarm | Possible earth path on the DC side | Stop and read the [ground fault guide](/blog/solar-inverter-ground-fault-guide/) before touching anything |
-| Arc fault alarm | Possible dangerous DC arc, or detection sensitivity | Keep clear of the array circuit and arrange inspection |
-| Heat derating or over-temperature | Ambient heat, blocked ventilation, or fan failure | Check clearances visually; see [inverter overheating](/blog/inverter-overheating/) |
-| Nuisance tripping on and off | Protection reacting to a marginal condition | Log the pattern with timestamps before any reset |
-| Repeated breaker trip | Wiring, protection coordination, or equipment fault | Do not keep resetting; escalate immediately |
-| Noise or beeping at night | Alarm, standby, or auxiliary power behaviour | Record the pattern; see [night beeping](/blog/solar-inverter-beeping-at-night-fix/) |
-| App offline or Wi-Fi lost | Logger, router, SIM, account, or cloud issue | Compare local display first, then use the [Wi-Fi fix guide](/blog/solar-inverter-wifi-not-connecting-fix/) |
-| Missing historical data | Account binding, logger upload, or platform issue | Note the last good timestamp and contact platform support |
+| # | Symptom | What it may indicate | Safe check or next step | Call an electrician or service when |
+| --- | --- | --- | --- | --- |
+| 1 | No display in daylight | No DC, no AC, or internal supply failure | Confirm breaker positions and grid presence | Both are normal and the unit stays dark |
+| 2 | Display on, zero AC output | Night, standby, protection event, or PV-side loss | Record time, local status, and exact code | It persists in good sun after one documented restart |
+| 3 | Output lower than expected | Soiling, shade, temperature, clipping, or a real fault | Compare like-for-like days using the [low output guide](/blog/solar-inverter-low-output-causes-india/) | The shortfall is steady on clear days, or one MPPT input reads near zero |
+| 4 | Grid over-voltage trip | Weak or long feeder, high local export, or wiring voltage rise | See [grid overvoltage](/blog/solar-inverter-grid-overvoltage/) and keep timestamps | Trips recur daily. Involve the installer and the DISCOM |
+| 5 | Grid under-voltage trip | Utility-side voltage condition, not automatically a PV defect | Log frequency and duration. Do not alter thresholds | It recurs, or other appliances also misbehave |
+| 6 | Frequency error | Grid interface limit or measurement issue | Record the reading and code. Leave grid settings alone | It repeats outside a known grid disturbance |
+| 7 | Insulation resistance fault | Moisture, damaged DC insulation, or a degraded cable run | Stop. Keep clear of the array circuit | Immediately. This needs a licensed electrician with an insulation tester |
+| 8 | Ground fault alarm | Possible earth path on the DC side | Read the [ground fault guide](/blog/solar-inverter-ground-fault-guide/) before touching anything | Immediately |
+| 9 | Arc fault alarm | Possible dangerous DC arc, or detection sensitivity | Keep clear of the array circuit | Immediately. Arrange inspection before any restart |
+| 10 | Heat derating or over-temperature | Ambient heat, blocked ventilation, or fan failure | Check clearances visually. See [inverter overheating](/blog/inverter-overheating/) | It persists in mild weather or after clearing obstructions |
+| 11 | Nuisance tripping on and off | Protection reacting to a marginal condition | Log the pattern with timestamps before any reset | The cycle repeats on several days |
+| 12 | Repeated breaker trip | Wiring, protection coordination, or equipment fault | Do not keep resetting | Immediately |
+| 13 | Noise or beeping at night | Alarm, standby, or auxiliary power behaviour | Record the pattern. See [night beeping](/blog/solar-inverter-beeping-at-night-fix/) | There is a burning smell, or the alarm changes pattern |
+| 14 | App offline or Wi-Fi lost | Logger, router, SIM, account, or cloud issue | Compare the local display first, then use the [Wi-Fi fix guide](/blog/solar-inverter-wifi-not-connecting-fix/) | The display is also dead, or the logger stays offline after router checks |
+| 15 | Missing historical data | Account binding, logger upload, or platform issue | Note the last good timestamp and contact platform support | Data gaps coincide with real production gaps |
+
+For code-level help on items 4 to 9 and 11, the [solar inverter error codes guide](/blog/solar-inverter-error-codes-guide/) explains how to group a fault code when you do not have the manual in front of you. When a problem reaches the last column, raise it on the [Qbits support helpdesk](https://support.qbitsenergy.com/helpdesk/qbits-service-620){target="_blank" rel="noopener"} or find a partner through the [authorized service partners directory](/authorized-service-partners/).
 
 Read across the whole row. The value of the table is that it pairs a plausible cause with an action that does not make things worse.
 
@@ -144,26 +146,26 @@ Three quick tests separate them without opening anything.
 
 This is arithmetic on assumed readings, shown to demonstrate the method. It is not field data from an installation.
 
-A dual-MPPT inverter carries two strings of 10 Adani ASB-M10-144-580 modules. The datasheet rates each module at Vmp 43.98 V and Imp 13.19 A at standard test conditions. Its Voc temperature coefficient is -0.24 percent per degree C. Assume a hot afternoon, cell temperature near 55 C, plane-of-array irradiance near 700 W/m2.
+A dual-MPPT inverter carries two strings of 10 modules each. Assume each module has Vmp 42.0 V and Imp 13.0 A at standard test conditions, and a voltage temperature coefficient of -0.28 percent per degree C. These are illustrative figures. Use your own module datasheet. Assume a hot afternoon, cell temperature near 55 C, and plane-of-array irradiance near 700 W/m2.
 
 Expected string voltage:
 
-- Temperature correction = -0.24% x (55 - 25) = -7.2%
-- Vmp per module = 43.98 x 0.928 = 40.8 V
-- Vmp per string of 10 = 408 V
+- Temperature correction = -0.28% x (55 - 25) = -8.4%
+- Vmp per module = 42.0 x 0.916 = 38.5 V
+- Vmp per string of 10 = 385 V
 
 Expected string current:
 
-- Imp scales roughly with irradiance = 13.19 x (700 / 1000) = 9.2 A
+- Imp scales roughly with irradiance = 13.0 x (700 / 1000) = 9.1 A
 
 Now the readings an electrician takes at the inverter:
 
 | Input | DC voltage | DC current | DC power |
 | --- | --- | --- | --- |
-| MPPT 1 | 407 V | 9.1 A | 3.70 kW |
-| MPPT 2 | 405 V | 4.6 A | 1.86 kW |
+| MPPT 1 | 384 V | 9.0 A | 3.46 kW |
+| MPPT 2 | 382 V | 4.5 A | 1.72 kW |
 
-Read the result. Voltage on both inputs sits within 0.5 percent of each other, and within 1 percent of the calculated 408 V. Module count, wiring polarity, and the temperature assumption are therefore sound on both strings. Current on MPPT 2 is almost exactly half of MPPT 1. That is an array-side signature. A sub-string in a parallel pair has dropped out, a string fuse has cleared, a connector has degraded, or half the string is shaded.
+Read the result. Voltage on both inputs sits within 0.5 percent of each other, and within 1 percent of the calculated 385 V. Module count, wiring polarity, and the temperature assumption are therefore sound on both strings. Current on MPPT 2 is almost exactly half of MPPT 1. That is an array-side signature. A sub-string in a parallel pair has dropped out, a string fuse has cleared, a connector has degraded, or half the string is shaded.
 
 An inverter-side MPPT failure looks different. The tracker cannot hold the maximum power point, so voltage wanders or collapses towards open-circuit while current stays low. Voltage that is correct and stable exonerates the tracker.
 
@@ -189,7 +191,7 @@ Requires a licensed electrician, without exception:
 5. Any change to grid protection settings, which follow the DISCOM connection standard rather than a preference.
 6. Any repeated breaker trip.
 
-Rule 1 deserves a plain explanation. String voltages on a residential array routinely exceed 400 V DC and climb further in cool weather. That is not a household measurement.
+Rule 1 deserves a plain explanation. String voltages on a residential array can exceed 400 V DC and climb further in cool weather. That is not a household measurement.
 
 ## The contrarian bit: resetting is diagnosis, not repair
 

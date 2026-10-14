@@ -4,7 +4,7 @@ excerpt: "Solar insurance in India explained: what fire, burglary and breakdown 
 description: "Solar insurance in India for 2026: what rooftop policies cover, who sells them, dated premium examples, what home insurance includes and how to claim."
 category: Guide
 date: 2026-07-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: 12 min
 image: "/og/blog-solar-insurance-india.webp"
 author: Akash Hirapara
@@ -21,15 +21,15 @@ faqs:
 - q: Is an inverter warranty the same as insurance?
   a: No. A warranty responds to a defect in the product under the manufacturer's written terms. Insurance responds to an external insured event such as fire, storm, or theft, subject to the policy. The two have different triggers, exclusions, and claim procedures. A lightning strike is usually a warranty exclusion and an insurance trigger, while a component that fails in year three is usually the reverse.
 - q: What is the premium for solar insurance in India?
-  a: There is no published tariff rate. Basic insurance for a solar project costs 0.2 to 0.5 percent of project cost per year, according to Anand Rathi Insurance Brokers quoted by Saur Energy (2023). Treat that as an industry-observed range for project policies, not a quote for your roof. Residential add-on pricing through a home policy is usually lower in absolute rupees because the declared value is smaller. Ask two or three insurers for dated written quotes on identical scope and deductible.
+  a: There is no published tariff rate. Basic insurance for a solar project costs 0.2 to 0.5 percent of project cost, according to Anand Rathi Insurance Brokers in a Saur Energy interview (2023). Treat that as an industry-observed range for project policies, not a quote for your roof. Residential add-on pricing through a home policy is usually lower in absolute rupees because the declared value is smaller. Ask two or three insurers for dated written quotes on identical scope and deductible.
 - q: Does a standard fire policy cover a burnt-out solar inverter?
   a: Usually not. The Standard Fire and Special Perils wording excludes damage caused by over-running, excessive pressure, short circuiting, arcing, self-heating, or leakage of electricity, and that exclusion applies to the particular electrical machine affected. Other equipment destroyed by a fire that machine starts is still covered. A machinery breakdown policy reverses this for the insured machine. If the inverter matters to you, add breakdown cover or move to an all-risk form.
 - q: Is theft of solar panels and cabling covered?
   a: Only if you buy for it. A fire and perils policy covers malicious damage during a riot or strike, but ordinary theft needs burglary cover or an all-risk form. Many burglary wordings require forcible and violent entry, which is awkward for an open rooftop. Theft of cabling alone is a common exclusion. Ask the insurer to confirm in writing how an unattended rooftop and a copper cable loss would be treated.
 - q: What documents do I need to make a solar insurance claim?
   a: Keep the itemised tax invoice showing panel, inverter, structure, and cabling values separately, the equipment serial numbers, the single line diagram, the commissioning and earthing test reports, the DISCOM approval or net meter record, and dated photographs of the installed system. Add maintenance logs and any grid incident report after a storm. Insurers also require prompt notification, a police FIR for theft, and reasonable steps to prevent further damage.
-- q: Do C&I solar owners need business interruption cover?
-  a: If the plant offsets a production load or sells under a power purchase agreement, lost generation during a repair outage is often larger than the repair bill. Business interruption is not automatic. It is bought as a consequential loss section attached to the underlying property policy, and it must respond to the same perils as that policy. Lenders financing the asset frequently require it alongside property and breakdown cover.
+- q: Does Tata AIG sell solar insurance, and what does it cost?
+  a: Tata AIG is on MNRE's February 2024 list of insurers with solar-related products, but both of its listed products are aimed at manufacturers and project owners. They are the Weather Insurance Policy, which pays on deviation of a weather index, and the Solar Module Warranty Insurance, which insures a module maker's long-term warranty obligations. A homeowner's rooftop is normally covered through the Bharat Griha Raksha home policy, whose wording lists solar panels, or through a fire and special perils package. None of the Tata AIG pages checked on 14 October 2026 printed a solar premium, so the price is a quote based on the declared value, location and covers chosen.
 - q: Should I insure the system during installation?
   a: Yes, and it is usually the contractor's obligation. During storage, erection, and testing, an Erection All Risk or storage-cum-erection policy covers physical loss to the equipment and third-party liability. Confirm who holds it, what period it runs for, and exactly when cover shifts to your operating policy at handover. A gap between contractor cover ending and owner cover starting is common and avoidable.
 featured: false
@@ -47,15 +47,16 @@ Solar insurance in India is not one product. It is a stack of covers that insure
 > - Solar panels are a named covered additional structure under Home Building Cover in the Bharat Griha Raksha policy, according to the IRDAI Key Features Document (2021).
 > - The Standard Fire and Special Perils wording excludes short circuiting, arcing, and self-heating in the affected machine, so it alone will not pay for a burnt-out inverter.
 > - Hail caused 27 percent of natural catastrophe and extreme weather solar losses by claim amount since 2019, according to AXIS Capital (2025), on global data.
-> - Project insurance costs 0.2 to 0.5 percent of project cost per year, according to Anand Rathi Insurance Brokers quoted by Saur Energy (2023).
-> - MNRE lists insurers with solar-specific products, via Circular No. 283/72/2019-GRID SOLAR (2020), updated 26 February 2024.
+> - Basic project insurance costs 0.2 to 0.5 percent of project cost, according to Anand Rathi Insurance Brokers in a Saur Energy interview (2023).
+> - MNRE lists six insurers with solar-related products in its circular of 26 February 2024. Most of those products insure manufacturers and project owners, not a home rooftop.
+> - Tata AIG's two listed solar products are a weather-index policy and a module-warranty policy. A homeowner usually buys Tata AIG cover through its Bharat Griha Raksha home policy.
 > - Warranty answers defects. Insurance answers external events. Neither replaces the other.
 
 **Short version.** Solar insurance in India means combining a fire and special perils base with burglary cover for theft, machinery breakdown cover for inverter failure, and, for commercial sites, business interruption. A standard home policy can cover a rooftop array as an additional structure, but only against its listed insured events. Warranty covers defects, not weather. Set the sum insured at replacement cost.
 
 This article is general information, not insurance advice.
 
-## What actually threatens a rooftop system in India
+## What can go wrong on an Indian rooftop
 
 Indian rooftop losses cluster around a short list of causes, and most are environmental rather than mechanical. Weather drives the bulk of physical loss. Electrical events sit between insurance and warranty, which is why they cause the most arguments at claim time. Hail caused 27 percent of natural catastrophe and extreme weather solar losses by claim amount since 2019, according to AXIS Capital (2025), on global data.
 
@@ -69,6 +70,17 @@ Indian rooftop losses cluster around a short list of causes, and most are enviro
 | Fire | Roof fire, or fire at a DC joint | Fire policy, subject to the electrical exclusion |
 | Monkey, rodent, bird damage | Chewed insulation, loose connectors | Usually excluded, sometimes an all-risk extension |
 | Earthquake | Roof failure taking the array down | Add-on only, excluded from the fire policy |
+
+The table compresses six different failure stories, and they behave differently at claim time.
+
+- **Storm and cyclone damage.** Modules are rated for a mechanical wind load, but the rating means little if the structure or its anchoring gives way first. Ask the installer for the structure's design wind speed and the fixing method for your roof type.
+- **Hail.** Glass breakage or micro-cracks reduce a module's output, and a cracked module in a string can pull the whole string down. A dated photograph and the module serial number make a hail claim much easier to settle.
+- **Fire and lightning.** A loose or degraded DC connector can arc, and a direct or induced lightning strike can damage the inverter even when the panels survive. These sit across the fire policy, the breakdown cover and the warranty exclusions, which is why the next sections separate them.
+- **Theft.** Modules, copper DC cable and earthing strips are portable and have resale value. Insurers read an open rooftop differently from a locked room, so confirm the burglary wording in writing.
+- **Falling objects and accidental damage.** Tree branches, a collapsed water tank or debris from a neighbouring building are external events, but plain fire and perils cover may not list them. An all-risk form usually does.
+- **Inverter failure from wear.** This is the one item on the list that is not an external event. Capacitors and fans age in hot ambient conditions, and the response is the manufacturer warranty, not insurance. The [solar inverter failure guide](/blog/solar-inverter-failure/) lists the common failure modes and [what to do when your inverter fails](/blog/solar-inverter-failure-action/) covers the first steps.
+
+The first five are insurance territory. The last is warranty territory. Every purchase decision below follows from that split.
 
 Monkey and rodent damage to DC cabling is widely reported by Indian installers, but no published dataset quantifies it, so treat mesh guarding as a maintenance decision. Theft is better documented: police in Panchkula arrested three people over the theft of six solar panels from a golf club, according to The Tribune, which separately reported copper wiring stolen from university rooftops in Amritsar.
 
@@ -99,7 +111,51 @@ Solar cover in India is assembled, not bought off a shelf. Four forms do almost 
 
 The exclusion that matters most sits in the fire policy. The Standard Fire and Special Perils wording excludes loss caused by over-running, short circuiting, arcing, self-heating, or leakage of electricity from any cause including lightning, and it applies to the particular electrical machine affected. Other equipment destroyed by a fire that machine starts is still covered. The machine that failed is not. Machinery breakdown cover reverses this for the insured machine, which is why the product exists.
 
-MNRE publishes a list of insurers offering solar-specific products, through Circular No. 283/72/2019-GRID SOLAR dated 7 January 2020, updated 26 February 2024. Named products include the New India Solar Energy Insurance Policy and Cholamandalam MS Chola Solar Plant Protect. Several insure the manufacturer's warranty obligation, not your roof.
+## Who sells solar insurance in India
+
+Two different groups sell cover that carries the word "solar", and mixing them up is the most common mistake in this search.
+
+The first group is specialist products for the solar industry. MNRE keeps a list of them: Circular F. No. 283/72/2019-GRID SOLAR, first issued on 7 January 2020 and re-issued with an updated insurer list on 26 February 2024 after consultation with the Department of Financial Services and IRDAI. The 2024 annexure names six insurers and seven products.
+
+| Insurer | Product (MNRE annexure, 26 Feb 2024) | UIN | Period | Who it protects |
+| --- | --- | --- | --- | --- |
+| The New India Assurance Co. Ltd. | New India Solar Energy Insurance Policy | IRDAN190CP0017V01201819 | Annual | Module sellers (sales cover) and, if the maker becomes insolvent, buyers (buyers cover) |
+| Tata AIG General Insurance | Weather Insurance Policy | IRDAN108CP0071V02201819 | Based on risk period | Losses from deviation of an observed weather index |
+| Tata AIG General Insurance | Solar Module Warranty Insurance | IRDAN108CP0010V01202122 | Premium paid for one year of production; protection usually runs for the 25-year warranty | Module manufacturers' warranty liabilities; buyers if the manufacturer becomes insolvent (Section B) |
+| HDFC ERGO General Insurance | Solar Panel Warranty Insurance | IRDAN125CP0003V01202021 | Annual, with cover up to the manufacturer's warranty period | Manufacturers and, on insolvency, module buyers |
+| ICICI Lombard General Insurance | Photovoltaic Panel Warranty Insurance | IRDAN115CP0002V01201920 | Product and performance cover periods, see note below | Performance degradation and defects when the warranty provider is insolvent |
+| IFFCO-Tokio General Insurance | Photovoltaic Sales Policy | IRDAN106CP0003V01201819 | One year | Manufacturer's performance and product warranties; buyers via the Photovoltaic Buyer Policy if the maker is insolvent |
+| Cholamandalam MS General Insurance | Chola Solar Plant Protect Policy | IRDAN123RP0011V01201819 | Annual | Shortfall in deemed energy production from lack of solar irradiation |
+
+For the ICICI Lombard product, the annexure lists cover periods of 10 to 12 years for product and 25 to 30 years for performance.
+
+Source: [MNRE circular dated 26 February 2024](https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/02/202402261220743031.pdf), Annexure. Product names, UINs and summaries are as printed there; the circular carries no premium. Wording documents are available from the insurers, for example [IFFCO-Tokio's policy wordings page](https://www.iffcotokio.co.in/policy-wordings) lists both the Photovoltaic Sales Policy and the Photovoltaic Buyer Policy.
+
+Read the last column before you phone anyone. Five of the seven products insure a module manufacturer's warranty promise, and the other two pay on a weather index or an energy-production shortfall. They protect the module maker, the lender or the developer. None of the seven is described as cover for physical damage to a 5 kW roof from hail or theft, and none is a product a household would normally buy. That is one reason searches for a solar insurance price land on pages that never print one.
+
+The second group is the cover a rooftop owner can actually buy. That is a home policy that names the panels, or a fire and special perils package, optionally with burglary and breakdown covers. The next two sections show how Tata AIG handles each route, because readers ask about it by name.
+
+### Tata AIG solar insurance: what the product pages say
+
+"Tata AIG solar insurance price" is a high-volume query, and the honest answer is that Tata AIG does not publish one. What its own documents do show:
+
+- **Solar Module Warranty Insurance.** Tata AIG's [prospectus](https://www.tataaig.com/s3/solar_module_warranty_insurance_prospectus_25459e4213.pdf) describes Section A as cover for a module manufacturer's product and performance warranty losses, and Section B as an optional top-up that lets buyers claim if the manufacturer becomes insolvent. The insured is the manufacturer. The policy wording carries UIN IRDAN108CP0010V01202122.
+- **Weather Insurance Policy.** MNRE's annexure describes it as covering losses resulting from deviation of an observed weather index. It is a commercial, index-linked product.
+- **Bharat Griha Raksha (home).** The [policy wording](https://www.tataaig.com/s3/Tata_AIG_Bharat_Griha_Raksha_Policy_Wordings_9daed7973c.pdf) (UIN IRDAN108RP0019V01202021), checked on 14 October 2026, lists solar panels as an example of General Contents, and lists solar panels, wind turbines and similar items as an additional structure if they are not already included in Home Contents. This is the route that fits a rooftop owner.
+- **Fire and burglary packages.** Tata AIG's [fire and burglary page](https://www.tataaig.com/sme-insurance/fire-burglary-insurance) shows a "premium starting at" figure for business property in general. It does not mention solar panels, so it is not a solar price.
+
+So the price of Tata AIG cover for your roof is whatever its home or package quote says for your declared value, location and chosen covers. The asymmetry in the table above is the useful part: the Tata AIG products with "solar" in the name will not pay for a hailstorm on your panels, and the policy that will pay needs the panels declared.
+
+### Retail routes for a rooftop owner
+
+| Route | What to ask | Source for the claim |
+| --- | --- | --- |
+| Home policy (Bharat Griha Raksha or an insurer's own home product) | Are the panels in Home Building or General Contents on my schedule, and what is the sum insured for them? | IRDAI Key Features Document (2021); Tata AIG policy wording |
+| Fire and special perils package with burglary and breakdown add-ons | Is the inverter covered for electrical breakdown, and is cable theft excluded? | Insurer package page and wording |
+| Project policy through a broker (larger or financed systems) | Which sections are included: property, breakdown, business interruption, erection? | Anand Rathi interview in Saur Energy (2023) |
+| Installer-bundled first-year cover | Who is the insurer, what is the policy number, and what happens at renewal? | Your installation documents |
+
+Insurers differ, and so do wordings by UIN. Verify each entry against the current wording before you rely on it.
 
 ## Warranty is not insurance, and the gap is where owners lose money
 
@@ -116,6 +172,20 @@ This is the most common confusion among Indian system owners. A warranty is a pr
 | Lost generation during downtime | Never covered | Only with business interruption |
 
 The gap sits in two places. Warranty will not pay for weather, theft, or grid surge. Insurance will not pay for a component that simply failed. Hold only one and you have a hole on one side.
+
+A third bucket is an annual maintenance contract (AMC), which pays for routine service rather than loss. It sits beside the other two instead of replacing either.
+
+| Risk | Warranty | Insurance | AMC or service cover |
+| --- | --- | --- | --- |
+| Inverter fails in normal use | Yes, on the written terms | No, unless a breakdown cover applies | Visit and labour costs, if the AMC says so |
+| Panel delaminates early | Product warranty | No | No |
+| Storm rips panels off | No | Yes, if the peril is insured | No |
+| Lightning surge kills the inverter | Usually excluded | Yes, under fire or breakdown cover | No |
+| Panels or cable stolen | No | Only with burglary or all-risk cover | No |
+| Dirty panels, loose wiring, low generation | No | No | Yes |
+| Poor installation causes a leak or fault | Installer liability | No | Only if the installer runs the AMC |
+
+Where a long inverter warranty is in place and in writing, a separate breakdown premium for the inverter may duplicate it. Where the warranty has expired or the battery carries a short term, price the breakdown add-on again. Compare the actual documents, not the brochure. Our warranty series covers [warranty vs insurance](/blog/12-year-solar-inverter-warranty/) from the product side. Whatever the headline term, get the written warranty terms for your exact model before you rely on them.
 
 Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. That addresses defects, not cyclones, and no manufacturer warranty in the market does. See the [inverter warranty guide](/blog/solar-inverter-warranty/), the [claim process](/blog/solar-inverter-warranty-claim/), and [installation versus product warranty](/blog/solar-installation-vs-product-warranty/).
 
@@ -148,9 +218,11 @@ The figures below are illustrative, using an assumed installed cost. They are no
 
 There is no published tariff. Pricing is filed product by product, and the same roof attracts different numbers by route.
 
-Basic insurance for a solar project in India costs 0.2 to 0.5 percent of project cost per year, according to Anand Rathi Insurance Brokers quoted by Saur Energy (2023). Treat this as an industry-observed range for project and commercial policies. The IRDAI-filed New India Solar Energy Insurance Policy (UIN IRDAN190CP0017V01201819) expresses premium as a percentage of total sum insured, adjusted at period end.
+Basic insurance for a solar project in India costs 0.2 to 0.5 percent of project cost, according to Sudhish Ramteke of Anand Rathi Insurance Brokers in a [Saur Energy interview](https://www.saurenergy.com/solar-energy-conversation/a-lack-of-awareness-among-key-stakeholders-about-benefits-of-solar-insurance-sudhish-ramteke-anand-rathi) (2023). The interview does not state the period, and project premiums are normally annual. Treat this as an industry-observed range for project and commercial policies. The IRDAI-filed New India Solar Energy Insurance Policy (UIN IRDAN190CP0017V01201819) expresses premium as a percentage of total sum insured, adjusted at period end.
 
-Applied to the ₹6,66,000 above, that band gives roughly ₹1,332 to ₹3,330 per year. It is sourced for project-scale policies and stretched here for illustration only. Residential add-ons generally price lower, and published retail figures vary widely, so this guide states no residential band as fact. Four things move the number: location risk, breakdown cover, the deductible you accept, and whether business interruption is attached.
+Read as an annual rate and applied to the ₹6,66,000 above, that band gives roughly ₹1,332 to ₹3,330. It is sourced for project-scale policies and stretched here for illustration only.
+
+For homes, the only retail figure we could verify is an advertised headline price. On 14 October 2026 [Policybazaar's solar panel add-on page](https://www.policybazaar.com/home-insurance/add-on-covers/solar-panel/) advertised "₹5 Lakh cover at just ₹125/yr*" for a home insurance add-on. That is an aggregator's starting price with an asterisk, not an insurer's tariff, and it assumes the panels are declared inside a home policy. Tata AIG's [home contents page](https://www.tataaig.com/home-insurance/home-contents-insurance), checked the same day, prints no premium and lists total content value, security features, add-ons and claim history as the pricing factors. Treat ₹125 as the floor of what is advertised, not what a given roof will pay, and get dated written quotes. Four things move the number: location risk, breakdown cover, the deductible you accept, and whether business interruption is attached.
 
 ## C&I specifics: business interruption, construction cover, and lenders
 
@@ -170,7 +242,7 @@ Buying insurance does not convert equipment failure into a covered loss. That si
 
 An inverter that fails under normal operation is a warranty matter. Insurance answers when an external event causes the failure. A lightning surge that destroys the unit is an insurance question. A capacitor reaching end of life in year four is not, and even a machinery breakdown policy will usually treat it as wear.
 
-So where the inverter already carries a long replacement warranty, a separate premium for breakdown cover on that component may not earn its keep. The real value of breakdown cover on a rooftop sits in the ancillary costs: dismantling, re-erection, freight, and duties. No warranty covers those. Read the warranty terms first, then price the gap that remains. For terms by model, the [datasheet library](/download-datasheets/) is the source document.
+So where the inverter already carries a long written warranty, a separate premium for breakdown cover on that component may not earn its keep. The real value of breakdown cover on a rooftop sits in the ancillary costs: dismantling, re-erection, freight, and duties. No warranty covers those. Read the warranty terms first, then price the gap that remains. For terms by model, the [datasheet library](/download-datasheets/) is the source document.
 
 ## How to build a claim file and make a claim go smoothly
 
@@ -197,7 +269,19 @@ Then, after a loss, work in this order.
 7. Submit the claim form within the deadline. Bharat Griha Raksha requires it within 30 days of first noticing the loss, per the IRDAI Key Features Document (2021).
 8. Get written repair quotations from the installer and one independent contractor.
 
-Where the failure is a product defect, route it to the manufacturer instead.
+Where the failure is a product defect, route it to the manufacturer instead, and use the [authorised service partners directory](/authorized-service-partners/) to find a service contact near the site.
+
+## Do you actually need solar insurance? A three-question test
+
+Most cases resolve in a few minutes with three questions.
+
+**1. Does your home policy already cover the declared array?** If the panels and inverter are on the schedule, with a sum insured close to replacement cost, you have the fire, storm and flood layer. Do not buy a duplicate. If you have no home policy, a home policy that declares the solar system usually costs less than a standalone solar policy because it also covers the house.
+
+**2. How exposed is your site?** Cyclone-prone coast, hail belts, flood plains and roofs with easy outside access carry more external risk than a parapet-secured roof in a sheltered suburb. Higher exposure is the case for dedicated cover.
+
+**3. What does the warranty and service stack cover?** Equipment failure is the warranty's job, so check the written term, remedy and exclusions for the exact model. If a warranty has expired or the battery term is short, price a breakdown add-on or set up a replacement fund. See our guide to [year-one ownership paperwork](/blog/solar-year-1-ownership-guide-india/) and the [annual maintenance checklist](/blog/solar-annual-maintenance-checklist-india/), which double as claim evidence.
+
+A larger or financed system changes the answer. Add-on limits in a home policy may not keep up with the replacement value of a 10 kW system, and a lender will usually decide the minimum cover for you. Size the instrument to the gap, not to the worry.
 
 ## The Bottom Line
 

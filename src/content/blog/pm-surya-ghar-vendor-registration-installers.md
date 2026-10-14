@@ -4,7 +4,8 @@ excerpt: "Choose state or national PM Surya Ghar vendor registration, prepare th
 description: "PM Surya Ghar vendor login and registration for installers: portal steps, documents and DISCOM empanelment. Homeowners: verify vendors separately."
 category: "Policy"
 date: 2026-09-26
-readTime: "12 min"
+updatedDate: 2026-10-14
+readTime: "15 min"
 image: "/og/blog-pm-surya-ghar-vendor-registration-installers.webp"
 author: "Akash Hirapara"
 keywords:
@@ -25,6 +26,8 @@ faqs:
     a: "Choose based on the geography you can actually serve. State registration fits an installer operating within one state. MNRE's 7 May 2024 process allows a nationally registered vendor to work in any district of any state while declaring the states and districts where it is operational. Confirm the current authority's terms before applying."
   - q: "How much is the PBG for PM Surya Ghar vendor registration?"
     a: "MNRE documents checked on 26 September 2026 refer to one Rs 2.5 lakh performance bank guarantee for state registration across the entire state and Rs 25 lakh for national registration. Both are described as valid for at least five years. These are dated document terms, not banking instructions. Confirm the current amount, beneficiary, wording, validity, claim conditions, and submission method with the relevant authority before issuance."
+  - q: "How does a registered vendor log in to the PM Surya Ghar portal for the first time?"
+    a: "MNRE's Vendor Manual of 26 June 2024 describes the first sign-in as three steps. Open Vendor Login on pmsuryaghar.gov.in, choose Update Vendor Credentials and verify the firm's registered PAN, then verify an email address with an OTP and set a password with an uppercase letter, a lowercase letter, a number and a special character. After that the vendor signs in with the registered email and password. The manual is dated, so check the live portal labels."
   - q: "Is the PM Surya Ghar vendor login proof of active registration?"
     a: "No. A login route or account screen is not enough to establish current approval or operating scope. Confirm that the business appears under the correct legal name and registration status in the current official record, and check the states or districts shown for its operations."
 ---
@@ -36,6 +39,8 @@ MNRE's current process calls this vendor registration. Earlier documents also us
 The [Ministry of New and Renewable Energy's vendor-registration notice](https://mnre.gov.in/en/notice/process-of-vendor-registration-for-pm-surya-ghar-scheme-on-the-national-portal/) names REC Limited as the national registering authority. It also continues the earlier state-registration process through the relevant state authority. Before arranging a performance bank guarantee, or PBG, verify the current instructions with that authority. A dated PDF should not be treated as a bank instruction.
 
 > **Short version:** Choose the operating geography first. Align the firm's legal name across GST, PAN, the declaration, the PBG, and the portal. Prepare evidence of technical and service capacity. Submit only through the current official route. Registration creates continuing installation, documentation, maintenance, and complaint-handling duties. It does not guarantee leads, subsidy release, project approval, or a Qbits partnership.
+
+> **Homeowner checking a vendor, not registering one?** Use the [homeowner guide to finding and verifying a PM Surya Ghar vendor](/blog/empanelled-vendor-pm-surya-ghar/). This page is for installers.
 
 ## State or national registration: choose before preparing documents
 
@@ -71,6 +76,48 @@ Portal labels and field sequences can change. That makes the safest order **auth
 9. **Confirm the live registration.** Check the legal name, registration status, operating area, public contact, and profile details after approval. A successful login alone is not proof of active scope.
 
 Start from the [official PM Surya Ghar portal](https://pmsuryaghar.gov.in/) rather than a saved login page, message link, or third-party form. Never share an OTP or portal password with someone offering paid registration assistance.
+
+## Vendor login: first sign-in and what the dashboard does
+
+The login is the second stage, after the firm has a registration record. MNRE's **Vendor Manual dated 26 June 2024** (hosted by a state DISCOM) describes it as follows.
+
+| Stage | What the manual describes |
+| --- | --- |
+| 1. Open the route | Go to Vendor Login on pmsuryaghar.gov.in and choose Update Vendor Credentials |
+| 2. Verify PAN | Enter the firm's registered PAN number to verify the email linked to it |
+| 3. Verify email | Enter an email address, request an OTP and confirm it. The verified address becomes the registered email for login and later communication |
+| 4. Set a password | Use at least one uppercase letter, one lowercase letter, one number and one special character |
+| 5. Sign in | Enter the registered email and password on the Vendor Login page |
+
+After sign-in, the manual shows the vendor dashboard doing these jobs:
+
+- seeing the list of consumers who have shown interest in the vendor;
+- updating the firm profile, the operational districts and the product rates;
+- viewing the applications mapped to the vendor for installation and tracking project status;
+- uploading the signed consumer agreement; and
+- submitting installation details such as latitude and longitude, inverter capacity, quantity, manufacturer and serial numbers, and module capacity, quantity, manufacturer and serial numbers.
+
+Two practical points follow. The PAN used to create credentials must be the PAN the firm registered with, so a PAN or entity-name mismatch is the first thing to fix if verification fails. And the serial numbers you enter at installation should match the equipment schedule in the consumer contract, because the DISCOM inspects against the portal record.
+
+For national and multi-state firms, the same manual describes registering on the portal by entering company type, PAN with an uploaded copy, organisation details and documents, then choosing a registration type: national, at ₹25 lakh, or multi-state, at ₹2.5 lakh per state up to ₹25 lakh. The firm then submits the bank guarantee in the format provided to REC Limited and receives empanelment on the National Portal. The manual dates from 2024 and the portal has been updated since, so follow the live labels.
+
+Login is not proof of live registration. A firm can hold credentials and still be deactivated or limited to certain districts, so confirm the public record after approval.
+
+## Documents and details to have ready
+
+The June 2022 and May 2023 state-registration memoranda and the 2024 national process point to the same core set. Which items are uploaded, signed or posted in original depends on the registering authority, so use its checklist as the final word.
+
+| Item | Why it is needed | Common mismatch to avoid |
+| --- | --- | --- |
+| PAN and company type | Identity step of national registration and login credential creation | Entity name differs from GST or bank records |
+| GST registration | Declaration asks for the firm's GSTIN | Trade name used instead of legal name |
+| Provident Fund number, where applicable | Listed in the state declaration | Left blank when staff are on payroll |
+| Evidence of at least three trained technical staff | Declaration item on trained manpower | Training records missing or expired |
+| Electrical-safety and statutory compliance proof | Declaration item on statutory requirements | Licence held by a person who has left the firm |
+| Organisation details, email, mobile and address | Registration form and public profile | Different addresses across records |
+| Performance bank guarantee in the authority's format | ₹2.5 lakh per state or ₹25 lakh national in MNRE documents | Wrong beneficiary, validity or wording |
+| Authorised signatory details | Signs the declaration | Signatory authority not documented |
+| Districts willing to work in | Declaration and consumer search list | Claiming districts the firm cannot service |
 
 ## What the referenced state declaration asks a firm to confirm
 
@@ -170,7 +217,7 @@ The current Qbits partner form lets an applicant choose EPC or System Integrator
 
 That field helps Qbits understand the applicant. It does not register the applicant with MNRE, REC, a state agency, or a DISCOM. Qbits does not guarantee government approval, consumer leads, territory, margin, credit, or acceptance into its partner programme.
 
-If your government registration is accurate, you can also discuss Qbits inverter sourcing and support. Complete the [Qbits partner application](/become-our-partner/) under the business type that matches your work. Enter the same registered business name used in your official records. Treat any later commercial terms as a proposal until approved in writing.
+If your government registration is accurate and you are looking for an inverter supplier for rooftop projects, you can also discuss Qbits inverter sourcing and support. Complete the [Qbits partner application](/become-our-partner/) under the business type that matches your work. Enter the same registered business name used in your official records. You can review the residential range on the [on-grid inverter page](/on-grid-inverter/) before you apply. Treat any later commercial terms as a proposal until approved in writing.
 
 ## Final application review
 
@@ -185,4 +232,4 @@ Before submitting, confirm that:
 - no marketing material promises subsidy, approval, leads, or income; and
 - the government registration and manufacturer-partner applications remain separate records.
 
-**Official sources checked 26 September 2026:** MNRE's 7 May 2024 vendor-registration process and its attached state-registration memoranda. The review also used MNRE's residential CFA operational guidelines for PM Surya Ghar. Confirm later amendments and the current registering authority's instructions before acting.
+**Official sources, checked 26 September and re-read 14 October 2026:** MNRE's [7 May 2024 vendor-registration process](https://mnre.gov.in/en/notice/process-of-vendor-registration-for-pm-surya-ghar-scheme-on-the-national-portal/) with its attached 10 June 2022 and 17 May 2023 office memoranda, and MNRE's National Portal Vendor Manual of 26 June 2024. The review also used MNRE's residential CFA operational guidelines of July 2024. MNRE amended those guidelines on 7 July 2025, and the amendment is published as a scanned image that could not be read clause by clause. pmsuryaghar.gov.in returned an access error to our automated checks, so live portal labels were not viewed directly. Confirm later amendments and the current registering authority's instructions before acting.

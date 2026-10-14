@@ -136,7 +136,7 @@ There is no single best fix. The right one depends on whether the system exists 
 
 **Layout redesign** is the cheapest fix that exists, but only before installation. Move panels away from the tank shadow, or raise the structure above the parapet shadow line. At design stage this costs nothing. Done late, it costs lakhs over the system life.
 
-**Dual MPPT** is the most underused free fix. Most modern string inverters above 3 kW have two independent MPPT inputs. Put the shaded panels on one input and the clear panels on the other, and the shade stops dragging the healthy array. Our [dual MPPT vs single MPPT](/blog/dual-mppt-vs-single-mppt/) breakdown covers when this matters.
+**Dual MPPT** is the most underused free fix. Most modern string inverters above 3 kW have two independent MPPT inputs (the [dual-MPPT QB 5KTLD](/our-products/QB-4-6KTLD/) is one example). Put the shaded panels on one input and the clear panels on the other, and the shade stops dragging the healthy array. Our [dual MPPT vs single MPPT](/blog/dual-mppt-vs-single-mppt/) breakdown covers when this matters.
 
 **Optimizers and microinverters** give every panel its own tracker. NREL testing found module-level power electronics recover 25 to 35% of shading losses annually, according to the NREL Photovoltaic Shading Testbed report (2016). The tradeoff is cost per panel and more electronics on the roof. The full architecture comparison is in our [string vs microinverter](/blog/string-vs-microinverter/) guide, and the [DC optimiser](/glossary/dc-optimiser/) glossary entry explains the component.
 
@@ -171,7 +171,7 @@ First, confirm shade is actually the problem. Compare your generation against ex
 
 Second, do the free things. Trim vegetation. Relocate the dish antenna (₹500 to ₹1,500 with a technician). Clean leaf litter and droppings near parapets.
 
-Third, rewire what you can. Ask your installer whether the shaded panels can be regrouped onto one string or moved to the second MPPT input. This is a few hours of labour and often recovers the majority of string-level drag.
+Third, rewire what you can. Ask your installer whether the shaded panels can be regrouped onto one string or moved to the second MPPT input. Check the new grouping with the [string sizing calculator](/string-sizing-calculator/). This is a few hours of labour and often recovers the majority of string-level drag.
 
 Fourth, consider hardware. Optimizers on just the 2 or 3 chronically shaded panels cost far less than a full MLPE retrofit and target the exact problem. Relocating panels is the last resort: it works, but structure, cabling, and labour add up fast.
 

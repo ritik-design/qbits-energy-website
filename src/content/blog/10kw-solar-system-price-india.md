@@ -56,7 +56,7 @@ At ₹10,000+ a month in electricity bills, solar stops being a lifestyle choice
 The **True Cost of Going Solar** framework applies identically to a 10kW system as to smaller sizes, five components, all verifiable before you sign:
 
 1. **Solar panels (₹/Wp)**: At 10,000 Wp, panel cost dominates the budget. Premium TOPCon panels at ₹26–₹30/Wp: ₹2,60,000–₹3,00,000. Mid-range PERC at ₹22–₹26/Wp: ₹2,20,000–₹2,60,000. Budget polycrystalline at ₹18–₹22/Wp: ₹1,80,000–₹2,20,000.
-2. **Inverter**: A 10kW on-grid string inverter: ₹45,000–₹90,000 depending on brand, phase (single or three), and warranty. A 10kW hybrid inverter: ₹80,000–₹1,40,000.
+2. **Inverter**: A 10kW [on-grid string inverter](/on-grid-inverter/): ₹45,000–₹90,000 depending on brand, phase (single or three), and warranty; for a three-phase example see our [QB 10KTLC three-phase on-grid](/our-products/QB-6-17KTLC/). A 10kW hybrid inverter: ₹80,000–₹1,40,000.
 3. **Balance of System (BOS)**: Heavier mounting structure (10kW carries 20+ panels), longer cable runs, larger combiner box, three-phase-rated SPDs, and earthing system. BOS for 10kW: ₹55,000–₹90,000.
 4. **Installation and commissioning**: Labour for 20+ panels, structural work, DISCOM three-phase meter application. Installation cost: ₹25,000–₹45,000.
 5. **GST**: the 12% slab no longer exists (Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025). Renewable energy devices sit at 5% under Schedule I entry 437, heading 8504 static converters at 18%, and a bundled turnkey contract uses the 70:30 split for an 8.9% effective rate. Total GST on a 10 kW system at that bundled rate: roughly ₹33,000–₹52,000. Confirm the entry your supplier relies on.

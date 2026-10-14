@@ -44,7 +44,7 @@ Indian households install solar panels every year expecting lower bills and ener
 > **TL;DR**
 > - A solar inverter converts panel DC into 230 V, 50 Hz AC through a 5-stage chain: input filtering, MPPT regulation, DC link stabilisation, IGBT switching, and output filtering.
 > - MPPT tracking recovers 20-30% more energy than a fixed-voltage system on a partly cloudy day.
-> - India uses three inverter topologies: on-grid (cheapest, no backup), hybrid (battery backup with 20 ms switchover), and off-grid (fully battery-dependent).
+> - India uses three inverter topologies: [on-grid](/on-grid-inverter/) (cheapest, no backup), hybrid (battery backup with 20 ms switchover), and off-grid (fully battery-dependent).
 > - Indian grid voltage can swing well outside the nominal 230 V, so inverters need India-tuned firmware, not narrow-band European designs.
 > - Inverters cause 60-70% of solar service calls, making IP66 sealing and a model-specific written warranty the two specs worth checking first.
 

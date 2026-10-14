@@ -129,14 +129,14 @@ A 2kW system uses 4 panels at 530–540 Wp each. Panels must be monocrystalline 
 
 ### Inverter for a 2kW System
 
-A 2kW on-grid inverter is a single-[MPPT](/glossary/mppt/) string inverter with a nominal output of 2kW and a maximum DC input capacity of 2.4–3.2 kW (to allow [DC oversizing](/glossary/dc-oversizing/)). Key specifications to verify:
+A 2kW [on-grid inverter](/on-grid-inverter/) is a single-[MPPT](/glossary/mppt/) string inverter with a nominal output of 2kW and a maximum DC input capacity of 2.4–3.2 kW (to allow [DC oversizing](/glossary/dc-oversizing/)). Key specifications to verify:
 
 - **[BIS certification](/glossary/bis-certification/)** under IS 16221, non-negotiable for grid connectivity
 - **Voltage range**: the allowed AC grid range depends on the model and on your DISCOM's connection conditions, so read it from the exact model's datasheet
 - **[Peak efficiency](/glossary/inverter-efficiency/)**: 97% or above minimises conversion losses
 - **Monitoring**: Wi-Fi or 4G monitoring to track daily generation via app
 
-See the full [on-grid inverter buying guide](/blog/how-to-choose-solar-inverter-for-home-india/) for specification details.
+See the full [on-grid inverter buying guide](/blog/how-to-choose-solar-inverter-for-home-india/) for specification details, and see our [QB 3.0KTLS single-phase on-grid inverter](/our-products/QB-1.5-4.0KTLS/) for a single-phase example.
 
 ### Balance of System (BOS)
 

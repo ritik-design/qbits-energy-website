@@ -4,7 +4,7 @@ excerpt: "Solar inverter WiFi not connecting? Work the ordered fix ladder: 2.4 G
 description: "A diagnostic ladder for solar inverter WiFi not connecting. Covers 2.4 GHz band conflicts, SSID and password faults, signal thresholds, router settings, dongle resets, and how to tell a comms fault from a cloud outage or a real inverter fault."
 category: Maintenance
 date: 2026-06-05
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: 10 min
 image: "/og/blog-solar-inverter-wifi-not-connecting-fix.webp"
 author: Keyur Rakholiya
@@ -237,7 +237,9 @@ Never send WiFi passwords, account passwords, or one-time passwords in a public 
 
 Keep the warranty categories separate. Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. A dongle, a router, and an internet connection are not the inverter, so a WiFi fault is a support matter rather than a unit replacement matter.
 
-Confirm which monitoring channels apply to your model. Qbits publishes monitoring apps on Google Play (package `io.aotai.qbit`) and the App Store (Qbits Inverter, id 6745775491), and lists WhatsApp-based monitoring among its features. What any system reports depends on the inverter model, the logger fitted, how it was commissioned, and your account permissions. The [WhatsApp monitoring explainer](/blog/whatsapp-solar-monitoring/) sets out what to verify in writing first.
+Confirm which monitoring channels apply to your model. Qbits publishes monitoring apps on Google Play (package `io.aotai.qbit`) and the App Store (Qbits Inverter, id 6745775491), and lists WhatsApp-based monitoring among its features. What any system reports depends on the inverter model, the logger fitted, how it was commissioned, and your account permissions. The [WhatsApp monitoring explainer](/blog/whatsapp-solar-monitoring/) sets out what to verify in writing first, and the [solar inverter app monitoring guide](/blog/solar-inverter-app-monitoring/) explains what the app screens show once the link is working.
+
+Communication options differ by family. The Qbits product specification lists Wi-Fi with optional RS-485 or GPRS for the TLS, TLD and TLC models on the [on-grid inverter page](/on-grid-inverter/). The QBH entries on the [hybrid inverter page](/hybrid-inverter/) say to verify the monitoring interface for the exact model, so confirm it from the model datasheet before you troubleshoot the wrong device.
 
 ## The Bottom Line
 
@@ -247,4 +249,4 @@ A grey dot is a reporting failure until your meter says otherwise. And a dongle 
 
 - Check for a separately named 2.4 GHz SSID first. It resolves more cases than every other step combined.
 - Read your export meter before and after any gap and do the arithmetic. One minute tells you whether this is a monitoring problem or a generation problem.
-- If the ladder runs out, pull the correct documentation from [product datasheets](/download-datasheets/), then [contact the Qbits team](/contact-us/) with the nine-item list above so the first call is the last one.
+- If the ladder runs out, pull the correct documentation from [product datasheets](/download-datasheets/), then raise a request on the [Qbits support helpdesk](https://support.qbitsenergy.com/helpdesk/qbits-service-620){target="_blank" rel="noopener"} (or use the [authorized service partners directory](/authorized-service-partners/) to find a partner near you) with the nine-item list above so the first call is the last one.

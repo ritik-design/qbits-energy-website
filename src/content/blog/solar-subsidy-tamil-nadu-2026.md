@@ -1,11 +1,11 @@
 ---
 title: "Solar Subsidy in Tamil Nadu 2026, TANGEDCO Guide"
-excerpt: "Solar subsidy in Tamil Nadu stacks PM Surya Ghar (₹78,000) with TEDA schemes, but TANGEDCO net metering takes 60–120 days. Full honest guide for TN homeowners."
-description: "Solar subsidy Tamil Nadu 2026: PM Surya Ghar subsidy, TEDA state schemes, TANGEDCO net metering reality, FiT rates, and a Chennai 3 kW worked example."
+excerpt: "Tamil Nadu homeowners can claim central PM Surya Ghar assistance of up to ₹78,000. Check the state scheme status, the TNPDCL (ex-TANGEDCO) route and the official clocks before you sign."
+description: "Solar subsidy Tamil Nadu 2026: PM Surya Ghar slabs, TEDA and state scheme status, TANGEDCO/TNPDCL net metering steps, escalation route and a payback template."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
-readTime: "19 min"
+updatedDate: 2026-10-14
+readTime: "17 min"
 image: "/og/blog-solar-subsidy-tamil-nadu-2026.webp"
 author: "Akash Hirapara"
 keywords:
@@ -16,244 +16,214 @@ keywords:
   - rooftop solar subsidy chennai
 faqs:
   - q: "What is the solar subsidy in Tamil Nadu in 2026?"
-    a: "Tamil Nadu homeowners can access the central PM Surya Ghar Muft Bijli Yojana subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kilowatt, giving a maximum of ₹78,000 for a 3 kW system. TEDA (Tamil Nadu Energy Development Agency) has historically run state-level incentive programmes for rooftop solar, though the current status of additional state top-up subsidies should be verified directly at teda.in before applying. Application for the central subsidy is made through pmsuryaghar.gov.in."
-  - q: "Is TANGEDCO approving net metering applications in 2026?"
-    a: "TANGEDCO (Tamil Nadu Generation and Distribution Corporation) is the sole electricity distribution utility in Tamil Nadu and does process net metering applications. However, TANGEDCO is widely acknowledged as one of India's slower DISCOMs for net metering approvals. Realistic timelines range from 60 to 120 days from application submission to bidirectional meter commissioning. Delays are most commonly caused by meter supply constraints, technical feasibility queue backlogs, and inspection scheduling. Applicants are advised to submit complete documentation on the first attempt to avoid restarting the clock."
-  - q: "What is the feed-in tariff rate for solar in Tamil Nadu?"
-    a: "The Tamil Nadu Electricity Regulatory Commission (TNERC) sets the feed-in tariff for rooftop solar export. Tamil Nadu operates under a net metering framework (not gross metering) for residential consumers, meaning surplus generation beyond your monthly consumption is purchased by TANGEDCO at the prevailing buyback rate. For residential consumers, the applicable export rate is approximately ₹2.00 to ₹3.00 per unit under TNERC orders. Since TN residential import tariffs range from ₹4.50 to ₹9.00 per unit depending on the consumption slab, maximising self-consumption rather than export delivers far better returns."
-  - q: "How long does TANGEDCO net metering approval take?"
-    a: "TANGEDCO net metering approval typically takes between 60 and 120 days from a complete application submission. This is significantly longer than faster-processing DISCOMs such as DGVCL (Gujarat, 30–45 days) or BESCOM (Karnataka, 45–60 days). The timeline breaks down as: technical feasibility assessment 15–25 days, meter procurement and scheduling 30–60 days, and commissioning inspection 10–20 days. Applications with incomplete documents or incorrect load details can restart the clock. Following up at the Sub-Divisional Engineer level every three weeks is advisable."
-  - q: "What if TANGEDCO rejects my net metering application?"
-    a: "TANGEDCO net metering rejections typically cite one of four reasons: proposed capacity exceeds sanctioned load, insufficient roof area per TNERC guidelines, application documentation incomplete, or prior subsidy recorded on the same connection. For load-related rejections, apply for a sanctioned load enhancement (LT service upgrade) simultaneously and resubmit. For document rejections, resubmit with the corrected set. If you believe a rejection is incorrect, escalate to the TNERC Consumer Grievance Redressal Forum or file a written complaint with the Chief Engineer (Distribution), TANGEDCO. The TNERC consumer helpline number is 1800 425 5858."
+    a: "Tamil Nadu homeowners can claim the central PM Surya Ghar Muft Bijli Yojana assistance: ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, so ₹78,000 at 3 kW or more (MNRE guidelines, clause 5). The central scheme's implementation period runs to 31 March 2027. We found no general state top-up for residential rooftop solar in the sources we could check on 14 October 2026, so treat any extra Tamil Nadu amount as unconfirmed until you see the order. Apply through the PM Surya Ghar National Portal. None of this is a promise for a particular home, since eligibility and release depend on inspection and approval."
+  - q: "Is TANGEDCO still the electricity distribution company in Tamil Nadu?"
+    a: "Distribution now sits with Tamil Nadu Power Distribution Corporation Limited (TNPDCL). TANGEDCO was restructured in 2024 into separate companies, with generation, distribution and renewable-energy assets going to separate entities. Many forms, bills and installer documents still use the TANGEDCO name, so use the licensee name printed on your bill and ask your vendor which office handles your connection."
+  - q: "What is the feed-in tariff or export rate for solar in Tamil Nadu?"
+    a: "It is set by the Tamil Nadu Electricity Regulatory Commission (TNERC) under its rooftop solar and net metering orders, and it can change between tariff years. We do not quote a rupee-per-unit figure because we could not confirm the current order on TNERC's site on 14 October 2026. Ask TNPDCL or your vendor for the order number that applies to your commissioning date. Because the import tariff you avoid is normally higher than any export credit, sizing the system to your own daytime use usually matters more than export."
+  - q: "How long does net metering approval take in Tamil Nadu?"
+    a: "No official average is published that we could verify, so avoid anyone who quotes a fixed 60 to 120 day figure. The central Electricity (Rights of Consumers) Rules, amended on 22 February 2024, removed the technical feasibility study for rooftop systems up to 10 kW and cut the commissioning period from 30 to 15 days. Under the MNRE guidelines the central assistance is processed within 15 days of DISCOM approval. Real elapsed time depends on documents, inspection scheduling and meter availability, so track each stage in your portal login and ask for dates in writing."
+  - q: "What if my Tamil Nadu net metering application is rejected or stuck?"
+    a: "First ask for the reason in writing and fix it with your vendor: common causes are a proposed capacity above sanctioned load, missing documents, non-DCR modules, or a vendor not registered on the National Portal. If the application is stuck, escalate in order: the vendor, the section or divisional office, the portal grievance route (National Portal, national call centre or app, with a tracking ID and a 30-day resolution target in the MNRE guidelines), the licensee's Consumer Grievance Redressal Forum, and then the Electricity Ombudsman under Section 42 of the Electricity Act, 2003."
   - q: "Does Tamil Nadu have a state solar subsidy in addition to PM Surya Ghar?"
-    a: "TEDA has historically operated state-level rooftop solar incentive programmes for residential consumers in Tamil Nadu. The current status of active state top-up subsidies should be verified directly at teda.in, as programme availability changes with annual budget allocations. During 2024–25, TEDA ran targeted incentive schemes for BPL and lower-income households separately from the central PM Surya Ghar structure. All homeowners should apply for PM Surya Ghar through the national portal regardless of TEDA scheme status, as the central subsidy is guaranteed subject to eligibility."
+    a: "We did not find a general residential top-up in sources we could open on 14 October 2026. TEDA, the state renewable energy agency, has run targeted schemes in the past. We also saw a news report of a newer state incentive for recent portal registrations that we could not confirm on TEDA, TNPDCL or Tamil Nadu government pages, so we have not counted it. MNRE's guidelines require any state top-up to be integrated with the National Portal, which is a useful test: a real top-up appears in your application."
   - q: "Can I use a hybrid inverter and still claim the solar subsidy in Tamil Nadu?"
-    a: "Generally yes, provided the system is grid-connected and registered for net metering. The central subsidy is a fixed amount by installed capacity under PM Surya Ghar, not a percentage of the inverter or battery cost, so adding a battery raises the project cost without raising the subsidy. MNRE publishes no ALMM list for inverters, so ask the vendor for the hybrid inverter's exact model BIS registration and current certificates, and confirm with TANGEDCO and the PM Surya Ghar portal that no extra inverter or metering condition applies to your connection."
-  - q: "What documents are required for the TANGEDCO net metering application in Tamil Nadu?"
-    a: "TANGEDCO requires the following for net metering application: recent electricity bill (service connection number), Aadhaar card, PAN card, property ownership proof (sale deed or property tax receipt), rooftop area photograph, technical feasibility application form, single-line diagram of the proposed solar system, installer's TANGEDCO registration certificate, and ALMM-listed equipment specification sheets. For apartments, an RWA no-objection certificate is required. The empanelled installer typically prepares the technical documents; the homeowner provides the property and identity papers."
+    a: "Generally yes, if the system is grid connected and meets the scheme conditions. Under the MNRE guidelines the assistance is calculated on installed solar-module capacity, not on inverter size, and additional components such as batteries do not change it. Adding a battery raises the project cost without raising the central assistance. MNRE's ALMM covers modules and cells, not inverters, so ask the vendor for the exact inverter model, datasheet and grid documents, and confirm with TNPDCL and the portal that no extra condition applies to your connection."
+  - q: "Which documents does a Tamil Nadu rooftop solar application need?"
+    a: "Typically a recent electricity bill with the service connection number, proof of ownership or authority over the roof, Aadhaar and bank details for the subsidy credit, roof photographs, and the vendor's design with module and inverter details. The MNRE guidelines also ask for geo-tagged installation photographs uploaded on the portal. For apartments, expect an association no-objection letter. Your portal login and the licensee's checklist are the authority, not a third-party list."
   - q: "What is TEDA's role in Tamil Nadu solar subsidy?"
-    a: "TEDA - the Tamil Nadu Energy Development Agency - is the state nodal agency for renewable energy under the Tamil Nadu government. TEDA administers state-level solar incentive schemes, maintains the empanelled installer list for TEDA-specific programmes, and provides technical support for rooftop solar adoption. For PM Surya Ghar, TEDA coordinates with TANGEDCO on implementation. Homeowners can access TEDA resources at teda.in and contact the TEDA office in Chennai for scheme-specific queries. TEDA also manages the Tamil Nadu Solar Energy Policy framework that guides TNERC tariff orders."
+    a: "TEDA, the Tamil Nadu Energy Development Agency, is the state nodal agency for renewable energy and runs state-level schemes when they are funded. It does not replace the PM Surya Ghar National Portal, which is where central assistance is applied for and tracked. Check teda.in for any open scheme, its beneficiary category and any separate installer registration requirement before you rely on it."
 ---
 
-> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+**Tamil Nadu homeowners can claim the central PM Surya Ghar Muft Bijli Yojana assistance of up to ₹78,000 for a rooftop system of 3 kW or more, applied for on the [National Portal](https://pmsuryaghar.gov.in/).** We found no general Tamil Nadu cash top-up on top of it in the sources we could open on 14 October 2026. Distribution is now handled by TNPDCL, the company that took over from TANGEDCO in the 2024 restructuring (confirm the entity name on your bill), so older guides and forms still say TANGEDCO for the same job.
 
-> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
-
-[Tamil Nadu](https://www.heavengreenenergy.com/blog/kusum-tamil-nadu-application) homeowners face a situation that is rare in Indian solar policy: a state with some of the highest residential electricity tariffs in South India, genuinely excellent solar irradiance across most of its geography, and one of the more bureaucratically challenging DISCOMs in the country. The arithmetic of going solar in [Tamil Nadu](https://quickestimate.co/blog/solar-installer-business-tamil-nadu) is genuinely compelling, Chennai receives 5.5 to 6.0 peak sun hours per day, and TN residential tariffs push many households into slabs where they pay ₹6 to ₹9 per unit. But the process of actually getting your TANGEDCO net meter connected can test the patience of even the most determined homeowner.
-
-This guide is an honest account of the solar subsidy landscape in Tamil Nadu in 2026, the central [PM Surya Ghar](https://heavendesigns.in/blog/pm-surya-ghar-2-0-battery-storage-shared-rooftop-solar/) subsidy that every eligible homeowner can claim, the TEDA state schemes and their current status, how [TANGEDCO net metering](https://quickestimate.co/blog/tangedco-net-metering-guide) actually works (timelines, typical delays, and escalation paths), and a worked financial example from a Chennai household. The "Reality Check" label in the title is intentional: the numbers are good, but the process requires active management.
+This guide was re-checked in **October 2026**. It separates what the central guidelines say, what is still unconfirmed for Tamil Nadu, and what you should verify with your own licensee before signing a quote. It avoids the single-number timelines and payback claims that circulate in installer marketing, because none of them comes from a published order.
 
 > **TL;DR**
-> - Tamil Nadu's central subsidy is PM Surya Ghar: up to ₹78,000 for a 3 kW system; TEDA state top-ups vary and should be verified at teda.in.
-> - TANGEDCO is the sole DISCOM and processes [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) in 60 to 120 days, among the slower timelines in India.
-> - TN's feed-in tariff (₹2.00–₹3.00/unit) is far below the import tariff (₹4.50–₹9.00/unit), so maximising self-consumption matters more than export.
-> - A Chennai 3 kW case study shows a payback of roughly 3.4 years, driven by high tariffs and 5.5–6.0 peak sun hours.
-> - TNERC's Consumer Grievance Redressal Forum is a legitimate escalation path if TANGEDCO delays an application beyond 90–120 days.
-> - The most common rejection causes are exceeding sanctioned load, incomplete documentation, and non-ALMM equipment.
+> - Central assistance: ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, capped at ₹78,000 (MNRE guidelines, clause 5). The scheme's implementation period runs to 31 March 2027.
+> - State top-up: none confirmed as of 14 October 2026. Any state amount must be integrated with the National Portal, so ask for the order.
+> - Licensee: TNPDCL handles distribution since the 2024 split of TANGEDCO. Use the name on your bill.
+> - Official clocks: no feasibility study up to 10 kW, 15-day commissioning, central assistance processed within 15 days of DISCOM approval, grievances resolved within 30 days.
+> - Export rate and metering terms come from TNERC orders. Get the order that applies to your commissioning date.
 
-> **Tamil Nadu solar subsidy in 2026.** The central PM Surya Ghar Muft Bijli Yojana provides ₹78,000 for a 3 kW residential system. TEDA administers state-level schemes, verify current availability at [teda.in](https://teda.in/). TANGEDCO processes net metering in 60–120 days, longer than most Indian DISCOMs. Despite the process complexity, Tamil Nadu's high tariffs and excellent irradiance deliver payback periods of 4 to 6 years on a 3–5 kW system, making the investment worthwhile for most homeowners.
+Tamil Nadu's household tariffs make every unit you generate and use yourself valuable, which is why the metering and sizing details below matter more than the headline subsidy. Our [DISCOM glossary entry](/glossary/discom/) explains the licensee terms used here.
 
-Tamil Nadu's high [DISCOM](/glossary/discom/) tariff is actually your biggest solar ally. When you pay ₹7 per unit for electricity, every unit your panels generate is worth ₹7 in avoided cost, far more valuable than export credits. Understanding this changes how you size and optimise your system.
+## PM Surya Ghar subsidy in Tamil Nadu: the central scheme
 
-## PM Surya Ghar Subsidy in Tamil Nadu: The Central Scheme Explained
+PM Surya Ghar: Muft Bijli Yojana was approved by the Union Cabinet on 29 February 2024 with an outlay of ₹75,021 crore, and the MNRE guidelines apply to applications received on the National Portal from 13 February 2024. The scheme is run for MNRE by REC Limited as the national implementing agency, while distribution companies act as state implementing agencies. The [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers eligibility and the national process end to end. This section covers what matters for a Tamil Nadu connection.
 
-The PM Surya Ghar Muft Bijli Yojana is the central government's flagship residential rooftop solar programme, launched in February 2024 by [MNRE](/glossary/mnre/). It is available to every eligible homeowner in India, including Tamil Nadu, and is applied for through the national portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/). For a comprehensive walkthrough of eligibility rules, the five-step application process, and timelines, the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the national framework in full detail.
+The standard assistance for a residential system, from clause 5 of the MNRE guidelines, is:
 
-The central subsidy slab structure is fixed across all states and does not vary by geography or DISCOM:
-
-| System Size | Subsidy Rate | Total Central Subsidy |
-| --- | --- | --- |
-| **1 kW** | ₹30,000/kW | ₹30,000 |
-| **2 kW** | ₹30,000/kW | ₹60,000 |
-| **3 kW** | ₹30,000 for first 2 kW + ₹18,000 for 3rd kW | ₹78,000 |
-| **4 kW** | Capped at 3 kW | ₹78,000 |
-| **5 kW** | Capped at 3 kW | ₹78,000 |
-| **Group Housing / RWA** | ₹18,000/kW | Up to ₹50,000 per unit |
-
-The subsidy is disbursed as a direct bank transfer to your Aadhaar-linked account after TANGEDCO verifies commissioning and submits the completion report to MNRE. It is not a discount at the point of purchase, you pay the full system cost upfront and receive the subsidy amount after installation is verified. Plan your cash flow accordingly.
-
-For a precise breakdown of what you will receive for every system size from 1 kW to 10 kW, the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) has the full slab calculator.
-
-> **₹78,000.** The maximum central PM Surya Ghar subsidy for a residential rooftop solar system of 3 kW or above, paid directly to the homeowner's Aadhaar-linked bank account after TANGEDCO commissioning is verified. *Source - [PM Surya Ghar National Portal, MNRE](https://pmsuryaghar.gov.in/), 2026.*
-
-**Three requirements determine eligibility in Tamil Nadu:**
-
-- **Active TANGEDCO connection**: the subsidy is tied to your service connection number; you must hold a residential electricity connection in your name at the property where the system is installed.
-
-- **Empanelled installer**: the installation must be performed by a TANGEDCO-empanelled vendor; the installer registers on the PM Surya Ghar portal on your behalf and submits the commissioning documents.
-
-## TEDA State Schemes: What Is Currently Active
-
-TEDA, the Tamil Nadu Energy Development Agency, is the state nodal agency for renewable energy in Tamil Nadu. It operates under the Tamil Nadu government and is the implementing body for state-level solar incentive programmes beyond the central PM Surya Ghar scheme.
-
-Tamil Nadu's relationship with state-level residential solar subsidies has been more variable than Gujarat or Maharashtra. TEDA has run several targeted schemes over the years, including incentives for Below Poverty Line households, fishermen communities, and lower-income group residential consumers. These schemes operate on annual budget allocations, and availability changes year to year.
-
-**What to verify at teda.in before applying:**
-
-- **Active residential rooftop scheme status**: TEDA's website at [teda.in](https://teda.in/) lists currently open schemes with application windows and per-kW incentive rates. Schemes that are paused or budget-exhausted are typically indicated on the portal.
-- **TEDA-registered installer requirement**: state scheme subsidies (where available) require the installer to be registered with TEDA separately from TANGEDCO empanelment. Verify both registrations before signing a vendor contract.
-- **Target beneficiary categories**: some TEDA schemes are limited to specific consumer categories (BPL, farmers, coastal communities). General residential consumers may find fewer state top-ups available than in Gujarat or Maharashtra.
-
-The honest position for 2026: Tamil Nadu does not have a universally available high-value state top-up comparable to Gujarat's GEDA scheme or Maharashtra's MEDA incentive. The PM Surya Ghar central subsidy of ₹78,000 is the primary financial instrument available to most TN homeowners. If TEDA has an active scheme when you apply, it is a bonus, but do not build your payback calculation around an uncertain state component.
-
-> *Tamil Nadu rooftop solar registrations under PM Surya Ghar have grown steadily since 2024, with Chennai, Coimbatore, and Madurai districts leading adoption. Source - [Mercom India](https://www.mercomindia.com/), Q1 2026 India Rooftop Solar Market Report.*
-
-## TANGEDCO Net Metering: How It Works and Why It Takes Time
-
-[Net metering](/glossary/net-metering/) is the mechanism that makes rooftop solar financially viable, it connects your solar system to the grid, allows surplus generation to flow into the TANGEDCO network, and credits those units against your future electricity bills. Without a commissioned net meter, your solar system cannot legally operate in grid-tie mode under TNERC regulations.
-
-TANGEDCO is the sole electricity distribution utility in Tamil Nadu and the DISCOM you deal with for net metering. Unlike states with multiple DISCOMs, there is no DISCOM choice in Tamil Nadu, every residential consumer goes through the same TANGEDCO process.
-
-### The TANGEDCO Net Metering Process
-
-The end-to-end process has five stages from application to a live bidirectional meter:
-
-1. **Application submission**: Submit the net metering application form with all documents to the TANGEDCO Sub-Divisional Engineer (SDE) office for your area. Your empanelled installer typically prepares and submits this on your behalf.
-2. **Technical feasibility assessment**: TANGEDCO's technical team assesses whether your connection can accommodate the proposed solar capacity (sanctioned load check, distribution transformer capacity, cable adequacy). This takes 15 to 25 days when the queue is clear.
-3. **Approval and meter order**: Once feasibility is confirmed, TANGEDCO issues a formal approval letter and orders a bidirectional meter. Meter procurement is the most variable stage, TANGEDCO procures meters centrally and supply depends on procurement cycles.
-4. **Meter installation**: A TANGEDCO lineman team visits to install the bidirectional [smart meter](/glossary/smart-meter/) and configure the net metering connection. This stage requires you to be present or represented.
-5. **Commissioning inspection**: A final inspection confirms the solar system is operating correctly in grid-tie mode. The commissioning report is then submitted to MNRE to trigger subsidy disbursement.
-
-**Realistic timeline in Tamil Nadu: 60 to 120 days.** This is the honest range based on reported applicant experiences. Urban Chennai applicants in divisions with higher staff density may see the lower end of the range (60–75 days). Applicants in Tier-2 cities such as Salem, Vellore, or Tirunelveli, or in semi-urban areas, should plan for 90 to 120 days. TANGEDCO is consistently ranked among the slower DISCOMs for net metering in the country, not because the scheme is hostile to solar, but because administrative processing capacity has not kept pace with application volumes.
-
-Compare Tamil Nadu's timeline with faster-processing states:
-
-| DISCOM | State | Typical Net Metering Timeline |
-| --- | --- | --- |
-| **DGVCL / UGVCL** | Gujarat | 30–45 days |
-| **BESCOM** | Karnataka | 45–60 days |
-| **MSEDCL** | Maharashtra | 60–90 days |
-| **TANGEDCO** | Tamil Nadu | 60–120 days |
-| **TSSPDCL** | Telangana | 60–90 days |
-
-The solar subsidy in Tamil Nadu is worth pursuing, but the timeline above sets realistic expectations. The net metering delay does not reduce your subsidy or your long-term savings; it only delays the date from which the meter starts crediting your consumption.
-
-## The TANGEDCO Solar Checklist: 5 Things to Know Before You Apply
-
-This named framework is the practical guide for any Tamil Nadu homeowner who wants to go solar without hitting avoidable delays. Every point reflects a common failure mode in the TANGEDCO application process.
-
-### The TANGEDCO Solar Checklist
-
-1. **Verify your sanctioned load before sizing your system.** TANGEDCO's technical feasibility assessment checks whether your proposed solar capacity is within your sanctioned load limit. If your sanctioned load is 3 kW and you apply for a 5 kW solar system, expect a rejection. Check your electricity bill for your sanctioned load or visit the SDE office. If you need a higher load, apply for a load enhancement (LT connection upgrade) before submitting the solar application, this adds 30 to 60 days but avoids a rejection restart.
-
-3. **Submit complete documentation on the first attempt.** Incomplete applications are not held in a partial-approval state, they are returned to the queue. A document rejection restarts your 60–120 day clock. The complete document set includes: latest electricity bill, Aadhaar and PAN, property ownership proof, rooftop photographs, single-line diagram, equipment specification sheets, and the TANGEDCO application form duly signed. For apartments, include the RWA NOC.
-
-4. **Follow up at the SDE level every three weeks.** TANGEDCO does not proactively send status updates by default. Your installer should follow up with the Sub-Divisional Engineer's office at regular intervals. Keep written records (emails or acknowledgement receipts) of every follow-up interaction. If you face a long silence, a written application to the Executive Engineer (Distribution) is a step above the SDE and typically produces a response within a week.
-
-5. **Understand the [feed-in tariff](/glossary/feed-in-tariff/) before designing your system orientation.** Tamil Nadu's TNERC-regulated export buyback rate is approximately ₹2.00 to ₹3.00 per unit, significantly lower than the import tariff of ₹4.50 to ₹9.00 per unit depending on your slab. This means your priority should be maximising self-consumption, not export. [Orient your panels](https://surgepv.com/3d-solar-roof-design/) for peak generation during your highest-consumption hours (typically 10 AM to 4 PM for residential consumers). A south-facing roof is optimal; a west-facing array that captures afternoon generation can be better if your household consumption peaks in the evening.
-
-This five-point checklist applied before you sign a vendor contract will save most Tamil Nadu homeowners months of avoidable delay.
-
-## Net Metering in Tamil Nadu: FiT Rates, Gross vs Net, and TNERC Framework
-
-Tamil Nadu operates a **net metering** framework for residential rooftop solar consumers. This means your electricity meter measures the net difference between generation and consumption on a monthly basis, surplus units generated reduce your bill first, and any excess over your consumption is purchased by TANGEDCO at the buyback rate. This is distinct from a **gross metering** model, where all generation is sold to the DISCOM at a fixed rate regardless of your consumption.
-
-For a full comparison of the two metering structures and when each makes more sense, the [gross metering vs net metering guide](/blog/gross-metering-vs-net-metering/) covers the mechanics in detail.
-
-**TNERC Feed-in Tariff (FiT) Framework:**
-
-- **Applicable regulation**: The Tamil Nadu Electricity Regulatory Commission ([TNERC](https://www.tnerc.gov.in/)) issues rooftop solar orders under the Electricity Act 2003, setting the export tariff and net metering eligibility conditions.
-- **Export buyback rate**: For residential consumers, TNERC has set the buyback rate at approximately ₹2.00 to ₹3.00 per unit (varies with periodic tariff orders; check the latest TNERC order for the exact figure applicable in your tariff year).
-- **Banking provision**: Surplus units can typically be banked on a monthly basis and adjusted against future consumption, with annual settlement at the applicable buyback rate for any residual surplus.
-- **System size caps**: Residential consumers may install up to 10 kW under net metering (subject to sanctioned load limits). Commercial consumers have higher limits under TNERC's framework.
-- **Grid connectivity requirement**: The solar system must operate in anti-islanding mode, disconnecting automatically during grid outages. This is a standard feature of all grid-tie inverters; confirm your chosen inverter has [anti-islanding](/glossary/anti-islanding/) certification.
-
-The import vs export tariff gap in Tamil Nadu is one of the more pronounced in South India. Maximising self-consumption (particularly by sizing the system to match your daytime consumption profile) delivers returns several times higher than relying on export credits.
-
-## Chennai Homeowner Worked Example: 3 kW System, Full Payback Model
-
-A concrete calculation makes the Tamil Nadu solar economics real. This worked example is for a homeowner in Adyar, Chennai, with a monthly electricity bill of ₹3,800 (approximately 380 units per month), installing a 3 kW rooftop solar system.
-
-**System parameters:**
-- **System size:** 3 kW on-grid
-- **Panel type:** 550 Wp monocrystalline (6 panels), ALMM-listed
-
-- **Annual generation estimate:** Chennai receives approximately 5.6 peak sun hours per day. A 3 kW system generates roughly 5.6 × 3 × 0.8 (system efficiency) × 365 = approximately 4,918 kWh per year, or about 410 units per month.
-
-**Financial model:**
-
-| Line item | Value |
+| Installed solar-module capacity | Central assistance |
 | --- | --- |
-| **Gross system cost (installed)** | ₹1,80,000 |
-| **PM Surya Ghar central subsidy** | ₹78,000 |
-| **TEDA state scheme (if active)** | Verify at teda.in |
-| **Net upfront cost (central subsidy only)** | ₹1,02,000 |
-| **Monthly generation** | ~410 units |
-| **Self-consumed (80% estimate)** | ~328 units @ ₹7.00/unit |
-| **Exported (20% estimate)** | ~82 units @ ₹2.50/unit |
-| **Monthly savings (avoided bill)** | ₹2,296 |
-| **Monthly export credit** | ₹205 |
-| **Total monthly benefit** | ₹2,501 |
-| **Simple payback period** | ~41 months (approx. 3.4 years) |
-| **25-year IRR** | Approximately 18–22% |
+| First 2 kWp | ₹30,000 per kWp |
+| Third kWp (or part of it) | ₹18,000 per kWp |
+| Above 3 kWp | No additional assistance |
+| 1 kW system | ₹30,000 |
+| 2 kW system | ₹60,000 |
+| 3 kW and larger | Up to ₹78,000 |
 
-The payback period above assumes a ₹7 per unit avoided tariff rate (typical for 380-unit-per-month consumers in TN residential tariff slab 3). Consumers in lower slabs (below 200 units per month) see longer payback; consumers above 500 units per month in the highest slab (paying ₹9+ per unit) see shorter payback.
+Tamil Nadu is not on the special-category list, so the higher ₹33,000 and ₹19,800 rates for the hill states, the North East, Jammu and Kashmir, Ladakh and the island territories do not apply. MNRE's own examples show how part-kilowatts work: a 1.5 kW system gets ₹45,000, a 2.5 kW system gets ₹69,000, and a 6 kW system gets ₹78,000. The assistance is calculated on the installed solar-module capacity, not on the inverter rating or on any battery you add.
 
-TANGEDCO's relatively high residential tariffs (among the highest in South India) are the primary reason Tamil Nadu's solar payback is attractive despite the slower DISCOM process. Every unit you avoid importing at ₹7 to ₹9 per unit is a unit contributing directly to your return. Homeowners who want to run their own IRR and payback scenarios against different self-consumption ratios can use a [dedicated financial modelling tool](https://surgepv.com/generation-financial-tool/) before finalising system size.
+The money is not a discount at purchase. You pay the vendor under your contract, and the assistance is released to your bank account, or to your loan account first if you financed the system, after the DISCOM has inspected the system and approved the application on the portal. Our [subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) has the slab arithmetic for every size up to 10 kW.
 
-## What to Do If TANGEDCO Delays or Rejects Your Application
+**Group housing societies and resident welfare associations.** The common-facility rate is ₹18,000 per kWp for up to 500 kWp, at a limit of 3 kWp per house. The guidelines say this limit includes any plants individual residents have already installed, and the connection must be dedicated to common facilities.
 
-Delays and rejections are the most common pain points reported by Tamil Nadu homeowners going solar. This section gives you the escalation path clearly, knowing it in advance reduces stress and speeds resolution.
+### What the benchmark cost means
 
-**If your application has been pending beyond 90 days without an update:**
+The guidelines fix a benchmark cost of ₹50,000 per kW for the first 2 kW and ₹45,000 for the additional kW (₹55,000 and ₹49,500 in special-category states), effective 13 February 2024. The assistance is a share of that benchmark, not of your invoice. For a 3 kW system the benchmark is ₹1,45,000 and the assistance is ₹78,000. Your quotation can be above or below the benchmark, and the assistance does not change with it. The benchmark can be revised at the scheme's mid-term review, so check the portal for the current figure before you do any arithmetic.
 
-- **Step 1, Sub-Divisional Engineer follow-up.** Visit the SDE office in person with your application acknowledgement. Request a written status update. In many cases, applications have been technically approved but the meter installation is pending scheduling, the SDE can give you an estimated date.
-- **Step 2, Executive Engineer complaint.** If the SDE visit does not produce movement within two weeks, submit a written complaint to the Executive Engineer (Distribution) for your circle, citing the application date and service connection number. TANGEDCO's complaint management process requires a response at this level.
-- **Step 3, TNERC Consumer Grievance Forum.** If TANGEDCO does not resolve the issue within a reasonable period after the EE complaint, file a complaint with the [TNERC Consumer Grievance Redressal Forum](https://www.tnerc.gov.in/). The TNERC consumer helpline is **1800 425 5858** (toll-free). TNERC has the authority to direct TANGEDCO to expedite approvals.
-- **Step 4, Chief Engineer (Distribution) escalation.** For persistent cases, a written complaint to the Chief Engineer (Distribution), TANGEDCO Head Office, Chennai, is the highest internal escalation before a formal TNERC proceeding. CE-level attention typically resolves most stuck applications.
+### Three conditions that decide eligibility
 
-**If your application is rejected:**
+1. **A valid DISCOM consumer account.** The application is tied to your service connection and your name, at the property where the system is installed. Our [eligibility guide](/blog/pm-surya-ghar-eligibility/) lists the household-level rules.
+2. **A vendor registered on the National Portal.** The MNRE guidelines say the scheme is implemented only through vendors registered on the portal, and that there is no tendering or empanelment by the DISCOM under the scheme. You may agree design and price with any registered vendor. Registration can be at state level with the nodal DISCOM or agency, or at national level with REC. Use our [vendor verification guide](/blog/empanelled-vendor-pm-surya-ghar/) before you pay an advance.
+3. **Domestic content modules.** The guidelines require modules made in India from domestically made cells. Using non-DCR modules in any form makes the installation ineligible for the assistance. Ask for the module make, model and DCR documentation in writing. MNRE's ALMM page lists modules and cells, not inverters.
 
-| Rejection reason | Correct response |
+One more rule worth knowing: an installation is eligible for assistance only once, and a system moved to a new location does not qualify again. Consumers may also choose to give up the assistance through the portal's "Give It Up" option and install without the DCR condition.
+
+## TEDA and state schemes: what is active in October 2026
+
+TEDA, the Tamil Nadu Energy Development Agency, is the state nodal agency for renewable energy. It has run targeted programmes in the past, for example for specific household categories, and these depend on annual budgets.
+
+What we could and could not confirm on 14 October 2026:
+
+- **No general residential top-up found.** We did not find a Tamil Nadu government, TEDA or TNPDCL order giving a per-kW state subsidy for ordinary households, and a secondary state-subsidy tracker last verified in December 2025 also lists none. That is an absence of evidence in the sources we could open, not proof that nothing exists.
+- **A newer incentive is reported but unconfirmed.** News coverage mentioned a Tamil Nadu incentive linked to portal registrations after early August 2026. We could not reach TEDA's or TNPDCL's pages to confirm it, so this guide does not count it and gives no amount. If a vendor cites it, ask for the government order number, the eligible consumer category, any cap on beneficiaries and the claim channel.
+- **The portal test.** Under clause 5(i) of the MNRE guidelines a state may supplement the central assistance, but the state component's disbursement must be integrated with the National Portal and the state must sign the MoU. A genuine top-up will therefore show up in your portal application.
+
+Check [teda.in](https://teda.in/) for the live list of open schemes before you build any budget around a state component. If a scheme needs a separate TEDA installer registration, confirm that your vendor holds it, in addition to National Portal registration. Our [state-wise subsidy comparison](/blog/solar-subsidy-all-states/) tracks how other states handle this.
+
+## Your licensee: TANGEDCO is now TNPDCL
+
+In 2024 the Tamil Nadu Generation and Distribution Corporation (TANGEDCO) was restructured into separate companies for generation, distribution and renewable-energy assets. Tamil Nadu Power Distribution Corporation Limited (TNPDCL) took over distribution. In practice you may still see TANGEDCO on your bill, on rooftop forms, in installer paperwork and in older articles, including parts of this one.
+
+What this means for your application:
+
+- **Use the licensee name on your bill** when you select the DISCOM on the National Portal.
+- **Ask which office handles you.** Feasibility records, the net meter, the agreement and the inspection are done by the distribution company's local office for your area.
+- **Check documents for the right entity name.** An agreement or certificate naming a defunct entity may need a clarification from the vendor or the licensee, not a restart.
+
+Unlike states with several distribution companies, a Tamil Nadu household does not choose a DISCOM; it is the one serving the connection. Some areas, such as certain special economic zones, can have separate licensees, so confirm if your connection is unusual.
+
+## Net metering in Tamil Nadu: the process and the official clocks
+
+[Net metering](/glossary/net-metering/) connects your system to the grid, credits exported units against your consumption, and lets the licensee bill you for the net. The metering arrangement a state allows is set by its regulator, here TNERC, and the MNRE guidelines cover whichever approved arrangement applies (net metering, gross metering or net billing). Our [net metering guide](/blog/net-metering-india-complete-guide/) and [gross vs net metering comparison](/blog/gross-metering-vs-net-metering/) explain the differences.
+
+### The process on the National Portal
+
+1. **Register and apply.** Use your consumer number on the portal. It generates an application ID.
+2. **Choose a registered vendor** and agree the design, components and commercial terms. The guidelines include a model vendor-consumer agreement but say the actual contract can vary.
+3. **Feasibility.** For systems up to 10 kW the guidelines say applications are deemed accepted without a technical feasibility approval, once the regulator and DISCOM operationalise the provision. Until then, upload the documents your state rules require.
+4. **Install.** The vendor installs, runs safety checks and educates you on maintenance.
+5. **Update the portal.** You upload system details and geo-tagged photographs. The vendor may help through your login, but you can do every portal step without them.
+6. **DISCOM inspection and meter.** The DISCOM inspects, signs the metering agreement, installs the meter and approves the application, or sends it back for correction or rejects it with reasons.
+7. **E-token and release.** An e-token is activated after inspection and documents. You redeem it in your profile, and the assistance goes to your account or loan account.
+
+### The clocks that are actually published
+
+| Stage | Published clock | Source |
+| --- | --- | --- |
+| Technical feasibility study | Not required up to 10 kW | Electricity (Rights of Consumers) Rules as amended 22 Feb 2024 (PIB, 23 Feb 2024) |
+| DISCOM commissioning of rooftop system | 15 days, cut from 30 | Same amendment |
+| Central assistance processing | Within 15 days of DISCOM approval | MNRE guidelines, clause 6(t) |
+| Grievance resolution | Within 30 days | MNRE guidelines, clause 11 |
+
+These are rules, not averages. We found no published TNPDCL average for rooftop net metering and could not verify the 60 to 120 day figure that older guides gave, so we have removed it. If a vendor promises a specific number of days, ask which clause it rests on. Our [net meter approval timeline guide](/blog/net-meter-approval-timeline/) explains how to read each stage and where applications actually wait.
+
+### The five-point checklist before you apply
+
+1. **Check your sanctioned load first.** A proposed capacity above your sanctioned load is a classic ground for query. If you need a higher load, ask the licensee how to apply for the enhancement.
+2. **Submit complete documents once.** Bill, ID, bank details, roof ownership or authority, roof photographs, single-line diagram and equipment details. Incomplete uploads restart the queue for that stage.
+3. **Keep written records.** Save the application ID, e-token, dates of every inspection call and any rejection remark.
+4. **Know your export terms.** Get the TNERC order and the billing treatment for your commissioning year in writing.
+5. **Do not pay in full early.** Link payments to milestones in the contract and to commissioning.
+
+## Net metering rules to verify with TNERC and TNPDCL
+
+TNERC regulates rooftop solar and net metering terms in Tamil Nadu under the Electricity Act, 2003. The Rights of Consumers Rules set national floors, such as the feasibility and commissioning timelines above, and the state regulator sets billing details. Before you size the system, get these answers in writing for your connection:
+
+- **Metering arrangement.** Net metering, net billing or gross metering, and any capacity limit that depends on your category or sanctioned load.
+- **Export credit.** How surplus units are valued, whether they are banked, and how any residual surplus is settled at year end. We are not quoting a rupee figure because it varies by tariff order and year.
+- **Settlement period.** The date on which banked credits are settled, so you can align consumption.
+- **Anti-islanding.** Grid-tied inverters must stop exporting when the grid is down. Ask the vendor for the inverter's exact model documents that cover [anti-islanding](/glossary/anti-islanding/) protection and the grid requirements TNPDCL asks for.
+- **Smart meter.** In areas where smart metering has been awarded under the central distribution reform scheme, the MNRE guidelines say net meters are installed through the metering service provider.
+
+The gap between what you pay per unit and what you are credited for exports is why self-consumption matters. Size the system to your daytime load, not to the largest roof area, and confirm the actual import tariff slab on your bill.
+
+## Work out your own payback
+
+We have not printed a Chennai worked example, because a payback built on a guessed installed price and an assumed tariff is not evidence. Use this template with your own quotation and bill instead.
+
+| Line | Where the number comes from |
 | --- | --- |
-| **Capacity exceeds sanctioned load** | Apply for LT service load enhancement simultaneously; resubmit after sanction |
-| **Incomplete documentation** | Obtain the exact list of deficiencies from the SDE in writing; resubmit complete set |
-| **Non-ALMM equipment cited** | Replace with ALMM-listed components; get new quotation from installer; resubmit |
-| **Prior subsidy on same connection** | Verify if the prior subsidy was for a different system type (e.g., TEDA pump scheme); obtain no-objection from TANGEDCO consumer cell |
-| **Distribution transformer capacity** | Request the SDE to assess the next available feeder point; in congested urban areas this may require waiting for TANGEDCO's planned capacity addition |
+| Gross system cost | The itemised quotation, including meter, structure, tax and labour |
+| Central assistance | MNRE slab for your capacity (up to ₹78,000 at 3 kW or more) |
+| State top-up | ₹0 until you hold the order |
+| Net outlay | Gross cost minus central assistance |
+| Annual generation | The vendor's modelled monthly figures, with the weather dataset and loss assumptions stated |
+| Self-consumed units | Your bill's daytime load, multiplied by your tariff slab |
+| Exported units | Valued at the export rate in your TNERC order |
+| Simple payback | Net outlay divided by annual benefit |
 
-Most rejections in Tamil Nadu are for documentation deficiencies or load mismatch, both are correctable without starting over from the PM Surya Ghar portal. Work with your installer to identify the root cause before resubmitting.
+For reference, the MNRE benchmark for a 3 kW system is ₹1,45,000, and central assistance of ₹78,000 is about 54 percent of it. Real quotations differ in both directions. The [solar inverter payback guide](/blog/solar-inverter-payback-period-in-india/) explains the method, and the [solar quotation checklist](/blog/solar-quotation-checklist/) shows what an itemised quote should contain. If you plan to borrow, see the [bank solar loan comparison](/blog/best-bank-solar-loan-india-2026/); MNRE's guidelines say standardised low-interest loan products at around the repo rate plus 50 basis points are to be offered for systems up to 3 kW (clause 6r), and individual banks set their own rates, limits and terms.
 
-> *Tamil Nadu's solar irradiance is among the highest in India, with a Global Horizontal Irradiance (GHI) of 5.5 to 6.3 kWh/m²/day across most districts. Source - [MNRE Solar Radiation Atlas for India](https://mnre.gov.in/), 2024.*
+## If TNPDCL delays or rejects your application
 
-## Tamil Nadu vs Other South Indian States: How the Solar Picture Compares
+Start with the facts. Ask for the rejection or pending reason in writing, with the date.
 
-Tamil Nadu sits in an interesting position among South Indian states when it comes to residential solar adoption. The underlying solar resource and electricity tariff economics are as good as anywhere in the country, but the administrative infrastructure for residential solar has lagged behind Karnataka and Gujarat.
+**Escalation ladder for a stuck application**
 
-### Karnataka (BESCOM)
+1. **The vendor.** Under the MNRE guidelines a deficiency that blocks commissioning or release because of system quality or component issues must be rectified by the vendor.
+2. **The section or divisional office.** Visit with your application ID and ask for the stage status and expected inspection date in writing.
+3. **The portal grievance route.** Consumers can raise a grievance on the National Portal, through the national call centre or the app. A tracking ID is created and the guidelines set a 30-day resolution target.
+4. **The licensee's Consumer Grievance Redressal Forum.** This is the statutory forum for consumer complaints against a licensee.
+5. **The Electricity Ombudsman.** If the forum does not resolve the matter, the appeal route under Section 42 of the Electricity Act, 2003 applies.
 
-BESCOM is widely regarded as one of the better-performing DISCOMs in India for net metering. Typical timelines of 45 to 60 days, a functioning online portal, and a more proactive state solar policy have made Karnataka a benchmark for how DISCOM-facilitated solar adoption can work. The Karnataka solar subsidy covers central PM Surya Ghar plus KREDL state incentives.
+**Common rejection causes and the fix**
 
-### Gujarat (DGVCL / UGVCL)
+| Cause | What to do |
+| --- | --- |
+| Capacity above sanctioned load | Ask the licensee about load enhancement, or reduce the capacity, and resubmit |
+| Incomplete or mismatched documents | Get the deficiency list in writing and upload a complete set |
+| Non-DCR modules | Replace with DCR modules and update the portal, since non-DCR modules make the installation ineligible |
+| Vendor not registered on the National Portal | Choose a registered vendor and check the record before paying |
+| Bank account not in the applicant's name | Provide proof that the account is held by the consumer, such as a cancelled cheque or statement |
+| Network constraint at the transformer | Ask the licensee in writing what strengthening or alternative point applies |
 
-Gujarat combines the fastest DISCOM processing (30–45 days in urban areas) with the most generous state top-up subsidy via GEDA. The [solar subsidy Gujarat 2026 guide](/blog/solar-subsidy-gujarat-2026/) covers the full Gujarat stack. For Tamil Nadu homeowners with connections in Gujarat (expatriate homeowners, NRIs), the Gujarat process is considerably smoother.
+Our [rejection reasons guide](/blog/pm-surya-ghar-rejection-reasons/) and [status check guide](/blog/pm-surya-ghar-status-check/) cover the portal side in more detail.
 
-### Maharashtra (MSEDCL)
+## What the DISCOM inspection checks
 
-Maharashtra sits between Tamil Nadu and Gujarat on processing speed, 60 to 90 days for MSEDCL. The [solar subsidy Maharashtra 2026 guide](/blog/solar-subsidy-maharashtra-2026/) details the MEDA state scheme and MSEDCL process. Maharashtra's high residential tariffs are comparable to Tamil Nadu, making payback periods similar once the meter is commissioned.
+The inspection is where most Tamil Nadu projects either clear or stall, so prepare for it as a separate stage. Under the MNRE guidelines (clause 6k) the DISCOM carries out a physical, checklist-based inspection against the portal's checklist, signs the metering agreement, and then approves the application, sends it back for correction or rejects it with a reason. The vendor must make sure the system meets the minimum technical specifications in the guidelines' annexure, and the DISCOM checks that at inspection (clause 6f).
 
-### Telangana (TSSPDCL / TSNPDCL)
+Before the visit, confirm with your vendor that:
 
-Telangana has processed net metering at roughly the same pace as Tamil Nadu, with timelines of 60 to 90 days. Hyderabad's urban DISCOM has shown improvement but still faces backlogs during peak application periods.
+- the module and inverter models installed match the models in the portal entries and the invoice;
+- the geo-tagged photographs, single-line diagram and test reports are uploaded and legible;
+- earthing, protection devices and the grid-tied inverter's anti-islanding behaviour are documented;
+- someone who can sign for the consumer will be present on the day; and
+- you hold the vendor's five-year maintenance terms and the component warranty documents in writing.
 
-**The honest assessment:** Tamil Nadu is not the fastest, but the solar economics (driven by high tariffs and excellent irradiance) mean the investment is worth the administrative effort. The key is going in with accurate expectations and following the escalation path outlined in the previous section if the process stalls.
+The guidelines also provide for inspections by the national and state implementing agencies at commissioning and afterwards, including an independent third-party assessment of at least 1 percent of installed systems (clause 10). A system that is later found non-compliant can lead to penalties for the vendor, but the cash-flow risk before release sits with you, which is why milestone payments matter.
 
-## Common Mistakes Tamil Nadu Homeowners Make Going Solar
+## Other states and how Tamil Nadu compares
 
-The TANGEDCO process is complex enough that avoidable mistakes are frequent. These are the eight most common errors reported by TN homeowners, with clear guidance on how to prevent each one.
+We no longer publish side-by-side net metering day counts for other discoms, because we could not verify them. The useful comparison is how each state handles the state layer on top of the central assistance, and our state guides cover that: [Karnataka](/blog/solar-subsidy-karnataka-2026/), [Maharashtra](/blog/solar-subsidy-maharashtra-2026/), [Telangana](/blog/solar-subsidy-telangana-2026/), [Kerala](/blog/solar-subsidy-kerala-2026/), [Gujarat](/blog/surya-gujarat-scheme-guide/) and [West Bengal](/blog/solar-subsidy-west-bengal-2026/). The [all-states comparison](/blog/solar-subsidy-all-states/) puts the central rules and state status in one table.
 
-- **Signing a contract before verifying installer empanelment.** Some local solar vendors in Tamil Nadu are active installers but not registered on the TANGEDCO empanelled list. Always verify empanelment status at [tangedco.gov.in](https://tangedco.gov.in/) before signing. An unempanelled installer cannot submit your net metering application, making your system non-operational for grid-tie.
+## Common mistakes Tamil Nadu homeowners make
 
-- **Ignoring the net metering application step.** Some homeowners install the solar system and then learn that the net metering application is a separate multi-step process with TANGEDCO. The system cannot operate in grid-tie mode without a commissioned bidirectional meter. Start the application process simultaneously with the installation.
-- **Underestimating the payback calculation because of the export tariff.** New solar owners sometimes calculate payback using the ₹2.50 export rate on all generation. In practice, 70 to 85% of residential solar generation is self-consumed at the ₹7 to ₹9 import tariff savings rate, not exported at ₹2.50. Use the self-consumption ratio in your payback model. For more on how to calculate payback accurately, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) has the full methodology.
-- **Choosing the wrong system size for actual consumption.** A 3 kW system generating 410 units per month on a household that consumes only 150 units results in significant surplus export at the lower buyback rate. Match your system to your actual consumption profile; the [how to apply for net metering in India guide](/blog/how-to-apply-net-metering-india/) explains how to size relative to your consumption for optimal net metering results.
-- **Not banking on the TANGEDCO timeline when planning finances.** Homeowners who budget for subsidy receipt within 30 days and plan finances around that assumption face cash-flow pressure when the real timeline is 90 to 120 days. Finance the full system cost independently, treat the subsidy as a reimbursement that may arrive in month three or four, not month one.
-- **Missing the annual settlement clause.** TANGEDCO's net metering framework includes an annual settlement for banked surplus units. Surplus units not consumed within the annual period are settled at the buyback rate (approximately ₹2.50/unit), not credited forward indefinitely. Align your system size to consume banked units within the annual cycle.
-- **Skipping the TNERC grievance option.** Homeowners who face long delays often do not know that TNERC has direct consumer-facing jurisdiction. The TNERC Consumer Grievance Redressal Forum at [tnerc.gov.in](https://www.tnerc.gov.in/) is a legitimate and effective escalation path, do not leave it unused if TANGEDCO is unresponsive beyond 120 days.
+- **Signing before checking the vendor.** Search the vendor on the National Portal yourself. Do not accept a screenshot, and match the business name on the quote to the portal record.
+- **Treating the application as one step.** The portal application, the vendor contract, the DISCOM inspection and the meter are separate stages with separate owners.
+- **Budgeting a state top-up you cannot document.** Leave unconfirmed state amounts out of the base case.
+- **Using the wrong licensee name.** TANGEDCO appears in many documents, but the distribution company is TNPDCL. Ask which entity the paperwork should name.
+- **Sizing for the roof, not the load.** Panels beyond your daytime use are exported at the TNERC rate, which is typically lower than the tariff you avoid. Confirm your own numbers.
+- **Ignoring sanctioned load.** Check it before the design is frozen.
+- **Using non-DCR modules.** They make the installation ineligible for the central assistance.
+- **Paying the full amount upfront.** The assistance is released after inspection, so tie vendor payments to milestones.
+- **Skipping the grievance route.** The portal, the forum and the Ombudsman exist for stuck cases.
 
-## Where Qbits Fits
+## Where Qbits fits
 
-- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
-- **[Net Metering Guide](/blog/net-metering-india-complete-guide/)**: everything you need to know about net metering across India, including TNERC-specific context.
+Qbits Energy manufactures inverters. It does not install systems, file subsidy applications or act as a PM Surya Ghar vendor. For a grid-connected home system, the [on-grid inverter range](/on-grid-inverter/) lists single-phase models with datasheets, and the [hybrid inverter page](/hybrid-inverter/) covers battery-backed models. Ask your vendor for the exact inverter model and compare it with the datasheet, since the central assistance depends on module capacity and scheme conditions, not on the inverter brand. If you want to find installers and service partners near you, use the [Qbits partner directory](/authorized-service-partners/), and then confirm each one's registration on the National Portal as described above.
 
-[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
+**Sources checked 14 October 2026:** MNRE operational guidelines for residential CFA under PM Surya Ghar (clauses 2, 5, 6, 7, 11 and 13; read from the MNRE PDF); PIB release of 23 February 2024 on the Electricity (Rights of Consumers) Rules amendment; a state-subsidy tracker last verified December 2025 for the absence of a listed state top-up. pmsuryaghar.gov.in, pib.gov.in, tnpdcl.org, tnerc.gov.in and teda.in could not be opened on that date, so confirm current terms directly with TNPDCL, TNERC and TEDA before you sign.

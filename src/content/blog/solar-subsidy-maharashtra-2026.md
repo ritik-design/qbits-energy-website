@@ -183,7 +183,7 @@ To make the Maharashtra Solar Savings Stack concrete, here is a detailed worked 
 - Monthly consumption: approximately 700 units (at blended MSEDCL tariff of ~₹8.50/unit)
 - DISCOM: MSEDCL (Pune Division)
 - Roof: south-facing, 400 sq ft usable area
-- System chosen: 4 kW on-grid rooftop solar
+- System chosen: 4 kW [on-grid](/on-grid-inverter/) rooftop solar
 
 **System Economics:**
 

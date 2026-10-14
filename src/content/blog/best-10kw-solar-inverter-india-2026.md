@@ -4,8 +4,8 @@ excerpt: "Best 10 kW solar inverter in India: three-phase fit, MPPT current limi
 description: "Compare 10 kW solar inverters in India for villas, shops and small factories: three-phase on-grid and hybrid models, MPPT limits and depreciation."
 category: "Buying Guide"
 date: 2026-09-23
-updatedDate: 2026-09-24
-readTime: "11 min read"
+updatedDate: 2026-10-14
+readTime: "18 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
 keywords:
@@ -45,6 +45,7 @@ Sibling guides cover [3 kW](/blog/best-3kw-solar-inverter-india-2026/) and [5 kW
 > - Three-phase is the norm at 10 kW, and most DISCOMs will not sanction a 10 kW single-phase export connection.
 > - An 11.9 kWp array at 4.5 peak sun hours and a 0.78 performance ratio yields about 41.8 kWh per day.
 > - Per-MPPT current, not rated power, is the binding limit. A 700 W class module draws about 18.3 A short-circuit, so two paralleled strings exceed a 20 A input.
+> - Five exact three-phase 10 kW models are compared below from their own datasheets, with no scores and no winner.
 > - The Qbits QB 5/6/8/10/12/15/17KTLC family lists 2 MPPTs, a 180 V to 1000 V MPPT window, 1100 V maximum DC, and an IP66 enclosure.
 > - Metering treatment varies by state, DISCOM, and consumer category. Net metering is not automatic at this size.
 > - MNRE introduced auto load enhancement up to 10 kW for PM Surya Ghar applications, reported in March 2026.
@@ -63,6 +64,36 @@ The housing society system serves lifts, pumps, corridor lighting, and the clubh
 
 What separates all three from a 3 kW to 5 kW home is the cost of downtime. A week of lost generation costs a household a few hundred rupees. It costs a commercial premises far more during a summer peak. Service coverage therefore outranks a fraction of a percent of conversion efficiency here.
 
+## Large villas and farmhouses: what to check at 10 kW
+
+Answer capsule: a large home is the closest 10 kW buyer to residential practice, but the load and roof are bigger. The generation example in this guide gives about 1,270 kWh a month, which suits a household using roughly 900 kWh to 1,400 kWh.
+
+Typical loads behind that consumption are four to six air conditioners, a borewell or pool pump, geysers and an induction kitchen. Many of them run when the array is producing. Where a home charges an electric car, afternoon charging aligns with output. At an assumed ₹8 per kWh, 1,270 kWh offsets about ₹10,160 a month, and tariffs and settlement rules differ by state.
+
+Spec checks for this buyer:
+
+- **MPPT count.** Two trackers suit a villa with two roof planes. Farmhouses with several planes may need to leave one plane unused or add a second inverter.
+- **Export control.** Where net metering is not available, ask the DISCOM whether zero export is required and confirm the inverter supports the accessory.
+- **Ingress rating.** Rooftop units near conduit entries see monsoon rain and dust. IP66 gives more margin than IP65.
+- **Monitoring.** A simple app and phone alerts suit a non-technical owner. Make sure the account is in the owner's name.
+- **Subsidy.** Residential central assistance under PM Surya Ghar is computed on capacity up to 3 kW, as set out below.
+
+## Shops, clinics and small factories: what to check at 10 kW
+
+Answer capsule: a small commercial buyer generates and consumes in daylight, so more of the output is used on site. The cost of downtime also matters more, since a lost week in a summer peak is a real loss.
+
+An illustrative case: the example 11.9 kWp array makes about 41.8 kWh a day. A premises using 60 kWh a day could use at most about 70% of that day's demand from the array, and less on a cloudy day or a closed day. Tariffs are usually higher for commercial consumers than for residential slabs, so check your own bill.
+
+Spec checks for this buyer:
+
+- **Three-phase output.** Commercial premises usually have three-phase supply, and a single-phase inverter on one leg creates unbalance that DISCOMs restrict.
+- **Harmonics.** Sensitive equipment suffers from harmonic distortion. Compare the total harmonic distortion line on each datasheet. See the [harmonics glossary entry](/glossary/harmonics/).
+- **Grid code documents.** Net metering forms ask for anti-islanding and grid-interconnection compliance. Ask for the certificates of the exact model.
+- **Two trackers or more.** Commercial roofs have HVAC units, parapets and several slopes. Two planes on two trackers is the minimum.
+- **Reports.** Cloud logging and downloadable generation reports help accounting and any lease or power purchase billing.
+
+Business buyers can usually claim depreciation on the asset, which affects payback. The Income-tax rules set the rate and the rules change with legislation, so confirm the current position with your chartered accountant. The [inverter depreciation guide](/blog/solar-inverter-depreciation-in-india/) works through the mechanics. For businesses weighing solar against a diesel generator for backup, see [solar versus diesel generator in India](/blog/solar-vs-diesel-generator-india/).
+
 ## Why 10 kW is a three-phase decision
 
 Answer capsule: three-phase is the default at this size for two reasons. The premises almost certainly holds a three-phase service already, and most DISCOMs cap single-phase export well below 10 kW. A single-phase unit on a three-phase meter also pushes all export onto one phase, which utilities resist.
@@ -72,6 +103,25 @@ Indian distribution practice ties export phase to supply phase. Unbalanced expor
 Sanctioned load is the second issue. Most DISCOMs will not approve a rooftop system rated above your connected or sanctioned load. At 10 kW this stops being a formality, and a home with 7 kW sanctioned needs a load enhancement application first.
 
 That got easier for residential applicants. The Ministry of New and Renewable Energy waived the technical feasibility requirement and introduced auto load enhancement up to 10 kW under PM Surya Ghar, with the net metering agreement folded into the National Portal application, as reported in March 2026. Commercial consumers still apply through the normal DISCOM route. Background sits in the [three-phase inverter guide](/blog/3-phase-solar-inverter/).
+
+## How these 10 kW inverters were compared
+
+Answer capsule: five three-phase models, compared from each manufacturer's own datasheet read in October 2026. There are no scores, ratings or winners, and Qbits models are quoted from products on this site.
+
+The lines compared are phase and rated output, tracker count and strings per tracker, MPPT window and maximum DC voltage, input current per tracker and short-circuit rating, maximum efficiency, ingress protection and the grid window. The datasheet version and date matter because regional editions differ. Ask your supplier for the India edition of the exact model before you design a string.
+
+## Quick pick by use case
+
+| Use case | Candidates from this guide | What the datasheet shows |
+| --- | --- | --- |
+| Large home, three-phase, two roof planes | Qbits QB 10KTLC, Sungrow SG10RT, GoodWe GW10K-SDT-20, Growatt MOD 10KTL3-X | Each lists two trackers |
+| Shop, clinic or shed with daytime load | Same four | Two trackers and three-phase output |
+| Outage cover on a three-phase supply | Qbits QBH 10KS48P3 | Battery port, 120 A to 250 A battery current across the family |
+| 700 W class modules at about 18 A short-circuit | Qbits QB 10KTLC, Sungrow SG10RT | 20 A per tracker and a 25 A first tracker printed |
+| Shorter strings, lower window floor | GoodWe GW10K-SDT-20, Growatt MOD 10KTL3-X | 140 V window floor printed |
+| Roof with three or more planes | Two smaller inverters, or a model with more trackers | See the section on why two 5 kW inverters sometimes beat one 10 kW unit below |
+
+These are filters, not rankings.
 
 ## Worked example: what a 10 kW array generates
 
@@ -123,24 +173,63 @@ Worked sizing example, using a 700 W class module with 48.58 V open-circuit, 18.
 
 Step 6 surprises people. A 700 W class module draws close to twice the current of the 330 W modules that shaped older design habits. A dual-MPPT inverter with a 20 A per-MPPT limit therefore accepts two strings in total, not four.
 
-Qbits publishes a 20 A maximum DC input on its single-phase KTLS and KTLD families. The three-phase catalogue summary does not publish a per-MPPT figure, so read it off the QB 6.0 to 17.0 kW datasheet. Run your own module and minimum design temperature through the [string sizing calculator](/string-sizing-calculator/), which carries published Adani, Waaree, and Vikram datasheet values.
+Qbits publishes a 20 A maximum DC input on its single-phase KTLS and KTLD families. The three-phase QB 5/6/8/10/12/15/17KTLC family lists 20 A per MPPT on the 6, 8, 10 and 12KTLC, and 20 A and 30 A on the 15 and 17KTLC, so confirm the line for your exact model on the QB 6.0 to 17.0 kW datasheet. Run your own module and minimum design temperature through the [string sizing calculator](/string-sizing-calculator/), which carries published Adani, Waaree, and Vikram datasheet values.
 
-## Comparing 10 kW class inverters across brands
+## Five 10 kW inverters compared
 
-Answer capsule: a useful comparison at this size compares configuration, not reputation. The table lists families sold in India in this class and what to pull for each. Windows, current limits, and efficiency figures change by model and revision, so verify every cell on the current datasheet.
+Answer capsule: five three-phase models, listed alphabetically by maker. All five are rated 10 kW AC and list two trackers. They differ in window floor, per-tracker current, ingress rating and, for the Qbits hybrid, battery side.
 
-| Brand family (10 kW class in India) | Phase | MPPTs | Verify on the current datasheet |
-| --- | --- | --- | --- |
-| Qbits QB KTLC | Three | 2 | 180 V to 1000 V MPPT, 1100 V max DC, per-MPPT current, 98.5% to 98.7% efficiency, IP66 |
-| Qbits QBH KS48P3 hybrid | Three | 1 or 2 by model | 200 V to 800 V MPPT, 1000 V max DC, battery current, backup output, IP66 |
-| Growatt, Sungrow, Solis | Three | 2 | MPPT window, per-MPPT current, AC voltage range, service coverage |
-| Deye | Three | 2 | MPPT window, per-MPPT current, battery port spec if hybrid |
-| Luminous, Microtek, UTL, Havells, Polycab | Three | 1 or 2 | MPPT window, per-MPPT current, service network depth |
-| Fronius, SMA, Delta | Three | 2 | MPPT window, per-MPPT current, spares lead time in India |
+### GoodWe GW10K-SDT-20: three-phase on-grid, two MPPTs
 
-Four things decide a shortlist: MPPT count, per-MPPT current, voltage window, and who answers a service call in year seven. Never accept a specification or a warranty term quoted verbally.
+From the [GoodWe SDT G2 PLUS+ series datasheet](https://en.goodwe.com/Ftp/EN/Downloads/Datasheet/GW_SDT%20G2%20PLUS+_Datasheet-EN.pdf) (V2.1, 19 October 2023, as of October 2026): 10,000 W nominal, two trackers with one string each, 140 V to 950 V MPPT range, 1100 V maximum input, 180 V start-up, 15 A input and 18.7 A short-circuit per tracker, 98.3% maximum efficiency (97.6% European), IP65, 20.5 kg.
 
-Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Ask every shortlisted brand for equivalent written commitments, including who pays freight and labour on a claim.
+**Suits:** three-phase homes and small sheds wanting a low window floor.
+
+**Check before buying:** the 15 A input line against your module's maximum-power current. A 700 W class module has a short-circuit rating near 18.3 A, so its operating current is likely above 15 A.
+
+### Growatt MOD 10KTL3-X: three-phase on-grid, two MPPTs
+
+From the [Growatt MOD10~15KTL3-X(AU) datasheet](https://au.growatt.com/upload/file/20221115/007b7fe49d86c80457d680eed6bac11a.pdf) (AU edition, November 2022, as of October 2026): 10,000 W, two trackers (strings printed as 1/1+1), 140 V to 1000 V MPPT, 1100 V maximum DC, 200 V start-up, 13 A input and 16 A short-circuit as printed per string, 98.6% maximum efficiency (98.1% European), IP66, 15 kg, 340 V to 440 V AC.
+
+**Suits:** three-phase premises wanting a 140 V floor and IP66.
+
+**Check before buying:** this is an Australian edition, so ask for the India datasheet, including the AC range and input current lines.
+
+### Qbits QB 10KTLC (QB-6-17KTLC family): three-phase on-grid, two MPPTs
+
+The [QB 5/6/8/10/12/15/17KTLC family](/our-products/QB-6-17KTLC/) lists 10,000 W for the 10KTLC. Family figures from the [Qbits datasheet](/datasheets/products/QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf): two MPPTs, 180 V to 1000 V window, 1100 V maximum DC, 180 V starting voltage, 20 A per MPPT on the 6, 8, 10 and 12KTLC, 98.5% to 98.7% maximum efficiency by model, IP66, 310 V to 480 Vac.
+
+**Suits:** three-phase villas, shops and sheds around 10 kW.
+
+**Check before buying:** read the efficiency line for the 10KTLC itself, and wire each roof plane to its own tracker.
+
+### Qbits QBH 10KS48P3 (QBH-5-12KS48P3 family): three-phase hybrid
+
+The [QBH 5/6/7/8/10/12KS48P3 family](/our-products/QBH-5-12KS48P3/) lists 200 V to 800 V MPPT, 1000 V maximum DC, 98% maximum efficiency, IP66, battery current of 120 A to 250 A by model, and 36 A and 18 A inputs for the 10 and 12KS48P3. See the [hybrid catalogue datasheet](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-3.pdf).
+
+**Suits:** three-phase premises needing essential loads through outages.
+
+**Check before buying:** the supported battery type, communication interface and backup output for the exact model, since the public documents ask you to verify the battery interface.
+
+### Sungrow SG10RT: three-phase on-grid, two MPPTs
+
+From the [Sungrow SG5.0/6.0/7.0/8.0/10/12RT datasheet](https://www.phaos.net/wp-content/uploads/2023/09/EN-DS-SG5.0-6.0-7.0-8.0-10-12RT-Datasheet-V113-20210415.pdf) (Version 1.1.3, 2021, a distributor-hosted copy, as of October 2026): 10,000 W nominal, two independent MPP inputs with two strings on the first and one on the second, 160 V to 1000 V MPP, 1100 V maximum PV input, 180 V start-up, 37.5 A maximum input (25 A and 12.5 A), 98.5% maximum efficiency (97.9% European), IP65, 18 kg.
+
+**Suits:** three-phase premises with a long string group and a shorter one.
+
+**Check before buying:** the two inputs are unequal, so place the larger group on the 25 A input.
+
+## Side-by-side: five 10 kW inverters
+
+| Model | Type | MPPT window | Max DC | Input current | Max efficiency | IP |
+| --- | --- | --- | --- | --- | --- | --- |
+| GoodWe GW10K-SDT-20 | On-grid | 140 to 950 V | 1100 V | 15 A per MPPT | 98.3% | IP65 |
+| Growatt MOD 10KTL3-X (AU) | On-grid | 140 to 1000 V | 1100 V | 13 A per string | 98.6% | IP66 |
+| Qbits QB 10KTLC | On-grid | 180 to 1000 V | 1100 V | 20 A per MPPT | 98.5% to 98.7% (family) | IP66 |
+| Qbits QBH 10KS48P3 | Hybrid | 200 to 800 V | 1000 V | 36 A and 18 A | 98% | IP66 |
+| Sungrow SG10RT | On-grid | 160 to 1000 V | 1100 V | 25 A and 12.5 A | 98.5% | IP65 |
+
+Do not read a winner into the table. Qbits' public datasheets do not define the warranty base term, so get it in writing for the exact model, as for every brand. MNRE's ALMM lists cover modules and cells, not inverters. Ask for the exact model's BIS registration and current certificates, and confirm DISCOM requirements.
 
 ## Commercial considerations at 10 kW
 
@@ -181,6 +270,32 @@ Answer capsule: five common situations map onto five different answers. Identify
 | Frequent or long outages, three-phase service | Three-phase hybrid plus a right-sized battery | The battery is the real expense, not the inverter |
 
 Browse configurations on the [on-grid inverter range](/on-grid-inverter/) once you know which row you occupy.
+
+## Single-phase or three-phase at 10 kW: decision guide
+
+Answer capsule: phase follows the connection. Three-phase is the norm at 10 kW. Single-phase inverters exist in the lower sizes, and DISCOM limits on single-phase supply vary by state.
+
+| Question | Answer |
+| --- | --- |
+| Is your connection three-phase? | Choose a three-phase inverter. A single-phase unit on one leg creates unbalance. |
+| Is your connection single-phase? | Check your DISCOM's limit first. Examples: the [Telangana net metering guidelines](https://tgnpdcl.com/Utilites/31.pdf) allow single-phase consumers net metering up to 5 kW, and the [MERC Supply Code and SOP Regulations, 2021](https://merc.gov.in/wp-content/uploads/2022/07/Statement-of-Reasons-Supply-Code-SOP-PQ-Regulations.pdf) set single-phase general supply at up to 40 A. Both checked 14 October 2026. |
+| Do you need more than the single-phase limit? | A new or upgraded three-phase connection is the usual route. See the [single-phase versus three-phase guide](/blog/single-vs-3-phase-inverter/). |
+
+Within the Qbits range, single-phase on-grid goes up to 6 kW ([QB 4.2/4.6/5/5.4/6KTLS](/our-products/QB-4.6-6KTLS/)), single-phase hybrid goes up to 8 kW ([QBH 7/7K6/8KS48P](/our-products/QBH-7-8KS48P/)), and three-phase starts at 5 kW. The [three-phase inverter guide](/blog/3-phase-solar-inverter/) adds background.
+
+## PM Surya Ghar and subsidy rules for 10 kW systems
+
+Answer capsule: central financial assistance is capped at 3 kW of capacity, so a 10 kW residential system earns the same published ₹78,000 as a 3 kW one, in a general-category state. Commercial buyers should not assume the residential component applies to them.
+
+The slabs are in the [PIB Cabinet release of 29 February 2024](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2010130&reg=48&lang=2) and the [MNRE residential guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/), checked 14 October 2026. They cover residential consumers. The remaining 7 kW is unsubsidised, and the assistance is paid after commissioning and inspection. Approval is a DISCOM decision, and this is not a promise. Solar devices specified in the notification attract GST at 5% from 22 September 2025, as the [GST on solar inverters guide](/blog/gst-on-solar-inverters-2026/) explains. See the [10 kW system price guide](/blog/10kw-solar-system-price-india/) for the structure of a quote.
+
+## Common mistakes when buying a 10 kW inverter
+
+1. **Using a single-phase inverter on a three-phase premises.** The export lands on one leg and the DISCOM may reject it.
+2. **Paralleling two strings on one tracker.** At about 18 A each, they exceed a 20 A input.
+3. **Wiring two roof planes into one tracker.** It defeats the reason you bought two trackers.
+4. **Assuming the residential subsidy covers a commercial system.** The guidelines concern residential consumers.
+5. **Taking warranty or service terms verbally.** Ask for the written warranty and the service route for the exact model, whoever the brand is.
 
 ## Installation and commissioning checks
 

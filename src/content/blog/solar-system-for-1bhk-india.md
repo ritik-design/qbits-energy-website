@@ -42,7 +42,7 @@ Your 1 BHK electricity bill has crossed ₹1,500 per month and you have been thi
 The question is not what the salesperson wants to sell you. The question is: what does a 1 BHK home actually need?
 
 > **TL;DR**
-> - A 1 BHK without AC needs a 1kW on-grid system; a 1 BHK with a 1-ton AC needs 2kW.
+> - A 1 BHK without AC needs a 1kW [on-grid](/on-grid-inverter/) system; a 1 BHK with a 1-ton AC needs 2kW.
 > - Monthly consumption ranges 150–350 units without AC to 300–450 units with AC.
 > - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy is ₹30,000 for 1kW and ₹60,000 for 2kW, cutting net cost to ₹35,000–₹70,000.
 > - Payback lands in 4–7 years at current tariffs of ₹6–₹8 per unit.

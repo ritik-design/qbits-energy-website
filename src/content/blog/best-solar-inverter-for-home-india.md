@@ -1,17 +1,18 @@
 ---
 title: "Best Solar Inverter for Home in India 2026, by Home Size"
-excerpt: "Choose a home solar inverter by backup need, grid phase, array design, roof layout and written product terms, not by BHK size or brand rank alone."
+excerpt: "Typical inverter size by home type, from 1 BHK to villa, then on-grid or hybrid by power cuts, phase and roof, with example models and their datasheet figures."
 description: "Match your home to the right solar inverter: typical kW for 1BHK to villa, on-grid vs hybrid for power-cut areas, phase, and exact models to shortlist."
 category: "Buying Guide"
 date: 2026-06-05
-updatedDate: 2026-09-26
-readTime: "12 min"
+updatedDate: 2026-10-14
+readTime: "15 min"
 image: "/og/blog-best-solar-inverter-for-home-india.webp"
 author: "Keyur Rakholiya"
 keywords:
-  - "how to choose a solar inverter for home"
-  - "which solar inverter should I buy for my home"
   - "best solar inverter for home India"
+  - "best inverter for home in India 2026"
+  - "solar inverter size for home"
+  - "1 BHK 2 BHK 3 BHK solar inverter"
   - "on-grid vs hybrid inverter for home"
   - "home solar inverter sizing"
 relatedSlugs:
@@ -31,172 +32,192 @@ faqs:
     a: "The answer depends on the array layout, not a universal minimum. Separate roof planes or strings with materially different orientation or shading may need independent MPPT inputs. The designer must also verify each input's voltage window, maximum current, maximum DC voltage and permitted strings using the exact module and inverter documents."
   - q: "What documents should I get before buying a solar inverter?"
     a: "Ask for the exact model number, current datasheet, array layout, string calculation, single-line diagram, protection and earthing scope, battery compatibility evidence where relevant, written warranty terms, service route, commissioning checklist and the list of approvals still pending. Do not accept a family brochure as proof for an unspecified model."
+  - q: "How many kW inverter does a 1 BHK, 2 BHK or 3 BHK home need?"
+    a: "Room count is only a rough guide. A PIB release on PM Surya Ghar (December 2024) suggests 1 to 2 kW for homes using up to 150 units a month, 2 to 3 kW for 150 to 300 units, and above 3 kW beyond that. Small flats often land at 1 to 2 kW, mid-size homes at 2 to 5 kW and larger homes higher. Confirm the size from your bills, roof area, phase and DISCOM limits."
+  - q: "What is the price of a home solar inverter?"
+    a: "Inverter prices depend on rating, type, taxes, monitoring hardware and dealer margin, and a single figure can mislead. Qbits pricing is quote-based through dealers. Ask for dated written quotes that list the exact inverter model, protection, monitoring, installation and commissioning separately, so that two quotes cover the same scope."
+  - q: "Can a hybrid inverter run my air conditioner during a power cut?"
+    a: "It can only if the exact inverter model's backup output and surge rating cover the air conditioner's starting current and the battery holds enough energy. An air conditioner is often the largest load and the biggest driver of battery size. Define it as a backup load only after the designer has checked output, surge, battery energy and hours."
 ---
 
-To choose a solar inverter for your home, decide what the system must do before comparing brands. Fix five things in order: outage backup, electricity connection, PV array size, roof layout and exact product documents. A brand ranking cannot answer any of them for your house.
+The right solar inverter for a home depends mostly on three things: how much the home uses, what connection it has, and whether the power goes out often. Room count is only a rough proxy for the first of those. This guide starts from home size, from a one-bedroom flat to a large villa, and shows the inverter capacity range, the system type and example models with their own datasheet figures at each step.
 
-The common shortcut is to choose by BHK size. That can produce a neat answer and a poor design. Two three-bedroom homes can have different bills, roof areas, phases, daytime loads and power-cut requirements. They may need different inverter types and ratings.
+If you already have a quote and want to test it, use [the 8-point checklist for choosing a solar inverter for home](/blog/how-to-choose-solar-inverter-for-home-india/). If you want ten brands compared model by model, use [the best solar inverter in India comparison](/blog/best-solar-inverter-india/). This page is about **what size and type to look for**, and which exact models to put on the shortlist at each size.
+
+**Disclosure:** Qbits publishes this guide and sells solar inverters. Qbits models appear next to models from other brands, using each maker's own published documents. Prices and payback periods are left out on purpose: Qbits pricing is quote-based through dealers, and public prices rarely cover the same scope.
 
 > **Short answer**
 >
-> - Choose **on-grid** when the goal is grid-connected solar and you do not require solar-backed loads during an outage.
-> - Evaluate **hybrid** when selected household loads must run from a compatible battery during a grid cut.
-> - Match **single-phase or three-phase** to the property connection and approved electrical design.
-> - Size the PV array, inverter AC output and backup battery as three separate calculations.
-> - Match MPPT inputs to the real roof planes and strings.
-> - Buy only after the exact model, warranty, service route and commissioning evidence are in writing.
+> - Start from your electricity bills, not the number of rooms. Anchor the rooftop size on monthly units, then check roof area, phase and your DISCOM's limits.
+> - Small homes with a reliable grid usually need a 1 to 3 kW single-phase on-grid inverter. Mid-size homes often land at 3 to 6 kW. Larger homes and villas go above that and often need a three-phase inverter.
+> - Frequent power cuts change the system type, not just the size: you need a hybrid inverter and a battery.
+> - Check the exact model's datasheet at every size. Specs change by model, even within one family.
 
-## Use this home inverter decision tree
+## Why home sizing is different from commercial sizing
 
-Work down the branches. Do not skip ahead to a model.
+A factory's load is steady and predictable. A home's load is spiky: a compressor starts, a pump runs, an air conditioner cycles with the weather. Three separate numbers matter and homeowners often merge them:
 
-1. **Must any load run when the grid fails?**
-   - **No:** start with an on-grid inverter.
-   - **Yes:** define those loads and the required backup time, then evaluate a hybrid inverter and compatible battery.
-2. **What electricity connection does the property have?**
-   - Record single-phase or three-phase, sanctioned load and any DISCOM limit that applies to the proposed system.
-3. **How large can the PV array sensibly be?**
-   - Use recent electricity consumption, usable unshaded roof area and a location-specific yield study.
-4. **How is the roof divided?**
-   - Record each orientation, tilt and shading pattern. This determines whether strings can share an MPPT input.
-5. **Does an exact inverter model pass every check?**
-   - Confirm AC rating, phase, string voltage, current, MPPT allocation, environment, battery pairing where relevant, protection and installation limits.
-6. **Are the commercial promises written down?**
-   - Obtain the model-specific warranty, service process, installation scope, exclusions and handover documents before paying.
-
-If one answer is unknown, leave it open. A sales assurance is not a design input.
-
-## On-grid versus hybrid: choose the operating mode first
-
-An on-grid and a hybrid inverter solve different household problems. The right question is not which category sounds more advanced. It is what should happen when the utility supply is present and when it disappears.
-
-| Household requirement | Start with | What must be confirmed |
+| Number | What it is | What sets it |
 | --- | --- | --- |
-| Grid-connected solar with no outage backup | On-grid inverter | Phase, array compatibility, export or net-metering arrangement, grid settings and monitoring |
-| Selected lights, fans, refrigerator or another defined circuit during cuts | Hybrid inverter | Backup-load schedule, battery pairing, output limit, starting loads and changeover behaviour |
-| Whole-home operation during a cut | Hybrid design, subject to engineering | Which loads may run together, motor starting demand, battery energy, protection and load management |
-| Battery may be added later | Do not assume compatibility | Exact future battery, voltage range, communication, firmware and any additional equipment |
+| Rooftop solar capacity (kWp) | Panel capacity on the roof | Monthly consumption, usable roof area, shade |
+| Inverter AC rating (kW) | What the inverter can feed the home and grid | Array size, phase, sanctioned load, DISCOM rules, model limits |
+| Backup power and battery (kW, kWh) | What runs during a cut, and for how long | Critical loads and hours, battery limits |
 
-A normal on-grid design should not be sold as outage backup. When backup matters, the design needs a supported power path, isolation, defined circuits and a compatible battery. The [on-grid versus hybrid guide](/blog/on-grid-vs-hybrid/) explains the operating difference in more detail.
+An inverter for a 5 kWp array is not always a 5 kW inverter. Many designs run the array a little above the inverter's AC rating, within the maker's stated limits. And outage backup is a separate calculation from the solar array. See the [solar inverter sizing guide](/blog/solar-inverter-sizing/) and DC oversizing explained.
 
-Hybrid is not a synonym for unlimited backup. A quotation that says only `hybrid ready` leaves the important questions unanswered: which loads, how many watts, how many hours, which battery and what happens when a motor starts?
+## Inverter by home size: quick-reference table
 
-## Size three different things, not one
+Home types are a rough guide only. Two three-bedroom homes can use very different amounts of power. The capacity ranges below follow the monthly-consumption guide in a PIB release on the PM Surya Ghar scheme dated 5 December 2024: [0 to 150 units a month suits 1 to 2 kW, 150 to 300 units suits 2 to 3 kW, and above 300 units suits above 3 kW](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2081250), read October 2026. Above that threshold, the right size is a design decision.
 
-Homeowners often ask for “the inverter size” as if one number settles the project. It does not. A sound proposal calculates these separately.
+| Home type (rough guide) | Typical rooftop capacity range | Inverter type to check | Phase to check | Example families to read |
+| --- | --- | --- | --- | --- |
+| Small flat or 1 BHK, low consumption | 1 to 2 kW | On-grid; hybrid if cuts are frequent | Single | QB 1.5 to 4.0 KTLS; see per-size picks below |
+| 2 BHK, moderate consumption | 2 to 3 kW | On-grid; hybrid if cuts are frequent | Single | QB 1.5 to 4.0 KTLS (up to 4 kW rating); QBH 3 to 6 KS48P for backup |
+| 3 BHK, higher consumption | 3 to 6 kW | On-grid; hybrid for power-cut zones | Single, or three-phase if your connection is | QB 4.2/4.6/5/5.4/6KTLS or QB 4/5/6 KTLD; QBH 3 to 6 KS48P |
+| 4 BHK, bungalow or large home | 5 to 10 kW | On-grid or hybrid | Often three-phase; check | QB 6 to 17 KTLC three-phase; QBH 7 to 8 KS48P |
+| Villa or home with heavy loads (EV, multiple air conditioners, pumps) | 8 kW and above | Hybrid if backup matters | Usually three-phase | QB 6 to 17 KTLC; QBH 5 to 12 KS48P3 hybrid |
 
-| Quantity | Main inputs | What the answer controls |
+Use the table to pick which datasheets to open, not to buy. The PIB guide is a planning range for the scheme. A designer must confirm the size from bills, roof and DISCOM limits. As a sanity check, the same PIB release says a 3 kW system can generate over 300 units a month on average, which implies roughly 100 units per kW per month. Actual yield varies with location, tilt, shade and season.
+
+## The home fit matrix
+
+Work down three questions. Each narrows the answer. The output is a category and a size band, not a brand.
+
+1. **Home size and consumption:** gives the kW band from the table above.
+2. **Power-cut frequency:** decides the type. Occasional cuts of an hour or so rarely justify a battery; a home that loses power for hours every day, or at the times when air conditioners or pumps run, is a hybrid candidate.
+3. **Connection:** single-phase or three-phase, and what your DISCOM allows.
+
+| Home size | Power cuts | Output category |
 | --- | --- | --- |
-| PV array capacity in kWp | Recent energy use, roof area, shade, orientation and location-specific yield assumptions | How much module capacity is proposed |
-| Inverter AC rating in kW | Array capacity, permitted DC-to-AC relationship, phase, sanctioned load, export rules and exact model limits | Which grid-connected inverter rating can be used |
-| Backup power in kW | Loads that must run together and their starting behaviour | Hybrid backup-output requirement |
-| Battery energy in kWh | Average backup load, required hours, usable operating window, conversion losses and reserve | Required storage, subject to the battery maker's limits |
+| Small (1 to 2 kW band) | Rare | On-grid single-phase |
+| Small (1 to 2 kW band) | Frequent | Hybrid single-phase with a small battery, loads limited to the essentials |
+| Mid (2 to 6 kW band) | Rare | On-grid single-phase, dual-MPPT if the roof has two planes |
+| Mid (2 to 6 kW band) | Frequent | Hybrid single-phase with a battery sized to the critical loads |
+| Large (6 kW and above) | Rare | On-grid, three-phase if the connection is three-phase, dual-MPPT or more |
+| Large (6 kW and above) | Frequent | Hybrid, three-phase where applicable, with a plan for which large motors stay off battery |
 
-Your electricity bill helps with the energy objective. It does not reveal simultaneous peak load, motor starting demand, usable roof area, outage duration or the final string design. Use at least 12 months of bills when seasonal use matters, then document the appliances expected to run together.
+The matrix is a starting point. A site survey can move the answer by a size. Use the [string sizing calculator](/string-sizing-calculator/) to check panel strings once you know the module.
 
-Avoid two opposite errors. Do not size a grid-connected array from the sum of every appliance nameplate. Do not size outage backup from monthly billed units. The [solar inverter sizing guide](/blog/solar-inverter-sizing/) covers the input workflow, while battery energy needs its own calculation.
+## On-grid versus hybrid for Indian homes
 
-## Match the inverter phase to the home connection
+The biggest decision is on-grid or hybrid, and it is hard to reverse later.
 
-Check the electricity bill, meter and approved connection records. The proposed inverter phase must fit the property's supply and the applicable DISCOM process.
-
-Do not use a rule such as “anything above 5 kW must be three-phase” without checking the local requirement. The decision can depend on sanctioned load, export capacity, distribution-licensee rules and the equipment design. If a connection change is required, the quotation should say who applies, what remains conditional and whether the project price includes that work.
-
-Ask the seller to put these items on one page:
-
-- existing phase and sanctioned load;
-- proposed inverter phase and rated AC output;
-- expected export arrangement;
-- protection and isolation arrangement; and
-- approvals or connection changes that remain pending.
-
-The [single-phase versus three-phase guide](/blog/single-vs-3-phase-inverter/) is useful after you have these site facts.
-
-## Let the roof decide the MPPT arrangement
-
-An **MPPT**, or Maximum Power Point Tracker, controls the operating point of a connected PV string. MPPT count matters because different roof planes may experience different sunlight, but count alone does not prove compatibility.
-
-For each planned string, the designer must check:
-
-1. open-circuit voltage at the site's lowest design temperature;
-2. operating voltage across the expected temperature range;
-3. string current against the input limit;
-4. the number of strings allowed on each input; and
-5. whether strings sharing an MPPT have compatible orientation and electrical characteristics.
-
-Current Qbits documents show why family-level claims are unsafe. The [QB 1.5/2.0/2.7/3.0/3.3/3.6/4.0KTLS datasheet](/datasheets/products/QB_Data-Sheet_2.0-4.0-kw_1MPPT_1Phs.pdf) describes a single-phase, single-MPPT family with a 40 to 550 V MPPT range and 20 A maximum DC input current. The [QB 4/5/6 KTLD datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf) describes a single-phase, dual-MPPT family with an 80 to 550 V MPPT range and 20 A per MPPT. Those are exact-family facts, not a claim that one family fits every home.
-
-Use the [Qbits datasheet library](/download-datasheets/) to inspect the current document for the quoted model. A roof with two orientations does not automatically need a particular brand, but it does need a design that keeps unlike strings from being treated as if they were identical.
-
-## Read the exact model, not the product category
-
-“5 kW hybrid” is a category description. It is not a complete specification. Two models with the same headline rating can differ in PV voltage, input current, MPPT arrangement, battery interface, backup output, environmental limits and communications.
-
-The current [QBH 3KS/3K6S/4KS/4K6S/5KS/6KS48P catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf) illustrates the point. It lists a 48 V battery input across the family, while the MPPT count and battery current vary by model. A statement taken from one family member must not be applied to all six.
-
-Build a pass-or-open table for every shortlisted model:
-
-| Requirement | Evidence to record | Result |
+| | Strengths | Limits |
 | --- | --- | --- |
-| Correct AC rating and phase | Exact datasheet field and project single-line diagram | Pass, fail or open |
-| PV voltage and current | String calculation using the selected module | Pass, fail or open |
-| MPPT allocation | Array layout plus strings per input | Pass, fail or open |
-| Backup function | Supported circuits, output and witnessed test plan | Pass, fail or open |
-| Battery pairing | Manufacturer-supported model, voltage, current, communication and firmware | Pass, fail or open |
-| Installation environment | Temperature, ingress, clearances, ventilation and mounting instructions | Pass, fail or open |
-| Monitoring handover | Interface, account owner, connectivity and fault visibility | Pass, fail or open |
-| Warranty and service | Current written terms and responsible service route | Pass, fail or open |
+| **On-grid** | Simplest design; suited to grid-connected generation and net metering; fewer parts to service | Stops feeding power when the grid fails, so no solar-backed loads during a cut; no battery port |
+| **Hybrid** | Can run selected loads from a battery during a cut; the battery can charge from solar; can support export-limit settings on some models | More parts and a battery to buy and service; backup covers defined loads, not necessarily the whole home; the battery must be on the maker's supported list |
 
-Reject a model only when it fails a requirement. Keep missing evidence marked open. Do not turn an unknown into a low score and pretend the comparison is complete.
+The **power-cut exception** is the key rule. If your feeder has long or frequent outages, an on-grid system is effectively off exactly when you need power, because anti-islanding protection disconnects it when the utility supply fails. That safety behaviour protects line workers and is not a defect. In such homes, define the loads that must run, then evaluate a hybrid design and battery. See the [power-cut backup guide](/blog/solar-inverter-power-cut-backup/), the [on-grid versus hybrid guide](/blog/on-grid-vs-hybrid/) and the ROI comparison.
 
-## Treat efficiency, IP rating and monitoring as model-specific
+If a hybrid is out of reach today but may be needed later, ask whether the inverter can support a battery later, and which battery models, in writing. A grid-tied string inverter normally has no battery port.
 
-Peak efficiency is useful only after the electrical design passes. A slightly higher percentage cannot rescue the wrong phase, an invalid string or an unsuitable battery pairing. If two models both fit, ask for weighted-efficiency evidence at realistic operating points, not only the largest number on the cover.
+## Example models by home size, with datasheet figures
 
-An IP rating applies to the enclosure as tested, not the finished installation. Cable entries, glands, mounting position, direct sun, drainage and ventilation can still undermine a suitable enclosure. Follow the exact installation instructions.
+These are example families to read, not recommendations. Every figure comes from the maker's own datasheet or product record, read October 2026. Do not copy a figure from one model to another.
 
-Monitoring also needs a handover test. Confirm the account belongs to the homeowner, live data appears from the installed unit, faults are visible and the connection works at the mounting location. An app logo on a brochure does not prove those steps were completed.
+### 1 BHK and small flats (about 1 to 2 kW)
 
-## Compare written warranty and service terms
+| Model | Phase | MPPT | MPPT window | Max input current | Max efficiency | IP | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Qbits QB 1.5/2.0 KTLS (in the QB 1.5 to 4.0 KTLS family) | Single | 1 | 40–550 V | 20 A | 98% (family) | IP66 | [Qbits datasheet](/datasheets/products/QB_Data-Sheet_2.0-4.0-kw_1MPPT_1Phs.pdf), [model page](/our-products/QB-1.5-4.0KTLS/) |
+| Havells Enviro GTi 2.2 KT G3 | Single | 1 | 50–500 V | 14 A | 97.30% | IP65 | [Havells brochure](https://havells.com/media/wysiwyg/solar/Solar-GTi-Inverter-Brochure-1-kW-350-kW-NG-Series.pdf) |
+| UTL single-phase 2 kW | Single | 1 | 70–500 V | 20 A | 97.3% | IP65 | [UTL datasheet](https://www.upsinverter.com/utl/wp-content/uploads/UTL%20On-Grid%20F%20Series%20Inverter.pdf) |
 
-Warranty length alone is not enough. The current Qbits public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline or exclusions. Obtain the current written terms for the exact quoted model before purchase.
+A single MPPT is usually enough for one roof plane. Check that the planned string voltage and current fit the window and current limit. If the home has frequent cuts, a small hybrid is the category to evaluate instead.
 
-Ask the same questions of every seller:
+### 2 BHK (about 2 to 3 kW)
 
-- What faults are covered and excluded?
-- Is the remedy diagnosis, repair, replacement or a manufacturer-selected equivalent?
-- Who pays for travel, labour, freight, removal and reinstallation?
-- Must the product be registered by a deadline?
-- What installation and maintenance records must the homeowner retain?
-- Who receives the first ticket, and where does it escalate?
-- Is installer workmanship covered separately from the product?
+| Model | Phase | MPPT | MPPT window | Max input current | Max efficiency | IP | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Qbits QB 3.0/3.3/3.6 KTLS (in the QB 1.5 to 4.0 KTLS family) | Single | 1 | 40–550 V | 20 A | 98% (family) | IP66 | [Qbits datasheet](/datasheets/products/QB_Data-Sheet_2.0-4.0-kw_1MPPT_1Phs.pdf) |
+| Havells Enviro GTi 3.3 KT G3 | Single | 1 | 50–550 V | 15 A | 97.70% | IP65 | [Havells brochure](https://havells.com/media/wysiwyg/solar/Solar-GTi-Inverter-Brochure-1-kW-350-kW-NG-Series.pdf) |
+| Waaree single-phase 3000 | Single | 1 | 50–480 V | 20 A | 97.4% | IP65 | [Waaree brochure](https://www.waaree.com/upload/media/inverter_brochure_1768999572.pdf), 0.7 to 3.3 kW table |
 
-The [solar inverter warranty guide](/blog/solar-inverter-warranty/) explains why product warranty and installation responsibility must remain separate.
+For a 3 kW comparison across more brands see the [3 kW inverter guide](/blog/best-3kw-solar-inverter-india-2026/). The 2 kW guide and 1 kW guide cover the smaller sizes.
 
-## Put these requirements into the quotation
+### 3 BHK (about 3 to 6 kW, on-grid)
 
-The final quotation should be specific enough that a different model cannot appear on installation day without your approval.
+| Model | Phase | MPPT | MPPT window | Max input current | Max efficiency | IP | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Qbits QB 4/5/6 KTLD (5KTLD is 5000 W) | Single | 2 | 80–550 V | 20/20 A | 98.1% | IP66 | [Qbits datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf), [model page](/our-products/QB-4-6KTLD/) |
+| Qbits QB 4.2 to 6 KTLS family | Single | 1 | 40–600 V | 20 A | 98.0 to 98.1% by model | IP66 | [Qbits datasheet](/datasheets/products/QB_Data-Sheet_4.6-6.0-kw_1MPPT_1Phs.pdf), [model page](/our-products/QB-4.6-6KTLS/) |
+| Havells Enviro GTi 5000 D-NG | Single | 2 | 80–550 V | 15/15 A | 98.4% | IP65 | [Havells brochure](https://havells.com/media/wysiwyg/solar/Solar-GTi-Inverter-Brochure-1-kW-350-kW-NG-Series.pdf) |
+| Sungrow SG5.0RS-L | Single | 2 | 40–560 V | 16/16 A | 97.9% | IP65 | [Sungrow India page](https://www.sungrowpower.com/in/en/products/string-inverter/b-sg4-0-5-0-6-0rs-l) |
 
-Require these items in writing:
+More 5 kW models, with the same fields, are in the [10-brand comparison](/blog/best-solar-inverter-india/) and the [5 kW guide](/blog/best-5kw-solar-inverter-india-2026/). The 6 kW guide covers the top of this band.
 
-1. exact module, inverter and battery model numbers;
-2. array layout and string-to-MPPT allocation;
-3. string voltage and current calculations;
-4. single-line diagram, protection, isolation and earthing scope;
-5. normal-grid and grid-loss operating description;
-6. backup circuits and expected duration assumptions, if relevant;
-7. monitoring setup and account ownership;
-8. approval, metering and application responsibilities;
-9. warranty documents and service contacts;
-10. substitutions, exclusions, payment stages and change-control process; and
-11. commissioning tests and handover pack.
+### 3 BHK or larger homes in power-cut areas (about 3 to 6 kW, hybrid)
 
-At commissioning, photograph the inverter nameplate and serial number. Confirm the installed model matches the contract. Keep the approved drawings, settings, test records, warranty and invoice together. The [solar quotation checklist](/blog/solar-quotation-checklist/) provides a broader line-by-line comparison.
+| Model | Phase | MPPT | MPPT window | Max DC | Max input current | IP | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Qbits QBH 3/3.6/4/4.6/5/6 KS48P hybrid | Single | 1 or 2 by model | 150–450 V | 500 V | 3KS48P: 18 A; others 18/18 A | IP66 | [Qbits hybrid catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf), [model page](/our-products/QBH-3-6KS48P/) |
+| Fronius Primo GEN24 5.0 | Single | 2 | 230–530 V | DC input range 65–600 V | 22 A / 12 A | IP66 | [Fronius India page](https://www.fronius.com/en-in/india/solar-energy/installers-partners/technical-data/all-products/inverters/fronius-primo-gen24/fronius-primo-gen24-5-0) |
 
-## Make the final choice from evidence
+The QBH family has a 48 V battery input, 75 to 120 A battery current by model, and accepts lead-acid or lithium subject to compatibility. Ask which exact battery models are supported, who warrants the battery, and which circuits sit on the backup path. Fronius documents a battery-ready platform with an integrated backup socket; confirm the India variant. See the [hybrid inverter range](/hybrid-inverter/), the [hybrid inverter guide](/blog/best-hybrid-solar-inverter-india-2026/) and the [battery sizing guide](/blog/battery-sizing-hybrid-solar/).
 
-The right home inverter is the exact model that passes the household's operating requirements and arrives with a complete installation scope. Start with backup need. Confirm the connection. Size the array, AC output and battery separately. Map the roof to the MPPT inputs. Then compare model documents, warranty and service responsibility.
+### 4 BHK, bungalows and villas (about 6 to 10 kW and above)
 
-If you want Qbits to review a residential requirement, use the [residential solar route](/residential-solution/) with your recent bills, connection phase, roof layout, outage needs and proposed model documents ready. Qbits supplies solar inverters, so panel, battery and installation scope should remain explicit in the seller's quotation.
+| Model | Phase | MPPT | MPPT window | Max DC | Max input current | IP | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Qbits QB 6 to 17 KTLC (10KTLC is 10 kW) | Three | 2 | 180–1000 V | 1100 V | 20/20 A (6 to 12 kW models) | IP66 | [Qbits datasheet](/datasheets/products/QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf), [model page](/our-products/QB-6-17KTLC/) |
+| Havells Enviro GTi 11000 TX-NG (10 kW) | Three | 2 | 140–1000 V | 1100 V | 15/15 A | IP65 | [Havells brochure](https://havells.com/media/wysiwyg/solar/Solar-GTi-Inverter-Brochure-1-kW-350-kW-NG-Series.pdf) |
+| UTL F series 10 kW (GT-10P0-GX-T2) | Three | 2 | 200–1000 V | 1100 V | 20 A per MPPT | IP65 | [UTL datasheet](https://www.upsinverter.com/utl/wp-content/uploads/UTL%20On-Grid%20F%20Series%20Inverter.pdf) |
 
-**Sources checked 26 September 2026:** current Qbits product records; QB 1.5/2.0/2.7/3.0/3.3/3.6/4.0KTLS datasheet; QB 4/5/6 KTLD datasheet; QBH 3KS/3K6S/4KS/4K6S/5KS/6KS48P catalogue; and the current Qbits warranty note.
+If you need backup at this size, the QBH 7/7K6/8 KS48P single-phase hybrid and the QBH 5 to 12 KS48P3 three-phase hybrid are the Qbits families to read; their datasheets list different MPPT windows (150–450 V and 200–800 V) and battery currents by model. See the 3 kW vs 5 kW vs 10 kW guide and the 10 kW guide.
+
+## Sizing worked examples: from loads to inverter and battery
+
+These examples show the method. The appliance wattages are illustrative nameplate-style values, not measurements of your home. Measure or check labels for yours, and let a designer confirm.
+
+**Step 1. List loads that run together at a hot-afternoon peak.** Include air conditioners, refrigerator, fans, lights, TV and always-on devices.
+**Step 2. Add running watts.** Use labels or a plug-in meter. Air conditioner draw varies widely by model, age and whether it is inverter-driven.
+**Step 3. Allow for starting surge.** Compressors and pumps draw several times their running power for a moment. A common planning margin is 1.25 times the simultaneous load, plus headroom for growth, but the inverter's own surge rating is what counts for backup.
+**Step 4. Separate the three numbers.** Array size from consumption, inverter AC rating from array and phase, backup output and battery from critical loads.
+
+### 1 BHK example (illustrative)
+
+One 1-tonne air conditioner (about 1,000 W running), a refrigerator (150 W), two fans (150 W), a TV (100 W) and lights (100 W) add up to about 1,500 W. With a 1.25 times surge allowance that is roughly 1,900 W. A 2 or 3 kW grid-tied inverter covers it comfortably. An inverter below 2 kW would leave little margin if the air conditioner and refrigerator start together, and a 1.5 kW model is only right if the array and loads are smaller still.
+
+### 2 BHK example (illustrative)
+
+Two 1.5-tonne air conditioners (about 3,000 W together), a refrigerator (200 W), a washing machine (500 W, intermittent), four fans (300 W) and lights (150 W) add up to about 4,150 W. If both air conditioners rarely run at the same time, the real simultaneous load is lower. The grid-tied inverter is sized from the array and phase, not from this number, so a 3 to 5 kW inverter is typical. For backup you would not try to run both air conditioners from a battery.
+
+### 3 BHK example with backup (illustrative)
+
+Suppose the loads that must survive a cut are a refrigerator (200 W), five fans (375 W), lights (200 W), a router and TV (150 W) and one air conditioner (1,500 W). That is about 2,400 W of backup power. Run for six hours and the energy is about 14 kWh. The nominal battery capacity must be larger than the energy you need, because only a fraction of a battery is usable: divide by the usable fraction in the battery's datasheet. Dropping the air conditioner from the backup path reduces the energy to about 5.5 kWh for the same six hours, which is why defining critical loads is the biggest lever on cost and size. See [battery sizing for hybrid solar](/blog/battery-sizing-hybrid-solar/) for the method, and solar inverter for AC before promising air-conditioner backup.
+
+## Phase and connection by home size
+
+Small homes are usually on a single-phase supply. Larger homes may have three-phase connections, and some DISCOMs limit single-phase solar capacity. Rules differ by state and distribution company, and change by order, so do not rely on a rule of thumb such as "above 5 kW needs three-phase". Check your bill and meter, then ask the DISCOM or the installer in writing. See [single-phase versus three-phase](/blog/single-vs-3-phase-inverter/) and the DISCOM approval guide.
+
+## Let the roof pick the MPPT count
+
+One roof plane with uniform shade works with one MPPT input. Two planes, such as east and west, often suit two independent inputs. The count does not fix shade inside a string. For each string, the designer must check cold-morning open-circuit voltage against the maximum DC voltage, hot-day operating voltage against the MPPT window, and current against the input limit. See the dual versus single MPPT guide and the east-west roof design guide.
+
+## Subsidy and sizing under PM Surya Ghar
+
+For residential rooftop systems, MNRE's scheme annexure of August 2024 sets central financial assistance at Rs 30,000 per kWp for the first 2 kWp and Rs 18,000 per kWp for the additional 1 kWp, with no additional assistance beyond 3 kWp (special category states have higher rates). Read the [MNRE annexure](https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/aug/doc202487368301.pdf) and check the official pmsuryaghar.gov.in portal, your state agency and DISCOM for the current rules, vendor registration steps and timelines, since they change. Subsidy approval is a DISCOM and MNRE decision and is never guaranteed by an installer. See the [subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) for detail.
+
+## Monitoring, warranty and service for a home system
+
+**Monitoring.** Confirm the monitoring route for the exact model, who owns the account, and that live data appears at the mounting location. See the monitoring guide.
+
+**Warranty.** Ask for the written warranty of the exact model. The public Qbits datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline or exclusions, so request the current terms. Do the same with every other brand. See the [warranty guide](/blog/solar-inverter-warranty/).
+
+**Service.** Ask for the named service party for your PIN code. The [authorised service partner directory](/authorized-service-partners/) shows published Qbits partners by state and district, and you should ask whether the partner supports your exact model.
+
+## Common mistakes homeowners make
+
+- **Sizing by room count.** Use bills, roof and DISCOM limits.
+- **Choosing on-grid in a power-cut area.** The system stops when the grid fails.
+- **Planning for today's load only.** If an electric vehicle charger or a second air conditioner is likely, size the connection, phase and inverter headroom for it, within DISCOM limits.
+- **Assuming a family name fixes the spec.** The QB 1.5 to 4.0 KTLS and QB 4.2/4.6/5/5.4/6KTLS families are both single-MPPT, but their windows differ.
+- **Skipping monitoring checks.** An unconfigured app is not monitoring.
+- **Not checking the installer's registration** if you plan to claim a subsidy.
+- **Paying before the exact model, documents and service route are written down.** The [quotation checklist](/blog/solar-quotation-checklist/) helps.
+
+## Next steps
+
+Pick your home size band, decide on-grid or hybrid from your outage pattern, then open the datasheets for two or three exact models in that band and compare them on the same fields. If a Qbits model is on your shortlist, start from the [residential solution page](/residential-solution/), and keep your bills, phase, roof layout, outage needs and proposed model documents ready.
+
+**Sources checked October 2026:** PIB release of 5 December 2024 on PM Surya Ghar; MNRE scheme annexure (August 2024); Qbits product records and datasheets; Havells GTi brochure; UTL on-grid F series datasheet; Waaree inverter brochure; Sungrow and Fronius India product pages.

@@ -4,7 +4,7 @@ excerpt: A practical solar inverter wiring diagram guide covering the DC run, ca
 description: "Solar inverter wiring diagram for an Indian home: DC strings, isolators, SPD and earthing, AC output to the DB, net meter connection and cable sizing."
 category: Technical
 date: 2026-07-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: 13 min
 image: "/og/blog-solar-inverter-wiring-diagram.webp"
 author: Keyur Rakholiya
@@ -48,9 +48,9 @@ A solar inverter wiring diagram is four diagrams stacked together. The DC run fr
 
 Most diagrams online draw the boxes and skip the parts that fail. Connector crimps. Isolator ratings. Residual-current device type. Torque on a DC terminal.
 
-This guide walks the run in order, from the first connector pair on the roof to the meter at your service entrance: a numbered procedure, a worked cable-sizing calculation, single-phase versus three-phase neutral handling, the tests that happen before energising, and the errors that cause the most callbacks.
+This guide covers an on-grid system from the panels to the meter and the grid. If your system has a battery, wire the battery side from the [inverter and battery connection diagram](/blog/inverter-battery-connection-diagram/) as well. This guide walks the run in order, from the first connector pair on the roof to the meter at your service entrance: a numbered procedure, a worked cable-sizing calculation, single-phase versus three-phase neutral handling, the tests that happen before energising, and the errors that cause the most callbacks.
 
-One condition applies throughout. **This work must be carried out by a qualified, licensed electrician.** The installation manual for your exact model and your local wiring rules take precedence over anything here. In India that means the Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2010, IS 732:2019, and your DISCOM connection conditions. Where this page and your manual disagree, the manual wins.
+One condition applies throughout. **This work must be carried out by a qualified, licensed electrician.** The installation manual for your exact model and your local wiring rules take precedence over anything here. In India that means the Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023, IS 732:2019, and your DISCOM connection conditions. Where this page and your manual disagree, the manual wins.
 
 > **TL;DR**
 > - The order is fixed. Array, DC surge device, DC isolator, inverter, AC isolator and breaker, generation meter, consumer board, net meter, grid.
@@ -110,7 +110,7 @@ String fuses are a design decision, not a default. With one or two strings on an
 
 A [surge protection device](/glossary/spd/) belongs within about 10 metres of the inverter DC input; beyond that, fit a second at the array end. Array earthing is separate: frames and rails bond to the main earth, which gives earth-fault detection a reference.
 
-Respect the published per-input limits. Qbits lists 20 A maximum DC input current per MPPT on the single-phase TLS and TLD on-grid series, and 180 V to 1000 V MPPT with 1100 V maximum DC on the three-phase TLC series. Use the numbers for your exact model and [download the model datasheet](/download-datasheets/) before the design is frozen.
+Respect the published per-input limits. Qbits lists 20 A maximum DC input current per MPPT on the single-phase TLS and TLD on-grid models, and 180 V to 1000 V MPPT with 1100 V maximum DC for the 6 to 17 kW three-phase TLC family, according to the Qbits product specification. Other families list different windows, so use the numbers for your exact model and [download the model datasheet](/download-datasheets/) before the design is frozen.
 
 ## Worked example: sizing the DC cable to a voltage-drop limit
 
@@ -194,7 +194,7 @@ Voltage rise is the practical reason large single-phase systems get pushed to th
 A termination that is not tight has contact resistance. Current through contact resistance produces heat. Heat oxidises copper, oxide raises resistance further, and the fault accelerates. Left alone it ends in a glowing connection or an arc. DC is worse than AC here, because an AC arc extinguishes at each current zero crossing and a DC arc has none.
 
 1. Use the torque value printed in the manual for that terminal. Do not guess, and do not borrow a figure from another model.
-2. Use a calibrated torque screwdriver, not feel. The 1.2 Nm to 4.5 Nm band is common on residential inverter terminals, but only the manual figure counts.
+2. Use a calibrated torque screwdriver, not feel. Torque values differ between models and between terminals on the same model, so only the manual figure counts.
 3. Match the ferrule or lug to the conductor size and use the correct crimp die. A crimp made with the wrong die is loose inside a joint that looks finished.
 4. Mark each completed termination with a torque stripe, so a later inspection can see whether it has moved.
 5. Re-check accessible terminations at the first service visit. Thermal cycling in Indian summers loosens joints that were correct on day one.

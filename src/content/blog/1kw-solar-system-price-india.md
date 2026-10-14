@@ -4,7 +4,7 @@ excerpt: Understand 1 kW solar cost in India by separating panel-only, equipment
 description: "1kW solar system price in India 2026: panel, inverter and installation cost breakdown, MNRE benchmark, 1 kW PM Surya Ghar subsidy and expected generation."
 category: Buying Guide
 date: 2026-06-05
-updatedDate: 2026-09-26
+updatedDate: 2026-10-14
 readTime: 10 min
 image: /og/blog-1kw-solar-system-price-india.webp
 author: Akash Hirapara
@@ -27,6 +27,10 @@ faqs:
   a: No. Qbits inverter pricing is quote-only. A quote must identify the exact inverter model, tax treatment, delivery scope and written warranty terms. Qbits makes solar inverters and does not sell solar panels or provide the installed rooftop system described in this guide.
 - q: Does a 1 kW on-grid system work during a power cut?
   a: A standard on-grid system shuts down during a grid outage because of anti-islanding protection. Backup requires a separately designed hybrid system, compatible storage and a defined backup-load circuit. That is a different scope and should not be compared with an on-grid price as if both quotes include the same equipment.
+- q: How many units does a 1 kW solar system generate in a day?
+  a: There is no fixed figure. A planning scenario of 4.5 peak sun hours and a 0.75 performance ratio gives about 3.4 kWh a day, or roughly 1,232 kWh a year. Shade, roof orientation, module temperature, soiling and local solar resource change the real number, so ask each bidder to show its irradiation source and loss assumptions.
+- q: What is the payback period of a 1 kW solar system in India?
+  a: Payback cannot be promised. As an example only, 1,232 kWh a year valued at an assumed ₹7 per unit is about ₹8,624 a year. Against the ₹20,000 benchmark remainder that is roughly 2.3 years, and against a higher illustrative net cost of ₹35,000 it is roughly 4.1 years. Your tariff, net-metering settlement rule, shading and daytime self-consumption decide the real result.
 relatedSlugs:
 - solar-panel-price-india
 - 2kw-solar-system-price-india
@@ -84,6 +88,38 @@ The ₹20,000 result is useful for understanding the policy. It is not a promise
 Your gross contract may include a more expensive structure, long cable runs, roof-access work or fees outside the vendor's base scope. You may also need to fund the gross amount before assistance is processed. Ask the vendor to show the payment stages rather than presenting the post-CFA number as a shop discount.
 
 Special-category states and UTs have a different CFA schedule. State support and DISCOM charges can also vary. This article does not combine those changing local amounts into a national post-subsidy range.
+
+## What a 1 kW system actually includes
+
+A 1 kW rooftop system is more than two panels and an inverter. Each part below has its own price line, its own warranty and its own way of being under-specified in a cheap quote.
+
+**Solar panels.** At around 540 to 550 W a module, 1 kWp needs two panels, which is 1.08 to 1.10 kWp. A 335 W module would need three. The exact panel area depends on the model, so use the module datasheet for dimensions. Check the product warranty and the linear performance warranty as printed on the brand's own page, and confirm DCR status if you plan to claim central assistance.
+
+**On-grid inverter.** For a 1 kW array you need a single-phase [on-grid inverter](/on-grid-inverter/) of about 1 kW rating. Ask for a single-[MPPT](/glossary/mppt/) model unless your array has two roof faces, [anti-islanding protection](/glossary/anti-islanding/), the exact model's [BIS registration](/glossary/bis-certification/) and the grid voltage window from the datasheet. Qbits' single-phase TLS family starts at 1.5 kW (see the Qbits section below), so check the rated output of any model proposed to you.
+
+**Balance of system.** This covers DC and AC cables, MC4 connectors, a DC isolator, an AC breaker, a [surge protection device](/glossary/spd/) and [earthing](/glossary/earthing/). Undersized cables and weak earthing are where a cheap quote usually cuts corners, so ask for the cable cross-section and the earthing scope in writing.
+
+**Mounting structure.** A flat RCC roof, a metal sheet roof and a tiled roof need different structures. The coating, thickness and wind-load design change the price.
+
+**Installation, commissioning and metering.** This covers labour, testing, the [net-metering](/glossary/net-metering/) application and the DISCOM's [bidirectional meter](/glossary/bidirectional-meter/). Timelines and fees differ by DISCOM and state, so ask who is responsible for each step.
+
+## Retail listings against the ₹50,000 benchmark
+
+A quick test shows why you must read the scope line of every quote. The table below stacks three dated retail listings, checked on 14 October 2026, against the MNRE benchmark. It is an illustration, not a vendor quote and not a market range.
+
+| Item | Source (checked 14 Oct 2026) | Price |
+| --- | --- | ---: |
+| 2 × Waaree 540 Wp DCR panels at ₹15,199 each (1.08 kWp) | [Waaree official store](https://shop.waaree.com/waaree-540wp-144-cells-24v-mono-perc-dcr-solar-panel-m10-mono-10bb-glass-to-backsheet-module-high-efficiency-solar-module/), tax included | ₹30,398 |
+| 1 kW on-grid inverter, Luminous NXI 1 kW | [Moxikart listing](https://www.moxikart.com/battery/luminous-nxi-1-kw-on-grid-solar-inverter), tax included, 24-month warranty as printed | ₹25,399 |
+| **Panels plus inverter** | | **₹55,797** |
+| MNRE benchmark for 1 kW | MNRE residential CFA guidelines | ₹50,000 |
+
+The two listings alone already exceed the ₹50,000 benchmark by ₹5,797, before structure, cables, protection, labour or metering. Two things follow from that.
+
+1. **Single-unit retail prices are not what an installer pays.** An EPC buys modules and inverters in volume, so its cost per item can be lower than a retail listing. The benchmark is also a scheme figure, not a price cap.
+2. **A 1 kW quote can legitimately sit above the benchmark.** Fixed costs such as the survey, earthing, application work and the meter do not shrink with system size. If a quote is far below the benchmark, ask exactly which line was dropped. If it is far above, ask which line is carrying the difference.
+
+The same Waaree store listed a 550 W module at ₹10,299 on 14 October 2026 (about ₹18.7 per watt, against about ₹28.1 per watt for the 540 Wp DCR listing above). That page did not state DCR status, so it must not be used in a subsidy calculation.
 
 ## What must be inside an installed quote
 
@@ -144,13 +180,35 @@ Those inputs are assumptions, not Qbits or installer performance claims. Shade, 
 
 Do not convert the 1,232 kWh scenario into a savings or payback promise without your current DISCOM tariff and settlement rules. Import units avoided at your retail tariff and surplus units settled under a different rule may not have the same value.
 
+## A payback example, with the assumptions shown
+
+Below is an illustration, not a forecast. It uses the 1,232 kWh a year scenario above and three assumed tariffs. Your DISCOM tariff and net-metering settlement rule decide the real value of each unit.
+
+| Assumed tariff | Annual value of 1,232 kWh | Payback on ₹20,000 (benchmark remainder) | Payback on ₹35,000 (higher example) |
+| --- | ---: | ---: | ---: |
+| ₹6 per unit | ₹7,392 | about 2.7 years | about 4.7 years |
+| ₹7 per unit | ₹8,624 | about 2.3 years | about 4.1 years |
+| ₹8 per unit | ₹9,856 | about 2.0 years | about 3.6 years |
+
+The ₹35,000 column is an illustrative figure for a gross contract of about ₹65,000 minus ₹30,000 of CFA. It is not a market price. Three things move the result:
+
+- **Self-consumption.** Units used at home offset the retail tariff. Units exported may settle at a different rate under your DISCOM's rule.
+- **Shade and orientation.** A shaded or poorly oriented roof generates less than the scenario assumes.
+- **Degradation and maintenance.** Output falls slowly over the years, and an inverter may need replacing within the life of the modules.
+
+Do not read the table as a promise. Re-run it with your own tariff, your bill history and the generation figure in the vendor's proposal.
+
+## 1 kW or 2 kW: which size to quote
+
+The benchmark and the standard CFA rate are both per kW for the first 2 kW, so the policy arithmetic for 2 kW is double the 1 kW arithmetic: ₹1,00,000 benchmark, ₹60,000 CFA and a ₹40,000 benchmark remainder. A 1 kW roof suits a small household with a low daytime load. If your bills show higher consumption, a larger system may cover more of it, and the central assistance for the third kW is smaller (₹18,000). Ask each vendor to quote 1 kW, 2 kW and 3 kW on identical equipment, then compare total cost, cost per kWp and your own consumption. See the [2 kW](/blog/2kw-solar-system-price-india/), [3 kW](/blog/3kw-solar-system-price-india/) and [state-wise subsidy](/blog/solar-subsidy-all-states/) guides.
+
 ## On-grid and backup quotes are different purchases
 
 A standard on-grid inverter stops exporting and shuts down during a grid outage. Anti-islanding protection prevents the solar system from energising a utility line while workers may be repairing it.
 
 A backup system needs a hybrid architecture, compatible battery storage, a defined backup-load circuit and additional protection. Its price cannot be compared with an on-grid quote as if both provide the same outcome.
 
-Qbits sells on-grid and hybrid inverters, not panels, batteries or installation. It does not publish inverter prices. If a Qbits inverter is proposed, ask for the exact model, current written warranty terms and a line-item quote. Do not accept a whole-system price presented as a Qbits product price.
+Qbits sells on-grid and hybrid inverters, not panels, batteries or installation. It does not publish inverter prices. If a Qbits inverter is proposed, ask for the exact model, current written warranty terms and a line-item quote. The single-phase on-grid [QB 1.5 to 4.0KTLS family](/our-products/QB-1.5-4.0KTLS/) lists rated outputs from 1500 W upward, a 40 to 550 V MPPT range, a 20 A maximum DC input current and an IP66 enclosure on its datasheet. The PDF is on the [datasheets page](/download-datasheets/). Do not accept a whole-system price presented as a Qbits product price.
 
 ## Compare two 1 kW quotes in this order
 

@@ -41,7 +41,7 @@ The Indian solar sector is growing at unprecedented speed, with [EPC companies](
 
 EPC encompasses the complete lifecycle of solar projects, integrating **engineering design, equipment procurement, and construction execution** into a single delivery model. The role is part technical consultant, part project manager, part operations lead. Companies weighing whether to build this capability in-house or partner with a turnkey provider can compare against Heaven Green Energy's solar EPC and turnkey installation service as a reference point for scope and delivery model.
 
-An EPC is not automatically a dealer or distributor. The [Dealer, Distributor, EPC, and System Integrator comparison](/blog/dealer-vs-distributor-vs-epc/) separates project responsibility from product resale and equipment-integration scope.
+An EPC is not automatically a dealer or distributor. If you want to resell Qbits, [apply as a Qbits dealer or EPC partner](/become-our-partner/). The [Dealer, Distributor, EPC, and System Integrator comparison](/blog/dealer-vs-distributor-vs-epc/) separates project responsibility from product resale and equipment-integration scope.
 
 ### Key Challenges Facing Indian EPCs
 

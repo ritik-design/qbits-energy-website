@@ -4,8 +4,8 @@ excerpt: "What makes a good on-grid solar inverter in India: MPPT count, voltage
 description: "Compare five on-grid solar inverters for India by exact model: anti-islanding, MPPT and voltage windows, efficiency, export limiting and documents."
 category: "Buying Guide"
 date: 2026-09-23
-updatedDate: 2026-09-24
-readTime: "18 min read"
+updatedDate: 2026-10-14
+readTime: "22 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
 keywords:
@@ -30,13 +30,16 @@ faqs:
     a: "The service connection decides, not the system size. A single-phase connection takes a single-phase inverter. A three-phase connection above roughly 5 kW is normally better served by a three-phase inverter, which keeps the injection balanced across all three phases. Feeding a large single-phase inverter onto one leg of a three-phase supply creates voltage unbalance that many DISCOMs restrict. Check the sanctioned load and phase on your current electricity bill before shortlisting anything."
   - q: "Does one Qbits warranty term apply to every model?"
     a: "No single term is published for every Qbits model. Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline or exclusions, so get the current written warranty for the exact quoted model before payment and read the registration deadline."
+  - q: "Which of the five on-grid inverters here suits a 3 BHK home?"
+    a: "A 3 BHK on a single-phase connection usually lands between 4 kW and 6 kW, which is where the three single-phase models in this guide apply: GoodWe GW5000D-NS, Growatt MIN 5000TL-X and Qbits QB 5KTLD. Choose between them by tracker count and per-tracker current against your actual module datasheet, not by rank, because none is ranked. If the home has a three-phase connection and an array above about 6 kW, the three-phase Qbits QB 10KTLC and Sungrow SG10RT are the relevant pair. Confirm your phase and sanctioned load on your electricity bill first."
 ---
 
 Most guides to the best on-grid solar inverter in India rank brands. That is the wrong unit of analysis. One brand ships single-phase and three-phase units, 1.5 kW and 320 kW units, one-tracker and twelve-tracker units. The badge tells you nothing about whether the box in your quotation suits your roof. The specification does.
 
-So this guide skips the leaderboard. It explains what grid-tied operation is electrically, why an on-grid inverter cannot keep your lights on during a power cut, and which datasheet lines separate a sound unit from a marginal one. You get the voltage and current checks, a worked sizing calculation you can repeat with your own panel numbers, the export rules that change the answer, and the handover documents worth refusing to sign without. Residential and small commercial both, because the same physics governs a 5 kW house and a 50 kW factory shed.
+So this guide compares five exact models without ranking them, and it explains what grid-tied operation is electrically, why an on-grid inverter cannot keep your lights on during a power cut, and which datasheet lines separate a sound unit from a marginal one. You get the voltage and current checks, a worked sizing calculation you can repeat with your own panel numbers, the export rules that change the answer, and the handover documents worth refusing to sign without. Residential and small commercial both, because the same physics governs a 5 kW house and a 50 kW factory shed.
 
 > **TL;DR**
+> - Five exact on-grid models are compared below, with no ranking. Each quotes the figures its own datasheet prints, read in October 2026.
 > - An on-grid inverter has no backup function. It disconnects within seconds of a grid failure and stays off until supply returns and holds steady for 60 seconds.
 > - That behaviour is mandated. CEA Regulation 11(6) sets voltage trip above 110% or below 80% of nominal, and frequency trip at 50.5 Hz and above or 47.5 Hz and below. A DISCOM may prescribe a narrower range.
 > - Independent maximum power point trackers matter more than tracker count. Two orientations need two trackers that track separately.
@@ -46,6 +49,17 @@ So this guide skips the leaderboard. It explains what grid-tied operation is ele
 > - Most Indian rooftops sit between 1.1 and 1.3 DC watts per AC watt. Above that you clip energy you paid for.
 
 **Short version.** A good on-grid solar inverter in India contains your coldest-morning string voltage inside its maximum DC rating, keeps operating voltage inside its tracker window, and accepts the short-circuit current of the panels quoted. It also tracks each roof orientation independently, publishes weighted efficiency and a derating curve, satisfies your DISCOM's export rule, and has a reachable service network. Pick the SKU that passes all seven, not the brand with the best advertisement.
+
+## Who should choose an on-grid inverter
+
+Answer capsule: an on-grid inverter suits a household or business with a dependable grid and mostly daytime use, where the aim is to cut the bill and export surplus under net metering. It is the wrong tool if outages are long and frequent and you want lights on during them.
+
+- **Homes with a reliable supply.** Fans, cooling and appliances run through the day while the array produces. Surplus exports where the DISCOM allows it.
+- **Shops, clinics and offices.** Load follows daylight, so more of the output is used on site.
+- **Small factories and sheds.** Three-phase units cover the load, and the shed roof usually has space for a longer string layout.
+- **Not for outage cover.** A pure on-grid unit stops in a power cut. If that is your main problem, read the [on-grid versus hybrid comparison](/blog/on-grid-vs-hybrid/) first.
+
+The five models below cover the two situations that account for most purchases: a single-phase home from about 5 kW, and a three-phase premises at 10 kW.
 
 ## What an on-grid inverter does, and why it goes dark in a power cut
 
@@ -97,7 +111,7 @@ Read the wording carefully. "Two MPPT inputs" and "two independent MPPTs" are di
 
 Now the current problem, which is new and under-discussed. Indian panel short-circuit currents have climbed sharply with G12 format cells. Published datasheet values include 18.85 A on the Adani ASB-M12-132-650, 18.31 A on the Waaree BiN-03-700, and 18.23 A on the Vikram VSMDH.66.680.05. Against a 20 A maximum DC input current, an 18.85 A panel leaves roughly 1.15 A of headroom.
 
-That is thin. Irradiance above 1,000 W/m2, reflected light off a pale roof, and cold clear conditions all push short-circuit current past the nameplate figure, so a design that fits on paper can clamp in practice. Do the check explicitly: read maximum DC input current per tracker off the inverter datasheet, read short-circuit current off the panel datasheet, and confirm the inverter figure is larger with margin. The Qbits 20 A figure is published for the TLS and TLD single-phase series; do not assume it carries across to three-phase SKUs.
+That is thin. Irradiance above 1,000 W/m2, reflected light off a pale roof, and cold clear conditions all push short-circuit current past the nameplate figure, so a design that fits on paper can clamp in practice. Do the check explicitly: read maximum DC input current per tracker off the inverter datasheet, read short-circuit current off the panel datasheet, and confirm the inverter figure is larger with margin. Qbits prints its input current per family, so read the line for your exact model: 20 A on the single-phase TLS and TLD series and on the 6, 8, 10 and 12KTLC, and 20 A and 30 A on the 15 and 17KTLC.
 
 ## Efficiency: peak, weighted, and what heat does to both
 
@@ -169,20 +183,84 @@ Your service connection decides this, not your system size. A single-phase conne
 
 The unbalance point is the one people miss. A large single-phase inverter feeding one leg of a three-phase supply creates voltage unbalance across the phases, and many DISCOMs cap how much single-phase injection they will accept. Qbits splits its on-grid range along this line: single-phase TLS and TLD families for the smaller end, three-phase TLC from 5 kW up to the 225 and 320 kW EHV units. The decision is unpacked further in the [single-phase versus three-phase inverter guide](/blog/single-vs-3-phase-inverter/).
 
-## A comparison framework, not a leaderboard
+## Top 5 on-grid solar inverters compared
 
-Per-model numbers in a blog post go stale within a product cycle, and most published comparison tables invent figures nobody can trace. So this table lists what each brand actually publishes, and what you still have to verify yourself. Everything in the left columns comes from the manufacturer's own catalogue or datasheet.
+Answer capsule: five exact on-grid models, ordered by phase and then alphabetically by maker, with no ranking. Each entry quotes the figures its own datasheet prints, read in October 2026. Use the table to find the configuration that fits your array, then check the full datasheet.
 
-| Brand | Publicly documented | Verify on the datasheet |
+How the five were chosen: they cover single-phase and three-phase connections, two-tracker designs, and both a Qbits and non-Qbits maker in each phase class. They are not a measure of market share and nothing was bench-tested. Qbits models are quoted from the model pages and datasheets on this site. Other makers' figures come from the datasheet linked in the entry, and regional editions differ, so ask your supplier for the India datasheet of the exact variant.
+
+| # | Model | Phase | Rating | MPPTs | MPPT window | Max DC | Max input current | Max efficiency | IP |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | GoodWe GW5000D-NS | Single | 5 kW | 2 | 80 to 550 V | 600 V | 11 A per MPPT | 97.8% | IP65 |
+| 2 | Growatt MIN 5000TL-X | Single | 5 kW | 2 | 80 to 550 V | 550 V | 12.5 A per MPPT | 98.4% | IP65 |
+| 3 | Qbits QB 5KTLD | Single | 5 kW | 2 | 80 to 550 V | 550 V | 20 A per MPPT | 98.1% | IP66 |
+| 4 | Qbits QB 10KTLC | Three | 10 kW | 2 | 180 to 1000 V | 1100 V | 20 A per MPPT | 98.5% to 98.7% by model (family) | IP66 |
+| 5 | Sungrow SG10RT | Three | 10 kW | 2 | 160 to 1000 V | 1100 V | 25 A and 12.5 A | 98.5% | IP65 |
+
+### 1. GoodWe GW5000D-NS (single-phase, two MPPTs)
+
+From the [GoodWe DNS series datasheet](https://en.goodwe.com/Ftp/EN/Downloads/Datasheet/GW_DNS_Datasheet-EN.pdf) (V2.1, 17 April 2023, as of October 2026): 5,000 W nominal output, two trackers with one string each, 80 V to 550 V MPPT range, 600 V maximum input, 80 V start-up, 11 A maximum input and 13.8 A short-circuit per tracker, 97.8% maximum efficiency (97.5% European), IP65, 13 kg, natural convection.
+
+**Suits:** compact single-phase homes with two modest strings.
+
+**Check before buying:** the per-tracker current lines against your module's operating and short-circuit current.
+
+### 2. Growatt MIN 5000TL-X (single-phase, two MPPTs)
+
+From the [Growatt MIN 2500~6000TL-X datasheet, India folder copy hosted by Krannich Solar](https://krannich-solar.com/fileadmin/user_upload/IND/Datasheets/Growatt/Datasheet_Growatt_MIN_3-6TL-X.pdf) (as of October 2026): 5,000 W, two trackers with one string each, 80 V to 550 V MPP range, 550 V maximum DC, 100 V start-up, 12.5 A input and 16 A short-circuit per tracker, 98.4% maximum efficiency (97.5% European), IP65, 160 V to 300 V AC range.
+
+**Suits:** single-phase homes wanting a high published efficiency and two trackers.
+
+**Check before buying:** which datasheet edition your supplier ships, since Growatt publishes several regional editions with different AC ranges and current lines.
+
+### 3. Qbits QB 5KTLD (single-phase, two MPPTs)
+
+The [QB 4/5/6 KTLD family](/our-products/QB-4-6KTLD/) lists 5,000 W for the 5KTLD. From the [Qbits datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf) and model page: two independent MPPTs, 80 V to 550 V MPPT range, 550 V maximum DC, 20 A input per MPPT, 98.1% maximum efficiency, IP66, a 160 V to 270 Vac adjustable grid range, operation from -25 to +60 °C, Wi-Fi standard with RS485 or GPRS optional.
+
+**Suits:** two roof planes at 4 kW to 6 kW, or one plane with two strings of different length.
+
+**Check before buying:** the single-MPPT sibling is the [QB 4.2/4.6/5/5.4/6KTLS](/our-products/QB-4.6-6KTLS/) with 40 V to 600 V window, if your roof is one plane. For the smaller end, see the [QB 1.5 to 4.0KTLS family](/our-products/QB-1.5-4.0KTLS/). Obtain the written warranty for the exact model.
+
+### 4. Qbits QB 10KTLC (three-phase, two MPPTs)
+
+The [QB 5/6/8/10/12/15/17KTLC family](/our-products/QB-6-17KTLC/) lists 10,000 W for the 10KTLC. Family figures from the [Qbits datasheet](/datasheets/products/QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf): two MPPTs, 180 V to 1000 V MPPT window, 1100 V maximum DC, 180 V starting voltage, 98.5% to 98.7% maximum efficiency depending on the model, IP66, 310 V to 480 Vac grid range. The 6, 8, 10 and 12KTLC list 20 A per MPPT, and the 15 and 17KTLC list 20 A and 30 A.
+
+**Suits:** three-phase villas, shops and small sheds around 10 kW.
+
+**Check before buying:** read the efficiency line for the 10KTLC itself, and keep each roof plane on its own tracker.
+
+### 5. Sungrow SG10RT (three-phase, two MPPTs)
+
+The [Sungrow RT series datasheet](https://www.phaos.net/wp-content/uploads/2023/09/EN-DS-SG5.0-6.0-7.0-8.0-10-12RT-Datasheet-V113-20210415.pdf) (Version 1.1.3, 2021, hosted by a distributor, as of October 2026) gives the SG10RT 10,000 W of nominal output across two independent MPP inputs. Its MPP range runs from 160 V to 1000 V with a 1100 V ceiling and 180 V start-up. The first input is rated 25 A (up to two strings) and the second 12.5 A, 37.5 A in total, with 98.5% maximum efficiency, IP65 and a three-phase AC range of 311 V to 478 V.
+
+**Suits:** three-phase premises that want a lower window floor of 160 V.
+
+**Check before buying:** the two trackers are not equal, so put the longer or higher-current string group on the 25 A input. Ask for the current India edition of the datasheet.
+
+**Also in the Qbits on-grid range.** The QB 1.5 to 4.0KTLS family covers 1.5 kW to 4 kW single-phase, and the [on-grid inverter range](/on-grid-inverter/) lists every family up to the 225 kW and 320 kW EHV units. They are not counted among the five above.
+
+A note on ALMM, because it is misreported constantly. MNRE publishes ALMM List-I for modules and List-II for cells. There is no MNRE approved list for inverters, so ask the seller for the exact model's BIS registration and current certificates, and for PM Surya Ghar confirm the requirements with your DISCOM. Use this alongside the [brand-level ranking of Indian inverter makers](/blog/top-10-solar-inverter-brands-india-2026/), which compares companies rather than models, and the [general homeowner selection guide](/blog/best-solar-inverter-for-home-india/). For a capacity-specific shortlist, see the [3 kW](/blog/best-3kw-solar-inverter-india-2026/), [5 kW](/blog/best-5kw-solar-inverter-india-2026/) and [10 kW](/blog/best-10kw-solar-inverter-india-2026/) guides.
+
+## On-grid or hybrid: pros and cons at a glance
+
+| Question | On-grid | Hybrid |
 | --- | --- | --- |
-| Qbits | On-grid TLS, TLD, and TLC families; IP66 across every series; maximum efficiency 98% to 99.02% by model; 90 to 290 Vac adjustable grid range on the 4.2 to 6 kW TLS models; BIS certificate R-41306401 printed on the catalogue | Maximum DC input current per tracker on three-phase SKUs; written warranty terms for the quoted model; export limiting accessory support |
-| Havells | 10-year standard warranty on every Enviro GTi grid-tie datasheet; 97.5% to 98.9% efficiency; mostly IP65; BIS R-41165239; added to MNRE ALMM List-I on 6 July 2026 for its Surat module line, 1,221 MW, valid to 5 July 2030 | Whether the IP65 rating suits your mounting position; per-model tracking window |
-| Polycab | Solar Catalogue 2025 lists grid-tie 2 to 125 kW as Make in India; 7-year printed warranty, 5 years on the 350 kW UT series; single-phase IP65 and three-phase IP66 from 5 kW up | The catalogue and the company web store show different warranty filters, so get the term for your SKU in writing |
-| Any other brand | Whatever the current catalogue states | All nine specifications listed earlier, for the exact SKU and phase |
+| Works in a power cut | No, it stops by design | Yes, for the loads you wire to backup |
+| Components to maintain | Inverter, array | Inverter, array, battery |
+| Net metering | Normal route | Depends on the model and DISCOM, so confirm in writing |
+| Conversion efficiency | Highest of the topologies | Usually a little lower, with battery conversion steps |
+| What drives cost | Array and structure | The battery, more than the inverter |
+| Best when | Grid is dependable | Outages are frequent or long |
 
-Use this alongside the [brand-level ranking of Indian inverter makers](/blog/top-10-solar-inverter-brands-india-2026/), which compares companies rather than specifications, and the [general homeowner selection guide](/blog/best-solar-inverter-for-home-india/). For a capacity-specific shortlist, the [5 kW guide](/blog/best-5kw-solar-inverter-india-2026/) goes deeper on that size than a cross-capacity article can, and its siblings cover 3 kW and 10 kW.
+Qbits' hybrid families, such as the [QBH 3-6KS48P](/our-products/QBH-3-6KS48P/), add a battery port. Read the [hybrid inverter range](/hybrid-inverter/) if backup matters.
 
-One note on ALMM, because it is misreported constantly. MNRE publishes ALMM List-I for modules and List-II for cells. There is no MNRE approved list for inverters. Any claim that your inverter must appear on an ALMM list for PM Surya Ghar is wrong. So ask the seller for the exact model's BIS registration and current certificates, and for PM Surya Ghar confirm the requirements with your DISCOM.
+## Five mistakes that derail on-grid inverter purchases
+
+1. **Shortlisting by brand and rated power.** Tracker count, window floor and per-tracker current decide whether your array works.
+2. **Paralleling two high-current strings on one input.** A 700 W class module draws about 18 A short-circuit. Two paralleled strings exceed a 20 A input.
+3. **Expecting power in a cut.** An on-grid unit stops by design. Plan a hybrid if you need cover.
+4. **Skipping the export rule.** Net metering, gross metering and zero export each need different accessories and firmware.
+5. **Accepting warranty and service verbally.** Get the written warranty for the exact model, the registration deadline, and the service route.
 
 ## Commissioning: the documents to demand at handover
 
@@ -210,7 +288,8 @@ Every one of those steps is a downtime multiplier, and downtime is the only cost
 So price the following, not just the box:
 
 - **Reachability.** Is there a service partner in your district, or one phone number for the whole state?
-- **Stated turnaround.** A documented dispatch commitment beats an informal promise. - **Spares depth.** Will this series still be supported in year seven, or is it already being discontinued?
+- **Stated turnaround.** A documented dispatch commitment beats an informal promise.
+- **Spares depth.** Will this series still be supported in year seven, or is it already being discontinued?
 - **Monitoring that reaches you.** An alert you never see is not monitoring. Confirm push notifications and that the account is in your name.
 - **Who actually holds the warranty.** Manufacturer, importer, or installer. The three behave very differently when the installer closes.
 

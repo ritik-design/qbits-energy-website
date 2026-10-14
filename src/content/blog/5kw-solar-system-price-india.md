@@ -84,7 +84,7 @@ Note two things. That array is 5.5 kWp DC rather than exactly 5 kWp, and the fig
 
 An installer must choose an actual module count and verify PV power, voltage and current against the specific inverter. The [5 kW hybrid guide](/blog/5kw-hybrid-inverter-price-india/) gives a dated inverter class example, and the [string sizing calculator](/string-sizing-calculator/) screens the electrical fit without pricing anything.
 
-For a grid tied project, [browse on-grid inverters](/on-grid-inverter/). For selected load backup, [browse hybrids](/hybrid-inverter/) and request a supported battery design.
+For a grid tied project, [browse on-grid inverters](/on-grid-inverter/); a single-phase example is the [QB 5KTLS single-phase on-grid inverter](/our-products/QB-4.6-6KTLS/). For selected load backup, [browse hybrids](/hybrid-inverter/) and request a supported battery design.
 
 ## How assistance applies at 5 kWp
 

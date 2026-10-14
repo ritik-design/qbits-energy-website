@@ -1,5 +1,5 @@
 ---
-title: "Best 3kW Solar Inverter in India 2026: On-Grid and Hybrid"
+title: "Best 3kW Solar Inverter in India: 5 Models Compared"
 excerpt: "Best 3 kW solar inverter in India: load fit, MPPT count, voltage window, DC/AC ratio, warranty terms, and commissioning checks."
 description: "Compare 3 kW solar inverters in India for 2BHK homes: on-grid and hybrid models by spec, the PM Surya Ghar slab for 3 kW, a load check and buying mistakes."
 category: "Buying Guide"

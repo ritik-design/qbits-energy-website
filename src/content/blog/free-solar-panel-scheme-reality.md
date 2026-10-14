@@ -1,5 +1,5 @@
 ---
-title: "Free Solar Panel Scheme: What the Government Actually Offers in 2026"
+title: "Free Solar Panel Scheme: What Government Offers (2026)"
 excerpt: There is no free panel giveaway. What PM Surya Ghar actually pays, what you still fund, and how to tell a real offer from a harvesting scam.
 description: "Is the free solar panel scheme real? What PM Surya Ghar central assistance covers, loan and RESCO routes, and the red flags of a solar scam."
 category: Policy

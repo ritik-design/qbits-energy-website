@@ -1,5 +1,5 @@
 ---
-title: "Best On-Grid Solar Inverter in India 2026: Top 5 Compared"
+title: "Best On-Grid Solar Inverter in India: 5 Models Compared"
 excerpt: "What makes a good on-grid solar inverter in India: MPPT count, voltage window, DC input current, export rules, and anti-islanding behaviour."
 description: "Compare five on-grid solar inverters for India by exact model: anti-islanding, MPPT and voltage windows, efficiency, export limiting and documents."
 category: "Buying Guide"

@@ -1,5 +1,5 @@
 ---
-title: "Solar Inverter App Monitoring: Best App in India"
+title: "Best Solar Monitoring App in India: 5 Apps Compared"
 excerpt: "How iSolarCloud, SEMS Portal, ShinePhone, SolisCloud and the Qbits app compare on setup, alerts, data export and language support, with the sources and the date each fact was checked."
 description: "Compare solar inverter monitoring apps in India: iSolarCloud, SEMS, ShinePhone, SolisCloud and the Qbits app by setup, alerts, data export and ease of use."
 category: "Comparison"

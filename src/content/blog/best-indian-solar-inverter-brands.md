@@ -1,5 +1,5 @@
 ---
-title: "Best Indian Solar Inverter Brands 2026"
+title: "Best Indian Solar Inverter Brands: 8 Brands Compared"
 excerpt: Eight Indian-market solar inverter brands compared by company identity, product type and manufacturing evidence, with the documents that settle origin.
 description: "Compare Indian solar inverter brands and manufacturers in 2026: who makes inverters in India, product ranges, BIS checks and how to verify made-in-India claims."
 category: Comparison

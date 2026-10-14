@@ -1,7 +1,7 @@
 ---
-title: 'Solar Inverter Wiring Diagram for Indian Homes 2026: Panels to Meter Board'
+title: "Solar Inverter Wiring Diagram: Panels to Meter Board"
 excerpt: A practical solar inverter wiring diagram guide covering the DC run, cable sizing, AC protection, earthing, metering and commissioning checks.
-description: "Solar inverter wiring diagram for an Indian home: DC strings, isolators, SPD and earthing, AC output to the DB, net meter connection and cable sizing."
+description: "Solar inverter wiring diagram and connection steps for an Indian home: DC strings, isolators, SPD, earthing, AC output to the DB, net meter, cable sizing."
 category: Technical
 date: 2026-07-23
 updatedDate: 2026-10-14

@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Price with Installation in India 2026: The Real All-In Cost"
+title: "Inverter Installation Cost in India: All-In Breakdown"
 excerpt: "Solar inverter price with installation in India 2026: itemized all-in cost tables for 3, 5 and 10 kW systems, hidden charges exposed, installer questions."
-description: "The inverter sticker price is only 25 to 40 percent of what you actually pay. Itemized all-in cost breakdown for 3 kW, 5 kW and 10 kW solar systems in India 2026, including labour, cabling, earthing, structure, net meter fees and commissioning, plus the questions to ask installers to avoid hidden charges."
+description: "Inverter installation cost in India: itemised all-in cost for 3, 5 and 10 kW systems: labour, cabling, earthing, net meter fees and commissioning."
 category: "Buying Guide"
 date: 2026-07-23
 updatedDate: 2026-08-02

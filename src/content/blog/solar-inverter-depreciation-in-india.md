@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Depreciation in India: Tax Checklist"
+title: "Inverter Depreciation Rate in India: What Decides It"
 excerpt: "Solar inverter depreciation depends on ownership, business use, asset-block classification and the current tax schedule. Verify the rate with a chartered accountant."
-description: "Solar inverter depreciation in India: check ownership, business use, asset classification, put-to-use evidence and the current tax rate before claiming."
+description: "Inverter depreciation rate in India depends on ownership, business use, asset class and put-to-use date. Checklist before you claim; not tax advice."
 category: "Guide"
 date: 2026-04-08
 updatedDate: 2026-09-23

@@ -1,5 +1,5 @@
 ---
-title: "Best 10kW Solar Inverter in India 2026"
+title: "Best 10kW Solar Inverter in India: 5 Models Compared"
 excerpt: "Best 10 kW solar inverter in India: three-phase fit, MPPT current limits, DC/AC ratio, metering rules, depreciation, and commissioning checks."
 description: "Compare 10 kW solar inverters in India for villas, shops and small factories: three-phase on-grid and hybrid models, MPPT limits and depreciation."
 category: "Buying Guide"

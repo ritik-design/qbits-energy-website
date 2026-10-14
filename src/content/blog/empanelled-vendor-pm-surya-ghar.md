@@ -1,5 +1,5 @@
 ---
-title: "PM Surya Ghar Vendor List: How to Check a Vendor District-Wise"
+title: "PM Surya Ghar Vendor List: Check a Vendor District-Wise"
 excerpt: "Check a PM Surya Ghar vendor on the official portal, match the business to its quote and understand what registration does not guarantee."
 description: "How to find and verify a PM Surya Ghar empanelled vendor on the official portal: district-wise vendor list, name check, red flags, documents and complaints."
 category: "Policy"

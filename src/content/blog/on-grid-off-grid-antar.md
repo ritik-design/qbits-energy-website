@@ -1,7 +1,7 @@
 ---
-title: "On Grid aur Off Grid Solar me Antar: Hindi Guide (2026)"
+title: "On Grid, Off Grid aur Hybrid Solar System me Antar"
 excerpt: "On grid off grid antar Hindi me: net metering, power cut backup, PM Surya Ghar subsidy aur battery cost ke हिसाब से कौन सा system आपके घर के लिए सही है।"
-description: "On grid, off grid aur hybrid solar system में असली अंतर क्या है? Net metering, subsidy eligibility, battery cost aur power cut hours के आधार पर Hindi decision guide।"
+description: "On grid, off grid aur hybrid solar system me antar: cost, net metering, subsidy aur power cut backup ek table me. Ghar ke liye Hindi guide."
 category: "Comparison"
 date: 2026-08-02
 updatedDate: 2026-08-02

@@ -1,5 +1,5 @@
 ---
-title: "Most Reliable Solar Inverter in India (2026)"
+title: "Solar Inverter Quality and Reliability: India Checklist"
 excerpt: "No public evidence proves one inverter company has India's best service. Compare ten brands by official support access, warranty process and the local proof to request."
 description: "How to judge solar inverter reliability in India: component quality, thermal design, protection circuits, service evidence and warranty documents."
 category: "Comparison"

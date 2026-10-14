@@ -380,7 +380,7 @@ export const products: Product[] = [
     operatingTemperature: '-25 to +60 °C (frequency-decreasing above 45 °C)',
     safetyStandard: DATASHEET_SAFETY_STANDARD,
     gridStandard: DATASHEET_GRID_STANDARD,
-    guides: ['solar-inverter-power-cut-backup', 'battery-sizing-hybrid-solar', 'best-hybrid-solar-inverter-india-2026'],
+    guides: ['solar-inverter-power-cut-backup', 'battery-sizing-hybrid-solar', 'best-hybrid-solar-inverter-india-2026', 'hybrid-inverter-price-india'],
     image: '/homepage-new/hybrid.webp',
     datasheet: '/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf',
   },

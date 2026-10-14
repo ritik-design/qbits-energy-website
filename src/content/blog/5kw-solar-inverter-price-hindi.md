@@ -1,7 +1,7 @@
 ---
-title: "5kW Solar Inverter Price in India 2026 (Hindi Guide)"
+title: "5 kW Solar Inverter Price: On-Grid vs Hybrid (Hindi)"
 excerpt: "5 kW solar inverter price ko scope, phase, battery aur specs se compare karein. Subsidy 3 kW par cap hoti hai, yeh 5 kW ka asli point hai."
-description: "5kW solar inverter price India 2026 में kya hai? On-grid vs hybrid, battery cost, installed price, PM Surya Ghar subsidy aur EMI ka Hindi guide।"
+description: "5 किलोवाट सोलर इन्वर्टर प्राइस kya hai? 5 kW hybrid inverter price vs on-grid, battery, quote scope, PM Surya Ghar subsidy aur payback ka Hindi guide।"
 category: "Buying Guide"
 date: 2026-08-02
 updatedDate: 2026-10-14

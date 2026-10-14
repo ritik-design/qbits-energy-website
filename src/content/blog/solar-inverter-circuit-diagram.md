@@ -1,5 +1,5 @@
 ---
-title: 'Solar Inverter Circuit Diagram Explained: From DC Strings to AC Grid'
+title: "Solar Inverter Circuit Diagram: DC Strings to AC Grid"
 excerpt: 'A solar inverter circuit diagram at both levels: the array-to-grid single line diagram, the MPPT and IGBT stages inside, and the protection circuits.'
 description: "A block-by-block walkthrough of a solar inverter circuit diagram: DC input, MPPT boost, DC link, IGBT bridge, output filter, grid relay and control board."
 category: Technical

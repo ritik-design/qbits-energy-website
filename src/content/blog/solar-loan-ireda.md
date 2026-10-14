@@ -1,7 +1,7 @@
 ---
-title: "Solar Loan from IREDA, Complete Guide for Homeowners"
+title: "IREDA Solar Loan: Interest Rate, Eligibility and EMI"
 excerpt: "IREDA solar loan (Suryodaya) offers 7–9% interest for residential solar under PM Surya Ghar. This guide covers eligibility, partner banks, subsidy stacking, and exact EMI math."
-description: "Complete IREDA solar loan guide: Suryodaya scheme rates, partner banks, eligibility rules, subsidy stacking, and monthly EMI calculator."
+description: "IREDA Suryodaya solar loan for homeowners: interest rate via partner banks, eligibility, subsidy stacking and EMI examples for 3, 5 and 10 kW systems."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08

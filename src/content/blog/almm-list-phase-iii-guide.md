@@ -1,7 +1,7 @@
 ---
-title: "ALMM Scope: Modules, Cells and Inverter Checks"
+title: "ALMM Phase III: Is There an ALMM Inverter List?"
 excerpt: "The ALMM list has two tiers: List-I for modules, List-II for cells. MNRE publishes no inverter list. Here is the verified scope."
-description: "What the ALMM list covers, what List-I and List-II actually are, why there is no ALMM inverter list, and how to verify an ALMM claim before you buy."
+description: "ALMM Phase III is not an official MNRE term, and there is no ALMM inverter list. What List-I (modules) and List-II (cells) cover, and how to check a claim."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-09-24

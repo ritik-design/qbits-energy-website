@@ -1,5 +1,5 @@
 ---
-title: "Solar Insurance in India 2026: What It Covers, What It Costs, and Do You Need It"
+title: "Solar Insurance in India: What It Covers and Costs (2026)"
 excerpt: "Solar insurance in India explained: what fire, burglary and breakdown policies cover, how home insurance treats a rooftop array, and what a claim needs."
 description: "Solar insurance in India for 2026: what rooftop policies cover, who sells them, dated premium examples, what home insurance includes and how to claim."
 category: Guide

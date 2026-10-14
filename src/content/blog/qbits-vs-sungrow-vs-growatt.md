@@ -1,7 +1,7 @@
 ---
-title: "Qbits vs Sungrow vs Growatt Solar Inverter Comparison"
+title: "Sungrow vs Growatt vs Qbits: Solar Inverter Comparison"
 excerpt: "Qbits vs Sungrow vs Growatt compared on published datasheets, warranty terms, India service reach, monitoring, and CEA grid-code behaviour."
-description: "A disclosed three-way comparison of Qbits, Sungrow and Growatt solar inverters using published datasheets, sourced warranty clauses, India service reach, monitoring platforms, and CEA grid-code requirements."
+description: "Sungrow vs Growatt vs Qbits solar inverters in India, compared on published datasheets, warranty clauses, service reach, monitoring and CEA grid-code fit."
 category: "Comparison"
 date: 2026-09-23
 updatedDate: 2026-10-14

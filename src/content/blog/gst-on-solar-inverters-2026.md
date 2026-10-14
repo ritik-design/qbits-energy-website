@@ -1,7 +1,7 @@
 ---
-title: "GST on Solar Inverters and Panels 2026"
+title: "Solar Inverter HSN Code and GST Rate in India (2026)"
 excerpt: "GST on solar inverter quotes: the 5% entry 437, heading 8504 at 18%, the 70:30 split, input tax credit, and a compliant invoice."
-description: "GST on solar inverters and panels in 2026: the 5% rate for specified solar devices since 22 Sep 2025, HSN codes, the 70:30 rule, ITC and invoices."
+description: "Solar inverter HSN code and GST rate in India: heading 8504, when 5% or 18% applies since 22 Sep 2025, the 70:30 rule, ITC and invoices. Not tax advice."
 category: Policy
 date: 2026-06-05
 updatedDate: 2026-10-14

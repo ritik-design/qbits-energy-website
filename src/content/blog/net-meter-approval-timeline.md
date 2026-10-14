@@ -1,5 +1,5 @@
 ---
-title: "Net Meter Approval Time in India 2026: DISCOM Timelines and How to Speed It Up"
+title: "Net Meter Approval Time in India 2026: DISCOM Timelines"
 excerpt: 'Net meter approval time in India, stage by stage: the statutory DISCOM clocks, where applications actually stall, and how to escalate a delay.'
 description: "How long solar net meter approval takes in India in 2026: official vs actual DISCOM timelines, where applications stall and how to escalate."
 category: Guide

@@ -1,5 +1,5 @@
 ---
-title: "Inverter Battery Connection Diagram and Sizing Guide for Hybrid Solar"
+title: "Inverter Battery Connection Diagram and Sizing (Hybrid)"
 excerpt: 'Inverter battery connection diagram explained: series vs parallel, 48 V banks, fuse and isolator placement, cable sizing, earthing and BMS wiring.'
 description: "How batteries connect to a hybrid solar inverter: 48 V DC bus, CAN and RS485 BMS links, series and parallel banks, cable and fuse sizing, mistakes."
 category: Technical

@@ -1,7 +1,7 @@
 ---
-title: "LiFePO4 vs NMC Battery for Solar in India"
+title: "LiFePO4 vs NMC Solar Battery: Cost per kWh and Safety"
 excerpt: "LiFePO4 vs NMC battery for solar in India: LiFePO4 wins on safety, cycle life, and heat tolerance at 45°C+. NMC wins on energy density and lower upfront cost. The India Climate Battery Test explained."
-description: "LiFePO4 vs NMC solar battery comparison for India: safety, cycle life, heat tolerance at 45°C, pricing, and which chemistry wins for residential solar."
+description: "LiFePO4 vs NMC solar battery for India: cost per kWh, safety, cycle life and heat tolerance at 45°C, and which chemistry suits home solar."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08

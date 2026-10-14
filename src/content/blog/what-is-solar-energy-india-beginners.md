@@ -22,7 +22,7 @@ faqs:
   - q: "What is the photovoltaic effect?"
     a: "The photovoltaic effect, discovered by Edmond Becquerel in 1839, is the process by which light photons striking a semiconductor material (usually silicon) transfer energy to electrons, freeing them to flow as electric current. Modern crystalline silicon cells convert 18–22% of incident sunlight into electricity at standard test conditions, and commercial panels routinely exceed 400 Wp per panel in 2026."
   - q: "How much can I save with solar energy in India?"
-    a: "A 3 kW residential solar system in most Indian states generates 12–15 units per day and saves approximately ₹40,000–₹50,000 per year at a blended tariff of ₹8–10 per unit. The system typically costs ₹2.5–3.5 lakh after PM Surya Ghar subsidy, giving a payback period of 5–6 years and roughly 6–7 years of near-zero electricity bills within the 12-year inverter warranty period."
+    a: "A 3 kW residential solar system in most Indian states generates 12–15 units per day (about 4,380–5,475 units a year) and saves approximately ₹35,000–₹55,000 per year at a blended tariff of ₹8–10 per unit. At ₹55,000–₹75,000 per kW the system costs ₹1.65–₹2.25 lakh before subsidy, or about ₹87,000–₹1.47 lakh after the ₹78,000 PM Surya Ghar subsidy, giving a simple payback of roughly 2–4 years. That leaves most of a typical 12-year inverter warranty period, and the panels' 25-year life, as years of lower bills. These are illustrative figures, not guarantees."
   - q: "What are the three main types of solar systems in India?"
     a: "The three main types are on-grid (grid-tied) systems that export surplus power and earn net-metering credits - the most common choice for Indian homes; hybrid systems that add a battery bank for backup during outages; and off-grid systems that operate entirely independently of the grid, suited to remote locations without DISCOM connectivity. On-grid systems qualify for PM Surya Ghar subsidies."
   - q: "Does solar energy work during cloudy or rainy days?"
@@ -41,12 +41,12 @@ Every month, thousands of Indian homeowners type "what is solar energy" into a s
 
 > [!KEYTAKEAWAYS]
 > - Solar energy is electricity produced when sunlight strikes silicon cells through the photovoltaic effect, discovered by Edmond Becquerel in 1839.
-> - India receives 300 sunny days a year and 5–6 kWh/m²/day of irradiance across most states, letting a 3 kW rooftop system save roughly ₹40,000–₹50,000 a year.
+> - India receives 300 sunny days a year and 5–6 kWh/m²/day of irradiance across most states, letting a 3 kW rooftop system save roughly ₹35,000–₹55,000 a year at ₹8–10 per unit.
 > - The three system types are on-grid (cheapest, no backup), hybrid (battery backup, 25–40% costlier), and off-grid (for locations with no DISCOM connection).
 > - Net metering credits surplus daytime export against night-time consumption, removing the need for a large battery on a grid-tied home.
-> - Panels degrade only 0.5–0.7% a year, so a 25-year-old panel still delivers 85–90% of its original output. A poorly installed system can underperform its estimate by 15–25%, which is why ALMM-listed equipment and a reliable installer matter as much as the panels themselves.
+> - Panels degrade only 0.5–0.7% a year, so a 25-year-old panel still delivers roughly 84–88% of its original output. A poorly installed system can underperform its estimate by 15–25%, which is why ALMM-listed equipment and a reliable installer matter as much as the panels themselves.
 
-> **Direct answer.** Solar energy is electricity produced by sunlight striking silicon cells through the photovoltaic effect, discovered in 1839. India receives 300 sunny days per year and 5–6 kWh/m²/day of irradiance across most states, making a 3 kW rooftop system capable of saving ₹40,000+ per year. The three system types (on-grid, hybrid, and off-grid) suit different household situations. This guide is the "Solar Energy in 3 Minutes: The Beginner's Flow."
+> **Direct answer.** Solar energy is electricity produced by sunlight striking silicon cells through the photovoltaic effect, discovered in 1839. India receives 300 sunny days per year and 5–6 kWh/m²/day of irradiance across most states, making a 3 kW rooftop system capable of saving roughly ₹35,000 or more per year. The three system types (on-grid, hybrid, and off-grid) suit different household situations. This guide is the "Solar Energy in 3 Minutes: The Beginner's Flow."
 
 Once you understand the flow (sun to panel to inverter to appliance) the rest of the solar journey becomes straightforward. The [PM Surya Ghar Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) is the logical next step once the fundamentals are clear.
 
@@ -125,7 +125,7 @@ This is the most common choice for Indian residential buyers, accounting for the
 **Pros:**
 - Lowest cost per kW, typically ₹55,000–₹75,000 per kW installed
 - Eligible for PM Surya Ghar subsidy (up to ₹78,000 for 3 kW)
-- Fastest payback: 4–6 years in most Indian states
+- Fastest payback: roughly 2–4 years after the subsidy in the examples in this guide (3–6 years without it)
 - No battery maintenance
 
 **Cons:**
@@ -146,7 +146,7 @@ A hybrid system connects both to the grid and to a battery bank. During the day,
 **Cons:**
 - 25–40% higher upfront cost than on-grid
 - Battery replacement in 7–12 years (lithium iron phosphate) adds lifecycle cost
-- Longer payback: 6–8 years
+- Longer payback than on-grid: with a 25–40% higher upfront cost and similar savings, expect payback roughly 25–40% longer
 
 ### Off-Grid Solar
 
@@ -181,7 +181,7 @@ The most common beginner question after understanding the basics is: "How many p
 
 > **₹78,000.** Maximum central government subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, credited directly to the homeowner's bank account post-installation. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-**Worked example, 3 kW system in Tamil Nadu:**
+**Worked example, 3 kW system in Tamil Nadu (illustrative):**
 
 Table: Worked example for a 3 kW system in Tamil Nadu, with generation, savings and payback
 
@@ -191,19 +191,21 @@ Table: Worked example for a 3 kW system in Tamil Nadu, with generation, savings 
 | Daily generation (avg) | 13.5 units/day |
 | Annual generation | ~4,900 units/year |
 | Tariff saved (blended) | ₹8.5/unit |
-| Annual savings | ~₹41,650 |
-| System cost (post-subsidy) | ~₹2,50,000 |
-| Simple payback | ~6 years |
-| Years 7–12 savings | ~₹2.5 lakh (pure return) |
+| Annual savings | ~₹41,650 (4,900 × ₹8.5) |
+| Gross system cost | ~₹1,95,000 (₹65,000/kW, the midpoint of ₹55,000–₹75,000/kW) |
+| PM Surya Ghar subsidy | ₹78,000 |
+| System cost (post-subsidy) | ~₹1,17,000 |
+| Simple payback | ~2.8 years (₹1,17,000 ÷ ₹41,650) |
+| Years 4–12 savings | ~₹3.75 lakh (9 years × ₹41,650, before O&M and any inverter replacement) |
 
-The numbers above use conservative assumptions. Higher-tariff states (Maharashtra commercial, Rajasthan, Karnataka) deliver faster payback. According to [IRENA's Renewable Power Generation Costs 2024](https://www.irena.org/Publications/2025/Mar/Renewable-Power-Generation-Costs-in-2024), India's utility-scale solar [LCOE](/glossary/lcoe/) reached a record low of USD 0.033/kWh, confirming that solar is the cheapest new source of electricity available, a trend that directly benefits rooftop owners. For a more detailed state-by-state look, see the [solar yield India guide](/blog/solar-yield-india/).
+The numbers above are illustrative and use a flat tariff with no O&M. States with higher tariffs deliver faster payback, and a household with a lower blended tariff or a pricier system will take longer. For a more detailed state-by-state look, see the [solar yield India guide](/blog/solar-yield-india/).
 
 ## What Solar Energy Does Not Do: Honest Limitations
 
 A beginner's guide is incomplete without addressing the limitations that sales pitches often skip.
 
 - **Solar does not power your home at night (on-grid)**: Without a battery, your panels produce zero output after sunset. You draw from the grid exactly as before, but your net meter credit offsets those units.
-- **Panel output degrades over time**: Quality panels [degrade](/glossary/degradation/) at 0.5–0.7% per year. After 25 years, output is 85–90% of the original. This is accounted for in the manufacturer's linear power warranty.
+- **Panel output degrades over time**: Quality panels [degrade](/glossary/degradation/) at 0.5–0.7% per year. After 25 years, output is roughly 84–88% of the original (0.5–0.7% a year compounded). This is accounted for in the manufacturer's linear power warranty.
 - **Roof area is a limiting factor**: Each kW of solar requires roughly 8–10 square metres (about 86–108 sq ft) of shadow-free roof area. A 3 kW system needs approximately 24–30 square metres (about 260–320 sq ft) of usable south- or west-facing roof space, a figure worth confirming with a proper site survey rather than a rough measurement.
 - **DISCOM approval takes time**: Net metering approval from your state DISCOM can take 15 days to 3 months depending on the state. Kerala is notoriously slow; Gujarat and Maharashtra are faster.
 
@@ -212,7 +214,7 @@ A beginner's guide is incomplete without addressing the limitations that sales p
 Three myths consistently appear in WhatsApp groups and online forums.
 
 **Myth 1: "Solar only works in Rajasthan."**
-False. Kerala, with its heavy monsoon, still generates 1,100–1,300 kWh per kW per year, strong enough for a 5–6 year payback given the state's high tariffs. Solar works everywhere in India; only the sizing and yield estimates change.
+False. Kerala, with its heavy monsoon, still generates 1,100–1,300 kWh per kW per year, still workable, with a longer payback than in Rajasthan because each kW generates less. Solar works everywhere in India; only the sizing and yield estimates change.
 
 **Myth 2: "Solar will make my electricity bill zero."**
 Sometimes true, often not. If your monthly bill is ₹5,000 and you install a well-sized 5 kW system with net metering, your net bill can approach zero or even produce a credit balance. If you install a 1 kW system against a ₹10,000 bill, you will only offset a portion. Right-sizing to your consumption is critical.

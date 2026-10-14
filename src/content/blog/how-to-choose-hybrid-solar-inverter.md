@@ -52,7 +52,7 @@ This guide covers every dimension an Indian homeowner needs at the buying decisi
 
 ## Step 1: Confirm You Actually Need a Hybrid Inverter (Power-Cut Zone Test)
 
-Before comparing specifications, confirm that a hybrid inverter is the right inverter type for your situation. Many buyers purchase a hybrid inverter because it sounds future-proof, then discover they are paying a 25–40% premium over an on-grid inverter for backup capability they never use. Equally, some buyers choose an on-grid inverter to save money, then find themselves sitting in the dark during three-hour load-shedding in peak summer.
+Before comparing specifications, confirm that a hybrid inverter is the right inverter type for your situation. Many buyers purchase a hybrid inverter because it sounds future-proof, then discover they are paying a much higher price than for an on-grid inverter for backup capability they never use. Public listings seen on 14 October 2026 put 5 kW on-grid inverters at about ₹29,000 to ₹42,000 and 5 kW hybrid inverters at ₹63,899 to ₹1,35,888, before any battery (see the [on-grid vs hybrid ROI guide](/blog/on-grid-vs-hybrid-solar-inverters-roi/) and the [5 kW hybrid inverter price guide](/blog/5kw-hybrid-inverter-price-india/)). Equally, some buyers choose an on-grid inverter to save money, then find themselves sitting in the dark during three-hour load-shedding in peak summer.
 
 The Power-Cut Zone Test answers this with three questions:
 
@@ -72,8 +72,6 @@ Table: Power-Cut Zone Test result and the inverter type it points to
 | Outages > 6 hr/day or no reliable grid | Remote rural, agricultural zones | Off-grid or hybrid with oversized battery bank |
 
 If your situation falls in rows three or four, a hybrid inverter is not a luxury, it is the only architecture that keeps your home functional. The [on-grid vs hybrid inverter](/blog/on-grid-vs-hybrid/) comparison post covers the economics in detail, but the Power-Cut Zone Test is the gate you must pass first.
-
-> **62%.** The share of distribution-level power outages in India attributed to feeder and transformer faults rather than generation shortfalls, meaning urban and peri-urban households can expect continued micro-interruptions even as national solar capacity grows. *Source - [Central Electricity Authority](https://cea.nic.in/), Annual Report 2025.*
 
 ## Step 2: Size the Hybrid Inverter for Your Solar Roof
 
@@ -130,7 +128,7 @@ Table: Battery port specifications to verify on a hybrid inverter, and why each 
 
 The [battery management system (BMS)](/glossary/bms/) compatibility check is non-negotiable for lithium batteries. An inverter that communicates with the BMS over CAN bus reads real-time cell voltages, temperature, and state of charge, enabling precise charge control that extends cycle life. An inverter that only does voltage-based charging with an LFP battery is flying blind and will under-charge or over-charge the pack over time, accelerating degradation.
 
-> **3,000–6,000 cycles.** The rated cycle life of quality LFP batteries at 80% DOD under 25 °C conditions, equivalent to 8–16 years of daily cycling at Indian residential usage patterns. *Source - [IEA Global EV Outlook 2025](https://www.iea.org/reports/global-ev-outlook-2025).*
+> **3,000–6,000 cycles.** A rated cycle life often printed on LFP battery datasheets at 80% DOD and about 25 °C; at one cycle a day that is roughly 8 to 16 years (3,000 ÷ 365 and 6,000 ÷ 365). The figure is the maker's rating for a stated test condition, not a field guarantee, so read the cycle count, DOD, temperature and end-of-life capacity from the exact battery's datasheet.
 
 ## Step 4: Check Transfer Time (The 20-Millisecond Standard)
 
@@ -235,8 +233,6 @@ This section is for the moment the quote arrives and something feels off. Here a
 - **Transfer time stated as "instant" or "automatic"**: these are not technical specifications. Every inverter takes some time to switch. "Instant" without a millisecond figure is marketing language, not an engineering claim.
 - **No anti-islanding certificate**: if the installer cannot produce the IEC 62116 / IS 16169 test certificate for the specific inverter model, the DISCOM may reject the connection application. This delays your entire solar installation by weeks or months.
 - **Battery and inverter brands mismatch without BMS confirmation**: pairing a Luminous inverter with a Loom Solar battery, or a Growatt inverter with an Amaron LFP pack, is fine, if and only if the installer can show the BMS communication protocol is confirmed compatible. Without this confirmation, you are trusting the installer's assumption, not an engineering fact.
-
-> **74%.** The share of Indian solar rooftop complaints in a 2025 MNRE consumer survey attributable to battery-inverter compatibility issues, undersized battery banks, or inadequate after-sales support, all preventable through the 5-Step Hybrid Inverter Selection Protocol. *Source - [MNRE Rooftop Solar Consumer Survey](https://mnre.gov.in/), 2025.*
 
 ## Where Qbits Fits
 

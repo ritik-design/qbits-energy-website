@@ -153,18 +153,17 @@ Table: Cell efficiency compared with module efficiency by technology
 
 ### Loss components
 
-Module efficiency = Cell efficiency × Geometric fill factor × Glass transmission × Encapsulation transparency × Cell-string interconnect efficiency
+Module efficiency = Cell efficiency × Geometric fill factor × Optical coupling (glass and encapsulant, net of anti-reflective gains) × Cell-string interconnect efficiency
 
-Table: Module loss components and typical values
+Table: Module loss components and their effect on efficiency
 
-| Component | Typical value |
+| Component | Effect on module efficiency |
 | --- | --- |
-| Geometric fill factor | 95 to 97 percent (cell spacing) |
-| Glass transmission | 91 to 94 percent for low-iron solar glass |
-| Encapsulation transparency | 98 to 99 percent |
-| Cell-string interconnect | 99 percent |
+| Geometric fill factor | Loss: cell spacing and the area taken by the frame reduce the share of module area that is active cell |
+| Glass and encapsulant | Loss from absorption and reflection, partly offset by anti-reflective glass coating and refractive-index matching |
+| Cell-string interconnect | Small loss from ribbon shading and resistance |
 
-Product of the ranges above gives module efficiency of roughly 84 to 89 percent of cell efficiency.
+These effects net out to a module efficiency of roughly 90 to 96 percent of cell efficiency. That is the 1 to 2 percentage point gap in the table above: for example, a 25 percent cell in a 23 percent module is 92 percent of cell efficiency. The exact ratio depends on the module design, so use the manufacturer's datasheet for any specific product.
 
 ## Real-world applications
 

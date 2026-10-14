@@ -147,14 +147,14 @@ Table: Drone survey stages and what each produces
 ### Structural load check
 
 Roof load assessment for residential RCC:
-- Panel + structure weight: 12 to 15 kg/m²
-- Wind load: 1.2 to 1.5 kN/m²
-- Total imposed load: ~50 to 70 kg/m² peak
+- Panel + structure weight (dead load): 12 to 15 kg/m², about 0.12 to 0.15 kN/m²
+- Design wind pressure (illustrative, from IS 875 Part 3 for the site's wind zone and height): 1.2 to 1.5 kN/m², about 122 to 153 kg-force/m² (1 kN/m² ≈ 102 kg-force/m²)
+- Wind acts mainly as uplift, so it is checked against the structure's anchoring and ballast, not added to the dead load
 
 Typical RCC residential roofs comfortably handle this. Old houses, metal sheet roofs and asbestos roofs need structural engineering review.
 
 > [!CAUTION] Do not add the wind load to the dead load
-> Wind load is a pressure (1.2 to 1.5 kN/m² is roughly 120 to 150 kg-force per m²) acting mainly as uplift on the structure, so it is not a simple addition to the 12 to 15 kg/m² panel and structure weight. Have an engineer confirm the loads on old RCC, metal sheet and asbestos roofs before installation.
+> Wind load is a pressure (1.2 to 1.5 kN/m² is roughly 122 to 153 kg-force per m², using 1 kN/m² ≈ 102 kg-force/m²) acting mainly as uplift on the structure, so it is not a simple addition to the 12 to 15 kg/m² panel and structure weight. Have an engineer confirm the loads on old RCC, metal sheet and asbestos roofs before installation.
 
 ### Electrical infrastructure check
 

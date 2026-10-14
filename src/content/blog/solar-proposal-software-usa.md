@@ -1,7 +1,7 @@
 ---
 title: "Best Solar Proposal Software USA: 2026 Guide"
-excerpt: "The best solar proposal software for US installers models NEM 3.0 self-consumption, the 30% ITC, and SRECs in one document. Seven tools compared for 2026."
-description: "Best solar proposal software USA 2026. SurgePV vs Aurora Sales Mode, Solargraf, Pylon, Enact, OpenSolar Pro, Sighten on ITC, NEM 3.0, SRECs and pricing."
+excerpt: "The best solar proposal software for US installers models NEM 3.0 self-consumption, current federal credit rules, and SRECs in one document. Seven tools compared for 2026."
+description: "Best solar proposal software USA 2026. SurgePV vs Aurora Sales Mode, Solargraf, Pylon, Enact, OpenSolar Pro, Sighten on federal credits, NEM 3.0, SRECs and pricing."
 category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-10-14
@@ -20,11 +20,11 @@ keywords:
   - itc proposal software
 faqs:
   - q: "What is the best solar proposal software for US installers in 2026?"
-    a: "SurgePV for teams that want the proposal generated from the same project record as the engineering design, at $1,299 to $1,899 per user per year with the 30% ITC, MACRS depreciation, SREC libraries, and NEM 3.0 self-consumption modelling included. Aurora Sales Mode is the strongest pure-residential option on its home turf but runs $159 to $259 per user per month before add-ons. Solargraf is the best value dedicated proposal tool for Enphase-aligned residential crews. Pylon suits small sales-led teams that need speed over engineering depth."
+    a: "SurgePV for teams that want the proposal generated from the same project record as the engineering design, at $1,299 to $1,899 per user per year with federal commercial tax-credit (Section 48E) modelling, MACRS depreciation, SREC libraries, and NEM 3.0 self-consumption modelling included. Aurora Sales Mode is the strongest pure-residential option on its home turf but runs $159 to $259 per user per month before add-ons. Solargraf is the best value dedicated proposal tool for Enphase-aligned residential crews. Pylon suits small sales-led teams that need speed over engineering depth."
   - q: "Does solar proposal software need to model NEM 3.0 differently?"
     a: "Yes, and this is the single biggest gap in the US market. Under California's NEM 3.0, export credits fall to roughly $0.05 to $0.08 per kWh against retail rates near $0.40, so a proposal built on offset percentage overstates savings badly. The proposal has to model hourly self-consumption and battery dispatch, not annual kWh offset. Tools that still lead with a 100% offset headline are quoting a number that stopped being the economic driver in April 2023."
   - q: "Which solar proposal software handles the federal ITC correctly?"
-    a: "SurgePV, Aurora, and Enact all model the 30% Investment Tax Credit. The differences show on commercial deals. Full credit modelling needs Section 48E treatment, the 10% domestic content bonus, the 10% energy community bonus, and MACRS five-year depreciation layered into after-tax IRR. Residential Section 25D is simpler and most tools handle it. Check whether the tool applies prevailing wage and apprenticeship rules on systems above 1 MW AC, because missing that overstates the credit by a factor of five."
+    a: "SurgePV, Aurora, and Enact all model the federal Investment Tax Credit. The differences show on commercial deals. Full credit modelling needs Section 48E treatment, the 10% domestic content bonus, the 10% energy community bonus, and MACRS five-year depreciation layered into after-tax IRR. The residential Section 25D credit ended for expenditures made after 31 December 2025 (Public Law 119-21, per the IRS), so a 2026 residential proposal should not show it; check that the tool lets you switch it off rather than defaulting to a 30% discount. Commercial solar credits under 48E and 45Y continue only for projects that began construction by 4 July 2026 or are placed in service by 31 December 2027 (IRS Notice 2025-42). Check whether the tool applies prevailing wage and apprenticeship rules on systems above 1 MW AC, because missing that overstates the credit by a factor of five."
   - q: "How much does solar proposal software cost in the USA?"
     a: "Dedicated proposal tools run roughly $1,200 to $2,400 per user per year. Aurora Solar sits at $159 to $259 per user per month for design, with Sales Mode billed separately, so a realistic five-seat all-in spend lands near $14,000 to $18,000 per year. SurgePV is $1,899 per user per year for a single seat, $1,499 on a three-user team, and $1,299 on a five-user team, which puts a five-seat team at $6,495 with design and proposals in the same license."
   - q: "Do US solar proposals need e-signature built in?"
@@ -46,18 +46,18 @@ US residential solar sales changed shape in April 2023, and most [proposal softw
 > - Under NEM 3.0, exported energy earns roughly $0.05 to $0.08 per kWh while imported energy costs close to $0.40 per kWh at peak.
 > - Test a vendor by asking for the hourly load and generation overlay for a California address with a battery, then the self-consumption percentage.
 
-- The 30% federal ITC runs through 2032 under Section 25D for residential and Section 48E for commercial, according to the IRS (2026).
+- The 30% residential credit under Section 25D ended for expenditures made after 31 December 2025, per the [IRS Residential Clean Energy Credit page](https://www.irs.gov/credits-deductions/residential-clean-energy-credit). Commercial credits under Section 48E continue only for solar projects that began construction by 4 July 2026 or are placed in service by 31 December 2027, per [IRS Notice 2025-42](https://www.irs.gov/pub/irs-drop/n-25-42.pdf).
 - [SurgePV](https://surgepv.com/) generates the proposal from the same project record as the bankable design, at $1,299 to $1,899 per user per year.
 - A five-seat SurgePV team pays $6,495 per year. The equivalent Aurora design plus Sales Mode stack runs $14,000 to $18,000.
 - [Book a free SurgePV demo](https://surgepv.com/demo) and build a proposal on one of your live deals.
 
-**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for US installers in 2026 is SurgePV, because the proposal is generated from the same engineering project as the design, and the financial engine models the 30% ITC, MACRS depreciation, state SRECs, and NEM 3.0 hourly self-consumption. Aurora Sales Mode is the strongest residential-only alternative at roughly triple the seat cost. Solargraf and Pylon are credible dedicated proposal tools if you already own a design platform.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for US installers in 2026 is SurgePV, because the proposal is generated from the same engineering project as the design, and the financial engine models the federal commercial ITC, MACRS depreciation, state SRECs, and NEM 3.0 hourly self-consumption. Aurora Sales Mode is the strongest residential-only alternative at roughly triple the seat cost. Solargraf and Pylon are credible dedicated proposal tools if you already own a design platform.
 
 The US has the deepest solar software market in the world, which cuts both ways. There are more mature options here than anywhere else, and there is more legacy assumption baked into them. Several of the tools below were built when net metering paid retail rate in most of the country, and their default proposal templates still reflect that world. For the design side of the same decision, our [solar design software USA](/blog/solar-design-software-usa/) guide covers the engineering comparison, and the global [solar proposal software](/blog/solar-proposal-software/) ranking covers the category without the US lens.
 
 <div class="inline-cta">
 <h3>Build a US proposal on one of your live deals</h3>
-<p>A SurgePV engineer takes one of your real addresses, models it with NEM 3.0 self-consumption and the 30% ITC, and produces the branded proposal on a 20-minute call.</p>
+<p>A SurgePV engineer takes one of your real addresses, models it with NEM 3.0 self-consumption and the federal tax credits that apply, and produces the branded proposal on a 20-minute call.</p>
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">20 minutes · Bring a real deal · No credit card</p>
 </div>
@@ -66,7 +66,7 @@ The US has the deepest solar software market in the world, which cuts both ways.
 
 A US proposal carries more regulatory and financial weight than a proposal in almost any other market. Four things have to be correct or the document is worse than useless.
 
-**Federal ITC treatment.** The Investment Tax Credit sits at a 30% base through 2032, according to the IRS (2026). Residential claims run under Section 25D and are straightforward. Commercial claims run under Section 48E, where the credit can reach 50% by stacking a 10% domestic content bonus and a 10% energy community bonus. Systems above 1 MW AC must satisfy prevailing wage and apprenticeship requirements to earn the full rate rather than the 6% base. SurgePV's [financial modelling engine](https://surgepv.com/generation-financial-tool) applies these as separate toggles, and the full mechanics are covered in SurgePV's [IRA solar tax credit guide](https://www.surgepv.com/solar-compliance/usa/guides/ira-solar-tax-credits).
+**Federal ITC treatment.** The residential credit and the commercial credit now follow different timelines. The 30% Residential Clean Energy Credit under Section 25D ended for expenditures made after 31 December 2025 under Public Law 119-21, according to the [IRS Residential Clean Energy Credit page](https://www.irs.gov/credits-deductions/residential-clean-energy-credit), so a 2026 residential proposal should not apply it. Commercial claims run under Section 48E (with 45Y for production credits), where the credit can reach 50% by stacking a 10% domestic content bonus and a 10% energy community bonus. For solar, those credits continue only if construction began by 4 July 2026 or the facility is placed in service by 31 December 2027 ([IRS Notice 2025-42](https://www.irs.gov/pub/irs-drop/n-25-42.pdf)). Systems above 1 MW AC must satisfy prevailing wage and apprenticeship requirements to earn the full rate rather than the 6% base. SurgePV's [financial modelling engine](https://surgepv.com/generation-financial-tool) applies these as separate toggles, and the full mechanics are covered in SurgePV's [IRA solar tax credit guide](https://www.surgepv.com/solar-compliance/usa/guides/ira-solar-tax-credits).
 
 **Depreciation on commercial deals.** MACRS five-year depreciation, with bonus depreciation where it still applies, changes after-tax IRR substantially on C&I projects. A proposal that shows a commercial buyer only the ITC is understating the return, which sounds harmless until a competitor shows the full picture and wins the deal on arithmetic you left out.
 
@@ -90,7 +90,7 @@ The commercial consequence is real. Customers who signed on an offset headline a
 ## The Seven US Solar Proposal Platforms Worth Evaluating
 
 ### 1. SurgePV, the integrated pick
-The proposal is generated from the same project record as the design, so the engineering numbers and the customer numbers cannot drift. Ships 8,760-hour module-level shading, bankable [P50, P75, P90](/glossary/p50-p90/) output, hourly self-consumption with battery dispatch, the 30% ITC with both bonus adders, MACRS, maintained SREC libraries, and [white-label proposals](https://surgepv.com/solar-proposals) with e-signature. Flat $1,299 to $1,899 per user per year, with no separate sales module to buy.
+The proposal is generated from the same project record as the design, so the engineering numbers and the customer numbers cannot drift. Ships 8,760-hour module-level shading, bankable [P50, P75, P90](/glossary/p50-p90/) output, hourly self-consumption with battery dispatch, the commercial ITC with both bonus adders, MACRS, maintained SREC libraries, and [white-label proposals](https://surgepv.com/solar-proposals) with e-signature. Flat $1,299 to $1,899 per user per year, with no separate sales module to buy.
 
 ### 2. Aurora Sales Mode
 The strongest residential proposal experience on its home turf, and the deepest US integration set. Sales Mode is a separate purchase on top of the design seat, so the real cost is the stack rather than the headline. Genuinely good at the interactive customer-facing document. See our [Aurora Solar alternative](/blog/aurora-solar-alternative/) comparison for the plan-by-plan breakdown.
@@ -151,7 +151,7 @@ Table: 8.4 kW plus battery in San Diego: offset-led vs self-consumption-led prop
 | Value of self-consumed energy | Implied at $0.38 | $3,966 |
 | Value of exported energy | Implied at $0.38 | $256 |
 | Year 1 bill saving presented | $5,586 | $4,222 |
-| Federal ITC at 30% | $9,300 | $9,300 |
+| Federal residential credit (Section 25D) | $0 for 2026 expenditures | $0 for 2026 expenditures |
 
 The offset-led proposal overstates year one savings by about $1,364, roughly 32%. That gap does not show up at signing. It shows up on the first summer bill, and it is the reason the customer calls. Note also that the battery is what lifts self-consumption to 71%; without it the same array would land nearer 45% on these load assumptions.
 
@@ -183,7 +183,7 @@ Once the proposal is signed, the pipeline and follow-up sit in a CRM rather than
 
 <div class="inline-cta">
 <h3>One license for design and proposals, $1,299 per seat</h3>
-<p>SurgePV covers AI 3D roof modelling, 8,760-hour shading, bankable yield, the 30% ITC with both bonus adders, MACRS, SREC libraries, and white-label proposals with e-signature.</p>
+<p>SurgePV covers AI 3D roof modelling, 8,760-hour shading, bankable yield, the commercial ITC with both bonus adders, MACRS, SREC libraries, and white-label proposals with e-signature.</p>
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/usa" target="_blank" rel="noopener noreferrer">US compliance library</a></p>
 </div>

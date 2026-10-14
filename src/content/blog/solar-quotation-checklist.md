@@ -176,6 +176,6 @@ Final review sequence:
 7. Record technical, commercial, financial and legal reviews.
 8. Carry agreed clarifications into the signed contract and schedules.
 
-For a Qbits system discussion, use the [residential solution route](/residential-solution/) with the completed comparison table. Confirm engineering, tax, legal and commercial terms for your own project before relying on this template.
+Qbits is an inverter manufacturer and does not install systems or issue installation quotes. Use the completed comparison table with your chosen installer; if a quote names a Qbits inverter and you have questions about the model, [contact Qbits](/contact-us/). Installers can apply through [become our partner](/become-our-partner/), and owners can find service through the [authorised service partners](/authorized-service-partners/). Confirm engineering, tax, legal and commercial terms for your own project before relying on this template.
 
 **Sources checked 23 September 2026:** current Qbits datasheets, inverter-selection, warranty, installation-warranty, commissioning and net-metering guides. No claim is made that a generic inclusion, tax treatment, payment milestone, price or service term applies to every project.

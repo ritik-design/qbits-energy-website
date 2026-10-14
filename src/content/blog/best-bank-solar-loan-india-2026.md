@@ -1,7 +1,7 @@
 ---
 title: "Best Bank for Solar Loan 2026, IREDA vs SBI vs HDFC"
-excerpt: "Best solar loan in India 2026: IREDA leads on rate (~7%), SBI on accessibility, HDFC on branch network. Compare all six lenders on five factors before applying."
-description: "IREDA vs SBI vs HDFC vs Canara vs Bank of Baroda for solar loans in India 2026. Ranked comparison table, 5-Factor Scorecard, and step-by-step guidance."
+excerpt: "Solar loan comparison for India, 2026: what SBI, IREDA and HDFC Bank each publish on their own pages (SBI 5.75% to 7.90% for PM Surya Ghar, IREDA no household loan, HDFC Personal Loan from 9.99%), listed alphabetically and not ranked."
+description: "IREDA vs SBI vs HDFC solar loans, India 2026: what each publishes (SBI 5.75% to 7.90%, HDFC from 9.99%), listed alphabetically with a 5-factor checklist."
 category: Comparison
 date: 2026-06-05
 updatedDate: 2026-10-14
@@ -16,261 +16,199 @@ keywords:
   - hdfc solar loan vs ireda
 faqs:
   - q: "Which bank offers the lowest interest rate on solar loans in India in 2026?"
-    a: "IREDA (Indian Renewable Energy Development Agency) offers the lowest indicative rate for solar home loans at approximately 7.0% per annum as of mid-2026. This rate applies to loans disbursed through empanelled channel partners under the PM Surya Ghar programme. SBI Solar Loan is a close second at approximately 7.5%–8.0%. Verify current rates directly with the lender, as rates are benchmarked to the repo rate and change with RBI policy."
+    a: "Of the lenders whose own pages we read on 14 October 2026, SBI publishes the lowest rate for homeowners: 5.75% per annum for PM Surya Ghar rooftop solar loans up to ₹2 lakh and 7.90% above ₹2 lakh up to ₹6 lakh, floating and EBLR-linked (rates as on 15 December 2025). HDFC Bank's Personal Loan is advertised from 9.99%, and IREDA publishes no household rate. We read no rate page for other banks, so no rate is quoted for them. Rates float, so confirm the current figure with each lender."
   - q: "Can I take a solar loan from IREDA as an individual homeowner?"
-    a: "Yes, individual homeowners can access IREDA financing, but typically not directly. IREDA channels retail solar home loans through empanelled solar companies and DSAs (Direct Selling Agents) rather than through a direct branch network. To access IREDA rates, the homeowner must choose a vendor who is empanelled with IREDA under the PM Surya Ghar framework, and the vendor facilitates the loan application. SBI and HDFC branches offer direct individual applications."
+    a: "IREDA's loan-schemes page (read 14 October 2026) lists a rooftop solar PV scheme for industrial, commercial and institutional borrowers and no household scheme, so an individual homeowner is not its target and there is no household rate to quote. Homeowners use bank loans under PM Surya Ghar; SBI's own page describes one. If a vendor claims an 'IREDA loan' for your home, ask for the lender's written sanction terms and check them on the lender's own page."
   - q: "What is the maximum tenure for a solar loan from SBI?"
-    a: "SBI Solar Loan typically offers tenures up to 10 years for the secured product and up to 5 years for the unsecured personal loan variant. The 10-year tenure allows the EMI to stay comfortably below the monthly electricity savings, creating a cash-flow-positive solar installation from month one in many cases. IREDA offers tenures up to 15 years, which further reduces the monthly EMI."
+    a: "SBI's PM Surya Ghar loan page (read 14 October 2026) lists a tenor of up to 120 months including a 6-month moratorium, with no prepayment penalty. HDFC Bank's Personal Loan calculator runs from 1 to 7 years. IREDA's scheme tenures are in its scheme document for business borrowers. A longer tenor lowers the EMI but raises total interest, so compare both."
   - q: "Are MSME loans an option for commercial solar installations?"
-    a: "Yes. For commercial establishments - shops, clinics, small factories - MSME loans under CGTMSE (Credit Guarantee Trust for Micro and Small Enterprises) allow collateral-free financing for solar installations up to ₹2 crore, subject to the business's turnover and credit profile. Interest rates range from 8% to 12% depending on the bank and scheme. This route is often better than a personal loan for small business owners."
+    a: "Yes, businesses can finance rooftop solar through bank term loans, and SBI's Surya Shakti solar finance is one example: it is for SMEs and business enterprises, with up to ₹10 crore for captive use, tenor up to 10 years, a 20% minimum margin and a 0.75% processing fee plus GST (SBI's page, read 14 October 2026). SBI prices MSMEs on the External Benchmark Rate and non-MSMEs on the 6-month MCLR, so no fixed rate is quoted. Ask your bank whether a credit guarantee scheme can cover your loan, and compare against a RESCO or OPEX model."
   - q: "What is the processing fee for solar loans in India?"
-    a: "Processing fees vary by lender: IREDA charges approximately 0.5%–1% of loan amount; SBI charges approximately ₹1,000 flat or 0.5%–1%; HDFC charges 0.5%–1% for Green Home Loan and 1%–2.5% for Personal Loan; Canara Bank charges 0.5%–1%. Some lenders waive processing fees during promotional periods under PM Surya Ghar drives. Always ask for a fee waiver - lenders frequently accommodate this for borrowers with high credit scores."
+    a: "It varies by lender and product. SBI's PM Surya Ghar loan page lists a nil processing fee, while its Surya Shakti business loan lists 0.75% plus GST (read 14 October 2026). HDFC Bank's personal loan page did not state a standard processing fee in the part we read, so ask for it in writing. IREDA's fees for business loans are in its scheme document. Always ask for the fee schedule before you sign."
   - q: "Does PM Surya Ghar subsidy affect loan eligibility or amount?"
-    a: "The PM Surya Ghar subsidy does not reduce the loan sanctioned - the lender assesses eligibility on the full system cost. However, once the subsidy is credited (typically 30–90 days after DISCOM verification), the homeowner can use it to prepay the loan principal. Most lenders allow this prepayment without foreclosure charges. The effective net loan cost after subsidy is significantly lower than the gross loan amount."
+    a: "The subsidy is credited after commissioning and DISCOM verification (₹30,000 for 1 kW, ₹60,000 for 2 kW, ₹78,000 for 3 kW and above), so a bank normally lends against the full quotation first and you then use the subsidy to prepay principal. Ask your lender how the loan amount is set and how a prepayment is applied. SBI's PM Surya Ghar loan page lists a 10% upfront margin and no prepayment penalty."
   - q: "Which solar loan is best for a 10 kW commercial installation?"
-    a: "For a 10 kW commercial installation, the priority shifts to MSME loans (if the business qualifies), IREDA's commercial solar loan products, or bank term loans for businesses. Personal loans and home loan top-ups are inadequate for this scale. Canara Bank's Solar Power Loan and Bank of Baroda's commercial solar financing are worth comparing. The decision should also factor in whether a RESCO or OPEX model might deliver better cash flows than a capex loan."
+    a: "A 10 kW commercial rooftop is usually financed as a business loan, not a homeowner loan. IREDA's rooftop solar scheme is for industrial, commercial and institutional borrowers, so read its scheme document; SBI's Surya Shakti is another published business product (page read 14 October 2026). Compare the written offers from your bank, IREDA and an NBFC, and weigh a RESCO or OPEX model against a capex loan. This guide quotes no rate for products whose own pages were not read."
   - q: "Is a solar loan interest-free available from any Indian government scheme?"
-    a: "No truly interest-free solar loan exists from mainstream Indian lenders in 2026. However, some state governments (Rajasthan, Gujarat) have offered interest subsidy schemes - where the state pays a portion of interest - under specific state solar programmes. Check your state DISCOM or state renewable energy agency for current schemes. PM Surya Ghar subsidy reduces capital cost but does not directly subsidise interest."
+    a: "We found no interest-free solar loan from a mainstream lender. Some states have offered interest subsidy under specific state programmes, so check your state nodal agency or DISCOM for current schemes. The PM Surya Ghar subsidy reduces the capital cost but does not subsidise interest."
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-Solar financing in India has matured considerably. Five years ago, homeowners largely paid cash for rooftop solar or settled for informal dealer instalment schemes. Today, multiple nationalised banks, IREDA, and NBFCs offer formal solar loan products at competitive rates, and the [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-bank-loan-process) programme has made ₹78,000 in central subsidy accessible to millions of households.
+Solar financing in India has matured considerably. Five years ago, homeowners largely paid cash for rooftop solar or settled for informal dealer instalment schemes. Today, banks, IREDA and NBFCs offer formal solar finance, and the [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-bank-loan-process) programme makes a central subsidy of up to ₹78,000 available to eligible households.
 
-The problem is comparison. Lender websites quote ranges, not numbers. Rates are benchmarked to floating indices. Processing fees are buried in fine print. And the subsidy-compatibility of each product varies. This guide cuts through that noise with a direct, evidence-based ranking of the best solar loans in India in 2026.
+The problem is comparison. Lender websites quote ranges, rates float against benchmarks, and processing fees sit in fine print. This guide compares what each lender's own page shows, read on 14 October 2026, and lists the lenders alphabetically. It is not a ranking: the right loan depends on your loan size, credit profile and documents.
 
 > [!KEYTAKEAWAYS]
-> - IREDA offers the lowest rate (~7% p.a.) but only through empanelled vendors; SBI (~7.5–8%) offers the best direct branch access without an intermediary.
-> - HDFC is fastest for existing customers (24–48 hour disbursement) but its unsecured Personal Loan carries the highest rate of the six lenders (10.5–24%).
-> - On a ₹3 Lakh loan, IREDA's 15-year tenure gives the lowest EMI (₹2,696), often below the monthly electricity savings from the system it finances.
-> - MSME loans under CGTMSE offer collateral-free financing up to ₹2 crore for registered businesses and stack with 40% accelerated depreciation in year one.
-> - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy does not reduce the sanctioned loan amount, but most lenders allow penalty-free prepayment once the subsidy is credited.
+> - Alphabetical, not ranked: HDFC Bank shows no solar-specific loan (Personal Loan advertised from 9.99%); IREDA lists a rooftop scheme for industrial, commercial and institutional borrowers and no household loan; SBI's PM Surya Ghar loan page lists 5.75% up to ₹2 lakh and 7.90% above ₹2 lakh up to ₹6 lakh.
+> - Of the pages read, SBI publishes the lowest rate for a homeowner (as on 15 December 2025, floating); no rate is quoted for banks whose pages were not read.
+> - On ₹2,00,000 over 5 years, 5.75% costs about ₹30,601 in interest and 9.99% about ₹54,905 (calculated here), a gap of about ₹24,300.
+> - The [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy does not reduce the sanctioned loan up front; it is credited after commissioning and works best as a principal prepayment.
+> - Compare the rate, benchmark, tenor, fees and prepayment terms in writing, and note the date on every rate you are quoted.
 
-> **Direct answer.** IREDA leads on interest rate (~7%) for homeowners accessing it through empanelled vendors, SBI leads on direct branch accessibility, and HDFC leads on processing speed for existing customers. Use the 5-Factor Solar Loan Scorecard below to weigh what matters most in your situation, rate, tenure, processing ease, subsidy compatibility, or service quality.
+> **Direct answer.** On each lender's own page (read 14 October 2026): SBI lists 5.75% per annum up to ₹2 lakh and 7.90% per annum above ₹2 lakh up to ₹6 lakh for PM Surya Ghar rooftop solar; IREDA lists no household loan; HDFC Bank lists no solar-specific loan and advertises its Personal Loan from 9.99%. Use the 5-Factor Solar Loan Scorecard below to weigh rate, tenure, fees, subsidy compatibility and eligibility ease for your own situation.
 
-This post covers all six mainstream lenders (IREDA, SBI, HDFC, Canara Bank, Bank of Baroda, and MSME loan routes) ranked against five factors that determine the true cost and convenience of a solar loan.
+This post covers the lenders in alphabetical order and is not a ranking.
+
+Table: What each lender's own page shows for rooftop solar loans (read 14 October 2026; rates change, so confirm before applying)
+
+| Lender | Product on its own page | Published rate and terms |
+| --- | --- | --- |
+| HDFC Bank | No solar-specific loan; the Personal Loan is the route | Personal Loan advertised from 9.99% p.a. (calculator range 9.99% to 24%), tenure 1 to 7 years; [HDFC Bank](https://www.hdfc.bank.in/personal-loan) |
+| IREDA | No household loan; rooftop solar scheme is for industrial, commercial and institutional borrowers | No household rate; rates are set by borrower grade in IREDA's interest-rate matrix; [IREDA schemes page](https://www.ireda.in/IredaWebPortal/loan-products/schemes) |
+| SBI | SBI Surya Ghar loan (PM Surya Ghar rooftop solar, up to 10 kW) | 5.75% p.a. up to ₹2 lakh; 7.90% p.a. above ₹2 lakh up to ₹6 lakh; floating, EBLR-linked; rates as on 15 December 2025, page updated 13 February 2026; up to 120 months including a 6-month moratorium; processing fee nil; [SBI](https://sbi.bank.in/web/personal-banking/loans/pm-surya-ghar-loan-for-solar-roof-top) |
 
 ## The 5-Factor Solar Loan Scorecard
 
-Before comparing individual lenders, it helps to understand which dimensions actually determine the right loan for a given buyer. The scorecard below assigns relative weights based on what matters most at each life stage of the loan.
+Before comparing lenders, it helps to know which dimensions decide the right loan for a given buyer.
 
 ### The 5-Factor Solar Loan Scorecard
 
-1. **Interest rate**: The most visible factor. Even a 1% difference on a ₹3 Lakh loan over 10 years saves approximately ₹19,000 in total interest. For larger systems, the saving scales proportionally.
-2. **Tenure available**: Longer tenure reduces monthly EMI, making the loan cash-flow positive from month one if electricity savings exceed EMI. IREDA's 15-year option is the most favourable.
-3. **Processing fee and hidden charges**: A 2% processing fee on ₹5 Lakh adds ₹10,000 upfront. Factor this into the total cost of borrowing, not just the EMI.
-4. **Subsidy compatibility**: All mainstream lenders accept PM Surya Ghar subsidy for prepayment, but some EV-type NBFCs do not. Verify before applying.
-5. **Eligibility ease**: IREDA requires an empanelled vendor intermediary. SBI and HDFC have direct applications but require credit scores ≥ 700–750. Canara Bank and Bank of Baroda tend to be somewhat more flexible on rural applicants.
+1. **Interest rate**: The most visible factor. Rates float, so note the benchmark, the reset frequency and the date of the quote. A difference of one percentage point on ₹3,00,000 over 10 years is roughly ₹16,000 to ₹19,000 in total interest at these rates (calculate your own case with the formula below).
+2. **Tenure available**: A longer tenor lowers the EMI but raises total interest.
+3. **Processing fee and hidden charges**: Ask for the fee schedule, including insurance and prepayment terms.
+4. **Subsidy compatibility**: The subsidy is credited after commissioning, so ask how a lump-sum prepayment is applied.
+5. **Eligibility ease**: Check the minimum CIBIL score, income, documents and whether the loan needs an intermediary.
 
-Score each lender from 1–5 on each factor, sum to get a total out of 25, and pick the winner for your profile.
+Write down each lender's written offer against these five factors and compare them for your own profile. This guide does not assign numeric scores because no published source supports them.
 
-## Lender-by-Lender Analysis
+## Lender-by-Lender Analysis (Alphabetical, Not Ranked)
 
-### IREDA: Best Rate, Indirect Access
+### HDFC Bank
 
-IREDA (Indian Renewable Energy Development Agency) is a government-backed Non-Banking Financial Company (NBFC) under the Ministry of New and Renewable Energy. It is the most specialised solar lender in India.
+HDFC Bank's pages (read 14 October 2026) show no solar-specific or Green Home Loan product. Its Personal Loan is advertised from 9.99% per annum, with the EMI calculator running from 9.99% to 24% and tenures of 1 to 7 years.
 
-**Strengths:**
-- Lowest indicative rate: ~7.0% p.a. for retail solar home loans under PM Surya Ghar.
-- Longest tenure: up to 15 years, giving the lowest possible EMI.
-- No branch requirement, loan facilitated through empanelled solar companies.
-- Dedicated solar expertise, underwriters understand the product and its performance.
+**Points in its favour:**
+- Existing customers may find the process familiar, and the bank has a wide branch and app presence.
+- A personal loan does not need the property to be mortgaged.
 
 **Limitations:**
-- Indirect access only, homeowners cannot walk into an IREDA office and apply. Must use an empanelled vendor as intermediary.
-- Availability limited to PM Surya Ghar empanelled system sizes (1–10 kW residential).
-- Documentation processed through the vendor, which can slow things if the vendor is disorganised.
+- No solar-specific product on its pages, so the rate you are offered depends on your profile.
+- The advertised starting rate is higher than SBI's published PM Surya Ghar rates.
 
-**Best for:** Rate-sensitive homeowners who have already chosen an empanelled vendor and want the lowest total interest outgo. Read the full [IREDA solar loan guide](/blog/solar-loan-ireda/) for eligibility details.
+**Best for:** An existing HDFC customer who needs unsecured credit and accepts a higher rate. Read the [HDFC solar loan guide](/blog/hdfc-solar-loan-india-2026/) for the full Decision Tree.
 
-### SBI: Best Direct Bank Access
+### IREDA
 
-State Bank of India's Solar Loan product is part of the SBI Green Home Loan / SBI Surya Shakti Solar Finance portfolio. It combines the branch reach of India's largest bank with competitive solar-specific rates.
+IREDA (Indian Renewable Energy Development Agency) is the government's specialised renewable energy financier. Its loan-schemes page (read 14 October 2026) lists 22 schemes, including a rooftop solar PV scheme for industrial, commercial and institutional borrowers. None is a household product, and rates are set by borrower grade in its interest-rate matrix, so there is no household rate to quote.
 
-**Strengths:**
-- Competitive rate: ~7.5%–8.0% p.a.
-- Direct individual applications at any SBI branch, no vendor intermediary required.
-- Wide branch network including Tier-3 and rural branches.
-- Familiarity: millions of Indians already have SBI savings/salary accounts, easing documentation.
-- Tenure up to 10 years.
+**Points in its favour:**
+- Dedicated renewable energy lending with published scheme documents.
 
 **Limitations:**
-- Rate marginally higher than IREDA.
-- Processing can be slower than private banks in smaller branches.
-- Documentation requirements are thorough; self-employed applicants may face more scrutiny.
+- Not a lender to individual homeowners on its published schemes.
 
-**Best for:** Homeowners who want a direct bank loan at near-IREDA rates without going through a vendor intermediary. Read the full [SBI solar loan guide](/blog/solar-loan-sbi/) for current eligibility and rate sheets.
+**Best for:** Businesses and institutions financing a rooftop plant. Read the [IREDA solar loan guide](/blog/solar-loan-ireda/) for what it does and does not offer.
 
-### HDFC Bank: Best for Speed and Existing Customers
+### SBI
 
-HDFC Bank channels solar financing through two products: the Green Home Loan top-up for owner-occupied properties, and the Personal Loan for all others.
+SBI's PM Surya Ghar loan page (read 14 October 2026) lists 5.75% per annum up to ₹2 lakh and 7.90% per annum above ₹2 lakh up to ₹6 lakh, floating and linked to EBLR, as on 15 December 2025. The terms: rooftop solar up to 10 kW, 10% margin, up to 120 months including a 6-month moratorium, nil processing fee and no prepayment penalty. Up to ₹2 lakh there is no minimum CIBIL score or income; above ₹2 lakh the page requires CIBIL 650+, net annual income of ₹3 lakh+, PAN and asset insurance.
 
-**Strengths:**
-- Fastest processing: pre-approved customers can receive Personal Loan disbursement in 24–48 hours via HDFC Bank app.
-- Widest private bank branch network.
-- Green Home Loan top-up rates (~8.5%–10%) are competitive for secured products.
-- Existing HDFC home loan customers face minimal documentation friction.
+**Points in its favour:**
+- A published rate and published terms for PM Surya Ghar rooftop solar.
+- Wide branch network and a loan application that starts on the national portal.
 
 **Limitations:**
-- Highest rates among the six lenders for the unsecured Personal Loan variant (10.5%–24%).
-- Green Home Loan route requires property ownership and a valuation process.
-- Not the best default choice purely on cost.
+- Rates float with EBLR and change after the date printed on the page.
+- The higher slab and conditions above ₹2 lakh.
 
-**Best for:** Existing HDFC home loan customers who want a top-up for solar without switching banks, and rate-insensitive buyers who value speed and branch convenience. Read the [HDFC solar loan guide](/blog/hdfc-solar-loan-india-2026/) for the full Decision Tree.
+**Best for:** Homeowners financing a PM Surya Ghar rooftop system of up to 10 kW. Read the [SBI solar loan guide](/blog/solar-loan-sbi/). SBI's separate Surya Shakti solar finance is a business loan for SMEs, businesses and housing societies, not a homeowner product.
 
-### Canara Bank: Best for Semi-Urban and Rural Applicants
+### Other Banks (Bank of Baroda, Canara Bank, Punjab National Bank, Indian Bank)
 
-Canara Bank's Solar Power Loan is a dedicated product for residential solar installations, distinct from generic personal loans.
+These banks also lend for PM Surya Ghar rooftop solar. We did not read a rate page for them on 14 October 2026, so no rate, tenor or fee is quoted here. Use each bank's own PM Surya Ghar loan page, and compare the offer in writing against the figures above.
 
-**Strengths:**
-- Rate: ~8.0%–9.5% p.a., competitive in the public sector bank bracket.
-- Strong presence in South India, rural and semi-urban branches.
-- Accepts a wider range of property documents than private banks.
-- Processing through rural and agricultural branches, accessible to farmers and rural homeowners.
-- Canara Bank participates in NABARD schemes for agricultural solar.
+### MSME and Business Loans
 
-**Limitations:**
-- Tenure limited to 7 years in most branches, though 10 years is available for Green Home Loan variants.
-- Digital application process less developed than SBI or HDFC.
-- Branch-to-branch rate variation can be significant.
+For commercial installations (shops, restaurants, clinics, small factories), a business term loan is the usual route, and credit-guarantee-backed options may exist at your bank. SBI's Surya Shakti solar finance is one published example (page read 14 October 2026): it is for SMEs and business enterprises, up to ₹10 crore for captive use, tenor up to 10 years, 20% minimum margin, and a 0.75% processing fee plus GST, with MSMEs priced on the External Benchmark Rate and non-MSMEs on the 6-month MCLR. Business loans can be paired with accelerated depreciation (40% in Year 1 under the Income Tax Act); see the [solar depreciation tax benefits guide](/blog/solar-inverter-depreciation-in-india/).
 
-**Best for:** Homeowners in Karnataka, Tamil Nadu, Andhra Pradesh, and rural areas where Canara Bank has strong branch penetration.
+## Comparison Table: Published Rates and Terms
 
-### Bank of Baroda: Consistent Mid-Range Option
+Table: Lenders in alphabetical order, with the rate and terms each publishes (read 14 October 2026; not ranked)
 
-Bank of Baroda has a solar loan product under its home loan and personal loan portfolio, with rates broadly in line with SBI.
+| Lender | Published rate | Tenure | Processing fee | Household solar product |
+| --- | --- | --- | --- | --- |
+| **HDFC Bank** (Personal Loan) | From 9.99% (range 9.99% to 24%) | 1 to 7 years | Not stated in the part read | No solar-specific product |
+| **IREDA** | No household rate | See scheme document | See scheme document | No |
+| **SBI** (Surya Ghar loan) | 5.75% up to ₹2 lakh; 7.90% above ₹2 lakh to ₹6 lakh | Up to 120 months including moratorium | Nil | Yes |
+| **SBI** (Surya Shakti, business) | No fixed rate; MSME on External Benchmark Rate, non-MSME on 6-month MCLR | Up to 10 years (captive) | 0.75% plus GST | No (SMEs and businesses) |
 
-**Strengths:**
-- Rate: ~8.5%–10% p.a., similar to HDFC Green Home Loan.
-- Strong presence in Gujarat and Rajasthan, high-solar-adoption states.
-- Participates in state government solar subsidy schemes in these states.
-- Tenure up to 10 years for secured products.
+*Rates float; verify with each lender before applying. Sources: [HDFC Bank](https://www.hdfc.bank.in/personal-loan), [IREDA](https://www.ireda.in/IredaWebPortal/loan-products/schemes), [SBI Surya Ghar](https://sbi.bank.in/web/personal-banking/loans/pm-surya-ghar-loan-for-solar-roof-top), [SBI Surya Shakti](https://sbi.bank.in/web/business/sme/sme-loans/surya-shakti-solar-finance), all read 14 October 2026.*
 
-**Limitations:**
-- No rate advantage over SBI.
-- Less prominently marketed than SBI or HDFC products.
-- Documentation process similar in complexity to other public sector banks.
+## EMI Comparison: ₹3 Lakh Solar Loan
 
-**Best for:** Homeowners in Gujarat, Rajasthan, Madhya Pradesh, and Maharashtra who already bank with Bank of Baroda.
-
-### MSME Loans: Best for Small Commercial Establishments
-
-For commercial solar installations (shops, restaurants, clinics, small factories) MSME loans under the CGTMSE guarantee scheme offer collateral-free financing up to ₹2 crore.
-
-**Strengths:**
-- Collateral-free for qualifying businesses (CGTMSE guarantee covers the risk).
-- Applicable for systems sized from 5 kW to 100 kW.
-- Can be combined with accelerated depreciation benefit (40% in Year 1 under Income Tax Act).
-- Most banks (SBI, Canara, Bank of Baroda, HDFC) offer MSME solar financing.
-
-**Limitations:**
-- Not available to individuals (homeowners), only to registered business entities (sole proprietors with GST registration, partnerships, companies).
-- Higher documentation requirement: business registration, GST returns, project report.
-- Rate: 8%–12% depending on the bank and CGTMSE fee.
-
-**Best for:** Small business owners financing a commercial rooftop solar system who want to avoid collateral. See the [solar depreciation tax benefits guide](/blog/solar-inverter-depreciation-in-india/) for how to pair this with accelerated depreciation.
-
-## Master Comparison Table: All Six Lenders
-
-Table: Indicative rate, tenure, fees and score for each lender, mid-2026
-
-| Lender | Rate (indicative) | Max Tenure | Processing Fee | Eligibility Ease | Subsidy Compatible | Score / 25 |
-| --- | --- | --- | --- | --- | --- | --- |
-| **IREDA** | ~7.0% | 15 years | ~0.5%–1% | Moderate (needs vendor) | Yes | **22** |
-| **SBI** | ~7.5%–8.0% | 10 years | ~0.5%–1% | Easy (direct branch) | Yes | **21** |
-| **Canara Bank** | ~8.0%–9.5% | 7–10 years | ~0.5%–1% | Easy (rural reach) | Yes | **18** |
-| **HDFC (Green)** | ~8.5%–10% | 15 years | ~0.5%–1% | Moderate (needs property) | Yes | **18** |
-| **Bank of Baroda** | ~8.5%–10% | 10 years | ~0.5%–1% | Easy (direct branch) | Yes | **17** |
-| **HDFC (Personal)** | ~10.5%–24% | 5 years | ~1%–2.5% | Very Easy (app) | Yes | **13** |
-| **MSME Loan** | ~8%–12% | 7–10 years | ~1%–2% | Moderate (business docs) | Yes | **17** |
-
-*Scores are composite ratings across the 5-Factor Scorecard. Higher is better. Verify all rates with the respective lender before applying. Sources: [IREDA](https://www.ireda.in/), [SBI](https://www.sbi.co.in/), [HDFC Bank](https://www.hdfcbank.com/), [Canara Bank](https://canarabank.com/), [Bank of Baroda](https://www.bankofbaroda.in/).*
-
-> **Market context.** India's total rooftop solar financing disbursements reached approximately ₹8,000 crore in FY 2024–25, with IREDA accounting for the largest share of government-facilitated loans. Private bank participation is growing rapidly as PM Surya Ghar drives mainstream awareness. *Source - [MNRE Annual Report](https://mnre.gov.in/), 2025.*
-
-## EMI Comparison: ₹3 Lakh Solar Loan Across All Lenders
-
-The following table fixes the loan amount at ₹3,00,000 (post-subsidy loan for a 5 kW residential system) to give a concrete monthly cost comparison:
+The table fixes the loan amount at ₹3,00,000 to give a concrete monthly cost comparison between the two lenders that publish a rate for it.
 
 > [!FORMULA] EMI used in the table below
 > EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1), where P is the loan amount, r is the annual rate ÷ 12 and n is the tenure in months
 
-Table: Monthly EMI, total repayment and total interest on a ₹3,00,000 solar loan, by lender
+Table: Monthly EMI, total repayment and total interest on a ₹3,00,000 loan, SBI's published 7.90% slab against HDFC's advertised starting rate (calculated here)
 
-| Lender | Rate | Tenure | Monthly EMI | Total Repayment | Total Interest |
-| --- | --- | --- | --- | --- | --- |
-| IREDA | 7.0% | 15 years | ₹2,696 | ₹4,85,280 | ₹1,85,280 |
-| SBI | 7.5% | 10 years | ₹3,561 | ₹4,27,320 | ₹1,27,320 |
-| Canara Bank | 8.5% | 10 years | ₹3,720 | ₹4,46,400 | ₹1,46,400 |
-| HDFC Green | 9.0% | 10 years | ₹3,800 | ₹4,56,000 | ₹1,56,000 |
-| HDFC Personal | 14.0% | 5 years | ₹6,981 | ₹4,18,860 | ₹1,18,860 |
+| Lender and rate | Tenure | Monthly EMI | Total Repayment | Total Interest |
+| --- | --- | --- | --- | --- |
+| HDFC Personal Loan, 9.99% | 5 years | ₹6,373 | ₹3,82,358 | ₹82,358 |
+| HDFC Personal Loan, 9.99% | 7 years | ₹4,979 | ₹4,18,220 | ₹1,18,220 |
+| SBI, 7.90% | 5 years | ₹6,069 | ₹3,64,114 | ₹64,114 |
+| SBI, 7.90% | 7 years | ₹4,661 | ₹3,91,518 | ₹91,518 |
 
 ```chart
 type: hbar
-title: Total interest paid on a ₹3,00,000 solar loan, by lender
+title: Total interest paid on a ₹3,00,000 loan, by lender and tenure
 unit: "₹"
-source: "Calculated in this article from the loan amount, indicative rates and tenures in the EMI table above (standard EMI formula); rates are indicative and must be verified with each lender"
-note: "Lower is better, but a longer tenure lowers the EMI while raising total interest."
+source: "Calculated in this article with the standard EMI formula: SBI at 7.90% (SBI Surya Ghar loan page, rates as on 15 December 2025) and HDFC Personal Loan at 9.99% (advertised starting rate, HDFC Bank personal loan page); both read 14 October 2026"
+note: "Lower is better. A longer tenure lowers the EMI but raises total interest, and the rate you are offered depends on your profile."
 data:
-  - { label: "SBI, 7.5%, 10 yr", value: 127320 }
-  - { label: "HDFC Personal, 14%, 5 yr", value: 118860 }
-  - { label: "Canara Bank, 8.5%, 10 yr", value: 146400 }
-  - { label: "HDFC Green, 9%, 10 yr", value: 156000 }
-  - { label: "IREDA, 7%, 15 yr", value: 185280 }
+  - { label: "SBI, 7.90%, 5 years", value: 64114 }
+  - { label: "HDFC Personal, 9.99%, 5 years", value: 82358 }
+  - { label: "SBI, 7.90%, 7 years", value: 91518 }
+  - { label: "HDFC Personal, 9.99%, 7 years", value: 118220 }
 ```
 
-The IREDA 15-year option has the lowest EMI (₹2,696), making it cash-flow-positive from month one for most households, since ₹3,00,000 worth of solar generates approximately ₹3,000–₹5,000 in monthly electricity savings at ₹8–12/unit tariffs. For a year-by-year cash flow model that weighs EMI against projected generation savings rather than a single snapshot table, a [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) gives a more complete picture than the EMI comparison above.
+IREDA is not in the table because it publishes no household rate. For ₹2,00,000 or less, SBI's page lists 5.75%, which on ₹2,00,000 over 5 years costs about ₹30,601 in interest, against about ₹54,905 at 9.99%. Compare the EMI with your own bill saving, using your own tariff and generation, and use a [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) for a year-by-year cash-flow view.
 
-## Which Solar Loan Is Right for Your Profile?
+## Which Solar Loan Fits Your Profile?
 
-Table: Which lender suits which borrower profile
+Table: Where to start by borrower profile (alphabetical by lender; read the lender's own page before applying)
 
-| Profile | Recommended Lender | Why |
+| Profile | Where to start | Why |
 | --- | --- | --- |
-| Homeowner with existing IREDA-empanelled vendor | **IREDA** | Best rate, longest tenure |
-| Homeowner at SBI branch town | **SBI** | Near-IREDA rate, direct access |
-| Existing HDFC home loan customer | **HDFC Green top-up** | Zero-friction top-up |
-| Rural/semi-urban Karnataka, Tamil Nadu | **Canara Bank** | Strongest rural branch reach |
-| Gujarat/Rajasthan homeowner | **Bank of Baroda** | State scheme participation |
-| Small commercial establishment | **MSME loan (SBI/Canara)** | Collateral-free, larger amounts |
-| Urgent <₹2 Lakh, no property | **HDFC Personal Loan** | Fastest turnaround |
+| Existing HDFC customer wanting unsecured credit | HDFC Bank Personal Loan | No solar-specific product; compare the written offer with SBI's |
+| Business or institution financing a rooftop plant | IREDA's scheme document, SBI Surya Shakti and your own bank | Published business schemes |
+| Homeowner, PM Surya Ghar rooftop up to 10 kW | SBI Surya Ghar loan | Published rate and terms on its page |
+| Homeowner with another bank relationship | That bank's own PM Surya Ghar loan page | No rate is quoted here for banks whose pages were not read |
 
 ## Common Mistakes When Choosing a Solar Loan
 
-Most homeowners who end up with a suboptimal loan make the same few errors:
-
-- **Applying to the first bank they encounter** without comparing rates, the difference between IREDA's 7% and HDFC Personal Loan's 14% is about ₹62,500 more in interest on a ₹3 Lakh, 5-year loan (₹1,18,860 against ₹56,420 at 7%).
-- **Not checking subsidy compatibility**: some fintech solar EMI products (buy-now-pay-later schemes) are not compatible with PM Surya Ghar subsidy processing, since the DISCOM requires a formal vendor invoice.
-- **Ignoring tenure impact**: a shorter tenure reduces total interest but increases EMI. If the EMI exceeds monthly electricity savings, the solar system is cash-flow negative until the loan is paid off.
-- **Not accounting for prepayment**: the PM Surya Ghar subsidy is credited 30–90 days post-installation. Most lenders allow lump-sum prepayment. Plan for this explicitly in your loan structure.
-- **Choosing an unempanelled vendor to save ₹5,000 on system cost**: this blocks access to IREDA rates and PM Surya Ghar subsidy. The savings evaporate against the rate penalty. Comparing quotes from established solar EPC and turnkey installation providers, who are typically already empanelled, avoids this trap entirely.
+- **Applying to the first bank you meet** without comparing: on ₹2,00,000 over 5 years, the published SBI rate costs about ₹24,300 less interest than 9.99% (both calculated).
+- **Not checking subsidy handling**: the subsidy is credited after commissioning, so ask how a lump-sum prepayment is applied. Some buy-now-pay-later products may not suit the DISCOM's invoice requirements.
+- **Ignoring the tenor effect**: a shorter tenor reduces total interest but raises the EMI. If the EMI exceeds your bill saving, the system is cash-flow negative until the loan is repaid.
+- **Choosing an unempanelled vendor to save on cost**: this blocks the PM Surya Ghar subsidy. Comparing quotes from established solar EPC and turnkey installation providers, who are typically already empanelled, avoids the trap.
+- **Accepting a rate without a date**: floating rates change. Ask for the sanction letter showing the rate, benchmark and reset terms.
 
 For a broader comparison of all financing options including RESCO and zero-cost models, read the [inverter financing options in India](/blog/inverter-financing-options-in-india/) overview.
 
-## How to Apply for the Best Solar Loan in India: Step-by-Step
+## How to Apply for the Right Solar Loan: Step-by-Step
 
 <!-- steps -->
-1. **Determine system size**: get a rooftop assessment from an empanelled vendor. System cost, subsidy amount, and net loan requirement depend on this number.
-2. **Check PM Surya Ghar eligibility**: visit the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) and confirm your DISCOM is participating. Subsidy integration reduces the effective loan size.
-3. **Compare rates**: use the lender table above. Contact IREDA (via empanelled vendor), SBI (nearest branch), and HDFC (app or branch) for current offers.
-4. **Run the 5-Factor Scorecard**: score each lender on rate, tenure, fees, subsidy compatibility, and eligibility ease for your specific profile.
-5. **Gather documents**: KYC, income proof, property documents (for secured loans), and vendor quotation with GST details.
-6. **Apply and fast-track**: once the lender is selected, follow up weekly on processing status. Typical timelines: IREDA 15–30 days via vendor; SBI 10–20 days; HDFC Green 10–15 days; HDFC Personal 2–5 days.
-7. **Use subsidy for prepayment**: once the subsidy lands, prepay immediately to reduce outstanding principal and shorten effective loan period.
+1. **Determine system size**: get a rooftop assessment from an empanelled installer. System cost, subsidy amount and net loan requirement depend on this number.
+2. **Check PM Surya Ghar eligibility**: visit the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) and confirm your DISCOM is participating.
+3. **Compare rates**: use the table above and request written offers from SBI (via the portal or branch), HDFC Bank (if you are a customer) and any other bank whose own page you read.
+4. **Run the 5-Factor Scorecard**: compare the written offers on rate, tenure, fees, subsidy handling and eligibility ease.
+5. **Gather documents**: KYC, income proof where required, DISCOM approval and the installer quotation naming ALMM-listed modules and the exact inverter model.
+6. **Apply and follow up**: ask the lender for its current processing timeline in writing; this guide quotes none because no published source gives one.
+7. **Use the subsidy for prepayment**: once the subsidy lands, prepay principal if your lender allows it without a charge.
 
-> [!IMPORTANT] The subsidy does not shrink the loan
-> The PM Surya Ghar subsidy does not reduce the sanctioned loan amount, because the lender assesses eligibility on the full system cost. It is credited about 30 to 90 days after DISCOM verification, so plan to use it to prepay principal, and confirm the lender allows prepayment without foreclosure charges.
-
-> **Key fact.** The PM Surya Ghar Muft Bijli Yojana received over 1.3 crore registrations within its first 12 months of launch, indicating mainstream awareness of solar financing and subsidy integration. *Source - [PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2025.*
+> [!IMPORTANT] The subsidy does not shrink the loan up front
+> The PM Surya Ghar subsidy is credited after commissioning and DISCOM verification, so the lender normally assesses and sanctions against the full project cost. Plan to use the subsidy to prepay principal, and confirm the lender allows prepayment without a charge. SBI's PM Surya Ghar loan page lists no prepayment penalty.
 
 For homeowners on EMI specifically, read the [solar on EMI guide](/blog/solar-on-emi/) for instalment structure analysis and the [PM Surya Ghar subsidy amount breakdown](/blog/pm-surya-ghar-subsidy-amount/) for how the central subsidy is calculated by system size.
 
 ## Where Qbits Fits
 
-The best solar loan saves money only if the solar system it finances performs reliably for the duration of the loan. A homeowner repaying an IREDA loan for 15 years needs an inverter that lasts at least that long, or comes with a warranty that covers the gap.
+Qbits is an inverter manufacturer; it does not lend, install systems or approve subsidy. The loan only pays off if the system it finances performs for the full tenor, so the inverter's written warranty and service route matter.
 
 - **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
-- **[String Sizing Calculator](/string-sizing-calculator/)**: confirm panel-string compatibility before the vendor finalises the BOM and quotes.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: confirm panel-string compatibility before the installer finalises the bill of materials and quotation.
 - **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
-[Contact Qbits](/contact-us/) with the proposed system size and location for model documents. Verify module and cell ALMM status, scheme eligibility, DISCOM acceptance and loan terms with the responsible official parties; Qbits does not control subsidy or lender approval.
+[Contact Qbits](/contact-us/) with questions about an inverter model named in a quote. Installers can apply through [become our partner](/become-our-partner/). Verify module and cell ALMM status, scheme eligibility, DISCOM acceptance and loan terms with the responsible official parties; Qbits does not control subsidy or lender approval.

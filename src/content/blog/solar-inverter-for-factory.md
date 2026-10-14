@@ -28,7 +28,7 @@ faqs:
   - q: "Should a factory use string inverters or a central inverter?"
     a: "For factory rooftops up to 500 kWp, multiple 3-phase string inverters (50–100 kW each) are preferred because each string inverter operates independently, so a single unit failure reduces output by only 10–20% rather than shutting the entire array. Central inverters above 250 kW offer lower cost per kW but require a dedicated AC room, more sophisticated protection, and longer repair lead times. For rooftops above 500 kWp with uniform orientation, central inverters become cost-competitive. Most Indian factory deployments in the 100–500 kWp range use a bank of 3-phase string inverters."
   - q: "How does solar offset diesel generator costs in a factory?"
-    a: "Solar offsets diesel through DG displacement: during daylight hours, solar generation meets the base load first, reducing or eliminating the hours the DG runs. At ₹18–22/kWh diesel generation cost versus ₹3–4/kWh solar generation cost, each kWh displaced saves ₹14–18. A 200 kWp system generating 800 kWh/day can displace ₹11,000–14,400 worth of diesel per day, delivering payback in 3–5 years in high-diesel-cost industries such as textiles, ceramics, and auto ancillaries."
+    a: "Solar offsets diesel through DG displacement: during daylight hours, solar generation meets the base load first, reducing or eliminating the hours the DG runs. At about ₹24–30/kWh diesel fuel cost (diesel at ₹95–104 per litre on 14 October 2026, delivering 3.5–4.0 kWh per litre) versus roughly ₹4–6/kWh solar levelised cost, each kWh displaced saves about ₹20–25. A 200 kWp system generating 800 kWh/day can displace up to ₹16,000–20,000 of diesel fuel per day if all of that output replaces DG output, which is the best case; the saving scales with the share of solar output that actually coincides with DG running hours. Payback is CAPEX divided by the annual saving, so a plant at ₹55,000/kWp (₹1.1 crore) displacing 50–100% of its output against diesel pays back in roughly 1.5–3 years, and in high-diesel-cost industries such as textiles, ceramics, and auto ancillaries the DG share is what decides it."
   - q: "What is the minimum rooftop area needed for a 100 kW factory solar system?"
     a: "A 100 kWp rooftop solar installation requires approximately 600–700 sq metres of usable roof area after accounting for shade setbacks, structural gaps, walkways, and east-west orientation losses. This translates to roughly 200–250 standard 440–450 Wp monocrystalline panels. Shed-type factory roofs with north-south orientation and unshaded spans are ideal. Sawtooth roofs and roofs with skylights or ventilators require a detailed shading analysis before committing to a layout."
   - q: "Does a factory solar system qualify for accelerated depreciation?"
@@ -46,7 +46,7 @@ This guide is written for factory owners, plant managers, and procurement heads 
 > [!KEYTAKEAWAYS]
 > - A factory solar inverter must be 3-phase, hold current THD below 5% (below 3% for CNC/VFD-sensitive loads), and be sized to average daytime demand, not peak connected load.
 > - Multiple 3-phase string inverters (50–100 kW each) are preferred up to about 500 kWp; central inverters become cost-competitive above that scale.
-> - DG displacement is often the biggest economic lever: solar generated at ₹3–4/kWh can offset diesel power costing ₹18–22/kWh.
+> - DG displacement is often the biggest economic lever: solar with a levelised cost of roughly ₹4–6/kWh can offset diesel generation costing about ₹24–30/kWh in fuel alone (diesel at ₹95–104/litre on 14 October 2026).
 > - Net metering covers most C&I systems up to 1 MW in major states; larger systems typically move to gross metering or open access.
 > - Captive solar counts directly toward a factory's Renewable Purchase Obligation, which is set to reach 43.33% nationally by 2029–30.
 
@@ -74,6 +74,8 @@ Evaluating a solar inverter for factory deployment requires a structured framewo
 1. **THD compliance at full load**: Confirm the inverter's current THD is below 3% at 100% rated output when feeding a mix of resistive and inductive industrial loads. Request the factory test certificate, not the brochure value. IEC 62040-3 provides the test methodology.
 
 2. **3-phase balance and imbalance tolerance**: Verify the inverter can operate at the manufacturer-specified output under 10–15% phase voltage imbalance, a common condition on Indian industrial feeders where single-phase loads have been added unevenly over time. Inverters with tight imbalance trip thresholds will disconnect frequently on poorly balanced factory distribution boards.
+
+3. **Grid-code protection and fault ride-through**: Ask for type-test reports showing over and under voltage and frequency protection as per CEA grid connectivity norms, a DC injection limit below 0.5% of rated output current, fault ride-through (FRT) for momentary grid dips, and earth fault detection. Industrial feeders see more voltage dips and switching transients than residential ones, and an inverter that trips on every dip stops generating exactly when the factory is running.
 
 4. **DG synchronisation and anti-islanding**: Factories relying on diesel backup must ensure the inverter has certified anti-islanding protection per IEC 62116, and either a manual or automatic transfer switch preventing back-feed onto the DG bus. Failure here damages the DG's alternator and risks electrocution during grid maintenance.
 
@@ -174,13 +176,13 @@ A cotton spinning mill with 300 kVA contract demand and 0.88 power factor has a 
 
 This sizing ensures the system offsets the bulk of daytime grid import without significant export during production hours, which is the objective for most industrial buyers operating under net metering. For comprehensive sizing guidance applicable to different load types, the [solar inverter sizing guide](/blog/solar-inverter-sizing/) provides the full 12-variable framework, and SurgePV's [commercial solar design tools](https://surgepv.com/commercial-solar-design/) cover the equivalent array-layout workflow for C&I engineering teams running the design in-house.
 
-> **₹18–22 per kWh.** The true cost of diesel generation in India when fuel, oil, maintenance, and capital depreciation are included, compared to ₹3–4/kWh for solar over a 25-year plant life. *Source - [Mercom India, Industrial DG Cost Analysis](https://www.mercomindia.com/), 2026.*
+> **₹24–30 per kWh.** Fuel-only cost of diesel generation at ₹95–104 per litre (retail prices on 14 October 2026) and 3.5–4.0 kWh per litre, before maintenance and capital depreciation, compared with roughly ₹4–6/kWh for 50 kW-scale C&I solar over a 25-year plant life (see the [LCOE of solar in India](/blog/lcoe-solar-india/) post). *Source: calculated; pump prices per [CarDekho](https://www.cardekho.com/diesel-price).*
 
 ## DG Displacement: How Solar Offsets Diesel First
 
 One of the most underappreciated economics of factory solar is the DG displacement effect. In India, factories with unreliable grid supply run diesel generator sets during grid outages and during peak tariff hours when DG is cheaper than grid power for some industrial tariff structures.
 
-Solar does not simply reduce grid import, it actively displaces diesel generation during daylight hours, which carries a far higher economic benefit. The [solar vs diesel analysis](/blog/solar-vs-diesel-generator-india/) for Indian plants shows that industries paying ₹18–22/kWh for diesel-generated power achieve solar payback in 3–5 years versus 6–8 years for factories on reliable grid supply alone.
+Solar does not simply reduce grid import, it actively displaces diesel generation during daylight hours, which carries a far higher economic benefit. The [solar vs diesel analysis](/blog/solar-vs-diesel-generator-india/) for Indian plants shows that industries paying about ₹24–30/kWh in diesel fuel cost see solar payback in roughly 1.5–3 years when most of the output displaces diesel, versus roughly 4–6 years for factories on reliable grid supply alone at ₹7–9/kWh.
 
 > [!FORMULA] Daily diesel saving potential
 > Daily DG cost avoided = DG runtime (hours) × DG capacity utilised (kW) × diesel cost per kWh (₹)
@@ -194,11 +196,11 @@ Solar does not simply reduce grid import, it actively displaces diesel generatio
 4. Compare against the daily solar generation at your rooftop yield (typically 4.5–5.5 kWh/kWp/day in India)
 
 > [!EXAMPLE] Ceramic tile factory in Gujarat
-> A 250 kW DG runs for 4 hours/day during afternoon grid shedding at ₹20/kWh:
+> A 250 kW DG runs for 4 hours/day during afternoon grid shedding. Diesel fuel at ₹27/kWh (₹95/litre ÷ 3.5 kWh per litre, rounded; use your own figure):
 >
-> - Daily DG cost avoided: 250 kW × 4 hours × ₹20 = ₹20,000/day
-> - Monthly saving from DG displacement alone: ₹6,00,000
-> - On a ₹1.8 Crore solar investment, DG displacement alone pays back in 30 months
+> - Daily DG cost avoided: 250 kW × 4 hours × ₹27 = ₹27,000/day
+> - Monthly saving from DG displacement alone: ₹27,000 × 30 = ₹8,10,000
+> - On a ₹1.8 Crore solar investment sized to cover that 1,000 kWh/day, DG displacement alone pays back in about 22 months (₹1.8 Crore ÷ ₹8.1 lakh)
 
 A comparable scenario is described in the [case study on a 100 kW solar installation at a Tirupur textile mill](/blog/case-study-tirupur-textile/), which covers the same DG-displacement economics for a production floor.
 

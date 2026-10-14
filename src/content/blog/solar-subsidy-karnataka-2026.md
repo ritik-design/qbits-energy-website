@@ -20,7 +20,7 @@ faqs:
   - q: "Which DISCOM handles solar applications in Bangalore?"
     a: "BESCOM (Bangalore Electricity Supply Company Limited) covers Bangalore Urban, Bangalore Rural, Tumkur, Kolar, Chikkaballapur, and Ramanagara districts. Bangalore city homeowners apply through BESCOM, which operates one of the more digitised solar application portals among Karnataka's five DISCOMs. BESCOM's consumer portal allows online submission, tracking, and status updates for net metering applications. Homeowners outside Bangalore should identify their DISCOM: HESCOM (Hubli–Dharwad area), MESCOM (Mangaluru), CESC (Mysuru), or GESCOM (Kalaburagi)."
   - q: "How long does BESCOM net metering approval take in 2026?"
-    a: "For straightforward residential applications in Bangalore, the typical BESCOM net metering timeline is 45 to 75 days end-to-end from online portal submission to commissioned bidirectional meter. BESCOM's online portal has reduced paperwork processing time compared to earlier years, but the physical meter change remains a bottleneck. Applications in BESCOM's high-density divisions (Bengaluru South, Indiranagar, Whitefield) may take longer due to application volume. HESCOM and MESCOM typically run 60 to 90 days for comparable applications due to lower digital processing maturity."
+    a: "For straightforward residential applications in Bangalore, a reasonable planning estimate for the BESCOM net metering timeline is about 55 to 85 days from online portal submission to commissioned bidirectional meter (the sum of the stage estimates in the timeline table below; BESCOM publishes no standard end-to-end time). BESCOM's online portal has reduced paperwork processing time compared to earlier years, but the physical meter change remains a bottleneck. Applications in BESCOM's high-density divisions (Bengaluru South, Indiranagar, Whitefield) may take longer due to application volume. HESCOM and MESCOM may run longer, about 75 to 115 days on the same stage estimates, because of lower digital processing maturity."
   - q: "What is the net metering export rate in Karnataka?"
     a: "Karnataka's net metering framework is regulated by KERC (Karnataka Electricity Regulatory Commission). The feed-in tariff for residential rooftop solar export under the applicable KERC order is approximately ₹3.00 to ₹4.00 per unit. Karnataka uses an annual banking mechanism where surplus units roll over monthly and are settled at year end at the prevailing export rate. The import tariff for residential consumers in Karnataka ranges from ₹5 to ₹8 per unit depending on consumption slab, making self-consumption significantly more valuable than grid export."
   - q: "Does Karnataka have a state solar policy beyond PM Surya Ghar?"
@@ -44,7 +44,7 @@ This guide covers the complete Karnataka solar subsidy picture: what the central
 
 > [!KEYTAKEAWAYS]
 > - Karnataka relies on the central [PM Surya Ghar subsidy](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) alone (up to ₹78,000 for 3 kW); there is no separate state cash top-up as of 2026.
-> - BESCOM (Bangalore) runs the most digitised solar portal of Karnataka's five DISCOMs, with a 45 to 75 day timeline versus 55 to 90 days for HESCOM, MESCOM, CESC, or GESCOM in the DISCOM table below.
+> - BESCOM (Bangalore) runs the most digitised solar portal of Karnataka's five DISCOMs, with about 55 to 85 days to commissioning versus about 75 to 115 days for HESCOM, MESCOM, CESC, or GESCOM, as the sum of the stage estimates in the timeline table below (approximate planning figures, not DISCOM-published times).
 > - Bangalore's monsoon (June to September) cuts generation by 30 to 40 percent, so payback estimates should use annual figures, not summer peak output.
 > - KERC's [net metering](https://www.heavengreenenergy.com/blog/solar-net-metering) framework settles surplus units annually at the export tariff (₹3.00–₹4.00/unit), well below the ₹5–₹8/unit import tariff, so self-consumption is significantly more valuable than export.
 > - An illustrative Whitefield example (3 kW, ₹2,00,000 gross cost, ₹78,000 subsidy) works out to roughly 4.2 years' payback on the post's own inputs.
@@ -119,33 +119,33 @@ Karnataka's electricity distribution is divided among five companies, each with 
 
 ### BESCOM: Bangalore and Surrounding Districts
 
-BESCOM (Bangalore Electricity Supply Company Limited) covers Bangalore Urban, Bangalore Rural, Tumkur, Kolar, Chikkaballapur, and Ramanagara. It is Karnataka's largest DISCOM by consumer base and has the most developed digital portal for solar applications. BESCOM's online application system allows submission, document upload, status tracking, and communication without requiring office visits for standard residential cases. Portal: [bescom.karnataka.gov.in](https://bescom.karnataka.gov.in/). Average timeline for straightforward residential applications: 45 to 75 days end-to-end.
+BESCOM (Bangalore Electricity Supply Company Limited) covers Bangalore Urban, Bangalore Rural, Tumkur, Kolar, Chikkaballapur, and Ramanagara. It is Karnataka's largest DISCOM by consumer base and has the most developed digital portal for solar applications. BESCOM's online application system allows submission, document upload, status tracking, and communication without requiring office visits for standard residential cases. Portal: [bescom.karnataka.gov.in](https://bescom.karnataka.gov.in/). Planning estimate for straightforward residential applications: about 55 to 85 days from submission to commissioned meter.
 
 ### HESCOM: Northern Karnataka
 
-HESCOM (Hubballi–Dharwad Electricity Supply Company) covers Hubballi–Dharwad, Gadag, Haveri, Uttara Kannada, Belagavi, and Bagalkot. Northern Karnataka has higher solar irradiance than Bangalore but HESCOM's application processing is less digitised. Expect 60 to 90 days for net metering completion. HESCOM divisional offices in Hubli and Belagavi are the primary contact points.
+HESCOM (Hubballi–Dharwad Electricity Supply Company) covers Hubballi–Dharwad, Gadag, Haveri, Uttara Kannada, Belagavi, and Bagalkot. Northern Karnataka has higher solar irradiance than Bangalore but HESCOM's application processing is less digitised. Plan for about 75 to 115 days for net metering completion. HESCOM divisional offices in Hubli and Belagavi are the primary contact points.
 
 ### MESCOM: Coastal Karnataka
 
-MESCOM (Mangaluru Electricity Supply Company) covers Mangaluru, Udupi, Chikkamagaluru, Shivamogga, Kodagu, and Hassan. Coastal Karnataka's higher humidity and moderate irradiance (4.8 to 5.2 kWh/m²/day) make IP66 weather-rated equipment particularly important here. MESCOM processing: 60 to 80 days typical.
+MESCOM (Mangaluru Electricity Supply Company) covers Mangaluru, Udupi, Chikkamagaluru, Shivamogga, Kodagu, and Hassan. Coastal Karnataka's higher humidity and moderate irradiance (4.8 to 5.2 kWh/m²/day) make IP66 weather-rated equipment particularly important here. MESCOM processing: plan for about 75 to 115 days.
 
 ### CESC: Mysuru Region
 
-CESC (Chamundeshwari Electricity Supply Corporation) covers Mysuru, Mandya, Chamarajanagar, and Kodagu. Mysuru city has a growing residential solar market. CESC portal: [cescmysore.karnataka.gov.in](https://cescmysore.karnataka.gov.in/). Timeline: 55 to 75 days.
+CESC (Chamundeshwari Electricity Supply Corporation) covers Mysuru, Mandya, Chamarajanagar, and Kodagu. Mysuru city has a growing residential solar market. CESC portal: [cescmysore.karnataka.gov.in](https://cescmysore.karnataka.gov.in/). Timeline: plan for about 75 to 115 days.
 
 ### GESCOM: Hyderabad Karnataka
 
-GESCOM (Gulbarga Electricity Supply Company) covers Kalaburagi, Bidar, Yadgir, Koppal, Ballari, and Raichur. This region has the highest solar irradiance in Karnataka (up to 6.0 kWh/m²/day) but lower urban density. GESCOM processing timelines can extend to 90 days in rural subdivisions.
+GESCOM (Gulbarga Electricity Supply Company) covers Kalaburagi, Bidar, Yadgir, Koppal, Ballari, and Raichur. This region has the highest solar irradiance in Karnataka (up to 6.0 kWh/m²/day) but lower urban density. GESCOM processing timelines can run longer in rural subdivisions; plan for about 75 to 115 days or more.
 
-Table: Karnataka DISCOMs by coverage area, approximate net metering timeline and portal
+Table: Karnataka DISCOMs by coverage area, approximate net metering timeline (planning estimates from the stage table below, not DISCOM-published) and portal
 
 | DISCOM | Coverage | Approx. Timeline | Portal |
 | --- | --- | --- | --- |
-| **BESCOM** | Bangalore + 5 districts | 45–75 days | Online (best in class) |
-| **HESCOM** | Northern Karnataka | 60–90 days | Partial online |
-| **MESCOM** | Coastal Karnataka | 60–80 days | Partial online |
-| **CESC** | Mysuru region | 55–75 days | Partial online |
-| **GESCOM** | Hyderabad Karnataka | 75–90 days | Limited online |
+| **BESCOM** | Bangalore + 5 districts | 55–85 days | Online (best in class) |
+| **HESCOM** | Northern Karnataka | 75–115 days | Partial online |
+| **MESCOM** | Coastal Karnataka | 75–115 days | Partial online |
+| **CESC** | Mysuru region | 75–115 days | Partial online |
+| **GESCOM** | Hyderabad Karnataka | 75–115 days | Limited online |
 
 ## BESCOM Net Metering: The Online Process Step by Step
 
@@ -197,7 +197,7 @@ For BESCOM applicants, all documents can be uploaded digitally through the BESCO
 
 ## Timeline: What Is Realistic for Karnataka in 2026
 
-Table: Realistic stage-by-stage timeline, BESCOM versus other Karnataka DISCOMs
+Table: Stage-by-stage planning timeline, BESCOM versus other Karnataka DISCOMs (estimates; totals are the sums of the stage ranges)
 
 | Stage | BESCOM (Bangalore) | Other Karnataka DISCOMs |
 | --- | --- | --- |
@@ -206,7 +206,8 @@ Table: Realistic stage-by-stage timeline, BESCOM versus other Karnataka DISCOMs
 | Installation | 7–14 days (post-approval) | 7–14 days |
 | Inspection + meter change | 30–45 days | 45–60 days |
 | Subsidy disbursement | 30 days (post-commissioning) | 30 days |
-| **Total end-to-end** | **75–95 days** | **100–130 days** |
+| **Total to commissioning (excluding subsidy)** | **53–86 days** | **73–116 days** |
+| **Total including subsidy disbursement** | **83–116 days** | **103–146 days** |
 
 Karnataka's monsoon (June–September) does not significantly slow the application process but does reduce generation during those months. For consumers wanting to begin benefiting from solar generation before the next summer, filing applications in September–October (as the monsoon ends) means commissioning around December–January, right before the high-irradiance spring months.
 
@@ -236,8 +237,8 @@ Table: Pros and cons of going solar in Karnataka by DISCOM area and system type
 
 | | Pros | Cons |
 | --- | --- | --- |
-| **BESCOM area (Bangalore)** | ✓ Online portal, digitised process, 45–75 day timeline | ✗ High application volume, meter change queue, monsoon reduces generation 30–40% |
-| **Other Karnataka DISCOMs** | ✓ Higher irradiance in northern/Hyderabad Karnataka | ✗ Less digital process, 90–130 days, may need in-person submission |
+| **BESCOM area (Bangalore)** | ✓ Online portal, digitised process, about 55–85 day timeline | ✗ High application volume, meter change queue, monsoon reduces generation 30–40% |
+| **Other Karnataka DISCOMs** | ✓ Higher irradiance in northern/Hyderabad Karnataka | ✗ Less digital process, about 75–115 days to commissioning, may need in-person submission |
 | **On-grid system** | ✓ Lowest cost, fastest payback, subsidy-eligible | ✗ No backup during grid failure, exports at lower export tariff |
 | **Hybrid system** | ✓ Battery backup, grid-independent critical loads | ✗ 25–40% higher upfront, longer payback |
 

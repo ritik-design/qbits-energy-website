@@ -45,7 +45,7 @@ The good news is that both common area solar and individual flat solar are viabl
 > - Common area solar (10-50 kW on the society meter) needs only one DISCOM application and RWA authorisation, and directly reduces the monthly maintenance charge.
 > - Individual flat solar requires a separate DISCOM application per flat but unlocks the [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy of up to ₹78,000 per eligible flat owner.
 > - Maharashtra is the most advanced state for group housing, permitting virtual net metering that splits one system's savings across many flat meters.
-> - A 30 kW rooftop system on a 100-flat society typically pays back in about 4.2 years and cuts roughly ₹350-700 off each flat's monthly maintenance bill.
+> - In the illustrative example, a 30 kW rooftop system on a 100-flat society pays back in about 5.2 years (₹18 Lakh ÷ ₹28,800 a month) and cuts roughly ₹288 off each flat's monthly maintenance bill (₹8/unit, 5 PSH, 0.80 performance ratio).
 > - The RWA Solar Decision Framework uses the society's common area bill, DISCOM readiness, AGM authorisation, and roof ownership to pick the right model. Societies should reserve 5-10% of annual savings for cleaning and the eventual Year 12-15 inverter replacement.
 
 ## Understanding the Two Models: Common Area vs Individual Flat
@@ -153,17 +153,17 @@ data:
 > [!EXAMPLE] 30 kW on a 100-flat society
 > At ₹8/unit, this is ₹4,008/day, approximately ₹1.2 Lakh/month.
 >
-> A 30 kW rooftop solar system generating 5 PSH/day = 150 kWh/day covers approximately 30% of common area consumption. At ₹8/unit, this saves ₹1,200/day, roughly ₹36,000/month.
+> A 30 kW rooftop solar system at 5 PSH/day and a 0.80 performance ratio generates 30 × 5 × 0.80 = 120 kWh/day, which covers approximately 24% of common area consumption (120 ÷ 501). At ₹8/unit, this saves ₹960/day, roughly ₹28,800/month.
 >
-> For a 100-flat society, this translates to approximately ₹360 per flat per month in maintenance reduction.
+> For a 100-flat society, this translates to approximately ₹288 per flat per month in maintenance reduction.
 
-Table: Common area solar by system size: monthly generation, savings, cost and payback (₹8/unit)
+Table: Common area solar by system size: monthly generation, savings, cost and payback (₹8/unit, 5 PSH, 0.80 performance ratio)
 
 | System Size | Monthly Generation | Savings (₹8/unit) | Per-Flat Saving (100 flats) | System Cost | Payback |
 | --- | --- | --- | --- | --- | --- |
-| 10 kW | 1,500 kWh | ₹12,000 | ₹120 | ₹6 Lakh | 4.2 years |
-| 30 kW | 4,500 kWh | ₹36,000 | ₹360 | ₹18 Lakh | 4.2 years |
-| 50 kW | 7,500 kWh | ₹60,000 | ₹600 | ₹30 Lakh | 4.2 years |
+| 10 kW | 1,200 kWh | ₹9,600 | ₹96 | ₹6 Lakh | 5.2 years |
+| 30 kW | 3,600 kWh | ₹28,800 | ₹288 | ₹18 Lakh | 5.2 years |
+| 50 kW | 6,000 kWh | ₹48,000 | ₹480 | ₹30 Lakh | 5.2 years |
 
 ## Step-by-Step Process for Common Area Solar in an Apartment Complex
 
@@ -179,6 +179,7 @@ Agenda the solar proposal at a managing committee meeting. If the capex exceeds 
 > Before signing with any vendor, the managing committee should work through the [solar system quotation checklist](/blog/solar-quotation-checklist/) so the comparison covers warranty terms, service commitments, and net metering support, not just the headline price.
 
 **Step 4: DISCOM application for net metering**
+File one net metering application on the society's common-area meter, through the DISCOM portal or the divisional office, with the managing committee resolution, the vendor's single-line diagram and technical specification, the latest common-area electricity bill and proof of roof rights. Keep the system size within the sanctioned load or transformer limit that applies to your category, and wait for the DISCOM's feasibility approval before installation starts. Where virtual net metering is permitted (see Maharashtra above), also ask how the credit is allocated across flat meters. Rules and timelines differ by DISCOM, so follow the [how to apply for net metering in India guide](/blog/how-to-apply-net-metering-india/) and your DISCOM's own checklist.
 
 **Step 5: Installation and commissioning**
 Installation typically takes 5–10 days for a 30–50 kW system. DISCOM inspection occurs before the bidirectional meter is installed. Generation begins immediately after commissioning.
@@ -191,10 +192,8 @@ Once the system is operational, the society's common electricity bill reduces. T
 Beyond the common area savings, apartment solar creates longer-term financial benefits that managing committees should communicate to residents:
 
 - **Property value impact:** Green building certification and energy-independent common areas are increasingly cited as value differentiators in the Indian residential market. A solar-equipped society has a measurable advantage in the resale and rental market.
-- **Maintenance charge reduction:** A 30 kW system saving ₹36,000/month translates directly to reduced maintenance demands. For a 100-flat society with ₹2,500/flat monthly maintenance, this is roughly 14% of the society's total monthly maintenance collection (₹2.5 Lakh).
+- **Maintenance charge reduction:** A 30 kW system saving ₹28,800/month translates directly to reduced maintenance demands. For a 100-flat society with ₹2,500/flat monthly maintenance, this is roughly 11.5% of the society's total monthly maintenance collection (₹2.5 Lakh).
 - **Carbon credit potential:** Societies with documented solar generation can apply for voluntary carbon credits through VERRA or Gold Standard frameworks, an emerging revenue stream for larger residential complexes.
-
-[JMK Research's report on residential solar market trends](https://jmkresearch.com/){target="_blank" rel="noopener"} identifies apartment complex and RWA solar as the fastest-growing segment of residential solar in India, growing at 60%+ annually from 2022 to 2025 as DISCOM frameworks evolve. [IRENA's 2025 renewable energy and buildings report](https://www.irena.org/Energy-Transition/Technology/Solar-energy){target="_blank" rel="noopener"} documents that multi-family residential buildings in Asia-Pacific have among the highest solar ROI potential given shared infrastructure and large roof-to-occupant ratios. [IEA's India energy transition tracking data](https://www.iea.org/countries/india){target="_blank" rel="noopener"} confirms that residential and commercial solar adoption in India is accelerating, with rooftop solar growing at 30%+ CAGR from 2022 to 2025.
 
 ## Common Mistakes in RWA Solar Projects
 

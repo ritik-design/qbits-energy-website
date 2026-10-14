@@ -98,14 +98,16 @@ Table: Ministry of Power 2022 RPO trajectory by year and category
 
 | Year | Wind RPO | Hydro RPO | Other RPO | Total |
 |---|---|---|---|---|
-| FY 2022-23 | 0.81% | 0.35% | 23.45% | 24.61% |
-| FY 2023-24 | 1.43% | 0.66% | 25.96% | 28.05% |
-| FY 2024-25 | 1.97% | 1.36% | 26.58% | 29.91% |
-| FY 2025-26 | 2.45% | 2.34% | 28.59% | 33.38% |
-| FY 2026-27 | 3.20% | 2.78% | 30.16% | 36.14% |
-| FY 2027-28 | 4.50% | 3.36% | 32.32% | 40.18% |
-| FY 2028-29 | 6.94% | 3.84% | 32.69% | 43.47% |
-| FY 2029-30 | 6.94% | 3.96% | 32.43% | 43.33% |
+| FY 2022-23 | 0.81% | 0.35% | 23.44% | 24.61% |
+| FY 2023-24 | 1.60% | 0.66% | 24.81% | 27.08% |
+| FY 2024-25 | 2.46% | 1.08% | 26.37% | 29.91% |
+| FY 2025-26 | 3.36% | 1.48% | 28.17% | 33.01% |
+| FY 2026-27 | 4.29% | 1.80% | 29.86% | 35.95% |
+| FY 2027-28 | 5.23% | 2.15% | 31.43% | 38.81% |
+| FY 2028-29 | 6.16% | 2.51% | 32.69% | 41.36% |
+| FY 2029-30 | 6.94% | 2.82% | 33.57% | 43.33% |
+
+Source: Ministry of Power RPO and Energy Storage Obligation trajectory notification of 22 July 2022, as corrected on 19 September 2022 (as reproduced in the Forum of Regulators report on state-wise RPO/RCO trajectories). The national total rises every year to 43.33 percent in FY 2029-30. Ministry of Power later reissued the obligation as a Renewable Consumption Obligation with a Distributed RE category (October 2023), so check the current notification for category splits.
 
 State SERC trajectories may vary.
 

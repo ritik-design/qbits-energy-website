@@ -2,7 +2,7 @@
 title: "Indian Solar Inverter Partner Programmes Compared"
 seoTitle: "Solar Inverter Partner Programmes in India Compared"
 excerpt: "Compare six public partner routes by role, application depth, operating responsibility, support disclosure, and the written terms still missing."
-description: "An evidence-led comparison of Indian solar inverter partner programmes from Qbits, Luminous, Servotech, Spectra Solar, Waaree, and UTL."
+description: "Indian solar inverter partner programmes compared on role, application depth and support: Luminous, Qbits, Servotech, Spectra, UTL, Waaree. Not ranked."
 category: "Business"
 date: 2026-09-26
 readTime: "12 min"
@@ -33,11 +33,11 @@ faqs:
 
 **No public page can identify the best solar inverter partner programme for every business.** The useful comparison is structural: what role you are applying for, what work you will perform, what the first application asks, what support the brand describes, and what remains unknown until you receive written terms.
 
-This review compares current official pages from Qbits, Luminous, Servotech, Spectra Solar Power, Waaree, and UTL. Their models are not interchangeable. Some are product-resale routes. Some combine installation and service. Spectra describes a lead-generation model in which its own team handles technical execution, so it is included as a boundary case rather than labelled an inverter dealership.
+This review compares current official pages from Luminous, Qbits, Servotech, Spectra Solar Power, UTL, and Waaree, listed alphabetically and not ranked. Their models are not interchangeable. Some are product-resale routes. Some combine installation and service. Spectra describes a lead-generation model in which its own team handles technical execution, so it is included as a boundary case rather than labelled an inverter dealership.
 
 > [!KEYTAKEAWAYS]
 > - No public page can identify the best partner programme for every business. Compare what role you apply for, what work you perform, what the first application asks, what support is described and what stays unknown until written terms arrive.
-> - Six programmes (Qbits, Luminous, Servotech, Spectra Solar Power, Waaree, UTL) were compared on the same six dimensions using official pages checked on 26 September 2026. Reliability, profitability and programme quality were not scored.
+> - Six programmes (Luminous, Qbits, Servotech, Spectra Solar Power, UTL, Waaree), listed alphabetically and not ranked, were compared on the same six dimensions using official pages checked on 26 September 2026. Reliability, profitability and programme quality were not scored.
 > - Match the operating model first: Spectra describes a lead-generation model in which its own team handles technical execution, so it is not an inverter dealership.
 > - Send every shortlisted programme the same due-diligence sheet and mark each row verified, clarification required or unacceptable.
 > - A webpage benefit such as training, leads or territory must become an owner, deliverable, condition and record in the contract.
@@ -62,28 +62,20 @@ We did not score reliability, profitability, brand value, or programme quality. 
 
 ## Programme structure at a glance
 
-Table: Programme structure at a glance for six official partner pages, comparing role, first route, support and decision gap
+Table: Programme structure at a glance for six official partner pages, listed alphabetically by brand (not ranked), comparing role, first route, support and decision gap
 
 | Official programme page | Public role or model | What the first route reveals | Publicly described support | Main decision gap |
 | --- | --- | --- | --- | --- |
-| [Qbits partner application](/become-our-partner/) | Dealer, Distributor, EPC, or System Integrator in one form | Detailed company, tax, infrastructure, team, capital, sales, and experience questions | The page invites discussion of training and support; exact arrangements must be confirmed | No public commercial schedule, acceptance rule, territory grant, or service allocation |
 | [Luminous Become a Partner](https://www.luminousindia.com/become-a-partner) | Broad partner enquiry by product category | Contact, location, and category, including Solar or Inverters & Battery | No detailed programme support schedule on the application page | The applicant role, operating duties, selection process, and commercial terms are not stated on the page |
+| [Qbits partner application](/become-our-partner/) | Dealer, Distributor, EPC, or System Integrator in one form | Detailed company, tax, infrastructure, team, capital, sales, and experience questions | The page invites discussion of training and support; exact arrangements must be confirmed | No public commercial schedule, acceptance rule, territory grant, or service allocation |
 | [Servotech solar dealership and distributorship](https://www.servotech.in/solar-dealership-distributorship/) | Separate Dealership and Distributorship choices | Role choice and enquiry route | Servotech describes product guidance, training, marketing materials, events, service support, and potential lead sharing | Lead eligibility or volume, area scope, commercial schedule, stock duties, and enforceable support terms need written confirmation |
 | [Spectra Solar channel partner](https://spectrasolarpower.com/channel-partner-with-us) | Local lead generation and sales closure; Spectra says its team handles technical execution | Interest, orientation, agreement, onboarding, then tool access | Marketing materials, CRM, app, proposal tool, calculator, onboarding, and project execution | This is not an inverter-resale appointment; territory, payout, customer payment, lead ownership, liability, and exit terms need contract review |
-| [Waaree partner network](https://www.waaree.com/partner/) | Franchise Partner, Authorised Selling Point, or Retailer; page also addresses distributors and dealers | Role-led partner route plus a visible franchise network | Waaree describes training, marketing, and pre-sales and post-sales assistance | The page spans survey, sales, installation, and service, but exact role boundaries and commercial duties require an agreement |
 | [UTL Dealership](https://www.upsinverter.com/utl/dealership/), [Distributorship](https://www.upsinverter.com/utl/distributor/), and [Solar Shoppe](https://www.upsinverter.com/utl/solar-shoppe/) | Separate dealer, distributor, and branded retail-franchise routes | Basic enquiry fields plus route-specific programme pages | UTL describes channel training, service, branding, retail promotion, and sales, service, and installation training | Product scope, stock and showroom duties, commercial schedules, territory, targets, and exit mechanics need the controlling documents |
+| [Waaree partner network](https://www.waaree.com/partner/) | Franchise Partner, Authorised Selling Point, or Retailer; page also addresses distributors and dealers | Role-led partner route plus a visible franchise network | Waaree describes training, marketing, and pre-sales and post-sales assistance | The page spans survey, sales, installation, and service, but exact role boundaries and commercial duties require an agreement |
 
 The table compares what each brand publishes, not what every approved partner eventually receives. A support category named on a webpage may be conditional, role-specific, or governed by a separate policy. Ask for the deliverable, owner, timing, cost, eligibility, and withdrawal rule in writing.
 
 ## What each public route does well, and what it cannot show
-
-### Qbits: the most detailed first-stage business profile
-
-The Qbits form lets an applicant choose Dealer, Distributor, EPC, or System Integrator. It then asks about the legal business, GST details, warehouse, sales and technical teams, service capacity, capital, sales plan, and prior inverter experience.
-
-That depth is useful if you want to present operating capacity before the first call. It also creates more work and requests financial information earlier than the shorter forms in this comparison. The page does not publish a minimum threshold that guarantees acceptance.
-
-Its main limitation is structural. Four different roles enter one application even though their stock, customer, installation, and service responsibilities can differ substantially. Use the [dealer, distributor, EPC, and system-integrator comparison](/blog/dealer-vs-distributor-vs-epc/) before selecting the route.
 
 ### Luminous: a short, category-led initial enquiry
 
@@ -92,6 +84,14 @@ Luminous uses a broad `Become a Partner` form. It asks for contact and location 
 The strength is low initial form burden. A business can express interest without first completing an infrastructure or financial profile. That does not mean later due diligence is lighter. The public form does not define whether the applicant seeks a dealer, distributor, installer, or another appointment.
 
 Treat this as a contact route, not a complete programme description. Ask which role and legal entity the reply concerns before comparing it with a named dealer or distributor offer.
+
+### Qbits: a detailed first-stage business profile
+
+The Qbits form lets an applicant choose Dealer, Distributor, EPC, or System Integrator. It then asks about the legal business, GST details, warehouse, sales and technical teams, service capacity, capital, sales plan, and prior inverter experience.
+
+That depth is useful if you want to present operating capacity before the first call. It also creates more work and requests financial information earlier than the shorter forms in this comparison. The page does not publish a minimum threshold that guarantees acceptance.
+
+Its main limitation is structural. Four different roles enter one application even though their stock, customer, installation, and service responsibilities can differ substantially. Use the [dealer, distributor, EPC, and system-integrator comparison](/blog/dealer-vs-distributor-vs-epc/) before selecting the route.
 
 ### Servotech: explicit dealer and distributor choices with named support categories
 
@@ -109,14 +109,6 @@ This is the clearest operating split in this comparison. It may suit a local net
 
 It is not a like-for-like substitute for an inverter dealership. The partner does not appear to select, buy, stock, and resell an inverter line under the described model. Spectra says the agreed margin is credited after full customer payment, which creates a payment dependency that should be defined carefully in the agreement.
 
-### Waaree: a broad franchise role with visible operating scope
-
-Waaree's page addresses distributors, local dealers, and retailers, then describes Franchise Partner, Authorised Selling Point, and Retailer routes. Its franchise description spans survey, sales, installation, and service. The page also names training, marketing, and pre-sales and post-sales assistance.
-
-The strength is a visible role ecosystem rather than a single generic enquiry button. Waaree also publishes a franchise-location directory, which lets an applicant see how the network is represented publicly.
-
-The breadth creates a due-diligence question: which duties belong to the exact role being offered to you? Do not assume that a retailer, selling point, and installation franchise receive the same products, territory, tools, targets, or service obligations.
-
 ### UTL: distinct dealer, distributor, and branded retail routes
 
 UTL publishes separate Dealership and Distributorship pages plus a Solar Shoppe retail-franchise route. That makes the intended format more visible than a single all-purpose partner form.
@@ -124,6 +116,14 @@ UTL publishes separate Dealership and Distributorship pages plus a Solar Shoppe 
 The dealer and distributor pages describe channel support, while the Solar Shoppe page discusses retail presentation, local marketing, and sales, service, and installation training. This gives an applicant concrete support topics to verify.
 
 The pages are marketing-led and include several commercial claims. This comparison does not carry those figures across because a fair decision requires the full price base, stock, target, payout, return, service, and termination schedules. Request the current controlling documents for the exact route.
+
+### Waaree: a broad franchise role with visible operating scope
+
+Waaree's page addresses distributors, local dealers, and retailers, then describes Franchise Partner, Authorised Selling Point, and Retailer routes. Its franchise description spans survey, sales, installation, and service. The page also names training, marketing, and pre-sales and post-sales assistance.
+
+The strength is a visible role ecosystem rather than a single generic enquiry button. Waaree also publishes a franchise-location directory, which lets an applicant see how the network is represented publicly.
+
+The breadth creates a due-diligence question: which duties belong to the exact role being offered to you? Do not assume that a retailer, selling point, and installation franchise receive the same products, territory, tools, targets, or service obligations.
 
 ## Match the operating model before comparing benefits
 
@@ -133,7 +133,7 @@ Table: Which public route to investigate first for each intended business model
 
 | Your intended business | Public routes worth investigating first | Why |
 | --- | --- | --- |
-| Buy and resell inverter products | Qbits Dealer or Distributor, Servotech Dealership or Distributorship, UTL Dealership or Distributorship, or the relevant Luminous appointment | These routes at least begin from product-channel intent; exact stock and resale rights still need confirmation |
+| Buy and resell inverter products | The relevant Luminous appointment, Qbits Dealer or Distributor, Servotech Dealership or Distributorship, or UTL Dealership or Distributorship | These routes at least begin from product-channel intent; exact stock and resale rights still need confirmation |
 | Run a branded solar retail outlet | UTL Solar Shoppe or a relevant Waaree franchise or retail route | Both brands publish an explicit retail or franchise format |
 | Generate local project leads while another company executes | Spectra Solar channel partner | Its public model assigns technical execution to Spectra rather than the channel partner |
 | Apply once while declaring an EPC or integration role | Qbits EPC or System Integrator choice | The form explicitly allows those roles, though the commercial and technical scope remains unpublished |
@@ -187,4 +187,4 @@ If the Qbits Dealer, Distributor, EPC, or System Integrator route fits your oper
 > [!IMPORTANT] Applying is not appointment
 > Submission begins a review. It does not guarantee appointment, margin, credit, territory, leads, stock terms, or approval by a particular date.
 
-**Official sources checked 26 September 2026:** Qbits partner application; Luminous Become a Partner; Servotech Solar Dealership and Distributorship; Spectra Solar Power Channel Partner; Waaree Partner Network; and UTL Dealership, Distributorship, and Solar Shoppe pages.
+**Official sources checked 26 September 2026:** Luminous Become a Partner; Qbits partner application; Servotech Solar Dealership and Distributorship; Spectra Solar Power Channel Partner; UTL Dealership, Distributorship, and Solar Shoppe pages; and Waaree Partner Network.

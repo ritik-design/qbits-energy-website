@@ -117,11 +117,11 @@ Sources: [Sungrow SG5.0/6.0RS datasheet, version 12](https://info-support.sungro
 
 Sungrow's monitoring runs through iSolarCloud, and its datasheet lists Ethernet, WLAN and RS485 communication, 10-second real-time data refresh and an online I-V curve scan. Solis monitoring uses SolisCloud, and its datasheet lists RS485 and USB with optional Wi-Fi or GPRS. We have not tested the two platforms side by side, so this page does not rank them. Settle these questions with whoever supplies the unit:
 
-> [!CHECKLIST] Monitoring questions for the supplier
-> - Does the model need a separate logger, dongle or SIM before it reports at all?
-> - Who owns the plant account, and how is it transferred if you change installers?
-> - Is per-tracker data visible, or only plant totals?
-> - Which faults raise an alert, and who receives it?
+> [!CHECKLIST] Ask before you compare iSolarCloud and SolisCloud
+> - Does your Sungrow or Solis model need a communication module (WiNet, data logger or dongle) before it reports at all?
+> - Which account owns the plant in iSolarCloud or SolisCloud, and how is it transferred if you change installers?
+> - Does the app show per-tracker (MPPT) data, or only plant totals?
+> - Which faults raise an alert in each app, and who receives it: you, the installer or both?
 > - How long is history kept?
 
 If you manage several sites, ask each seller for a demo account and test the multi-site view yourself.

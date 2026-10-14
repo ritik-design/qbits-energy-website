@@ -191,7 +191,7 @@ Plan replacement budget for expected end of life.
 
 ## Indian market context
 
-ALMM-listed and IS 16893 certified battery packs include BMS with SOH reporting.
+The ALMM does not cover batteries, so it says nothing about SOH reporting. Check the battery pack's own certificates and datasheet to see whether its BMS reports SOH and how the figure is measured.
 
 Major Indian residential [hybrid inverter](/hybrid-inverter/) storage brands (Goodwe, Sungrow, Solis, BYD, Pylon Tech) display SOH in apps.
 
@@ -206,7 +206,7 @@ Table: Standards and documents that define SOH
 | Standard | Scope |
 |---|---|
 | IEC 61960 | Performance of lithium cells |
-| IS 16893 | Indian stationary storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | IEEE 1188 | VRLA battery maintenance |
 | Manufacturer warranty documents | SOH thresholds |
 
@@ -226,7 +226,7 @@ For how State of Health plays out in real projects, these guides go deeper:
 ## Sources
 
 - IEC 61960, Performance of lithium cells.
-- IS 16893, Indian stationary storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion).
 - IEEE 1188, VRLA maintenance.
 - Manufacturer BMS specifications from Pylon Tech, BYD, Goodwe.
 - Plett G. L., Battery Management Systems Vol II, Artech House.

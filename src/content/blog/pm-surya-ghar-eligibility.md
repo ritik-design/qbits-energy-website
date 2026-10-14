@@ -64,9 +64,11 @@ The [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) and the underlying MNRE 
 
 5. **Sanctioned load compatibility**: The DISCOM-sanctioned load (the contracted demand on your connection) must be sufficient to support the proposed system size. A residential connection with a 1 kW sanctioned load cannot host a 5 kW system without a load enhancement application first.
 
+6. **Domestic Content Requirement (DCR) modules**: The solar modules must be domestically manufactured from domestically manufactured cells. The [MNRE operational guidelines](https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/07/202407021768035484.pdf) (clause 5(m)) say that use of non-DCR modules in any form makes the installation ineligible for CFA. A consumer who chooses to forgo the CFA under the "Give It Up" option is free to use non-DCR modules (clause 5(p)). Check the exact module model against the current MNRE ALMM module lists before you sign.
+
 7. **System capacity within the eligible range**: The installed system must be between 1 kW and 10 kW for residential applications. The central subsidy applies to the first 3 kW. Systems below 1 kW or above 10 kW for a single residential connection fall outside the scheme's coverage.
 
-8. **No prior solar subsidy within seven years**: Applicants who received a central government solar subsidy under any scheme (including earlier MNRE rooftop solar programmes) within the past seven years are not eligible for a fresh subsidy on the same connection. The exact look-back period may vary slightly by state.
+8. **Central subsidy only once for an installation, and only for the balance if solar already exists**: Under the [MNRE operational guidelines](https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/07/202407021768035484.pdf) (clauses 5(n) and 5(o)), a rooftop installation is eligible for CFA only once, a system that is shifted to a new location is not eligible, and a household that already took CFA under an earlier MNRE rooftop scheme and then enlarges its system can claim only for the balance capacity up to 3 kW overall (for example, a 1 kW system already subsidised and enlarged to 4 kW can claim for the additional 2 kW). The guidelines state no seven-year look-back period.
 
 These criteria appear straightforward individually, but the grey areas (particularly around apartments, tenants, NRI-owned properties, and private DISCOM areas) create significant confusion. Each of those scenarios is addressed in dedicated sections below.
 
@@ -85,7 +87,7 @@ Before visiting a vendor or logging into the PM Surya Ghar portal, run through t
 
 4. **DISCOM Participation Gate**: Visit the PM Surya Ghar portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and check whether your state and DISCOM appear in the dropdown during the application flow. If your DISCOM is listed, clear this gate. If it does not appear, contact your DISCOM's consumer helpline to confirm participation status.
 
-5. **Prior Subsidy Gate**: Have you or any previous owner of this connection received a rooftop solar subsidy from the central government in the last seven years? If no, clear this gate and proceed. If yes, check with your DISCOM whether an upgrade application is possible, or wait until the seven-year window has elapsed.
+5. **Prior Subsidy Gate**: Have you or any previous owner of this connection already received a central rooftop solar subsidy? If no, clear this gate and proceed. If yes, ask your DISCOM and the portal what balance capacity, if any, can still claim CFA (the MNRE guidelines allow it only up to 3 kW overall, and only once per installation).
 
 > [!TIP] Run the five gates before you meet a vendor
 > Clearing all five gates takes about ten minutes and saves weeks of misdirected effort. The five-gate pass means you can confidently approach an empanelled vendor and begin the formal application process on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), or use a local solar installer directory to shortlist vetted teams near you before you commit to a quote.
@@ -110,8 +112,8 @@ Table: Eligibility status for eighteen common consumer scenarios, with the key c
 | NRI with family member as account holder | Conditional ≈ | Family member applies; POA may be required |
 | Joint property owner (co-owner) | Eligible ✓ | The co-owner whose name is on the electricity bill applies |
 | Inherited property (connection not yet transferred) | Conditional ≈ | Legal heir certificate required before application |
-| Property with existing on-grid solar (> 7 years ago) | Conditional ≈ | Upgrade eligibility subject to DISCOM approval |
-| Property with existing on-grid solar (< 7 years ago, subsidy received) | Not Eligible ✗ | Seven-year look-back period applies |
+| Property with existing subsidised solar that is being enlarged | Conditional ≈ | CFA only for the balance capacity up to 3 kW overall (MNRE guidelines clause 5(n)) |
+| Property with an existing system moved from another location | Not Eligible ✗ | A shifted or relocated system is not eligible for CFA (clause 5(o)) |
 | Property with existing off-grid solar | Eligible ✓ | Off-grid systems do not count as a prior subsidy |
 | Rural household with domestic DISCOM connection | Eligible ✓ | Must have a functional grid connection |
 | Property in private DISCOM area (BEST, CESC, TPDDL) | Conditional ≈ | Verify DISCOM's participation in the scheme |
@@ -176,9 +178,9 @@ PM Surya Ghar is a grid-connected scheme. Applicants who want to install a stand
 
 Agricultural electricity connections operate under a separate tariff regime and are not covered under PM Surya Ghar. Farmers who want rooftop solar on their residential homes may be eligible if the home has a separate domestic electricity connection, but the agricultural connection itself does not qualify.
 
-### Repeat Subsidy Recipients (Within Seven Years)
+### Repeat Subsidy Recipients
 
-A residential consumer who received any central government rooftop solar subsidy under a prior MNRE scheme within the last seven years cannot apply for PM Surya Ghar on the same connection. This applies even if the original system has since failed or been removed.
+Under the [MNRE operational guidelines](https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/07/202407021768035484.pdf), a rooftop installation is eligible for CFA only once. A household that already took CFA under an earlier MNRE rooftop scheme and later enlarges its system can claim only for the balance capacity up to 3 kW overall. The guidelines do not set a seven-year look-back, so ask your DISCOM how it records earlier subsidy on the connection.
 
 The exclusion logic matters. As [JMK Research](https://jmkresearch.com/) has noted in its analysis of rooftop solar adoption barriers, confusion about eligibility boundaries (particularly between residential and commercial tariff classifications) is one of the top reasons for application rejections and delays in DISCOM processing queues.
 
@@ -210,9 +212,9 @@ An NRI who owns property in India but does not reside there faces the Aadhaar-li
 
 ### Properties with Existing Solar
 
-A property that already has a grid-connected solar system installed more than seven years ago may be eligible to apply for an upgrade or replacement under PM Surya Ghar, subject to DISCOM approval. The existing system's capacity is considered, and the subsidy applies only to the new capacity being added or to a replacement system that resets the baseline. If a subsidy was received within seven years, the connection is ineligible.
+A property that already has a grid-connected solar system may be able to add capacity under PM Surya Ghar, subject to DISCOM approval. The existing system's capacity is considered, and under the MNRE guidelines the subsidy applies only to the balance capacity up to 3 kW overall if the earlier system took CFA.
 
-Properties with existing off-grid solar systems that were installed without any central subsidy are generally eligible to convert to a grid-connected setup under PM Surya Ghar, as the off-grid installation does not trigger the seven-year look-back. For more on the technical and compliance requirements of the inverter for such conversions, see our guide on [solar inverter certifications](/blog/solar-inverter-certifications/).
+Properties with existing off-grid solar systems that were installed without any central subsidy are generally eligible to convert to a grid-connected setup under PM Surya Ghar, as an off-grid installation that never took central subsidy is not a prior CFA installation. For more on the technical and compliance requirements of the inverter for such conversions, see our guide on [solar inverter certifications](/blog/solar-inverter-certifications/).
 
 ## State-Level Eligibility Variations
 
@@ -253,7 +255,7 @@ Applicants who fail the DISCOM inspection or see their [subsidy rejected](/blog/
 
 - **Applying as a tenant without the landlord's cooperation**: Some tenants start the application process assuming the landlord will later sign off. The application cannot progress without the electricity account holder's active participation, since OTP verification is sent to the mobile number registered with the DISCOM.
 
-- **Ignoring the seven-year prior subsidy check**: This affects inherited or purchased properties where the previous owner may have received a subsidy. A title search or direct query to the DISCOM can clarify whether the connection has a prior subsidy flag.
+- **Ignoring the prior subsidy check**: This affects inherited or purchased properties where the previous owner may have received a subsidy. A direct query to the DISCOM can clarify whether the connection has a prior subsidy record.
 
 ## Where Qbits Fits
 

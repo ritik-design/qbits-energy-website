@@ -1,6 +1,6 @@
 ---
 title: "Solar Inverter Failure: 20 Questions Answered"
-excerpt: "Inverter failures threaten project economics, a 100 kW system loses ₹15,000–₹25,000/day in outages. Here's how to detect, prevent, and respond to inverter failure in Indian conditions."
+excerpt: "Inverter failures threaten project economics, a 100 kW system loses ₹2,400–₹3,600/day in outages. Here's how to detect, prevent, and respond to inverter failure in Indian conditions."
 description: "Guide to solar inverter failure in India: early warning signs, root causes, prevention strategies, warranty claims, and financial impact."
 category: "Maintenance"
 date: 2026-03-26

@@ -20,7 +20,7 @@ faqs:
   - q: "Hybrid solar system में battery कितनी जरूरी है?"
     a: "Hybrid solar में battery optional नहीं - यही hybrid का purpose है। Battery daytime surplus solar store करती है, power cut या रात में use होती है। 4-6 hour power cut के लिए minimum 5 kWh LFP battery। 8+ hour के लिए 7.5-10 kWh। Battery के बिना hybrid inverter भी grid-off में बंद हो जाता है।"
   - q: "UP-Bihar में hybrid solar system की total cost क्या है?"
-    a: "3 kW hybrid system + 5 kWh LFP battery: ₹2.8 lakh से ₹3.5 lakh gross। PM Surya Ghar subsidy ₹78,000 (solar inverter + panels पर, battery पर नहीं)। Net cost ₹2.0-2.7 lakh। DG generator eliminate होने से additional savings - effective payback 4-6 साल।"
+    a: "3 kW hybrid system + 5 kWh LFP battery: is guide ke assumed planning range mein ₹2.8 lakh से ₹3.5 lakh gross (yeh dated quote nahi hai, apna written quotation lein)। PM Surya Ghar subsidy ₹78,000 (solar inverter + panels पर, battery पर नहीं)। Net cost ₹2.0-2.7 lakh। DG generator eliminate होने से additional savings - effective payback 4-6 साल।"
   - q: "UPPCL और BSPHCL में PM Surya Ghar subsidy कैसे मिलेगी?"
     a: "पहले PM Surya Ghar portal पर अपना state, DISCOM (UPPCL या BSPHCL) और consumer number डालकर registration और rooftop application करें। Feasibility approval के बाद DISCOM-empanelled vendor से installation कराएँ, फिर net meter और DISCOM inspection के बाद commissioning certificate के साथ bank details submit करें। Subsidy सीधे bank account में आती है। Panels ALMM List-I के होने चाहिए। Inverter के लिए MNRE कोई ALMM list नहीं देता, इसलिए exact model का BIS registration और DISCOM की requirements vendor से लिखित में confirm करें।"
   - q: "Hybrid solar battery के लिए कौन सी battery best है?"
@@ -41,7 +41,7 @@ UP और Bihar में solar का scenario बाकी India से fundam
 > [!KEYTAKEAWAYS]
 > - UP-Bihar mein daily power cut 4-10 ghante hoti hai, aur on-grid solar anti-islanding ki wajah se power cut mein automatically band ho jaata hai
 > - 4+ ghante daily outage waale areas mein hybrid solar + LFP battery on-grid se better investment hai
-> - 3 kW hybrid + 5 kWh LFP battery ki gross cost ₹2.8-3.5 lakh hai, [PM Surya Ghar subsidy](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) (sirf solar components par, battery par nahi) ke baad net cost ₹2.0-2.7 lakh
+> - 3 kW hybrid + 5 kWh LFP battery ki gross cost is guide ke assumed planning range mein ₹2.8-3.5 lakh hai (dated quote nahi), [PM Surya Ghar subsidy](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) (sirf solar components par, battery par nahi) ke baad net cost ₹2.0-2.7 lakh
 > - Payback period 4-6 saal hai, largely DG generator fuel cost eliminate hone ki wajah se
 > - [Hybrid inverter](/glossary/hybrid-inverter/) ke exact grid limits, enclosure rating, temperature range aur derating data ko current manual aur site conditions se verify karein। Ek universal voltage ya temperature number har project par apply nahi hota।
 
@@ -53,7 +53,7 @@ According to [Central Electricity Authority data](https://cea.nic.in/){target="_
 
 ### Load Shedding Data: State-wise Breakdown
 
-Table: Area-wise typical daily outage aur solar recommendation (UP-Bihar)
+Table: Area-wise indicative daily outage aur solar recommendation (UP-Bihar; yeh DISCOM-published averages nahi hain, apne feeder ke actual ghante check karein)
 
 | Area | Typical Daily Outage | Solar Recommendation |
 | --- | --- | --- |
@@ -84,9 +84,11 @@ Table: Power cut ke dauran on-grid solar aur hybrid solar + battery ka compariso
 
 ## Financial Case: The Bihar/UP Hybrid ROI
 
-### Case Study: Muzaffarpur (NBPDCL, 6 hrs daily cut)
+### Illustrative Scenario: Muzaffarpur-type Ghar (NBPDCL area, 6 hrs daily cut)
 
-Table: Muzaffarpur (NBPDCL) ka illustrative hybrid ROI, 6 ghante daily cut
+Yeh ek काल्पनिक (illustrative) scenario hai, kisi real customer ka case study nahi। Saare numbers assumed inputs hain, kisi dated quote ya listing se nahi liye gaye, isliye apna actual quotation, apna bill aur apni diesel ki kharch se replace karein।
+
+Table: Muzaffarpur-type ghar ka illustrative hybrid ROI (assumed inputs, not a quote), 6 ghante daily cut
 
 | Item | Amount |
 | --- | --- |
@@ -94,20 +96,22 @@ Table: Muzaffarpur (NBPDCL) ka illustrative hybrid ROI, 6 ghante daily cut
 | Monthly DG generator fuel | ₹2,800 |
 | Total monthly power cost | ₹4,425 |
 | **3 kW hybrid system + 5 kWh LFP battery** | |
-| Gross cost | ₹3,10,000 |
+| Gross cost (assumed, not a quote) | ₹3,10,000 |
 | PM Surya Ghar subsidy (solar only) | ₹78,000 |
 | Net investment | ₹2,32,000 |
 | Monthly solar generation (5.2 hrs × 3 kW × 0.8) | 374 units |
 | Monthly savings (bill eliminated) | ₹1,625 |
 | DG fuel eliminated | ₹2,800 |
 | Total monthly savings | ₹4,425 |
-| **Payback period** | **~52 months (4.3 years)** |
+| **Payback period** | **~52 months (4.4 years)**, 2,32,000 ÷ 4,425 = 52.4 months |
 
 Note: Bihar में 5.0-5.5 peak sun hours depending on district। Generation slightly varies।
 
-### Case Study: Gorakhpur (PVVNL, UP, 5 hrs daily cut)
+### Illustrative Scenario: Gorakhpur-type Ghar (PVVNL area, UP, 5 hrs daily cut)
 
-Table: Gorakhpur (PVVNL, UP) ka illustrative hybrid ROI, 5 ghante daily cut
+Yeh bhi ek काल्पनिक scenario hai, real customer nahi, aur numbers assumed hain।
+
+Table: Gorakhpur-type ghar ka illustrative hybrid ROI (assumed inputs, not a quote), 5 ghante daily cut
 
 | Item | Amount |
 | --- | --- |
@@ -115,11 +119,11 @@ Table: Gorakhpur (PVVNL, UP) ka illustrative hybrid ROI, 5 ghante daily cut
 | Monthly DG generator fuel | ₹2,500 |
 | Total monthly power cost | ₹4,600 |
 | 3 kW hybrid + 5 kWh LFP battery | |
-| Gross cost | ₹3,00,000 |
+| Gross cost (assumed, not a quote) | ₹3,00,000 |
 | PM Surya Ghar subsidy | ₹78,000 |
 | Net investment | ₹2,22,000 |
 | Monthly savings | ₹4,600 |
-| **Payback** | **~48 months (4 years)** |
+| **Payback** | **~48 months (4 years)**, 2,22,000 ÷ 4,600 = 48.3 months |
 
 ## PM Surya Ghar UP-Bihar Process
 

@@ -1,7 +1,7 @@
 ---
 title: "How Much Electricity Does Solar Generate in India?"
-excerpt: "How much solar energy is generated in India varies by state. Rajasthan yields 1,800–2,000 kWh/kW/year; Kerala 1,100–1,300 kWh/kW/year. Use this state-wise guide to calculate your system's output."
-description: "Solar generation in India varies by state: Rajasthan yields 1,800–2,000 kWh/kW/year, Kerala 1,100–1,300 kWh/kW/year. Estimate your output."
+excerpt: "How much solar energy is generated in India varies by state. Rajasthan yields about 1,650–1,850 kWh/kW/year and Kerala about 1,140–1,370 kWh/kW/year at a performance ratio of 0.78. Use this state-wise guide to calculate your system's output."
+description: "Solar generation in India by state: Rajasthan about 1,650–1,850 kWh/kW/year, Kerala 1,140–1,370 (PR 0.78). Use the formula to estimate your output."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-10-14
@@ -16,28 +16,28 @@ keywords:
   - solar units per day india
 faqs:
   - q: "How many units does a 1 kW solar panel generate per day in India?"
-    a: "A 1 kW solar system generates approximately 4–5 units (kWh) per day on average across most Indian states. The precise figure varies by location: Rajasthan delivers 5.5–6 units/day, Karnataka and Tamil Nadu 4.5–5 units/day, and Kerala and the north-east approximately 3.5–4.5 units/day due to monsoon cloud cover. Annual generation per kW ranges from 1,100 kWh in Kerala to 2,000 kWh in Rajasthan."
+    a: "A 1 kW solar system generates roughly 3 to 5 units (kWh) per day on average across Indian states. The precise figure varies by location: Rajasthan delivers about 4.5–5.1 units/day, Karnataka and Tamil Nadu about 3.9–4.3 units/day, and Kerala and the north-east roughly 3.0–3.8 units/day due to monsoon cloud cover (state figures from this guide's table at a performance ratio of 0.78). Annual generation per kW ranges from about 1,140 kWh in Kerala to about 1,850 kWh in Rajasthan."
   - q: "How many units does a 3 kW solar system generate per month?"
-    a: "A 3 kW solar system generates approximately 360–540 units per month depending on the state. In Rajasthan: 495–540 units/month. In Karnataka: 405–450 units/month. In Kerala: 330–390 units/month. Annual generation for a 3 kW system ranges from 4,000–5,000 kWh in mid-range states. Actual output also depends on panel orientation, tilt angle, soiling, and shading from nearby objects."
+    a: "A 3 kW solar system generates approximately 270–460 units per month depending on the state (state figures at a performance ratio of 0.78). In Rajasthan: 410–460 units/month. In Karnataka: 355–390 units/month. In Kerala: 285–345 units/month. Annual generation for a 3 kW system is roughly 4,200–5,000 kWh in mid-range states. Actual output also depends on panel orientation, tilt angle, soiling, and shading from nearby objects."
   - q: "What is peak sun hours and how does it affect solar generation?"
-    a: "Peak sun hours (PSH) is the number of hours per day during which solar irradiance equals 1,000 W per square metre - the standard test condition for panel ratings. It is not total daylight hours. Rajasthan has 5.5–6.5 PSH; Karnataka 4.8–5.5 PSH; Kerala 4.0–4.8 PSH. To estimate daily generation: multiply system kW by PSH. A 3 kW system in Bangalore with 5.2 PSH generates approximately 15.6 units per day under ideal conditions."
+    a: "Peak sun hours (PSH) is the number of hours per day during which solar irradiance equals 1,000 W per square metre - the standard test condition for panel ratings. It is not total daylight hours. Rajasthan has about 5.8–6.5 PSH; Karnataka about 5.0–5.5 PSH; Kerala about 4.0–4.8 PSH (the GHI ranges used in this guide). To estimate daily generation: multiply system kW by PSH. A 3 kW system in Bangalore with 5.2 PSH generates approximately 15.6 units per day under ideal conditions."
   - q: "How does monsoon affect solar generation in India?"
-    a: "Monsoon cloud cover reduces solar generation to 15–40% of clear-sky capacity on heavily overcast days. In Rajasthan and Gujarat, the monsoon lasts 2–3 months and has limited impact on annual yield. In Kerala, the monsoon lasts June–September (4 months) and reduces annual generation significantly - a well-sized 3 kW system may generate only 350–450 kWh total during July and August. Proper annual yield modelling should account for actual monthly irradiance data, not just clear-sky calculations."
+    a: "Monsoon cloud cover reduces solar generation to 15–40% of clear-sky capacity on heavily overcast days. In Rajasthan and Gujarat, the monsoon lasts 2–3 months and has limited impact on annual yield. In Kerala, the monsoon lasts June–September (4 months) and reduces annual generation significantly - a 3 kW system may generate only about 250–350 units a month during the monsoon months. Proper annual yield modelling should account for actual monthly irradiance data, not just clear-sky calculations."
   - q: "Does panel orientation affect how much electricity solar generates?"
     a: "Panel orientation significantly affects generation. South-facing panels at the optimal tilt angle (latitude ± 5°) deliver peak annual yield. East-facing panels lose approximately 15–20% compared to south-facing. West-facing panels lose approximately 12–18%. North-facing panels lose 30–50% and are generally not viable except in very high irradiance locations. Dual-MPPT inverters allow east and west strings to be optimised independently, recovering some of the yield lost from sub-optimal orientation."
   - q: "What is performance ratio (PR) in a solar system?"
     a: "Performance ratio (PR) is the ratio of actual system output to the theoretical output if the system operated at standard test conditions (STC) 100% of the time. A PR of 75–85% is considered good for Indian residential installations. Losses that reduce PR include inverter conversion losses (1–3%), cable resistive losses (1–2%), soiling and shading (5–15%), and temperature derating (5–10% in hot Indian climates). Higher-quality inverters with better MPPT algorithms and lower internal losses contribute to a higher PR."
   - q: "How do I calculate how many units my solar system will generate?"
-    a: "To estimate annual generation: System kW × Annual Peak Sun Hours (from state data) × Performance Ratio. Example: 5 kW system in Pune, 1,750 annual PSH equivalent, PR 0.80 = 5 × 1,750 × 0.80 = 7,000 kWh per year (583 units/month). Your installer should provide a simulation report from PVSyst or similar software using actual irradiance data for your pincode - not just a rule-of-thumb multiplier."
+    a: "To estimate annual generation: System kW × Annual Peak Sun Hours (from state data) × Performance Ratio. Example: 5 kW system in Pune, GHI 5.5 kWh/m²/day = 5.5 × 365 = about 2,008 annual peak sun hours, PR 0.80 = 5 × 2,008 × 0.80 = about 8,030 kWh per year (669 units/month). Your installer should provide a simulation report from PVSyst or similar software using actual irradiance data for your pincode - not just a rule-of-thumb multiplier."
   - q: "How much electricity does a 5 kW solar system generate in India?"
-    a: "A 5 kW solar system generates approximately 6,500–9,000 units per year depending on the state. In Rajasthan: 9,000–10,000 units/year. In Karnataka: 7,500–8,500 units/year. In Delhi: 7,000–8,000 units/year. In Kerala: 5,500–6,500 units/year. Monthly averages vary significantly - peak summer months in Rajasthan can produce 900–1,000 units/month from a 5 kW system, while July in Kerala may produce only 500–600 units."
+    a: "A 5 kW solar system generates approximately 5,400–9,250 units per year depending on the state (state figures at a performance ratio of 0.78). In Rajasthan: 8,250–9,250 units/year. In Karnataka: 7,100–7,850 units/year. In Delhi: 6,850–7,400 units/year. In Kerala: 5,700–6,850 units/year. Monthly averages vary significantly - peak summer months in Rajasthan can produce about 850–930 units/month from a 5 kW system, while monsoon months in Kerala may produce only about 420–580 units."
 ---
 
 The most fundamental question any Indian homeowner asks before investing in solar is also the most practical: how many electricity units will my system actually produce? Not in an advertisement, not on a datasheet, but on your specific rooftop in your specific state. This guide answers that question with state-by-state data, real worked examples, and a named framework for calculating your own system's expected output.
 
 > [!KEYTAKEAWAYS]
-> - Annual specific yield ranges from about 1,100 kWh/kW in Kerala to 2,000 kWh/kW in Rajasthan.
-> - A 3 kW system generates roughly 3,300-3,900 units/year in Kerala versus 5,400-6,000 units/year in Rajasthan.
+> - At a performance ratio of 0.78, annual specific yield ranges from about 1,140 kWh/kW in Kerala to 1,850 kWh/kW in Rajasthan, calculated from each state's irradiance range with the formula below.
+> - A 3 kW system generates roughly 3,420-4,110 units/year in Kerala versus 4,950-5,550 units/year in Rajasthan.
 > - Formula: Annual Yield (kWh/kW) = GHI (kWh/m²/day) x 365 x Performance Ratio (0.75-0.82).
 > - Monsoon cloud cover can cut generation to 15-40% of clear-sky output on heavily overcast days.
 > - Soiling, shading, panel degradation, and high ambient temperature all pull real output below datasheet estimates.
@@ -60,46 +60,46 @@ The net result of these three factors is the **annual specific yield**: units ge
 
 ## The State-by-State Solar Yield Table
 
-The table below shows annual specific yield for each major Indian state, based on NREL and IRENA irradiance data combined with standard system performance assumptions (PR 0.78, south-facing, optimal tilt, 400 Wp panels).
+The table below shows annual specific yield for each major Indian state, The GHI ranges are this guide's approximate state-level figures (check your pincode with NREL's PVWatts or an installer's simulation), and every yield figure is calculated from them with the formula below at PR 0.78, south-facing, optimal tilt.
 
-Table: Annual specific yield and 3 kW and 5 kW system generation by state, NREL and IRENA irradiance data with PR 0.78
+Table: Annual specific yield and 3 kW and 5 kW system generation by state, calculated as GHI × 365 × 0.78 (rounded to the nearest 10 kWh/kW)
 
 | State / Region | GHI (kWh/m²/day) | Annual Specific Yield (kWh/kW/yr) | 3 kW System Annual Generation | 5 kW System Annual Generation |
 | --- | --- | --- | --- | --- |
-| Rajasthan | 5.8–6.5 | 1,800–2,000 | 5,400–6,000 units | 9,000–10,000 units |
-| Gujarat | 5.5–6.0 | 1,700–1,900 | 5,100–5,700 units | 8,500–9,500 units |
-| Madhya Pradesh | 5.3–5.8 | 1,600–1,800 | 4,800–5,400 units | 8,000–9,000 units |
-| Maharashtra | 5.3–5.7 | 1,600–1,750 | 4,800–5,250 units | 8,000–8,750 units |
-| Karnataka | 5.0–5.5 | 1,500–1,700 | 4,500–5,100 units | 7,500–8,500 units |
-| Tamil Nadu | 5.0–5.5 | 1,500–1,700 | 4,500–5,100 units | 7,500–8,500 units |
-| Telangana/AP | 5.0–5.4 | 1,500–1,650 | 4,500–4,950 units | 7,500–8,250 units |
-| Delhi / Haryana | 4.8–5.2 | 1,400–1,600 | 4,200–4,800 units | 7,000–8,000 units |
-| UP / Bihar | 4.8–5.0 | 1,350–1,550 | 4,050–4,650 units | 6,750–7,750 units |
-| West Bengal | 4.5–5.0 | 1,300–1,500 | 3,900–4,500 units | 6,500–7,500 units |
-| Odisha | 4.5–5.0 | 1,300–1,500 | 3,900–4,500 units | 6,500–7,500 units |
-| Kerala | 4.0–4.8 | 1,100–1,300 | 3,300–3,900 units | 5,500–6,500 units |
-| Assam / NE | 3.8–4.5 | 1,000–1,200 | 3,000–3,600 units | 5,000–6,000 units |
-| Himachal Pradesh | 4.5–5.5 | 1,350–1,650 | 4,050–4,950 units | 6,750–8,250 units |
-| Punjab | 4.8–5.2 | 1,400–1,600 | 4,200–4,800 units | 7,000–8,000 units |
+| Rajasthan | 5.8–6.5 | 1,650–1,850 | 4,950–5,550 units | 8,250–9,250 units |
+| Gujarat | 5.5–6.0 | 1,570–1,710 | 4,710–5,130 units | 7,850–8,550 units |
+| Madhya Pradesh | 5.3–5.8 | 1,510–1,650 | 4,530–4,950 units | 7,550–8,250 units |
+| Maharashtra | 5.3–5.7 | 1,510–1,620 | 4,530–4,860 units | 7,550–8,100 units |
+| Karnataka | 5.0–5.5 | 1,420–1,570 | 4,260–4,710 units | 7,100–7,850 units |
+| Tamil Nadu | 5.0–5.5 | 1,420–1,570 | 4,260–4,710 units | 7,100–7,850 units |
+| Telangana/AP | 5.0–5.4 | 1,420–1,540 | 4,260–4,620 units | 7,100–7,700 units |
+| Delhi / Haryana | 4.8–5.2 | 1,370–1,480 | 4,110–4,440 units | 6,850–7,400 units |
+| UP / Bihar | 4.8–5.0 | 1,370–1,420 | 4,110–4,260 units | 6,850–7,100 units |
+| West Bengal | 4.5–5.0 | 1,280–1,420 | 3,840–4,260 units | 6,400–7,100 units |
+| Odisha | 4.5–5.0 | 1,280–1,420 | 3,840–4,260 units | 6,400–7,100 units |
+| Kerala | 4.0–4.8 | 1,140–1,370 | 3,420–4,110 units | 5,700–6,850 units |
+| Assam / NE | 3.8–4.5 | 1,080–1,280 | 3,240–3,840 units | 5,400–6,400 units |
+| Himachal Pradesh | 4.5–5.5 | 1,280–1,570 | 3,840–4,710 units | 6,400–7,850 units |
+| Punjab | 4.8–5.2 | 1,370–1,480 | 4,110–4,440 units | 6,850–7,400 units |
 
-*Source - [NREL India Solar Resource Data](https://www.nrel.gov/international/ra_india.html), 2024; [IRENA Solar Resource Atlas](https://www.irena.org/), 2025. PR assumption: 0.78.*
+*GHI ranges: approximate state-level values used in this guide, see [NREL India Solar Resource Data](https://www.nrel.gov/international/ra_india.html) for the underlying resource maps. Yields calculated as GHI × 365 × 0.78.*
 
 ```chart
 type: hbar
 title: Annual specific yield by state (kWh per kW per year), selected states
 unit: "kWh/kW/yr"
-source: "NREL India Solar Resource Data (2024) and IRENA Solar Resource Atlas (2025) as cited in the state-by-state table above; PR assumption 0.78"
+source: "Calculated in this article as GHI x 365 x 0.78 from the state GHI ranges in the table above (approximate state-level values; resource maps at NREL India Solar Resource Data)"
 sourceUrl: https://www.nrel.gov/international/ra_india.html
 note: "Bars show the range given in the table. Selected states only; see the table for all fifteen."
 data:
-  - { label: "Rajasthan", min: 1800, max: 2000 }
-  - { label: "Gujarat", min: 1700, max: 1900 }
-  - { label: "Maharashtra", min: 1600, max: 1750 }
-  - { label: "Karnataka", min: 1500, max: 1700 }
-  - { label: "Delhi / Haryana", min: 1400, max: 1600 }
-  - { label: "West Bengal", min: 1300, max: 1500 }
-  - { label: "Kerala", min: 1100, max: 1300 }
-  - { label: "Assam / NE", min: 1000, max: 1200 }
+  - { label: "Rajasthan", min: 1650, max: 1850 }
+  - { label: "Gujarat", min: 1570, max: 1710 }
+  - { label: "Maharashtra", min: 1510, max: 1620 }
+  - { label: "Karnataka", min: 1420, max: 1570 }
+  - { label: "Delhi / Haryana", min: 1370, max: 1480 }
+  - { label: "West Bengal", min: 1280, max: 1420 }
+  - { label: "Kerala", min: 1140, max: 1370 }
+  - { label: "Assam / NE", min: 1080, max: 1280 }
 ```
 
 ## The State-by-State Solar Yield Calculator
@@ -148,33 +148,33 @@ Table: Approximate monthly generation of a 3 kW system in Rajasthan
 
 In Kerala, the June–September monsoon months can produce as few as 250–350 units per month from a 3 kW system, roughly half the annual average. This seasonal variation affects net metering credit accumulation and bill management strategies.
 
-> **India added 15.4 GW of solar capacity in FY 2024–25**, bringing cumulative installed capacity to over 110 GW. Rooftop solar contributed an increasing share as PM Surya Ghar registrations accelerated. *Source - [Mercom India Q4 2025 Solar Market Report](https://www.mercomindia.com/).*
+> **171.05 GW.** India's cumulative installed solar capacity on 30 September 2026, of which 33.41 GW was grid-connected rooftop solar. *Source - MNRE capacity data as reported by [Saur Energy](https://www.saurenergy.com/solar-energy-news/india-adds-2456-gw-renewable-energy-capacity-in-h1-fy-2026-27-12637483), 8 October 2026.*
 
 ## Real Worked Examples: 3 kW, 5 kW, and 10 kW Systems
 
 **Example 1: 3 kW system in Jaipur, Rajasthan**
-- Annual specific yield: 1,900 kWh/kW/yr
-- Annual generation: 3 × 1,900 = 5,700 units
-- Monthly average: 475 units
-- At ₹7.5/unit tariff: ₹42,750/year savings
-- Self-consumption (70%): 3,990 units directly used
-- Export (30%): 1,710 units at [net metering](/glossary/net-metering/) credit
+- Annual specific yield: 1,750 kWh/kW/yr (middle of the Rajasthan range in the table)
+- Annual generation: 3 × 1,750 = 5,250 units
+- Monthly average: 438 units
+- At an assumed ₹7.5/unit tariff: ₹39,375/year savings
+- Self-consumption (70%, assumed): 3,675 units directly used
+- Export (30%): 1,575 units at [net metering](/glossary/net-metering/) credit
 
 **Example 2: 5 kW system in Bengaluru, Karnataka**
-- Annual specific yield: 1,600 kWh/kW/yr
-- Annual generation: 5 × 1,600 = 8,000 units
-- Monthly average: 667 units
-- At ₹8/unit tariff: ₹64,000/year savings
-- Self-consumption (65%): 5,200 units directly used
-- Export (35%): 2,800 units at net metering credit
+- Annual specific yield: 1,500 kWh/kW/yr (middle of the Karnataka range in the table)
+- Annual generation: 5 × 1,500 = 7,500 units
+- Monthly average: 625 units
+- At an assumed ₹8/unit tariff: ₹60,000/year savings
+- Self-consumption (65%, assumed): 4,875 units directly used
+- Export (35%): 2,625 units at net metering credit
 
 **Example 3: 10 kW system in Pune, Maharashtra**
-- Annual specific yield: 1,700 kWh/kW/yr
-- Annual generation: 10 × 1,700 = 17,000 units
-- Monthly average: 1,417 units
-- At ₹9/unit tariff: ₹1,53,000/year savings
-- Self-consumption (60%): 10,200 units directly used
-- Export (40%): 6,800 units at net metering credit
+- Annual specific yield: 1,560 kWh/kW/yr (middle of the Maharashtra range in the table)
+- Annual generation: 10 × 1,560 = 15,600 units
+- Monthly average: 1,300 units
+- At an assumed ₹9/unit tariff: ₹1,40,400/year savings
+- Self-consumption (60%, assumed): 9,360 units directly used
+- Export (40%): 6,240 units at net metering credit
 
 The self-consumption ratio matters because exported units typically earn a lower return than directly consumed units in most net metering structures. Maximising self-consumption through load scheduling (running high-consumption appliances during the day) improves overall financial return.
 
@@ -200,7 +200,7 @@ Every reputable solar installer should provide a **Detailed Project Report (DPR)
 > - Shading analysis if any obstruction exists
 
 > [!TIP] Spot a lazy installer estimate
-> If an installer quotes only the annual total without monthly breakdown, or uses a round-number multiplier like "1 kW = 5 units/day" for Kerala without qualification, that is a warning sign. Kerala's actual output is closer to 3.5–4.5 units/kW/day, 15–25% below a simplified national average.
+> If an installer quotes only the annual total without monthly breakdown, or uses a round-number multiplier like "1 kW = 5 units/day" for Kerala without qualification, that is a warning sign. Kerala's calculated output in this guide is closer to 3.1–3.8 units/kW/day, well below a simplified national average.
 
 The [string sizing calculator](/string-sizing-calculator/) helps you verify whether the quoted panel and inverter combination is correctly matched for your state's irradiance profile.
 

@@ -23,7 +23,7 @@ faqs:
   - q: "How much electricity does a marriage hall use per event?"
     a: "A wedding hall hosting a full-day function typically consumes 500 to 2,000 units in a single day, with HVAC accounting for 50 to 70 percent of that load, according to Tristar Green Energy Solutions (2026). On non-event days, the same hall still draws 50 to 150 units for security lighting, office loads, and kitchen preparation. Annual consumption for an active hall commonly falls between 80,000 and 2,50,000 units."
   - q: "What is the payback period for solar on a banquet hall?"
-    a: "At commercial tariffs of Rs 8 to 12 per unit, a 100 kW system costing Rs 45 to 55 lakh typically saves Rs 12 to 16 lakh per year, giving a payback of 3.5 to 4.5 years. Halls replacing diesel generation see faster payback because diesel power costs Rs 22 to 28 per unit. After payback, the system delivers 20 or more years of near-free electricity with only cleaning and inverter maintenance costs."
+    a: "At commercial tariffs of Rs 8 to 12 per unit, a 100 kW system costing Rs 45 to 55 lakh typically saves Rs 12 to 16 lakh per year, giving a payback of 3.5 to 4.5 years. Halls replacing diesel generation see faster payback because diesel power costs about Rs 26 to 30 per unit. After payback, the system delivers 20 or more years of near-free electricity with only cleaning and inverter maintenance costs."
   - q: "Do banquet halls get any government subsidy for solar?"
     a: "No. The PM Surya Ghar Muft Bijli Yojana central subsidy applies only to residential rooftop systems, not commercial establishments like banquet halls. Commercial owners instead benefit from accelerated depreciation of 40 percent on the solar asset under the Income Tax Act, which improves effective returns in the first two years. Some states also offer exemptions on electricity duty or open access charges for captive solar."
   - q: "Is net metering allowed for commercial connections in India?"
@@ -117,7 +117,7 @@ The practical design is to back up only lighting, sound, and essential circuits,
 
 ### Option 3: DG hybridization (solar synchronized with your generator)
 
-Most banquet halls already own a 62.5 to 200 kVA diesel generator. Diesel generation costs Rs 22 to 28 per unit once fuel and maintenance are counted (industry-observed range, 2026). A solar-DG synchronization controller lets the solar plant keep running during outages, with the generator throttled down to minimum loading. Every solar unit generated during a cut displaces a diesel unit worth four to five times more.
+Most banquet halls already own a 62.5 to 200 kVA diesel generator. Diesel generation costs about Rs 26 to 30 per unit once fuel and maintenance are counted (diesel at Rs 95 to 104 per litre on 14 October 2026, per [CarDekho](https://www.cardekho.com/diesel-price), at 3.5 to 4.0 units per litre, plus Rs 1 to 1.5 per unit for maintenance). A solar-DG synchronization controller lets the solar plant keep running during outages, with the generator throttled down to minimum loading. Every solar unit generated during a cut displaces a diesel unit worth about three times the Rs 9.50 blended tariff used in the example below.
 
 This architecture suits halls in Tier-2 and Tier-3 cities with unreliable grids and multi-hour outages during wedding season. The [solar vs diesel generator](/blog/solar-vs-diesel-generator-india/) analysis compares the two on cost per unit over ten years.
 
@@ -178,7 +178,7 @@ Table: Illustrative payback for a 100 kW on-grid system at a mid-size hall
 | Effective payback with depreciation (Rs 48,00,000 minus Rs 5,76,000, divided by Rs 12,11,250) | about 3.5 years |
 | 25-year lifetime savings (with 4% annual tariff escalation) | Rs 4.5 to 5.5 crore |
 
-If the hall runs its diesel generator 100 hours a year, solar-DG sync can displace 40 units per running hour. That adds roughly Rs 1 lakh per year in avoided diesel cost at Rs 25 per unit. For the full financial model across tariff bands, see the [solar IRR and payback guide for C&I](/blog/solar-irr-payback-ci-india/). Financing matters too. At current C&I solar loan rates, the EMI can run below the monthly savings from year one. The [solar loan for business and MSME](/blog/solar-loan-for-business-msme/) post shows how that makes a project cash-flow positive without full upfront capital.
+If the hall runs its diesel generator 100 hours a year, solar-DG sync can displace 40 units per running hour. That adds roughly Rs 1.1 lakh per year in avoided diesel cost at about Rs 28 per unit (4,000 units × Rs 28). For the full financial model across tariff bands, see the [solar IRR and payback guide for C&I](/blog/solar-irr-payback-ci-india/). Financing matters too. At current C&I solar loan rates, the EMI can run below the monthly savings from year one. The [solar loan for business and MSME](/blog/solar-loan-for-business-msme/) post shows how that makes a project cash-flow positive without full upfront capital.
 
 India's broader solar momentum supports this segment. The country added about 24 GW of solar in 2024-25, according to [MNRE](https://mnre.gov.in/) (2025). Commercial rooftop is among the fastest growing categories.
 
@@ -221,4 +221,5 @@ Three actions to take this month:
 
 - Pull your last 12 electricity bills and compute your blended per-unit rate and annual units. That tells you the system size and the savings ceiling.
 - Confirm your DISCOM's current net metering or gross metering rule for your connection category before talking to any installer.
+- Ask at least three installers for itemised, model-specific quotations, and compare them line by line on the equipment named, the cost per unit generated, and the written warranty and service terms before you sign.
 

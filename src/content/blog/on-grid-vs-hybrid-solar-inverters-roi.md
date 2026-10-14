@@ -16,11 +16,11 @@ keywords:
   - net metering India
 faqs:
   - q: "Which is cheaper - on-grid or hybrid solar inverter?"
-    a: "On-grid is significantly cheaper. A 5 kW on-grid inverter costs ₹30,000–₹60,000, while a 5 kW hybrid inverter costs ₹75,000–₹1,50,000 - and that's before adding battery storage at ₹12,000–₹18,000 per kWh for lithium-ion."
+    a: "On-grid is cheaper. Public listings seen on 14 October 2026 put a 5 kW single-phase on-grid inverter (Growatt MIN 5000TL-X) at ₹29,320 to ₹41,709 (mostly dealer prices before tax; ₹41,709 includes GST), while 5 kW hybrid inverter listings ran from ₹63,899 to ₹1,35,888 - and that is before adding battery storage (a Deye 5.12 kWh lithium battery was listed at ₹1,23,000, about ₹24,000 per nominal kWh). These are dated listings, not quotes."
   - q: "When does a hybrid system make financial sense?"
     a: "Hybrid systems deliver superior value where grid outages are frequent (more than ~10 hours per month), where net metering terms are unfavourable, in time-of-use tariff regions, or where critical loads cannot tolerate any interruption (data centres, hospitals, cold storage)."
   - q: "What is the typical payback period for an on-grid solar system in India?"
-    a: "A 5 kW residential on-grid system at ₹7/unit retail tariff typically pays back in approximately 5.4 years. Commercial systems with higher tariffs (₹8–₹10/unit) often see payback in 3.5–4 years."
+    a: "In this guide's worked example, a 5 kW residential on-grid system at an assumed ₹7/unit tariff and an assumed ₹2,75,000 system cost pays back in about 5.4 years. A commercial system at a higher assumed tariff (₹8/unit) comes to about 3.75 years in the example below. Both are arithmetic on assumed inputs, not measured results; use your own quotation and tariff."
   - q: "Do hybrid inverters work without batteries?"
     a: "Yes. Most hybrid inverters can operate in grid-tied mode without batteries, with the option to add storage later. This 'battery-ready' approach lets clients spread the investment over time."
   - q: "How long do solar batteries last?"
@@ -30,15 +30,15 @@ faqs:
 Choosing between on-grid and hybrid solar inverters represents one of the most critical decisions for solar EPCs and distributors serving the Indian market in 2026. This choice directly impacts your client's return on investment, system reliability, and long-term satisfaction.
 
 > [!KEYTAKEAWAYS]
-> - On-grid is significantly cheaper: this guide's planning range is ₹30,000-60,000 for a 5 kW on-grid inverter, versus ₹75,000-1,50,000 for a 5 kW hybrid before batteries. Dated public listings for 5 kW hybrids, checked 14 October 2026, ran from ₹63,899 to ₹1,35,888.
-> - A 5 kW residential on-grid system typically pays back in about 5.4 years; commercial systems with higher tariffs pay back in 3.5-4 years.
+> - On-grid is cheaper: public listings seen on 14 October 2026 put a 5 kW single-phase on-grid inverter at about ₹29,000 to ₹42,000, versus ₹63,899 to ₹1,35,888 for 5 kW hybrid inverters, before batteries.
+> - In the worked examples below, a 5 kW residential on-grid system pays back in about 5.4 years and a 100 kW commercial system in 3.75 years. Both use assumed system costs and tariffs, so replace them with your own quotation.
 > - Hybrid wins where outages exceed roughly 10 hours per month, [net metering](https://www.heavengreenenergy.com/blog/net-metering-how-solar-panels-give-back-to-the-grid) terms are weak, tariffs are time-of-use, or loads cannot tolerate any interruption.
 > - Lithium-ion batteries last 10-15 years with one replacement over a 25-year system life; lead-acid needs 5-6 replacements over the same span.
-> - Peak shaving with hybrid battery storage can cut commercial demand charges by 20-30%.
+> - Peak shaving with hybrid battery storage can reduce commercial demand charges; the saving depends on your tariff and load profile.
 > - Areas with fewer than 10 hours of monthly outages generally favour on-grid; heavier or evening-peak loads favour hybrid.
 
-> [!WARNING] The prices below are planning assumptions, not quotes
-> The ranges in this guide are planning figures used to compare the two topologies, not a dated price survey, and none is a Qbits price (Qbits is quote-only). Dated public listings checked 14 October 2026, as compiled in the [5 kW hybrid inverter price guide](/blog/5kw-hybrid-inverter-price-india/): named 5 kW hybrid inverters ₹63,899 to ₹1,35,888; a Deye SE-F5 PLUS 5.12 kWh lithium battery ₹1,23,000, about ₹24,000 per nominal kWh and above the ₹12,000-₹18,000 per kWh assumed below; a Luminous 150 Ah tubular battery ₹17,999. Replace any figure here with a dated written quotation before you decide.
+> [!WARNING] Listed prices are dated reference points; worked-example costs are assumptions
+> The price tables below show public listings seen on 14 October 2026 and none is a Qbits price (Qbits is quote-only). Installed-system totals have no dated source here, so the worked examples use stated assumed costs for illustration only. Hybrid listings and batteries come from the [5 kW hybrid inverter price guide](/blog/5kw-hybrid-inverter-price-india/) (Deye SE-F5 PLUS 5.12 kWh lithium battery ₹1,23,000, about ₹24,000 per nominal kWh; Luminous 150 Ah tubular battery ₹17,999). Replace any figure here with a dated written quotation before you decide.
 
 ## Understanding On-Grid and Hybrid Solar Inverter Technologies
 
@@ -58,54 +58,39 @@ Table: Architecture differences between on-grid and hybrid inverters
 | --- | --- | --- |
 | Conversion stages | Single-stage (DC→AC) | Dual-stage (DC→DC, DC↔AC bidirectional) |
 | Battery support | None | Integrated [BMS](/glossary/bms/) communication |
-| Outage operation | Shuts down ([anti-islanding](/glossary/anti-islanding/)) | Seamless switch to battery (<10 ms) |
+| Outage operation | Shuts down ([anti-islanding](/glossary/anti-islanding/)) | Switches to battery (switchover time per model datasheet) |
 | Operating modes | Grid-tied only | Grid-tied, battery backup, off-grid |
 
 ## Upfront Cost Analysis: On-Grid vs Hybrid
 
 ### On-Grid Inverter Pricing
 
-Table: On-grid inverter planning price per kW, by segment (planning assumption, not a quote)
+Table: Listed prices of 5 kW single-phase on-grid inverters, seen 14 October 2026 (equipment only, not a quote, not a ranking)
 
-| Segment | Price per kW |
-| --- | --- |
-| Residential (1–10 kW) | ₹6,000–₹12,000 |
-| Commercial (10–100 kW) | ₹5,000–₹9,000 |
+| Listing | Listed price | Note |
+| --- | --- | --- |
+| [Growatt MIN 5000TL-X, Moglix](https://www.moglix.com/growatt-7000w-5000va-single-phase-solar-inverter-min-5000tl-x/mp/msno5wndve8r51) | ₹41,709 | Includes GST (₹39,722 + ₹1,987); MRP ₹43,700; "available on request" |
+| [Growatt MIN 5000TL-X, N M Power (IndiaMART)](https://www.indiamart.com/proddetail/growatt-solar-grid-inverter-5kw-5000-tl-x-23123777091.html) | ₹29,320 | Dealer listing; tax treatment not stated |
+| [Growatt MIN 5000TL-X, Power Plus Trading (IndiaMART)](https://www.indiamart.com/proddetail/growatt-grid-tie-on-grid-solar-inverter-5kw-25923037348.html) | ₹31,500 | Dealer listing; tax treatment not stated |
+| [Solis S6-GR1P5K-S, Ahmedabad supplier (IndiaMART)](https://www.indiamart.com/proddetail/solis-solar-inverter-on-grid-5kw-1ph-s6-gr1p5k-s-2854312585833.html) | ₹29,700 | Dealer listing; tax treatment not stated |
 
-A standard 5 kW residential inverter alone costs **₹30,000–₹60,000**.
+The IndiaMART prices were read from search-result listings on 14 October 2026 (the pages themselves rate-limited a direct read), so treat them as indicative. Dealer prices change by city and quantity and may exclude GST; the same inverter model can differ by several thousand rupees between a dealer and a retailer. No dated source was found for per-kW prices of commercial (10 to 100 kW) inverters, so none is quoted.
 
 ### Hybrid Inverter Pricing
 
-Table: Hybrid inverter and battery planning prices (planning assumption; see the dated listings in the warning above)
+Table: Hybrid inverter and battery listed prices, seen 14 October 2026 (from the 5 kW hybrid inverter price guide; not a quote)
 
-| Component | Cost |
-| --- | --- |
-| Hybrid inverter (5 kW) | ₹75,000–₹1,50,000 |
-| Lithium-ion battery (per kWh) | ₹12,000–₹18,000 |
-| Lead-acid battery (per kWh) | ₹8,000–₹12,000 |
+| Component | Listed price | Basis |
+| --- | --- | --- |
+| Hybrid inverter (5 kW), named listings | ₹63,899 to ₹1,35,888 | Luminous Solar Hybrid TX 5 kVA to Deye SUN-5K-SG04LP1-EU; different batteries, MPPT counts and warranty wording |
+| Lithium-ion battery | ₹1,23,000 for 5.12 kWh, about ₹24,000 per nominal kWh | Deye SE-F5 PLUS listing; per-kWh figure calculated here as 1,23,000 ÷ 5.12 |
+| Lead-acid battery | ₹17,999 for 150 Ah 12 V, about ₹10,000 per nominal kWh | Luminous tubular listing; calculated as 17,999 ÷ 1.8 kWh (150 Ah × 12 V); usable capacity is lower |
 
-A typical 10 kWh lithium battery adds **₹1,20,000–₹1,80,000**.
+At the listed Deye price per kWh, a 10 kWh lithium battery would cost roughly ₹2,40,000 (calculated). Battery prices vary by chemistry, brand and warranty; ask for a dated written quote.
 
 ### Total System Cost Comparison
 
-**5 kW residential installation:**
-
-Table: Total system cost for a 5 kW residential installation, by configuration (planning range)
-
-| Configuration | Total cost |
-| --- | --- |
-| On-grid system | ₹2,50,000–₹3,00,000 |
-| Hybrid (no batteries) | ₹2,90,000–₹3,50,000 |
-| Hybrid + 10 kWh lithium | ₹4,10,000–₹5,30,000 |
-
-**50 kW commercial installation:**
-
-Table: Total system cost for a 50 kW commercial installation, by configuration (planning range)
-
-| Configuration | Total cost |
-| --- | --- |
-| On-grid system | ₹22,00,000–₹28,00,000 |
-| Hybrid + 50 kWh storage | ₹32,00,000–₹42,00,000 |
+This guide does not quote installed-system totals for 5 kW or 50 kW projects, because no dated source supports a single range. Installed price depends on panels, structure, wiring, labour and local DISCOM costs, and one listing cannot stand in for it. For sourced lines, see the [5 kW solar system price guide](/blog/5kw-solar-system-price-india/); for the subsidy basis, see the MNRE residential guidelines it cites. The worked examples below use stated assumed costs purely to show the arithmetic.
 
 ## Long-Term ROI Comparison
 
@@ -114,17 +99,17 @@ Table: Total system cost for a 50 kW commercial installation, by configuration (
 > [!EXAMPLE] 5 kW on-grid ROI
 > A typical 5 kW residential on-grid system generating 20 units/day (7,300 units/year) at ₹7/unit saves **₹51,100 annually**. At a system cost of ₹2,75,000, the simple [payback period](/glossary/payback-period/) is approximately **5.4 years**. Over 25 years, total savings exceed **₹12,75,000**: an ROI of over **360%**.
 
-The ₹2,75,000 system cost is the midpoint of the planning range above. For a state-by-state breakdown of how payback shifts with local tariffs, see [solar inverter payback period in India](/blog/solar-inverter-payback-period/).
+The ₹2,75,000 system cost is an assumed input for illustration, not a market price. For a state-by-state breakdown of how payback shifts with local tariffs, see [solar inverter payback period in India](/blog/solar-inverter-payback-period/).
 
 ### Hybrid System ROI
 
-The same 5 kW system configured as hybrid with 10 kWh battery storage costs ₹4,60,000. The additional financial benefits include:
+Assume the same 5 kW system configured as hybrid with 10 kWh battery storage costs ₹4,60,000 (an assumed input, not a market price). The additional financial benefits include:
 
-- Backup power eliminating diesel generator costs (₹15–₹20 per generated unit)
+- Backup power eliminating diesel generator costs (fuel-only about ₹26 to ₹31 per unit, from diesel at roughly ₹92 to ₹98 per litre and 3.2 to 3.6 kWh per litre, as worked out in the [rice mill solar guide](/blog/solar-for-rice-mill-india/))
 - Time-of-use optimisation in TOU tariff regions
 - Reduced grid dependency
 
-For a 50 kW commercial installation with TOU tariffs, peak-shifting strategies deliver **₹1,50,000–₹2,00,000 additional savings annually**.
+For a commercial installation with TOU tariffs, peak-shifting can add savings; the amount depends on the tariff schedule and load profile, so model it from your own bills.
 
 ### Maintenance and Replacement Costs
 
@@ -132,21 +117,19 @@ Table: Maintenance and battery replacement costs, on-grid vs hybrid
 
 | Item | On-grid | Hybrid |
 | --- | --- | --- |
-| Annual maintenance | ₹3,000–₹5,000 | ₹5,000–₹8,000 |
 | Battery replacements (25 yr life) | None | 1 (lithium) or 5–6 (lead-acid) |
-| Lithium replacement cost | - | ₹1,20,000–₹1,80,000 |
+| Annual maintenance and replacement cost | No dated source; ask for a written AMC quote | No dated source; ask for a written AMC quote and battery replacement price |
 
-Battery costs are expected to drop **30–40% by 2030** (an unsourced industry expectation, not used in any calculation here).
 
 ## Grid Dependency and Power Backup
 
 ### On-Grid Limitations
 
-When the grid goes down, on-grid inverters immediately shut down due to **anti-islanding protection**. In regions with frequent power cuts, businesses often rely on diesel generators at **₹15–₹20 per unit generated**: spending **₹50,000–₹1,00,000 annually** on backup.
+When the grid goes down, on-grid inverters immediately shut down due to **anti-islanding protection**. In regions with frequent power cuts, businesses often rely on diesel generators, whose fuel alone costs about **₹26 to ₹31 per unit generated** (diesel at roughly ₹92 to ₹98 per litre, 3.2 to 3.6 kWh per litre).
 
 ### Hybrid Backup Capabilities
 
-Hybrid inverters seamlessly switch to battery backup in **under 10 milliseconds**. A 10 kWh battery system can power:
+Hybrid inverters switch to battery backup when the grid fails; the switchover time differs by model, so read it from the exact datasheet. A 10 kWh battery system can power:
 
 - **Essential loads (refrigerator, fans, lights, internet):** 4–6 hours
 - **Critical loads only:** 8–12 hours
@@ -197,7 +180,7 @@ A commercial facility generating peak solar at midday but consuming peak in the 
 - **Budget-conscious** homeowners
 - **High daytime consumption**
 
-**Example:** 5 kW on-grid for a Mumbai apartment. ₹2,75,000 system, ~5.4 year payback.
+**Example:** 5 kW on-grid for a Mumbai apartment. Assumed ₹2,75,000 system cost, ~5.4 year payback.
 
 ### When Hybrid Wins
 
@@ -207,7 +190,7 @@ A commercial facility generating peak solar at midday but consuming peak in the 
 - **Evening-peak consumption** patterns
 - **Future-proofing** for long-term residence
 
-**Example:** 5 kW hybrid + 10 kWh battery for a Bangalore villa with 1–2 hours of daily cuts. ₹4,60,000 system eliminates diesel costs (~₹20,000/year saved).
+**Example:** 5 kW hybrid + 10 kWh battery for a Bangalore villa with 1–2 hours of daily cuts. an assumed ₹4,60,000 system removes the diesel cost of the outage hours (fuel-only about ₹26 to ₹31 per unit generated).
 
 ## Ideal Use Cases: Commercial & Industrial
 
@@ -218,23 +201,23 @@ A commercial facility generating peak solar at midday but consuming peak in the 
 - Large-scale (above 100 kW)
 - Open-access power agreements
 
-**Example:** 100 kW on-grid for a manufacturing facility. ₹45,00,000 system generates 1,50,000 units/year, saves ₹12,00,000/year at ₹8/unit - **3.75-year payback**. Industrial EPCs sizing similar projects can reference Heaven Green Energy's industrial solar installation framework for turnkey execution on facilities at this scale.
+**Example:** 100 kW on-grid for a manufacturing facility. Assumed ₹45,00,000 system generates 1,50,000 units/year, saves ₹12,00,000/year at an assumed ₹8/unit - **3.75-year payback** (45,00,000 ÷ 12,00,000). Industrial EPCs sizing similar projects can reference Heaven Green Energy's industrial solar installation framework for turnkey execution on facilities at this scale.
 
 ### When Hybrid Wins
 
 - **Critical operations**: data centres, hospitals, cold storage
-- **Demand-charge optimisation**: peak shaving cuts demand charges 20–30%
+- **Demand-charge optimisation**: peak shaving can reduce demand charges
 - **Grid instability** with frequent outages
 - **24/7 operations**
 - **Diesel generator replacement**
 
-**Example:** 50 kW hybrid + 100 kWh storage for a hospital. ₹42,00,000 system eliminates diesel (~₹3,00,000/year) and cuts demand charges (~₹1,50,000/year), combined savings of ₹4,50,000/year, payback under 10 years.
+**Example:** 50 kW hybrid + 100 kWh storage for a hospital. Assuming a ₹42,00,000 system, diesel savings of ₹3,00,000/year and demand-charge savings of ₹1,50,000/year (all assumed inputs, not measured), combined savings of ₹4,50,000/year give a simple payback of about 9.3 years (42,00,000 ÷ 4,50,000).
 
 ### Demand Charge Management
 
-Demand charges are 30–50% of commercial bills in India, based on the highest 15-minute average power demand in the billing period.
+Demand charges are billed on the highest average power demand in the billing period (the averaging window, often 15 or 30 minutes, is set by each DISCOM's tariff order).
 
-Peak shaving with battery storage can reduce demand charges by **20–30%**. For a 200 kW facility paying ₹400/kVA monthly, reducing peak demand by 50 kW saves **₹20,000/month or ₹2,40,000/year**.
+Peak shaving with battery storage can reduce the billed demand. As an assumed example, for a facility paying ₹400/kVA monthly, reducing peak demand by 50 kVA saves **₹20,000/month or ₹2,40,000/year** (50 × 400 × 12).
 
 ## Technical Performance Comparison
 

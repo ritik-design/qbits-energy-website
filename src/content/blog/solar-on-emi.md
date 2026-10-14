@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter on EMI: 6 Finance Options"
-excerpt: "Solar inverter on EMI is available through six paths, bank loans, IREDA, NBFCs, no-cost credit cards, RESCO, and PM Surya Ghar concessional loans. Compare all options here."
-description: "Buying solar on EMI in India: 6 financing paths compared, rate table, 3 kW EMI calculator, and the Solar Finance Decision Tree framework."
+excerpt: "Solar on EMI in India has six routes: bank PM Surya Ghar loans, personal loans, IREDA (business only), NBFCs, no-cost credit card EMI and RESCO. SBI's own page lists 5.75% to 7.90%; worked EMI examples inside."
+description: "Buying solar on EMI in India: six finance routes compared, SBI's 5.75% and 7.90% PM Surya Ghar rates, EMI examples and a decision tree."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-10-14
@@ -13,59 +13,59 @@ keywords:
   - solar system on emi india
   - solar loan india 2026
   - ireda solar loan
-  - pm surya ghar concessional loan
+  - pm surya ghar loan
 faqs:
   - q: "Can I buy a solar inverter and system on EMI in India?"
-    a: "Yes. Indian homeowners have at least six routes to finance a solar system on EMI: (1) bank term loans from SBI, PNB, Bank of Baroda, HDFC, or Axis at 9–12% per annum; (2) IREDA concessional loans at 7–9%; (3) NBFC solar loans from Tata Capital, Bajaj Finance, or L&T Finance at 12–16%; (4) no-cost EMI on select credit cards for 3–12 months; (5) the RESCO model where a developer owns the system and bills you monthly; and (6) the PM Surya Ghar concessional loan scheme linked to the central subsidy programme. The right choice depends on your credit score, income documents, and whether you qualify for the government scheme."
+    a: "Yes. Indian homeowners have at least six routes to finance a solar system on EMI: (1) a bank's PM Surya Ghar rooftop-solar loan, such as SBI's Surya Ghar loan, whose own page lists 5.75% per annum up to ₹2 lakh and 7.90% per annum above ₹2 lakh up to ₹6 lakh (as on 15 December 2025, read 14 October 2026); (2) a bank personal loan, such as HDFC Bank's, advertised from 9.99% (HDFC has no solar-specific product); (3) IREDA, whose published rooftop solar scheme is for industrial, commercial and institutional borrowers, not households; (4) NBFC solar loans, for which this guide quotes no rate because no NBFC page was read; (5) no-cost EMI on select credit cards; and (6) the RESCO model where a developer owns the system and bills you. The right choice depends on your credit profile, income documents and the loan size."
   - q: "What is the minimum monthly EMI for a 3 kW solar system in India?"
-    a: "A 3 kW solar system costs approximately ₹1.2–1.8 lakh after subsidy, with a post-subsidy mid-point of roughly ₹1.5 lakh. At 7% interest over 10 years, the monthly EMI is approximately ₹1,742. At 12% over 7 years, the EMI rises to approximately ₹2,648. Since a well-installed 3 kW system saves ₹2,500–₹4,000 per month in most Indian states, the EMI is typically lower than the monthly electricity savings - meaning solar finances itself from the very first month."
+    a: "The EMI depends on the loan amount and the rate, not on the kilowatt size alone, and your quotation sets the amount. As a calculated example with an assumed loan of ₹1,50,000 (an illustration, not a market price): at SBI's published 5.75% over 10 years the EMI is about ₹1,647, and at HDFC's advertised 9.99% over 7 years it is about ₹2,489 (EMI = P·r(1+r)^n / ((1+r)^n − 1)). Whether the EMI is lower than your electricity saving depends on your own tariff and consumption, so compare it with your own bills."
   - q: "Which bank gives the cheapest solar loan in India?"
-    a: "IREDA - the Indian Renewable Energy Development Agency - consistently offers the lowest rates for residential and small commercial solar loans, ranging from 7% to 9% per annum with tenures up to 10–15 years and government-backed security. Among commercial banks, SBI's Solar Green Home Loan scheme typically comes next at 9–10.5%, followed by PNB and Bank of Baroda. NBFC rates are higher (12–16%) but offer faster disbursals with minimal paperwork."
+    a: "Of the pages we read on 14 October 2026, SBI publishes the lowest rate for a homeowner: 5.75% per annum up to ₹2 lakh and 7.90% above ₹2 lakh up to ₹6 lakh on its Surya Ghar loan page (rates as on 15 December 2025, floating). IREDA does not lend to households on its published schemes, so it is not a cheaper alternative for a homeowner. HDFC Bank's Personal Loan is advertised from 9.99%. We quote no rate for other banks or NBFCs because we did not read their pages; check each lender's own page and ask for the rate in writing."
   - q: "Is the RESCO model a good option for a home?"
-    a: "The RESCO model - where a developer installs panels at no upfront cost and bills you per unit consumed or charges a fixed monthly fee - is primarily designed for commercial and industrial buyers. For residential use, RESCO is rarely available because the contract sizes (typically 50 kW and above) make it unviable for a 3–5 kW home system. Homeowners are better served by bank loans or the PM Surya Ghar concessional scheme, both of which allow full ownership and subsidy eligibility from day one."
+    a: "The RESCO model, where a developer installs panels at no upfront cost and bills you per unit consumed or charges a fixed monthly fee, is mainly designed for commercial and industrial buyers. For a 3 to 5 kW home system the contract is usually too small to interest a developer, and because you do not own the system you cannot claim the PM Surya Ghar subsidy. Homeowners are usually better served by a bank loan, which keeps ownership and subsidy eligibility with you."
   - q: "Can I get no-cost EMI on solar panels and inverters?"
-    a: "No-cost EMI on solar equipment is available through select credit card issuers and a few fintech lenders, but it is limited to smaller purchase amounts - typically under ₹1.5 lakh - and short tenures of 3 to 12 months. Most full home solar systems cost ₹1.5–3 lakh after subsidy, which is at the upper edge of no-cost EMI eligibility. The true cost of no-cost EMI is built into the product price (the merchant absorbs the bank's fee), so negotiate the equipment price independently before opting in."
+    a: "No-cost EMI on solar equipment is offered by some card issuers and retailers, usually for smaller purchases and short tenures set in the offer. The cost is rarely zero: the merchant's fee for the bank may be built into the product price, so negotiate the equipment price independently before opting in, and read what happens to the interest if a payment is missed."
   - q: "Does taking a solar loan affect my PM Surya Ghar subsidy eligibility?"
-    a: "No. Taking a loan to finance your solar system does not affect your eligibility for PM Surya Ghar subsidy. The subsidy - ₹78,000 maximum for a 3 kW system - is disbursed directly to your bank account after installation is verified by your DISCOM. You can use the subsidy amount to prepay a portion of your loan principal, effectively reducing your outstanding EMI burden. Many lenders structure the loan with a provision for this post-disbursement prepayment."
+    a: "No. Taking a loan does not affect eligibility for the PM Surya Ghar subsidy. The central subsidy (₹30,000 for 1 kW, ₹60,000 for 2 kW and ₹78,000 for 3 kW and above, per SBI's page) is credited after installation and DISCOM verification, so you normally fund the project through the loan first and then use the subsidy to prepay principal. SBI's page lists no prepayment penalty; ask any other lender in writing."
   - q: "What documents are required for a solar loan in India?"
-    a: "Typical documentation includes Aadhaar card, PAN card, latest three months' salary slips or two years' ITR for self-employed applicants, three to six months' bank statements, the solar installer's quotation from an empanelled vendor, electricity bill (to prove the installation address), and a property ownership document or rent agreement. IREDA and government banks may additionally require a site survey report. NBFCs generally have simpler requirements and can process loans in two to five working days."
+    a: "For SBI's Surya Ghar loan, the page asks for KYC and a copy of your electricity bill for loans up to ₹2 lakh. Above ₹2 lakh, PAN is mandatory, you need income proof for the net annual income of ₹3 lakh the page requires, and asset insurance. You also need PM Surya Ghar portal registration, DISCOM approval and an itemised installer quotation naming ALMM-listed modules and the exact inverter model. Other lenders' checklists differ, so ask for the current list."
   - q: "What happens if I prepay or foreclose my solar loan early?"
-    a: "Most public sector banks allow prepayment on floating-rate solar loans without any penalty. Private banks (HDFC, Axis) and NBFCs typically charge 2–4% on the outstanding principal for foreclosure within the first three years. Check the loan agreement's prepayment clause before signing. Since solar systems generate returns for 25 years, early prepayment after receiving the PM Surya Ghar subsidy is financially rational - it reduces your net interest cost significantly."
+    a: "SBI's Surya Ghar page lists no prepayment penalty. For HDFC Bank's Personal Loan and for NBFCs we quote no foreclosure charge because we did not read their terms; check the prepayment clause in the loan agreement before signing. Because the subsidy arrives after commissioning, using it as a principal prepayment is the usual way to cut interest, so ask how the lender applies a lump sum."
   - q: "Can I get a solar loan without income proof?"
-    a: "Most formal lenders require some income documentation. However, a few fintech and microfinance platforms - operating in semi-urban and rural areas - offer solar loans against land records or NABARD references without traditional salary slips. Some solar installers partnered with NBFCs offer point-of-sale financing that uses your electricity bill consumption history as a proxy for repayment capacity. These loans carry higher interest rates (14–18%) to compensate for the reduced documentation."
+    a: "Most formal lenders ask for some income documentation. On SBI's Surya Ghar page, a loan up to ₹2 lakh needs only KYC and an electricity bill, with no minimum income stated; above ₹2 lakh the page requires net annual income of at least ₹3 lakh. Other lenders set their own rules, so ask for the document list in writing before you apply."
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Your electricity bill is growing. The neighbour who installed solar three years ago is smiling every summer. The decision to go solar has been made, the only question left is how to pay for it without liquidating your savings.
 
-The good news: in 2026, a homeowner in India has six distinct paths to buy a solar inverter and system on EMI. Government banks, IREDA, NBFCs, credit cards, the RESCO model, and the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) concessional loan all offer different trade-offs on rate, tenure, processing speed, and ownership. Understanding the differences takes roughly 20 minutes. Making the wrong choice can cost you ₹30,000–₹80,000 in avoidable interest over the loan's life.
+In 2026, a homeowner in India has six routes to buy a solar inverter and system on EMI. Bank loans under [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis), bank personal loans, IREDA (for businesses, not households), NBFCs, credit card EMI and the RESCO model all differ on rate, tenure and ownership. This guide uses what each lender's own page shows (read 14 October 2026) and marks every other figure as an assumed or calculated example.
 
-> **Direct answer.** A solar inverter on EMI is widely available in India through six routes, with interest rates ranging from 7% (IREDA / [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-emi-options)) to 16% (NBFCs). For a 3 kW system at ₹1.5 lakh post-subsidy, monthly EMIs start at ₹1,742. The Solar Finance Decision Tree (6 Paths to Zero Upfront) identifies the optimal path based on your income type, credit score, and whether you qualify for the PM Surya Ghar scheme.
+> **Direct answer.** For a homeowner, the lowest published rate we found is SBI's Surya Ghar loan: 5.75% per annum up to ₹2 lakh and 7.90% per annum above ₹2 lakh up to ₹6 lakh (as on 15 December 2025, floating). IREDA lists no household loan, and HDFC Bank has no solar-specific product, with its Personal Loan advertised from 9.99%. On an assumed ₹1.5 lakh loan, SBI's 5.75% over 10 years is an EMI of about ₹1,647, calculated here.
 
-The single most important number in this decision is not the interest rate, it is whether your monthly EMI is lower than your monthly electricity bill savings. If it is, solar pays for itself from day one, and every rupee you save beyond the EMI is pure profit. This guide works through every option, every number, and every trap so you can sign the right paperwork with confidence.
+The single most important number in this decision is not the interest rate, it is whether your monthly EMI is lower than your monthly electricity bill saving. This guide works through each route and the traps so you can compare written offers with confidence.
 
 > [!KEYTAKEAWAYS]
-> - Six EMI routes exist: PSU bank loans (9-12%), IREDA concessional loans (7-9%), NBFC loans (12-16%), no-cost credit card EMI (0%, short tenure), the RESCO model (mostly for commercial buyers), and the PM Surya Ghar concessional loan (7%).
-> - On a 3 kW system at ₹1.5 lakh post-subsidy, EMI ranges from about ₹1,742/month (PM Surya Ghar, 7%, 10 years) to ₹3,490/month (NBFC, 14%, 5 years).
-> - The decision test that matters most: is your monthly EMI lower than your monthly electricity bill saving? If yes, the system is cash-flow positive from day one.
-> - The PM Surya Ghar subsidy (up to ₹78,000) arrives after installation and should be applied as a loan prepayment, not counted as available cash upfront.
-> - RESCO suits commercial and industrial buyers (50 kW+); residential buyers under RESCO cannot claim the PM Surya Ghar subsidy since they do not own the system.
-> - Skipping ALMM compliance verification is the most common mistake that stalls both loan disbursement and subsidy claims.
+> - Six EMI routes exist: a bank's PM Surya Ghar loan (SBI publishes 5.75% up to ₹2 lakh and 7.90% above, up to ₹6 lakh), a bank personal loan (HDFC from 9.99%), IREDA (business and institutional only), NBFC loans, no-cost credit card EMI and the RESCO model (mostly commercial).
+> - On an assumed ₹1,50,000 loan, EMI is about ₹1,647 a month at SBI's 5.75% over 10 years, ₹2,489 at 9.99% over 7 years and ₹3,490 at an assumed 14% over 5 years (calculated here).
+> - The decision test that matters most: is your monthly EMI lower than your monthly electricity bill saving, using your own bills?
+> - The PM Surya Ghar subsidy (up to ₹78,000) arrives after commissioning and DISCOM verification, so plan to use it as a loan prepayment, not as cash upfront.
+> - RESCO suits commercial and industrial buyers; a residential buyer under RESCO does not own the system and cannot claim the PM Surya Ghar subsidy.
+> - Rates float and the date on the quote matters, so get the rate, benchmark, fees and prepayment terms in writing.
 
-## Why Solar on EMI Is Smarter Than Waiting to Pay Cash
+## Why Solar on EMI Can Beat Waiting to Pay Cash
 
-The instinct to pay cash and avoid debt is understandable. Solar systems, however, are one of the rare asset classes where financing accelerates your net worth (not depletes it) provided the EMI is structured correctly.
+The instinct to pay cash and avoid debt is understandable. Solar systems, however, can pay back through bill savings, provided the EMI is structured correctly.
 
-Consider a 3 kW [on-grid](/on-grid-inverter/) system installed in Maharashtra. Post-subsidy cost: ₹1.5 lakh. Monthly electricity savings at ₹8/unit tariff: approximately ₹3,000–₹3,600. If you wait 18 months to accumulate ₹1.5 lakh in cash, you pay ₹54,000–₹64,800 in electricity bills during that wait period. Had you taken a loan on day one, you would have started saving immediately and the EMI would have been lower than the electricity bill savings.
+Consider an assumed 3 kW [on-grid](/on-grid-inverter/) system with a post-subsidy cost of ₹1.5 lakh and an assumed monthly saving of ₹3,000 to ₹3,600 at an ₹8 per unit tariff. If you wait 18 months to accumulate ₹1.5 lakh in cash, you forgo ₹54,000 to ₹64,800 in savings (18 × ₹3,000 to ₹3,600). Had you taken a loan on day one, you would have started saving immediately.
 
-The [payback period for solar inverters in India](/blog/solar-inverter-payback-period/) for a typical residential system sits between 4 and 7 years. A 10-year loan at 9% on ₹1.5 lakh costs approximately ₹78,000 in total interest. You are paying ₹78,000 to access ₹1.5 lakh in returns over 25 years, an extremely favourable trade.
+Borrowing has a cost: on ₹1.5 lakh over 10 years at SBI's 5.75% the interest is about ₹47,585, and over 7 years at 9.99% it is about ₹59,110 (both calculated here). Whether that is worth paying depends on your own bills; the [payback period for solar inverters in India](/blog/solar-inverter-payback-period/) guide shows how to calculate it with your own numbers.
 
 The mathematics shift when:
 
-- **The interest rate exceeds 14%**: total interest cost begins eating into the payback advantage.
-- **The system is oversized**: a 10 kW system for a home using 300 units/month will generate surplus with nowhere to go if net metering is restricted.
-- **The tenure exceeds 15 years**: compounding interest on a depreciating loan balance erodes returns.
+- **The interest rate is high relative to your saving**: total interest begins eating into the payback advantage.
+- **The system is oversized**: a 10 kW system for a home using 300 units a month will generate surplus with nowhere to go if net metering is restricted.
+- **The tenure is long**: interest accumulates over the extra years even though the EMI falls.
 - **DISCOM net metering approval is pending**: units exported without a meter produce zero financial return.
 
 The frameworks in this guide address each of these risks directly.
@@ -75,233 +75,203 @@ The frameworks in this guide address each of these risks directly.
 
 ## All Six Solar Finance Options Compared
 
-The table below maps every financing route available to an Indian homeowner in 2026. Use it as your first filter before reading the detailed H3 sections.
+The table below maps the financing routes open to an Indian homeowner in 2026 and shows only what each lender's own page publishes. Use it as your first filter before reading the detailed sections.
 
-Table: Six ways to finance a solar system in India: rate, tenure, eligibility, speed and ownership
+Table: Six ways to finance a solar system in India: published rate, tenure, who it is for and ownership (read 14 October 2026; rates change, so confirm before applying)
 
-| Finance Path | Interest Rate (p.a.) | Max Tenure | Eligibility | Processing Time | Ownership |
-| --- | --- | --- | --- | --- | --- |
-| **PSU Bank Term Loan** (SBI, PNB, BoB) | 9–12% | 7–15 years | Salaried / self-employed, KYC + ITR | 10–21 days | Buyer |
-| **IREDA Concessional Loan** | 7–9% | 10–15 years | Individual / housing society | 15–30 days | Buyer |
-| **NBFC Solar Loan** (Tata Capital, Bajaj, L&T) | 12–16% | 3–7 years | Flexible, credit score 650+ | 2–5 days | Buyer |
-| **No-Cost EMI (Credit Card)** | 0% (effective) | 3–12 months | Credit card holder, limit ≥ loan amount | Instant | Buyer |
-| **RESCO / PPA Model** | N/A - monthly bill | 15–25 years | Primarily C&I (50 kW+); rare for homes | 30–60 days | Developer |
-| **PM Surya Ghar Concessional Loan** | 7% (subsidised) | 10 years | Residential, PM Surya Ghar applicant | 15–25 days | Buyer |
+| Finance Path | Published rate (p.a.) | Tenure | Who it is for | Ownership |
+| --- | --- | --- | --- | --- |
+| **Bank PM Surya Ghar loan** (SBI Surya Ghar; other banks use their own pages) | SBI: 5.75% up to ₹2 lakh; 7.90% above ₹2 lakh up to ₹6 lakh (as on 15 December 2025; floating, EBLR-linked). Other banks: not quoted here | SBI: up to 120 months including a 6-month moratorium | Individuals, rooftop solar up to 10 kW | Buyer |
+| **Bank personal loan** (HDFC Bank) | From 9.99% (calculator range 9.99% to 24%); no solar-specific product | 1 to 7 years | Individuals, any purpose | Buyer |
+| **IREDA** | No household loan or rate; rooftop solar scheme is for industrial, commercial and institutional borrowers | See IREDA's scheme document | Businesses and institutions | Buyer |
+| **NBFC solar loan** | Not quoted here; no NBFC page was read | Check the lender | Check the lender | Buyer |
+| **No-cost EMI (credit card)** | 0% effective if the merchant absorbs the bank fee | Set by the offer | Credit card holder with sufficient limit | Buyer |
+| **RESCO / PPA model** | N/A, monthly bill to the developer | Set by the contract | Mainly commercial and industrial buyers | Developer |
 
-> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the buyer's bank account after DISCOM verification. Combining this subsidy with the scheme's concessional 7% loan produces the lowest total cost of ownership of any financing path. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
+> **5.75%.** SBI's published rate for PM Surya Ghar rooftop solar loans up to ₹2 lakh; above ₹2 lakh up to ₹6 lakh the page lists 7.90%. Both are floating and linked to EBLR, as on 15 December 2025. *Source - [SBI Surya Ghar loan page](https://sbi.bank.in/web/personal-banking/loans/pm-surya-ghar-loan-for-solar-roof-top), read 14 October 2026.*
 
-For most Indian homeowners who qualify for PM Surya Ghar, the answer is clear before you finish reading. For those who do not qualify (or want speed over rate) the NBFC path wins. The sections below explain each path in enough detail to complete your application.
+For most homeowners who qualify for PM Surya Ghar, the bank route with a published rate is the natural starting point. For those who want speed over rate, or who do not qualify, an NBFC or personal loan is an alternative, and you should compare written offers. The sections below explain each route.
 
 ## The Solar Finance Decision Tree: 6 Paths to Zero Upfront
 
-Every homeowner arrives at this decision with different financial circumstances. This framework sequences the questions that determine which path is optimal for you before you speak to a bank or installer.
+Every homeowner arrives at this decision with different financial circumstances. This framework sequences the questions that determine which path to explore first before you speak to a bank or installer.
 
 ### The Solar Finance Decision Tree: 6 Paths to Zero Upfront
 
-1. **Do you qualify for PM Surya Ghar?**: If your home has a single-phase or three-phase connection, your name is on the electricity bill, and you have not previously claimed a central solar subsidy, start with the PM Surya Ghar concessional loan. It combines the lowest rate (7%) with the ₹78,000 subsidy. Applying takes 20 minutes on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/). If yes, skip to the PM Surya Ghar concessional loan section below.
+1. **Is it a PM Surya Ghar rooftop system for your home?**: If the connection is in your name and you have not claimed a central solar subsidy before, start with a bank's PM Surya Ghar loan. SBI's page lists 5.75% up to ₹2 lakh and 7.90% above that up to ₹6 lakh. Registration starts on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/).
 
-2. **Do you have a credit score above 750 and 2+ years of ITR?**: You are eligible for the best PSU bank rates (9–10.5%). SBI's Solar Green Home Loan and PNB's solar loan product are designed for exactly this profile. Processing takes 10–21 days.
+2. **Is the loan above ₹2 lakh?**: SBI's page then requires a CIBIL score of 650 or more, net annual income of at least ₹3 lakh, PAN and asset insurance. If you do not meet those conditions, ask the bank what it can offer.
 
-3. **Do you have a credit score between 650 and 750, or are you self-employed without ITRs?**: NBFC solar loans (Tata Capital, Bajaj Finance, L&T Finance) accept more flexible income documentation. Rates are 12–16%, but approval can happen in two to five days.
+3. **Do you need unsecured credit or have another bank relationship?**: Ask HDFC Bank or your own bank for its written offer. HDFC's Personal Loan is advertised from 9.99%; compare the total interest with SBI's before choosing.
 
-4. **Is the loan amount under ₹1.5 lakh and the tenure 12 months or fewer?**: A no-cost EMI on your credit card eliminates interest entirely. Negotiate the system price first, the "no-cost" is subsidised by the merchant, not the bank.
+4. **Is the amount small and the tenure short?**: A no-cost EMI on your credit card can eliminate interest. Negotiate the system price first, because the "no-cost" is funded by the merchant, not the bank.
 
-5. **Are you a commercial or industrial buyer with a load above 50 kW?**: The [RESCO model](/glossary/resco/) is worth evaluating. A developer installs the system at zero upfront cost and bills you per unit consumed at a rate 10–20% below your current tariff.
+5. **Are you a commercial or industrial buyer?**: The [RESCO model](/glossary/resco/) is worth evaluating. A developer installs the system at no upfront cost and bills you per unit consumed under a PPA; read the tariff and escalation terms before signing.
 
-6. **Have you exhausted paths 1–5 or want a hybrid approach?**: IREDA's individual solar loan programme is accessible for those who do not qualify for PM Surya Ghar but want government-backed rates (7–9%) without the scheme's paperwork.
+6. **Are you a business or institution wanting a development-finance route?**: IREDA's rooftop solar scheme is for industrial, commercial and institutional borrowers. Read IREDA's scheme document and contact IREDA directly; it is not a household route.
 
 Apply this decision tree in order. Most homeowners exit at step 1 or step 2.
 
-## PSU Bank Solar Loans: SBI, PNB, Bank of Baroda, HDFC, Axis
+## Bank Solar Loans: SBI Surya Ghar and Other Banks
 
-Public sector banks are the most trusted source of solar loans for Indian homeowners and offer the broadest eligibility criteria. The trade-off is processing time, expect 10 to 21 working days from application to disbursement.
+Banks are the route to a PM Surya Ghar loan. The published terms below come from SBI's own page (read 14 October 2026). Processing times differ by branch and DISCOM, so this guide quotes none.
 
-### SBI Solar Green Home Loan
+### SBI Surya Ghar Loan
 
-SBI's product is embedded within its Green Home Loan category. Interest rates sit at 9–10.5% depending on the loan amount and the borrower's credit profile. The maximum tenure is 15 years for loans secured against property, and 7 years for unsecured personal loans. SBI does not charge a processing fee on solar loans under ₹5 lakh.
+SBI's Surya Ghar loan finances rooftop solar up to 10 kW for individuals, up to ₹6 lakh, with a 10% upfront margin and up to 120 months including a 6-month moratorium. The page lists 5.75% per annum up to ₹2 lakh and 7.90% per annum above ₹2 lakh up to ₹6 lakh, floating and linked to EBLR, as on 15 December 2025. Processing fee is nil and there is no prepayment penalty. Up to ₹2 lakh there is no minimum CIBIL score or income; above ₹2 lakh the page requires CIBIL 650+, net annual income of ₹3 lakh+, PAN and asset insurance. SBI's separate "Surya Shakti" solar finance is a business loan for SMEs, businesses and housing societies, not a homeowner product. For the full rate table, documents and step-by-step process, see the dedicated [SBI solar loan guide](/blog/solar-loan-sbi/).
 
-Key requirements: Aadhaar, PAN, last three salary slips or two years' ITR, six months' bank statements, electricity bill, and a quotation from an MNRE-empanelled installer. For the full rate table, document checklist, and step-by-step process, see the dedicated [SBI solar loan guide](/blog/solar-loan-sbi/).
+### Other Banks
 
-### PNB Solar Loan
+Other banks, such as Bank of Baroda, Canara Bank, Punjab National Bank and Indian Bank, also lend for PM Surya Ghar rooftop solar. This guide quotes no rate, limit or fee for them because their own pages were not read on 14 October 2026. Use each bank's own PM Surya Ghar loan page and compare the written offer against SBI's published terms.
 
-PNB's solar loan product covers up to ₹20 lakh for residential systems and up to ₹2 crore for commercial installations. Interest rates are in the 9.5–11% range. PNB also accepts Housing Society applications, which is useful for apartment buildings pursuing rooftop solar under a collective application.
+### HDFC Bank
 
-### Bank of Baroda Baroda Solar Loan
-
-Bank of Baroda's dedicated scheme covers 80–90% of the project cost (after subsidy). Tenure up to 10 years. Rate: 10–12%. Processing fee: 0.5% of loan amount. Available at branches in 280+ districts across India.
-
-### Private Banks: HDFC and Axis
-
-HDFC Bank and Axis Bank do not maintain dedicated solar loan products but extend solar financing through their personal loan and loan-against-property channels. Rates are 10.5–13.5%. The advantage: faster digital processing (5–7 days) and pre-approved limits for existing account holders. The disadvantage: higher rates than PSU banks and a 2–3% foreclosure penalty in the first three years.
+HDFC Bank's pages show no solar-specific loan. Its Personal Loan is advertised from 9.99% per annum, with an EMI calculator running from 9.99% to 24% and tenures of 1 to 7 years. See the [HDFC solar loan guide](/blog/hdfc-solar-loan-india-2026/) for what the bank publishes and how it compares.
 
 For a comprehensive look at the overall cost structure of a solar system before you borrow, the [solar inverter replacement costs guide](/blog/inverter-tco/) provides a useful 25-year TCO framework.
 
-## IREDA Concessional Loan: Government-Backed at 7–9%
+## IREDA: Not a Household Lender
 
-The Indian Renewable Energy Development Agency ([IREDA](https://www.ireda.in/)) is a public financial institution under the Ministry of New and Renewable Energy. Its individual solar loan programme offers the most competitive rates outside the PM Surya Ghar scheme.
+The Indian Renewable Energy Development Agency ([IREDA](https://www.ireda.in/)) is a public financial institution under the Ministry of New and Renewable Energy. Its loan-schemes page (read 14 October 2026) lists a rooftop solar PV scheme for industrial, commercial and institutional borrowers and no scheme for households, and its rates are set by borrower grade in a published interest-rate matrix, so there is no household rate to quote.
 
-- **Rate**: 7–9% per annum depending on loan size and tenure.
-- **Tenure**: Up to 10 years for residential systems; up to 15 years for housing societies.
-- **Coverage**: Up to 90% of the project cost; borrower contributes 10% as margin money.
-- **Minimum loan**: ₹1 lakh. Maximum: ₹30 lakh for individual borrowers.
-- **Processing time**: 15–30 working days.
-- **Security**: Hypothecation of the solar assets; no collateral required below ₹10 lakh.
-
-IREDA loans are disbursed directly to the installer after verification that the vendor is on the MNRE-approved list. This protects borrowers from fraudulent installers, a material risk in a market where quality varies widely. The [ALMM scope guide](/blog/almm-list-phase-iii-guide/) explains how to verify whether your installer's modules and cells are on the lists and why no inverter list exists. For the full Suryodaya scheme breakdown, partner bank list, and EMI worked examples, see the [IREDA solar loan guide](/blog/solar-loan-ireda/).
-
-IREDA has disbursed over ₹65,000 crore in renewable energy loans since inception, and the individual solar loan book has grown at 40%+ annually since the PM Surya Ghar scheme launched. *Source - [IREDA Annual Report 2025–26](https://www.ireda.in/).*
+A homeowner's PM Surya Ghar loan therefore comes from a bank, not from IREDA. You may see an "IREDA Suryodaya" household loan advertised online; we found no scheme of that name among IREDA's published schemes, so treat any such rate as unverified. A business or institution financing a rooftop plant should read IREDA's scheme document and contact IREDA directly. The [ALMM scope guide](/blog/almm-list-phase-iii-guide/) explains how to verify whether your installer's modules and cells are on the lists and why no inverter list exists. For what IREDA does and does not offer, see the [IREDA solar loan guide](/blog/solar-loan-ireda/).
 
 ## NBFC Solar Loans: Speed Over Rate
 
-When you need disbursement in two to five days (perhaps because the monsoon is approaching and you want to complete installation before cloud cover returns) NBFC solar loans are the fastest route.
-
-### Tata Capital Solar Loan
-
-Tata Capital's green loan vertical covers solar systems from ₹1 lakh to ₹10 lakh. Rate: 12–14.5%. Tenure: up to 5 years. The platform offers digital KYC with Aadhaar OTP verification and disburses against the installer invoice. Tata Capital has tie-ups with select MNRE-empanelled installers, enabling a single-window experience.
-
-### Bajaj Finance Solar EMI Card
-
-Bajaj Finance's EMI card approach converts the solar purchase into structured EMIs at 14–16% per annum. The advantage: no collateral, flexible tenure from 12 to 60 months, and the ability to cover both panels and inverters in a single ticket. A credit score of 680 is the practical floor for approval.
-
-### L&T Finance Solar Loan
-
-L&T Finance targets rural and semi-urban homeowners through its branch network and distributor partnerships. Rates are 13–16%. The product is designed for self-employed borrowers without formal ITRs, the income assessment is based on electricity consumption history and solar yield projections rather than tax returns.
-
-NBFCs report solar loan non-performing asset (NPA) ratios below 1.5% (among the lowest in the personal loan category) reflecting that solar borrowers are motivated by genuine savings rather than consumption financing. *Source - [Mercom India, Solar Finance Report 2026](https://www.mercomindia.com/).*
+Non-banking finance companies also lend for solar. Many buyers reach for them when they want fast disbursal or flexible income documentation, but this guide quotes no NBFC rate, tenure or processing time because no NBFC's own page was read. Treat NBFC offers like any other: ask for the rate, the benchmark or whether it is fixed, the fees, the prepayment terms and the sanction letter in writing, and compare the total interest with the bank routes above. The EMI table below uses a 14% what-if rate for an NBFC loan purely to show how a higher rate changes the EMI; it is an assumption, not a lender's quote.
 
 ## No-Cost EMI on Credit Card: When It Works and When It Does Not
 
-No-cost EMI is available through HDFC, ICICI, Axis, and SBI credit cards on select solar retailer portals and physical solar dealerships. The mechanics: you pay in equal monthly instalments over 3, 6, 9, or 12 months; the bank waives the interest; the merchant absorbs the fee (typically 2–3% of the transaction value).
+No-cost EMI is offered by some credit card issuers on select retailer portals and at some solar dealerships. The mechanics: you pay in equal monthly instalments over the tenure in the offer; the bank waives the interest; the merchant bears a fee to the bank, which may be built into the price.
 
 **When no-cost EMI works:**
 
-- Loan amount under ₹1.5 lakh (your credit limit accommodates it).
-- You need 3–12 months of spread, not longer.
-- You are buying a small system (1–2 kW) or only the inverter, not the complete installation.
-- You have the discipline to pay the full EMI each month, missed payments trigger retroactive interest at 36–42% per annum.
+- The purchase is small enough for your credit limit.
+- You need a short spread of months, not a long tenure.
+- You are buying a small system or only the inverter, not the complete installation.
+- You can pay every instalment on time.
 
 > [!WARNING] One missed no-cost EMI can end the zero interest
-> A missed payment can trigger retroactive interest at 36 to 42 percent a year, and the merchant's 2 to 3 percent fee is usually already built into the equipment price. Negotiate the price before you accept the offer.
+> Read the offer terms: a missed payment can trigger interest or fees, and the merchant's fee for the bank may already be built into the equipment price. Negotiate the price before you accept the offer.
 
 **When no-cost EMI does not work:**
 
-- Complete 3–5 kW systems cost ₹2–4 lakh after subsidy, above most credit card limits.
-- Tenures beyond 12 months are rarely available as "no-cost" in this segment.
-- The base price is typically inflated by 2–3% to absorb the bank fee, negotiate the equipment price separately before accepting the EMI offer.
+- A complete system may cost more than your credit limit.
+- Tenures beyond a year are rarely offered as "no-cost" in this segment.
+- The base price can absorb the bank fee, so negotiate the equipment price separately before accepting the EMI offer.
 
-The [PM Surya Ghar concessional loan](/blog/pm-surya-ghar-subsidy-amount/) structure is far superior for most homeowners, but no-cost EMI fills a gap for small-system buyers who want zero interest and do not wish to undergo formal loan processing.
+For most homeowners a bank's [PM Surya Ghar loan](/blog/pm-surya-ghar-subsidy-amount/) structure is better, but no-cost EMI fills a gap for small-system buyers who want zero interest and do not wish to undergo formal loan processing.
 
 ## RESCO Model: Zero Upfront, Monthly Payment to Developer
 
-The [RESCO (Renewable Energy Service Company) model](/glossary/resco/) turns the solar equation inside out: instead of you owning the system, a developer installs it at their cost and sells you the electricity at a discounted tariff (typically 10–20% below your DISCOM rate) under a [Power Purchase Agreement (PPA)](/glossary/ppa/).
+The [RESCO (Renewable Energy Service Company) model](/glossary/resco/) turns the solar equation inside out: instead of you owning the system, a developer installs it at their cost and sells you the electricity at a tariff set in a [Power Purchase Agreement (PPA)](/glossary/ppa/).
 
 From the homeowner's perspective, it looks like an EMI, a fixed monthly payment replaces a variable electricity bill. But the similarities end there.
 
-**RESCO is primarily designed for C&I buyers because:**
+**RESCO is mainly designed for C&I buyers because:**
 
-- Minimum viable system size is typically 50–100 kW to make the developer's return model work.
-- Residential rooftop systems of 3–10 kW generate contracts too small for most RESCO developers to manage profitably.
-- The PPA locks you in for 15–25 years with escalation clauses, selling or renovating the property becomes complex.
-- You do not own the panels, so you cannot claim PM Surya Ghar subsidy.
+- A developer needs a large enough system for its return model to work.
+- Residential rooftop systems of 3 to 10 kW generate contracts too small for most RESCO developers to manage profitably.
+- A PPA can lock you in for many years, and selling or renovating the property becomes complex.
+- You do not own the panels, so you cannot claim the PM Surya Ghar subsidy.
 
-**For factories, schools, hospitals, and commercial buildings**, RESCO is compelling: zero capital expenditure, immediate savings, and off-balance-sheet financing. The [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) covers the ownership vs access trade-off in detail for larger buyers.
+**For factories, schools, hospitals and commercial buildings**, RESCO can be compelling: no capital expenditure and immediate savings if the PPA tariff is below your DISCOM tariff. The [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) covers the ownership vs access trade-off in detail for larger buyers.
 
-For a residential homeowner with a single-family home, RESCO adds legal complexity without meaningful financial benefit compared to a PM Surya Ghar loan. The ownership path (even with a loan) produces better 25-year returns.
+For a residential homeowner with a single-family home, RESCO adds legal complexity without a clear financial benefit compared with a bank loan. The ownership path (even with a loan) keeps the subsidy and the asset with you.
 
-## PM Surya Ghar Concessional Loan: The Best Rate Available
+## PM Surya Ghar Loans and the Subsidy
 
-The PM Surya Ghar Muft Bijli Yojana scheme, launched in February 2024, includes a concessional loan component that sits alongside the ₹78,000 central subsidy. This is the most favourable financing available for Indian homeowners in 2026, combining the lowest interest rate (7% per annum) with the largest subsidy in the scheme's history.
+The PM Surya Ghar Muft Bijli Yojana, launched in February 2024, pairs a central subsidy with bank loans for rooftop solar. The subsidy is ₹30,000 for 1 kW, ₹60,000 for 2 kW and ₹78,000 for 3 kW and above (per SBI's page and the PM Surya Ghar portal). This guide does not quote a scheme-wide "concessional loan rate": the rate you pay is the one your bank publishes, such as SBI's 5.75% and 7.90% above.
 
-**How the concessional loan works:**
+**How the loan and subsidy fit together:**
 
-- The government subsidises the interest rate so that the borrower pays 7% while the lender receives a market rate, the difference is absorbed by MNRE.
-- Loans are available through nationalised banks empanelled under the scheme.
-- The loan application flows through the PM Surya Ghar portal after your vendor selection step.
-- Disbursement is staged: funds flow to the installer at installation completion, and the subsidy hits your account post-DISCOM verification.
+- The loan finances the project cost first; the subsidy is credited after commissioning and DISCOM verification.
+- The loan application flows through the PM Surya Ghar portal and then the bank. SBI's page directs applicants to register on the PM Surya Ghar portal first and then apply through jansamarth.in.
+- Use the subsidy as a principal prepayment once it arrives; ask the bank in writing how a lump sum is applied.
 
-**Eligibility conditions:**
+**Eligibility conditions for the subsidy:**
 
 - Residential connection in your name.
 - No previous central solar subsidy claimed.
-- System size: 1–10 kW (subsidy capped at 3 kW; loan can cover the full system).
-- Installer must be from the MNRE-empanelled list on the portal.
+- System size: rooftop solar up to 10 kW for SBI's loan (the subsidy is capped at 3 kW and above).
+- Installer must be on the PM Surya Ghar portal, using ALMM-listed modules.
 
 The [complete PM Surya Ghar guide](/blog/pm-surya-ghar-yojana-complete-guide/) walks through the full application in step-by-step detail. The [PM Surya Ghar eligibility checker](/blog/pm-surya-ghar-eligibility/) verifies your specific situation in under five minutes.
 
-> **7%.** The concessional interest rate on PM Surya Ghar loans, the lowest rate available on any solar financing product in India in 2026, made possible through MNRE's interest subvention programme. *Source - [MNRE PM Surya Ghar Operational Guidelines](https://pmsuryaghar.gov.in/), 2026.*
-
 ## EMI Calculator: 3 kW System at ₹1.5 Lakh
 
-The table below calculates monthly EMIs for a 3 kW solar system at a post-subsidy cost of ₹1.5 lakh, across the six financing paths at their representative rates and tenures. Run your own numbers through a solar cost and savings calculator if your roof size or tariff differs meaningfully from the midpoint used here.
+The table below calculates monthly EMIs for an assumed ₹1,50,000 loan (the post-subsidy cost of a 3 kW system is an assumption for illustration, not a market price). Rates for SBI and HDFC are the ones published on their pages; the NBFC row uses an assumed 14% what-if rate. Use your own quotation and your own bills if they differ.
 
-**System:** 3 kW on-grid | **Post-subsidy cost:** ₹1,50,000 | **Expected monthly savings:** ₹2,800–₹3,600
+**System:** 3 kW on-grid | **Assumed loan amount:** ₹1,50,000 | **Assumed monthly savings:** ₹2,800 to ₹3,600
 
-Table: Monthly EMI, total interest and savings vs EMI for a ₹1.5 lakh loan, by finance path
+Table: Monthly EMI, total interest and assumed savings vs EMI for a ₹1.5 lakh loan, by finance path (calculated here)
 
 | Finance Path | Rate | Tenure | Monthly EMI | Total Interest Paid | Savings vs EMI |
 | --- | --- | --- | --- | --- | --- |
-| PM Surya Ghar Loan | 7% | 10 years | ₹1,742 | ₹58,995 | ₹1,058–₹1,858 surplus |
-| IREDA Loan | 8% | 10 years | ₹1,820 | ₹68,390 | ₹980–₹1,780 surplus |
-| SBI Bank Loan | 10% | 10 years | ₹1,982 | ₹87,871 | ₹818–₹1,618 surplus |
-| PSU Bank Loan | 12% | 7 years | ₹2,648 | ₹72,424 | ₹152–₹952 surplus |
-| NBFC Loan | 14% | 5 years | ₹3,490 | ₹59,414 | Deficit of ₹690 to surplus of ₹110 |
-| No-Cost EMI | 0% | 12 months | ₹12,500 | ₹0 | Deficit (short tenure) |
+| SBI Surya Ghar loan | 5.75% | 10 years | ₹1,647 | ₹47,585 | ₹1,153 to ₹1,953 surplus |
+| SBI Surya Ghar loan | 5.75% | 5 years | ₹2,883 | ₹22,951 | Deficit of ₹83 to surplus of ₹717 |
+| HDFC Personal Loan (advertised starting rate) | 9.99% | 7 years | ₹2,489 | ₹59,110 | ₹311 to ₹1,111 surplus |
+| HDFC Personal Loan (advertised starting rate) | 9.99% | 5 years | ₹3,186 | ₹41,179 | Deficit of ₹386 to surplus of ₹414 |
+| NBFC loan (assumed what-if rate, not a quote) | 14% | 5 years | ₹3,490 | ₹59,414 | Deficit of ₹690 to surplus of ₹110 |
+| No-cost EMI (credit card) | 0% | 12 months | ₹12,500 | ₹0 | Deficit of ₹8,900 to ₹9,700 |
+
+IREDA has no household loan and is not in the table. The savings column subtracts the EMI from the assumed ₹2,800 to ₹3,600 monthly saving, which is an assumption.
 
 ```chart
 type: hbar
 title: Total interest paid on a ₹1.5 lakh solar loan, by finance path
 unit: "₹"
-source: "Calculated in this article with the standard EMI formula for a ₹1,50,000 loan at the rates and tenures shown in the table above"
-note: "Lower is better. A shorter tenure at a higher rate (NBFC, 14% over 5 years) can cost about the same interest as a long tenure at 7%, but with a much larger monthly EMI."
+source: "Calculated in this article with the standard EMI formula for a ₹1,50,000 loan at the rates and tenures in the table above: SBI 5.75% (SBI Surya Ghar loan page, rates as on 15 December 2025, read 14 October 2026), HDFC Personal Loan 9.99% (advertised starting rate, read 14 October 2026), NBFC 14% (assumed what-if rate)"
+note: "Lower is better. A shorter tenure at a higher rate (14% over 5 years) can cost about the same interest as a long tenure at 9.99%, but with a much larger monthly EMI."
 data:
-  - { label: "PM Surya Ghar, 7%, 10 yr", value: 58995 }
-  - { label: "IREDA, 8%, 10 yr", value: 68390 }
-  - { label: "SBI, 10%, 10 yr", value: 87871 }
-  - { label: "PSU bank, 12%, 7 yr", value: 72424 }
-  - { label: "NBFC, 14%, 5 yr", value: 59414 }
+  - { label: "SBI, 5.75%, 10 yr", value: 47585 }
+  - { label: "SBI, 5.75%, 5 yr", value: 22951 }
+  - { label: "HDFC Personal, 9.99%, 7 yr", value: 59110 }
+  - { label: "HDFC Personal, 9.99%, 5 yr", value: 41179 }
+  - { label: "NBFC (assumed), 14%, 5 yr", value: 59414 }
   - { label: "No-cost EMI, 0%, 12 mo", value: 0 }
 ```
 
-**Key insight from this table:** At every rate up to 12% over 7+ years, the monthly EMI is lower than the monthly electricity savings, solar pays for itself from month one. At NBFC rates (14%), a 5-year tenure produces a small monthly deficit at the low end of the savings range that clears once the loan is paid; the 25-year return still favours solar strongly. No-cost EMI over 12 months creates a large monthly outflow that most homeowners cannot sustain, which is why it only suits small or partial system financing.
+**Key insight from this table:** On these assumed inputs, the 10-year SBI EMI is lower than the whole assumed monthly saving range, and a 7-year HDFC personal loan is also lower. A 5-year tenure at a higher rate (HDFC 9.99%, or an assumed NBFC 14%) can leave a small monthly deficit at the low end of the savings range that clears once the loan is paid. No-cost EMI over 12 months creates a large monthly outflow that most homeowners cannot sustain, which is why it only suits small or partial system financing.
 
-The tipping point question is simple: **Is my monthly EMI ≤ my monthly electricity savings?** If yes, your solar system is cash-flow positive from installation day.
+The tipping point question is simple: **Is my monthly EMI at or below my monthly electricity savings?** If yes, your solar system is cash-flow positive from installation day.
 
-## Mistakes That Cost Indian Solar Buyers ₹20,000–₹80,000
+## Mistakes That Add Avoidable Interest and Delay
 
-The six financing paths above are straightforward in principle. In practice, five common errors eliminate most of the financial advantage.
+The six financing paths above are straightforward in principle. In practice, five common errors eat most of the financial advantage.
 
-**Mistake 1: Applying to an NBFC before checking PM Surya Ghar eligibility.** NBFCs approve loans faster, so many buyers reach for them first. Choosing a 14% NBFC loan over a 7% PM Surya Ghar loan on a ₹1.5 lakh 10-year borrowing costs approximately ₹70,000 in extra interest. Always check scheme eligibility first, it takes 10 minutes at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/).
+**Mistake 1: Applying to a personal loan or NBFC before checking the bank PM Surya Ghar route.** Lenders that approve quickly are tempting, so many buyers reach for them first. On a ₹2,00,000 loan over 5 years, 9.99% costs about ₹54,905 in interest against about ₹30,601 at SBI's published 5.75%, a gap of about ₹24,300 (both calculated here). Check the published bank rate first.
 
-**Mistake 2: Ignoring the subsidy timing in the loan structure.** The ₹78,000 PM Surya Ghar subsidy lands in your bank account 30–90 days after installation. If your loan does not have a prepayment provision, the subsidy sits idle. Confirm with your lender that you can prepay the subsidy amount against the principal without penalty.
+**Mistake 2: Ignoring the subsidy timing in the loan structure.** The ₹78,000 PM Surya Ghar subsidy is credited after commissioning and DISCOM verification, and this guide quotes no number of days because none is published reliably. If your loan does not have a prepayment provision, the subsidy sits idle. Confirm with your lender that you can prepay the subsidy amount against the principal; SBI's page lists no prepayment penalty.
 
 > [!TIP] Ask the lender about prepayment in writing
-> The ₹78,000 subsidy arrives 30 to 90 days after installation. Get written confirmation that you can pay that amount against the principal without a penalty, so it does not sit idle.
+> The ₹78,000 subsidy arrives after commissioning. Get written confirmation that you can pay that amount against the principal, and whether any charge applies, so the money does not sit idle.
 
-**Mistake 3: Borrowing at a fixed rate without checking the processing fee.** Some banks charge 1–2% processing fees that effectively add 0.2–0.5% to your actual cost of borrowing. Compare the annual percentage rate (APR), not just the headline interest rate. Ask your installer for a [formal, itemised quotation](https://quickestimate.co/features/quotation-system/) rather than a verbal number, so the loan amount and the equipment price are both traceable line by line.
+**Mistake 3: Borrowing without checking the fees.** SBI's page lists a nil processing fee, but other lenders may charge one. Compare the annual percentage rate and the written fee schedule, not just the headline interest rate. Ask your installer for a [formal, itemised quotation](https://quickestimate.co/features/quotation-system/) rather than a verbal number, so the loan amount and the equipment price are both traceable line by line.
 
-**Mistake 4: Accepting an oversized loan from the installer.** Some installers quote a system 30–40% larger than your actual consumption, because the loan amount inflates their invoice. Cross-check the system size against your last 12 months' electricity consumption. The [3 kW vs 5 kW vs 10 kW solar inverter guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) provides a consumption-to-capacity mapping to protect against this.
+**Mistake 4: Accepting an oversized loan from the installer.** An oversized system inflates the loan and the invoice. Cross-check the system size against your last 12 months' electricity consumption. The [3 kW vs 5 kW vs 10 kW solar inverter guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) provides a consumption-to-capacity mapping to protect against this.
 
-**Mistake 5: Not reading the PPA escalation clause in a RESCO contract.** RESCO PPAs typically include a 3–5% annual tariff escalation clause. Over 20 years, a tariff that starts at ₹5/unit grows to ₹9–10/unit, at which point the DISCOM tariff may no longer be much higher. Read the escalation cap before signing a 20-year agreement.
+**Mistake 5: Not reading the PPA escalation clause in a RESCO contract.** A RESCO PPA may include an annual tariff escalation. As an assumed example, a tariff of ₹5 per unit with 3% annual escalation becomes about ₹9.03 per unit after 20 years (5 × 1.03^20), at which point the DISCOM tariff may no longer be much higher. Read the escalation cap before signing a long agreement.
 
 ## The Savings-vs-EMI Test: Does Solar Pay from Day One?
 
 The single question that determines whether EMI financing makes financial sense is this: **Is your monthly EMI lower than your monthly electricity bill savings?**
 
-If the answer is yes, your solar system is cash-flow positive from the day it is commissioned. You are effectively getting a free asset that someone else (the bank) paid for upfront, and your electricity savings are settling the debt on your behalf.
+If the answer is yes, your solar system is cash-flow positive from the day it is commissioned, and your electricity savings are settling the debt on your behalf.
 
-Let us run this test for three representative buyers:
+Let us run this test for three illustrative buyers. All inputs (loan amount, bill and saving) are assumptions for illustration, and the EMI is calculated at SBI's published slab rates over 10 years:
 
-Table: Savings-vs-EMI test for three representative buyers
+Table: Savings-vs-EMI test for three illustrative buyers (assumed inputs; EMI calculated here at SBI's published rates over 10 years)
 
-| Buyer Profile | Monthly Bill | System Size | Post-Subsidy Cost | Best Loan Path | Monthly EMI | Monthly Savings | Cash-Flow |
+| Buyer Profile | Assumed Monthly Bill | System Size | Assumed Loan | SBI Rate | Monthly EMI | Assumed Monthly Savings | Cash-Flow |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Mumbai 2BHK, 250 units/month | ₹3,000 | 3 kW | ₹1.5 lakh | PM Surya Ghar @ 7% | ₹1,742 | ₹2,700 | +₹958/month |
-| Jaipur bungalow, 450 units/month | ₹5,400 | 5 kW | ₹2.4 lakh | IREDA @ 8% | ₹2,912 | ₹4,500 | +₹1,588/month |
-| Pune flat, 180 units/month | ₹2,160 | 2 kW | ₹90,000 | SBI @ 10% | ₹1,189 | ₹1,800 | +₹611/month |
+| Mumbai 2BHK, 250 units/month | ₹3,000 | 3 kW | ₹1,50,000 | 5.75% | ₹1,647 | ₹2,700 | +₹1,053/month |
+| Jaipur bungalow, 450 units/month | ₹5,400 | 5 kW | ₹2,40,000 | 7.90% | ₹2,899 | ₹4,500 | +₹1,601/month |
+| Pune flat, 180 units/month | ₹2,160 | 2 kW | ₹90,000 | 5.75% | ₹988 | ₹1,800 | +₹812/month |
 
-All three buyers are cash-flow positive from month one. The NBFC path at 14% over 5 years would produce a 3 kW EMI of ₹3,490, still recoverable within the 25-year system life, but cash-flow negative for the first 5 years.
+The Jaipur row assumes the 7.90% slab applies to the whole ₹2,40,000; ask the branch whether it applies to the whole loan or only the part above ₹2 lakh. All three illustrative buyers are cash-flow positive from month one on these inputs. A 14% what-if loan over 5 years would produce a ₹1,50,000 EMI of ₹3,490, above the Mumbai buyer's assumed ₹2,700 saving for five years.
 
-This is the difference between a financing decision and a financing mistake. The right path leaves money in your pocket every month. The wrong path drains it for the first five years before turning positive.
+This is the difference between a financing decision and a financing mistake. The right path leaves money in your pocket every month. The wrong path drains it before turning positive.
 
 For the full ROI framework including tariff escalation and net metering export income, the [solar inverter payback period guide](/blog/solar-inverter-payback-period/) provides a 25-year projection model.
 

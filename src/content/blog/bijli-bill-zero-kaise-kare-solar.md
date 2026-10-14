@@ -264,9 +264,9 @@ Table: State-wise net metering export buy-back rate
 | Rajasthan | ₹2.50-3.00/unit | RREC regulated |
 | Maharashtra | ₹3.00-3.50/unit | MSEDCL |
 | West Bengal | ₹3.30/unit | WBERC regulated |
-| Andhra Pradesh | ₹2.50-3.50/unit | APEPDCL/APNPDCL |
+| Andhra Pradesh | Not stated here: check the current APERC order and your DISCOM | APERC regulated; APEPDCL, APCPDCL, APSPDCL |
 
-Higher buy-back rates mean faster bill zero achievement, even with moderate self-consumption. [Net metering complete guide](/blog/net-metering-india-complete-guide/) has state-specific rates and DISCOM application processes.
+Rates in this table are indicative; confirm the current rate with your DISCOM or state regulator before you plan around it. Higher buy-back rates mean faster bill zero achievement, even with moderate self-consumption. [Net metering complete guide](/blog/net-metering-india-complete-guide/) has state-specific rates and DISCOM application processes.
 
 ## Solar Bill Zero: Is It Guaranteed?
 

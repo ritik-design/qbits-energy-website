@@ -1,7 +1,7 @@
 ---
 title: "Best Solar Software USA: The Complete 2026 Stack"
 excerpt: "US solar teams pay more for software per install than almost anywhere else, and most of it goes to seats nobody uses. Here is what the stack needs and what it should cost."
-description: "Best solar software USA 2026: the full stack for design, proposals, CRM, permitting and monitoring. NEC coverage, the 30% ITC, SRECs, time-of-use rates and what to stop paying for."
+description: "Best solar software USA 2026: the full stack for design, proposals, CRM, permitting and monitoring. NEC coverage, federal credit changes, SRECs, time-of-use rates and what to stop paying for."
 category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-10-14
@@ -21,7 +21,7 @@ faqs:
   - q: "Why is US solar software so expensive compared with other markets?"
     a: "Partly because the market can bear it and partly because pricing is per user per month rather than per year. Aurora runs $159 to $259 per user per month before AI Mode and Sales Mode add-ons, so a five-seat team commonly lands at $14,000 to $18,000 annually. SurgePV covers comparable ground at $1,299 to $1,899 per user per year, which puts the same five seats near $6,495. The gap is large enough to fund a hire, and it is worth checking whether the premium is buying capability you use."
   - q: "How should the 30% federal ITC be handled in software?"
-    a: "As a modelled credit with the correct section applied, not a flat discount. The 30% federal Investment Tax Credit runs through 2032 under Section 25D for residential and Section 48E for commercial. Those are different mechanisms with different rules, and a tool that treats them interchangeably will misstate the customer's position. It is also a tax credit rather than a rebate, so presenting it as a price reduction misrepresents when the customer actually receives the benefit."
+    a: "As a modelled credit with the correct section applied, not a flat discount. Section 25D, the 30% residential clean energy credit, ended for expenditures made after 31 December 2025 under Public Law 119-21, according to the IRS, so a 2026 residential proposal should not show it. The commercial credits under Sections 48E and 45Y continue for solar only if construction began by 4 July 2026 or the facility is placed in service by 31 December 2027 (IRS Notice 2025-42). Those are different mechanisms with different rules, and a tool that treats them interchangeably will misstate the customer's position. A tax credit is also not a rebate, so presenting it as a price reduction misrepresents when the customer actually receives the benefit."
   - q: "Do SRECs and time-of-use rates need to be in the model?"
     a: "In the states where they exist, yes, and they change the answer materially. SREC markets are state-specific and their value moves, so a tool carrying them as a configurable input beats one hard-coding a national assumption. Time-of-use rates matter more every year, because they determine whether solar generation lands in expensive hours or cheap ones, and they are what makes the storage case in states like California. A model that applies a flat cents-per-kWh rate cannot evaluate either."
   - q: "How many software seats does a US solar team really need?"
@@ -41,7 +41,7 @@ American solar businesses spend more on software per installation than almost an
 > - SRECs are state-specific and time-of-use rates decide the storage case, so neither can be a national constant.
 > - Per-seat pricing punishes teams that license viewers. Two or three people usually produce, the rest consume.
 
-- The 30% federal ITC runs through 2032 under Section 25D residential and Section 48E commercial, and those are different mechanisms.
+- The 30% residential credit under Section 25D ended for expenditures made after 31 December 2025 ([IRS Residential Clean Energy Credit page](https://www.irs.gov/credits-deductions/residential-clean-energy-credit)). Commercial Section 48E credits continue only for solar projects that began construction by 4 July 2026 or are placed in service by 31 December 2027 ([IRS Notice 2025-42](https://www.irs.gov/pub/irs-drop/n-25-42.pdf)). They are different mechanisms.
 - Aurora runs $159 to $259 per user per month; SurgePV covers comparable ground at $1,299 to $1,899 per user per year.
 - [SurgePV](https://surgepv.com/) puts design and proposals in one license. [Book a free demo](https://surgepv.com/demo).
 
@@ -76,7 +76,7 @@ Permitting deserves a comment because it is the category most specific to the US
 
 ## What Is Genuinely US-Specific
 
-**The federal ITC, modelled by section.** The 30% credit runs through 2032, under Section 25D for residential and Section 48E for commercial. Those are separate mechanisms with different rules, and treating them interchangeably misstates the customer's position. It is also a tax credit, so presenting it as a discount on the purchase price misrepresents when the customer actually sees the money and quietly assumes they have the tax liability to absorb it.
+**The federal ITC, modelled by section.** The 30% residential credit under Section 25D ended for expenditures made after 31 December 2025 under Public Law 119-21, according to the [IRS Residential Clean Energy Credit page](https://www.irs.gov/credits-deductions/residential-clean-energy-credit). The commercial credits under Section 48E (and 45Y) continue for solar only if construction began by 4 July 2026 or the facility is placed in service by 31 December 2027 ([IRS Notice 2025-42](https://www.irs.gov/pub/irs-drop/n-25-42.pdf)). Those are separate mechanisms with different rules, and treating them interchangeably misstates the customer's position. It is also a tax credit, so presenting it as a discount on the purchase price misrepresents when the customer actually sees the money and quietly assumes they have the tax liability to absorb it.
 
 **SRECs, which are state markets rather than a national scheme.** Their existence and value depend on the state, and values move. A tool that carries them as a configurable input beats one hard-coding an assumption, and a proposal that projects twenty years of SREC revenue at today's price should say that it has.
 

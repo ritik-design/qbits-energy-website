@@ -156,7 +156,7 @@ On a project with 10 inverters (100 kW system), this is 100–150 kg of load red
 
 India's regulatory framework for grid-tied inverters is now firmly aligned with international standards that explicitly accommodate transformerless designs.
 
-> **270 GW.** India's cumulative installed solar capacity target under the National Solar Mission, with rooftop solar accounting for a significant and growing share. As inverter shipment volumes scale, the efficiency and weight advantages of transformerless designs become proportionally more valuable to the national energy transition. *Source - [MNRE Annual Report 2024–25](https://mnre.gov.in/), Ministry of New and Renewable Energy.*
+> **171.05 GW.** India's cumulative installed solar capacity on 30 September 2026, of which 33.41 GW was grid-connected rooftop solar. As inverter volumes scale, the efficiency and weight advantages of transformerless designs matter across more systems. *Source - MNRE capacity data for 30 September 2026, as reported by [Saur Energy](https://www.saurenergy.com/solar-energy-news/india-adds-2456-gw-renewable-energy-capacity-in-h1-fy-2026-27-12637483), 8 October 2026.*
 
 ### BIS IS 16169
 

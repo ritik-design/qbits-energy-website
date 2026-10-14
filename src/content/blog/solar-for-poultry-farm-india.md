@@ -20,13 +20,13 @@ faqs:
   - q: "What is the typical solar system size for a 1,000-bird poultry shed?"
     a: "A 1,000-bird broiler shed in India typically runs 6–10 ventilation fans of 0.3–0.5 kW each (3–5 kW total), plus lighting (0.5–1 kW) and a water system (0.5 kW). Total connected load is approximately 5–8 kW. A 5–10 kW solar system with a 15–20 kWh battery backup covers this load adequately for a daytime solar + battery overnight configuration. Larger sheds (10,000 birds) need proportionally larger systems - approximately 30–50 kW solar with 100 kWh battery for full 24/7 coverage."
   - q: "Does KUSUM scheme apply to poultry farms in India?"
-    a: "KUSUM (Kisan Urja Suraksha evam Utthaan Mahabhiyan) scheme's Component-B (solarisation of agricultural pump sets) and Component-C (solar power plants on agricultural land) are primarily designed for irrigation and agri-connected loads. Poultry farms on agricultural land with agri-electricity connections may be eligible for KUSUM Component-B solarisation of pump sets and Component-C for ground-mounted solar on farm land. Eligibility varies by state implementation - check with your state DISCOM or State Renewable Energy Development Agency (SREDA). Many states include poultry and animal husbandry as qualifying agricultural activities."
+    a: "Usually not directly. Under the MNRE PM-KUSUM page (read 14 October 2026), Component B covers standalone solar pumps up to 7.5 HP, Component C covers solar for grid-connected agricultural pumps (individual pump solarisation, or feeder-level solarisation), and Component A covers 500 kW to 2 MW decentralised plants selling power to the DISCOM. The central financial assistance on Components B and C is 30 percent of the benchmark or tender cost (50 percent in the North Eastern states, Sikkim, J&K, Himachal Pradesh, Uttarakhand, Lakshadweep and A&N Islands), with the state giving at least 30 percent. The page does not mention poultry or other non-pump loads, so ventilation fans, chillers and lighting are not covered by a pump subsidy. A poultry farm with a water pump may be able to use the pump component; confirm with your state nodal agency or DISCOM. The page gives the scheme period as till 31 March 2026, and MNRE issued later extensions for some projects, so check current status before planning around it."
   - q: "What is the difference in solar requirements between broiler and layer poultry farms?"
     a: "Broiler farms and layer farms have different load profiles. Broiler farms have intense ventilation requirements throughout the 40-45 day growth cycle, with maximum fan usage in summer. Temperature control is critical - 25–30 °C for chicks, 22–26 °C for growers. Layer farms have more stable loads - laying hens require consistent 14–16 hours of light per day for maximum egg production, making lighting a significant controlled load. Layer farms often use light-controlled systems that run more hours in winter to maintain production. Both benefit from solar, but layer farms prioritise lighting continuity while broiler farms prioritise ventilation continuity."
   - q: "What are the key loads in a poultry farm that solar must cover?"
     a: "Poultry farm loads that solar must cover include: ventilation fans (critical - continuous in summer, temperature-controlled in other seasons); lighting (LED grow lights for broilers, laying lights for layers); water pump and automated feeding systems; cooling pads (in evaporative cooling systems - high summer load); and egg collection belt motors and grading machines (layer farms). The priority order for battery backup is: ventilation first, lighting second, water pump third. Automated feeding and egg grading can tolerate brief interruptions."
   - q: "Can a poultry farmer finance solar under PM Kisan or agricultural credit schemes?"
-    a: "Poultry farming on agricultural land may qualify for Kisan Credit Card (KCC) financing, which can be used for solar installation on the farm. Additionally, NABARD's Dairy and Poultry Development Scheme provides institutional financing for poultry infrastructure. Interest subvention on agricultural loans (typically 3% subvention bringing the effective rate to 4–7%) applies to agri-connected solar financing in some states. Consult your local cooperative bank or district agricultural office for the specific schemes available in your state."
+    a: "Poultry farming on agricultural land may qualify for Kisan Credit Card (KCC) financing, which can be used for solar installation on the farm. Additionally, NABARD's Dairy and Poultry Development Scheme provides institutional financing for poultry infrastructure. Whether a bank will finance solar under these routes, and at what interest rate, differs by bank and state, so no rate is quoted here. Consult your local cooperative bank or district agricultural office for the specific schemes available in your state."
   - q: "What happens during the monsoon when solar generation drops?"
     a: "Monsoon months (June–September) coincide with reduced solar generation due to cloud cover. For poultry farms, this is also the period when ambient temperatures moderate and ventilation requirements reduce. Battery storage bridges the gap during cloudy days, and grid backup supplements when both solar and battery are insufficient. The solar system should be sized for summer peak load (not monsoon), and the battery should provide 8+ hours of ventilation backup. During extended grid outages in monsoon, a DG set as tertiary backup is recommended for farms larger than 5,000 birds."
 ---
@@ -35,13 +35,13 @@ In poultry farming, power cuts are not inconveniences. They are emergencies. Ven
 
 This makes solar for poultry farms a fundamentally different engineering problem from solar for offices or homes. The critical load (ventilation) runs 24/7, not just during school hours or office hours. That means a simple on-grid system is insufficient. Battery backup is not optional; it is the difference between a functioning system and a liability.
 
-> **Direct answer.** Poultry farm solar in India must prioritise uninterrupted ventilation using battery backup, not just daytime grid offset. A 1,000-bird shed needs about 10 kW solar with a 40–50 kWh battery (5 kW critical load × 8 hours ÷ 0.80 depth of discharge). KUSUM scheme may provide financing for agri-connected farms. Use the Poultry Farm Solar Priority Matrix in this guide to rank loads and size correctly for your farm type.
+> **Direct answer.** Poultry farm solar in India must prioritise uninterrupted ventilation using battery backup, not just daytime grid offset. A 1,000-bird shed needs about 10 kW solar with a 40–50 kWh battery (5 kW critical load × 8 hours ÷ 0.80 depth of discharge). PM-KUSUM subsidises solar pumps and agricultural feeders, not poultry ventilation loads; check whether any part of your farm qualifies. Use the Poultry Farm Solar Priority Matrix in this guide to rank loads and size correctly for your farm type.
 
 > [!KEYTAKEAWAYS]
 > - Ventilation fans are the Tier 1 critical load for poultry farms; even a 30-minute interruption during Indian summer can trigger heat-stress mortality.
 > - A 1,000-bird broiler shed needs roughly 10 kW solar with a 40-50 kWh battery; a 10,000-bird farm scales to 60-75 kW solar with around 250 kWh of battery.
 > - LFP batteries are strongly preferred over lead-acid for poultry applications because of their deep-discharge tolerance and 3,000+ cycle life.
-> - KUSUM Component A and B can provide 30-50% capital subsidy for farms on agri-classified electricity connections, though eligibility varies by state.
+> - PM-KUSUM's 30% (50% in special-category states) central assistance applies to solar pumps (Components B and C) as published by MNRE; it does not list poultry ventilation loads, so confirm eligibility with your state nodal agency before counting on it.
 > - Battery backup should cover Tier 1 loads for a minimum of 8 hours to bridge overnight and cloudy-day gaps.
 > - A 10,000-bird farm's payback is typically longer (around 7.9 years) than other commercial verticals because of high battery cost, but mortality-prevention value adds real economic benefit beyond grid savings alone.
 
@@ -125,24 +125,21 @@ Table: Battery sizing for a 1,000-bird broiler shed in peak summer
 For a 10,000-bird farm, scale proportionally: 750 kWh battery, at this scale, a gas generator (LPG/CNG) as tertiary backup is cost-effective alongside 200–300 kWh of battery as primary backup.
 
 > [!IMPORTANT] Critical context
-> Heat stress mortality in broiler poultry can reach 5–10% of flock in a single extreme heat event without adequate ventilation. At a market price of ₹80–100 per live bird, a 10,000-bird flock losing 500 birds to a 2-hour power cut represents a ₹40,000–₹50,000 loss, more than the monthly EMI on a solar+battery system. *Source - [ICAR National Institute of Animal Nutrition and Physiology](https://nianp.res.in/), 2025.*
+> An assumed scenario, not a measured rate: if a 2-hour power cut in extreme heat kills 500 of a 10,000-bird broiler flock (5%) and each bird would have sold for an assumed ₹80 to ₹100, the loss is ₹40,000 to ₹50,000 (500 × ₹80 to ₹100). Use your own flock size, bird value and past loss record to size the risk.
 
 For battery technology comparison, read the [lithium vs lead-acid solar battery guide](/blog/lithium-vs-lead-acid-solar-battery/), LFP batteries are strongly preferred for poultry farms due to their tolerance of deep discharge and 3,000+ [cycle life](/glossary/cycle-life/).
 
 ## KUSUM Scheme Eligibility for Poultry Farms
 
-The KUSUM scheme (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan) has three components:
+The KUSUM scheme (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan) has three components, as published on the [MNRE PM-KUSUM page](https://mnre.gov.in/en/pradhan-mantri-kisan-urja-suraksha-evam-utthaan-mahabhiyaan-pm-kusum/) (read 14 October 2026):
 
-- **Component A**: Small decentralised solar power plants (5–2,000 kW) on agricultural land.
-- **Component B**: Solarisation of existing agricultural pump sets.
-- **Component C**: Solarisation of grid-connected agricultural pump sets.
+- **Component A**: decentralised ground- or stilt-mounted renewable power plants of 500 kW to 2 MW, selling power to the DISCOM at a tariff set by the state regulator. This is a power-plant component for developers, farmers' groups and similar entities; the page states no capital subsidy percentage for it.
+- **Component B**: standalone solar pumps up to 7.5 HP in off-grid areas. Central financial assistance is 30% of the benchmark or tender cost, whichever is lower; the state gives at least 30% and the farmer pays at most 40%. In the North Eastern states, Sikkim, J&K, Himachal Pradesh, Uttarakhand, Lakshadweep and A&N Islands, central assistance is 50%.
+- **Component C**: solarisation of grid-connected agricultural pumps, either individual pump solarisation (same 30% central share, 50% in the special states) or feeder-level solarisation.
 
-Poultry farms on agricultural land with agri-classified electricity connections may qualify under Component A (for ground-mounted solar on farm land) or Component B (for solarisation of water pump sets used in the farm). The eligibility criteria vary by state:
+The page does not mention poultry or any other non-pump load, so a poultry farm's ventilation fans, lighting and chillers are not covered by a pump subsidy. A farm that also runs an agricultural water pump may be able to use Component B or C for that pump only. The page gives the scheme period as till 31 March 2026; MNRE issued later extensions for some projects, so check the current status and your state's rules.
 
-- **Karnataka, Maharashtra, Rajasthan, UP**: have implemented KUSUM with poultry/animal husbandry included as qualifying activities.
-- **States with narrow agri definitions**: some states restrict KUSUM to crop irrigation, excluding poultry.
-
-Verify current KUSUM eligibility in your state via the state DISCOM or SREDA. For the full KUSUM scheme guide, read the [KUSUM yojana agricultural solar subsidy guide](/blog/kusum-yojana-agricultural-solar-subsidy/).
+Verify current KUSUM eligibility in your state via the state DISCOM or State Renewable Energy Development Agency (SREDA). For the full KUSUM scheme guide, read the [KUSUM yojana agricultural solar subsidy guide](/blog/kusum-yojana-agricultural-solar-subsidy/).
 
 ## Typical System Configurations by Farm Size
 
@@ -185,12 +182,10 @@ The payback is longer than a hotel or school due to the high battery cost. Howev
 
 Multiple central and state-level policies support solar adoption in the poultry and animal husbandry sector:
 
-- **KUSUM Component A and B**: capital subsidy of 30–50% available for qualifying poultry farms. Covered in the KUSUM scheme guide.
-- **MSME priority lending for agro-processing**: poultry farms classified as agro-processing units access priority sector lending at 7–9%, improving CAPEX ROI.
+- **PM-KUSUM**: subsidises solar pumps and agricultural feeders (30% central assistance, 50% in special-category states), not poultry ventilation. Covered in the KUSUM scheme guide.
+- **Bank and MSME finance**: ask your bank whether a poultry unit qualifies for priority-sector or MSME lending and at what rate; this guide quotes no rate because none is set by a source we can cite.
 - **[Accelerated depreciation](/glossary/accelerated-depreciation/) (Section 32)**: poultry firms registered as companies can claim 40% depreciation in Year 1, reducing effective capex by the tax rate applied to 40% of system cost.
-- **State animal husbandry department schemes**: Karnataka, Maharashtra, and Andhra Pradesh have department-specific solar assistance programmes for large poultry operations.
-
-[MNRE's agricultural and rural solar deployment data](https://mnre.gov.in/){target="_blank" rel="noopener"} confirms that poultry and fisheries are among the priority sectors for rural solar deployment under India's 500 GW non-fossil capacity target by 2030. [IRENA's report on renewable energy for food and agriculture systems](https://www.irena.org/Publications){target="_blank" rel="noopener"} identifies animal husbandry as one of the highest-impact solar applications in developing markets due to the combined benefit of electricity cost reduction and livestock loss prevention. [NREL's analysis of off-grid solar for agricultural applications](https://www.nrel.gov/){target="_blank" rel="noopener"} documents that poultry ventilation is among the most critical rural electricity needs, where grid unreliability directly translates to measurable economic loss. [JMK Research's agri-solar market data for India](https://jmkresearch.com/){target="_blank" rel="noopener"} projects that agricultural and animal husbandry solar in India will grow from 800 MW in 2025 to over 5 GW by 2030 under KUSUM scheme incentives.
+- **State animal husbandry department schemes**: some states run their own assistance for livestock units; ask your state animal husbandry department or nodal agency for current schemes.
 
 ## Common Mistakes in Poultry Farm Solar Projects
 
@@ -198,7 +193,7 @@ Multiple central and state-level policies support solar adoption in the poultry 
 - **Undersizing the battery for ventilation load**: specifying 20 kWh battery for a 10 kW ventilation load assumes only 2 hours of backup. Poultry requires 8–10 hours of continuous backup.
 - **Using lead-acid batteries**: lead-acid batteries tolerate deep discharge poorly and degrade rapidly in the cycling patterns of a 24/7 ventilation load. LFP (lithium iron phosphate) batteries are the recommended technology for poultry applications.
 - **Not planning for DG integration**: for very large farms (50,000+ birds), a purely solar+battery system cannot provide the redundancy that a poultry operation with millions of rupees of flock value requires. DG as tertiary backup, with automatic transfer switching, is essential risk management.
-- **Ignoring KUSUM eligibility**: a 30–50% capital subsidy (state-dependent, see the KUSUM section) significantly improves the ROI where the farm qualifies. Many poultry farmers in eligible states have not applied because awareness is low.
+- **Assuming KUSUM covers the whole system**: PM-KUSUM supports solar pumps and agricultural feeders, not poultry ventilation, so do not build the ROI on a subsidy that the published scheme does not offer for your load. Check the pump component if the farm has one.
 
 A general rural-property setup, rather than a livestock one, is covered in [solar for farmhouses](/blog/solar-for-farmhouse-india/).
 

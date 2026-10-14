@@ -40,7 +40,7 @@ faqs:
   - q: "Is BIS certification mandatory for solar in India?"
     a: "Yes, under the Solar PV Quality Control Order 2017 for modules and inverters used in solar projects."
   - q: "How long does BIS certification take?"
-    a: "6 to 12 months from application to grant, including factory inspection and testing."
+    a: "There is no fixed duration. It depends on sample testing, factory inspection scheduling and how quickly any findings are closed, so ask your testing lab or BIS branch office for a current estimate."
   - q: "Where is testing done?"
     a: "At BIS-recognised laboratories such as NISE, ERTL, TUV India and others approved under the BIS Conformity Assessment Scheme."
   - q: "What is the difference between BIS and ALMM?"
@@ -48,11 +48,11 @@ faqs:
   - q: "Are imported solar products BIS certified?"
     a: "They must be, before sale in India. Importers obtain BIS certification through the FMCS (Foreign Manufacturers Certification Scheme)."
   - q: "What standards are referenced by BIS for solar?"
-    a: "IS 14286 (modules), IS 16077 (thin film), IS 16221 (inverter safety), IS 16270 (charge controllers), IS 16893 (storage)."
+    a: "IS 14286 (modules), IS 16077 (thin film), IS 16221 (inverter safety), IS 16270 (charge controllers). IS 16893 is not a stationary-storage standard: it covers lithium-ion cells for electric road vehicle propulsion, so confirm the stationary battery standard against the current BIS order."
   - q: "How much does BIS certification cost?"
-    a: "Application fee plus testing and inspection costs, typically ₹3 to ₹15 lakh per product line for solar equipment."
+    a: "BIS's published Scheme-I fees include a ₹1,000 application fee, a ₹7,000 per man-day inspection fee and a ₹1,000 annual licence fee plus a minimum marking fee (per the BIS FAQ; check the current schedule). Laboratory testing charges are separate and vary by product and lab."
   - q: "How long is BIS certification valid?"
-    a: "Typically 1 year initially, renewable in 1-year cycles, with periodic surveillance."
+    a: "Under BIS Scheme-I, the licence is granted initially for up to two years and can then be renewed (up to five years at a time, per the BIS FAQ), with periodic surveillance."
   - q: "Can BIS certification be revoked?"
     a: "Yes, for failed surveillance tests, manufacturing changes without notification, or other non-compliance."
   - q: "Is BIS required for off-grid solar lanterns?"
@@ -79,7 +79,7 @@ For Indian solar projects, BIS certification is the foundation: [ALMM listing](/
 > [!NOTE] In short
 > - BIS certification is mandatory for solar modules and inverters sold in India under the Solar PV Quality Control Order 2017.
 > - Relevant standards include IS 14286 (modules), IS 16221 (inverters), IS 16270 (charge controllers); for battery storage, confirm the applicable standard against the current BIS order and catalogue.
-> - Certification takes 6 to 12 months and typically costs ₹3 to ₹15 lakh per product line.
+> - Certification timelines depend on testing and factory inspection, and fees follow the BIS published schedule plus separate lab charges.
 > - BIS certification is a hard prerequisite for [ALMM listing](/glossary/almm-list/), DISCOM commissioning, and PM Surya Ghar subsidy disbursement.
 > - Buyers can verify a product's certification through the BIS Care App or the certificate number printed on the equipment.
 
@@ -122,7 +122,7 @@ Table: Relevant Indian Standards for solar products
 4. Review of quality management system.
 5. License grant with certificate number.
 6. Periodic surveillance through market samples and factory re-inspection.
-7. Renewal annually.
+7. Renewal before the licence validity ends (initial grant up to two years; renewal up to five years, per the BIS FAQ).
 
 ## Real-world applications
 
@@ -164,7 +164,7 @@ Imported equipment certification adds friction.
 
 ## Common problems
 
-Application backlog at BIS leading to 9 to 12 month timelines.
+Application backlog or scheduling delays at BIS or the testing lab.
 
 Sample failure on first test, requiring product redesign.
 
@@ -249,4 +249,5 @@ For how BIS Certification plays out in real projects, these guides go deeper:
 - BIS Conformity Assessment Scheme guidelines.
 - BIS Foreign Manufacturers Certification Scheme guidelines.
 - BIS Care App documentation.
+- Bureau of Indian Standards, Product Certification FAQ (fees, licence validity): https://www.bis.gov.in/product-certification/product-certification-faq/
 - MNRE Annual Reports.

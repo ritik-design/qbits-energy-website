@@ -84,10 +84,10 @@ Solution तीन में से कोई एक या इनका मि�
 अब एक ईमानदार बात। सही तरीका clamp meter से actual starting current नापना है। इसीलिए हम motor load के लिए हमेशा site survey पर ज़ोर देते हैं।
 
 <div class="inline-cta">
-<h3>Apni Chakki ka Motor Load Humein Batayein</h3>
-<p>Motor HP, starter type aur daily running hours bhejiye. Hamari team aapke liye sahi inverter aur system size nikaal kar realistic quote deti hai, bina koi tuka lagaye.</p>
-<a href="/contact-us/" class="cta-btn">Free Quote Lein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">Site survey ke baad hi final sizing, koi guesswork nahi।</p>
+<h3>Inverter Choose Karne ke Liye Motor Load Batayein</h3>
+<p>Motor HP, starter type aur daily running hours bhejiye. Qbits inverter manufacturer hai, installer nahi: hum sahi inverter model chunne mein madad karte hain, aur system design aur installation aapka chuna hua installer karega.</p>
+<a href="/contact-us/" class="cta-btn">Inverter Sawal Poochhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
+<p class="cta-sub">Final sizing installer ke site survey ke baad hi hoti hai, koi guesswork nahi।</p>
 </div>
 
 ## HP se kW: Sizing ki Buniyaad
@@ -123,7 +123,8 @@ Table: Motor HP ke hisaab se approx shaft kW, daily run, suggested PV size aur Q
 **Phase failure protection।** Rural feeders पर single phasing आम है और यही motor जलाने की सबसे बड़ी वजह है। Solar इससे नहीं बचाता, अलग से phase failure relay लगवाइए। गाँव के feeder पर voltage दिन भर ऊपर नीचे होता है, इसीलिए inverter की AC voltage window और grid settings exact model की datasheet से देखिए और DISCOM की requirement से मिलाइए।
 
 <div class="inline-cta">
-<h3>Chakki, Dal Mill ya Cold Storage, Sabke Liye Ek Hi Team</h3>
+<h3>Chakki, Dal Mill ya Cold Storage: Commercial Inverter Options</h3>
+<p>Qbits commercial three phase inverters banata hai. Installer chune hue partner se hi hoga; installer hain to <a href="/become-our-partner/">partner programme</a> dekhein, aur service ke liye <a href="/authorized-service-partners/">authorized service partners</a>.</p>
 
 <a href="/c-i-solution/" class="cta-btn">C&amp;I Solutions Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Commercial connection, commercial tariff, commercial design।</p>
@@ -218,4 +219,4 @@ Mill installations में जो problems बार-बार दिखती
 > [!CHECKLIST] Quote माँगने से पहले
 > - पिछले 12 महीने के बिजली बिल से monthly units, tariff category और sanctioned load note कीजिए। Sizing यहीं से शुरू होती है, motor nameplate से नहीं।
 > - Starter का type देखिए, और soft starter नहीं है तो उसे quote में शामिल कराइए। यह इस guide की सबसे सस्ती सलाह है।
-> - Site survey के साथ proper quote लीजिए, जिसमें cable sizing, earthing, protection और DISCOM paperwork लिखा हो, [contact form](/contact-us/) भरकर।
+> - अपने installer से site survey के साथ proper quote लीजिए, जिसमें cable sizing, earthing, protection और DISCOM paperwork लिखा हो। Inverter model के सवाल हों तो [contact form](/contact-us/) भरिए।

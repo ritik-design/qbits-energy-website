@@ -232,7 +232,7 @@ Tandem solar cells stack materials with different bandgaps to break single-junct
 
 ## Tracking tandem cell developments?
 
-QBits Energy monitors next-generation solar including tandem cells for future Indian deployment.
+Tandem cells are a module technology. Qbits makes on-grid and hybrid inverters, not solar modules, so whichever cell technology a site uses, the [solar inverter](/glossary/solar-inverter/) is matched to the module's electrical ratings on the module datasheet.
 
 ## Further reading
 

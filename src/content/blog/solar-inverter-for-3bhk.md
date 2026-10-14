@@ -16,21 +16,21 @@ keywords:
   - pm surya ghar subsidy 3 bhk
 faqs:
   - q: "What size solar inverter does a 3 BHK home need in India?"
-    a: "Most 3 BHK homes in India need a 5 kW solar inverter and system. The typical connected load - two 1.5-ton ACs, a refrigerator, washing machine, water heater, lights, fans, and a television - adds up to 4–7 kW peak demand. A 5 kW system covers daytime consumption comfortably, generates approximately 600–700 kWh per month in most Indian cities, and qualifies for the full PM Surya Ghar subsidy tier of ₹78,000 for a 3 kW slab or higher subsidy for larger systems."
+    a: "Most 3 BHK homes in India need a 5 kW solar inverter and system. The typical connected load - two 1.5-ton ACs, a refrigerator, washing machine, water heater, lights, fans, and a television - adds up to 4–7 kW peak demand. A 5 kW system covers daytime consumption comfortably, generates approximately 520–710 kWh per month depending on the city (see the generation table in this guide), and qualifies for the full PM Surya Ghar central subsidy of ₹78,000, which is capped at the 3 kW slab."
   - q: "How much does a 5 kW solar system cost for a 3 BHK home in India?"
-    a: "A 5 kW on-grid solar system for a 3 BHK home costs ₹2.8–3.5 Lakh before subsidy in 2026, inclusive of panels, inverter, mounting structure, cables, and installation. After the PM Surya Ghar subsidy (₹78,000 for the first 3 kW slab plus ₹45,500 for 2 kW at 40% rate), the net cost falls to approximately ₹1.6–2.2 Lakh. A hybrid system with a 5 kWh LFP battery adds ₹80,000–1.2 Lakh to this figure."
+    a: "A 5 kW on-grid solar system for a 3 BHK home costs about ₹2.5–3.5 Lakh before subsidy in 2026, inclusive of panels, inverter, mounting structure, cables, installation and installer margin (the Delhi example in this guide builds up to ₹2.5 Lakh). After the PM Surya Ghar subsidy (₹78,000, capped at the 3 kW slab; there is no further central subsidy for the extra 2 kW), the net cost falls to approximately ₹1.72–2.72 Lakh. A hybrid system adds about ₹35,000–50,000 for the hybrid inverter and ₹80,000–1.2 Lakh for a 5–10 kWh LFP battery."
   - q: "Is on-grid or hybrid solar inverter better for a 3 BHK home?"
-    a: "The answer depends on your power supply reliability. In cities with fewer than 2 hours of daily power cuts - Bangalore, Chennai, Pune, most metros - an on-grid inverter delivers the fastest payback (5–7 years) and highest ROI. In areas with 4–8 hours of daily cuts - parts of UP, Bihar, Odisha, rural Maharashtra - a hybrid inverter with a 5–10 kWh battery keeps ACs and essential loads running, justifying the higher upfront cost. The three-question 3BHK Inverter Decision Framework in this guide produces the right answer for your location."
+    a: "The answer depends on your power supply reliability. In cities with fewer than 2 hours of daily power cuts - Bangalore, Chennai, Pune, most metros - an on-grid inverter delivers the fastest payback (about 3–5 years in the cost and tariff ranges in this guide) and highest ROI. In areas with 4–8 hours of daily cuts - parts of UP, Bihar, Odisha, rural Maharashtra - a hybrid inverter with a 5–10 kWh battery keeps ACs and essential loads running, justifying the higher upfront cost. The three-question 3BHK Inverter Decision Framework in this guide produces the right answer for your location."
   - q: "How much roof space does a 5 kW solar system need?"
-    a: "A 5 kW solar system requires approximately 28–32 standard 545 Wp monocrystalline panels, which occupy 280–320 square feet of shadow-free roof area when tilted at 10–15 degrees south-facing. Adding 10% clearance between panel rows for maintenance access brings the practical roof footprint to 300–360 square feet. Most 3 BHK homes in India have 600–900 square feet of flat roof, so a 5 kW system comfortably fits without occupying more than half the usable terrace."
+    a: "A 5 kW solar system requires approximately 9–10 standard 545 Wp monocrystalline panels (5,000 W ÷ 545 Wp), each about 2.6 m² or 28 square feet, so roughly 278 square feet of panel area. Adding row spacing for a 10–15 degree south-facing tilt and clearance for maintenance access brings the practical roof footprint to about 340–360 square feet. Most 3 BHK homes in India have 600–900 square feet of flat roof, so a 5 kW system comfortably fits without occupying more than half the usable terrace."
   - q: "How many units per month does a 5 kW solar system generate in India?"
-    a: "A 5 kW solar system generates 550–750 kWh per month depending on location. In high-irradiance zones like Rajasthan, Gujarat, and Telangana, output reaches 700–750 kWh per month (around 5 peak sun hours daily). In moderate zones like Delhi and Mumbai (4–4.5 peak sun hours), generation is 580–650 kWh. In lower-irradiance zones like West Bengal and Himachal Pradesh (3.5–4 hours), expect 500–570 kWh. This typically offsets 70–100% of the electricity bill for a typical 3 BHK consuming 500–700 kWh per month."
+    a: "A 5 kW solar system generates about 130 kWh per month for every peak sun hour of daily irradiance (5 kW × peak sun hours × 30.4 days × 0.85 for system losses). In high-irradiance zones like Rajasthan and Gujarat (5.2–5.5 peak sun hours), output reaches about 670–710 kWh per month. In moderate zones like Delhi, Chennai and Mumbai (4.5–4.9 peak sun hours), generation is about 580–630 kWh. In lower-irradiance zones like Kolkata and Bhubaneswar (4.0–4.2 hours), expect about 520–540 kWh. This typically offsets roughly 75–100% of the electricity use of a 3 BHK consuming 500–700 kWh per month."
   - q: "What is the PM Surya Ghar subsidy for a 5 kW system on a 3 BHK home?"
     a: "Under PM Surya Ghar Muft Bijli Yojana, the central subsidy for a residential rooftop system is calculated in slabs: ₹30,000 per kW for the first 2 kW (₹60,000), then ₹18,000 per kW for capacity from 2 kW to 3 kW (₹18,000), totalling ₹78,000 for a 3 kW system. For systems above 3 kW, no additional central subsidy applies beyond the 3 kW cap of ₹78,000. However, several states add their own subsidy on top. The subsidy is credited directly to the homeowner's bank account after DISCOM verification of the installed system."
   - q: "Can a 3 BHK home run two ACs on solar power?"
     a: "Yes, a 5 kW solar system can power two 1.5-ton inverter ACs during daytime hours. Each 1.5-ton inverter AC draws 1–1.8 kW at steady state, so both together consume 2–3.6 kW. Combined with other loads, the total daytime draw of a 3 BHK with both ACs running reaches 4.5–6 kW. A 5 kW inverter handles this comfortably during peak sun hours (10 AM–3 PM). Outside these hours, grid or battery supplements the shortfall. A hybrid inverter with a 10 kWh battery can sustain both ACs for 3–4 additional hours post-sunset."
   - q: "How long does it take to recover the cost of a solar inverter for a 3 BHK home?"
-    a: "At an average electricity tariff of ₹7–9 per unit and a monthly bill of ₹8,000–12,000, a 5 kW on-grid solar system after PM Surya Ghar subsidy typically pays back in 5–7 years. The system generates savings of ₹25,000–40,000 annually by offsetting 550–700 kWh per month at the prevailing tariff. Net metering credits further reduce payback for surplus exported to the grid. Over a 25-year panel life and the inverter's warranty period (confirm the written term for the exact model), the cumulative saving on a 3 BHK exceeds ₹4–5 Lakh on a net-present-value basis."
+    a: "At an average electricity tariff of ₹7–9 per unit, a 5 kW on-grid system generating about 620 kWh a month (Delhi) offsets ₹52,000–67,000 a year. On a post-subsidy net cost of ₹1.72–2.72 Lakh that is a simple payback of about 2.6 to 5.2 years (about 3.2 years in the Delhi example, which also counts a ₹3.5/unit credit for surplus units). Net metering credits for surplus exported to the grid reduce payback further where the DISCOM pays them. Over a 25-year panel life at ₹8/unit with 0.5% annual degradation, the present value of the savings at an 8% discount rate is about ₹6.1 Lakh, so the net present value after the investment is roughly ₹3.4–4.4 Lakh, before O&M and any inverter replacement (confirm the written warranty term for the exact model)."
   - q: "Does a solar inverter for a 3 BHK home need to be three-phase?"
     a: "Most 3 BHK homes in Indian cities are connected to a single-phase 230 V supply, so a single-phase 5 kW inverter is sufficient and more cost-effective. Three-phase connections are standard for very large homes, commercial premises, or properties with heavy three-phase equipment. If your home has a three-phase connection (you will see three live wires at the meter), a three-phase inverter is required to balance the phases and stay compliant with DISCOM regulations. Check your electricity bill or meter tag - single-phase connections are labelled 1Ph or 230 V; three-phase connections show 3Ph or 415 V."
   - q: "Is a solar inverter with battery backup necessary for a 3 BHK flat in an apartment?"
@@ -45,10 +45,10 @@ Every year, thousands of Indian families living in 3 BHK homes receive electrici
 
 > [!KEYTAKEAWAYS]
 > - A 3 BHK home typically needs a 5 kW solar inverter sized for a 4–7 kW peak load from two ACs, a refrigerator, geyser, and lighting.
-> - On-grid inverters win on payback (2–4 years) in reliable-grid cities like Bangalore and Chennai; hybrid inverters with a 5–10 kWh battery suit power-cut zones like UP and Bihar.
+> - On-grid inverters win on payback (about 3–5 years after subsidy) in reliable-grid cities like Bangalore and Chennai; hybrid inverters with a 5–10 kWh battery suit power-cut zones like UP and Bihar.
 > - [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy caps at ₹78,000 for a 5 kW system, since only the first 3 kW slab qualifies for central subsidy.
-> - A 5 kW system needs roughly 340–360 sq ft of shadow-free roof and generates 550–750 kWh per month depending on the city.
-> - Net cost after subsidy runs ₹1.1–2 Lakh for on-grid, with typical Delhi payback of 2–4 years at current tariffs.
+> - A 5 kW system needs roughly 340–360 sq ft of shadow-free roof and generates about 520–710 kWh per month depending on the city.
+> - Net cost after subsidy runs ₹1.72–2.72 Lakh for on-grid (₹2.5–3.5 Lakh gross less ₹78,000), with a Delhi payback of about 3.2 years in the worked example.
 
 > **Direct answer.** A 3 BHK home in India typically needs a 5 kW solar inverter and system. The combined load of two 1.5-ton ACs, a refrigerator, washing machine, water heater, lights, and fans runs 4–7 kW peak. A 5 kW on-grid inverter is the right pick for grid-reliable cities (Bangalore, Mumbai, Chennai); a 5 kW [hybrid inverter](/glossary/hybrid-inverter/) with a 5–10 kWh battery suits power-cut zones (UP, Bihar, rural Maharashtra). Apply the 3BHK Inverter Decision Framework in §4 to confirm which path fits your home.
 
@@ -76,12 +76,10 @@ Table: Appliance loads for a representative Delhi 3 BHK, with rated power and da
 | Miscellaneous (router, STB, etc.) | 100 | 10 | 1,000 |
 | **Total** | **~6,200 W peak** | - | **~17,650 Wh/day** |
 
-Three observations stand out. First, the peak simultaneous load when both ACs, geyser, and other appliances run together reaches approximately 5.5–6.2 kW. Second, the daily solar-hour energy consumption is roughly 17–18 kWh, of which a 5 kW system generating 5–6 peak sun hours produces 25–30 kWh, more than enough to cover daytime use and export surplus. Third, the geyser pulls 2 kW for a short burst: schedule it before 10 AM or after 3 PM if you want to avoid a momentary overload on the inverter.
+Three observations stand out. First, the peak simultaneous load when both ACs, geyser, and other appliances run together reaches approximately 5.5–6.2 kW. Second, the daily solar-hour energy consumption is roughly 17–18 kWh, of which a 5 kW system at 5–6 peak sun hours and 15% system losses produces about 21–26 kWh, more than enough to cover daytime use and export surplus. Third, the geyser pulls 2 kW for a short burst: schedule it before 10 AM or after 3 PM if you want to avoid a momentary overload on the inverter.
 
 > [!TIP] Move the geyser
 > The 2 kW geyser is the biggest short burst in the table above. Running it before 10 AM or after 3 PM keeps it away from the hours when both ACs are on.
-
-The load data above aligns with field surveys conducted by the [Ministry of New and Renewable Energy (MNRE)](https://mnre.gov.in/) showing average residential rooftop consumption of 300–600 kWh per month for households in the 2–4 BHK category. India's residential rooftop solar installed base surpassed 3 GW in 2025, with an average system size of 3.5 kW per household, confirming that 3 BHK buyers are gravitating toward 5 kW as the next natural step, according to [IRENA's Renewables Capacity Statistics 2025](https://www.irena.org/publications/2025/Mar/Renewable-capacity-statistics-2025).
 
 ## Step-by-Step Load Calculation for a 3 BHK Home
 
@@ -105,11 +103,11 @@ Installers use a diversity factor to account for the statistical improbability t
 AC compressor surge current, new appliances, and degradation in panel output over 10 years all erode the initial headroom. Adding 20%: 4,650 × 1.2 = **5,580 W**: confirming a 5 kW inverter as the right size.
 
 **Step 5: Confirm with daily energy consumption.**
-At 5 kW system output and an average of 4.5 peak sun hours per day in Delhi ([peak sun hours](/glossary/peak-sun-hours/) vary from 3.5 in Kolkata to 5.5 in Jodhpur), the system generates: 5 × 4.5 = **22.5 kWh/day** or approximately **675 kWh/month**: comfortably covering the 17–18 kWh daily consumption with surplus for grid export.
+At 5 kW system output and an average of 4.8 peak sun hours per day in Delhi ([peak sun hours](/glossary/peak-sun-hours/) vary from 4.0 in Kolkata to 5.5 in Jodhpur in the table below) and 15% system losses, the system generates: 5 × 4.8 × 0.85 = **20.4 kWh/day** or approximately **620 kWh/month**: comfortably covering the 17–18 kWh of daytime-hour consumption in the appliance table with a small surplus for grid export.
 
 ## The 3BHK Inverter Decision Framework: On-Grid or Hybrid?
 
-This is the question every 3 BHK homeowner faces after settling on 5 kW: should you spend ₹2.8–3.5 Lakh on a 5 kW on-grid system, or ₹4.2–5 Lakh on a 5 kW hybrid system with a 5–10 kWh battery? The answer is not a matter of preference, it follows logically from three measurable inputs.
+This is the question every 3 BHK homeowner faces after settling on 5 kW: should you spend ₹2.5–3.5 Lakh on a 5 kW on-grid system, or about ₹3.7–5.2 Lakh on a 5 kW hybrid system with a 5–10 kWh battery? The answer is not a matter of preference, it follows logically from three measurable inputs.
 
 ### The 3BHK Inverter Decision Framework
 
@@ -118,7 +116,7 @@ This is the question every 3 BHK homeowner faces after settling on 5 kW: should 
 
 2. **Critical load requirement**: identify which loads must run through a power cut. Ceiling fans, LED lights, refrigerator, and Wi-Fi are "essential loads" at roughly 600–800 W. Both ACs running through a cut require 3–4 kW of battery capacity minimum. A 5 kWh LFP battery at 80% DoD delivers 4 kWh, sufficient for 4–5 hours of essential loads or 1.5–2 hours of both ACs. For the full methodology behind sizing that battery bank correctly, see [how to size a battery for a hybrid solar inverter](/blog/battery-sizing-hybrid-solar/); SurgePV's [battery and energy storage sizing hub](https://surgepv.com/hub/energy-storage/battery-sizing/) covers the underlying engineering in more depth for readers comparing chemistries and bank configurations.
 
-3. **Payback delta**: the hybrid premium (typically ₹1.2–1.5 Lakh more than an equivalent on-grid system) needs to be recovered through avoided backup costs (DG fuel, UPS batteries) or avoided electricity charges during cuts. If your current DG or UPS cost exceeds ₹1,500/month, the hybrid payback delta closes in 6–8 years. If you have no power cut and no backup cost, the on-grid system pays back 2–3 years faster.
+3. **Payback delta**: the hybrid premium (typically ₹1.15–1.7 Lakh more than an equivalent on-grid system: ₹35,000–50,000 for the inverter plus ₹80,000–1.2 Lakh for the battery) needs to be recovered through avoided backup costs (DG fuel, UPS batteries) or avoided electricity charges during cuts. If your current DG or UPS cost exceeds ₹1,500/month, the hybrid payback delta closes in 6–8 years. If you have no power cut and no backup cost, the on-grid system pays back 2–3 years faster.
 
 Apply all three factors sequentially. Families in Bangalore, Chennai, Pune, and most Delhi NCR locations will almost always land on on-grid. Families in Lucknow, Patna, Bhubaneswar, and rural Maharashtra will nearly always find hybrid compelling.
 
@@ -141,7 +139,7 @@ Table: PM Surya Ghar central subsidy by capacity slab for a 5 kW home system
 | Above 3 kW (the remaining 2 kW) | ₹0 (no central subsidy) | ₹0 |
 | **Total central subsidy on a 5 kW system** | - | **₹78,000** |
 
-For many families, the practical implication is that the incremental cost of going from 3 kW to 5 kW (typically ₹80,000–1 Lakh) receives no central subsidy. However, that extra 2 kW adds roughly 150–200 kWh per month of generation, translating to ₹1,200–1,800 in monthly bill savings at ₹8/unit. The additional investment pays back in 4–5 years even without subsidy.
+For many families, the practical implication is that the incremental cost of going from 3 kW to 5 kW (typically ₹80,000–1 Lakh) receives no central subsidy. However, that extra 2 kW adds roughly 210–280 kWh per month of generation (2 kW × 4–5.5 peak sun hours × 30.4 days × 0.85), translating to ₹1,700–2,300 in monthly bill savings at ₹8/unit. The additional investment pays back in about 3–5 years even without subsidy.
 
 Several states add their own subsidy on top of the central amount. Rajasthan, Gujarat, and Maharashtra have historically offered ₹10,000–30,000 per kW on top of MNRE support. Check the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) for the latest state-specific amounts and application steps.
 
@@ -155,7 +153,7 @@ Table: Component-level cost of a 5 kW on-grid system in Delhi, June 2026, before
 
 | Component | Specification | Cost (₹) |
 | --- | --- | --- |
-| Solar panels (10 × 545 Wp monocrystalline) | ALMM-listed, ≥ 21% efficiency | 85,000 |
+| Solar panels (10 × 545 Wp monocrystalline, DCR) | ALMM-listed, DCR cells (required for the subsidy), ≥ 21% efficiency; about ₹22/Wp, in line with JMK Research's April 2026 DCR TOPCon ex-works price of ₹22.3/Wp | 1,20,000 |
 | Solar inverter (5 kW on-grid, BIS-certified) | Single-MPPT, IP65+, Wi-Fi monitoring | 45,000 |
 | Mounting structure (GI, rooftop, 10 panels) | Hot-dip galvanised | 18,000 |
 | DC cables, MC4 connectors, conduit | 6 mm² DC cable, 10 m run | 8,000 |
@@ -163,11 +161,12 @@ Table: Component-level cost of a 5 kW on-grid system in Delhi, June 2026, before
 | Net metering application and meter | BRPL / BYPL / TPDDL application | 6,000 |
 | Installation labour (2 days, 3 technicians) | CEA-compliant installation | 14,000 |
 | Commissioning and documentation | Single-line diagram, test reports | 5,000 |
-| **Gross total** | - | **₹1,91,000** |
+| Installer margin, GST and logistics | Assumed balancing item; ask your installer to itemise it | 24,000 |
+| **Gross total** | - | **₹2,50,000** |
 | PM Surya Ghar subsidy | ₹78,000 on 3 kW slab | –₹78,000 |
-| **Net cost after subsidy** | - | **₹1,13,000** |
+| **Net cost after subsidy** | - | **₹1,72,000** |
 
-For a 5 kW hybrid system, add ₹35,000–50,000 for the hybrid inverter upgrade and ₹80,000–1.2 Lakh for a 5–10 kWh LFP battery, bringing the gross hybrid system cost to ₹3.5–4.5 Lakh (₹2.7–3.7 Lakh net of subsidy).
+For a 5 kW hybrid system, add ₹35,000–50,000 for the hybrid inverter upgrade and ₹80,000–1.2 Lakh for a 5–10 kWh LFP battery, bringing the gross hybrid system cost to about ₹3.7–5.2 Lakh on a ₹2.5–3.5 Lakh on-grid base (₹2.9–4.4 Lakh net of subsidy).
 
 ## Monthly Generation, Bill Savings, and Payback for a 3 BHK
 
@@ -179,45 +178,45 @@ Table: Estimated monthly and annual generation of a 5 kW system by city
 
 | City | Avg. Peak Sun Hours/Day | Monthly Generation (kWh) | Annual Generation (kWh) |
 | --- | --- | --- | --- |
-| Jodhpur / Jaisalmer | 5.5 | 770 | 9,240 |
-| Ahmedabad | 5.2 | 728 | 8,736 |
-| Delhi | 4.8 | 672 | 8,064 |
-| Hyderabad | 5.0 | 700 | 8,400 |
-| Mumbai | 4.5 | 630 | 7,560 |
-| Bangalore | 4.7 | 658 | 7,896 |
-| Chennai | 4.9 | 686 | 8,232 |
-| Kolkata | 4.0 | 560 | 6,720 |
-| Bhubaneswar | 4.2 | 588 | 7,056 |
+| Jodhpur / Jaisalmer | 5.5 | 711 | 8,532 |
+| Ahmedabad | 5.2 | 672 | 8,066 |
+| Delhi | 4.8 | 621 | 7,446 |
+| Hyderabad | 5.0 | 646 | 7,756 |
+| Mumbai | 4.5 | 582 | 6,981 |
+| Bangalore | 4.7 | 608 | 7,291 |
+| Chennai | 4.9 | 633 | 7,601 |
+| Kolkata | 4.0 | 517 | 6,205 |
+| Bhubaneswar | 4.2 | 543 | 6,515 |
 
-Source: Irradiance data from the [NREL National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/), adjusted for 15% system losses (inverter efficiency, cable losses, dust, temperature derating).
+Source: Irradiance data from the [NREL National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/), adjusted for 15% system losses (inverter efficiency, cable losses, dust, temperature derating). Monthly generation = 5 kW × peak sun hours × 365 ÷ 12 × 0.85; annual = 5 × peak sun hours × 365 × 0.85.
 
 ```chart
 type: hbar
 title: Estimated monthly generation of a 5 kW system by city
 unit: kWh
-source: "NREL National Solar Radiation Database (NSRDB) irradiance, adjusted for system losses, as listed in the generation table above (article updated 14 October 2026)"
+source: "Calculated in this article: 5 kW x peak sun hours x 365 / 12 x 0.85 system efficiency, using the NREL National Solar Radiation Database (NSRDB) irradiance values in the table above (article updated 14 October 2026)"
 sourceUrl: https://nsrdb.nrel.gov/
 note: "Estimates, not guarantees. Actual output depends on roof tilt, shading and dust."
 data:
-  - { label: "Jodhpur / Jaisalmer", value: 770 }
-  - { label: "Ahmedabad", value: 728 }
-  - { label: "Hyderabad", value: 700 }
-  - { label: "Chennai", value: 686 }
-  - { label: "Delhi", value: 672 }
-  - { label: "Bangalore", value: 658 }
-  - { label: "Mumbai", value: 630 }
-  - { label: "Bhubaneswar", value: 588 }
-  - { label: "Kolkata", value: 560 }
+  - { label: "Jodhpur / Jaisalmer", value: 711 }
+  - { label: "Ahmedabad", value: 672 }
+  - { label: "Hyderabad", value: 646 }
+  - { label: "Chennai", value: 633 }
+  - { label: "Delhi", value: 621 }
+  - { label: "Bangalore", value: 608 }
+  - { label: "Mumbai", value: 582 }
+  - { label: "Bhubaneswar", value: 543 }
+  - { label: "Kolkata", value: 517 }
 ```
 
 > [!EXAMPLE] Delhi 3 BHK payback
-> For the Delhi example: 672 kWh generated per month against a household consumption of 500 kWh leaves 172 kWh of surplus exported to the grid. At Delhi's BRPL net metering credit rate of approximately ₹3.5 per exported unit, that earns ₹602 per month in credit. Combined with the 500 kWh offset at the billing rate of ₹7–9 per unit, total monthly savings reach ₹4,100–5,100.
+> For the Delhi example: 621 kWh generated per month against a household consumption of 500 kWh leaves 121 kWh of surplus exported to the grid. At an assumed net metering credit of ₹3.5 per exported unit (confirm your DISCOM's rate), that earns about ₹423 per month in credit. Combined with the 500 kWh offset at the billing rate of ₹7–9 per unit, total monthly savings reach ₹3,923–₹4,923, or about ₹4,422 at ₹8.
 >
-> At ₹1,13,000 net cost after subsidy (from the Delhi example above), payback = ₹1,13,000 ÷ ₹4,600 average monthly savings = **24.5 months, just over 2 years**. Even at the full unsubsidised gross cost of ₹1,91,000, payback is approximately 3.5 years.
+> At ₹1,72,000 net cost after subsidy (from the Delhi example above), payback = ₹1,72,000 ÷ ₹4,422 average monthly savings = **38.9 months, about 3.2 years**. At the full unsubsidised gross cost of ₹2,50,000, payback is approximately 4.7 years (₹2,50,000 ÷ ₹4,422 = 56.5 months).
 
-> **2–4 years.** Typical payback period for a 5 kW on-grid solar system for a 3 BHK home in Delhi after PM Surya Ghar subsidy, at prevailing electricity tariffs of ₹7–9 per unit. *Source - [Mercom India residential solar market tracker](https://www.mercomindia.com/), Q1 2026.*
+> **About 3.2 years.** Payback of the 5 kW Delhi example after the PM Surya Ghar subsidy: ₹1,72,000 net cost ÷ ₹4,422 average monthly savings = 38.9 months, at ₹8 per unit on 500 kWh of offset use plus a ₹3.5 credit on 121 kWh of surplus. Across ₹7–9 per unit and a ₹1.72–2.72 Lakh net cost the range is roughly 2.6 to 5.2 years. *Source: calculated in this article from the stated inputs.*
 
-This payback is significantly faster than the 6–8 years commonly quoted in older analyses because PM Surya Ghar has compressed the upfront cost substantially. The [solar payback period guide](/blog/solar-inverter-payback-period/) covers the full calculation methodology for different tariff slabs.
+The subsidy matters: without it the same system pays back in about 4.7 years instead of 3.2. The [solar payback period guide](/blog/solar-inverter-payback-period/) covers the full calculation methodology for different tariff slabs.
 
 ## On-Grid vs Hybrid: Pros, Cons, and Who Should Choose Which
 
@@ -227,9 +226,9 @@ Table: On-grid versus hybrid 5 kW system for a 3 BHK home
 
 | | On-Grid (5 kW) | Hybrid (5 kW + 5 kWh battery) |
 | --- | --- | --- |
-| **Upfront cost (post-subsidy)** | ₹1.1–2.0 Lakh | ₹2.5–3.5 Lakh |
+| **Upfront cost (post-subsidy)** | ₹1.72–2.72 Lakh | ₹2.9–4.4 Lakh |
 | **Backup during power cuts** | ✗ None - shuts down for safety | ✓ 4–6 hrs essential loads |
-| **Payback period** | 2–4 years | 5–8 years |
+| **Payback period** | About 3–5 years | About 5–8 years |
 | **Subsidy eligibility** | ✓ Full ₹78,000 | ✓ Full ₹78,000 (inverter portion) |
 | **Battery replacement cost** | N/A | ₹60,000–90,000 after 8–12 years (LFP) |
 | **Best for** | Metro cities, reliable grid | Power-cut zones, rural areas |

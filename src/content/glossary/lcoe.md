@@ -12,7 +12,7 @@ keywords:
   - lcoe calculation
   - solar lcoe india
   - lcoe formula
-shortDefinition: "Levelised Cost of Energy (LCOE) is the per-kWh cost of electricity averaged over the entire lifetime of a solar plant, including capex, opex, financing and degradation. Indian utility solar LCOE landed at ₹2.5 to ₹3.5 per kWh in 2026, with rooftop at ₹3.5 to ₹5.5."
+shortDefinition: "Levelised Cost of Energy (LCOE) is the per-kWh cost of electricity averaged over the entire lifetime of a solar plant, including capex, opex, financing and degradation. IRENA put India's utility-scale solar LCOE at about USD 0.038 per kWh (roughly ₹3.2) for 2024 projects, while an illustrative 50 kW C&I rooftop plant works out to about ₹4.8 per kWh."
 quickFacts:
   industry: "Project Finance"
   primaryUse: "Lifetime cost benchmark for solar generation"
@@ -38,11 +38,11 @@ faqs:
   - q: "What is the formula for LCOE?"
     a: "LCOE = (sum of discounted costs over life) / (sum of discounted energy over life). Discounted at the project's cost of capital."
   - q: "What is the current Indian solar LCOE?"
-    a: "Utility ₹2.5 to ₹3.5 per kWh. C&I rooftop ₹3.0 to ₹4.5. Residential rooftop with subsidy ₹2.0 to ₹3.5. Without subsidy ₹4.0 to ₹6.0."
+    a: "Utility scale: IRENA reports about USD 0.038 per kWh for Indian solar PV projects commissioned in 2024, roughly ₹3.2 per kWh at an assumed ₹84 per USD. Rooftop depends on size and installed cost. In this site's worked example, a 50 kW C&I plant at ₹55,000 per kWp and a 9 percent discount rate has an LCOE of about ₹4.79 per kWh, and ₹4.0 to ₹6.0 when CAPEX, sunshine hours and discount rate are varied (see the LCOE of Solar in India post). A 3 kW home system at ₹55,000 to ₹70,000 per kWp models at about ₹4.8 to ₹5.9 per kWh without subsidy, and about ₹2.9 to ₹4.0 with the ₹78,000 PM Surya Ghar subsidy deducted from upfront cost. The rooftop figures are illustrative, so replace the inputs with your own quote."
   - q: "How is LCOE different from tariff?"
     a: "LCOE is what it costs to produce. Tariff is what the customer pays. PPA tariff for utility solar approaches LCOE plus a margin."
   - q: "Why has Indian solar LCOE fallen?"
-    a: "Module prices dropped from USD 1.5 per W in 2010 to USD 0.10 per W in 2025. Indian tariffs followed, from ₹17.91/kWh in 2010 to under ₹2.50/kWh in 2024."
+    a: "Module and system costs fell sharply, and competitive auctions passed the savings on. The CERC-determined tariff for solar PV in 2010-11 was ₹17.91/kWh, JNNSM Batch 1 bids came in at ₹10.95 to ₹12.76/kWh, and the record-low SECI auction bid in November 2020 was ₹2.00/kWh. IRENA reports a utility-scale solar LCOE for Indian projects commissioned in 2024 of about USD 0.038 per kWh, below its global average of USD 0.043."
   - q: "Does LCOE include subsidy?"
     a: "Convention varies. Pre-subsidy LCOE shows the true cost. Post-subsidy LCOE shows the customer's effective cost. State both when reporting."
   - q: "Why does utility LCOE beat rooftop?"
@@ -70,7 +70,7 @@ author: "Akash Hirapara"
 
 > [!KEYTAKEAWAYS]
 > - LCOE is the per-kWh cost of electricity from a plant over its full life, with [CAPEX](/glossary/capex/), [OPEX](/glossary/opex/), financing and degradation all discounted to present value.
-> - Indian utility solar LCOE has fallen from above ₹17/kWh in 2010 to ₹2.5-3.5/kWh in 2026; C&I rooftop runs ₹3.0-4.5/kWh.
+> - Indian solar costs have fallen sharply: the 2010-11 CERC benchmark tariff was ₹17.91/kWh, and IRENA puts India's utility-scale LCOE for 2024 projects at about USD 0.038/kWh (roughly ₹3.2). An illustrative 50 kW C&I rooftop plant models at about ₹4.8/kWh (₹4.0-6.0 across sensitivities).
 > - The discount rate used is the project's [WACC](/glossary/wacc/), typically 8 to 10 percent for Indian utility solar.
 > - LCOE is the underlying cost basis for [PPA](/glossary/ppa/) tariff discovery, distinct from the negotiated tariff itself, which sits slightly above LCOE.
 > - Higher [CUF](/glossary/cuf/) and lower [module degradation](/glossary/degradation/) both push LCOE down, since more lifetime energy sits in the denominator.
@@ -79,7 +79,7 @@ Levelised Cost of Energy (LCOE) is the per-kWh cost of electricity from a genera
 
 LCOE accounts for [CAPEX](/glossary/capex/), fixed and variable [OPEX](/glossary/opex/), financing cost, fuel cost (zero for solar), expected lifetime energy generation and [degradation](/glossary/degradation/). It produces a single number expressed in ₹/kWh that captures the full lifecycle cost of generation.
 
-For Indian solar, LCOE has fallen from above ₹17 per kWh in 2010 to ₹2.5 to ₹3.5 per kWh for utility plants in 2026. C&I rooftop LCOE lands at ₹3.0 to ₹4.5 per kWh, residential at ₹2.0 to ₹6.0 per kWh depending on subsidy. See [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/) for a worked capex-to-LCOE calculation on a real commercial rooftop.
+For Indian solar, the 2010-11 CERC benchmark tariff was ₹17.91 per kWh, and IRENA's *Renewable Power Generation Costs in 2024* puts the LCOE of Indian utility-scale solar PV commissioned in 2024 at about USD 0.038 per kWh, roughly ₹3.2 at an assumed ₹84 per USD. Rooftop LCOE is higher because of scale. In the illustrative worked example, a 50 kW C&I rooftop plant at ₹55,000 per kWp has an LCOE of about ₹4.79 per kWh (₹4.0 to ₹6.0 across the sensitivity ranges), and a 3 kW home system models at about ₹4.8 to ₹5.9 per kWh without subsidy. See [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/) for the full capex-to-LCOE calculation, with its inputs and sensitivity tables, on a commercial rooftop.
 
 ## LCOE explained simply
 
@@ -122,9 +122,11 @@ Inputs needed:
 
 ## Technical deep dive
 
-### Indian utility solar LCOE breakdown (2026 approximation)
+### Indian utility solar LCOE breakdown (illustrative model)
 
-Table: Indian utility solar LCOE breakdown by cost component (2026 approximation)
+The breakdown below is an illustrative model built on the inputs in the next table. It is not a published benchmark. For a sourced figure, IRENA's 2024 edition reports about USD 0.038 per kWh (roughly ₹3.2 at an assumed ₹84 per USD) for Indian utility-scale solar PV, and its installed cost of about USD 525 per kW is the lowest of any country it tracked that year.
+
+Table: Indian utility solar LCOE breakdown by cost component (illustrative model, not a published benchmark)
 
 | Component | Contribution to ₹/kWh |
 |---|---|
@@ -139,7 +141,7 @@ Table: Indian utility solar LCOE breakdown by cost component (2026 approximation
 
 ### LCOE inputs for Indian utility solar
 
-Table: Typical LCOE inputs for Indian utility solar
+Table: Assumed LCOE inputs for the illustrative Indian utility solar model
 
 | Parameter | Typical value |
 |---|---|
@@ -162,13 +164,13 @@ Table: Sensitivity of utility solar LCOE to changes in key inputs
 | WACC +1% | +0.15 to 0.25 |
 | Degradation +0.1%/year | +0.04 to 0.06 |
 
-### Solar vs alternatives (Indian LCOE 2026, approximate)
+### Solar vs alternatives (illustrative planning ranges)
 
-Table: Indian LCOE by generation technology, 2026 approximate
+Table: Indian LCOE by generation technology (illustrative planning ranges; only the utility solar row is tied to the IRENA 2024 figure above, the other rows are unsourced and should be checked against CEA or CERC data before use)
 
 | Technology | LCOE ₹/kWh |
 |---|---|
-| Utility solar | 2.5 to 3.5 |
+| Utility solar | 2.5 to 3.5 (IRENA 2024: about 3.2) |
 | Utility wind | 3.0 to 4.0 |
 | Coal new build | 4.5 to 5.5 |
 | Gas combined cycle | 5.0 to 6.5 |
@@ -177,7 +179,7 @@ Table: Indian LCOE by generation technology, 2026 approximate
 | Diesel genset (for comparison) | 18 to 25 |
 
 > [!IMPORTANT] Compare like with like
-> The 2.5 to 3.5 ₹/kWh utility solar figure is for a plant without storage. In the same table, solar plus a 4 hour battery is 5.0 to 7.0 ₹/kWh. Comparing bare solar LCOE with coal or gas, without a storage adjustment, flatters solar.
+> The 2.5 to 3.5 ₹/kWh illustrative utility solar range (IRENA's 2024 India figure is about ₹3.2) is for a plant without storage. In the same table, solar plus a 4 hour battery is 5.0 to 7.0 ₹/kWh. Comparing bare solar LCOE with coal or gas, without a storage adjustment, flatters solar.
 
 ## Real-world applications
 
@@ -247,31 +249,33 @@ Update LCOE as capex and tariff trajectories shift.
 
 ## Comparison: LCOE by project type (Indian, 2026)
 
-Table: LCOE by solar project type in India, 2026
+The utility row is IRENA's 2024 figure plus the illustrative model range. The C&I and residential rows are calculated with the same method as the [LCOE of Solar in India](/blog/lcoe-solar-india/) post: ₹750 per kWp per year O&M escalating 3 percent, 0.5 percent annual degradation, 9 percent discount rate, 25 years and 1,423 kWh per kWp in Year 1 (5.0 peak sun hours, 0.78 performance ratio). C&I is a 50 kW plant at ₹55,000 per kWp for the baseline, with ₹45,000 to ₹65,000 per kWp, 4.0 to 6.0 peak sun hours and 7 to 12 percent discount rates in the sensitivity runs. Residential is a 3 kW system at ₹55,000 to ₹70,000 per kWp, with the ₹78,000 subsidy deducted from upfront cost in the subsidised row. These are illustrative models, not quotations.
+
+Table: LCOE by solar project type in India, 2026 (illustrative models unless marked)
 
 | Project type | LCOE ₹/kWh |
 |---|---|
-| Utility solar | 2.5 to 3.5 |
-| C&I rooftop | 3.0 to 4.5 |
-| Residential rooftop with [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy | 2.0 to 3.5 |
-| Residential rooftop without subsidy | 4.0 to 6.0 |
-| Off-grid solar with battery | 8.0 to 14.0 |
-| Floating solar | 3.0 to 4.0 |
+| Utility solar | 2.5 to 3.5 (IRENA 2024: about 3.2) |
+| C&I rooftop (50 kW) | about 4.8 baseline, 4.0 to 6.0 across sensitivities |
+| Residential rooftop (3 kW) with [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy | 2.9 to 4.0 |
+| Residential rooftop (3 kW) without subsidy | 4.8 to 5.9 |
+| Off-grid solar with battery (unsourced) | 8.0 to 14.0 |
+| Floating solar (unsourced) | 3.0 to 4.0 |
 
 ## Indian market context
 
-Indian utility solar tariffs discovered through SECI tenders fell from ₹17.91/kWh in 2010 to ₹1.99/kWh in 2020, rising slightly to ₹2.55/kWh in 2024 due to module price recovery.
+Indian utility solar tariffs fell steeply through auctions. The CERC-determined tariff for solar PV in 2010-11 was ₹17.91/kWh without accelerated depreciation, and JNNSM Batch 1 reverse-auction bids that year ran ₹10.95 to ₹12.76/kWh with a weighted average of about ₹12.12/kWh ([World Bank/ESMAP review of JNNSM Phase I](https://documents1.worldbank.org/curated/en/164861468049776027/pdf/832660REPLACEM0X0ESM0ESMAP00PUBLIC0.pdf)). On 23 November 2020 SECI's 1,070 MW Rajasthan Tranche-III auction set a record-low bid of ₹2.00/kWh ([Mercom India](https://www.mercomindia.com/india-record-lowest-solar-tariff)). In October 2025 SECI concluded a 2,000 MW solar plus 1,000 MW/4,000 MWh storage auction at ₹2.86/kWh ([pv magazine](https://www.pv-magazine.com/2025/10/16/indias-solar-plus-storage-tender-sets-record-low-inr-2-86-tariff/)); that price includes storage and is not comparable with a bare solar tariff. Tariff is a discovered price and is not the same as LCOE.
 
 ```chart
 type: bar
-title: Discovered Indian utility solar tariff in SECI tenders, 2010, 2020 and 2024
+title: Indian utility solar tariffs, 2010 benchmark, 2010 auction average and 2020 record low
 unit: "₹/kWh"
-source: "SECI tender discovered tariffs, as cited in this entry's Indian market context"
-note: "Three points only, not a continuous series. Tariff is the discovered price, not LCOE."
+source: "2010-11 CERC benchmark and JNNSM Batch 1 weighted average bid (World Bank/ESMAP review of JNNSM Phase I); November 2020 record-low bid in SECI 1,070 MW Rajasthan Tranche-III auction (Mercom India, 23 Nov 2020)"
+note: "Three points only, not a continuous series. Tariff is a benchmark or auction price, not LCOE."
 data:
-  - { label: "2010", value: 17.91 }
-  - { label: "2020", value: 1.99 }
-  - { label: "2024", value: 2.55 }
+  - { label: "2010 CERC benchmark", value: 17.91 }
+  - { label: "2010 Batch 1 average bid", value: 12.12 }
+  - { label: "2020 record-low bid", value: 2.00 }
 ```
 
 CERC Tariff Regulations 2024 use LCOE methodology for benchmark tariff setting.
@@ -280,7 +284,7 @@ State SERCs publish LCOE-based feed-in tariffs for distributed solar.
 
 RTC (Round-The-Clock) solar plus storage projects under SECI tenders use composite LCOE.
 
-PM Surya Ghar subsidised LCOE for residential is competitive with retail tariffs in most states.
+Subsidised residential LCOE can be compared with your state's retail tariff slab; the result depends on installed cost, yield and slab, so run it with your own quote.
 
 ## Standards and certifications
 
@@ -309,7 +313,7 @@ Using nominal vs real LCOE inconsistently.
 
 ## Key takeaways
 
-LCOE is the lifetime cost of electricity from a solar plant, expressed in ₹ per kWh. Indian utility solar LCOE has collapsed from above ₹17 in 2010 to ₹2.5 to ₹3.5 in 2026. C&I rooftop runs ₹3.0 to ₹4.5. Residential with subsidy as low as ₹2.0 to ₹3.5. Capex, yield, WACC and degradation are the key drivers. LCOE is the foundation of PPA tariff discovery and customer economics.
+LCOE is the lifetime cost of electricity from a solar plant, expressed in ₹ per kWh. Indian solar costs have fallen sharply: IRENA puts India's utility-scale solar LCOE for 2024 projects at about USD 0.038 per kWh, roughly ₹3.2. In this site's illustrative models a 50 kW C&I rooftop plant lands at about ₹4.8 per kWh (₹4.0 to ₹6.0 across sensitivities), and a 3 kW home system at about ₹4.8 to ₹5.9 without subsidy and ₹2.9 to ₹4.0 with the PM Surya Ghar subsidy. Capex, yield, WACC and degradation are the key drivers. LCOE is the foundation of PPA tariff discovery and customer economics.
 
 ## Further reading
 
@@ -323,10 +327,10 @@ For how LCOE plays out in real projects, these guides go deeper:
 
 - CERC Tariff Regulations 2024.
 - IEA Projected Costs of Generating Electricity 2024.
-- IRENA Renewable Power Generation Costs in 2024.
+- [IRENA Renewable Power Generation Costs in 2024](https://www.irena.org/Digital-Report/Renewable-Power-Generation-Costs-in-2024) (India utility-scale solar PV LCOE about USD 0.038/kWh; installed cost about USD 525/kW; reported also by [TaiyangNews](https://taiyangnews.info/business/irena-renewable-power-generation-costs-in-2024-report)). Rupee conversion at an assumed ₹84 per USD is this site's own.
 - NREL Annual Technology Baseline 2024.
 - BloombergNEF New Energy Outlook 2024.
-- SECI Tender Documents and Discovered Tariffs.
+- SECI Tender Documents and Discovered Tariffs, including [SECI 1,070 MW Rajasthan Tranche-III result, 23 Nov 2020 (Mercom India)](https://www.mercomindia.com/india-record-lowest-solar-tariff) and [SECI 2 GW solar plus storage auction, Oct 2025 (pv magazine)](https://www.pv-magazine.com/2025/10/16/indias-solar-plus-storage-tender-sets-record-low-inr-2-86-tariff/).
 - MNRE Annual Reports.
 - Forum of Regulators publications on renewable tariff methodology.
 - IEA PVPS Trends in Photovoltaic Applications 2024.

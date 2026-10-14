@@ -30,7 +30,7 @@ A defensible comparison of Qbits, Deye starts with exact model numbers. Brand-le
 > - Start the electrical check with the array: maximum string open-circuit voltage at the minimum design temperature, operating voltage inside the MPPT window, and current per MPPT.
 > - For hybrid equipment, get the exact battery model, nominal voltage, current limit and BMS protocol in writing. "Lithium compatible" alone does not guarantee interoperability.
 
-> [!IMPORTANT] Warranty and service terms
+> **Warranty and service terms**
 > Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service deadline, labour coverage, transport responsibility, or exclusions. Obtain the current written terms for the exact model and sale. The same document standard should be applied to every competing brand.
 
 ## What can be verified for Qbits

@@ -72,7 +72,7 @@ Payback period is the time required for cumulative cash flows from a solar proje
 > [!KEYTAKEAWAYS]
 > - Payback period is the number of years for cumulative savings from a solar system to equal its upfront cost.
 > - Indian residential PM Surya Ghar systems pay back in 2.5 to 5 years; C&I rooftop in 3 to 6 years; utility-scale solar in 6 to 10 years.
-> - Simple payback ignores the time value of money; discounted payback applies a discount rate, usually WACC, and runs 1 to 2 years longer.
+> - Simple payback ignores the time value of money; discounted payback applies a discount rate, usually WACC, and runs longer: about 0.5 to 2 years longer for short paybacks, and many years longer for utility-scale projects with 10-year simple paybacks.
 > - Higher retail tariffs, the PM Surya Ghar subsidy and higher peak sun hours all shorten payback; higher OPEX and degradation lengthen it.
 > - After payback, the remaining 20-plus years of a 25-year system life produce effectively free electricity.
 
@@ -238,12 +238,14 @@ Table: Payback by project type, India 2026
 
 | Project type | Simple payback | Discounted payback |
 |---|---|---|
-| Residential PM Surya Ghar | 2.5 to 5 years | 3 to 6 years |
-| Residential no subsidy | 4 to 7 years | 5 to 9 years |
-| C&I rooftop CAPEX | 3 to 6 years | 4 to 7 years |
+| Residential PM Surya Ghar | 2.5 to 5 years | about 3 to 7 years |
+| Residential no subsidy | 4 to 7 years | about 5 to 11 years |
+| C&I rooftop CAPEX | 3 to 6 years | about 4 to 10 years |
 | C&I RESCO | Immediate savings, no capex | n/a |
-| Utility solar | 6 to 10 years | 8 to 12 years |
-| Off-grid solar with battery | 7 to 12 years | 10 to 15 years |
+| Utility solar | 6 to 10 years | about 9 to 21 years |
+| Off-grid solar with battery | 7 to 12 years | about 11 years to beyond system life |
+
+Assumptions: discounted figures are derived from the simple payback ranges using flat annual cash flows (no tariff escalation, degradation or tax), an 8% discount rate for residential, utility and off-grid projects and 10% for C&I. The gap between simple and discounted payback widens quickly as the simple figure grows: it adds roughly 0.5 years at a 2.5-year simple payback but more than 10 years at 10 years, which is why the 1 MW utility example above (10.3 years simple) reaches 22.7 years discounted. Tariff escalation, leverage and the PPA term change these results, so treat them as illustrative.
 
 ## Indian market context
 
@@ -251,7 +253,7 @@ PM Surya Ghar subsidy makes residential rooftop the fastest-payback solar segmen
 
 C&I rooftop payback has compressed from 6 to 8 years in 2015 to 3 to 6 years in 2026 due to falling capex and [rising retail tariffs](/blog/electricity-tariff-hikes-solar/).
 
-Utility solar payback under SECI [PPAs](/glossary/ppa/) typically 8 to 10 years.
+Utility solar simple payback under SECI [PPAs](/glossary/ppa/) typically falls in the 6 to 10 year range shown above.
 
 [Customer financing options](/blog/best-bank-solar-loan-india-2026/) (BCD-incentivised loans through SBI, Canara Bank, PNB) further reduce effective payback.
 

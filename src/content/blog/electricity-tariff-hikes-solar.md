@@ -1,7 +1,7 @@
 ---
 title: "Electricity Tariff Hikes 2026: Solar Pays Off Faster"
-excerpt: "Electricity tariff hike 2026 data shows 6–9% annual rises across India. A 5 kW solar system that once had a 7-year payback now clears in under 5 years, here is the math."
-description: "Indian electricity tariffs rose 6-9% annually over the past decade. 2026 hikes in MSEDCL, UPPCL, BESCOM, and RERC states push solar payback below 5 years."
+excerpt: "Electricity tariff changes in 2025–26 were uneven: Maharashtra cut its 0–100 unit slab by 9% and left upper slabs nearly flat. Solar payback depends on the slab you avoid. Here is the math, with sourced MERC figures."
+description: "How electricity tariffs change solar payback: MERC 2025-26 MSEDCL slab rates, a 5 kW worked example, and why the slab you avoid sets the payback."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-10-14
@@ -16,89 +16,78 @@ keywords:
   - grid parity solar India
 faqs:
   - q: "How much have electricity tariffs risen in India over the last decade?"
-    a: "Indian residential electricity tariffs rose at a compound annual growth rate of approximately 6–9% between 2014 and 2024, according to Central Electricity Authority data. In absolute terms, the national average residential tariff moved from roughly ₹3.50 per unit in 2014 to ₹7–8 per unit by 2025–26 in many states. Maharashtra, UP, Rajasthan, and Karnataka all approved hikes of 5–12% in the 2025–26 tariff revision cycle, with fuel cost adjustments adding another 30–50 paise on top."
+    a: "There is no single authoritative national series, and the pace differs by state, consumer category and slab, so treat any national percentage with caution. The sourced example in this post is Maharashtra: in its review order of 25 June 2025 (Case No. 75 of 2025, effective 1 July 2025) MERC cut MSEDCL's 1–100 unit residential variable charge from ₹6.32 to ₹5.74 per kWh (about 9%) and moved the 101–300, 301–500 and above-500 slabs by only about +2.8%, +0.5% and +1.2%. Check your own state commission's latest order before assuming a rising or falling trend."
   - q: "How does a tariff hike directly shorten the solar payback period?"
     a: "The payback period for a solar system equals the total installed cost divided by annual savings. Annual savings equal units generated multiplied by the tariff rate. When the tariff rises from ₹6 to ₹8 per unit - a 33% increase - annual savings on the same system jump by 33%, compressing the payback period proportionally. A 5 kW system generating 7,200 kWh per year saves ₹43,200 at ₹6/unit but ₹57,600 at ₹8/unit, cutting payback from roughly 7 years to just over 5 years on a ₹3 lakh installation."
   - q: "Which states saw the largest electricity tariff hikes in 2025–26?"
-    a: "Maharashtra (MSEDCL) approved a 14–17% average tariff revision in the 2025–26 tariff order, with residential slabs above 300 units per month seeing the steepest increases. Uttar Pradesh (UPPCL) approved an 8–10% hike for urban domestic consumers. Rajasthan (RERC) revised tariffs by 7–9%, while Karnataka (BESCOM) pushed through a 6–8% increase effective April 2026. Fuel cost adjustments under True-Up proceedings added an additional 20–60 paise per unit in most of these states."
+    a: "This post verified only Maharashtra against a primary order, and the 2025–26 result there was a mix: the 1–100 unit slab fell about 9%, while the 101–300, 301–500 and above-500 unit slabs rose by about 2.8%, 0.5% and 1.2% (MERC Order in Case No. 75 of 2025, 25 June 2025, variable charge including wheeling, effective 1 July 2025). Other states revise on different calendars and in different structures, so read your own state commission's tariff schedule and your bill, including the fuel adjustment line, rather than relying on a ranking."
   - q: "What is grid parity and has solar reached it in India?"
-    a: "Grid parity is the point at which the cost of generating solar electricity - measured as the Levelised Cost of Energy, or LCOE - equals or falls below the retail electricity tariff a consumer pays to the grid. As of mid-2026, solar LCOE for rooftop installations in most Indian states sits between ₹3.50 and ₹5.50 per unit after accounting for all capital and maintenance costs over a 25-year life. With retail tariffs now at ₹7–9 per unit in high-slab residential categories, solar has reached deep grid parity in Maharashtra, Karnataka, Tamil Nadu, Rajasthan, Gujarat, and UP."
+    a: "Grid parity is the point at which the cost of generating solar electricity - measured as the Levelised Cost of Energy, or LCOE - equals or falls below the retail electricity tariff a consumer pays to the grid. In the model in this post, rooftop LCOE for a 5 kW residential system works out to about ₹3.7–5.6 per unit across ₹50,000–60,000/kW capital cost, 4.5–5.5 peak sun hours and 8–9% discount rates, over a 25-year life. Whether that is below your tariff depends on the slab you avoid: it is above MSEDCL's 1–100 unit slab (₹5.56–5.74/kWh) but well below its 101–300 unit slab (₹12.40–12.57/kWh), so solar beats the grid on the higher slabs, not on the lowest one."
   - q: "Does the PM Surya Ghar subsidy change the payback calculation?"
-    a: "The PM Surya Ghar Muft Bijli Yojana central subsidy of up to ₹78,000 for a 3 kW system reduces the net installed cost and therefore directly shortens payback. For a typical 3 kW rooftop system in Maharashtra priced at ₹1.5 lakh, the post-subsidy cost falls to roughly ₹72,000–80,000. At the revised MSEDCL tariff of approximately ₹9–10 per unit for the 301-500 unit slab, payback on the net cost drops to under 2.5 years - one of the fastest return profiles in the world for residential solar."
+    a: "The PM Surya Ghar Muft Bijli Yojana central subsidy of up to ₹78,000 for a 3 kW system reduces the net installed cost and therefore directly shortens payback. For a typical 3 kW rooftop system priced at ₹1.5 lakh, the post-subsidy cost falls to ₹72,000. Using the MERC variable charge for MSEDCL's 101–300 unit slab (₹12.40/kWh from 1 April 2026) as the avoided rate, a 3 kW system generating about 4,320 kWh a year (3 kW × 4.93 peak sun hours × 365 × 0.80) saves about ₹53,600 a year, so payback on the net cost is about 1.4 years before electricity duty, fixed charges and O&M. A household whose consumption sits mostly in the 1–100 unit slab avoids only ₹5.56/kWh and sees a much longer payback. Check which slab your units fall in."
   - q: "What is a fuel cost adjustment and does it affect solar savings?"
-    a: "A fuel cost adjustment, or Fuel Cost Adjustment Charge (FCAC), is a variable surcharge that DISCOMs levy monthly or quarterly to recover the difference between the fuel cost assumed in the tariff order and actual fuel procurement costs for thermal generation. In 2025–26, high coal import prices triggered FCACs of 30–80 paise per unit across multiple states, effectively raising the real tariff beyond the headline order figure. Solar generation offsets both the base tariff and the FCAC, so total savings are typically higher than the headline tariff number suggests."
+    a: "A fuel cost adjustment, or Fuel Cost Adjustment Charge (FCAC), is a variable surcharge that DISCOMs levy monthly or quarterly to recover the difference between the fuel cost assumed in the tariff order and actual fuel procurement costs for thermal generation. FCAC levels vary by DISCOM and month and can add tens of paise per unit to the real tariff beyond the headline order figure, so check the fuel adjustment line on your own bill. Solar generation offsets both the base tariff and the FCAC, so total savings are typically higher than the headline tariff number suggests."
   - q: "What is the LCOE of rooftop solar in India in 2026?"
-    a: "Rooftop solar LCOE in India in 2026 ranges from ₹3.50 to ₹5.50 per unit for residential systems sized 3–10 kW, assuming a 25-year panel life, 0.5% annual degradation, 12-year inverter replacement or warranty coverage, and a capital cost of ₹45,000–₹60,000 per kW. Systems in high-irradiance zones like Rajasthan, Gujarat, and Tamil Nadu achieve LCOEs near the lower end of that range. Compared to retail tariffs of ₹7–10 per unit in high-consumption slabs, the LCOE gap represents the homeowner's net margin on every unit of solar energy consumed."
+    a: "In the model in this post, rooftop solar LCOE for a 5 kW residential system ranges from about ₹3.7 to ₹5.6 per unit, assuming a 25-year panel life, 0.5% annual degradation, an assumed ₹5,000/kW inverter replacement in Year 12, O&M of ₹600/kW a year, a capital cost of ₹50,000–₹60,000 per kW, 4.5–5.5 peak sun hours, a 0.80 performance ratio and an 8–9% discount rate. Systems in high-irradiance zones sit near the lower end of that range. Compared to the tariff for the slab you avoid, the LCOE gap is the homeowner's margin on every unit of solar energy consumed; where the avoided slab is below about ₹5.60 there may be no margin."
   - q: "Should I wait for tariffs to rise further before installing solar?"
     a: "Waiting is rarely the correct strategy. Every month without solar means continuing to pay the current tariff - and potentially a higher one after the next revision cycle, which typically happens annually. The PM Surya Ghar subsidy is also finite and linked to an annual disbursement ceiling. Installed solar system costs have declined significantly over the past decade and are now relatively stable, whereas tariffs move only upward. Installing now locks in the current system cost against an escalating tariff, maximising lifetime savings. Each percentage-point tariff rise experienced before installation is a sunk opportunity cost."
   - q: "How does the tariff slab structure affect solar ROI in India?"
-    a: "Most Indian states use a tiered slab tariff where higher monthly consumption attracts a higher per-unit rate. A household consuming 400 units per month in Maharashtra pays ₹10.60–₹11.50 per unit for units in the 301–500 slab - significantly above the blended average. Solar generation reduces consumption from the top of the slab first, displacing the most expensive units. This slab-offset effect means actual savings per unit of solar energy generated are often higher than the blended tariff rate, shortening payback even further than simple average-tariff calculations suggest."
+    a: "Most Indian states use a tiered slab tariff where higher monthly consumption attracts a higher per-unit rate. A household consuming 400 units per month in Maharashtra pays MSEDCL's 301–500 slab variable charge of ₹16.64–₹16.85 per unit (FY2026-27 and FY2025-26 respectively, energy plus wheeling, before duty and fixed charge) for units in that slab - significantly above the blended average. Solar generation reduces consumption from the top of the slab first, displacing the most expensive units. This slab-offset effect means actual savings per unit of solar energy generated are often higher than the blended tariff rate, shortening payback even further than simple average-tariff calculations suggest."
   - q: "What happens to solar ROI if electricity tariffs rise after I install?"
-    a: "Post-installation tariff hikes work entirely in the solar owner's favour. The cost of solar generation is fixed at installation - it does not change with grid tariffs. Each subsequent tariff hike by the DISCOM increases the value of every unit of solar energy self-consumed, without increasing the solar system's cost. A homeowner who locked in solar at a 6-year payback under ₹7/unit tariffs will see that payback compress to under 5 years if tariffs rise to ₹9/unit - and the system continues generating free electricity for another 19+ years after payback."
+    a: "Post-installation tariff hikes work entirely in the solar owner's favour. The cost of solar generation is fixed at installation - it does not change with grid tariffs. Each subsequent tariff hike by the DISCOM increases the value of every unit of solar energy self-consumed, without increasing the solar system's cost. A homeowner who locked in solar at a 6-year payback under ₹7/unit tariffs would see that payback compress to about 4.7 years if the avoided tariff rose to ₹9/unit (6 × 7 ÷ 9) - and the system continues generating free electricity for another 19+ years after payback."
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-When your [electricity bill](https://www.surgepv.com/blog/electricity-bill-savings-estimator) arrives and the total has climbed again, you are not imagining the pattern. Indian electricity tariffs have risen at a compound annual rate of 6–9% for more than a decade, and the 2025–26 revision cycle brought some of the steepest hikes in recent memory. Maharashtra's MSEDCL, UP's UPPCL, Karnataka's BESCOM, and Rajasthan's RERC all approved significant rate increases, and those hikes directly change the mathematics of solar investment in the homeowner's favour.
+When your [electricity bill](https://www.surgepv.com/blog/electricity-bill-savings-estimator) arrives and the total has climbed again, you are not imagining the pattern. Tariff changes in 2025–26 were not a uniform rise. In Maharashtra, for example, the regulator's June 2025 review order cut the 1–100 unit slab by about 9% and left the upper slabs nearly flat. What does change the mathematics of solar investment is the tariff of the slab you avoid: payback is inversely proportional to it, so a household avoiding ₹12/unit pays back about twice as fast as one avoiding ₹6/unit, whatever the headline "hike" says.
 
 > [!KEYTAKEAWAYS]
-> - Indian residential tariffs rose from roughly ₹3.50/unit in 2014 to ₹7–8/unit by 2025–26, a 6–9% compound annual rate.
-> - Maharashtra's MSEDCL approved the steepest 2025–26 hike at 14–17%, pushing top-slab rates to ₹10.60–₹11.50/unit.
-> - A 5 kW system's simple payback compresses from about 7.5 years at ₹6/unit to roughly 4 years at MSEDCL's current top slab of ₹10.60/unit.
-> - Rooftop solar LCOE in 2026 sits at ₹3.50–₹5.50/unit, well under retail tariffs of ₹7–10/unit in most states.
-> - Adding the PM Surya Ghar subsidy can push a 3 kW Maharashtra system's payback below 2.5 years.
+> - 2025–26 tariff changes were uneven, not a uniform rise: MERC's order of 25 June 2025 cut MSEDCL's 1–100 unit slab 9% (₹6.32 to ₹5.74/kWh) and moved the upper slabs by only +0.5% to +2.8%.
+> - From 1 April 2026 MSEDCL's variable charge is ₹5.56, ₹12.40, ₹16.64 and ₹19.13 per kWh across its four residential slabs (energy plus wheeling, before duty, fixed charge and fuel adjustment).
+> - A 5 kW system's simple payback compresses from about 7.5 years at ₹6/unit to roughly 3.5 years at ₹12.40/unit (₹3 lakh, 7,200 kWh a year, ₹3,000 O&M, no subsidy).
+> - In this post's model, 5 kW rooftop LCOE is about ₹3.7–₹5.6/unit, so solar beats the grid on higher slabs but not on a ₹5.56 slab.
+> - Adding the PM Surya Ghar subsidy (₹78,000 on the first 3 kW) cuts the 5 kW example's payback at ₹12.40/unit to about 2.6 years.
 
-> **Direct answer.** The electricity [tariff hike](https://www.heavengreenenergy.com/blog/solar-and-electricity-tariff-hike) in 2026 has pushed solar payback periods below five years in most Indian states. Using the Tariff-Adjusted Solar Return (TASR) framework: a 5 kW rooftop system generating 7,200 kWh per year saves ₹43,200 annually at ₹6/unit, but ₹57,600 at ₹8/unit, compressing payback from seven years to just over five years on a ₹3 lakh installation, before any PM Surya Ghar subsidy.
+> **Direct answer.** Solar payback is set by the tariff of the slab you avoid, so [tariff changes](https://www.heavengreenenergy.com/blog/solar-and-electricity-tariff-hike) matter only through that number. Using the Tariff-Adjusted Solar Return (TASR) framework: a 5 kW rooftop system generating 7,200 kWh per year saves ₹43,200 annually at ₹6/unit, but ₹57,600 at ₹8/unit, compressing simple payback from about seven years to just over five years on a ₹3 lakh installation, before any PM Surya Ghar subsidy and before O&M.
 
-The relationship between grid tariff and solar payback is direct and mathematical. Every time the [DISCOM](/glossary/discom/) raises the rate per unit, the annual rupee value of your solar generation rises by the same proportion, and [payback period](https://quickestimate.co/blog/solar-payback-period-by-state) falls. This article documents the 2025–26 tariff revision data by state, walks through the payback calculation with real numbers, and explains why the [LCOE](/glossary/lcoe/) of rooftop solar is now well below retail grid prices across India.
+The relationship between grid tariff and solar payback is direct and mathematical. Every time the [DISCOM](/glossary/discom/) raises the rate per unit, the annual rupee value of your solar generation rises by the same proportion, and [payback period](https://quickestimate.co/blog/solar-payback-period-by-state) falls. This article documents the 2025–26 MSEDCL tariff revision from the regulator's own order, walks through the payback calculation with real numbers, and explains where the [LCOE](/glossary/lcoe/) of rooftop solar sits against the slab tariffs households actually pay.
 
-## Electricity Tariff Hike 2026: State-by-State Data
+## Electricity Tariff Changes 2025-26: What the Regulator's Order Says
 
-The Central Electricity Authority publishes consolidated tariff data annually, and the 2025–26 revision cycle shows a clear nationwide trend: residential consumers in the upper consumption slabs bore the largest absolute increases, while commercial and small industrial consumers saw moderate relief in some states.
+State regulators publish tariff schedules as orders, and the schedule, not a press summary, is the number to use. The table below reproduces the residential (LT-I(B)) variable charge for Maharashtra from the Maharashtra Electricity Regulatory Commission's [MERC Order in Case No. 75 of 2025](https://www.mahadiscom.in/consumer/wp-content/uploads/2025/06/Order_Case-No.75-of-2025.pdf) of 25 June 2025, which revised MSEDCL's tariffs from 1 July 2025 and set FY2026-27 rates from 1 April 2026. We verified this one order against the primary document; other states' orders were not re-verified for this update, so read your own commission's schedule.
 
-Table: 2025-26 residential tariff revisions by state and DISCOM, top slab, with effective month
+Table: MSEDCL residential variable charge by slab (energy plus wheeling, ₹/kWh), MERC Case No. 75 of 2025
 
-| State (DISCOM) | Previous Slab Rate (₹/unit, top slab) | Revised Rate 2025-26 | % Change | Effective Month |
+| Slab (LT-I(B)) | FY2024-25 | FY2025-26 (from 1 July 2025) | Change | FY2026-27 (from 1 April 2026) |
 | --- | --- | --- | --- | --- |
-| **Maharashtra (MSEDCL)** | ₹9.45 (301-500 units) | ₹10.60–₹11.50 | +14–17% | October 2025 |
-| **Uttar Pradesh (UPPCL)** | ₹6.50 (urban domestic > 150 units) | ₹7.10–₹7.30 | +8–10% | April 2026 |
-| **Karnataka (BESCOM)** | ₹7.90 (201-500 units) | ₹8.40–₹8.70 | +6–8% | April 2026 |
-| **Rajasthan (RERC)** | ₹7.20 (> 150 units) | ₹7.70–₹7.85 | +7–9% | July 2025 |
-| **Tamil Nadu (TANGEDCO)** | ₹4.50 (> 500 units) | ₹4.85 | +7.8% | October 2025 |
-| **Gujarat (DGVCL/PGVCL)** | ₹5.45 (> 200 units) | ₹5.75 | +5.5% | April 2026 |
+| 1-100 units | ₹6.32 | ₹5.74 | -9.2% | ₹5.56 |
+| 101-300 units | ₹12.23 | ₹12.57 | +2.8% | ₹12.40 |
+| 301-500 units | ₹16.77 | ₹16.85 | +0.5% | ₹16.64 |
+| Above 500 units | ₹18.93 | ₹19.15 | +1.2% | ₹19.13 |
 
-These figures represent the base tariff only. In addition to the headline revision, most states levied fuel cost adjustment charges (FCACs) of 30–80 paise per unit during 2025–26 due to elevated coal import prices and supply chain disruptions. The effective tariff (what actually appears on the bill) is often 40–60 paise higher than the tariff order rate.
+These figures are the variable charge only. The order also sets a fixed charge of ₹130 a month for residential consumers (up from ₹128), and electricity duty and fuel adjustment charges (FAC) are billed on top. Most states also levy a fuel cost adjustment of tens of paise per unit, which varies by month and DISCOM; check the fuel adjustment line on your bill. Solar offsets the energy-linked charges, so the effective saving per unit can differ from the headline number.
 
-> **₹11.50 per unit.** The effective residential tariff for a high-consuming household in Maharashtra (MSEDCL zone) in the 301–500 unit monthly slab, inclusive of the 2025–26 revision and applicable fuel cost adjustments. *Source - [Maharashtra Electricity Regulatory Commission Tariff Order 2025–26](https://www.mercindia.org.in/), October 2025.*
+> **₹12.40–₹16.64 per unit.** MSEDCL's residential variable charge (energy plus wheeling) for the 101–300 and 301–500 unit slabs from 1 April 2026, before electricity duty, the fixed charge and any fuel adjustment. *Source: [MERC Order in Case No. 75 of 2025](https://www.mahadiscom.in/consumer/wp-content/uploads/2025/06/Order_Case-No.75-of-2025.pdf), 25 June 2025, Annexure II.*
 
 The [State Electricity Regulatory Commission](/glossary/serc/) in each state conducts Annual Revenue Requirement (ARR) proceedings before approving these hikes. The primary drivers in 2025–26 were higher fuel procurement costs for thermal plants, increased transmission and distribution losses, and infrastructure investment mandates under the Revamped Distribution Sector Scheme (RDSS). None of these cost drivers are expected to reverse direction, which means the tariff trajectory is structurally upward.
 
-## Historical Tariff Escalation: Ten Years of Data
+## Tariff Escalation: An Illustrative Scenario
 
-To understand where tariffs are going, it is useful to understand where they have been. The [Central Electricity Authority](/glossary/cea/) maintains historical average tariff data across all states and consumer categories.
+Tariffs have generally trended upward over time, but the pace differs by state, consumer category and slab, and as the Maharashtra order above shows, a given year can bring a cut in one slab and a small rise in another. We have not found a single authoritative national series, so the projection below is an illustrative scenario, not a forecast: it assumes a ₹7/unit avoided tariff in 2026 that escalates at 7% a year, reaching ₹12.03/unit by 2034 (₹7 × 1.07^8). Rerun it with your own slab and your state's trend. Every rupee of future tariff escalation, if it happens, accrues to the solar owner as additional savings.
 
-Between 2014 and 2024, the national average residential electricity tariff rose from approximately ₹3.50 per unit to ₹7.00 per unit, a compound annual growth rate of 7.2%. In high-tariff states like Maharashtra and Karnataka, the numbers are even more pronounced.
-
-- **Maharashtra**: ₹3.80/unit (2014) to ₹9.45/unit (2024), a CAGR of 9.5% over ten years.
-- **Karnataka**: ₹4.10/unit (2014) to ₹7.90/unit (2024), a CAGR of 6.8%.
-- **Rajasthan**: ₹4.50/unit (2014) to ₹7.20/unit (2024), a CAGR of 4.8%.
-- **Uttar Pradesh**: ₹3.20/unit (2014) to ₹6.50/unit (2024), a CAGR of 7.3%.
-
-The pattern holds at the national level too. At 7% annual escalation, a tariff of ₹7/unit in 2024 will reach ₹13.78/unit by 2034, the midpoint of a solar system's productive life. Every rupee of future tariff escalation accrues entirely to the solar owner as additional savings.
-
-Table: Projected grid tariff at 7% annual escalation against estimated solar LCOE, 2026 to 2034
+Table: Illustrative grid tariff at an assumed 7% annual escalation against an assumed solar LCOE of about ₹4.5/unit, 2026 to 2034
 
 | Year | ₹7/unit at 7% CAGR | Solar LCOE (estimated) | Solar Advantage |
 | --- | --- | --- | --- |
 | 2026 | ₹7.00 | ₹4.50 | ₹2.50/unit |
-| 2028 | ₹8.02 | ₹4.55 | ₹3.47/unit |
-| 2030 | ₹9.19 | ₹4.60 | ₹4.59/unit |
-| 2032 | ₹10.53 | ₹4.65 | ₹5.88/unit |
-| 2034 | ₹12.06 | ₹4.70 | ₹7.36/unit |
+| 2028 | ₹8.01 | ₹4.55 | ₹3.46/unit |
+| 2030 | ₹9.18 | ₹4.60 | ₹4.58/unit |
+| 2032 | ₹10.51 | ₹4.65 | ₹5.86/unit |
+| 2034 | ₹12.03 | ₹4.70 | ₹7.33/unit |
 
-The [solar LCOE](/glossary/lcoe/) increases only modestly over time, mainly reflecting minor increases in operations and maintenance costs as systems age. Grid tariffs, on the other hand, compound upward each year. The widening spread is the core financial case for solar, and it strengthens with every subsequent tariff revision.
+The solar LCOE column is held nearly flat in this scenario, mainly reflecting small increases in operations and maintenance costs as systems age. If grid tariffs instead compound upward each year, the spread widens; if they stay flat, it does not. The widening spread is the core of the financial case only in the escalation scenario.
 
 ## The Tariff-Adjusted Solar Return (TASR) Framework
 
@@ -112,11 +101,11 @@ Understanding when solar is right for your household requires more than a single
 <!-- steps -->
 1. **Identify your effective tariff**: Pull your last three electricity bills. Calculate the total bill amount (excluding fixed charges) divided by total units consumed. This blended rate is your starting tariff. For slab-structured tariffs, note that solar offsets the highest slab first, so your effective solar savings rate may be higher than the blended rate.
 
-2. **Estimate your solar yield**: Multiply your system capacity (kW) by your location's average peak sun hours per day and by 365. A 5 kW system in Pune receives approximately 4.8 peak sun hours per day, yielding 5 × 4.8 × 365 × 0.80 (system efficiency factor) = 7,008 kWh per year. Use the [Central Electricity Authority's solar atlas](https://cea.nic.in/) for state-level irradiation data.
+2. **Estimate your solar yield**: Multiply your system capacity (kW) by your location's average peak sun hours per day and by 365. A 5 kW system in Pune receives approximately 4.8 peak sun hours per day, yielding 5 × 4.8 × 365 × 0.80 (system efficiency factor) = 7,008 kWh per year. Cross-check against a published solar atlas such as [Global Solar Atlas](https://globalsolaratlas.info/) for state-level irradiation data.
 
-3. **Calculate annual savings**: Multiply annual solar yield by your effective tariff (or your top slab rate if your consumption is in the upper bracket). At ₹7/unit, 7,008 kWh saves ₹49,056. At ₹9/unit (post-MSEDCL revision), the same system saves ₹63,072, a ₹14,016 annual difference on a single tariff revision.
+3. **Calculate annual savings**: Multiply annual solar yield by your effective tariff (or your top slab rate if your consumption is in the upper bracket). At ₹7/unit, 7,008 kWh saves ₹49,056. At an illustrative ₹9/unit, the same system saves ₹63,072, a ₹14,016 annual difference on a single tariff revision.
 
-4. **Divide net cost by annual savings**: Net cost equals installed system price minus PM Surya Ghar subsidy (if applicable). At ₹60,000 per kW installed cost, a 5 kW system costs ₹3,00,000. Subtract the central subsidy (capped at ₹78,000 for up to 3 kW under PM Surya Ghar, with top-up state subsidies available in some states). Net cost at ₹3,00,000 with no subsidy: payback = ₹3,00,000 ÷ ₹63,072 = 4.76 years at current Maharashtra tariffs.
+4. **Divide net cost by annual savings**: Net cost equals installed system price minus PM Surya Ghar subsidy (if applicable). At ₹60,000 per kW installed cost, a 5 kW system costs ₹3,00,000. Subtract the central subsidy (capped at ₹78,000 for up to 3 kW under PM Surya Ghar, with top-up state subsidies available in some states). Net cost at ₹3,00,000 with no subsidy: payback = ₹3,00,000 ÷ ₹63,072 = 4.76 years at an illustrative ₹9/unit.
 
 This framework makes the tariff variable explicit. Most payback calculators use a single static tariff number, the TASR approach runs the same calculation at the current tariff and at a projected tariff 3–5 years ahead, giving a range rather than a single point estimate. For a fast first estimate before working through the full TASR model, a solar savings calculator can approximate the numbers in minutes.
 
@@ -131,14 +120,14 @@ The clearest way to see the tariff effect is with a side-by-side comparison usin
 - Annual operations and maintenance: ₹3,000
 - Panel degradation: 0.5% per year
 
-Table: Simple payback of a 5 kW rooftop system under three tariff cases and with the PM Surya Ghar subsidy
+Table: Simple payback of a 5 kW rooftop system under three tariff cases and with the PM Surya Ghar subsidy (simple payback, no escalation)
 
 | Scenario | Tariff | Annual Savings (Yr 1) | Net Annual Savings after O&M | Simple Payback |
 | --- | --- | --- | --- | --- |
-| **Pre-2025 tariff** | ₹6.00/unit | ₹43,200 | ₹40,200 | **7.46 years** |
-| **Post-2025 MSEDCL revision** | ₹8.00/unit | ₹57,600 | ₹54,600 | **5.49 years** |
-| **MSEDCL top slab (current)** | ₹10.60/unit | ₹76,320 | ₹73,320 | **4.09 years** |
-| **With PM Surya Ghar subsidy (3 kW portion)** | ₹10.60/unit | ₹76,320 | ₹73,320 | **3.04 years** (net cost ₹2,22,000) |
+| **Low tariff (illustrative; close to MSEDCL's 1-100 slab)** | ₹6.00/unit | ₹43,200 | ₹40,200 | **7.46 years** |
+| **Mid tariff (illustrative blended rate)** | ₹8.00/unit | ₹57,600 | ₹54,600 | **5.49 years** |
+| **MSEDCL 101-300 slab, FY2026-27 variable charge** | ₹12.40/unit | ₹89,280 | ₹86,280 | **3.48 years** |
+| **Same, with PM Surya Ghar subsidy (3 kW portion)** | ₹12.40/unit | ₹89,280 | ₹86,280 | **2.57 years** (net cost ₹2,22,000) |
 
 ```chart
 type: hbar
@@ -147,13 +136,13 @@ unit: "years"
 source: "Calculated in this article from the worked example inputs: ₹3,00,000 installed cost (₹2,22,000 net after the PM Surya Ghar 3 kW subsidy), 7,200 kWh a year, ₹3,000 annual O&M"
 note: "Simple payback, no tariff escalation or degradation. Lower is better."
 data:
-  - { label: "₹6.00/unit (pre-2025 tariff)", value: 7.46 }
-  - { label: "₹8.00/unit (post-2025 MSEDCL revision)", value: 5.49 }
-  - { label: "₹10.60/unit (MSEDCL top slab)", value: 4.09 }
-  - { label: "₹10.60/unit with PM Surya Ghar subsidy", value: 3.04 }
+  - { label: "₹6.00/unit (low, illustrative)", value: 7.46 }
+  - { label: "₹8.00/unit (mid, illustrative)", value: 5.49 }
+  - { label: "₹12.40/unit (MSEDCL 101-300 slab)", value: 3.48 }
+  - { label: "₹12.40/unit with PM Surya Ghar subsidy", value: 2.57 }
 ```
 
-The movement from ₹6 to ₹8 per unit (the range most homeowners in UP, Karnataka, and Rajasthan sit within after the 2025–26 revisions) compresses the simple payback by almost two full years. Moving into the top MSEDCL slab takes payback below four years. Adding PM Surya Ghar subsidy on the first 3 kW pushes it below 3.5 years for most Maharashtra households.
+The movement from ₹6 to ₹8 per unit compresses the simple payback by almost two full years. Avoiding units billed at MSEDCL's 101–300 slab rate of ₹12.40 takes payback to about 3.5 years. Adding the PM Surya Ghar subsidy on the first 3 kW brings it to about 2.6 years. The same system saves much less if most of the household's units sit in the ₹5.56 slab.
 
 The [payback period](/glossary/payback-period/) calculation does not stop at year five or seven. The system continues generating free electricity for 20–25 years. Every unit generated after payback is pure financial return, at whatever the prevailing grid tariff happens to be at that time. For a system that pays back in 5 years and operates for 25, the post-payback free generation phase is four times longer than the investment recovery phase.
 
@@ -163,16 +152,16 @@ The [payback period](/glossary/payback-period/) calculation does not stop at yea
 
 The [Levelised Cost of Energy (LCOE)](/glossary/lcoe/) for a residential 5 kW rooftop system in 2026 accounts for:
 
-- **Capital cost**: ₹55,000–₹65,000 per kW all-in (panels, inverter, mounting, cables, installation)
-- **Annual O&M**: ₹2,000–₹4,000 per year
+- **Capital cost**: ₹50,000–₹60,000 per kW all-in (panels, inverter, mounting, cables, installation); MNRE's PM Surya Ghar benchmark is ₹50,000/kW for the first 2 kW and ₹45,000/kW beyond (13 February 2024)
+- **Annual O&M**: about ₹600 per kW (₹3,000 for 5 kW) and an assumed ₹5,000/kW inverter replacement in Year 12
 - **Panel degradation**: 0.5% per annum linearly over 25 years
-- **Discount rate**: 8–9% (inline with IREDA and SBI solar loan rates)
+- **Discount rate**: 8–9% (assumed)
 
-At these inputs, rooftop solar LCOE in 2026 lands at ₹3.50–₹5.50 per unit depending on irradiance zone. Against a Maharashtra top-slab tariff of ₹10.60+, the LCOE gap is ₹5–7 per unit. Against Karnataka's ₹8.40 tariff, the gap is ₹3–5 per unit. Even in Tamil Nadu, where tariffs are lower due to historical cross-subsidy structures, the LCOE gap is now positive.
+At these inputs, with 4.5–5.5 peak sun hours and a 0.80 performance ratio, rooftop solar LCOE lands at about ₹3.7–₹5.6 per unit. Against MSEDCL's 101–300 unit slab variable charge of ₹12.40, the gap is about ₹7–9 per unit. Against its 1–100 unit slab of ₹5.56 there is no gap at the higher-cost end of the range, which is why the slab matters more than the headline tariff.
 
-> **₹3.50–₹5.50 per unit.** The 2026 rooftop solar LCOE range across Indian states (3–10 kW residential systems), based on modelling by [IRENA's 2025 Renewable Power Generation Costs report](https://www.irena.org/publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024) adapted for Indian capex and irradiance conditions. Grid retail tariffs are 1.5–3× higher in upper consumption slabs.
+> **₹3.7–₹5.6 per unit.** Rooftop LCOE for a 5 kW residential system in this post's model (₹50,000–₹60,000/kW, 4.5–5.5 peak sun hours, 0.80 performance ratio, 8–9% discount rate, 25 years). *Source: calculated in this article from the stated inputs.*
 
-This is not a temporary gap created by one good tariff revision year. India's [CEA](https://cea.nic.in/) forecasts continued tariff increases aligned with fuel cost pass-through and network infrastructure investment, while solar manufacturing costs (particularly panels) remain on a long-term declining trend globally. Households wanting to model the full 25-year cash flow rather than a single LCOE snapshot can run their own numbers through a dedicated [solar financial modeling tool](https://surgepv.com/generation-financial-tool/).
+The gap is a function of your slab, not of any one revision year, and future tariff direction is uncertain. Households wanting to model the full 25-year cash flow rather than a single LCOE snapshot can run their own numbers through a dedicated [solar financial modeling tool](https://surgepv.com/generation-financial-tool/).
 
 The [net metering](/glossary/net-metering/) framework in most Indian states adds an additional dimension: any surplus solar generation exported to the grid earns a credit (typically at the purchase tariff rate, which is lower than the retail tariff) that offsets future bills. The primary financial lever remains self-consumption, but net metering provides a safety valve for households with variable consumption patterns.
 
@@ -182,30 +171,23 @@ Not all states are equal for solar ROI, even after the 2025–26 revision cycle.
 
 ### Maharashtra (MSEDCL zone)
 
-Maharashtra represents the strongest residential solar ROI environment in India as of mid-2026. The combination of high tariffs (₹9.45–₹11.50/unit post-revision), strong irradiance (4.5–5.5 peak sun hours/day across Pune, Nashik, Aurangabad), and an active PM Surya Ghar implementation with state-level supplements creates payback periods of 3–5 years for most households. The [solar subsidy Maharashtra](/blog/solar-subsidy-maharashtra-2026/) framework has also been extended through the 2026–27 financial year, maintaining the incentive environment.
+Maharashtra offers the clearest sourced example. The MERC order puts the variable charge at ₹12.40 per kWh for the 101-300 unit slab and ₹16.64 per kWh for the 301-500 unit slab from 1 April 2026, which means a household that consumes above 100 units a month and avoids those units with solar sees the short paybacks in the worked example above. Irradiance is strong (4.5–5.5 peak sun hours/day across Pune, Nashik and Aurangabad). A household that stays below 100 units a month avoids only ₹5.56/kWh and gets a far weaker return. The [solar subsidy Maharashtra](/blog/solar-subsidy-maharashtra-2026/) guide covers the state-level incentive framework.
 
-### Uttar Pradesh (UPPCL zone)
+### Other states
 
-UP is the fastest-growing rooftop solar market by installation volume in India, partly because the starting tariff base was lower (making absolute annual savings smaller) but per-unit hikes in 2025–26 were proportionally significant at 8–10%. Urban consumers on the 150-unit-plus slab now pay ₹7.10–₹7.30/unit, closing in on the ₹7.50+ threshold where payback periods comfortably fall below six years. According to [Mercom India's Q1 2026 India Solar Market Update](https://www.mercomindia.com/india-solar-market-update-q1-2026), UP added more rooftop capacity in the first quarter of 2026 than any other Indian state. The [solar subsidy Uttar Pradesh](/blog/solar-subsidy-uttar-pradesh-2026/) page covers the state government top-up available to PM Surya Ghar applicants in UP.
+Uttar Pradesh, Karnataka, Rajasthan, Tamil Nadu and Gujarat each revise tariffs on their own calendars and slab structures, and this update did not re-verify their residential schedules against primary orders, so it does not reproduce rate figures for them. Read your state commission's latest order and your bill before modelling. The state-level incentive guides, such as [solar subsidy Uttar Pradesh](/blog/solar-subsidy-uttar-pradesh-2026/), cover scheme top-ups.
 
-### Karnataka (BESCOM zone)
+### Rajasthan (RERC zone): irradiance example
 
-Karnataka benefits from excellent irradiance in the Bangalore, Mysore, and Hubli corridors (4.8–5.2 peak sun hours/day) and a post-revision tariff of ₹8.40–₹8.70/unit for the 201–500 unit slab. Payback periods for a 5 kW system in Bangalore sit at 5.5–6.5 years without subsidy and 4–5 years with PM Surya Ghar central subsidy. BESCOM's active net metering programme (one of the better-administered in India) adds additional value for households with roof space to over-size.
-
-### Rajasthan (RERC zone)
-
-Rajasthan has the highest solar irradiance of any large state in India (some zones see 6+ peak sun hours per day) which compensates for its somewhat lower tariff base of ₹7.70–₹7.85/unit post-revision. The irradiance advantage means a 5 kW system in Jaipur generates 8,760 kWh per year against a Pune system's 7,200 kWh, 22% more output from the same installed capacity. At ₹7.80/unit, the Jaipur system saves ₹68,328 annually versus ₹56,160 for the Pune system at the same rate, producing a 4.4-year payback on a ₹3 lakh installation.
+Rajasthan has the highest solar irradiance of any large state in India (some zones see 6+ peak sun hours per day). The irradiance advantage means a 5 kW system in Jaipur generates 8,760 kWh per year (5 kW × 6 × 365 × 0.80) against a Pune system's 7,200 kWh, 22% more output from the same installed capacity. At an illustrative ₹7.80/unit, the Jaipur system saves ₹68,328 annually versus ₹56,160 for the Pune system at the same rate, producing a 4.4-year simple payback on a ₹3 lakh installation (₹3,00,000 ÷ ₹68,328, before O&M).
 
 ## Fuel Cost Adjustments: The Hidden Tariff Above the Tariff
 
 The headline tariff revision announced in a SERC order is not the full picture. Most Indian DISCOMs also levy a Fuel Cost Adjustment Charge (FCAC) or Fuel and Power Purchase Cost Adjustment (FPPCA) that is adjusted monthly or quarterly based on actual fuel procurement costs versus the costs assumed in the tariff order.
 
-- **Maharashtra MSEDCL** levied FCACs averaging 42 paise/unit through Q3 2025–26 due to coal procurement above assumed rates.
-- **UPPCL** applied a fuel surcharge of 28–35 paise/unit in the same period.
-- **BESCOM** applied power purchase cost adjustments averaging 22 paise/unit in H2 2025–26.
-- **RERC** used a variable FPPCA system that added 30–50 paise/unit during peak coal price quarters.
+FCAC or FPPCA levels vary by DISCOM and by month, and can be negative as well as positive. Read the figure on your own bill rather than using a state average.
 
-These surcharges appear as a separate line item on most electricity bills but are effectively part of the real tariff. Solar generation offsets the base tariff and all applicable surcharges, so total bill savings per unit of solar generation are typically 30–80 paise higher than the headline tariff number used in most payback calculations.
+These surcharges appear as a separate line item on most electricity bills but are effectively part of the real tariff. Solar generation offsets the base tariff and all applicable surcharges, so total bill savings per unit of solar generation can be higher than the headline tariff number used in most payback calculations, depending on the surcharge in force.
 
 > [!EXAMPLE] A 40 paise FCAC on an ₹8 tariff
 > For a homeowner receiving an average FCAC of 40 paise/unit on top of a base tariff of ₹8/unit, the true solar savings rate is ₹8.40/unit. On 7,200 kWh of annual solar generation, that is an additional ₹2,880 per year, or an additional 0.3 years removed from payback over the life of the system.
@@ -214,9 +196,9 @@ These surcharges appear as a separate line item on most electricity bills but ar
 
 The period immediately before or after a tariff hike is when homeowners are most likely to make calculation errors, either delaying a good decision or rushing into a poorly scoped system. These are the six errors to avoid.
 
-- **Using blended tariff instead of marginal tariff**: If your consumption puts you in the ₹11.50 slab for some units, solar offsets those first. Using the blended ₹7.50 average understates savings by 30–40%.
-- **Ignoring the FCAC line**: Fuel cost adjustments are often not included in published tariff schedules and are missed in DIY payback calculations. Check your bill's "other charges" or "fuel adjustment" line.
-- **Comparing total installed cost to year-one savings only**: Tariff escalation means year-five savings will be 30–40% higher than year-one savings at historical escalation rates. A simple payback number understates total lifetime return.
+- **Using blended tariff instead of marginal tariff**: If your consumption puts some units in a high slab (for example MSEDCL's ₹12.40 slab), solar offsets those first. Using a blended average understates savings on those units.
+- **Ignoring the FCAC line**: Fuel cost adjustments are not part of the base tariff schedule and are missed in DIY payback calculations. Check your bill's "other charges" or "fuel adjustment" line.
+- **Comparing total installed cost to year-one savings only**: If tariffs escalate at 7% a year (an assumption, not a forecast), year-five savings are about 31% higher than year-one savings (1.07^4). A simple payback number understates total lifetime return.
 - **Skipping the [net metering approval process](/blog/net-metering-india-complete-guide/) analysis**: Exporting surplus generation during peak production hours earns bill credits that further improve the financial case, particularly for households away from home during the day.
 - **Choosing a shorter inverter warranty to save upfront**: A 5-year-warranty inverter that fails in year six adds ₹20,000–₹40,000 to the cost of ownership, erasing two years of savings. See [solar inverter replacement costs](/blog/inverter-tco/) for a full cost model.
 - **Not accounting for subsidy application timelines**: PM Surya Ghar subsidies reduce net cost but require DISCOM verification and registration. Delays of 3–6 months are common in high-volume states. For a detailed application walkthrough, see the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/).
@@ -241,7 +223,7 @@ Table: Pros and cons of installing solar now against remaining on the grid
 | | ✓ No installation or maintenance responsibility | ✗ FCAC exposure on all consumption |
 | | | ✗ Electricity cost over 10 years at 7% CAGR is 1.97× current level |
 
-The historical record strongly favours early installation. A household that installed solar in 2016 at ₹80,000/kW and an average tariff of ₹5.00/unit has already seen its simple payback return achieved, and now receives free electricity against a grid tariff that has doubled. The same economic logic applies today for a household evaluating at ₹60,000/kW and ₹8.00/unit.
+The historical record strongly favours early installation. The logic for a household evaluating solar today is the same one used throughout this post: at ₹60,000/kW and an avoided tariff of ₹8.00/unit, a 5 kW system pays back in about 5.5 years, and the return improves if the tariff of the slab it avoids rises.
 
 ## Where Qbits Fits
 

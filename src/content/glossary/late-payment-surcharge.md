@@ -38,27 +38,27 @@ faqs:
   - q: "When was LPS Rules introduced?"
     a: "June 2022 by Ministry of Power. Statutory framework for enforcing PPA payment terms."
   - q: "What is the surcharge rate?"
-    a: "Bank rate + 1 percent for first 45 days of delay. Bank rate + 2 percent for 45-180 days. Higher for longer delays."
+    a: "For the first month of default, the base rate of LPS: the State Bank of India one-year MCLR on 1 April of that financial year plus 5 percent. The rate then rises by 0.5 percentage points for each further month of delay, capped at 3 percentage points above the base rate and never above any lower LPS rate in the agreement (Electricity (Late Payment Surcharge and Related Matters) Rules, 2022)."
   - q: "Why was LPS needed?"
-    a: "DISCOM payment delays were chronic, with some states delaying renewable PPA payments by 6-12 months, causing developer cash flow stress."
+    a: "DISCOM payment delays were chronic and put developer and generator cash flow under stress. The rules set a uniform surcharge, a payment-adjustment order and a scheme to reschedule outstanding dues."
   - q: "Who can claim LPS?"
-    a: "Generators with valid PPAs experiencing payment delays beyond 45 days."
+    a: "Under the 2022 Rules, LPS is payable to generating companies and trading licensees by a distribution licensee for power procured from them, and to transmission licensees by transmission system users, on payments outstanding after the due date."
   - q: "How is LPS enforced?"
-    a: "Through automatic application in next billing cycle. Disputes escalate to SERC/CERC."
+    a: "Payments received are first adjusted towards LPS and then towards monthly charges, starting from the longest overdue bill. Disputes follow the dispute-resolution route in the PPA and the applicable regulator."
   - q: "Does LPS help solar developers?"
     a: "Yes. Improves cash flow and provides legal recourse for chronic delay."
   - q: "Are all DISCOMs subject to LPS?"
-    a: "Yes for state DISCOMs. Central PSUs and trading entities also subject through PPAs."
+    a: "The Rules apply to distribution licensees paying generating companies and trading licensees for power procured, and to transmission system users paying transmission licensees."
   - q: "What is the bank rate?"
-    a: "RBI bank rate. Currently around 6.75 percent. So LPS effective rate starts around 7.75-8.75 percent depending on delay."
+    a: "The 2022 Rules do not use the RBI bank rate. The base rate of LPS is the SBI one-year MCLR on 1 April of the financial year plus 5 percent, so it changes every financial year; check the current MCLR."
   - q: "Can DISCOMs refuse to pay LPS?"
     a: "No. Legal obligation under PPA. Disputes go to regulator."
   - q: "Does LPS apply retrospectively?"
-    a: "Rules 2022 apply prospectively to delays after notification. Earlier delays subject to PPA-specific terms."
+    a: "The Rules also let outstanding dues up to the notification date, including LPS, be rescheduled into equated monthly instalments (up to 12 to 48, depending on the size of dues)."
   - q: "What is the escalation pattern?"
-    a: "First 45 days: bank rate + 1%. 45-180 days: bank rate + 2%. 180-365 days: bank rate + 3%. Above 365 days: bank rate + 4%."
+    a: "Month 1 of default: base rate. Each later month adds 0.5 percentage points, up to a maximum of base rate + 3 percentage points."
   - q: "Are there state-specific variations?"
-    a: "Generally uniform under central rules. State PPAs may have slightly different terms within statutory framework."
+    a: "The central Rules set the base rate, the monthly step-up and the cap. The rate charged cannot exceed any LPS rate specified in the agreement, so PPA terms still matter."
   - q: "Does LPS affect tariff?"
     a: "Not directly. LPS is surcharge on delayed payments, not on the tariff itself."
 author: "Nirav Dhanani"
@@ -68,21 +68,20 @@ author: "Nirav Dhanani"
 
 The Late Payment Surcharge Rules 2022, notified by the Ministry of Power in June 2022, establish a statutory framework for enforcing payment discipline by DISCOMs to electricity generators. The rules apply escalating financial penalties on delayed PPA payments, providing legal mechanism for solar developers and other generators to recover delays.
 
-Before LPS Rules 2022, DISCOM payment delays were chronic and largely unenforceable. Some financially stressed state [DISCOMs](/glossary/discom/) delayed renewable [PPA](/glossary/ppa/) payments by 6-12 months, causing developer cash flow stress and impeding new investment. The rules created mandatory escalating penalties:
+Before LPS Rules 2022, DISCOM payment delays were chronic and largely unenforceable. Some financially stressed state [DISCOMs](/glossary/discom/) delayed renewable [PPA](/glossary/ppa/) payments by 6-12 months, causing developer cash flow stress and impeding new investment. The Electricity (Late Payment Surcharge and Related Matters) Rules, 2022 set the surcharge as follows:
 
-- 0-45 days delay: bank rate + 1 percent per annum
-- 45-180 days: bank rate + 2 percent
-- 180-365 days: bank rate + 3 percent
-- Above 365 days: bank rate + 4 percent
+- First month of default: the base rate of LPS, defined as the State Bank of India one-year MCLR on 1 April of the financial year plus 5 percent
+- Each further month of default: the rate rises by 0.5 percentage points
+- Cap: never more than 3 percentage points above the base rate, and never above the LPS rate specified in the agreement
 
-For Indian solar, LPS Rules 2022 are a key risk mitigant. Lenders and equity investors now factor LPS recovery into project economics, improving bankability and reducing financing cost. C&I buyers evaluating a RESCO PPA instead of direct DISCOM sale should still weigh payment discipline; see the [Solar RESCO Model India Complete Guide](/blog/solar-resco-model-india-guide/) for how PPA tariff and contract risk are assessed on the buyer side.
+For Indian solar, LPS Rules 2022 are a key risk mitigant. Lenders and equity investors can factor LPS recovery into project economics. C&I buyers evaluating a RESCO PPA instead of direct DISCOM sale should still weigh payment discipline; see the [Solar RESCO Model India Complete Guide](/blog/solar-resco-model-india-guide/) for how PPA tariff and contract risk are assessed on the buyer side.
 
 > [!NOTE] In short
-> - LPS Rules 2022, notified by the Ministry of Power in June 2022, force DISCOMs to pay escalating penalties on delayed PPA payments.
-> - Surcharge rates step up from bank rate + 1 percent (0-45 days late) to bank rate + 4 percent (past 365 days).
-> - Before the rules, some financially stressed DISCOMs delayed renewable payments by 6 to 12 months, hurting developer cash flow.
-> - Post-LPS, lender risk perception has improved and cost of debt for solar projects has fallen from roughly 9-10 percent to 8-9 percent.
-> - Disputed LPS claims escalate to SERC or CERC, giving generators a statutory recovery path rather than relying on goodwill.
+> - LPS Rules 2022, notified by the Ministry of Power in June 2022, set an escalating surcharge on delayed payments by DISCOMs and other users.
+> - The base rate of LPS is the SBI one-year MCLR on 1 April of the financial year plus 5 percent, charged for the first month of default.
+> - The rate rises by 0.5 percentage points for each further month of delay, capped at 3 percentage points above the base rate.
+> - Payments are adjusted first against LPS, then against monthly charges, starting from the longest overdue bill; outstanding dues can be rescheduled into instalments.
+> - The Rules give generators, trading licensees and transmission licensees a statutory surcharge on late payment instead of relying on goodwill.
 
 ## Why LPS matters
 
@@ -98,56 +97,44 @@ Investment attractiveness. Reduces perceived sectoral risk.
 
 ## LPS Rules 2022 structure
 
-Table: Late Payment Surcharge rate by delay period
+Table: Late Payment Surcharge rate by month of default
 
-| Delay period | Surcharge rate |
+| Month of default | Surcharge rate (per annum) |
 |---|---|
-| 0-45 days | Bank rate + 1% per annum |
-| 45-180 days | Bank rate + 2% per annum |
-| 180-365 days | Bank rate + 3% per annum |
-| Above 365 days | Bank rate + 4% per annum |
+| Month 1 | Base rate (SBI one-year MCLR on 1 April + 5%) |
+| Month 2 | Base rate + 0.5% |
+| Month 3 | Base rate + 1.0% |
+| Month 4 | Base rate + 1.5% |
+| Month 5 | Base rate + 2.0% |
+| Month 6 | Base rate + 2.5% |
+| Month 7 onwards | Base rate + 3.0% (cap) |
 
-Bank rate is RBI's reference rate (currently around 6.75 percent).
+Source: Electricity (Late Payment Surcharge and Related Matters) Rules, 2022, Ministry of Power, notified 3 June 2022. If the agreement specifies a lower LPS rate, the lower rate applies. The base rate is recalculated for each financial year the default spans.
 
 ## Technical deep dive
 
 ### LPS calculation example
 
 > [!EXAMPLE]
-> For ₹100 cr invoice delayed by 6 months at bank rate 6.75%:
+> Illustrative only: assume a base rate of 13% per annum for the year, and ₹100 cr outstanding for 6 months with the monthly rate applied pro rata (rate ÷ 12) to each month.
 >
-> - First 45 days: 100 × (6.75 + 1)% × 45/365 = ₹0.96 cr
-> - 45-180 days (135 days): 100 × (6.75 + 2)% × 135/365 = ₹3.24 cr
-> - Total LPS: ₹4.20 cr
+> - Month 1: 100 × 13.0% ÷ 12 = ₹1.08 cr
+> - Month 2: 100 × 13.5% ÷ 12 = ₹1.13 cr
+> - Month 3: 100 × 14.0% ÷ 12 = ₹1.17 cr
+> - Month 4: 100 × 14.5% ÷ 12 = ₹1.21 cr
+> - Month 5: 100 × 15.0% ÷ 12 = ₹1.25 cr
+> - Month 6: 100 × 15.5% ÷ 12 = ₹1.29 cr
+> - Total LPS: about ₹7.13 cr
 >
-> This is recovered from DISCOM in next billing cycle.
+> The actual base rate depends on the SBI one-year MCLR on 1 April of that financial year, and the exact computation follows the PPA and the Rules.
 
-### Securitisation pathway
+### Payment adjustment and rescheduling
 
-Under the rules:
-1. DISCOM identifies outstanding dues
-2. Generator can claim LPS automatically
-3. Disputed amounts escalate to SERC/CERC
-4. State government guarantee mechanism in some states
-5. Tradeable instruments for long outstanding dues (subordinated debt or other)
-
-### Impact on bankability
-
-Table: Bankability before and after the LPS Rules 2022
-
-| Aspect | Pre-LPS Rules | Post-LPS Rules |
-|---|---|---|
-| Lender risk perception | High | Lower |
-| Cost of debt | 9-10% | 8-9% |
-| DSCR requirement | 1.3-1.5 | 1.2-1.3 |
-| Project viability | Limited in stressed states | Improved |
-
-### State implementation status
-
-Major Indian DISCOMs now substantially comply with LPS Rules:
-- Healthier DISCOMs (Gujarat, Maharashtra, Karnataka, Tamil Nadu): generally timely
-- Financially stressed (Punjab, UP, Rajasthan): improving
-- Northeastern states: variable
+Under the Rules:
+1. LPS is payable on the amount outstanding after the due date.
+2. Payments received are adjusted first towards LPS, then towards monthly charges, starting from the longest overdue bill.
+3. Outstanding dues up to the notification date, including LPS, can be rescheduled into equated monthly instalments: up to 12 instalments for dues up to ₹500 crore, rising to 48 for dues above ₹10,000 crore.
+4. Distribution licensees and other transmission users must maintain a payment security mechanism.
 
 ## Real-world applications
 
@@ -165,10 +152,10 @@ Table: LPS vs letter of credit vs payment security mechanism
 
 | Mechanism | LPS | Letter of Credit | Payment Security Mechanism |
 |---|---|---|---|
-| Coverage | All PPAs | Specific PPA | Specific PPA |
-| Automatic | Yes | Pre-funded | Pre-funded |
-| Cost | Bank rate + premium | LC issuance fee | PSM management fee |
-| Recovery time | Next bill cycle | 30 days standard | As per terms |
+| Coverage | Dues covered by the Rules | Specific PPA | Specific PPA |
+| Automatic | Payable on outstanding amounts | Pre-funded | Pre-funded |
+| Cost | Base rate (SBI MCLR + 5%) stepping up monthly, within the cap | LC issuance fee | PSM management fee |
+| Recovery time | Payments adjusted against LPS first | As per LC terms | As per terms |
 
 ## Best practices
 
@@ -189,13 +176,7 @@ Use combined with letter of credit for additional protection.
 
 LPS Rules 2022 part of broader DISCOM payment reforms.
 
-Combined with TPADDCO (Transparency and Payment Audit by DISCOMs Compendium of Orders).
-
-Major Indian banks (PFC, REC, SBI, IREDA) factor LPS into credit appraisal.
-
-International lenders (ADB, World Bank) view LPS positively for India risk.
-
-DISCOM payment timeliness has materially improved since 2022.
+Lenders and rating agencies consider DISCOM payment performance when appraising renewable projects.
 
 ## Standards and certifications
 
@@ -203,14 +184,14 @@ Table: Rules and orders behind late payment surcharge
 
 | Standard | Scope |
 |---|---|
-| Late Payment Surcharge Rules 2022 | Statutory basis |
+| Electricity (Late Payment Surcharge and Related Matters) Rules, 2022 | Statutory basis |
 | Electricity Act 2003 | Statutory framework |
 | CERC Tariff Regulations | Tariff context |
 | State SERC orders | State implementation |
 
 ## Key takeaways
 
-Late Payment Surcharge Rules 2022 establish escalating penalties on DISCOM delays in solar PPA payments. Bank rate + 1-4 percent depending on delay duration. Critical risk mitigant for solar developers and lenders. Improved sectoral bankability and reduced financing cost. State DISCOM payment discipline has materially improved since 2022 implementation.
+Late Payment Surcharge Rules 2022 establish escalating penalties on DISCOM delays in solar PPA payments. Base rate (SBI one-year MCLR + 5 percent) in the first month, rising 0.5 percentage points a month to a cap of base rate + 3 percentage points. A risk mitigant for solar developers and lenders; check the PPA for any lower agreed LPS rate.
 
 ## Further reading
 
@@ -223,7 +204,7 @@ For how Late Payment Surcharge plays out in real projects, these guides go deepe
 
 ## Sources
 
-- Late Payment Surcharge Rules 2022, Ministry of Power.
+- Electricity (Late Payment Surcharge and Related Matters) Rules, 2022, Ministry of Power (notified 3 June 2022).
 - Electricity Act 2003.
 - CERC Tariff Regulations 2024.
 - Ministry of Power notifications on DISCOM payment reform.

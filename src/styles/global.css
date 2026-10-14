@@ -359,3 +359,399 @@
   font-weight: 600;
 }
 
+
+/* ==========================================================================
+   Markdown content components (src/lib/markdown/*.mjs)
+   Rendered at build time inside .blog-content (blog posts + glossary pages).
+   Plain CSS here, not Astro-scoped, because it targets markdown-generated DOM.
+   Light theme only.
+   ========================================================================== */
+
+/* ---- Tables: scroll wrapper, header, zebra rows, numeric alignment ------- */
+.blog-content .table-wrap {
+  margin: 1.75rem 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.blog-content .table-wrap:focus-visible {
+  outline: 2px solid #047857;
+  outline-offset: 2px;
+}
+
+.blog-content .table-wrap table {
+  display: table;
+  width: 100%;
+  /* Enough room per column that cells never crush; the wrapper scrolls instead. */
+  min-width: min(100%, calc(var(--cols, 2) * 8.5rem));
+  margin: 0;
+  white-space: normal;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .blog-content .table-wrap table {
+    min-width: calc(var(--cols, 2) * 8.5rem);
+  }
+}
+
+.blog-content .table-wrap caption {
+  caption-side: top;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #0f172a;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.blog-content .table-wrap thead {
+  background: #ecfdf5;
+}
+
+.blog-content .table-wrap th {
+  padding: 0.7rem 1rem;
+  text-align: left;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #064e3b;
+  border-bottom: 2px solid #049D65;
+  white-space: nowrap;
+}
+
+.blog-content .table-wrap td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #e2e8f0;
+  color: #334155;
+  vertical-align: top;
+}
+
+.blog-content .table-wrap tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.blog-content .table-wrap tbody tr:hover {
+  background: #f0fdf4;
+}
+
+.blog-content .table-wrap tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+/* First column = row label */
+.blog-content .table-wrap tbody td:first-child,
+.blog-content .table-wrap tbody th:first-child {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* Columns that are mostly numbers */
+.blog-content .table-wrap th.num,
+.blog-content .table-wrap td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.blog-content .table-wrap td a,
+.blog-content .table-wrap th a {
+  color: #036046;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ---- Callouts ------------------------------------------------------------ */
+.blog-content .callout {
+  --c-bg: #f0f9ff;
+  --c-border: #0369a1;
+  --c-title: #075985;
+  margin: 1.75rem 0;
+  padding: 1rem 1.25rem 1.1rem;
+  background: var(--c-bg);
+  border: 1px solid color-mix(in srgb, var(--c-border) 28%, #ffffff);
+  border-left: 4px solid var(--c-border);
+  border-radius: 0.75rem;
+  color: #1e293b;
+}
+
+.blog-content .callout--note { --c-bg: #f0f9ff; --c-border: #0369a1; --c-title: #075985; }
+.blog-content .callout--tip { --c-bg: #ecfdf5; --c-border: #047857; --c-title: #036046; }
+.blog-content .callout--important { --c-bg: #f5f3ff; --c-border: #6d28d9; --c-title: #5b21b6; }
+.blog-content .callout--warning { --c-bg: #fffbeb; --c-border: #b45309; --c-title: #92400e; }
+.blog-content .callout--caution { --c-bg: #fef2f2; --c-border: #b91c1c; --c-title: #991b1b; }
+.blog-content .callout--keytakeaways {
+  --c-bg: #ecfdf5;
+  --c-border: #049D65;
+  --c-title: #064e3b;
+  padding: 1.25rem 1.5rem 1.35rem;
+  border-width: 1px 1px 1px 6px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+.blog-content .callout--example { --c-bg: #f8fafc; --c-border: #475569; --c-title: #1e293b; }
+.blog-content .callout--formula { --c-bg: #f8fafc; --c-border: #036046; --c-title: #064e3b; }
+.blog-content .callout--checklist { --c-bg: #f0fdf4; --c-border: #047857; --c-title: #064e3b; }
+
+.blog-content .callout__title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.5rem;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  color: var(--c-title);
+}
+
+.blog-content .callout__icon {
+  display: inline-flex;
+  flex: none;
+  color: var(--c-border);
+}
+
+.blog-content .callout__body > * + * {
+  margin-top: 0.75rem;
+}
+
+.blog-content .callout p,
+.blog-content .callout li {
+  margin: 0;
+  color: #1e293b;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.blog-content .callout li + li {
+  margin-top: 0.4rem;
+}
+
+.blog-content .callout ul,
+.blog-content .callout ol {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.blog-content .callout li::marker {
+  color: var(--c-border);
+}
+
+.blog-content .callout a {
+  color: var(--c-title);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.blog-content .callout strong {
+  color: #0f172a;
+}
+
+.blog-content .callout code {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.blog-content .callout blockquote {
+  margin: 0;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* Checklist: tick marks instead of bullets */
+.blog-content .callout--checklist ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.blog-content .callout--checklist li {
+  position: relative;
+  padding-left: 1.75rem;
+}
+
+.blog-content .callout--checklist li::before {
+  content: "";
+  position: absolute;
+  left: 0.15rem;
+  top: 0.42rem;
+  width: 0.4rem;
+  height: 0.75rem;
+  border: solid #047857;
+  border-width: 0 2.5px 2.5px 0;
+  transform: rotate(40deg);
+}
+
+/* Formula: monospaced, set apart */
+.blog-content .callout--formula .callout__body {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.blog-content .callout--formula .callout__body p {
+  font-family: inherit;
+  font-size: 0.975rem;
+  overflow-x: auto;
+}
+
+/* Embedded tables inside a callout shouldn't add their own big margins */
+.blog-content .callout .table-wrap {
+  margin: 0.5rem 0 0;
+}
+
+/* ---- Charts -------------------------------------------------------------- */
+.blog-content figure.chart {
+  margin: 2rem 0;
+  padding: 1rem 1rem 0.9rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+}
+
+.blog-content .chart__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 640px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.blog-content .chart__svg text {
+  font-family: inherit;
+}
+
+/* Two renderings of the same chart: narrow (phones) and wide (>= 640px). Pure CSS swap. */
+.blog-content .chart__svg--lg {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .blog-content .chart__svg--sm {
+    display: none;
+  }
+  .blog-content .chart__svg--lg {
+    display: block;
+  }
+}
+
+.blog-content .chart__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  margin: 0 0 0.5rem;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+  color: #334155;
+}
+
+.blog-content .chart__legend li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+}
+
+.blog-content .chart__swatch {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 0.2rem;
+}
+
+.blog-content .chart__caption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-top: 0.85rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #475569;
+}
+
+.blog-content .chart__title {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.blog-content .chart__source a {
+  color: #036046;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+}
+
+/* Visually hidden data table (screen-reader / no-CSS fallback) */
+.blog-content .chart__table {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---- Steps: <!-- steps --> + ordered list --------------------------------- */
+.blog-content ol.steps {
+  counter-reset: step;
+  margin: 1.5rem 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.blog-content ol.steps > li {
+  position: relative;
+  counter-increment: step;
+  margin: 0;
+  padding: 0 0 1.25rem 3.25rem;
+}
+
+.blog-content ol.steps > li:last-child {
+  padding-bottom: 0;
+}
+
+.blog-content ol.steps > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 9999px;
+  background: #047857;
+  color: #ffffff;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Connector line between step badges */
+.blog-content ol.steps > li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: calc(1.05rem - 1px);
+  top: 2.35rem;
+  bottom: 0.25rem;
+  width: 2px;
+  background: #a7f3d0;
+}
+
+@media print {
+  .blog-content .table-wrap {
+    overflow: visible;
+  }
+}

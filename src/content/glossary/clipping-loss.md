@@ -71,11 +71,15 @@ author: "Keyur Rakholiya"
 
 Clipping loss is the solar energy lost when the DC array would generate more power than the inverter's rated AC output capability. During peak noon irradiance in a [DC-oversized](/glossary/dc-oversizing/) plant, the array attempts to produce more than the inverter can convert. The inverter caps its output at rated power, leaving the excess DC unused.
 
-For example, a 1.3 DC/AC ratio plant has 1.3 MWp of DC connected to a 1 MW AC [inverter](/glossary/solar-inverter/). At peak noon, the array may produce 1.2 MW DC after losses. The inverter caps at 1 MW AC. The remaining 0.2 MW is clipped, not generating revenue.
+> [!FORMULA]
+> DC/AC ratio = DC array capacity (kWp) ÷ inverter AC rating (kW)
+
+> [!EXAMPLE]
+> For example, a 1.3 DC/AC ratio plant has 1.3 MWp of DC connected to a 1 MW AC [inverter](/glossary/solar-inverter/). At peak noon, the array may produce 1.2 MW DC after losses. The inverter caps at 1 MW AC. The remaining 0.2 MW is clipped, not generating revenue.
 
 The economic logic of accepting clipping: a slightly smaller inverter costs significantly less than a perfectly-matched inverter, and the lost peak energy is more than offset by gains in morning and evening shoulder hours when the inverter operates at rated power for more total hours. Indian DC/AC ratios of 1.20-1.35 are standard, balancing clipping against [capex](/glossary/capex/) and [yield](/glossary/solar-yield/) optimisation.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Clipping loss is the energy lost when a DC-oversized solar array would produce more power than the inverter's rated AC capacity.
 > - Indian DC-oversized plants typically lose 1 to 8 percent of annual generation to clipping, depending on the DC/AC ratio.
 > - A DC/AC ratio of 1.20 to 1.35 is standard in India, trading a small clipping loss for larger gains in morning and evening shoulder hours.
@@ -109,6 +113,8 @@ Inverter sizing decisions. [The clipping trade-off](/blog/inverter-clipping-expl
 
 ### Clipping vs DC/AC ratio
 
+Table: Annual clipping loss and yield gain by DC/AC ratio
+
 | DC/AC | Annual clipping loss | Yield gain over 1.0 |
 |---|---|---|
 | 1.00 | 0% | 0% |
@@ -124,6 +130,8 @@ Inverter sizing decisions. [The clipping trade-off](/blog/inverter-clipping-expl
 Sweet spot around 1.30 for monofacial fixed-tilt at Indian conditions.
 
 ### Effect of technology
+
+Table: Optimum DC/AC ratio by module and mounting technology
 
 | Technology | Optimum DC/AC |
 |---|---|

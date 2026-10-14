@@ -8,6 +8,12 @@ import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import cloudflare from '@astrojs/cloudflare';
 
+// Build-time content components for blog + glossary Markdown (callouts, charts, tables, steps).
+import remarkCharts from './src/lib/markdown/charts.mjs';
+import remarkSteps from './src/lib/markdown/steps.mjs';
+import rehypeCallouts from './src/lib/markdown/callouts.mjs';
+import rehypeTables from './src/lib/markdown/tables.mjs';
+
 // Build url→lastmod map from blog & glossary frontmatter dates at config load.
 function buildLastmodMap() {
   const map = new Map();
@@ -51,6 +57,10 @@ export default defineConfig({
   site: 'https://qbitsenergy.com',
   output: 'static',
   adapter: cloudflare({ imageService: 'passthrough' }),
+  markdown: {
+    remarkPlugins: [remarkCharts, remarkSteps],
+    rehypePlugins: [rehypeCallouts, rehypeTables],
+  },
   vite: {
     plugins: [tailwindcss()]
   },

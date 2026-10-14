@@ -39,7 +39,7 @@ This guide builds that framework. It provides complete price tables by chemistry
 
 > **Direct answer.** Solar battery prices in India range from ₹8,000 (100Ah VRLA) to ₹1,00,000 (5kWh LiFePO4 lithium). The most commonly bought sizes are 150Ah VRLA (₹10,000–₹15,000) for budget backup and 2.4–3.5kWh lithium (₹55,000–₹85,000) for quality storage. Use the **Total Ownership Cost per kWh Delivered** framework to compare: VRLA costs ₹28–₹45/kWh delivered over its life; LiFePO4 costs ₹8–₹15/kWh, lithium wins on 10-year economics for most buyers.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - VRLA batteries cost ₹8,000-20,000 (100-200Ah) but last only 3-5 years in Indian conditions with 300-500 cycle life.
 > - LiFePO4 lithium batteries cost ₹40,000-1,00,000 (2.4-5kWh) but last 8-13 years with 3,000-6,000 cycles.
 > - On a cost-per-kWh-delivered basis, LiFePO4 runs ₹6-15/kWh versus ₹36-50/kWh for VRLA, a 5-7x advantage over the battery's life.
@@ -50,6 +50,8 @@ This guide builds that framework. It provides complete price tables by chemistry
 ## Solar Battery Price Table: VRLA (Lead-Acid)
 
 VRLA (Valve-Regulated Lead-Acid) batteries are the legacy storage technology used in UPS and solar backup systems across India. They are available from every electronics shop, carry familiar brand names, and are easy to replace locally.
+
+Table: VRLA battery prices in India, 2026
 
 | Battery | Capacity | Usable energy (50% DoD) | Brand | India Price (2026) |
 | --- | --- | --- | --- | --- |
@@ -83,9 +85,12 @@ VRLA (Valve-Regulated Lead-Acid) batteries are the legacy storage technology use
 
 Price-per-unit (₹/Ah or ₹/kWh upfront) is the wrong metric for battery comparison. The right metric is **total cost per kWh of electricity delivered over the battery's life**:
 
-**Formula:** Cost per delivered kWh = Battery cost ÷ (Usable capacity × Cycle life at operating temperature)
+> [!FORMULA]
+> Cost per delivered kWh = Battery cost ÷ (Usable capacity × Cycle life at operating temperature)
 
 Applying this formula to Indian conditions (operating temperature ~40°C):
+
+Table: Cost per kWh delivered by battery type, at 40°C Indian conditions
 
 | Battery type | Cost | Usable kWh | Cycles at 40°C | Cost/kWh delivered |
 | --- | --- | --- | --- | --- |
@@ -93,6 +98,19 @@ Applying this formula to Indian conditions (operating temperature ~40°C):
 | LiFePO4 2.4kWh | ₹65,000 | 1.92kWh | 4,500 | ₹7.5/kWh |
 | LiFePO4 3.5kWh | ₹78,000 | 2.8kWh | 4,500 | ₹6.2/kWh |
 | NMC 2.5kWh | ₹55,000 | 2.0kWh | 2,500 | ₹11.0/kWh |
+
+```chart
+type: hbar
+title: Cost per kWh delivered over the battery's cycle life
+unit: "₹/kWh"
+source: "Calculated in this article as battery cost divided by (usable kWh x cycles at 40°C), using the cost, capacity and cycle figures in the table above"
+note: "Lower is better. Prices are the indicative 2026 figures used in this guide."
+data:
+  - { label: "VRLA 150Ah 12V", value: 41.3 }
+  - { label: "NMC 2.5kWh", value: 11.0 }
+  - { label: "LiFePO4 2.4kWh", value: 7.5 }
+  - { label: "LiFePO4 3.5kWh", value: 6.2 }
+```
 
 LiFePO4 is 5 to 7 times cheaper per kWh delivered over the battery life than VRLA in Indian conditions. This is the core economic argument for lithium despite the higher upfront cost.
 
@@ -119,7 +137,8 @@ LiFePO4 is 5 to 7 times cheaper per kWh delivered over the battery life than VRL
 | 2 × Pylontech US2000C | 3.84kWh | 7.7 hrs | 2.7 hrs |
 | 1 × Livguard 2.5kWh | 2.0kWh | 4.0 hrs | 1.4 hrs |
 
-Most Indian homeowners in power-cut zones target 4 to 6 hours of critical load backup. This requires approximately 2 to 3kWh of usable lithium storage, one US3000C or two US2000C modules. EPCs quoting across multiple load profiles can apply the same sizing logic using SurgePV's [battery sizing methodology](https://surgepv.com/hub/energy-storage/battery-sizing/).
+> [!TIP] Sizing rule of thumb
+> Most Indian homeowners in power-cut zones target 4 to 6 hours of critical load backup. This requires approximately 2 to 3kWh of usable lithium storage, one US3000C or two US2000C modules. EPCs quoting across multiple load profiles can apply the same sizing logic using SurgePV's [battery sizing methodology](https://surgepv.com/hub/energy-storage/battery-sizing/).
 
 ## State-Specific Buying Considerations
 
@@ -129,6 +148,8 @@ Most Indian homeowners in power-cut zones target 4 to 6 hours of critical load b
 - **Kerala, northeast (lower irradiance, moderate outage):** System generation is lower; battery sizing remains the same, but payback may extend slightly.
 
 ## VRLA vs Lithium: Which to Choose?
+
+Table: VRLA vs LiFePO4 lithium, side by side
 
 | Factor | VRLA | LiFePO4 Lithium |
 | --- | --- | --- |

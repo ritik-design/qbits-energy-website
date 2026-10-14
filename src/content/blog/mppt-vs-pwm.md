@@ -39,7 +39,7 @@ Every off-grid solar system needs something to manage the flow of power from the
 
 This guide explains how each technology works, why the efficiency gap is as large as it is, and exactly when MPPT is mandatory, versus the narrow situations where PWM might still make sense.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - MPPT extracts 10 to 30 percent more energy than PWM by tracking the panel's maximum power point instead of clamping it to battery voltage.
 > - For a 300 W panel on a 12 V battery, PWM captures only about 42% of rated power while MPPT captures roughly 96%, close to 2.4x more daily energy.
 > - PWM still makes sense for legacy 36-cell panels under 100 W matched to a 12 V battery, or for extremely budget-constrained lighting kits.
@@ -94,9 +94,12 @@ The proprietary framework that makes this concrete is what we call the **MPPT Ad
 
 ### Step 1: Establish the Voltage Ratio
 
-PWM efficiency ratio = Battery charging voltage ÷ Panel Vmp
+> [!FORMULA]
+> PWM efficiency ratio = Battery charging voltage ÷ Panel Vmp
 
 This ratio tells you what fraction of the panel's potential the PWM controller can use. For every common combination:
+
+Table: PWM yield ratio and energy wasted, by panel type
 
 | Panel type | Panel Vmp | Battery voltage | PWM yield ratio | Energy wasted |
 | --- | --- | --- | --- | --- |
@@ -105,6 +108,19 @@ This ratio tells you what fraction of the panel's potential the PWM controller c
 | 60-cell, 300 W | 34 V | 12 V | 42% | 58% lost |
 | 72-cell, 375 W | 38 V | 12 V | 38% | 62% lost |
 | 72-cell, 545 W | 42 V | 24 V | 81% | 19% lost |
+
+```chart
+type: hbar
+title: Share of panel power a PWM controller can use on a 12 V battery
+unit: "%"
+source: "Calculated in this article as battery absorption voltage (14.4 V) divided by panel Vmp, for the panel types in the table above"
+note: "Higher is better. MPPT recovers the remainder, less its 95 to 98% conversion efficiency."
+data:
+  - { label: "36-cell, 75 W (Vmp 17.5 V)", value: 82 }
+  - { label: "60-cell, 250 W (Vmp 30.5 V)", value: 47 }
+  - { label: "60-cell, 300 W (Vmp 34 V)", value: 42 }
+  - { label: "72-cell, 375 W (Vmp 38 V)", value: 38 }
+```
 
 ### Step 2: Apply MPPT Recovery
 
@@ -195,7 +211,8 @@ Every 60-cell, 72-cell, or half-cut modern panel has Vmp between 30 V and 44 V. 
 
 ### Systems Where Panel Vmp Is Significantly Higher Than Battery Voltage
 
-The rule of thumb: if the panel's Vmp exceeds 1.5× the battery's charging voltage, MPPT is mandatory. For a 12 V battery (14.4 V absorption), any panel above Vmp 21.6 V (which includes virtually all modern panels) crosses this threshold.
+> [!IMPORTANT] Quick check before you buy
+> The rule of thumb: if the panel's Vmp exceeds 1.5× the battery's charging voltage, MPPT is mandatory. For a 12 V battery (14.4 V absorption), any panel above Vmp 21.6 V (which includes virtually all modern panels) crosses this threshold.
 
 ### Grid-Tied and Hybrid Inverter Systems
 

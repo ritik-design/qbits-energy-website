@@ -439,7 +439,7 @@ const indianStates = [
         const data = Object.assign(
           { source: 'partner-form', page: location.pathname, submittedAt: new Date().toISOString() },
           lead.collectFields(Array.from(new FormData(form).entries()), ['website2']),
-          lead.getAttribution(window.sessionStorage),
+          lead.getAttribution(),
         );
         data.submission_id = submissionId;
         data._subject = 'New Qbits Channel Partner Application: ' + (data.companyName || 'Unknown');

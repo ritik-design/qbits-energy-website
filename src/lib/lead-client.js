@@ -61,6 +61,9 @@
   function getAttribution(storage) {
     var out = {};
     try {
+      // Merely reading window.sessionStorage throws SecurityError when the browser blocks
+      // storage ("block all cookies"), so resolve it here, inside the try, never in the caller.
+      if (arguments.length === 0) storage = root.sessionStorage;
       var raw = storage && storage.getItem(FIRST_TOUCH_KEY);
       if (!raw) return out;
       var parsed = JSON.parse(raw);
@@ -116,13 +119,28 @@
     return true;
   }
 
+  var LEAD_TIMEOUT_MS = 20000;
+  var EMAIL_TIMEOUT_MS = 15000;
+
+  /** fetch with an abort timeout so a hung backend can never leave a form spinning forever. */
+  function fetchWithTimeout(fetchImpl, url, init, ms) {
+    try {
+      if (typeof AbortController === 'function') {
+        var controller = new AbortController();
+        init.signal = controller.signal;
+        setTimeout(function () { try { controller.abort(); } catch (e) { /* ignore */ } }, ms);
+      }
+    } catch (e) { /* no timeout support: plain fetch */ }
+    return fetchImpl(url, init);
+  }
+
   /** POST JSON to /api/lead. Resolves true only if the server stored the lead. */
   function postLead(fetchImpl, data) {
-    return fetchImpl('/api/lead', {
+    return fetchWithTimeout(fetchImpl, '/api/lead', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),
-    }).then(function (res) {
+    }, LEAD_TIMEOUT_MS).then(function (res) {
       return res.json().catch(function () { return {}; }).then(function (body) {
         return res.ok && body.success === true;
       });
@@ -131,11 +149,11 @@
 
   /** FormSubmit AJAX backup path (kept exactly as before). Resolves true on success. */
   function postFormSubmit(fetchImpl, endpoint, data) {
-    return fetchImpl(endpoint, {
+    return fetchWithTimeout(fetchImpl, endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
       body: JSON.stringify(data),
-    }).then(function (res) {
+    }, EMAIL_TIMEOUT_MS).then(function (res) {
       return res.json().catch(function () { return {}; }).then(function (body) {
         return body.success === 'true' || body.success === true;
       });

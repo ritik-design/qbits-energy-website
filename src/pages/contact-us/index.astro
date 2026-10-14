@@ -278,7 +278,7 @@ const systemSizes = [
                       if (!submissionId) submissionId = lead.newSubmissionId(window.crypto);
                       const data = Object.assign(
                         lead.collectFields(Array.from(new FormData(form).entries()), ['website']),
-                        lead.getAttribution(window.sessionStorage),
+                        lead.getAttribution(),
                       );
                       data.submission_id = submissionId;
                       data.source = 'contact-form';

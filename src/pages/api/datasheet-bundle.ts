@@ -231,7 +231,7 @@ const CAPS: Record<string, number> = { name: 120, email: 254, phone: 30, company
 export const POST: APIRoute = async ({ request }) => {
   // Browser forms on the production site (or local dev) only. No rate limit or
   // CAPTCHA here yet: that needs a KV / Rate Limiting binding and a Turnstile key.
-  if (!isAllowedOrigin(request.headers)) {
+  if (!isAllowedOrigin(request.headers, request.url)) {
     return jsonResponse(403, { success: false, message: 'Forbidden' });
   }
 
@@ -249,16 +249,14 @@ export const POST: APIRoute = async ({ request }) => {
 
   const name = data.name || '';
   const email = data.email || '';
-  const phone = data.phone || '';
+  // Phone is only for the internal notification; a malformed one must not block the catalogue.
+  const phone = data.phone && isValidPhone(data.phone) ? data.phone : '';
   const companyName = data.companyName || '';
   // Accepted so the CRM call and this email call share one id; not used further here.
   void cleanSubmissionId(data.submission_id);
 
   if (!name || !email || !isValidEmail(email)) {
     return jsonResponse(400, { success: false, message: 'Missing or invalid name/email' });
-  }
-  if (phone && !isValidPhone(phone)) {
-    return jsonResponse(400, { success: false, message: 'Invalid phone number' });
   }
 
   if (!env?.RESEND_API_KEY) {

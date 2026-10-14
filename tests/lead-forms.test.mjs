@@ -309,3 +309,64 @@ test('recent-id memory recognises duplicates, expires and stays bounded', () => 
   assert.equal(ids.has('e', 3004), true);
   assert.equal(ids.has('', 0), false);
 });
+
+// ---------- batch1b review regressions ----------
+
+test('origin check: same-origin https request host is allowed (workers.dev preview), cross-site still refused', () => {
+  const hdr = (o) => new Headers(o);
+  const url = 'https://qbits-energy-website.example.workers.dev/api/lead';
+  assert.equal(isAllowedOrigin(hdr({ origin: 'https://qbits-energy-website.example.workers.dev' }), url), true);
+  assert.equal(isAllowedOrigin(hdr({ referer: 'https://qbits-energy-website.example.workers.dev/contact-us/' }), url), true);
+  assert.equal(isAllowedOrigin(hdr({ origin: 'https://evil.example' }), url), false);
+  assert.equal(isAllowedOrigin(hdr({ origin: 'http://qbits-energy-website.example.workers.dev' }), url), false, 'http origin never matches an https request');
+  assert.equal(isAllowedOrigin(hdr({ origin: 'https://evil.example' }), 'https://evil.example/api/lead'), true, 'same-origin to whatever host serves the Worker; the Worker is only reachable on its own hosts');
+});
+
+test('phones typed the way people really type them are accepted (form pattern= is ignored by browsers)', () => {
+  assert.equal(isValidPhone('98765 43210 / 91234 56789'), true);
+  assert.equal(isValidPhone('98765-43210, 91234-56789'), true);
+  assert.equal(isValidPhone('(022) 2345 6789'), true);
+  assert.equal(isValidPhone('+91-98765-43210'), true);
+  assert.equal(isValidPhone('098765 43210'), true);
+  assert.equal(isValidPhone('call me'), false);
+  assert.equal(isValidPhone('1'.repeat(25)), false);
+});
+
+test('sanitizeFields: CRLF textareas count one char per newline and NBSP phones become plain spaces', () => {
+  const allowed = new Set(['registeredAddress', 'phone']);
+  const caps = (k) => (k === 'registeredAddress' ? 500 : 30);
+  const address = Array.from({ length: 250 }, () => 'a').join('\r\n'); // 499 visible chars with LF, 748 with CRLF
+  const r = sanitizeFields({ registeredAddress: address, phone: '+91 98765 43210' }, allowed, caps);
+  assert.equal(r.ok, true);
+  assert.equal(r.data.registeredAddress.includes('\r'), false);
+  assert.equal(r.data.phone, '+91 98765 43210');
+  assert.equal(isValidPhone(r.data.phone), true);
+});
+
+test('getAttribution() never throws when reading window.sessionStorage itself throws', () => {
+  const sandbox = { URL, URLSearchParams, Promise, JSON, Date, Math, console };
+  sandbox.window = sandbox;
+  Object.defineProperty(sandbox, 'sessionStorage', { get() { throw new Error('SecurityError: storage blocked'); } });
+  vm.createContext(sandbox);
+  vm.runInContext(clientSource, sandbox);
+  assert.deepEqual(JSON.parse(JSON.stringify(sandbox.QbLead.getAttribution())), {});
+});
+
+test('form pages call getAttribution() without touching window.sessionStorage directly', () => {
+  for (const f of ['../src/pages/contact-us/index.astro', '../src/components/home/QuickLeadForm.astro', '../src/pages/download-datasheets/index.astro', '../src/pages/become-our-partner/index.astro']) {
+    const src = readFileSync(new URL(f, import.meta.url), 'utf8');
+    assert.ok(src.includes('lead.getAttribution()'), `${f} uses the safe zero-arg form`);
+    assert.equal(/getAttribution\(\s*window\.sessionStorage/.test(src), false, `${f} must not read sessionStorage outside a try`);
+  }
+});
+
+test('postLead and postFormSubmit abort a hung request instead of spinning forever', async () => {
+  const sandbox = { URL, URLSearchParams, Promise, JSON, Date, Math, console, AbortController, setTimeout };
+  sandbox.window = sandbox;
+  vm.createContext(sandbox);
+  vm.runInContext(clientSource, sandbox);
+  let seenSignal = null;
+  const fetchImpl = (url, init) => { seenSignal = init.signal; return Promise.resolve({ ok: true, json: async () => ({ success: true }) }); };
+  assert.equal(await sandbox.QbLead.postLead(fetchImpl, {}), true);
+  assert.ok(seenSignal && typeof seenSignal.aborted === 'boolean', 'an AbortSignal is passed to fetch');
+});

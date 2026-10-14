@@ -17,7 +17,17 @@ const MAX_KEYS = 80;
  * to the Referer; a request with neither header is refused (browsers always send Origin
  * on a cross-origin or same-origin POST).
  */
-export function isAllowedOrigin(headers: Headers): boolean {
+export function isAllowedOrigin(headers: Headers, requestUrl?: string): boolean {
+  // Same-origin POSTs are always fine, whatever host serves the Worker (workers.dev
+  // preview, a new alias domain). A cross-site page can never produce a matching Origin.
+  let selfOrigin = '';
+  if (requestUrl) {
+    try {
+      selfOrigin = new URL(requestUrl).origin;
+    } catch {
+      selfOrigin = '';
+    }
+  }
   const origin = headers.get('origin');
   let candidate: string | null = origin;
   if (!origin) {
@@ -30,6 +40,7 @@ export function isAllowedOrigin(headers: Headers): boolean {
     }
   }
   if (!candidate) return false;
+  if (selfOrigin && candidate === selfOrigin && selfOrigin.startsWith('https://')) return true;
   return ALLOWED_ORIGINS.has(candidate) || LOCAL_ORIGIN.test(candidate);
 }
 
@@ -83,6 +94,7 @@ export type SanitizeResult = { ok: true; data: Record<string, string> } | { ok: 
 // Control characters other than tab, LF and CR (kept in multi-line fields).
 const CONTROL_CHARS = /[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/g;
 const ANY_CONTROL_CHARS = /[\u0000-\u001f\u007f]/g;
+const UNICODE_SPACES = /[\u00a0\u1680\u2000-\u200a\u202f\u205f\u3000]/g;
 const MULTILINE_FIELDS: ReadonlySet<string> = new Set(['message', 'registeredAddress', 'previousExperience']);
 
 /**
@@ -104,9 +116,12 @@ export function sanitizeFields(
     if (value === undefined || value === null) continue;
     if (typeof value !== 'string') return { ok: false, message: `Field "${key}" must be text` };
     // Single-line fields lose newlines too (they end up in subjects and table cells).
+    // Textareas reach FormData with CRLF in some browsers: count a newline once so a
+    // value that fits the form's own maxlength never trips the cap. Non-breaking and
+    // other Unicode spaces (copy-pasted phone numbers) become plain spaces.
     let text = MULTILINE_FIELDS.has(key)
-      ? value.replace(CONTROL_CHARS, '').trim()
-      : value.replace(ANY_CONTROL_CHARS, ' ').trim();
+      ? value.replace(/\r\n?/g, '\n').replace(CONTROL_CHARS, '').replace(UNICODE_SPACES, ' ').trim()
+      : value.replace(ANY_CONTROL_CHARS, ' ').replace(UNICODE_SPACES, ' ').trim();
     const truncateAt = TRUNCATE_FIELDS[key];
     if (truncateAt !== undefined) {
       text = text.slice(0, truncateAt);
@@ -119,14 +134,18 @@ export function sanitizeFields(
 }
 
 const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
-const PHONE_RE = /^[+0-9 ()\-.]{7,30}$/;
+// Lenient on purpose: the forms' own pattern= attributes are ignored by current browsers
+// (invalid under the regexp v flag), so people type "98765 43210 / 91234 56789" or
+// "98765-43210, 91234-56789". Rejecting those would drop a real lead from the CRM.
+const PHONE_RE = /^[+0-9 ()\-./,]{7,40}$/;
 
 export function isValidEmail(value: string): boolean {
   return EMAIL_RE.test(value);
 }
 
 export function isValidPhone(value: string): boolean {
-  return PHONE_RE.test(value) && value.replace(/\D/g, '').length >= 7;
+  const digits = value.replace(/\D/g, '').length;
+  return PHONE_RE.test(value) && digits >= 7 && digits <= 20;
 }
 
 const SUBMISSION_ID_RE = /^[A-Za-z0-9-]{8,64}$/;

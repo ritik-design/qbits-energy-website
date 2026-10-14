@@ -268,7 +268,7 @@ function buildPartnerDescription(data: Record<string, string>) {
 export const POST: APIRoute = async ({ request, locals }) => {
   // Browser forms on the production site (or local dev) only. Not a substitute for
   // rate limiting or CAPTCHA, which need business/infrastructure decisions.
-  if (!isAllowedOrigin(request.headers)) {
+  if (!isAllowedOrigin(request.headers, request.url)) {
     return jsonResponse(403, { success: false, message: 'Forbidden' });
   }
 
@@ -297,16 +297,20 @@ export const POST: APIRoute = async ({ request, locals }) => {
   // Validation differs by form: partner applications are keyed to the company,
   // while the contact form is keyed to the person's name.
   const name = isPartnerForm ? (data.companyName || '') : (data.name || '');
-  const mobile = isPartnerForm ? (data.whatsappNumber || '') : (data.phone || '');
-  const email = isPartnerForm ? (data.businessEmail || '') : (data.email || '');
-  if (!name || (!mobile && !email)) {
-    return jsonResponse(400, { success: false, message: 'Missing required fields' });
+  let mobile = isPartnerForm ? (data.whatsappNumber || '') : (data.phone || '');
+  let email = isPartnerForm ? (data.businessEmail || '') : (data.email || '');
+  // A malformed phone or email must not cost us the lead when the other channel is
+  // usable: drop the bad one (it is still in the FormSubmit email copy) and store the rest.
+  if (mobile && !isValidPhone(mobile)) {
+    if (email && isValidEmail(email)) mobile = '';
+    else return jsonResponse(400, { success: false, message: 'Invalid phone number' });
   }
   if (email && !isValidEmail(email)) {
-    return jsonResponse(400, { success: false, message: 'Invalid email address' });
+    if (mobile) email = '';
+    else return jsonResponse(400, { success: false, message: 'Invalid email address' });
   }
-  if (mobile && !isValidPhone(mobile)) {
-    return jsonResponse(400, { success: false, message: 'Invalid phone number' });
+  if (!name || (!mobile && !email)) {
+    return jsonResponse(400, { success: false, message: 'Missing required fields' });
   }
 
   // Same submission already stored by this isolate (a retry after a lost response):

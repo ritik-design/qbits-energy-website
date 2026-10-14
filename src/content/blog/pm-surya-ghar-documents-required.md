@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "14 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-pm-surya-ghar-documents-required.webp"
 author: "Nirav Dhanani"
 keywords:
   - pm surya ghar documents

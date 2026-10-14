@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-09-24
 readTime: "14 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-almm-list-phase-iii-guide.webp"
 author: "Qbits Editorial"
 keywords:
   - almm list

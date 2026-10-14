@@ -6,7 +6,7 @@ category: Technology
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "15 min"
-image: "/blog-images/solar-inverter-specifications-decoded.svg"
+image: "/og/blog-reactive-power-solar-inverters-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - reactive power solar inverter

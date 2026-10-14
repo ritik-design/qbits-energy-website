@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "16 min"
-image: "/blog-images/solar-inverter-sizing.svg"
+image: "/og/blog-solar-inverter-for-shop.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter for shop

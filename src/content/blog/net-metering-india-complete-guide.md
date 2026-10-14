@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "25 min"
-image: "/blog-images/solar-inverter-integration-in-india.svg"
+image: "/og/blog-net-metering-india-complete-guide.webp"
 author: "Nirav Dhanani"
 keywords:
   - net metering india

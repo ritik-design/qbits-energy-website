@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "11 min"
-image: "/blog-images/solar-inverter-failure.svg"
+image: "/og/blog-solar-inverter-keeps-switching-off-fix.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter keeps turning off

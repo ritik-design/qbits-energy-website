@@ -204,8 +204,6 @@ For PM Surya Ghar and similar residential schemes, smaller installations often f
 
 CEIG is the state electrical safety authority that approves solar installations above defined thresholds. Drawing approval and site inspection are mandatory before energisation. The process is independent of DISCOM grid interconnection. Earthing, fire safety and SLD quality are the most common bottlenecks.
 
-## Need CEIG approval for your solar project?
-
 ## Further reading
 
 For how CEIG plays out in real projects, these guides go deeper:

@@ -187,8 +187,6 @@ Solar yield modelling tools (PVsyst, SAM) include albedo as input.
 
 Albedo is the fraction of solar radiation reflected by a surface. Critical for bifacial solar yield: higher albedo means more rear-side power. Indian utility plants typically have natural albedo 0.15-0.30. White gravel preparation can boost albedo to 0.30-0.45, justified by bifacial yield gains of 15-25 percent. On-site albedo measurement is standard for utility-scale bifacial project planning.
 
-## Need albedo-optimised bifacial plant design?
-
 ## Further reading
 
 For how Albedo plays out in real projects, these guides go deeper:

@@ -260,8 +260,6 @@ Not auditing actual DOD distribution post-installation.
 
 DOD is the depth of each charge-discharge cycle, expressed as a percentage of nominal capacity. LFP tolerates 80 to 90 percent DOD daily. Lead acid requires 50 percent or shallower DOD for reasonable cycle life. Sizing for the correct DOD, configuring the inverter accordingly, and respecting warranty terms are the disciplines that decide actual battery life.
 
-## Need DOD-correct battery sizing?
-
 ## Further reading
 
 For how Battery DOD plays out in real projects, these guides go deeper:

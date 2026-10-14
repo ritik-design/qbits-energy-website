@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "10 min"
-image: "/blog-images/arka360-alternative.svg"
+image: "/og/blog-arka360-alternative.webp"
 author: "Nirav Dhanani"
 keywords:
   - arka360 alternative

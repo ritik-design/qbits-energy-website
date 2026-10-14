@@ -5,7 +5,7 @@ description: "Complete solar maintenance checklist India: a 4-season calendar fo
 category: "Maintenance"
 date: 2026-06-05
 readTime: "18 min"
-image: "/blog-images/inverter-maintenance-india.svg"
+image: "/og/blog-solar-annual-maintenance-checklist-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar maintenance checklist india

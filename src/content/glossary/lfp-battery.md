@@ -276,8 +276,6 @@ Underestimating calendar ageing.
 
 LFP is the dominant lithium-ion chemistry for stationary solar storage in India. Long cycle life, superior thermal safety and lower cost outweigh the lower energy density for stationary use. Pack-inverter compatibility, cabinet temperature management and DoD discipline decide whether the system delivers its rated life. The Indian LFP supply chain is rapidly maturing through PLI-driven investments.
 
-## Looking for an LFP storage solution?
-
 ## Further reading
 
 For how LFP Battery plays out in real projects, these guides go deeper:

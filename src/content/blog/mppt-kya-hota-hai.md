@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "12 min"
-image: "/blog-images/mppt-kya-hota-hai.svg"
+image: "/og/blog-mppt-kya-hota-hai.webp"
 author: "Keyur Rakholiya"
 keywords:
   - mppt kya hota hai
@@ -32,6 +32,7 @@ faqs:
   - q: "MPPT efficiency aur conversion efficiency alag cheez hai kya?"
     a: "हाँ, दोनों अलग हैं। MPPT tracking efficiency बताती है कि tracker असली maximum power point के कितने पास रहता है, अच्छे inverters में 99 percent से ऊपर। Conversion efficiency बताती है कि DC को AC में बदलते समय कितनी power बचती है, typically 96 से 98.5 percent। Datasheet पर European efficiency दोनों का practical mix दिखाती है। खरीदते समय दोनों numbers अलग-अलग देखें।"
 featured: false
+language: hi
 ---
 
 Solar quotation में एक line लगभग हमेशा होती है: "dual MPPT inverter"। ज़्यादातर घर वाले उसे पढ़कर सिर हिला देते हैं और आगे बढ़ जाते हैं। लेकिन MPPT ही तय करता है कि आपकी छत के panels अपनी rated capacity का कितना हिस्सा सच में बिजली में बदल पाएंगे। यह guide MPPT को शुरू से समझाती है, बिना formula की भरमार के। Panel की power curve, maximum power point, धूप और गर्मी के साथ उसका हिलना, tracking algorithm, spec sheet का voltage window, और आपकी छत के लिए कितने MPPT चाहिए। अंत तक आप किसी भी inverter datasheet का MPPT section खुद पढ़ पाएंगे।

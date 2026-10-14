@@ -5,7 +5,7 @@ description: "Grounding guide for solar inverters in India: IS 3043 and CEA 2013
 category: "Guide"
 date: 2026-05-11
 readTime: "12 min"
-image: "/blog-images/solar-inverter-grounding.svg"
+image: "/og/blog-solar-inverter-grounding.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter grounding india

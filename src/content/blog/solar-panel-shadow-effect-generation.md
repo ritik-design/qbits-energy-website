@@ -6,7 +6,7 @@ category: "Technical"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "16 min"
-image: "/blog-images/solar-panel-shadow-effect-generation.svg"
+image: "/og/blog-solar-panel-shadow-effect-generation.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar panel shadow effect

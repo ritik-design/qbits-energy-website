@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "10 min"
-image: "/blog-images/3d-solar-design-software.svg"
+image: "/og/blog-3d-solar-design-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - 3d solar design software

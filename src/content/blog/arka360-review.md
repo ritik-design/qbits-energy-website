@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/arka360-review.svg"
+image: "/og/blog-arka360-review.webp"
 author: "Nirav Dhanani"
 keywords:
   - arka360 review

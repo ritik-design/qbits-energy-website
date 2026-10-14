@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "18 min"
-image: "/blog-images/solar-inverter-payback-period-in-india.svg"
+image: "/og/blog-electricity-tariff-hikes-solar.webp"
 author: "Nirav Dhanani"
 keywords:
   - electricity tariff hike 2026

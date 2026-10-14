@@ -6,7 +6,7 @@ category: Solar Software
 date: 2026-06-14
 updatedDate: 2026-09-24
 readTime: 12 min
-image: /blog-images/best-solar-design-software.svg
+image: "/og/blog-best-solar-design-software.webp"
 author: Nirav Dhanani
 keywords:
 - best solar design software

@@ -64,6 +64,7 @@ faqs:
   - q: "What is the typical payback period for gross metering?"
     a: "6 to 9 years for commercial customers depending on FIT. Net metering usually pays back in 4 to 6 years for the same customer category. The gap is the difference between FIT and retail tariff."
 author: "Nirav Dhanani"
+seoTitle: "Gross Metering: How Solar Export Billing Works"
 ---
 
 ## What is gross metering
@@ -267,8 +268,6 @@ Allowing the inverter to export above the contracted limit. Excess is unpaid or 
 ## Key takeaways
 
 Gross metering sells the entire solar generation to the DISCOM at a feed-in tariff while the customer pays separately for grid consumption. It is the right structure for large C&I rooftops, for state regulations that mandate it above thresholds, and for investor-owned plants. Returns are typically lower than net metering, payback is longer, and subsidy eligibility is limited. Meter accuracy, FIT contract terms and DISCOM payment discipline decide the long-term economics.
-
-## Want gross metering set up correctly?
 
 ## Further reading
 

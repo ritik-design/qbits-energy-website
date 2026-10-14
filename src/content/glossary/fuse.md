@@ -241,8 +241,6 @@ Using fuses without proper holder, leading to overheating.
 
 Fuses are essential overcurrent protection devices for solar DC strings. Specialised gPV fuses handle the unique requirements of solar DC: high voltage, bidirectional fault current and DC arc extinction. Combiner boxes with 3 or more parallel strings require fuse protection. Sizing at 1.5 × Isc with proper voltage rating, sealed fuse holders and root-cause diagnosis on every blowing event are the disciplines that keep solar plants safe.
 
-## Need properly designed DC protection?
-
 ## Further reading
 
 For how Fuse plays out in real projects, these guides go deeper:

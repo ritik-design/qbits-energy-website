@@ -6,7 +6,7 @@ category: Maintenance
 date: 2026-03-13
 updatedDate: 2026-09-24
 readTime: 11 min
-image: /blog-images/solar-inverter-troubleshooting.svg
+image: "/og/blog-solar-inverter-troubleshooting.webp"
 author: Keyur Rakholiya
 keywords:
 - solar inverter troubleshooting

@@ -227,8 +227,6 @@ For broader strategies to protect output through Indian heat, dust and monsoon c
 
 Soiling is one of the largest controllable yield loss factors in Indian solar PV. Daily soiling rates of 0.1-1.0 percent accumulate to 10-25 percent annual loss without cleaning. Regular cleaning (every 7-21 days depending on region) is essential, costing 30-60 percent of total OPEX. Robotic cleaning is increasingly adopted for large plants. Anti-soiling coatings reduce soiling rates by 20-50 percent. Site-specific cleaning programmes are critical for Indian solar economics.
 
-## Need optimised cleaning programmes for your solar plant?
-
 ## Further reading
 
 For how Soiling plays out in real projects, these guides go deeper:

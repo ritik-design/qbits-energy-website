@@ -64,6 +64,7 @@ faqs:
   - q: "What is the future of LeTID?"
     a: "Industry transition to TOPCon n-type largely eliminates LeTID concerns. Legacy PERC modules with potential LeTID remain in field."
 author: "Nirav Dhanani"
+seoTitle: "LeTID: Light and Temperature-Induced Module Degradation"
 ---
 
 ## What is LeTID
@@ -201,8 +202,6 @@ PM Surya Ghar warranty implicitly covers LeTID through linear performance.
 ## Key takeaways
 
 LeTID is slow degradation in PERC cells caused by combined light and heat exposure, manifesting over months and years. Total impact 1-5 percent depending on cell manufacturing quality. Modern controlled PERC limits LeTID to under 1 percent. TOPCon n-type cells largely eliminate the mechanism. Indian climate conditions accelerate LeTID. Specifying LeTID-tested modules and Tier-1 manufacturers is the practical mitigation for ongoing PERC installations.
-
-## Need LeTID-controlled solar modules?
 
 ## Further reading
 

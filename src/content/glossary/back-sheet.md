@@ -192,8 +192,6 @@ ALMM-listed modules meet [IEC 61215](/glossary/iec-61215/) and 61730 requirement
 
 Back sheet provides electrical insulation, weather protection and mechanical robustness on the rear of solar modules. Traditional polymer back sheets (PVDF-based Tedlar TPT, Kynar) dominate. Glass-glass bifacial modules replace polymer with rear glass. Material choice affects long-term reliability, warranty and bifacial capability. PVDF and glass-glass are premium choices; quality PET composites are mainstream.
 
-## Need quality back sheet modules?
-
 ## Further reading
 
 For how Back Sheet plays out in real projects, these guides go deeper:

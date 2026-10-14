@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "10 min"
-image: "/blog-images/online-solar-design-tool.svg"
+image: "/og/blog-online-solar-design-tool.webp"
 author: "Nirav Dhanani"
 keywords:
   - online solar design tool

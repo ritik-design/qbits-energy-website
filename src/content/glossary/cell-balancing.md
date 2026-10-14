@@ -207,8 +207,6 @@ Major Indian BMS manufacturers (Inverted Energy, Battrixx, Numeros) support both
 
 Cell balancing equalises voltages across battery pack cells, critical for capacity utilisation and longevity. Passive balancing dissipates excess charge in resistors; active balancing efficiently transfers energy between cells. Passive dominates Indian residential storage; active in premium applications. Modern BMS includes balancing as standard. Cell voltage spread should be monitored to detect imbalance issues.
 
-## Need balanced battery storage?
-
 ## Further reading
 
 For how Cell Balancing plays out in real projects, these guides go deeper:

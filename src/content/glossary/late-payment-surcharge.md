@@ -201,8 +201,6 @@ DISCOM payment timeliness has materially improved since 2022.
 
 Late Payment Surcharge Rules 2022 establish escalating penalties on DISCOM delays in solar PPA payments. Bank rate + 1-4 percent depending on delay duration. Critical risk mitigant for solar developers and lenders. Improved sectoral bankability and reduced financing cost. State DISCOM payment discipline has materially improved since 2022 implementation.
 
-## Need LPS-aware solar project structuring?
-
 ## Further reading
 
 For how Late Payment Surcharge plays out in real projects, these guides go deeper:

@@ -6,7 +6,7 @@ category: Solar Software
 date: 2026-06-14
 updatedDate: 2026-09-24
 readTime: 13 min
-image: "/blog-images/utility-scale-solar-design-software.svg"
+image: "/og/blog-utility-scale-solar-design-software.webp"
 author: Nirav Dhanani
 keywords:
 - utility scale solar design software

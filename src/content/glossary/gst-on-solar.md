@@ -209,8 +209,6 @@ ALMM-listed equipment treated under standard GST rates.
 
 GST on Indian solar: 12 percent on equipment, 18 percent on services. Adds 12-15 percent to total project cost. Business customers recover through ITC; residential absorbs full GST. PM Surya Ghar customers see GST on top of subsidised equipment. CERC tariff methodology incorporates GST in benchmark. Project cost models must include GST and ITC treatment.
 
-## Need GST-aware solar cost analysis?
-
 ## Further reading
 
 For how GST on Solar plays out in real projects, these guides go deeper:

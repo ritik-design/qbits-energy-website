@@ -253,8 +253,6 @@ Ignoring soiling and shading on pyranometer.
 
 GHI is the foundational solar resource measurement, the total solar radiation hitting a horizontal surface. Indian GHI ranges from 1,200 kWh/m²/year in the north-east to over 2,200 in western Rajasthan and Ladakh. GHI is the primary input to yield modelling, plant siting and PPA tariff calculation. Calibrated measurements, multi-year averages and proper sensor maintenance determine bankable resource assessment.
 
-## Need bankable GHI-based yield modelling?
-
 ## Further reading
 
 For how GHI plays out in real projects, these guides go deeper:

@@ -264,8 +264,6 @@ Skipping rainflow counting in long-term cycle life accounting.
 
 Cycle life is the number of charge-discharge cycles a battery delivers before capacity drops to a defined threshold. LFP at 4,000 to 8,000 cycles, NMC at 2,000 to 4,000, lead acid at 500 to 1,500. Cycle life depends on DOD, temperature and C-rate. Comparison across batteries should normalise these conditions. Lifecycle cost is the right metric, not headline cycle count.
 
-## Need help with battery selection for cycle life?
-
 ## Further reading
 
 For how Cycle Life plays out in real projects, these guides go deeper:

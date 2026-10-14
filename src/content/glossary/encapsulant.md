@@ -221,8 +221,6 @@ PM Surya Ghar requires PID-tested ALMM-listed modules.
 
 Encapsulant seals solar cells inside modules, providing electrical insulation, mechanical protection, moisture barrier and optical transparency. EVA is the traditional choice; POE is preferred for premium and bifacial modules. PID-resistant encapsulants are essential for modern installations. Browning, delamination and PID are the main failure modes. Modern ALMM-listed modules use PID-tested encapsulants.
 
-## Need quality encapsulated modules?
-
 ## Further reading
 
 For how Encapsulant plays out in real projects, these guides go deeper:

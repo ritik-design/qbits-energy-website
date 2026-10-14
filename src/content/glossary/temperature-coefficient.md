@@ -191,8 +191,6 @@ ALMM-listed modules report standard coefficients.
 
 Temperature coefficient measures power loss per degree of cell temperature rise above STC. Critical for Indian climates where cell temperatures regularly reach 60-80°C. PERC: -0.34 to -0.37%/°C. TOPCon: -0.30 to -0.33%/°C. HJT: -0.24 to -0.28%/°C. HJT's superior coefficient provides 2-4 percent more annual yield in hot Indian conditions, often justifying its price premium.
 
-## Need temperature-aware solar yield modelling?
-
 ## Further reading
 
 For how Temperature Coefficient plays out in real projects, these guides go deeper:

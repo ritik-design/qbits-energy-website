@@ -6,7 +6,7 @@ category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/solar-inverter-selection.svg"
+image: "/og/blog-solar-for-rented-homes-tenants-india.webp"
 author: "Akash Hirapara"
 keywords:
   - solar for tenants india

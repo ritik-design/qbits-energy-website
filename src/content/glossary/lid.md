@@ -235,8 +235,6 @@ Confusing LID with [LeTID](/glossary/letid/).
 
 LID is the initial efficiency loss in the first 100 hours of solar exposure for p-type silicon modules. Mainstream PERC loses 1 to 2.5 percent; gallium-doped PERC less; TOPCon and HJT effectively eliminate LID. Modern warranty curves and yield models include LID. The Indian industry is migrating toward n-type cell technologies that minimise LID and provide higher stabilised efficiency.
 
-## Need yield modelling that accounts for LID?
-
 ## Further reading
 
 For how LID plays out in real projects, these guides go deeper:

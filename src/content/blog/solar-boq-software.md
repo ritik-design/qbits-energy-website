@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "8 min"
-image: "/blog-images/solar-boq-software.svg"
+image: "/og/blog-solar-boq-software.webp"
 author: "Akash Hirapara"
 keywords:
   - solar boq software

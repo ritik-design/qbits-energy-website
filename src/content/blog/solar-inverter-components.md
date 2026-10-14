@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-04-08
 updatedDate: 2026-09-24
 readTime: "18 min"
-image: "/blog-images/solar-inverter-components.svg"
+image: "/og/blog-solar-inverter-components.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter components

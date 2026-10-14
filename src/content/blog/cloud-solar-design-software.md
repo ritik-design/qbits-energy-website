@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "9 min"
-image: "/blog-images/cloud-solar-design-software.svg"
+image: "/og/blog-cloud-solar-design-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - cloud solar design software

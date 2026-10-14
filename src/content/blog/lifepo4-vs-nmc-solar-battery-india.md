@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "15 min"
-image: "/blog-images/solar-inverter-quality.svg"
+image: "/og/blog-lifepo4-vs-nmc-solar-battery-india.webp"
 author: "Nirav Dhanani"
 keywords:
   - lifepo4 vs nmc battery india

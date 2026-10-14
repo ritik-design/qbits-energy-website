@@ -266,8 +266,6 @@ Using outdated capex assumptions in financial models.
 
 CAPEX is the upfront cost of building a solar project. Indian utility-scale capex sits at ₹3.5 to ₹4.5 crore per MW (₹35 to ₹45 per Wp). C&I rooftop at ₹35 to ₹55 per Wp. Residential rooftop ranges ₹40 to ₹70 per Wp pre-subsidy, dropping to ₹10 to ₹30 post PM Surya Ghar. Capex has fallen 70+ percent since 2012 and has stabilised. Module, inverter, structure and labour are the four major components.
 
-## Need accurate solar capex estimation?
-
 ## Further reading
 
 For how CAPEX plays out in real projects, these guides go deeper:

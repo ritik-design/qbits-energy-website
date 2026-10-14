@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/dc-oversizing-in-solar.svg"
+image: "/og/blog-maximize-solar-output-indian-climate.webp"
 author: "Keyur Rakholiya"
 keywords:
   - maximize solar output india

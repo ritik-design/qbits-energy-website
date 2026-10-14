@@ -67,6 +67,7 @@ faqs:
   - q: "What is the transfer time of a hybrid inverter during a grid outage?"
     a: "Online hybrid inverters have effectively zero transfer time, often less than 10 ms, which is invisible to most loads. Offline transfer with mechanical switching takes 10 to 50 ms and may cause computers to reboot."
 author: "Nirav Dhanani"
+seoTitle: "Hybrid Inverter: Solar, Battery and Backup Operation"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

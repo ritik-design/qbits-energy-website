@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/sunbase-alternative.svg"
+image: "/og/blog-sunbase-alternative.webp"
 author: "Akash Hirapara"
 keywords:
   - sunbase alternative

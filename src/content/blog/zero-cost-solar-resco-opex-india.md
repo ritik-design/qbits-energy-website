@@ -6,7 +6,7 @@ category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "18 min"
-image: "/blog-images/solar-epc-india.svg"
+image: "/og/blog-zero-cost-solar-resco-opex-india.webp"
 author: "Akash Hirapara"
 keywords:
   - zero cost solar india

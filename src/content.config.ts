@@ -6,6 +6,7 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     seoTitle: z.string().optional(),
+    language: z.enum(['en', 'hi']).default('en'),
     relatedSlugs: z.array(z.string()).optional(),
     excerpt: z.string(),
     description: z.string().optional(),
@@ -28,6 +29,7 @@ const glossary = defineCollection({
   schema: z.object({
     term: z.string(),
     title: z.string(),
+    seoTitle: z.string().optional(),
     description: z.string(),
     category: z.string(),
     categorySlug: z.string(),

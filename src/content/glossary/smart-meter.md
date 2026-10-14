@@ -65,6 +65,7 @@ faqs:
   - q: "How do I dispute a smart meter reading?"
     a: "Raise a complaint with the DISCOM with the meter serial number and dispute period. DISCOMs can download interval data from the meter or via AMI for verification."
 author: "Nirav Dhanani"
+seoTitle: "Smart Meter: Meaning, Readings and Solar Applications"
 ---
 
 ## What is a smart meter
@@ -273,8 +274,6 @@ Skipping firmware updates. Updated firmware fixes known errors.
 ## Key takeaways
 
 Smart meters are the foundation of AMI, time-of-day tariffs and distributed generation in India. The RDSS rollout aims for 250 million smart meters by 2026. CEA Smart Meter Regulations 2023 and DLMS/COSEM define the technical framework. For solar customers, the smart bidirectional meter is the gating device for net metering and PM Surya Ghar subsidy disbursement.
-
-## Need help with smart meter coordination?
 
 ## Further reading
 

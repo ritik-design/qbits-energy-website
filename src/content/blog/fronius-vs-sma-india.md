@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-07-23
 updatedDate: 2026-08-02
 readTime: "17 min"
-image: "/blog-images/fronius-vs-sma-india.svg"
+image: "/og/blog-fronius-vs-sma-india.webp"
 author: "Nirav Dhanani"
 keywords:
   - fronius vs sma

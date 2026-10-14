@@ -204,8 +204,6 @@ Bifacial gain modelling for SECI bids increasingly uses DNI-derived ground refle
 
 DNI is the direct beam solar irradiance, critical for CSP, trackers and bifacial yield. Indian DNI ranges from 1,000 in north-east to over 2,500 in Ladakh. The DNI/GHI ratio distinguishes clear-sky from cloudy and dusty conditions. CSP requires DNI above 2,000 kWh/m²/year. Tracker plants maximise DNI capture through sun-following alignment.
 
-## Need DNI-based tracker or bifacial yield modelling?
-
 ## Further reading
 
 For how DNI plays out in real projects, these guides go deeper:

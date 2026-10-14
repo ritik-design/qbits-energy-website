@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-08-02
 updatedDate: 2026-09-24
 readTime: "11 min"
-image: "/blog-images/5kw-solar-inverter-price-hindi.svg"
+image: "/og/blog-5kw-solar-inverter-price-hindi.webp"
 author: "Akash Hirapara"
 keywords:
   - 5kw solar inverter price hindi
@@ -34,6 +34,7 @@ faqs:
   - q: "5 kW quote mein sabse common hidden item kya hota hai?"
     a: "Metering aur approval scope. Bidirectional meter, DISCOM charges, liaisoning aur portal documentation kai quotes mein 'customer scope' likha hota hai. Freight, crane ya civil work bhi alag nikalta hai. Quote par har inclusion aur exclusion likha hua maangein."
 featured: false
+language: hi
 ---
 
 5 kW rooftop ka pehla sawal hamesha price hota hai. Lekin "5 kW solar inverter price" ek single number nahi hai. Wahi phrase char alag cheezon ko describe karta hai: akela inverter unit, inverter plus monitoring accessories, hybrid package with battery, ya poora rooftop system. Isi wajah se do quotes ek hi model par bhi bahut alag dikh sakte hain.

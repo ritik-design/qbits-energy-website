@@ -203,8 +203,6 @@ Major Indian corporates (Reliance, Tata, Adani, Mahindra) use AD strategically.
 
 Accelerated Depreciation provides 40 percent first-year tax depreciation for solar PV plants under Section 32 of Indian Income Tax Act. Reduces effective capex by 15-25 percent on present-value basis. Critical economic driver for Indian C&I solar adoption. RESCO model leverages AD by maintaining developer ownership. Combined with falling capex, AD makes solar IRR attractive for taxpaying corporates.
 
-## Need AD-optimised solar structuring?
-
 ## Further reading
 
 For how Accelerated Depreciation plays out in real projects, these guides go deeper:

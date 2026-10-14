@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-07-23
 updatedDate: 2026-08-02
 readTime: "17 min"
-image: "/blog-images/solar-inverter-price-with-installation.svg"
+image: "/og/blog-solar-inverter-price-with-installation.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar inverter price with installation

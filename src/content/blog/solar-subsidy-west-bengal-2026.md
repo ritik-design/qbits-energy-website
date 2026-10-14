@@ -6,7 +6,7 @@ category: Policy
 date: 2026-06-05
 updatedDate: 2026-09-24
 readTime: 13 min
-image: /blog-images/solar-inverter-certifications.svg
+image: "/og/blog-solar-subsidy-west-bengal-2026.webp"
 author: Akash Hirapara
 keywords:
 - solar subsidy west bengal

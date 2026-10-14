@@ -67,6 +67,7 @@ faqs:
   - q: "What is the price of a micro inverter in India?"
     a: "Approximate 2026 prices: 250 to 380 W single-panel units ₹6,500 to ₹10,500 each. A 5 kW residential array of 12 to 15 panels needs the same number of micro inverters, costing ₹85,000 to ₹1,50,000 just for the inverters."
 author: "Nirav Dhanani"
+seoTitle: "Micro Inverter: How It Works and When to Use It"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

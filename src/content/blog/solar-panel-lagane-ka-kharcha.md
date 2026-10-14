@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "12 min"
-image: "/blog-images/solar-panel-lagane-ka-kharcha.svg"
+image: "/og/blog-solar-panel-lagane-ka-kharcha.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar panel lagane ka kharcha
@@ -33,6 +33,7 @@ faqs:
   - q: "3 kW ya 5 kW, kaunsa system ghar ke liye better hai?"
     a: "अगर monthly bill ₹1,500 से ₹2,500 के बीच है तो 3 kW सही fit है और subsidy per rupee सबसे ज्यादा value देती है। ₹4,000 से ऊपर bill, AC load, या आगे EV charging का plan हो तो 5 kW बेहतर है, यह मानकर कि extra 2 kW पर कोई subsidy नहीं मिलेगी। Roof area भी देखें: 3 kW को लगभग 200 से 250 sq ft shadow-free area चाहिए और 5 kW को 330 से 400 sq ft।"
 featured: false
+language: hi
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।

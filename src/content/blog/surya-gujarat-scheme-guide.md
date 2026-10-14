@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-07-23
 updatedDate: 2026-09-24
 readTime: "11 min"
-image: "/blog-images/surya-gujarat-scheme-guide.svg"
+image: "/og/blog-surya-gujarat-scheme-guide.webp"
 author: "Akash Hirapara"
 keywords:
   - surya gujarat scheme

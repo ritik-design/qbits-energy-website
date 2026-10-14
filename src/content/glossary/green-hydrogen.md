@@ -250,8 +250,6 @@ Treating green hydrogen as drop-in replacement for grey.
 
 Green hydrogen is hydrogen produced from renewable electricity via electrolysis. India's National Green Hydrogen Mission targets 5 MMT by 2030 with ₹19,744 crore outlay. Solar electricity at sub-₹3/kWh makes green hydrogen economically viable, with $2/kg cost target by 2030. Key applications: fertiliser, refining, steel, methanol, mobility. Major Indian players: Reliance, Adani, NTPC, Indian Oil, L&T, ACME, JSW.
 
-## Need solar for green hydrogen projects?
-
 ## Further reading
 
 For how Green Hydrogen plays out in real projects, these guides go deeper:

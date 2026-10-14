@@ -210,8 +210,6 @@ State DISCOM tariffs increasingly include voltage-based slabs for HT and EHT cus
 
 Voltage is the electrical potential that drives current flow. Indian solar systems span 12 V battery up to 1500 V DC strings and 415 V AC three-phase. String voltage must stay within inverter MPPT window across temperatures. Voltage drop in cables must be controlled. Indian grid voltage envelopes set by CEA define acceptable operation.
 
-## Need voltage-aware solar design?
-
 ## Further reading
 
 For how Voltage plays out in real projects, these guides go deeper:

@@ -224,8 +224,6 @@ CEA may consider future amendment.
 
 Rapid shutdown de-energises rooftop solar conductors to safe voltage within 30 seconds when triggered. Mandatory under US NEC 690.12, voluntary in India. Implementation through microinverters, DC optimisers or dedicated module-level shutdown devices. Provides firefighter safety, service safety and international standard alignment. Indian adoption growing in premium installations.
 
-## Need rapid shutdown for your solar?
-
 ## Further reading
 
 For how Rapid Shutdown plays out in real projects, these guides go deeper:

@@ -1,4 +1,5 @@
 ---
+import { productImageSizes } from '../../data/product-images';
 import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
@@ -72,7 +73,7 @@ const onGridSchema = {
     <section class="py-10 bg-slate-50" aria-labelledby="ongrid-select-heading"><div class="container-main max-w-5xl">
       <h2 id="ongrid-select-heading" class="text-2xl font-bold text-slate-900">Select by capacity, phase and string design</h2>
       <p class="mt-3 text-slate-600">A suitable on-grid inverter must match the project's AC connection and the proposed modules' voltage and current. The QB-4/5/6KTLD datasheet specifies two independent MPPTs, an 80–550 V tracking range, 550 V maximum DC input and 20 A per tracker. A 50 V start-up figure is not its normal tracking range.</p>
-      <p class="mt-3 text-slate-600"><a class="text-brand-600 underline" href="/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf">Check that model's datasheet</a>, compare <a class="text-brand-600 underline" href="/blog/single-vs-3-phase-inverter/">single versus three phase</a> and use the <a class="text-brand-600 underline" href="/string-sizing-calculator/">string-sizing screen</a>. For an exact recommendation, <a class="text-brand-600 underline" href="/contact-us/">send your panel and connection details</a>.</p>
+      <p class="mt-3 text-slate-600"><a class="text-brand-600 underline" href="/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf">Check that model's datasheet</a>, compare <a class="text-brand-600 underline" href="/blog/single-vs-3-phase-inverter/">single versus three phase</a> and use the <a class="text-brand-600 underline" href="/string-sizing-calculator/">string-sizing screen</a>. For an exact recommendation, <a class="text-brand-600 underline" href="/contact-us/?subject=Product+Inquiry&from=%2Fon-grid-inverter%2F#lead-form">send your panel and connection details</a>.</p>
     </div></section>
     <section class="section-padding bg-white" aria-labelledby="single-phase-heading">
       <div class="container-main">
@@ -97,7 +98,7 @@ const onGridSchema = {
                 <!-- Product Image -->
                 <div class="relative bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center min-h-[280px]">
                   {product.image ? (
-                    <img width="720" height="480" src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <img width={productImageSizes[product.image]?.width} height={productImageSizes[product.image]?.height} src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                   ) : (
                     <div class="w-20 h-20 rounded-xl bg-slate-200 border border-slate-300 flex items-center justify-center">
                       <svg class="w-10 h-10 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -173,7 +174,7 @@ const onGridSchema = {
                 <!-- Product Image -->
                 <div class="relative bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center min-h-[280px]">
                   {product.image ? (
-                    <img width="720" height="480" src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <img width={productImageSizes[product.image]?.width} height={productImageSizes[product.image]?.height} src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                   ) : (
                     <div class="w-20 h-20 rounded-xl bg-slate-200 border border-slate-300 flex items-center justify-center">
                       <svg class="w-10 h-10 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -239,7 +240,7 @@ const onGridSchema = {
         <p class="text-lg text-slate-400 mb-10">Use the <a href="/string-sizing-calculator/" class="text-brand-400 hover:text-white font-medium">preliminary string screen</a>, then request current model documents and confirm any advisory or engineering scope.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="/download-datasheets/" class="btn-primary">Download Datasheets</a>
-          <a href="/contact-us/" class="btn-outline">Talk to an Expert</a>
+          <a href="/contact-us/?subject=Product+Inquiry&from=%2Fon-grid-inverter%2F#lead-form" class="btn-outline">Request an On-Grid Quote</a>
         </div>
       </div>
     </section>

@@ -6,7 +6,7 @@ category: Policy
 date: 2026-06-05
 updatedDate: 2026-09-23
 readTime: 10 min
-image: /blog-images/solar-inverter-integration-in-india.svg
+image: "/og/blog-how-to-apply-net-metering-india.webp"
 author: Akash Hirapara
 keywords:
 - how to apply for net metering

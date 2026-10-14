@@ -6,7 +6,7 @@ category: Technology
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "16 min"
-image: "/blog-images/solar-inverter-components.svg"
+image: "/og/blog-transformerless-vs-transformer-inverter.webp"
 author: "Keyur Rakholiya"
 keywords:
   - transformerless inverter

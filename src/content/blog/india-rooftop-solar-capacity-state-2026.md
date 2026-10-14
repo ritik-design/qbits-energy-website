@@ -6,7 +6,7 @@ category: Industry
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "20 min"
-image: "/blog-images/solar-inverter-manufacturers-in-india.svg"
+image: "/og/blog-india-rooftop-solar-capacity-state-2026.webp"
 author: "Nirav Dhanani"
 keywords:
   - india rooftop solar capacity state

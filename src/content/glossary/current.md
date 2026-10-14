@@ -216,8 +216,6 @@ IS 13947 covers industrial breakers.
 
 Current is the rate of flow of electric charge, measured in amperes. Indian solar PV strings carry 10 to 18 A DC. Inverter AC output currents range from a few amperes to thousands depending on capacity. Cable sizing, fuse selection, breaker specification and connection torque all depend on accurate current ratings. Overcurrent causes heating, voltage drop and fire risk.
 
-## Need current-aware solar design?
-
 ## Further reading
 
 For how Current plays out in real projects, these guides go deeper:

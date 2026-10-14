@@ -222,8 +222,6 @@ PLI scheme reduces equipment cost, supporting lower [capex](/glossary/capex/) an
 
 WACC is the blended cost of project financing, weighted between debt and equity. Indian solar WACC: 8-10 percent for utility, 9-11 percent for C&I, 10-12 percent for residential. WACC has fallen from 14-15 percent in 2010 to 8-10 percent in 2024 as projects became bankable. Used as discount rate in NPV and LCOE calculations. Direct impact on project economics: 200 bps WACC change moves LCOE by ~₹0.30/kWh.
 
-## Need WACC analysis for your solar project?
-
 ## Further reading
 
 For how WACC plays out in real projects, these guides go deeper:

@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-07-23
 updatedDate: 2026-08-02
 readTime: "18 min"
-image: "/blog-images/huawei-vs-sungrow-india.svg"
+image: "/og/blog-huawei-vs-sungrow-india.webp"
 author: "Nirav Dhanani"
 keywords:
   - huawei vs sungrow

@@ -278,8 +278,6 @@ Not planning AC bus disconnect for maintenance.
 
 AC coupling is the right architecture for retrofitting battery storage onto existing PV systems, for microinverter installations and for utility-scale BESS where independent sizing matters. The trade-off against DC coupling is 5 percent round-trip efficiency and higher capex, balanced by flexibility and easier scaling. Grid-forming battery inverters enable backup during grid outages.
 
-## Need AC-coupled storage retrofit?
-
 ## Further reading
 
 For how AC Coupling plays out in real projects, these guides go deeper:

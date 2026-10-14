@@ -202,8 +202,6 @@ Online UPS market focused on data centres and IT.
 
 UPS provides continuous backup power for critical loads during grid outages. Indian residential UPS market increasingly solar-integrated. Three main types: offline (basic), line-interactive (medium), online double-conversion (best, expensive). LFP gaining share over lead acid for longer life and lower maintenance. Solar UPS combines backup and solar self-consumption benefits.
 
-## Need UPS for backup or solar integration?
-
 ## Further reading
 
 For how UPS plays out in real projects, these guides go deeper:

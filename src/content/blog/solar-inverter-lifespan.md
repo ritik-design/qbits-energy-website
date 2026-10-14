@@ -5,7 +5,7 @@ description: How long solar inverters last in India. Warranty versus service lif
 category: Guide
 date: 2026-03-18
 readTime: 9 min
-image: /blog-images/solar-inverter-lifespan.svg
+image: "/og/blog-solar-inverter-lifespan.webp"
 author: Keyur Rakholiya
 keywords:
 - solar inverter lifespan

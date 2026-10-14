@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "13 min"
-image: "/blog-images/ghar-ke-liye-solar-inverter-size-hindi.svg"
+image: "/og/blog-ghar-ke-liye-solar-inverter-size-hindi.webp"
 author: "Keyur Rakholiya"
 keywords:
   - ghar ke liye solar inverter kaise size karein
@@ -33,6 +33,7 @@ faqs:
   - q: "PM Surya Ghar subsidy sizing को कैसे प्रभावित करती है?"
     a: "Central subsidy 2 kW तक ₹30,000 प्रति kW और तीसरे kW पर ₹18,000 है, यानी अधिकतम ₹78,000 जो 3 kW पर आकर रुक जाती है। इससे बड़े system पर एक भी रुपया extra central subsidy नहीं मिलती। इसलिए अगर आपकी असली ज़रूरत 3.4 kW निकल रही है तो सोचें कि extra 0.4 kW की पूरी cost आप ही उठा रहे हैं, और तय करें कि वो units आपके bill में सचमुच बचत बनती हैं या grid को मुफ्त में जा रही हैं।"
 featured: false
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।

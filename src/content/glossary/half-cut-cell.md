@@ -253,8 +253,6 @@ Mixing half-cut and full-cell in same string. (Same string voltage but different
 
 Half-cut cell modules are the default for Indian and global solar module manufacturing from 2020 onward. The 1 to 3 percent efficiency gain, better shade tolerance and lower hot-spot temperatures justify the architecture across PERC, TOPCon and HJT cell technologies. Minimal cost premium and broad ALMM availability make it the rational choice for any new installation.
 
-## Need ALMM-listed half-cut solar modules?
-
 ## Further reading
 
 For how Half-Cut Cell plays out in real projects, these guides go deeper:

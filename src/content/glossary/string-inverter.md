@@ -62,6 +62,7 @@ faqs:
   - q: "Do string inverters need a combiner box?"
     a: "Up to two or three strings, the inverter's built-in inputs are enough. Above that, a DC combiner box with fuses and SPDs is needed before the inverter."
 author: "Nirav Dhanani"
+seoTitle: "String Inverter: Working, MPPTs and Solar Applications"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

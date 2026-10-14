@@ -5,7 +5,7 @@ description: "1 kW से 10 kW तक solar inverter की price 2026 मे�
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "13 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-solar-inverter-price-2026-hindi.webp"
 author: "Akash Hirapara"
 updatedDate: 2026-07-08
 keywords:
@@ -31,6 +31,7 @@ faqs:
     a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "1 kW solar inverter से 10 kW तक - price range क्या है?"
     a: "On-grid inverters: 1 kW ₹6,000-12,000, 3 kW ₹15,000-35,000, 5 kW ₹22,000-50,000, 10 kW ₹45,000-90,000। Hybrid inverters 40-80% ज्यादा expensive होते हैं। Battery cost अलग - ₹40,000 से ₹2,00,000+ depending on capacity और chemistry।"
+language: hi
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।

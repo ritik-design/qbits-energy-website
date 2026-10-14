@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "9 min"
-image: "/blog-images/solar-bid-software.svg"
+image: "/og/blog-solar-bid-software.webp"
 author: "Akash Hirapara"
 keywords: ["solar bid software", "solar proposal software", "solar quoting tool", "solar sales software", "SurgePV", "solar design software", "bankable yield report", "solar financial modeling"]
 faqs:
@@ -139,29 +139,3 @@ Five mistakes show up in 80 percent of lost solar bids.
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
-
-## Frequently Asked Questions
-
-**What is solar bid software?**
-Solar bid software is a sales and design tool that turns a customer address into a complete proposal with layout, yield, financial model, and signature-ready PDF. Modern bid software combines satellite imagery, module-level shading, tariff data, and branded output in one workflow. SurgePV is one example that ships AI 3D modeling, 8,760-hour shade analysis, country-specific tariffs, and proposals in nine languages from a single project file.
-
-**How long should a solar bid take to produce?**
-A residential bid should take 10 to 20 minutes from address to signed PDF. A small commercial bid should take 20 to 45 minutes. Anything longer means the tool is fighting the workflow. SurgePV designers routinely ship 25 kW C&I bids in under 25 minutes because the AI 3D model, Clara AI brief, shading simulation, and financial model all run inside the same project, with no exports or rework between steps.
-
-**Does SurgePV include a financial model in the bid?**
-Yes. Every SurgePV bid includes an integrated financial model with country-specific tariffs, including PM Surya Ghar in India, SREC in the United States, Feed in Tariff, Time of Use, and Einspeisevergütung in Germany. The model outputs payback, IRR, NPV, and 25 year cash flow. Clients see the math behind the headline savings number, which is what makes the proposal bankable rather than marketing.
-
-**Can SurgePV bid C&I and utility-scale projects?**
-Yes. SurgePV handles residential rooftops, commercial and industrial installations up to several megawatts, and utility-scale ground mounts with row spacing and tracker support. The 70,000 module and 12,000 inverter database covers every major manufacturer. Bankable yield with P50, P75, and P90 confidence intervals is included on every paid plan, which is what utility-scale lenders typically require before releasing debt.
-
-**Does the bid include an e-signature?**
-SurgePV proposals export as branded PDFs that integrate with standard e-signature tools. For end-to-end CRM, signature, and pipeline tracking, pair SurgePV with QuickEstimate, the sister CRM built specifically for solar sales teams. The combined workflow takes a lead from first contact through signed contract without leaving the browser, and without retyping numbers between systems.
-
-**What CRM works with SurgePV bids?**
-SurgePV exports proposal data and PDFs that work with any modern CRM. QuickEstimate is the recommended pairing because it shares the same project structure and tariff database, so sales teams do not lose data between design and pipeline. Standalone CRMs like HubSpot and Pipedrive also work through PDF attachment and standard data exports.
-
-**How much does solar bid software cost?**
-SurgePV pricing is 1,899 USD per user per year for the Individual plan, 1,499 USD per user for a 3-User Team, and 1,299 USD per user for a 5-User Team. All plans include Clara AI, bankable yield with P50, P75, and P90, AutoCAD export, and branded proposals in nine languages. There is a free trial with no credit card. Annual billing is the only option.
-
-**Does SurgePV's bid output match the engineering output?**
-Yes, and this is the point. The same project file that produces the sales proposal also produces the AutoCAD DXF and DWG files for the engineering team, the single-line diagram, and the bankable yield report. There is no second design pass. What the customer signs is what the installer builds, which removes the change-order risk that kills margin on solar projects.

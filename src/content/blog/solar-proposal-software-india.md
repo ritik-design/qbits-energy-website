@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "14 min"
-image: "/blog-images/solar-proposal-software-india.svg"
+image: "/og/blog-solar-proposal-software-india.webp"
 author: "Akash Hirapara"
 keywords:
   - best solar proposal software india

@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-09-24
 readTime: "18 min"
-image: "/blog-images/residential-solar-design-software.svg"
+image: "/og/blog-residential-solar-design-software.webp"
 author: "Nirav Dhanani"
 seoTitle: "Residential Solar Design Software: 2026 Buyer Guide"
 keywords:

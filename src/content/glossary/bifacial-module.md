@@ -300,8 +300,6 @@ Installing on dark tar roof and expecting 20 percent gain.
 
 Bifacial modules are the new standard for Indian utility solar and increasingly for C&I rooftop. Yield gain of 5 to 25 percent depends on ground albedo, clearance and tilt. Mounting, inverter sizing and ground preparation determine whether the theoretical gain is realised. Cell technology (PERC, TOPCon, HJT) sets the bifaciality factor and the upper bound on rear-side performance.
 
-## Need bifacial-ready solar design?
-
 ## Further reading
 
 For how Bifacial Module plays out in real projects, these guides go deeper:

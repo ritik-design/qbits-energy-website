@@ -5,7 +5,7 @@ description: "Best solar design software Australia 2026. SurgePV vs Aurora, Open
 category: "Solar Software"
 date: 2026-08-03
 readTime: "11 min"
-image: "/blog-images/solar-design-software-australia.svg"
+image: "/og/blog-solar-design-software-australia.webp"
 author: "Nirav Dhanani"
 updatedDate: 2026-08-03
 keywords:

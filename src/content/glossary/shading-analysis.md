@@ -250,8 +250,6 @@ Trusting brochure shading claims without site-specific analysis.
 
 Shading analysis quantifies yield loss from obstructions. Software tools like PVsyst and Helioscope provide bankable analysis. Annual shading loss above 5 percent triggers design changes. Mitigation includes string splitting, DC optimisers and microinverters. Indian rooftops typically have non-trivial shading from tanks, parapets and trees, making shading analysis essential at the design stage.
 
-## Need shading-corrected solar yield projections?
-
 ## Further reading
 
 For how Shading Analysis plays out in real projects, these guides go deeper:

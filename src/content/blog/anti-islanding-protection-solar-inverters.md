@@ -6,7 +6,7 @@ category: Technology
 date: 2026-06-05
 updatedDate: 2026-09-24
 readTime: 13 min
-image: /blog-images/solar-inverter-certifications.svg
+image: "/og/blog-anti-islanding-protection-solar-inverters.webp"
 author: Keyur Rakholiya
 keywords:
 - anti islanding solar inverter

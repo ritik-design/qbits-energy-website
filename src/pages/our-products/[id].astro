@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import { products, getProductById, getRelatedProducts, WARRANTY_NOTE } from '../../data/products';
+import { productImageSizes } from '../../data/product-images';
 
 export function getStaticPaths() {
   return products.map(p => ({ params: { id: p.id } }));
@@ -20,6 +21,16 @@ const isOnGrid = product.category === 'on-grid';
 const categoryColor = isOnGrid ? 'brand' : 'accent';
 const categoryBg = isOnGrid ? 'bg-brand-50 text-brand-700' : 'bg-accent/10 text-accent-dark';
 const categoryLabel = isOnGrid ? 'On-Grid' : 'Hybrid';
+const phaseLabel = product.phase === 'single' ? 'Single-Phase' : 'Three-Phase';
+const powerLabel = `${product.powerMin}–${product.powerMax} ${product.powerUnit}`;
+const quoteUrl = `/contact-us/?${new URLSearchParams({ subject: 'Product Inquiry', model: product.id, from: `/our-products/${product.id}/` })}#lead-form`;
+const documentUrl = `/contact-us/?${new URLSearchParams({ subject: 'Technical Documents', model: product.id, from: `/our-products/${product.id}/` })}#lead-form`;
+const heroDimensions = product.image ? productImageSizes[product.image] : undefined;
+const datasheetNotes: Record<string, string> = {
+  'QB-4.6-6KTLS': 'The linked datasheet lists 4.6, 5 and 6 kW variants. Ask for the exact-model document before selecting other variants named in this family.',
+  'QB-6-17KTLC': 'The linked datasheet lists 6, 8, 10, 12, 15 and 17 kW variants. Request the exact-model document before specifying a 5 kW variant.',
+  'QB-225-320K-EHV': 'This family’s linked datasheet specifies 800 Vac and a 1500 V maximum DC input. Check the transformer, grid connection and exact model limits; do not treat it as an interchangeable low-voltage rooftop inverter.',
+};
 
 const SITE = 'https://qbitsenergy.com';
 const productUrl = `${SITE}/our-products/${product.id}/`;
@@ -30,7 +41,7 @@ const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: product.name,
-  description: `${product.name} - ${categoryLabel} solar inverter from Qbits Energy. ${product.efficiency} efficiency, ${product.mpptLabel}, and a ${warrantyPhrase}.`,
+  description: `${product.name} - ${categoryLabel} solar inverter from Qbits Energy. ${product.efficiency} efficiency, ${product.mpptLabel}; ${warrantyPhrase}.`,
   sku: product.id,
   mpn: product.id,
   url: productUrl,
@@ -59,8 +70,8 @@ const breadcrumbSchema = {
 ---
 
 <Layout
-  title={`${product.name} | Qbits Energy`}
-  description={`${product.name} - ${categoryLabel} solar inverter with ${product.efficiency} efficiency, ${product.mpptLabel}, and a ${warrantyPhrase}.`}
+  title={`${product.id}: ${powerLabel} ${categoryLabel} Inverter | Qbits`}
+  description={`Compare the ${product.id} ${powerLabel} ${phaseLabel.toLowerCase()} ${categoryLabel.toLowerCase()} inverter family. Download the datasheet and request exact-model pricing, availability and written warranty terms.`}
   canonical={`/our-products/${product.id}/`}
   ogImage={`/og/product-${product.id}.webp`}
 >
@@ -90,7 +101,10 @@ const breadcrumbSchema = {
           <div>
             <div class="aspect-square bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl flex items-center justify-center relative overflow-hidden">
               {product.image ? (
-                <img width="1920" height="1080" src={product.image} alt={product.name} class="w-full h-full object-cover" loading="eager" />
+                <img width={heroDimensions?.width} height={heroDimensions?.height} src={product.image}
+                  srcset={product.image === '/product-images/image.webp' ? '/product-images/image-640.webp 640w, /product-images/image.webp 1024w' : undefined}
+                  sizes={product.image === '/product-images/image.webp' ? '(min-width: 1024px) 50vw, 100vw' : undefined}
+                  alt={product.name} class="w-full h-full object-contain" loading="eager" fetchpriority="high" decoding="async" />
               ) : (
                 <div class="text-center relative z-10">
                   <div class="w-40 h-40 mx-auto rounded-3xl bg-white shadow-xl flex items-center justify-center">
@@ -151,7 +165,7 @@ const breadcrumbSchema = {
             </div>
 
             <div class="flex flex-wrap gap-3">
-              <a href="/contact-us/" class="btn-primary">Product Inquiry</a>
+              <a href={quoteUrl} class="btn-primary">Request Model Pricing</a>
               {product.datasheet && (
                 <a href={product.datasheet} target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-slate-200 px-8 py-4 text-sm font-semibold text-slate-700 hover:border-brand-300 hover:text-brand-600 transition-all">
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
@@ -205,6 +219,12 @@ const breadcrumbSchema = {
             <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
             <span>{WARRANTY_NOTE}</span>
           </p>
+          {datasheetNotes[product.id] && <p class="mt-4 rounded-xl bg-white p-4 text-sm text-slate-600">{datasheetNotes[product.id]}</p>}
+          <div class="mt-6 rounded-xl bg-white p-5 text-sm text-slate-600">
+            <h3 class="font-semibold text-slate-900">Before specifying this inverter</h3>
+            <p class="mt-2">Check the exact variant’s AC connection, MPPT voltage window, input and short-circuit current limits against the array design. Request current certificates, installation instructions, monitoring options and written warranty terms for the quoted model.</p>
+            <p class="mt-2">For procurement, include the model, quantity, project location, grid connection and required delivery date in your <a href={quoteUrl} class="text-brand-600 underline">inverter RFQ</a>.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -229,7 +249,7 @@ const breadcrumbSchema = {
               <h3 class="text-lg font-bold text-slate-900 mb-1 group-hover:text-white transition-colors">Datasheet</h3>
               <p class="text-sm text-slate-500 group-hover:text-brand-100 transition-colors">Full technical specifications</p>
             </a>
-            <a href="/contact-us/" class="group bg-slate-50 rounded-2xl p-8 text-center hover:bg-brand-500 transition-all duration-500">
+            <a href={documentUrl} class="group bg-slate-50 rounded-2xl p-8 text-center hover:bg-brand-500 transition-all duration-500">
               <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-white/20 group-hover:text-white transition-all">
                 <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
               </div>
@@ -258,7 +278,7 @@ const breadcrumbSchema = {
               <a href={`/our-products/${r.id}/`} class="group bg-white rounded-2xl border border-slate-200 p-6 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500">
                 <div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-slate-50 to-slate-100 mb-4 overflow-hidden flex items-center justify-center">
                   {r.image ? (
-                    <img width="1920" height="1080" src={r.image} alt={r.name} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <img width={productImageSizes[r.image]?.width} height={productImageSizes[r.image]?.height} src={r.image} alt={r.name} class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" decoding="async" />
                   ) : (
                     <div class="w-10 h-10 rounded-lg bg-slate-200 flex items-center justify-center">
                       <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -289,7 +309,7 @@ const breadcrumbSchema = {
         <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Ready to Order?</h2>
         <p class="text-lg text-slate-400 mb-10">Get in touch with our sales team for pricing, availability, and delivery information.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="/contact-us/" class="btn-primary">Contact Sales</a>
+          <a href={quoteUrl} class="btn-primary">Request an Inverter Quote</a>
           <a href="https://wa.me/919979192935" target="_blank" rel="noopener noreferrer" class="btn-outline">WhatsApp Inquiry</a>
         </div>
       </div>

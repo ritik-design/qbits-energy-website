@@ -249,8 +249,6 @@ Skipping anti-islanding witness test.
 
 Commissioning is the formal validation and handover of a completed solar plant. It includes electrical testing, grid synchronisation, DISCOM coordination, CEIG approval and documentation transfer. Indian residential commissioning takes 1 to 5 days; utility plants take 2 to 8 weeks. IEC 62446 is the standard reference. Quality of commissioning affects subsidy disbursement, PPA revenue, warranty enforcement and long-term performance benchmarking.
 
-## Need disciplined solar plant commissioning?
-
 ## Further reading
 
 For how Commissioning plays out in real projects, these guides go deeper:

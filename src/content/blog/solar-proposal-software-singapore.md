@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "11 min"
-image: "/blog-images/solar-proposal-software-singapore.svg"
+image: "/og/blog-solar-proposal-software-singapore.webp"
 author: "Akash Hirapara"
 keywords:
   - best solar proposal software singapore

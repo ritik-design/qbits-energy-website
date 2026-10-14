@@ -193,8 +193,6 @@ Floating solar leverages water cooling for lower operating temperature.
 
 NOCT (Nominal Operating Cell Temperature) is the cell temperature under standardised realistic outdoor conditions (800 W/m², 20°C ambient, 1 m/s wind). Modern modules: 42-45°C. Used to estimate actual operating cell temperature at any conditions. Mounting impact significant: close-mounted rooftop raises effective NOCT by 3-8°C. Combined with temperature coefficient, NOCT-based modelling provides realistic yield estimates for Indian hot climate.
 
-## Need NOCT-aware solar yield modelling?
-
 ## Further reading
 
 For how NOCT plays out in real projects, these guides go deeper:

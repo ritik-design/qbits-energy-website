@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "17 min"
-image: "/blog-images/solar-for-banquet-marriage-hall.svg"
+image: "/og/blog-solar-for-banquet-marriage-hall.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar for marriage hall

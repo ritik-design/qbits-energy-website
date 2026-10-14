@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-07-23
 updatedDate: 2026-09-23
 readTime: "7 min"
-image: "/blog-images/solar-subsidy-kerala-2026.svg"
+image: "/og/blog-solar-subsidy-kerala-2026.webp"
 author: "Akash Hirapara"
 keywords:
   - solar subsidy kerala

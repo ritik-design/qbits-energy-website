@@ -220,8 +220,6 @@ Not documenting actual installed azimuth.
 
 Azimuth angle is the compass direction a solar panel faces. Due south (180°) is optimum for India. Deviations of ±15° cost only 1 percent of yield, but ±45° or more begins to cost 8 to 20 percent. East-west splits with separate MPPTs are an effective compromise on parapet-constrained rooftops. Tracker plants vary azimuth throughout the day for maximum capture.
 
-## Need azimuth-optimised solar design?
-
 ## Further reading
 
 For how Azimuth plays out in real projects, these guides go deeper:

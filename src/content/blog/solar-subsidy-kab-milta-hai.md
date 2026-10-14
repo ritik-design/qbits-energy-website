@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "12 min"
-image: "/blog-images/solar-subsidy-kab-milta-hai.svg"
+image: "/og/blog-solar-subsidy-kab-milta-hai.webp"
 author: "Akash Hirapara"
 keywords:
   - solar ka subsidy kab milta hai
@@ -33,6 +33,7 @@ faqs:
   - q: "Net meter lagne mein itna time kyun lagta hai?"
     a: "Net meter DISCOM ke stock aur field team ki availability par depend karta hai, vendor par nahi। Kai divisions mein single-phase aur three-phase bidirectional meters ki supply monthly allotment par chalti hai, isliye 10 din bhi lag sakte hain aur 45 din bhi। Testing aur sealing ke liye alag team aati hai। Meter installation ke bina commissioning certificate issue nahi hota, aur uske bina subsidy claim aage nahi badhta।"
 featured: false
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।

@@ -5,7 +5,7 @@ description: "Complete 8-point pre-monsoon solar inspection checklist for Indian
 category: Maintenance
 date: 2026-06-05
 readTime: "15 min"
-image: "/blog-images/inverter-maintenance-india.svg"
+image: "/og/blog-pre-monsoon-solar-inspection-checklist.webp"
 author: "Keyur Rakholiya"
 keywords:
   - pre monsoon solar inspection india

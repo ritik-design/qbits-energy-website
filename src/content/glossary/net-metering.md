@@ -65,6 +65,7 @@ faqs:
   - q: "What documents are needed for net metering?"
     a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 author: "Nirav Dhanani"
+seoTitle: "Net Metering in India: Meaning, Billing and Approval Checks"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
@@ -274,8 +275,6 @@ Assuming uniform rules across states. The neighbouring state's regulation does n
 ## Key takeaways
 
 Net metering is the billing mechanism that makes Indian rooftop solar economics work. It credits customer-exported solar against grid consumption, usually at retail tariff. State rules vary, so the regulation must be read before designing the system. PM Surya Ghar subsidy depends on net metering being operational. Common pitfalls are size limits, meter installation delays and DISCOM billing errors.
-
-## Want to apply for net metering?
 
 ## Further reading
 

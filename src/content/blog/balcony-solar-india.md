@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "17 min"
-image: "/blog-images/balcony-solar-india.svg"
+image: "/og/blog-balcony-solar-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - balcony solar india

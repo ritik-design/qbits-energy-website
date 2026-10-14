@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-07-23
 updatedDate: 2026-09-24
 readTime: 13 min
-image: /blog-images/hybrid-inverter-price-india.svg
+image: "/og/blog-hybrid-inverter-price-india.webp"
 author: Nirav Dhanani
 keywords:
 - hybrid inverter price india

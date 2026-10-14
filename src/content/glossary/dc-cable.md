@@ -259,8 +259,6 @@ Inadequate cable gland sealing.
 
 DC cable is specialised PV-rated cable carrying solar DC from modules to inverter. IS 17048 and IEC 62930 set the standards: 1000 to 1500 V DC rating, double XLPO insulation, UV-resistant outer sheath, 25-year design life. Sizing for voltage drop target (1 to 2 percent) and current ampacity, with proper termination and routing, ensures safe and efficient DC connection across the 25-year project life.
 
-## Need quality solar DC cabling?
-
 ## Further reading
 
 For how DC Cable plays out in real projects, these guides go deeper:

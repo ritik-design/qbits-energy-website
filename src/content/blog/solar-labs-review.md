@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/solar-labs-review.svg"
+image: "/og/blog-solar-labs-review.webp"
 author: "Nirav Dhanani"
 keywords:
   - the solar labs review

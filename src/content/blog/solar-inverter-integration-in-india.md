@@ -5,7 +5,7 @@ description: "Solar inverter integration guide for India: 7-phase EPC framework 
 category: "Guide"
 date: 2026-05-11
 readTime: "12 min"
-image: "/blog-images/solar-inverter-integration-in-india.svg"
+image: "/og/blog-solar-inverter-integration-in-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter integration india

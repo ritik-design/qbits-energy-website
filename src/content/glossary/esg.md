@@ -254,8 +254,6 @@ Failure to align ESG with operational practice.
 
 ESG is the framework for corporate sustainability reporting. Indian BRSR is mandatory for top 1,000 listed companies. Solar is the most direct lever for Scope 2 emission reduction and renewable energy share. Quantifiable, auditable contribution to environmental targets. Combined with strong S and G performance, ESG-aligned companies access lower cost of capital, better investor relations and stronger talent attraction.
 
-## Need solar-backed ESG strategy?
-
 ## Further reading
 
 For how ESG plays out in real projects, these guides go deeper:

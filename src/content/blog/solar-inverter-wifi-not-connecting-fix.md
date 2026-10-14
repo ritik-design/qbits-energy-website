@@ -6,7 +6,7 @@ category: Maintenance
 date: 2026-06-05
 updatedDate: 2026-09-24
 readTime: 10 min
-image: /blog-images/solar-inverter-monitoring-systems-in-india.svg
+image: "/og/blog-solar-inverter-wifi-not-connecting-fix.webp"
 author: Keyur Rakholiya
 keywords:
 - solar inverter wifi not connecting

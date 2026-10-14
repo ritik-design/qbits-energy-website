@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-09-23
 readTime: 9 min
-image: /blog-images/solar-inverter-sizing.svg
+image: "/og/blog-5kw-solar-system-price-india.webp"
 author: Akash Hirapara
 keywords:
 - 5kw solar system price

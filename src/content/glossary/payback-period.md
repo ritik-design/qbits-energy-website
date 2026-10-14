@@ -270,8 +270,6 @@ Not accounting for subsidy disbursement delays.
 
 Payback period is the time required to recover solar investment from savings. Indian residential PM Surya Ghar systems pay back in 2.5 to 5 years. C&I rooftop 3 to 6 years. Utility solar 6 to 10 years. After payback, the remaining 20+ years of generation yield effectively free electricity. Realistic yield assumptions, all opex line items and accurate subsidy accounting determine credible payback projections.
 
-## Need realistic payback projections?
-
 ## Further reading
 
 For how Payback Period plays out in real projects, these guides go deeper:

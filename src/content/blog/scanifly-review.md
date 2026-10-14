@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/scanifly-review.svg"
+image: "/og/blog-scanifly-review.webp"
 author: "Keyur Rakholiya"
 keywords:
   - scanifly review

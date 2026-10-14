@@ -64,6 +64,7 @@ faqs:
   - q: "Does CERC regulate green hydrogen?"
     a: "Increasingly, as green hydrogen pricing models intersect with electricity tariffs. CERC has issued draft frameworks for green tariff and green attributes trading."
 author: "Nirav Dhanani"
+seoTitle: "CERC: Role in Indian Electricity and Solar Regulation"
 ---
 
 ## What is CERC
@@ -173,8 +174,6 @@ Green Term-Ahead Market (GTAM) and Green Day-Ahead Market (GDAM) on power exchan
 ## Key takeaways
 
 CERC is the central electricity regulator setting tariffs for central generation and transmission, regulating the REC market, and adjudicating inter-state electricity disputes. State rooftop solar tariffs and net metering rules are set by SERCs, not CERC. The Tariff Regulations, REC framework and Late Payment Surcharge Rules are the most relevant CERC outputs for the solar sector.
-
-## Need help navigating central electricity regulation?
 
 ## Further reading
 

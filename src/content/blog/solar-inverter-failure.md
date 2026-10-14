@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-03-26
 updatedDate: 2026-07-08
 readTime: "10 min"
-image: "/blog-images/solar-inverter-failure.svg"
+image: "/og/blog-solar-inverter-failure.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter failure

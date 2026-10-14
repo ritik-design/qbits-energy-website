@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/pvsyst-review.svg"
+image: "/og/blog-pvsyst-review.webp"
 author: "Keyur Rakholiya"
 keywords:
   - pvsyst review

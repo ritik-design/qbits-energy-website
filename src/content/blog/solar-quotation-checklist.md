@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-03-22
 updatedDate: 2026-09-23
 readTime: "9 min"
-image: "/blog-images/solar-inverter-selection.svg"
+image: "/og/blog-solar-quotation-checklist.webp"
 author: "Akash Hirapara"
 keywords:
   - solar quotation checklist

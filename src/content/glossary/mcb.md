@@ -234,8 +234,6 @@ Using AC MCB on DC circuits.
 
 MCB is the standard overcurrent and short-circuit protection device for residential and small commercial AC circuits. Type and current rating must match the load profile. Solar AC interconnection uses MCB or RCBO at the inverter output. Indian MCB compliance requires IS 60898 certification. Annual inspection and proper sizing prevent nuisance tripping and failures.
 
-## Need MCB-protected solar AC distribution?
-
 ## Further reading
 
 For how MCB plays out in real projects, these guides go deeper:

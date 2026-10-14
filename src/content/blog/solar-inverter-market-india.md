@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "22 min"
-image: "/blog-images/solar-inverter-manufacturers-in-india.svg"
+image: "/og/blog-solar-inverter-market-india.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar inverter market india

@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/solar-software-saudi-arabia.svg"
+image: "/og/blog-solar-software-saudi-arabia.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar software saudi arabia

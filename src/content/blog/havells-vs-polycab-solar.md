@@ -6,7 +6,7 @@ category: Comparison
 date: 2026-07-23
 updatedDate: 2026-09-24
 readTime: 14 min
-image: /blog-images/havells-vs-polycab-solar.svg
+image: "/og/blog-havells-vs-polycab-solar.webp"
 author: Nirav Dhanani
 keywords:
 - havells vs polycab

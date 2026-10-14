@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/solar-inverter-sizing.svg"
+image: "/og/blog-off-grid-battery-bank-sizing-india.webp"
 author: "Akash Hirapara"
 keywords:
   - off grid battery sizing india

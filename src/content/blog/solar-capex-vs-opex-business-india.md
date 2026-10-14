@@ -6,7 +6,7 @@ category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "16 min"
-image: "/blog-images/solar-inverter-depreciation-tax-benefits-guide.svg"
+image: "/og/blog-solar-capex-vs-opex-business-india.webp"
 author: "Akash Hirapara"
 keywords:
   - solar capex opex model india

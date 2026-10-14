@@ -261,8 +261,6 @@ Over-reliance on RECs alone for green claims.
 
 RECs are tradable certificates representing 1 MWh of renewable generation. Indian RECs are issued by NLDC under CERC framework and traded on IEX and PXIL. Solar REC prices have stabilised around ₹1,000 to ₹1,500/MWh. RECs enable RPO compliance, generator monetisation and corporate green claims. They complement but do not replace physical renewable generation in best-practice ESG strategy.
 
-## Need help with REC strategy for your business?
-
 ## Further reading
 
 For how Renewable Energy Certificate plays out in real projects, these guides go deeper:

@@ -285,8 +285,6 @@ Treating HJT as a marketing label without verifying actual cell architecture.
 
 HJT is the premium silicon cell technology with the highest efficiency, best temperature performance, highest bifaciality and lowest degradation among mainstream commercial cells. The 15 to 25 percent cost premium over PERC, 10 to 15 percent over TOPCon, makes it a niche choice for premium rooftop, high-irradiance utility and weight-sensitive applications. The Indian HJT supply base is at early commercial stage.
 
-## Need HJT premium solar modules?
-
 ## Further reading
 
 For how HJT Cell plays out in real projects, these guides go deeper:

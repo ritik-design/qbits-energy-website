@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "8 min"
-image: "/blog-images/solar-carport-design-software.svg"
+image: "/og/blog-solar-carport-design-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar carport design software

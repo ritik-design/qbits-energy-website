@@ -264,8 +264,6 @@ Missing earthing bond on every metallic element.
 
 Mounting structures hold solar modules at design tilt and orientation, transferring loads to the supporting building or ground. Indian mounting uses hot-dip GI with zinc coating sized for local environment. Wind load design per IS 875, structural compliance per IS 800, and earthing continuity are the key design criteria. Trackers add yield but increase capex and O&M. Mounting accounts for 8 to 15 percent of total solar capex.
 
-## Need engineered mounting for your solar project?
-
 ## Further reading
 
 For how Mounting Structure plays out in real projects, these guides go deeper:

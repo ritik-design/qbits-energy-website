@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "11 min"
-image: "/blog-images/solar-shading-analysis-software.svg"
+image: "/og/blog-solar-shading-analysis-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar shading analysis software

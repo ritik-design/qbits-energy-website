@@ -227,8 +227,6 @@ Off-grid solar under PM-KUSUM and rural electrification programmes use PSH-based
 
 PSH is a simplified single-number measure of daily solar resource, equal to daily GHI divided by 1 kW/m². Indian PSH ranges from 4.0 to 6.5 hours/day. PSH provides intuitive sizing for residential and off-grid systems through the relationship: daily yield = capacity × PSH × PR. Multi-year averages and realistic PR assumptions are essential for accurate use.
 
-## Need PSH-based solar sizing?
-
 ## Further reading
 
 For how Peak Sun Hours plays out in real projects, these guides go deeper:

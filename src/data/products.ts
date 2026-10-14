@@ -209,7 +209,7 @@ export const products: Product[] = [
     warranty: 'Request current written terms',
     features: ['3 MPPTs', '300 V starting voltage', '98.7–98.9% maximum efficiency by model', 'IP66 enclosure'],
     certifications: ['Standards listed in datasheet', 'Verify current certificates'],
-    image: '/product-images/image.png',
+    image: '/product-images/image.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_50.0-60.0-kw_3Phs.pdf',
   },
   {
@@ -362,7 +362,12 @@ export function getProductsByCategory(category: 'on-grid' | 'hybrid'): Product[]
 }
 
 export function getRelatedProducts(product: Product, limit = 3): Product[] {
+  // The EHV family uses an 800 Vac connection. Other three-phase families
+  // are not equivalent alternatives merely because their phase matches.
+  const isEhv = product.id === 'QB-225-320K-EHV';
   return products
-    .filter(p => p.category === product.category && p.id !== product.id)
+    .filter(p => p.category === product.category && p.phase === product.phase &&
+      p.id !== product.id && (p.id === 'QB-225-320K-EHV') === isEhv)
+    .sort((a, b) => Math.abs(a.powerMax - product.powerMax) - Math.abs(b.powerMax - product.powerMax))
     .slice(0, limit);
 }

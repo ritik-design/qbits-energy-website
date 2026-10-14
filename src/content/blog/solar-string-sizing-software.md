@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "10 min"
-image: "/blog-images/solar-string-sizing-software.svg"
+image: "/og/blog-solar-string-sizing-software.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar string sizing software

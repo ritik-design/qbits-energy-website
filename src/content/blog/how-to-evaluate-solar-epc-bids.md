@@ -6,7 +6,7 @@ category: "EPC"
 date: 2026-03-22
 updatedDate: 2026-09-23
 readTime: "10 min"
-image: "/blog-images/solar-inverter-selection.svg"
+image: "/og/blog-how-to-evaluate-solar-epc-bids.webp"
 author: "Keyur Rakholiya"
 keywords:
   - how to evaluate solar EPC bids

@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "19 min"
-image: "/blog-images/open-access-solar-india-explained.svg"
+image: "/og/blog-open-access-solar-india-explained.webp"
 author: "Akash Hirapara"
 keywords:
   - open access solar india

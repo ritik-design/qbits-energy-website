@@ -1,4 +1,5 @@
 ---
+import { productImageSizes } from '../../data/product-images';
 import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
@@ -82,7 +83,7 @@ const hybridSchema = {
     <section class="py-10 bg-white" aria-labelledby="hybrid-select-heading"><div class="container-main max-w-5xl">
       <h2 id="hybrid-select-heading" class="text-2xl font-bold text-slate-900">Choose the exact hybrid model and battery</h2>
       <p class="mt-3 text-slate-600">The QBH single-phase catalogue covers 3 to 6 kW variants. Its 3 kW model has one MPPT; the larger variants have two. For the QBH-5KS48P, check the published 150–450 V tracking range, 500 V maximum PV input and 120 A maximum battery current. The battery model, BMS communication and backup circuits also need project-specific approval.</p>
-      <p class="mt-3 text-slate-600"><a class="text-brand-600 underline" href="/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf">Read the QBH datasheet</a>, then compare the <a class="text-brand-600 underline" href="/blog/5kw-hybrid-inverter-price-india/">5 kW price and quote scope</a> or use the <a class="text-brand-600 underline" href="/blog/battery-sizing-hybrid-solar/">battery load worksheet</a>. <a class="text-brand-600 underline" href="/contact-us/">Send the intended battery and load list</a> for a model-specific enquiry.</p>
+      <p class="mt-3 text-slate-600"><a class="text-brand-600 underline" href="/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf">Read the QBH datasheet</a>, then compare the <a class="text-brand-600 underline" href="/blog/5kw-hybrid-inverter-price-india/">5 kW price and quote scope</a> or use the <a class="text-brand-600 underline" href="/blog/battery-sizing-hybrid-solar/">battery load worksheet</a>. <a class="text-brand-600 underline" href="/contact-us/?subject=Product+Inquiry&from=%2Fhybrid-inverter%2F#lead-form">Send the intended battery and load list</a> for a model-specific enquiry.</p>
     </div></section>
     <section class="section-padding bg-white" aria-labelledby="features-heading">
       <div class="container-main">
@@ -135,7 +136,7 @@ const hybridSchema = {
                 <!-- Product Image -->
                 <div class="relative bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center min-h-[280px]">
                   {product.image ? (
-                    <img width="720" height="480" src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <img width={productImageSizes[product.image]?.width} height={productImageSizes[product.image]?.height} src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                   ) : (
                     <div class="w-20 h-20 rounded-xl bg-slate-200 border border-slate-300 flex items-center justify-center">
                       <svg class="w-10 h-10 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -211,7 +212,7 @@ const hybridSchema = {
                 <!-- Product Image -->
                 <div class="relative bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center min-h-[280px]">
                   {product.image ? (
-                    <img width="720" height="480" src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <img width={productImageSizes[product.image]?.width} height={productImageSizes[product.image]?.height} src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                   ) : (
                     <div class="w-20 h-20 rounded-xl bg-slate-200 border border-slate-300 flex items-center justify-center">
                       <svg class="w-10 h-10 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -273,7 +274,7 @@ const hybridSchema = {
         <p class="text-lg text-brand-100 mb-10">Review the <a href="/blog/how-to-choose-hybrid-solar-inverter/" class="text-white underline underline-offset-2 hover:text-brand-50">hybrid selection guide</a>, then request current model documents and confirm any design or advisory scope.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="/download-datasheets/" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-brand-600 shadow-lg hover:bg-brand-50 transition-all">Download Datasheets</a>
-          <a href="/contact-us/" class="btn-outline">Request a Quote</a>
+          <a href="/contact-us/?subject=Product+Inquiry&from=%2Fhybrid-inverter%2F#lead-form" class="btn-outline">Request a Quote</a>
         </div>
       </div>
     </section>

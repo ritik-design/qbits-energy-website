@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "18 min"
-image: "/blog-images/indian-vs-international-solar-inverters.svg"
+image: "/og/blog-made-in-india-solar-inverters-2026.webp"
 author: "Nirav Dhanani"
 keywords:
   - made in india solar inverter

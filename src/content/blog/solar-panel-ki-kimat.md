@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "13 min"
-image: "/blog-images/solar-panel-ki-kimat.svg"
+image: "/og/blog-solar-panel-ki-kimat.webp"
 author: "Akash Hirapara"
 keywords:
   - solar panel ki kimat
@@ -32,6 +32,7 @@ faqs:
   - q: "Solar panel ki kimat aage aur girengi kya?"
     a: "Long term trend नीचे की तरफ है क्योंकि भारत में cell और module manufacturing capacity तेजी से बढ़ रही है। लेकिन short term में kimat दोनों दिशाओं में हिलती है, क्योंकि polysilicon rate, DCR cell की उपलब्धता, freight और duty structure सब असर डालते हैं। खरीदारी को सिर्फ price गिरने के इंतजार में टालना आमतौर पर घाटे का सौदा है, क्योंकि हर टली हुई तिमाही में आप bijli bill की बचत खोते रहते हैं।"
 featured: false
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।

@@ -6,7 +6,7 @@ category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "16 min"
-image: "/blog-images/solar-inverter-commissioning-in-india.svg"
+image: "/og/blog-solar-year-1-ownership-guide-india.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar year 1 guide india

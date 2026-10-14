@@ -255,8 +255,6 @@ Skipping documentation.
 
 Earthing is foundational electrical safety. It enables every downstream protection device (RCCB, SPD, MCB) to function correctly. Indian solar installations follow IS 3043 with target resistance below 5 ohms. Chemical earthing provides long-life low-resistance solution. Annual testing and documentation are mandatory. Without earthing, no protection works.
 
-## Need IS 3043-compliant solar earthing?
-
 ## Further reading
 
 For how Earthing plays out in real projects, these guides go deeper:

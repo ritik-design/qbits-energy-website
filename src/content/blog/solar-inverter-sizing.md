@@ -6,7 +6,7 @@ category: Guide
 date: 2026-03-20
 updatedDate: 2026-09-23
 readTime: 9 min
-image: /blog-images/solar-inverter-sizing.svg
+image: "/og/blog-solar-inverter-sizing.webp"
 author: Nirav Dhanani
 keywords:
 - solar inverter sizing

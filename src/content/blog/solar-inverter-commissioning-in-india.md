@@ -6,7 +6,7 @@ category: "Installation Guide"
 date: 2026-03-16
 updatedDate: 2026-09-23
 readTime: "11 min"
-image: "/blog-images/solar-inverter-installation.svg"
+image: "/og/blog-solar-inverter-commissioning-in-india.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar inverter commissioning checklist

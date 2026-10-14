@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-09-23
 updatedDate: 2026-09-23
 readTime: "8 min"
-image: "/blog-images/solar-inverter-selection.svg"
+image: "/og/blog-solar-inverter-vs-normal-inverter.webp"
 author: "Keyur Rakholiya"
 keywords:
   - difference between solar inverter and normal inverter

@@ -207,8 +207,6 @@ Future BCD reviews likely as domestic capacity stabilises.
 | MNRE ALMM | Domestic listings |
 | PLI scheme guidelines | Manufacturing incentives |
 
-## Need import-aware solar sourcing strategy?
-
 ## Further reading
 
 For how Customs Duty plays out in real projects, these guides go deeper:

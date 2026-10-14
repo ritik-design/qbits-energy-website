@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "11 min"
-image: "/blog-images/scanifly-alternative.svg"
+image: "/og/blog-scanifly-alternative.webp"
 author: "Nirav Dhanani"
 keywords:
   - scanifly alternative

@@ -6,7 +6,7 @@ category: Guide
 date: 2026-07-23
 updatedDate: 2026-09-24
 readTime: 12 min
-image: /blog-images/solar-insurance-india.svg
+image: "/og/blog-solar-insurance-india.webp"
 author: Akash Hirapara
 keywords:
 - solar insurance india

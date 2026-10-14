@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "11 min"
-image: "/blog-images/opensolar-alternative.svg"
+image: "/og/blog-opensolar-alternative.webp"
 author: "Nirav Dhanani"
 keywords:
   - opensolar alternative

@@ -203,8 +203,6 @@ Solar IPP investment grade ratings improve with declining sector risk premium.
 
 Discount rate is the rate converting future cash flows to present value, embedding opportunity cost of capital and project risk. Typically equals WACC for project finance. Indian solar discount rates: 8-12 percent depending on type. Each 200 bps change moves LCOE by ~₹0.30/kWh. Critical for NPV, IRR, LCOE and PPA tariff decisions.
 
-## Need discount rate analysis for your solar project?
-
 ## Further reading
 
 For how Discount Rate plays out in real projects, these guides go deeper:

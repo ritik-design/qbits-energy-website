@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/solar-design-software-malaysia.svg"
+image: "/og/blog-solar-design-software-malaysia.webp"
 author: "Keyur Rakholiya"
 keywords:
   - best solar design software malaysia

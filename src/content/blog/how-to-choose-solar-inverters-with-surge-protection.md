@@ -5,7 +5,7 @@ description: "How to specify surge-protected solar inverters in India: DC/AC SPD
 category: "Buying Guide"
 date: 2026-04-08
 readTime: "12 min"
-image: "/blog-images/how-to-choose-solar-inverters-with-surge-protection.svg"
+image: "/og/blog-how-to-choose-solar-inverters-with-surge-protection.webp"
 author: "Keyur Rakholiya"
 updatedDate: 2026-07-08
 keywords:

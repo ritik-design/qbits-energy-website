@@ -266,8 +266,6 @@ Using energy cells where power cells are needed.
 
 C-rate is the standardised metric for charge and discharge current relative to battery capacity. Stationary solar storage operates at 0.2 to 0.5C continuous. EVs cycle at 0.5C and fast charge at 1 to 3C. Higher C-rate trades cycle life and efficiency for power capability. Energy cells dominate stationary storage; power cells dominate UPS and grid services.
 
-## Need C-rate-aware battery sizing?
-
 ## Further reading
 
 For how C-Rate plays out in real projects, these guides go deeper:

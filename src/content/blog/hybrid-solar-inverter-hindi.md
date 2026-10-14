@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-08-02
 updatedDate: 2026-09-24
 readTime: "14 min"
-image: "/blog-images/hybrid-solar-inverter-hindi.svg"
+image: "/og/blog-hybrid-solar-inverter-hindi.webp"
 author: "Keyur Rakholiya"
 keywords:
   - hybrid solar inverter hindi
@@ -37,6 +37,7 @@ faqs:
   - q: "Kya hybrid inverter bina battery ke chal sakta hai?"
     a: "Yeh model-specific hai. Kuch hybrid inverters battery ke bina grid-connected solar mode support karte hain, kuch ko commissioning ya stable operation ke liye supported battery chahiye. Battery-less mode available ho tab bhi power cut backup automatically nahi milta, kyunki backup ke liye stored energy zaroori hai. Seller se battery-less allowed operating modes aur baad mein add ki ja sakne wali approved batteries ki list written mein lein."
 featured: false
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

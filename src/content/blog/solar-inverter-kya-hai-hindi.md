@@ -6,7 +6,7 @@ category: "Educational"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "14 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-solar-inverter-kya-hai-hindi.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter kya hai
@@ -31,6 +31,7 @@ faqs:
     a: "3 kW on-grid inverter ki cost Rs 15,000 se Rs 35,000 tak hoti hai brand aur quality ke hisaab se. Hybrid inverter 3 kW ke liye Rs 25,000 se Rs 55,000. Battery cost alag hoti hai. Full solar system (panels + inverter + installation) 3 kW ke liye Rs 1.5 lakh se Rs 2.2 lakh tak."
   - q: "Single MPPT aur Dual MPPT inverter mein kya fark hai?"
     a: "MPPT (Maximum Power Point Tracker) panels se maximum power nikalta hai. Single MPPT inverter mein ek string hoti hai - sabhi panels ek direction mein hone chahiye. Dual MPPT mein do independent strings hain - do alag alag rooftop directions par panels laga sakte hain. Mixed shading ya complex rooftop ke liye dual MPPT behtar hai."
+language: hi
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।

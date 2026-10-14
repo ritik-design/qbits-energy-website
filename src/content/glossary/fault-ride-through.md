@@ -65,6 +65,7 @@ faqs:
   - q: "What standards govern FRT in India?"
     a: "CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019, IS 17387 and IEC 61400-27."
 author: "Keyur Rakholiya"
+seoTitle: "Fault Ride Through: Meaning and Solar Inverter Behaviour"
 ---
 
 ## What is fault ride through
@@ -261,8 +262,6 @@ Not budgeting for the FRT test infrastructure during commissioning.
 ## Key takeaways
 
 Fault Ride Through is the grid-code requirement that solar inverters above 10 kW stay connected through brief grid disturbances and inject reactive support. CEA Grid Code 2019 defines the Indian LVRT and HVRT profiles. Compliance is mandatory for SECI and utility PPAs, with penalties for non-compliant trips. Modern inverters from major brands are FRT-capable, but firmware settings and plant-level testing decide actual compliance.
-
-## Need FRT-compliant inverter selection?
 
 ## Further reading
 

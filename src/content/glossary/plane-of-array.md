@@ -206,8 +206,6 @@ NIWE and Solargis provide tilt-specific POA estimates; for the state-wise GHI an
 
 POA (Plane of Array) irradiance is the solar radiation hitting the actual tilted PV surface, calculated from GHI, DNI, DHI and ground-reflected components. POA is 8-12 percent higher than GHI for Indian latitude tilt. POA-based PR provides accurate plant quality assessment. Bifacial modules require additional rear-side POA calculation. Standard for PV yield modelling in PVsyst, SAM and bankable yield reports.
 
-## Need POA-based yield modelling?
-
 ## Further reading
 
 For how Plane of Array plays out in real projects, these guides go deeper:

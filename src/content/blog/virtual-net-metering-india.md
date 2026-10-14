@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "16 min"
-image: "/blog-images/virtual-net-metering-india.svg"
+image: "/og/blog-virtual-net-metering-india.webp"
 author: "Akash Hirapara"
 keywords:
   - virtual net metering india

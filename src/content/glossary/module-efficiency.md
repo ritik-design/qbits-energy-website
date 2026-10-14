@@ -264,8 +264,6 @@ Not auditing real-world yield against design.
 
 Module efficiency is the percentage of sunlight converted to electricity at STC. Modern crystalline silicon modules deliver 20 to 24 percent. Cell technology (PERC, TOPCon, HJT) sets the upper bound. Module construction loses 1 to 2 percentage points to geometry, glass and interconnection. For space-constrained installations, higher efficiency justifies a cost premium. For land-rich utility, cost per watt matters more.
 
-## Need help choosing the right module efficiency?
-
 ## Further reading
 
 For how Module Efficiency plays out in real projects, these guides go deeper:

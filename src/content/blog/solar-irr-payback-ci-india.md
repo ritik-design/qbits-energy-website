@@ -6,7 +6,7 @@ category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/solar-inverter-depreciation-tax-benefits-guide.svg"
+image: "/og/blog-solar-irr-payback-ci-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar irr calculation india

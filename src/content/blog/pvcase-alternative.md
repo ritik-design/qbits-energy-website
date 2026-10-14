@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "10 min"
-image: "/blog-images/pvcase-alternative.svg"
+image: "/og/blog-pvcase-alternative.webp"
 author: "Nirav Dhanani"
 keywords:
   - pvcase alternative

@@ -278,8 +278,6 @@ Ignoring soiling losses in yield projections.
 
 Solar yield is the practical annual energy generated per kilowatt of installed solar. Indian utility plants achieve 1,500 to 1,900 kWh/kWp depending on location and technology. Residential rooftop typically lands 100 to 300 kWh/kWp lower. P50 yield for planning, P90 for lender models. Site-specific irradiance data, realistic loss assumptions and degradation modelling determine accurate projections.
 
-## Need bankable solar yield projections?
-
 ## Further reading
 
 For how Solar Yield plays out in real projects, these guides go deeper:

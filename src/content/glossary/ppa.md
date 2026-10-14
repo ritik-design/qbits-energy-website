@@ -276,8 +276,6 @@ Treating PPA as static document, missing scope for amendments.
 
 A PPA is the contractual foundation for any utility-scale Indian solar project. Standardised structures from SECI cover most utility deployment. Open access PPAs are growing for C&I customers. Rooftop RESCO PPAs serve C&I rooftop. Tariff certainty, payment security, curtailment treatment and change-in-law mechanism are the key contractual elements. Indian solar PPA tariffs have fallen from above ₹17 in 2010 to below ₹3 in 2024.
 
-## Need PPA structuring or negotiation support?
-
 ## Further reading
 
 For how Power Purchase Agreement plays out in real projects, these guides go deeper:

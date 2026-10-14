@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-05-06
 updatedDate: 2026-07-08
 readTime: "11 min"
-image: "/blog-images/inverter-mppt.svg"
+image: "/og/blog-inverter-mppt.webp"
 author: "Keyur Rakholiya"
 keywords:
   - inverter MPPT

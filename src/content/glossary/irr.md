@@ -263,8 +263,6 @@ Not stress-testing under DISCOM payment delay.
 
 IRR is the annual return metric for solar projects, calculated as the discount rate that zeros project NPV. Indian utility solar IRR sits at 11 to 14 percent project, 14 to 18 percent equity. C&I rooftop 14 to 22 percent. Residential with PM Surya Ghar 20 to 30 percent. IRR is sensitive to capex, yield, tariff and degradation assumptions. Should be compared against WACC and hurdle rate.
 
-## Need bankable IRR modelling for your solar project?
-
 ## Further reading
 
 For how IRR plays out in real projects, these guides go deeper:

@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-05-11
 updatedDate: 2026-07-08
 readTime: "12 min"
-image: "/blog-images/inverter-voltage-string-vs-mppt-in-solar-inverters.svg"
+image: "/og/blog-inverter-voltage-string-vs-mppt-in-solar-inverters.webp"
 author: "Keyur Rakholiya"
 keywords:
   - string voltage solar india

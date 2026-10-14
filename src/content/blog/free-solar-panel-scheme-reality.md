@@ -6,7 +6,7 @@ category: Policy
 date: 2026-07-23
 updatedDate: 2026-09-23
 readTime: 10 min
-image: /blog-images/free-solar-panel-scheme-reality.svg
+image: "/og/blog-free-solar-panel-scheme-reality.webp"
 author: Akash Hirapara
 keywords:
 - free solar panel scheme

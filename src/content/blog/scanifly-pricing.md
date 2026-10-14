@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "9 min"
-image: "/blog-images/scanifly-pricing.svg"
+image: "/og/blog-scanifly-pricing.webp"
 author: "Nirav Dhanani"
 keywords:
   - scanifly pricing

@@ -202,8 +202,6 @@ PM-KUSUM solar pumps use deep-discharge tolerant lead acid or LFP.
 
 Deep discharge below recommended DOD severely reduces battery cycle life and may damage cells. LFP tolerates up to 80-90 percent DOD; lead acid limited to 50 percent. Modern lithium BMS prevents damaging deep discharge through low-voltage cutoff. System sizing for usable energy at safe DOD extends battery service. Indian solar storage benefits from disciplined DOD operation through EMS configuration and customer education.
 
-## Need DOD-optimised battery sizing?
-
 ## Further reading
 
 For how Deep Discharge plays out in real projects, these guides go deeper:

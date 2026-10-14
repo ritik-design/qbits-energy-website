@@ -252,8 +252,6 @@ Trusting installer recommendation without verification.
 
 String sizing is the design step that matches modules to inverter MPPT window across temperatures. Maximum string Voc at coldest temperature must stay below inverter max DC input. Minimum string Vmp at hottest temperature must stay above MPPT lower limit. Site-specific temperature assumptions, cell-technology coefficients and inverter datasheet limits determine acceptable string lengths. Wrong string sizing destroys inverters or wastes yield.
 
-## Need professional string sizing for your solar project?
-
 ## Further reading
 
 For how String Sizing plays out in real projects, these guides go deeper:

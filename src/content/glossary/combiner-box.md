@@ -234,8 +234,6 @@ Smart combiner not integrated with SCADA.
 
 Combiner boxes parallel multiple PV strings on the DC side with per-string fuse protection, common busbar, SPD and DC isolator. Standard in central inverter and large C&I plants. Per-string fuses size at 1.5 × Isc. IP65 or better enclosure with proper cable glands and earthing ensures 25-year service. Smart combiners enable string-level monitoring through SCADA.
 
-## Need combiner box solutions for your solar plant?
-
 ## Further reading
 
 For how Combiner Box plays out in real projects, these guides go deeper:

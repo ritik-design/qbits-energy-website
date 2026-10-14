@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "17 min"
-image: "/blog-images/solar-loan-for-business-msme.svg"
+image: "/og/blog-solar-loan-for-business-msme.webp"
 author: "Akash Hirapara"
 keywords:
   - solar loan for business

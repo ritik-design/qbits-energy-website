@@ -6,7 +6,7 @@ category: Maintenance
 date: 2026-06-05
 updatedDate: 2026-09-23
 readTime: 10 min
-image: /blog-images/solar-inverter-troubleshooting.svg
+image: "/og/blog-solar-inverter-error-codes-guide.webp"
 author: Keyur Rakholiya
 keywords:
 - solar inverter error codes

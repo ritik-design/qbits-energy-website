@@ -245,8 +245,6 @@ Operating isolator under fault condition (welding contacts).
 
 Isolators are manual safety disconnects required on both DC and AC sides of solar PV installations. Indian compliance requires IEC 60947-3 or IS 13947 certified devices, with appropriate voltage and current ratings, IP65 enclosure for outdoor use, and lockout provision for LOTO. Quality branded isolators last 10,000+ operations; unbranded units fail early. CEIG and DISCOM commissioning verify isolator presence at required locations.
 
-## Need safety-compliant isolators for your solar?
-
 ## Further reading
 
 For how Isolator plays out in real projects, these guides go deeper:

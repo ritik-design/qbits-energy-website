@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "13 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-kusum-yojana-hindi-guide.webp"
 author: "Nirav Dhanani"
 keywords:
   - kusum yojana kya hai hindi
@@ -31,6 +31,7 @@ faqs:
     a: "Component A में किसान अपनी barren या marginal land को solar plant के लिए lease पर दे सकता है। Developer वहाँ 0.5-2 MW solar plant लगाता है, DISCOM को electricity बेचता है, और किसान को annual lease rent मिलती है - ₹20,000 से ₹60,000 per acre per year। Land पर कुछ नहीं करना - income passive है।"
   - q: "Solar pump install होने में कितना समय लगता है?"
     a: "KUSUM Component B solar pump installation की total timeline 3 से 12 महीने है - state और application process के हिसाब से। Rajasthan और Gujarat में faster processing है; Bihar और Odisha में ज्यादा time लगता है। Central portal नहीं है, इसलिए state-wise variability ज्यादा है।"
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।

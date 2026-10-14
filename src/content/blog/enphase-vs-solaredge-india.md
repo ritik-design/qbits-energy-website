@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-07-23
 updatedDate: 2026-08-02
 readTime: "18 min"
-image: "/blog-images/enphase-vs-solaredge-india.svg"
+image: "/og/blog-enphase-vs-solaredge-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - enphase vs solaredge

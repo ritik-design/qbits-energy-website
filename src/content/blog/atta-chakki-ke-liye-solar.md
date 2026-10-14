@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "12 min"
-image: "/blog-images/atta-chakki-ke-liye-solar.svg"
+image: "/og/blog-atta-chakki-ke-liye-solar.webp"
 author: "Nirav Dhanani"
 keywords:
   - atta chakki ke liye solar
@@ -32,6 +32,7 @@ faqs:
   - q: "Atta chakki solar system ka payback kitne saal me hota hai?"
     a: "Commercial tariff ₹8 से ₹10 प्रति unit वाले इलाकों में, अच्छी self-consumption के साथ, 3.5 से 5 साल का payback सामान्य है। अगर आप diesel genset हटाते हैं तो यह 2.5 से 3.5 साल तक आ सकता है। Accelerated depreciation का फायदा लेने वाली registered firms का effective payback और छोटा हो जाता है। Panels की life 25 साल की होती है, इसलिए payback के बाद के साल लगभग pure बचत हैं।"
 featured: false
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।

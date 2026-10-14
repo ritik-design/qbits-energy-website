@@ -248,8 +248,6 @@ Failure to plan for trajectory increases.
 
 RPO is the mandate requiring Indian electricity obligated entities to source minimum percentage of total purchase from renewables. National trajectory rising from 24.61 percent in FY 2022-23 to 43.33 percent by FY 2029-30. Compliance through PPAs, RECs and on-site generation. DISCOM RPO drives much of Indian solar capacity addition. Enforcement has strengthened since 2022 under Ministry of Power oversight.
 
-## Need RPO compliance strategy?
-
 ## Further reading
 
 For how RPO plays out in real projects, these guides go deeper:

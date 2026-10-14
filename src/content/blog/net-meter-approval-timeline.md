@@ -6,7 +6,7 @@ category: Guide
 date: 2026-07-23
 updatedDate: 2026-09-24
 readTime: 11 min
-image: /blog-images/net-meter-approval-timeline.svg
+image: "/og/blog-net-meter-approval-timeline.webp"
 author: Akash Hirapara
 keywords:
 - solar net meter approval time

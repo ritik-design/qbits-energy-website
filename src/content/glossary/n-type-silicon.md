@@ -189,8 +189,6 @@ PM Surya Ghar accepts n-type modules.
 
 N-type silicon is phosphorus-doped silicon serving as the base material for high-efficiency TOPCon, HJT and IBC solar cells. Higher minority carrier lifetime, no boron-oxygen LID and better temperature performance make n-type the foundation for next-generation PV. Indian solar is transitioning from p-type PERC to n-type TOPCon and HJT for new manufacturing capacity. Cost premium is narrowing as scale increases.
 
-## Need n-type modules for your project?
-
 ## Further reading
 
 For how N-Type Silicon plays out in real projects, these guides go deeper:

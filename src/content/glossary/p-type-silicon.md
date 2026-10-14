@@ -189,8 +189,6 @@ ALMM List I still includes p-type PERC modules; see [ALMM List Phase III, Comple
 
 P-type silicon is boron-doped silicon traditionally used as the base for PERC solar cells. Dominant from 2017-2024, p-type is being replaced by n-type TOPCon for new manufacturing. Susceptibility to LID is the main technical limitation. P-type will persist in legacy and cost-sensitive segments for several years. Gallium-doped p-type addresses LID for those who prefer p-type's cost advantage.
 
-## Need PERC or TOPCon modules?
-
 ## Further reading
 
 For how P-Type Silicon plays out in real projects, these guides go deeper:

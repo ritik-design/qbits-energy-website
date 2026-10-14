@@ -203,8 +203,6 @@ PM Surya Ghar residential uses location-based estimates, and homeowners comparin
 
 Irradiation is solar energy per unit area over time, measured in kWh/m² or MJ/m². Indian annual irradiation ranges from 1,200 (north-east) to over 2,200 (Rajasthan, Ladakh). Key types: GHI, DNI, DHI, POA. Multi-year ground-validated satellite data is the bankable standard. Irradiation underpins yield prediction, plant siting and PPA tariff economics. Inter-annual variability of ±5 percent affects yield projections.
 
-## Need bankable irradiation data?
-
 ## Further reading
 
 For how Irradiation plays out in real projects, these guides go deeper:

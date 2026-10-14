@@ -5,7 +5,7 @@ description: "Solar inverter band ho jaye toh kya karein? Display off, error cod
 category: "Technical"
 date: 2026-06-05
 readTime: "12 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-solar-inverter-band-ho-jaye-kya-karein.webp"
 author: "Keyur Rakholiya"
 updatedDate: 2026-07-08
 keywords:
@@ -31,6 +31,7 @@ faqs:
     a: "Warranty claim process: (1) Vendor को call करें - describe fault, (2) Vendor technician visit, (3) Fault confirmed, vendor manufacturer को claim, (4) Replacement part या unit ship, (5) Installation। Premium brands written replacement process देते हैं। Warranty document और purchase receipt ready रखें।"
   - q: "कब खुद fix कर सकते हैं और कब professional चाहिए?"
     a: "खुद कर सकते हैं: Dust clean करना, ventilation check करना, AC breaker reset करना, DC isolator check करना, monitoring app reconnect करना। Professional चाहिए: Internal fault, ground fault, burning smell, physical damage, any error code that doesn't self-clear, wiring issues।"
+language: hi
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।

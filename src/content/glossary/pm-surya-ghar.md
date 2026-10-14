@@ -65,6 +65,7 @@ faqs:
   - q: "What states are most active under PM Surya Ghar?"
     a: "Gujarat, Maharashtra, Uttar Pradesh, Rajasthan, Andhra Pradesh and Karnataka are the highest-volume states. Implementation pace varies by DISCOM readiness."
 author: "Nirav Dhanani"
+seoTitle: "PM Surya Ghar: Eligibility, Subsidy and Application Guide"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
@@ -277,8 +278,6 @@ Submitting wrong bank account details. Disbursement fails.
 ## Key takeaways
 
 PM Surya Ghar Muft Bijli Yojana is India's most significant residential rooftop solar scheme to date, with central subsidy up to ₹78,000 and a target of 10 million homes by 2027. Successful execution depends on the centralised portal, empanelled vendors, ALMM-listed equipment, smart meter installation and DISCOM coordination. Typical payback under the scheme is 2.5 to 4 years.
-
-## Want to apply for PM Surya Ghar?
 
 ## Further reading
 

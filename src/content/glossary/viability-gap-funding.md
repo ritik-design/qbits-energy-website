@@ -197,8 +197,6 @@ Future expansion expected in 2025-2027.
 
 VGF (Viability Gap Funding) is a capital subsidy bridging gap between project cost and commercial viability. Indian solar storage VGF: ₹3,760 crore for 4 GWh BESS, ₹40 lakh per MWh or 30 percent of cost. Administered by [MNRE](/glossary/mnre/) through SECI. Critical for early-stage storage rollout. Complementary to PLI for cells. Likely to expand to round-the-clock renewable and green hydrogen.
 
-## Need VGF support for your storage project?
-
 ## Further reading
 
 For how Viability Gap Funding plays out in real projects, these guides go deeper:

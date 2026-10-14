@@ -205,8 +205,6 @@ Major Indian solar developers (Adani Green, ReNew, Tata Power Renewables) report
 
 NPV is the sum of discounted future cash flows minus initial investment. Positive NPV creates value; negative destroys it. Indian solar NPV depends on capex, opex, yield, tariff and WACC assumptions. Used alongside IRR for complete project economic analysis. PPA tariff bidding sets minimum tariff at NPV ≥ 0 at target WACC. Sensitivity analysis quantifies risk to key inputs.
 
-## Need NPV analysis for your solar investment?
-
 ## Further reading
 
 For how NPV plays out in real projects, these guides go deeper:

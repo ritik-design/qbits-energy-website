@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "21 min"
-image: "/blog-images/inverter-tco.svg"
+image: "/og/blog-solar-vs-diesel-generator-india.webp"
 author: "Akash Hirapara"
 keywords:
   - solar vs diesel generator

@@ -5,7 +5,7 @@ description: "3 kW solar system price in India, anchored to the published PM Sur
 category: Buying Guide
 date: 2026-06-05
 readTime: 13 min
-image: /blog-images/3kw-vs-5kw-vs-10kw-solar-inverters.svg
+image: "/og/blog-3kw-solar-system-price-india.webp"
 author: Akash Hirapara
 updatedDate: 2026-09-24
 keywords:

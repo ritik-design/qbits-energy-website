@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "10 min"
-image: "/blog-images/solar-plus-storage-design-software.svg"
+image: "/og/blog-solar-plus-storage-design-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar plus storage design software

@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-09-24
 readTime: "12 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-solar-inverter-with-subsidy-pm-surya-ghar.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar inverter subsidy

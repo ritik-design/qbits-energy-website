@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "19 min"
-image: "/blog-images/solar-for-ice-factory-cold-chain.svg"
+image: "/og/blog-solar-for-ice-factory-cold-chain.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar for ice factory

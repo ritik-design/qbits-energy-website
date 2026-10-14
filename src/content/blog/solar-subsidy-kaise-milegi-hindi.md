@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "13 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-solar-subsidy-kaise-milegi-hindi.webp"
 author: "Akash Hirapara"
 keywords:
   - solar subsidy kaise milegi
@@ -31,6 +31,7 @@ faqs:
     a: "Central PM Surya Ghar subsidy ₹78,000 maximum है - यह MNRE देती है। State subsidy कुछ states में central के ऊपर additional amount देती है - जैसे Gujarat, Maharashtra, Rajasthan। State subsidy अलग portal/agency से process होती है।"
   - q: "ALMM क्या है - कैसे verify करें?"
     a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।

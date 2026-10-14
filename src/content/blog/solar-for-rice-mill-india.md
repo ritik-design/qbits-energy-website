@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "18 min"
-image: "/blog-images/solar-for-rice-mill-india.svg"
+image: "/og/blog-solar-for-rice-mill-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar for rice mill

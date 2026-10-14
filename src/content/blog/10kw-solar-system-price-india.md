@@ -5,7 +5,7 @@ description: "10kW solar system cost in India 2026: panels, inverter, GST, resid
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "18 min"
-image: "/blog-images/solar-inverter-sizing.svg"
+image: "/og/blog-10kw-solar-system-price-india.webp"
 author: "Akash Hirapara"
 updatedDate: 2026-07-08
 keywords:

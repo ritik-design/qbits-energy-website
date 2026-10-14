@@ -6,7 +6,7 @@ category: Industry
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/solar-epc-india.svg"
+image: "/og/blog-rei-expo-recap.webp"
 author: "Nirav Dhanani"
 keywords:
   - rei 2026 recap

@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/solarius-pv-alternative.svg"
+image: "/og/blog-solarius-pv-alternative.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solarius pv alternative

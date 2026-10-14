@@ -5,7 +5,7 @@ description: "State-by-state solar payback calculation for Indian homeowners. Re
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "20 min"
-image: "/blog-images/solar-inverter-payback-period-in-india.svg"
+image: "/og/blog-solar-inverter-payback-period.webp"
 author: "Akash Hirapara"
 updatedDate: 2026-07-08
 keywords:

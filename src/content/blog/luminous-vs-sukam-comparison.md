@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "16 min"
-image: "/blog-images/indian-vs-international-solar-inverters.svg"
+image: "/og/blog-luminous-vs-sukam-comparison.webp"
 author: "Nirav Dhanani"
 keywords:
   - luminous vs sukam

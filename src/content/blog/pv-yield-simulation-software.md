@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "10 min"
-image: "/blog-images/pv-yield-simulation-software.svg"
+image: "/og/blog-pv-yield-simulation-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - pv yield simulation software

@@ -198,8 +198,6 @@ Warranty enforcement increasingly references SOH measurement.
 
 SOH (State of Health) measures long-term battery degradation as percentage of original capacity. Distinct from SOC (immediate charge level). Indian LFP residential systems: SOH 85-92% at 10 years, end of life (80% SOH) at 12-15+ years. Modern BMS estimate SOH; warranty references it. Operating within manufacturer's recommendations preserves SOH and extends life.
 
-## Need SOH-aware battery monitoring?
-
 ## Further reading
 
 For how State of Health plays out in real projects, these guides go deeper:

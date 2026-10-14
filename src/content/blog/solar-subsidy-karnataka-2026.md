@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/solar-inverter-payback-period-in-india.svg"
+image: "/og/blog-solar-subsidy-karnataka-2026.webp"
 author: "Akash Hirapara"
 keywords:
   - solar subsidy karnataka

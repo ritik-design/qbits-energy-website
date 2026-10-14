@@ -6,7 +6,7 @@ category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "15 min"
-image: "/blog-images/solar-inverter-commissioning-in-india.svg"
+image: "/og/blog-how-long-solar-installation-takes-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar installation time india

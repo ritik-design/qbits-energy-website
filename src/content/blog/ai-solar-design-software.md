@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "11 min"
-image: "/blog-images/ai-solar-design-software.svg"
+image: "/og/blog-ai-solar-design-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - ai solar design software

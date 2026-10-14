@@ -65,6 +65,7 @@ faqs:
   - q: "Can FIT projects access accelerated depreciation?"
     a: "Yes. Commercial solar plants under FIT qualify for 40 percent accelerated depreciation under the Income Tax Act."
 author: "Nirav Dhanani"
+seoTitle: "Feed-In Tariff: Meaning and Solar Payment Structure"
 ---
 
 ## What is feed in tariff
@@ -269,8 +270,6 @@ Ignoring tariff order amendments published mid-year.
 ## Key takeaways
 
 Feed in tariff is the regulated long-term price that makes solar PV financing possible. Indian FITs have fallen from above ₹15 per kWh in 2010 to below ₹2.50 per kWh in 2024 as capex has collapsed. State SERC orders and SECI tender results define the current FIT landscape. Payment discipline, PPA structure and contract clauses matter as much as the headline rate. For customers weighing FIT-based export against self-consumption, our guide to [solar inverter payback period across Indian states](/blog/solar-inverter-payback-period/) works through the underlying math.
-
-## Need FIT guidance for your solar project?
 
 ## Further reading
 

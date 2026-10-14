@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "17 min"
-image: "/blog-images/best-solar-inverter-under-50000.svg"
+image: "/og/blog-best-solar-inverter-under-50000.webp"
 author: "Nirav Dhanani"
 keywords:
   - best solar inverter under 50000

@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "10 min"
-image: "/blog-images/ratedpower-alternative.svg"
+image: "/og/blog-ratedpower-alternative.webp"
 author: "Nirav Dhanani"
 keywords:
   - ratedpower alternative

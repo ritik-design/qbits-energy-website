@@ -1,10 +1,10 @@
 ---
 title: "Growatt vs Solis: Which Should You Choose in 2026?"
-excerpt: "Growatt vs Solis head-to-head for India 2026: warranty, MPPT range, app monitoring, ALMM compliance, service network, and pricing, scored honestly for residential buyers."
-description: "Growatt vs Solis compared across 6 axes for Indian buyers: warranty, ShinePhone vs SolisCloud, ALMM status, service network, pricing, and clear verdict."
+excerpt: "Growatt vs Solis head-to-head for India 2026: warranty, MPPT range, app monitoring, ALMM compliance, service network, and quote comparison, matched on published datasheets for residential buyers."
+description: "Growatt vs Solis for Indian buyers: matched 5 kW datasheet specs, ShinePhone vs SolisCloud, published warranty, certification, price and which to choose when."
 category: "Comparison"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-growatt-vs-solis-comparison.webp"
 author: "Nirav Dhanani"
@@ -15,230 +15,159 @@ keywords:
   - growatt india review 2026
   - best solar inverter for home india
 faqs:
-  - q: "Which is better for Indian homes - Growatt or Solis?"
-    a: "Growatt is generally the better fit for Indian residential buyers who want a familiar brand with wider dealer coverage and proven PM Surya Ghar subsidy track records. Solis is stronger for commercial and industrial string applications where higher MPPT input ranges and efficiency at scale matter more. Neither brand can be called ALMM-listed for inverters, because MNRE publishes ALMM lists for modules and cells only. For PM Surya Ghar, confirm the exact inverter model's certificates and the DISCOM's requirements before purchase, because acceptance is model-specific, not brand-wide."
+  - q: "Which is better for Indian homes, Growatt or Solis?"
+    a: "Neither wins on every row, and a brand cannot be ranked from a brochure. In the 5 kW single-phase class the published datasheets are close on rated output, tracker count, enclosure and THD. They differ on MPPT window (40 to 550 V on the Growatt MIN 5000TL-X2, 90 to 550 V on the Solis S6-GR1P5K-S), start-up voltage (50 V and 100 V) and efficiency figures. Choose by your string design, the written warranty and the service route for your pincode."
   - q: "Does Solis have after-sales service in India?"
-    a: "Solis (Ginlong Technologies) has established a presence in the Indian market and appointed authorised distributors across major states. However, Solis's India service infrastructure is less dense than Growatt's, particularly outside the tier-1 metros. Service resolution times in tier-2 and tier-3 markets tend to be longer for Solis than for Growatt, because the distributor network is newer. Buyers in smaller cities should confirm local authorised service availability before purchase, rather than relying on the national brand footprint."
+    a: "Solis's global contact page lists an India office in Navi Mumbai (Minivel Service LLP) with a service phone and email. That shows who to contact to open a claim. It does not show who would visit your site, so ask the installer or distributor for the named service partner covering your pincode and whether they stock the replacement part."
   - q: "Is Growatt ALMM listed in India 2026?"
     a: "MNRE publishes ALMM List-I for solar PV modules and List-II for cells, and no list for inverters, so no Growatt inverter is \"ALMM listed\" in the way a module can be. For a PM Surya Ghar or other subsidised project, check the exact Growatt model's BIS registration and current certificates, and confirm the scheme and DISCOM requirements separately."
   - q: "What is the warranty on Solis inverters in India?"
-    a: "Solis inverters in India typically carry a 5-year standard warranty, with paid extension options available up to 10 years in some product lines. The warranty covers repair, not full unit replacement in most cases. The enforceability of the warranty in India depends on the local authorised distributor - Solis is a Chinese OEM (Ginlong Technologies) and warranty claims are handled through the Indian distribution channel rather than directly through a local Solis entity. Buyers should confirm the specific warranty terms, extension options, and claims process with the local distributor at the time of purchase."
-  - q: "Which has a better monitoring app - ShinePhone (Growatt) or SolisCloud?"
-    a: "Both ShinePhone and SolisCloud are functional monitoring platforms with real-time data, fault alerts, and generation history. ShinePhone has a larger Indian user base and more localised support content. SolisCloud has a cleaner interface and stronger features for commercial fleet monitoring across multiple sites. For a single residential installation, both apps perform similarly for daily monitoring tasks. Neither platform offers WhatsApp-native alerts, which is the monitoring format most used by Indian residential buyers who prefer push notifications over app-based logins."
-  - q: "Is Solis better than Growatt for commercial solar projects?"
-    a: "Solis has a stronger product range for commercial string inverter applications, particularly in the 30 kW to 110 kW capacity band. Solis's high-power string inverters offer wider DC voltage windows and higher MPPT input counts that suit larger commercial roof layouts with varied string orientations. Growatt also has commercial product lines, but Growatt's Indian market strength is concentrated in the residential 3–10 kW segment. For C&I buyers evaluating 50–500 kW projects, Solis's commercial string range deserves serious consideration alongside global brands like Sungrow and Huawei."
+    a: "The Solis global product warranty page does not state the years in its body text. They sit in a regional appendix, and the page names a South Asia version, with warranty periods of 6 to 10 years offered on a device form. A reseller's claim of a particular number is not a Solis document. Ask the seller for the warranty document that applies to your sale and check the start date, remedy and exclusions."
+  - q: "What is the warranty on Growatt inverters?"
+    a: "The Growatt MIN 2500~6000TL-X2 datasheet lists 5 years standard and 10 years optional. The warranty page runs the term from the installation date on the installation certificate, no more than six months after Growatt's delivery date, and limits the remedy to service replacement and service repair. A warranty set on the sales order overrides the standard term."
+  - q: "Which has a better monitoring app, Growatt or Solis?"
+    a: "Both brands run their own cloud platforms and publish a monitoring app, and the useful differences are practical ones: whether the model needs a separate logger or SIM, who owns the account, whether per-tracker data is shown and which faults send an alert. Settle those with the supplier for the exact model, because the platform can differ across product generations."
+  - q: "Is Solis or Growatt better for commercial solar projects?"
+    a: "Both brands sell three-phase string inverters, and MPPT counts and DC voltage limits differ by model and regional variant, so a brand-level answer would be a guess. Put the two exact models' India datasheets against the roof layout, then compare the written warranty, the service route and a quote on identical scope."
   - q: "How does Qbits compare to Growatt and Solis for Indian homes?"
     a: "Qbits sells on-grid inverters from 1.5 kW to 320 kW and hybrid models from 3 to 12 kW, so it competes with Growatt and Solis in the residential range. Choose by phase, DC string design, MPPT count and backup need, then check the current datasheet at /download-datasheets/ for the exact model. Qbits' public datasheets do not define a base warranty term, so get the written warranty and service process for the exact model before comparing it with Growatt or Solis."
-  - q: "What is the price difference between Growatt and Solis inverters in India?"
-    a: "In the residential 3–10 kW segment, Growatt and Solis are broadly similar in price point - both are mid-market Chinese OEMs competing on volume. Growatt typically trades at a slight premium over Solis in the Indian residential market because of brand recognition and larger dealer network margins. For commercial string inverters above 30 kW, Solis can be competitively priced against Growatt's commercial range. Exact pricing varies by distributor, state, and purchase volume. Both brands are generally 15–25 percent lower in upfront cost than premium global brands like Sungrow or Fronius."
 ---
 
 > **Qbits warranty and service terms:** Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline, service response time, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-> **TL;DR**
-> - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify both equipment categories separately.
-> - Solis has the stronger commercial string inverter range (30–110 kW+, up to 12 MPPT inputs), making it the better fit for C&I projects above 30 kW.
-> - Both brands share the same 5-year repair-based standard warranty, leaving buyers exposed to a ₹15,000–₹25,000 replacement cost from year 6 onward.
-> - Neither ShinePhone (Growatt) nor SolisCloud (Solis) offers WhatsApp-native alerts, which matters in a market where app-fatigue reduces monitoring engagement.
-> - MNRE publishes no ALMM list for inverters, so verify each exact model's BIS registration and current certificates before every purchase, regardless of brand reputation.
+> **Quick answers**
+> - Neither brand wins on every row. Compare two exact models intended for the same job, not the brand names.
+> - In the 5 kW single-phase class the published datasheets are close on rated output and tracker count. They differ on voltage window, start-up voltage, strings per tracker and efficiency figures.
+> - Growatt's datasheet lists a 5-year standard warranty with a 10-year option. Solis publishes a regional warranty document whose body text does not state the years, so ask for the term in writing.
+> - ALMM covers modules and cells, not inverters. Ask each seller for the exact model's BIS registration and certificates.
+> - Service quality depends on your district. Both brands list an India service entity and contact on their own pages, and neither listing tells you who would visit your site.
 
-This comparison applies the **6-Point Brand Evaluation Framework**: a structured scoring method covering warranty, MPPT range, monitoring, India service network, pricing, and ALMM compliance, to give an honest verdict. Neither brand is dismissed; both have genuine strengths. The goal is a clear, data-grounded recommendation for the specific context of Indian rooftop solar.
+**Short version.** Growatt and Solis both sell residential and commercial string inverters through Indian distributors. The useful comparison is model against model: put the two datasheets next to your array design, then compare the written warranty terms and the service route for your pincode. This page does that for the 5 kW single-phase class using each manufacturer's own datasheet, and it ends with a plain "which to choose when" guide. It does not score or rank the brands.
 
-The Indian solar market crossed 4 GW of cumulative rooftop installed capacity in 2025, with [PM Surya Ghar subsidies](/blog/pm-surya-ghar-yojana-complete-guide/) accelerating residential uptake across all states. [IRENA's Renewable Power Generation Costs 2024 report](https://www.irena.org/Publications/2025/May/Renewable-Power-Generation-Costs-in-2024) confirms that India's solar LCOE has fallen to among the lowest globally, making inverter selection (not panel price) the primary long-term cost variable. In this environment, the inverter brand decision carries consequences that run well beyond the first five years of ownership.
+## How this comparison works
 
-## Why the Growatt vs Solis Question Matters in India
+This page does not give either brand a score or a ranking. A numeric rating out of 10 or a total out of 60 would rest on judgements about service reach, firmware and price that no public source supports, and it would imply a precision the evidence cannot deliver.
 
-Inverter failures account for approximately 60% of all solar service calls in India, according to field data reported by EPC networks. The inverter is not a passive component, it converts, manages, monitors, and protects the entire system. Choosing a brand based on upfront price alone, without examining warranty terms, service reach, and India-specific firmware behaviour, is one of the most common and costly mistakes Indian residential buyers make.
+What replaces it is a factual table of published specifications for matched models, the warranty and service terms as the manufacturers publish them, and a set of decision rules that say which facts matter for which buyer. Where a fact cannot be verified from a manufacturer's own document, this page says so instead of estimating it.
 
-> **60%.** Share of all solar system service calls in India attributable to inverter-related issues, based on aggregated field reports from EPC networks. *Source - [Mercom India](https://www.mercomindia.com/), 2025 India Solar Market Report.*
+## Who the two companies are, and how to reach them in India
 
-Three structural realities shape the India-specific context for this comparison:
+**Growatt** is Shenzhen Growatt New Energy Co., Ltd., a Shenzhen-based manufacturer. Its India contact page lists Growatt New Projects Pvt Ltd at Banjara Hills, Hyderabad, with a toll-free line (1800 120 600 600), service email service.in@growatt.com and sales email info@growatt.com. The page lists no separate service centres.
 
-- **Grid voltage instability**: Indian distribution voltage often drifts well away from nominal, and the allowed AC grid range depends on the inverter model, its grid-code setting and the DISCOM's connection conditions. Inverters that are not tuned for Indian grid conditions trip more frequently, reducing annual yield and increasing service events. Read the range from the exact model's datasheet or manual.
-- **Climate severity**: Rooftop temperatures on Indian flat roofs commonly reach 65–75 °C in summer. IP rating and thermal derating behaviour directly affect inverter lifespan. An IP65 enclosure can allow dust ingress in dry desert states; IP66 is the more appropriate standard. The [IEC 60529 ingress protection standard](https://www.iec.ch/dyn/www/f?p=103:23:0::::FSP_ORG_ID,FSP_LANG_ID:1276,25) defines the difference between IP65 and IP66 protection levels.
+**Solis** inverters are made by Ginlong Technologies. Solis's global contact page lists an India office at Goodwill BizHub, Turbhe, Navi Mumbai (Minivel Service LLP), with a service phone of +91 90906 09037, service email inservice@solisinverters.com and sales email indiasales@ginlong.com.
 
-## The 6-Point Brand Evaluation Framework: How It Works
+Both listings were read on 14 October 2026 and can change. An entity and an email address are a way to open a claim. They do not tell you who would drive to your site, so ask the installer or distributor for the named service partner for your pincode. The [Growatt India review](/blog/growatt-solar-inverter-review-india/) covers the Growatt line in more detail.
 
-The **6-Point Brand Evaluation Framework** scores both brands on the six dimensions that determine real-world satisfaction over the life of an Indian residential solar system. Each axis is scored 1–10. Maximum total: 60.
+## Matched 5 kW single-phase specification comparison
 
-### The 6 Axes
+The table compares the 5 kW model from each family, using the manufacturers' own datasheets as of 14 October 2026. Both are single-phase, dual-MPPT, transformerless string inverters. Regional versions of a datasheet differ, so confirm the figures against the version that ships with your unit.
 
-1. **Warranty Depth**: Term length, repair versus replacement, and enforceability in India.
-2. **MPPT Range and Technical Fit**: DC voltage window, MPPT count, and suitability for Indian roof typologies.
-3. **Monitoring Platform**: App usability, alert latency, and adoption ease in the Indian context.
-4. **India Service Network**: Service centre density, RMA turnaround time, and Tier-2/3 city coverage.
-5. **Price and Value**: Upfront cost and 10-year total cost of ownership.
-6. **Certification and Compliance Documents**: Whether the exact model's BIS registration and current certificates are available, since MNRE publishes no ALMM list for inverters.
-
-Each axis is assessed below with the honest score and the reasoning behind it.
-
-## Axis 1: Warranty Depth
-
-### Growatt
-
-Growatt's standard residential warranty in India is **5 years**, covering repair of faulty components. Extended warranty options are available (typically up to 10 years) at additional cost. The 5-year repair warranty means that a failed inverter is sent to a service depot, repaired, and returned. In India, this process typically takes 3–6 weeks, depending on geography and stock availability.
-
-Growatt was founded in 2010 and has operated in India for approximately a decade. Its warranty claims are processed through the Indian distributor network rather than a direct Growatt India entity, which adds a layer of dependency on the distributor's own service capacity.
-
-**Score: 6/10**: 5-year standard term with repair coverage. Extended option exists but requires additional payment.
-
-### Solis (Ginlong Technologies)
-
-Solis inverters carry a **5-year standard warranty** in India, with some product lines offering extended coverage up to 10 years at additional cost. Like Growatt, Solis's warranty model is repair-based in India, the brand does not offer full unit replacement as a standard term.
-
-Solis entered the Indian market more recently than Growatt and its India-registered service infrastructure is less mature. Warranty claim resolution speed varies significantly by region. In metro markets with strong distributors, resolution can be reasonably fast; in smaller cities, wait times extend considerably.
-
-**Score: 5/10**: Same 5-year term as Growatt, but with a less established India service entity behind the claim.
-
-| Warranty Axis | Growatt | Solis |
+| Item | Growatt MIN 5000TL-X2 | Solis S6-GR1P5K-S (India datasheet) |
 | --- | --- | --- |
-| Standard term | 5 years | 5 years |
-| Coverage type | Repair | Repair |
-| Extended option | Up to 10 years (paid) | Up to 10 years (paid, select models) |
-| India entity | Distributor network | Distributor network |
-| Score | 6/10 | 5/10 |
+| MPPT trackers / strings per tracker | 2 / 1 | 2 / 2 |
+| MPPT voltage range | 40 to 550 V | 90 to 550 V |
+| Start-up voltage | 50 V | 100 V |
+| Maximum DC voltage | 550 V | 550 V |
+| Maximum input current per tracker | 16 A | 16 A |
+| Rated AC output | 5,000 W | 5,000 W |
+| Maximum apparent power | 5,000 VA | 5 kVA |
+| Grid voltage | 230 V (160 to 300 V) | 1/N/PE, 220/230 V (range not stated) |
+| Current THD | below 3% | below 3% |
+| Power factor | adjustable, 0.8 leading to 0.8 lagging | above 0.99, adjustable 0.8 leading to 0.8 lagging |
+| Maximum / European efficiency | 98.4% / 97.5% | 97.7% / 97.1% |
+| Enclosure | IP66 | IP66 |
+| Weight | 10.8 kg | 9 kg |
+| Operating temperature | -30 to +60 °C | -25 to +60 °C |
+| DC switch / DC surge protection | DC switch, Type II DC SPD | Integrated DC switch, surge protection |
+| AFCI (DC arc-fault protection) | Optional | Integrated, activation required |
+| Warranty line on the datasheet | 5 years standard, 10 years optional | Not stated on the datasheet |
+| Safety and grid standards printed | IEC 62116, IEC 61727 among others | IEC 62109-1/-2, IEC 62116, IS 16169 / IS 16221 (BIS) |
 
-## Axis 2: MPPT Range and Technical Fit
+Sources: [Growatt MIN 2500~6000TL-X2 datasheet](https://en.growatt.com/upload/file/MIN_2500-6000TL-X2_Datasheet.pdf); [Solis S6-GR1P(2.5-6)K-S India datasheet, version 1.2, April 2023](https://www.solisinverters.com/uploads/file/Solis_datasheet_S6-GR1P(2,5-6)K-S_IND_V1,2_2023_04.pdf).
 
-[MPPT](/glossary/mppt/) (Maximum Power Point Tracking) is the algorithm that maximises the power extracted from the solar panels at any given moment. The number of MPPT inputs and the DC voltage range determine how well the inverter accommodates different roof layouts, partial shading, and Indian grid conditions.
+### Reading the table
 
-### Growatt
+**Voltage window.** The Growatt datasheet lists a lower MPPT window edge of 40 V and a start-up voltage of 50 V. The Solis datasheet lists 90 V and 100 V for the 4.6 to 6 kW models. A lower edge matters on short strings or in low light, because the inverter can start earlier and keep tracking at lower string voltage. It is a design constraint, not a quality grade, so check your string's hot-day maximum-power voltage against the lower limit and its cold-morning open-circuit voltage against the 550 V maximum, which is the same for both.
 
-Growatt's residential range (MIN series, 3–10 kW) offers 2 MPPT inputs with a DC input voltage range of 70–550 V and a maximum DC input of 600 V. This covers most Indian residential roof configurations: south-facing flat roofs, east-west split installations, and small-pitch RCC roofs. The India-grade models have firmware tolerances that handle moderate grid voltage variation.
+**Strings per tracker.** The Solis datasheet lists two strings per tracker (four in total), and the Growatt datasheet lists one string per tracker. On a roof with two separate orientations one string each is enough. If you want to parallel two strings on one tracker, the 16 A current limit per tracker still applies to both brands, so check the sum against it. The [dual MPPT guide](/blog/dual-mppt-vs-single-mppt/) and the [string-sizing calculator](/string-sizing-calculator/) cover the arithmetic.
 
-For the residential buyer with a standard south-facing roof, Growatt's MPPT configuration is adequate. The [dual MPPT](/blog/dual-mppt-vs-single-mppt/) design allows east-west string separation without a power optimiser, which keeps costs down.
+**Efficiency.** The Growatt datasheet lists 98.4% maximum and 97.5% European efficiency, and the Solis datasheet lists 97.7% and 97.1%. Both numbers are measured at stated conditions. A difference of around a percentage point in weighted efficiency is small next to the effect of shading, string design and clipping, so do not let it decide the purchase on its own.
 
-**Score: 7/10**: Solid dual-MPPT design for standard residential configurations. India-grade firmware handles moderate grid variation.
+**Power factor and THD.** Both state current THD below 3% and an adjustable power factor range of 0.8 leading to 0.8 lagging. The [THD](/glossary/thd/) and [power factor](/glossary/power-factor/) entries explain what those figures mean and what they do not.
 
-### Solis
+**Compliance lines.** The Solis India datasheet prints IS 16169 and IS 16221 (BIS) references. The Growatt X2 datasheet's certificate line lists IEC 62116 and IEC 61727 among other international standards and no Indian standard numbers. That does not show that either product lacks Indian registration. It means you should ask each seller for the BIS registration and certificate for the exact model, and not rely on a datasheet line.
 
-Solis residential inverters (S6 series, 3–10 kW) offer 2 MPPT inputs with a broader DC voltage window, up to 600 V, with some models supporting up to 1000 V DC. For commercial and industrial string inverters (Solis 30 kW–110 kW+), the MPPT count rises to 4–12 inputs, making Solis genuinely superior for large commercial layouts with multiple string orientations.
+**Export limiting.** The Solis datasheet lists integrated zero-export power control as a feature. Growatt's earlier MIN 2500~6000TL-X datasheet listed export control, while the X2 headline features do not mention it. If you need export limiting, confirm support and the required meter or sensor in writing for the exact model. The [zero export](/glossary/zero-export/) entry explains how the control works.
 
-Solis's India-specific firmware tuning is less documented than Growatt's. The brand's commercial string inverters are the product line most likely to have been tested and validated on Indian grid conditions by installers, but residential-grade firmware localisation is less well-evidenced in the Indian market. EPCs specifying Solis for a large commercial roof should model the string layout in dedicated [commercial solar design software](https://surgepv.com/commercial-solar-design/) rather than estimating MPPT counts by eye, since a mismatched string configuration erases most of Solis's technical advantage in practice.
+## If you need battery backup: a Growatt hybrid example
 
-**Score: 7/10**: Comparable residential MPPT design; stronger commercial string range. Firmware India-tuning less documented.
+The two models above are on-grid and do not provide backup. For context on how different a hybrid datasheet looks, the Growatt SPH 5000TL BL-UP lists these figures (April 2026 datasheet): a 42 to 59 V low-voltage battery range supporting lithium or lead-acid, a 120 to 550 V MPPT range with two trackers at 13.5 A each, 5,000 W rated AC output, a 4,000 W backup rating with a switch time below 10 ms, 97.5% maximum efficiency, IP65 and a weight of 27 kg, with the same 5-year standard and 10-year optional warranty line. Source: [Growatt SPH 3000-6000TL BL-UP datasheet](https://en.growatt.com/upload/file/SPH_3000-6000TL_BL-UP_Datasheet_202604.pdf). A hybrid from another brand may use a high-voltage battery instead, so the battery, the inverter and the firmware have to be approved together in writing. This page does not match a Solis hybrid model, because the Solis hybrid line varies by region and no India datasheet was checked for it.
 
-## Axis 3: Monitoring Platform
+## Monitoring
 
-### ShinePhone (Growatt)
+Growatt's monitoring runs through its own app and cloud platform, with Wi-Fi, 4G, LAN or RF accessories listed as options on the datasheet. Solis monitoring uses SolisCloud, and the datasheet lists RS485 and USB with optional Wi-Fi or GPRS. Rather than comparing the interface, settle these questions with whoever supplies the unit:
 
-Growatt uses the **ShinePhone** mobile application for monitoring. ShinePhone provides real-time generation data, daily and monthly history, fault alerts, and basic remote diagnostics. The app is available on Android and iOS, and has a large Indian user base due to Growatt's installed fleet size.
+1. Does the model need a separate logger, dongle or SIM before it reports at all?
+2. Who owns the plant account, and how is it transferred if you change installers?
+3. Is per-tracker data visible, or only plant totals?
+4. Which faults raise an alert, and who receives it?
+5. How long is history kept?
 
-ShinePhone's interface is functional but dated compared to newer platforms. Fault alerts arrive as in-app notifications, not via WhatsApp or SMS unless the installer has configured a third-party bridge. For homeowners who do not routinely check an additional app, alert latency can be significant.
+## Warranty as published
 
-**Score: 6/10**: Functional monitoring with wide Indian user base. WhatsApp integration is not standard.
-
-### SolisCloud
-
-Solis uses **SolisCloud** as its primary monitoring platform. SolisCloud has a cleaner interface than ShinePhone and supports multi-site fleet monitoring, which is more relevant for commercial operators than residential homeowners. The platform offers real-time data, fault event logs, and yield comparisons.
-
-For a single residential installation, SolisCloud's feature set is more than adequate. Like ShinePhone, SolisCloud delivers alerts via app notifications rather than WhatsApp. In the Indian residential context, where WhatsApp is the dominant communication channel and app-fatigue is a real barrier to engagement, neither platform has a clear advantage over the other.
-
-**Score: 6/10**: Cleaner interface than ShinePhone; better multi-site features for commercial use. No WhatsApp-native monitoring.
-
-## Axis 4: India Service Network
-
-### Growatt
-
-Growatt has the larger and more established Indian service network of the two brands. Its distributor and dealer network spans all major states, including meaningful presence in Tier-2 cities such as Coimbatore, Nagpur, Indore, Bhubaneswar, and Ludhiana. Growatt India partners handle warranty claims, spare stock, and field visits.
-
-The practical limitation is the repair model: even with geographic reach, a 3–6 week repair turnaround is common because faulty boards are sent to a central depot. The homeowner's system is offline during this period, generating no power and accruing no bill savings.
-
-**Score: 7/10**: Wider geographic reach than Solis. Repair-based turnaround of 3–6 weeks remains the primary limitation.
-
-### Solis
-
-Solis has been building its India distribution network progressively, with stronger representation in Gujarat, Maharashtra, Rajasthan, and parts of Tamil Nadu. Outside these states, authorised Solis service can be difficult to locate in Tier-2 and Tier-3 markets.
-
-For residential buyers outside the major solar-active states, this geographic gap is a real risk. A warranty claim in a smaller city may require shipping the unit to the nearest authorised centre (potentially far away) adding time and inconvenience.
-
-**Score: 5/10**: Adequate in major solar states; thin coverage in Tier-2/3 markets outside Solis's stronghold states.
-
-## Axis 5: Price and Value
-
-Both Growatt and Solis are mid-market Chinese OEMs positioned below the premium global tier (Sungrow, Fronius, SMA) and above the budget assembler tier. In the Indian residential 3–10 kW segment, their pricing is broadly comparable.
-
-> **₹25,000–₹45,000.** Approximate installed price range for a 5 kW residential string inverter from Growatt or Solis in India, 2026, depending on state, dealer margin, and local competition. *Source - [JMK Research India Solar Market Analysis](https://jmkresearch.com/), Q1 2026.* India's rooftop solar capacity addition is tracked by [Mercom India's quarterly reports](https://www.mercomindia.com/), which also publish average system cost benchmarks by state.
-
-- **Growatt** trades at a modest premium over Solis in many markets due to higher brand recognition and denser distributor margins. The premium is typically 5–10% in direct product comparisons.
-- **Solis** can offer lower upfront pricing in markets where distribution competition is higher. For buyers who are price-primary and in a location with good Solis distributor coverage, Solis can be the better per-rupee option.
-- **Total cost of ownership**: Both brands share the same structural limitation: a 5-year standard warranty means the buyer carries the financial risk of replacement from year 6 onwards. An inverter replacement at ₹15,000–₹25,000 per unit is a predictable mid-life cost that neither brand's standard warranty eliminates.
-
-| Price Axis | Growatt | Solis |
+| Clause | Growatt | Solis |
 | --- | --- | --- |
-| 5 kW installed price (approx.) | ₹30,000–₹45,000 | ₹28,000–₹42,000 |
-| Premium vs budget tier | Mid-market | Mid-market |
-| 5-year warranty cost absorbed by buyer | ₹0 (in warranty) | ₹0 (in warranty) |
-| Replacement cost from yr 6 | ₹15,000–₹25,000 | ₹15,000–₹25,000 |
-| Score | 7/10 | 7/10 |
+| Standard term | The MIN 5000TL-X2 datasheet lists 5 years standard and 10 years optional; the warranty page refers to a "5 years standard factory warranty" without a year count for every product | The global warranty page body does not state the years; they sit in an appendix and regional versions. The page offers periods of 6 to 10 years on a device form |
+| Start of cover | From the installation date on the installation certificate, and no more than six months after Growatt's delivery date | For an individual customer, from sale; otherwise the earlier of commissioning or six months after factory dispatch |
+| Remedy | Service replace and service repair | At Ginlong's choice: replacement, on-site repair or replacement by an accredited provider, or return to Ginlong; liability capped at the amount paid |
+| Extension | Must be applied for within two years of installation | Must be applied for within 12 months of the warranty start, once only |
+| Claim documents | Serial number, invoice or installation documents, claim form, model and fault description | Defect description, claim form, model and serial number, invoice, installation report |
+| Notable exclusions | Opened seal, transport damage, incorrect installation, force majeure such as lightning and overvoltage | Improper installation, unauthorised repair, force majeure, uncertified equipment, purchase from an unauthorised reseller |
+| Freight | Growatt pays freight within the original country or region for warranted products | Not stated on the page |
 
-## Axis 6: Certification and Compliance Documents
+Sources: [Growatt warranty page](https://en.growatt.com/support/warranty) and [Solis product warranty page](https://www.solisinverters.com/global/productwarranty), read 14 October 2026. Solis's document names a South Asia regional version, and neither page is an India-specific contract. Ask the seller for the document that actually applies to your sale.
 
-- **Growatt**: MNRE publishes no ALMM list for inverters, so there is no list presence to score. Ask the supplier for the exact residential model's BIS registration and current certificates.
-- **Solis**: the same applies. Public information does not separate the two brands on this axis, so both are scored equally. Buyers must verify the specific model number's current certificates.
+Two practical points follow. The clock can start before you switch the inverter on, so read the delivery or production date and the installation date and put both on the handover record. And "replacement" in a clause is only as good as who pays for removal, transport and refit, so ask who bears those costs.
 
-> **Important:** Certification is model-specific, not brand-wide. MNRE's [ALMM lists](https://mnre.gov.in/) cover modules (List-I) and cells (List-II), not inverters, and they are updated periodically. For a PM Surya Ghar project, the [scheme guidelines](https://pmsuryaghar.gov.in/) require ALMM-listed modules, and the inverter's certificates and the DISCOM's requirements need to be confirmed separately before every purchase order, regardless of brand.
+## ALMM and certification
 
-| Certification Axis | Growatt | Solis |
-| --- | --- | --- |
-| MNRE ALMM list for inverters | None exists | None exists |
-| Exact-model BIS registration and certificates | Ask the supplier | Ask the supplier |
-| Model-level verification required | Yes | Yes |
-| Score | 7/10 | 7/10 |
+MNRE's ALMM page lists PV modules (List-I) and cells (List-II). It has no inverter list, so no inverter can be "ALMM listed" the way a module can. For subsidy and DISCOM purposes, ask for the exact model's BIS registration and test reports, and read the scheme and DISCOM conditions separately. [IEC 62109](/glossary/iec-62109/) is the safety standard to look for, with IS 16221 (Part 2) as the Indian counterpart and IS 16169, the Indian adoption of IEC 62116, covering islanding prevention. The [certification guide](/blog/solar-inverter-certifications/) walks through what to ask for.
 
-## Verdict and Pros-Cons
+## Price
 
-Based on the 6-Point Brand Evaluation Framework, here is how the two brands score:
+This page quotes no prices. Street prices vary by state, distributor, season and what the quote includes, and a number copied from another source would be out of date by the time you read it. To compare two offers fairly, check that both name the same array, mounting, cabling, protection devices, monitoring hardware, DISCOM application and commissioning, and that both list exclusions. Only then does a price difference say something about the inverters.
 
-| Axis | Growatt | Solis |
-| --- | --- | --- |
-| Warranty Depth | 6/10 | 5/10 |
-| MPPT Range / Technical Fit | 7/10 | 7/10 |
-| Monitoring Platform | 6/10 | 6/10 |
-| India Service Network | 7/10 | 5/10 |
-| Price and Value | 7/10 | 7/10 |
-| Certification and Compliance Documents | 7/10 | 7/10 |
-| **Total** | **40/60** | **37/60** |
+## Which to choose when
 
-### Growatt
+These rules are starting points. Your district's service route and your array design override them.
 
-| | Pros | Cons |
-| --- | --- | --- |
-| **Growatt** | ✓ Wider India dealer and service network | ✗ 5-year repair warranty - replacement cost from year 6 |
-| | ✓ Longer India track record (10+ years installed) | ✗ Repair TAT of 3–6 weeks on warranty claims |
-| | ✓ Competitive mid-market pricing | ✗ India-grid firmware not always country-specific |
+- **Short strings or a roof with low string voltage.** The Growatt MIN 5000TL-X2 lists a lower MPPT window edge and start-up voltage than the Solis S6-GR1P5K-S. If your hot-day string voltage is close to the Solis 90 V lower edge, that favours the Growatt datasheet. Check your actual string design first.
+- **Two strings you want to combine on one tracker.** The Solis datasheet lists two strings per tracker. The Growatt datasheet lists one. Confirm current limits and connector arrangement on both before relying on this.
+- **You need export limiting.** Confirm support, and the sensor or meter the model needs, in writing for the exact model. The Solis datasheet lists it as a built-in feature.
+- **You want the warranty term settled before you buy.** Growatt's datasheet states 5 years with a 10-year option. For Solis, ask for the document that applies to your sale and to the model's region.
+- **Battery backup.** These two on-grid models do not provide backup. Compare hybrid models, and note that hybrid inverters differ in battery voltage class. For example, Growatt's SPH 5000TL BL-UP lists a 42 to 59 V battery range and a 4,000 W backup rating, while other brands' hybrids use high-voltage batteries. Battery compatibility is a property of an exact inverter, battery and firmware combination.
+- **Commercial three-phase projects.** Both brands sell three-phase string inverters, and the MPPT counts and voltage limits of a given kW size differ by model and regional variant. Use the same worksheet on the exact models, and confirm the exact DC limits on the India datasheet.
+- **Remote or small-town site.** Ask each brand's seller for the named service partner for your pincode and what they stock. The brand's national contact does not answer this.
 
-### Solis
+## Common mistakes
 
-| | Pros | Cons |
-| --- | --- | --- |
-| **Solis** | ✓ Stronger commercial string inverter range (30–110 kW+) | ✗ Thinner India service network outside major states |
-| | ✓ SolisCloud platform cleaner for multi-site commercial | ✗ Newer India presence - less repair depot depth |
-| | ✓ Competitive pricing vs Growatt in some markets | ✗ 5-year repair warranty same as Growatt's limitation |
-| | ✓ Broad range of string models | ✗ Residential firmware India-tuning less documented |
+- Treating a brand as a rating. Each brand sells several families, so compare model with model.
+- Comparing a peak efficiency figure and ignoring the voltage window.
+- Reading the warranty length and ignoring the start date, remedy and exclusions.
+- Assuming an inverter is "ALMM listed."
+- Carrying a figure from one regional datasheet to a different variant.
+- Skipping the written service route for your pincode.
 
-**Verdict for Indian residential buyers:** Growatt is the more appropriate choice for homeowners who want a mid-market inverter with broad dealer reach and a solid India service track record. For buyers who need a home system in a Tier-2/3 city, Growatt's wider distributor footprint reduces service risk meaningfully.
+For wider diligence see [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/), [solar inverter buying mistakes](/blog/solar-inverter-buying-mistakes/) and the [on-grid inverter hub](/on-grid-inverter/) for the Qbits range.
 
-**Verdict for Indian commercial/industrial buyers:** Solis deserves serious consideration for string inverter projects above 30 kW, where its commercial product range has genuine advantages over Growatt's residential-heavy lineup. Whichever inverter brand you choose, a qualified commercial or industrial solar installer should validate the string design and grid protection settings against the actual site conditions before commissioning.
+## Where Qbits fits as a third option
 
-## Common Mistakes When Comparing These Brands
+Qbits sells on-grid and hybrid string inverters through dealers, and its pricing is quote based. For the same 5 kW single-phase class, the published QB-5KTLD datasheet lists two MPPTs with one string each, an 80 to 550 V MPPT range, 50 V start-up, 550 V maximum DC input, 20 A per tracker, 5,000 W rated output with 5.5 kVA maximum, a 160 to 270 Vac adjustable grid range, current THD below 2% at rated power, 98.1% maximum efficiency and IP66. Its public datasheets do not define a base warranty term, so get the written warranty and service process for the exact model before comparing it with either brand.
 
-Buyers who research Growatt vs Solis frequently make a set of predictable mistakes that lead to suboptimal decisions. Understanding these helps you avoid them.
+- **[Hybrid inverters](/hybrid-inverter/):** review the current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[String sizing calculator](/string-sizing-calculator/):** check your panel configuration against the inverter you are considering.
+- **[Authorised service partners](/authorized-service-partners/):** search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 
-- **Assuming an inverter is "ALMM listed"**: MNRE publishes ALMM lists for modules and cells only. Verify your exact inverter model's BIS registration and current certificates, not the brand's marketing materials.
-- **Ignoring post-warranty replacement cost**: Both brands have a 5-year standard warranty. A 25-year solar system outlives the warranty by 20 years. Factoring ₹15,000–₹25,000 replacement cost into the comparison changes the economics substantially. Read more in [the inverter warranty comparison guide](/blog/solar-inverter-warranty/).
-- **Comparing specs without India-grid context**: Inverter efficiency ratings are measured at 25 °C under STC conditions. Indian rooftop operation at 45–65 °C degrades effective output. Confirm the inverter's thermal derating curve for Indian ambient temperatures, not just the headline efficiency number.
-- **Overlooking service geography**: A brand's national service presence does not tell you what happens in your specific district. Before purchase, ask the dealer: "Which authorised service centre handles my area, and what is the documented RMA turnaround time?"
-- **Treating monitoring apps as equivalent**: Both ShinePhone and SolisCloud work, but neither integrates natively with WhatsApp. In Indian residential markets, monitoring adoption drops sharply when buyers must maintain a separate app login. Low monitoring engagement means slow fault detection and longer downtime.
-
-For a broader assessment of what to look for beyond brand comparisons, see [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) and [the solar inverter buying mistakes guide](/blog/solar-inverter-buying-mistakes/).
-
-## Where Qbits Fits as a Third Option
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
-- **[String Sizing Calculator](/string-sizing-calculator/)**: 60-second tool to confirm your panel configuration is compatible with the inverter you are considering.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
-
-For buyers who have narrowed the decision to Growatt vs Solis and are primarily deciding on upfront price, both brands are reasonable choices within their 5-year warranty window. For buyers who are thinking about what the system costs over 12 years, not just at installation, [request a quote at contact-us](/contact-us/) and ask for a total-cost comparison that includes the warranty replacement scenario, most buyers find the numbers change the decision.
+[Contact Qbits](/contact-us/) with your array and phase for a model-specific comparison against any shortlisted brand.

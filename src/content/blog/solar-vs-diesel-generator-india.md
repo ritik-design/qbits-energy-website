@@ -195,7 +195,7 @@ A textile accessories manufacturer in Tirupur runs a 50 kW DG set for eight hour
 
 Even in a scenario where the factory runs the DG only four hours per day (half displacement), the payback stretches to 14 months and the IRR lands at 31%, still well above any reasonable cost of capital.
 
-This is why diesel-replacement solar is the highest-IRR solar application in India. It is not just about the solar savings, it is about the terrifying cost of the counterfactual. For more context on payback calculations, see our detailed post on [solar inverter payback period in India](/blog/solar-inverter-payback-period-in-india/).
+This is why diesel-replacement solar is the highest-IRR solar application in India. It is not just about the solar savings, it is about the terrifying cost of the counterfactual. For more context on payback calculations, see our detailed post on [solar inverter payback period in India](/blog/solar-inverter-payback-period/).
 
 ## Solar vs Diesel Generator: Master Comparison Table
 

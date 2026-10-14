@@ -112,7 +112,7 @@ The datasheets also state a power-factor range for the same models, which the [p
 
 ## Using kVA in inverter selection
 
-Check the exact [inverter datasheet](/download-datasheets/) for both **continuous kW and kVA**, permitted power-factor range, phase, output voltage and short-duration overload. A motor can require a higher starting current than its normal-running kW suggests. A site may also have a DISCOM contract-demand rule that uses a different measurement period or unit; inspect the actual tariff and bill.
+Check the exact [inverter datasheet](/download-datasheets/), starting from the [on-grid inverter range](/on-grid-inverter/), for both **continuous kW and kVA**, permitted power-factor range, phase, output voltage and short-duration overload. A motor can require a higher starting current than its normal-running kW suggests. A site may also have a DISCOM contract-demand rule that uses a different measurement period or unit; inspect the actual tariff and bill.
 
 The [solar inverter sizing guide](/blog/solar-inverter-sizing/) explains the full equipment choice. The [single versus three-phase guide](/blog/single-vs-3-phase-inverter/) explains how the choice between phases changes the arrangement. Avoid a universal "add 25%" home-sizing rule: the safe margin depends on the specified loads, start-up behaviour, product ratings and circuit design. Ask an installer to verify the load schedule rather than choosing solely from a kVA conversion.
 

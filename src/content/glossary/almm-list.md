@@ -198,7 +198,7 @@ The PLI scheme accelerated Indian module manufacturing capacity, with several gi
 | IS 14286 | Crystalline silicon module standard |
 | IS 16077 | Thin film module standard |
 | IS 16221 | Inverter safety |
-| IS 17387 | Inverter grid interconnection |
+| CEA Connectivity Regulations 2013 (as amended 2019) | Grid connection of distributed generation |
 | BIS certification | Quality compliance prerequisite |
 | NISE inspection protocol | Factory inspection |
 
@@ -232,7 +232,7 @@ For how ALMM List plays out in real projects, these guides go deeper:
 - MNRE Approved List of Models and Manufacturers (ALMM), current revision, Ministry of New and Renewable Energy.
 - MNRE Office Memorandum on ALMM, original and amendment orders.
 - National Institute of Solar Energy (NISE) inspection guidelines.
-- IS 14286, IS 16077, IS 16221, IS 17387, Bureau of Indian Standards.
+- IS 14286, IS 16077, IS 16221, Bureau of Indian Standards.
 - MNRE Annual Reports on ALMM compliance.
 - Press Information Bureau releases on ALMM revisions.
 - Solar industry trade association publications.

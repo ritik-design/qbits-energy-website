@@ -158,7 +158,7 @@ Consider a household in Muzaffarpur (NBPDCL area) with 8 hours daily outage, con
 
 The hybrid system eliminates both grid electricity costs during the day and DG dependence during outages, the combined saving is the key differentiator for Bihar over states with reliable grids.
 
-For full payback methodology, see the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) and the [on-grid vs hybrid ROI comparison](/blog/on-grid-vs-hybrid-solar-inverters-roi/). If you want to model your own household's numbers against a different tariff or DG fuel cost, [SurgePV's financial modeling tool](https://surgepv.com/generation-financial-tool/){target="_blank" rel="noopener"} lets you adjust the same variables used in this case study.
+For full payback methodology, see the [solar inverter payback period guide](/blog/solar-inverter-payback-period/) and the [on-grid vs hybrid ROI comparison](/blog/on-grid-vs-hybrid-solar-inverters-roi/). If you want to model your own household's numbers against a different tariff or DG fuel cost, [SurgePV's financial modeling tool](https://surgepv.com/generation-financial-tool/){target="_blank" rel="noopener"} lets you adjust the same variables used in this case study.
 
 ## Where Qbits Fits in Bihar
 

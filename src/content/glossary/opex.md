@@ -72,7 +72,7 @@ OPEX, Operating Expenditure, is the recurring cost of running a solar plant over
 > - OPEX typically escalates 3 to 5 percent per year and sits in the numerator of the LCOE formula, so higher OPEX raises LCOE.
 > - RESCO PPAs require the developer to carry OPEX for the full contract term, typically 15 to 25 years.
 
-OPEX is one of two cost categories in solar lifecycle economics, alongside [CAPEX](/glossary/capex/). While CAPEX dominates the cost structure of solar (typically 80 to 90 percent of lifecycle cost), OPEX directly affects net cash flow and [LCOE](/glossary/lcoe/). Lower OPEX means more revenue retained per kWh sold. Buyers weighing the two models in detail can compare them in the [CAPEX vs OPEX decision guide for C&I buyers](/blog/solar-capex-vs-opex-india-guide/).
+OPEX is one of two cost categories in solar lifecycle economics, alongside [CAPEX](/glossary/capex/). While CAPEX dominates the cost structure of solar (typically 80 to 90 percent of lifecycle cost), OPEX directly affects net cash flow and [LCOE](/glossary/lcoe/). Lower OPEX means more revenue retained per kWh sold. Buyers weighing the two models in detail can compare them in the [CAPEX vs OPEX decision guide for C&I buyers](/blog/solar-capex-vs-opex-business-india/).
 
 For Indian solar, utility-scale OPEX typically runs ₹5 to ₹12 lakh per MW per year. C&I rooftop runs ₹4 to ₹8 lakh per MW per year. Residential rooftop OPEX is around ₹3,000 to ₹8,000 per kW per year, often bundled into AMC packages.
 
@@ -275,7 +275,7 @@ QBits Energy structures and executes comprehensive O&M contracts for utility, C&
 
 For how OPEX plays out in real projects, these guides go deeper:
 
-- [Solar CAPEX vs OPEX: The C&I Buyer Decision Guide](/blog/solar-capex-vs-opex-india-guide/)
+- [Solar CAPEX vs OPEX: The C&I Buyer Decision Guide](/blog/solar-capex-vs-opex-business-india/)
 - [Zero Cost Solar India: RESCO & OPEX Models](/blog/zero-cost-solar-resco-opex-india/)
 - [Solar CAPEX vs OPEX: Which Model Fits Your Business?](/blog/solar-capex-vs-opex-business-india/)
 - [Solar RESCO Model India: Guide for C&I Buyers](/blog/solar-resco-model-india-guide/)

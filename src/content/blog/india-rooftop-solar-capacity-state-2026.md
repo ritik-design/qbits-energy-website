@@ -98,7 +98,7 @@ Four states consistently lead India's rooftop solar rankings. Understanding why 
 
 ### Gujarat: The Rooftop Solar Champion
 
-Gujarat's leadership in rooftop solar is not accidental. The state has invested in solar policy since the Gujarat Solar Power Policy of 2009, predating national programmes by years. The [Surya Gujarat scheme](/blog/solar-subsidy-gujarat-2026/) (state-level residential subsidy) created installer infrastructure and consumer familiarity with rooftop solar that PM Surya Ghar then accelerated further.
+Gujarat's leadership in rooftop solar is not accidental. The state has invested in solar policy since the Gujarat Solar Power Policy of 2009, predating national programmes by years. The [Surya Gujarat scheme](/blog/surya-gujarat-scheme-guide/) (state-level residential subsidy) created installer infrastructure and consumer familiarity with rooftop solar that PM Surya Ghar then accelerated further.
 
 DISCOM performance is the most specific differentiator: Gujarat's DISCOMs (PGVCL, MGVCL, UGVCL, and DGVCL) have invested in digital processes for net metering applications. Average approval timelines in Gujarat are among the shortest in India at 15–30 days. Gujarat's retail electricity tariff of ₹5–₹7/unit creates adequate economic incentive for solar adoption, and the state's high [GHI of 5.5–6.0 kWh/m²/day](https://www.irena.org/solar) ensures strong generation yields.
 

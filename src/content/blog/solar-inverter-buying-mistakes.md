@@ -159,7 +159,7 @@ The problem: many inverter brands spend heavily on national advertising but have
 
 > **180+ days.** Estimated average time-to-repair for residential inverter failures where no local authorised service centre exists within 100 km, based on installer-reported data from Tier-2 and Tier-3 Indian towns. *Source - [Mercom India Solar Market Report, Q4 2025](https://www.mercomindia.com/).*
 
-The [solar inverter reliability index](/blog/solar-inverter-reliability-index/) tracks service network coverage by brand and state. The data consistently shows that brands with dedicated Tier-2/3 service presence resolve faults 3–4 times faster than those relying solely on centralised repair depots.
+The [solar inverter reliability guide](/blog/how-to-evaluate-solar-inverter-reliability/) tracks service network coverage by brand and state. The data consistently shows that brands with dedicated Tier-2/3 service presence resolve faults 3–4 times faster than those relying solely on centralised repair depots.
 
 ### How to Evaluate a Brand's Service Network Before You Buy
 

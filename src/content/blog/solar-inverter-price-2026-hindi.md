@@ -233,7 +233,7 @@ Do not compare only upfront price. Compare 10-year total cost of ownership:
 | Mid-tier (5-year warranty) | ₹22,000 | ₹22,000 (Year 7) | - | ₹44,000 |
 | Premium (model-specific written warranty) | ₹32,000 | Zero (warranty) | Zero (warranty) | ₹32,000 |
 
-The "expensive" premium inverter is cheapest over 10 years. This is the key insight most buyers miss when comparing quotes. Apna exact break-even samajhne ke liye [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) dekhein - price aur savings dono factor karke।
+The "expensive" premium inverter is cheapest over 10 years. This is the key insight most buyers miss when comparing quotes. Apna exact break-even samajhne ke liye [solar inverter payback period guide](/blog/solar-inverter-payback-period/) dekhein - price aur savings dono factor karke।
 
 ## ALMM Aur Inverter Documents Alag Check Karein
 

@@ -266,7 +266,7 @@ For how String Sizing plays out in real projects, these guides go deeper:
 - Manufacturer string sizing tools from Sungrow, Solis, Goodwe, Solax, Growatt, Deye.
 - PVsyst software documentation.
 - IS 14286, Indian Standard for crystalline silicon PV modules.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - MNRE Design Guidelines for Solar PV Plants.
 - IEC 61730, Module safety standards.
 - Inverter datasheets from major OEMs.

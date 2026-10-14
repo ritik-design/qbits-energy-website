@@ -17,7 +17,7 @@ quickFacts:
   industry: "Solar Power Electronics"
   primaryUse: "High-efficiency DC-to-AC conversion"
   commonUsers: "Inverter designers, EPCs, customers"
-  relevantStandards: "IEC 62109, IEC 61727, IS 17387"
+  relevantStandards: "IEC 62109, IEC 61727, CEA Connectivity Regulations"
   relatedTechnologies: "H5, H6, HERIC, NPC, T-type topologies"
 relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }
@@ -209,7 +209,7 @@ Utility central inverters from Sineng, Huawei, Sungrow use transformerless multi
 
 PM Surya Ghar residential installations use transformerless string inverters universally.
 
-CEA Grid Code and IS 17387 accommodate transformerless designs.
+The CEA connectivity regulations and inverter safety standards such as IEC 62109 accommodate transformerless designs.
 
 ## Standards and certifications
 
@@ -217,7 +217,7 @@ CEA Grid Code and IS 17387 accommodate transformerless designs.
 |---|---|
 | [IEC 62109](/glossary/iec-62109/)-2 | Particular requirements for inverters |
 | IEC 61727 | Utility interface |
-| IS 17387 | Indian grid interconnection |
+| CEA Connectivity Regulations 2013 (as amended 2019) | Grid connection of distributed generation |
 | IS 16221 | Indian inverter safety |
 
 ## Further reading
@@ -231,7 +231,7 @@ For how Transformerless Inverter plays out in real projects, these guides go dee
 
 - IEC 62109-1, -2, Inverter safety.
 - IEC 61727, Utility interface characteristics.
-- IS 17387, Indian grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - SMA HERIC and H5 patent documentation.
 - Teodorescu R., Liserre M., Rodriguez P., Grid Converters for Photovoltaic and Wind Power Systems, Wiley-IEEE.
 - NREL Power Electronics for Photovoltaic Systems.

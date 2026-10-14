@@ -253,7 +253,7 @@ PM Surya Ghar dovetails with the smart meter rollout under RDSS. Districts with 
 | MNRE ALMM | Equipment eligibility |
 | CEA Smart Meter Regulations 2023 | Meter standards |
 | State SERC net metering regulations | Billing framework |
-| IS 16221, IS 17387 | Inverter safety and grid interconnection |
+| IS 16221 | Inverter safety |
 | IS 14286 | PV module standard |
 | BIS certification | Equipment quality |
 
@@ -282,7 +282,7 @@ PM Surya Ghar Muft Bijli Yojana is India's most significant residential rooftop 
 For how PM Surya Ghar plays out in real projects, these guides go deeper:
 
 - [PM Surya Ghar Muft Bijli Yojana, Complete 2026 Guide](/blog/pm-surya-ghar-yojana-complete-guide/)
-- [Solar Subsidy in Gujarat 2026, Surya Gujarat](/blog/solar-subsidy-gujarat-2026/)
+- [Solar Subsidy in Gujarat 2026, Surya Gujarat](/blog/surya-gujarat-scheme-guide/)
 - [Surya Gujarat Scheme 2026: Amount, Eligibility, and How to Apply](/blog/surya-gujarat-scheme-guide/)
 - [Solar Subsidy in Uttar Pradesh 2026, UPNEDA](/blog/solar-subsidy-uttar-pradesh-2026/)
 
@@ -295,5 +295,5 @@ For how PM Surya Ghar plays out in real projects, these guides go deeper:
 - Press Information Bureau releases on scheme launch and progress, Government of India.
 - State DISCOM rooftop solar guidelines and empanelment lists.
 - State Electricity Regulatory Commission net metering regulations.
-- IS 16221, IS 17387 and IS 14286, Bureau of Indian Standards.
+- IS 16221 and IS 14286, Bureau of Indian Standards.
 - Ministry of Power and MNRE annual reports.

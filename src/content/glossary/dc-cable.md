@@ -276,5 +276,5 @@ For how DC Cable plays out in real projects, these guides go deeper:
 - UL 4703, US PV wire.
 - CEA Measures Relating to Safety and Electric Supply Regulations 2023.
 - Manufacturer documentation from Polycab, Havells, KEI, RR Kabel.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - IS 732, Indian wiring code.

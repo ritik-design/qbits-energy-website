@@ -302,7 +302,7 @@ Empanelled vendor chunne ki poori guide [solar installation kahan se karaye](/bl
 
 Subsidy ke baad net kharcha kitna padta hai, dekhein [solar panel lagane ka kharcha](/blog/solar-panel-lagane-ka-kharcha/).
 
-Sabhi rajyon ki tulna [solar subsidy 2026, all states](/blog/solar-subsidy-2026-all-states/) mein hai.
+Sabhi rajyon ki tulna [solar subsidy 2026, all states](/blog/solar-subsidy-all-states/) mein hai.
 
 ## Kuch Practical Scenarios Jo Aksar Confuse Karte Hain
 

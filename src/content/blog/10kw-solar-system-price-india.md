@@ -143,7 +143,7 @@ For proprietary firms and partnership firms, the benefit is computed at the appl
 - Net cost: ₹3,81,200
 - **Payback: 4.6 years**
 
-These are strong economics for any investment category. The full payback methodology with degradation adjustment is in the [solar payback period guide](/blog/solar-inverter-payback-period-in-india/).
+These are strong economics for any investment category. The full payback methodology with degradation adjustment is in the [solar payback period guide](/blog/solar-inverter-payback-period/).
 
 ## What Loads a 10kW System Handles
 

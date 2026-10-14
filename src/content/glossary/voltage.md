@@ -201,7 +201,6 @@ State DISCOM tariffs increasingly include voltage-based slabs for HT and EHT cus
 | IS 12360 | Preferred voltage levels |
 | IEC 60038 | Standard voltages |
 | CEA Grid Code | Voltage envelopes |
-| IS 17387 | Inverter grid interconnection |
 
 ## Key takeaways
 
@@ -221,7 +220,6 @@ For how Voltage plays out in real projects, these guides go deeper:
 - IS 12360, Voltage bands for electrical installations.
 - IEC 60038, Standard voltages.
 - CEA Technical Standards for Connectivity to the Grid 2019.
-- IS 17387, Inverter grid interconnection.
 - IEEE Standard Dictionary of Electrical and Electronics Terms.
 - NREL Solar Cell Physics.
 - ITRPV Roadmap.

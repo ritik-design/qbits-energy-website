@@ -247,7 +247,7 @@ For how RCCB plays out in real projects, these guides go deeper:
 - IS 12640-1, -2, Indian Standard for residual current circuit breakers.
 - IEC 61008-1, IEC 61009-1, International RCD standards.
 - CEA Measures Relating to Safety and Electric Supply Regulations 2023.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - IS 732, Indian wiring code.
 - Manufacturer technical documentation from Havells, Legrand, Schneider, Siemens, ABB.
 - IEC 60364-4-41, Protection for safety: Protection against electric shock.

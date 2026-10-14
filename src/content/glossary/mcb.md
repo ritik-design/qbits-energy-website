@@ -252,4 +252,4 @@ For how MCB plays out in real projects, these guides go deeper:
 - CEA Measures Relating to Safety and Electric Supply Regulations 2023.
 - IS 732, Indian wiring code.
 - Manufacturer technical documentation from Havells, Legrand, Schneider, Siemens, ABB.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.

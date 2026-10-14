@@ -146,7 +146,7 @@ Assume a 50-room property in Pune with a ₹1.5 Lakh/month electricity bill and 
 | Simple payback (on net capex) | ~3.1 years |
 | Net savings over 20 years | ~₹3.0 crore |
 
-For a hotel that also displaces diesel generator costs during outages, add the DG cost saving to the numerator, typical DG running cost is ₹20–25/unit versus ₹10 grid or ₹5 PPA. Hotels evaluating RESCO as an alternative to CAPEX can compare the two approaches in detail at the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-india-guide/). Hotel finance teams comparing multiple EPC quotations often use a dedicated [solar cost estimation tool](https://quickestimate.co/pricing/) to standardise line-item comparisons across vendors before committing capital.
+For a hotel that also displaces diesel generator costs during outages, add the DG cost saving to the numerator, typical DG running cost is ₹20–25/unit versus ₹10 grid or ₹5 PPA. Hotels evaluating RESCO as an alternative to CAPEX can compare the two approaches in detail at the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/). Hotel finance teams comparing multiple EPC quotations often use a dedicated [solar cost estimation tool](https://quickestimate.co/pricing/) to standardise line-item comparisons across vendors before committing capital.
 
 ## EV Charging Integration
 

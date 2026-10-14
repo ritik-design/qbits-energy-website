@@ -181,6 +181,8 @@ That makes load measurement more important here than in a net metered design, wh
 
 For broader billing distinctions, see [gross versus net metering](/blog/gross-metering-vs-net-metering/).
 
+For commercial and industrial sites, the [factory inverter guide](/blog/solar-inverter-for-factory/) and the [C&I solutions](/c-i-solution/) page cover how export limits fit into a larger plant, and the exact model's datasheet should state whether it supports export limiting.
+
 ## Advantages and limitations
 
 **Advantages.** It can allow solar where export is not permitted or not wanted. It pushes the design toward self-consumption, which matters under time-of-use tariffs and where surplus earns nothing. It keeps injection off a feeder that cannot take it, and it can be combined with a battery that absorbs surplus.

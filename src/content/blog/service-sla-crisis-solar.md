@@ -92,7 +92,7 @@ But that is only the visible cost. The hidden costs are larger and they hit the 
 
 The full economic cost of a 6-week downtime event on a 5 kW residential system (combining lost savings, continued DISCOM billing, continued loan EMI, and foregone net metering credits) runs to ₹18,000–₹28,000 in the affected period. That is equivalent to 7–10% of the original system cost, incurred in a single failure event. [IRENA's 2025 report on distributed solar finance](https://www.irena.org/) notes that the payback period sensitivity to downtime events is significantly underestimated in most project financial models in emerging markets.
 
-For commercial installations, the numbers scale sharply. Our own analysis of [solar inverter downtime](/blog/solar-inverter-downtime/) shows a 100 kW commercial system losing ₹2,000–₹3,500 per day in generation alone. A 4-week outage costs ₹56,000–₹98,000 in lost generation, without counting the cost of a replacement inverter.
+For commercial installations, the numbers scale sharply. Our own analysis of [solar inverter downtime](/blog/solar-inverter-failure-action/) shows a 100 kW commercial system losing ₹2,000–₹3,500 per day in generation alone. A 4-week outage costs ₹56,000–₹98,000 in lost generation, without counting the cost of a replacement inverter.
 
 ## Why This Is Structural: The Assembler Problem
 

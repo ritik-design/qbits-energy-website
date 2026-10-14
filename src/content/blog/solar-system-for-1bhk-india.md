@@ -166,7 +166,7 @@ This decision deserves an honest table. Many installers push 2kW even for no-AC 
 - Net cost: ₹55,000
 - **Payback: 2.6 years**
 
-The 2kW system pays back faster in absolute years because the higher consumption home saves more per unit of solar generated. This is consistent with what the [solar payback period methodology](/blog/solar-inverter-payback-period-in-india/) shows for different consumption levels.
+The 2kW system pays back faster in absolute years because the higher consumption home saves more per unit of solar generated. This is consistent with what the [solar payback period methodology](/blog/solar-inverter-payback-period/) shows for different consumption levels.
 
 ## Which Inverter for a 1 BHK?
 

@@ -17,7 +17,7 @@ quickFacts:
   industry: "Grid Compliance / Power Electronics"
   primaryUse: "Grid support and stability"
   commonUsers: "Utility developers, C&I customers, DISCOMs"
-  relevantStandards: "IEEE 1547-2018, UL 1741 SA/SB, CEA Grid Code 2019, IS 17387"
+  relevantStandards: "IEEE 1547-2018, UL 1741 SA/SB, CEA Grid Code 2019"
   relatedTechnologies: "Reactive power, FRT, EMS"
 relatedTerms:
   - { slug: "reactive-power", term: "Reactive Power" }
@@ -222,7 +222,6 @@ PM Surya Ghar residential under 10 kW: smart functions optional but capable.
 | IEEE 1547-2018 | US smart inverter requirements |
 | UL 1741 SA / SB | US certification |
 | CEA Grid Code 2019 | Indian requirements |
-| IS 17387 | Indian grid interconnection |
 | IEC 61727 | Utility interface |
 | IEC TR 61850-90-7 | Smart inverter communication |
 
@@ -240,7 +239,6 @@ For how Smart Inverter plays out in real projects, these guides go deeper:
 - IEEE 1547-2018, Distributed Energy Resources Interconnection.
 - UL 1741 SA and SB, US smart inverter standard.
 - CEA Technical Standards for Connectivity to the Grid 2019.
-- IS 17387, Indian grid interconnection.
 - IEC 61727, Utility interface characteristics.
 - NREL Smart Inverter Functions documentation.
 - Sandia National Laboratories Smart Inverter Studies.

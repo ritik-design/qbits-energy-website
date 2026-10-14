@@ -158,7 +158,7 @@ The 13,000 kWh generation difference between budget and quality over 25 years eq
 - Annual savings: ₹10,731
 - **Payback: 4.2 years**
 
-For the full payback methodology with degradation rates and tariff escalation, see the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/). Homeowners who want a rough estimate before requesting quotes can also run their bill through Heaven Green Energy's solar savings calculator.
+For the full payback methodology with degradation rates and tariff escalation, see the [solar inverter payback period guide](/blog/solar-inverter-payback-period/). Homeowners who want a rough estimate before requesting quotes can also run their bill through Heaven Green Energy's solar savings calculator.
 
 ## State-Wise Under-₹1 Lakh Net Cost Reality
 

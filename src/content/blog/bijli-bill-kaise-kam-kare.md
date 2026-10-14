@@ -188,7 +188,7 @@ Maan lijiye ek ghar 420 units per month use karta hai aur effective rate ₹7.5 
 
 Is illustration mein efficiency alone se bill ₹3,150 se ₹2,160 par aaya, yaani lagbhag 31% kam, bina solar ke। Uske baad 3 kW solar ne baaki bill ka bada hissa hata diya। Numbers aapke tariff, irradiance aur usage pattern par depend karte hain, yeh sirf method dikhane ke liye hai।
 
-3 kW system ka gross cost typically ₹1.5 lakh se ₹1.85 lakh hota hai, subsidy ke baad net ₹72,000 se ₹1.07 lakh। Us investment par payback aam taur par 3 se 6 saal aata hai, aur exact math samajhne ke liye [solar payback period ki guide](/blog/solar-inverter-payback-period-in-india/) dekhein।
+3 kW system ka gross cost typically ₹1.5 lakh se ₹1.85 lakh hota hai, subsidy ke baad net ₹72,000 se ₹1.07 lakh। Us investment par payback aam taur par 3 se 6 saal aata hai, aur exact math samajhne ke liye [solar payback period ki guide](/blog/solar-inverter-payback-period/) dekhein।
 
 ## Kaun Sa Tarika Aapke Liye Pehle Hai
 

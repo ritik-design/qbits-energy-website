@@ -214,7 +214,7 @@ State variations matter most in three situations: when the property is in an are
 
 ALMM applies to solar modules and cells, and MNRE publishes no ALMM list for inverters. The inverter is checked separately, through the exact model's BIS registration and current certificates and your DISCOM's connection requirements, so ask the vendor for these documents before you sign.
 
-The payback period calculation changes significantly when the subsidy is lost. Our analysis of [solar inverter payback periods in India](/blog/solar-inverter-payback-period-in-india/) shows that the ₹78,000 central subsidy reduces payback time by 1.5 to 2.5 years for a typical 3 kW residential system, a difference substantial enough to make inverter selection a financial decision, not just a technical one.
+The payback period calculation changes significantly when the subsidy is lost. Our analysis of [solar inverter payback periods in India](/blog/solar-inverter-payback-period/) shows that the ₹78,000 central subsidy reduces payback time by 1.5 to 2.5 years for a typical 3 kW residential system, a difference substantial enough to make inverter selection a financial decision, not just a technical one.
 
 ## Common Eligibility Mistakes and How to Avoid Them
 

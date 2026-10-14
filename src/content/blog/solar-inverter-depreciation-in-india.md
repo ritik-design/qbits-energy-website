@@ -72,7 +72,7 @@ Purchase decision tab bhi viable hona chahiye jab reviewed benefit delayed ya lo
 
 **Lease or financed purchase:** Legal ownership, accounting treatment and tax treatment agreement par depend karte hain. “No upfront cost” ya monthly EMI wording ownership establish nahi karti.
 
-[CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-india-guide/) commercial structure samjhata hai, lekin final tax position contract-specific rahegi.
+[CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/) commercial structure samjhata hai, lekin final tax position contract-specific rahegi.
 
 ## Put-to-use evidence kya hai?
 

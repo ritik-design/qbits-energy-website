@@ -165,7 +165,7 @@ We have not printed a Chennai worked example, because a payback built on a guess
 | Exported units | Valued at the export rate in your TNERC order |
 | Simple payback | Net outlay divided by annual benefit |
 
-For reference, the MNRE benchmark for a 3 kW system is ₹1,45,000, and central assistance of ₹78,000 is about 54 percent of it. Real quotations differ in both directions. The [solar inverter payback guide](/blog/solar-inverter-payback-period-in-india/) explains the method, and the [solar quotation checklist](/blog/solar-quotation-checklist/) shows what an itemised quote should contain. If you plan to borrow, see the [bank solar loan comparison](/blog/best-bank-solar-loan-india-2026/); MNRE's guidelines say standardised low-interest loan products at around the repo rate plus 50 basis points are to be offered for systems up to 3 kW (clause 6r), and individual banks set their own rates, limits and terms.
+For reference, the MNRE benchmark for a 3 kW system is ₹1,45,000, and central assistance of ₹78,000 is about 54 percent of it. Real quotations differ in both directions. The [solar inverter payback guide](/blog/solar-inverter-payback-period/) explains the method, and the [solar quotation checklist](/blog/solar-quotation-checklist/) shows what an itemised quote should contain. If you plan to borrow, see the [bank solar loan comparison](/blog/best-bank-solar-loan-india-2026/); MNRE's guidelines say standardised low-interest loan products at around the repo rate plus 50 basis points are to be offered for systems up to 3 kW (clause 6r), and individual banks set their own rates, limits and terms.
 
 ## If TNPDCL delays or rejects your application
 

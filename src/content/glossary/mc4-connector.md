@@ -221,7 +221,7 @@ PM Surya Ghar residential installations use MC4 connectors universally.
 | TUV 2 PfG 1161/08.07 | PV connector certification |
 | IEC 62852 | PV connector safety |
 | UL 6703 | US PV connector standard |
-| IS 17387 | Inverter grid interconnection |
+| CEA Connectivity Regulations 2013 (as amended 2019) | Grid connection of distributed generation |
 
 ## Common mistakes
 
@@ -259,7 +259,7 @@ For how MC4 Connector plays out in real projects, these guides go deeper:
 - UL 6703, US standard for PV connectors.
 - Stäubli MC4 and MC4-Evo technical documentation.
 - Amphenol H4 PV connector documentation.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - IEC 62548, PV array design.
 - IEA PVPS Task 13 Report on field failures.
 - NREL Technical Reports on PV connector reliability.

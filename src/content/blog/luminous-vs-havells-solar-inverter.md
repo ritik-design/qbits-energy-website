@@ -4,7 +4,7 @@ excerpt: "Luminous vs Havells solar inverter compared on range, efficiency, warr
 description: "Luminous vs Havells solar inverter comparison for India in 2026: on-grid and off-grid range, efficiency, warranty terms, service network, real prices, and which brand fits which home."
 category: "Comparison"
 date: 2026-07-23
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-luminous-vs-havells-solar-inverter.webp"
 author: "Nirav Dhanani"
@@ -16,19 +16,19 @@ keywords:
   - best indian solar inverter brand
 faqs:
   - q: "Which is better, Luminous or Havells solar inverter?"
-    a: "Neither brand is universally better; they suit different buyers. Havells is stronger for on-grid rooftop systems: its Enviro GTi range offers 97.5% to 98.7% efficiency, built-in zero export, and a 10-year standard warranty. Luminous is stronger if you need battery backup, because it sells solar PCU and off-grid units alongside its NXI grid-tie range, with a service footprint built on its home inverter and battery business. For a 3 kW to 5 kW on-grid home system, Havells usually wins on warranty length. For a backup-first setup in a power-cut area, Luminous is the more practical pick."
-  - q: "What is the price of a Havells 5 kW solar inverter in India in 2026?"
-    a: "The Havells Enviro GTi 5000 D (5 kW, single phase) carries an MRP of about ₹60,150 including taxes, according to Havells India's official solar page, 2026. Street prices through distributors typically run ₹45,000 to ₹58,000 depending on city and installer margin. The larger GTi 11000 TX (10 kW, three phase) sells around ₹76,000 to ₹85,000. These are inverter-only prices; panels, structure, cabling, and installation are extra."
-  - q: "What is the price of a Luminous 5 kW solar inverter in India in 2026?"
-    a: "The Luminous NXI 150 (5 kW, single phase, grid-tie) has an MRP near ₹84,299 but a street price of roughly ₹42,000 to ₹55,000 through dealers in 2026. The NXI 130 (3 kW) sells around ₹35,000 to ₹40,000, and the entry NXI 120 is listed near ₹19,999 on the Luminous India website. Deep MRP-to-street discounts are normal in this category, so always compare at least two dealer quotes rather than the printed MRP."
+    a: "Neither brand is universally better, and the answer depends on the exact model and your site. In the 5 kW grid-tie class the Havells catalogue publishes the full electrical datasheet (two MPPTs, 80 to 550 V window, 15 A per tracker, 10-year warranty line), while the Luminous product pages state the warranty, enclosure and efficiency claims but not the MPPT count or DC voltage range. Ask for the datasheet for the exact Luminous variant before comparing."
   - q: "What warranty do Luminous and Havells offer on solar inverters?"
-    a: "Havells offers a 10-year standard warranty across its Enviro GTi grid-tie range, according to its published datasheets and distribution partners. Luminous typically ships its NXI range with a 5-year standard warranty, and some dealers advertise 10 years as 5 years standard plus 5 years extended, which can carry registration requirements or different terms. The duration is only one clause: ask whether the remedy is repair or replacement, when the clock starts, and who pays freight and labour, and get the certificate for the exact model in writing before paying."
+    a: "Havells prints 10 years on its Enviro GTi grid-tie datasheets. The Luminous NXI 150 page states 8 years standard plus 2 years extended, and the NXI T150 page states 10 years. Resellers quote other terms, so treat the written warranty for your exact model as binding. The years are only one clause: ask whether the remedy is repair or replacement, when the clock starts, and who pays freight and labour."
+  - q: "What is the price of a Havells or Luminous 5 kW solar inverter in India in 2026?"
+    a: "A printed MRP is not a price. On 14 October 2026 the Luminous pages showed an MRP of Rs 1,12,000 against a listed price of Rs 36,599 for the NXI 150, and the Havells pages reviewed showed no inverter price. These are inverter-only figures and neither is an installed quote. Get itemised quotes from two installers on identical scope."
   - q: "Do Luminous and Havells make hybrid solar inverters?"
-    a: "Havells does not currently sell a residential hybrid solar inverter in India; its solar range is on-grid only, from 1.1 kW to 255 kW. Luminous sells off-grid solar PCU and UPS-style units (NXG range, 850 VA to 1500 VA) that work with batteries, but these are not true hybrid string inverters with MPPT battery integration at the 3 kW to 10 kW residential scale. If you want a hybrid inverter that manages solar, grid, and a lithium battery together, you will need to look at dedicated hybrid brands such as Qbits, Deye, or Growatt."
+    a: "The Havells grid-tie catalogue reviewed lists no battery or hybrid inverter, and the two Luminous NXI pages reviewed are grid-tie models. If you want outage backup, compare hybrid models from whichever brand you shortlist, deciding the battery voltage class first, and obtain the written battery compatibility document for the exact inverter and battery."
   - q: "Are Luminous and Havells solar inverters ALMM listed?"
-    a: "MNRE's current ALMM page publishes PV module and cell lists, not a Luminous or Havells inverter list. Verify the exact proposed module and cell models, then check inverter certificates and DISCOM requirements separately."
+    a: "No inverter is, because ALMM publishes module (List-I) and cell (List-II) lists only. Neither brand's inverter pages reviewed claim an ALMM listing. For your quote, check the proposed module and cell models against the MNRE lists, and separately ask for each inverter model's BIS registration and the DISCOM's conditions."
   - q: "Which brand has a better service network in India, Luminous or Havells?"
-    a: "Luminous has the deeper solar service footprint, inherited from its home inverter and battery business that reaches most Indian districts, including Tier-3 towns. Havells has a strong electrical distribution network but its solar-specific service is concentrated in larger cities and works through channel partners. In metro and Tier-1 cities, both brands service adequately. In smaller towns, Luminous typically resolves issues faster because local technicians already stock its parts for the home UPS line."
+    a: "No published document supports a ranking, and service varies by district. Ask each seller for the named service partner covering your pincode, call that partner, and ask what spares they hold and how long recent claims on the exact model took. A brand's wider electrical or battery business is not the same thing as a solar service route."
+  - q: "Is the Luminous NXI 150 IP66 or IP65?"
+    a: "The Luminous NXI 150 product page lists IP66, while the newer NXI T150 page lists IP65, and some reseller listings for the NXI 150 show IP65. Ask Luminous for the datasheet of the exact unit you are quoted and check the enclosure rating on the nameplate."
 featured: false
 ---
 
@@ -36,136 +36,113 @@ featured: false
 
 Luminous and [Havells](/blog/havells-vs-polycab-solar/) are two of the most trusted names in Indian electricals. Both sit in millions of Indian homes already, one through home inverters and batteries, the other through switchgear, fans, and wiring. So when a family in Jaipur or Coimbatore shortlists a solar inverter, these two brands come up almost automatically. Often the same electrician who wired the house suggests them.
 
-But brand trust in one category does not transfer cleanly to another. Solar inverters are not switchgear. They are power electronics that sit on your roof for 15 to 25 years and handle 40-plus degree summers. They also decide whether your ₹78,000 [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy gets released. The right question is not which brand you recognise. It is which product line, warranty, and service model fits your specific home.
+But brand trust in one category does not transfer cleanly to another. Solar inverters are not switchgear. They are power electronics that sit on your roof for many years and handle Indian summers. They also sit inside the process that releases your [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy. The right question is not which brand you recognise. It is which product line, warranty, and service model fits your specific home.
 
-If you are still deciding between on-grid, hybrid, and off-grid topologies, read the [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) first. This post assumes you have shortlisted these two Indian brands and want a straight answer.
+If you are still deciding between on-grid, hybrid, and off-grid topologies, read the [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) first. This post assumes you have shortlisted these two brands and want the documents side by side. Every figure below is copied from a Luminous or Havells page or datasheet that was open on 14 October 2026, with the source named. Where a page does not state a figure, the table says so.
 
-**Two brands, two very different solar DNAs.** Luminous and Havells entered solar from opposite directions, and that history still shapes their product lines in 2026.
+> **Quick answers**
+> - The 5 kW class is the useful comparison: the Luminous NXI 150, the newer Luminous NXI T150 and the Havells Enviro GTi 5000 D-NG are the matching grid-tie models.
+> - Havells' catalogue datasheets list the full electrical set (voltage window, tracker count, current per tracker). Luminous's product pages do not state the MPPT count or the DC voltage range, so ask Luminous for the datasheet.
+> - Warranty lines as published: Havells 10 years on the Enviro GTi datasheets, Luminous NXI 150 "8 years standard plus 2 years extended", Luminous NXI T150 10 years.
+> - Printed MRPs are not prices. Compare itemised quotes on identical scope.
+> - ALMM covers modules and cells, not inverters. Ask for the exact model's BIS registration and certificates.
 
-Luminous built its name on home inverters and batteries, the backup-power category. Schneider Electric acquired it in 2011. Its solar business grew out of that base: solar PCU units, solar batteries, and later the NXI grid-tie range. The result is a backup-heavy catalogue and a service network inherited from the home UPS trade, reaching deep into Tier-2 and Tier-3 towns.
+## Two brands, two backgrounds
 
-Havells built its name on switchgear, wiring, fans, and appliances. Its solar play is narrower and more focused: the Enviro GTi on-grid range. It runs from a 1.1 kW residential unit up to a 255 kW utility-scale machine, according to [Ornate Solar, 2026](https://ornatesolar.com/havells-india). No batteries, no off-grid PCU, no hybrid. Havells treats solar as a grid-tied generation product, not a backup product.
+Luminous built its name on home inverters and batteries. Its inverters are made by Luminous Power Technologies Pvt. Ltd., which its product pages name as manufacturer and marketer, with plants in Himachal Pradesh. Havells built its name on switchgear, wiring, fans and appliances. Its solar grid-tie catalogue (Havells Solar Grid-Tie Inverter, 1 kW to 350 kW) is a grid-tie range, and the catalogue reviewed lists no battery or hybrid inverter.
 
-This difference explains almost every tradeoff in this comparison. Pick Luminous and you get backup-friendly products and small-town service. Pick Havells and you get a tighter on-grid product with a longer standard warranty.
+That difference explains why the two lines are comparable only on grid-tie. If battery backup is on your list, the grid-tie models below do not provide it, and the comparison moves to hybrid models from whichever brand you shortlist. The [hybrid buying guide](/blog/best-hybrid-solar-inverter-india-2026/) covers the framework.
 
-## Product Range: What Each Brand Actually Sells
+## Product ranges as published
 
-The DNA difference above shows up directly in the catalogues. Range matters because most Indian homes need 3 kW to 5 kW, and the options thin out fast above and below that band.
+**Luminous.** The Luminous India site lists the NXI 150 (5 kW, single phase, on-grid) and the NXI T150 (5 kW, single phase, on-grid), with 3 kW and 10 kW variants shown on the NXI T150 page and a capacity selector that also lists three-phase variants. Both pages describe MPPT technology and remote monitoring.
 
-**Luminous range (2026):**
+**Havells.** The Havells grid-tie catalogue covers the Enviro GTi NG single-phase single-MPPT models (1.1, 2.2, 3.0 and 3.3 kW), the Enviro GTi D dual-MPPT single-phase models (4, 5 and 6 kW), D-NG variants, three-phase TX models from 5 kW, and larger commercial models up to 350 kW. Havells' solar page also lists packaged GREEHA residential kits at 3.3 kW and 5 kW.
 
-- NXI grid-tie inverters, 1 kW to 150 kW, single and three phase. Residential workhorses are the NXI 120 (2 kW class), NXI 130 (3 kW), and NXI 150 (5 kW).
-- NXG solar UPS range, 850 VA to 1500 VA, for small off-grid backup setups.
-- Solarverter and solar PCU units paired with 150 Ah to 200 Ah solar batteries, per the [Luminous solar catalogue, 2023](https://www.luminous-global.com/pdf/Solar_2023_e-catalogue_English.pdf).
+## Matched 5 kW specification comparison
 
-**Havells range (2026):**
-
-- Enviro GTi NG, 1.1 kW to 3.3 kW single phase, for homes.
-- Enviro GTi TX, 5 kW and 10 kW, for larger homes and small commercial.
-- Enviro GTi TD (20 kW to 30 kW), GTi KT (50 kW to 100 kW), and Enviro HV (255 kW) for commercial and utility projects.
-
-The gap is obvious: Luminous covers the backup and off-grid segment; Havells does not. And neither sells a true hybrid string inverter at residential scale, meaning an inverter that manages solar, grid, and a lithium battery through one MPPT-integrated unit. Luminous PCU units are closer to a UPS with solar charging than a modern hybrid. If hybrid is on your roadmap, the [best hybrid solar inverter in India](/blog/best-hybrid-solar-inverter-india-2026/) roundup covers the brands that specialise in it.
-
-## Specifications and Efficiency Compared
-
-On paper, the two brands are closer than marketing suggests. The differences show up in the details.
-
-| Specification | Luminous NXI 150 (5 kW) | Havells Enviro GTi 5000 D (5 kW) |
-| --- | --- | --- |
-| Type | On-grid, single phase | On-grid, single phase |
-| Max efficiency | Above 97% | About 98% |
-| IP rating | IP65 class | IP65 |
-| Zero export | Available on select models | Built in |
-| Monitoring | App and web portal | WiFi app, free for lifetime |
-| Cooling | Forced on larger units | Natural convection |
-| Operating temperature | Standard Indian range | -30 C to +60 C |
-| Certifications | BIS, IEC 61727, IEC 62116 | BIS, IEC 61727, IEC 62116 |
-
-Havells publishes efficiency figures up to 97.7% on the 3.3 kW NG unit, and up to 98.7% on larger models. Source: [Havells India, 2026](https://havells.com/home-electricals/solar/solar-on-grid-inverter-and-solutions.html). Luminous rates the NXI line at above 97% per its dealer datasheets.
-
-A 0.5 to 1 percentage point efficiency gap on a 5 kW system is worth roughly 0.3 to 0.5 units per day. At ₹8 per unit, that is ₹900 to ₹1,500 per year. Real money, but small next to warranty and service differences, which we cover next.
-
-One honest caveat: both brands rate IP65, which handles rain and dust on most rooftops. For coastal homes or fully exposed installations, IP66 units hold up better over 15 years. The [IP65 vs IP66 weather protection guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) explains when the difference matters.
-
-## Price Comparison: What You Actually Pay in 2026
-
-Printed MRPs in this category are fiction. Street prices through dealers run 30% to 50% lower, so compare quotes, not brochures.
-
-| Model | Size | MRP (approx.) | 2026 street price (approx.) |
+| Item | Luminous NXI 150 | Luminous NXI T150 | Havells Enviro GTi 5000 D-NG |
 | --- | --- | --- | --- |
-| Luminous NXI 120 | 2 kW, 1-ph | ₹68,000 | ₹19,999 to ₹28,000 |
-| Luminous NXI 130 | 3 kW, 1-ph | ₹55,000 | ₹35,000 to ₹40,000 |
-| Luminous NXI 150 | 5 kW, 1-ph | ₹84,299 | ₹42,000 to ₹55,000 |
-| Havells Enviro GTi 3300 NG | 3.3 kW, 1-ph | ₹31,278 | ₹22,000 to ₹27,000 |
-| Havells Enviro GTi 5000 D | 5 kW, 1-ph | ₹60,150 | ₹45,000 to ₹58,000 |
-| Havells Enviro GTi 11000 TX | 10 kW, 3-ph | ₹1,10,000 | ₹76,000 to ₹85,000 |
+| Rated output / phase | 5 kW, single phase | 5 kW, single phase | 5,000 W, single phase |
+| MPPT trackers | Not stated on the page | Not stated on the page | 2, one input each |
+| DC voltage range / maximum DC | Not stated | Not stated | MPPT 80 to 550 V; maximum 600 V; start-up 90 V |
+| Current per tracker | Not stated | Not stated | 15 A (short-circuit 22.5 A) |
+| Maximum apparent power | Not stated | Not stated | 5,500 VA |
+| Grid voltage range | Not stated | Not stated | 180 to 276 Vac (according to local standard) |
+| Current THD | Not stated | Not stated | below 3% |
+| Maximum efficiency | The page states both "up to 98.6%" and "up to 97.6%" | up to 98.4% | 98.4% (European 97.5%) |
+| MPPT efficiency | 99.5% | above 99.9% | above 99.9% |
+| Enclosure | IP66 | IP65 | IP65 |
+| Weight | 8.9 kg | 7 kg | 10 kg |
+| Operating temperature | -25 to 60 °C | -25 to 60 °C | -30 to +60 °C |
+| Monitoring | Display; optional RS485, GSM or Wi-Fi | Display; Wi-Fi, RS485, GPRS; ConnectX app | LCD; RS485 and USB, optional Wi-Fi or GPRS |
+| Export limiting | Not stated | Not stated | Zero export or adjustable limit listed on the single-phase D series |
+| Warranty on the page | "8 years standard + 2 years extended" | 10 years | 10 years |
+| Certification printed | None listed on the page | None listed on the page | IS 16221 (Part 2), IS 16169 and IEC 62109/62116 lines; BIS registration number printed in the catalogue |
 
-Sources: Luminous MRPs from the [Luminous India NXI 150 listing, 2026](https://www.luminousindia.com/product/grid-tie-inverternxi-150) and [Kenbrook Solar price list, 2025](https://kenbrooksolar.com/price-list/luminous-solar-panels-inverters-batteries-price/luminous-solar-inverter). Havells MRPs from [Havells India, 2026](https://havells.com/home-electricals/solar/solar-on-grid-inverter-and-solutions.html). Street prices are industry-observed ranges across dealer quotes; your city will vary.
+Sources: [Luminous NXI 150 product page](https://www.luminousindia.com/product/grid-tie-inverter-nxi-150) and [NXI T150 product page](https://www.luminousindia.com/solar-inverters/nxi-t150); [Havells Solar Grid-Tie Inverter catalogue](https://havells.com/media/wysiwyg/Manuals/Solar_Grid-Tie_Inverter.pdf) and the [Havells solar page](https://havells.com/home-electricals/solar/solar-on-grid-inverter-and-solutions.html). Havells' printed catalogue can lag its website, so ask for the current datasheet revision for your model.
 
-Two things stand out. First, Havells publishes honest MRPs close to street price, while Luminous MRPs are heavily discounted at the counter. Second, at 3 kW the two brands land within ₹5,000 of each other on real quotes. Price alone will not decide this comparison.
+### Reading the table
 
-Remember that the inverter is only 15% to 25% of a full system. A 5 kW rooftop system runs ₹2.5 Lakh to ₹3.5 Lakh all-in before subsidy. The [5 kW solar system price in India](/blog/5kw-solar-system-price-india/) post breaks down the full bill of materials.
+**What is missing matters.** The Havells catalogue publishes the electrical window and current limits you need to check a string. The Luminous product pages reviewed do not. That does not mean the Luminous model lacks them. It means a buyer cannot design a string from the web page alone, and should ask the supplier for the datasheet for the exact variant before comparing voltage windows. Resellers list different figures for the NXI 150, and some describe other versions of the product, so use the manufacturer's document, not a reseller's.
 
-## Warranty and Service: Where the Real Difference Lives
+**Efficiency.** The Luminous NXI 150 page contradicts itself on maximum efficiency (98.6% in the description, 97.6% in a bullet). Ask which figure belongs to the unit supplied, and under which test conditions. A difference of a few tenths of a percentage point is small compared with string design, shading and clipping.
 
-This is the section that should drive your decision, because a solar inverter is a 15-year asset and the warranty is your only insurance on it.
+**Enclosure.** The Luminous NXI 150 page lists IP66, and the NXI T150 and the Havells D-NG list IP65. IP66 withstands powerful water jets. For a covered wall mount it may not matter. For an exposed or coastal roof, read the exact model's rating. The [IP65 vs IP66 guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) explains the difference.
 
-**Havells warranty.** Havells offers a 10-year standard warranty across the Enviro GTi range. Its official solar page and distribution partners like [Ornate Solar, 2026](https://ornatesolar.com/havells-india) confirm this. Ten years standard, not extended, not conditional. Among large Indian electrical brands, this is the best printed warranty term in the on-grid category. Havells service runs through its channel partner network, which is strong in metros and Tier-1 cities but thinner for solar-specific issues in smaller towns.
+**Warranty.** The Havells catalogue prints 10 years on the Enviro GTi datasheets reviewed. The Luminous NXI 150 page states "8 years standard + 2 years extended", and the NXI T150 page states 10 years. Several resellers describe other terms, so treat the written warranty for your SKU as the only binding figure.
 
-**Luminous warranty.** Luminous typically ships the NXI range with 5 years standard warranty. Several dealers advertise 10 years, structured as 5 years standard plus 5 years extended. The extended half sometimes requires registration or carries different terms, so get the warranty certificate in writing before paying. Where Luminous wins back ground is service depth: its technician network, built on the home UPS business, reaches most Indian districts. In a Tier-3 town, a Luminous failure often gets a same-week visit. A smaller brand might take three.
+## Printed MRP is not a price
 
-**The subsidy angle.** Use the current official portal and DISCOM process for the applicant. Verify the applicable module/cell requirements and exact inverter documents separately. A brand-level “ALMM inverter” statement is not evidence. The [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) explains what to confirm before relying on an amount.
+A printed MRP on a manufacturer's page says little about what you pay. On 14 October 2026 the Luminous pages showed an MRP of ₹1,12,000 against a listed price of ₹36,599 for the NXI 150, and an MRP of ₹1,15,000 against ₹37,449 for the NXI T150, both stated as inclusive of taxes. A listed price on an online page can change, and neither it nor an MRP is an installed quote. The Havells pages reviewed show no inverter price.
 
-> **What most buyers get wrong.** They compare warranty years, not warranty terms. A 10-year warranty that covers only parts, or that prorates after year five, is worth far less than an 8-year warranty with a written remedy. Ask both dealers one question: if the inverter dies in year seven, do I get a new unit, a repaired unit, or a depreciated credit? The answer changes the math more than any efficiency figure.
+For a real comparison, ask two installers for itemised quotes on identical scope: the same array, mounting, cabling, protection, monitoring, DISCOM application and commissioning, with exclusions written out. The inverter is one line item in a full system, and the [full system price guide](/blog/5kw-solar-system-price-india/) explains the rest of the bill of materials. GST on solar equipment moved to 5% for the specified items from 22 September 2025, so confirm how your installer has classified a composite supply.
 
-## Pros and Cons: Luminous vs Havells
+## Warranty and service
 
-Here is the honest scorecard, with credit given where due to both.
+A solar inverter is a long-life asset and the warranty is your recourse, so read the terms and not just the years. Neither the Luminous pages nor the Havells catalogue states, in the documents reviewed, the remedy (repair or replacement), who pays freight and labour, the registration deadline or the exclusions. Ask each seller for the document that names them, and ask the question that decides most claims: if the inverter fails in year seven, do I get a new unit, a repaired unit, or a depreciated credit?
 
-| | Luminous | Havells |
-| --- | --- | --- |
-| **Pros** | Widest service reach, including Tier-3 towns · Off-grid PCU and battery ecosystem for backup needs · Aggressive street pricing · Backed by Schneider Electric · Easy local technician availability | 10-year standard warranty, best among big Indian electrical brands · Higher efficiency (up to 98.7%) · Built-in zero export on residential models · Free lifetime app monitoring · Honest MRP-to-street pricing |
-| **Cons** | 5-year standard warranty is short for a 15-year asset · Extended warranty terms vary by seller · Efficiency trails Havells slightly · No true hybrid string inverter at 3 kW to 10 kW · Monitoring app is functional, not polished | On-grid only, no backup or battery products · Solar service concentrated in larger cities · No hybrid option for power-cut homes · IP65 only, no IP66 residential model · Smaller solar-specific installer base |
+On service, this page makes no claim about which brand reaches smaller towns faster, because no published document supports a ranking. What you can do is ask each seller for the named service partner for your pincode, call that partner, and ask what they stock and what their recent turnaround on the exact model has been. A brand's wider electrical or battery business is not the same thing as a solar service route. Whichever brand you pick, put the model, serial number, invoice, commissioning date and the first month's generation record in one handover file, because the [warranty claim guide](/blog/solar-inverter-warranty-claim/) shows these are the documents a claim asks for first.
 
-Neither list contains a disqualifier. Both are safe, reputable buys for the right home. The mistake is buying the wrong topology: a Havells on-grid unit in a district with 4-hour daily cuts. Or a Luminous PCU setup when a subsidised on-grid system would have paid back twice as fast.
+## Hybrid and backup
 
-For more head-to-head context, see how Luminous stacks up against other Indian brands in [Luminous vs Microtek](/blog/luminous-vs-microtek-comparison/) and [UTL vs Luminous](/blog/utl-vs-luminous-comparison/).
+The grid-tie models above shut down in a grid outage. If you want outage backup, you need a hybrid inverter or a separate backup arrangement, and the right choice depends on the battery. Hybrid models differ in battery voltage class and in backup rating, for example a low-voltage 48 V class battery against a high-voltage battery with a 600 V class window, so decide the battery first. The [battery sizing guide](/blog/battery-sizing-hybrid-solar/) starts from your loads. For hybrid datasheets from other brands, see the [Growatt review](/blog/growatt-solar-inverter-review-india/) and the [Sungrow vs Growatt comparison](/blog/sungrow-vs-growatt-comparison/).
 
-## The Tradeoff Neither Brand Solves: Hybrid and Long Warranty
+## ALMM and subsidy
 
-Here is the uncomfortable gap in both catalogues. Indian residential solar is moving toward two things: hybrid inverters with lithium battery integration, and warranties that match the 15-plus-year life of the system. Neither Luminous nor Havells leads on either.
+MNRE's ALMM page lists PV modules and cells, not inverters, so "ALMM-listed inverter" is not a valid claim for either brand. For the subsidy, use the current official portal and DISCOM process for the applicant, verify the module and cell requirements, and check the exact inverter's BIS registration and certificates separately. The [PM Surya Ghar subsidy guide](/blog/pm-surya-ghar-subsidy-amount/) explains what to confirm before relying on an amount.
 
-Battery prices have fallen to roughly ₹22,000 to ₹28,000 per kWh for LFP cells in 2026. At those prices, adding 5 kWh of storage to a home system costs about ₹1.1 Lakh to ₹1.4 Lakh. Payback in power-cut states is under five years. But you cannot bolt a modern lithium battery onto a Havells on-grid unit at all. And the Luminous PCU route gives you backup without net metering elegance or hybrid efficiency.
+## Which to choose when
 
-The exception, to be fair: if your grid is reliable and you will never want batteries, this gap does not matter. A Havells on-grid unit with its 10-year warranty is a genuinely good buy for a Bengaluru or Pune home. The tradeoff only bites buyers in UP, Bihar, MP, rural Maharashtra, and similar grids, or anyone planning storage within five years.
+These are starting points. The documents for your exact model and the service route for your pincode override them.
 
-Warranty is the second gap. Ten years (Havells) and five years (Luminous) both fall short of the 15 to 25 years your panels will last. A replacement 5 kW inverter in year eight costs ₹45,000 to ₹70,000 plus labour. Buyers who want to retire that risk need a longer warranty than either brand prints.
+- **You want the full electrical datasheet before you decide.** Havells publishes it in its grid-tie catalogue. For Luminous, ask for the datasheet for the exact variant first.
+- **A long printed warranty line matters to you.** Havells prints 10 years on the datasheets reviewed, and Luminous prints 10 years on the NXI T150 page and "8 plus 2" on the NXI 150 page. Compare the written terms for remedy and start date before the years.
+- **An exposed or coastal roof.** The Luminous NXI 150 page lists IP66, and the other two models list IP65. Check the exact model and its corrosion protection.
+- **A split-orientation roof.** The Havells D-NG model lists two independent trackers. Confirm the tracker count of the Luminous model in writing.
+- **Battery backup now or soon.** Neither brand's grid-tie model gives it. Compare hybrid models, with the battery first.
+- **A small town with no obvious solar installer.** Settle the named service partner before you pick any brand.
 
-## Where Qbits Fits as the Specialist Alternative
+## Common mistakes
 
-Qbits is the brand we make, so read this section with that bias noted. The facts, though, are checkable.
+- Comparing warranty years and ignoring the remedy, start date and exclusions.
+- Reading a printed MRP as a price.
+- Choosing a topology by brand. A grid-tie unit in a district with long daily outages saves nothing at night.
+- Taking a reseller's figures for a model instead of the manufacturer's datasheet.
+- Assuming an inverter is ALMM listed.
 
-On the dimensions from this comparison:
+For other pairings see [Luminous vs Microtek](/blog/luminous-vs-microtek-comparison/) and [UTL vs Luminous](/blog/utl-vs-luminous-comparison/), and for the wider Indian brand field the [best Indian solar inverter brands](/blog/best-indian-solar-inverter-brands/) guide.
 
-- **Efficiency:** 98% peak on the TLS series, competitive with the best Havells figures.
-- **Protection:** Current Qbits datasheets list IP66 for the published families, but an IP rating alone does not guarantee coastal suitability or service life. Compare exact models and installation limits.
-- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
-- **Compliance:** Match the exact Qbits model documents to the project and DISCOM requirements. ALMM is not an inverter list, and scheme eligibility cannot be inferred from the brand.
-- **Service:** Obtain the current written warranty, claim route, response process and local responsibility for the exact model and sale.
+## Where Qbits fits as a third datasheet
 
-## Which One Should You Buy? A Simple Decision Path
+Qbits is the brand that publishes this page, so read this section with that in mind. The facts are checkable. For the same 5 kW single-phase class, the Qbits QB-5KTLD datasheet lists two MPPTs with one string each, an 80 to 550 V MPPT range, 550 V maximum DC input, 20 A per tracker, 5,000 W rated output with 5.5 kVA maximum, a 160 to 270 Vac adjustable grid range, current THD below 2% at rated power, 98.1% maximum efficiency and IP66. Qbits' public datasheets do not define a base warranty term, so obtain the written warranty for the exact model, as you would for any brand.
 
-Work through these three questions in order.
+- **[On-grid inverters](/on-grid-inverter/):** the Qbits grid-tie families from 1.5 kW upward, with datasheets in the [download library](/download-datasheets/).
+- **[Hybrid inverters](/hybrid-inverter/):** review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **Service:** obtain the current written warranty, claim route, response process and local responsibility for the exact model and sale.
 
-3. **Where do you live?** Metro and Tier-1 buyers get adequate service from all three brands. Tier-3 and rural buyers should weight Luminous' local technician reach heavily, unless their installer commits to service terms in writing.
+## Your next steps
 
-Elsewhere in the Heaven Group network, see [Luminous versus Microtek](https://www.heavengreenenergy.com/blog/luminous-vs-microtek-inverter) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).
-
-## The Bottom Line
-
-Luminous and Havells are both legitimate choices, and neither deserves the dismissal that brand-loyal electricians hand out. Havells wins on printed warranty, efficiency, and zero-export readiness. Luminous wins on service reach, backup products, and entry pricing. Both lose the same two races: hybrid capability and warranty terms beyond ten years.
-
-Your next steps:
-
-- Get itemised quotes for the exact model numbers (NXI 150 vs Enviro GTi 5000 D) from two installers each. Ask for the BIS registration number and current certificates of every quoted model.
-- Check your daily outage hours before choosing topology; a cheap on-grid inverter in a 4-hour-cut zone saves nothing.
+- Get itemised quotes for the exact model numbers (for example NXI 150 or NXI T150 and Enviro GTi 5000 D-NG) from two installers each, and ask for the BIS registration number and current certificates for each quoted model.
+- Ask Luminous for the datasheet for the exact variant, and put it beside the Havells catalogue sheet.
+- Check your daily outage hours before choosing topology.

@@ -236,7 +236,7 @@ Getting the loan approved is step one. Getting the full financial value out of t
 
 - **Register for net metering as soon as the system is commissioned**: Net metering credits reduce your electricity bill further, improving the bill saving assumption used in the EMI offset calculation. The [net metering application process in India](/blog/how-to-apply-net-metering-india/) requires a separate application to the DISCOM post-installation.
 
-- **Understand payback period vs loan tenure**: The [solar inverter payback period](/blog/solar-inverter-payback-period-in-india/) for a 3–5 kW system in India typically ranges from 4–6 years at current electricity tariffs. This means the system pays for itself before the 7-year loan ends, creating a period of pure surplus generation during the final 1–3 years of the loan tenure.
+- **Understand payback period vs loan tenure**: The [solar inverter payback period](/blog/solar-inverter-payback-period/) for a 3–5 kW system in India typically ranges from 4–6 years at current electricity tariffs. This means the system pays for itself before the 7-year loan ends, creating a period of pure surplus generation during the final 1–3 years of the loan tenure.
 
 - **Claim accelerated depreciation if self-employed**: Self-employed professionals and business owners who install solar at a property used partly for business can claim 40% [accelerated depreciation](/glossary/accelerated-depreciation/) in the first year under the Income Tax Act, significantly reducing the effective cost of the installation. Consult a chartered accountant to confirm eligibility.
 

@@ -18,7 +18,7 @@ quickFacts:
   industry: "Utility-Scale Solar PV"
   primaryUse: "Centralised DC-to-AC conversion in solar parks and large ground-mount plants"
   commonUsers: "IPPs, utility developers, EPC companies, NTPC, SECI tendered plants"
-  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, IS 17387, CEA grid code, MNRE specs"
+  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, CEA grid code, MNRE specs"
   relatedTechnologies: "IGBT, multilevel topology, MV transformer, SCADA, plant controller"
 relatedTerms:
   - { slug: "string-inverter", term: "String Inverter" }
@@ -52,7 +52,7 @@ faqs:
   - q: "How is a central inverter cooled?"
     a: "Forced air cooling with fans and air filters for outdoor cabinets, or air-conditioned containers for harsh climates. Liquid cooling appears on the largest 5 MW units."
   - q: "What standards govern central inverters in India?"
-    a: "IEC 62109 for safety, IEC 61727 for grid interconnection, IEC 62116 for anti-islanding, IS 16221 and IS 17387 for the Indian variant, and the CEA grid code for utility connection."
+    a: "IEC 62109 for safety, IEC 61727 for grid interconnection, IEC 62116 for anti-islanding, IS 16221 for Indian inverter safety, and the CEA connectivity regulations for utility connection."
   - q: "Do central inverters have anti-islanding?"
     a: "Yes. Utility plants are required to disconnect from the grid in defined fault conditions. Anti-islanding logic in the central inverter is one of multiple layers of grid protection."
   - q: "What is the harmonic distortion of a central inverter?"
@@ -238,7 +238,6 @@ The 1500 V DC architecture is now standard for new utility plants in India. Cent
 | IEC 62116 | Anti-islanding |
 | IEC 61400-27 | Generic grid code compliance |
 | IS 16221 | Indian inverter safety |
-| IS 17387 | Indian grid-interconnection |
 | CEA Grid Code | Utility connection requirements |
 | MNRE ALMM | Required for tendered plants |
 
@@ -276,7 +275,7 @@ For how Central Inverter plays out in real projects, these guides go deeper:
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems.
 - IEC 61727:2004 and IEC 62116:2014, Utility interface and anti-islanding.
 - IEC 61400-27, Generic electrical simulation models for grid code compliance verification.
-- IS 16221 and IS 17387, Indian Standards for PV inverter safety and grid interconnection.
+- IS 16221 (Part 1 and 2), Indian Standard for PV inverter safety.
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.
 - MNRE ALMM and SECI tender technical specifications, Ministry of New and Renewable Energy and Solar Energy Corporation of India.
 - NREL Technical Report TP-5D00-74465, Best Practices for Operation and Maintenance of Photovoltaic and Energy Storage Systems.

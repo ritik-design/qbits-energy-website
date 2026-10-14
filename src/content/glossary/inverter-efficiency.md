@@ -219,7 +219,7 @@ For how Inverter Efficiency plays out in real projects, these guides go deeper:
 
 - EN 50530:2010, Overall efficiency of grid-connected photovoltaic inverters.
 - IEC 61683:1999, Photovoltaic systems: Power conditioners efficiency.
-- IS 17387, Indian inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - Manufacturer datasheets from major OEMs.
 - NREL Inverter Performance Studies.
 - CEC Solar Equipment Lists.

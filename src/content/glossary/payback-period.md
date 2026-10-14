@@ -274,7 +274,7 @@ Payback period is the time required to recover solar investment from savings. In
 For how Payback Period plays out in real projects, these guides go deeper:
 
 - [Is Solar Worth It in India in 2026?](/blog/is-solar-worth-it-india-2026/)
-- [Solar Inverter Payback Period: ROI Guide 2026](/blog/solar-inverter-payback-period-in-india/)
+- [Solar Inverter Payback Period: ROI Guide 2026](/blog/solar-inverter-payback-period/)
 - [Solar IRR and Payback for C&I in India, Real Math](/blog/solar-irr-payback-ci-india/)
 - [Solar Inverter Payback Period, 7 States Compared](/blog/solar-inverter-payback-period/)
 

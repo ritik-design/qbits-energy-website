@@ -235,7 +235,7 @@ A typical Lucknow homeowner in a 2 BHK flat in the Gomti Nagar area, monthly ele
 
 The diesel displacement saving of ₹34,200 per year is the crucial variable that transforms UP's hybrid economics. Most financial calculators for solar in India are built for Gujarat or Maharashtra contexts where generator fuel is not a major household expense. In UP, it often is, and ignoring it understates the return on a hybrid system by 40–60%.
 
-With a conservative 5% annual electricity tariff escalation and 3% annual diesel price increase (both consistent with recent Indian trends) the 25-year saving rises to approximately ₹22–₹26 Lakh. The [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) provides the full financial model for different tariff escalation scenarios. For a deeper year-by-year projection that layers in battery degradation, tools such as SurgePV's [generation and financial modelling tool](https://surgepv.com/generation-financial-tool/) can build this out for your specific system.
+With a conservative 5% annual electricity tariff escalation and 3% annual diesel price increase (both consistent with recent Indian trends) the 25-year saving rises to approximately ₹22–₹26 Lakh. The [solar inverter payback period guide](/blog/solar-inverter-payback-period/) provides the full financial model for different tariff escalation scenarios. For a deeper year-by-year projection that layers in battery degradation, tools such as SurgePV's [generation and financial modelling tool](https://surgepv.com/generation-financial-tool/) can build this out for your specific system.
 
 **Timeline for this Lucknow MVVNL applicant:**
 
@@ -284,7 +284,7 @@ UP's subsidy process has improved significantly with PM Surya Ghar, but procedur
 - **Insufficient sanctioned load for the proposed system size**: A 3 kW hybrid system on a connection with 3 kVA sanctioned load will fail feasibility. Apply for load enhancement at the same time as the solar application; UP DISCOMs process both concurrently.
 - **Not tracking both portal statuses weekly**: Each portal has an independent status tracker. Both portals occasionally request re-upload of documents without sending an active notification. Checking weekly prevents silent stalling.
 
-For further guidance on the national-level eligibility rules that apply equally in UP (including edge cases for apartment owners and co-owned properties) the [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/) covers these scenarios in detail. For comparison with how the subsidy process works in a state with faster DISCOM processing, see the [solar subsidy in Gujarat 2026 guide](/blog/solar-subsidy-gujarat-2026/) and the [solar subsidy in Maharashtra 2026 guide](/blog/solar-subsidy-maharashtra-2026/).
+For further guidance on the national-level eligibility rules that apply equally in UP (including edge cases for apartment owners and co-owned properties) the [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/) covers these scenarios in detail. For comparison with how the subsidy process works in a state with faster DISCOM processing, see the [solar subsidy in Gujarat 2026 guide](/blog/surya-gujarat-scheme-guide/) and the [solar subsidy in Maharashtra 2026 guide](/blog/solar-subsidy-maharashtra-2026/).
 
 ## UP-Specific Details That Change the Solar Maths
 

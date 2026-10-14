@@ -84,7 +84,7 @@ A well-prepared SLD lets anyone who reads electrical symbols understand the stri
 | Earthing and bonding | Intended connections and design references |
 | Meter and grid point | Approved metering arrangement and connection location |
 
-The required level of detail depends on project size and the reviewer. A domestic rooftop submission and a large commercial plant will not use the same drawing set. Ask the serving DISCOM for its current SLD format and approval checklist; ask the project engineer whether any electrical-inspector or CEIG review applies. Do not assume that a single national capacity threshold determines whether CEIG review or an engineer seal is needed.
+Take the inverter's ratings from the exact model's datasheet in the [datasheet library](/download-datasheets/). The required level of detail depends on project size and the reviewer. A domestic rooftop submission and a large commercial plant will not use the same drawing set. Ask the serving DISCOM for its current SLD format and approval checklist; ask the project engineer whether any electrical-inspector or CEIG review applies. Do not assume that a single national capacity threshold determines whether CEIG review or an engineer seal is needed.
 
 ## Symbols and conventions
 

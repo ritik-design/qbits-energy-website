@@ -45,7 +45,7 @@ This is one of the most anxiety-inducing solar system behaviours for Indian home
 
 > **Direct answer.** A solar inverter that keeps switching off in India has four primary causes: grid voltage outside the inverter's permitted AC operating range (most common), over-temperature shutdown from inadequate ventilation, anti-islanding trips during utility power cuts, and overload from high-inrush loads. Each cause has a distinct signature in the monitoring app and a specific fix.
 
-If your inverter is switching off and not restarting at all (not cycling but remaining off) that is a different scenario covered in the [solar inverter downtime guide](/blog/solar-inverter-downtime/). For error codes shown during the shutdown, cross-reference the [solar inverter error codes guide](/blog/solar-inverter-error-codes-guide/).
+If your inverter is switching off and not restarting at all (not cycling but remaining off) that is a different scenario covered in the [solar inverter failure guide](/blog/solar-inverter-failure-action/). For error codes shown during the shutdown, cross-reference the [solar inverter error codes guide](/blog/solar-inverter-error-codes-guide/).
 
 ## Understanding the Difference Between a Trip, a Shutdown, and a Fault
 

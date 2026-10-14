@@ -250,7 +250,7 @@ At tariff escalation of 8% per year, the actual payback shortens to approximatel
 
 > **India's residential solar installations crossed 3.5 GW in FY2025–26**, with hybrid systems accounting for 34% of new residential capacity, up from 18% in FY2024–25, driven largely by EV adoption and rising grid tariffs. *Source - [JMK Research, India Rooftop Solar Market Tracker Q1 2026](https://jmkresearch.com/).*
 
-The [solar inverter payback period](/blog/solar-inverter-payback-period-in-india/) guide covers the full financial modelling framework including degradation, O&M costs, and tariff escalation scenarios.
+The [solar inverter payback period](/blog/solar-inverter-payback-period/) guide covers the full financial modelling framework including degradation, O&M costs, and tariff escalation scenarios.
 
 ## Where Qbits Fits
 

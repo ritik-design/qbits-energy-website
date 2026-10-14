@@ -98,7 +98,7 @@ A typical 10 kWh lithium battery adds **₹1,20,000–₹1,80,000**.
 
 ### On-Grid System ROI
 
-A typical 5 kW residential on-grid system generating 20 units/day (7,300 units/year) at ₹7/unit saves **₹51,100 annually**. At a system cost of ₹2,75,000, the simple [payback period](/glossary/payback-period/) is approximately **5.4 years**. Over 25 years, total savings exceed **₹12,75,000**: an ROI of over **360%**. For a state-by-state breakdown of how payback shifts with local tariffs, see [solar inverter payback period in India](/blog/solar-inverter-payback-period-in-india/).
+A typical 5 kW residential on-grid system generating 20 units/day (7,300 units/year) at ₹7/unit saves **₹51,100 annually**. At a system cost of ₹2,75,000, the simple [payback period](/glossary/payback-period/) is approximately **5.4 years**. Over 25 years, total savings exceed **₹12,75,000**: an ROI of over **360%**. For a state-by-state breakdown of how payback shifts with local tariffs, see [solar inverter payback period in India](/blog/solar-inverter-payback-period/).
 
 ### Hybrid System ROI
 

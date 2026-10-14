@@ -145,7 +145,7 @@ The on-grid inverter is also the mandatory choice for PM Surya Ghar Muft Bijli Y
 
 The return mechanism is straightforward: solar panels produce energy during the day, the inverter exports any surplus to the grid, and your electricity bill is offset by the units exported. Under net metering, the DISCOM credits you for exports at a rate set by the State Electricity Regulatory Commission (SERC). In Karnataka and Tamil Nadu, net-metering rates are typically ₹3.5–5/unit; in Gujarat they can reach ₹5.5/unit with certain DISCOM frameworks.
 
-The [payback period analysis](/blog/solar-inverter-payback-period-in-india/) shows that a 5 kW on-grid system in Bengaluru, post-subsidy, can achieve a 4.5-year payback at ₹7/unit tariff. That is among the best payback figures for any capital asset in India today.
+The [payback period analysis](/blog/solar-inverter-payback-period/) shows that a 5 kW on-grid system in Bengaluru, post-subsidy, can achieve a 4.5-year payback at ₹7/unit tariff. That is among the best payback figures for any capital asset in India today.
 
 ### On-Grid Pros and Cons
 
@@ -321,5 +321,5 @@ Use this table as your final reference before contacting an installer.
 
 The inverter type decision is the most consequential choice in a rooftop solar project. Getting it wrong means either paying for backup capability you never use (hybrid in a reliable-grid city) or losing all solar benefit during the hours you need it most (on-grid in a cut-prone district). The 3-Question Inverter Type Test (grid reliability, cut duration, and priority (payback vs independence)) reduces what feels like a complex technical question to a three-minute conversation.
 
-For a complete picture of how the financial returns differ once you have identified your type, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) provides state-wise payback estimates for on-grid and hybrid systems under 2026 tariff structures. For the technical specification comparison across capacity sizes, see [3 kW vs 5 kW vs 10 kW inverters](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/). And if you want to understand how [DC oversizing ratios](/blog/dc-oversizing-in-solar/) or [MPPT configuration](/blog/inverter-mppt/) affects your choice within the type you select, both guides are worth reading before you sign an installation contract.
+For a complete picture of how the financial returns differ once you have identified your type, the [solar inverter payback period guide](/blog/solar-inverter-payback-period/) provides state-wise payback estimates for on-grid and hybrid systems under 2026 tariff structures. For the technical specification comparison across capacity sizes, see [3 kW vs 5 kW vs 10 kW inverters](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/). And if you want to understand how [DC oversizing ratios](/blog/dc-oversizing-in-solar/) or [MPPT configuration](/blog/inverter-mppt/) affects your choice within the type you select, both guides are worth reading before you sign an installation contract.
 

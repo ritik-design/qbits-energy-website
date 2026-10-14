@@ -72,7 +72,7 @@ The practical value of this metric is scale-independence. Your 5 kWp home system
 | Performance Ratio (%) | Actual yield ÷ Irradiance-based ideal yield | Plant quality benchmarking |
 | Peak Sun Hours (PSH) | Annual GHI ÷ 1,000 W/m² | Quick sizing estimates |
 
-These four metrics describe the same plant from different angles. Specific yield is the most useful for quote verification because it is directly comparable to the kWh promises in an installer's proposal, and it feeds directly into the [solar inverter payback period calculation](/blog/solar-inverter-payback-period-in-india/).
+These four metrics describe the same plant from different angles. Specific yield is the most useful for quote verification because it is directly comparable to the kWh promises in an installer's proposal, and it feeds directly into the [solar inverter payback period calculation](/blog/solar-inverter-payback-period/).
 
 ## India's Solar Yield Range: the National Picture
 
@@ -233,7 +233,7 @@ An inverter that handles India's wide voltage fluctuations (the drift from nomin
 
 ### High-Yield States (Rajasthan and Gujarat)
 
-Rajasthan and Gujarat represent India's solar belt. Both states combine high GHI, low humidity, and grid infrastructure built for large-scale solar. C&I buyers in these states benefit from the fastest payback periods in the country, a well-designed 100 kWp system in Ahmedabad or Jaipur achieves payback in 4 to 5 years at current commercial tariffs of ₹8 to 10 per unit. For factory owners, this is the strongest financial case available. The [solar subsidy structure in Gujarat](/blog/solar-subsidy-gujarat-2026/) further strengthens the economics for residential and small commercial buyers.
+Rajasthan and Gujarat represent India's solar belt. Both states combine high GHI, low humidity, and grid infrastructure built for large-scale solar. C&I buyers in these states benefit from the fastest payback periods in the country, a well-designed 100 kWp system in Ahmedabad or Jaipur achieves payback in 4 to 5 years at current commercial tariffs of ₹8 to 10 per unit. For factory owners, this is the strongest financial case available. The [solar subsidy structure in Gujarat](/blog/surya-gujarat-scheme-guide/) further strengthens the economics for residential and small commercial buyers.
 
 ### Mid-Yield States (Maharashtra, Karnataka, Tamil Nadu, Delhi)
 
@@ -260,7 +260,7 @@ Getting the yield estimate right at the proposal stage prevents downstream dispu
 
 ## Understanding the Yield-Payback Connection
 
-Every rupee in the financial case for solar depends on the yield estimate being accurate. The [solar inverter payback period](/blog/solar-inverter-payback-period-in-india/) calculation follows directly from the yield number:
+Every rupee in the financial case for solar depends on the yield estimate being accurate. The [solar inverter payback period](/blog/solar-inverter-payback-period/) calculation follows directly from the yield number:
 
 **Annual savings = Net Yield (kWh/kWp) × System capacity (kWp) × Electricity tariff (₹/kWh)**
 

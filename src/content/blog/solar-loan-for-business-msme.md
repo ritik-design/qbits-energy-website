@@ -139,7 +139,7 @@ The exception: your entity may have no taxable profits, as with a new unit or a 
 
 ## Loan vs RESCO: The Decision Framework
 
-**RESCO** (also called OPEX or PPA solar) means a developer installs, owns, and maintains the plant on your roof. You buy the power at an agreed tariff, typically ₹3.5 to ₹5 per unit with an annual escalator. Our [RESCO model guide](/blog/solar-resco-model-india-guide/) and [CAPEX vs OPEX comparison](/blog/solar-capex-vs-opex-india-guide/) go deep on the structure. Here is the decision in four questions.
+**RESCO** (also called OPEX or PPA solar) means a developer installs, owns, and maintains the plant on your roof. You buy the power at an agreed tariff, typically ₹3.5 to ₹5 per unit with an annual escalator. Our [RESCO model guide](/blog/solar-resco-model-india-guide/) and [CAPEX vs OPEX comparison](/blog/solar-capex-vs-opex-business-india/) go deep on the structure. Here is the decision in four questions.
 
 1. **Do you have taxable profits this year?** Yes favours the loan. The depreciation and interest deductions are only valuable against real tax liability. No favours RESCO.
 2. **Can you commit the roof for 15 to 25 years?** RESCO contracts are long and include lock-ins and buyout clauses. If your lease is short or relocation is possible, a loan on a plant you own and can move or sell is safer.

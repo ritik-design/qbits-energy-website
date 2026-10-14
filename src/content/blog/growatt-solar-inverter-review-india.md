@@ -1,10 +1,10 @@
 ---
 title: "Growatt Solar Inverter Review India 2026: Honest"
-excerpt: "Our growatt solar inverter review finds a genuinely capable mid-market brand with competitive street pricing and wide availability, though in our installer experience after-sales turnaround depends heavily on local distributor presence, and the documents we reviewed state a 5-year repair warranty."
+excerpt: "A Growatt solar inverter review for India built on Growatt's own datasheets, warranty page and India contact page: the real MIN, SPH, MOD and MID models, what the documents state and the questions to settle before you buy."
 description: "Growatt solar inverters in India reviewed from official datasheets: MIN, MOD and MAX on-grid and SPH hybrid series, warranty terms and monitoring."
 category: "Comparison"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-growatt-solar-inverter-review-india.webp"
 author: "Nirav Dhanani"
@@ -16,21 +16,21 @@ keywords:
   - best solar inverter india 2026
 faqs:
   - q: "Is Growatt a good inverter for India?"
-    a: "Growatt is a legitimate, globally established inverter brand that works adequately in Indian conditions. The MID series handles standard residential on-grid applications reliably, and street pricing at the time of writing is generally competitive, though the gap against comparable Sungrow models varies by dealer, state and quantity. In the installs and quotations we have handled, after-sales turnaround has been less predictable outside major metros, and the standard 5-year repair warranty published for the models we reviewed is shorter than the 10 year full-replacement terms some competitors publish. Growatt suits price-sensitive buyers in markets where a qualified Growatt distributor is present."
+    a: "A brand cannot be judged from a brochure, and Growatt sells several families for different jobs. The useful check is the exact model: its datasheet against your string design, its warranty document, its BIS registration and the named service partner for your pincode. The Growatt MIN 5000TL-X2 datasheet, for example, lists IP66, two MPPTs and a 40 to 550 V MPPT range."
   - q: "What is the Growatt warranty period in India?"
-    a: "The warranty documentation we have seen for Growatt models sold in India states a 5-year standard term covering parts and repair labour rather than full unit replacement. Extended warranty options exist in some markets, but availability through Indian dealers varies. On a repair-based warranty, the usual remedy is a technician visit or a spare part rather than an automatic replacement unit, which is a different commitment from the full-replacement warranties some other brands publish. Terms can change by model and by year, so always confirm the current warranty document in writing with your dealer before purchase."
+    a: "Growatt's datasheets for the MIN, SPH and MID models list 5 years standard with a 10-year option, and the MOD XH datasheet lists 10 years. Growatt's warranty page runs the term from the installation date on the installation certificate, no more than six months after delivery, and limits the remedy to service replacement and service repair. The page does not give India-specific terms, so ask the seller for the document that applies to your sale."
   - q: "Is Growatt ALMM listed in India?"
     a: "MNRE publishes ALMM List-I for solar modules and List-II for cells, and no ALMM list for inverters, so there is no inverter ALMM listing to check for Growatt or any other brand. Ask your seller for the exact Growatt model's BIS registration and current certificates. If you are applying for the PM Surya Ghar subsidy, confirm the inverter requirements with your DISCOM before you buy."
-  - q: "Which Growatt model is best for home use in India?"
-    a: "For a standard Indian residential rooftop of 3 to 10 kW, the Growatt MID series (MID 3000-10000TL3-X) is the appropriate choice. It covers single-phase and three-phase configurations, supports dual-MPPT tracking for split-orientation roofs, and connects to the ShinePhone monitoring app. The MID series is widely stocked by Indian distributors and EPCs. For buyers who want battery backup capability, the SPF series covers off-grid and hybrid applications, though the monitoring and feature set is more basic compared to dedicated hybrid platforms."
-  - q: "Is Growatt reliable long-term in India?"
-    a: "There is no published, independent long-term reliability dataset for Growatt in Indian conditions that we can point buyers to. The brand has a substantial global installed base and manufactures at scale. Field experience varies: in the installs and service escalations we have handled, units have generally performed within their published spec, while after-sales resolution outside major metros has been slower and less predictable than in tier-1 cities. The 5-year repair warranty means buyers absorb replacement cost risk after year five. For buyers with a 25-year panel investment horizon, this is a material consideration."
-  - q: "How does Growatt compare to Sungrow for Indian homes?"
-    a: "Sungrow and Growatt occupy adjacent market positions but differ meaningfully on warranty depth and after-sales infrastructure. Sungrow operates an India-registered service entity, and in our view iSolarCloud is the more feature-complete monitoring platform of the two. Growatt's advantage is usually price: street pricing at the time of writing varies by dealer, but Growatt quotations we see typically land below Sungrow for comparable wattage. Sungrow is the stronger choice for buyers prioritising long-term certainty; Growatt is more appropriate where budget is the primary constraint and a reliable local Growatt distributor is available."
+  - q: "Which Growatt model is suitable for a home in India?"
+    a: "For a home on-grid system the relevant family is MIN (2.5 to 10 kW, single phase). With a battery, single-phase homes look at SPH, which uses low-voltage batteries, and three-phase homes look at MOD XH, which works with high-voltage batteries. The MID series is a three-phase commercial line, not a residential one. Check the exact model against your roof, phase and backup need."
+  - q: "Where is Growatt's India office and how do I make a claim?"
+    a: "Growatt's India contact page lists Growatt New Projects Pvt Ltd, Banjara Hills, Hyderabad, with a toll-free number, a service email (service.in@growatt.com) and a sales email, read on 14 October 2026. The page lists no separate service centres. A claim needs the serial number, the invoice or installation documents, a claim form and a fault description, so keep them with the handover record."
   - q: "Does Growatt work with Indian grid voltage?"
-    a: "Yes. Growatt MID series inverters support input voltage ranges compatible with Indian grid conditions, and the AC output is configured for 230 V single-phase and 415 V three-phase as required by Indian standards. The public documentation we could locate for the models we reviewed does not describe India-specific firmware tuning for the frequency and voltage excursions common in Tier-2 and Tier-3 grids; that may exist without being published, so confirm the current position with the manufacturer or distributor. Buyers in areas with historically unstable grid supply should discuss this with their installer."
-  - q: "What is the ShinePhone app and how good is it?"
-    a: "ShinePhone is Growatt's proprietary monitoring application, available on Android and iOS. It provides real-time power generation data, yield history, system fault alerts, and basic energy analytics. For residential users, ShinePhone is functional and covers the monitoring essentials without overwhelming complexity. Compared to Sungrow's iSolarCloud or WhatsApp-native monitoring platforms, the ShinePhone build we used did not surface advanced fleet management, detailed string-level diagnostics, or AI-driven anomaly detection; app feature sets change with updates, so check the current version before relying on this. For a single home system, it is adequate; for an EPC managing dozens of sites, it falls short."
+    a: "Growatt datasheets list a nominal 230 V single-phase output with a wider accepted range (160 to 300 V on the MIN 5000TL-X2) and 230/400 V for three-phase models, plus standards such as IEC 62116 and IEC 61727. The trip settings your DISCOM requires are applied at commissioning, and the datasheet does not list them. Ask the installer to confirm the settings against the DISCOM's conditions."
+  - q: "What is the ShinePhone app and what does it need?"
+    a: "ShinePhone is Growatt's monitoring app, and it runs alongside the Growatt monitoring platform. Growatt's pages list ShineWiFi-X, Shine4G-X, ShineLan-X and ShineLink-X accessories. Whether your model needs one, who pays for it and who owns the plant account are practical points to settle with the supplier before purchase."
+  - q: "How does Growatt compare with Sungrow, Solis and Qbits?"
+    a: "On datasheet figures the 5 kW single-phase models are close on rated output and tracker count and differ on voltage window, start-up voltage, current per tracker and efficiency. The Sungrow vs Growatt, Growatt vs Solis and Qbits vs Sungrow vs Growatt comparisons set the exact models side by side, with sources, and none of them ranks the brands."
   - q: "Can I get PM Surya Ghar subsidy with a Growatt inverter?"
     a: "Subsidy approval depends on the scheme's conditions and your DISCOM, not on the inverter brand alone. Under PM Surya Ghar the modules must meet the scheme's requirements, including ALMM and domestic-content conditions, and MNRE publishes no ALMM list for inverters. For the Growatt inverter, collect the exact model's BIS registration and current certificates, and ask the DISCOM or the empanelled vendor to confirm in writing whether any inverter condition applies before you order."
 ---
@@ -39,183 +39,209 @@ faqs:
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-Solar inverter purchasing decisions in India involve dozens of brand options, and Growatt appears on a significant proportion of quotations that Indian homeowners receive in 2026. Asking your installer why they have specified a particular brand, and what their own service experience with it has been, is worth doing before you sign.
+Growatt inverters appear on a large share of rooftop quotations in India. This review looks at what Growatt itself publishes: its datasheets, its warranty page and its India contact page. It names the real model families, shows the datasheet figures for one representative model from each, and lists the questions to settle before you buy. It does not score the brand, rank it against others or quote prices.
 
-> **TL;DR**
-> - Growatt scores 8/10 on price in our framework (street pricing at time of writing generally undercuts Sungrow, though the gap varies by dealer) but only 4/10 on warranty depth, since the published standard term is a 5-year repair warranty rather than full replacement.
-> - The MID series (3–20+ kW) is the relevant product for standard residential rooftops; the SPF series covers hybrid/off-grid; the MAX series targets commercial and industrial applications.
-> - Aggregate India-specific score: approximately 34/60 (57%), a mid-range result reflecting genuine price advantage offset by service and warranty gaps.
-> - IP65 is standard on MID models, not IP66, which matters for coastal and high-humidity installations.
-> - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify both equipment categories separately.
-> - In our view Growatt suits budget-conscious buyers in cities with active distributors, and is a weaker fit for Tier-2/3 buyers, coastal installations, and anyone prioritising warranty certainty.
-> - Every score in this review is our own editorial judgement against our six-point framework, not measured test data or an independent benchmark.
+> **Quick answers**
+> - The Growatt MIN series (2.5 to 10 kW, single phase) is the residential on-grid line. MID (15 to 60 kW, three phase) is a commercial line, and MAC and MAX go larger. SPH is the single-phase hybrid line with low-voltage batteries, and MOD XH is the three-phase hybrid line for high-voltage batteries.
+> - The MIN 5000TL-X2 datasheet lists IP66, two MPPTs, a 40 to 550 V MPPT range, 98.4% maximum efficiency and a warranty line of 5 years standard with 10 years optional.
+> - Growatt's warranty page runs the standard period from the installation date on the installation certificate, no later than six months after delivery, and limits the remedy to service replacement and service repair.
+> - Growatt's India contact page lists Growatt New Projects Pvt Ltd in Hyderabad with a toll-free line and service email. It lists no separate service centres.
+> - ALMM covers modules and cells. Ask the seller for the exact model's BIS registration and certificates.
 
-This review examines Growatt honestly, the genuine strengths, the real weaknesses, and the specific buyer profiles for whom Growatt is a sensible choice versus those who would be better served by a different brand. The [best solar inverter in India 2026 roundup](/blog/best-solar-inverter-india/) covers the broader competitive field; this post goes deeper on Growatt specifically.
+## How to read this review
 
-The growatt solar inverter review landscape has consolidated in 2026, with a handful of global brands dominating dealer quotations and a growing field of Indian manufacturers offering competitive alternatives. Understanding where Growatt sits in that field (and why) requires looking at more than the headline price. For buyers already comparing Growatt against Sungrow specifically, the [Sungrow vs Growatt comparison](/blog/sungrow-vs-growatt-comparison/) covers that head-to-head in detail.
+Each fact below comes from a Growatt document that was open on 14 October 2026, with the document named. Where a fact would need a source that is not public, such as a repair turnaround in your town or a price, the review says it cannot be stated. Regional versions of Growatt datasheets differ, so check the version that ships with your unit.
 
-## Growatt as a Brand: Global Scale, India Presence
+Brand opinions are deliberately left out. Growatt sells several families for different jobs, and a verdict on the brand would not tell you whether one specific model fits one specific roof.
 
-Growatt Technology Co., Ltd. was founded in Shenzhen in 2010 and has grown into one of the largest inverter manufacturers by volume globally, with shipped capacity exceeding 100 GW across residential, commercial, and industrial segments. That global scale matters because it means component procurement happens at volume, manufacturing processes are mature, and the product line has accumulated genuine field data across diverse climate environments.
+## Growatt in India: entity and contact
 
-In India, Growatt operates through a network of regional distributors rather than a direct-presence model. This distribution structure is standard for mid-market global brands in India, but it introduces variability: the quality of your Growatt purchase experience (both at the point of sale and when you need warranty support) depends significantly on which distributor serves your area.
+The Growatt India contact page lists **Growatt New Projects Pvt Ltd**, HydGreen Valley, Banjara Hills, Hyderabad, Telangana 500034, with a toll-free number (1800 120 600 600), service email service.in@growatt.com and sales email info@growatt.com. Growatt's datasheets list the manufacturer as Shenzhen Growatt New Energy Co., Ltd., Shenzhen, China. Source: [Growatt contact page](https://en.growatt.com/support/contact), read 14 October 2026.
 
-- **Global shipments**: Growatt has shipped inverters to over 100 countries, with residential on-grid and hybrid models dominant in Asia-Pacific and Europe.
-- **India distributor model**: at the time of writing we could not find a publicly documented Growatt India manufacturing plant or India-specific service entity, and the service fulfilment we have dealt with has routed through regional distributors. Confirm the current India structure with the manufacturer.
-- **Price positioning**: deliberately mid-market; Growatt does not compete on specifications at the premium end but on price-to-performance ratio for standard applications.
-- **Product breadth**: MID series (residential on-grid), SPF series (hybrid/off-grid), MAX series (commercial string), and a growing storage range; this breadth allows EPCs to source a full system from one supplier.
+An entity and an email address tell you where to send a claim. They do not tell you which technician visits your site, how long a spare takes to reach your town or whether the distributor that sold the unit stocks it. Ask the installer or distributor for the named service partner covering your pincode and for their recent claim history on the exact model.
 
-> **100+ GW.** Growatt's cumulative global shipped capacity as of 2025, making it one of the top-five inverter manufacturers by volume. *Source - [Growatt Corporate Profile](https://www.growatt.com/about-us/), 2025.*
+## Which Growatt family fits which job
 
-For comparison with how other global brands are positioned in the Indian market, the [top 10 solar inverter brands India 2026](/blog/top-10-solar-inverter-brands-india-2026/) review provides a useful reference frame.
+Growatt's product page groups its inverters as follows. Names are model families, and each family covers several kW ratings.
 
-## Growatt Model Line-Up for Indian Buyers
-
-Growatt's Indian-market relevance centres on three product families. Understanding which series matches which application prevents the common mistake of purchasing the wrong category of inverter.
-
-### MID Series: Residential On-Grid
-
-The MID series is the product most Indian homeowners encounter on quotations. Available in a range from 3 kW to 20+ kW, the MID TL3-X variants cover both single-phase and three-phase configurations and include dual-[MPPT](/glossary/mppt/) inputs, which allows the inverter to handle two independent string orientations, useful for L-shaped or multi-pitch rooftops.
-
-Key specifications relevant to India:
-
-- **Efficiency**: peak efficiency up to 98.4% for select MID models; weighted efficiency (Euro Efficiency) typically 97–97.5%, which is competitive but not among the highest in the segment.
-- **DC input voltage range**: up to 1000 V DC, standard for residential string configurations.
-- **MPPT voltage range**: 80–950 V, which accommodates a reasonable range of Indian panel configurations.
-- **Temperature operating range**: rated for −25 °C to 60 °C ambient; however, full nameplate power derating onset typically begins at 45 °C, which is directly relevant given that Indian rooftop temperatures can exceed this in peak summer months in north and central India.
-- **IP rating**: IP65 on standard MID models. This is adequate for most rooftop environments but does not match IP66 protection (the higher standard relevant in coastal and monsoon-prone areas).
-- **Monitoring**: ShinePhone app via Wi-Fi; data logging at 5-minute intervals.
-- **Warranty**: 5 years standard (repair warranty, not replacement).
-
-### SPF Series: Hybrid and Off-Grid
-
-The SPF series covers off-grid and hybrid configurations, with models supporting lead-acid and lithium-ion battery connections. For Indian buyers considering battery backup (either for power-cut resilience or as part of a PM Surya Ghar-eligible hybrid system) the SPF is the relevant Growatt product.
-
-The SPF is functional, and in our view it is positioned below dedicated hybrid platforms on monitoring depth and battery management sophistication. The datasheets for the SPF models we reviewed quote a transfer time longer than the sub-second switchover some premium hybrid platforms specify, which can matter where critical loads need near-instant changeover. Transfer time is model-specific, so check the figure on the datasheet for the exact SKU you are quoted.
-
-### MAX Series: Commercial and Industrial
-
-The Growatt MAX series targets commercial and utility-scale string applications, typically from 60 kW to 150 kW per unit. For factory and institutional rooftop buyers considering Growatt, the MAX series competes on price against Sungrow SG series and Solis string inverters. This review focuses primarily on residential and light-commercial segments; C&I buyers should request field performance references for comparable Indian installations, and should run the string layout through proper [commercial solar design software](https://surgepv.com/commercial-solar-design/) before finalising an inverter model, since string count and MPPT matching drive most of the real-world performance gap between MAX series options.
-
-## The Growatt India Verdict: 6-Point Honest Assessment
-
-Rather than a generic evaluation, this framework applies six India-specific criteria to Growatt and scores each from 1 to 10. The framework is designed to surface the dimensions that actually drive buying satisfaction (or regret) over a 10-year ownership horizon on an Indian rooftop.
-
-### The Growatt India Verdict: 6-Point Honest Assessment
-
-1. **Price competitiveness**: 8/10. Growatt's primary competitive advantage is price. Street pricing at the time of writing varies by dealer, state and quantity, but across the Indian quotations we have reviewed, Growatt MID series models land below equivalent Sungrow models and further below premium European brands such as Fronius, often worth a five-figure rupee saving on a 5 kW system. Collect at least two current quotations before treating any specific gap as fixed.
-
-2. **Warranty depth**: 4/10. On the warranty documents we reviewed, the standard term is 5 years and repair-based, which in our view is the weakest part of the Growatt proposition for Indian buyers. A repair warranty commits the manufacturer to fixing or replacing components; the documents we have seen do not additionally commit to a replacement unit within a defined timeframe if repair is not feasible. Ask your dealer for the current warranty document and check that clause yourself. For a buyer making a 25-year panel investment, the inverter warranty covers only 20% of the expected system lifetime at standard terms. Extended warranty options exist but require additional cost and dealer-specific confirmation. See the [best solar inverter longest warranty India](/blog/best-solar-inverter-longest-warranty-india/) comparison for context.
-
-3. **Monitoring and data quality**: 6/10. ShinePhone is a functional residential monitoring application. It provides generation data, system alerts, and basic yield analytics. The data latency (5-minute intervals) is adequate for residential purposes. Where the version of ShinePhone we used fell short was in installer-facing features: fleet management across multiple sites, string-level fault diagnostics, and API integrations that sophisticated EPCs use for performance monitoring. If those matter to you, ask the distributor to demo the current build rather than relying on this review. For a homeowner checking their daily generation, ShinePhone is sufficient; for an EPC managing 50 installations, it creates friction.
-
-4. **India service infrastructure**: 5/10. Growatt's India after-sales experience is distributor-dependent. In cities where Growatt has an active, well-stocked distributor, turnaround on fault resolution is reasonable. In Tier-2 and Tier-3 towns (where a substantial proportion of India's new solar capacity is being installed under PM Surya Ghar) our experience has been less consistent. Field reports vary: in the cases we have handled ourselves, a few warranty resolutions in smaller towns have stretched to several weeks while waiting on parts, and others closed quickly. We have no representative dataset here, so treat this as our experience rather than a measured average, and ask your own installer what their recent Growatt cases looked like. Where certainty matters, compare that against brands that document a specific RMA turnaround in writing.
-
-5. **Grid compatibility for Indian conditions**: 6/10. Growatt inverters operate within the voltage and frequency bands required by Indian grid standards. The MID series handles the 230 V single-phase Indian grid adequately. The public documentation we reviewed for these models does not detail India-specific tuning for the tolerance variations (frequency excursions, voltage sag, and undervoltage ride-through) common in Tier-2 and Tier-3 DISCOM areas, in the way brands that market India-grid-tuned firmware do. This is a documentation gap we observed, not evidence of higher failure rates in weak-grid areas, and the manufacturer may be able to supply the detail on request. Understanding the [temperature coefficient](/glossary/temperature-coefficient/) behaviour of both panels and inverters is important for Indian rooftop performance modelling.
-
-6. **Certification and compliance documents**: 5/10. MNRE publishes no ALMM list for inverters, so there is no ALMM listing to show for Growatt or any other inverter brand. The buyer has to check the exact model's BIS registration and current certificates instead, and distributors do not always hand these over unprompted. Ask for them before paying a deposit, and for PM Surya Ghar confirm any inverter requirement with your DISCOM.
-
-This framework gives Growatt an aggregate score of approximately **34/60** (57%) on India-specific criteria, a mid-range result that correctly reflects a mid-market brand: not the best choice for buyers who prioritise warranty depth and service certainty, but a legitimate option for price-sensitive buyers with reliable local distributor access.
-
-## Growatt Pricing in the Indian Market: What to Expect
-
-Pricing is where Growatt's value proposition is clearest. The figures below are indicative street pricing at the time of writing, collected from Indian distributor quotations, not manufacturer list prices. They move with the exchange rate, import duty, state, distributor margin and order quantity, so use them to frame a conversation rather than as a benchmark to hold a dealer to.
-
-| Growatt Model | Capacity | Approx. Dealer Price (₹) | Sungrow Equivalent | Approx. Difference |
+| Family | Phase | Job | Battery | Notes from Growatt's pages |
 | --- | --- | --- | --- | --- |
-| MID 3000TL3-X | 3 kW | ₹28,000–₹34,000 | SG3.0RS | ₹6,000–₹10,000 higher |
-| MID 5000TL3-X | 5 kW | ₹38,000–₹46,000 | SG5.0RS | ₹8,000–₹14,000 higher |
-| MID 8000TL3-X | 8 kW | ₹54,000–₹64,000 | SG8.0RT | ₹10,000–₹18,000 higher |
-| MID 10000TL3-X | 10 kW | ₹62,000–₹74,000 | SG10RT | ₹12,000–₹22,000 higher |
+| MIN 2500-6000TL-X/X2 and MIN 7000-10000TL-X/X2 | Single | Residential on-grid | None | Two MPPT trackers, Type II DC surge protection, optional AFCI |
+| SPH 3000-6000TL BL-UP | Single | Residential hybrid | Low-voltage lithium or lead-acid | 10 ms transition time, IP65 |
+| MOD 3000-10000TL3-XH | Three | Residential and small commercial hybrid | High-voltage lithium | Compatible battery listed on the datasheet |
+| MID 15-30KTL3-X/X2, 25-40, 30-50, 36-60 | Three | Commercial on-grid | None | Two MPPT trackers on the 15 to 30 kW models |
+| MAC 50-70, MAX 50-80, MAX 100-150 and larger | Three | Large commercial and utility | None | Higher MPPT counts and larger ratings |
 
-Note: prices exclude GST (the 12% slab was replaced by Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025; classification decides whether 5% or 18% applies, so verify the current rate and entry with your installer) and installation. Retail prices to end consumers are typically 15–25% above distributor prices depending on installer margin. Market trackers such as [JMK Research](https://jmkresearch.com/) publish periodic India inverter pricing analysis; check their current edition for the segment-level trend, since the spread between imported volume brands and premium European brands moves with duty and freight.
+The MID series is a commercial three-phase line, and it is not a residential line. Home systems of 3 to 10 kW are served by MIN on-grid and, with a battery, by SPH or MOD XH.
 
-A pricing gap is usually present in the quotations we see, though its size is not fixed. The question each buyer must answer is whether the upfront savings justify the warranty and service trade-off over a 10-to-15-year investment horizon. For a buyer who replaces their inverter every 5 years anyway (because of a move, an upgrade, or a system expansion) the warranty gap is less material. For a buyer who plans to leave the system running for 20 years, the cost of an out-of-warranty inverter failure at year seven or eight should be factored into the comparison.
+## Datasheet figures for one model per family
 
-> **₹25,000–₹35,000.** The approximate cost of replacing a 5 kW string inverter in India in 2026, including supply and installation labour. This is the financial exposure a buyer takes if their inverter fails after the warranty period. *Source - [Mercom India Solar Market Report](https://www.mercomindia.com/), Q1 2026.*
+All figures below are copied from Growatt's own datasheets, as of 14 October 2026.
 
-For a detailed side-by-side worksheet covering Growatt, Sungrow and Qbits, see the [Qbits vs Sungrow vs Growatt comparison](/blog/qbits-vs-sungrow-vs-growatt/). The dedicated [Qbits vs Growatt comparison](/blog/qbits-vs-growatt-honest-comparison/) can help if you have exact quotations in hand. Qbits' public datasheets do not state where its inverters are manufactured, so ask the seller for the country of origin in writing.
+### MIN 5000TL-X2: residential single-phase on-grid
 
-## Growatt Performance on Indian Rooftops: Temperature Derating and Efficiency
+| Item | Figure |
+| --- | --- |
+| Trackers / strings per tracker | 2 / 1 |
+| MPPT range / start voltage | 40 to 550 V / 50 V |
+| Maximum DC voltage | 550 V |
+| Maximum input current per tracker | 16 A (short-circuit 24 A) |
+| Rated AC power / maximum apparent power | 5,000 W / 5,000 VA |
+| Grid voltage | 230 V (160 to 300 V) |
+| Current THD / power factor | below 3% / 0.8 leading to 0.8 lagging |
+| Maximum / European / MPPT efficiency | 98.4% / 97.5% / 99.9% |
+| Enclosure / cooling | IP66 / natural convection |
+| Weight / operating range | 10.8 kg / -30 to +60 °C |
+| Protection listed | DC reverse polarity, Type II DC surge, Type III AC surge, anti-islanding, residual-current monitoring; AFCI optional |
+| Warranty line | 5 years standard, 10 years optional |
 
-One of the most important (and least discussed) aspects of inverter performance in India is temperature derating. Most inverter efficiency specifications are measured at 25 °C ambient temperature under standard laboratory conditions. Indian rooftops in summer, particularly in north, central, and western India, routinely reach ambient temperatures of 42–50 °C, with surface temperatures near the inverter mounting point potentially higher.
+Source: [Growatt MIN 2500~6000TL-X2 datasheet](https://en.growatt.com/upload/file/MIN_2500-6000TL-X2_Datasheet.pdf). The page for this family on growatt.com is [MIN 2500-6000TL-X/X2 (Pro)](https://en.growatt.com/products/min-2500-6000tl-x-x2(pro)).
 
-[Inverter efficiency](/glossary/inverter-efficiency/) at real Indian operating conditions is materially different from peak-efficiency marketing figures. Here is how to evaluate Growatt's published specifications against Indian field realities:
+### SPH 5000TL BL-UP: single-phase hybrid
 
-- **Rated output at 45 °C**: confirm the inverter's output derating curve. Growatt MID models begin derating at 45 °C ambient; at 50 °C, output may reduce by 5–10% depending on installation conditions and ventilation quality.
-- **Thermal management**: the MID series uses active cooling (fan-assisted) for models above 6 kW and passive cooling for smaller units. Fan-assisted cooling introduces a maintenance variable: fans have a finite service life and can attract dust accumulation in Indian conditions.
-- **DC input voltage compensation**: as panel temperature rises, panel open-circuit voltage drops. The MPPT tracking range on Growatt MID models accommodates this, but confirming your specific string configuration at peak summer conditions is important during system design.
-- **Monsoon performance**: the IP65 rating on standard MID models is adequate for rain exposure, but condensation ingress from repeated wet/dry cycles over years is a longer-term consideration. IP66-rated inverters provide an additional margin for coastal and high-humidity environments.
+| Item | Figure |
+| --- | --- |
+| Trackers / strings per tracker | 2 / 1, 13.5 A per tracker |
+| MPPT range / start voltage | 120 to 550 V / 120 V |
+| Battery | 42 to 59 V, lithium or lead-acid |
+| Maximum charge and discharge current / continuous power | 85 A / 4,000 W |
+| Rated AC power | 5,000 W |
+| Backup rating / switch time | 4,000 W / below 10 ms |
+| Maximum / European efficiency | 97.5% / 97.2% |
+| Enclosure / weight | IP65 / 27 kg |
+| Warranty line | 5 years standard, 10 years optional |
 
-For homeowners in coastal Karnataka, Kerala, Tamil Nadu, or West Bengal (where high humidity combined with salt-laden air accelerates corrosion) IP65 is the minimum acceptable rating, and IP66 offers additional peace of mind. The distinction matters for long-term reliability even if both ratings pass a single monsoon season without incident. The [IEC 62109-1 standard](https://www.iec.ch/) governs safety requirements for power converters used in photovoltaic systems, and compliant inverters must pass rigorous environmental ingress testing before certification. Similarly, [IRENA's data on solar PV performance](https://www.irena.org/) across tropical and subtropical climates consistently identifies thermal management and ingress protection as the two variables most strongly correlated with long-term inverter reliability in high-temperature, high-humidity environments, precisely the conditions that characterise Indian coastal and inland rooftops.
+Source: [Growatt SPH 3000-6000TL BL-UP datasheet, April 2026](https://en.growatt.com/upload/file/SPH_3000-6000TL_BL-UP_Datasheet_202604.pdf).
 
-The [solar inverter certifications guide](/blog/solar-inverter-certifications/) explains what IP ratings, BIS certification, and IEC standards actually mean for the buyer choosing between inverter brands.
+### MOD 5000TL3-XH: three-phase hybrid
 
-## Growatt vs the Competition: Where It Fits in 2026
+| Item | Figure |
+| --- | --- |
+| Trackers / strings per tracker | 2 / 1, 16 A per tracker |
+| MPPT range / start voltage | 140 to 1,000 V / 160 V |
+| Maximum DC voltage | 1,100 V |
+| Compatible battery | APX high-voltage battery systems, operating window 600 to 950 V |
+| Maximum charge / discharge power | 6,000 W / 5,500 W |
+| Rated AC power / apparent power | 5,000 W / 5,500 VA |
+| Maximum / European efficiency | 98.3% / 97.5% |
+| Enclosure / weight | IP66 / 12.5 kg |
+| Warranty line | 10 years |
 
-### Growatt vs Sungrow
+Source: [Growatt MOD 3000~10000TL3-XH datasheet, August 2026](https://en.growatt.com/upload/file/MOD%203000~10000TL3-XH-BP_Datasheet_EN_202608.pdf). The datasheet notes that the model works only with Growatt's high-voltage battery systems, and that backup needs the matching backup box.
 
-Sungrow is the most direct comparison for Growatt in the Indian market. Both brands occupy the volume segment of global inverter production, both have substantial installed bases in India, and both appear regularly on EPC quotations.
+### MID 20KTL3-X2: commercial three-phase on-grid
 
-**Where Sungrow is stronger:** iSolarCloud is a more mature monitoring platform; Sungrow has a more developed India-specific service network; warranty terms at the 10-year level are accessible with paid extensions; Sungrow's documentation of India-specific firmware behaviour is more detailed.
+| Item | Figure |
+| --- | --- |
+| Trackers / strings per tracker | 2 / 2, 32 A per tracker |
+| MPPT range / start voltage | 200 to 1,000 V / 200 V |
+| Maximum DC voltage | 1,100 V |
+| Rated AC power / apparent power | 20,000 W / 22,000 VA |
+| Current THD / power factor | below 3% / 0.8 leading to 0.8 lagging |
+| Maximum / European efficiency | 98.75% / 98.6% |
+| Enclosure / weight / cooling | IP66 / 22 kg / smart air cooling |
+| Certificate line | includes BIS among other listed approvals |
+| Warranty line | 5 years standard, 10 years optional |
 
-**Where Growatt is stronger:** upfront price is consistently lower; distributor availability is broad across Indian cities; the product range from residential to C&I allows one-supplier sourcing for EPCs.
+Source: [Growatt MID 17~30KTL3-X2 datasheet, May 2026 update](https://en.growatt.com/upload/file/MID%2017~30KTL3-X2%202026.5%20Update.pdf).
 
-For homeowners who can absorb the higher upfront cost that Sungrow quotations usually carry, our view is that Sungrow offers stronger long-term certainty. For price-sensitive residential buyers in cities with active Growatt distributors, Growatt is a defensible choice.
+## A worked string check on the MIN 5000TL-X2
 
-### Growatt vs Solis
+This is arithmetic with assumed module values, to show how the datasheet limits are used. It is not a design. Take an illustrative 550 W module with an open-circuit voltage of 49.9 V, a maximum-power voltage of 41.9 V, a short-circuit current of 13.9 A and a voltage temperature coefficient of about -0.29% per °C. Use your own module's datasheet for the real figures.
 
-Solis (Ginlong Technologies) occupies a similar price band to Growatt and competes on the same dealer-level arguments. Solis has a narrower India distributor footprint than Growatt but comparable product quality. For buyers where the local choice is between Solis and Growatt, the distributor's service track record in that specific city should be the deciding factor.
+- **Cold-morning limit.** At a cell temperature of 5 °C, 20 °C below the 25 °C test condition, open-circuit voltage rises by about 5.8%, to roughly 52.8 V per module. The inverter's maximum DC voltage is 550 V, so a string of 10 modules would reach about 528 V and stay under it, with some margin. The limit is a hard one, because exceeding it can damage the inverter.
+- **Hot-day limit.** At a cell temperature of 70 °C, 45 °C above the test condition, maximum-power voltage falls by about 13%, to roughly 36.4 V per module. The MPPT window starts at 40 V, so even a short string of 2 modules would sit above the lower edge, though a string that short would be unusual.
+- **Current limit.** The module's short-circuit current of 13.9 A is under the 16 A per-tracker input limit and the 24 A short-circuit limit.
+- **Power limit.** The datasheet lists 7,500 W as the maximum recommended PV power for the 5 kW model. Two strings of 6 modules is 6.6 kWp, which is under that figure and gives a DC-to-AC ratio of about 1.3.
 
-### Growatt vs Qbits
+A different module, a colder site or longer strings change every line, which is why the check belongs in the design and not in a rule of thumb. Ask the installer to show the same calculation for your own module and roof, with the temperature assumptions written down. The [string-sizing calculator](/string-sizing-calculator/) and the [MPPT](/glossary/mppt/) entry explain the same limits in more detail.
 
-## Who Should Buy Growatt: and Who Should Not
+## What the datasheets do not tell you
 
-This section applies the 6-Point framework results to specific buyer profiles. The honest answer is that Growatt is right for some buyers and wrong for others, and pretending otherwise serves neither the buyer nor the credibility of this review.
+- **Temperature derating.** The datasheets give an operating temperature range, and they do not give the ambient temperature at which output starts to fall or by how much. On a hot flat roof that is the number that matters, so ask for the derating curve for the exact model. Do not rely on a figure from another site.
+- **Enclosure rating by family.** The MIN X2 and MID X2 datasheets list IP66, and the SPH BL-UP lists IP65. The rating belongs to the model, not to the brand. For coastal sites check the rating and the corrosion protection for the exact model.
+- **Grid-code settings.** A datasheet lists standards the product was tested to. It does not state the trip settings your DISCOM requires. The settings are applied at commissioning according to the DISCOM's conditions.
+- **Export limiting.** An earlier MIN 2500-6000TL-X datasheet listed export control as a feature, and the X2 datasheet's headline features do not. If you need export limiting, confirm support and the required meter or sensor in writing for the exact model. See [zero export](/glossary/zero-export/).
 
-**Growatt makes sense for:**
+## What changes when you add a battery
 
-- **Budget-conscious residential buyers** in cities with active Growatt distributors, who are replacing an older inverter and prioritise upfront cost over long-term warranty certainty.
+The MIN on-grid models above have no battery port and no backup output. A hybrid changes the specification in three ways, and the datasheets show each.
 
-- **Buyers in strong-grid urban areas** where the grid is relatively stable, temperature extremes are moderate, and the risk of grid-related inverter stress is lower.
-- **Multi-system buyers** who plan to refresh inverters every 5–7 years as part of a longer system upgrade cycle, for whom the 5-year warranty aligns with their replacement horizon.
+**Battery voltage class.** The SPH 5000TL BL-UP uses a 42 to 59 V battery, a low-voltage class that suits 48 V lithium or lead-acid packs. The MOD 5000TL3-XH uses a high-voltage battery with a 600 to 950 V operating window and lists Growatt's APX battery systems as the compatible product. You cannot freely mix the two classes, so the choice of inverter and the choice of battery are one decision.
 
-**Growatt is the wrong choice for:**
+**Backup rating.** The SPH 5000TL BL-UP has a 5,000 W grid-tied rating but a 4,000 W backup rating, and a 4,000 W continuous battery power. Loads that run during a power cut therefore have to fit inside the backup figure, not the grid-tied figure. The transfer time is listed as below 10 ms on that datasheet, and any claim about how a particular appliance behaves during transfer should come from the manufacturer for that appliance.
 
-- **Buyers who need certificate paperwork up front**, because MNRE publishes no ALMM list for inverters and the exact model's BIS registration and certificates must be obtained from the distributor. If a distributor cannot supply them, choose another seller.
-- **Buyers in Tier-2 and Tier-3 cities** where no active local distributor can be identified, since in our experience that is what makes after-sales resolution times unpredictable. Check your own pincode before ruling it in or out.
-- **Buyers prioritising warranty depth** as a primary criterion, the 5-year repair warranty is a genuine weakness against 10-year full-replacement alternatives.
-- **Coastal and high-humidity installations** where IP66 protection provides a meaningful reliability advantage over IP65.
-- **C&I buyers requiring bankability documentation** for project financing, lenders and equity investors increasingly require inverter brands with strong, documented India-specific service commitments in project financial models.
+**Compatibility is a document.** A battery is supported when the manufacturer's compatibility document names the exact inverter, battery and firmware. A matching connector or a communication protocol name is not evidence of that. The [hybrid inverter](/glossary/hybrid-inverter/) entry and the [battery sizing guide](/blog/battery-sizing-hybrid-solar/) cover how to size the battery from the load.
 
-| | Pros | Cons |
-| --- | --- | --- |
-| **Growatt MID (Residential)** | ✓ Usually undercuts Sungrow on street price | ✗ Published standard term is 5-year repair |
-| | ✓ Wide distributor availability | ✗ Service experience varies by city |
-| | ✓ Dual-MPPT for split roofs | ✗ IP65 (not IP66) on standard models |
-| | ✓ ShinePhone adequate for home use | ✗ ShinePhone thin on EPC fleet tools |
-| **Growatt SPF (Hybrid)** | ✓ Battery backup capability | ✗ Basic hybrid management in our view |
-| | ✓ One-brand sourcing for EPCs | ✗ Certificates need checking per model |
+## Monitoring
 
-## Common Mistakes When Buying Growatt in India
+Growatt's product pages list the ShineWiFi-X, Shine4G-X, ShineLan-X and ShineLink-X communication accessories and the Growatt monitoring platform, and the datasheets list RS485 and USB as standard with Wi-Fi, GPRS, RF and LAN as options. In practice the accessory you need is part of the quote. Settle these before you buy:
 
-Several avoidable errors appear repeatedly when Indian buyers purchase Growatt inverters. Understanding these before purchase saves significant frustration later.
+1. Does the model come with the logger or dongle, or is it a paid accessory?
+2. Does it need a Wi-Fi network at the inverter, or a SIM?
+3. Who owns the plant account, and how is it handed over if you change installers?
+4. Are per-tracker readings visible, or only totals?
+5. Which faults raise an alert, and who receives it?
 
-**Assuming an ALMM listing covers the inverter.** MNRE publishes ALMM lists for modules and cells only. Ask for the exact Growatt model's BIS registration and current certificates, and confirm any inverter condition for PM Surya Ghar with your DISCOM.
+## Warranty as Growatt publishes it
 
-**Not confirming the warranty terms in writing.** The standard term on the documents we reviewed is a 5-year repair warranty. Verbal summaries at the point of sale can blur the difference between repair and replacement cover, whichever brand is being sold. Get the warranty card and read the specific terms before paying a deposit.
+The datasheets for the MIN, SPH and MID models above carry the line "Warranty: 5 years / 10 years: Yes / Optional", and the MOD XH datasheet carries "Warranty: 10 years". Growatt's [warranty page](https://en.growatt.com/support/warranty), read on 14 October 2026, adds the following:
 
-**Choosing a distributor based on price alone.** The price difference between two distributors in the same city is usually small on a 5 kW unit. The difference in after-sales service quality between them can be much larger, and it is the variable that decides how long you wait if something needs a spare part. Ask your shortlisted installer for specific examples of how they have handled past Growatt warranty cases.
+- The standard period runs from the date of installation on the installation certificate, and cannot begin more than six months after Growatt's delivery date.
+- A warranty period written on the sales order overrides the standard period.
+- A warranty extension may only be applied for within two years of installation.
+- Under warranty, Growatt's responsibility is service replacement and service repair.
+- Growatt pays freight for warranted products to the original country or region of sale. Customers pay customs clearance and any freight for expired or voided products.
+- Claims need the serial number, the original invoice or installation documents, a claim form and a fault description with error codes or photos.
+- Exclusions include a broken seal, transport damage, incorrect installation, failure to follow the manual and force majeure such as lightning or overvoltage.
 
-**Under-specifying the inverter for future expansion.** If you plan to add panels or a battery in the next 3–5 years, purchasing the smallest MID model that covers your current load may constrain you. The SPF hybrid series is the relevant product if battery readiness is a future requirement.
+The page does not mention India or give India-specific terms. Ask the seller for the warranty document that applies to your sale, and put the delivery date and installation date on the handover record. See the [warranty comparison guide](/blog/solar-inverter-warranty/) for how to read clauses of this kind.
 
-**Skipping temperature derating analysis.** For installations in Rajasthan, Gujarat, Maharashtra (interior), and Telangana, where summer ambient temperatures regularly exceed 45 °C, the derating performance at actual operating temperatures should be part of the selection comparison, not just the headline peak efficiency figure. The [on-grid vs hybrid solar inverters ROI comparison](/blog/on-grid-vs-hybrid-solar-inverters-roi/) covers system-level financial modelling that should incorporate real operating efficiency assumptions.
+## Certification and ALMM
 
-For buyers navigating the full comparison exercise, the [how to choose solar inverter for home India](/blog/how-to-choose-solar-inverter-for-home-india/) guide provides a structured process that applies beyond any single brand.
+MNRE's [ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) lists PV modules (List-I) and cells (List-II). It has no inverter list, so no Growatt inverter can be "ALMM listed". The documents that matter for an inverter are its BIS registration, its test reports against IEC 62109 and IEC 62116 (the Indian standards are IS 16221 and IS 16169) and the DISCOM's conditions. The MID X2 datasheet lists BIS in its certificate line. The MIN X2 datasheet lists international standards such as IEC 62116 and IEC 61727 and no Indian standard numbers. That does not show that a model is unregistered. It means you should ask for the registration record and certificate for the exact model before paying a deposit. For PM Surya Ghar, confirm any inverter condition with your DISCOM or the registered vendor. See the [certification guide](/blog/solar-inverter-certifications/) and the [PM Surya Ghar guide](/blog/pm-surya-ghar-yojana-complete-guide/).
 
-## Where Qbits Fits
+## Pricing
 
-- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
+This review quotes no prices. Dealer and street prices vary by state, season, distributor and what the quote covers, and a figure copied from elsewhere goes stale quickly. When you compare two quotes, make sure both name the same array, mounting, cabling, protection, monitoring hardware, DISCOM application and commissioning, and read the exclusions. GST on solar equipment moved to 5% for the specified items from 22 September 2025, so check how your installer has classified a composite supply.
 
-[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
+## How Growatt compares with other brands
+
+- **Growatt and Sungrow.** The [Sungrow vs Growatt comparison](/blog/sungrow-vs-growatt-comparison/) sets the Growatt MIN 5000TL-X2 beside the Sungrow SG5.0RS-L on datasheet figures.
+- **Growatt and Solis.** The [Growatt vs Solis comparison](/blog/growatt-vs-solis-comparison/) does the same for the Solis S6-GR1P5K-S.
+- **Growatt, Sungrow and Qbits.** The [three-way comparison](/blog/qbits-vs-sungrow-vs-growatt/) adds the Qbits QB-5KTLD. The [Qbits vs Growatt comparison](/blog/qbits-vs-growatt-honest-comparison/) is the head-to-head.
+
+For reference, the published Qbits QB-5KTLD datasheet lists two MPPTs with one string each, an 80 to 550 V MPPT range, 20 A per tracker, 5,000 W rated output with 5.5 kVA maximum, current THD below 2% at rated power, 98.1% maximum efficiency and IP66. The Qbits public datasheets do not define a base warranty term, so request the written warranty for the exact model before comparing it with Growatt's. The Qbits [on-grid inverter range](/on-grid-inverter/) lists the families.
+
+## Checklist before you buy a Growatt inverter
+
+1. **The exact model number and datasheet version.** MIN, SPH, MOD and MID are different products for different jobs.
+2. **The string design.** Check hot-day maximum-power voltage against the MPPT lower limit, cold-morning open-circuit voltage against the maximum DC voltage and string current against the tracker limit. The [string-sizing calculator](/string-sizing-calculator/) helps with the first pass.
+3. **The warranty document for your sale,** with start date, remedy, exclusions and extension window.
+4. **The BIS registration and certificates for the exact model.**
+5. **The monitoring accessory and account ownership.**
+6. **The named service partner for your pincode,** and whether they stock the spare you would need.
+7. **For hybrids, the battery compatibility document,** naming the exact battery, inverter and firmware.
+8. **The derating curve** if the inverter will sit in direct heat.
+
+## Who it can suit, and what to confirm
+
+Growatt's range spans residential single-phase, hybrid and commercial three-phase inverters, so one brand can supply a mixed project. A buyer who wants a hybrid should note that the SPH line uses low-voltage batteries and the MOD XH line uses Growatt's high-voltage batteries, and that the choice drives the battery decision. A buyer in a district where the installer cannot name a service partner should settle that before choosing any imported brand. A buyer who needs a warranty term in writing before purchase should ask for the document and read it, because Growatt's own page shows that the sales order can override the standard term.
+
+## Common mistakes
+
+- Treating the MID series as a residential inverter.
+- Assuming an inverter can be "ALMM listed."
+- Comparing a peak efficiency figure and ignoring the voltage window.
+- Reading "5 years" without the start date, remedy and exclusions.
+- Taking a datasheet from a distributor or reseller without checking it against the version supplied with the unit.
+- Skipping the written service route for your pincode.
+
+For wider diligence, see [how to choose a solar inverter for a home in India](/blog/how-to-choose-solar-inverter-for-home-india/) and [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/).
+
+## Where Qbits fits
+
+- **[Hybrid inverters](/hybrid-inverter/):** review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Authorised service partners](/authorized-service-partners/):** search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
+
+If you want a Qbits datasheet on the same worksheet, [send the array size, phase and backup requirement](/contact-us/) and ask for the exact model's documents.

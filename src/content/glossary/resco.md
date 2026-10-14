@@ -270,7 +270,7 @@ QBits Energy structures RESCO PPAs and CAPEX rooftop solar projects for C&I cust
 For how RESCO plays out in real projects, these guides go deeper:
 
 - [Solar RESCO Model India: Guide for C&I Buyers](/blog/solar-resco-model-india-guide/)
-- [Solar CAPEX vs OPEX: The C&I Buyer Decision Guide](/blog/solar-capex-vs-opex-india-guide/)
+- [Solar CAPEX vs OPEX: The C&I Buyer Decision Guide](/blog/solar-capex-vs-opex-business-india/)
 - [Zero Cost Solar India: RESCO & OPEX Models](/blog/zero-cost-solar-resco-opex-india/)
 - [Solar CAPEX vs OPEX: Which Model Fits Your Business?](/blog/solar-capex-vs-opex-business-india/)
 

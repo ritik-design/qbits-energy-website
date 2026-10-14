@@ -256,4 +256,4 @@ For how Junction Box plays out in real projects, these guides go deeper:
 - Manufacturer documentation from Stäubli, Hosiden, RKZ, Schneider, ABB.
 - TUV certifications for PV module junction boxes.
 - IEC 62548, PV array design.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.

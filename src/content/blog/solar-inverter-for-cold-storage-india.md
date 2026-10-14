@@ -155,7 +155,7 @@ A 50 kW rooftop solar system on a medium cold storage facility:
 - **Simple payback**: 30,00,000 / 7,50,000 = **4 years**
 - **Net savings over 20 years**: ₹1.5 crore (before tariff escalation)
 
-Whether to fund this as a capital purchase or a zero-upfront RESCO/OPEX arrangement is a separate financing question; the [solar CAPEX vs OPEX guide for C&I buyers](/blog/solar-capex-vs-opex-india-guide/) walks through both models for exactly this kind of high-consumption, constant-load facility.
+Whether to fund this as a capital purchase or a zero-upfront RESCO/OPEX arrangement is a separate financing question; the [solar CAPEX vs OPEX guide for C&I buyers](/blog/solar-capex-vs-opex-business-india/) walks through both models for exactly this kind of high-consumption, constant-load facility.
 
 > **Market data.** Cold chain and food processing facilities account for approximately 15% of commercial rooftop solar capacity in India, driven by high electricity consumption and strong ROI. The segment is growing at 25%+ annually as government policy incentivises cold chain development. *Source - [JMK Research India Solar Market Report](https://jmkresearch.com/), 2025.*
 

@@ -72,7 +72,7 @@ Treat "smart" as a bundle of ten capabilities. A unit that has eight of them is 
 
 Two rows deserve early attention. Per-string data is what turns monitoring from a dashboard into a diagnostic tool, because a single plant-level power figure cannot tell you which string failed. And the open-protocol row is the one that ages best, since it governs everything you might connect in year four.
 
-The AI framing of this topic is covered separately in [AI in solar inverters](/blog/ai-in-solar-inverters/) and in the comparison of [AI-powered and traditional inverter technology in India](/blog/ai-powered-vs-traditional-inverter-technology-in-india/). This page stays on verifiable capability.
+The AI framing of this topic is covered separately in [AI in solar inverters](/blog/ai-in-solar-inverters/) and in the [evidence checklist on AI claims](/blog/ai-in-solar-inverters/). This page stays on verifiable capability.
 
 ## Grid-support functions: the part that earns the word
 

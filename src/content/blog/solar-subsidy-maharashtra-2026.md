@@ -244,7 +244,7 @@ A common question in Maharashtra solar buyer groups is whether waiting (for bett
 - ✗ Quality installers in Pune and Mumbai have 3–6 week booking queues
 - ✗ Fixed charges (₹400–₹600/month) are not eliminated by solar
 
-The financial case for installing in 2026 is strong. Every month of delay costs this Pune homeowner approximately ₹6,000 in bills. The opportunity cost of waiting 12 months is roughly equivalent to the entire MEDA state incentive amount. Homeowners weighing Maharashtra against a relocation or second-home purchase elsewhere may find the [solar subsidy Gujarat guide](/blog/solar-subsidy-gujarat-2026/) useful for comparing how a faster DISCOM and a larger state top-up change the payback math.
+The financial case for installing in 2026 is strong. Every month of delay costs this Pune homeowner approximately ₹6,000 in bills. The opportunity cost of waiting 12 months is roughly equivalent to the entire MEDA state incentive amount. Homeowners weighing Maharashtra against a relocation or second-home purchase elsewhere may find the [solar subsidy Gujarat guide](/blog/surya-gujarat-scheme-guide/) useful for comparing how a faster DISCOM and a larger state top-up change the payback math.
 
 ## Common Mistakes Maharashtra Solar Applicants Make
 
@@ -259,7 +259,7 @@ Installers and consumers who have navigated the Maharashtra solar subsidy proces
 
 For guidance on the PM Surya Ghar application process steps in detail, the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the national process which applies to Maharashtra applicants as well. The [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/) clarifies who qualifies before you begin.
 
-Separately, if you are evaluating which inverter to select for a subsidy-linked installation, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) shows how inverter choice affects long-term returns, an important consideration given Maharashtra's 25-year investment horizon.
+Separately, if you are evaluating which inverter to select for a subsidy-linked installation, the [solar inverter payback period guide](/blog/solar-inverter-payback-period/) shows how inverter choice affects long-term returns, an important consideration given Maharashtra's 25-year investment horizon.
 
 ## Where Qbits Fits in Maharashtra's Solar Market
 

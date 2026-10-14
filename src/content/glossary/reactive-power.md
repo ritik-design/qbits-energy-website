@@ -238,7 +238,6 @@ Major inverter brands support full reactive capability with documentation in the
 | CEA Grid Code 2019 | Indian distribution grid requirements |
 | IEEE 1547-2018 | US smart-inverter functions |
 | IEC 61727 | Utility interface characteristics |
-| IS 17387 | Indian inverter grid interconnection |
 | UL 1741 SA / SB | US smart-inverter standard |
 
 ## Common mistakes
@@ -273,7 +272,6 @@ For how Reactive Power plays out in real projects, these guides go deeper:
 ## Sources
 
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.
-- IS 17387, Indian Standard for utility-interconnected photovoltaic inverters.
 - IEEE 1547-2018, Standard for Interconnection and Interoperability of Distributed Energy Resources.
 - UL 1741 SA and SB, Inverters, Converters, Controllers and Interconnection System Equipment.
 - IEC 61727:2004, Photovoltaic systems: Characteristics of the utility interface.

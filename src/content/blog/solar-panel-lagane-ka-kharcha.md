@@ -184,7 +184,7 @@ Rejection की बाकी common वजहें [PM Surya Ghar rejection re
 
 अब savings side। 3 kW system Gujarat जैसी irradiance में लगभग 4.2 से 4.5 units प्रति kW प्रति दिन देता है, यानी महीने में करीब 380 से 405 units। ₹2,200 का bill लगभग पूरा offset हो जाता है और थोड़ा export credit भी बनता है। सालाना savings लगभग ₹26,000 से ₹28,000।
 
-Payback = ₹1,03,000 ÷ ₹27,000 ≈ 3.8 साल। इसमें AMC ₹3,000 सालाना घटा दें तो लगभग 4.3 साल। System की life 25 साल है, inverter एक बार बदलना पड़ सकता है 12 से 15 साल के बीच। Detailed payback math के लिए [solar payback period guide](/blog/solar-inverter-payback-period-in-india/) देखें।
+Payback = ₹1,03,000 ÷ ₹27,000 ≈ 3.8 साल। इसमें AMC ₹3,000 सालाना घटा दें तो लगभग 4.3 साल। System की life 25 साल है, inverter एक बार बदलना पड़ सकता है 12 से 15 साल के बीच। Detailed payback math के लिए [solar payback period guide](/blog/solar-inverter-payback-period/) देखें।
 
 ## Kharcha Kis Cheez Se Ghatta ya Badhta Hai
 

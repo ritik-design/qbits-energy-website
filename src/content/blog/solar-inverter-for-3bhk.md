@@ -182,7 +182,7 @@ At ₹1,13,000 net cost after subsidy (from the Delhi example above), payback = 
 
 > **2–4 years.** Typical payback period for a 5 kW on-grid solar system for a 3 BHK home in Delhi after PM Surya Ghar subsidy, at prevailing electricity tariffs of ₹7–9 per unit. *Source - [Mercom India residential solar market tracker](https://www.mercomindia.com/), Q1 2026.*
 
-This payback is significantly faster than the 6–8 years commonly quoted in older analyses because PM Surya Ghar has compressed the upfront cost substantially. The [solar payback period guide](/blog/solar-inverter-payback-period-in-india/) covers the full calculation methodology for different tariff slabs.
+This payback is significantly faster than the 6–8 years commonly quoted in older analyses because PM Surya Ghar has compressed the upfront cost substantially. The [solar payback period guide](/blog/solar-inverter-payback-period/) covers the full calculation methodology for different tariff slabs.
 
 ## On-Grid vs Hybrid: Pros, Cons, and Who Should Choose Which
 

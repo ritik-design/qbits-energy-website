@@ -208,7 +208,7 @@ The [3 kW vs 5 kW vs 10 kW solar inverter comparison](/blog/3kw-vs-5kw-vs-10kw-s
 
 > **4–6 years.** The typical payback period for a residential on-grid solar installation in India under PM Surya Ghar subsidy, at a grid tariff of ₹7–₹9 per unit and 300+ [peak sun hours](/glossary/peak-sun-hours/) per year. *Source - [Ministry of New and Renewable Energy (MNRE)](https://mnre.gov.in/), Residential Solar Adoption Report, 2025.*
 
-For a detailed payback calculation broken down by city, tariff slab, and system size, the [solar inverter payback period in India guide](/blog/solar-inverter-payback-period-in-india/) includes a city-wise table covering 18 Indian cities.
+For a detailed payback calculation broken down by city, tariff slab, and system size, the [solar inverter payback period in India guide](/blog/solar-inverter-payback-period/) includes a city-wise table covering 18 Indian cities.
 
 ## Pros and Cons: Premium vs Budget Solar Installation
 

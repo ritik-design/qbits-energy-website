@@ -17,7 +17,7 @@ quickFacts:
   industry: "Solar + Storage Architecture"
   primaryUse: "New solar-plus-storage installations"
   commonUsers: "Residential, small commercial, microgrid"
-  relevantStandards: "IEC 62109, IEC 61727, IEC 62619, IS 17387"
+  relevantStandards: "IEC 62109, IEC 61727, IEC 62619, CEA Connectivity Regulations"
   relatedTechnologies: "Hybrid inverter, MPPT, BMS, internal DC bus"
 relatedTerms:
   - { slug: "ac-coupling", term: "AC Coupling" }
@@ -241,7 +241,6 @@ CEA Grid Code applies to the AC side. Anti-islanding, FRT and reactive power req
 |---|---|
 | IEC 62109 | Inverter safety |
 | IEC 61727 | Utility interface |
-| IS 17387 | Indian grid interconnection |
 | IEC 62619 | Battery safety |
 | IS 16893 | Indian stationary battery storage |
 | CEA Grid Code 2019 | Connectivity rules |
@@ -279,7 +278,7 @@ For how DC Coupling plays out in real projects, these guides go deeper:
 
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems.
 - IEC 61727:2004, Photovoltaic systems: Characteristics of the utility interface.
-- IS 17387, Indian Standard for utility-interconnected PV inverters.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - IEC 62619:2017, Safety of secondary lithium cells.
 - IS 16893, Indian Standard for stationary battery storage.
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.

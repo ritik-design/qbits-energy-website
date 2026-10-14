@@ -214,7 +214,7 @@ Buyers researching this comparison frequently fall into the same traps. Understa
 - **Underweighting the monitoring gap**: iSolarCloud's superior diagnostic depth can detect yield loss faster than SolisCloud. Earlier fault detection means shorter downtime and higher annual generation. Over 10 years, the monitoring quality difference can translate to 3–5% additional yield capture.
 - **Not confirming local service availability**: Ask your dealer: which specific service centre handles your pincode, and what is their documented response time for residential warranty claims? Do not accept a national service network description as an answer to a local service question.
 
-For a deeper look at what service SLA differences mean in real money terms, see [the solar inverter downtime cost guide](/blog/solar-inverter-downtime/).
+For a deeper look at what service SLA differences mean in real money terms, see [the solar inverter failure guide](/blog/solar-inverter-failure-action/).
 
 ## The Warranty Gap After Year Five
 

@@ -186,7 +186,7 @@ Hospital solar projects fail (or create compliance exposure) most often because 
 
 **Mistake 4: Omitting DG coordination from the scope.** A solar inverter that anti-islands during DG startup leaves Tier 2 loads unpowered for the DG startup transient (30–90 seconds). This is not a theoretical risk, it is the most common failure mode reported during commissioning of hospital solar installations in India. Specify a DG-compatible inverter and commission the AMF coordination with the DG running.
 
-For a broader discussion of how to evaluate vendor reliability before committing to a project of this scale, the [solar inverter reliability index](/blog/solar-inverter-reliability-index/) provides a scoring methodology applicable to hospital procurement decisions, and the [solar inverter manufacturers in India evaluation guide](/blog/solar-inverter-manufacturers-in-india/) covers the certification and warranty-infrastructure checks a procurement committee should run before shortlisting vendors.
+For a broader discussion of how to evaluate vendor reliability before committing to a project of this scale, the [solar inverter reliability guide](/blog/how-to-evaluate-solar-inverter-reliability/) provides a scoring methodology applicable to hospital procurement decisions, and the [solar inverter manufacturers in India evaluation guide](/blog/solar-inverter-manufacturers-in-india/) covers the certification and warranty-infrastructure checks a procurement committee should run before shortlisting vendors.
 
 ## Financial Model: DG Displacement and IRR for a 100 kW Hospital Solar Installation
 
@@ -209,7 +209,7 @@ Assume a 100-bed private hospital in Pune, Maharashtra, with the following basel
 | Net metering credit (remaining export) | ₹2,50,000 |
 | **Total annual savings** | **₹21,24,000** |
 
-Against a [capital cost](/blog/solar-inverter-installation-cost/) of approximately ₹75–80 Lakh for the 120 kW system (including civil, electrical, and AMF integration), and applying 40% accelerated depreciation in year one (reducing the effective cost by approximately ₹12 Lakh for a 30% tax-bracket entity), the net [payback](/blog/solar-inverter-payback-period-in-india/) falls to approximately 4.5–5 years with an IRR exceeding 18%.
+Against a [capital cost](/blog/solar-inverter-installation-cost/) of approximately ₹75–80 Lakh for the 120 kW system (including civil, electrical, and AMF integration), and applying 40% accelerated depreciation in year one (reducing the effective cost by approximately ₹12 Lakh for a 30% tax-bracket entity), the net [payback](/blog/solar-inverter-payback-period/) falls to approximately 4.5–5 years with an IRR exceeding 18%.
 
 This is a materially better financial outcome than the 7–8 year payback commonly quoted for hospital solar, because the DG displacement component (which accounts for 43% of total annual savings in this model) is frequently omitted from EPC proposals. Hospital administrators should insist on a complete three-source financial model before comparing competing quotations.
 

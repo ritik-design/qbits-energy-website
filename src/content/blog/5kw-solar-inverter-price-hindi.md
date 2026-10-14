@@ -4,7 +4,7 @@ excerpt: "5 kW solar inverter price ko scope, phase, battery aur specs se compar
 description: "5kW solar inverter price India 2026 में kya hai? On-grid vs hybrid, battery cost, installed price, PM Surya Ghar subsidy aur EMI ka Hindi guide।"
 category: "Buying Guide"
 date: 2026-08-02
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-5kw-solar-inverter-price-hindi.webp"
 author: "Akash Hirapara"
@@ -93,7 +93,7 @@ Har vendor se same bill of quantities par gross total maangein. Tabhi rupee gap 
 
 5 kW us boundary par baithta hai jahan phase choice genuinely open hoti hai. Deciding factor aapka existing service connection aur DISCOM ki connection conditions hain, inverter ka datasheet nahi. Kuch DISCOM 5 kW single-phase service par net metering allow karte hain. Kuch us capacity par three-phase demand karte hain. Ise application se pehle likhit mein confirm karein.
 
-Mechanism samajhna zaroori hai. Net metering approval aapke sanctioned load aur connection type se linked hota hai, aur governing documents CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, IS 17387 aur aapke DISCOM ki apni connection conditions hain. Voltage aur frequency trip windows in documents aur model manual se lein, kisi blog se nahi.
+Mechanism samajhna zaroori hai. Net metering approval aapke sanctioned load aur connection type se linked hota hai, aur governing documents CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations aur aapke DISCOM ki apni connection conditions hain. Voltage aur frequency trip windows in documents aur model manual se lein, kisi blog se nahi.
 
 MNRE ne March 2026 mein is process ka friction kam kiya. Technical feasibility requirement waive hui, 10 kW tak auto load enhancement introduce hua, aur net metering agreement National Portal application mein fold ho gaya, according to MNRE and PIB material (March 2026). Yeh load enhancement easier banata hai, lekin phase requirement DISCOM ke paas hi rehti hai.
 

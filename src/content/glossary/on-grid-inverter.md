@@ -19,7 +19,7 @@ quickFacts:
   industry: "Solar PV / Grid-Connected Power"
   primaryUse: "Direct DC-to-AC conversion with utility grid export"
   commonUsers: "Homeowners, RWAs, commercial and industrial plants, EPCs, utilities"
-  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, IS 17387, CEA Grid Code, MNRE ALMM"
+  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, CEA Grid Code, MNRE ALMM"
   relatedTechnologies: "MPPT, anti-islanding, net metering, smart meters, IGBT, SiC, transformerless topology"
 relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }
@@ -54,7 +54,7 @@ faqs:
   - q: "What is the efficiency of an on grid inverter?"
     a: "Modern string on-grid inverters deliver 97 to 98.6 percent peak efficiency and 96.5 to 98 percent European weighted efficiency. Microinverters land slightly lower around 95 to 97 percent."
   - q: "What certifications must an on grid inverter have in India?"
-    a: "BIS certification under IS 16221 and IS 17387, MNRE ALMM listing for subsidy-eligible projects, plus compliance with IEC 62109 for safety, IEC 61727 for grid interconnection and IEC 62116 for anti-islanding."
+    a: "BIS certification under IS 16221, MNRE ALMM listing for subsidy-eligible projects, plus compliance with IEC 62109 for safety, IEC 61727 for grid interconnection and IEC 62116 for anti-islanding."
   - q: "Can I install an on grid inverter without DISCOM approval?"
     a: "Technically yes, but you cannot legally export power to the grid without a sanctioned net or gross metering connection. Operating an unapproved grid-tie inverter can violate state electricity rules and void warranties."
   - q: "What happens to extra solar power from an on grid inverter?"
@@ -86,7 +86,7 @@ There is no battery, no transfer switch, and no standby mode. When the grid disa
 > - It dominates Indian rooftop solar and is the inverter type PM Surya Ghar and most C&I schemes are designed around.
 > - It costs roughly 35 to 50 percent less than an equivalent hybrid system because batteries are skipped entirely.
 > - Peak efficiency reaches 97 to 98.6 percent, the highest of any inverter type since there is no battery round-trip loss.
-> - In India it must be ALMM-listed and BIS-certified under IS 16221 and IS 17387 to qualify for subsidy.
+> - In India it must be ALMM-listed and BIS-certified under IS 16221 to qualify for subsidy.
 
 In India, on grid inverters dominate the rooftop solar market. The MNRE PM Surya Ghar Muft Bijli Yojana, almost all C&I projects, and the bulk of state subsidy programs are designed around grid-connected, net-metered systems using on grid inverters.
 
@@ -221,7 +221,6 @@ State [DISCOMs](/glossary/discom/) enforce CEA grid standards through commission
 | IEC 61727 | Utility interface characteristics |
 | IEC 62116 | Anti-islanding test procedures |
 | IS 16221 | Indian PV inverter safety standard |
-| IS 17387 | Indian grid-interconnection standard |
 | CEA Technical Standards 2019 | Connectivity to distribution system |
 | MNRE ALMM | Mandatory listing for subsidised projects |
 | UL 1741 SA | Smart inverter functions, US reference |
@@ -258,7 +257,7 @@ For how On Grid Inverter plays out in real projects, these guides go deeper:
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems, International Electrotechnical Commission.
 - IEC 61727:2004, Photovoltaic systems: Characteristics of the utility interface.
 - IEC 62116:2014, Anti-islanding test procedures for grid-tied PV inverters.
-- IS 16221 and IS 17387, Indian Standards for PV inverter safety and grid interconnection, Bureau of Indian Standards.
+- IS 16221 (Part 1 and 2), Indian Standard for PV inverter safety, Bureau of Indian Standards.
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019, Central Electricity Authority of India.
 - MNRE Approved List of Models and Manufacturers (ALMM), Ministry of New and Renewable Energy.
 - PM Surya Ghar Muft Bijli Yojana, scheme guidelines, MNRE.

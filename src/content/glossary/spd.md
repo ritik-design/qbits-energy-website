@@ -36,7 +36,7 @@ faqs:
   - q: "What does SPD stand for?"
     a: "Surge Protection Device. Also called transient voltage surge suppressor (TVSS)."
   - q: "Are SPDs required for solar?"
-    a: "Yes for Indian installations. CEA Measures and IS 17387 require SPD on both DC and AC sides for grid-tied systems."
+    a: "Yes for Indian installations. CEA safety measures and inverter safety standards such as IEC 62109-2 point to SPD protection on both DC and AC sides for grid-tied systems."
   - q: "What are SPD types?"
     a: "Type 1: tested with 10/350 µs lightning waveform, used at service entry. Type 2: tested with 8/20 µs waveform, used at sub-distribution. Type 3: appliance-level. Most solar use Type 2."
   - q: "Do I need both DC and AC SPDs?"
@@ -72,13 +72,13 @@ SPDs use voltage-limiting components, most commonly metal oxide varistors (MOVs)
 
 > **TL;DR**
 > - An SPD diverts transient overvoltage from lightning or switching events to earth, protecting the inverter, modules and connected appliances downstream.
-> - Indian solar installations need SPDs on both the DC side (between modules and inverter) and the AC side (between inverter and grid); CEA Measures and IS 17387 make this mandatory.
+> - Indian solar installations need SPDs on both the DC side (between modules and inverter) and the AC side (between inverter and grid); CEA safety measures and the inverter safety standards (IEC 62109-1/-2) point to protection on both sides.
 > - Type 2 SPDs (8/20 µs test waveform) cover most solar sub-distribution needs; Type 1 (10/350 µs) is added at the service entry on buildings with a lightning protection system.
 > - An SPD only works if it is properly earthed, and it wears out with every surge it absorbs, so its status indicator needs checking.
 > - Replace an SPD immediately when its indicator shows end-of-life, and budget for replacement every 5 to 10 years in lightning-prone regions even without a visible trigger.
 > - SPD cost (a few thousand rupees) is negligible next to the inverter and module investment it protects.
 
-For Indian solar installations, CEA Measures Relating to Safety and IS 17387 require SPD on both the [DC side (between PV modules and inverter)](/blog/solar-inverter-wiring-diagram/) and the AC side (between inverter and grid). Indian thunderstorm activity makes SPD non-optional for plant longevity, a risk our [surge protection buyer's guide](/blog/how-to-choose-solar-inverters-with-surge-protection/) covers in more depth.
+For Indian solar installations, CEA Measures Relating to Safety and the inverter safety standards (IEC 62109-1/-2) point to SPD on both the [DC side (between PV modules and inverter)](/blog/solar-inverter-wiring-diagram/) and the AC side (between inverter and grid). Indian thunderstorm activity makes SPD non-optional for plant longevity, a risk our [surge protection buyer's guide](/blog/how-to-choose-solar-inverters-with-surge-protection/) covers in more depth.
 
 ## Why SPDs matter
 
@@ -86,7 +86,7 @@ Equipment protection. Inverters, panels, batteries and connected appliances cost
 
 Insurance compliance. Insurers require SPD-protected installations for claim coverage.
 
-Regulatory compliance. CEA Measures Relating to Safety and IS 17387 mandate SPDs.
+Regulatory compliance. CEA Measures Relating to Safety and the inverter safety standards (IEC 62109-1/-2) point to SPDs on both sides.
 
 System availability. Surge damage causes long downtime for repairs. SPDs prevent the damage.
 
@@ -217,7 +217,7 @@ PM Surya Ghar residential installations include SPD on both DC and AC sides in m
 | IS 16480 | Indian SPD standard |
 | IEC 61643 series | International SPD standard |
 | IEC 60364-4-44 | Protection against voltage disturbances |
-| IS 17387 | Inverter grid interconnection (references SPD) |
+| IEC 62109-1/-2 | Inverter safety |
 | CEA Measures Relating to Safety 2023 | Indian safety regulations |
 
 ## Common mistakes
@@ -253,7 +253,7 @@ For how SPD plays out in real projects, these guides go deeper:
 - IS 16480, Indian Standard for surge protection devices.
 - IEC 61643 series, International SPD standard.
 - IEC 60364-4-44, Protection against voltage disturbances.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - CEA Measures Relating to Safety and Electric Supply Regulations 2023.
 - IEC 62305 series, Lightning protection.
 - Manufacturer technical documentation from Phoenix Contact, ABB, Schneider, Siemens, Havells, OBO, Citel, DEHN.

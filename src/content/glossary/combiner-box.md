@@ -212,7 +212,7 @@ CEIG drawing approval verifies combiner box specifications.
 | IEC 61439 | LV switchgear assemblies |
 | IEC 62548 | PV array design requirements |
 | IEC 60529 | IP rating |
-| IS 17387 | Inverter grid interconnection |
+| CEA Connectivity Regulations 2013 (as amended 2019) | Grid connection of distributed generation |
 | MNRE technical specifications | Combiner box requirements |
 
 ## Common mistakes
@@ -247,7 +247,7 @@ For how Combiner Box plays out in real projects, these guides go deeper:
 - IEC 61439, LV switchgear and controlgear assemblies.
 - IEC 62548, PV array design requirements.
 - IEC 60529, IP ratings.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - MNRE Technical Specifications for Solar PV Plants.
 - Manufacturer documentation from Phoenix Contact, Schneider, BCH, Chint India.
 - IEEE Standard Dictionary of Electrical and Electronics Terms.

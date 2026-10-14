@@ -64,7 +64,7 @@ Four different faults look identical from the ground floor.
 
 Work through the diagnosis ladder in the [troubleshooting guide](/blog/solar-inverter-troubleshooting/) before filing, and check the meaning of the code in the [error code reference](/blog/solar-inverter-error-codes-guide/). Do not open the enclosure. Opening it voids the warranty on most Indian inverter policies, and it converts a claimable defect into an excluded one.
 
-One test settles the grid question cheaply. Ask the installer to log AC voltage and frequency at the inverter terminals across a full day. If the supply sits outside the window printed in your model's manual, the trips are the grid behaving badly, not the inverter failing. The governing limits come from the Central Electricity Authority connectivity regulations, IS 17387 and your DISCOM's connection conditions, so take the numbers from those documents rather than from a forum post.
+One test settles the grid question cheaply. Ask the installer to log AC voltage and frequency at the inverter terminals across a full day. If the supply sits outside the window printed in your model's manual, the trips are the grid behaving badly, not the inverter failing. The governing limits come from the Central Electricity Authority connectivity regulations and your DISCOM's connection conditions, so take the numbers from those documents rather than from a forum post.
 
 ## The documents you should have kept at commissioning
 

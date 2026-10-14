@@ -171,7 +171,7 @@ For the complete hour-by-hour recovery sequence, see [Solar Inverter Failure: Sa
 - Machine learning establishes baseline performance per inverter
 - Detects deviations suggesting component degradation
 - Gradual efficiency declines signal capacitor aging
-- Remote diagnostics enable rapid assessment before dispatch, reducing the [downtime](/blog/solar-inverter-downtime/) window
+- Remote diagnostics enable rapid assessment before dispatch, reducing the [downtime](/blog/solar-inverter-failure-action/) window
 - Performance benchmarking identifies underperformers across fleet
 
 ### Connectivity

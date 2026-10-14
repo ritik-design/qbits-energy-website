@@ -51,7 +51,7 @@ The catch: Rs 3.75 is not what lands on your bill. Between the solar park and yo
 
 **Short version.** Open access solar in India means buying solar power from an off-site plant, delivered to your factory through the grid. You pay a PPA tariff plus state-set network charges. Any consumer with a connected load of 100 kW or more qualifies in most states. Savings of 25% to 45% versus grid tariffs are achievable. You must model wheeling, cross-subsidy surcharge, and banking charges for your state first, then pick the right structure.
 
-If you are still deciding between owning rooftop solar and buying off-site power, read the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-india-guide/) first. This post assumes you want solar at scale and need the open access mechanics.
+If you are still deciding between owning rooftop solar and buying off-site power, read the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/) first. This post assumes you want solar at scale and need the open access mechanics.
 
 ## What Open Access Solar Actually Is
 

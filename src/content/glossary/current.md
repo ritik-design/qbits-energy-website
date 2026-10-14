@@ -230,6 +230,6 @@ For how Current plays out in real projects, these guides go deeper:
 - IS 13947, IEC 60947, industrial breaker standards.
 - IEC 60269, Low-voltage fuses.
 - CEA Technical Standards 2019.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - Manufacturer datasheets for major solar modules and inverters.
 - IEEE Standard Dictionary of Electrical and Electronics Terms.

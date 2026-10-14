@@ -18,7 +18,7 @@ quickFacts:
   industry: "Solar PV / Power Electronics"
   primaryUse: "Conversion of string-level DC into AC for grid or load"
   commonUsers: "Homeowners, EPCs, C&I plants, utility-scale developers"
-  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, IS 17387, MNRE ALMM"
+  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, CEA Connectivity Regulations, MNRE ALMM"
   relatedTechnologies: "MPPT, IGBT, SiC, transformerless topology, multilevel inverters"
 relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }
@@ -74,7 +74,7 @@ A string inverter is a centralised [solar inverter](/glossary/solar-inverter/) t
 > - A string inverter converts the combined DC output of one or more series-connected PV strings into AC, running MPPT across the whole string at once.
 > - String inverters cost ₹2–6 per watt versus ₹8–14 for microinverters, and hold roughly 85% of the Indian solar market in 2025.
 > - DC oversizing of 115–130% is standard practice in India and raises annual yield by 4–9% compared to 100% matching.
-> - ALMM listing and BIS certification under IS 16221/IS 17387 are mandatory for subsidy eligibility and DISCOM commissioning.
+> - ALMM listing and BIS certification under IS 16221 are mandatory for subsidy eligibility and DISCOM commissioning.
 > - Typical lifespan is 10–15 years, with capacitors and fans wearing first.
 
 It is the most common inverter topology in Indian solar. Residential rooftops use single-phase string inverters in the 1 to 10 kW range. Commercial and industrial sites use [three-phase string inverters](/blog/3-phase-solar-inverter/) from 10 to 100 kW. Utility-scale plants increasingly use 200 to 350 kW string inverters distributed across the field instead of central 1 MW units.
@@ -228,7 +228,6 @@ CEIG approvals are needed for systems above 10 kW in many states, with the inver
 | IEC 61727 | Utility-interface characteristics |
 | IEC 62116 | Anti-islanding test procedures |
 | IS 16221 | Indian inverter safety |
-| IS 17387 | Indian grid-interconnection |
 | CEA Technical Standards 2019 | Connectivity rules |
 | MNRE ALMM | Subsidy-eligibility listing |
 
@@ -263,7 +262,7 @@ For how String Inverter plays out in real projects, these guides go deeper:
 
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems.
 - IEC 61727:2004 and IEC 62116:2014, Utility interface and anti-islanding.
-- IS 16221 and IS 17387, Indian Standards for PV inverter safety and grid interconnection.
+- IS 16221 (Part 1 and 2), Indian Standard for PV inverter safety.
 - MNRE Approved List of Models and Manufacturers (ALMM), Ministry of New and Renewable Energy.
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.
 - EN 50530:2010, Overall efficiency of grid-connected photovoltaic inverters.

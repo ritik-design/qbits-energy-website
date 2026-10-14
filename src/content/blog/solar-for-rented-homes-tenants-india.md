@@ -144,7 +144,7 @@ The pitch to the landlord:
 3. The tenant gets electricity at the solar rate (₹4–5/unit) instead of the grid rate (₹8–10/unit).
 4. At the end of the tenancy, the landlord owns an appreciating asset that increases rental value.
 
-This model is gaining traction in Pune, Bangalore, and Hyderabad rental markets where tech-sector tenants are aware of solar benefits and willing to pay a green premium. For comparison with commercial CAPEX and RESCO models, see the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-india-guide/). A landlord weighing whether the 2 kW investment pencils out can estimate the payback with Heaven Green Energy's solar cost and savings calculator before committing.
+This model is gaining traction in Pune, Bangalore, and Hyderabad rental markets where tech-sector tenants are aware of solar benefits and willing to pay a green premium. For comparison with commercial CAPEX and RESCO models, see the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/). A landlord weighing whether the 2 kW investment pencils out can estimate the payback with Heaven Green Energy's solar cost and savings calculator before committing.
 
 ## Option 4: Negotiating PM Surya Ghar with Your Landlord
 

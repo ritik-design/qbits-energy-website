@@ -162,7 +162,7 @@ Consider a pharmacy in Coimbatore, Tamil Nadu. Current electricity profile:
 - Year 1–25 savings (assuming 3% annual tariff increase, 0.5% annual panel degradation) = **₹32.5 Lakh**
 - Net profit after recovering capital = ₹32.5 Lakh − ₹2.05 Lakh = **₹30.45 Lakh**
 
-Shop owners can cross-check this arithmetic independently using a [solar payback period calculator](https://surgepv.com/tools/payback-period-calculator/), and for a city-by-city breakdown of how payback periods shift with tariff slab and system size, the [solar inverter payback period in India guide](/blog/solar-inverter-payback-period-in-india/) covers 18 Indian cities in detail.
+Shop owners can cross-check this arithmetic independently using a [solar payback period calculator](https://surgepv.com/tools/payback-period-calculator/), and for a city-by-city breakdown of how payback periods shift with tariff slab and system size, the [solar inverter payback period in India guide](/blog/solar-inverter-payback-period/) covers 18 Indian cities in detail.
 
 This is a real, replicable outcome for any pharmacy, salon, or electronics store in Tamil Nadu, Maharashtra, or Gujarat with a monthly bill above ₹12,000. According to [IRENA's analysis of distributed solar economics in Asia](https://www.irena.org/solar), small commercial rooftop systems in South Asia consistently deliver the highest IRR among all renewable energy formats when commercial tariff rates exceed USD 0.08/kWh, a threshold India's major commercial consumers crossed in 2022 and have not retreated from since.
 

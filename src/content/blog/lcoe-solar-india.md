@@ -277,7 +277,7 @@ For a 50 kWp plant:
 
 This IRR of 19–23% compares favourably to the IRR threshold most Indian CFOs apply to capital projects (10–15%). The solar project clears even conservative hurdle rates comfortably, which is why, once a C&I buyer builds the LCOE model correctly, the investment decision becomes straightforward.
 
-For post-AD LCOE of ₹2.48/kWh, the surplus against ₹9/kWh grid rises to ₹6.52/kWh, pushing the IRR closer to 22–26%. The [solar inverter payback period](/blog/solar-inverter-payback-period-in-india/) post explains the relationship between inverter efficiency, system yield, and how payback interacts with IRR in detail.
+For post-AD LCOE of ₹2.48/kWh, the surplus against ₹9/kWh grid rises to ₹6.52/kWh, pushing the IRR closer to 22–26%. The [solar inverter payback period](/blog/solar-inverter-payback-period/) post explains the relationship between inverter efficiency, system yield, and how payback interacts with IRR in detail.
 
 > **37 GW.** Cumulative rooftop solar capacity target under India's National Solar Mission for 2030, as stated in [MNRE's Renewable Energy Targets](https://mnre.gov.in/). C&I installations are the primary driver of the rooftop segment, accounting for roughly 60% of cumulative installed rooftop capacity. For the full national capacity and investment picture, see [India Solar Statistics 2026](/blog/india-solar-statistics-2026-data/).
 

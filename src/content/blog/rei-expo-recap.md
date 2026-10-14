@@ -63,7 +63,7 @@ At REI 2026, inverter AI monitoring showcases fell into three categories:
 - **4G-connected fleet dashboards**: cloud platforms aggregating yield data, fault logs, and predictive maintenance triggers across multi-site portfolios. Typically positioned at commercial and C&I installers managing 50+ sites.
 - **Over-the-air firmware update capability**: inverters that update compliance parameters and grid-interaction rules remotely, reducing the cost of staying current with CERC and SERC grid codes without field visits.
 
-The [ai-powered vs traditional inverter technology in India](/blog/ai-powered-vs-traditional-inverter-technology-in-india/) analysis on this site covers the technical architecture in detail. The REI signal is clear: specifying an inverter without remote monitoring in 2026 is a portfolio liability, not a cost saving.
+The [AI in solar inverters](/blog/ai-in-solar-inverters/) analysis on this site covers the technical architecture in detail. The REI signal is clear: specifying an inverter without remote monitoring in 2026 is a portfolio liability, not a cost saving.
 
 ## Hybrid Inverter Adoption Accelerating Past Tipping Point
 

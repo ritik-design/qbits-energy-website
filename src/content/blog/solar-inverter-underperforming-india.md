@@ -47,7 +47,7 @@ This is solar inverter underperformance: partial yield loss without system shutd
 > - A healthy Indian rooftop system runs a [Performance Ratio](/glossary/pr/) of 0.75–0.85; a PR below 0.70 on a 7-day rolling average confirms a real underperformance condition worth investigating.
 > - Dust and soiling is the single most common cause, cutting output 10–30% within 3–5 weeks in arid zones like Rajasthan and Gujarat.
 
-This guide covers partial output below expected yield. If your inverter is completely offline (zero generation), see the [solar inverter downtime guide](/blog/solar-inverter-downtime/). For an extended 12-cause analysis including cable voltage drop and MPPT configuration errors, see the [solar inverter low output causes India guide](/blog/solar-inverter-low-output-causes-india/).
+This guide covers partial output below expected yield. If your inverter is completely offline (zero generation), see the [solar inverter failure guide](/blog/solar-inverter-failure-action/). For an extended 12-cause analysis including cable voltage drop and MPPT configuration errors, see the [solar inverter low output causes India guide](/blog/solar-inverter-low-output-causes-india/).
 
 ## Underperformance vs Downtime: Two Different Problems
 
@@ -61,7 +61,7 @@ The distinction between underperformance and downtime determines the entire diag
 | First action | Run the 10-Cause Audit | Check inverter display for fault code |
 | Typical resolution | Maintenance or configuration fix | Component replacement or grid fault clearance |
 
-If your inverter shows zero output: stop here and use the [solar inverter downtime guide](/blog/solar-inverter-downtime/) instead.
+If your inverter shows zero output: stop here and use the [solar inverter failure guide](/blog/solar-inverter-failure-action/) instead.
 
 If your inverter shows positive but below-expected output: the 10-Cause Underperformance Audit below is the correct process.
 

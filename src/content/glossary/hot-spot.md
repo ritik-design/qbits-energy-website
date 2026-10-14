@@ -222,7 +222,7 @@ Hot spots are localised excessive heating in solar cells caused by partial shadi
 For how Hot Spot plays out in real projects, these guides go deeper:
 
 - [How Shadow on One Solar Panel Kills Your Generation (And How to Fix It)](/blog/solar-panel-shadow-effect-generation/)
-- [Solar Inverter Downtime India: Causes & Prevention](/blog/solar-inverter-downtime/)
+- [Solar Inverter Failure: Safe First Actions](/blog/solar-inverter-failure-action/)
 - [Solar Shading Analysis Software 2026: Guide](/blog/solar-shading-analysis-software/)
 - [ALMM List-II Exemption Window for Net Metering & Open Access](/blog/almm-list-ii-exemption-net-metering-open-access/)
 

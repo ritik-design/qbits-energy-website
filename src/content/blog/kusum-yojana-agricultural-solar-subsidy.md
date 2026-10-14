@@ -215,7 +215,7 @@ UP implements KUSUM through UPNEDA (Uttar Pradesh New and Renewable Energy Devel
 
 ### Gujarat
 
-Gujarat's GEDA (Gujarat Energy Development Agency) manages KUSUM with characteristic efficiency. Component B applications process in 20 to 35 days. Gujarat combines KUSUM subsidies with the state's own solar pump scheme, bringing the effective farmer contribution below 10% in some districts. Component A is active through GUVNL tenders in dryland agricultural zones, particularly in Kutch and Saurashtra. The state's residential Surya Gujarat top-up is covered separately in the [Gujarat solar subsidy guide](/blog/solar-subsidy-gujarat-2026/) for farming households that also want to solarise their home.
+Gujarat's GEDA (Gujarat Energy Development Agency) manages KUSUM with characteristic efficiency. Component B applications process in 20 to 35 days. Gujarat combines KUSUM subsidies with the state's own solar pump scheme, bringing the effective farmer contribution below 10% in some districts. Component A is active through GUVNL tenders in dryland agricultural zones, particularly in Kutch and Saurashtra. The state's residential Surya Gujarat top-up is covered separately in the [Gujarat solar subsidy guide](/blog/surya-gujarat-scheme-guide/) for farming households that also want to solarise their home.
 
 ## PM Surya Ghar vs KUSUM Yojana: Understanding the Difference
 
@@ -275,7 +275,7 @@ For a farmer with a 5 HP grid-connected agricultural pump running on subsidised 
 - **Capital cost (farmer's 10% share):** ₹18,000 to ₹25,000.
 - **Payback:** 1 to 4 years.
 
-For a deeper analysis of solar payback calculations across different tariff environments and system sizes, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) includes agricultural pump scenarios.
+For a deeper analysis of solar payback calculations across different tariff environments and system sizes, the [solar inverter payback period guide](/blog/solar-inverter-payback-period/) includes agricultural pump scenarios.
 
 ## Common KUSUM Application Mistakes: and How to Avoid Them
 

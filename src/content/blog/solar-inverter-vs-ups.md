@@ -86,7 +86,7 @@ A UPS looks inexpensive at purchase, but the costs that follow are easy to overl
 - **Battery replacement.** Batteries wear out with cycling and heat. Lead-acid batteries need replacement after a period that depends on the type, the depth of discharge and the temperature, so budget for it as a recurring cost, not a one-off.
 - **No generation.** A UPS does not reduce your electricity bill. Your daytime solar potential stays unused.
 
-To compare options honestly, add up ten years of everything: purchase and installation, grid electricity used for charging, battery replacements, maintenance and, for the solar options, the bill savings. Our [payback period guide](/blog/solar-inverter-payback-period-in-india/) shows how the savings side is calculated, and the [payback period glossary entry](/glossary/payback-period/) defines the term. Prices differ by city, dealer and date, so take current written quotes instead of figures from an article.
+To compare options honestly, add up ten years of everything: purchase and installation, grid electricity used for charging, battery replacements, maintenance and, for the solar options, the bill savings. Our [payback period guide](/blog/solar-inverter-payback-period/) shows how the savings side is calculated, and the [payback period glossary entry](/glossary/payback-period/) defines the term. Prices differ by city, dealer and date, so take current written quotes instead of figures from an article.
 
 ## What a grid tied solar inverter does
 

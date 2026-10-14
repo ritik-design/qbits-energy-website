@@ -273,7 +273,7 @@ For how Smart Meter plays out in real projects, these guides go deeper:
 - [PM Surya Ghar: What Works, What Doesn't](/blog/pm-surya-ghar-whats-working/)
 - [Best Solar Proposal Software Germany: 2026 Guide](/blog/solar-proposal-software-germany/)
 - [PM Surya Ghar Muft Bijli Yojana, Complete 2026 Guide](/blog/pm-surya-ghar-yojana-complete-guide/)
-- [Solar Subsidy in Gujarat 2026, Surya Gujarat](/blog/solar-subsidy-gujarat-2026/)
+- [Solar Subsidy in Gujarat 2026, Surya Gujarat](/blog/surya-gujarat-scheme-guide/)
 
 ## Sources
 

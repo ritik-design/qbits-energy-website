@@ -257,6 +257,6 @@ For how Conduit plays out in real projects, these guides go deeper:
 - IS 732, Indian wiring code.
 - CEA Measures Relating to Safety and Electric Supply Regulations 2023.
 - Manufacturer documentation from Polycab, Anchor, Schneider, Havells, Finolex.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - IEC 60529, IP ratings.
 - IEC 62548, PV array design.

@@ -135,7 +135,7 @@ Consider a typical MP homeowner in Bhopal (MPMKVVCL area) consuming 350 units pe
 
 Bhopal's high irradiance and mid-slab tariff combine to produce one of the best solar payback periods in Central India, under 3 years with PM Surya Ghar subsidy. This calculation excludes future tariff escalation benefits, which will accelerate payback further as MPERC approves tariff increases.
 
-For the full payback methodology across different system sizes, see the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/).
+For the full payback methodology across different system sizes, see the [solar inverter payback period guide](/blog/solar-inverter-payback-period/).
 
 ## Net Metering in Madhya Pradesh: Tariff and Process
 

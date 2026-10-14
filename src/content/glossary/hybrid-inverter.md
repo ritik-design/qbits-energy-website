@@ -18,7 +18,7 @@ quickFacts:
   industry: "Solar PV / Residential Storage"
   primaryUse: "Combined grid-tie, battery storage and backup AC supply"
   commonUsers: "Homeowners, small offices, schools, clinics, microgrids"
-  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, IS 17387, IEC 62619 for batteries"
+  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, CEA Connectivity Regulations, IEC 62619 for batteries"
   relatedTechnologies: "Lithium iron phosphate, MPPT, anti-islanding, smart EMS, AC and DC coupling"
 relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }
@@ -254,7 +254,6 @@ Common hybrid brands sold in India include Sungrow, Solis, Goodwe, Deye, Growatt
 | IEC 62116 | Anti-islanding |
 | IEC 62619 | Safety of secondary lithium cells and batteries |
 | IS 16221 | Indian inverter safety |
-| IS 17387 | Indian grid-interconnection |
 | IS 16893 | Indian stationary battery storage safety |
 | CEA Grid Code | Indian connectivity requirements |
 | MNRE ALMM | Required listing for subsidised projects |
@@ -291,7 +290,7 @@ For how Hybrid Inverter plays out in real projects, these guides go deeper:
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems.
 - IEC 62619:2017, Safety requirements for secondary lithium cells and batteries.
 - IEC 61727:2004 and IEC 62116:2014, Grid interface characteristics and anti-islanding for PV inverters.
-- IS 16221, IS 17387 and IS 16893, Indian Standards for PV inverter safety, grid interconnection and stationary battery storage.
+- IS 16221 and IS 16893, Indian Standards for PV inverter safety and stationary battery storage.
 
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.
 - PM Surya Ghar Muft Bijli Yojana, scheme guidelines, MNRE.

@@ -157,7 +157,7 @@ A ₹100 cash flow in year 25 is worth only ₹9.23 today at 10% WACC. For a ful
 
 ## Real-world applications
 
-Project investment decisions, often cross-checked against the simpler [payback period](/blog/solar-inverter-payback-period-in-india/) metric that smaller C&I buyers understand more intuitively.
+Project investment decisions, often cross-checked against the simpler [payback period](/blog/solar-inverter-payback-period/) metric that smaller C&I buyers understand more intuitively.
 
 PPA tariff floor setting.
 

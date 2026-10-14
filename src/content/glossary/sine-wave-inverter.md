@@ -16,7 +16,7 @@ quickFacts:
   industry: "Solar Inverters"
   primaryUse: "Producing grid-quality AC from DC"
   commonUsers: "Solar customers, EPCs"
-  relevantStandards: "IEC 62109, IS 17387, IEEE 519"
+  relevantStandards: "IEC 62109, CEA Connectivity Regulations, IEEE 519"
   relatedTechnologies: "PWM, LCL filter, IGBT, MOSFET, SiC"
 relatedTerms:
   - { slug: "pure-sine-wave", term: "Pure Sine Wave" }
@@ -95,7 +95,7 @@ Equipment longevity. Loads run within design parameters, achieving rated life.
 
 Grid synchronisation. Required for grid-tie operation.
 
-Regulatory compliance. CEA grid code and IS 17387 require sine wave output.
+Regulatory compliance. The CEA connectivity regulations and DISCOM connection conditions govern the power quality of grid-connected output.
 
 Customer experience. No buzzing, flickering or premature failure.
 
@@ -208,7 +208,7 @@ Test THD at commissioning.
 | Standard | Scope |
 |---|---|
 | IEC 62109 | Inverter safety |
-| IS 17387 | Indian grid interconnection |
+| CEA Connectivity Regulations 2013 (as amended 2019) | Grid connection of distributed generation |
 | IEEE 519 | Harmonic limits |
 | EN 50530 | Inverter efficiency |
 | MNRE ALMM | Listing |
@@ -224,7 +224,7 @@ For how Sine Wave Inverter plays out in real projects, these guides go deeper:
 ## Sources
 
 - IEC 62109, Inverter safety.
-- IS 17387, Indian grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - IEEE 519, Harmonic limits.
 - EN 50530, Inverter efficiency.
 - MNRE ALMM Inverter List.

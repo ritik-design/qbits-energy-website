@@ -4,7 +4,7 @@ excerpt: Havells vs Polycab for solar, compared on verified inverter ranges, war
 description: "Havells vs Polycab solar inverters compared: residential and commercial ranges, specs, published warranty terms, service networks and best fit."
 category: Comparison
 date: 2026-07-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: 14 min
 image: "/og/blog-havells-vs-polycab-solar.webp"
 author: Nirav Dhanani
@@ -21,10 +21,10 @@ faqs:
   a: Neither wins on brand name. On published paper, Havells prints a 10-year standard warranty across its Enviro GTi grid-tie datasheets, while Polycab prints 7 years for its 2 kW to 125 kW range, according to each company's own catalogue. Polycab prints IP66 on its three-phase models from 5 kW upward, where most Havells three-phase NG models print IP65. Compare the two exact models quoted to you on MPPT count, IP rating, warranty years, and local service, not the two logos.
 - q: Do Havells and Polycab manufacture their own solar inverters?
   a: Polycab states it has established a Solar Grid Tie Inverter manufacturing setup and offers Make in India inverters from 2 kW to 125 kW, in its Solar Catalogue (2025). Its 350 kW utility series sits outside that stated band. Havells describes itself as a one-stop solution covering designing, engineering, manufacturing, sales, installation, and services on its solar business page. Ask for the country of origin declaration on the packing list for your delivered serial numbers, because that is the only document that settles it.
-- q: Are Havells and Polycab solar panels ALMM listed?
-  a: MNRE added Havells India Limited to ALMM List-I by office memorandum dated 6 July 2026, covering a Surat facility of 1,221 MW, according to SaurEnergy (2026). Polycab's Solar Catalogue (2025) states its modules are on the ALMM approved list by MNRE and prints an ALMM model number field on its TOPCon datasheet. Rules and revisions change monthly, so verify your exact module model number against the current dated List-I revision on the MNRE ALMM page before you order.
+- q: Are Havells and Polycab solar panels on the ALMM module list?
+  a: MNRE added Havells India Limited to ALMM List-I by office memorandum dated 6 July 2026, covering a Surat facility of 1,221 MW, according to SaurEnergy (2026). Polycab's Solar Catalogue (2025) states that its modules appear on MNRE's ALMM module list and prints an ALMM model number field on its TOPCon datasheet. Rules and revisions change monthly, so verify your exact module model number against the current dated List-I revision on the MNRE ALMM page before you order.
 - q: Does ALMM cover solar inverters?
-  a: No. The MNRE ALMM page publishes lists for solar PV modules and cells, not a universal inverter register. An ALMM-listed module does not make the inverter in the same quote compliant with anything. Inverter checks run on a separate track through BIS registration, the applicable IS and IEC standards, and your DISCOM's interconnection requirements. Ask for those documents by model number.
+  a: No. The MNRE ALMM page publishes lists for solar PV modules and cells, not a universal inverter register. A module that is on the ALMM module list does not make the inverter in the same quote compliant with anything. Inverter checks run on a separate track through BIS registration, the applicable IS and IEC standards, and your DISCOM's interconnection requirements. Ask for those documents by model number.
 - q: Which brand is stronger on solar cable and balance of system?
   a: Both are genuinely strong here, and this is the part of the quote where their core business shows. Polycab entered solar in 2012 with solar DC cables and holds international accreditation to EN 50618 and IEC 62930 for 1.5 sq mm to 300 sq mm, according to its Solar Catalogue (2025). Havells sells tinned copper solar DC cable to BS EN 50618 through the same channel that carries its switchgear. If the cable and protection line items matter most in your scope, either brand is a defensible choice.
 - q: Can I compare an off-grid inverter with a grid-export inverter?
@@ -58,7 +58,7 @@ Qbits publishes this guide and sells solar inverters, so it competes with both. 
 > - MNRE added Havells India Limited to ALMM List-I on 6 July 2026 for a 1,221 MW Surat facility, according to SaurEnergy (2026).
 > - Polycab entered solar in 2012 with DC cables and holds accreditation to EN 50618 and IEC 62930 for 1.5 to 300 sq mm, per its Solar Catalogue (2025).
 > - Havells invested ₹600 crore in module maker Goldi Solar in April 2025, according to pv magazine India (2025).
-> - ALMM covers modules and cells, not inverters. An ALMM-listed panel says nothing about the inverter in the same quote.
+> - ALMM covers modules and cells, not inverters. A panel on the ALMM module list says nothing about the inverter in the same quote.
 
 **Short version.** Polycab is the stronger cable and balance-of-system brand and prints IP66 on its mid-range three-phase inverters. Havells prints the longer inverter warranty at 10 years and now sits on ALMM List-I for modules. Neither is a solar-specialist inverter house. Decide on the two exact models quoted, their MPPT counts, the written warranty, and which brand has a stocking service partner in your district.
 
@@ -127,7 +127,7 @@ Polycab's catalogue prints three module families and a dedicated ALMM model numb
 
 Source: Polycab Solar Catalogue (2025).
 
-The procedure matters more than either claim. List-I is revised almost monthly, and enlistment attaches to a specific model number at a specific plant. Verify your exact module against the current dated revision on the [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/), and read our [ALMM list definition](/glossary/almm-list/) for how List-I and List-II differ. A brand-level claim is not a model-level check.
+The procedure matters more than either claim. List-I is revised almost monthly, and enlistment attaches to a specific model number at a specific plant. Verify your exact module against the current dated revision on the [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/), and read the [ALMM list definition](/glossary/almm-list/) for how List-I and List-II differ. A brand-level claim is not a model-level check.
 
 ## Warranty terms compared
 
@@ -190,7 +190,7 @@ Four tests that break the halo:
 1. **Ask which plant built this SKU.** A brand claim covers a portfolio. The country of origin declaration covers your box.
 2. **Compare warranty by category, not by brand.** Cable and modules carry 25 to 30 year terms in both catalogues. The inverters carry 7 or 10.
 3. **Check certification scope.** BIS registration and IS or IEC numbers are per model, not per company.
-4. **Separate the ALMM question.** An ALMM-listed module and a compliant inverter are two verifications on two documents.
+4. **Separate the ALMM question.** A module on the ALMM module list and a compliant inverter are two verifications on two documents.
 
 Apply all four to every brand you shortlist. Our [Indian inverter brand comparison](/blog/best-indian-solar-inverter-brands/) runs this market-wide, and the [Havells against Luminous comparison](/blog/luminous-vs-havells-solar-inverter/) covers the other common Havells matchup.
 
@@ -220,7 +220,7 @@ Work through this with both quotations side by side. Every item is answerable fr
 10. Which named entity performs the warranty site visit in my district, and what spares does it stock?
 11. Does the price include installation, cable, DCDB, ACDB, earthing, and taxes, or only the inverter box?
 
-Questions 7, 10, and 11 separate a serious offer from a cheap one. Two quotes 20% apart often differ by an entire scope of work. The [Qbits product library](/our-products/) publishes the same fields for a third datasheet to compare against.
+Questions 7, 10, and 11 separate a serious offer from a cheap one. Two quotes 20% apart often differ by an entire scope of work. The Qbits [on-grid inverter range](/on-grid-inverter/) and [product library](/our-products/) publish the same fields for a third datasheet to compare against.
 
 ## The Bottom Line
 

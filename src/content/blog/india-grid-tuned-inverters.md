@@ -113,7 +113,7 @@ Generic inverters carry SPD (Surge Protection Device) stages rated for their ori
 
 Generic firmware failures are not always dramatic. They manifest as a slow erosion of project economics that only becomes visible at 6–12 months post-commissioning, exactly when your client is reviewing actual vs projected generation figures.
 
-The [economics of inverter downtime](/blog/solar-inverter-downtime/) compound in three directions:
+The [economics of inverter downtime](/blog/solar-inverter-failure-action/) compound in three directions:
 
 - **Lost generation from nuisance trips**: A 10 kW system on a weak-grid feeder that trips twice per day and requires 45 minutes to reconnect loses approximately 15 kWh/week. At ₹7.5/unit, that is ₹5,850/year per system. Across a 50-system portfolio, annual revenue leakage reaches ₹2.9 Lakh, invisible until someone builds the model.
 - **Accelerated hardware wear from repeated cold starts**: Every grid reconnection cycle charges the DC bus capacitors from zero. Capacitor manufacturers rate component life in charge cycles, not years. An inverter that disconnects and reconnects 500 times per year will exhaust capacitor life in 4–6 years rather than the designed 10–12 years, driving early replacement claims.

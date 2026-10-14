@@ -255,7 +255,7 @@ For how Fuse plays out in real projects, these guides go deeper:
 - IEC 60269 series, including IEC 60269-6 for PV fuses.
 - UL 2579, US standard for low voltage fuses for PV systems.
 - IEC 60364-4-43, Protection against overcurrent.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - Manufacturer documentation from Mersen, Eaton Bussmann, Schurter, Phoenix Contact, OBO, Schneider.
 - IEC 62548, PV array design requirements.
 - IEEE Standard Dictionary of Electrical and Electronics Terms.

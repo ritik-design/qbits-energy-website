@@ -130,7 +130,7 @@ On a 3 kW system costing ₹1.5 lakh installed, the ₹78,000 subsidy reduces th
 
 The compounded effect: a homeowner in Bengaluru (BESCOM, retail tariff crediting) who claims the PM Surya Ghar subsidy, installs a right-sized 3 kW system, monitors generation actively (Layer 1 and 2 optimisation), and is a salaried professional is looking at a 3–4 year payback. The same homeowner in a state with APPC-rate crediting and no subsidy claim may see 6–8 years. The Net Metering ROI Stack quantifies that difference before the PO is raised.
 
-For a detailed numerical payback analysis by system size, tariff slab, and state, see our [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/).
+For a detailed numerical payback analysis by system size, tariff slab, and state, see our [solar inverter payback period guide](/blog/solar-inverter-payback-period/).
 
 ## Net Metering vs Gross Metering vs Battery Storage: When Each Makes Sense
 

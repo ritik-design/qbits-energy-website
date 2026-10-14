@@ -272,7 +272,7 @@ The IREDA Suryodaya loan's zero-prepayment-penalty clause (on most partner bank 
 
 **Strategy 3, Align tenure with the [payback period](/glossary/payback-period/).** For most 3–5 kW residential systems at IREDA rates, the payback period is 4–6 years. Matching your loan tenure to the payback period means the loan is fully repaid around the same time the system turns cash-flow positive on a cumulative basis, a psychologically satisfying and financially clean outcome.
 
-The broader solar investment math (including how to calculate 25-year returns) is covered in the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/), which uses IRR-based analysis rather than simple payback.
+The broader solar investment math (including how to calculate 25-year returns) is covered in the [solar inverter payback period guide](/blog/solar-inverter-payback-period/), which uses IRR-based analysis rather than simple payback.
 
 ## Where Qbits Fits in the IREDA Solar Finance Picture
 

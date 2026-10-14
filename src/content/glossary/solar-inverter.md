@@ -19,7 +19,7 @@ quickFacts:
   industry: "Solar PV / Renewable Energy"
   primaryUse: "DC-to-AC power conversion in solar PV systems"
   commonUsers: "Homeowners, EPCs, installers, C&I plants, utilities"
-  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, IS 17387, UL 1741, CEA Grid Standards"
+  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, UL 1741, CEA Grid Standards"
   relatedTechnologies: "MPPT, IGBT, SiC, transformerless topology, anti-islanding, modbus/SunSpec, BMS"
 relatedTerms:
   - { slug: "on-grid-inverter", term: "On Grid Inverter" }
@@ -56,7 +56,7 @@ faqs:
   - q: "What is MPPT in a solar inverter?"
     a: "MPPT (Maximum Power Point Tracking) is an algorithm that constantly adjusts the DC operating voltage of the array to extract the maximum available power from the panels as sunlight, temperature and shading change. A typical inverter has 1–6 independent MPPT channels."
   - q: "What certifications must a solar inverter have in India?"
-    a: "Mandatory: BIS certification under IS 16221 / IS 17387 and listing in the MNRE's ALMM List of Models and Manufacturers for grid-tie operation. Quality benchmarks include IEC 62109 (safety), IEC 61727 (grid interconnection) and IEC 62116 (anti-islanding)."
+    a: "Mandatory: BIS certification under IS 16221 and listing in the MNRE's ALMM List of Models and Manufacturers for grid-tie operation. Quality benchmarks include IEC 62109 (safety), IEC 61727 (grid interconnection) and IEC 62116 (anti-islanding)."
   - q: "Can a solar inverter work without sunlight?"
     a: "An on-grid inverter cannot - it shuts down at night and during low irradiance. A hybrid inverter can continue to power loads from the battery and/or grid. Off-grid inverters rely entirely on the battery bank when the sun is not available."
   - q: "How is a solar inverter sized?"
@@ -263,7 +263,7 @@ Central inverters of 1.5–4.4 MVA, or strings of 250 kW grid-forming inverters,
 
 A solar inverter sold for grid-tie use in India must satisfy four overlapping regimes:
 
-- **BIS certification** under IS 16221-2 (safety) and IS 17387 (utility-interconnected inverters).
+- **BIS certification** under IS 16221 (Part 1 and 2, inverter safety).
 - **MNRE ALMM**: *Approved List of Models and Manufacturers* - without which a system cannot claim PM Surya Ghar subsidy or many state-level incentives.
 - **CEA Technical Standards for Connectivity to the Grid (Amendment)**: defines voltage and frequency ride-through, anti-islanding, and reactive-power support obligations.
 - **State DISCOM regulations**: net metering, gross metering or net billing rules vary by state, with state-specific export caps and inverter approval lists.
@@ -279,7 +279,6 @@ For C&I projects above 1 MW, a CEIG (Chief Electrical Inspector) approval is req
 | **IEC 62116** | Anti-islanding test method |
 | **IEC 61683** | Efficiency measurement |
 | **IS 16221-1 & -2** | Indian adoption of IEC 62109 |
-| **IS 17387** | Utility-interconnected PV inverters |
 | **UL 1741 / UL 1741-SA** | North American grid support (reference benchmark) |
 | **VDE-AR-N 4105 / 4110** | German grid code, widely referenced |
 | **MNRE ALMM** | Indian eligibility for subsidy programmes |
@@ -317,7 +316,7 @@ For how Solar Inverter plays out in real projects, these guides go deeper:
 - IEC 62109-1:2010 and IEC 62109-2:2011, Safety of power converters for use in photovoltaic power systems, International Electrotechnical Commission.
 - IEC 61727:2004, Photovoltaic systems: Characteristics of the utility interface, International Electrotechnical Commission.
 - IEC 62116:2014, Utility-interconnected photovoltaic inverters: Test procedure of islanding prevention measures, International Electrotechnical Commission.
-- IS 16221 and IS 17387, Indian Standards for solar PV inverter safety and grid interconnection, Bureau of Indian Standards.
+- IS 16221 (Part 1 and 2), Indian Standard for solar PV inverter safety, Bureau of Indian Standards.
 - MNRE Approved List of Models and Manufacturers (ALMM), Ministry of New and Renewable Energy, Government of India.
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019, Central Electricity Authority of India.
 - EN 50530:2010, Overall efficiency of grid connected photovoltaic inverters, European Committee for Electrotechnical Standardization.

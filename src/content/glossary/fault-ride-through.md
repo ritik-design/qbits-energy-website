@@ -17,7 +17,7 @@ quickFacts:
   industry: "Grid Code Compliance / Power Electronics"
   primaryUse: "Riding through brief grid disturbances without disconnecting"
   commonUsers: "Utility solar developers, large C&I, grid operators, DISCOMs"
-  relevantStandards: "CEA Grid Code 2019, IEC 61400-27, IEEE 1547-2018, IS 17387"
+  relevantStandards: "CEA Grid Code 2019, IEC 61400-27, IEEE 1547-2018"
   relatedTechnologies: "Smart inverter, reactive power control, voltage support, PLL"
 relatedTerms:
   - { slug: "anti-islanding", term: "Anti-Islanding" }
@@ -59,7 +59,7 @@ faqs:
   - q: "Can FRT cause inverter damage?"
     a: "Modern FRT-compliant inverters are designed to withstand the thermal and current stress of riding through faults. Older non-FRT inverters can suffer DC bus capacitor failure."
   - q: "What standards govern FRT in India?"
-    a: "CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019, IS 17387 and IEC 61400-27."
+    a: "CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019 and IEC 61400-27."
 author: "Keyur Rakholiya"
 ---
 
@@ -69,7 +69,7 @@ Fault Ride Through (FRT) is the grid-code requirement that an inverter-based gen
 
 > **TL;DR**
 > - FRT requires solar and wind inverters to stay connected through brief voltage or frequency disturbances instead of tripping, while injecting reactive support.
-> - CEA Grid Code 2019 makes FRT mandatory in India for generators above 10 kW; IS 17387 covers the equivalent testing.
+> - CEA Grid Code 2019 makes FRT mandatory in India for generators above 10 kW.
 > - LVRT requires ride-through down to 15 percent of nominal voltage for 150 ms, with a recovery curve back to 0.85 pu by 1500 ms.
 > - Reactive current injection during a dip can reach up to 100 percent of rated apparent power to help voltage recover.
 > - FRT is distinct from anti-islanding: FRT keeps the inverter connected through a brief disturbance, while anti-islanding disconnects it when the grid is genuinely lost.
@@ -77,7 +77,7 @@ Fault Ride Through (FRT) is the grid-code requirement that an inverter-based gen
 
 The requirement emerged from wind power experience in the 2000s, when fault-driven mass disconnection of wind farms threatened grid stability. As solar PV capacity grew to gigawatt scale, the same logic applied. Modern grid codes require both wind and [solar inverters](/glossary/solar-inverter/) to behave as grid-supporting devices, not as fragile loads.
 
-In India, the [CEA](/glossary/cea/) Technical Standards for Connectivity to the Grid 2019 set FRT profiles for generators above 10 kW. IS 17387 incorporates equivalent FRT testing. Utility plant [PPAs](/glossary/ppa/) reference these requirements with penalties for non-compliance.
+In India, the [CEA](/glossary/cea/) Technical Standards for Connectivity to the Grid 2019 set FRT profiles for generators above 10 kW. Utility plant [PPAs](/glossary/ppa/) reference these requirements with penalties for non-compliance.
 
 ## Fault ride through explained simply
 
@@ -232,7 +232,7 @@ Plant-level FRT testing is performed at commissioning by [DISCOMs](/glossary/dis
 | Standard | Scope |
 |---|---|
 | CEA Grid Code 2019 | Indian distribution grid FRT requirements |
-| IS 17387 | Indian inverter grid interconnection, FRT testing |
+| CEA Connectivity Regulations 2013 (as amended 2019) | Indian grid connection regulations, including FRT |
 | IEC 61400-27 | Generic electrical simulation models for grid code compliance |
 | IEEE 1547-2018 | US grid interconnection, FRT requirements |
 | FERC Order 842 | US bulk-power FRT requirements |
@@ -270,7 +270,6 @@ For how Fault Ride Through plays out in real projects, these guides go deeper:
 ## Sources
 
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.
-- IS 17387, Indian Standard for utility-interconnected photovoltaic inverters.
 - IEC 61400-27, Electrical simulation models for grid code compliance verification.
 - IEEE 1547-2018, Standard for Interconnection and Interoperability of Distributed Energy Resources.
 - FERC Order 842, Essential Reliability Services and the Evolving Bulk-Power System.

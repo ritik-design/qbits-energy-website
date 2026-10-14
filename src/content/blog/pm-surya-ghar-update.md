@@ -116,7 +116,7 @@ Several states revised their top-up subsidies during 2025-26. These are addition
 | Uttar Pradesh | Under revision | Paused pending DISCOM restructuring |
 | Tamil Nadu | Active | State-specific tariff benefit scheme |
 
-Always verify the current state top-up directly with your state's nodal agency or DISCOM before signing a contract. Read the [solar subsidy Gujarat guide](/blog/solar-subsidy-gujarat-2026/) and [solar subsidy Maharashtra guide](/blog/solar-subsidy-maharashtra-2026/) for state-specific details.
+Always verify the current state top-up directly with your state's nodal agency or DISCOM before signing a contract. Read the [solar subsidy Gujarat guide](/blog/surya-gujarat-scheme-guide/) and [solar subsidy Maharashtra guide](/blog/solar-subsidy-maharashtra-2026/) for state-specific details.
 
 ### Empanelled Vendor Standards Raised
 

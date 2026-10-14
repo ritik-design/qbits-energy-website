@@ -130,7 +130,7 @@ Solar system की gross cost subsidized होने पर net investment:
 
 3 kW system पर ₹2,500/month savings के साथ payback period: ₹92,000 ÷ ₹2,500 = 37 months (3 साल से थोड़ा ज्यादा)। Payback के बाद 20+ साल free electricity।
 
-[Solar inverter payback period calculation guide](/blog/solar-inverter-payback-period-in-india/), detailed ROI model।
+[Solar inverter payback period calculation guide](/blog/solar-inverter-payback-period/), detailed ROI model।
 
 ## Net Metering Active Karna: Practical Steps
 

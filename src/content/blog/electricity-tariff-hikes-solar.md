@@ -198,7 +198,7 @@ The period immediately before or after a tariff hike is when homeowners are most
 - **Choosing a shorter inverter warranty to save upfront**: A 5-year-warranty inverter that fails in year six adds ₹20,000–₹40,000 to the cost of ownership, erasing two years of savings. See [solar inverter replacement costs](/blog/inverter-tco/) for a full cost model.
 - **Not accounting for subsidy application timelines**: PM Surya Ghar subsidies reduce net cost but require DISCOM verification and registration. Delays of 3–6 months are common in high-volume states. For a detailed application walkthrough, see the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/).
 
-For a comprehensive treatment of how to calculate your own system's payback period with India-specific inputs, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) covers the full model including degradation, O&M, and escalation scenarios.
+For a comprehensive treatment of how to calculate your own system's payback period with India-specific inputs, the [solar inverter payback period guide](/blog/solar-inverter-payback-period/) covers the full model including degradation, O&M, and escalation scenarios.
 
 ## Solar vs. Continued Grid Dependence: The 10-Year Decision
 

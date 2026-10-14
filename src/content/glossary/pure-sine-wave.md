@@ -17,7 +17,7 @@ quickFacts:
   industry: "Solar Inverters"
   primaryUse: "High-quality AC output for all load types"
   commonUsers: "Inverter customers, EPCs"
-  relevantStandards: "IEC 62109, IS 17387, IEEE 519"
+  relevantStandards: "IEC 62109, CEA Connectivity Regulations, IEEE 519"
   relatedTechnologies: "PWM, LCL filter, grid synchronisation"
 relatedTerms:
   - { slug: "modified-sine-wave", term: "Modified Sine Wave" }
@@ -202,7 +202,7 @@ Major brands clearly specify THD in datasheets.
 | Standard | Scope |
 |---|---|
 | IEC 62109 | Inverter safety |
-| IS 17387 | Indian grid interconnection |
+| CEA Connectivity Regulations 2013 (as amended 2019) | Grid connection of distributed generation |
 | IEEE 519 | Harmonic limits |
 | EN 50530 | Inverter efficiency |
 
@@ -217,7 +217,7 @@ For how Pure Sine Wave plays out in real projects, these guides go deeper:
 ## Sources
 
 - IEC 62109, Inverter safety.
-- IS 17387, Indian grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - IEEE 519, Harmonic limits.
 - EN 50530, Inverter efficiency.
 - Manufacturer datasheets from major inverter OEMs.

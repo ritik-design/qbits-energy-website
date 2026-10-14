@@ -42,9 +42,9 @@ faqs:
 Solar projects in hospitals, data centres, pharmaceutical facilities, and precision manufacturing plants face a procurement question that goes beyond panel count and kWp: what is the THD specification of the inverter under evaluation, and does it meet the distortion limits that apply to sensitive loads?
 
 > **TL;DR**
-> - THD measures the harmonic content of an inverter's AC output relative to the 50 Hz fundamental; IEEE 519 caps voltage THD at 5% at the PCC below 69 kV, while IS 17387 requires current THD below 3% at rated output in India.
+> - THD measures the harmonic content of an inverter's AC output relative to the 50 Hz fundamental; IEEE 519 caps voltage THD at 5% at the PCC below 69 kV, and the CEA connectivity regulations in India reference IEEE 519 for harmonic limits.
 
-The question matters because every switching inverter injects harmonic currents into the AC grid as a side effect of its DC-to-AC conversion process. When those harmonics are controlled correctly, the inverter operates within IEEE 519 and IS 17387 limits and is invisible to connected equipment. When they are not (due to weak filters, low-quality IGBTs, or inadequate control design) the result is waveform distortion that causes equipment overheating, VFD trips, UPS faults, and, in extreme cases, medical device calibration errors.
+The question matters because every switching inverter injects harmonic currents into the AC grid as a side effect of its DC-to-AC conversion process. When those harmonics are controlled correctly, the inverter operates within the harmonic limits referenced in the CEA connectivity regulations (IEEE 519) and is invisible to connected equipment. When they are not (due to weak filters, low-quality IGBTs, or inadequate control design) the result is waveform distortion that causes equipment overheating, VFD trips, UPS faults, and, in extreme cases, medical device calibration errors.
 
 This guide covers what THD is, why solar inverters generate it, what the applicable standards require, how to read THD data on a datasheet, and what design and procurement decisions determine whether a project stays within limits.
 
@@ -66,7 +66,7 @@ Where I₁ is the fundamental current and Iₙ is the current at the nth harmoni
 
 ## IEEE 519 and IEC 61000 THD Limits Explained
 
-IEEE 519-2014, IEC 61000-3-6, and India's IS 17387 form the three-layer framework that governs inverter THD compliance in Indian solar projects.
+IEEE 519-2014, IEC 61000-3-6, and the CEA connectivity regulations form the three-layer framework that governs inverter THD compliance in Indian solar projects.
 
 The table below summarises the voltage THD limits at the point of common coupling (PCC) under IEEE 519-2014, which is the standard cited in the CEA Grid Code 2019:
 

@@ -170,7 +170,7 @@ For the full PM Surya Ghar subsidy calculation, read the [PM Surya Ghar subsidy 
 
 > **Tariff context.** Average residential electricity tariff in India increased from approximately ₹4.50 per unit in 2014 to ₹8–10 per unit in 2024, a compounded annual increase of approximately 6%. *Source - [CEA Annual General Review](https://cea.nic.in/), 2024.*
 
-For a full payback period model, including state-specific irradiance data, read the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/). India's residential tariff trajectory is well-documented by the [Central Electricity Regulatory Commission](https://cerc.gov.in/) and confirms the 5–7% annual increase pattern that makes solar's returns improve year over year. [IRENA's India energy outlook](https://www.irena.org/countries/India) projects electricity tariffs will continue rising through 2030 as coal costs and infrastructure spending increase, further strengthening the solar-vs-FD case.
+For a full payback period model, including state-specific irradiance data, read the [solar inverter payback period guide](/blog/solar-inverter-payback-period/). India's residential tariff trajectory is well-documented by the [Central Electricity Regulatory Commission](https://cerc.gov.in/) and confirms the 5–7% annual increase pattern that makes solar's returns improve year over year. [IRENA's India energy outlook](https://www.irena.org/countries/India) projects electricity tariffs will continue rising through 2030 as coal costs and infrastructure spending increase, further strengthening the solar-vs-FD case.
 
 A state by state payback comparison is in [solar inverter payback period](/blog/solar-inverter-payback-period/).
 

@@ -18,7 +18,7 @@ quickFacts:
   industry: "Solar PV / Module Level Power Electronics"
   primaryUse: "Panel-level DC-to-AC conversion in residential and small commercial solar"
   commonUsers: "Homeowners with shaded or complex roofs, premium residential installers, small commercial"
-  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, IS 17387, MNRE ALMM, UL 1741"
+  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, CEA Connectivity Regulations, MNRE ALMM, UL 1741"
   relatedTechnologies: "DC optimisers, AC modules, smart inverters, MLPE"
 relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }
@@ -238,7 +238,7 @@ Premium installers in Bengaluru, Hyderabad, Pune, Mumbai, NCR and the Delhi NCR 
 
 DISCOM net metering and CEIG processes accept micro inverter systems, but the documentation expects a [single-line diagram](/glossary/single-line-diagram/) with branch-level detail; installers unfamiliar with the branch-level format often turn to specialists for electrical and CEIG drawings.
 
-[BIS certification](/glossary/bis-certification/) under IS 16221 and IS 17387 applies to micro inverters as it does to string inverters. Anti-islanding compliance under IEC 62116 is per unit.
+[BIS certification](/glossary/bis-certification/) under IS 16221 applies to micro inverters as it does to string inverters. Anti-islanding compliance under IEC 62116 is per unit.
 
 ## Standards and certifications
 
@@ -248,7 +248,7 @@ DISCOM net metering and CEIG processes accept micro inverter systems, but the do
 | IEC 61727 | Utility-interface characteristics |
 | IEC 62116 | Anti-islanding |
 | IS 16221 | Indian inverter safety |
-| IS 17387 | Indian grid-interconnection |
+| CEA Connectivity Regulations 2013 (as amended 2019) | Grid connection of distributed generation |
 | UL 1741 | US grid-tie inverter standard, often referenced |
 | MNRE ALMM | Required for subsidy eligibility |
 
@@ -279,7 +279,7 @@ For how Micro Inverter plays out in real projects, these guides go deeper:
 
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems.
 - IEC 61727:2004 and IEC 62116:2014, Utility interface and anti-islanding.
-- IS 16221 and IS 17387, Indian Standards for PV inverter safety and grid interconnection.
+- IS 16221 (Part 1 and 2), Indian Standard for PV inverter safety.
 - UL 1741 SB:2021, Inverters, Converters, Controllers and Interconnection System Equipment for Use With Distributed Energy Resources.
 - MNRE Approved List of Models and Manufacturers (ALMM).
 - NREL Technical Report TP-5200-65463, Performance and Economic Analysis of Module-Level Power Electronics.

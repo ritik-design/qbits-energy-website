@@ -202,33 +202,83 @@ const showPreferredSource =
   <!-- Sitewide conversion-event tracking via gtag.js (delegated — works regardless of GTM container status) -->
   <script is:inline>
     (function () {
+      if (window.__qbTrackingBound) return; // guard against double-binding
+      window.__qbTrackingBound = true;
+
       function fire(name, params) {
-        if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+        try {
+          if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+        } catch (err) { /* tracking must never break the page */ }
       }
 
-      document.addEventListener('click', function (e) {
-        // Generic CTA click event: add data-cta="<id>" to any link or button worth measuring.
-        // Completed enquiries are NOT tracked here; forms fire generate_lead after confirmed success.
-        const cta = e.target.closest ? e.target.closest('[data-cta]') : null;
-        if (cta) {
-          fire('cta_click', {
-            cta_id: cta.getAttribute('data-cta') || '',
-            cta_text: (cta.textContent || '').trim().slice(0, 80),
-            link_url: cta.getAttribute('href') || '',
-            page_path: location.pathname,
-          });
-        }
-        const link = e.target.closest ? e.target.closest('a[href]') : null;
-        if (!link) return;
-        const href = link.getAttribute('href') || '';
+      // cta-events:begin (pure mapping, unit-tested in tests/cta-events.test.mjs)
+      // info: { cta, model, action, id, href, pathname, text }  ->  { name, params }
+      // One event per click. Priority: specific module event > tel/WhatsApp/PDF > generic cta_click.
+      // Completed enquiries are NOT tracked here; forms fire generate_lead after confirmed success.
+      function resolveClickEvent(info) {
+        var cta = info.cta || '', model = info.model || '', action = info.action || '';
+        var id = info.id || '', href = info.href || '', path = info.pathname || '';
+        var text = String(info.text || '').trim().slice(0, 80);
+        var isPdf = /\.pdf(\?|#|$)/i.test(href);
+        var base = { link_url: href, page_path: path };
+        if (cta) base.cta_id = cta;
+        if (model && model !== 'hub') base.model_id = model;
 
-        if (/^(https?:\/\/)?(api\.)?(wa\.me|whatsapp\.com)/i.test(href)) {
-          fire('whatsapp_click', { link_url: href, page_path: location.pathname });
-        } else if (href.startsWith('tel:')) {
-          fire('phone_click', { link_url: href, page_path: location.pathname });
-        } else if (/\.pdf(\?|#|$)/i.test(href)) {
-          fire('datasheet_download', { link_url: href, page_path: location.pathname });
+        if (cta === 'related_inverter') {
+          var linkType = model === 'hub' || action === 'hub' ? 'hub' : (action === 'datasheet' || isPdf ? 'datasheet' : 'view_model');
+          var p = { source_path: path, link_type: linkType, link_url: href };
+          if (model && model !== 'hub') p.model_id = model;
+          return { name: 'related_inverter_click', params: p };
         }
+        if (cta === 'glossary_apply_click') {
+          return { name: 'glossary_apply_click', params: { source_path: path, link_url: href, link_text: text, term: path.replace(/\/+$/, '').split('/').pop() } };
+        }
+        if (cta === 'calculator_model_link' || id === 'calc-datasheet' || id === 'calc-product-page') {
+          var lt = action === 'datasheet' || id === 'calc-datasheet' || isPdf ? 'datasheet' : 'product_page';
+          var cp = { source_path: path, link_type: lt, link_url: href };
+          var cm = model || (/\/our-products\/([^/?#]+)/.exec(href) || [])[1];
+          if (cm) cp.model_id = decodeURIComponent(cm);
+          return { name: 'calculator_model_link', params: cp };
+        }
+        var rowQuote = cta === 'datasheet_row_quote' || cta === 'datasheet_row_quote_click' ||
+          (!cta && path === '/download-datasheets/' && /^\/contact-us\/\?[^#]*\bmodel=/.test(href));
+        if (rowQuote) {
+          var rp = { source_path: path, link_url: href };
+          var rm = model || (/[?&]model=([^&#]+)/.exec(href) || [])[1];
+          if (rm) rp.model_id = decodeURIComponent(rm);
+          return { name: 'datasheet_row_quote_click', params: rp };
+        }
+        if (/^(https?:\/\/)?(api\.)?(wa\.me|whatsapp\.com)/i.test(href)) return { name: 'whatsapp_click', params: base };
+        if (/^tel:/i.test(href)) return { name: 'phone_click', params: base };
+        if (isPdf) return { name: 'datasheet_download', params: base };
+        if (cta) {
+          var gp = { cta_id: cta, cta_text: text, link_url: href, page_path: path };
+          if (model && model !== 'hub') gp.model_id = model;
+          return { name: 'cta_click', params: gp };
+        }
+        return null;
+      }
+      // cta-events:end
+      window.QbCtaEvents = { resolve: resolveClickEvent };
+
+      document.addEventListener('click', function (e) {
+        try {
+          var t = e.target;
+          var ctaEl = t && t.closest ? t.closest('[data-cta]') : null;
+          var link = t && t.closest ? t.closest('a[href]') : null;
+          if (!ctaEl && !link) return;
+          var el = ctaEl || link;
+          var hit = resolveClickEvent({
+            cta: ctaEl ? ctaEl.getAttribute('data-cta') : '',
+            model: el.getAttribute('data-model') || (ctaEl && ctaEl.getAttribute('data-model')) || '',
+            action: el.getAttribute('data-action') || '',
+            id: el.id || '',
+            href: (link || ctaEl).getAttribute('href') || '',
+            pathname: location.pathname,
+            text: el.textContent || '',
+          });
+          if (hit) fire(hit.name, hit.params);
+        } catch (err) { /* never throw from the click listener */ }
       }, { passive: true });
 
       // Pagefind search usage — fire once per distinct non-trivial query, debounced.

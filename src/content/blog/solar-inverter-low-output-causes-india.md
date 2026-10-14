@@ -122,7 +122,7 @@ The value appears years later, when the question is whether the system is genuin
 
 If a difference remains after the observations above, ask for a review covering the string schedule (the [string sizing calculator](/string-sizing-calculator/) helps check it) against the as built array, module and [inverter datasheets](/download-datasheets/), monitoring logs across a period rather than a single day, electrical measurements at the specified points, and the commissioning records.
 
-The [wiring guide](/blog/solar-inverter-wiring-diagram/) identifies the major interfaces. If output has stopped entirely rather than fallen, use the [downtime guide](/blog/solar-inverter-downtime/) instead, since that is a different diagnostic path.
+The [wiring guide](/blog/solar-inverter-wiring-diagram/) identifies the major interfaces. If output has stopped entirely rather than fallen, use the [failure guide](/blog/solar-inverter-failure-action/) instead, since that is a different diagnostic path.
 
 ## Service handover
 

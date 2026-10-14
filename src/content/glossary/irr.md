@@ -158,7 +158,7 @@ PPA tariff floor setting.
 
 Bank loan structuring.
 
-Residential customer [payback evaluation](/blog/solar-inverter-payback-period-in-india/).
+Residential customer [payback evaluation](/blog/solar-inverter-payback-period/).
 
 C&I solar [procurement model selection (CAPEX vs RESCO)](/blog/solar-capex-vs-opex-business-india/), including choosing between [on-grid and hybrid inverter](/blog/on-grid-vs-hybrid-solar-inverters-roi/) configurations that affect the return profile.
 
@@ -269,7 +269,7 @@ For how IRR plays out in real projects, these guides go deeper:
 
 - [Solar Investment vs Fixed Deposit, Which Wins?](/blog/solar-investment-vs-fd-india/)
 - [Solar IRR and Payback for C&I in India, Real Math](/blog/solar-irr-payback-ci-india/)
-- [Solar Inverter Reliability Index, Qbits Research](/blog/solar-inverter-reliability-index/)
+- [How to Evaluate Solar Inverter Reliability, Qbits Research](/blog/how-to-evaluate-solar-inverter-reliability/)
 
 ## Sources
 

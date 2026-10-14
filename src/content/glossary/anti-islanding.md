@@ -18,7 +18,7 @@ quickFacts:
   industry: "Solar Inverter / Grid Safety"
   primaryUse: "Disconnecting solar export during a grid outage"
   commonUsers: "Inverter manufacturers, DISCOMs, EPCs, installers, utility lineworkers"
-  relevantStandards: "IEC 62116, IEEE 1547, UL 1741, IS 17387, CEA Grid Code"
+  relevantStandards: "IEC 62116, IEEE 1547, UL 1741, CEA Grid Code"
   relatedTechnologies: "Passive and active detection methods, frequency drift, voltage drift, on grid inverter"
 relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }
@@ -62,7 +62,7 @@ faqs:
   - q: "How is anti-islanding tested under IEC 62116?"
     a: "An RLC test load tuned to resonance at 50 Hz is connected. The inverter feeds into the load while the grid is connected. The grid is then disconnected. The inverter must disconnect within 2 seconds across multiple load and power conditions."
   - q: "Are there exemptions from anti-islanding in India?"
-    a: "No. All grid-connected solar inverters sold in India must comply with IEC 62116 or IS 17387, which embeds equivalent requirements."
+    a: "No. All grid-connected solar inverters sold in India must meet anti-islanding requirements, tested to IEC 62116 or IS 16169, and the CEA connectivity regulations and DISCOM connection conditions apply."
 author: "Keyur Rakholiya"
 ---
 
@@ -75,14 +75,14 @@ Anti-islanding is the protection function in a [grid-tied solar inverter](/gloss
 > **TL;DR**
 > - Anti-islanding is the inverter safety function that detects a utility grid outage and disconnects the inverter's AC output, typically within 100 to 500 ms and always inside the IEC 62116 limit of 2 seconds.
 > - It exists to protect utility lineworkers from being shocked by a rooftop solar inverter that keeps feeding a line the DISCOM believes is dead.
-> - India makes it mandatory under IEC 62116, IS 17387 and the CEA grid code, and DISCOMs verify it at commissioning.
+> - India requires it under the CEA connectivity regulations (tested to IEC 62116 or IS 16169), and DISCOMs verify it at commissioning.
 > - Modern inverters combine passive detection (voltage, frequency, phase) with active detection (small injected disturbances) to shrink the non-detection zone.
 > - Off-grid inverters do not need anti-islanding since they are never connected to the utility grid.
 > - Disabling anti-islanding to stop nuisance tripping is illegal and voids warranty.
 
 The hazard it addresses is direct and physical. When a feeder is de-energised by the DISCOM for maintenance, fault clearance or a downed line, the lineworker assumes the section is dead. If a solar inverter on a customer's roof continues to push power into that section, the line stays live. The lineman touches it and is electrocuted. Anti-islanding is the layer of protection that keeps this from happening.
 
-In India, anti-islanding compliance under IEC 62116 or IS 17387 is mandatory for every grid-connected solar inverter. The CEA Technical Standards for Connectivity to the Grid 2019 enshrine this requirement and DISCOMs verify it during commissioning.
+In India, anti-islanding compliance, tested to IEC 62116 or IS 16169, is mandatory for every grid-connected solar inverter. The CEA Technical Standards for Connectivity to the Grid 2019 enshrine this requirement and DISCOMs verify it during commissioning.
 
 ## Anti-islanding explained simply
 
@@ -201,7 +201,7 @@ Inverter reconnecting too quickly. Some firmware reconnects in less than 60 seco
 
 ## Best practices for anti-islanding
 
-Use only inverters certified to IEC 62116 or IS 17387 in India. Verify on the certificate, not the brochure.
+Use only inverters tested to IEC 62116 or IS 16169 in India. Verify on the certificate, not the brochure.
 
 Verify anti-islanding test results at commissioning. Get the trip time in writing on the commissioning report.
 
@@ -240,7 +240,7 @@ Common Indian inverter brands like Sungrow, Solis, Goodwe, [Growatt](/blog/growa
 |---|---|
 | IEC 62116 | Anti-islanding test procedures |
 | IEC 61727 | Utility-interface characteristics |
-| IS 17387 | Indian grid-interconnection, embeds anti-islanding |
+| IS 16169 | Indian standard for the anti-islanding test of PV inverters |
 | IS 16221 | Indian inverter safety |
 | IEEE 1547 | US grid-interconnection, includes anti-islanding |
 | UL 1741 | US smart inverter, includes anti-islanding tests |
@@ -262,7 +262,7 @@ Treating anti-islanding as overly conservative. Lineman fatalities from energise
 
 ## Key takeaways
 
-Anti-islanding is the inverter protection that keeps the grid safe for lineworkers when distributed solar is on the network. It is mandatory under IEC 62116, IS 17387 and CEA grid code in India. Modern inverters use both passive and active detection layers, with disconnect times well under 2 seconds. Disabling it is never acceptable. Proper commissioning, firmware updates and DISCOM coordination ensure the protection works without nuisance tripping.
+Anti-islanding is the inverter protection that keeps the grid safe for lineworkers when distributed solar is on the network. It is required in India under the CEA connectivity regulations, with testing to IEC 62116 or IS 16169. Modern inverters use both passive and active detection layers, with disconnect times well under 2 seconds. Disabling it is never acceptable. Proper commissioning, firmware updates and DISCOM coordination ensure the protection works without nuisance tripping.
 
 ## Further reading
 
@@ -276,7 +276,7 @@ For how Anti-Islanding plays out in real projects, these guides go deeper:
 ## Sources
 
 - IEC 62116:2014, Utility-interconnected photovoltaic inverters: Test procedure of islanding prevention measures, International Electrotechnical Commission.
-- IS 17387:2019, Utility-interconnected photovoltaic inverters: Indian Standard, Bureau of Indian Standards.
+- IS 16169, Indian Standard for anti-islanding test procedure for grid-connected PV inverters, Bureau of Indian Standards.
 - IEC 61727:2004, Photovoltaic systems: Characteristics of the utility interface, International Electrotechnical Commission.
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019, Central Electricity Authority of India.
 - IEEE Std 1547-2018, Standard for Interconnection and Interoperability of Distributed Energy Resources with Associated Electric Power Systems Interfaces, IEEE.

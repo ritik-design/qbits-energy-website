@@ -212,7 +212,7 @@ For how Modified Sine Wave plays out in real projects, these guides go deeper:
 ## Sources
 
 - IEC 62109, Inverter safety.
-- IS 17387, Indian grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - MNRE Standalone Solar PV Specifications.
 - IEEE 519, Harmonic limits.
 - IEC 60068, EMC for inverters.

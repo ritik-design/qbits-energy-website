@@ -268,6 +268,6 @@ For how Earthing plays out in real projects, these guides go deeper:
 - IS 8884, Earth electrodes.
 - IEC 62305 series, Lightning protection.
 - CEA Measures Relating to Safety and Electric Supply Regulations 2023.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - IEEE 80, Substation grounding.
 - Manufacturer documentation for earthing products.

@@ -1,285 +1,165 @@
 ---
 title: "Solar Inverter Payback Period, 7 States Compared"
-excerpt: "Solar inverter payback india ranges from 3.8 to 6.2 years depending on your state tariff, irradiance, and PM Surya Ghar subsidy. Real math for Gujarat, Maharashtra, Rajasthan, Tamil Nadu, Karnataka, UP, and Delhi."
-description: "State-by-state solar payback calculation for Indian homeowners. Real tariff rates, irradiance data, and subsidy stacks across 7 states, Gujarat to Delhi."
+excerpt: "Solar payback is a formula, not a state average. Worked 5 kW examples for Rajasthan, Gujarat, Maharashtra, Karnataka, Tamil Nadu, Delhi and Uttar Pradesh, with the MNRE benchmark cost, the PM Surya Ghar assistance and every calculation shown."
+description: "How to calculate solar payback in India with worked 5 kW examples for 7 states: MNRE benchmark cost, PM Surya Ghar assistance, sourced yields, tariff sensitivity and the formulas."
 category: "Buying Guide"
 date: 2026-06-05
-readTime: "20 min"
+readTime: "14 min"
 image: "/og/blog-solar-inverter-payback-period.webp"
 author: "Akash Hirapara"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - solar inverter payback india
   - solar payback period by state india
   - how to calculate solar payback period
   - pm surya ghar subsidy payback calculation
   - solar roi india 2026
+  - solar inverter payback period
 faqs:
-  - q: "What is the typical payback period for solar in India?"
-    a: "The payback period for a residential solar system in India ranges from 3.8 years in Gujarat to 6.2 years in Delhi, depending on the state electricity tariff, solar irradiance, subsidy stack, and self-consumption ratio. A 5 kW on-grid system after PM Surya Ghar subsidy costs approximately ₹1.5–1.8 Lakh net, and annual savings typically range from ₹28,000 to ₹45,000. Most homeowners in high-tariff states with good sun break even in under 5 years."
-  - q: "Is a 4-year payback period good for solar in India?"
-    a: "A 4-year payback period is excellent for a residential solar system in India. With a standard 25-year panel lifespan and a 12-year inverter warranty, a 4-year payback delivers 20+ years of nearly free electricity - an effective return of 20–25% per annum on the net investment. States like Gujarat achieve this owing to high residential tariffs (₹5–6/kWh), strong irradiance (5.5–6.0 peak sun hours/day), and the full PM Surya Ghar central subsidy of ₹78,000 for a 3 kW system."
+  - q: "What is the payback period for solar in India?"
+    a: "There is no single figure. Payback = net system cost / annual savings, and it moves with the quote, the subsidy, the yield of the roof and above all the tariff you actually offset. In the worked 5 kW examples on this page, with the MNRE benchmark cost and assistance, payback ranges from about 2.2 years to 5.4 years across seven states and tariffs of 4 to 8 rupees per kWh. A quote above the benchmark, low export credit or a lower tariff pushes it out. Calculate it on your own bill and written quote."
   - q: "How do I calculate my own solar payback period?"
-    a: "Use the 4-Variable Payback formula: Payback = Net System Cost ÷ (Annual kWh Generation × Tariff per kWh + Net Metering Export Value). First, find your net cost after subsidy. Then multiply your system capacity (kW) by your city's peak sun hours per day by 365 days and by a performance ratio of 0.80. Multiply that generation figure by your electricity tariff to get annual savings. Divide net cost by annual savings for the simple payback in years."
-  - q: "Does the PM Surya Ghar subsidy significantly reduce the payback period?"
-    a: "The PM Surya Ghar Muft Bijli Yojana subsidy directly reduces the upfront capital cost, which is the numerator in the payback formula. For a 5 kW system costing approximately ₹2.5 Lakh gross, the central subsidy of ₹78,000 (for the first 3 kW) reduces net cost to roughly ₹1.7 Lakh - cutting the payback period by 12–18 months compared to the no-subsidy scenario. State top-up subsidies in Gujarat and Maharashtra can reduce payback by a further 6–9 months."
-  - q: "Which Indian state has the best solar return on investment?"
-    a: "Gujarat offers the best solar return on investment among the 7 states analysed, with a payback period of approximately 3.8 years for a 5 kW on-grid system. The combination of high residential tariffs (average ₹5.50/kWh), excellent irradiance (5.8 peak sun hours/day), full PM Surya Ghar central subsidy eligibility, and the state top-up subsidy under the Surya Gujarat scheme produces the fastest break-even. Rajasthan and Tamil Nadu follow closely at 4.2 and 4.4 years respectively."
-  - q: "How does the electricity tariff affect solar payback more than irradiance?"
-    a: "The electricity tariff is the largest single variable in the payback formula because it directly multiplies every unit of solar energy generated. A 1 ₹/kWh increase in tariff on a 5 kW system generating 7,000 kWh/year adds ₹7,000 to annual savings - the same improvement as adding roughly 0.4 extra peak sun hours per day. High-tariff states like Gujarat benefit from both levers simultaneously, while lower-tariff states such as Uttar Pradesh extend payback even with good irradiance."
-  - q: "What role does net metering play in the payback calculation?"
-    a: "Net metering allows excess solar generation to be exported to the grid and credited against your electricity bill, effectively monetising units your household does not consume in real time. Under most state DISCOM net metering regulations, export is credited at the prevailing retail tariff rate. For a household with 40% self-consumption and 60% export, net metering can add ₹10,000–₹18,000 per year to effective savings on a 5 kW system, reducing payback by 6–12 months compared to a zero-export scenario."
-  - q: "Does the type of inverter - on-grid vs hybrid - affect the payback period?"
-    a: "On-grid inverters deliver the fastest payback because they carry no battery cost. A 5 kW on-grid inverter costs ₹25,000–₹45,000, while adding a hybrid inverter with a 5 kWh lithium battery adds ₹1.5–2.5 Lakh to the capital cost. The battery provides backup during outages but the electricity savings remain similar to an on-grid setup (batteries cannot earn net metering credits while charging). For payback optimisation, on-grid is the clear choice; hybrid makes sense where outages cost more than the premium."
-  - q: "What is the impact of system degradation on long-term solar returns?"
-    a: "Solar panels degrade at approximately 0.5–0.7% per year, meaning a system generating 7,300 kWh in year one produces around 6,800 kWh by year 10. Over a 25-year lifespan, cumulative generation is roughly 90% of a flat-rate projection. This means the simple payback calculation is slightly optimistic - actual payback may be 2–4 months longer than the formula suggests. However, rising electricity tariffs (India has seen 4–6% annual tariff increases historically) partially or fully offset degradation in most states."
+    a: "Annual generation = system size (kWp) x specific yield (kWh per kWp per year). Annual savings = units self-consumed x tariff + units exported x export credit. Payback (years) = net cost / annual savings, where net cost = quoted price less the central assistance actually shown in your portal application. Then check how much degradation and any inverter replacement change the answer."
+  - q: "Does the PM Surya Ghar subsidy reduce payback?"
+    a: "Yes, because it reduces the numerator. For a 5 kW system the central assistance is 78,000 rupees. In the Ahmedabad example at 6 rupees per kWh, payback is 3.1 years with it and 4.6 years without it. The subsidy is paid on installed capacity under MNRE guidelines, not on what you spent, so a quote above the benchmark does not raise it."
+  - q: "How much does the electricity tariff change payback?"
+    a: "It is the largest lever. The same 5 kW system in the Ahmedabad example, with a net cost of 1,57,000 rupees, pays back in 4.6 years at 4 rupees per kWh, 3.1 years at 6 rupees and 2.3 years at 8 rupees. Use the tariff of the slab your solar units will actually offset, which is usually lower after solar than your bill suggests."
+  - q: "Which state has the shortest solar payback?"
+    a: "With a common cost and tariff, the state with the highest yield wins. Using the modelled yields in the irradiance guide, Rajasthan (Jodhpur) and Gujarat (Ahmedabad) lead, and Uttar Pradesh (Lucknow) and Delhi trail by a modest margin. In practice local tariff, state top-ups, net metering terms and quotes differ more than yield does, so a state ranking is a starting point, not a decision."
+  - q: "How does net metering affect payback?"
+    a: "It sets the value of exported units. If every unit is credited at the tariff you pay, export and self-consumption are worth the same. If export is credited lower, savings fall. In the Ahmedabad example, exporting 40 percent of output at 3 rupees against a 6 rupee tariff lengthens payback from 3.1 to 3.8 years. Check your DISCOM's current billing terms."
+  - q: "Does the inverter change the payback period?"
+    a: "Yes, in three ways: conversion efficiency changes the energy delivered, a replacement during the payback window adds to the cost, and a hybrid inverter with a battery adds to the price without adding bill savings. Each effect is calculated below. Compare quotes on written efficiency curves, warranty remedy terms and the full line-item cost, not on the headline price."
+  - q: "Does degradation change the answer?"
+    a: "Slightly. At 0.5 percent a year, an NREL review median, the 5 kW Ahmedabad example pays back in 2.65 years instead of 2.64 at 7 rupees per kWh. Degradation matters more for the 25-year total than for the payback year."
+relatedSlugs:
+  - "solar-capex-vs-opex-business-india"
+  - "solar-subsidy-all-states"
+  - "solar-irradiance-data-india-statewise"
+  - "inverter-tco"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-Your electricity bill arrives. The numbers on the last page (₹6,800, ₹9,200, ₹12,000) keep climbing, and every neighbour who installed solar three years ago now talks about bills that are practically zero. The question is no longer *whether* solar makes financial sense. The question is: **how long before it actually pays for itself, and does that number change if you live in Ahmedabad versus Lucknow?**
-
-This post answers that question with actual arithmetic. Not marketing ranges. Not "typically 5–7 years" platitudes. State tariff rates from published [DISCOM](/glossary/discom/) tariff orders, irradiance figures from MNRE data, subsidy stacks as of June 2026, and a replicable formula you can apply to your own roof. If you would rather skip the manual arithmetic, a solar cost calculator can produce a quick ballpark for your roof, though the state-specific numbers below will be more precise.
+A payback number in a brochure is only as good as its inputs. This guide shows the formula, the inputs and where each one comes from, then works the same 5 kW rooftop through seven states so you can see which input moves the answer. Nothing here is a quotation or a promise of savings: it is arithmetic you can repeat on your own bill.
 
 > **TL;DR**
-> - Solar inverter payback in India ranges from 3.7 years (Rajasthan) to 6.4 years (Delhi) for a 5 kW on-grid system after [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy.
-> - Electricity tariff is the single biggest lever, a ₹1/kWh tariff difference shifts payback by roughly 8–14 months.
-> - The 4-Variable Payback Formula divides net system cost by annual generation value plus net metering export value.
-> - Hybrid inverters with [battery storage](https://heavendesigns.in/blog/pm-surya-ghar-2-0-battery-storage-shared-rooftop-solar/) extend payback by 3–6 years compared to on-grid, because backup power carries no equivalent electricity-savings return.
-> - Gujarat and Rajasthan lead on ROI thanks to high tariffs, strong irradiance, and (for Gujarat) an additional state subsidy top-up.
-> - Common planning mistakes, wrong tariff slabs, ignored degradation, slow net metering approval, can quietly add 6–18 months to your payback estimate.
+> - Payback (years) = net system cost / annual savings. Net cost is your written quote less the central assistance shown in your portal application.
+> - The tariff you offset moves payback more than state, brand or panel choice. In the examples, 4 to 8 rupees per kWh turns 4.6 years into 2.3.
+> - Yields come from a named dataset (Global Solar Atlas, as used in our irradiance guide). Costs use MNRE's benchmark, not market prices.
+> - Export credit, a quote above the benchmark and an inverter replacement can add years. They are calculated below.
+> - Payback is not a guarantee. Use these as a method, then rerun them with your quote and your bill.
 
-> **Direct answer.** Solar inverter payback in India ranges from 3.8 years (Gujarat) to 6.2 years (Delhi) for a 5 kW on-grid system after [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy). The single biggest variable is your state electricity tariff, not panel quality, not brand, not installer. The 4-Variable Payback Calculator in this post gives you your personalised number in under five minutes.
+## The formula and its four inputs
 
-The [payback period](/glossary/payback-period/) is simply the point at which cumulative savings equal the original investment. Everything after that is profit. For a system that lasts 25 years, a 4-year payback means 21 years of near-free electricity, a compounding return most fixed deposits cannot touch.
+**Payback (years) = Net system cost / Annual savings**
 
-## Why Solar Inverter Payback Varies So Widely Across India
+- **Net system cost** = quoted price (including GST) less central assistance less any state top-up that appears in your portal application.
+- **Annual generation (kWh)** = system size (kWp) x specific yield (kWh per kWp per year).
+- **Annual savings (₹)** = generation x [self-consumed share x tariff + exported share x export credit].
+- **Year-n generation** falls by the degradation rate each year: generation in year n = generation in year 1 x (1 - d)^(n-1).
 
-Two homeowners with identical 5 kW systems, identical panels, and identical installers can face payback periods that differ by two full years. The gap is not random, it is the direct product of four variables that change at every state border.
+The **specific yield** already includes typical system losses, so do not multiply by a performance ratio again. If you use plane-of-array peak sun hours instead, annual generation = kWp x sun hours x 365 x PR.
 
-**The tariff gap is the dominant driver.** Gujarat's average domestic tariff for consumption above 200 units/month exceeds ₹5.50/kWh. Delhi's average blended residential tariff sits closer to ₹4.00/kWh. On a system generating 7,300 kWh per year, that ₹1.50/kWh difference creates a ₹10,950 annual savings gap, roughly 8–10 months of extra payback period for Delhi homeowners doing nothing differently.
+## Inputs used on this page, with sources
 
-**Irradiance amplifies or compresses the tariff effect.** Rajasthan averages over 6.0 [peak sun hours](/glossary/peak-sun-hours/) per day, among the highest in Asia. Tamil Nadu's coastal zone averages 5.2 peak sun hours. The difference means a 5 kW system in Jaipur generates approximately 8,760 kWh per year while the same system in Chennai generates roughly 7,592 kWh. More generation means more savings, faster payback.
-
-**Subsidy stacks are not equal.** Every state homeowner eligible under PM Surya Ghar receives ₹30,000/kW for the first 2 kW and ₹18,000/kW for the third kilowatt (capped at ₹78,000 central subsidy for 3 kW). But Gujarat adds a state-level top-up of ₹10,000–₹20,000 per kW for certain consumer categories. Maharashtra offers additional incentives through the Maharashtra Energy Development Agency. States that do not add top-ups see longer payback periods, all else equal.
-
-**Self-consumption ratio closes the loop.** A household that consumes 70% of generated solar power in real time earns the full retail tariff on that 70%. The remaining 30%, exported under [net metering](/glossary/net-metering/), is also credited, but only where the DISCOM has activated net metering for the connection. States with faster net metering approvals (Tamil Nadu, Karnataka, Gujarat) therefore deliver faster effective payback than states where approval queues run 6–12 months (parts of UP, Bihar).
-
-## The State-by-State Data: What Goes Into the Numbers
-
-Before comparing payback periods, the underlying data needs to be transparent. The table below captures the four input variables for each of the 7 states analysed in this post.
-
-| State | Average Residential Tariff (₹/kWh) | Average Irradiance (kWh/kWp/day) | Annual Generation - 5 kW (kWh) | Net Metering Status |
-| --- | --- | --- | --- | --- |
-| Gujarat | ₹5.50 | 5.8 | 8,468 | Active - most DISCOMs |
-| Maharashtra | ₹5.00 | 5.2 | 7,592 | Active - MSEDCL |
-| Rajasthan | ₹5.25 | 6.1 | 8,906 | Active - JVVNL / AVVNL |
-| Tamil Nadu | ₹4.75 | 5.2 | 7,592 | Active - TANGEDCO |
-| Karnataka | ₹5.10 | 5.4 | 7,884 | Active - BESCOM |
-| Uttar Pradesh | ₹4.75 | 5.1 | 7,446 | Partial - varies by DISCOM |
-| Delhi | ₹4.00 | 4.6 | 6,716 | Active - BSES / TPDDL |
-
-Annual generation is calculated as: **5 kW × irradiance (kWh/kWp/day) × 365 × 0.80 performance ratio**. The 0.80 performance ratio accounts for temperature derating, wiring losses, dust, and inverter efficiency, conservative but realistic for India's climate.
-
-Tariff figures are sourced from state DISCOM tariff orders published by each State Electricity Regulatory Commission (SERC) and verified against the [Central Electricity Authority](https://cea.nic.in/tariff-orders/) tariff compilation for FY 2025–26. Irradiance data is drawn from the [MNRE Solar Radiation Resource Assessment](https://mnre.gov.in/solar/state-wise/) station network.
-
-## The 4-Variable Payback Calculator: State Your Numbers, Get Your Timeline
-
-This is the named framework that turns the state data above into a personal answer. Four inputs, one output.
-
-### The 4-Variable Payback Formula
-
-**Payback (years) = Net System Cost ÷ (Annual kWh Generation × Tariff per kWh + Net Metering Export Value)**
-
-Where:
-- **Net System Cost** = Gross installed cost minus PM Surya Ghar central subsidy minus any state top-up subsidy
-- **Annual kWh Generation** = System capacity (kW) × Peak sun hours (kWh/kWp/day) × 365 × Performance ratio (0.80)
-- **Tariff per kWh** = Your DISCOM's applicable domestic slab for your consumption band
-- **Net Metering Export Value** = Exported kWh × Import tariff rate (credited at retail rate under current net metering policy)
-
-For the export value, assume 30–40% export if your household draws power continuously through the day (AC, pumps, appliances). Assume 60–70% export if the house is vacant from 9 AM to 6 PM.
-
-### How to Apply It: Step by Step
-
-1. **Find your net cost.** Get a written quote for a 5 kW on-grid system inclusive of panels, inverter, mounting, wiring, and DISCOM net metering charges. Deduct the PM Surya Ghar subsidy (see [exact subsidy amounts by capacity](/blog/pm-surya-ghar-subsidy-amount/)). Deduct any state top-up your DISCOM has confirmed in writing.
-
-2. **Estimate your generation.** Multiply 5 × your city's peak sun hours per day × 365 × 0.80. Use MNRE station data or the nearest city average in the table above.
-
-3. **Find your applicable tariff.** Pull your most recent electricity bill. Divide total bill amount by total kWh consumed. This is your blended tariff. For payback calculations, use the tariff that applies to your highest consumption slab, since solar primarily displaces the most expensive units first.
-
-4. **Estimate your export fraction.** Honestly assess when your household draws power. An empty house during office hours exports 60%+. A home with daytime appliances (cooler, AC, washing machine, RO) may export only 20–30%.
-
-5. **Divide and read.** Net cost ÷ total annual value = payback in years. If this number is under 5, proceed. If it is 6 or higher, re-examine whether a smaller system (3 kW) closes the gap.
-
-<div class="inline-cta">
-<h3>Run your own numbers with a dedicated payback calculator</h3>
-<p>SurgePV's payback period calculator lets you plug in your own system cost, tariff, and generation estimate to get a personalised break-even timeline in seconds.</p>
-<a href="https://surgepv.com/tools/payback-period-calculator/" class="cta-btn" target="_blank" rel="noopener noreferrer">Try the Payback Calculator <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">Free · No signup required</p>
-</div>
-
-## Payback Period by State: The Real Calculations
-
-With the framework established, here are the full calculations for each state using a 5 kW on-grid system with PM Surya Ghar subsidy.
-
-The gross system cost assumption is ₹2,50,000 for 5 kW (₹50/Wp all-in, which is the mid-market benchmark for Q1–Q2 2026 across India). Central subsidy from [PM Surya Ghar](/blog/pm-surya-ghar-subsidy-amount/) is ₹78,000 (capped at 3 kW). Net cost before state top-up: ₹1,72,000.
-
-> **₹78,000.** The maximum PM Surya Ghar Muft Bijli Yojana central subsidy for a 3 kW residential system, paid directly to the beneficiary's bank account after DISCOM verification. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), June 2026.*
-
-### Gujarat
-
-- **Net cost after state top-up:** ₹1,52,000 (state adds approximately ₹20,000 under Surya Gujarat scheme for residential consumers, see [Gujarat solar subsidy details](/blog/solar-subsidy-gujarat-2026/))
-- **Annual generation:** 5 × 5.8 × 365 × 0.80 = **8,468 kWh**
-- **Annual savings:** 8,468 × ₹5.50 = **₹46,574** (assuming 100% self-consumption for simplicity; export value is equivalent at net metering retail rate)
-- **Simple payback:** ₹1,52,000 ÷ ₹46,574 = **3.8 years**
-
-Gujarat is the gold standard for solar ROI in India. High tariffs, the best irradiance among the 7 states after Rajasthan, and a state subsidy layer that no other state currently matches at this level.
-
-### Rajasthan
-
-- **Net cost:** ₹1,72,000 (no confirmed state-level cash subsidy layer as of June 2026; verify with your DISCOM)
-- **Annual generation:** 5 × 6.1 × 365 × 0.80 = **8,906 kWh**
-- **Annual savings:** 8,906 × ₹5.25 = **₹46,757**
-- **Simple payback:** ₹1,72,000 ÷ ₹46,757 = **3.7 years**
-
-Rajasthan has India's highest irradiance and a solid tariff. The absence of a confirmed state cash top-up means net cost is higher than Gujarat, but extraordinary generation offsets this. On raw irradiance alone, Rajasthan is India's most solar-friendly geography. See [Rajasthan solar subsidy details](/blog/solar-subsidy-rajasthan-2026/) for the current DISCOM-wise process, and the [10 kW Jaipur villa case study](/blog/case-study-jaipur-villa/) for a real-world 4-year payback example built on this exact irradiance advantage.
-
-### Maharashtra
-
-- **Net cost after state subsidy:** ₹1,60,000 (MEDA offers additional incentives in certain consumer categories, see [Maharashtra solar subsidy details](/blog/solar-subsidy-maharashtra-2026/))
-- **Annual generation:** 5 × 5.2 × 365 × 0.80 = **7,592 kWh**
-- **Annual savings:** 7,592 × ₹5.00 = **₹37,960**
-- **Simple payback:** ₹1,60,000 ÷ ₹37,960 = **4.2 years**
-
-Maharashtra's urban residential tariff has been rising consistently, with MERC approving increases in both FY24 and FY25. Pune and Nagpur homeowners on higher consumption slabs (above 500 units/month) often face tariffs of ₹5.50–₹6.00/kWh, which brings Maharashtra's payback close to Gujarat's in practice.
-
-### Tamil Nadu
-
-- **Net cost:** ₹1,72,000
-- **Annual generation:** 5 × 5.2 × 365 × 0.80 = **7,592 kWh**
-- **Annual savings:** 7,592 × ₹4.75 = **₹36,062**
-- **Simple payback:** ₹1,72,000 ÷ ₹36,062 = **4.8 years**
-
-Tamil Nadu's tariff is lower than Maharashtra's, and its irradiance is similar. The state's TANGEDCO net metering process has improved significantly since 2023, which helps homeowners monetise export efficiently. See [Tamil Nadu solar subsidy details](/blog/solar-subsidy-tamil-nadu-2026/) for the current incentive stack.
-
-### Karnataka
-
-- **Net cost:** ₹1,72,000
-- **Annual generation:** 5 × 5.4 × 365 × 0.80 = **7,884 kWh**
-- **Annual savings:** 7,884 × ₹5.10 = **₹40,208**
-- **Simple payback:** ₹1,72,000 ÷ ₹40,208 = **4.3 years**
-
-Bangalore's residential tariff has risen sharply since 2023, and BESCOM's net metering approvals are among the fastest in India. Karnataka homeowners on the higher domestic slab (above 200 units/month) effectively face tariffs above ₹5.50/kWh, compressing payback toward 4.0 years in practice. See [Karnataka solar subsidy details](/blog/solar-subsidy-karnataka-2026/) for the current BESCOM process.
-
-### Uttar Pradesh
-
-- **Net cost:** ₹1,72,000
-- **Annual generation:** 5 × 5.1 × 365 × 0.80 = **7,446 kWh**
-- **Annual savings:** 7,446 × ₹4.75 = **₹35,369**
-- **Simple payback:** ₹1,72,000 ÷ ₹35,369 = **4.9 years**
-
-UP has good irradiance but moderate tariffs and historically slower net metering adoption across its DISCOMs. See [UP solar subsidy details](/blog/solar-subsidy-uttar-pradesh-2026/) for current incentive status. Homeowners in Noida and Lucknow (PVVNL / MVVNL jurisdictions) have seen faster approvals than rural UP DISCOMs.
-
-### Delhi
-
-- **Net cost:** ₹1,72,000
-- **Annual generation:** 5 × 4.6 × 365 × 0.80 = **6,716 kWh**
-- **Annual savings:** 6,716 × ₹4.00 = **₹26,864**
-- **Simple payback:** ₹1,72,000 ÷ ₹26,864 = **6.4 years**
-
-Delhi has the lowest irradiance of the 7 states analysed (air quality and urban density reduce effective sun hours) and relatively lower residential tariffs at middle consumption bands due to subsidised electricity for sub-200-unit consumers. High-consumption Delhi households on the unsubsidised slab (₹5.00–₹6.00/kWh) see payback closer to 4.5–5.0 years, a significant improvement. See [Delhi solar subsidy details](/blog/solar-subsidy-delhi-2026/) for the BSES and TPDDL application process.
-
-## State Payback Comparison at a Glance
-
-| State | Net System Cost | Annual Generation | Annual Savings | Simple Payback |
-| --- | --- | --- | --- | --- |
-| Gujarat | ₹1,52,000 | 8,468 kWh | ₹46,574 | **3.8 years** |
-| Rajasthan | ₹1,72,000 | 8,906 kWh | ₹46,757 | **3.7 years** |
-| Maharashtra | ₹1,60,000 | 7,592 kWh | ₹37,960 | **4.2 years** |
-| Karnataka | ₹1,72,000 | 7,884 kWh | ₹40,208 | **4.3 years** |
-| Tamil Nadu | ₹1,72,000 | 7,592 kWh | ₹36,062 | **4.8 years** |
-| Uttar Pradesh | ₹1,72,000 | 7,446 kWh | ₹35,369 | **4.9 years** |
-| Delhi | ₹1,72,000 | 6,716 kWh | ₹26,864 | **6.4 years** |
-
-*All calculations: 5 kW on-grid system, ₹50/Wp gross cost, PM Surya Ghar central subsidy ₹78,000, performance ratio 0.80. State subsidies applied where confirmed. Self-consumption assumes equivalent savings at retail tariff (net metering credited at import rate).*
-
-## What the Four Variables Do to Your Number
-
-Understanding which levers to pull is more valuable than memorising a state average. The sensitivity table below shows how each variable shifts the payback period on a ₹1,72,000 net cost base.
-
-### Tariff Rate: The Dominant Lever
-
-A ₹1.00/kWh increase in tariff on a 5 kW system generating 7,500 kWh/year adds ₹7,500 to annual savings. At ₹4.00/kWh base, payback is 6.4 years. At ₹5.00/kWh, it drops to 4.6 years. At ₹6.00/kWh (applicable to high-consumption urban households in several states), payback falls to 3.8 years. This is why tariff trends matter: India's residential electricity tariff has increased at approximately 4–6% per annum over the past decade, according to [CEA tariff data](https://cea.nic.in/tariff-orders/), making every passing year slightly more favourable for solar payback going forward.
-
-### Irradiance: The Geography Multiplier
-
-Moving from Delhi (4.6 peak sun hours/day) to Rajasthan (6.1 peak sun hours/day) increases annual generation by 2,190 kWh on a 5 kW system. At ₹5.00/kWh, that is ₹10,950 additional savings per year, enough to reduce payback by roughly 14 months. Homeowners cannot change their geography, but they can maximise effective irradiance through optimal tilt angle (typically 10–20° for most Indian states) and south-facing orientation.
-
-### Subsidy Stack: The Upfront Cost Compressor
-
-The PM Surya Ghar central subsidy of ₹78,000 reduces payback by approximately 14–18 months compared to the no-subsidy scenario. State top-ups add a further 6–12 months of reduction where they exist. The full [PM Surya Ghar subsidy application process](/blog/pm-surya-ghar-yojana-complete-guide/) is worth completing before signing any installer contract, the subsidy is disbursed post-installation to your bank account, but eligibility must be established before the work begins.
-
-### Self-Consumption Ratio: The Billing Architecture Variable
-
-A household that runs its AC, washing machine, and water pump during daylight hours can achieve 60–80% self-consumption. One that is empty from 9 AM to 6 PM exports 60–70% of generation. Both earn equivalent value under net metering (credited at the retail import tariff). However, net metering approval delays mean that export value is sometimes deferred by 3–6 months in states with slow DISCOM processing. Understanding [net metering in India](/blog/net-metering-india-complete-guide/) before installation helps set realistic savings expectations.
-
-## On-Grid vs Hybrid: How Inverter Choice Shifts the Payback
-
-The calculations above use an on-grid inverter. Adding a hybrid inverter with battery storage changes the payback equation materially.
-
-| | On-Grid Only | Hybrid with 5 kWh Battery |
+| Input | Value | Source and date |
 | --- | --- | --- |
-| **Inverter cost** | ₹25,000–₹45,000 | ₹60,000–₹90,000 |
-| **Battery cost** | None | ₹1,20,000–₹2,00,000 |
-| **Total system premium** | Base | +₹1,50,000–₹2,50,000 |
-| **Annual savings** | ₹35,000–₹47,000 | ₹35,000–₹47,000 (similar) |
-| **Additional payback** | - | +3–6 years |
-| **Subsidy eligibility** | ✓ Full PM Surya Ghar | ✓ Inverter portion only |
-| **Backup during outages** | ✗ Zero | ✓ 3–6 hours |
+| Benchmark cost | ₹50,000 per kW for the first 2 kW, ₹45,000 for each additional kW | MNRE PM Surya Ghar guidelines, clause 5(g), effective 13 February 2024 |
+| Central assistance | ₹30,000 per kW for the first 2 kW, ₹18,000 for the third kW, nothing above 3 kW, so ₹78,000 maximum | MNRE guidelines, clause 5(h), see [MNRE notice](https://mnre.gov.in/en/notice/amendment-in-guidelines-for-implementation-of-pm-surya-ghar-muft-bijli-yojana-for-the-component-of-cfa-to-residential-consumers/) |
+| Scheme period | Until 31 March 2027; no official extension found as of 14 October 2026 | MNRE guidelines |
+| Specific yield | Modelled kWh per kWp per year for a named reference city in each state | Global Solar Atlas (Solargis), queried 24 September 2026, in our [irradiance guide](/blog/solar-irradiance-data-india-statewise/) |
+| Degradation | 0.5% a year | Median in Jordan and Kurtz, NREL, ["Photovoltaic Degradation Rates: An Analytical Review"](https://www.nrel.gov/docs/fy12osti/51664.pdf) |
+| Tariff | ₹4, ₹6 and ₹8 per kWh as sensitivity values | Not tariff orders. Take the real figure from your own bill and your state commission's current order |
 
-For homeowners whose primary goal is payback speed and bill reduction, on-grid is the clear answer. For households in areas with frequent power cuts (parts of UP, Bihar, Jharkhand) the value of backup power may justify the hybrid premium. The [on-grid vs hybrid ROI comparison](/blog/on-grid-vs-hybrid-solar-inverters-roi/) covers the financial breakeven for the hybrid decision in detail.
+GST on specified solar devices is 5 percent since 22 September 2025, so a current quote should not carry 12 percent on those items; check the line-by-line treatment in the [GST guide](/blog/gst-on-solar-inverters-2026/). Central assistance is paid on installed capacity, so a quote above or below the benchmark does not change it. The [state-wise subsidy guide](/blog/solar-subsidy-all-states/) lists the state schemes we could verify; the [Gujarat guide](/blog/surya-gujarat-scheme-guide/) explains why no state top-up is included in the Gujarat example here.
 
-A related financial calculation worth reviewing before committing: the [total cost of ownership (TCO)](/blog/inverter-tco/) perspective, which factors in inverter replacement costs, maintenance, and insurance over a 25-year horizon. A system with a short initial payback but a ₹25,000 inverter replacement every 7 years has a worse 25-year IRR than a system with a longer initial payback but a model-specific written warranty that covers full replacement.
+## Worked example: 5 kW in seven states
 
-## Common Mistakes That Inflate the Payback Period
+**Net cost (same for every state).** Benchmark = 2 x ₹50,000 + 3 x ₹45,000 = ₹1,00,000 + ₹1,35,000 = ₹2,35,000. Central assistance = 2 x ₹30,000 + 1 x ₹18,000 = ₹78,000. Net cost = ₹2,35,000 - ₹78,000 = **₹1,57,000**. No state top-up is assumed.
 
-Many homeowners end up with longer-than-expected payback periods not because the technology underperformed, but because assumptions at the planning stage were too optimistic.
+**Generation** = 5 kWp x specific yield. **Payback** = ₹1,57,000 / (generation x tariff), assuming every unit offsets the stated tariff.
 
-- **Using the wrong tariff slab.** Quotes often show payback based on the highest domestic slab, but households that install solar typically cross from a higher slab to a lower one, because they consume less grid power. This tariff step-down reduces savings by ₹3,000–₹8,000 per year and extends payback by 6–12 months. Model conservatively: assume your tariff drops by one slab after solar.
+| State | Reference city | Yield (kWh/kWp/yr) | Annual kWh (5 kW) | Payback at ₹4 (years) | At ₹6 | At ₹8 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Rajasthan | Jodhpur | 1,746 | 8,730 | 4.5 | 3.0 | 2.2 |
+| Gujarat | Ahmedabad | 1,701 | 8,505 | 4.6 | 3.1 | 2.3 |
+| Maharashtra | Mumbai | 1,593 | 7,965 | 4.9 | 3.3 | 2.5 |
+| Karnataka | Bengaluru | 1,578 | 7,890 | 5.0 | 3.3 | 2.5 |
+| Tamil Nadu | Chennai | 1,565 | 7,825 | 5.0 | 3.3 | 2.5 |
+| Delhi | New Delhi | 1,466 | 7,330 | 5.4 | 3.6 | 2.7 |
+| Uttar Pradesh | Lucknow | 1,461 | 7,305 | 5.4 | 3.6 | 2.7 |
 
-- **Ignoring performance degradation.** Year-one generation figures from installers typically do not account for the 0.5–0.7% annual panel degradation. Over 10 years, this reduces cumulative generation by approximately 5%. The simple payback formula uses flat-year numbers and therefore understates actual payback by 2–4 months.
+Reading the table. Rajasthan at ₹8: 1,57,000 / (8,730 x 8) = 1,57,000 / 69,840 = 2.2 years. Uttar Pradesh at ₹4: 1,57,000 / (7,305 x 4) = 1,57,000 / 29,220 = 5.4 years. Within one tariff column the spread across states is under a year, while moving from ₹4 to ₹8 in a single state roughly halves payback. That is why the tariff you offset deserves more attention than the state ranking.
 
-- **Not accounting for the net metering activation delay.** If DISCOM approval takes 4 months, you export power for free during that period. In states with long queues, this can cost ₹4,000–₹8,000 in foregone credit. Factor in a 3–6 month activation buffer when calculating first-year savings.
+These are best-case figures: they assume a quote at the benchmark, every unit credited at the full tariff and no failures. The next section removes those assumptions one at a time.
 
-- **Choosing an inverter with a short warranty.** An inverter replacement at year 7 costs ₹18,000–₹30,000 and pushes the effective payback period out. A model-specific written warranty eliminates this hidden cost entirely.
+## What stretches the number: Ahmedabad at ₹6
 
-- **Using dealer quotes, not DISCOM data, for tariffs.** Some dealer proposals use projected future tariffs (₹7–₹8/kWh by year 5) to inflate payback attractiveness. Use only your current verified tariff for the simple payback calculation. Tariff appreciation, if it comes, will be a bonus, not a baseline assumption.
+Annual generation is 5 x 1,701 = 8,505 kWh, and annual savings at ₹6 are 8,505 x 6 = ₹51,030.
 
-- **Ignoring financing costs.** If you take a [solar loan](/blog/inverter-financing-options-in-india/) at 10–12% per annum, the interest paid over 5 years can add ₹20,000–₹40,000 to the effective cost of the system, extending payback by 6–10 months. The net-of-financing payback is the number that matters for borrowers.
+| Scenario | Calculation | Payback |
+| --- | --- | --- |
+| Base case, benchmark cost, full credit | 1,57,000 / 51,030 | 3.1 years |
+| Quote ₹50,000 above the benchmark | 2,07,000 / 51,030 | 4.1 years |
+| 40% exported and credited at ₹3 | Savings = 8,505 x (0.6 x 6 + 0.4 x 3) = 8,505 x 4.8 = ₹40,824; 1,57,000 / 40,824 | 3.8 years |
+| Both of the above | 2,07,000 / 40,824 | 5.1 years |
+| No subsidy, benchmark cost | 2,35,000 / 51,030 | 4.6 years |
 
-## Where Qbits Fits Into the Payback Calculation
+The assistance is worth about 1.5 years in this example. A quote above the benchmark and a low export credit together add two years. Ask for the export billing terms before you accept a payback figure.
 
-The [model-specific written warranty](/blog/12-year-solar-inverter-warranty/) eliminates the inverter replacement cost that otherwise adds ₹20,000–₹30,000 to a decade-long payback model. IP66 weather protection means the unit keeps performing through monsoons without requiring protective enclosures that add to installation cost. AI-powered WhatsApp monitoring flags underperformance in real time, so you do not lose 3–6 months of yield silently before noticing the problem on your bill.
+## Size changes the picture: 3 kW and 10 kW
 
-- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
-- **[String Sizing Calculator](/string-sizing-calculator/)**: confirm your panel-string configuration before the installer quotes, so the generation estimate in your payback calculation is accurate.
+Central assistance is capped at ₹78,000, so it covers a shrinking share of the cost as the system grows. Ahmedabad yield 1,701 kWh per kWp and a ₹6 tariff, benchmark cost and no state top-up:
 
-[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
+| System | Benchmark cost | Net cost after ₹78,000 | Annual kWh | Annual savings at ₹6 | Payback |
+| --- | --- | --- | --- | --- | --- |
+| 3 kW | 2 x 50,000 + 1 x 45,000 = ₹1,45,000 | ₹67,000 | 5,103 | ₹30,618 | 2.2 years |
+| 5 kW | ₹2,35,000 | ₹1,57,000 | 8,505 | ₹51,030 | 3.1 years |
+| 10 kW | 2 x 50,000 + 8 x 45,000 = ₹4,60,000 | ₹3,82,000 | 17,010 | ₹1,02,060 | 3.7 years |
 
-How that return compares with a bank deposit is in [solar investment vs FD](/blog/solar-investment-vs-fd-india/).
+The assistance is 53.8 percent of the benchmark at 3 kW (78,000 / 1,45,000) and 17.0 percent at 10 kW (78,000 / 4,60,000), which is why bigger roofs show longer payback even with the same tariff. Size the system to your consumption first, because units generated beyond what you can use or export at a good credit earn less.
 
-## Beyond Simple Payback: The 25-Year Picture
+## Which tariff does solar actually offset?
 
-Simple payback is the right tool for the initial decision. But the 25-year financial picture is more compelling and worth understanding before comparing it to alternatives like fixed deposits, mutual funds, or gold.
+Solar displaces your most expensive units first, so the offset tariff is a weighted figure. An assumed example: a home uses 500 units a month on two slabs, 200 units at ₹4 and the rest at ₹7, so the bill is 200 x 4 + 300 x 7 = ₹2,900 a month. A 3 kW system in Ahmedabad generates 5,103 / 12 = 425 kWh a month. Those 425 units remove the 300 units at ₹7 and 125 of the 200 at ₹4: 300 x 7 + 125 x 4 = ₹2,600 a month, or ₹31,200 a year. The average offset tariff is 2,600 / 425 = ₹6.12 per kWh, and payback is 67,000 / 31,200 = 2.1 years. The slab values are assumptions and fixed charges are ignored; use your own bill and your DISCOM's current slabs.
 
-A 5 kW system in Gujarat that costs ₹1,52,000 net and breaks even in 3.8 years generates approximately ₹46,574 in savings per year (flat rate, ignoring tariff appreciation). Over 25 years, that is ₹11.64 Lakh in cumulative savings against a ₹1.52 Lakh investment, a 7.65× return. Adjusting for 5% annual tariff appreciation and 0.6% annual panel degradation, the 25-year [net present value](/glossary/npv/) at a 10% [discount rate](/glossary/discount-rate/) is approximately ₹3.2–₹3.8 Lakh, a positive return even using conservative financial assumptions.
+## A worksheet for your own roof
 
-For the UP homeowner with a 4.9-year payback, the 25-year savings are ₹8.84 Lakh against ₹1.72 Lakh invested, a 5.14× return. Still materially better than the 7% post-tax return a fixed deposit delivers over the same horizon.
+1. Write down the quoted price including GST, and the central assistance shown in your portal application. Net cost = price - assistance - any confirmed state top-up.
+2. Take the specific yield for your city from the [irradiance guide](/blog/solar-irradiance-data-india-statewise/) or from your installer's simulation, and note the source. Annual kWh = kWp x yield.
+3. Work out the offset tariff from your bill, as in the slab example, and the export credit from your DISCOM's current terms.
+4. Split generation into self-consumed and exported units. Annual savings = self-consumed x tariff + exported x credit.
+5. Payback = net cost / annual savings. Then add any inverter replacement you would pay for, and recompute.
+6. If the answer depends heavily on one input, test that input at a worse value before you sign.
 
-This is why the [on-grid vs hybrid ROI comparison](/blog/on-grid-vs-hybrid-solar-inverters-roi/) matters: the choice of inverter type affects not just payback but the shape of the entire 25-year return curve. And it is why India's solar adoption rate among residential homeowners has been growing at over 80% year-on-year in PM Surya Ghar registrations, according to [MNRE PM Surya Ghar portal data](https://pmsuryaghar.gov.in/).
+## Degradation and the 25-year view
 
-> *India added over 1.1 GW of residential rooftop solar in FY 2024–25 alone, driven primarily by PM Surya Ghar registrations from homeowners in Gujarat, Maharashtra, and Rajasthan. Source - [Mercom India Q4 2025 Solar Market Update](https://www.mercomindia.com/), January 2026.*
+Summing generation over 25 years at 0.5 percent a year gives 23.56 times the year-one output (the sum of 0.995^k for k from 0 to 24). For the Ahmedabad example at a flat ₹6, 25-year savings are 51,030 x 23.56 = ₹12.02 lakh against a net cost of ₹1.57 lakh, about 7.7 times. At 7 rupees, payback including degradation is 2.65 years against 2.64 without it, so degradation barely moves the payback year.
 
-The data above confirms that the homeowners who act in 2026 lock in today's system cost before component prices increase, and begin accumulating savings against a tariff that will almost certainly be higher in 2031 than it is today. The payback clock starts on the day the system is commissioned, and every month of delay is a month of foregone savings that no subsidy can recover.
+Treat the 25-year figure as an upper bound. It assumes a constant tariff, no inverter replacement, no cleaning or maintenance cost and full credit for every unit. For a comparison with a fixed deposit, see [solar vs FD](/blog/solar-investment-vs-fd-india/).
 
-For state-specific subsidy stacks beyond what this post covers, the [IRENA Renewable Energy Benefits report](https://www.irena.org/Benefits) provides a global framework for understanding how policy design affects residential solar economics, useful context when reading your own state's subsidy notification documents.
+## Net metering and export credit
+
+If a share s of output is self-consumed at tariff T and the rest is exported at credit E: **savings = generation x [s x T + (1 - s) x E]**. If E equals T, the split does not matter. If E is lower, a roof that sits empty in the daytime pays back more slowly than one with a daytime load. Rules differ by DISCOM and by year; the [net metering guide](/blog/net-metering-india-complete-guide/) and your DISCOM's current order are the references.
+
+## How the inverter changes payback
+
+**Efficiency.** Delivered energy scales with conversion efficiency, so a higher-efficiency inverter delivers more of the same DC. Illustration for a 50 kW plant at the Ahmedabad yield: generation is 50 x 1,701 = 85,050 kWh, taken here as the output with a 95 percent efficient inverter. With a 98 percent inverter the same DC gives 85,050 x 98 / 95 = 87,736 kWh, a gain of about 2,686 kWh (2,685.8 before rounding). At ₹8 per kWh that is about ₹21,486 a year. If the 98 percent model costs ₹1,00,000 more (an assumed price gap), the premium recovers in 1,00,000 / 21,486 = 4.7 years from efficiency alone. Use weighted efficiency or the efficiency curve from each datasheet rather than peak figures, and read the [efficiency guide](/blog/solar-inverter-efficiency/).
+
+**Replacement.** If an inverter fails inside the payback window and the owner pays, effective payback extends by cost / annual savings. A ₹50,000 replacement (assumed) against ₹51,030 of annual savings adds 0.98 years. Warranty terms, remedy and exclusions therefore belong in the payback model; read the [warranty guide](/blog/solar-inverter-warranty/) and the [total cost of ownership guide](/blog/inverter-tco/).
+
+**Hybrid and battery.** A hybrid inverter and battery add to the price. If they add ₹1,00,000 (assumed) and no extra bill savings, payback extends by 1,00,000 / 51,030 = 2.0 years. A battery earns its place through outage cover or time-of-day tariffs, which are separate values to quantify, not payback. See the [on-grid vs hybrid ROI guide](/blog/on-grid-vs-hybrid-solar-inverters-roi/).
+
+## Common mistakes that inflate the answer
+
+- **Using the highest slab.** Solar offsets your most expensive units first, but after solar the same house may fall into a lower slab. Recompute the tariff on the units that remain.
+- **Counting subsidy you may not receive.** Use the amount shown in your portal application, not the sales estimate. A state top-up counts only if a current order exists.
+- **Ignoring the export rule.** Confirm what exported units are credited at.
+- **Forgetting financing.** Interest on a solar loan raises the cost of the system; compare the net-of-interest payback. The [financing guide](/blog/inverter-financing-options-in-india/) covers options.
+- **Quoting a future tariff.** Use the current verified tariff as the base case. Any rise is a bonus, not an input.
+- **Skipping the quote check.** The [quotation checklist](/blog/solar-quotation-checklist/) lists what a quote must itemise.
+
+## Where Qbits fits
+
+Qbits makes inverters, not panels or installations, and pricing is quote-based through dealers, so there is no Qbits price in these calculations. What Qbits documents is per model: the [on-grid inverter](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) pages and the [datasheet library](/download-datasheets/) give ratings, MPPT arrangement and communication options. Qbits' datasheets describe an expandable warranty but do not define a universal term or remedy, so request the current written terms for your model before putting a replacement assumption in your model. The [string sizing calculator](/string-sizing-calculator/) helps check that the array and inverter match before the installer quotes. For commercial roofs, the [CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/) applies the same arithmetic with tax, financing and escalation.

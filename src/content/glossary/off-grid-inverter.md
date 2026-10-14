@@ -18,7 +18,7 @@ quickFacts:
   industry: "Solar PV / Distributed Energy"
   primaryUse: "Standalone AC supply from solar plus battery"
   commonUsers: "Rural homes, farms, telecom sites, defence outposts, eco-resorts"
-  relevantStandards: "IEC 62109, IS 16221, IS 17387 (where applicable), MNRE rural solar guidelines"
+  relevantStandards: "IEC 62109, IS 16221, CEA Connectivity Regulations, MNRE rural solar guidelines"
   relatedTechnologies: "MPPT charge controllers, lithium iron phosphate batteries, PWM, low-frequency transformers"
 relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }

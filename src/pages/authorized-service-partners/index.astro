@@ -603,6 +603,11 @@ const supportTypes = [
 </style>
 
 <script>
+  import {
+    findByNameOrSlug, parseDirectoryQuery, buildDirectoryQuery,
+    safeTelHref, safeWhatsAppHref, safePhotoSrc,
+  } from '../../lib/partner-directory.js';
+
   /* ── Constants ─────────────────────────────────── */
   const API  = 'https://qbits.quickestimate.co/api/v1/webhook';
   const SIG  = 'eyJhbGciOi3nMiGM6H9FNFUROf3wh7SmQ30';
@@ -620,7 +625,35 @@ const supportTypes = [
   }
 
   function photo(p: string | null) {
-    return p ? `${CDN}${p}` : '/default-user.webp';
+    return safePhotoSrc(p, CDN);
+  }
+
+  /* API strings are only ever written with textContent / setAttribute, never innerHTML.
+     Icon SVGs are static constants defined above. */
+  function el(tag: string, className?: string, text?: string): HTMLElement {
+    const n = document.createElement(tag);
+    if (className) n.className = className;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  function actionLink(href: string, title: string, svg: string): HTMLAnchorElement {
+    const a = document.createElement('a');
+    a.href = href;
+    a.title = title;
+    if (href.startsWith('http')) { a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+    a.innerHTML = svg; // static icon constant
+    return a;
+  }
+
+  function actionLinks(item: any, withNames: boolean): HTMLElement[] {
+    const out: HTMLElement[] = [];
+    const wa = safeWhatsAppHref(item.whatsapp_no);
+    const tel = safeTelHref(item.mobile);
+    const who = withNames && item.name ? ` ${item.name}` : '';
+    if (wa) out.push(actionLink(wa, withNames ? `WhatsApp on${who}` : 'WhatsApp', WA_SVG));
+    if (tel) out.push(actionLink(tel, withNames ? `Call${who}` : 'Call', CALL_SVG));
+    return out;
   }
 
   /* ── Map (Google Maps with region=IN so J&K renders as part of India) ── */
@@ -649,21 +682,30 @@ const supportTypes = [
     };
   }
 
-  function popupHTML(item: any) {
-    const img = photo(item.photo);
-    return `
-      <div class="asp-popup" style="position:relative">
-        <img width="720" height="480" src="${img}" alt="${item.name || ''}" style="border-radius:8px;object-fit:cover;width:60px;height:60px;flex-shrink:0">
-        <div>
-          ${item.name ? `<p class="asp-popup-name">${item.name}</p>` : ''}
-          ${item.company_name ? `<p class="asp-popup-company">${item.company_name}${item.designation ? ' · ' + item.designation : ''}</p>` : ''}
-          ${item.address ? `<p class="asp-popup-addr">${item.address}${item.city_name ? ', ' + item.city_name : ''}${item.state_name ? ', ' + item.state_name : ''}</p>` : ''}
-        </div>
-        <div class="asp-popup-actions">
-          ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp" rel="noopener noreferrer">${WA_SVG}</a>` : ''}
-          ${item.mobile ? `<a href="tel:${item.mobile}" title="Call">${CALL_SVG}</a>` : ''}
-        </div>
-      </div>`;
+  function popupNode(item: any): HTMLElement {
+    const root = el('div', 'asp-popup');
+    root.style.position = 'relative';
+    const img = document.createElement('img');
+    img.width = 720; img.height = 480;
+    img.src = photo(item.photo);
+    img.alt = item.name || '';
+    img.style.cssText = 'border-radius:8px;object-fit:cover;width:60px;height:60px;flex-shrink:0';
+    root.appendChild(img);
+
+    const info = el('div');
+    if (item.name) info.appendChild(el('p', 'asp-popup-name', String(item.name)));
+    if (item.company_name) {
+      info.appendChild(el('p', 'asp-popup-company', String(item.company_name) + (item.designation ? ' · ' + item.designation : '')));
+    }
+    if (item.address) {
+      info.appendChild(el('p', 'asp-popup-addr', String(item.address) + (item.city_name ? ', ' + item.city_name : '') + (item.state_name ? ', ' + item.state_name : '')));
+    }
+    root.appendChild(info);
+
+    const actions = el('div', 'asp-popup-actions');
+    actionLinks(item, false).forEach(a => actions.appendChild(a));
+    root.appendChild(actions);
+    return root;
   }
 
   function clusterIcon(g: any, count: number) {
@@ -720,9 +762,8 @@ const supportTypes = [
         const item = group[0];
         const position = { lat: parseFloat(item.latitude), lng: parseFloat(item.longitude) };
         const marker = new g.maps.Marker({ position, map: gMap, icon: pinIcon, title: item.name || undefined });
-        const html = popupHTML(item);
         marker.addListener('click', () => {
-          gInfoWindow.setContent(html);
+          gInfoWindow.setContent(popupNode(item));
           gInfoWindow.open(gMap, marker);
         });
         gMarkers.push(marker);
@@ -912,21 +953,32 @@ const supportTypes = [
       }
 
       rows.forEach((item: any) => {
-        const img = photo(item.photo);
         const loc = [item.city_name, item.state_name].filter(Boolean).join(', ');
-        const card = document.createElement('div');
-        card.className = 'asp-card';
-        card.innerHTML = `
-          <div class="asp-card-img"><img src="${img}" alt="${item.name || 'Partner'}" loading="lazy" width="76" height="76"></div>
-          <div class="asp-card-body">
-            ${item.name ? `<p class="asp-card-name">${item.name}</p>` : ''}
-            ${item.designation ? `<p class="asp-card-role">${item.designation}</p>` : ''}
-            ${loc ? `<p class="asp-card-loc">${PIN_SVG} ${loc}</p>` : ''}
-          </div>
-          <div class="asp-card-actions">
-            ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp on ${item.name}" rel="noopener noreferrer">${WA_SVG}</a>` : ''}
-            ${item.mobile ? `<a href="tel:${item.mobile}" title="Call ${item.name}">${CALL_SVG}</a>` : ''}
-          </div>`;
+        const card = el('div', 'asp-card');
+
+        const imgWrap = el('div', 'asp-card-img');
+        const img = document.createElement('img');
+        img.src = photo(item.photo);
+        img.alt = item.name || 'Partner';
+        img.loading = 'lazy'; img.width = 76; img.height = 76;
+        imgWrap.appendChild(img);
+        card.appendChild(imgWrap);
+
+        const body = el('div', 'asp-card-body');
+        if (item.name) body.appendChild(el('p', 'asp-card-name', String(item.name)));
+        if (item.designation) body.appendChild(el('p', 'asp-card-role', String(item.designation)));
+        if (loc) {
+          const p = el('p', 'asp-card-loc');
+          p.innerHTML = PIN_SVG + ' '; // static icon constant
+          p.appendChild(document.createTextNode(loc));
+          body.appendChild(p);
+        }
+        card.appendChild(body);
+
+        const actions = el('div', 'asp-card-actions');
+        actionLinks(item, true).forEach(a => actions.appendChild(a));
+        card.appendChild(actions);
+
         grid.appendChild(card);
       });
 
@@ -966,48 +1018,71 @@ const supportTypes = [
   }
 
   /* ── States / Districts ──────────────────────── */
+  const stateSel = document.getElementById('aspState') as HTMLSelectElement;
+  const distSel  = document.getElementById('aspDistrict') as HTMLSelectElement;
+  let states: any[] = [];
+  let cities: any[] = [];
+
   async function loadStates() {
     try {
       const json = await get('state');
-      const sel = document.getElementById('aspState') as HTMLSelectElement;
-      json.data.forEach((s: any) => {
+      states = Array.isArray(json?.data) ? json.data : [];
+      states.forEach((s: any) => {
         const o = document.createElement('option');
-        o.value = s.id; o.textContent = s.name;
-        sel.appendChild(o);
+        o.value = String(s.id); o.textContent = String(s.name);
+        stateSel.appendChild(o);
       });
     } catch {}
   }
 
-  /* ── Events ─────────────────────────────────── */
-  document.getElementById('aspState')?.addEventListener('change', async function () {
-    const id = (this as HTMLSelectElement).value;
-    const d  = document.getElementById('aspDistrict') as HTMLSelectElement;
-    d.innerHTML = '<option value="">Select District</option>';
-    d.disabled = true;
-    if (!id) return;
+  async function loadCities(stateId: string) {
+    distSel.innerHTML = '<option value="">Select District</option>';
+    distSel.disabled = true;
+    cities = [];
+    if (!stateId) return;
     try {
-      const json = await get(`states/${id}/cities`);
-      json.data.forEach((c: any) => {
+      const json = await get(`states/${encodeURIComponent(stateId)}/cities`);
+      cities = Array.isArray(json?.data) ? json.data : [];
+      cities.forEach((c: any) => {
         const o = document.createElement('option');
-        o.value = c.id; o.textContent = c.name;
-        d.appendChild(o);
+        o.value = String(c.id); o.textContent = String(c.name);
+        distSel.appendChild(o);
       });
-      d.disabled = false;
-    } catch { d.innerHTML = '<option value="">Failed to load</option>'; }
-  });
+      distSel.disabled = false;
+    } catch { distSel.innerHTML = '<option value="">Failed to load</option>'; }
+  }
+
+  /* Keep the address bar in step with the filter (canonical stays the bare page URL). */
+  function syncUrl() {
+    const sName = stateSel.selectedOptions[0]?.value ? stateSel.selectedOptions[0].textContent : '';
+    const cName = distSel.selectedOptions[0]?.value ? distSel.selectedOptions[0].textContent : '';
+    const q = buildDirectoryQuery(sName, cName);
+    try { history.replaceState(null, '', location.pathname + q + location.hash); } catch {}
+  }
+
+  function showListView() {
+    document.getElementById('aspListBtn')?.classList.add('active');
+    document.getElementById('aspMapBtn')?.classList.remove('active');
+    document.getElementById('aspMapView')!.style.display = 'none';
+    document.getElementById('aspListView')!.style.display = '';
+  }
+
+  /* ── Events ─────────────────────────────────── */
+  stateSel.addEventListener('change', () => loadCities(stateSel.value));
 
   document.getElementById('aspApply')?.addEventListener('click', () => {
-    const state = (document.getElementById('aspState') as HTMLSelectElement).value;
-    const city  = (document.getElementById('aspDistrict') as HTMLSelectElement).value;
+    const state = stateSel.value;
+    const city  = distSel.value;
     if (!state) { alert('Please select a State first.'); return; }
+    syncUrl();
     loadList(state, city, 1);
   });
 
   document.getElementById('aspReset')?.addEventListener('click', () => {
-    (document.getElementById('aspState') as HTMLSelectElement).value = '';
-    const d = document.getElementById('aspDistrict') as HTMLSelectElement;
-    d.innerHTML = '<option value="">Select District</option>';
-    d.disabled = true;
+    stateSel.value = '';
+    distSel.innerHTML = '<option value="">Select District</option>';
+    distSel.disabled = true;
+    syncUrl();
     loadList();
   });
 
@@ -1026,7 +1101,25 @@ const supportTypes = [
   });
 
   /* ── Boot ───────────────────────────────────── */
-  loadStates();
-  loadList();
+  /* ?state=<name or slug>[&city=<name or slug>] pre-selects the filter. Unknown values are ignored. */
+  async function boot() {
+    const want = parseDirectoryQuery(location.search);
+    if (!want.state) {
+      loadStates();
+      loadList();
+      return;
+    }
+    await loadStates();
+    const st = findByNameOrSlug(states, want.state);
+    if (!st) { loadList(); return; }
+    stateSel.value = String(st.id);
+    showListView();
+    await loadCities(String(st.id));
+    const ct = want.city ? findByNameOrSlug(cities, want.city) : null;
+    if (ct) distSel.value = String(ct.id);
+    loadList(String(st.id), ct ? String(ct.id) : '', 1);
+  }
+
+  boot();
   loadMap();
 </script>

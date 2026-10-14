@@ -17,7 +17,7 @@ quickFacts:
   industry: "Solar Installation"
   primaryUse: "Maintenance disconnect"
   commonUsers: "Installers, electricians, O&M operators"
-  relevantStandards: "IEC 60947-3, IS 13947, IS 17387"
+  relevantStandards: "IEC 60947-3, IS 13947, CEA Connectivity Regulations"
   relatedTechnologies: "MCB, fuse, combiner box"
 relatedTerms:
   - { slug: "mcb", term: "MCB" }
@@ -224,7 +224,6 @@ PM Surya Ghar residential installations include both DC and AC isolators.
 |---|---|
 | IEC 60947-3 | Switches, disconnectors, switch-disconnectors |
 | IS 13947 | Indian LV switchgear |
-| IS 17387 | Inverter grid interconnection |
 | CEA Measures Relating to Safety 2023 | Indian safety requirements |
 
 ## Common mistakes
@@ -258,7 +257,7 @@ For how Isolator plays out in real projects, these guides go deeper:
 
 - IEC 60947-3, Switches, disconnectors, switch-disconnectors and fuse combination units.
 - IS 13947, Indian LV switchgear.
-- IS 17387, Inverter grid interconnection.
+- CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - CEA Measures Relating to Safety and Electric Supply Regulations 2023.
 - Manufacturer documentation from Schneider Electric, ABB, Phoenix Contact, Siemens.
 - IS 60898, Circuit breakers (for comparison).

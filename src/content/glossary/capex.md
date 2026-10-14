@@ -269,7 +269,7 @@ CAPEX is the upfront cost of building a solar project. Indian utility-scale cape
 
 For how CAPEX plays out in real projects, these guides go deeper:
 
-- [Solar CAPEX vs OPEX: The C&I Buyer Decision Guide](/blog/solar-capex-vs-opex-india-guide/)
+- [Solar CAPEX vs OPEX: The C&I Buyer Decision Guide](/blog/solar-capex-vs-opex-business-india/)
 - [Zero Cost Solar India: RESCO & OPEX Models](/blog/zero-cost-solar-resco-opex-india/)
 - [Solar CAPEX vs OPEX: Which Model Fits Your Business?](/blog/solar-capex-vs-opex-business-india/)
 - [Solar RESCO Model India: Guide for C&I Buyers](/blog/solar-resco-model-india-guide/)

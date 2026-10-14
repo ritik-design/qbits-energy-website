@@ -17,7 +17,7 @@ quickFacts:
   industry: "Indian Quality Certification"
   primaryUse: "Mandatory quality compliance for solar equipment sold in India"
   commonUsers: "Manufacturers, importers, EPCs, DISCOMs, customers"
-  relevantStandards: "IS 14286, IS 16077, IS 16221, IS 17387, Solar PV Quality Control Order 2017"
+  relevantStandards: "IS 14286, IS 16077, IS 16221, CEA Connectivity Regulations, Solar PV Quality Control Order 2017"
   relatedTechnologies: "PV modules, solar inverters, charge controllers, BOS components"
 relatedTerms:
   - { slug: "almm-list", term: "ALMM List" }
@@ -48,7 +48,7 @@ faqs:
   - q: "Are imported solar products BIS certified?"
     a: "They must be, before sale in India. Importers obtain BIS certification through the FMCS (Foreign Manufacturers Certification Scheme)."
   - q: "What standards are referenced by BIS for solar?"
-    a: "IS 14286 (modules), IS 16077 (thin film), IS 16221 (inverter safety), IS 17387 (inverter grid interconnection), IS 16270 (charge controllers), IS 16893 (storage)."
+    a: "IS 14286 (modules), IS 16077 (thin film), IS 16221 (inverter safety), IS 16270 (charge controllers), IS 16893 (storage)."
   - q: "How much does BIS certification cost?"
     a: "Application fee plus testing and inspection costs, typically ₹3 to ₹15 lakh per product line for solar equipment."
   - q: "How long is BIS certification valid?"
@@ -78,7 +78,7 @@ For Indian solar projects, BIS certification is the foundation: [ALMM listing](/
 
 > **TL;DR**
 > - BIS certification is mandatory for solar modules and inverters sold in India under the Solar PV Quality Control Order 2017.
-> - Relevant standards include IS 14286 (modules), IS 16221 and IS 17387 (inverters), IS 16270 (charge controllers), and IS 16893 (battery storage).
+> - Relevant standards include IS 14286 (modules), IS 16221 (inverters), IS 16270 (charge controllers), and IS 16893 (battery storage).
 > - Certification takes 6 to 12 months and typically costs ₹3 to ₹15 lakh per product line.
 > - BIS certification is a hard prerequisite for [ALMM listing](/glossary/almm-list/), DISCOM commissioning, and PM Surya Ghar subsidy disbursement.
 > - Buyers can verify a product's certification through the BIS Care App or the certificate number printed on the equipment.
@@ -107,7 +107,7 @@ Standardisation. Reduces market fragmentation from low-quality imports, part of 
 | IS 16077 | Thin film terrestrial PV module |
 | IS 16221-1 | Safety of PV inverters general |
 | IS 16221-2 | Safety of PV inverters particular requirements |
-| IS 17387 | Utility-interconnected PV inverters |
+| CEA Connectivity Regulations 2013 (as amended 2019) | Grid connection of distributed generation |
 | IS 16270 | PV charge controllers |
 | IS 16893 | Battery storage safety |
 | IS 13314 | Solar lanterns |
@@ -205,7 +205,7 @@ Foreign manufacturers can obtain BIS certification through FMCS, although the pr
 | IS 14286 | Crystalline silicon modules |
 | IS 16077 | Thin film modules |
 | IS 16221-1, -2 | Inverter safety |
-| IS 17387 | Inverter grid interconnection |
+| CEA Connectivity Regulations 2013 (as amended 2019) | Grid connection of distributed generation |
 | IS 16270 | Charge controllers |
 | IS 16893 | Battery storage |
 | Solar PV Quality Control Order 2017 | Statutory basis |
@@ -236,7 +236,7 @@ For how BIS Certification plays out in real projects, these guides go deeper:
 
 - Bureau of Indian Standards, official website and product certification database.
 - Solar PV Quality Control Order 2017 and amendments, Ministry of New and Renewable Energy.
-- IS 14286, IS 16077, IS 16221, IS 17387, IS 16270, IS 16893, IS 13314, BIS.
+- IS 14286, IS 16077, IS 16221, IS 16270, IS 16893, IS 13314, BIS.
 - Bureau of Indian Standards Act 2016, Government of India.
 - BIS Conformity Assessment Scheme guidelines.
 - BIS Foreign Manufacturers Certification Scheme guidelines.

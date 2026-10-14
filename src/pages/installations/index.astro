@@ -16,7 +16,7 @@ const gallerySchema = {
   name: 'Qbits Energy solar inverter installations',
   description:
     'Photographs identified by Qbits as residential and commercial inverter installations. Project details require owner verification.',
-  url: `${SITE}/installations`,
+  url: `${SITE}/installations/`,
   image: installations.map((item) => ({
     '@type': 'ImageObject',
     contentUrl: `${SITE}${item.image}`,
@@ -51,8 +51,8 @@ const gallerySchema = {
           and service route for the exact inverter model and installation location.
         </p>
         <div class="flex flex-wrap justify-center gap-4 mt-9">
-          <a href="/become-our-partner" class="btn-primary">Become a partner</a>
-          <a href="/contact-us" class="btn-outline">Talk to us</a>
+          <a href="/become-our-partner/" class="btn-primary">Become a partner</a>
+          <a href="/contact-us/" class="btn-outline">Talk to us</a>
         </div>
       </div>
     </section>

@@ -6,7 +6,7 @@ import PageHeader from '../../components/ui/PageHeader.astro';
 
 const onGridDocs = [
   {
-    name: '1.5/2.0/2.7/3.0/3.3/3.6/4.0 KTS',
+    name: 'QB-1.5/2.0/2.7/3.0/3.3/3.6/4.0 KTLS',
     desc: 'Single Phase & Single MPPT',
     link: '/datasheets/products/QB_Data-Sheet_2.0-4.0-kw_1MPPT_1Phs.pdf',
   },
@@ -152,9 +152,13 @@ const hybridDocs = [
 
     <script is:inline>
       (() => {
+        // Two calls run together: /api/datasheet-bundle (emails the catalogue link) and /api/lead (Odoo + Sheet).
+        // The visitor sees success if EITHER worked; an error only if BOTH failed.
         const ENDPOINT = '/api/datasheet-bundle';
-        const SUCCESS_MESSAGE = 'Thanks! Check your inbox — the catalogue is on its way.';
-        const ERROR_MESSAGE = 'Couldn\u2019t send your request. Please email service@qbitsenergy.com.';
+        const CATALOGUE_URL = '/datasheets/qbits-inverter-full-catalogue.pdf';
+        const SUCCESS_MESSAGE = 'Thanks! Check your inbox. The catalogue link is on its way.';
+        const CRM_ONLY_MESSAGE = 'Thanks! We have your request. The catalogue email could not be sent just now, so you can download the catalogue directly below.';
+        const ERROR_MESSAGE = 'Couldn’t send your request. Please email service@qbitsenergy.com.';
 
         const form = document.getElementById('datasheet-bundle-form');
         if (!form) return;
@@ -162,20 +166,36 @@ const hybridDocs = [
         const btn = document.getElementById('db-submit');
         const labelDefault = btn.querySelector('[data-db-default]');
         const labelSending = btn.querySelector('[data-db-sending]');
+        const lead = window.QbLead;
+        const guard = lead.createGuard();
+        // One id per request: reused if the visitor retries after a failure, replaced after success.
+        let submissionId = null;
 
         const setSending = (s) => {
           btn.disabled = s;
+          btn.setAttribute('aria-busy', s ? 'true' : 'false');
           labelDefault.classList.toggle('hidden', s);
           labelSending.classList.toggle('hidden', !s);
         };
-        const showStatus = (msg, ok) => {
+        const showStatus = (msg, ok, withCatalogueLink) => {
           status.classList.remove('hidden');
           status.textContent = msg;
+          if (withCatalogueLink) {
+            status.appendChild(document.createTextNode(' '));
+            const link = document.createElement('a');
+            link.href = CATALOGUE_URL;
+            link.textContent = 'Download the catalogue (PDF)';
+            link.className = 'underline hover:text-white';
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            status.appendChild(link);
+          }
           status.className = 'text-xs ' + (ok ? 'text-emerald-200' : 'text-rose-200');
         };
 
         form.addEventListener('submit', async (e) => {
           e.preventDefault();
+          if (guard.isBusy()) return;
           if (!form.checkValidity()) {
             form.reportValidity();
             return;
@@ -186,50 +206,45 @@ const hybridDocs = [
             return;
           }
 
-          const fd = new FormData(form);
-          const data = {};
-          for (const [k, v] of fd.entries()) {
-            if (k === 'website') continue;
-            if (typeof v === 'string') data[k] = v.trim();
-          }
-          data.source = 'datasheet-bundle';
-          data.page = location.pathname;
-          data.submittedAt = new Date().toISOString();
-
-          if (typeof window.gtag === 'function') {
-            window.gtag('event', 'form_submit', { form_id: 'datasheet-bundle-form' });
-          }
-
-          // Sync to Odoo CRM in parallel — non-blocking, doesn't affect the email-based UX below.
-          fetch('/api/lead', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(data),
-          }).catch((err) => console.error('CRM sync failed:', err));
-
+          if (!guard.begin()) return;
           setSending(true);
           try {
-            const res = await fetch(ENDPOINT, {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json',
-              },
-              body: JSON.stringify(data),
+            if (!submissionId) submissionId = lead.newSubmissionId(window.crypto);
+            const data = Object.assign(
+              lead.collectFields(Array.from(new FormData(form).entries()), ['website']),
+              lead.getAttribution(window.sessionStorage),
+            );
+            data.submission_id = submissionId;
+            data.source = 'datasheet-bundle';
+            data.page = location.pathname;
+            data.submittedAt = new Date().toISOString();
+
+            lead.track(window.gtag, 'form_submit_attempt', { form_id: 'datasheet' });
+
+            const outcome = await lead.submitLead({
+              data,
+              sendEmail: () => lead.postFormSubmit(fetch, ENDPOINT, data),
             });
-            const result = await res.json().catch(() => ({}));
-            if (result.success === 'true' || result.success === true) {
+
+            if (outcome.success) {
+              lead.trackLeadOnce(window.gtag, data.submission_id, {
+                form_id: 'datasheet',
+                source_page: location.pathname,
+              });
+              submissionId = null;
               form.reset();
-              if (typeof window.gtag === 'function') window.gtag('event', 'lead_form_success', { form_id: 'datasheet-bundle-form', source_page: location.pathname });
-              if (typeof window.gtag === 'function') window.gtag('event', 'generate_lead', { form_id: 'datasheet-bundle-form' });
-              showStatus(SUCCESS_MESSAGE, true);
+              if (outcome.emailOk) showStatus(SUCCESS_MESSAGE, true);
+              else showStatus(CRM_ONLY_MESSAGE, true, true);
             } else {
-              throw new Error(result.message || 'Submission failed');
+              lead.track(window.gtag, 'form_error', { form_id: 'datasheet', error_stage: 'crm_and_email' });
+              showStatus(ERROR_MESSAGE, false);
             }
           } catch (err) {
             console.error('Datasheet bundle submission failed:', err);
+            lead.track(window.gtag, 'form_error', { form_id: 'datasheet', error_stage: 'client' });
             showStatus(ERROR_MESSAGE, false);
           } finally {
+            guard.end();
             setSending(false);
           }
         });
@@ -246,15 +261,15 @@ const hybridDocs = [
             <span class="w-8 h-px bg-brand-500"></span>
           </span>
           <h2 id="doctypes-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
-            Available Documents
+            Documents and How to Get Them
           </h2>
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
           {[
-            { name: 'Datasheet', desc: 'Technical specifications and performance data' },
-            { name: 'User Manual', desc: 'Installation and operation instructions' },
-            { name: 'Warranty', desc: 'Warranty terms and claim procedures' },
-            { name: 'Certificates', desc: 'BIS, IEC, and ISO certifications' },
+            { name: 'Model datasheets', desc: 'PDF downloads for each model family, listed in the tables below. No form needed.' },
+            { name: 'Product catalogue', desc: 'Emailed to you as a PDF link when you submit the form above.' },
+            { name: 'Installation manuals', desc: 'Not hosted here. Ask Qbits for the manual of your exact model.' },
+            { name: 'Warranty and certificates', desc: 'Not hosted here. Request the current written terms and certificates for your exact model.' },
           ].map(d => (
             <div class="bg-slate-50 rounded-2xl p-8 text-center">
               <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5">

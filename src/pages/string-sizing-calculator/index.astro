@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
+import { getProductById } from '../../data/products';
 
 // Module database. Every STC value below is transcribed from the manufacturer
 // datasheet named in the family's `series` string — do not interpolate new
@@ -81,9 +82,9 @@ const INVERTERS = [
   inv('QB-3.3KTLS', '1-Ph', 'ongrid', 3300, 3630, 550, 40, 550, 360, 98.0, C20),
   inv('QB-3.6KTLS', '1-Ph', 'ongrid', 3600, 3960, 550, 40, 550, 360, 98.0, C20),
   inv('QB-4.0KTLS', '1-Ph', 'ongrid', 4000, 4400, 550, 40, 550, 360, 98.0, C20),
-  inv('QB-4.6KTLD-S', '1-Ph', 'ongrid', 4600, 5060, 600, 40, 600, 360, 98.1, C20),
-  inv('QB-5KTLD-S', '1-Ph', 'ongrid', 5000, 5500, 600, 40, 600, 360, 98.1, C20),
-  inv('QB-6KTLD-S', '1-Ph', 'ongrid', 6000, 6600, 600, 40, 600, 360, 98.1, C20),
+  inv('QB-4.6KTLS', '1-Ph', 'ongrid', 4600, 5060, 600, 40, 600, 360, 98.1, C20),
+  inv('QB-5KTLS', '1-Ph', 'ongrid', 5000, 5500, 600, 40, 600, 360, 98.1, C20),
+  inv('QB-6KTLS', '1-Ph', 'ongrid', 6000, 6600, 600, 40, 600, 360, 98.1, C20),
   inv('QB-4KTLD', '1-Ph', 'ongrid', 4000, 4400, 550, 80, 550, 360, 98.1, C20x2),
   inv('QB-5KTLD', '1-Ph', 'ongrid', 5000, 5500, 550, 80, 550, 360, 98.1, C20x2),
   inv('QB-6KTLD', '1-Ph', 'ongrid', 6000, 6600, 550, 80, 550, 360, 98.1, C20x2),
@@ -141,6 +142,34 @@ const DEFAULT_LOADS = [
   { name: 'Refrigerator', w: 150, qty: 1, h: 12 },
   { name: 'Air Conditioner', w: 1500, qty: 1, h: 6 },
 ];
+
+// Maps each calculator model to its catalogue product page and datasheet (src/data/products.ts).
+// Link targets only: nothing here feeds the sizing maths.
+function catalogueIdFor(v) {
+  const kw = v.ratedW / 1000;
+  const m = v.model;
+  if (v.type === 'hybrid') {
+    if (v.phase === '3-Ph') return 'QBH-5-12KS48P3';
+    return kw <= 6 ? 'QBH-3-6KS48P' : 'QBH-7-8KS48P';
+  }
+  if (/EHV/.test(m)) return 'QB-225-320K-EHV';
+  if (/KTLS$/.test(m)) return kw < 4.2 ? 'QB-1.5-4.0KTLS' : 'QB-4.6-6KTLS';
+  if (/KTLD$/.test(m)) return 'QB-4-6KTLD';
+  if (/KTLC-Pro$/.test(m)) return kw <= 40 ? 'QB-30-40KTLC-Pro' : 'QB-70-110KTLC-Pro';
+  if (/KTLC-Plus$/.test(m)) return 'QB-40-50KTLC-Plus';
+  if (/KTLC$/.test(m)) {
+    if (kw <= 17) return 'QB-6-17KTLC';
+    if (kw <= 30) return 'QB-20-30KTLC';
+    if (kw <= 60) return 'QB-50-60KTLC';
+    return 'QB-80-125KTLC';
+  }
+  return '';
+}
+const MODEL_LINKS = {};
+for (const v of INVERTERS) {
+  const product = getProductById(catalogueIdFor(v));
+  if (product) MODEL_LINKS[v.model] = { id: product.id, name: product.name, datasheet: product.datasheet || '' };
+}
 ---
 
 <Layout
@@ -263,7 +292,9 @@ const DEFAULT_LOADS = [
               <p class="text-xs text-slate-500 mb-3">Preliminary calculation using stored data. Verify current model documents, site assumptions and approval requirements.</p>
               <div class="flex flex-wrap gap-3">
                 <button id="download-calculation" type="button" class="rounded-lg border border-brand-600 text-brand-700 px-4 py-2 text-sm font-semibold">Download Calculation JSON</button>
-                <a id="review-calculation" href="/contact-us/" class="rounded-lg bg-brand-600 text-white px-4 py-2 text-sm font-semibold">Request a Technical Review</a>
+                <a id="review-calculation" href="/contact-us/" data-cta="calculator_review" class="rounded-lg bg-brand-600 text-white px-4 py-2 text-sm font-semibold">Request a Technical Review</a>
+                <a id="calc-datasheet" href="/download-datasheets/" target="_blank" rel="noopener noreferrer" class="hidden rounded-lg border border-slate-300 text-slate-700 px-4 py-2 text-sm font-semibold">Datasheet for this model</a>
+                <a id="calc-product-page" href="/our-products/" class="hidden rounded-lg border border-slate-300 text-slate-700 px-4 py-2 text-sm font-semibold">Product page for this model</a>
               </div>
             </div>
           </div>
@@ -271,7 +302,7 @@ const DEFAULT_LOADS = [
         </div>
 
         <p class="text-center text-xs text-slate-400 mt-8 leading-relaxed">
-          Engine matches <b class="text-slate-500 font-semibold">Qbits</b> String Sizing logic &middot; Temperature-corrected voltage window, per-MPPT current &amp; DC/AC ratio checks.<br>
+          Uses stored module and inverter data &middot; Temperature-corrected voltage window, per-MPPT current &amp; DC/AC ratio checks.<br>
           Indicative sizing tool &mdash; always confirm against the manufacturer datasheet before installation.
         </p>
 
@@ -334,9 +365,42 @@ const DEFAULT_LOADS = [
   @keyframes spin { to { transform: rotate(360deg); } }
 </style>
 
-<script define:vars={{ PANELS, INVERTERS, DEFAULT_LOADS }}>
+<script define:vars={{ PANELS, INVERTERS, DEFAULT_LOADS, MODEL_LINKS }}>
   var STC = 25;
   var lastCalculation = null;
+  // Result links: the review/enquiry link carries the model and a layout summary into the
+  // contact form message; the datasheet and product page links come from the catalogue map.
+  function setResultLinks(invObj, panel, num, tMin, tMax, opt) {
+    var layout;
+    if (opt.error) {
+      layout = 'No valid string layout found for these inputs.';
+    } else {
+      layout = opt.distributions.map(function (x) {
+        return 'MPPT ' + (x.mpptIndex + 1) + ': ' + x.strings + ' string(s) x ' + x.modulesPerString + ' modules';
+      }).join('; ') + '. Modules used ' + opt.usedPanels + ' of ' + num + '.';
+    }
+    var summary = 'String sizing check from the Qbits calculator (preliminary).\n' +
+      'Inverter: ' + invObj.model + ' (' + sysType + ')\n' +
+      'Module: ' + panel.brand + ' ' + panel.model + ' ' + panel.wp + ' W x ' + num + '\n' +
+      'Module temperature range: ' + tMin + ' to ' + tMax + ' C\n' +
+      'Layout: ' + layout + '\n' +
+      'Please review this layout.';
+    $('review-calculation').href = '/contact-us/?' + new URLSearchParams({
+      subject: 'Project Consultation',
+      model: invObj.model,
+      message: summary.slice(0, 900),
+      from: '/string-sizing-calculator/'
+    }) + '#lead-form';
+    var link = MODEL_LINKS[invObj.model];
+    var ds = $('calc-datasheet'), pp = $('calc-product-page');
+    ds.classList.toggle('hidden', !(link && link.datasheet));
+    pp.classList.toggle('hidden', !link);
+    if (link) {
+      ds.href = link.datasheet || '/download-datasheets/';
+      pp.href = '/our-products/' + link.id + '/';
+    }
+  }
+
   function invalidateCalculation() { lastCalculation = null; document.getElementById('calculation-actions').classList.add('hidden'); }
 
   // Rating thresholds.
@@ -741,7 +805,7 @@ const DEFAULT_LOADS = [
       batteryInputs: sysType === 'hybrid' ? { loads: domLoads(), depthOfDischargePct: +$('dod').value, backupDays: +$('backupDays').value, batteryToLoadEfficiencyPct: +$('batteryEfficiency').value } : null,
       limits: ['Separate certified short-circuit-current limits are not stored; Isc uses the stored operating-current limit as a conservative screen', 'Verify PV power, system voltage, current design factors, cables, fuses and protection separately', 'Verify battery model, BMS protocol, discharge limits and utility requirements separately']
     };
-    $('review-calculation').href = '/contact-us/?' + new URLSearchParams({ subject: 'Technical Documents', model: invObj.model, role: 'Solar Installer', from: '/string-sizing-calculator/' }) + '#lead-form';
+    setResultLinks(invObj, panel, num, tMin, tMax, opt);
     $('calculation-actions').classList.remove('hidden');
 
 

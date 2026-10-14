@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import sharp from 'sharp';
+import { readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { getArticleJourney, getGlossaryJourney } from '../src/data/article-journeys.ts';
 import { selectRelatedPosts } from '../src/data/related-content.ts';
@@ -12,13 +13,41 @@ test('policy and software research stay in their own learning journeys', () => {
   assert.equal(getArticleJourney('epc-design-software', 'Solar Software').primaryHref, '/blog/category/solar-software/');
   assert.equal(getArticleJourney('stringent-solar-policy', 'Guide').kind, 'learning');
 });
-test('partner, EPC and support enquiries retain the right role and source', () => {
+test('dealer and distributor journeys lead to the partner application and keep role and source', () => {
   const distribution = getArticleJourney('solar-distributor-credit-territory-terms', 'Business');
-  const query = new URL(distribution.primaryHref, 'https://qbitsenergy.com').searchParams;
-  assert.equal(query.get('role'), 'Distributor');
-  assert.equal(query.get('subject'), 'Become a Distributor');
-  assert.equal(query.get('from'), '/blog/solar-distributor-credit-territory-terms/');
-  assert.equal(getArticleJourney('inverter-procurement-india', 'EPC').kind, 'procurement');
+  const apply = new URL(distribution.primaryHref, 'https://qbitsenergy.com');
+  assert.equal(distribution.kind, 'partner');
+  assert.equal(apply.pathname, '/become-our-partner/');
+  assert.equal(apply.searchParams.get('role'), 'Distributor');
+  assert.equal(apply.searchParams.get('from'), '/blog/solar-distributor-credit-territory-terms/');
+  assert.equal(apply.hash, '#partner-form');
+  // The short enquiry stays available as the secondary route and keeps its subject, role and source.
+  const enquiry = new URL(distribution.secondaryHref, 'https://qbitsenergy.com');
+  assert.equal(enquiry.pathname, '/contact-us/');
+  assert.equal(enquiry.searchParams.get('subject'), 'Become a Distributor');
+  assert.equal(enquiry.searchParams.get('role'), 'Distributor');
+  assert.equal(enquiry.searchParams.get('from'), '/blog/solar-distributor-credit-territory-terms/');
+  const dealer = getArticleJourney('solar-dealer-margin-india', 'Business');
+  assert.equal(new URL(dealer.primaryHref, 'https://qbitsenergy.com').searchParams.get('role'), 'Dealer');
+});
+test('every dealer, distributor and partner article gets the partner journey', () => {
+  const dir = fileURLToPath(new URL('../src/content/blog/', import.meta.url));
+  const slugs = readdirSync(dir).filter((file) => file.endsWith('.md')).map((file) => file.replace(/\.md$/, ''));
+  const partnerSlugs = slugs.filter((slug) => /dealer|distributor|partner|channel/.test(slug));
+  assert.ok(partnerSlugs.includes('indian-inverter-partner-programmes'));
+  for (const slug of partnerSlugs) {
+    const journey = getArticleJourney(slug, 'Business');
+    assert.equal(journey.kind, 'partner', slug);
+    assert.equal(new URL(journey.primaryHref, 'https://qbitsenergy.com').pathname, '/become-our-partner/', slug);
+  }
+});
+test('EPC and support enquiries retain the right role and source', () => {
+  const epc = getArticleJourney('inverter-procurement-india', 'EPC');
+  assert.equal(epc.kind, 'procurement');
+  const query = new URL(epc.primaryHref, 'https://qbitsenergy.com').searchParams;
+  assert.equal(query.get('role'), 'EPC Company');
+  assert.equal(query.get('subject'), 'EPC / Bulk Supply');
+  assert.equal(query.get('from'), '/blog/inverter-procurement-india/');
   assert.equal(getArticleJourney('solar-inverter-error-codes-guide', 'Maintenance').kind, 'support');
 });
 test('glossary CTAs do not imply Qbits supplies central inverters or finance services', () => {

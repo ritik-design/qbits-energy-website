@@ -8,6 +8,15 @@ import AmbassadorDealer from '../../components/brand-ambassador/AmbassadorDealer
 const businessTypes = ['Dealer', 'Distributor', 'EPC', 'System Integrator'];
 const officeTypes = ['Owned', 'Rented'];
 const yesNo = ['Yes', 'No'];
+// Indian states and union territories (optional State field).
+const indianStates = [
+  'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar', 'Chhattisgarh', 'Goa', 'Gujarat', 'Haryana',
+  'Himachal Pradesh', 'Jharkhand', 'Karnataka', 'Kerala', 'Madhya Pradesh', 'Maharashtra', 'Manipur',
+  'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha', 'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu', 'Telangana',
+  'Tripura', 'Uttar Pradesh', 'Uttarakhand', 'West Bengal',
+  'Andaman and Nicobar Islands', 'Chandigarh', 'Dadra and Nagar Haveli and Daman and Diu', 'Delhi',
+  'Jammu and Kashmir', 'Ladakh', 'Lakshadweep', 'Puducherry',
+];
 ---
 
 <Layout
@@ -75,6 +84,17 @@ const yesNo = ['Yes', 'No'];
                 <div class="sm:col-span-2">
                   <label for="registeredAddress" class="block text-sm font-medium text-slate-700 mb-1.5">Registered Address <span class="text-rose-500">*</span></label>
                   <textarea id="registeredAddress" name="registeredAddress" rows="3" required minlength="10" maxlength="500" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all resize-none bg-slate-50/50" placeholder="Full registered address"></textarea>
+                </div>
+                <div>
+                  <label for="state" class="block text-sm font-medium text-slate-700 mb-1.5">State <span class="text-xs text-slate-400 font-normal">(optional)</span></label>
+                  <select id="state" name="state" autocomplete="address-level1" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50">
+                    <option value="">Select state or UT</option>
+                    {indianStates.map((st) => <option value={st}>{st}</option>)}
+                  </select>
+                </div>
+                <div>
+                  <label for="city" class="block text-sm font-medium text-slate-700 mb-1.5">City <span class="text-xs text-slate-400 font-normal">(optional)</span></label>
+                  <input type="text" id="city" name="city" maxlength="60" autocomplete="address-level2" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. Surat" />
                 </div>
                 <div>
                   <label for="businessEmail" class="block text-sm font-medium text-slate-700 mb-1.5">Official Business Email <span class="text-rose-500">*</span></label>
@@ -263,6 +283,7 @@ const yesNo = ['Yes', 'No'];
             <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
               <label>Don't fill this: <input type="text" id="website2" name="website2" tabindex="-1" autocomplete="off" /></label>
             </div>
+            <input type="hidden" name="sourcePage" id="sourcePage" />
 
             <div class="pt-2">
               <button type="submit" id="partner-submit" class="btn-primary w-full sm:w-auto">
@@ -292,7 +313,7 @@ const yesNo = ['Yes', 'No'];
             <span class="w-8 h-px bg-brand-500"></span>
           </span>
           <h2 id="why-partner-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
-            Build a Profitable Solar Business Together
+            What Applying Involves
           </h2>
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -300,8 +321,8 @@ const yesNo = ['Yes', 'No'];
             <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
               <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
             </div>
-            <h3 class="text-lg font-bold text-slate-900 mb-2">Competitive Margins</h3>
-            <p class="text-sm text-slate-500">Attractive pricing and volume-based incentives for every partner tier.</p>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Talk to the Partner Team</h3>
+            <p class="text-sm text-slate-500">Your application starts a conversation with the Qbits team about the partner route and terms. Pricing, territory and incentives are set in the signed agreement, not on this page.</p>
           </div>
           <div class="bg-slate-50 rounded-2xl p-8 text-center hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 hover:-translate-y-1 group">
             <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
@@ -352,20 +373,38 @@ const yesNo = ['Yes', 'No'];
 
 <script is:inline>
   (() => {
-    // Email notification path (FormSubmit AJAX). Odoo CRM is the system of record
-    // and is awaited below so a silent CRM failure cannot look like success.
+    // Email notification path (FormSubmit AJAX). /api/lead (Odoo + Sheet) is awaited alongside it:
+    // success if EITHER accepted the application, error only if BOTH failed.
     const EMAIL_ENDPOINT = 'https://formsubmit.co/ajax/ritik@thestacc.com';
-    const SUCCESS_MESSAGE = 'Thank you! Your partner application has been submitted. We will review your details and contact you. For urgent queries, please call +91 90166 63633.';
-    const ERROR_MESSAGE = 'Sorry, we couldn\'t submit your application. Please call +91 99791 92935 or email service@qbitsenergy.com.';
+    const SUCCESS_MESSAGE = 'Thank you! Your partner application has been submitted. The Qbits team will review your details and get in touch.';
+    const ERROR_MESSAGE = 'Sorry, we couldn’t submit your application. Please call +91 99791 92935 or email service@qbitsenergy.com.';
 
     const form = document.getElementById('partner-form');
     const status = document.getElementById('partner-status');
     const btn = document.getElementById('partner-submit');
     const labelDefault = btn.querySelector('[data-label-default]');
     const labelSending = btn.querySelector('[data-label-sending]');
+    const lead = window.QbLead;
+    const guard = lead.createGuard();
+    // One id per application: reused if the visitor retries after a failure, replaced after success.
+    let submissionId = null;
+
+    // Links from blogs and the contact page pass ?role= (business type) and ?from= (source page).
+    const params = new URLSearchParams(location.search);
+    const role = params.get('role');
+    if (role) {
+      for (const radio of form.querySelectorAll('input[name="businessType"]')) {
+        if (radio.value === role) radio.checked = true;
+      }
+    }
+    const from = params.get('from') || '';
+    if (/^\/(?!\/)[a-zA-Z0-9/_\-.]*$/.test(from) && !/\/\.{1,2}(?:\/|$)/.test(from) && from.length <= 200) {
+      form.elements.namedItem('sourcePage').value = from;
+    }
 
     const setSending = (sending) => {
       btn.disabled = sending;
+      btn.setAttribute('aria-busy', sending ? 'true' : 'false');
       labelDefault.classList.toggle('hidden', sending);
       labelSending.classList.toggle('hidden', !sending);
     };
@@ -379,6 +418,7 @@ const yesNo = ['Yes', 'No'];
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
+      if (guard.isBusy()) return;
 
       if (!form.checkValidity()) {
         form.reportValidity();
@@ -392,79 +432,47 @@ const yesNo = ['Yes', 'No'];
         return;
       }
 
-      const data = {
-        source: 'partner-form',
-        page: location.pathname,
-        submittedAt: new Date().toISOString(),
-      };
-      for (const [key, value] of new FormData(form).entries()) {
-        if (key === 'website2' || typeof value !== 'string') continue;
-        data[key] = value.trim();
-      }
-      data._subject = 'New Qbits Channel Partner Application: ' + (data.companyName || 'Unknown');
-      data._template = 'table';
-      data._captcha = 'false';
-
-      if (typeof window.gtag === 'function') {
-        window.gtag('event', 'form_submit', {
-          form_id: 'partner-form',
-          subject: 'Channel Partner Application',
-        });
-      }
-
+      if (!guard.begin()) return;
       setSending(true);
       try {
-        // Run email + CRM in parallel. Succeed if Odoo accepts the lead
-        // (primary) OR FormSubmit accepts the email (backup). Fail only if both fail.
-        const [crmResult, emailResult] = await Promise.allSettled([
-          fetch('/api/lead', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(data),
-          }).then(async (res) => {
-            const body = await res.json().catch(() => ({}));
-            if (!res.ok || body.success === false) {
-              throw new Error(body.message || 'CRM sync failed');
-            }
-            return body;
-          }),
-          fetch(EMAIL_ENDPOINT, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-              'Accept': 'application/json',
-            },
-            body: JSON.stringify(data),
-          }).then(async (res) => {
-            const body = await res.json().catch(() => ({}));
-            if (!(body.success === 'true' || body.success === true)) {
-              throw new Error(body.message || 'Email submission failed');
-            }
-            return body;
-          }),
-        ]);
+        if (!submissionId) submissionId = lead.newSubmissionId(window.crypto);
+        const data = Object.assign(
+          { source: 'partner-form', page: location.pathname, submittedAt: new Date().toISOString() },
+          lead.collectFields(Array.from(new FormData(form).entries()), ['website2']),
+          lead.getAttribution(window.sessionStorage),
+        );
+        data.submission_id = submissionId;
+        data._subject = 'New Qbits Channel Partner Application: ' + (data.companyName || 'Unknown');
+        data._template = 'table';
+        data._captcha = 'false';
 
-        const crmOk = crmResult.status === 'fulfilled';
-        const emailOk = emailResult.status === 'fulfilled';
+        lead.track(window.gtag, 'form_submit_attempt', { form_id: 'partner', subject: 'Channel Partner Application' });
 
-        if (!crmOk) {
-          console.error('CRM sync failed:', crmResult.reason);
-        }
-        if (!emailOk) {
-          console.error('Email notification failed:', emailResult.reason);
-        }
+        const outcome = await lead.submitLead({
+          data,
+          sendEmail: () => lead.postFormSubmit(fetch, EMAIL_ENDPOINT, data),
+        });
 
-        if (crmOk || emailOk) {
+        if (outcome.success) {
+          lead.trackLeadOnce(window.gtag, data.submission_id, {
+            form_id: 'partner',
+            inquiry_type: 'Channel Partner Application',
+            buyer_role: data.businessType || '',
+            source_page: data.sourcePage || location.pathname,
+          });
+          submissionId = null;
           form.reset();
-          if (typeof window.gtag === 'function') window.gtag('event', 'lead_form_success', { form_id: 'partner-form', source_page: location.pathname });
-              showStatus(SUCCESS_MESSAGE, true);
+          showStatus(SUCCESS_MESSAGE, true);
         } else {
-          throw new Error('Both CRM and email submission failed');
+          lead.track(window.gtag, 'form_error', { form_id: 'partner', error_stage: 'crm_and_email' });
+          showStatus(ERROR_MESSAGE, false);
         }
       } catch (err) {
         console.error('Partner form submission failed:', err);
+        lead.track(window.gtag, 'form_error', { form_id: 'partner', error_stage: 'client' });
         showStatus(ERROR_MESSAGE, false);
       } finally {
+        guard.end();
         setSending(false);
       }
     });

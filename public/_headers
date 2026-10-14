@@ -41,6 +41,51 @@
 /logos/*
   Cache-Control: public, max-age=2592000
 
+# Static media directories (filenames are NOT content-hashed, so no "immutable";
+# 30 days, same as /images/*). Keep each path matched by exactly one rule:
+# Cloudflare concatenates Cache-Control values when several rules match.
+# /installations/ and /events/ are HTML routes, so only their image files are
+# matched (install-*.webp, the expo photo folder), never the page itself.
+/homepage-new/*
+  Cache-Control: public, max-age=2592000
+
+/installations/install-*
+  Cache-Control: public, max-age=2592000
+
+/client-feedback/*
+  Cache-Control: public, max-age=2592000
+
+/team/*
+  Cache-Control: public, max-age=2592000
+
+/hero/*
+  Cache-Control: public, max-age=2592000
+
+/technical-diagrams/*
+  Cache-Control: public, max-age=2592000
+
+/og/*
+  Cache-Control: public, max-age=2592000
+
+/events/global-solar-expo-varanasi-2026/*
+  Cache-Control: public, max-age=2592000
+
+/email/*
+  Cache-Control: public, max-age=2592000
+
+/about/*
+  Cache-Control: public, max-age=2592000
+
+/brand-ambassador/*
+  Cache-Control: public, max-age=2592000
+
+/about-video.mp4
+  Cache-Control: public, max-age=2592000
+
+# Datasheet PDFs are replaced in place, so cache for one day only.
+/datasheets/*
+  Cache-Control: public, max-age=86400
+
 # Favicons
 /favicon*
   Cache-Control: public, max-age=604800

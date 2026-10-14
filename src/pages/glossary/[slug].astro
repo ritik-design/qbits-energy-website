@@ -98,13 +98,19 @@ const breadcrumbSchema = {
   ],
 };
 
+// Same path Layout emits in og:image/twitter:image (passed explicitly below so the two cannot drift).
+const ogImagePath = '/og-image.webp';
+
 // Article schema
+// datePublished is intentionally omitted: the glossary frontmatter has no publish-date
+// field (only updatedDate), and deriving one from git history is not deterministic in CI.
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'TechArticle',
   headline: title,
   description: description,
   dateModified: updatedIso,
+  image: `${siteUrl}${ogImagePath}`,
   author: { '@type': 'Organization', name: 'Qbits Energy', url: siteUrl },
   publisher: {
     '@type': 'Organization',
@@ -118,7 +124,7 @@ const articleSchema = {
 };
 ---
 
-<Layout title={seoTitle || title} description={description} canonical={canonicalUrl}>
+<Layout title={seoTitle || title} description={description} canonical={canonicalUrl} ogImage={ogImagePath}>
   <HeaderV2 />
 
   <script type="application/ld+json" set:html={JSON.stringify(definedTermSchema)} />

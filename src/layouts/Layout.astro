@@ -1,6 +1,17 @@
 ---
 import '../styles/global.css';
 import GooglePreferredSource from '../components/GooglePreferredSource.astro';
+// Shared lead-form helper + first-touch attribution capture (see src/lib/lead-client.js).
+// Comments and indentation are stripped so the inline copy stays small on every page.
+import leadClientRaw from '../lib/lead-client.js?raw';
+
+const leadClientSource =
+  leadClientRaw
+    .replace(/\/\*[\s\S]*?\*\//g, '')
+    .replace(/^\s*\/\/.*$/gm, '')
+    .replace(/^\s+/gm, '')
+    .trim() +
+  "\ntry{QbLead.captureFirstTouch({search:location.search,referrer:document.referrer,pathname:location.pathname},window.sessionStorage);}catch(e){}";
 
 export interface Props {
   title?: string;
@@ -57,6 +68,8 @@ const showPreferredSource =
     gtag('js', new Date());
     gtag('config', 'G-SH1RZZHCXQ');
   </script>
+  <!-- window.QbLead (form submit helper) + first-touch UTM/gclid/referrer/landing page in sessionStorage. No cookies. -->
+  <script is:inline set:html={leadClientSource} />
 
   <title>{fullTitle}</title>
   <meta name="description" content={description} />
@@ -194,6 +207,17 @@ const showPreferredSource =
       }
 
       document.addEventListener('click', function (e) {
+        // Generic CTA click event: add data-cta="<id>" to any link or button worth measuring.
+        // Completed enquiries are NOT tracked here; forms fire generate_lead after confirmed success.
+        const cta = e.target.closest ? e.target.closest('[data-cta]') : null;
+        if (cta) {
+          fire('cta_click', {
+            cta_id: cta.getAttribute('data-cta') || '',
+            cta_text: (cta.textContent || '').trim().slice(0, 80),
+            link_url: cta.getAttribute('href') || '',
+            page_path: location.pathname,
+          });
+        }
         const link = e.target.closest ? e.target.closest('a[href]') : null;
         if (!link) return;
         const href = link.getAttribute('href') || '';

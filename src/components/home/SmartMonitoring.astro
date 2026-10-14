@@ -64,8 +64,10 @@ const features = [
       <!-- Dashboard Preview -->
       <div class="relative">
         <div class="rounded-3xl bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700 overflow-hidden shadow-2xl shadow-brand-500/10 h-80 lg:h-96">
-          <img width="1920" height="1080"
-            src="/product-images/image.png"
+          <img width="1536" height="1024"
+            src="/product-images/image.webp"
+            srcset="/product-images/image-640.webp 640w, /product-images/image.webp 1024w"
+            sizes="(min-width: 1024px) 50vw, 100vw"
             alt="Qbits smart monitoring dashboard"
             class="w-full h-full object-cover opacity-90"
             loading="lazy"

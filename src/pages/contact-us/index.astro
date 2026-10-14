@@ -212,15 +212,21 @@ const systemSizes = [
               </form>
               <script is:inline>
                 (() => {
+                  // Backup email path (FormSubmit). /api/lead (Odoo + Sheet) is awaited alongside it:
+                  // the visitor sees success if EITHER accepted the enquiry, an error only if BOTH failed.
                   const ENDPOINT = 'https://formsubmit.co/ajax/ritik@thestacc.com';
                   const SUCCESS_MESSAGE = 'Thanks! Your message has been submitted.';
-                  const ERROR_MESSAGE = 'Sorry, we couldn\u2019t send your message. Please call +91 99791 92935 or email service@qbitsenergy.com.';
+                  const ERROR_MESSAGE = 'Sorry, we couldn’t send your message. Please call +91 99791 92935 or email service@qbitsenergy.com.';
 
                   const form   = document.getElementById('lead-form');
                   const status = document.getElementById('lead-status');
                   const btn    = document.getElementById('lead-submit');
                   const labelDefault = btn.querySelector('[data-label-default]');
                   const labelSending = btn.querySelector('[data-label-sending]');
+                  const lead = window.QbLead;
+                  const guard = lead.createGuard();
+                  // One id per enquiry: reused if the visitor retries after a failure, replaced after success.
+                  let submissionId = null;
                   const params = new URLSearchParams(location.search);
                   for (const key of ['role', 'subject']) {
                     const select = form.elements.namedItem(key);
@@ -229,11 +235,16 @@ const systemSizes = [
                   }
                   const model = (params.get('model') || '').slice(0, 80);
                   if (model) form.elements.namedItem('model').value = model;
+                  // Prefill from the string sizing calculator: model and layout summary.
+                  const prefill = (params.get('message') || '').replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/g, '').slice(0, 1500);
+                  const messageField = form.elements.namedItem('message');
+                  if (prefill && messageField && !messageField.value) messageField.value = prefill;
                   const from = params.get('from') || '';
                   if (/^\/(?!\/)[a-zA-Z0-9/_\-.]*$/.test(from) && !/\/\.{1,2}(?:\/|$)/.test(from) && from.length <= 200) form.elements.namedItem('sourcePage').value = from;
 
                   const setSending = (sending) => {
                     btn.disabled = sending;
+                    btn.setAttribute('aria-busy', sending ? 'true' : 'false');
                     labelDefault.classList.toggle('hidden', sending);
                     labelSending.classList.toggle('hidden', !sending);
                   };
@@ -246,6 +257,7 @@ const systemSizes = [
 
                   form.addEventListener('submit', async (e) => {
                     e.preventDefault();
+                    if (guard.isBusy()) return;
 
                     // Native validation
                     if (!form.checkValidity()) {
@@ -260,63 +272,50 @@ const systemSizes = [
                       return;
                     }
 
-                    const fd = new FormData(form);
-                    const data = {};
-                    for (const [k, v] of fd.entries()) {
-                      if (k === 'website') continue;
-                      if (typeof v === 'string') data[k] = v.trim();
-                    }
-                    data.source = 'contact-form';
-                    data.page = location.pathname;
-                    data.submittedAt = new Date().toISOString();
-                    data._subject = 'New Qbits lead: ' + (data.name || 'Unknown') +
-                      (data.subject ? ' - ' + data.subject : '');
-                    data._template = 'table';
-                    data._captcha = 'false';
-
-                    if (typeof window.gtag === 'function') {
-                      window.gtag('event', 'form_submit', {
-                        form_id: 'lead-form',
-                        subject: data.subject,
-                      });
-                    }
-
-                    // Sync to Odoo CRM in parallel — non-blocking, doesn't affect the email-based UX below.
-                    fetch('/api/lead', {
-                      method: 'POST',
-                      headers: { 'Content-Type': 'application/json' },
-                      body: JSON.stringify(data),
-                    }).catch((err) => console.error('CRM sync failed:', err));
-
+                    if (!guard.begin()) return;
                     setSending(true);
                     try {
-                      const res = await fetch(ENDPOINT, {
-                        method: 'POST',
-                        headers: {
-                          'Content-Type': 'application/json',
-                          'Accept': 'application/json',
-                        },
-                        body: JSON.stringify(data),
+                      if (!submissionId) submissionId = lead.newSubmissionId(window.crypto);
+                      const data = Object.assign(
+                        lead.collectFields(Array.from(new FormData(form).entries()), ['website']),
+                        lead.getAttribution(window.sessionStorage),
+                      );
+                      data.submission_id = submissionId;
+                      data.source = 'contact-form';
+                      data.page = location.pathname;
+                      data.submittedAt = new Date().toISOString();
+                      data._subject = 'New Qbits lead: ' + (data.name || 'Unknown') +
+                        (data.subject ? ' - ' + data.subject : '');
+                      data._template = 'table';
+                      data._captcha = 'false';
+
+                      lead.track(window.gtag, 'form_submit_attempt', { form_id: 'contact', subject: data.subject });
+
+                      const outcome = await lead.submitLead({
+                        data,
+                        sendEmail: () => lead.postFormSubmit(fetch, ENDPOINT, data),
                       });
-                      const result = await res.json().catch(() => ({}));
-                      if (result.success === 'true' || result.success === true) {
-                        if (typeof window.gtag === 'function') {
-                          window.gtag('event', 'lead_form_success', {
-                            form_id: 'lead-form',
-                            inquiry_type: data.subject,
-                            buyer_role: data.role,
-                            source_page: data.sourcePage || location.pathname,
-                          });
-                        }
+
+                      if (outcome.success) {
+                        lead.trackLeadOnce(window.gtag, data.submission_id, {
+                          form_id: 'contact',
+                          inquiry_type: data.subject,
+                          buyer_role: data.role,
+                          source_page: data.sourcePage || location.pathname,
+                        });
+                        submissionId = null;
                         form.reset();
                         showStatus(SUCCESS_MESSAGE, true);
                       } else {
-                        throw new Error(result.message || 'Submission failed');
+                        lead.track(window.gtag, 'form_error', { form_id: 'contact', error_stage: 'crm_and_email' });
+                        showStatus(ERROR_MESSAGE, false);
                       }
                     } catch (err) {
                       console.error('Form submission failed:', err);
+                      lead.track(window.gtag, 'form_error', { form_id: 'contact', error_stage: 'client' });
                       showStatus(ERROR_MESSAGE, false);
                     } finally {
+                      guard.end();
                       setSending(false);
                     }
                   });
@@ -348,9 +347,9 @@ const systemSizes = [
               <p class="text-sm text-brand-100 leading-relaxed mb-6">
                 Apply to discuss the available dealer or distributor route. Pricing, territory, marketing, training and support depend on approval and the signed agreement.
               </p>
-              <a href="https://wa.me/919979192935" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-brand-600 hover:bg-brand-50 transition-colors">
-                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                Chat on WhatsApp
+              <a href="/become-our-partner/?from=%2Fcontact-us%2F#partner-form" data-cta="contact_partner_card" class="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-brand-600 hover:bg-brand-50 transition-colors">
+                Open the Partner Application
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
               </a>
             </div>
 

@@ -3,16 +3,19 @@ const videos = [
   {
     src: '/client-feedback/Jaybhai-Jangid-Owner-of-Jangid-Solar-chooses-Qbits-for-one-reason-unmatched-reliability.From-r.mp4',
     title: 'Jaybhai Jangid, Owner of Jangid Solar',
+    poster: '/client-feedback/poster-jangid-installer.webp',
     desc: 'Recorded installer feedback. Individual experience does not establish a universal performance result.',
   },
   {
     src: '/client-feedback/Qbits-Energy-technology-stays-dust-proof-heat-resistant-and-humidity-protected-ensuring-lower-.mp4',
     title: 'Installer feedback on environmental protection',
+    poster: '/client-feedback/poster-environmental-protection.webp',
     desc: 'Recorded feedback. Confirm the exact model IP rating and operating limits in its datasheet.',
   },
   {
     src: '/client-feedback/When-an-installer-confidently-says-100-recommend-it-speaks-volumes-about-performance.Qbits-d.mp4',
     title: 'Installer recommendation',
+    poster: '/client-feedback/poster-installer-recommendation.webp',
     desc: 'Recorded installer opinion. It is not a measured reliability or performance claim.',
   },
 ];
@@ -32,8 +35,9 @@ const videos = [
             <video
               class="w-full h-full object-cover"
               controls
-              preload="metadata"
+              preload="none"
               playsinline
+              poster={video.poster}
             >
               <source src={video.src} type="video/mp4" />
               Your browser does not support the video tag.

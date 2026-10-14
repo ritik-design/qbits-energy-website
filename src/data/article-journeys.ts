@@ -12,9 +12,12 @@ export function getArticleJourney(slug: string, category: string, collection: 'b
   const source = `/${collection}/${slug}/`;
   const enquiry = (subject: string, role?: string) => `/contact-us/?${new URLSearchParams({ subject, from: source, ...(role ? { role } : {}) })}#lead-form`;
   const topic = `${slug} ${category}`.toLowerCase();
-  if (/dealer|distributor|dealership|channel.partner|partner.application|become.*partner/.test(topic)) {
+  if (/dealer|distributor|dealership|channel.partner|partner.application|partner.programme|become.*partner/.test(topic)) {
     const isDistributor = /distributor|distribution/.test(slug);
-    return { kind: 'partner', heading: 'Discuss the right Qbits partnership route', description: 'Share your business role and location. Confirm eligibility, territory, commercial terms and support arrangements directly with Qbits.', primaryLabel: isDistributor ? 'Enquire About Distribution' : 'Enquire About a Partnership', primaryHref: enquiry(isDistributor ? 'Become a Distributor' : 'Become a Dealer', isDistributor ? 'Distributor' : 'Dealer'), secondaryLabel: 'View the Partner Application', secondaryHref: '/become-our-partner/' };
+    const role = isDistributor ? 'Distributor' : 'Dealer';
+    // Dealer and distributor intent goes to the partner application (Odoo source 189), not the general enquiry form.
+    const apply = `/become-our-partner/?${new URLSearchParams({ role, from: source })}#partner-form`;
+    return { kind: 'partner', heading: 'Discuss the right Qbits partnership route', description: 'Share your business role and location. Confirm eligibility, territory, commercial terms and support arrangements directly with Qbits.', primaryLabel: isDistributor ? 'Apply as a Distributor' : 'Apply as a Dealer', primaryHref: apply, secondaryLabel: 'Ask a Question First', secondaryHref: enquiry(isDistributor ? 'Become a Distributor' : 'Become a Dealer', role) };
   }
   if (/inverter.*(error|fault|wifi|wi-fi|failure|troubleshoot|low-output|beeping|warranty|replacement)|maintenance/.test(topic)) {
     return { kind: 'support', heading: 'Need help with an inverter or warranty request?', description: 'Share the exact model, serial number, installation location and observed fault. Follow the model manual and use a qualified technician for electrical work.', primaryLabel: 'Request Technical Support', primaryHref: enquiry('Service Support'), secondaryLabel: 'Check the Service Network', secondaryHref: '/authorized-service-partners/' };

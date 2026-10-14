@@ -1,6 +1,7 @@
 ---
 // Quick lead form surfaced near the top of the homepage.
-// Posts to FormSubmit.co (zero-signup form backend).
+// Posts to /api/lead (Odoo + Sheet, awaited) and to FormSubmit.co (email backup, zero-signup).
+// Success is shown if either accepted the enquiry; see src/lib/lead-client.js.
 ---
 
 <section class="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 py-16 lg:py-24 border-t border-white/5" aria-labelledby="quick-lead-heading">
@@ -10,7 +11,7 @@
         <div>
           <span class="inline-flex items-center gap-2 rounded-full bg-brand-500/15 ring-1 ring-brand-500/30 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brand-400">
             <span class="w-1.5 h-1.5 rounded-full bg-brand-400 animate-pulse"></span>
-            Free Site Survey
+            Inverter Enquiry
           </span>
           <h2 id="quick-lead-heading" class="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">
             Discuss an inverter requirement with Qbits.
@@ -46,7 +47,7 @@
             <input type="text" id="ql-name" name="name" required maxlength="80" autocomplete="name" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all" placeholder="Your name" />
           </div>
           <div>
-            <label for="ql-phone" class="block text-xs font-semibold text-slate-600 mb-1.5 uppercase tracking-wider">Phone (we'll call back)</label>
+            <label for="ql-phone" class="block text-xs font-semibold text-slate-600 mb-1.5 uppercase tracking-wider">Phone</label>
             <input type="tel" id="ql-phone" name="phone" required pattern="[+0-9 ()\-]{7,16}" inputmode="tel" autocomplete="tel" maxlength="20" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all" placeholder="+91 ..." />
           </div>
           <div class="grid sm:grid-cols-2 gap-4">
@@ -96,9 +97,11 @@
 
 <script is:inline>
   (() => {
+    // Backup email path (FormSubmit). /api/lead (Odoo + Sheet) is awaited alongside it:
+    // success if EITHER accepted the enquiry, error only if BOTH failed.
     const ENDPOINT = 'https://formsubmit.co/ajax/ritik@thestacc.com';
-    const SUCCESS_MESSAGE = 'Thank you. Your inverter enquiry has been received. Confirm the next steps and availability with Qbits.';
-    const ERROR_MESSAGE = 'Couldn\u2019t send your request. Please call +91 99791 92935.';
+    const SUCCESS_MESSAGE = 'Thank you. Our team will get in touch about your inverter enquiry.';
+    const ERROR_MESSAGE = 'Couldn’t send your request. Please call +91 99791 92935.';
 
     const form = document.getElementById('quick-lead-form');
     if (!form) return;
@@ -106,9 +109,14 @@
     const btn = document.getElementById('ql-submit');
     const labelDefault = btn.querySelector('[data-ql-default]');
     const labelSending = btn.querySelector('[data-ql-sending]');
+    const lead = window.QbLead;
+    const guard = lead.createGuard();
+    // One id per enquiry: reused if the visitor retries after a failure, replaced after success.
+    let submissionId = null;
 
     const setSending = (sending) => {
       btn.disabled = sending;
+      btn.setAttribute('aria-busy', sending ? 'true' : 'false');
       labelDefault.classList.toggle('hidden', sending);
       labelSending.classList.toggle('hidden', !sending);
     };
@@ -121,6 +129,7 @@
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
+      if (guard.isBusy()) return;
       if (!form.checkValidity()) {
         form.reportValidity();
         return;
@@ -132,55 +141,49 @@
         return;
       }
 
-      const fd = new FormData(form);
-      const data = {};
-      for (const [k, v] of fd.entries()) {
-        if (k === 'website') continue;
-        if (typeof v === 'string') data[k] = v.trim();
-      }
-      data.source = 'home-quick-lead';
-      data.page = location.pathname;
-      data.submittedAt = new Date().toISOString();
-      data._subject = 'New Qbits lead (homepage): ' + (data.name || 'Unknown');
-      data._template = 'table';
-      data._captcha = 'false';
-
-      if (typeof window.gtag === 'function') {
-        window.gtag('event', 'form_submit', { form_id: 'quick-lead-form' });
-      }
-
-      // Sync to Odoo CRM in parallel — non-blocking, doesn't affect the email-based UX below.
-      fetch('/api/lead', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
-      }).catch((err) => console.error('CRM sync failed:', err));
-
+      if (!guard.begin()) return;
       setSending(true);
       try {
-        const res = await fetch(ENDPOINT, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json',
-          },
-          body: JSON.stringify(data),
+        if (!submissionId) submissionId = lead.newSubmissionId(window.crypto);
+        const data = Object.assign(
+          lead.collectFields(Array.from(new FormData(form).entries()), ['website']),
+          lead.getAttribution(window.sessionStorage),
+        );
+        data.submission_id = submissionId;
+        data.source = 'home-quick-lead';
+        data.page = location.pathname;
+        data.submittedAt = new Date().toISOString();
+        data._subject = 'New Qbits lead (homepage): ' + (data.name || 'Unknown');
+        data._template = 'table';
+        data._captcha = 'false';
+
+        lead.track(window.gtag, 'form_submit_attempt', { form_id: 'quick_lead' });
+
+        const outcome = await lead.submitLead({
+          data,
+          sendEmail: () => lead.postFormSubmit(fetch, ENDPOINT, data),
         });
-        const result = await res.json().catch(() => ({}));
-        if (result.success === 'true' || result.success === true) {
-          if (typeof window.gtag === 'function') {
-            window.gtag('event', 'generate_lead', { form_id: 'quick-lead-form' });
-            window.gtag('event', 'lead_form_success', { form_id: 'quick-lead-form', inquiry_type: 'Product Inquiry', visitor_role: data.role || '', source_page: '/' });
-          }
+
+        if (outcome.success) {
+          lead.trackLeadOnce(window.gtag, data.submission_id, {
+            form_id: 'quick_lead',
+            inquiry_type: 'Product Inquiry',
+            buyer_role: data.role || '',
+            source_page: location.pathname,
+          });
+          submissionId = null;
           form.reset();
           showStatus(SUCCESS_MESSAGE, true);
         } else {
-          throw new Error(result.message || 'Submission failed');
+          lead.track(window.gtag, 'form_error', { form_id: 'quick_lead', error_stage: 'crm_and_email' });
+          showStatus(ERROR_MESSAGE, false);
         }
       } catch (err) {
         console.error('Quick-lead submission failed:', err);
+        lead.track(window.gtag, 'form_error', { form_id: 'quick_lead', error_stage: 'client' });
         showStatus(ERROR_MESSAGE, false);
       } finally {
+        guard.end();
         setSending(false);
       }
     });

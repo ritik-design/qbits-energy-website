@@ -7,12 +7,14 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/generate-og-images.mjs && astro build && pagefind --site dist",
+    "build": "node scripts/generate-og-images.mjs && astro build && pagefind --site dist/client",
     "preview": "astro preview",
     "astro": "astro",
     "indexnow": "node scripts/submit-indexnow.mjs --submit",
     "indexnow:dry": "node scripts/submit-indexnow.mjs",
-    "test:seo": "node --experimental-strip-types --test tests/seo-journeys.test.mjs"
+    "test:seo": "node --experimental-strip-types --test tests/seo-journeys.test.mjs",
+    "test:leads": "node --experimental-strip-types --test tests/lead-forms.test.mjs tests/lead-form-scripts.test.mjs",
+    "test": "npm run test:seo && npm run test:leads"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.6",

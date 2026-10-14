@@ -1,5 +1,15 @@
 import type { APIRoute } from 'astro';
 import { env } from 'cloudflare:workers';
+import {
+  cleanSubmissionId,
+  honeypotTripped,
+  isAllowedOrigin,
+  isValidEmail,
+  isValidPhone,
+  jsonResponse,
+  readJsonObject,
+  sanitizeFields,
+} from '../../lib/lead-guard';
 
 // Runs on-demand (Cloudflare Worker), not statically prerendered.
 export const prerender = false;
@@ -212,43 +222,48 @@ function internalHtml(d: Record<string, string>) {
 </body></html>`;
 }
 
+// Only these keys are read from the request body.
+const ALLOWED_KEYS: ReadonlySet<string> = new Set([
+  'name', 'email', 'phone', 'companyName', 'page', 'submittedAt', 'submission_id', 'website',
+]);
+const CAPS: Record<string, number> = { name: 120, email: 254, phone: 30, companyName: 200 };
+
 export const POST: APIRoute = async ({ request }) => {
-  let data: Record<string, string>;
-  try {
-    data = await request.json();
-  } catch {
-    return new Response(JSON.stringify({ success: false, message: 'Invalid JSON' }), {
-      status: 400,
-      headers: { 'Content-Type': 'application/json' },
-    });
+  // Browser forms on the production site (or local dev) only. No rate limit or
+  // CAPTCHA here yet: that needs a KV / Rate Limiting binding and a Turnstile key.
+  if (!isAllowedOrigin(request.headers)) {
+    return jsonResponse(403, { success: false, message: 'Forbidden' });
   }
 
-  // Honeypot — silently succeed for bots.
-  if (data.website) {
-    return new Response(JSON.stringify({ success: true }), {
-      status: 200,
-      headers: { 'Content-Type': 'application/json' },
-    });
+  const parsed = await readJsonObject(request);
+  if (!parsed.ok) return jsonResponse(parsed.status, { success: false, message: parsed.message });
+
+  // Honeypot: silently succeed for bots.
+  if (honeypotTripped(parsed.body, ['website'])) {
+    return jsonResponse(200, { success: true });
   }
 
-  const name = (data.name || '').trim();
-  const email = (data.email || '').trim();
-  const phone = (data.phone || '').trim();
-  const companyName = (data.companyName || '').trim();
+  const cleaned = sanitizeFields(parsed.body, ALLOWED_KEYS, (key) => CAPS[key] ?? 200);
+  if (!cleaned.ok) return jsonResponse(400, { success: false, message: cleaned.message });
+  const data = cleaned.data;
 
-  if (!name || !email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
-    return new Response(JSON.stringify({ success: false, message: 'Missing or invalid name/email' }), {
-      status: 400,
-      headers: { 'Content-Type': 'application/json' },
-    });
+  const name = data.name || '';
+  const email = data.email || '';
+  const phone = data.phone || '';
+  const companyName = data.companyName || '';
+  // Accepted so the CRM call and this email call share one id; not used further here.
+  void cleanSubmissionId(data.submission_id);
+
+  if (!name || !email || !isValidEmail(email)) {
+    return jsonResponse(400, { success: false, message: 'Missing or invalid name/email' });
+  }
+  if (phone && !isValidPhone(phone)) {
+    return jsonResponse(400, { success: false, message: 'Invalid phone number' });
   }
 
   if (!env?.RESEND_API_KEY) {
     console.error('RESEND_API_KEY is not configured');
-    return new Response(JSON.stringify({ success: false, message: 'Email not configured' }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' },
-    });
+    return jsonResponse(500, { success: false, message: 'Email not configured' });
   }
 
   try {
@@ -262,10 +277,7 @@ export const POST: APIRoute = async ({ request }) => {
     });
   } catch (err) {
     console.error('Resend customer email failed:', err);
-    return new Response(JSON.stringify({ success: false, message: 'Could not send the catalogue' }), {
-      status: 502,
-      headers: { 'Content-Type': 'application/json' },
-    });
+    return jsonResponse(502, { success: false, message: 'Could not send the catalogue' });
   }
 
   // Internal notification — best effort, never blocks the customer's confirmation.
@@ -281,8 +293,5 @@ export const POST: APIRoute = async ({ request }) => {
     console.error('Resend internal notification failed:', err);
   }
 
-  return new Response(JSON.stringify({ success: true }), {
-    status: 200,
-    headers: { 'Content-Type': 'application/json' },
-  });
+  return jsonResponse(200, { success: true });
 };

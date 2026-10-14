@@ -5,7 +5,7 @@ description: "Temperature coefficient measures module power loss with heat. Full
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - temperature coefficient
   - module temperature
@@ -76,9 +76,12 @@ Temperature coefficient is the percentage change in a solar module's electrical 
 
 The Pmax coefficient is the most important for yield calculation. A PERC module at 60°C cell temperature (35°C above STC) loses approximately 35 × 0.36% = 12.6% power compared to STC. In Indian summer conditions, this loss is the dominant performance derate, explained in detail in [why solar inverters produce less in Indian summer](/blog/solar-inverter-summer-derating-india/).
 
+> [!FORMULA]
+> Power change vs STC (%) = (T_cell − 25°C) × γ_Pmax
+
 For Indian solar, temperature coefficient is critical because rooftop and ground-mount panels regularly reach 60-80°C in summer. Cell technologies with better coefficients ([HJT](/glossary/hjt-cell/), [TOPCon](/glossary/topcon-cell/)) provide measurable yield advantages in hot climates.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Temperature coefficient is the percentage power loss per degree Celsius a module runs above STC's 25°C reference.
 > - Pmax coefficients run -0.34 to -0.37%/°C for PERC, -0.30 to -0.33%/°C for TOPCon, and -0.24 to -0.28%/°C for HJT, the best-performing mainstream cell in heat.
 > - Indian summer cell temperatures commonly reach 60 to 80°C, meaning temperature derate is often the single largest loss in mid-day yield.
@@ -100,6 +103,8 @@ Lifecycle yield. Cumulative impact over 25 years is significant.
 
 ## Temperature coefficient by cell technology
 
+Table: Voc and Pmax temperature coefficients by cell technology
+
 | Cell | Voc coefficient | Pmax coefficient |
 |---|---|---|
 | PERC | -0.27 to -0.30%/°C | -0.34 to -0.37%/°C |
@@ -113,6 +118,8 @@ Lifecycle yield. Cumulative impact over 25 years is significant.
 
 ### Power loss vs temperature (PERC γ = -0.36%/°C)
 
+Table: Power loss versus STC by cell temperature for a PERC module (γ = -0.36%/°C)
+
 | Cell temperature | Loss vs STC |
 |---|---|
 | 25°C (STC) | 0% |
@@ -121,6 +128,21 @@ Lifecycle yield. Cumulative impact over 25 years is significant.
 | 55°C | 10.8% |
 | 65°C | 14.4% |
 | 75°C | 18.0% |
+
+```chart
+type: line
+title: PERC module power loss versus STC by cell temperature
+unit: "%"
+source: "Calculated in this entry as (cell temperature minus 25°C) multiplied by the PERC Pmax coefficient of 0.36%/°C, per the table above"
+note: "Lower is better. A module at -0.26%/°C (HJT) sits roughly 28% below these values at every temperature."
+data:
+  - { label: "25°C", value: 0 }
+  - { label: "35°C", value: 3.6 }
+  - { label: "45°C", value: 7.2 }
+  - { label: "55°C", value: 10.8 }
+  - { label: "65°C", value: 14.4 }
+  - { label: "75°C", value: 18 }
+```
 
 ### HJT vs PERC at high temperature
 
@@ -137,10 +159,13 @@ Across Indian summer (≈800 hours at cell temp > 60°C):
 [NOCT](/glossary/noct/) (Nominal Operating Cell Temperature) is the cell temperature at 800 W/m², 20°C ambient, 1 m/s wind.
 
 Cell temperature approximation:
-T_cell = T_ambient + (NOCT, 20) × (Irradiance / 800)
+T_cell = T_ambient + (NOCT − 20) × (Irradiance / 800)
 
 For NOCT = 45°C and Indian summer ambient 40°C with 1,000 W/m²:
 T_cell = 40 + (25) × (1000/800) = 40 + 31 = 71°C
+
+> [!EXAMPLE] A 40°C Indian summer afternoon
+> With a NOCT of 45°C, 40°C ambient and 1,000 W/m², cell temperature is about 71°C. A PERC module with γ = -0.36%/°C then runs (71 − 25) × 0.36 ≈ 16.6% below its STC power, while an HJT module at -0.26%/°C loses about 12.0%.
 
 ### Test method (IEC 61853)
 
@@ -179,6 +204,8 @@ HJT premium increasingly justified in dry hot regions (Rajasthan, Gujarat), wher
 ALMM-listed modules report standard coefficients.
 
 ## Standards and certifications
+
+Table: Standards that govern temperature coefficient measurement and use
 
 | Standard | Scope |
 |---|---|

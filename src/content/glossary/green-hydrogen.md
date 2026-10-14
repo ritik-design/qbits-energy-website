@@ -5,7 +5,7 @@ description: "Green hydrogen is hydrogen produced from renewable electricity. Fu
 category: "ESG"
 categorySlug: "esg"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is green hydrogen
   - green hydrogen india
@@ -69,7 +69,7 @@ This contrasts with grey hydrogen (steam methane reforming of natural gas, emitt
 
 India launched the National Green Hydrogen Mission in January 2023, led by the [MNRE](/glossary/mnre/), with a target of 5 million tonnes annual green hydrogen production by 2030, supported by approximately 125 GW of dedicated renewable energy capacity. The mission has an outlay of ₹19,744 crore and aims to position India as a global green hydrogen hub, running alongside the broader [500 GW renewable capacity roadmap](/blog/india-solar-statistics-2026-data/) that solar is expected to anchor.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Green hydrogen is produced by electrolysing water with renewable electricity, with zero direct carbon emissions, unlike grey (natural gas) or blue (gas plus CCS) hydrogen.
 > - India's National Green Hydrogen Mission targets 5 million tonnes of annual production by 2030, backed by roughly 125 GW of dedicated renewable capacity and a ₹19,744 crore outlay.
 > - Producing 1 kg of green hydrogen takes roughly 50 kWh of renewable electricity and about 10 kg of water.
@@ -102,6 +102,8 @@ Industrial transformation. Anchors a new domestic value chain.
 
 ### Electrolyser technologies
 
+Table: Electrolyser technologies compared
+
 | Type | Maturity | Efficiency | Cost | Use case |
 |---|---|---|---|---|
 | Alkaline | Mature | 60-70% | Lower | Large-scale steady state |
@@ -110,6 +112,8 @@ Industrial transformation. Anchors a new domestic value chain.
 | SOEC | Pre-commercial | 80-85% | Highest | Heat integration |
 
 ### Energy intensity
+
+Table: Electricity needed per kg of hydrogen by process
 
 | Process | kWh per kg H2 |
 |---|---|
@@ -120,6 +124,8 @@ Industrial transformation. Anchors a new domestic value chain.
 
 ### Indian green hydrogen cost
 
+Table: Indian green hydrogen cost trajectory, dollars per kg
+
 | Year | Approximate cost ($/kg) |
 |---|---|
 | 2023 | 4.5 to 6.0 |
@@ -128,6 +134,8 @@ Industrial transformation. Anchors a new domestic value chain.
 | 2030 target | 2.0 |
 
 ### National Green Hydrogen Mission components
+
+Table: National Green Hydrogen Mission outlay by component
 
 | Component | Outlay |
 |---|---|
@@ -154,6 +162,8 @@ Backup power for data centres and telecom.
 
 ## Major Indian green hydrogen projects
 
+Table: Major Indian green hydrogen projects
+
 | Company | Project |
 |---|---|
 | Reliance | 1 MMT/year Jamnagar |
@@ -163,6 +173,9 @@ Backup power for data centres and telecom.
 | L&T | 70 MW electrolyser + 1 GW dedicated solar |
 | ACME | 1.3 MMT green ammonia Oman |
 | JSW | Green steel pilot |
+
+> [!IMPORTANT] Round-the-clock renewable supply decides the economics
+> Electrolysers run most efficiently near continuous operation, so a solar-only supply is not enough. Projects combine solar, wind and storage, and underestimating this requirement is a listed common mistake.
 
 ## Advantages
 
@@ -225,6 +238,8 @@ Green ammonia export pilots underway.
 R&D centres at IIT Bombay, IIT Madras, NCL Pune and others.
 
 ## Standards and certifications
+
+Table: Standards and schemes for green hydrogen
 
 | Standard | Scope |
 |---|---|

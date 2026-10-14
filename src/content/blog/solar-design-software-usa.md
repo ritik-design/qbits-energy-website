@@ -7,7 +7,7 @@ date: 2026-08-03
 readTime: "12 min"
 image: "/og/blog-solar-design-software-usa.webp"
 author: "Nirav Dhanani"
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 keywords:
   - "solar design software usa"
   - "solar design tool us"
@@ -38,7 +38,7 @@ faqs:
 
 US solar installers searching for [solar design software](https://surgepv.com/) for USA workflows in 2026 face a market that looks nothing like 2022. The Inflation Reduction Act pushed residential and C&I pipelines to record highs, the 30 percent federal ITC plus domestic content and energy community bonuses changed deal math, and NEM 3.0 in California rewrote residential payback overnight. At the same time, residential customer acquisition cost climbed past $4,000 per install in many markets, which means every minute spent rebuilding a layout or re-keying a proposal is margin lost. This guide compares the realistic options for US installers, covers NEC 2023 and 2026 code support, federal ITC plus state SREC modeling, ToU rate structures, and AHJ permit packs, and shows where [SurgePV](https://surgepv.com/) fits as a cheaper alternative to Aurora with broader feature scope and multi-country reach.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Aurora Solar owns US residential design and runs $159 to $259 per user per month, plus AI Mode and Sales Mode add-ons.
 > - SurgePV delivers NEC coverage, federal ITC, state SRECs, ToU, AI 3D, and 8,760-hour shading for $1,299 to $1,899 per user per year.
 > - A 5-seat US team typically pays $14K to $18K on Aurora versus $6,495 on SurgePV, a 55 to 65 percent saving.
@@ -101,6 +101,8 @@ SurgePV is built for [residential solar design software](https://surgepv.com/res
 
 ## Solar Design Software for USA Comparison
 
+Table: US solar design software compared by capability
+
 | Capability | SurgePV | Aurora | HelioScope | OpenSolar | Pylon | Solargraf |
 |---|---|---|---|---|---|---|
 | NEC 2023/2026 library | Built in | Built in | Partial | Built in | Partial | Built in |
@@ -127,6 +129,8 @@ SurgePV is built for [residential solar design software](https://surgepv.com/res
 
 The federal Investment Tax Credit sits at a 30% base through 2032, according to the IRS (2026). Residential claims run under Section 25D. Commercial claims run under Section 48E, where the credit reaches 50% by stacking a 10% domestic content bonus and a 10% energy community bonus. Systems above 1 MW AC must meet prevailing wage and apprenticeship requirements to earn the full rate rather than the 6% base, and a tool that ignores that threshold overstates the credit five-fold on larger commercial work.
 
+Table: US incentives the design tool has to model
+
 | Incentive | Applies to | Value |
 | --- | --- | --- |
 | ITC Section 25D | Residential | 30% base through 2032 |
@@ -139,6 +143,7 @@ State layers sit on top. SREC markets operate in New Jersey under SREC-II, Massa
 
 Export compensation is the other half of the picture, and it is no longer uniform. California NEM 3.0 credits exports at roughly $0.05 to $0.08 per kWh against retail near $0.40, New York runs the formula-based VDER, Arizona credits near $0.09 per kWh, and New Jersey still pays close to full retail under NEM Plus.
 
+> [!IMPORTANT] What most US buyers get wrong
 > **What most US buyers get wrong.** They evaluate design tools on modelling accuracy and treat the financial engine as a reporting layer. Under NEM 3.0 the financial engine is what decides whether the system is sized correctly, because self-consumption rather than offset now drives the return. A design tool that cannot dispatch a battery against an hourly load profile is making the sizing decision badly, not just presenting it badly.
 
 The customer-facing half of this decision, meaning proposal generation, e-signature, and financing presentation, is covered in our [best solar proposal software USA](/blog/solar-proposal-software-usa/) comparison. Teams working across the border should also see the [solar design software Canada](/blog/solar-design-software-canada/) guide, since SurgePV ships CSA C22.1 and NEC in the same license.

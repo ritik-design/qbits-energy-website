@@ -4,7 +4,7 @@ excerpt: "Solar carport design software handles the structural, electrical, and 
 description: "2026 guide to solar carport design software: structural notes, 8,760-hour shading on canopy arrays, EV charger integration and the SurgePV workflow."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "8 min"
 image: "/og/blog-solar-carport-design-software.webp"
 author: "Nirav Dhanani"
@@ -40,11 +40,12 @@ faqs:
 
 Solar carport [design software](https://www.surgepv.com/blog/ai-solar-design-software) handles the unique geometry, shading, and electrical considerations of parking-lot canopy projects. The niche is small but growing fast as commercial parking lots add PV. This guide explains how it works and which [solar design software](https://surgepv.com/) ships the workflow, alongside other niche categories like [agrivoltaic design software](/blog/agrivoltaic-design-software/) and [floating solar design software](/blog/floating-solar-design-software/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - [SurgePV](https://surgepv.com/) includes carport templates on every paid plan.
 > - 8,760-hour module-level shading applies across the canopy array.
 > - EV charger integration and ToU financial modelling baked in.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and design a carport project on the call.
+> - Design checks beyond the roof workflow: canopy height for HGV access, inter-row shading, structural snow load, EV charger load and under-canopy lighting energy.
 
 <div class="inline-cta">
 <h3>Carport canopy design plus EV charger integration in one workflow</h3>
@@ -78,6 +79,8 @@ Solar carport [design software](https://www.surgepv.com/blog/ai-solar-design-sof
 
 ## Solar Carport Design Across Tools
 
+Table: Solar carport design capabilities compared across four tools
+
 | Tool | Carport template | 8,760-hr shading | EV integration | DXF/DWG export |
 | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | All plans | Yes | Yes |
@@ -87,11 +90,12 @@ Solar carport [design software](https://www.surgepv.com/blog/ai-solar-design-sof
 
 ## Common Carport Design Mistakes
 
-1. **Under-spec'ing canopy height** for HGV or unusual vehicle access
-2. **Skipping inter-row shading** on multi-row carport arrays
-3. **Forgetting structural snow load** in cold-region designs
-4. **Missing EV charger load contribution** to project financials
-5. **Not modelling under-canopy lighting energy** in the [OPEX](/glossary/opex/)
+> [!WARNING] Five carport mistakes to avoid
+> 1. **Under-spec'ing canopy height** for HGV or unusual vehicle access
+> 2. **Skipping inter-row shading** on multi-row carport arrays
+> 3. **Forgetting structural snow load** in cold-region designs
+> 4. **Missing EV charger load contribution** to project financials
+> 5. **Not modelling under-canopy lighting energy** in the [OPEX](/glossary/opex/)
 
 <div class="inline-cta">
 <h3>Carport design on every plan, no specialist tool needed</h3>

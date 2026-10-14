@@ -5,7 +5,7 @@ description: "HJT (Heterojunction) is the premium next-gen solar cell technology
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is hjt cell
   - heterojunction solar
@@ -74,7 +74,7 @@ HJT delivers the highest mainstream cell efficiency (25 to 26 percent), the best
 
 In Indian solar, HJT is the premium choice for rooftop installations where space and yield matter, for high-irradiance hot sites, and for EV solar where weight and aesthetics carry value. ALMM listing for HJT modules is growing as PLI-funded Indian capacity comes online.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - HJT combines crystalline silicon with thin amorphous silicon passivation layers, reaching 25 to 26 percent cell efficiency, the highest of any mainstream commercial cell.
 > - Its temperature coefficient (-0.24 to -0.28 percent per °C) is the best among silicon technologies, meaning less yield loss on hot Indian rooftops.
 > - HJT has the highest bifaciality factor (90 to 95 percent), ahead of TOPCon (80 to 85 percent) and PERC (70 to 80 percent).
@@ -113,6 +113,8 @@ The asymmetric heterojunction (p-i-n on front, n-i-n on rear) creates the photov
 
 ### Cell structure
 
+Table: Layer stack of an HJT cell and the function of each layer
+
 | Layer | Material | Function |
 |---|---|---|
 | Front silver grid | Silver | Current collection |
@@ -127,6 +129,8 @@ The asymmetric heterojunction (p-i-n on front, n-i-n on rear) creates the photov
 
 ### Efficiency progression
 
+Table: HJT cell efficiency by year
+
 | Year | HJT cell efficiency |
 |---|---|
 | 2014 | 22.0% (Panasonic) |
@@ -137,6 +141,8 @@ The asymmetric heterojunction (p-i-n on front, n-i-n on rear) creates the photov
 
 ### Temperature coefficient
 
+Table: HJT temperature coefficients
+
 | Parameter | HJT |
 |---|---|
 | Voc coefficient | -0.21 to -0.25%/°C |
@@ -145,6 +151,8 @@ The asymmetric heterojunction (p-i-n on front, n-i-n on rear) creates the photov
 About 0.07 to 0.09 percentage points better than PERC.
 
 ### Degradation
+
+Table: HJT degradation behaviour
 
 | Mechanism | HJT |
 |---|---|
@@ -233,6 +241,8 @@ Document module electrical parameters at commissioning.
 
 ## Comparison: HJT vs TOPCon vs PERC
 
+Table: HJT vs TOPCon vs PERC at a glance
+
 | Feature | HJT | TOPCon | PERC |
 |---|---|---|---|
 | Cell efficiency | 25 to 26% | 24 to 25% | 22 to 23% |
@@ -242,6 +252,9 @@ Document module electrical parameters at commissioning.
 | Annual degradation | 0.35%/year | 0.45%/year | 0.50%/year |
 | Price premium 2026 | +15 to 25% | +5 to 10% | Baseline |
 | Market share 2026 | 8 to 12% | 50 to 60% | 30 to 40% |
+
+> [!IMPORTANT] ALMM status of HJT modules
+> ALMM List I has limited but growing HJT entries as of 2026, and PM Surya Ghar accepts HJT modules that appear on the ALMM list. Check the entry for the exact module model before quoting a subsidy-linked HJT project.
 
 ## Indian market context
 
@@ -259,6 +272,8 @@ EV solar applications increasingly specify HJT for weight and aesthetic reasons.
 
 ## Standards and certifications
 
+Table: Standards and certifications relevant to HJT modules
+
 | Standard | Scope |
 |---|---|
 | IEC 61215 | Module qualification |
@@ -270,6 +285,9 @@ EV solar applications increasingly specify HJT for weight and aesthetic reasons.
 | BIS certification | Quality compliance |
 
 ## Common mistakes
+
+> [!WARNING] Do not mix HJT and PERC in one string
+> Mixing HJT and PERC modules in the same string is a listed installer mistake. The two technologies differ in efficiency, temperature coefficient and bifaciality, so a mixed string is not a like-for-like match. Keep each string to one module type.
 
 Buying HJT from manufacturers without proven mass production track record.
 

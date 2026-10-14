@@ -5,7 +5,7 @@ description: "Busbars collect current in solar cells. Full guide to 5-busbar, mu
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - busbar
   - solar busbar
@@ -72,7 +72,7 @@ Solar cell evolution has progressively reduced busbar shading. Early cells used 
 
 The Indian solar industry follows global busbar trends. Modern ALMM-listed modules predominantly use 9BB to 12BB designs. 0BB and SmartWire technologies are emerging in premium and [HJT cells](/glossary/hjt-cell/).
 
-> **TL;DR**
+> [!NOTE] In short
 > - A busbar is the thin metallic strip on a cell's front surface that collects current and passes it to the next cell in the string.
 > - Modern cells use 9 to 16 thin busbars (MBB) instead of the 2 to 5 wide busbars of older designs.
 > - MBB reduces front-side shading and interconnect resistance, lifting module efficiency by roughly 1 to 3 percent over older 5BB cells.
@@ -94,6 +94,8 @@ Bifacial performance. Rear-side metallisation affects the rear-side power captur
 
 ## Busbar evolution
 
+Table: Busbar count by cell generation and era
+
 | Generation | Busbar count | Era |
 |---|---|---|
 | 1st | 2 | 1980s-2000s |
@@ -109,6 +111,8 @@ Bifacial performance. Rear-side metallisation affects the rear-side power captur
 
 ### Why more busbars are better
 
+Table: Why more busbars help a solar cell
+
 | Effect | Benefit |
 |---|---|
 | Thinner per busbar | Less front-side shading |
@@ -123,7 +127,18 @@ Going from 5BB to 9BB to 12BB typically delivers:
 - 9BB to 12BB: +0.2 to 0.3% efficiency
 - 12BB to 16BB: +0.1 to 0.2% efficiency
 
+Table: Efficiency gain at each step up in busbar count
+
+| Step | Efficiency gain |
+|---|---|
+| 5BB to 9BB | +0.5 to 0.8% |
+| 9BB to 12BB | +0.2 to 0.3% |
+| 12BB to 16BB | +0.1 to 0.2% |
+
 Diminishing returns at higher busbar counts.
+
+> [!TIP] Busbar count is not a buying criterion on its own
+> Each step up in busbar count adds less: 5BB to 9BB gives +0.5 to 0.8 percent, while 12BB to 16BB gives only +0.1 to 0.2 percent, and gain on HJT is limited because it already has low resistance. Compare modules on certified module efficiency rather than on the busbar count printed in the brochure.
 
 ### Comparison with shingled cell
 
@@ -182,6 +197,8 @@ Major manufacturers (Waaree, Adani Green Solar, Vikram, Tata Power Solar) ship M
 PM Surya Ghar accepts MBB modules that clear the [ALMM list](/blog/almm-list-phase-iii-guide/) requirements for subsidy disbursement.
 
 ## Standards and certifications
+
+Table: Standards and listings relevant to busbar and module quality
 
 | Standard | Scope |
 |---|---|

@@ -4,7 +4,7 @@ excerpt: "Photovoltaic design software covers the engineer-side toolchain from 3
 description: "Photovoltaic design software 2026: PV design software compared on 8,760-hour methodology, bankable P50/P75/P90, IEC and NEC codes. SurgePV vs PVsyst."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-photovoltaic-design-software.webp"
 author: "Nirav Dhanani"
@@ -41,8 +41,9 @@ faqs:
 
 Photovoltaic [design software](https://www.surgepv.com/blog/commercial-solar-design-software-buyer-guide) is the engineer's toolchain that covers 3D modelling, bankable simulation, [single-line diagrams](/glossary/single-line-diagram/), [BOQ](/blog/solar-boq-software/), AutoCAD export, and integrated proposals. The formal "photovoltaic" framing signals engineering depth and lender acceptance. This guide explains the 2026 methodology and ranks the major tools alongside our companion [PV yield simulation software guide](/blog/pv-yield-simulation-software/).
 
-> **TL;DR**
-> - 8,760-hour module-level simulation is the bankable standard.
+> [!KEYTAKEAWAYS]
+> - 8,760-hour module-level simulation is the bankable standard, and it feeds P50, P75 and P90 annual AC yield outputs.
+> - The category covers seven engineering jobs: 3D modelling, layout, shading, bankable yield, single-line diagram, BOQ and AutoCAD export.
 > - [SurgePV](https://surgepv.com/) ships browser-based bankable [PV simulation](https://surgepv.com/solar-simulation-software) on every paid plan.
 > - PVsyst remains lender-mandated on some first-of-its-kind projects.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and run a bankable simulation on a real project.
@@ -83,6 +84,8 @@ The output is P50 (median), P75 (75% probability), and P90 (90% probability) ann
 
 ## Photovoltaic Design Software Ranked
 
+Table: Photovoltaic design software compared on methodology, outputs and pricing as listed in this guide
+
 | Tool | 8,760-hr module-level | Auto-SLD | Auto-BOQ | AutoCAD export | Browser | Pricing |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | All plans | Yes | Yes | Yes | Yes | $1,299 to $1,899 / user / yr |
@@ -104,7 +107,10 @@ Where the wording does carry information is the word "system". **PV system desig
 - Protection, conductor sizing, and the [single line diagram](/blog/solar-sld-software/)
 - Balance of system and the resulting [BOQ](/blog/solar-boq-software/)
 
-A tool that only places modules and returns a kWh figure is not doing system design, whatever the marketing says. The test is simple: ask whether it will refuse a string configuration that violates the inverter's cold-morning Voc limit. Platforms that do full system design catch it at design time. Platforms that do not will hand you a layout that fails inspection.
+A tool that only places modules and returns a kWh figure is not doing system design, whatever the marketing says.
+
+> [!TIP] Test for real system design
+> Ask whether the tool will refuse a string configuration that violates the inverter's cold-morning Voc limit. Platforms that do full system design catch it at design time. Platforms that do not will hand you a layout that fails inspection.
 
 Note that **solar CAD software** is a different category again. AutoCAD with a PV plugin draws the deliverable but does not simulate. Modern platforms including SurgePV invert that relationship: simulate first, then [export DXF or DWG](https://surgepv.com/solar-autocad-integration) to CAD for the stamped drawing set.
 
@@ -138,6 +144,8 @@ SurgePV 8,760-hour module-level results:
 The P90 number anchors the bank conversation; the P50 anchors the equity model.
 
 ## Total Cost for a 5-Engineer Team
+
+Table: Annual cost of a five-engineer PV design stack, as estimated in this guide
 
 | Stack | Annual cost |
 | --- | --- |

@@ -5,7 +5,7 @@ description: "Modified sine wave is a stepped AC approximation. Full guide to li
 category: "Inverter Types"
 categorySlug: "inverter-types"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - modified sine wave
   - quasi sine wave
@@ -72,7 +72,7 @@ author: "Nirav Dhanani"
 
 Modified sine wave (MSW), also called quasi-sine or stepped sine, is a low-cost AC output waveform that approximates a true sine wave through a sequence of square-wave steps. The waveform typically rises from zero to a positive flat level, holds, drops to zero, then to a negative flat level, and back to zero. The result looks like a stepped rectangle rather than a smooth curve.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Modified sine wave (MSW) is a stepped, low-cost AC waveform with 30 to 50 percent THD, far above pure sine's under 3 percent.
 > - It was the dominant budget inverter output in the 1990s and 2000s before PWM-based pure sine became affordable.
 > - MSW damages modern electronics, PFC power supplies, inverter-controlled ACs and reduces motor life.
@@ -92,6 +92,7 @@ Educational. Understanding MSW illustrates why pure sine is preferred.
 
 ## How MSW is produced
 
+<!-- steps -->
 1. DC bus connected to load through H-bridge.
 2. H-bridge switches in three states: positive, zero, negative.
 3. Switching at 100 Hz (twice the 50 Hz fundamental).
@@ -101,6 +102,8 @@ Educational. Understanding MSW illustrates why pure sine is preferred.
 ## Technical deep dive
 
 ### Waveform structure
+
+Table: Modified sine wave output voltage by phase of the 360° cycle
 
 | Phase of cycle | MSW output |
 |---|---|
@@ -117,6 +120,8 @@ The on-time at peak voltage is adjusted so the RMS equals 230 V despite the lowe
 
 The table below compares [THD](/glossary/thd/) across waveform types.
 
+Table: Total harmonic distortion by waveform type
+
 | Waveform | THD |
 |---|---|
 | Pure sine | <3% |
@@ -124,6 +129,8 @@ The table below compares [THD](/glossary/thd/) across waveform types.
 | Square wave | 48% |
 
 ### Load compatibility issues
+
+Table: Problems modified sine wave causes by connected load
 
 | Load | MSW issue |
 |---|---|
@@ -136,6 +143,8 @@ The table below compares [THD](/glossary/thd/) across waveform types.
 | Sensitive electronics | Erratic operation or damage |
 
 ### MSW vs square wave
+
+Table: Modified sine wave compared with square wave
 
 | Aspect | MSW | Square wave |
 |---|---|---|
@@ -184,6 +193,9 @@ Computer power supply failing after months of MSW operation.
 
 Motor noise and reduced AC cooling.
 
+> [!WARNING] A cheap MSW inverter is often bought without knowing it
+> At 30 to 50 percent THD, an MSW output can cut LED life to months, overheat the PFC capacitor in computer power supplies and reduce single-phase motor efficiency by 10 to 30 percent. Write "pure sine wave" and a THD limit under 5 percent into the purchase order, and check budget UPS units, which are often MSW.
+
 ## Best practices
 
 Avoid MSW for any modern application.
@@ -193,6 +205,8 @@ Verify pure sine in purchase orders, whether buying a single inverter or sourcin
 Specify THD limit under 5 percent.
 
 ## Standards and certifications
+
+Table: Standards and specifications that touch modified sine wave inverters
 
 | Standard | Scope |
 |---|---|

@@ -4,7 +4,7 @@ excerpt: "The best solar design software UAE installers need handles DEWA Shams 
 description: "Best solar design software UAE 2026. SurgePV vs Aurora, PVsyst, HelioScope on DEWA Shams Dubai, ADDC energy netting, EtihadWE, ECAS certification and IEC standards."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-design-software-uae.webp"
 author: "Keyur Rakholiya"
@@ -36,7 +36,7 @@ featured: false
 
 The UAE is four solar markets wearing one flag, and a design tool that treats it as one country will get the economics wrong in at least three of them. DEWA credits exports at the consumer's own slab rate with indefinite rollover and a 1 MW per plot cap. ADDC and AADC in Abu Dhabi offer kWh offset only with no cash payment, at 5 MW per premises, against a tariff that varies by a factor of four between subsidised nationals and expatriates. EtihadWE in the Northern Emirates expires credits at year-end. Sharjah has no broadly available programme at all. This guide compares the platforms UAE installers should shortlist, judged on whether they can model the specific utility rather than a generic net metering assumption.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - DEWA Shams Dubai: 1 MW per plot, credited at the consumer's own slab rate (residential 29 to 44 fils, commercial ~44 fils), credits roll over indefinitely.
 > - ADDC and AADC Abu Dhabi: 5 MW per premises, kWh offset only with no cash payment, indefinite accumulation.
 > - EtihadWE Northern Emirates: launched 17 September 2024, calendar-year credits that expire at year-end, aggregate cap allocated first-come first-served.
@@ -58,6 +58,8 @@ The UAE combines high irradiance, low soft costs, and a regulatory environment t
 
 ## The Four Utility Regimes, Side By Side
 
+Table: The four UAE utility regimes compared on capacity limit, credit mechanism and expiry
+
 | Utility | Coverage | Capacity limit | Credit mechanism | Credit expiry |
 | --- | --- | --- | --- | --- |
 | DEWA Shams Dubai | Dubai | 1 MW per plot | Consumer's own slab rate | Indefinite rollover |
@@ -65,6 +67,7 @@ The UAE combines high irradiance, low soft costs, and a regulatory environment t
 | EtihadWE | Ajman, UAQ, RAK, Fujairah | Aggregate cap, first-come | Calendar-year kWh credits | Expires at year-end |
 | SEWA | Sharjah | No published programme | No published mechanism | Not applicable |
 
+> [!IMPORTANT] What most UAE quotes get wrong
 > **What most UAE quotes get wrong.** They apply one export assumption emirate-wide. In Dubai, where credits roll over indefinitely at the consumer's slab rate, a slightly oversized array is defensible. Under EtihadWE, where credits expire annually, the same oversizing throws away energy every December. Same hardware, opposite recommendation, one border apart.
 
 The Abu Dhabi tariff structure deserves separate attention because it is the most commonly mishandled. Subsidised UAE national rates at 6.7 to 7.5 fils per kWh mean avoided import is worth roughly a quarter of what it is worth to an expatriate household at 26.8 to 30.5 fils. A design tool that models one residential tariff for the emirate will produce a payback figure that is wrong by a factor of four for one of those two customers. SurgePV's [ADDC solar guide](https://www.surgepv.com/solar-compliance/uae/guides/addc-solar) and [AADC Al Ain guide](https://www.surgepv.com/solar-compliance/uae/guides/aadc-al-ain) set out the detail.
@@ -111,6 +114,8 @@ The default on large UAE projects. Workable, and the usual source of one export 
 
 ## UAE Solar Design Software Comparison
 
+Table: UAE solar design software compared on utility modelling, climate effects, standards and price
+
 | Tool | Per-utility credit mechanism | Capacity limits by emirate | Soiling and thermal modelling | IEC standards library | Proposals included | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes, configurable | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -130,6 +135,8 @@ The default on large UAE projects. Workable, and the usual source of one export 
 ## Worked Example: 20 kW Villa Rooftop, Dubai Versus Abu Dhabi Expat Versus Abu Dhabi National
 
 An illustrative calculation, not a specific customer project. Inputs: 20 kW DC, 1,750 kWh per kW specific yield, 35,000 kWh generation, 22,000 kWh consumption, 13,000 kWh exported.
+
+Table: Year 1 benefit of a 20 kW villa rooftop in Dubai and Abu Dhabi (illustrative)
 
 | Line | Dubai, DEWA | Abu Dhabi, expat | Abu Dhabi, UAE national |
 | --- | --- | --- | --- |

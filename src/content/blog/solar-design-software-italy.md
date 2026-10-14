@@ -4,7 +4,7 @@ excerpt: "Scambio sul Posto closed to new systems in May 2025. The best solar de
 description: "Best solar design software Italy 2026. SurgePV vs PV*SOL, Aurora, PVsyst on the end of Scambio sul Posto, Ritiro Dedicato GSE rates, the 50% detrazione and CEI standards."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-design-software-italy.webp"
 author: "Keyur Rakholiya"
@@ -36,7 +36,7 @@ featured: false
 
 Italian residential solar economics changed on 29 May 2025 and a lot of [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has not caught up. ARERA resolution 78/2025/R/efr provides for the dismissal of Scambio sul Posto, and systems put into operation from that date can no longer access it. The reference mechanism for anything quoted today is Ritiro Dedicato, a GSE buyback running roughly 8 to 14 cents per kWh for systems up to 1 MWp with rates guaranteed for 20 years. That is well below Italian retail electricity prices, which means self-consumed energy is now worth considerably more than exported energy. Every sizing assumption built on SSP netting is obsolete. This guide compares the platforms Italian installers should shortlist.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Scambio sul Posto is closed to systems put into operation from 29 May 2025, under ARERA resolution 78/2025/R/efr.
 > - Ritiro Dedicato is the new reference: GSE buyback at roughly 8 to 14 cents per kWh up to 1 MWp, guaranteed 20 years.
 > - Export now pays well below retail, so hourly self-consumption decides the return.
@@ -61,6 +61,7 @@ Under SSP, surplus energy fed into the grid was effectively netted against consu
 
 Ritiro Dedicato is a different product. GSE buys the surplus at 8 to 14 cents per kWh, guaranteed for 20 years, which is attractive as a floor but sits well under what the same kWh costs to buy back. The consequence is that every exported unit now represents value given away, and the return concentrates in the energy used on site.
 
+> [!IMPORTANT] What most Italian quotes will get wrong through 2026
 > **What most Italian quotes will get wrong through 2026.** They will keep sizing to annual consumption, which was correct under SSP and is wrong under Ritiro Dedicato. On a household empty during the day, a system sized to cover annual usage will export most of its output at a fraction of what the evening import costs.
 
 Three design responses follow directly, and none of them can be argued from an annual kWh figure.
@@ -69,7 +70,8 @@ Three design responses follow directly, and none of them can be argued from an a
 
 **Storage.** Shifting a kWh from a 10 cent export to an avoided import at Italian retail prices is worth several times the export value. Sizing it properly requires simulating charge and discharge against actual hourly surplus rather than applying a rule of thumb. See our [solar plus storage design software](/blog/solar-plus-storage-design-software/) comparison.
 
-**Load shifting.** Heat pumps, EV charging and water heating scheduled into daylight hours raise self-consumption without hardware, and the proposal should quantify the effect rather than mention it.
+> [!TIP] Quantify load shifting in the proposal
+> **Load shifting.** Heat pumps, EV charging and water heating scheduled into daylight hours raise self-consumption without hardware, and the proposal should quantify the effect rather than mention it.
 
 The parallel with the Netherlands, where the salderingsregeling ends on 1 January 2027, is exact. Both markets built a large installed base on net metering and are now withdrawing it, and in both the winning installers are the ones who can model hours.
 
@@ -105,6 +107,8 @@ Several handle GSE paperwork and distributor documentation well while carrying l
 
 ## Italy Solar Design Software Comparison
 
+Table: Italy solar design software compared on Ritiro Dedicato, self-consumption, battery dispatch and price
+
 | Tool | Ritiro Dedicato export pricing | Hourly self-consumption | Battery dispatch | CEI 0-21 protection settings | Italian-language proposals | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes, configurable | Yes, all plans | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -124,6 +128,8 @@ Several handle GSE paperwork and distributor documentation well while carrying l
 ## Worked Example: 6 kWp Near Bologna, SSP Versus Ritiro Dedicato
 
 An illustrative calculation using published Ritiro Dedicato ranges, not a specific customer project. Inputs: 6 kWp, 1,250 kWh per kWp specific yield, 7,500 kWh generation, 3,600 kWh consumption, import at 28 cents per kWh, RID buyback at 11 cents per kWh, self-consumption 33% without storage.
+
+Table: 6 kWp near Bologna under Scambio sul Posto, Ritiro Dedicato and Ritiro Dedicato plus battery (illustrative)
 
 | Line | Under Scambio sul Posto | Under Ritiro Dedicato | RID plus 6 kWh battery |
 | --- | --- | --- | --- |

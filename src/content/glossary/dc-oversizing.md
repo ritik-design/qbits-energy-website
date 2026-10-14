@@ -5,7 +5,7 @@ description: "DC oversizing connects more PV DC than inverter AC rating. Full gu
 category: "System Layout"
 categorySlug: "system-layout"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is dc oversizing
   - dc ac ratio
@@ -70,7 +70,7 @@ author: "Keyur Rakholiya"
 
 DC oversizing, also called overpaneling or inverter loading, is the design practice of connecting more PV DC capacity to a solar inverter than its rated AC output. Expressed as DC/AC ratio (Pmax DC / inverter AC rating), Indian utility solar typically uses 115 to 130 percent. C&I rooftop uses 110 to 125 percent. Residential uses 105 to 120 percent.
 
-> **TL;DR**
+> [!NOTE] In short
 > - DC oversizing (overpaneling) connects more PV DC capacity than the inverter's rated AC output, expressed as a DC/AC ratio.
 > - Indian utility solar typically runs 115 to 130 percent DC/AC, C&I rooftop 110 to 125 percent and residential 105 to 120 percent; bifacial tracker plants push to 135 to 145 percent.
 > - The inverter clips excess DC at midday but captures more energy in shoulder hours, adding 6 to 12 percent annual yield when moving from a 100 to 130 percent DC/AC ratio.
@@ -95,6 +95,9 @@ Indian climate fit. Monsoon and cloudy periods favour higher DC/AC ratios.
 
 ## How DC oversizing works
 
+> [!FORMULA]
+> DC/AC ratio = PV DC capacity (kWp) ÷ inverter AC rating (kW)
+
 1. PV array sized for X kWp DC.
 2. Inverter sized for Y kW AC, where Y < X.
 3. DC/AC ratio = X / Y.
@@ -105,6 +108,8 @@ Indian climate fit. Monsoon and cloudy periods favour higher DC/AC ratios.
 ## Technical deep dive
 
 ### Yield vs DC/AC ratio (Indian C&I example)
+
+Table: Annual yield and clipping loss by DC/AC ratio, Indian C&I example
 
 | DC/AC ratio | Annual yield | Clipping loss |
 |---|---|---|
@@ -119,6 +124,8 @@ Sweet spot for monofacial fixed-tilt: 1.20 to 1.30.
 
 ### Optimal DC/AC ratio drivers
 
+Table: Factors that move the optimum DC/AC ratio
+
 | Factor | Effect on optimum ratio |
 |---|---|
 | Higher PSH location | Lower (more clipping risk) |
@@ -128,6 +135,8 @@ Sweet spot for monofacial fixed-tilt: 1.20 to 1.30.
 | Snow shedding (high tilt) | Higher |
 
 ### Indian regional optimum ratios
+
+Table: Indian regional optimum DC/AC ratios
 
 | Region | Fixed monofacial | Bifacial tracker |
 |---|---|---|
@@ -157,6 +166,9 @@ Floating solar.
 
 ## Common DC oversizing problems
 
+> [!WARNING] Stay inside the inverter's warranty ratio
+> A DC/AC ratio above the inverter manufacturer's warranty limit is a listed mistake, and DC current can exceed the MPPT input current rating. Check the datasheet maximum and verify the string current sum before fixing the ratio.
+
 DC current exceeding inverter [MPPT](/glossary/mppt/) input current rating.
 
 Cable sizing inadequate for peak DC current.
@@ -183,6 +195,8 @@ Validate against P50 and P90 yield models.
 
 ## Comparison: DC/AC ratio recommendations
 
+Table: DC/AC ratio recommendations by application
+
 | Application | DC/AC ratio |
 |---|---|
 | Residential monofacial | 1.10 to 1.20 |
@@ -205,6 +219,8 @@ PVsyst-based yield models for Indian utility solar typically optimise DC/AC rati
 PM Surya Ghar residential sizing usually keeps DC/AC at 1.10 to 1.15 due to single MPPT and customer simplicity.
 
 ## Standards and certifications
+
+Table: Standards and documents for DC oversizing
 
 | Standard | Scope |
 |---|---|

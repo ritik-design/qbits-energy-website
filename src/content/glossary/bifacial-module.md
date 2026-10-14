@@ -5,7 +5,7 @@ description: "Bifacial modules generate power from both front and rear sides. Fu
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is bifacial module
   - bifacial solar panel
@@ -72,7 +72,7 @@ The additional yield depends on the bifaciality factor of the cells, the [albedo
 
 Bifacial modules have rapidly displaced monofacial in utility-scale Indian solar. By 2026, bifacial [monocrystalline](/glossary/monocrystalline/) PERC and [TOPCon](/glossary/topcon-cell/) modules dominate ALMM-listed utility-grade products. C&I rooftop adoption is growing, particularly for carports and ground-mount installations.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Bifacial modules generate power from both sides, adding 5 to 25 percent annual yield over an equivalent monofacial module.
 > - Gain depends on ground albedo, ground clearance, tilt angle and row spacing; real-world Indian utility gains run 8 to 18 percent.
 > - HJT cells give the highest bifaciality factor (90 to 95 percent), ahead of TOPCon (80 to 85 percent) and PERC (70 to 80 percent).
@@ -101,6 +101,7 @@ Agrivoltaic compatibility. Elevated bifacial modules above crops capture rear-si
 
 ## How bifacial modules work
 
+<!-- steps -->
 1. Front side absorbs direct and diffuse sunlight, generating power as in monofacial.
 2. Light passes through gaps between cells onto the ground.
 3. Ground reflects a fraction of the light upward.
@@ -114,6 +115,8 @@ The cell itself is dual-junction-capable: doping and back-side passivation allow
 
 ### Bifaciality factor
 
+Table: Typical bifaciality factor by cell technology
+
 | Cell technology | Typical bifaciality factor |
 |---|---|
 | Mono PERC | 70 to 80% |
@@ -121,9 +124,12 @@ The cell itself is dual-junction-capable: doping and back-side passivation allow
 | Mono HJT | 90 to 95% |
 | IBC | 70 to 80% (depends on back contact design) |
 
-Bifaciality factor = Pmax_rear / Pmax_front × 100 percent.
+> [!FORMULA] Bifaciality factor
+> Bifaciality factor = Pmax_rear / Pmax_front × 100 percent
 
 ### Yield gain factors
+
+Table: How each design factor changes bifacial gain
 
 | Factor | Change | Effect on bifacial gain |
 |---|---|---|
@@ -134,6 +140,8 @@ Bifaciality factor = Pmax_rear / Pmax_front × 100 percent.
 | Latitude | Higher latitude | More gain in clear-sky conditions |
 
 ### Typical bifacial gain in Indian conditions
+
+Table: Typical bifacial gain by application in Indian conditions
 
 | Application | Bifacial gain |
 |---|---|
@@ -146,6 +154,8 @@ Bifaciality factor = Pmax_rear / Pmax_front × 100 percent.
 
 ### Glass-glass vs glass-back-sheet bifacial
 
+Table: Glass-glass compared with glass-transparent back sheet bifacial modules
+
 | Construction | Notes |
 |---|---|
 | Glass-glass | More durable, heavier, longer warranty |
@@ -154,6 +164,8 @@ Bifaciality factor = Pmax_rear / Pmax_front × 100 percent.
 Most utility bifacial uses glass-glass. Rooftop bifacial often uses transparent back sheet for weight reduction.
 
 ### Albedo values
+
+Table: Typical ground albedo by surface
 
 | Surface | Albedo |
 |---|---|
@@ -238,11 +250,16 @@ Specify ground clearance of at least 1 metre for utility ground-mount.
 
 [Size the inverter](/blog/dc-oversizing-in-solar/) for 110 to 120 percent of monofacial nameplate to capture bifacial gain without [clipping](/blog/inverter-clipping-explained/) the extra DC output.
 
+> [!TIP] Size the inverter for the rear-side output
+> Bifacial gain adds DC that a nameplate-matched inverter will clip. Sizing the inverter to 110 to 120 percent of monofacial nameplate captures the gain, and an inverter sized only to nameplate DC clips the extra output at peak.
+
 Include rear-side cleaning in O&M schedule where practical.
 
 Conduct annual back-side soiling check.
 
 ## Comparison: bifacial vs monofacial
+
+Table: Bifacial and monofacial modules compared
 
 | Feature | Bifacial | Monofacial |
 |---|---|---|
@@ -268,6 +285,8 @@ PM Surya Ghar accepts bifacial modules. Rooftop bifacial gain is limited where t
 
 ## Standards and certifications
 
+Table: Standards and listings relevant to bifacial modules
+
 | Standard | Scope |
 |---|---|
 | IEC 61215 | Module qualification |
@@ -292,6 +311,9 @@ Skipping rear-side cleaning.
 Underestimating glass-glass module weight in mounting design.
 
 Installing on dark tar roof and expecting 20 percent gain.
+
+> [!WARNING] A dark roof turns a bifacial premium into dead weight
+> On a grey or tar terrace the gain is 5 to 10 percent, against 12 to 22 percent over a white surface, yet the module still costs 3 to 8 percent more and weighs 10 to 25 percent more. Check the surface albedo before specifying bifacial for a rooftop.
 
 ## Key takeaways
 

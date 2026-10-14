@@ -5,7 +5,7 @@ description: "Junction box houses electrical connections. Full guide to PV modul
 category: "Installation"
 categorySlug: "installation"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is junction box
   - solar junction box
@@ -73,7 +73,7 @@ A junction box is a sealed enclosure that houses electrical connections, providi
 
 2. Field junction box: standalone enclosures used in cable runs for splices, protection device housings (fuses, SPDs), cable transitions or small-scale string combinations. Mounted on roofs, walls or in trenches.
 
-> **TL;DR**
+> [!NOTE] In short
 > - A junction box is a sealed enclosure for electrical connections, appearing as a PV module junction box (bypass diodes, MC4 exits) or a standalone field junction box (splices, protection devices).
 > - Module junction boxes hold 3 diodes standard, or 6 in premium designs, and are sealed for 25 to 30 years; they are not field-repairable.
 > - Field junction boxes need IP65 minimum, IP66 in coastal areas, versus IP67/IP68 for module junction boxes.
@@ -109,6 +109,8 @@ Located on the back of each module. Typically dimensions 100×80×20 mm. Contain
 
 ### Bypass diode configurations
 
+Table: PV module bypass diode configurations
+
 | Configuration | Sub-strings | Use |
 |---|---|---|
 | 3 diodes | 3 (typical 24-cell groups) | Standard module |
@@ -117,13 +119,20 @@ Located on the back of each module. Typically dimensions 100×80×20 mm. Contain
 
 ### Diode failure modes
 
+Table: Bypass diode failure modes and their effect
+
 | Failure | Effect |
 |---|---|
 | Diode short circuit | Sub-string permanently disabled |
 | Diode open circuit | No bypass during partial shading, hot spot risk |
 | Diode degradation | Higher voltage drop, increased heating |
 
+> [!WARNING] A failed bypass diode cannot be repaired in the field
+> An open-circuit diode removes shade protection and creates hot spot risk during partial shading, while a short-circuit diode permanently disables its sub-string. Module junction boxes are sealed for 25 to 30 years and are not field-repairable.
+
 ### Field junction box ratings
+
+Table: Typical ratings for a field junction box
 
 | Parameter | Typical |
 |---|---|
@@ -174,6 +183,9 @@ UV crack on plastic enclosures.
 
 ## Best practices
 
+> [!TIP] Field junction box specification
+> Use IP65 minimum for field junction boxes, IP66 in coastal areas, with UV-stabilised material and an internal earth bar for bonding.
+
 Use IP65 minimum for field junction boxes, IP66 in coastal areas — a specification typically nailed down during rooftop detailed engineering design.
 
 Match cable glands to cable diameter.
@@ -189,6 +201,8 @@ Document junction box locations on the [single line diagram](/glossary/single-li
 Photograph internal connections at [commissioning](/glossary/commissioning/).
 
 ## Comparison: module vs field junction boxes
+
+Table: Module junction box vs field junction box
 
 | Aspect | Module JB | Field JB |
 |---|---|---|
@@ -210,6 +224,8 @@ ALMM does not list junction boxes separately. Module ALMM listing includes the j
 PM Surya Ghar residential installations may use field junction boxes for protection device housing at the inverter location, typically supplied as part of a residential solar installation package.
 
 ## Standards and certifications
+
+Table: Standards for solar junction boxes
 
 | Standard | Scope |
 |---|---|

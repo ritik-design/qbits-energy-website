@@ -4,7 +4,7 @@ excerpt: "The Solar Labs is no longer sold under that name. The product is now A
 description: "The Solar Labs review 2026: the India-origin solar design and proposal platform now sold as ARKA 360, with verified India pricing from Rs 46,000 to Rs 1,00,000 a year, genuine strengths, honest limits and alternatives."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-labs-review.webp"
 author: "Nirav Dhanani"
@@ -37,12 +37,13 @@ featured: false
 
 If you are searching for a The Solar Labs review in 2026, the first useful thing to know is not a feature or a price. It is that the name has moved on. The India-origin design platform that built its reputation as The Solar Labs is now sold as ARKA 360, and the old domain no longer serves the product. That matters, because most of the reviews still ranking for this term describe a product page that no longer exists. This review covers what the software actually is today, what the vendor publishes for pricing, what it genuinely does well, where the fit runs out, and which alternatives deserve a look before you sign an annual plan. Where we could not verify something, we left it out.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The Solar Labs is the legacy name for an India-origin cloud solar design and proposal platform now sold as ARKA 360.
 > - As of August 2026 the thesolarlabs.com domain no longer serves the product; the live product and pricing sit at arka360.com.
 > - Published India pricing is ₹7,500 to ₹16,500 a month, or ₹46,000 to ₹1,00,000 a year, plus 18% GST.
 > - Genuine strengths: built for Indian workflows rather than translated from a US product, browser-based, and design carries through to a sales proposal in one tool.
-> - SurgePV runs $1,299 to $1,899 per user per year with ALMM-aware modules, [PM Surya Ghar](/glossary/pm-surya-ghar/) bands, [DISCOM](/glossary/discom/) tariffs, IS code clearances and multi-country coverage in one licence.
+
+- SurgePV runs $1,299 to $1,899 per user per year with ALMM-aware modules, [PM Surya Ghar](/glossary/pm-surya-ghar/) bands, [DISCOM](/glossary/discom/) tariffs, IS code clearances and multi-country coverage in one licence.
 
 **Short version.** The Solar Labs is an India-built solar design and proposal platform, now sold under the ARKA 360 name, with published India plans from ₹46,000 to ₹1,00,000 a year before GST. It fits Indian residential and small commercial installers well because it was scoped around their workflow. It fits less well where lender-grade yield reporting or single-licence multi-country compliance is the requirement.
 
@@ -54,13 +55,16 @@ The vendor's own help centre carries a legacy article titled "Hands-on with The 
 
 We are stating this plainly rather than reviewing a ghost, because it changes how you should shop. Any feature list, screenshot or price you find attached to The Solar Labs name is undated at best. Verify everything against the current product before you budget against it.
 
-> **What most buyers get wrong here.** They read a two-year-old review of The Solar Labs, build a shortlist from it, and then discover the plan structure, the regional editions and the export options are all different. Shortlist the product, not the brand name it used to carry.
+> [!IMPORTANT] What most buyers get wrong here
+> They read a two-year-old review of The Solar Labs, build a shortlist from it, and then discover the plan structure, the regional editions and the export options are all different. Shortlist the product, not the brand name it used to carry.
 
 ## Verified Pricing
 
 Credit where it is due: the vendor publishes prices openly, which is unusual in solar design software. Most competitors in this bracket hide behind a contact form.
 
 For India, the published plans are as follows.
+
+Table: The Solar Labs (ARKA 360) published India plans, monthly and annual
 
 | Plan | Monthly | Annual | Indicative inclusions |
 | --- | --- | --- | --- |
@@ -102,6 +106,8 @@ These are real advantages, not politeness before a sales pitch.
 **Brand and continuity risk.** A rename is not a fault, but it is a diligence item. If you are signing an annual plan on the strength of reviews written under an older name, ask directly about product roadmap continuity, data portability and what happens to legacy accounts. Get the answer in writing before you commit.
 
 We are not going to claim the product lacks any specific feature we could not test. Several capabilities we would want to assess, including depth of DISCOM tariff coverage and how ALMM filtering is handled, were not verifiable from published material, so we have left them as open questions for your own trial rather than asserting an absence.
+
+Table: Assessment of The Solar Labs by dimension
 
 | Dimension | Assessment |
 | --- | --- |
@@ -155,11 +161,10 @@ The Solar Labs earned its reputation honestly. Building solar design software fr
 
 Our recommendation tilts to SurgePV for a narrower reason than "it is better." It is a scope argument. The compliance layer runs deeper on the India requirements that increasingly appear in tenders and subsidy paperwork, the design-to-proposal path and the bankable yield output live in the same licence rather than across two, and the multi-market coverage means a team exporting beyond India does not maintain parallel configurations. At $1,299 to $1,899 per user per year that is a higher line item than a ₹46,000 Lite plan, and it should be, because it is absorbing work you would otherwise pay for twice.
 
-Three things to do next:
-
-- Confirm current plan inclusions and pricing directly with the vendor, because material published under The Solar Labs name is out of date.
-- Rebuild three of your own recent projects in each shortlisted tool and compare the finished proposal, not the feature list.
-- Decide whether bankable yield or a second country will be in scope within two years, because that answer settles the shortlist by itself.
+> [!CHECKLIST] Three things to do next
+> - Confirm current plan inclusions and pricing directly with the vendor, because material published under The Solar Labs name is out of date.
+> - Rebuild three of your own recent projects in each shortlisted tool and compare the finished proposal, not the feature list.
+> - Decide whether bankable yield or a second country will be in scope within two years, because that answer settles the shortlist by itself.
 
 <div class="inline-cta">
 <h3>Run the comparison on your own projects</h3>

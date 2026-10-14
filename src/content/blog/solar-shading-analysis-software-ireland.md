@@ -4,7 +4,7 @@ excerpt: "More than half of Ireland's annual irradiance arrives as diffuse light
 description: "Solar shading analysis software Ireland 2026: why high diffuse fraction changes shading loss, 53 degrees north winter sun, chimney and dormer obstructions, and pricing loss against the Clean Export Guarantee."
 category: "Solar Software"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-solar-shading-analysis-software-ireland.webp"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ featured: false
 
 Irish solar [shading analysis](/glossary/shading-analysis/) has a counterintuitive property: most tools overstate the loss. In a cloudy maritime climate a large share of annual irradiance arrives as diffuse light scattered across the whole sky, not as a direct beam from the sun's position. A shading model that traces a geometric shadow and writes off everything inside it is describing a desert. On an overcast Dublin afternoon a module sitting in geometric shadow is still collecting most of the light an unshaded module collects. This guide covers what [shading analysis](/glossary/shading-analysis/) has to do differently in [Ireland](/blog/solar-software-ireland/), and which tools do it properly.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Diffuse light dominates the Irish annual resource, so direct-beam geometric shading models overstate losses.
 > - The correct engine separates direct from diffuse and shades each differently.
 > - Ireland sits above 51 degrees north, so winter sun is very low and shadows run long even when they cost little.
@@ -62,11 +62,14 @@ In a clear-sky climate the first question dominates, because most of the energy 
 
 The practical consequence is a systematic bias. A tool that answers only the first question reports a shading loss that can be substantially higher than the real one, and the error is largest exactly where Irish designers need accuracy: modest obstructions on modest roofs, where the difference between a 9% loss and a 6% loss decides whether the project is sold.
 
+> [!IMPORTANT] Overstating shading loss is not the safe choice
 > **A note on direction of error.** Overstating shading loss is not the safe conservative choice people assume. It kills viable projects, it makes your yield estimates look pessimistic against a competitor using a better engine, and when the system overperforms the customer concludes your numbers are guesswork. Accuracy is the goal in both directions.
 
 ## Latitude: Long Shadows That Often Cost Little
 
 Ireland sits above 51 degrees north, with Dublin near 53. Shadow length scales inversely with the tangent of solar altitude, so Irish winter shadows are long.
+
+Table: Shadow length from a 2 m chimney at different solar altitudes
 
 | Solar altitude | Shadow length from a 2 m chimney |
 | --- | --- |
@@ -111,6 +114,8 @@ Two obstructions with identical annual shading percentages can therefore differ 
 ## Worked Example: Chimney On A Dublin Semi
 
 An illustrative calculation showing the gap between modelling methods, not a specific customer project. Inputs: 4 kW array on a south-west facing slope, a single 1.8 m chimney stack on the same slope, and a household that exports most midday generation.
+
+Table: Reported annual shading loss on a Dublin semi, by model
 
 | Model | Reported annual shading loss | Comment |
 | --- | --- | --- |

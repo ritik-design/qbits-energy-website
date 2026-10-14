@@ -5,7 +5,7 @@ description: "Reactive power is the non-working component of AC power that maint
 category: "Power Quality"
 categorySlug: "power-quality"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is reactive power
   - kvar
@@ -70,7 +70,7 @@ In phasor terms, voltage and current in an AC circuit are not always in phase. A
 
 Modern grid-tied solar inverters are reactive-power-capable devices. They can inject leading or lagging reactive on demand, supporting site power factor, contributing to grid voltage regulation, and meeting smart-inverter requirements under CEA Grid Code 2019.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Reactive power (kVAR) is the non-working AC component that maintains voltage and magnetises motors and transformers, unlike active power (kW) which does actual work.
 > - Apparent power (kVA) is the vector sum of active and reactive power; power factor is the ratio of active to apparent power.
 > - Modern smart inverters can inject or absorb reactive power up to about 33 percent of rated kVA while delivering full active power, rising to 100 percent at zero active output.
@@ -109,11 +109,24 @@ Apparent power S = Vrms × Irms = √(P² + Q²).
 
 φ is the phase angle between voltage and current. Power factor PF = cos(φ).
 
+> [!FORMULA] Power factor
+> PF = cos(φ) = P ÷ S
+
+Table: The three power quantities in an AC circuit
+
+| Quantity | Unit | Expression |
+|---|---|---|
+| Active power P | kW | Vrms × Irms × cos(φ) |
+| Reactive power Q | kVAR | Vrms × Irms × sin(φ) |
+| Apparent power S | kVA | Vrms × Irms = √(P² + Q²) |
+
 A solar inverter modulates the current phase relative to the grid voltage to inject or absorb reactive power. The control loop sets the desired reactive level based on a fixed setpoint, a Q(V) curve or a Q(P) curve.
 
 ## Technical deep dive
 
 ### Inverter capability curve
+
+Table: Maximum reactive power an inverter can supply at different active power outputs
 
 | Active power output | Maximum reactive |
 |---|---|
@@ -125,6 +138,8 @@ A solar inverter modulates the current phase relative to the grid voltage to inj
 The capability curve is bounded by the rated apparent power S.
 
 ### Smart-inverter modes
+
+Table: Smart-inverter modes that use reactive or active power control
 
 | Mode | Description |
 |---|---|
@@ -197,6 +212,9 @@ DISCOM reactive penalty continues despite inverter setting, because reactive met
 
 Volt-var curve too aggressive, causing oscillation.
 
+> [!WARNING] Uncoordinated reactive injection can make voltage worse
+> Reactive injection at high voltage can worsen the voltage rise, and several inverters injecting without a plant controller can drive instability or oscillation. On multi-inverter sites, use a plant controller and set a volt-var curve that is not too aggressive.
+
 ## Best practices
 
 Read the inverter capability curve carefully. The 33 percent figure at full active is a default, not a constant.
@@ -209,9 +227,14 @@ Coordinate multi-inverter sites with a plant controller.
 
 Audit the first three reactive bills. Penalty should drop materially after inverter PF tuning.
 
+> [!TIP] Change the factory setting, then check the bills
+> Default inverter settings often leave power factor at unity or disable reactive support, so a site can keep paying reactive penalties after solar goes live. Set the PF or Q setpoint at commissioning from actual site load, and audit the first three reactive bills: the penalty should drop materially after the tuning.
+
 Maintain firmware updates. Smart-inverter functions improve with each release.
 
 ## Comparison: solar inverter vs traditional reactive sources
+
+Table: Solar inverter compared with traditional reactive power sources
 
 | Source | Response time | Cost | Notes |
 |---|---|---|---|
@@ -232,6 +255,8 @@ Utility solar plants under SECI PPA include reactive dispatch terms, where the p
 Major inverter brands support full reactive capability with documentation in the Indian market.
 
 ## Standards and certifications
+
+Table: Standards and codes behind inverter reactive power capability
 
 | Standard | Scope |
 |---|---|

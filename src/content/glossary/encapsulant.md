@@ -5,7 +5,7 @@ description: "Encapsulant seals solar cells in modules. Full guide to EVA, POE a
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - encapsulant
   - eva encapsulant
@@ -77,7 +77,7 @@ Two major encapsulant types are used in modern solar modules:
 
 For Indian solar, encapsulant choice affects long-term performance more than efficiency. PID-resistant EVA or POE is increasingly specified for systems with grounded inverter configurations. Premium bifacial modules from Indian manufacturers typically use POE.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Encapsulant is the polymer layer sealing solar cells between glass and back sheet, giving electrical insulation, moisture protection and optical transparency.
 > - EVA is the traditional, cheaper choice; POE costs 30 to 50 percent more per kg but resists PID and lasts 30 to 40 years against 25 to 30 for EVA.
 > - PID (Potential-Induced Degradation) occurs when sodium ions from the glass migrate through the encapsulant to the cells under high voltage stress; PID-resistant EVA and POE block this.
@@ -98,6 +98,8 @@ Bifacial performance. Rear-side requires UV-stable encapsulant.
 
 ## Encapsulant types
 
+Table: Encapsulant types and where each is used
+
 | Type | Use |
 |---|---|
 | Standard EVA | Cost-sensitive PERC modules |
@@ -111,18 +113,21 @@ Bifacial performance. Rear-side requires UV-stable encapsulant.
 
 ### EVA vs POE comparison
 
+Table: EVA compared with POE encapsulant
+
 | Property | EVA | POE |
 |---|---|---|
 | Cost | Baseline | +30-50% |
 | PID resistance | Limited (improving) | Excellent |
 | UV stability | Browning over 15-25 years | Better |
 | Moisture absorption | Higher | Lower |
-| Volume resistivity | 1014 Ω·cm | 1016 Ω·cm |
+| Volume resistivity | 10¹⁴ Ω·cm | 10¹⁶ Ω·cm |
 | Lamination temp | 145-150°C | 150-155°C |
 | Lifetime | 25-30 years | 30-40 years |
 
 ### Lamination process
 
+<!-- steps -->
 1. Stack layers: glass / front encapsulant / cells / rear encapsulant / back sheet (or rear glass).
 2. Load into laminator.
 3. Apply vacuum and heat (typically 150°C, 10-20 minutes).
@@ -131,6 +136,8 @@ Bifacial performance. Rear-side requires UV-stable encapsulant.
 6. Cut and frame to finish module.
 
 ### Failure modes
+
+Table: Common module failure modes linked to encapsulant
 
 | Mode | Cause |
 |---|---|
@@ -144,6 +151,9 @@ Bifacial performance. Rear-side requires UV-stable encapsulant.
 ### PID resistance
 
 PID (Potential-Induced Degradation) occurs when sodium ions from glass migrate through encapsulant to cells under high voltage stress. PID-resistant encapsulants (high-volume-resistivity EVA, POE) block this migration; older EVA that has hydrolysed under humidity can even register as an [inverter ground fault](/blog/solar-inverter-ground-fault-guide/) once it becomes conductive enough to create a leakage path. Encapsulant quality also plays a supporting role in two other degradation mechanisms tracked separately, [LID](/glossary/lid/) and [LeTID](/glossary/letid/), even though both are driven primarily by cell doping rather than the encapsulant itself.
+
+> [!TIP] Ground-fault alarms can start in the module
+> If an inverter keeps raising ground-fault alarms on an older array, include the encapsulant in the checks. EVA that has hydrolysed under humidity can become conductive enough to create a leakage path, even though the inverter is healthy.
 
 ## Real-world applications
 
@@ -197,6 +207,12 @@ Verify IEC 62788 encapsulant test certification.
 
 Use IS 14286 certified modules.
 
+> [!CHECKLIST] Encapsulant checks before specifying a module
+> - PID-resistant EVA at minimum, POE for bifacial, TOPCon and HJT
+> - IEC 62788 encapsulant test certification
+> - IEC 62804 PID test result
+> - IS 14286 certified modules
+
 ## Indian market context
 
 Major Indian modules destined for [residential rooftop solar](https://surgepv.com/residential-solar-design/) use PID-resistant EVA or POE.
@@ -208,6 +224,8 @@ Premium bifacial modules typically POE.
 PM Surya Ghar requires PID-tested ALMM-listed modules.
 
 ## Standards and certifications
+
+Table: Standards that cover module encapsulants in India
 
 | Standard | Scope |
 |---|---|

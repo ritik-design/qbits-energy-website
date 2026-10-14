@@ -5,7 +5,7 @@ description: "Calendar life is chronological battery aging. Full guide to mechan
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - calendar life battery
   - battery aging
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 Calendar life is the chronological aging of a battery regardless of cycling. Even an unused battery sitting on a shelf degrades over years due to chemical processes: electrolyte breakdown, solid-electrolyte interphase (SEI) layer growth, side reactions and material decomposition. Calendar life sets an upper bound on battery service regardless of usage pattern.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Calendar life is chronological battery aging that happens even without cycling, driven by SEI growth, electrolyte breakdown and side reactions.
 > - LFP calendar life is roughly 10 to 15 years at 25°C; NMC runs 8 to 12 years; tubular lead-acid is 5 to 7 years.
 > - Every 10°C rise above 25°C roughly halves calendar life, so Indian summer cabinet temperatures of 45 to 50°C significantly cut LFP service life.
@@ -78,10 +78,12 @@ Calendar life is the chronological aging of a battery regardless of cycling. Eve
 > - Manufacturer warranties combine calendar years and cycle counts, such as "10 years OR 6,000 cycles, whichever comes first."
 > - Whichever expires first, calendar life or cycle life, ends the battery's usable service life.
 
-Combined with [cycle life](/glossary/cycle-life/) (number of charge-discharge cycles), calendar life determines total battery service life. Whichever expires first ends usable service. For solar storage with one cycle per day:
-- [LFP](/glossary/lfp-battery/): cycle life 4,500-8,000 cycles = 12-22 years. Calendar life 10-15 years. Calendar typically dominant, consistent with the 10-15 year figures quoted for quality LFP packs in [Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/).
-- NMC: cycle life 2,000-4,000 cycles = 5-11 years. Calendar life 8-12 years. Cycle often dominant.
-- [Lead acid](/glossary/lead-acid-battery/): 5-7 years calendar. 500-1,500 cycles. Calendar dominant.
+Combined with [cycle life](/glossary/cycle-life/) (number of charge-discharge cycles), calendar life determines total battery service life. Whichever expires first ends usable service. > [!EXAMPLE] One cycle a day: which limit comes first
+> For solar storage with one cycle per day:
+>
+> - [LFP](/glossary/lfp-battery/): cycle life 4,500-8,000 cycles = 12-22 years. Calendar life 10-15 years. Calendar typically dominant, consistent with the 10-15 year figures quoted for quality LFP packs in [Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/).
+> - NMC: cycle life 2,000-4,000 cycles = 5-11 years. Calendar life 8-12 years. Cycle often dominant.
+> - [Lead acid](/glossary/lead-acid-battery/): 5-7 years calendar. 500-1,500 cycles. Calendar dominant.
 
 For Indian solar, calendar life is critical because Indian summer conditions (40-45°C ambient) significantly accelerate calendar aging, a reality quantified in [How Long Do Solar Batteries Last in India? (Heat and Cycle Reality)](/blog/how-long-solar-batteries-last-india/). Cabinet ventilation and shaded installation extend life.
 
@@ -99,6 +101,8 @@ Indian climate impact. Hot conditions accelerate aging, compounded by high [C-ra
 
 ## Calendar life by chemistry
 
+Table: Calendar life by battery chemistry at 25°C and 40°C
+
 | Chemistry | Calendar life at 25°C | At 40°C |
 |---|---|---|
 | LFP | 10-15 years | 6-10 years |
@@ -113,6 +117,8 @@ Indian climate impact. Hot conditions accelerate aging, compounded by high [C-ra
 ## Technical deep dive
 
 ### Calendar aging mechanisms
+
+Table: Calendar aging mechanisms and what each does to the cell
 
 | Mechanism | Description |
 |---|---|
@@ -135,6 +141,8 @@ Indian summer cabinet temperatures of 45-50°C significantly reduce calendar lif
 
 ### SOC impact on calendar aging
 
+Table: Calendar aging rate by storage state of charge
+
 | Storage SOC | Calendar aging rate |
 |---|---|
 | 100% | 1.5-2x baseline |
@@ -146,6 +154,11 @@ Indian summer cabinet temperatures of 45-50°C significantly reduce calendar lif
 Storage at 50 percent [SOC](/glossary/battery-soc/) at cool temperature minimises calendar aging.
 
 ### Indian residential storage typical service life
+
+> [!TIP] Cabinet location is worth years of service
+> The table below puts an LFP battery at 12-15 years indoors with ventilation and 7-9 years outdoors in direct sun. Keep the cabinet below 30°C, shade it, and ventilate it, because heat acts on the battery every day whether it is cycled or not.
+
+Table: Expected service life of Indian residential storage by installation
 
 | Configuration | Expected service |
 |---|---|
@@ -191,6 +204,8 @@ Reliance, Ola Electric, Tata Green developing Indian cell capacity with calendar
 Cabinet design for solar storage includes thermal management for life extension.
 
 ## Standards and certifications
+
+Table: Standards and documents that specify calendar life
 
 | Standard | Scope |
 |---|---|

@@ -4,7 +4,7 @@ excerpt: "Solar takeoff software pulls quantities straight from the design canva
 description: "Solar takeoff software auto-generates BOQ from your design canvas. See how SurgePV ships auto-takeoff, hardware-neutral catalogs, and DXF export in 2026."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "9 min"
 image: "/og/blog-solar-takeoff-software.webp"
 author: "Nirav Dhanani"
@@ -38,10 +38,11 @@ faqs:
 
 Solar [takeoff software](https://heavendesigns.in/blog/solar-takeoff-software/) is the tool an estimator uses to turn a finished design into a bill of quantities that procurement and the install crew can act on. The pain is well known. A residential job can swallow two hours of manual counting. A C&I bid can swallow a full day. Estimators tab through PDF drawings, tally modules, measure conduit on a screen ruler, guess at mounting hardware, and type it all into a spreadsheet that nobody trusts. The right solar [takeoff software](https://quickestimate.co/blog/solar-takeoff-software) removes that step. It reads the design canvas, applies the hardware rules, and writes the BOQ automatically. SurgePV's auto-BOQ does exactly this on every paid plan.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Solar takeoff means counting every module, inverter, rail, clamp, cable, conduit, breaker, and labour hour the project needs.
 > - Auto-takeoff reads the same design canvas the engineer already built, so the estimator stops re-counting by hand.
 > - SurgePV ships auto-BOQ, hardware-neutral catalogs, and DXF or DWG export on every paid plan starting at 1,299 dollars per seat.
+> - The lines estimators most often miss are labour hours, AC cable to the meter, end clamps, spare parts and a 2 to 3 percent contingency.
 
 <div class="inline-cta">
 <h3>See auto-takeoff on your own project</h3>
@@ -54,19 +55,21 @@ Solar [takeoff software](https://heavendesigns.in/blog/solar-takeoff-software/) 
 
 A complete solar takeoff is not a module count. It is the full procurement and labour list the project office needs to order materials, schedule crew, and price the bid. A useful takeoff lists every category below.
 
-- Modules. Brand, model, wattage, count, spare allowance.
-- Inverters. String or microinverter, count, MPPT inputs used, AC output rating.
-- Racking. Rail length in meters, clamp count, end clamp count, splice count, L-feet or hooks.
-- [DC cables](/glossary/dc-cable/). Conductor size, total length, MC4 pair count.
-- [AC cables](/glossary/ac-cable/). Conductor size, run length from inverter to combiner and combiner to meter.
-- [Conduit](/glossary/conduit/). Type, diameter, total run length, sweeps, junction boxes.
-- Breakers and fuses. AC main breaker, DC string fuses, combiner fuses.
-- Combiner boxes and disconnects. Quantity, ampere rating, weatherproof rating.
-- Mounting hardware. Bolts, washers, flashings, grounding lugs, grounding conductor length.
-- Balance of system. Surge arrestors, monitoring gateway, sensors, signage.
-- Labour estimate. Module mounting hours, wiring hours, inverter commissioning hours.
+> [!CHECKLIST] What a complete takeoff lists
+> - Modules. Brand, model, wattage, count, spare allowance.
+> - Inverters. String or microinverter, count, MPPT inputs used, AC output rating.
+> - Racking. Rail length in meters, clamp count, end clamp count, splice count, L-feet or hooks.
+> - [DC cables](/glossary/dc-cable/). Conductor size, total length, MC4 pair count.
+> - [AC cables](/glossary/ac-cable/). Conductor size, run length from inverter to combiner and combiner to meter.
+> - [Conduit](/glossary/conduit/). Type, diameter, total run length, sweeps, junction boxes.
+> - Breakers and fuses. AC main breaker, DC string fuses, combiner fuses.
+> - Combiner boxes and disconnects. Quantity, ampere rating, weatherproof rating.
+> - Mounting hardware. Bolts, washers, flashings, grounding lugs, grounding conductor length.
+> - Balance of system. Surge arrestors, monitoring gateway, sensors, signage.
+> - Labour estimate. Module mounting hours, wiring hours, inverter commissioning hours.
 
-Miss any of those lines and the bid is wrong. The procurement team back-orders parts on install day, the crew waits, and the margin erodes.
+> [!WARNING] A missing line is a margin leak
+> Miss any of those lines and the bid is wrong. The procurement team back-orders parts on install day, the crew waits, and the margin erodes.
 
 ## How SurgePV Auto-Generates the Takeoff
 
@@ -79,6 +82,8 @@ The result exports as a [branded solar proposal](https://surgepv.com/solar-propo
 ## Solar Takeoff Software Across Tools
 
 Most platforms market themselves as [solar design software](/blog/solar-design-software/). Far fewer ship a true auto-takeoff. The table below compares the four most common tools an estimator will evaluate in 2026.
+
+Table: Solar takeoff capabilities compared across SurgePV, Aurora, HelioScope and OpenSolar
 
 | Capability | SurgePV | Aurora | HelioScope | OpenSolar |
 |---|---|---|---|---|

@@ -4,7 +4,7 @@ excerpt: "An honest Pylon solar review for 2026. Pay-per-project pricing from $4
 description: "Pylon solar review 2026: verified $4 and $10 per-project pricing, $49 per user per month CRM, real strengths in fast proposals, honest limitations, and the alternatives worth comparing."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-pylon-review.webp"
 author: "Nirav Dhanani"
@@ -37,13 +37,14 @@ featured: false
 
 Pylon is one of the few solar platforms that will tell you what it costs before you talk to a salesperson. That single fact shapes how you should evaluate it. Where most of this category hides behind demo bookings and negotiated annual contracts, Pylon publishes a per-project rate, lets you start with free credits, and asks for no minimum spend. This review looks at what Pylon actually is in 2026, what the published pricing means once your real volume hits it, what the product does genuinely well, where the fit breaks down, and which alternatives deserve a look before you standardise on it. The criticisms here are scoped to things that can be checked against Pylon's own published material.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Pylon charges per project, not per seat: $4.00 for a Standard project and $10.00 for a Pro project, with no monthly minimum.
 > - The CRM is a separate subscription starting from $49.00 per user per month, billed monthly.
 > - Design, 3D shading, financial projections, and a web plus PDF proposal are all inside the per-project charge.
 > - The headline capability is speed, with proposals marketed in under two minutes, and the product is built around that.
 > - It is Australian-built and Australia-strongest, with high resolution imagery described as available in select countries.
-> - SurgePV at $1,299 to $1,899 per user per year is the flat-cost comparison once monthly project volume gets high.
+
+- SurgePV at $1,299 to $1,899 per user per year is the flat-cost comparison once monthly project volume gets high.
 
 **Short version.** Pylon is a cloud solar platform that combines design, proposals, and an optional CRM, priced per project at $4.00 Standard and $10.00 Pro rather than per seat. It is built for speed, publishes its pricing openly, and is strongest in Australia. It suits selective, high-close-rate residential teams. It suits high-volume quoting and lender-driven bankability work much less well.
 
@@ -60,6 +61,8 @@ Pylon is built in Sydney. Australian installers and customer stories are front a
 ## Pylon Pricing in 2026, Verified
 
 Pylon publishes the following on its own pricing page.
+
+Table: Pylon published pricing by product
 
 | Product | Published price | What it covers |
 | --- | --- | --- |
@@ -111,6 +114,8 @@ Every criticism below is scoped to what can be checked. Where we are unsure, we 
 
 **The CRM is a second decision, not an included one.** Calling the platform design, proposals, and CRM in one is fair, but the CRM is a separate monthly per-user subscription while the rest is per project. The $49 per user per month is a genuine per-seat cost sitting underneath an otherwise seat-free product.
 
+Table: Pylon strengths and limitations by dimension
+
 | Dimension | Pylon strength | Pylon limitation |
 | --- | --- | --- |
 | Pricing model | Published openly, no minimum, free trial credits | Variable bill, scales with quotes not wins |
@@ -120,7 +125,8 @@ Every criticism below is scoped to what can be checked. Where we are unsure, we 
 | Project scope | Pro tier covers commercial and battery | Not positioned as a bankability platform |
 | Iteration | Free edits, five designs per project | Cost per new project discourages speculative quoting |
 
-> **What most buyers get wrong.** They compare Pylon's $4 against a competitor's annual seat price and stop there. The honest comparison needs your monthly project volume, your Standard-to-Pro mix, your CRM seat count, and your close rate. Run those four numbers first. The answer flips somewhere in the middle and you need to know which side of it you are on.
+> [!IMPORTANT] What most buyers get wrong
+> They compare Pylon's $4 against a competitor's annual seat price and stop there. The honest comparison needs your monthly project volume, your Standard-to-Pro mix, your CRM seat count, and your close rate. Run those four numbers first. The answer flips somewhere in the middle and you need to know which side of it you are on.
 
 <div class="inline-cta">
 <h3>See what a flat per-seat licence covers</h3>
@@ -167,11 +173,10 @@ The case gets harder as you scale. Per-project pricing is a promise that quietly
 
 That is why, for teams past the early stage, our recommendation is SurgePV. Not because Pylon is a bad tool, but because once your quote volume is high, a flat $1,299 to $1,899 per user per year with design, shading, financial modelling, and proposals in one licence is both cheaper and predictable, and predictable is worth something on its own. If your volume is low and your market is Australia, buy Pylon and do not overthink it. If you are quoting hard, growing fast, or crossing borders, run the arithmetic before you commit to a model that charges you for every attempt.
 
-Three things to do next:
-
-- Count your real projects per month for the last quarter, including the ones that never closed, and multiply by the Standard and Pro rates.
-- Confirm high resolution imagery coverage for your specific service area, not just your country.
-- Rebuild three recent jobs in a competing tool and compare the output, then compare the two annual totals side by side.
+> [!CHECKLIST] Three things to do next
+> - Count your real projects per month for the last quarter, including the ones that never closed, and multiply by the Standard and Pro rates.
+> - Confirm high resolution imagery coverage for your specific service area, not just your country.
+> - Rebuild three recent jobs in a competing tool and compare the output, then compare the two annual totals side by side.
 
 <div class="inline-cta">
 <h3>Run the comparison on your own projects</h3>

@@ -5,7 +5,7 @@ description: "ALMM is MNRE's Approved List of Models and Manufacturers for solar
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P0"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - almm list
   - almm india
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 ## What is ALMM
 
-> **TL;DR**
+> [!NOTE] In short
 > - ALMM (Approved List of Models and Manufacturers) is an MNRE-maintained list; equipment must be on it to qualify for subsidised or government-tendered Indian solar projects.
 > - It is mandatory for PM Surya Ghar, PM-KUSUM, SECI and most state tenders, but not for private commercial projects.
 > - The list has two parts in force: List I (modules) and List II (cells, from 1 June 2026). There is no inverter list.
@@ -109,6 +109,8 @@ For EPCs assembling subsidised rooftop or ground-mount portfolios, sourcing ALMM
 ## Technical deep dive
 
 ### List structure
+
+Table: ALMM list structure: modules, cells and the proposed wafer list
 
 | List | Coverage |
 |---|---|
@@ -162,6 +164,9 @@ Surveillance and revocation can disrupt project pipelines.
 
 Limited coverage of balance of system components.
 
+> [!WARNING] Confirm status on the date of supply
+> Listings can be revoked mid-project, so confirm ALMM status on the day of order and again on the day of delivery. Mixing ALMM and non-ALMM equipment voids the subsidy, and cells (List II) and modules (List I) are tracked separately.
+
 ## Common problems
 
 ALMM listing revoked mid-project, forcing equipment substitution.
@@ -191,6 +196,8 @@ Major ALMM-listed module manufacturers in 2026 include Adani Green Solar, Waaree
 The PLI scheme accelerated Indian module manufacturing capacity, with several gigawatt-scale plants operationalising between 2023 and 2026. ALMM listings have grown commensurately.
 
 ## Standards and certifications
+
+Table: Standards and procedures behind ALMM listing
 
 | Standard | Scope |
 |---|---|

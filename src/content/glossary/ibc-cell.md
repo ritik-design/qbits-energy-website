@@ -5,7 +5,7 @@ description: "IBC cells have all contacts on the rear. Full guide to working and
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - ibc cell
   - interdigitated back contact
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 ## What is an IBC cell
 
-> **TL;DR**
+> [!NOTE] In short
 > - IBC (Interdigitated Back Contact) places all electrical contacts on the rear of the cell, so the front surface has no [busbar](/glossary/busbar/) shading.
 > - Cell efficiency reaches 23-26 percent, the highest among single-junction silicon cells in commercial production.
 > - SunPower/Maxeon is the historical leader; the technology carries a 20-50 percent price premium over standard [PERC cells](/glossary/perc-cell/).
@@ -78,6 +78,9 @@ author: "Nirav Dhanani"
 > - Indian availability is limited, and modules must still clear the [ALMM List](/glossary/almm-list/) for PM Surya Ghar eligibility.
 
 IBC, Interdigitated Back Contact, is a solar cell architecture in which both the positive and negative electrical contacts are located on the rear surface of the cell, leaving the front surface completely clear. Conventional cells have [busbars](/glossary/busbar/) and fingers on the front that block 3-7 percent of incoming light. IBC eliminates this front-side shading, raising effective active area and cell efficiency.
+
+> [!TIP] Where IBC earns its premium
+> The gain is front-side area: conventional busbars and fingers block 3 to 7 percent of incoming light, and IBC removes that shading. That suits space-constrained roofs where watts per square metre matter more than the 20 to 50 percent price premium over PERC.
 
 The contacts are "interdigitated," meaning the positive and negative contact regions are alternately arranged like the teeth of two interlocking combs on the back surface. This requires complex doping patterns on the rear (alternating p+ and n+ regions) and precise alignment of contact metallisation.
 
@@ -97,6 +100,7 @@ Aesthetic appeal. Uniform dark front surface.
 
 ## How IBC works
 
+<!-- steps -->
 1. n-type wafer with rear-side doping pattern: alternating p+ and n+ regions.
 2. Tunnel oxide or passivation layer on rear.
 3. Metal contacts deposited on rear, alternating between p+ and n+ regions.
@@ -106,6 +110,8 @@ Aesthetic appeal. Uniform dark front surface.
 ## Technical deep dive
 
 ### Cell architecture
+
+Table: IBC cell architecture layer by layer
 
 | Layer | Material | Function |
 |---|---|---|
@@ -117,6 +123,8 @@ Aesthetic appeal. Uniform dark front surface.
 
 ### Efficiency progression
 
+Table: IBC cell efficiency progression
+
 | Year | IBC cell efficiency |
 |---|---|
 | 2014 | 24.0% (SunPower) |
@@ -126,6 +134,8 @@ Aesthetic appeal. Uniform dark front surface.
 | Lab record | 26.7% (LONGi 2022) |
 
 ### Comparison with other premium cells
+
+Table: IBC compared with other premium cell technologies
 
 | Cell | Module efficiency | Cost premium |
 |---|---|---|
@@ -186,6 +196,9 @@ Difficult to make in larger formats.
 
 Limited IBC availability in India, though buyers evaluating premium panels for a rooftop should still confirm the model appears on the [ALMM List](/glossary/almm-list/) before committing.
 
+> [!IMPORTANT] Confirm ALMM listing before committing
+> Indian availability of IBC is limited and Maxeon sells through partners. For PM Surya Ghar eligibility, the exact module model must appear on the [ALMM List](/glossary/almm-list/), so confirm the listing for that model first.
+
 Maxeon distributes through partners.
 
 Premium installations may source IBC through specialty channels.
@@ -193,6 +206,8 @@ Premium installations may source IBC through specialty channels.
 Cost premium limits mainstream adoption.
 
 ## Standards and certifications
+
+Table: Standards and listings relevant to IBC modules in India
 
 | Standard | Scope |
 |---|---|
@@ -205,9 +220,9 @@ Cost premium limits mainstream adoption.
 
 IBC (Interdigitated Back Contact) cells place all contacts on the rear surface, eliminating front-side shading and achieving the highest single-junction silicon efficiency in commercial production. SunPower/Maxeon is the historical leader. Premium technology with 20-50 percent price premium. Indian availability is limited. Likely to remain premium niche rather than mainstream.
 
-## Need premium IBC solar?
+## Pairing premium modules with a Qbits inverter
 
-QBits Energy can source IBC solar modules for premium residential, EV solar and space-constrained installations across India.
+Qbits Energy makes solar inverters, not modules. For a premium residential or space-constrained installation using IBC modules, see the [on grid](/on-grid-inverter/) and [hybrid](/hybrid-inverter/) inverter ranges, or [browse all products](/our-products/).
 
 ## Further reading
 

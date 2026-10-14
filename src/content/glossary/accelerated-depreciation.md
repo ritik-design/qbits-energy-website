@@ -5,7 +5,7 @@ description: "Accelerated depreciation provides 40% first-year tax write-off. Fu
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - accelerated depreciation
   - 40 percent depreciation
@@ -74,7 +74,7 @@ For a C&I customer with sufficient taxable income, AD provides immediate tax sav
 
 For Indian solar, AD is one of the major tax incentives that makes commercial rooftop and utility solar economically attractive. C&I customers structuring solar through [CAPEX model](/glossary/capex/) benefit directly. RESCO operators benefit as they are the asset owners. Residential customers cannot directly claim AD as the benefit requires business income to offset. A full walkthrough of how this plays out on an actual balance sheet is covered in our [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-in-india/).
 
-> **TL;DR**
+> [!NOTE] In short
 > - Accelerated Depreciation (AD) lets Indian businesses write off 40 percent of solar plant cost in year one under Section 32 of the Income Tax Act.
 > - For a ₹1 crore C&I plant, that is roughly ₹8.8 lakh in first-year tax savings at a 22 percent corporate tax rate.
 > - AD reduces effective solar capex by 15 to 25 percent on a present-value basis and lifts project IRR by 2 to 3 percentage points.
@@ -95,12 +95,15 @@ C&I attractiveness. Major driver of commercial solar adoption, alongside the bro
 
 ## AD calculation example
 
-For a 1 MW C&I solar project:
-- Capex: ₹4 crore
-- Year 1 depreciation: 40% × ₹4 crore = ₹1.6 crore
-- Tax saving year 1: ₹1.6 crore × 22% = ₹35.2 lakh
-- Remaining 60% depreciated at 40% of WDV in subsequent years
-- Effective NPV of tax savings: ~₹55-65 lakh
+> [!FORMULA]
+> Year 1 tax saving = Capex × 40% first-year depreciation × corporate tax rate
+
+> [!EXAMPLE] 1 MW C&I project
+> - Capex: ₹4 crore
+> - Year 1 depreciation: 40% × ₹4 crore = ₹1.6 crore
+> - Tax saving year 1: ₹1.6 crore × 22% = ₹35.2 lakh
+> - Remaining 60% depreciated at 40% of WDV in subsequent years
+> - Effective NPV of tax savings: ~₹55-65 lakh
 
 This represents 14-16 percent of original capex, making AD a substantial economic driver.
 
@@ -109,6 +112,9 @@ This represents 14-16 percent of original capex, making AD a substantial economi
 ### Depreciation schedule (40% on WDV)
 
 For ₹100 capex:
+
+Table: Depreciation schedule at 40% on written-down value, per ₹100 of capex
+
 | Year | Opening WDV | Depreciation | Closing WDV |
 |---|---|---|---|
 | 1 | 100 | 40 | 60 |
@@ -122,6 +128,9 @@ Cumulative depreciation: ~92% over 5 years, balance written off later.
 ### Tax savings (at 22% corporate tax)
 
 For ₹100 capex:
+
+Table: Annual and cumulative tax saving at a 22% corporate tax rate, per ₹100 of capex
+
 | Year | Depreciation | Tax saving | Cumulative |
 |---|---|---|---|
 | 1 | 40 | 8.8 | 8.8 |
@@ -145,6 +154,8 @@ At 10% discount rate, PV of tax savings:
 Effective capex reduction: 16.8% on present value basis.
 
 ### Requirements for AD claim
+
+Table: What a business needs in place to claim accelerated depreciation
 
 | Requirement | Detail |
 |---|---|
@@ -191,6 +202,8 @@ Major Indian corporates (Reliance, Tata, Adani, Mahindra) use AD strategically.
 [CERC](/glossary/cerc/) tariff orders factor AD in benchmark tariff methodology.
 
 ## Standards and certifications
+
+Table: Legal and policy references behind the AD claim
 
 | Standard | Scope |
 |---|---|

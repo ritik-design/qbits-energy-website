@@ -5,7 +5,7 @@ description: "A PPA is a long-term contract for sale of solar electricity. Full 
 category: "Finance"
 categorySlug: "finance"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is ppa
   - power purchase agreement
@@ -65,7 +65,7 @@ author: "Nirav Dhanani"
 
 A Power Purchase Agreement (PPA) is a long-term, contractual sale-of-electricity arrangement between a power generator and a buyer (offtaker). For Indian solar, the standard form is a 25-year contract between a solar developer and either a [DISCOM](/glossary/discom/) (through SECI or state agency tenders) or a corporate buyer (open access or rooftop [RESCO](/glossary/resco/)).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A PPA is a long-term contract, typically 25 years for Indian solar, where a generator agrees to supply electricity at a fixed or formula-based tariff and a buyer agrees to take it.
 > - Utility-scale SECI PPA tariffs sit at ₹2.40 to ₹3.00 per kWh in 2026, down from ₹17.91 in 2010.
 > - Rooftop RESCO and C&I open access PPAs typically price at a 10 to 30 percent discount to retail tariffs.
@@ -108,6 +108,8 @@ Foundation for renewable build-out. India's 200+ GW of renewable capacity rests 
 
 ### Standard PPA components
 
+Table: Standard components of a solar Power Purchase Agreement
+
 | Component | Content |
 |---|---|
 | Parties | Generator and buyer |
@@ -123,7 +125,12 @@ Foundation for renewable build-out. India's 200+ GW of renewable capacity rests 
 | Dispute resolution | CERC/SERC arbitration |
 | Termination | Default events and consequences |
 
+> [!FORMULA] Expected annual generation in a PPA
+> Expected annual generation = modelled CUF × contracted capacity × 8,760 hours
+
 ### Indian PPA tariff history
+
+Table: Indicative SECI solar PPA tariff by year
 
 | Year | Indicative SECI tariff (₹/kWh) |
 |---|---|
@@ -135,7 +142,24 @@ Foundation for renewable build-out. India's 200+ GW of renewable capacity rests 
 | 2024 | 2.59 |
 | 2025 | 2.50 to 2.75 |
 
+```chart
+type: bar
+title: Indicative SECI solar tariff discovered in tenders, 2010 to 2024
+unit: "₹/kWh"
+source: "Indicative SECI tariff series from the table above in this entry; the 2025 range is not charted. Underlying tender results are listed under SECI tender documents in Sources"
+note: "Lower is cheaper power for the buyer. Values are indicative, not a single contract."
+data:
+  - { label: "2010", value: 17.91 }
+  - { label: "2013", value: 7.49 }
+  - { label: "2017", value: 2.44 }
+  - { label: "2020", value: 1.99 }
+  - { label: "2023", value: 2.55 }
+  - { label: "2024", value: 2.59 }
+```
+
 ### PPA types in India
+
+Table: Types of solar PPA used in India
 
 | Type | Description |
 |---|---|
@@ -191,6 +215,9 @@ Force majeure interpretation disputes.
 
 Late payment from DISCOMs. Several state DISCOMs delay solar PPA payments by 90 to 240 days.
 
+> [!WARNING] DISCOM payment delay is the commonest dispute
+> Several state DISCOMs delay solar PPA payments by 90 to 240 days. The usual protection is a letter of credit (typically 1-month equivalent revenue) plus a revolving escrow, with the Late Payment Surcharge Rules 2022 as an extra remedy. Negotiate this payment security before signing.
+
 Curtailment without full compensation under some PPAs.
 
 Change-in-law disputes around GST and customs duty.
@@ -217,6 +244,8 @@ Plan for renewal or extension as plant approaches PPA term end.
 
 ## Comparison: PPA vs alternatives
 
+Table: Which electricity-sale mechanism suits which buyer or developer
+
 | Mechanism | Use case |
 |---|---|
 | SECI PPA | Utility-scale developer |
@@ -241,6 +270,8 @@ The Late Payment Surcharge Rules 2022 created a mechanism for DISCOMs to clear o
 Group captive solar under Section 9 of [Electricity Act 2003](/glossary/electricity-act-2003/) allows C&I customers to take equity in solar plants and procure power without DISCOM surcharges.
 
 ## Standards and certifications
+
+Table: Statutes and templates behind Indian solar PPAs
 
 | Standard | Scope |
 |---|---|

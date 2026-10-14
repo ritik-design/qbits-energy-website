@@ -5,7 +5,7 @@ description: "Perovskite cells are emerging high-efficiency solar technology. Fu
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - perovskite solar cell
   - perovskite efficiency
@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 Perovskite, in solar terminology, refers to a family of hybrid organic-inorganic materials sharing the perovskite crystal structure (ABX3, where A is an organic cation, B is a metal cation typically lead or tin, and X is a halide anion). These materials exhibit excellent photovoltaic properties: high light absorption, long charge carrier lifetimes and tunable bandgap.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Perovskite is a family of hybrid organic-inorganic solar materials; lab efficiency jumped from 3.8 percent in 2009 to 26.7 percent by 2024 for single-junction cells.
 > - Perovskite-silicon tandem cells have exceeded 33.9 percent lab efficiency, breaking past silicon's roughly 27 percent single-junction ceiling.
 > - Oxford PV and select Chinese manufacturers are the first to move tandem perovskite-silicon cells into small-scale commercial production.
@@ -95,6 +95,8 @@ Lower energy payback. Faster carbon return on manufacturing energy.
 
 ## Perovskite cell architecture
 
+Table: Layer stack of a typical perovskite solar cell
+
 | Layer | Material |
 |---|---|
 | Front contact (transparent) | FTO or ITO |
@@ -111,6 +113,8 @@ Tandem cells stack a perovskite top cell on a [monocrystalline](/glossary/monocr
 
 Lab efficiencies below are measured under [STC](/glossary/stc/) test conditions, the same reference used for silicon [module efficiency](/glossary/module-efficiency/) ratings.
 
+Table: Lab efficiency by year, single-junction perovskite vs perovskite-silicon tandem
+
 | Year | Single-junction perovskite | Tandem perovskite-silicon |
 |---|---|---|
 | 2009 | 3.8% | n/a |
@@ -119,9 +123,36 @@ Lab efficiencies below are measured under [STC](/glossary/stc/) test conditions,
 | 2022 | 25.7% | 31.3% |
 | 2024 | 26.7% | 33.9% |
 
+```chart
+type: line
+title: Lab efficiency of perovskite single-junction and perovskite-silicon tandem cells, 2014 to 2024
+unit: "%"
+source: "Lab efficiencies as tabulated in this guide's efficiency progression table (NREL Best Research-Cell Efficiency Chart is the listed source)"
+note: "Years are not evenly spaced. Commercial products lag lab results by 3 to 5 percentage points."
+decimals: 1
+series:
+  - name: "Single-junction perovskite"
+    data:
+      - { label: "2014", value: 17.9 }
+      - { label: "2018", value: 23.7 }
+      - { label: "2022", value: 25.7 }
+      - { label: "2024", value: 26.7 }
+  - name: "Perovskite-silicon tandem"
+    data:
+      - { label: "2014", value: 22.0 }
+      - { label: "2018", value: 28.0 }
+      - { label: "2022", value: 31.3 }
+      - { label: "2024", value: 33.9 }
+```
+
+> [!TIP] Read lab records against datasheets carefully
+> The 26.7% and 33.9% figures are lab cell records under [STC](/glossary/stc/). Commercial products lag lab results by 3 to 5 percentage points, so do not compare a lab record directly with a silicon module's datasheet efficiency.
+
 Commercial products lag lab by 3-5 percentage points.
 
 ### Challenges
+
+Table: Perovskite challenges and their current status
 
 | Challenge | Status |
 |---|---|
@@ -137,6 +168,8 @@ Advanced [encapsulant](/glossary/encapsulant/) formulations and moisture-blockin
 
 ### Cell architectures
 
+Table: Perovskite cell architecture types
+
 | Type | Description |
 |---|---|
 | Single-junction perovskite | Stand-alone perovskite cell |
@@ -145,6 +178,8 @@ Advanced [encapsulant](/glossary/encapsulant/) formulations and moisture-blockin
 | Triple-junction | Perovskite + perovskite + silicon |
 
 ### Major players
+
+Table: Major perovskite developers and their focus
 
 | Company | Focus |
 |---|---|
@@ -191,6 +226,9 @@ Pre-commercial scale.
 
 Standards still developing.
 
+> [!IMPORTANT] Not on the ALMM list yet
+> Perovskite modules are not yet on the ALMM list in India, because inclusion requires updated standards. Treat perovskite as a technology to watch, not a module type you can specify for an Indian project today.
+
 ## Indian market context
 
 Pre-commercial in India.
@@ -204,6 +242,8 @@ Initial commercial adoption likely 2026-2028.
 ALMM listing requires standards updates.
 
 ## Standards and certifications
+
+Table: Standards relevant to perovskite modules
 
 | Standard | Scope |
 |---|---|

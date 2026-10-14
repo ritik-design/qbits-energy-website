@@ -5,7 +5,7 @@ description: "Pure sine wave is the cleanest AC output waveform. Full guide to l
 category: "Inverter Types"
 categorySlug: "inverter-types"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - pure sine wave
   - sine wave inverter
@@ -74,7 +74,10 @@ author: "Nirav Dhanani"
 
 Pure sine wave, also called true [sine wave](/glossary/sine-wave-inverter/) or sine wave AC, is a smooth sinusoidal alternating current waveform identical in mathematical shape to the AC supplied by the utility grid. The waveform follows the equation v(t) = Vmax × sin(2πft), where f is the fundamental frequency (50 Hz in India) and Vmax is the peak voltage.
 
-> **TL;DR**
+> [!FORMULA] Pure sine waveform
+> v(t) = Vmax × sin(2πft), where f = 50 Hz in India. At 230 V RMS the peak Vmax is about 325 V.
+
+> [!NOTE] In short
 > - Pure sine wave is a smooth sinusoidal AC waveform, identical in shape to grid power, with THD typically under 3 percent.
 > - All modern grid-tie, hybrid and quality off-grid inverters produce it using high-frequency PWM switching followed by an LCL filter.
 > - It is required for grid synchronisation, since a grid-tie inverter cannot match the grid's voltage and phase on a stepped or square waveform.
@@ -101,6 +104,7 @@ Low THD. Pure sine has low harmonic distortion, meeting CEA grid code.
 
 ## How pure sine is produced
 
+<!-- steps -->
 1. DC bus voltage held constant by control loop.
 2. H-bridge of IGBTs/MOSFETs switches at high frequency (16-50 kHz).
 3. Switching pattern varies (PWM) to trace sinusoidal envelope.
@@ -111,6 +115,8 @@ Low THD. Pure sine has low harmonic distortion, meeting CEA grid code.
 
 ### Waveform comparison
 
+Table: Pure sine, modified sine and square wave compared
+
 | Waveform | Peak voltage | RMS | THD |
 |---|---|---|---|
 | Pure sine | 325 V (230 Vrms) | 230 V | <3% |
@@ -118,6 +124,8 @@ Low THD. Pure sine has low harmonic distortion, meeting CEA grid code.
 | Square wave | 230 V flat | 230 V | 48% |
 
 ### Load compatibility
+
+Table: Load compatibility on pure sine and modified sine inverters
 
 | Load type | Pure sine | Modified sine |
 |---|---|---|
@@ -189,6 +197,9 @@ Specify THD under 3 percent in purchase orders when sourcing solar inverters.
 
 Test with actual load profile before commissioning.
 
+> [!TIP] A "pure sine" label is not a measurement
+> Some cheap inverters are marketed as pure sine but are actually quasi-sine, and THD can run above spec at light load. Ask for a THD measurement, specify THD under 3 percent in the purchase order and test with the real load profile before commissioning.
+
 ## Indian market context
 
 Cheap brand off-grid inverters in rural markets may still be modified sine.
@@ -198,6 +209,8 @@ Cheap brand off-grid inverters in rural markets may still be modified sine.
 Major brands clearly specify THD in datasheets.
 
 ## Standards and certifications
+
+Table: Standards that apply to pure sine wave inverters
 
 | Standard | Scope |
 |---|---|

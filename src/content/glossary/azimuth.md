@@ -5,7 +5,7 @@ description: "Azimuth is the horizontal orientation of solar panels. Full guide 
 category: "System Layout"
 categorySlug: "system-layout"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is azimuth
   - solar azimuth
@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 Azimuth angle is the horizontal compass direction a solar panel faces, measured in degrees clockwise from north. North is 0°, east is 90°, south is 180° and west is 270°. For solar panels in the northern hemisphere, facing due south (180°) captures the maximum amount of solar energy over the year because the sun spends the majority of its arc in the southern sky.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Due south (180°) is the optimal azimuth for northern hemisphere sites, including all of India.
 > - A ±15° deviation from south costs only about 1 percent of annual yield, but ±90° (due east or west) costs 18 to 22 percent.
 > - East-west split arrays paired with two MPPTs recover to 95 to 98 percent of due-south yield while better matching morning and evening load.
@@ -94,6 +94,8 @@ Plant layout. Azimuth determines row spacing and inter-row shading.
 
 ## How azimuth affects yield
 
+Table: Annual yield loss by azimuth deviation from due south
+
 | Azimuth deviation from south | Annual yield loss |
 |---|---|
 | 0° (due south) | 0% |
@@ -108,6 +110,8 @@ Plant layout. Azimuth determines row spacing and inter-row shading.
 
 ### East-west configuration
 
+Table: Total annual yield of east-west configurations vs due south
+
 | Strategy | Total annual yield vs south |
 |---|---|
 | Pure south | 100% |
@@ -117,6 +121,8 @@ Plant layout. Azimuth determines row spacing and inter-row shading.
 | South + east + west | 99 to 100% (more panels needed) |
 
 ### Magnetic declination across India
+
+Table: Magnetic declination at Indian locations
 
 | Region | Declination |
 |---|---|
@@ -131,6 +137,8 @@ Plant layout. Azimuth determines row spacing and inter-row shading.
 Small magnitudes mean compass-based orientation is accurate enough for most installations without explicit correction.
 
 ### Generation profile by azimuth
+
+Table: Generation profile by azimuth
 
 | Azimuth | Peak time | Profile |
 |---|---|---|
@@ -159,6 +167,9 @@ Building-integrated PV (BIPV): determined by facade orientation.
 
 ## Common azimuth problems
 
+> [!WARNING] Do not put east and west strings on one MPPT
+> East-west arrays without separate MPPTs cause mismatch loss. The 95 to 98 percent recovery of due-south yield applies only to a 50/50 east-west split with two MPPTs.
+
 Magnetic compass error in dense urban environments (steel structures).
 
 Misorientation during installation, [costing yield](/blog/maximize-solar-output-indian-climate/).
@@ -170,6 +181,9 @@ East-west arrays without separate [MPPTs](/glossary/mppt/) causing mismatch loss
 False north reference from old building drawings.
 
 ## Best practices
+
+> [!TIP] Do not trust a phone compass on a steel roof
+> Magnetic compass error is common in dense urban environments with steel structures. Use GPS or a surveying tool when accuracy matters; declination across India is only -1° to +2°, so it is the steel, not the declination, that fools the compass.
 
 Use GPS or a surveying tool for orientation when accuracy matters.
 
@@ -196,6 +210,8 @@ Rooftop residential installations frequently use east-west splits where south fa
 C&I rooftops often follow shed roof orientations, accepting yield trade-off.
 
 ## Standards and certifications
+
+Table: Standards and guidelines for panel orientation
 
 | Standard | Scope |
 |---|---|

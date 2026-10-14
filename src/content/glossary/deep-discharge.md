@@ -5,7 +5,7 @@ description: "Deep discharge significantly reduces battery cycle life. Full guid
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - deep discharge battery
   - over discharge
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 Deep discharge refers to discharging a battery to a low [state of charge (SOC)](/glossary/battery-soc/), typically below 20 percent SOC for lithium-ion batteries or below 50 percent SOC for lead acid batteries. The exact threshold depends on chemistry: each chemistry has its own [depth-of-discharge (DOD)](/glossary/battery-dod/) tolerance based on cell physics, a gap covered in full in [Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/).
 
-> **TL;DR**
+> [!NOTE] In short
 > - Deep discharge means running a battery down to a low SOC, typically below 20 percent for lithium-ion and below 50 percent for lead-acid.
 > - Going beyond a chemistry's recommended DOD accelerates capacity loss through mechanisms like SEI growth and lithium plating (lithium) or sulfate hardening (lead-acid).
 > - LFP tolerates 80 to 90 percent DOD for 4,500 to 6,000 cycles; lead-acid is typically limited to 50 percent DOD for 1,000 to 1,500 cycles.
@@ -101,6 +101,8 @@ Safety. Severely over-discharged cells may have [thermal runaway](/glossary/ther
 
 ## Recommended discharge limits
 
+Table: Recommended depth of discharge and cycle life by battery chemistry
+
 | Chemistry | Maximum recommended DOD | End-of-life cycles |
 |---|---|---|
 | LFP | 80-90% | 4,500-6,000 |
@@ -115,6 +117,8 @@ Safety. Severely over-discharged cells may have [thermal runaway](/glossary/ther
 
 ### LFP cycle life vs DOD
 
+Table: LFP cycle life by depth of discharge
+
 | DOD | Cycle life |
 |---|---|
 | 100% | 3,500-4,500 |
@@ -127,6 +131,8 @@ Safety. Severely over-discharged cells may have [thermal runaway](/glossary/ther
 
 ### Lead acid cycle life vs DOD
 
+Table: Lead acid cycle life by depth of discharge
+
 | DOD | Cycle life |
 |---|---|
 | 100% | 250-400 |
@@ -137,7 +143,18 @@ Safety. Severely over-discharged cells may have [thermal runaway](/glossary/ther
 
 [Lead acid](/glossary/lead-acid-battery/) is extremely sensitive to DOD; 50% is the practical limit for daily cycling.
 
+Table: LFP vs lead acid cycle life at the same depth of discharge
+
+| Depth of discharge | LFP cycle life | Lead acid cycle life |
+|---|---|---|
+| 100% | 3,500-4,500 | 250-400 |
+| 80% | 4,500-6,000 | 400-700 |
+| 50% | 8,000-10,000 | 1,000-1,500 |
+| 30% | 12,000-15,000+ | 1,800-2,500 |
+
 ### Low-voltage cutoff
+
+Table: Low-voltage cutoff per cell by chemistry
 
 | Chemistry | Cutoff voltage per cell |
 |---|---|
@@ -149,7 +166,12 @@ Safety. Severely over-discharged cells may have [thermal runaway](/glossary/ther
 
 Going below cutoff causes damage. BMS prevents in lithium.
 
+> [!WARNING] Never disable the low-voltage cutoff
+> Severely over-discharged lithium cells may carry a thermal runaway risk on the next charge. Do not disable the BMS low-voltage cutoff to squeeze out extra runtime.
+
 ### Damage mechanisms
+
+Table: Damage mechanisms from deep discharge by chemistry
 
 | Chemistry | Damage from deep discharge |
 |---|---|
@@ -168,6 +190,9 @@ Customer education on usage patterns.
 Warranty terms understanding.
 
 ## Best practices
+
+> [!TIP] Size on usable energy, not nominal capacity
+> Size the battery for the required usable energy at a safe DOD. LFP's sweet spot is 80% DOD (4,500 to 6,000 cycles); 50% DOD is the practical limit for daily-cycled lead acid.
 
 Operate within manufacturer-recommended DOD.
 
@@ -190,6 +215,8 @@ Customer education important to maintain proper DOD.
 PM-KUSUM solar pumps use deep-discharge tolerant lead acid or LFP.
 
 ## Standards and certifications
+
+Table: Standards relevant to battery discharge limits
 
 | Standard | Scope |
 |---|---|

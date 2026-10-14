@@ -5,7 +5,7 @@ description: "Soiling reduces solar yield through dust accumulation. Full guide 
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - solar soiling
   - solar panel dust
@@ -73,7 +73,7 @@ Indian soiling rates are among the highest globally due to dry season dust, agri
 
 Soiling affects yield directly and proportionally. Beyond simple light blocking, severe soiling can cause [hot spots](/glossary/hot-spot/), accelerated [degradation](/glossary/degradation/) and even back sheet damage. Indian solar O&M practices treat cleaning frequency as the most important operational decision after equipment selection.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Soiling is dust, pollen, bird droppings and other particulates accumulating on module surfaces, cutting light transmission and power output.
 > - Without cleaning, Indian plants lose 15 to 25 percent of annual generation to soiling; regular cleaning cuts that to 3 to 8 percent.
 > - Cleaning frequency depends on region: every 7 to 14 days in Rajasthan and Gujarat's desert belt, versus every 21 to 45 days in coastal and north-eastern states.
@@ -95,6 +95,8 @@ PPA economics. Soiling reduces revenue against PPA commitments.
 
 ## Indian soiling rates by region
 
+Table: Daily soiling rate and cleaning frequency by Indian region
+
 | Region | Daily soiling rate | Cleaning frequency |
 |---|---|---|
 | Rajasthan, Gujarat (desert) | 0.4-1.0% | Every 7-14 days |
@@ -109,6 +111,8 @@ PPA economics. Soiling reduces revenue against PPA commitments.
 
 ### Cleaning methods
 
+Table: Module cleaning methods compared on pros and cons
+
 | Method | Pros | Cons |
 |---|---|---|
 | Manual with water and squeegee | Low cost, effective | Labour intensive |
@@ -119,16 +123,18 @@ PPA economics. Soiling reduces revenue against PPA commitments.
 
 ### Cleaning cost economics
 
-For a 1 MW utility plant in Indian conditions:
-- Manual cleaning labour: ₹3-6 lakh/MW/year
-- Water cost: ₹0.5-1 lakh/MW/year
-- Total cleaning OPEX: ₹3.5-7 lakh/MW/year
-- Soiling loss without cleaning: 12-20%
-- Yield gain from cleaning: 8-15%
-- Revenue gain at ₹2.75/kWh: ₹3.5-7 lakh/MW/year
-- Cleaning paybacks itself in approximately 1 year.
+> [!EXAMPLE] 1 MW utility plant in Indian conditions
+> - Manual cleaning labour: ₹3-6 lakh/MW/year
+> - Water cost: ₹0.5-1 lakh/MW/year
+> - Total cleaning OPEX: ₹3.5-7 lakh/MW/year
+> - Soiling loss without cleaning: 12-20%
+> - Yield gain from cleaning: 8-15%
+> - Revenue gain at ₹2.75/kWh: ₹3.5-7 lakh/MW/year
+> - Cleaning pays for itself in approximately 1 year.
 
 ### Anti-soiling technologies
+
+Table: Anti-soiling technologies and how each works
 
 | Technology | Mechanism |
 |---|---|
@@ -138,6 +144,8 @@ For a 1 MW utility plant in Indian conditions:
 | Surface texturing | Self-cleaning during rain |
 
 ### Robotic cleaners
+
+Table: Robotic module cleaners used in India and their type
 
 | Brand | Type |
 |---|---|
@@ -183,6 +191,9 @@ Manual brushing only with soft brushes designed for solar.
 
 Avoid cleaning in direct sun (thermal shock).
 
+> [!WARNING] Cleaning can damage the modules it is meant to protect
+> Brushes risk scratching the glass, so use only soft brushes designed for solar. Water on hot glass in direct sun causes thermal shock, and mineral-rich water leaves deposits, so clean outside peak sun and use deionised water.
+
 Document cleaning dates for warranty.
 
 Install soiling monitoring stations on large plants and fold soiling checks into a [pre-monsoon inspection](/blog/pre-monsoon-solar-inspection-checklist/).
@@ -192,6 +203,8 @@ Train staff on safe cleaning procedures.
 Consider robotic cleaning for sites with >1 MW.
 
 ## Comparison: cleaning approach by plant size
+
+Table: Recommended cleaning approach by plant size
 
 | Plant size | Recommended approach |
 |---|---|
@@ -213,6 +226,8 @@ Soiling-related yield losses included in Indian P50/P90 yield models.
 CERC O&M assumptions include cleaning cost.
 
 ## Standards and certifications
+
+Table: Standards and guidelines that cover soiling and cleaning
 
 | Standard | Scope |
 |---|---|

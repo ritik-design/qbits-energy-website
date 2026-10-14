@@ -7,7 +7,7 @@ date: 2026-08-03
 readTime: "11 min"
 image: "/og/blog-solar-design-software-australia.webp"
 author: "Nirav Dhanani"
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 keywords:
   - solar design software Australia
   - AS/NZS 4777.2 solar design
@@ -36,12 +36,15 @@ faqs:
 
 [Australia](/blog/solar-software-australia/) has the highest per capita rooftop solar penetration on the planet, which is exactly why choosing the right [solar design software](/blog/solar-design-software/) Australia installers can trust has become a margin question rather than a tooling question. More than four million households now run rooftop PV, the Small-scale Renewable Energy Scheme still pays a meaningful STC subsidy through 2030, and almost every state has cut its feed-in tariff to between four and seven cents per kilowatt hour. That combination has pushed the design conversation away from raw nameplate kilowatts and toward self-consumption, battery sizing, and AS/NZS compliance evidence. The tool an Australian installer picks in 2026 either accelerates that workflow or quietly burns the gross margin.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Australia needs AS/NZS 4777.2, AS/NZS 5033, SRES STC calculation, and state FiT logic, not just a US style sales proposal.
 > - Falling export prices mean the real design metric is self-consumption rate, which forces battery modelling into every job.
-> - [SurgePV](https://surgepv.com/) is the [solar design software](https://surgepv.com/) built for that brief, with 8,760 hour shading, bankable yield, and Clara AI on every plan.
-> - SurgePV pricing starts at 1,899 USD per user per year, which lands near AU$2,900 with no per project fees.
-> - [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your real projects on the call.
+> - AS/NZS 4777.2 region settings (volt-watt, volt-var and fixed power factor curves per DNSP region) and export limits must be applied before the layout is locked, or the install is rejected at the meter swap.
+> - NSW retailers now publish feed-in tariffs between four and seven cents per kWh and Victoria has removed its minimum FiT, so the default export rate in a tool should be conservative.
+
+- [SurgePV](https://surgepv.com/) is the [solar design software](https://surgepv.com/) built for that brief, with 8,760 hour shading, bankable yield, and Clara AI on every plan.
+- SurgePV pricing starts at 1,899 USD per user per year, which lands near AU$2,900 with no per project fees.
+- [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your real projects on the call.
 
 <div class="inline-cta">
 <h3>See SurgePV on a Real Australian Roof</h3>
@@ -88,6 +91,8 @@ The financial engine ships the AS/NZS 4777.2 inverter library, the SRES STC zone
 For installers who want to brief their sales team on the platform, the [solar design software for installers](https://surgepv.com/for-solar-installers) overview is the right starting point.
 
 ## Solar Design Software for Australia Comparison
+
+Table: Solar design software for Australia, comparison by capability and price
 
 | Capability | SurgePV | OpenSolar | Aurora | HelioScope | PVcase |
 |---|---|---|---|---|---|

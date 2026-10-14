@@ -4,7 +4,7 @@ excerpt: "The best solar proposal software UAE installers need models DEWA slab-
 description: "Best solar proposal software UAE 2026. SurgePV vs Aurora, PVsyst, HelioScope on DEWA Shams Dubai, ADDC energy netting, EtihadWE expiry, ECAS and zero-rated VAT."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-uae.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 The most common error in a UAE solar proposal is not a design error. It is applying one export assumption and one [tariff](/glossary/tariff/) across a country that has four utility regimes and a residential tariff spread of roughly four to one. A villa in Dubai credited at the consumer's own slab rate under DEWA, an expatriate household in Abu Dhabi at 28 fils, and a subsidised UAE national household at 7 fils are three completely different investment cases on identical hardware. Add EtihadWE credits that expire every December while Dubai and Abu Dhabi roll over indefinitely, and a template built for one emirate will mislead in the others. This guide compares the platforms UAE installers should shortlist for quoting.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - DEWA Shams Dubai credits at the consumer's own slab rate (residential 29 to 44 fils), 1 MW per plot, indefinite rollover.
 > - ADDC and AADC Abu Dhabi give kWh offset only with no cash payment, 5 MW per premises, indefinite accumulation.
 > - Abu Dhabi tariffs: UAE nationals 6.7 to 7.5 fils, expatriates 26.8 to 30.5 fils, commercial ~AED 0.20 per kWh.
@@ -57,6 +57,7 @@ UAE buyers are commercially sophisticated and increasingly driven by reporting o
 
 ## Tariff Category Is The First Question, Not The Roof
 
+> [!IMPORTANT] What most UAE quotes get wrong
 > **What most UAE quotes get wrong.** They quote a payback without establishing the customer's tariff category. In Abu Dhabi that single omission can produce a figure wrong by a factor of four, because a subsidised UAE national pays roughly a quarter of what an expatriate pays for the same imported kWh, and avoided import is where the return comes from.
 
 The practical consequence is uncomfortable but worth stating to customers directly: solar for a subsidised UAE national household in Abu Dhabi does not pay back on economics alone within any reasonable horizon. The honest recommendation there is either a smaller system justified on sustainability grounds, or a frank conversation that the numbers do not support the investment at current subsidised tariffs.
@@ -77,7 +78,8 @@ Sharjah remains the gap. SEWA has no formal distributed solar programme publishe
 
 ## What Else Belongs In The Document
 
-**Zero-rated VAT, stated.** Solar generation equipment is zero-rated for UAE VAT at supply and installation in all seven emirates. Customers frequently assume 5% applies, so making the position explicit is worth a line.
+> [!TIP] State the VAT position
+> **Zero-rated VAT, stated.** Solar generation equipment is zero-rated for UAE VAT at supply and installation in all seven emirates. Customers frequently assume 5% applies, so making the position explicit is worth a line.
 
 **ECAS and the approved lists.** All solar equipment sold in the UAE requires ECAS certification from the Ministry of Industry and Advanced Technology, covered in SurgePV's [ECAS guide](https://www.surgepv.com/solar-compliance/uae/guides/ecas-certification). In Dubai the equipment must also be on DEWA's approved list, and in Abu Dhabi both the design consultant and the installation contractor must appear on the relevant utility's list. Specifying off-list equipment produces a rejection rather than a query.
 
@@ -107,6 +109,8 @@ The default on large UAE projects. Defensible engineering, and the usual source 
 
 ## UAE Solar Proposal Software Comparison
 
+Table: UAE solar proposal software compared on utility credits, tariff category, expiry and price
+
 | Tool | Per-utility credit mechanism | Tariff category by customer type | Credit expiry modelled | Arabic proposals | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes, configurable | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -126,6 +130,8 @@ The default on large UAE projects. Defensible engineering, and the usual source 
 ## Worked Example: 300 kW Commercial Rooftop, Dubai Versus Northern Emirates
 
 An illustrative calculation, not a specific customer project. Inputs: 300 kW DC, 1,750 kWh per kW specific yield, 525,000 kWh generation, 380,000 kWh self-consumed, 145,000 kWh exported, commercial tariff at 44 fils per kWh Dubai and comparable in the Northern Emirates.
+
+Table: 300 kW commercial rooftop: Dubai versus Northern Emirates (illustrative)
 
 | Line | Dubai, DEWA | Northern Emirates, EtihadWE |
 | --- | --- | --- |

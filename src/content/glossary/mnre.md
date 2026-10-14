@@ -5,7 +5,7 @@ description: "MNRE is India's Ministry of New and Renewable Energy. Full guide t
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P0"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is mnre
   - mnre india
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 The Ministry of New and Renewable Energy (MNRE) is the central government ministry responsible for renewable energy in India. Headquartered in New Delhi, MNRE designs national policy, runs subsidy and tender programmes, sets equipment specifications, funds R&D and coordinates with states, regulators and the private sector across the renewable energy value chain.
 
-> **TL;DR**
+> [!NOTE] In short
 > - MNRE (Ministry of New and Renewable Energy) is India's central renewable energy ministry, tracing back to 1982 and renamed to its current form in 2006.
 > - It runs PM Surya Ghar, PM-KUSUM, the solar PLI manufacturing scheme, and controls ALMM equipment listing for subsidised projects.
 > - MNRE sets policy and disburses subsidy; it does not set tariffs (CERC/SERC) or write technical grid standards (CEA).
@@ -106,6 +106,8 @@ International engagement. International Solar Alliance, IRENA, ISA initiatives a
 5. MNRE tracks progress through monthly state-wise dashboards.
 
 ## Major MNRE programmes
+
+Table: Major MNRE programmes and their stated targets
 
 | Programme | Target |
 |---|---|
@@ -181,13 +183,21 @@ Plan project timelines with realistic buffer for ALMM updates.
 
 Maintain documentation per MNRE scheme guidelines for each project.
 
+> [!TIP] Take project queries to the state nodal agency
+> MNRE writes the guidelines, but each state interprets them with local nuance. For a single project, start with the state nodal agency and the DISCOM, and keep MNRE's own grievance portal for delays beyond the stated timelines.
+
 Coordinate with state nodal agencies, not directly with MNRE for individual project queries.
 
 Use the MNRE grievance portal for delays beyond stated timelines.
 
+> [!IMPORTANT] Check ALMM on the day equipment is supplied
+> ALMM is the precondition MNRE sets for subsidy, and listing delays for new manufacturer models are a known cause of blocked projects. Confirm the listing on the day of supply, not at quotation, and build a buffer for ALMM updates into the timeline.
+
 Validate ALMM listing on the day of equipment supply.
 
 ## Comparison: MNRE vs CEA vs CERC
+
+Table: MNRE vs CEA vs CERC, with SECI and IREDA, by role and reporting line
 
 | Body | Role | Reports to |
 |---|---|---|
@@ -210,6 +220,8 @@ Coordination with the Ministry of Power and the Ministry of Heavy Industries on 
 State-level renewable policies generally follow MNRE direction, with state-specific additions.
 
 ## Standards and certifications
+
+Table: MNRE rules, specifications and listings that apply to solar projects
 
 | Standard | Scope |
 |---|---|

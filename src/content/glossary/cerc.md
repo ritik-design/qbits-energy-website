@@ -5,7 +5,7 @@ description: "CERC is India's central electricity tariff regulator. Full guide t
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is cerc
   - central electricity regulatory commission
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 The Central Electricity Regulatory Commission is India's central electricity sector regulator, constituted under the [Electricity Act 2003](/glossary/electricity-act-2003/). CERC's mandate covers tariffs for inter-state generation, inter-state transmission, central public sector undertakings like NTPC, NHPC and POWERGRID, and the rules governing inter-state trading and power exchanges.
 
-> **TL;DR**
+> [!NOTE] In short
 > - CERC (Central Electricity Regulatory Commission) is India's central tariff and market regulator, distinct from CEA (technical standards) and SERCs (state tariffs).
 > - It sets benchmark tariffs for central generation and transmission, issues the Renewable Energy Certificate framework, and adjudicates inter-state PPA disputes.
 > - Rooftop solar net metering tariffs are not a CERC matter — those are set by state SERCs.
@@ -78,6 +78,18 @@ The Central Electricity Regulatory Commission is India's central electricity sec
 For solar specifically, CERC sets benchmark [tariffs](/glossary/tariff/) that state SERCs reference, issues the [Renewable Energy Certificate](/glossary/rec/) (REC) framework, regulates large utility solar [PPAs](/glossary/ppa/) through SECI and central agencies, and adjudicates disputes between generators and central [DISCOMs](/glossary/discom/).
 
 CERC is the technical-economic regulator. [CEA](/glossary/cea/) writes technical standards. [SERCs](/glossary/serc/) handle state-level tariffs. [MNRE](/glossary/mnre/) runs the renewable schemes.
+
+Table: Who regulates what in Indian solar
+
+| Body | Role |
+|---|---|
+| CERC | Central tariffs, REC framework, inter-state PPA disputes |
+| CEA | Technical standards |
+| SERCs | State-level tariffs, including rooftop net metering |
+| MNRE | Renewable schemes |
+
+> [!IMPORTANT] Rooftop net metering is a SERC matter, not CERC
+> A rooftop solar buyer or installer dealing with net metering tariffs works with the state SERC and the local DISCOM. CERC covers central and inter-state generation, transmission, RECs and large utility PPAs through SECI and central agencies.
 
 ## CERC explained simply
 
@@ -97,6 +109,7 @@ Late payment enforcement. The Late Payment Surcharge Rules 2022 operate within C
 
 ## How CERC works
 
+<!-- steps -->
 1. Issues regulations through public consultation.
 2. Adjudicates tariff petitions from generators and transmission utilities.
 3. Hears disputes through formal hearings.
@@ -104,6 +117,8 @@ Late payment enforcement. The Late Payment Surcharge Rules 2022 operate within C
 5. Appeals go to APTEL.
 
 ## Major CERC outputs relevant to solar
+
+Table: Major CERC regulations relevant to solar and what each covers
 
 | Regulation | Scope |
 |---|---|
@@ -159,6 +174,8 @@ Late Payment Surcharge Rules 2022 created mechanisms for DISCOMs to clear renewa
 Green Term-Ahead Market (GTAM) and Green Day-Ahead Market (GDAM) on power exchanges operate under CERC framework.
 
 ## Standards and certifications
+
+Table: Statutes and regulations behind CERC's solar role
 
 | Standard | Scope |
 |---|---|

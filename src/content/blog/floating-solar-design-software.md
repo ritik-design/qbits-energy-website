@@ -4,7 +4,7 @@ excerpt: "Floating solar (floatovoltaics) design software handles the platform g
 description: "2026 guide to floating solar design software: floatovoltaic platform geometry, water-cooling yield boost, anchoring and the SurgePV floating solar workflow."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "8 min"
 image: "/og/blog-floating-solar-design-software.webp"
 author: "Nirav Dhanani"
@@ -40,11 +40,14 @@ faqs:
 
 Floating solar (floatovoltaic or FPV) [design software](https://www.surgepv.com/blog/ai-solar-design-software) handles PV systems mounted on floating platforms over reservoirs, lakes, and irrigation ponds. The water-cooling effect boosts yield, and the geometry has unique considerations. This guide covers the 2026 options and explains how [SurgePV](https://surgepv.com/) ships floating solar inside its [solar design software](https://surgepv.com/) on every paid plan.
 
-> **TL;DR**
-> - [SurgePV](https://surgepv.com/) ships floating solar templates on every paid plan.
+> [!KEYTAKEAWAYS]
 > - Water cooling typically improves yield by 3 to 8 percent versus land mount.
 > - 8,760-hour module-level shading handles the FPV array.
-> - [Book a free SurgePV demo](https://surgepv.com/demo) and design a floating solar project on the call.
+> - A floating solar tool has to handle platform layout over a water body, anchoring geometry handoff to the marine engineer, and a water-cooling temperature coefficient adjustment.
+> - Choose PVsyst for lender-mandated bankable reports on first-of-its-kind FPV projects.
+
+- [SurgePV](https://surgepv.com/) ships floating solar templates on every paid plan.
+- [Book a free SurgePV demo](https://surgepv.com/demo) and design a floating solar project on the call.
 
 <div class="inline-cta">
 <h3>Floating solar design plus the rest of the stack in one tool</h3>
@@ -76,11 +79,12 @@ Floating solar (floatovoltaic or FPV) [design software](https://www.surgepv.com/
 
 ## Common Floating Solar Mistakes
 
-1. **Ignoring the water cooling boost** in yield models
-2. **Skipping wave-loading considerations** in pontoon design
-3. **Not accounting for water-level variation** on anchoring geometry
-4. **Mixing FPV with land array shading models** without water-cooling adjustment
-5. **Forgetting submarine [AC cable](/glossary/ac-cable/) losses** to shore
+> [!WARNING] Five mistakes that skew a floating solar design
+> - **Ignoring the water cooling boost** in yield models
+> - **Skipping wave-loading considerations** in pontoon design
+> - **Not accounting for water-level variation** on anchoring geometry
+> - **Mixing FPV with land array shading models** without water-cooling adjustment
+> - **Forgetting submarine [AC cable](/glossary/ac-cable/) losses** to shore
 
 <div class="inline-cta">
 <h3>Floating solar on every paid plan</h3>

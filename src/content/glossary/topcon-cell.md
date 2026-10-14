@@ -5,7 +5,7 @@ description: "TOPCon (Tunnel Oxide Passivated Contact) is the leading next-gen s
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is topcon cell
   - topcon solar
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 ## What is a TOPCon cell
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - TOPCon uses an ultra-thin tunnel oxide plus doped polysilicon layer at the rear to passivate contacts and cut recombination.
 > - It delivers 24 to 25 percent cell efficiency versus 22 to 23 percent for standard PERC cells.
 > - TOPCon has a better temperature coefficient, lower LeTID and a higher bifaciality factor (80 to 85 percent) than PERC.
@@ -118,6 +118,8 @@ The tunnel oxide passivates the silicon-metal interface electronically, reducing
 
 ### Cell structure
 
+Table: Layer stack of a TOPCon cell
+
 | Layer | Material | Function |
 |---|---|---|
 | Front contact | Silver paste | Electron collection |
@@ -130,6 +132,8 @@ The tunnel oxide passivates the silicon-metal interface electronically, reducing
 
 ### Efficiency progression
 
+Table: TOPCon cell efficiency by year
+
 | Year | TOPCon cell efficiency |
 |---|---|
 | 2018 | 23.0% (lab) |
@@ -140,6 +144,8 @@ The tunnel oxide passivates the silicon-metal interface electronically, reducing
 
 ### Temperature coefficient
 
+Table: TOPCon temperature coefficients
+
 | Parameter | TOPCon |
 |---|---|
 | Voc coefficient | -0.25 to -0.28%/°C |
@@ -148,6 +154,8 @@ The tunnel oxide passivates the silicon-metal interface electronically, reducing
 About 0.04 to 0.05 percentage points better than PERC. This temperature advantage matters most in Indian summers; see [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/) for how module temperature derating affects real-world generation in hot states like Rajasthan.
 
 ### Degradation
+
+Table: TOPCon degradation behaviour
 
 | Mechanism | TOPCon |
 |---|---|
@@ -214,6 +222,9 @@ Junction box reliability.
 
 ## Best practices
 
+> [!TIP] Three datasheet checks before you buy
+> Buy from established Tier-1 manufacturers, verify the PID test certification, and confirm the bifaciality factor (80 to 85 percent for TOPCon) in the datasheet.
+
 Choose TOPCon from established Tier-1 manufacturers with proven yields.
 
 Verify PID test certification.
@@ -229,6 +240,8 @@ Plan annual cleaning schedule.
 Document module serial numbers at commissioning.
 
 ## Comparison: TOPCon vs PERC vs HJT
+
+Table: TOPCon vs PERC vs HJT at a glance
 
 | Feature | TOPCon | PERC | [HJT](/glossary/hjt-cell/) |
 |---|---|---|---|
@@ -253,7 +266,12 @@ SECI utility tender bid documents increasingly specify TOPCon performance assump
 
 PM Surya Ghar accepts ALMM-listed TOPCon modules.
 
+> [!IMPORTANT] Subsidy projects need modules on the ALMM list
+> ALMM List I additions in 2025 to 2026 are predominantly TOPCon, and PM Surya Ghar accepts TOPCon modules that appear on the ALMM list. Check the entry for the exact module before quoting a subsidy-linked project.
+
 ## Standards and certifications
+
+Table: Standards and certifications relevant to TOPCon modules
 
 | Standard | Scope |
 |---|---|
@@ -266,6 +284,9 @@ PM Surya Ghar accepts ALMM-listed TOPCon modules.
 | [BIS certification](/glossary/bis-certification/) | Quality compliance |
 
 ## Common mistakes
+
+> [!WARNING] Keep strings to one cell technology
+> Mixing TOPCon and PERC modules in the same string is a listed installer mistake. Their efficiency, temperature coefficient and bifaciality differ, so do not blend them to use up leftover stock.
 
 Buying TOPCon from unproven manufacturers. Quality consistency is key.
 

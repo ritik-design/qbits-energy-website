@@ -5,7 +5,7 @@ description: "Thermal runaway is uncontrolled battery overheating. Full guide to
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - thermal runaway
   - battery fire
@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 ## What is thermal runaway
 
-> **TL;DR**
+> [!NOTE] In short
 > - Thermal runaway is uncontrolled self-heating in a battery cell that triggers a fire- or explosion-causing chain reaction.
 > - LFP is the most resistant common lithium chemistry (270°C onset); NMC is more vulnerable (150-180°C).
 > - Triggers include overcharge, over-discharge, internal or external short circuits, mechanical damage and manufacturing defects.
@@ -111,6 +111,8 @@ Customer trust. Adoption depends on safety confidence.
 
 ## Thermal runaway thresholds
 
+Table: Thermal runaway onset temperature and outcome by battery chemistry
+
 | Chemistry | Onset temperature | Outcome |
 |---|---|---|
 | LFP | 270°C | Vents, rarely flames |
@@ -125,6 +127,8 @@ Customer trust. Adoption depends on safety confidence.
 
 ### Trigger mechanisms
 
+Table: Triggers that can start thermal runaway
+
 | Trigger | Description |
 |---|---|
 | Overcharge | Excess voltage drives reaction |
@@ -138,6 +142,8 @@ Customer trust. Adoption depends on safety confidence.
 
 ### LFP vs NMC failure behaviour
 
+Table: LFP vs NMC failure behaviour
+
 | Aspect | LFP failure | NMC failure |
 |---|---|---|
 | Onset temperature | 270°C | 150-180°C |
@@ -149,6 +155,11 @@ Customer trust. Adoption depends on safety confidence.
 
 ### BMS thermal protection
 
+> [!TIP] The BMS acts long before the cell does
+> The BMS limits sit far below the onset temperatures above: charging is cut off at 50°C and discharging at 60°C, against 270°C for LFP and 150-180°C for NMC. The alarm that matters in daily use is the 5°C cell-to-cell temperature difference, because it points to one cell heating differently from the rest.
+
+Table: BMS thermal protection thresholds
+
 | Protection | Threshold |
 |---|---|
 | Over-temperature charge | 50°C |
@@ -158,6 +169,8 @@ Customer trust. Adoption depends on safety confidence.
 | Emergency shutdown | Automatic |
 
 ### UL 9540A test outcomes
+
+Table: What a UL 9540A fire test looks for
 
 | Pass criteria | Description |
 |---|---|
@@ -186,6 +199,9 @@ Choose LFP for stationary residential storage; see [Lithium vs Lead-Acid Solar B
 
 Implement a [BMS](/glossary/bms/) with temperature monitoring and cutoffs.
 
+> [!CAUTION] Cabinet placement is a fire-safety decision
+> Keep the cabinet ambient below 30°C, locate it away from flammables, and plan fire suppression for the chemistry in use, since NMC fires need specialised methods while LFP responds to standard fire methods.
+
 Maintain cabinet ambient below 30°C.
 
 Locate cabinets away from flammables.
@@ -198,7 +214,7 @@ Document UL 9540A test results.
 
 LFP dominates Indian residential and small commercial storage.
 
-ALMM and IS 16893 certification ensures basic safety.
+IS 16893 certification is the basic safety benchmark.
 
 Major Indian brands (Goodwe Storage, Sungrow, [Pylon Tech](/blog/pylontech-battery-india-review/), BYD) ship LFP with BMS protection.
 
@@ -207,6 +223,8 @@ EV LFP adoption (Ola Electric, BYD) supported by safety profile.
 Cabinet design standards developing through IS 16893 framework.
 
 ## Standards and certifications
+
+Table: Battery safety standards and fire-test methods
 
 | Standard | Scope |
 |---|---|

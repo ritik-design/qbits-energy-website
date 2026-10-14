@@ -5,7 +5,7 @@ description: "Half-cut cell modules split standard solar cells in half for highe
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is half cut cell
   - half cell module
@@ -71,7 +71,7 @@ The architecture also enables dual-string interconnection inside the module: the
 
 Half-cut cell modules have become the default in Indian and global crystalline silicon solar from 2020 onward. Most modules on the current [ALMM List Phase III](/blog/almm-list-phase-iii-guide/) in 2024 to 2026 are half-cut, with full-cell modules persisting only in legacy spare supply.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Half-cut cells are laser-cut in half, halving current per cell and quartering the I²R resistive losses in the interconnect ribbons.
 > - The gain is roughly 1 to 3 percent module efficiency, about 5 to 15 extra watts per panel.
 > - Dual-string wiring means shading on one half of the module only curtails that half's string, giving better partial-shade tolerance than full-cell designs.
@@ -113,11 +113,15 @@ The voltage per cell is unchanged (defined by silicon physics, not area). The cu
 ### Loss reduction
 
 I²R losses in the interconnect ribbons:
-P_loss = I² × R
+
+> [!FORMULA]
+> P_loss = I² × R
 
 Halving I quarters the loss. Across a 144 half-cell module, the ribbon and busbar resistance losses drop by 60 to 75 percent.
 
 ### Junction box architecture
+
+Table: Bypass diode configurations in half-cut modules
 
 | Diode configuration | Notes |
 |---|---|
@@ -131,6 +135,8 @@ A 144 half-cell module is roughly the same physical size as a 72 full-cell modul
 ### Combination with cell technology
 
 Half-cut compatibility spans [PERC](/glossary/perc-cell/), [TOPCon](/glossary/topcon-cell/) and [HJT](/glossary/hjt-cell/) alike:
+
+Table: Half-cut form by cell technology
 
 | Cell tech | Half-cut form |
 |---|---|
@@ -206,6 +212,8 @@ Document module electrical parameters at commissioning.
 
 ## Comparison: half-cut vs full-cell
 
+Table: Half-cut vs full-cell modules
+
 | Feature | Half-cut | Full-cell |
 |---|---|---|
 | Cell count | 120 or 144 | 60 or 72 |
@@ -228,6 +236,8 @@ Full-cell module shipments are largely for legacy replacement supply.
 
 ## Standards and certifications
 
+Table: Standards and certifications for half-cut modules
+
 | Standard | Scope |
 |---|---|
 | IEC 61215 | Module qualification |
@@ -237,6 +247,9 @@ Full-cell module shipments are largely for legacy replacement supply.
 | BIS certification | Quality compliance |
 
 ## Common mistakes
+
+> [!WARNING] Keep half-cut and full-cell modules in separate strings
+> Mixing half-cut and full-cell modules in the same string is a listed mistake: the string voltage may match, but the optimal MPP behaviour differs.
 
 Choosing full-cell modules to save a small upfront cost without considering lifecycle yield.
 

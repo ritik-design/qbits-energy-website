@@ -5,7 +5,7 @@ description: "SERCs are state electricity regulators that set retail tariffs and
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is serc
   - state electricity regulatory commission
@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 A State Electricity Regulatory Commission is the statutory regulator that governs the electricity sector within a state. Constituted under the [Electricity Act 2003](/glossary/electricity-act-2003/), SERCs set retail [tariffs](/glossary/tariff/) for state [DISCOMs](/glossary/discom/), regulate intra-state transmission utilities, notify net metering and gross metering regulations, and adjudicate disputes within the state.
 
-> **TL;DR**
+> [!NOTE] In short
 > - A SERC (State Electricity Regulatory Commission) is each state's own electricity regulator, distinct from CERC which handles inter-state and central matters.
 > - SERCs set the retail tariff, which is the single biggest factor in solar payback, and notify net metering and gross metering rules.
 > - Rules vary materially by state — Maharashtra MERC, Karnataka KERC, Delhi DERC and others each publish their own net metering and time-of-day tariff orders.
@@ -96,6 +96,8 @@ Consumer protection. CGRF and Ombudsman appeals route through SERC framework.
 
 ## Major SERCs in India
 
+Table: State-wise electricity regulatory commissions
+
 | State | SERC |
 |---|---|
 | Maharashtra | MERC |
@@ -114,6 +116,14 @@ Consumer protection. CGRF and Ombudsman appeals route through SERC framework.
 | Haryana | HERC |
 
 ## SERC outputs relevant to solar
+
+> [!CHECKLIST] Read these four SERC documents before you design or quote
+> - The current tariff order for your consumer category, since it sets the rate solar offsets.
+> - The net metering regulation: cap, credit value and carry-forward.
+> - The ToD tariff order, if your connection is on time-differentiated rates.
+> - The power factor penalty schedule, which drives reactive billing.
+
+Table: SERC orders and regulations that matter for solar, and what each covers
 
 | Output | Scope |
 |---|---|
@@ -184,6 +194,8 @@ Each SERC publishes a Multi-Year Tariff Order, typically every 3 to 5 years, wit
 
 ## Standards and certifications
 
+Table: Statutes and SERC instruments that form the legal basis
+
 | Standard | Scope |
 |---|---|
 | Electricity Act 2003 | Statutory basis |
@@ -202,7 +214,6 @@ For how SERC plays out in real projects, these guides go deeper:
 
 - [Gross Metering vs Net Metering: Which to Choose?](/blog/gross-metering-vs-net-metering/)
 - [How to Apply for Net Metering in India](/blog/how-to-apply-net-metering-india/)
-
 - [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/)
 
 ## Sources

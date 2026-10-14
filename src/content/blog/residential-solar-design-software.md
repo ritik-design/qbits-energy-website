@@ -4,7 +4,7 @@ excerpt: "Residential solar design software compared on roof capture, shading, p
 description: "How to choose residential solar design software: roof capture methods compared, shading on small roofs, multi-plane layout, string sizing against a real inverter window, PM Surya Ghar and DISCOM math, and 7 tools with dated vendor pricing."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "18 min"
 image: "/og/blog-residential-solar-design-software.webp"
 author: "Nirav Dhanani"
@@ -52,13 +52,14 @@ This guide covers what a residential designer needs that a utility tool does not
 
 One disclosure before the comparisons. Qbits makes solar inverters. Qbits does not sell design software and has no stake in which tool you pick. A sister brand, [SurgePV](https://www.surgepv.com/residential-solar-design), is cloud design and proposal software, and it is named here once so the relationship is on the record rather than hidden.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Residential design software is bought for proposal speed and revision cost, not simulation depth. Test revisions in your trial, not first designs.
 > - Aurora Solar publishes USD 1,620 per user per year on Basic and USD 2,640 on Premium with annual billing, both capped at 50 projects per month, per aurorasolar.com (checked 24 September 2026).
 > - Pylon publishes per-project pricing of USD 4.00 Standard (30 kW DC maximum) and USD 10.00 Pro, with CRM from USD 49.00 per user per month, per getpylon.com (checked 24 September 2026).
 > - Arka 360 publishes India pricing of ₹46,000, ₹70,000 and ₹1,00,000 per year plus 18% GST, per arka360.com (checked 24 September 2026).
 > - PM Surya Ghar central financial assistance is capped at 3 kW: ₹30,000 at 1 kW, ₹60,000 at 2 kW, ₹78,000 at 3 kW and above, according to PIB (2024). Any tool that scales past that cap is wrong.
-> - MNRE publishes no ALMM list for inverters. List-I covers modules and List-II covers cells, in force from 1 June 2026, so no design tool can check inverter ALMM eligibility.
+
+- MNRE publishes no ALMM list for inverters. List-I covers modules and List-II covers cells, in force from 1 June 2026, so no design tool can check inverter ALMM eligibility.
 
 **Short version.** Residential solar design software is a tool for turning an address into a signed proposal. The features that matter are fast roof capture from imagery, obstruction-aware layout on small multi-plane roofs, module-level shading, a string check against a real inverter voltage window, a homeowner-readable proposal with e-signature, and financial modelling in your own currency with the correct subsidy cap. Simulation depth beyond a transparent loss tree rarely changes a residential sale.
 
@@ -80,6 +81,8 @@ Terrain-aware grading, tracker backtracking and P90 uncertainty stacks are absen
 ## Roof Capture Compared: Satellite, Drone, LiDAR and Manual Measurement
 
 Roof capture is the first decision and it sets the cost of everything after it. Most residential teams end up using two methods, not one. A satellite-derived model inherits the age and the oblique angle of the imagery. A drone model captures today's roof but costs a visit. The tradeoffs below are industry-observed practice rather than a published study, and they are stated as such.
+
+Table: Roof capture methods compared: turnaround, cost, strengths and failure modes
 
 | Method | Typical turnaround | Per-project cost | Strongest on | Fails on |
 | --- | --- | --- | --- | --- |
@@ -183,6 +186,8 @@ One myth to stop repeating in proposals: there is no ALMM list for inverters. Li
 
 Prices below were read from each vendor's own site on 24 September 2026. Where a vendor publishes nothing, the row says so rather than repeating a figure from a third-party tracker. Quote-only is a fact about the vendor, not a criticism of the product.
 
+Table: Residential design tools compared: strengths, published price and what to watch
+
 | Tool | Best at, for residential | Published price (checked 24 Sep 2026) | Watch for | Review |
 | --- | --- | --- | --- | --- |
 | OpenSolar | Free design plus proposal at low volume | Described as free of charge to solar professionals, funded by partners | Commercial model routes toward partner hardware and finance | [OpenSolar review](/blog/opensolar-review/) |
@@ -210,6 +215,8 @@ So the position is narrow rather than absolute. Buy proposal speed and revision 
 ## How to Choose by Team Size
 
 Answer first: team size decides the billing model more than the feature set. Solo installers should minimise fixed cost per quote. Teams of three to ten should minimise revision time per designer. Above that, integration and user permissions dominate.
+
+Table: Buying order and billing shape by team profile
 
 | Team profile | Buy first | Billing shape that fits | Common mistake |
 | --- | --- | --- | --- |

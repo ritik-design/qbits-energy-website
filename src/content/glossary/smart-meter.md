@@ -5,7 +5,7 @@ description: "A smart meter is an AMI-enabled electricity meter with two-way com
 category: "Metering and Grid"
 categorySlug: "metering-grid"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is smart meter
   - smart meter india
@@ -67,7 +67,7 @@ Smart meters form the customer end of Advanced Metering Infrastructure (AMI), a 
 
 In India, the Revamped Distribution Sector Scheme (RDSS) funds the rollout of approximately 250 million smart meters between 2022 and 2026. CEA Smart Meter Regulations 2023 set the technical and procedural framework. [Bidirectional smart meters](/glossary/bidirectional-meter/) are the standard for net-metered rooftop solar customers under PM Surya Ghar and previous schemes.
 
-> **TL;DR**
+> [!NOTE] In short
 > - A smart meter is a two-way digital meter that logs interval consumption, communicates with the DISCOM automatically and supports remote connect/disconnect and tamper detection.
 > - India's RDSS scheme is rolling out roughly 250 million smart meters between 2022 and 2026 under CEA Smart Meter Regulations 2023.
 > - Bidirectional smart meters that record both import and export are mandatory for net-metered rooftop solar and are a pre-condition for PM Surya Ghar subsidy disbursement.
@@ -112,6 +112,8 @@ EV and prosumer growth. Future grid services like V2G and demand aggregation rel
 
 ### Communication options
 
+Table: Smart meter communication options by range and use case
+
 | Technology | Range | Use case |
 |---|---|---|
 | RF mesh | 100 m to 1 km per hop, multi-hop | Dense urban, suburban |
@@ -132,7 +134,13 @@ EV and prosumer growth. Future grid services like V2G and demand aggregation rel
 
 ### Accuracy and classes
 
-Class 1.0 single-phase residential, class 0.5S three-phase, class 0.2S HT with external CT-PT.
+Table: Smart meter accuracy class by connection type
+
+| Connection | Accuracy class |
+|---|---|
+| Single-phase residential | Class 1.0 |
+| Three-phase | Class 0.5S |
+| HT with external CT-PT | Class 0.2S |
 
 ### DLMS/COSEM
 
@@ -188,6 +196,9 @@ Phase loss alarms after monsoon. Loose neutral connections trip protections.
 
 Prepaid balance miscalculations. Tariff slab changes propagate slowly to local wallet logic.
 
+> [!WARNING] A misconfigured export register means zero export credit
+> If the meter's export register is mis-configured, a solar customer sees zero export on the bill even while the panels are feeding the grid. The fix is made at the DISCOM's AMI head end, so catch it in the first bills and raise it with the DISCOM.
+
 Net metering export register mis-configured. Solar customers see zero export. Fix at AMI head end. See [net metering in India, complete 2026 guide](/blog/net-metering-india-complete-guide/) for the full DISCOM application sequence that ends with this meter swap.
 
 Time drift. Older meters without periodic time sync gradually drift, affecting time-of-day billing.
@@ -199,6 +210,12 @@ App display lag. Some DISCOM apps show data with 24 to 72 hour delay due to MDMS
 ## Best practices
 
 Insist on [DISCOM](/glossary/discom/)-approved meter models and AMI-integrated installation.
+
+> [!CHECKLIST] At meter installation day
+> - Witness the installation and note the serial number, seal numbers, CT polarity and configuration.
+> - Confirm the meter model is on the DISCOM-approved list.
+> - For a solar customer, export briefly and check that the export register increments.
+> - Audit the first three bills against your own consumption observations.
 
 Witness meter installation. Note serial number, seal numbers, CT polarity and configuration.
 
@@ -213,6 +230,8 @@ For prepaid customers, set low-balance alerts and auto-recharge if available.
 Report communication dropouts. The DISCOM relies on customer reports to fix RF dead spots.
 
 ## Comparison: smart vs static vs electromechanical
+
+Table: Smart vs static vs electromechanical meters
 
 | Feature | Electromechanical | Static | Smart |
 |---|---|---|---|
@@ -235,6 +254,8 @@ Major smart meter OEMs in India include Genus Power, HPL Electric, Secure Meters
 PM Surya Ghar disbursement is tied to smart bidirectional meter installation; see [PM Surya Ghar: how to apply online](/blog/pm-surya-ghar-apply-online/) for the full application sequence.
 
 ## Standards and certifications
+
+Table: Standards and regulations that apply to smart meters in India
 
 | Standard | Scope |
 |---|---|

@@ -4,7 +4,7 @@ excerpt: "An honest Sunbase Data review for 2026. What it is, what it costs, whe
 description: "Sunbase Data review 2026: a modular solar CRM, door-to-door sales and operations platform starting at $59 per user per month. Verified pricing, real strengths, honest limits, and how it pairs with a design platform."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-sunbase-review.webp"
 author: "Akash Hirapara"
@@ -37,7 +37,7 @@ featured: false
 
 Most reviews of [Sunbase](/blog/sunbase-alternative/) go wrong in the first paragraph, because they line it up against Aurora Solar or PVsyst and then mark it down for things it never set out to do. Sunbase is not a design engine. It is a CRM, field sales, and operations platform sold to solar, roofing, and construction contractors, and it should be judged on that job. This review covers what Sunbase actually is, what its own site says about pricing, where the product is genuinely strong, where it stops short of a dedicated design platform, and which buyer it fits. The useful question is not whether Sunbase beats a simulation tool. It is which layer of your stack it occupies, and what you still need beside it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Sunbase is a modular contractor management platform covering CRM, proposals, project management, inventory, financials, and reporting for solar, roofing, and construction.
 > - Its published starting price is $59 per user per month, with no fixed public tiers and quotes built per business.
 > - Real strengths sit in field sales: territory mapping, route planning, rep tracking, canvassing lead capture, and contract plus e-signature flow.
@@ -63,6 +63,8 @@ Read that list carefully and the centre of gravity is obvious. Almost every item
 Sunbase publishes one number and declines to publish the rest. Its pricing page states that plans start from $59 per user per month, with customised pricing based on business requirements. There are no fixed tiers listed.
 
 The stated factors that move the price are number of team members, industry workflow, which modules you select, and implementation plus training services. The page directs buyers to request a quote.
+
+Table: What Sunbase publishes about pricing
 
 | What is published | Detail |
 | --- | --- |
@@ -109,6 +111,8 @@ This section is not a list of failures. Sunbase does not claim these capabilitie
 
 **Shading analysis.** We did not find a shading engine described in the Sunbase material we reviewed, so treat this as an open question to put to the vendor rather than a settled absence. For a clean gable roof that may not bite. For a roof with three vents, a chimney, and a neighbouring tree, a production number generated without shading analysis is a number you will have to defend later.
 
+Table: Which layer owns what: design platform versus Sunbase
+
 | Layer | What owns it | Sunbase role |
 | --- | --- | --- |
 | Lead capture and canvassing | CRM | Core strength |
@@ -120,6 +124,7 @@ This section is not a list of failures. Sunbase does not claim these capabilitie
 | Contract, e-signature, permits | CRM | Core strength |
 | Install, crew, inventory, invoicing | Ops platform | Core strength |
 
+> [!IMPORTANT] What most buyers get wrong
 > **What most buyers get wrong.** They run a single evaluation and expect one purchase to cover design accuracy and sales operations. Those are two different products with two different buyers inside your company. Decide which problem is currently costing you more money, solve that one properly, and integrate rather than compromise.
 
 **A word on the breadth trade-off.** Serving solar, roofing, and construction from one platform means solar-specific depth competes for roadmap attention with two other trades. That is a reasonable strategy and it wins the multi-trade contractor. It is also why a solar-only shop should check that the solar workflows are as deep as they need, rather than assuming breadth implies depth in their lane.
@@ -135,12 +140,13 @@ This section is not a list of failures. Sunbase does not claim these capabilitie
 
 Sunbase is a sensible purchase if several of these describe you.
 
-- You run a door-to-door or field canvassing sales motion and currently manage territories in a shared map or a spreadsheet.
-- Your reps are numerous enough that routing, territory overlap, and activity tracking are real management problems.
-- Leads are leaking between first contact and appointment because follow-up is manual.
-- You want contracts, change orders, and e-signatures on the same record as the deal.
-- Your jobs need tracking after signature, through scheduling, materials, and invoicing.
-- You operate across solar and at least one of roofing or construction, so a multi-trade platform avoids running two systems.
+> [!CHECKLIST] Buy Sunbase if several of these describe you
+> - You run a door-to-door or field canvassing sales motion and currently manage territories in a shared map or a spreadsheet.
+> - Your reps are numerous enough that routing, territory overlap, and activity tracking are real management problems.
+> - Leads are leaking between first contact and appointment because follow-up is manual.
+> - You want contracts, change orders, and e-signatures on the same record as the deal.
+> - Your jobs need tracking after signature, through scheduling, materials, and invoicing.
+> - You operate across solar and at least one of roofing or construction, so a multi-trade platform avoids running two systems.
 
 For that company, the operational gain is not subtle. Organising a field sales team is the difference between growth and churn, and a design tool will never do it.
 

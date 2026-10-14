@@ -5,7 +5,7 @@ description: "Monocrystalline solar panels use single-crystal silicon cells for 
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is monocrystalline
   - mono solar panel
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 ## What is a monocrystalline panel
 
-> **TL;DR**
+> [!NOTE] In short
 > - Monocrystalline panels use cells cut from a single silicon crystal, giving higher efficiency (20 to 23 percent typical) and better low-light performance than polycrystalline.
 > - Mono PERC dominated Indian installations from 2020 to 2024; mono TOPCon has taken over since, with HJT serving the premium segment.
 > - Mono modules degrade slower than polycrystalline (0.4 to 0.55%/year vs 0.6 to 0.8%) and now carry well-controlled LID and LeTID effects.
@@ -113,6 +113,8 @@ The single-crystal structure minimises grain boundaries, which would otherwise t
 
 ### Cell technologies inside monocrystalline modules
 
+Table: Monocrystalline cell technologies compared on efficiency, cost and use
+
 | Technology | Efficiency | Cost | Use case |
 |---|---|---|---|
 | Standard mono | 18 to 20% | Lowest | Legacy |
@@ -124,9 +126,12 @@ The single-crystal structure minimises grain boundaries, which would otherwise t
 
 ### Module efficiency vs cell efficiency
 
-Module efficiency is lower than individual cell efficiency due to cell spacing, frame area and glass transmission. A 23 percent cell typically gives a 21 to 21.5 percent module.
+> [!EXAMPLE] From cell to module
+> Module efficiency is lower than individual cell efficiency due to cell spacing, frame area and glass transmission. A 23 percent cell typically gives a 21 to 21.5 percent module.
 
 ### Temperature coefficient
+
+Table: Temperature coefficients of Voc and Pmax for mono PERC, TOPCon and HJT
 
 | Parameter | Mono PERC | Mono TOPCon | Mono HJT |
 |---|---|---|---|
@@ -136,6 +141,8 @@ Module efficiency is lower than individual cell efficiency due to cell spacing, 
 HJT panels lose less power in heat, giving better real-world yield in Indian conditions, the same -0.35%/°C PERC coefficient measured in the field in [Case Study (10 kW Solar on a Jaipur Villa), 4-Year Payback](/blog/case-study-jaipur-villa/).
 
 ### Degradation
+
+Table: Degradation mechanisms and typical mono module behaviour
 
 | Mechanism | Mono behaviour |
 |---|---|
@@ -200,6 +207,9 @@ Junction box failure. Bypass diode short circuits or open circuits.
 
 Soiling. Indian rooftops accumulate dust quickly. 5 to 25 percent yield loss in dry season.
 
+> [!TIP] Clean before you chase a cell upgrade
+> Soiling alone can cost 5 to 25 percent of yield in the dry season, which is a bigger swing than the gap between PERC and TOPCon at most Indian sites. Fix the annual cleaning schedule first, then compare cell technologies on temperature coefficient and degradation.
+
 ## Best practices
 
 Choose ALMM-listed and BIS-certified mono modules.
@@ -217,6 +227,8 @@ Document module serial numbers at commissioning.
 Monitor I-V curves at annual inspection.
 
 ## Comparison: mono PERC vs TOPCon vs HJT
+
+Table: Mono PERC vs TOPCon vs HJT on efficiency, temperature, degradation and price premium
 
 | Feature | PERC | TOPCon | HJT |
 |---|---|---|---|
@@ -241,6 +253,8 @@ PM Surya Ghar disbursement requires ALMM-listed mono modules.
 [BIS certification](/glossary/bis-certification/) under IS 14286 is the prerequisite quality standard.
 
 ## Standards and certifications
+
+Table: Standards and listings that apply to monocrystalline modules in India
 
 | Standard | Scope |
 |---|---|

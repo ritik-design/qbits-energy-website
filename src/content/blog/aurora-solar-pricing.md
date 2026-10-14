@@ -4,7 +4,7 @@ excerpt: "Aurora Solar does not publish list pricing, and figures reported by bu
 description: "Aurora Solar pricing in 2026 explained: quote-based plans, AI Mode and Sales Mode add-ons, extras to ask about, and the SurgePV alternative. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-aurora-solar-pricing.webp"
 author: "Nirav Dhanani"
@@ -34,11 +34,12 @@ faqs:
 
 Aurora Solar does not publish list pricing, and the figures buying teams report put it in the upper band of the [solar design software](/blog/solar-design-software/) market. This guide breaks down the plan and add-on structure, names the cost lines to ask about, and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat $1,299 to $1,899 per user per year. For the wider picture beyond price, see our full [Aurora Solar alternative comparison](/blog/aurora-solar-alternative/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Aurora Solar does not publish list pricing. Figures reported by buying teams cluster loosely around $150 to $260 per user per month, but those are unverified and every deal is negotiated per account.
 > - AI Mode and Sales Mode are separately priced add-ons on top of the base plan. Ask for them to be quoted line by line.
 > - [SurgePV](https://surgepv.com/) delivers the same engineering outputs plus AI plus proposals at $1,299 to $1,899 per user per year flat.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and see the cost math on a real project.
+> - Cost lines to ask about in writing: AI Mode, Sales Mode, training or onboarding fees, CRM integration, multi-language proposals and tier-gated 8,760-hour shading.
 
 <div class="inline-cta">
 <h3>Flat published pricing, no quote to negotiate</h3>
@@ -49,6 +50,8 @@ Aurora Solar does not publish list pricing, and the figures buying teams report 
 
 ## Aurora Solar Pricing by Plan
 
+Table: Aurora Solar plans and add-ons with reported, unverified price ranges
+
 | Plan | Pricing basis | Reported range (unverified) | Feature notes |
 | --- | --- | --- | --- |
 | Entry | Quote only | Reported near the low $150s per user per month | Simplified shading, no AI Mode |
@@ -57,7 +60,8 @@ Aurora Solar does not publish list pricing, and the figures buying teams report 
 | AI Mode add-on | Quote only | Not published | AI design assistance |
 | Sales Mode add-on | Quote only | Not published | Proposal builder |
 
-Aurora Solar does not publish list pricing. The ranges above are figures reported to us by teams who went through Aurora's sales process, they are unverified, and pricing is negotiated per account, so treat them as directional only and confirm your own numbers directly with Aurora before signing.
+> [!WARNING] Treat these ranges as directional only
+> Aurora Solar does not publish list pricing. The ranges above are figures reported to us by teams who went through Aurora's sales process, they are unverified, and pricing is negotiated per account, so treat them as directional only and confirm your own numbers directly with Aurora before signing.
 
 ## Hidden Costs to Watch For
 

@@ -5,7 +5,7 @@ description: "MC4 is the standard solar DC connector. Full guide to types, matin
 category: "Installation"
 categorySlug: "installation"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is mc4 connector
   - solar connector
@@ -73,9 +73,8 @@ author: "Nirav Dhanani"
 
 MC4 (Multi-Contact 4 mm) is the de facto industry-standard photovoltaic DC connector used for connecting solar panels to each other and to the inverter, charge controller or [combiner box](/glossary/combiner-box/). Developed by Multi-Contact (now part of Stäubli) in 2002, the design is now produced by numerous manufacturers under TUV 2 PfG 1161/08.07 certification.
 
-> **TL;DR**
+> [!NOTE] In short
 > - MC4 is the industry-standard PV DC connector, rated 1000 to 1500 V DC and 30 A (35 A on the newer Evo generation), sealed to IP67/IP68.
-
 > - Cross-brand mating is technically possible but not officially endorsed; best practice is to standardise on one connector brand per installation.
 > - Hand-crimped connectors without the manufacturer's specific crimp tool are a leading cause of field failures, often showing heat marks within 12 months.
 > - A dedicated Stäubli disconnect tool is required to separate mated MC4 connectors safely — forcing them apart without it breaks the connector.
@@ -97,6 +96,7 @@ Cost effective. Low per-unit cost.
 
 ## How MC4 connectors work
 
+<!-- steps -->
 1. [PV cable](/glossary/dc-cable/) stripped to expose conductor.
 2. Conductor crimped to MC4 metal pin or socket using manufacturer's crimp tool.
 3. Pin or socket inserted into MC4 polymer body.
@@ -109,6 +109,8 @@ Cost effective. Low per-unit cost.
 
 ### MC4 ratings
 
+Table: MC4 connector electrical and mechanical ratings
+
 | Parameter | Value |
 |---|---|
 | DC voltage | 1000 V or 1500 V (newer Evo) |
@@ -120,6 +122,8 @@ Cost effective. Low per-unit cost.
 | Cable diameter | 4 to 6 mm² (some variants 2.5 mm² or 10 mm²) |
 
 ### Common failure modes
+
+Table: Common MC4 failure modes and their causes
 
 | Failure | Cause |
 |---|---|
@@ -135,6 +139,9 @@ Manufacturer-specified crimp tool for each MC4 brand. Hand crimping or alternati
 - Inadequate contact area
 - Voltage drop and heating
 - Premature failure within 1 to 3 years
+
+> [!WARNING] A hand-crimped MC4 is not a shortcut
+> Without the manufacturer's crimp tool, contact area is inadequate, voltage drop and heating follow, and the connector can fail within 1 to 3 years, often showing heat marks inside 12 months. Use the crimp tool specified for that connector brand and keep the cable diameter within the connector's range.
 
 ### Polarity
 
@@ -191,9 +198,14 @@ Use connector caps on unused MC4.
 
 Maintain spares on site.
 
+> [!TIP] Keep the disconnect tool and one connector brand on site
+> A lost disconnect tool leads to destructive removal, and forcing mated MC4 connectors apart without it breaks the connector. Cross-brand mating is technically possible but not officially endorsed, so standardise on one brand per installation and cap any unused connector.
+
 Avoid heating with cable ties.
 
 ## Comparison: MC4 generations
+
+Table: MC4 connector generations compared
 
 | Generation | Notes |
 |---|---|
@@ -215,6 +227,8 @@ TUV 2 PfG 1161 certification is the de facto compliance standard.
 PM Surya Ghar residential installations use MC4 connectors universally.
 
 ## Standards and certifications
+
+Table: Standards and certifications for PV connectors
 
 | Standard | Scope |
 |---|---|

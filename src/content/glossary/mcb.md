@@ -5,7 +5,7 @@ description: "MCB is an electrical protection device for overcurrent and short c
 category: "Protection"
 categorySlug: "protection"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is mcb
   - miniature circuit breaker
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 A Miniature Circuit Breaker (MCB) is an electromechanical protection device that interrupts [current](/glossary/current/) flow in a circuit when an overcurrent or short-circuit condition is detected. It combines thermal-magnetic tripping with manual switching, providing both protection and isolation in a compact wall-mounted module.
 
-> **TL;DR**
+> [!NOTE] In short
 > - An MCB is a resettable AC overcurrent breaker: a thermal element trips on sustained overload, a magnetic element trips instantly on short circuit.
 > - It replaced rewireable fuses in Indian homes and businesses from the 1990s and is standard on solar AC circuits.
 > - MCB Type (B, C or D) must match the load's inrush profile; a 5 kW solar inverter (about 22 A) typically needs a 32 A MCB with 25 percent headroom.
@@ -81,6 +81,9 @@ A Miniature Circuit Breaker (MCB) is an electromechanical protection device that
 MCBs replaced traditional rewireable fuses in Indian residential and commercial installations from the 1990s. They offer multiple advantages: resettable operation (no fuse element to replace), faster response to faults, integrated isolation and visual indication of state.
 
 For solar installations, MCBs protect the AC side: at the [solar inverter](/glossary/solar-inverter/) output, in sub-distribution boards, and in individual home circuits. DC protection uses DC-rated [fuses](/glossary/fuse/) or DC-specific [isolators](/glossary/isolator/) because of differences in arc extinguishing.
+
+> [!WARNING] Never put an AC MCB on a DC string
+> The page's own rule: MCBs protect the AC side only. A DC solar string needs a DC-rated fuse or isolator because direct current arcs are harder to extinguish, and "using AC MCB on DC circuits" is listed under common mistakes below.
 
 ## Why MCBs matter
 
@@ -107,6 +110,8 @@ When either trips, the contact mechanism breaks the circuit and toggles the hand
 
 ### MCB types
 
+Table: MCB trip types by magnetic trip threshold and use
+
 | Type | Magnetic trip threshold | Use case |
 |---|---|---|
 | Type B | 3 to 5 × In | Residential, resistive loads |
@@ -116,6 +121,8 @@ When either trips, the contact mechanism breaks the circuit and toggles the hand
 | Type Z | 2 to 3 × In | Sensitive electronics |
 
 ### Current ratings
+
+Table: Standard MCB current ratings and where each is used
 
 | Standard ratings (A) | Use |
 |---|---|
@@ -127,6 +134,8 @@ When either trips, the contact mechanism breaks the circuit and toggles the hand
 
 ### Breaking capacity (Icn)
 
+Table: Typical breaking capacity (Icn) by installation type
+
 | Application | Typical Icn |
 |---|---|
 | Residential | 6 kA |
@@ -136,6 +145,8 @@ When either trips, the contact mechanism breaks the circuit and toggles the hand
 Breaking capacity must exceed expected short-circuit current at the installation point.
 
 ### Number of poles
+
+Table: MCB pole configurations and what each one switches
 
 | Configuration | Switches |
 |---|---|
@@ -173,6 +184,9 @@ Wrong type selected (Type B on inductive load) tripping during motor start.
 
 Size MCB to circuit load plus 25 percent headroom.
 
+> [!EXAMPLE] Sizing for a 5 kW inverter output
+> A 5 kW inverter draws about 22 A (figure from the summary above). Adding 25 percent headroom gives about 27 A, and the next standard rating in the table is 32 A. Match the type to the load and check that breaking capacity exceeds the short-circuit current at that point.
+
 Match type to load profile (B for resistive, C for mixed, D for motors).
 
 Specify breaking capacity above expected short-circuit current.
@@ -186,6 +200,8 @@ Thermography check during [preventive maintenance](/blog/inverter-maintenance-in
 Replace after major fault event.
 
 ## Comparison: MCB vs MCCB vs Fuse
+
+Table: MCB vs MCCB vs fuse on range, resetting, breaking capacity and use
 
 | Feature | MCB | MCCB | Fuse |
 |---|---|---|---|
@@ -205,6 +221,8 @@ ALMM does not list MCBs separately. BIS certification under IS 60898 applies.
 [DISCOM](/glossary/discom/) [commissioning](/blog/solar-inverter-commissioning-in-india/) verifies MCB selection at the AC interconnection. MCB and [RCCB](/glossary/rccb/) ratings are typically shown on the electrical interconnection drawings prepared for CEIG and DISCOM approval.
 
 ## Standards and certifications
+
+Table: Standards and rules that apply to MCBs in India
 
 | Standard | Scope |
 |---|---|

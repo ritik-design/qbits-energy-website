@@ -5,7 +5,7 @@ description: "Second-life batteries reuse retired EV batteries. Full guide to ap
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - second life battery
   - repurposed ev battery
@@ -74,7 +74,7 @@ Second-life batteries undergo testing, sorting, [BMS](/glossary/bms/) retrofit a
 
 For Indian solar storage, second-life batteries represent emerging opportunity as EV adoption accelerates. Major Indian companies including Lithion Power, ACE Green Recycling, Attero and BatX are building second-life processing capacity. By 2030, second-life could supply 20-30 percent of Indian stationary storage market.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Second-life batteries are EV packs retired at 70 to 80 percent State of Health, repurposed for less-demanding stationary solar storage.
 > - They cost 30 to 50 percent less than new cells but come with shorter warranties (3 to 5 years vs 10) and 5 to 10 years of remaining service life.
 > - Indian processors including Lithion Power, ACE Green Recycling, Attero and BatX Energies are building second-life capacity.
@@ -97,6 +97,8 @@ Resource recovery. Bridges to full recycling.
 
 Comparing a second-life pack against a new [LFP battery](/glossary/lfp-battery/) mostly comes down to trading upfront cost against remaining [cycle life](/glossary/cycle-life/) and warranty length; see our [solar battery price guide](/blog/solar-battery-price-guide-india-2026/) for new-cell pricing to benchmark against.
 
+Table: Second-life vs new battery
+
 | Aspect | Second-life | New |
 |---|---|---|
 | Cost (₹/kWh) | 15,000-25,000 | 35,000-50,000 |
@@ -109,6 +111,8 @@ Comparing a second-life pack against a new [LFP battery](/glossary/lfp-battery/)
 ## Technical deep dive
 
 ### Retired EV battery characteristics
+
+Table: Typical characteristics of a retired EV battery
 
 | Parameter | Typical |
 |---|---|
@@ -130,6 +134,8 @@ Comparing a second-life pack against a new [LFP battery](/glossary/lfp-battery/)
 
 ### Applications by SOH range
 
+Table: Second-life applications by state of health
+
 | SOH range | Application |
 |---|---|
 | 75-80% | Premium stationary, second-grade |
@@ -138,6 +144,8 @@ Comparing a second-life pack against a new [LFP battery](/glossary/lfp-battery/)
 | Below 55% | Recycling for material recovery |
 
 ### Indian second-life players
+
+Table: Indian second-life and recycling players
 
 | Company | Focus |
 |---|---|
@@ -150,11 +158,13 @@ Comparing a second-life pack against a new [LFP battery](/glossary/lfp-battery/)
 
 ### Economics
 
-For 100 kWh stationary system:
-- New LFP: ₹35-40 lakh
-- Second-life: ₹15-25 lakh
-- Cost saving: ₹15-20 lakh
-- Trade-off: shorter service life and warranty
+> [!EXAMPLE]
+> For 100 kWh stationary system:
+>
+> - New LFP: ₹35-40 lakh
+> - Second-life: ₹15-25 lakh
+> - Cost saving: ₹15-20 lakh
+> - Trade-off: shorter service life and warranty
 
 ## Real-world applications
 
@@ -186,6 +196,9 @@ Document for warranty and insurance.
 
 ## Challenges
 
+> [!WARNING] Test and retrofit before reuse
+> Improperly tested packs are a safety risk, and quality varies between retired packs. Use only BMS-retrofitted packs from certified second-life processors with thorough testing documentation.
+
 Quality variation between retired packs.
 
 Limited supply currently (EV adoption growing).
@@ -209,6 +222,8 @@ Major Indian processors building capacity for 2026-2030 deployment.
 Government EV mission expansion supports feedstock.
 
 ## Standards and certifications
+
+Table: Standards and rules for second-life batteries
 
 | Standard | Scope |
 |---|---|

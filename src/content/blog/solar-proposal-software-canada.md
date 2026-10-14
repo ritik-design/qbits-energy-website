@@ -4,7 +4,7 @@ excerpt: "The best solar proposal software Canada installers need models ten pro
 description: "Best solar proposal software Canada 2026. SurgePV vs Aurora, OpenSolar, Solargraf on provincial net metering, Clean Tech ITC, provincial rebates and CSA certification."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-proposal-software-canada.webp"
 author: "Akash Hirapara"
@@ -36,7 +36,7 @@ featured: false
 
 [Canada](/blog/solar-software-canada/) does not have a national solar proposal. It has ten of them. Export credit runs from $0.04390 per kWh under Manitoba net billing to full retail near $0.145 in Ontario, a spread of more than three times on identical hardware. Settlement periods range from monthly in Alberta to a 24 month reset in Quebec. Capacity caps run from 100 kW to 5 MW. On top of that sits a federal Clean Technology ITC that pays businesses 30% refundable and pays homeowners nothing, plus six live provincial programs and two that closed recently and still appear in circulating templates. This guide compares the platforms Canadian installers should shortlist, judged on whether they model the province rather than the country.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Export credits range from $0.04390 per kWh in Manitoba to roughly $0.145 in Ontario. There is no national rate.
 > - The federal Clean Technology ITC gives businesses 30% refundable on capital cost through 31 December 2033. It does not apply to residential.
 > - Live provincial programs: BC Hydro to $10,000, Quebec $1,000 per kW from March 2026, Ontario HRSP to $5,000, PEI $1,000 per kW capped at $10,000, Manitoba $0.50 per DC watt to 10 kW.
@@ -57,6 +57,8 @@ Canadian solar is a smaller market than the US by volume but has larger average 
 
 ## The Provincial Problem, In One Table
 
+Table: Provincial net metering: authority, maximum size, export credit and reset period
+
 | Province | Authority | Max size | Export credit | Reset |
 | --- | --- | --- | --- | --- |
 | British Columbia | BC Hydro | 100 kW | 10 cents per kWh from July 2026 | Annual payout |
@@ -66,6 +68,7 @@ Canadian solar is a smaller market than the US by volume but has larger average 
 | Saskatchewan | SaskPower | 100 kW | 7.5 cents per kWh to March 2029 | Non-expiring |
 | Manitoba | Manitoba Hydro | 100 kW | $0.04390 per kWh net billing | Monetary credit |
 
+> [!IMPORTANT] What most Canadian quotes get wrong
 > **What most Canadian quotes get wrong.** They carry one export assumption for the whole country. In Ontario at retail credit with a 12 month window, oversizing against annual consumption is the correct recommendation. In Manitoba at 4.39 cents, the same recommendation destroys value, because every exported kWh returns roughly a seventh of what an imported one costs. Two provinces, opposite advice, identical roof.
 
 The settlement period compounds it. Alberta settles monthly, so summer surplus cannot offset winter consumption at all. Quebec runs a 24 month reset, which is unusually generous and allows meaningful banking. Saskatchewan credits are non-expiring. A proposal that shows an annual net figure without stating the settlement basis is hiding whether the surplus actually carries.
@@ -75,6 +78,8 @@ SurgePV's [Canada compliance library](https://www.surgepv.com/solar-compliance/c
 ## The Incentive Stack, And The Two Closed Programs
 
 The federal Clean Technology Investment Tax Credit is the anchor for commercial and agricultural work: 30% refundable on capital cost through 31 December 2033. Refundable is the important word. It pays out even where the business has no tax liability in the year, which materially changes the cashflow case for smaller operators and farms. It does not apply to homeowners.
+
+Table: Canadian incentive programs, what they apply to and their value
 
 | Program | Applies to | Value |
 | --- | --- | --- |
@@ -111,6 +116,8 @@ Common in smaller Canadian operations. The main source of closed-program lines a
 
 ## Canada Solar Proposal Software Comparison
 
+Table: Canada solar proposal software compared on provincial rules, incentives, SCC filtering and price
+
 | Tool | Provincial net metering | Clean Tech ITC, business only | Live provincial rebates | SCC certification filtering | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes, per province | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -130,6 +137,8 @@ Common in smaller Canadian operations. The main source of closed-program lines a
 ## Worked Example: 60 kW Commercial Rooftop, Ontario Versus Alberta
 
 An illustrative calculation, not a specific customer project. Inputs: 60 kW DC, 1,150 kWh per kW specific yield, 69,000 kWh generation, 44,000 kWh on-site consumption, installed cost $105,000.
+
+Table: 60 kW commercial rooftop: Ontario versus Alberta (illustrative)
 
 | Line | Ontario | Alberta, monthly settlement |
 | --- | --- | --- |

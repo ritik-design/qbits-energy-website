@@ -5,7 +5,7 @@ description: "Conduit protects and routes electrical cables. Full guide to types
 category: "Installation"
 categorySlug: "installation"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is conduit
   - solar conduit
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 Conduit is the protective tubing through which electrical cables are routed in buildings, plants and outdoor installations. It shields cables from mechanical damage, UV exposure, water, dust, rodents and fire. For solar PV installations, conduit serves dual purposes: physical protection of the cable run and code compliance with IS 732 wiring code and CEA Measures Relating to Safety.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Conduit is protective tubing that routes and shields [DC](/glossary/dc-cable/) and [AC](/glossary/ac-cable/) solar cables from UV, mechanical damage, rodents and water.
 > - Indian solar uses rigid PVC for most runs, flexible PVC for short equipment connections, GI in industrial settings, and HDPE underground.
 > - Common sizes run 20 to 25 mm for residential, 32 to 50 mm for C&I, and 50 to 100 mm for utility DC trunk runs.
@@ -94,6 +94,8 @@ Fire safety. Some conduit types provide fire containment.
 
 ## Conduit types
 
+Table: Conduit types by material and typical use
+
 | Type | Material | Use |
 |---|---|---|
 | Rigid PVC | uPVC | Indoor and short outdoor |
@@ -108,6 +110,8 @@ Fire safety. Some conduit types provide fire containment.
 
 ### Common sizes (Indian)
 
+Table: Common Indian conduit sizes with approximate internal diameter and cable capacity
+
 | Size (mm) | Internal diameter | Cables (approximate) |
 |---|---|---|
 | 16 | ~13 | 2-3 small |
@@ -120,6 +124,8 @@ Fire safety. Some conduit types provide fire containment.
 
 ### Fill ratio
 
+Table: Maximum conduit fill ratio by number of cables
+
 | Number of cables | Maximum fill ratio |
 |---|---|
 | 1 | 53% |
@@ -128,7 +134,12 @@ Fire safety. Some conduit types provide fire containment.
 
 Beyond fill ratio causes cable heating and reduces ampacity.
 
+> [!TIP] Count the cables before you pick the size
+> The permitted fill is not one number: 53 percent for a single cable, 31 percent for two, and 40 percent for three or more. Choosing from the size table without checking the cable count is how a run ends up overfilled, hot and derated.
+
 ### IP rating for outdoor
+
+Table: Minimum IP rating for outdoor solar enclosures and entries
 
 | Component | Required IP |
 |---|---|
@@ -138,9 +149,9 @@ Beyond fill ratio causes cable heating and reduces ampacity.
 
 ### Bonding
 
-GI conduit must be electrically bonded to system earth at multiple points. Continuity provides earth path during fault.
+> [!CAUTION] Bond every GI conduit run
+> GI conduit must be electrically bonded to system earth at multiple points, because its continuity provides the earth path during a fault. An unbonded metal run can become live in a fault. PVC conduit is non-conductive, so cables inside it use a separate earth conductor.
 
-PVC conduit is non-conductive; cables inside use separate earth conductor.
 
 ## Real-world applications
 
@@ -190,6 +201,8 @@ Use proper deburring tools on cut ends.
 
 ## Comparison: conduit types
 
+Table: Conduit types compared on cost, UV resistance, mechanical strength and use
+
 | Type | Cost | UV | Mechanical | Use |
 |---|---|---|---|---|
 | Rigid PVC | Low | Good if UV-stable | Good | Standard |
@@ -211,6 +224,8 @@ C&I rooftops use combination of rigid PVC for cable runs and flexible PVC for eq
 Utility plants use HDPE for buried runs and GI or PVC overhead, often specified as part of turnkey solar EPC installation scope.
 
 ## Standards and certifications
+
+Table: Standards that govern conduit selection and installation
 
 | Standard | Scope |
 |---|---|

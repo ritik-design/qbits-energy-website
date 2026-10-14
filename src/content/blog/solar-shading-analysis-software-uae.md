@@ -4,7 +4,7 @@ excerpt: "Almost every UAE roof is flat with a tall parapet, and almost every ar
 description: "Solar shading analysis software UAE 2026: parapet and inter-row self-shading on flat roofs, soiling that compounds with shading, high ambient temperature effects, and pricing loss against DEWA net metering."
 category: "Solar Software"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-solar-shading-analysis-software-uae.webp"
 author: "Keyur Rakholiya"
@@ -35,13 +35,14 @@ featured: false
 
 UAE solar [shading analysis](/glossary/shading-analysis/) is unusual because the obstruction is almost always part of the project. Flat roofs with tall perimeter parapets are the default across Dubai and Abu Dhabi, arrays sit on tilted frames in rows, and the two dominant shading sources are the parapet and the array's own preceding row. Neither is a tree you can trim. Both are decided at design stage, which makes the modelling directly actionable in a way it rarely is elsewhere. Layered on top is Gulf dust, which does not simply add to the shading loss but interacts with it. This guide covers what shading analysis has to do differently in the UAE, and which tools do it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The dominant UAE shading sources are self-inflicted: perimeter parapets and inter-row spacing on flat roofs.
 > - A single fixed setback around the whole perimeter wastes roof area, because each edge shades differently.
 > - [Soiling](/glossary/soiling/) and shading interact electrically and must sit in the same loss chain, not be stacked as separate derates.
 > - Sustained bypass diode conduction is a durability question at Gulf temperatures, not only an energy one.
 > - Under Shams Dubai credit-based net metering, shading costs most on systems sized close to on-site consumption.
-> - [SurgePV](https://surgepv.com/) runs 8,760-hour module-level shading with soiling in the loss chain at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
+
+- [SurgePV](https://surgepv.com/) runs 8,760-hour module-level shading with soiling in the loss chain at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
 **Short version.** Solar [shading analysis software](https://heavendesigns.in/blog/solar-shading-analysis-software/) for UAE projects has to optimise parapet setback per edge and inter-row spacing economically, run 8,760 hourly steps at module level, and carry soiling in the same electrical model rather than as a flat annual percentage. Because the shading is self-inflicted, good analysis here does not just measure a loss, it removes one.
 
@@ -59,6 +60,8 @@ The general methodology is covered in our [solar shading analysis software](/blo
 Almost every UAE roof has a perimeter parapet, commonly around a metre or more, and almost every designer handles it with a single setback figure applied uniformly around the roof. That is convenient and it is wrong, because the four edges do not behave alike.
 
 The sun in the UAE tracks high through the middle of the day and low near sunrise and sunset, and it sits north of overhead for part of the year given the latitude. The consequence is that the northern parapet, the eastern parapet and the western parapet each cast shadows into the array at different times of day, for different durations, and with different amounts of energy behind them.
+
+Table: When each roof edge shades and how much energy sits behind those hours
 
 | Edge | When it shades | How much energy is behind those hours |
 | --- | --- | --- |
@@ -87,7 +90,8 @@ Modules in a string are wired in series, so string current is governed by the we
 
 The interaction also changes the cleaning economics, which is where it costs money in practice. Cleaning recovers the soiling loss on a module, but on a module that spends several hours a day in parapet or inter-row shadow, part of that recovery is unavailable because the module is constrained by shading regardless. Cleaning schedules built on a uniform roof-wide soiling assumption therefore over-invest in the shaded portions of the array.
 
-> **A practical test for a vendor.** Ask whether their tool computes shading and soiling in the same electrical model or applies them as sequential derates. If the answer is sequential, ask them to justify a cleaning frequency for a parapet-shaded row versus a clear row. A tool that cannot distinguish those two cases cannot optimise UAE operations and maintenance.
+> [!TIP] A practical test for a vendor
+> Ask whether their tool computes shading and soiling in the same electrical model or applies them as sequential derates. If the answer is sequential, ask them to justify a cleaning frequency for a parapet-shaded row versus a clear row. A tool that cannot distinguish those two cases cannot optimise UAE operations and maintenance.
 
 ## Heat, Bypass Diodes And Durability
 
@@ -105,6 +109,8 @@ The design implication is not to avoid shading entirely, which is impossible on 
 ## Worked Example: Setback Strategy On A Dubai Warehouse Roof
 
 An illustrative calculation showing what per-edge modelling recovers, not a specific customer project. Inputs: a rectangular flat roof, 1.2 m perimeter parapet, tilted rows, and a facility whose load peaks with afternoon cooling.
+
+Table: Dubai warehouse roof: setback strategy, installed capacity, specific yield and annual output (illustrative)
 
 | Approach | Installed capacity | Annual specific yield | Annual output |
 | --- | --- | --- | --- |

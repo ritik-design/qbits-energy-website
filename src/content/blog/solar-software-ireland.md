@@ -4,7 +4,7 @@ excerpt: "Two Irish numbers resist averaging: a grant that tapers by kWp band an
 description: "Best solar software Ireland 2026: the full stack for design, proposals, CRM and compliance. SEAI grant bands, Clean Export Guarantee rates, NC6 and NC7, EN 50549 and planning exemptions."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-ireland.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 Irish solar economics contain two numbers that should never be averaged, and most software averages both. The SEAI grant tapers by kilowatt band rather than scaling with system size, so support per kilowatt collapses above 2 kWp and stops at 4. The Clean Export Guarantee is set by individual suppliers across a standard range of roughly 15.2 to 32.0 cents per kWh, so the value of every exported unit varies by more than two to one depending on who the household buys electricity from. A tool holding a flat grant percentage and a national export rate produces a quote that is wrong for nearly every Irish customer, in an unpredictable direction. This guide covers what the Irish stack has to do.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - SEAI grant tapers: 700 euros per kWp for the first 2 kWp, 200 per kWp for the next 2, capped at 1,800 from 4 kWp.
 > - Clean Export Guarantee standard rates run roughly 15.2 to 32.0 cents per kWh by supplier, with Pinergy at 25.0 cents.
 > - The first 400 euros of annual export income is tax-exempt through the end of 2028.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And The Two Averaged Numbers
 
+Table: The six software categories an Irish solar business runs and the Irish complication for each
+
 | Category | What it does | Irish complication |
 | --- | --- | --- |
 | Design and simulation | Layout, diffuse-corrected shading, yield | Diffuse fraction breaks geometric shading models |
@@ -66,6 +68,7 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Scheduling, install, commissioning | NC7 approval is not automatic |
 | Monitoring | Performance, service, warranty | Standalone |
 
+> [!TIP] Record the supplier at qualification
 > **The CRM point is not incidental.** Because the export rate depends on the household's supplier, that field belongs in your qualification data rather than being asked at proposal stage. A team that records it as standard can model accurately from the first conversation and can spot customers whose best available action is switching supplier.
 
 ## What Is Genuinely Ireland-Specific
@@ -76,7 +79,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 **The 400 euro exemption.** The first 400 euros of annual export income is tax-exempt through the end of 2028. Above that, export income is taxable, which slightly reduces the after-tax value of the marginal exported unit on larger systems. Combined with the grant ceiling, Irish residential economics have two separate points where the marginal kilowatt gets less attractive.
 
-**NC6 versus NC7.** A notification you control versus an application you do not. A proposal promising a timeline has implicitly promised a connection pathway, and above the NC6 thresholds that promise is not yours to make.
+> [!WARNING] Above the NC6 thresholds the timeline is not yours to promise
+> **NC6 versus NC7.** A notification you control versus an application you do not. A proposal promising a timeline has implicitly promised a connection pathway, and above the NC6 thresholds that promise is not yours to make.
 
 **High diffuse fraction.** Geometric shading models overstate Irish losses. Overstating loss is not the safe conservative choice people assume, it kills viable projects and makes your numbers look pessimistic next to a competitor with a better engine.
 
@@ -121,6 +125,8 @@ Strong residential design built around US net metering, which Ireland does not o
 
 ## Ireland Solar Software Stack Comparison
 
+Table: Ireland solar software stack compared by capability
+
 | Capability | SurgePV | OpenSolar | PVsyst | PV*SOL | Aurora |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Partial | Yes | Yes | Yes |
@@ -135,6 +141,8 @@ Strong residential design built around US net metering, which Ireland does not o
 ## Worked Example: 5 kWp, Two Suppliers
 
 An illustrative calculation, not a specific customer project. Inputs: 5 kWp array, roughly 4,500 kWh annual generation, 35% self-consumption, 2,925 kWh exported, SEAI grant at the 1,800 euro maximum, identical hardware in both columns.
+
+Table: 5 kWp with two different Clean Export Guarantee suppliers (illustrative)
 
 | Line | Supplier at 15.2 c | Supplier at 25.0 c |
 | --- | --- | --- |

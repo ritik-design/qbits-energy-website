@@ -5,7 +5,7 @@ description: "Voltage is the electrical potential difference. Full guide to AC, 
 category: "Electrical Basics"
 categorySlug: "electrical-basics"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is voltage
   - voltage solar
@@ -67,7 +67,7 @@ author: "Nirav Dhanani"
 
 Voltage is the electrical potential difference between two points in a circuit. It is the driving force that moves electric charge through a conductor under a load. The SI unit is the volt (V), defined as one joule of energy per coulomb of charge moved.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Voltage is electrical potential difference, measured in volts (V), and it drives current through a circuit per Ohm's law (V = I × R).
 > - Indian solar DC strings run 300 to 600 V for residential systems and 600 to 1500 V for utility-scale systems.
 > - Grid-side AC voltage is 230 V single-phase or 415 V three-phase at the LT level, rising to 400 kV at transmission.
@@ -96,6 +96,8 @@ Inverter selection. Single-phase vs three-phase choice depends on service voltag
 
 ## Indian voltage levels
 
+Table: Nominal voltage levels in the Indian power system
+
 | Level | Nominal voltage |
 |---|---|
 | LT single-phase | 230 V |
@@ -109,6 +111,8 @@ Inverter selection. Single-phase vs three-phase choice depends on service voltag
 
 ### AC vs DC
 
+Table: AC vs DC compared
+
 | Property | AC | DC |
 |---|---|---|
 | Direction | Alternating | Constant |
@@ -119,25 +123,33 @@ Inverter selection. Single-phase vs three-phase choice depends on service voltag
 
 ### Solar string voltage example
 
-A 14-module string with each module Voc 41 V, Vmp 34 V:
-- String Voc = 14 × 41 = 574 V
-- String Vmp = 14 × 34 = 476 V
+> [!EXAMPLE] A 14-module string on a cold morning
+> A 14-module string with each module Voc 41 V, Vmp 34 V:
+>
+> - String Voc = 14 × 41 = 574 V
+> - String Vmp = 14 × 34 = 476 V
+>
+> At cold winter mornings, Voc temperature derate adds ~5 percent:
+>
+> - Cold Voc = 574 × 1.05 = 603 V
 
-At cold winter mornings, Voc temperature derate adds ~5 percent:
-- Cold Voc = 574 × 1.05 = 603 V
+> [!WARNING] Cold-morning Voc must stay below the inverter limit
+> Must stay below inverter maximum DC input (e.g., 600 V residential, 1500 V utility). A string that exceeds it on a cold morning risks catastrophic failure.
 
-Must stay below inverter maximum DC input (e.g., 600 V residential, 1500 V utility). See [Inverter Voltage: String Voltage vs MPPT Voltage in Solar Inverters India 2026](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/) for cold-zone Voc spike calculations and a full string-design worked example.
+See [Inverter Voltage: String Voltage vs MPPT Voltage in Solar Inverters India 2026](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/) for cold-zone Voc spike calculations and a full string-design worked example.
 
 ### Voltage drop in DC cables
 
 V_drop = 2 × I × R × L
 
 For 1 percent target on a 100 m DC string at 10 A:
-R_max per metre = V_drop / (2 × I × L) = (V_op × 0.01) / (2 × 10 × 100) ≈ 0.000025 Ω/m
+R_max per metre = V_drop / (2 × I × L) = (V_op × 0.01) / (2 × 10 × 100) ≈ 0.0024 Ω/m for the 476 V string above
 
 This drives cable cross-section selection.
 
 ### CEA voltage envelope
+
+Table: CEA voltage envelope for grid-connected plants
 
 | Parameter | Indian CEA limits |
 |---|---|
@@ -195,6 +207,8 @@ IS 12360 sets preferred voltage levels for Indian electrical systems.
 State DISCOM tariffs increasingly include voltage-based slabs for HT and EHT customers.
 
 ## Standards and certifications
+
+Table: Standards for voltage levels
 
 | Standard | Scope |
 |---|---|

@@ -5,7 +5,7 @@ description: "A fuse is an overcurrent protection device that melts under fault 
 category: "Protection"
 categorySlug: "protection"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is fuse
   - solar fuse
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 A fuse is a one-shot overcurrent protection device consisting of a calibrated metal element enclosed in an insulating body. When [current](/glossary/current/) through the element exceeds the rated value for a defined time, the element heats above its melting point, vaporises, and interrupts the circuit. After operation, the fuse must be replaced.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A fuse is a one-time overcurrent device: a calibrated metal element that melts and permanently opens the circuit when current exceeds its rating.
 > - Solar DC strings use gPV fuses rated 1000 to 1500 V DC with 10 kA breaking capacity, purpose-built for DC arc extinction.
 > - Fuses are sized at roughly 1.5 times module Isc, then rounded up to the nearest standard rating.
@@ -96,6 +96,7 @@ Safety. Without fuse protection, a faulted string can absorb reverse current fro
 
 ## How a fuse works
 
+<!-- steps -->
 1. Current flows through the calibrated fuse element.
 2. The element has a defined I²t (energy) characteristic for melting.
 3. Continuous current below rated value causes no significant heating.
@@ -110,6 +111,8 @@ For DC fuses, arc extinction is more challenging because DC has no zero crossing
 
 ### Fuse classifications
 
+Table: Fuse classes and their behaviour
+
 | Class | Behaviour |
 |---|---|
 | gG | General-purpose, low let-through |
@@ -120,6 +123,8 @@ For DC fuses, arc extinction is more challenging because DC has no zero crossing
 
 ### gPV fuse ratings (typical)
 
+Table: Typical gPV fuse ratings for solar DC strings
+
 | Parameter | Value |
 |---|---|
 | Voltage rating | 1000 V DC or 1500 V DC |
@@ -129,15 +134,21 @@ For DC fuses, arc extinction is more challenging because DC has no zero crossing
 
 ### Fuse selection for solar strings
 
-Rated current I_fuse = 1.5 × Isc_module
+> [!FORMULA] Solar string fuse rating
+> Rated current I_fuse = 1.5 × Isc_module
 
-Example: 16 A Isc module → 24 A fuse, round to nearest standard (25 A). Use [SurgePV's string sizing calculator](https://surgepv.com/tools/string-sizing-calculator/) to cross-check fuse and [string sizing](/glossary/string-sizing/) together for a given module and inverter combination.
+> [!EXAMPLE] A 16 A Isc module
+> 1.5 × 16 A = 24 A, rounded to the nearest standard rating of 25 A. The voltage rating must still equal or exceed the maximum string Voc at cold temperature.
+
+Use [SurgePV's string sizing calculator](https://surgepv.com/tools/string-sizing-calculator/) to cross-check fuse and [string sizing](/glossary/string-sizing/) together for a given module and inverter combination.
 
 Voltage rating must equal or exceed maximum string [Voc](/glossary/open-circuit-voltage/) at cold temperatures.
 
 Reverse current rating must accommodate reverse current from N-1 parallel strings, where N is the total number of parallel strings in the combiner box.
 
 ### Form factors
+
+Table: Common fuse form factors in solar
 
 | Form | Use |
 |---|---|
@@ -188,6 +199,8 @@ Maintain spares on site.
 
 ## Comparison: fuse vs breaker
 
+Table: Fuse compared with MCB and MCCB
+
 | Feature | Fuse | MCB / MCCB |
 |---|---|---|
 | Reusable | No | Yes |
@@ -211,6 +224,8 @@ C&I rooftop systems with 3 or more parallel strings typically include fuse prote
 BIS certification under IS 13703 for low voltage fuses. Installers sourcing pre-wired DCDB and ACDB enclosures with integrated fuse protection can skip building combiner assemblies from scratch on site.
 
 ## Standards and certifications
+
+Table: Standards that cover solar fuses
 
 | Standard | Scope |
 |---|---|

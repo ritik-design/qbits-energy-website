@@ -5,7 +5,7 @@ description: "Polycrystalline (multi-crystalline) solar panels use cast silicon 
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is polycrystalline
   - poly solar panel
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 Polycrystalline solar, also called multi-crystalline silicon (mc-Si), refers to PV modules whose cells are cut from silicon wafers cast from molten silicon that solidifies as multiple grains. The wafers contain many small crystals separated by grain boundaries. Cells are processed through diffusion, metallisation and interconnection similar to monocrystalline.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Polycrystalline (multi-crystalline) solar cells are cast from molten silicon that solidifies into many small crystal grains, unlike single-crystal monocrystalline wafers.
 > - Module efficiency tops out around 17-19 percent, well below the 20-23 percent typical of modern mono PERC and TOPCon modules.
 > - Since roughly 2020, mono manufacturing scaled enough that mono cost per watt fell below poly, erasing poly's historical cost advantage.
@@ -109,6 +109,8 @@ The fundamental physics is identical to monocrystalline. The difference is the s
 
 ### Cell efficiency progression
 
+Table: Standard poly cell efficiency by year
+
 | Year | Standard poly cell |
 |---|---|
 | 2010 | 15.5% |
@@ -121,6 +123,8 @@ The fundamental physics is identical to monocrystalline. The difference is the s
 
 ### Module efficiency
 
+Table: Standard poly module efficiency by year
+
 | Year | Standard poly module |
 |---|---|
 | 2010 | 13 to 14% |
@@ -130,6 +134,8 @@ The fundamental physics is identical to monocrystalline. The difference is the s
 
 ### Temperature coefficient
 
+Table: Temperature coefficients of poly vs mono PERC
+
 | Parameter | Poly | Mono PERC |
 |---|---|---|
 | Voc coefficient (%/°C) | -0.30 to -0.32 | -0.27 to -0.30 |
@@ -138,6 +144,8 @@ The fundamental physics is identical to monocrystalline. The difference is the s
 Poly is slightly worse at high temperatures, which matters in Indian summers.
 
 ### Degradation
+
+Table: Degradation behaviour of poly modules
 
 | Mechanism | Poly |
 |---|---|
@@ -201,7 +209,13 @@ Soiling losses similar to mono, 5 to 25 percent depending on cleaning schedule.
 
 Verify ALMM listing and [BIS certification](/glossary/bis-certification/).
 
+> [!WARNING] A replacement module must match the array it joins
+> Mixing mono and poly in one string causes a 5 to 15 percent string mismatch loss, and the same mismatch appears when a replacement module's Voc, Imp or Vmp differs from the original. Match all three to the original datasheet before ordering.
+
 Match replacement modules to original Voc, Imp and Vmp specifications.
+
+> [!TIP] Ask for the PID test certificate on older stock
+> Older poly modules without PID-resistant materials suffer significant degradation within 5 to 10 years, so for a grounded-inverter system insist on PID-resistant modules and a PID test certification (IEC 62804) rather than assuming the old design is fine.
 
 Use PID-resistant modules in systems with grounded inverter.
 
@@ -210,6 +224,8 @@ Document module serial numbers and electrical parameters.
 Plan annual cleaning.
 
 ## Comparison: poly vs mono PERC vs mono TOPCon
+
+Table: Poly vs mono PERC vs mono TOPCon
 
 | Feature | Polycrystalline | Mono PERC | Mono TOPCon |
 |---|---|---|---|
@@ -233,6 +249,8 @@ PM Surya Ghar accepts ALMM-listed poly modules, but supply availability is limit
 Legacy poly systems installed before 2020 continue to operate. Operations and maintenance for these systems remains an active business.
 
 ## Standards and certifications
+
+Table: Standards and listings that apply to polycrystalline modules
 
 | Standard | Scope |
 |---|---|
@@ -261,7 +279,7 @@ Polycrystalline is a legacy crystalline silicon technology that dominated the ea
 
 ## Need legacy poly module replacement?
 
-QBits Energy sources replacement poly modules for legacy systems where mono substitution is not feasible due to mismatch, alongside our primary mono module supply.
+Qbits Energy makes solar inverters and does not supply solar modules. For a replacement poly module where mono substitution is not feasible due to mismatch, match the original Voc, Imp and Vmp as described above and source it through your installer or a module distributor. If the legacy array feeds a Qbits inverter, check the replacement module's Voc and Imp against that inverter's datasheet input window.
 
 ## Further reading
 

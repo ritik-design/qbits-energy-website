@@ -4,7 +4,7 @@ excerpt: "Spanish surplus credits settle monthly, never roll over, and can never
 description: "Best solar design software Spain 2026. SurgePV vs PV*SOL, Aurora, PVsyst on RD 244/2019, compensación simplificada, the monthly zero floor and the new 5 km collective self-consumption radius."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-design-software-spain.webp"
 author: "Keyur Rakholiya"
@@ -36,7 +36,7 @@ featured: false
 
 Spanish solar design turns on a rule that most simulation tools cannot represent. Under compensación simplificada, surplus is credited against the monthly bill at the hourly spot price, the credit can never take the energy component of that bill below zero, and nothing rolls over into the following month. Those three constraints operate together, and they mean a system sized against annual consumption will generate summer surplus that is neither banked nor paid. An annual model shows that energy as fully compensated. The customer's June bill shows otherwise. This guide covers what Spanish [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has to do, and which tools do it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - RD 244/2019 remains the operative framework, with compensación simplificada unchanged in its core mechanism since 2019.
 > - Surplus is credited monthly at the hourly spot price, capped so the energy component of the bill cannot go below zero.
 > - There is no rollover between months, so summer surplus beyond the monthly cap is lost outright.
@@ -60,6 +60,8 @@ For the quoting side see our [best solar proposal software Spain](/blog/solar-pr
 
 Three rules define compensación simplificada, and each one on its own would be manageable. Together they produce behaviour that annual modelling cannot reproduce.
 
+Table: Spanish self-consumption rules and what each means for design
+
 | Rule | Consequence for design |
 | --- | --- |
 | Settlement is monthly | Each month stands alone, so seasonal balancing does not happen |
@@ -68,6 +70,7 @@ Three rules define compensación simplificada, and each one on its own would be 
 
 Consider what this does to a typical Spanish household. Generation peaks in June and July. Electricity consumption in many Spanish homes does not peak with it, and even where air conditioning lifts summer demand the load and the generation do not track hour for hour. So the summer months are exactly when surplus is largest and exactly when the monthly cap is most likely to bind.
 
+> [!IMPORTANT] What most Spanish sizing gets wrong
 > **What most Spanish sizing gets wrong.** It compares annual generation to annual consumption and concludes that a system "covers" the household. In practice the winter months underproduce and import, the summer months overproduce and hit the floor, and the annual figures conceal both. The customer sees a system that was supposed to eliminate their bill still charging them in January while wasting energy in July.
 
 The correct method is straightforward once the constraint is understood. Simulate hourly, aggregate to monthly, apply the cap in each month separately, and look for the months where surplus exceeds what the credit can absorb. Those months tell you the array is oversized for this load profile, regardless of what the annual total says.
@@ -127,6 +130,8 @@ Common in smaller Spanish practices. Flexible, and the usual home of an annual-t
 
 ## Spain Solar Design Software Comparison
 
+Table: Spain solar design software compared on monthly settlement, spot pricing, collective allocation and price
+
 | Tool | Monthly settlement with zero floor | Hourly spot price modelling | Collective self-consumption allocation | Regional incentive configuration | Spanish proposals | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -139,6 +144,8 @@ Common in smaller Spanish practices. Flexible, and the usual home of an annual-t
 ## Worked Example: 5 kWp Near Valencia, Annual Versus Monthly Settlement
 
 An illustrative calculation showing what the monthly floor removes, not a specific customer project. Inputs: 5 kWp array, roughly 8,000 kWh annual generation, household consumption 4,500 kWh, self-consumption around 35%.
+
+Table: 5 kWp near Valencia: annual model versus monthly settlement with floor (illustrative)
 
 | | Annual model | Monthly settlement with floor |
 | --- | --- | --- |

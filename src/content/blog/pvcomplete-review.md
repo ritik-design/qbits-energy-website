@@ -4,7 +4,7 @@ excerpt: "An honest PVComplete review for 2026. What PVCAD and PVSketch actually
 description: "PVComplete review 2026: PVCAD and PVSketch assessed after the Enact Solar acquisition. CAD-native permit drawings, reported pricing, real limitations, and alternatives including SurgePV, HelioScope and Aurora."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-pvcomplete-review.webp"
 author: "Keyur Rakholiya"
@@ -37,7 +37,7 @@ featured: false
 
 [PVComplete](/blog/pvcomplete-alternative/) is one of the few solar design products that started from the engineer's side of the business rather than the salesperson's. Its core product, PVCAD, is a plugin that runs inside Autodesk AutoCAD, which means the file you finish with is a real CAD drawing rather than an export that a drafter has to rebuild. That is an unusual position in a market where almost every competitor has spent the last decade building browser-based sales tools. This review looks at what PVComplete is in 2026, what changed when Enact Solar acquired it in January, what the product genuinely does better than anything else, where it stops fitting the buyer, and which alternatives deserve a look first.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Enact Solar announced its acquisition of PVComplete on 13 January 2026, and PVComplete's CEO and CTO moved to Enact in the same roles. The products are still sold, but the roadmap now sits inside a larger platform.
 > - The line is four products: PVSketch and PVSketch Mega in the browser, PVCAD and PVCAD Mega as AutoCAD plugins.
 > - PVComplete does not publish a stable public price list. Third-party trackers report PVCAD in the region of $180 to $300 per user per month depending on whether an AutoCAD licence is bundled, with Mega tiers higher. Verify directly.
@@ -71,6 +71,8 @@ The intended flow is that a developer or seller starts a project in PVSketch and
 ## PVComplete Pricing in 2026
 
 We could not verify a current, stable public price list from PVComplete's own site at the time of writing, and reported figures differ between third-party trackers and between years. What follows is directional, labelled as such, and should not be used as a quote.
+
+Table: PVComplete reported price range by product
 
 | Product | Reported range | Notes |
 | --- | --- | --- |
@@ -120,7 +122,8 @@ Stacking is the second issue. The suite is four products. A commercial EPC that 
 
 **Post-acquisition uncertainty.** Not a product flaw, but a buying risk. Ask what happens to each of the four products over the next 24 months and get the answer in the contract if it matters to you.
 
-> **What most buyers get wrong.** They compare PVComplete's design speed against a browser tool and conclude it is slow. The comparison is wrong. Measure the whole path from site data to an approved permit set, including the CAD redraw the browser tool forces on you. If your team does that redraw, PVComplete may already be faster. If your team never touches CAD, it is not.
+> [!IMPORTANT] What most buyers get wrong
+> They compare PVComplete's design speed against a browser tool and conclude it is slow. The comparison is wrong. Measure the whole path from site data to an approved permit set, including the CAD redraw the browser tool forces on you. If your team does that redraw, PVComplete may already be faster. If your team never touches CAD, it is not.
 
 <div class="inline-cta">
 <h3>Need CAD output without living inside CAD?</h3>
@@ -171,11 +174,10 @@ The Enact acquisition does not change the verdict on the software, but it change
 
 For most teams reading a review like this, our recommendation is SurgePV, because the common requirement is design plus proposals from one record with DXF and DWG available downstream, at $1,299 to $1,899 per user per year and without an AutoCAD dependency. If your deliverable really is a stamped drawing set and your engineers already live in AutoCAD, PVComplete is the better tool and you should buy it on that basis.
 
-Three things to do next:
-
-- Time your current path from site data to approved permit set, including any CAD redraw, so you know what a CAD-native tool would actually save.
-- Get a written all-in quote covering every PVComplete product your seat mix needs, plus AutoCAD if you do not already own it.
-- Rebuild two recent projects in a shortlisted alternative and compare the finished drawing and proposal, not the feature list.
+> [!CHECKLIST] Three things to do next
+> - Time your current path from site data to approved permit set, including any CAD redraw, so you know what a CAD-native tool would actually save.
+> - Get a written all-in quote covering every PVComplete product your seat mix needs, plus AutoCAD if you do not already own it.
+> - Rebuild two recent projects in a shortlisted alternative and compare the finished drawing and proposal, not the feature list.
 
 <div class="inline-cta">
 <h3>Run the comparison on your own projects</h3>

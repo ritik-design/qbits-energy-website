@@ -5,7 +5,7 @@ description: "A lithium-ion battery stores energy through reversible Li-ion inte
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P0"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is lithium ion battery
   - li-ion battery solar
@@ -76,7 +76,7 @@ For solar applications, lithium-ion batteries cover a range of chemistries with 
 
 In India, lithium-ion installations for solar storage grew from under 100 MWh in 2020 to several gigawatt-hours by 2025, driven by the falling cost of [LFP](/glossary/lfp-battery/), growth of [hybrid inverters](/glossary/hybrid-inverter/), and the National Electric Mobility Mission expanding battery manufacturing.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Lithium-ion batteries store energy by shuttling lithium ions between two electrodes, and the family includes LFP, NMC, NCA, LCO and LMO chemistries.
 > - LFP dominates Indian stationary solar storage (4,000 to 8,000 cycles) while NMC is preferred in EVs for its higher energy density.
 > - Round-trip efficiency is 92 to 96 percent at cell level for lithium-ion versus 75 to 85 percent for lead acid.
@@ -122,6 +122,8 @@ Charge and discharge cycles are managed by a [BMS](/glossary/bms/) that monitors
 
 ### Chemistries comparison
 
+Table: Lithium-ion chemistries compared by energy density, cycle life, safety and cost
+
 | Chemistry | Energy density (Wh/kg) | Cycle life | Safety | Cost | Use case |
 |---|---|---|---|---|---|
 | LFP | 90 to 160 | 4,000 to 8,000 | Excellent | Low | Stationary, light EVs |
@@ -133,6 +135,8 @@ Charge and discharge cycles are managed by a [BMS](/glossary/bms/) that monitors
 
 ### Cell formats
 
+Table: Lithium-ion cell formats and where they are used
+
 | Format | Notes |
 |---|---|
 | Cylindrical (18650, 21700, 4680) | Standardised, used in EVs and storage modules |
@@ -140,6 +144,8 @@ Charge and discharge cycles are managed by a [BMS](/glossary/bms/) that monitors
 | Pouch | Highest energy density per kg, used in mobile and EVs |
 
 ### Pack voltages for solar
+
+Table: Typical battery pack voltage by solar application
 
 | Application | Pack voltage |
 |---|---|
@@ -150,7 +156,8 @@ Charge and discharge cycles are managed by a [BMS](/glossary/bms/) that monitors
 
 ### Round-trip efficiency
 
-η_rt = E_discharge / E_charge
+> [!FORMULA] Round-trip efficiency
+> η_rt = E_discharge / E_charge
 
 LFP: 92 to 95 percent.
 NMC: 93 to 96 percent.
@@ -201,6 +208,9 @@ Limited Indian cell manufacturing as of 2026; pack assembly is mature.
 
 BMS communication failure with inverter. CAN bus or RS485 setting mismatch.
 
+> [!IMPORTANT] Check battery and inverter compatibility before ordering
+> The most common lithium-ion fault in solar systems is the BMS failing to talk to the inverter, usually a CAN bus or RS485 setting mismatch. Match the battery to the inverter's published compatibility list and use a BMS-supported pack with CAN bus communication to the inverter.
+
 Over-temperature in summer cabinets. Forced ventilation required.
 
 Cell imbalance after years of cycling. BMS balancing should handle, but extreme imbalance requires service.
@@ -221,11 +231,16 @@ Use a BMS-supported pack with CAN bus communication to inverter.
 
 Cycle within the rated [depth of discharge](/glossary/battery-dod/) (typically 80 to 90 percent for LFP) to protect [cycle life](/glossary/cycle-life/).
 
+> [!TIP] Two habits that protect cycle life
+> Keep the battery room at 20 to 30°C ambient through ventilation or shading, since heat reduces life, and cycle within the rated depth of discharge (typically 80 to 90 percent for LFP). Long idle periods at low state of charge speed up ageing.
+
 Schedule firmware updates for BMS.
 
 Document warranty terms, including cycle and calendar conditions.
 
 ## Comparison: lithium vs lead acid vs flow
+
+Table: Lithium (LFP), lead acid and vanadium flow batteries compared
 
 | Feature | Lithium (LFP) | Lead acid | Vanadium flow |
 |---|---|---|---|
@@ -247,6 +262,8 @@ PM Surya Ghar does not subsidise residential batteries. The Viability Gap Fundin
 Battery Waste Management Rules 2022 require manufacturer-driven extended producer responsibility.
 
 ## Standards and certifications
+
+Table: Standards that cover lithium-ion batteries for solar storage
 
 | Standard | Scope |
 |---|---|

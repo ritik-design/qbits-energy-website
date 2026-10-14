@@ -5,7 +5,7 @@ description: "Electricity tariff is the per-unit price of electricity. Full guid
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - electricity tariff india
   - solar tariff
@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 Electricity tariff is the per-unit price of electricity, denominated in ₹/kWh (rupees per kilowatt-hour). Indian electricity tariffs are structured by customer category (residential, commercial, industrial, agricultural), consumption slab (low, medium, high), voltage class (LT vs HT), and increasingly by time of day.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Tariff is the per-unit price of electricity, set annually by state SERCs for retail customers and by CERC for inter-state matters.
 > - Indian residential tariffs range roughly ₹3 to ₹12/kWh by slab; commercial ₹7 to ₹10/kWh; industrial ₹5.50 to ₹9/kWh, with 50 to 100 percent variation across states.
 > - Time-of-day (ToD) tariffs, notified by CEA in 2023, charge up to 20 percent more at peak hours and up to 20 percent less off-peak.
@@ -82,6 +82,16 @@ The tariff structure typically includes:
 - Demand charge: ₹/kVA for C&I customers
 - Cross-subsidy surcharge: for open access consumers
 - Taxes and levies: electricity duty, GST on related services
+
+Table: Components of an Indian electricity tariff
+
+| Component | Basis | Applies to |
+|---|---|---|
+| Energy charge | ₹/kWh consumed | All customers |
+| Fixed charge | ₹/month or ₹/kVA | All customers |
+| Demand charge | ₹/kVA | C&I customers |
+| Cross-subsidy surcharge | Added to open access energy | Open access consumers |
+| Taxes and levies | Electricity duty, GST on related services | All customers |
 
 State Electricity Regulatory Commissions ([SERCs](/glossary/serc/)) set retail tariffs through annual tariff orders, while [CERC](/glossary/cerc/) sets central tariffs for inter-state matters. Tariff design balances cost recovery for DISCOMs, affordability for residential customers, and competitive rates for industrial growth.
 
@@ -101,6 +111,8 @@ Investment signals. Tariff trajectory affects renewable investment.
 
 ## Indian tariff categories
 
+Table: Indian electricity tariff categories
+
 | Category | Description |
 |---|---|
 | Residential | Domestic household connections |
@@ -114,6 +126,8 @@ Investment signals. Tariff trajectory affects renewable investment.
 ## Technical deep dive
 
 ### Indian retail tariff slabs (illustrative)
+
+Table: Illustrative Indian retail tariff slabs by category
 
 | Category | Slab | Tariff (₹/kWh) |
 |---|---|---|
@@ -131,13 +145,20 @@ Vary significantly by state.
 
 ### ToD tariff structure (CEA 2023 framework)
 
+Table: Time-of-day tariff multipliers under the CEA 2023 framework
+
 | Time slot | Tariff multiplier |
 |---|---|
 | Off-peak (10 pm-6 am) | 0.80 |
 | Standard (6 am-9 am, 12 pm-6 pm) | 1.00 |
 | Peak (9 am-12 pm, 6 pm-10 pm) | 1.20 |
 
+> [!EXAMPLE] What a ToD multiplier does to a unit
+> Take a standard-slot tariff of ₹7/kWh, a figure inside the commercial LT range above. A unit used at 11 am in the peak slot costs 1.20 × 7 = ₹8.40, and a unit used at 11 pm in the off-peak slot costs 0.80 × 7 = ₹5.60.
+
 ### Tariff trajectory by region (residential 300 kWh consumption, illustrative)
+
+Table: Illustrative average residential tariff by state at 300 kWh consumption
 
 | State | ₹/kWh average |
 |---|---|
@@ -181,6 +202,9 @@ Use ToD tariff where available for optimal solar economics.
 
 Document tariff assumption in financial models.
 
+> [!TIP] Model payback against the slab your bill reaches
+> Rooftop solar offsets retail-priced units, and the slab table shows the 500+ kWh residential slab at ₹8.50 to ₹12.00/kWh against ₹3.00 to ₹4.50/kWh in the first slab. Read the current SERC tariff order for your state before fixing any payback figure.
+
 ## Indian market context
 
 DISCOM tariff orders revised annually.
@@ -192,6 +216,8 @@ DISCOM tariff orders revised annually.
 CERC and SERCs coordinate tariff methodology through Forum of Regulators.
 
 ## Standards and certifications
+
+Table: Statutes and orders behind Indian electricity tariffs
 
 | Standard | Scope |
 |---|---|

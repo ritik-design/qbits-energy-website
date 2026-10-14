@@ -5,7 +5,7 @@ description: "PM-KUSUM is India's agricultural solar scheme. Full guide to Compo
 category: "Policies"
 categorySlug: "policies"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is pm kusum
   - kusum scheme
@@ -77,15 +77,16 @@ The scheme addresses three distinct agricultural energy challenges: barren farm 
 
 Implementation runs through state agencies (state nodal agencies for renewable energy) with central financial support from [MNRE](/glossary/mnre/). Banks provide concessional finance for the farmer share of capex. [ALMM-listed](/glossary/almm-list/) equipment is required for subsidy disbursement.
 
-> **TL;DR**
+> [!NOTE] In short
 > - PM-KUSUM targets 35 GW of agricultural solar by 2026 across three components: A (decentralised plants), B (standalone pumps) and C (grid-connected pump solarisation).
 > - Component A targets 10 GW on barren farm land, Component B targets 14 lakh standalone pumps, and Component C targets 35 lakh grid-connected pump solarisations.
 > - Subsidy covers up to 60 percent of capex, split 30 percent central and 30 percent state, with the farmer paying 10 percent plus a 30 percent bank loan.
-
 > - Component B leads adoption at roughly 24 percent of target, while Components A and C lag due to land aggregation and DISCOM coordination delays.
 > - Component A power is sold to the local DISCOM at a state-set [feed-in tariff](/glossary/feed-in-tariff/), typically ₹3.10 to ₹4.50 per kWh.
 
 ## PM-KUSUM components
+
+Table: PM-KUSUM components and their capacity targets
 
 | Component | Description | Target |
 |---|---|---|
@@ -111,6 +112,8 @@ Land utilisation. Component A monetises barren land.
 
 ### Component A details
 
+Table: Component A (decentralised plants on farm land) at a glance
+
 | Aspect | Detail |
 |---|---|
 | Eligible land | Barren or fallow farm land |
@@ -120,7 +123,12 @@ Land utilisation. Component A monetises barren land.
 | Developer | Selected through state tender |
 | Subsidy | None (commercial PPA model) |
 
+> [!IMPORTANT] The 60 percent subsidy is not for Component A
+> Component A is a commercial PPA: the developer is picked by state tender, the DISCOM pays the state feed-in tariff, and the farmer earns land lease income. The central 30 percent plus state 30 percent capex subsidy applies to pumps under Components B and C.
+
 ### Component B details
+
+Table: Component B (standalone solar pumps) at a glance
 
 | Aspect | Detail |
 |---|---|
@@ -131,7 +139,12 @@ Land utilisation. Component A monetises barren land.
 | Farmer contribution | 10 percent (with 30 percent bank loan) |
 | Equipment | DC submersible or surface pump with VFD |
 
+> [!EXAMPLE] How the funding split works on a pump
+> Using the page's own ₹1.5 to ₹4 lakh capex range, a ₹1.5 lakh pump has ₹45,000 central and ₹45,000 state subsidy, with the farmer paying ₹15,000 and a bank loan covering ₹45,000. At ₹4 lakh the same 30 + 30 + 10 + 30 percent split is ₹1.2 lakh, ₹1.2 lakh, ₹40,000 and ₹1.2 lakh.
+
 ### Component C details
+
+Table: Component C (grid-connected pump solarisation) at a glance
 
 | Aspect | Detail |
 |---|---|
@@ -161,6 +174,8 @@ Tribal and remote village solar pumps.
 Drip and micro-irrigation solar pumps.
 
 ## Implementation status (2026 approximation)
+
+Table: Approximate 2026 implementation status against target, by component
 
 | Component | Installed (approximate) | Target | % achieved |
 |---|---|---|---|
@@ -232,11 +247,12 @@ PLI Phase II includes pump-specific manufacturing incentives.
 
 ## Standards and certifications
 
+Table: Scheme guidelines and standards that apply to PM-KUSUM equipment
+
 | Standard | Scope |
 |---|---|
 | MNRE PM-KUSUM scheme guidelines | Implementation framework |
 | MNRE technical specifications for solar pumps | Equipment requirements |
-
 | BIS certification | Quality compliance |
 | IS 7396 / 9283 | Submersible pump standards |
 

@@ -5,7 +5,7 @@ description: "LeTID is heat-light degradation in PERC cells. Full guide to mecha
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - letid
   - light elevated temperature induced degradation
@@ -67,7 +67,7 @@ author: "Nirav Dhanani"
 
 ## What is LeTID
 
-> **TL;DR**
+> [!NOTE] In short
 > - LeTID is a slow degradation mechanism in [PERC cells](/glossary/perc-cell/) caused by combined light and heat exposure (60-90°C), unlike [LID](/glossary/lid/), which resolves within the first 100 hours.
 > - Total impact is 1-5 percent [module degradation](/glossary/degradation/) over months to years, plateauing after 2-5 years.
 > - Modern LeTID-controlled PERC limits loss to under 1 percent; [TOPCon](/glossary/topcon-cell/) and [HJT](/glossary/hjt-cell/) n-type cells largely eliminate the mechanism.
@@ -94,6 +94,7 @@ Manufacturing differentiation. LeTID control distinguishes quality manufacturers
 
 ## How LeTID works
 
+<!-- steps -->
 1. PERC cell manufacturing introduces hydrogen for passivation of rear surface.
 2. Under combined light and heat exposure, hydrogen-related defects activate.
 3. Defects act as recombination centres, reducing minority carrier lifetime.
@@ -105,6 +106,8 @@ Manufacturing differentiation. LeTID control distinguishes quality manufacturers
 
 ### LeTID timeline
 
+Table: LeTID stages over the life of a PERC module
+
 | Stage | Duration | Behaviour |
 |---|---|---|
 | Initial | Days to weeks | Slow onset |
@@ -113,6 +116,8 @@ Manufacturing differentiation. LeTID control distinguishes quality manufacturers
 | Recovery (partial) | During cool/dark periods | Slight return |
 
 ### Magnitude by mitigation level
+
+Table: Approximate LeTID loss by mitigation level
 
 | Mitigation | Approximate LeTID |
 |---|---|
@@ -124,6 +129,8 @@ Manufacturing differentiation. LeTID control distinguishes quality manufacturers
 
 ### Test methods
 
+Table: Test methods used to assess LeTID
+
 | Method | Description |
 |---|---|
 | IEC TS 63209 | Extended stress testing for LeTID |
@@ -131,6 +138,8 @@ Manufacturing differentiation. LeTID control distinguishes quality manufacturers
 | Field monitoring | Real-world validation |
 
 ### Comparison with LID
+
+Table: LID and LeTID compared
 
 | Aspect | LID | LeTID |
 |---|---|---|
@@ -162,6 +171,9 @@ Indian climate-specific module specification, the kind of judgment call [Heaven 
 
 Yield underperformance in second to fifth year.
 
+> [!WARNING] A year 2 to 5 yield dip may be LeTID, not soiling
+> LeTID loss builds over months to years and plateaus after 2 to 5 years, so it is easily mistaken for normal ageing or soiling. On a PERC array that underperforms in that window, compare the yield curve against the first-year baseline before blaming cleaning schedules.
+
 Confusion with normal aging.
 
 Difficulty distinguishing from soiling losses.
@@ -178,6 +190,12 @@ Monitor yield curves for first 5 years.
 
 Use Tier-1 manufacturers with documented LeTID control.
 
+> [!CHECKLIST] Specifying a module against LeTID
+> - LeTID-tested per IEC TS 63209
+> - n-type TOPCon for the highest LeTID resistance
+> - Manufacturer with documented LeTID control
+> - Yield curves monitored for the first 5 years
+
 ## Indian market context
 
 Major Indian PERC manufacturers implement LeTID mitigation.
@@ -189,6 +207,8 @@ ALMM-listed PERC modules generally control LeTID.
 PM Surya Ghar warranty implicitly covers LeTID through linear performance.
 
 ## Standards and certifications
+
+Table: Standards and certificates relevant to LeTID
 
 | Standard | Scope |
 |---|---|

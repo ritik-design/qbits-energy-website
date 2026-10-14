@@ -4,7 +4,7 @@ excerpt: "The prime is gone and surplus sells at 1.1 centimes. Any French propos
 description: "Best solar proposal software France 2026. SurgePV vs Aurora, PVsyst, PV*SOL on the S21 reform, the abolished prime à l'autoconsommation, 1.1 c/kWh surplus and Consuel."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-france.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 Every French solar proposal written before 5 June 2026 contained two revenue lines that no longer exist. The prime à l'autoconsommation was abolished for new installations under the revised S21 arrêté, and surplus buyback for new applications fell to 1.1 centimes per kWh excluding tax. A great many templates, spreadsheets and imported platforms still carry both. The result is quotes promising an upfront bonus the customer will not receive and export revenue roughly twenty times larger than what will actually arrive. This guide compares the platforms French installers should shortlist now that the value case has moved entirely into self-consumption.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The prime à l'autoconsommation is abolished for new installations from 5 June 2026.
 > - Surplus buyback for new applications is 1.1 centimes per kWh excluding tax, roughly a twentieth of retail import.
 > - Connections validated by Enedis before 5 June 2026 keep old tariffs and bonus for twenty years, creating two populations of systems.
@@ -57,11 +57,14 @@ For the design-side comparison see our [best solar design software France](/blog
 
 ## The Two Lines That Have To Come Out Of Your Template
 
+> [!IMPORTANT] What most French quotes still show
 > **What most French quotes still show.** An upfront prime reducing the net cost, and an annual export revenue figure calculated at the old buyback rate. Neither applies to a new installation. The first is a discount the customer will not receive, and the second overstates export income by roughly a factor of twenty.
 
 The awkward part is that this is not a slow drift into obsolescence. It happened on a single date, and quotes issued the week before were correct. Any installer with a template that was accurate in May is now issuing documents that are wrong in a way a customer can verify with one search.
 
 The replacement structure is simpler than what it replaces:
+
+Table: Proposal lines that change after the June 2026 reform
 
 | Line | Old proposal | Post-reform proposal |
 | --- | --- | --- |
@@ -97,7 +100,8 @@ The framing that works is factual and brief. Connection requests validated by En
 
 **A priced storage option.** Not as an appendix. Under current rates a battery converts near-worthless surplus into full-retail avoided import, so it belongs in the main comparison with its own payback.
 
-**An hourly self-consumption figure with its basis stated.** This is now the most load-bearing number in the proposal. Say what load profile it came from and show what happens if it lands ten points lower.
+> [!TIP] State the basis of the self-consumption figure
+> **An hourly self-consumption figure with its basis stated.** This is now the most load-bearing number in the proposal. Say what load profile it came from and show what happens if it lands ten points lower.
 
 **NF C 15-712-1, NF C 15-100 and Consuel.** Naming the standards and the attestation requirement distinguishes a planned installation from a price.
 
@@ -125,6 +129,8 @@ Common in smaller French practices, and the single most likely place an abolishe
 
 ## France Solar Proposal Software Comparison
 
+Table: France solar proposal software compared on post-reform tariffs, self-consumption, storage and price
+
 | Tool | Post-reform tariff logic | Hourly self-consumption | Storage priced in main comparison | Consuel and NF C awareness | French proposals | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -144,6 +150,8 @@ Common in smaller French practices, and the single most likely place an abolishe
 ## Worked Example: Three Ways To Quote The Same Lyon Household
 
 An illustrative calculation, not a specific customer project. Inputs: household consuming 4,000 kWh a year, usable roof supporting 6 kWp, roughly 7,200 kWh annual generation at that size, 35% self-consumption without storage rising to about 70% with a battery.
+
+Table: Three ways to quote the same Lyon household (illustrative)
 
 | | A: 6 kWp, old template | B: 6 kWp, current rates | C: 6 kWp plus storage |
 | --- | --- | --- | --- |

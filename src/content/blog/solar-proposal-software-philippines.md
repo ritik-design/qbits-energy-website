@@ -4,7 +4,7 @@ excerpt: "The best solar proposal software Philippines installers need prices ex
 description: "Best solar proposal software Philippines 2026. SurgePV vs OpenSolar, Aurora, PVsyst on ERC net metering, the blended generation rate, the 1 MW cap and CoC rules."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-philippines.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 The most expensive line in a Philippine solar proposal is usually the export assumption, and most software gets it wrong by default. [Net metering](https://quickestimate.co/blog/what-is-net-metering) under ERC Resolution No. 09, Series of 2013 credits exported energy at the blended generation rate, which for a Meralco customer runs roughly PHP 5 to 6 per kWh. Imported energy costs the full retail [tariff](/glossary/tariff/), including transmission, distribution, system loss and universal charges. Any tool that nets the two at the same rate, which is the default behaviour in most US and European platforms, overstates the return on every system that exports. This guide compares the platforms Philippine installers should shortlist for quoting.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Export is credited at the blended generation rate, roughly PHP 5 to 6 per kWh for Meralco, around 50 to 60 percent of retail.
 > - Monthly credits roll over but may be forfeited at year-end settlement, which constrains sensible sizing.
 > - An April 2026 DOE circular raised the non-residential cap from 100 kW to 1 MW.
@@ -58,7 +58,8 @@ Philippine electricity is among the most expensive in Southeast Asia, which make
 
 **Export priced at the BGC.** This is the single setting that decides whether the proposal is accurate. The blended generation rate covers generation charges only. Everything else on the bill is still payable on imported energy. SurgePV's [ERC net metering guide](https://www.surgepv.com/solar-compliance/philippines/guides/erc-net-metering-rules) covers the methodology.
 
-**Year-end forfeiture stated.** Credits roll monthly but can be forfeited at annual settlement. A proposal showing accumulated credits as banked value, without noting the settlement risk, is presenting something the customer may not receive.
+> [!WARNING] Year-end forfeiture of credits
+> **Year-end forfeiture stated.** Credits roll monthly but can be forfeited at annual settlement. A proposal showing accumulated credits as banked value, without noting the settlement risk, is presenting something the customer may not receive.
 
 **The right capacity assumption.** With the non-residential cap now at 1 MW rather than 100 kW, C&I projects that previously needed splitting can be quoted whole. Software still enforcing the old ceiling will misprice them.
 
@@ -68,6 +69,7 @@ Philippine electricity is among the most expensive in Southeast Asia, which make
 
 ## Why Load Profile Beats System Size In This Market
 
+> [!IMPORTANT] What most Philippine quotes get wrong
 > **What most Philippine quotes get wrong.** They size the array to the roof and present net metering as though export were worth what import costs. In a BGC market the array should be sized to the daytime load, because self-consumed energy is worth roughly double exported energy.
 
 The commercial implication favours a specific customer type. A factory, a mall, a cold store, or an office running its heaviest load during daylight hours consumes most of what it generates, and every one of those kWh avoids the full retail tariff. A warehouse with low daytime demand exports the majority of its output at half the value. Two identical arrays, materially different returns.
@@ -96,6 +98,8 @@ Still the most common setup, and the usual reason retail-rate export assumptions
 
 ## Philippines Solar Proposal Software Comparison
 
+Table: Philippines solar proposal software compared on BGC export, forfeiture, 1 MW cap and price
+
 | Tool | Export configurable to BGC | Year-end forfeiture modelled | Hourly self-consumption | 1 MW C&I cap supported | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -115,6 +119,8 @@ Still the most common setup, and the usual reason retail-rate export assumptions
 ## Worked Example: 50 kW Commercial Rooftop In Metro Manila
 
 An illustrative calculation, not a specific customer project. Inputs: 50 kW DC, 1,400 kWh per kW specific yield, 70,000 kWh generation, retail import at PHP 12 per kWh, export at PHP 5.50 per kWh, 70% self-consumption.
+
+Table: 50 kW commercial rooftop in Metro Manila priced at retail versus BGC (illustrative)
 
 | Line | Priced at retail (wrong) | Priced at BGC (correct) |
 | --- | --- | --- |

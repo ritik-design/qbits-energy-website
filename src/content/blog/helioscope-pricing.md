@@ -4,7 +4,7 @@ excerpt: "HelioScope costs $99 to $300+ per user per month at published rates, i
 description: "HelioScope pricing in 2026 broken down: plan tiers, project caps, the separate proposal stack teams add, and the SurgePV flat per-seat alternative. Compare now."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "9 min"
 image: "/og/blog-helioscope-pricing.webp"
 author: "Nirav Dhanani"
@@ -34,11 +34,14 @@ faqs:
 
 HelioScope is a strong simulation tool, but the price ladder and the separate proposal stack teams have to run alongside it drive some toward [alternatives](/blog/helioscope-alternative/). This guide breaks down every plan, names the hidden costs, and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat per-seat pricing.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - HelioScope costs $99 to $300+ per user per month ($1,188 to $3,600+ per user per year).
 > - Not positioned as a proposal tool, so teams maintain a separate stack for proposals, CRM, and financials.
-> - [SurgePV](https://surgepv.com/) delivers the same 8,760-hour module-level simulation plus proposals plus financials at $1,299 to $1,899 per user per year flat.
-> - [Book a free SurgePV demo](https://surgepv.com/demo) and rebuild one of your real HelioScope projects on the call.
+> - Teams running HelioScope typically maintain a three-to-four-tool stack: HelioScope plus Solargraf plus Excel plus a CRM.
+> - The prices in the plan table are illustrative, sourced from third-party trackers and public reviews, so confirm them with HelioScope before signing.
+
+- [SurgePV](https://surgepv.com/) delivers the same 8,760-hour module-level simulation plus proposals plus financials at $1,299 to $1,899 per user per year flat.
+- [Book a free SurgePV demo](https://surgepv.com/demo) and rebuild one of your real HelioScope projects on the call.
 
 <div class="inline-cta">
 <h3>Same simulation depth, plus proposals, for 35 to 60 percent less</h3>
@@ -48,6 +51,8 @@ HelioScope is a strong simulation tool, but the price ladder and the separate pr
 </div>
 
 ## HelioScope Pricing by Plan
+
+Table: HelioScope pricing by plan, per user per month and per year
 
 | Plan | Per user / month | Per user / year | Feature notes |
 | --- | --- | --- | --- |

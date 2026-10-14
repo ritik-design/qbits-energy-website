@@ -5,7 +5,7 @@ description: "Clipping loss is energy lost to inverter peak capping. Full guide 
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - clipping loss
   - inverter clipping
@@ -100,6 +100,8 @@ Inverter sizing decisions. [The clipping trade-off](/blog/inverter-clipping-expl
 
 ## Where clipping happens
 
+Table: How likely clipping is under different conditions
+
 | Conditions | Clipping likelihood |
 |---|---|
 | Clear noon at solar elevation peak | High |
@@ -142,6 +144,8 @@ Table: Optimum DC/AC ratio by module and mounting technology
 
 ### Seasonal variation
 
+Table: Approximate share of annual clipping by season
+
 | Month | Approximate clipping share |
 |---|---|
 | March-May (peak summer) | 50% of annual clipping |
@@ -150,6 +154,8 @@ Table: Optimum DC/AC ratio by module and mounting technology
 | December-February (winter) | 20% |
 
 ### Diagnosis through monitoring
+
+Table: Reading monitoring data to tell clipping from other faults
 
 | Indicator | Diagnosis |
 |---|---|
@@ -181,6 +187,8 @@ Document clipping assumption in financial models.
 
 ## Comparison: clipping vs no clipping
 
+Table: A 1.0 DC/AC plant vs a 1.3 DC/AC plant
+
 | Aspect | Plant at 1.0 DC/AC | Plant at 1.3 DC/AC |
 |---|---|---|
 | Inverter cost per kW | Highest | Lower |
@@ -203,6 +211,8 @@ Major Indian utility plants run 1.25-1.40 DC/AC ratios.
 PVsyst-based optimisation is standard for utility design.
 
 ## Standards and certifications
+
+Table: Standards and documents that apply to clipping analysis
 
 | Standard | Scope |
 |---|---|

@@ -5,7 +5,7 @@ description: "LPS Rules 2022 force DISCOM payment discipline. Full guide to mech
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - late payment surcharge
   - lps rules 2022
@@ -77,7 +77,7 @@ Before LPS Rules 2022, DISCOM payment delays were chronic and largely unenforcea
 
 For Indian solar, LPS Rules 2022 are a key risk mitigant. Lenders and equity investors now factor LPS recovery into project economics, improving bankability and reducing financing cost. C&I buyers evaluating a RESCO PPA instead of direct DISCOM sale should still weigh payment discipline; see the [Solar RESCO Model India Complete Guide](/blog/solar-resco-model-india-guide/) for how PPA tariff and contract risk are assessed on the buyer side.
 
-> **TL;DR**
+> [!NOTE] In short
 > - LPS Rules 2022, notified by the Ministry of Power in June 2022, force DISCOMs to pay escalating penalties on delayed PPA payments.
 > - Surcharge rates step up from bank rate + 1 percent (0-45 days late) to bank rate + 4 percent (past 365 days).
 > - Before the rules, some financially stressed DISCOMs delayed renewable payments by 6 to 12 months, hurting developer cash flow.
@@ -98,6 +98,8 @@ Investment attractiveness. Reduces perceived sectoral risk.
 
 ## LPS Rules 2022 structure
 
+Table: Late Payment Surcharge rate by delay period
+
 | Delay period | Surcharge rate |
 |---|---|
 | 0-45 days | Bank rate + 1% per annum |
@@ -111,12 +113,14 @@ Bank rate is RBI's reference rate (currently around 6.75 percent).
 
 ### LPS calculation example
 
-For ₹100 cr invoice delayed by 6 months at bank rate 6.75%:
-- First 45 days: 100 × (6.75 + 1)% × 45/365 = ₹0.96 cr
-- 45-180 days (135 days): 100 × (6.75 + 2)% × 135/365 = ₹3.24 cr
-- Total LPS: ₹4.20 cr
-
-This is recovered from DISCOM in next billing cycle.
+> [!EXAMPLE]
+> For ₹100 cr invoice delayed by 6 months at bank rate 6.75%:
+>
+> - First 45 days: 100 × (6.75 + 1)% × 45/365 = ₹0.96 cr
+> - 45-180 days (135 days): 100 × (6.75 + 2)% × 135/365 = ₹3.24 cr
+> - Total LPS: ₹4.20 cr
+>
+> This is recovered from DISCOM in next billing cycle.
 
 ### Securitisation pathway
 
@@ -128,6 +132,8 @@ Under the rules:
 5. Tradeable instruments for long outstanding dues (subordinated debt or other)
 
 ### Impact on bankability
+
+Table: Bankability before and after the LPS Rules 2022
 
 | Aspect | Pre-LPS Rules | Post-LPS Rules |
 |---|---|---|
@@ -155,6 +161,8 @@ Sector-wide DISCOM reform.
 
 ## LPS vs alternative mechanisms
 
+Table: LPS vs letter of credit vs payment security mechanism
+
 | Mechanism | LPS | Letter of Credit | Payment Security Mechanism |
 |---|---|---|---|
 | Coverage | All PPAs | Specific PPA | Specific PPA |
@@ -163,6 +171,9 @@ Sector-wide DISCOM reform.
 | Recovery time | Next bill cycle | 30 days standard | As per terms |
 
 ## Best practices
+
+> [!TIP] Claim early, escalate persistent delays
+> File LPS claims promptly, track each DISCOM's payment pattern, and escalate persistent delays to the SERC or CERC. Where extra cover is needed, combine LPS with a letter of credit.
 
 Document delivery and invoicing accurately.
 
@@ -187,6 +198,8 @@ International lenders (ADB, World Bank) view LPS positively for India risk.
 DISCOM payment timeliness has materially improved since 2022.
 
 ## Standards and certifications
+
+Table: Rules and orders behind late payment surcharge
 
 | Standard | Scope |
 |---|---|

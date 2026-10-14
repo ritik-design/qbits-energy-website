@@ -5,7 +5,7 @@ description: "Hot spots cause localised heating in shaded cells. Full guide to c
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - hot spot solar
   - solar cell hot spot
@@ -75,7 +75,7 @@ Hot spots originate from any condition that reduces one cell's current generatio
 
 Modern PV modules include bypass diodes in the [junction box](/glossary/junction-box/). When string current cannot flow through a shaded or damaged cell, the diode provides an alternative path, limiting the hot spot energy. Without bypass diodes, hot spots could permanently damage [encapsulant](/glossary/encapsulant/), back sheet and cells. Field technicians confirm suspected hot spots the same way described in this [solar inverter low-output diagnostic guide](/blog/solar-inverter-low-output-causes-india/): an infrared thermal scan during peak sun that reveals failed cells generating heat instead of current.
 
-> **TL;DR**
+> [!NOTE] In short
 > - A hot spot is localised overheating in a solar cell, usually reaching 100 to 200°C, caused by partial shading, soiling, bird droppings or cell defects forcing that cell into reverse bias.
 > - Bypass diodes inside the junction box limit hot spot damage by routing current around the affected sub-string, but do not eliminate the risk entirely.
 > - Standard modules use 3 bypass diodes; premium designs use 6 for finer sub-string protection.
@@ -94,6 +94,9 @@ Insurance. Hot spot damage may be insurance excluded.
 
 O&M priority. Detecting hot spots through IR thermography is standard O&M.
 
+> [!WARNING] Fire and insurance exposure
+> Extreme hot spots in poorly designed modules can ignite the encapsulant, and hot spot damage may be excluded from insurance cover. Treat a persistently warm cell as a fault to investigate, not a cosmetic issue.
+
 ## How hot spots form
 
 1. One cell in a string receives less light (shading, soiling, defect).
@@ -104,6 +107,9 @@ O&M priority. Detecting hot spots through IR thermography is standard O&M.
 6. Power dissipated in shaded cell = String current × Cell reverse voltage.
 7. Localised heating.
 8. Bypass diode (if present) opens path around shaded sub-string, limiting damage.
+
+> [!FORMULA]
+> Power dissipated in the shaded cell = string current × cell reverse voltage
 
 ## Technical deep dive
 
@@ -119,6 +125,8 @@ When sub-string current cannot flow through shaded cell:
 
 ### Without bypass diodes
 
+Table: Hot spot behaviour with and without bypass diodes
+
 | Aspect | With bypass | Without bypass |
 |---|---|---|
 | Hot spot temperature | 60-80°C | 150-200°C |
@@ -127,6 +135,8 @@ When sub-string current cannot flow through shaded cell:
 | String output | Sub-string lost | Whole string compromised |
 
 ### Common bypass diode count
+
+Table: Bypass diode count by module configuration
 
 | Configuration | Diodes | Sub-strings |
 |---|---|---|
@@ -183,6 +193,8 @@ Replace damaged modules promptly.
 
 ## Comparison: hot spot risk
 
+Table: Hot spot risk by installation type
+
 | Application | Risk level |
 |---|---|
 | Utility tracker plant | Low (uniform conditions) |
@@ -205,6 +217,8 @@ Annual IR thermography is standard O&M practice for utility and large [C&I plant
 [ALMM-listed](/glossary/almm-list/) modules meet [IEC 61215](/glossary/iec-61215/) hot spot tests.
 
 ## Standards and certifications
+
+Table: Standards relevant to hot spots
 
 | Standard | Scope |
 |---|---|

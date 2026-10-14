@@ -5,7 +5,7 @@ description: "Irradiation is solar energy received over time. Full guide to unit
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - solar irradiation
   - irradiation units
@@ -68,7 +68,7 @@ author: "Akash Hirapara"
 
 ## What is irradiation
 
-> **TL;DR**
+> [!NOTE] In short
 > - Irradiation is solar energy received per unit area over time (kWh/m²), the integral of instantaneous [GHI](/glossary/ghi/)-style irradiance over a period.
 > - Indian daily irradiation runs 4.5-6.5 kWh/m²/day; annual irradiation spans 1,200 kWh/m²/year in the north-east to over 2,200 in Rajasthan and Ladakh.
 > - [Plane of array](/glossary/plane-of-array/) irradiation on a tilted module typically exceeds horizontal GHI by 5 to 15 percent at optimum tilt.
@@ -93,6 +93,8 @@ Performance benchmarking. PR is normalised against irradiation.
 
 ## Irradiation types
 
+Table: Types of irradiation and what each is measured on
+
 | Type | Description |
 |---|---|
 | [GHI](/glossary/ghi/) (Global Horizontal Irradiation) | On horizontal surface |
@@ -104,6 +106,8 @@ Performance benchmarking. PR is normalised against irradiation.
 ## Technical deep dive
 
 ### Irradiation by region (annual, kWh/m²/year, on horizontal GHI)
+
+Table: Annual horizontal GHI by Indian region (kWh/m²/year)
 
 | Region | Annual GHI |
 |---|---|
@@ -120,12 +124,20 @@ Performance benchmarking. PR is normalised against irradiation.
 
 ### Unit conversions
 
+> [!FORMULA]
+> Yield (kWh) = Capacity × Irradiation × Performance Ratio ÷ G_STC
+
+Table: Irradiation unit conversions
+
 | From | To | Factor |
 |---|---|---|
 | kWh/m² | MJ/m² | × 3.6 |
 | MJ/m² | kWh/m² | / 3.6 |
 | kWh/m²/day | W/m² (average) | / 24 × 1000 |
 | Wh/m² | kWh/m² | / 1000 |
+
+> [!EXAMPLE] Daily irradiation as average power
+> Dividing by 24 and multiplying by 1,000, the 4.5 kWh/m²/day low end of Indian daily irradiation is about 188 W/m² averaged over the whole day, and the 6.5 kWh/m²/day high end is about 271 W/m².
 
 ### POA vs GHI
 
@@ -136,6 +148,8 @@ POA irradiation typically exceeds GHI for south-facing [tilt angle](/glossary/ti
 
 ### Seasonal variation (Delhi example, daily GHI)
 
+Table: Daily GHI by month for Delhi (kWh/m²)
+
 | Month | Daily kWh/m² |
 |---|---|
 | January | 4.0 |
@@ -144,6 +158,8 @@ POA irradiation typically exceeds GHI for south-facing [tilt angle](/glossary/ti
 | December | 3.8 |
 
 ### Measurement instruments
+
+Table: Irradiation measurement instruments and their use
 
 | Type | Use |
 |---|---|
@@ -191,6 +207,8 @@ SECI tender bids use validated multi-year irradiation.
 PM Surya Ghar residential uses location-based estimates, and homeowners comparing quotes can cross-check the assumed irradiation against [Heaven Green Energy's solar calculator](https://heavengreenenergy.com/solar-calculator/) before signing.
 
 ## Standards and certifications
+
+Table: Standards behind irradiation measurement and modelling
 
 | Standard | Scope |
 |---|---|

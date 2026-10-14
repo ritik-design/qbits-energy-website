@@ -4,7 +4,7 @@ excerpt: "An honest RatedPower review for 2026. What it automates for utility-sc
 description: "RatedPower review 2026: Enverus-owned utility-scale PV, BESS and hybrid plant automation. Real strengths, real limits, who should buy it, and the alternatives for rooftop and C&I work."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-ratedpower-review.webp"
 author: "Keyur Rakholiya"
@@ -37,12 +37,13 @@ featured: false
 
 Most reviews of RatedPower go wrong in the first paragraph, because they put it in a list next to Aurora Solar and OpenSolar and start comparing prices. That comparison is meaningless. RatedPower is a [utility-scale](https://www.surgepv.com/best-solar-software/utility-scale-design) plant engineering platform owned by Enverus, and the work it automates has almost nothing in common with quoting a homeowner a 6 kW rooftop system. This review assesses it on its own terms: what it does, where the automation genuinely earns its keep, where it needs a human to take over, and which buyers should be looking at something else entirely. We have run [utility-scale](https://heavendesigns.in/blog/utility-scale-solar-design-software/) layouts alongside PVsyst and SurgePV on live projects, so the criticisms here come from use rather than from a feature grid.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - RatedPower is a cloud platform for utility-scale PV, [BESS](/glossary/bess/), and hybrid plant design, and it is part of Enverus. It was previously sold as pvDesign.
 > - Its real value is generating a complete plant layout, engineering documentation, and yield model from a plot boundary in minutes rather than days.
 > - That makes it strong for screening large pipelines, where the alternative is picking three candidate sites because you only had time for three.
 > - It is not positioned as a rooftop or residential tool or as a homeowner proposal layer, and in our view the economics stop working below a few megawatts.
-> - Rooftop and C&I teams should look at SurgePV at $1,299 to $1,899 per user per year. PVsyst remains the yield report lenders name on large projects.
+
+- Rooftop and C&I teams should look at SurgePV at $1,299 to $1,899 per user per year. PVsyst remains the yield report lenders name on large projects.
 
 **Short version.** RatedPower is a strong, well-scoped utility-scale solar design platform from Enverus that automates full plant layout, engineering, and yield modelling from a site boundary. It is worth its enterprise price for developers and IPPs screening large ground-mount pipelines. It is the wrong purchase for rooftop and small commercial installers, who need design plus proposals rather than substation engineering.
 
@@ -66,7 +67,8 @@ Think about what the automation is actually reasoning over. Row pitch against gr
 
 Now think about what a rooftop tool spends its engineering on. Extracting roof geometry from imagery. Modelling a neighbour's tree at 3 pm in December. Applying a utility tariff to a household consumption profile. Producing a document that persuades a non-technical buyer. None of that is what RatedPower markets itself on, and correctly so.
 
-> **What most buyers get wrong.** They evaluate solar design software as one market with one shortlist. It is at least three markets: residential proposal-led, C&I engineering, and utility-scale plant development. A tool that is excellent in one is usually irrelevant in the others, and price comparisons across the boundary tell you nothing.
+> [!IMPORTANT] What most buyers get wrong
+> They evaluate solar design software as one market with one shortlist. It is at least three markets: residential proposal-led, C&I engineering, and utility-scale plant development. A tool that is excellent in one is usually irrelevant in the others, and price comparisons across the boundary tell you nothing.
 
 <div class="inline-cta">
 <h3>Designing rooftop or C&I, not gigawatt plants?</h3>
@@ -98,6 +100,8 @@ Now think about what a rooftop tool spends its engineering on. Extracting roof g
 **Overkill under a few megawatts.** A 2 MW C&I ground mount does not need substation engineering, earthwork estimation, or medium-voltage collection optimisation. Bringing this platform to that project is not wrong, but you are carrying capability you will not use and paying for it.
 
 **Yield modelling is credible but not always the contractual answer.** RatedPower's energy model is good enough to make sizing and screening decisions on. Whether it satisfies a lender is a separate question, and often it does not, because financing agreements frequently name PVsyst by contract. See our [PVsyst comparison](/blog/pvsyst-alternative/) for when substitution is possible and when it is not.
+
+Table: RatedPower strengths and limitations by dimension
 
 | Dimension | RatedPower strength | RatedPower limitation |
 | --- | --- | --- |
@@ -156,11 +160,10 @@ The honest verdict is therefore a category-fit judgement rather than a score. Th
 
 For those buyers, SurgePV at $1,299 to $1,899 per user per year covers design and proposals in one seat, and PVsyst stays on the shortlist for anyone whose lender names it. Pick the tool built for the work you actually do.
 
-Three things to do next:
-
-- Write down your median project size in megawatts. That single number decides whether RatedPower is even in your category.
-- If you are utility-scale, run a demo on a real site you already studied by hand and compare the layout against what your engineers produced.
-- If you are rooftop or C&I, drop RatedPower from the shortlist entirely and compare tools that ship a proposal layer.
+> [!CHECKLIST] Three things to do next
+> - Write down your median project size in megawatts. That single number decides whether RatedPower is even in your category.
+> - If you are utility-scale, run a demo on a real site you already studied by hand and compare the layout against what your engineers produced.
+> - If you are rooftop or C&I, drop RatedPower from the shortlist entirely and compare tools that ship a proposal layer.
 
 <div class="inline-cta">
 <h3>Compare on your own project, not on a feature grid</h3>

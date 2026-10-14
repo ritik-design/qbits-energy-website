@@ -4,7 +4,7 @@ excerpt: "Scanifly does not publish list pricing, and a volume-based measurement
 description: "Scanifly pricing in 2026: per-project fees, drone operating cost, and the SurgePV flat per-seat alternative with AI 3D from satellite. Book a demo."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "9 min"
 image: "/og/blog-scanifly-pricing.webp"
 author: "Nirav Dhanani"
@@ -34,11 +34,14 @@ faqs:
 
 [Scanifly](/blog/scanifly-review/)'s per-project pricing model works at low volume and becomes painful at scale. This guide breaks down the real cost and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat per-seat pricing with [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Scanifly does not publish list pricing. Its model scales with project volume, and your drone operating cost sits on top of it.
 > - Measurement spend lands before any design tooling, so model your quote plus crew cost against a flat per-seat licence.
-> - [SurgePV](https://surgepv.com/) ships AI 3D from satellite plus the full design stack at $1,299 to $1,899 per user per year flat, unlimited projects.
-> - [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your projects from satellite alone.
+> - The table in this post puts drone capex amortised at $50 to $200 per project and pilot time at $50 to $150 per project; these are illustrative buyer-side estimates, not Scanifly figures.
+> - Drone operating cost is higher on C&I rooftops than on residential because capture and travel time scale with site size.
+
+- [SurgePV](https://surgepv.com/) ships AI 3D from satellite plus the full design stack at $1,299 to $1,899 per user per year flat, unlimited projects.
+- [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your projects from satellite alone.
 
 <div class="inline-cta">
 <h3>See how AI 3D from satellite performs on your own roofs</h3>
@@ -50,6 +53,8 @@ faqs:
 ## Scanifly Pricing Structure
 
 Scanifly does not publish list pricing, so the software line below is a placeholder for your own quote. The surrounding lines are illustrative estimates of typical buyer-side drone operating cost, not Scanifly figures.
+
+Table: Scanifly cost components and ranges
 
 | Cost component | Range | Notes |
 | --- | --- | --- |
@@ -65,6 +70,8 @@ The Scanifly fee is only one line of the total. Whatever the software costs you,
 ## Real Volume Math
 
 The structural point is simple, and it does not depend on knowing Scanifly's rates. A volume-based measurement stack costs more every time you win another project, and that spend lands before any design tool, financial model, or proposal stack. A flat per-seat licence does not move. Our full [Scanifly alternative comparison](/blog/scanifly-alternative/) breaks down the feature gap beyond price.
+
+Table: Annual cost by project volume: volume-based measurement stack vs SurgePV 5-User Team
 
 | Volume | Volume-based measurement stack | SurgePV 5-User Team |
 | --- | --- | --- |

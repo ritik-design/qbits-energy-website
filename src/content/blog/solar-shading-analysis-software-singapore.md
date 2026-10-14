@@ -4,7 +4,7 @@ excerpt: "In Singapore the shading obstruction is usually a neighbouring tower, 
 description: "Solar shading analysis software Singapore 2026: inter-building shading from high-rise neighbours, equatorial sun paths, tropical soiling and scarce rooftop area."
 category: "Solar Software"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-solar-shading-analysis-software-singapore.webp"
 author: "Keyur Rakholiya"
@@ -34,13 +34,14 @@ featured: false
 
 In most markets the shading conversation is about a chimney, a vent stack, or a tree. In [Singapore](/blog/solar-software-singapore/) it is usually about the building next door, and quite often about a building that does not exist yet. Dense high-rise development means the dominant obstruction is frequently off the property entirely, which breaks the assumption underneath most shading tools: that the relevant 3D geometry stops at the site boundary. Combine that with near-equatorial sun paths, a high diffuse fraction, and rooftop area so scarce that relocating an array is rarely an option, and Singapore [shading analysis](https://www.surgepv.com/best-solar-software/shading-analysis) is a genuinely different exercise. This guide covers what changes and which tools handle it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The dominant shading source is usually neighbouring towers, so the 3D model must extend beyond the property line.
 > - At 1.3 degrees north the sun is near-overhead at noon year-round, so midday shading is light but east and west tower shading recurs daily with little seasonal relief.
 > - High diffuse fraction means purely geometric shadow models overstate loss. A direct and diffuse split is required.
 > - Scarce roof area means a shaded zone cannot simply be avoided, so module-level loss data drives a real commercial decision.
 > - Future adjacent development is a genuine risk that belongs in the proposal.
-> - [SurgePV](https://surgepv.com/) builds satellite 3D including neighbouring structures at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
+
+- [SurgePV](https://surgepv.com/) builds satellite 3D including neighbouring structures at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
 **Short version.** Solar [shading analysis](/glossary/shading-analysis/) software for Singapore has to model the surrounding skyline, not just the subject roof, because inter-building shading from high-rise neighbours is the dominant loss mechanism. It also needs a proper direct and diffuse irradiance split, since Singapore's high cloud cover means a geometric-only shadow model overstates the cost of a given obstruction.
 
@@ -63,7 +64,8 @@ Singapore sits at roughly 1.3 degrees north. The consequences for shading are sp
 
 **Consistent east and west exposure.** The sun rises close to due east and sets close to due west throughout the year, and it does so quickly. Towers on the eastern and western sides therefore shade the array in the morning and evening every single day, with no seasonal relief. The loss is smaller per hour than a temperate winter shadow but it never lets up.
 
-> **What most Singapore shading assessments get wrong.** They check the noon case, see a clear roof, and conclude shading is not an issue. The noon case is the best case here. The morning and evening hours are where inter-building shading lives, and they recur 365 days a year.
+> [!IMPORTANT] What most Singapore shading assessments get wrong
+> They check the noon case, see a clear roof, and conclude shading is not an issue. The noon case is the best case here. The morning and evening hours are where inter-building shading lives, and they recur 365 days a year.
 
 That signature also changes the mitigation logic. Because the losses are partial and recurring rather than seasonal and severe, module-level power electronics tend to perform well, and the calculation is worth running explicitly rather than assuming either way.
 
@@ -103,6 +105,8 @@ Module-level loss data answers it directly. A position losing 8% annually is alm
 ## Worked Example: Adjacent Tower On A Commercial Roof
 
 An illustrative calculation, not a specific customer project. Inputs: 400 kWp rooftop, 1,250 kWh per kWp unshaded specific yield, 40 storey tower approximately 60 m to the west, avoided import at S$0.28 per kWh.
+
+Table: 400 kWp rooftop with an adjacent tower: annual yield, loss and value by scenario (illustrative)
 
 | Scenario | Annual yield | Loss vs unshaded | Value of loss |
 | --- | --- | --- | --- |

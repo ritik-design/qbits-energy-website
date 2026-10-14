@@ -5,7 +5,7 @@ description: "RESCO is the third-party solar ownership model where developer own
 category: "Finance"
 categorySlug: "finance"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is resco
   - renewable energy service company
@@ -67,7 +67,7 @@ author: "Akash Hirapara"
 
 RESCO, Renewable Energy Service Company, is a solar deployment model in which a third-party developer designs, finances, installs, owns and operates the solar PV system on the customer's premises, and sells the generated electricity to the customer at a discounted [PPA](/glossary/ppa/) tariff. The customer commits zero upfront [capex](/glossary/capex/) and pays only the monthly electricity bill at the RESCO tariff for the contract term, typically 15 to 25 years.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - RESCO is the zero-capex solar model: a third-party developer owns and operates the system, and the customer buys the electricity at a discounted PPA tariff.
 > - RESCO tariffs typically run ₹4.5 to ₹7/kWh, a 10 to 30 percent discount to a C&I retail tariff of ₹7 to ₹10/kWh.
 > - Contracts run 15 to 25 years, with the developer bearing performance risk and O&M responsibility for the full term.
@@ -100,6 +100,7 @@ Lower risk for customer. Performance risk sits with developer.
 
 ## How RESCO works
 
+<!-- steps -->
 1. Developer evaluates customer's electricity bill, sanctioned load and roof area.
 2. Developer proposes a PPA tariff (typically 10 to 30 percent below retail), backed by a system layout produced with [commercial solar design software](https://surgepv.com/commercial-solar-design/).
 3. Customer signs 15 to 25 year PPA with the developer.
@@ -111,6 +112,8 @@ Lower risk for customer. Performance risk sits with developer.
 ## Technical deep dive
 
 ### RESCO economics for the customer
+
+Table: RESCO economics for the customer
 
 | Element | Detail |
 |---|---|
@@ -125,6 +128,8 @@ Because there is no capex outlay, the [payback period](/glossary/payback-period/
 
 ### RESCO economics for the developer
 
+Table: RESCO economics for the developer
+
 | Element | Detail |
 |---|---|
 | Project capex (₹/MW) | 3.5 to 4.5 crore |
@@ -135,6 +140,8 @@ Because there is no capex outlay, the [payback period](/glossary/payback-period/
 
 ### Contract structure
 
+Table: Typical RESCO contract terms
+
 | Term | Typical value |
 |---|---|
 | Duration | 15 to 25 years |
@@ -143,6 +150,9 @@ Because there is no capex outlay, the [payback period](/glossary/payback-period/
 | O&M responsibility | Developer |
 | End-of-term ownership | Transfer to customer or removal |
 | Termination | Cure period for default, buyout option |
+
+> [!FORMULA] Monthly RESCO bill
+> Monthly bill = RESCO tariff (₹/kWh) × kWh generated
 
 ## Real-world applications
 
@@ -196,6 +206,9 @@ DISCOM tariff revisions changing the comparative savings.
 
 Site access for O&M.
 
+> [!WARNING] The contract clauses decide whether RESCO delivers
+> Disputes usually come from missing roof-access and tenancy provisions, a building ownership change without contract assignment, and unclear termination terms. Check the performance guarantee enforcement mechanism and the termination clauses before comparing tariffs.
+
 ## Best practices
 
 Evaluate developer track record and financial backing.
@@ -211,6 +224,8 @@ Plan for change in DISCOM tariff during contract.
 Maintain detailed monthly generation and billing records.
 
 ## Comparison: RESCO vs CAPEX vs PM Surya Ghar
+
+Table: RESCO, CAPEX and PM Surya Ghar routes compared
 
 | Feature | RESCO | CAPEX | PM Surya Ghar |
 |---|---|---|---|
@@ -229,11 +244,16 @@ Investment-grade C&I customers are the primary RESCO market. Smaller customers f
 
 [PM Surya Ghar](/glossary/pm-surya-ghar/) does not subsidise RESCO residential. Capex-based residential dominates the subsidised segment.
 
+> [!IMPORTANT] RESCO and the PM Surya Ghar subsidy do not mix
+> The subsidy goes to the system owner. In a RESCO deal the developer owns the system, so the customer does not receive it, which is why capex-based residential solar dominates the subsidised segment.
+
 Recent SECI tenders include RESCO-style PPA structures for institutional and government rooftops.
 
 The Cabinet Secretariat and various PSUs use RESCO for institutional rooftops as policy.
 
 ## Standards and certifications
+
+Table: Frameworks and standards behind RESCO projects
 
 | Standard | Scope |
 |---|---|
@@ -261,9 +281,9 @@ Skipping insurance and indemnity terms.
 
 RESCO is the zero-capex solar model where a third-party developer installs and operates the system on the customer's premises, with the customer buying generated electricity at a discounted PPA tariff. India's C&I rooftop solar market has scaled significantly through RESCO. Day-one savings, outsourced O&M and developer-borne performance risk drive customer adoption. Long contract terms, credit underwriting and contract clauses are the design choices that decide whether the structure delivers.
 
-## Considering RESCO for your business?
+## Choosing an inverter for a RESCO project
 
-QBits Energy structures RESCO PPAs and CAPEX rooftop solar projects for C&I customers, with bankable contract terms and proven performance.
+Qbits Energy makes solar inverters. It does not develop, finance or own RESCO projects. Developers and C&I buyers comparing inverters for a rooftop project can see the [on grid inverter range](/on-grid-inverter/) or [contact the team](/contact-us/).
 
 ## Further reading
 

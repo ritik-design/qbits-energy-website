@@ -4,7 +4,7 @@ excerpt: "How installers use solar permit design software to produce AHJ-ready S
 description: "Solar permit design software for installers in 2026. Auto-SLD, NEC labels, AutoCAD export, and when to design in-house versus outsource permit packs."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "9 min"
 image: "/og/blog-solar-permit-design-software.webp"
 author: "Nirav Dhanani"
@@ -38,7 +38,7 @@ faqs:
 
 Solar [permit design](https://www.surgepv.com/best-solar-software/permit-design) software is the difference between shipping a permit pack on Tuesday and waiting on a third-party drafter until Friday. In 2026, installers face the same choice they faced five years ago, only the math has shifted. Design the SLD, layout, and BOQ in-house with the right [solar design software](https://surgepv.com/), or outsource the whole pack to a [permit-design](https://heavendesigns.in/blog/solar-permit-design-software/) service. This article walks through what a permit pack actually contains, how a modern [solar design platform](https://surgepv.com/solar-designing) like SurgePV generates each sheet, and the honest tradeoffs between owning the workflow and paying somebody else to draw it for you.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A complete permit pack has 6 to 9 sheets: site plan, layout, SLD, datasheets, labels, structural, and AHJ extras.
 > - SurgePV auto-generates SLD with NEC, IEC, AS-NZS, or IS labels and exports to DXF and DWG.
 > - In-house design with SurgePV pays back at roughly 12 residential jobs per designer per year.
@@ -59,11 +59,12 @@ Every Authority Having Jurisdiction wants a slightly different bundle, but the s
 2. **Electrical layout.** Module locations on the roof or ground, string assignments, [MLPE](/glossary/mlpe/) positions if used, conduit runs, and combiner or string inverter locations.
 3. **[Single line diagram](/blog/solar-sld-software/) (SLD).** The schematic that walks from PV array through DC disconnect, inverter, AC disconnect, production meter, and main service panel. This is the most-scrutinized sheet.
 4. **Equipment datasheets.** Module, inverter, optimizer, and racking cut sheets, usually appended as PDF pages.
-
+5. **Labels and placards.** The warning labels and placard schedule, including the rapid shutdown label.
 6. **Structural attestation.** A roof attachment schedule and, in many jurisdictions, a stamped letter from a licensed structural engineer, the kind of structural and civil engineering work Heaven Designs handles for stamped submittals.
 7. **AHJ-specific extras.** Some cities want a placard schedule, others want a fire access diagram, others want a [battery storage addendum](/blog/solar-plus-storage-design-software/).
 
-Skip one of these and the AHJ comes back with a correction notice, costing you a week.
+> [!WARNING] A missing sheet costs about a week
+> Skip one of these and the AHJ comes back with a correction notice, costing you a week.
 
 ## How SurgePV Generates Permit-Ready Drawings
 
@@ -102,6 +103,8 @@ For overflow, hybrid permit packs, and stamped commercial drawings, Heaven Desig
 Pair either approach with [QuickEstimate](https://quickestimate.co/) for the upstream takeoff and feasibility step before the permit pack starts.
 
 ## SurgePV vs Aurora vs Solo: Permit Pack Capabilities
+
+Table: Permit pack capabilities: SurgePV, Aurora and Solo
 
 | Capability | SurgePV | Aurora | Solo |
 |---|---|---|---|

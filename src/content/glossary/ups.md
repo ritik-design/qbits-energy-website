@@ -5,7 +5,7 @@ description: "UPS provides backup power. Full guide to types and solar integrati
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - ups
   - uninterruptible power supply
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 ## What is UPS
 
-> **TL;DR**
+> [!NOTE] In short
 > - UPS switches automatically from grid to battery within milliseconds to keep critical loads running through an outage.
 > - Three main types exist: offline (basic), line-interactive (voltage regulation) and online double-conversion (zero transfer time, most expensive).
 > - Indian residential UPS is increasingly solar-integrated, blurring the line with hybrid solar inverters.
@@ -96,6 +96,8 @@ Solar integration. Solar UPS combines backup and renewable generation, often thr
 
 ## UPS types
 
+Table: UPS types compared by transfer time, quality and cost
+
 | Type | Transfer time | Power quality | Cost | Use |
 |---|---|---|---|---|
 | Offline (standby) | 4-25 ms | Low | Lowest | Simple residential |
@@ -117,6 +119,8 @@ Online provides zero transfer time and clean, [pure sine wave](/glossary/pure-si
 
 ### Battery selection for UPS
 
+Table: Recommended battery chemistry by UPS application
+
 | Application | Recommended chemistry |
 |---|---|
 | Residential 5-30 min backup | LFP or VRLA AGM |
@@ -132,14 +136,16 @@ Solar hybrid models from Microtek, Luminous, Su-Kam dominate Indian residential 
 
 ### Sizing example
 
-For Indian home critical loads, using the same battery-bank logic as [off-grid solar battery bank sizing](/blog/off-grid-battery-bank-sizing-india/):
-- 2-3 ceiling fans (240 W)
-- 5-8 LED lights (60 W)
-- 1 fridge (250 W average)
-- 1 TV + electronics (200 W)
-- Continuous load: ~750 W
-- 4-hour backup: 3 kWh battery
-- UPS rating: 1-1.5 kVA
+> [!EXAMPLE] Critical-load backup for an Indian home
+> For Indian home critical loads, using the same battery-bank logic as [off-grid solar battery bank sizing](/blog/off-grid-battery-bank-sizing-india/):
+>
+> - 2-3 ceiling fans (240 W)
+> - 5-8 LED lights (60 W)
+> - 1 fridge (250 W average)
+> - 1 TV + electronics (200 W)
+> - Continuous load: ~750 W
+> - 4-hour backup: 3 kWh battery
+> - UPS rating: 1-1.5 kVA
 
 ### Integration with solar
 
@@ -190,6 +196,8 @@ PM Surya Ghar adjacent UPS adoption increasing.
 Online UPS market focused on data centres and IT.
 
 ## Standards and certifications
+
+Table: Standards and labels for UPS
 
 | Standard | Scope |
 |---|---|

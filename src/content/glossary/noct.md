@@ -5,7 +5,7 @@ description: "NOCT is realistic operating cell temperature. Full guide to estima
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - noct
   - nominal operating cell temperature
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 ## What is NOCT
 
-> **TL;DR**
+> [!NOTE] In short
 > - NOCT is the equilibrium cell temperature at 800 W/m² irradiance, 20°C ambient and 1 m/s wind, closer to real operating conditions than STC's 25°C baseline.
 > - Modern modules report NOCT of 42 to 45°C; older module designs run 47 to 50°C.
 > - Close-mounted rooftop installations raise effective NOCT by 3 to 8°C above open-rack values because of reduced airflow.
@@ -100,14 +100,17 @@ PVsyst input. NOCT or operating temperature model required, as detailed in [PV Y
 
 ## NOCT estimation
 
-T_cell ≈ T_ambient + (NOCT, 20) × (Irradiance / 800)
+> [!FORMULA]
+> T_cell ≈ T_ambient + (NOCT − 20) × (Irradiance / 800)
 
-For NOCT = 45°C, ambient = 35°C, irradiance = 900 W/m²:
-T_cell = 35 + (25) × (1.125) = 35 + 28 = 63°C
+> [!EXAMPLE] 35°C ambient, 900 W/m²
+> For NOCT = 45°C, ambient = 35°C, irradiance = 900 W/m²: T_cell = 35 + (25) × (1.125) = 35 + 28 = 63°C. A close-mounted rooftop would run a further 3 to 5°C hotter than this open-rack figure.
 
 ## Technical deep dive
 
 ### NOCT by module construction
+
+Table: Typical NOCT by module construction
 
 | Construction | Typical NOCT |
 |---|---|
@@ -121,6 +124,8 @@ T_cell = 35 + (25) × (1.125) = 35 + 28 = 63°C
 
 ### Mounting impact
 
+Table: NOCT modifier by mounting method
+
 | Mounting | NOCT modifier |
 |---|---|
 | Open rack (1-2m clearance) | Standard NOCT applies |
@@ -130,6 +135,8 @@ T_cell = 35 + (25) × (1.125) = 35 + 28 = 63°C
 | Floating solar (water cooling) | -2 to 5°C |
 
 ### Indian operating cell temperature
+
+Table: Typical operating cell temperature in Indian conditions
 
 | Conditions | T_cell |
 |---|---|
@@ -181,6 +188,8 @@ PVsyst and SAM use NOCT for cell temperature modelling.
 Floating solar leverages water cooling for lower operating temperature.
 
 ## Standards and certifications
+
+Table: Standards that cover NOCT and operating performance
 
 | Standard | Scope |
 |---|---|

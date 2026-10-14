@@ -5,7 +5,7 @@ description: "Current is the flow of electric charge. Full guide to AC, DC and s
 category: "Electrical Basics"
 categorySlug: "electrical-basics"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is current
   - solar current
@@ -71,7 +71,7 @@ author: "Nirav Dhanani"
 
 Current is the rate of flow of electric charge through a conductor, measured in amperes (A). One ampere equals one coulomb of charge per second. Current is driven by [voltage](/glossary/voltage/) and limited by the resistance of the circuit, per Ohm's law: I = V / R.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Current is the flow of electric charge, measured in amperes (A), and driven by voltage per Ohm's law (I = V / R).
 > - Indian solar PV strings typically carry 10 to 18 A DC; three-phase inverter AC output can reach 15 to 250 A per phase.
 > - Cable cross-section must match current per IS 732 ampacity tables to avoid overheating and voltage drop.
@@ -96,6 +96,8 @@ Heating. I²R losses cause cables and connectors to heat up. Excessive current c
 
 ## Indian solar current ranges
 
+Table: Typical current by application in Indian solar systems
+
 | Application | Typical current |
 |---|---|
 | Residential PV string | 11 to 14 A DC |
@@ -113,13 +115,20 @@ Battery current draw depends heavily on capacity and discharge rate; getting thi
 
 Isc and Imp depend on cell technology and module size:
 
+Table: Approximate Isc and Imp by module type
+
 | Module wattage | Approximate Isc | Approximate Imp |
 |---|---|---|
 | 400 W mono | 13.5 A | 12.8 A |
 | 540 W half-cut bifacial | 14.5 A | 13.7 A |
 | 600 W TOPCon | 16.2 A | 15.4 A |
 
+> [!EXAMPLE] Combiner box fuse for a 540 W string
+> With the page's rule of 1.25 to 1.5 × Isc per string and the 540 W half-cut bifacial module's Isc of 14.5 A, the fuse sits between 1.25 × 14.5 = 18.1 A and 1.5 × 14.5 = 21.75 A. For the 600 W TOPCon module (Isc 16.2 A) the same rule gives 20.25 A to 24.3 A, so a fuse chosen for one module type is wrong for the other.
+
 ### Current in series and parallel
+
+Table: How current behaves in series and parallel connections
 
 | Configuration | Current behaviour |
 |---|---|
@@ -127,6 +136,8 @@ Isc and Imp depend on cell technology and module size:
 | Parallel (combiner box) | Currents add at the parallel point |
 
 ### Cable ampacity (IS 732)
+
+Table: Approximate cable ampacity in conduit at 30°C by cable size (IS 732)
 
 | Cable size (mm²) | Approximate ampacity in conduit, 30°C |
 |---|---|
@@ -199,6 +210,8 @@ IS 14772 and IS 60898 cover residential breakers.
 IS 13947 covers industrial breakers.
 
 ## Standards and certifications
+
+Table: Standards that govern current ratings, breakers and fuses
 
 | Standard | Scope |
 |---|---|

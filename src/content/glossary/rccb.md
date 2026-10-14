@@ -5,7 +5,7 @@ description: "RCCB protects against earth leakage and electric shock. Full guide
 category: "Protection"
 categorySlug: "protection"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is rccb
   - residual current circuit breaker
@@ -71,9 +71,9 @@ A Residual Current Circuit Breaker (RCCB), also called Residual Current Device (
 
 The standard sensitivity for personal shock protection is 30 mA. At this level the device trips before electrical current through a human body reaches the threshold of cardiac fibrillation. 100 mA and 300 mA RCCBs exist for equipment protection only.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - An RCCB compares current going out on phase against current returning on neutral; any imbalance means leakage, and it trips in milliseconds.
-> - Standard sensitivity for personal shock protection is 30 mA, tripping within about 30 ms, well before current through a human body reaches the fibrillation threshold.
+> - Standard sensitivity for personal shock protection is 30 mA, tripping fast enough to stay ahead of the fibrillation threshold (at most 300 ms at 30 mA and 40 ms at 150 mA, per the trip-times table).
 > - RCCB only catches earth leakage, not overcurrent; pair it with an MCB, or use an RCBO that combines both in one device.
 > - Type A RCCBs suit general residential circuits; Type B is required for transformerless solar inverters, which can leak smooth DC current on fault.
 > - RCCB protection is mandatory on the AC side of Indian solar installations under CEA safety regulations, and it only works if the earthing behind it is sound.
@@ -99,11 +99,13 @@ The RCCB uses a current transformer (CT) that encloses both the phase and neutra
 
 If a person touches a live conductor and current leaks to earth through their body, the current returning through neutral is less than what went out through phase. The CT detects the imbalance and triggers a relay.
 
-The trip threshold is set by the sensitivity rating. At 30 mA threshold, leakage above 30 mA trips within 30 ms.
+The trip threshold is set by the sensitivity rating. At 30 mA threshold, leakage at the rated 30 mA trips within 300 ms, and the trip gets faster as leakage rises, to 40 ms at 150 mA (see the trip-times table below).
 
 ## Technical deep dive
 
 ### Sensitivity classes
+
+Table: RCCB sensitivity classes and their uses
 
 | Sensitivity | Use |
 |---|---|
@@ -115,6 +117,8 @@ The trip threshold is set by the sensitivity rating. At 30 mA threshold, leakage
 
 ### Types
 
+Table: RCCB types by the residual current they detect
+
 | Type | Detects | Use case |
 |---|---|---|
 | AC | Pure AC residual | Residential basic |
@@ -125,7 +129,12 @@ The trip threshold is set by the sensitivity rating. At 30 mA threshold, leakage
 
 Solar inverters with transformerless topology produce smooth DC leakage on fault. Type B is required for these.
 
+> [!WARNING] Type AC or A will not see inverter DC leakage
+> A transformerless solar inverter can leak smooth DC current on a fault. An AC-type RCCB on that circuit can fail to detect the actual leakage, so the AC output needs a Type B RCCB. Check the type marking on the device, not just the 30 mA rating.
+
 ### Trip times
+
+Table: Maximum trip time of a 30 mA RCCB at different residual currents
 
 | Residual current | Maximum trip time (30 mA RCCB) |
 |---|---|
@@ -135,6 +144,8 @@ Solar inverters with transformerless topology produce smooth DC leakage on fault
 | 250 mA | 40 ms (immediate) |
 
 ### Number of poles
+
+Table: RCCB pole configuration by supply type
 
 | Configuration | Use |
 |---|---|
@@ -183,7 +194,12 @@ Document RCCB serial numbers and test results.
 
 Replace after 10 to 15 years or after major fault event.
 
+> [!TIP] Fix nuisance tripping by splitting circuits
+> Repeated trips are usually cumulative leakage from many appliances behind one RCCB, not a faulty device. Split the load across several RCCBs, press the TEST button monthly, and replace any unit that fails to trip on test straight away.
+
 ## Comparison: RCCB vs MCB vs RCBO
+
+Table: RCCB compared with MCB and RCBO
 
 | Feature | RCCB | MCB | RCBO |
 |---|---|---|---|
@@ -206,6 +222,8 @@ Type B RCCB demand has grown with [transformerless solar inverter](/glossary/tra
 State-level building codes increasingly mandate RCCB on all residential circuits.
 
 ## Standards and certifications
+
+Table: Indian and international standards for RCCBs
 
 | Standard | Scope |
 |---|---|

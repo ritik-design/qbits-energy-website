@@ -4,7 +4,7 @@ excerpt: "Exports earn 5 halalas, commercial imports reach 32. A stack that opti
 description: "Best solar software Saudi Arabia 2026: the full stack for design, proposals, CRM and compliance. The Small-Scale Solar PV framework, net billing, the 5 MW area cap, SASO and soiling."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-saudi-arabia.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 [Saudi Arabia](https://www.surgepv.com/best-solar-software/saudi-arabia) has some of the best solar resource on earth and a tariff structure that penalises using all of it. Under the Small-Scale Solar PV framework, covering 1 kW to 2 MW, exports credit at roughly 5 halalas per kWh while commercial import tariffs run in tiers up to around 32 halalas and industrial up to around 20. A kilowatt-hour the site consumes is worth up to six times one it sells. That single ratio means the software question here is not how much energy the design produces but how much of it the facility uses, which is a modelling problem most platforms are not organised around. Add dust losses of several percent a day and the yield model needs rebuilding too. This guide covers what the Saudi stack has to do.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The Small-Scale Solar PV framework covers 1 kW to 2 MW with net billing rather than net metering.
 > - Exports credit at around 5 halalas per kWh; commercial imports run up to roughly 32 and industrial up to around 20.
 > - That six to one spread makes hourly consumption modelling more important than generation modelling.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And Why Maintenance Is On The List
 
+Table: The six software categories a Saudi solar business runs, with the Saudi emphasis for each
+
 | Category | What it does | Saudi emphasis |
 | --- | --- | --- |
 | Design and simulation | Load matching, parapet shading, soiling, yield | Consumption modelling matters as much as generation |
@@ -66,6 +68,7 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | CRM and pipeline | Leads, portfolio cap tracking, conversion | Should track distribution area allocation |
 | Monitoring | Performance, service, soiling detection | Feeds the cleaning schedule |
 
+> [!IMPORTANT] Why maintenance earns a line here
 > **Why maintenance earns a line here.** In most markets cleaning is an occasional service item. At 2 to 5 percent daily soiling it is a recurring cost large enough to change project economics, and it is optimisable. That makes it a design-stage decision rather than an operational afterthought, and it needs software that can evaluate cleaning frequency against recovered energy.
 
 ## What Is Genuinely Saudi-Specific
@@ -74,7 +77,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 **Site type as a qualification filter.** Facilities with strong daytime load, manufacturing on day shifts, offices, cold storage, are excellent candidates. Facilities peaking in the evening are poor candidates for a large array without storage, and the honest response is a smaller system. That is a qualification question worth answering before design.
 
-**Soiling as a sawtooth.** Building between cleans and resetting on washing. A flat derate gets the annual total roughly right and the timing entirely wrong, which matters when the troughs coincide with high-tariff consumption. Modelled properly, cleaning frequency becomes something the tool can optimise.
+> [!WARNING] A flat soiling derate gets the timing wrong
+> **Soiling as a sawtooth.** Building between cleans and resetting on washing. A flat derate gets the annual total roughly right and the timing entirely wrong, which matters when the troughs coincide with high-tariff consumption. Modelled properly, cleaning frequency becomes something the tool can optimise.
 
 **The 5 MW area cap and what it does to spacing.** Where roof area binds, accept some inter-row shading to fit more modules, because total output beats specific yield. Where the aggregate cap binds, do the reverse. A tool that only optimises one way is wrong half the time.
 
@@ -121,6 +125,8 @@ The default on larger Saudi projects. Defensible engineering, and the usual home
 
 ## Saudi Arabia Solar Software Stack Comparison
 
+Table: Saudi Arabia solar software stack compared by capability
+
 | Capability | SurgePV | PVsyst | HelioScope | Aurora | Enact |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Yes | Partial |
@@ -135,6 +141,8 @@ The default on larger Saudi projects. Defensible engineering, and the usual home
 ## Worked Example: Roof-Filled Versus Load-Matched
 
 An illustrative calculation, not a specific customer project. A commercial facility with strong daytime load, roof capable of 500 kWp, commercial tariff assumed near 32 halalas at the top tier, export at 5 halalas.
+
+Table: Roof-filled at 500 kWp versus load-matched at 340 kWp (illustrative)
 
 | | Roof-filled at 500 kWp | Load-matched at 340 kWp |
 | --- | --- | --- |

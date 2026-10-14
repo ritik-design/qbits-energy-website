@@ -5,7 +5,7 @@ description: "Commissioning is the formal handover of a solar plant after testin
 category: "Installation"
 categorySlug: "installation"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is solar commissioning
   - solar plant commissioning
@@ -70,7 +70,7 @@ author: "Keyur Rakholiya"
 
 Solar commissioning is the formal process of testing, validating, and handing over a newly installed solar PV plant to its operator or owner. It is the bridge between construction completion and revenue-generating operation. Commissioning includes electrical safety testing, performance verification, regulatory approvals ([DISCOM](/glossary/discom/), [CEIG](/glossary/ceig/)), bidirectional meter installation, documentation transfer and the formal declaration of Commercial Operation Date (COD). Our [step-by-step EPC guide to solar inverter commissioning in India](/blog/solar-inverter-commissioning-in-india/) walks through the same sequence in more field detail.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Commissioning is the formal testing, validation and handover of a completed solar plant, ending in the Commercial Operation Date (COD).
 > - It covers electrical safety testing, grid synchronisation, DISCOM meter installation, CEIG energisation approval and documentation handover.
 > - Residential PM Surya Ghar commissioning takes 1 to 5 days; utility plants take 2 to 8 weeks under full IEC 62446 procedures.
@@ -96,6 +96,7 @@ Insurance. Insurers require commissioning report for plant policy issuance.
 
 ## Commissioning process
 
+<!-- steps -->
 1. Pre-commissioning visual inspection.
 2. Mechanical verification (mounting torque, structure stability).
 3. Electrical testing (insulation, continuity, polarity, earthing).
@@ -110,6 +111,8 @@ Insurance. Insurers require commissioning report for plant policy issuance.
 ## Technical deep dive
 
 ### Pre-commissioning checklist
+
+Table: Pre-commissioning checklist by system area
 
 | Category | Tests |
 |---|---|
@@ -127,6 +130,8 @@ DISCOM-witnessed test: with inverter generating, open main grid disconnect, veri
 
 ### Insulation resistance test
 
+Table: Minimum acceptable insulation resistance by component
+
 | Component | Minimum acceptable IR |
 |---|---|
 | DC string | > 1 MΩ |
@@ -137,11 +142,14 @@ Tested with 500 V DC megger between conductors and earth.
 
 ### Performance ratio test
 
-PR_actual = Generated kWh / (Capacity × Irradiation / G_STC)
+> [!FORMULA]
+> PR_actual = Generated kWh / (Capacity × Irradiation / G_STC)
 
 Acceptable threshold typically 78 to 82 percent for utility plants at commissioning. Site-specific in residential.
 
 ### Residential commissioning timeline
+
+Table: Typical residential commissioning timeline from installation to PM Surya Ghar subsidy
 
 | Day | Activity |
 |---|---|
@@ -198,6 +206,8 @@ Maintain digital copies for future reference.
 
 ## Comparison: commissioning scope
 
+Table: Commissioning scope and duration by project type
+
 | Project type | Tests | Duration |
 |---|---|---|
 | Residential rooftop | Standard tests | 1 to 5 days |
@@ -219,6 +229,8 @@ State DISCOMs maintain commissioning protocols, with variation across states.
 Utility solar under SECI tenders uses independent engineer for commissioning certification.
 
 ## Standards and certifications
+
+Table: Standards and approvals that govern commissioning in India
 
 | Standard | Scope |
 |---|---|
@@ -242,6 +254,9 @@ Missing meter seal numbers in records.
 No performance ratio baseline at commissioning.
 
 Incomplete handover documentation.
+
+> [!WARNING] Two mistakes that stop a commissioning
+> Energising before CEIG approval, and skipping the DISCOM-witnessed anti-islanding test, are the two errors most likely to stall handover. The inverter must disconnect within 2 seconds of a grid outage. Do not skip the insulation resistance test on monsoon-damp installations: DC string and inverter chassis must read above 1 MΩ and AC cable above 0.5 MΩ on a 500 V DC megger.
 
 Skipping anti-islanding witness test.
 

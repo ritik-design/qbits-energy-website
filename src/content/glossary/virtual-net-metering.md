@@ -5,7 +5,7 @@ description: "Virtual net metering shares solar export credits across multiple e
 category: "Metering and Grid"
 categorySlug: "metering-grid"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is virtual net metering
   - vnm india
@@ -63,7 +63,7 @@ author: "Nirav Dhanani"
 
 ## What is virtual net metering
 
-> **TL;DR**
+> [!NOTE] In short
 > - VNM credits solar export from one plant to multiple electricity accounts, in shares set by an agreement filed with the DISCOM.
 > - It solves the roof-load mismatch: sites with good roofs but little load can share generation with sites that have load but no roof.
 > - Notified frameworks exist in Delhi, Kerala, Karnataka, Maharashtra, Tamil Nadu and Andhra Pradesh; others are still draft or pilot.
@@ -107,6 +107,8 @@ Enables institutional aggregation. Schools, colleges and government departments 
 
 ### Allocation logic
 
+Table: Sample allocation of 8,000 kWh monthly export across beneficiaries
+
 | Beneficiary | Allocation % | Monthly credit on 8,000 kWh export |
 |---|---|---|
 | Flat A | 12 | 960 kWh |
@@ -117,7 +119,12 @@ Enables institutional aggregation. Schools, colleges and government departments 
 
 Allocations can be by load share, ownership share, or any other formula in the agreement.
 
+> [!EXAMPLE] Reading the allocation table
+> On 8,000 kWh of monthly export, each 1 percentage point of allocation is worth 80 kWh of credit. Flat A at 12 percent gets 960 kWh, and the common area at 35 percent gets 2,800 kWh. The four rows shown add up to 61 percent, so the remaining 39 percent must go to other beneficiaries in the agreement.
+
 ### State variations
+
+Table: Virtual and group net metering framework by state
 
 | State | Framework | Notes |
 |---|---|---|
@@ -178,6 +185,9 @@ Beneficiary list goes stale as flat owners change. Schedule annual updates.
 
 Allocation percentages do not sum to 100. Audit before filing.
 
+> [!WARNING] Allocations must total exactly 100 percent
+> A list that sums to more or less than 100 percent is a common reason a DISCOM bounces the filing. Add up every beneficiary's share, including the common area, before submitting, and redo the sum whenever an owner opts out or a flat changes hands.
+
 One beneficiary opts out mid-year. Re-allocation requires DISCOM amendment.
 
 Credits applied at wrong tariff. Audit first three bills carefully.
@@ -202,6 +212,8 @@ Negotiate plant ownership and end-of-life arrangements in the original agreement
 
 ## Comparison: VNM vs net vs gross
 
+Table: Virtual net metering vs net metering vs gross metering
+
 | Feature | VNM | Net metering | [Gross metering](/glossary/gross-metering/) |
 |---|---|---|---|
 | Beneficiaries | Multiple | Single | Single |
@@ -219,6 +231,8 @@ MNRE rooftop solar programme has progressively recognised group housing and aggr
 DISCOM administrative capacity for VNM is the binding constraint. States with stronger AMI, [smart meter](/glossary/smart-meter/) and MDMS infrastructure handle VNM cleanly. States with manual billing struggle.
 
 ## Standards and certifications
+
+Table: Laws and regulations that govern virtual net metering
 
 | Standard | Scope |
 |---|---|

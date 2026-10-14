@@ -5,7 +5,7 @@ description: "Feed In Tariff (FIT) is a fixed price the utility pays for solar g
 category: "Policies"
 categorySlug: "policies"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is feed in tariff
   - fit india
@@ -78,7 +78,7 @@ In India, FIT appears in several forms:
 
 The FIT mechanism gave Indian solar its early policy lift in the 2010 to 2014 period, when tariffs above ₹15 per kWh underwrote the first 5 GW of capacity. Tariffs have since fallen below ₹2.50 per kWh for utility solar, reflecting the dramatic fall in capex.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A feed in tariff is a regulator-fixed price locked into a long-term contract, usually 25 years, paid per kWh exported to the grid.
 > - Indian utility-scale FITs fell from ₹17.91 per kWh in 2010 to under ₹2.60 per kWh by 2024 as solar capex collapsed.
 > - State-set FITs for [gross-metered](/glossary/gross-metering/) rooftop and small commercial solar typically run ₹2.40 to ₹4.50 per kWh, depending on state and category.
@@ -114,6 +114,9 @@ Policy lever. Regulators use FIT level to encourage or slow specific segments. H
 6. The DISCOM pays the developer monthly at FIT rate multiplied by metered generation.
 7. Disputes are resolved through [CERC](/glossary/cerc/) or [SERC](/glossary/serc/).
 
+> [!FORMULA]
+> Monthly FIT payment = FIT rate × metered generation
+
 ## Technical deep dive
 
 ### FIT setting methodology
@@ -130,6 +133,8 @@ FIT is set close to LCOE, sometimes with a small premium for distributed segment
 
 ### Sample FIT history
 
+Table: Sample SECI utility solar tariff history
+
 | Year | SECI utility solar tariff (₹/kWh) |
 |---|---|
 | 2010 | 17.91 (NSM Phase 1) |
@@ -139,9 +144,26 @@ FIT is set close to LCOE, sometimes with a small premium for distributed segment
 | 2023 | 2.55 |
 | 2024 | 2.59 |
 
+```chart
+type: line
+title: SECI utility solar tariff, 2010 to 2024
+unit: "₹/kWh"
+source: "SECI tender discovered tariffs, as tabulated in this guide's sample FIT history (2010 is NSM Phase 1)"
+note: "Years are not evenly spaced."
+data:
+  - { label: "2010", value: 17.91 }
+  - { label: "2013", value: 7.49 }
+  - { label: "2017", value: 2.44 }
+  - { label: "2020", value: 1.99 }
+  - { label: "2023", value: 2.55 }
+  - { label: "2024", value: 2.59 }
+```
+
 Distributed FIT under SERC orders is typically higher than utility, reflecting smaller scale and higher per-MW capex.
 
 ### Contract structure
+
+Table: Typical feed-in tariff contract terms
 
 | Term | Typical value |
 |---|---|
@@ -204,6 +226,9 @@ PSM (Payment Security Mechanism) absence in some PPAs.
 
 ## Best practices
 
+> [!WARNING] Plan for late DISCOM payments
+> Some states routinely delay solar FIT payments by 90 to 240 days. Negotiate a payment security mechanism in the PPA, build cash flow buffers for 180 days of delayed payment, and pursue late payment surcharge claims to deter chronic delays.
+
 Read the entire tariff order, not just the headline rate.
 
 Negotiate a payment security mechanism in the PPA.
@@ -219,6 +244,8 @@ Watch for curtailment events and document them.
 Pursue late payment surcharge claims to deter chronic delays.
 
 ## Comparison: FIT vs reverse auction vs net metering
+
+Table: FIT vs reverse auction vs net metering
 
 | Feature | FIT (regulated) | Reverse auction | Net metering |
 |---|---|---|---|
@@ -240,6 +267,8 @@ Distributed FITs for rooftop solar appear in state-specific gross metering frame
 The Late Payment Surcharge Rules 2022 created a mechanism for DISCOMs to clear outstanding renewable energy dues with escalating penalties.
 
 ## Standards and certifications
+
+Table: Laws and orders behind feed-in tariffs
 
 | Standard | Scope |
 |---|---|

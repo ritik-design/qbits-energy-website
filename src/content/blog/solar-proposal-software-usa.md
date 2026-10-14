@@ -4,7 +4,7 @@ excerpt: "The best solar proposal software for US installers models NEM 3.0 self
 description: "Best solar proposal software USA 2026. SurgePV vs Aurora Sales Mode, Solargraf, Pylon, Enact, OpenSolar Pro, Sighten on ITC, NEM 3.0, SRECs and pricing."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "14 min"
 image: "/og/blog-solar-proposal-software-usa.webp"
 author: "Akash Hirapara"
@@ -40,13 +40,16 @@ featured: false
 
 US residential solar sales changed shape in April 2023, and most [proposal software](https://www.surgepv.com/blog/how-solar-proposal-software-increases-sales) has not caught up. When California moved to NEM 3.0, export credits dropped to roughly $0.05 to $0.08 per kWh against retail rates approaching $0.40. The proposal metric that had driven American solar sales for fifteen years, annual offset percentage, stopped describing the economics. Yet walk through the demo of almost any solar proposal tool in 2026 and the headline number is still offset. This guide compares the seven proposal platforms US installers actually shortlist, judges them on the three things that decide a US deal in 2026 (self-consumption modelling, federal ITC accuracy, and state incentive coverage), and explains why the design tool and the proposal tool should be the same product.
 
-> **TL;DR**
-> - The 30% federal ITC runs through 2032 under Section 25D for residential and Section 48E for commercial, according to the IRS (2026).
+> [!KEYTAKEAWAYS]
 > - Under NEM 3.0, export credits sit near $0.05 to $0.08 per kWh, so offset percentage is no longer a useful proposal headline. Self-consumption and battery dispatch are.
-> - [SurgePV](https://surgepv.com/) generates the proposal from the same project record as the bankable design, at $1,299 to $1,899 per user per year.
-> - A five-seat SurgePV team pays $6,495 per year. The equivalent Aurora design plus Sales Mode stack runs $14,000 to $18,000.
 > - Commercial deals need Section 48E, the 10% domestic content bonus, the 10% energy community bonus, and MACRS five-year depreciation. Most residential-first tools model none of them.
-> - [Book a free SurgePV demo](https://surgepv.com/demo) and build a proposal on one of your live deals.
+> - Under NEM 3.0, exported energy earns roughly $0.05 to $0.08 per kWh while imported energy costs close to $0.40 per kWh at peak.
+> - Test a vendor by asking for the hourly load and generation overlay for a California address with a battery, then the self-consumption percentage.
+
+- The 30% federal ITC runs through 2032 under Section 25D for residential and Section 48E for commercial, according to the IRS (2026).
+- [SurgePV](https://surgepv.com/) generates the proposal from the same project record as the bankable design, at $1,299 to $1,899 per user per year.
+- A five-seat SurgePV team pays $6,495 per year. The equivalent Aurora design plus Sales Mode stack runs $14,000 to $18,000.
+- [Book a free SurgePV demo](https://surgepv.com/demo) and build a proposal on one of your live deals.
 
 **Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for US installers in 2026 is SurgePV, because the proposal is generated from the same engineering project as the design, and the financial engine models the 30% ITC, MACRS depreciation, state SRECs, and NEM 3.0 hourly self-consumption. Aurora Sales Mode is the strongest residential-only alternative at roughly triple the seat cost. Solargraf and Pylon are credible dedicated proposal tools if you already own a design platform.
 
@@ -75,7 +78,8 @@ A US proposal carries more regulatory and financial weight than a proposal in al
 
 Under California's NEM 3.0, exported energy earns roughly $0.05 to $0.08 per kWh while imported energy costs close to $0.40 per kWh at peak. That is a spread of five to eight times. New York's VDER runs on a formula rather than retail rate. Arizona credits excess energy near $0.09 per kWh. New Jersey still pays close to full retail under NEM Plus, and so the old model survives in pockets.
 
-> **What most US installers get wrong.** Offset percentage is not savings. Under NEM 3.0 a system can hit 100% annual offset and still deliver a fraction of the bill reduction the customer expects, because the exported kWh were sold at a sixth of what the imported kWh cost.
+> [!IMPORTANT] What most US installers get wrong
+> Offset percentage is not savings. Under NEM 3.0 a system can hit 100% annual offset and still deliver a fraction of the bill reduction the customer expects, because the exported kWh were sold at a sixth of what the imported kWh cost.
 
 The metric that matters now is self-consumption, which means the share of generated energy the household uses at the moment it is produced. Raising it requires an hourly model, and raising it deliberately requires battery dispatch logic. A proposal tool that runs on annual kWh totals cannot compute it at all.
 
@@ -108,6 +112,8 @@ Historically strong on financing workflows and TPO structures. Its position has 
 
 ## US Solar Proposal Software Comparison
 
+Table: US solar proposal software comparison by capability and price
+
 | Tool | Proposal from design record | NEM 3.0 hourly self-consumption | ITC + MACRS + bonuses | Maintained SREC libraries | E-signature | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes, both bonus adders | Yes | Included | $1,299 to $1,899 |
@@ -133,6 +139,8 @@ This is an illustrative calculation, not a specific customer project. The inputs
 
 Inputs: 8.4 kW DC array, 11.5 kWh battery, south and west roof planes, 1,750 kWh per kW annual specific yield, retail import averaging $0.38 per kWh, NEM 3.0 export credit at $0.06 per kWh, installed cost $31,000 before incentives.
 
+Table: 8.4 kW plus battery in San Diego: offset-led vs self-consumption-led proposal (illustrative)
+
 | Line | Offset-led proposal | Self-consumption-led proposal |
 | --- | --- | --- |
 | Annual generation | 14,700 kWh | 14,700 kWh |
@@ -148,6 +156,8 @@ Inputs: 8.4 kW DC array, 11.5 kWh battery, south and west roof planes, 1,750 kWh
 The offset-led proposal overstates year one savings by about $1,364, roughly 32%. That gap does not show up at signing. It shows up on the first summer bill, and it is the reason the customer calls. Note also that the battery is what lifts self-consumption to 71%; without it the same array would land nearer 45% on these load assumptions.
 
 ## Pricing For A Five-Seat US Team
+
+Table: Annual cost for a five-seat US team, by stack
 
 | Stack | Annual cost, 5 seats | What you get |
 | --- | --- | --- |

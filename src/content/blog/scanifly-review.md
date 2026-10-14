@@ -4,7 +4,7 @@ excerpt: "An honest Scanifly review for 2026. What it actually is, why it is not
 description: "Scanifly review 2026: drone photogrammetry and site survey software that produces an as-built 3D model. Real strengths, real limitations, and who should buy it."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-scanifly-review.webp"
 author: "Keyur Rakholiya"
@@ -37,12 +37,13 @@ featured: false
 
 Most Scanifly reviews get the framing wrong before they reach the first feature. They line it up next to Aurora, OpenSolar, and HelioScope, score it on proposal templates and financial modelling, and conclude it is a narrow product. That comparison is unfair, because Scanifly is not trying to be a design and proposal platform. It is drone photogrammetry and [site survey](https://www.surgepv.com/blog/solar-drone-site-survey) software, and it competes with the truck roll, the tape measure, and the change order rather than with the design tool you already own. This review assesses it on that basis: what it does, how well it does it, what it costs you operationally, and the specific conditions under which the drone workflow earns its keep.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Scanifly is drone-based [site survey](/glossary/site-survey/) software. It turns overlapping aerial photographs into a to-scale, as-built 3D model of a real building.
-> - It is usually run alongside a design platform, not instead of one. Comparing it head to head with Aurora or SurgePV is a category error.
 > - Scanifly states 2 to 3 inch accuracy across X, Y, and Z from proper drone capture, according to Scanifly's own documentation.
 > - The real cost is operational: drone hardware, a certified pilot, airspace and weather constraints, and a site visit inserted before design begins.
-> - For most simple residential roofs, satellite-derived 3D modelling from a platform like SurgePV at $1,299 to $1,899 per user per year is close enough and far cheaper per project.
+
+- It is usually run alongside a design platform, not instead of one. Comparing it head to head with Aurora or SurgePV is a category error.
+- For most simple residential roofs, satellite-derived 3D modelling from a platform like SurgePV at $1,299 to $1,899 per user per year is close enough and far cheaper per project.
 
 **Short version.** Scanifly is drone photogrammetry software that produces an accurate as-built 3D model of a solar site from a structured drone flight. It is genuinely good at complex, obstructed, or commercial roofs where remote imagery is unreliable. It is not a proposal platform, and it adds real operational overhead. Buy it when measurement error is costing you change orders, not because you want better-looking designs.
 
@@ -68,7 +69,8 @@ Scanifly owns one link in that chain, and owns it differently. It replaces the s
 
 So the real question is not "Scanifly or Aurora". It is "does my site model need to come from a drone, and if so, what am I designing on top of it". Teams that get this right typically run two tools with clear roles. Teams that get it wrong buy Scanifly expecting a proposal engine, or buy a design platform expecting survey-grade as-built capture, and then blame the product for a scoping mistake they made themselves.
 
-> **What most buyers get wrong.** They evaluate Scanifly against a design platform's feature list and conclude it is missing things. It is missing them on purpose. The correct comparison is Scanifly against your current site survey process: the truck roll, the ladder, the tape measure, and the revisions you issue when the measurements were wrong.
+> [!IMPORTANT] What most buyers get wrong
+> They evaluate Scanifly against a design platform's feature list and conclude it is missing things. It is missing them on purpose. The correct comparison is Scanifly against your current site survey process: the truck roll, the ladder, the tape measure, and the revisions you issue when the measurements were wrong.
 
 <div class="inline-cta">
 <h3>Find out how many of your roofs actually need a drone</h3>
@@ -102,6 +104,8 @@ These are real strengths. This is a good product inside its niche, and a review 
 **Not positioned as a proposal platform.** Scanifly has added proposal capability, but the product's depth sits in survey, and in our view buying it to solve a proposal problem is a mistake. Production simulation depth, financial modelling across tariff and subsidy structures, and branded customer documents are the domain of design platforms. Expect to run Scanifly alongside one, and budget for both. Confirm the current scope with the vendor.
 
 **Cost is reported to scale with sites rather than seats.** Scanifly does not publish list prices, so pricing is quote-based and reported structures vary. Buyers commonly describe volume-linked arrangements. Volume-linked pricing is not inherently bad, and for a low-volume commercial engineering shop it is arguably fairer than per-seat billing. But if your quote works that way, cost tracks project count, so a growth year raises the bill in a way a flat seat licence does not. Model your own quote against projected volume, not last year's.
+
+Table: Scanifly strengths and limitations by dimension
 
 | Dimension | Scanifly strength | Scanifly limitation |
 | --- | --- | --- |
@@ -159,11 +163,10 @@ The honest verdict is not about software quality. It is about a workflow decisio
 
 The mistake to avoid is buying Scanifly as a design platform substitute. It is not positioned as one, it does not claim to be one, and the comparison tables that score it that way are measuring the wrong thing. Scope it as a survey capability, run it alongside a design and proposal platform, and it will do exactly the job it was built for.
 
-Three things to do next:
-
-- Audit your last 20 projects and count how many actually had a measurement problem. That number decides whether you need drone survey at all.
-- Price the full drone programme, including pilot time, certification, hardware, and the schedule delay, not just the software.
-- Model your simplest and your most complex roof in a satellite-based platform and compare both against reality before committing either way.
+> [!CHECKLIST] Three things to do next
+> - Audit your last 20 projects and count how many actually had a measurement problem. That number decides whether you need drone survey at all.
+> - Price the full drone programme, including pilot time, certification, hardware, and the schedule delay, not just the software.
+> - Model your simplest and your most complex roof in a satellite-based platform and compare both against reality before committing either way.
 
 <div class="inline-cta">
 <h3>Run the comparison on your own buildings</h3>

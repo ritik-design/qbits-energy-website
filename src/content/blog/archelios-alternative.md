@@ -4,7 +4,7 @@ excerpt: "Looking for an Archelios alternative in 2026? Six platforms compared o
 description: "An honest Archelios alternative guide for 2026. Six platforms compared on published pricing, capacity limits, hourly self-consumption and battery dispatch, and customer-facing proposal output, with guidance for French and European buyers after the S21 reform."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-archelios-alternative.webp"
 author: "Keyur Rakholiya"
@@ -37,7 +37,7 @@ featured: false
 
 If you are shopping for an Archelios alternative in 2026, you are probably not disputing the engineering. Trace Software International built a suite that takes electrical calculation seriously, publishes its prices, and knows exactly which buyer it serves. The reasons people look elsewhere tend to be structural rather than technical: the capacity-banded licensing means growth moves you up a tier, and the customer-facing proposal is not what the product is organised around. There is also a third reason specific to France, and it arrived in June 2026 with the revised S21 arrete. This guide compares six realistic options, leads with the one we build, and says plainly where Archelios should be kept.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Published Archelios list pricing at the time of writing: PRO Silver EUR 990 up to 100 kWp, PRO Gold EUR 1,490 up to 1 MWp, PRO Platinum EUR 1,990 unlimited, and archelios CALC EUR 1,350, all excluding tax per year.
 > - The two honest reasons buyers shop around are capacity-banded tiering and a workflow that is built for dossiers rather than customer proposals.
 > - Since the June 2026 S21 reform cut surplus buyback to 1.1 centimes per kWh, hourly self-consumption and battery dispatch decide whether a French quote is honest.
@@ -101,7 +101,8 @@ SurgePV covers 3D design, 8,760-hour module-level shading, full simulation, hour
 
 On the French question specifically, the [8,760-hour shade and yield engine](https://surgepv.com/shadow-analysis) runs generation against an hourly load profile and dispatches a battery through it, so a quote at 1.1 centimes surplus reflects what the household actually consumes rather than what the array produces. Project setup is aware of NF C 15-712 practice for European installations. The [financial modelling tool](https://surgepv.com/generation-financial-tool) carries post-reform French tariff logic rather than assuming a feed-in premium that no longer exists.
 
-**Where it does not replace Archelios:** SurgePV does not produce a stamped NF C 15-712 calculation note with protection coordination and cable schedules in the way archelios CALC does. We are not going to pretend otherwise. If that document is your billable deliverable, the sane configuration is SurgePV alongside CALC, not instead of it.
+> [!NOTE] Where SurgePV does not replace Archelios
+> **Where it does not replace Archelios:** SurgePV does not produce a stamped NF C 15-712 calculation note with protection coordination and cable schedules in the way archelios CALC does. We are not going to pretend otherwise. If that document is your billable deliverable, the sane configuration is SurgePV alongside CALC, not instead of it.
 
 **Also true:** SurgePV is younger than the incumbents in this list, so the user community is smaller and some jurisdiction-specific permit quirks are still maturing.
 
@@ -166,6 +167,8 @@ OpenSolar has a genuinely free entry tier funded by hardware and finance partner
 
 ## Comparison Table
 
+Table: Archelios and six alternatives compared on price, capacity band, self-consumption and electrical output
+
 | Platform | Published price | Capacity band | Hourly self-consumption | Battery dispatch | Proposal from same record | Normative electrical output |
 | --- | --- | --- | --- | --- | --- | --- |
 | archelios PRO | EUR 990 / 1,490 / 1,990 per year | Yes: 100 kWp / 1 MWp / unlimited, free tier 9 kWp | Yes, verify resolution on a real job | Storage settings available | Not the product's focus | Via archelios CALC, EUR 1,350 |
@@ -190,6 +193,7 @@ Two patterns fall out of that table. First, Archelios is the only entry in this 
 - **Choose Aurora** if you sell residential in the United States.
 - **Choose OpenSolar** if fixed software cost has to stay near zero and your roofs are simple.
 
+> [!IMPORTANT] What most buyers get wrong
 > **What most buyers get wrong.** They treat this as a single replacement decision. It usually is not. Archelios occupies the dossier half of the workflow and most alternatives occupy the commercial half, so the honest question is which half is costing you money right now, and whether you need one tool or two.
 
 ## Verdict

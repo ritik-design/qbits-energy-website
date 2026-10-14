@@ -4,7 +4,7 @@ excerpt: "An honest Archelios review for 2026. Published pricing from €990 to 
 description: "Archelios review 2026: Trace Software's archelios PRO and CALC modules, published subscription pricing, genuine strengths in French and European electrical compliance, honest limitations, and alternatives including SurgePV and PVsyst."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-archelios-review.webp"
 author: "Keyur Rakholiya"
@@ -37,7 +37,7 @@ featured: false
 
 [Archelios](/blog/archelios-alternative/) is one of the few solar design products that tells you what it costs before you talk to a salesperson. That alone puts Trace Software International, the French engineering software house behind it, in a small minority of this category. But published pricing is not a reason to buy. This review looks at what the archelios suite actually is, how its modules divide the work, what the published subscriptions cost in 2026, where the engineering depth is genuine, where the fit breaks down, and which alternatives a French or European buyer should put next to it before signing. The short answer is that this is a design office tool wearing engineering clothes honestly, and the buying mistake is expecting it to behave like a sales platform.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Archelios is a modular PV engineering suite from Trace Software International, split across archelios PRO for design and simulation and archelios CALC for electrical sizing and compliance.
 > - Published list pricing at the time of writing: PRO Silver €990, PRO Gold €1,490, PRO Platinum €1,990 excluding tax per year, with power ceilings of 100 kWp, 1 MWp and unlimited respectively.
 > - archelios CALC is listed at €1,350 excluding tax per year, with a high-voltage variant reported at €1,500 to €1,590.
@@ -62,6 +62,8 @@ That structure is the product's identity. Most platforms in this category run de
 ## Archelios Pricing in 2026
 
 Trace Software publishes list prices on its own product pages, so these are verifiable rather than reported. All figures are excluding tax, per year, and reflect the vendor's own listings at the time of writing.
+
+Table: Archelios modules, published prices excluding tax and scope
 
 | Module | Published price (excl. tax / year) | Scope |
 | --- | --- | --- |
@@ -110,6 +112,8 @@ Credit where it belongs. These are real strengths, and some of them are not avai
 
 **Two licences for one workflow.** Simulation and electrical calculation are separate purchases. That is honest, because a team needing only one should not pay for both. It also means the practical cost of the suite is roughly double the advertised design price, and that surprises buyers who anchored on €990.
 
+Table: Archelios strengths and limitations by dimension
+
 | Dimension | Archelios strength | Archelios limitation |
 | --- | --- | --- |
 | Electrical compliance | NF and IEC standard sets, NF C 15-712 references | Value concentrated in Europe |
@@ -119,13 +123,15 @@ Credit where it belongs. These are real strengths, and some of them are not avai
 | Onboarding | Free tier up to 9 kWp for evaluation | Modular workflow takes time to learn |
 | Buyer fit | Design offices, engineering-led installers | Volume residential sales teams |
 
+> [!IMPORTANT] What most buyers get wrong
 > **What most buyers get wrong.** They compare Archelios to Aurora or OpenSolar on proposal quality and conclude it lost. That comparison is a category error. Archelios competes with the spreadsheet and the manual calculation note your senior engineer currently maintains, and against that incumbent it wins comfortably. Judge it on the dossier, not the pitch deck.
 
 ## The S21 Problem Every French Tool Now Has
 
 There is a change in the French market that reshapes the evaluation, and it has nothing to do with electrical standards.
 
-On 5 June 2026 the revised S21 tariff arrêté abolished the prime à l'autoconsommation for new installations and cut the surplus buyback rate to 1.1 centimes per kWh excluding tax. Against a regulated retail import price many times higher, exported energy is now worth close to nothing. Our [French solar design software guide](/blog/solar-design-software-france/) covers the full consequences, but the design implication is one line: sizing to the roof is finished, and sizing to the daytime load curve replaces it.
+> [!WARNING] S21 reform: exported surplus is now worth almost nothing
+> On 5 June 2026 the revised S21 tariff arrêté abolished the prime à l'autoconsommation for new installations and cut the surplus buyback rate to 1.1 centimes per kWh excluding tax. Against a regulated retail import price many times higher, exported energy is now worth close to nothing. Our [French solar design software guide](/blog/solar-design-software-france/) covers the full consequences, but the design implication is one line: sizing to the roof is finished, and sizing to the daytime load curve replaces it.
 
 That moves the decisive question in a French quote from "is the electrical design compliant" to "how much of this generation does the household actually consume, and what does a battery convert." Both questions matter. Compliance is not optional and never was. But compliance was always required, whereas the self-consumption arithmetic changed by an order of magnitude in a single arrêté, and it now decides whether the project is worth doing at all.
 
@@ -142,11 +148,12 @@ So the honest framing for a French buyer in 2026 is that Archelios answers the c
 
 Buy it if most of these describe you.
 
-- You are a French or European bureau d'études, design office, or engineering-led installer.
-- Your billable deliverable includes calculation notes, cable schedules and single-line diagrams, not only a customer proposal.
-- Your work has to satisfy NF C 15-712-1, NF C 15-100 and Consuel review, or the IEC equivalents elsewhere in Europe.
-- You currently maintain electrical calculations in a spreadsheet and want that liability inside a maintained standards library.
-- You want published pricing you can put in a budget without a sales call.
+> [!CHECKLIST] Buy Archelios if most of these describe you
+> - You are a French or European bureau d'études, design office, or engineering-led installer.
+> - Your billable deliverable includes calculation notes, cable schedules and single-line diagrams, not only a customer proposal.
+> - Your work has to satisfy NF C 15-712-1, NF C 15-100 and Consuel review, or the IEC equivalents elsewhere in Europe.
+> - You currently maintain electrical calculations in a spreadsheet and want that liability inside a maintained standards library.
+> - You want published pricing you can put in a budget without a sales call.
 
 At that profile, roughly €2,340 to €3,340 a year for PRO plus CALC is a small line against the rework and review cycles it removes. Arguing against Archelios for this buyer would be a sales pitch rather than a review.
 

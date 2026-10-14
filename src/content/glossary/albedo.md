@@ -5,7 +5,7 @@ description: "Albedo is ground reflectivity. Full guide to bifacial gain and Ind
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is albedo
   - solar albedo
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 Albedo is the fraction of incoming solar radiation reflected by a surface, expressed as a dimensionless number between 0 (perfect absorber, all light absorbed) and 1 (perfect reflector, all light reflected). The term originates from Latin "albus" meaning white, and was introduced in astronomy before becoming common in atmospheric and solar engineering.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Albedo measures how much sunlight a surface reflects, on a scale from 0 (absorbs everything) to 1 (reflects everything).
 > - It matters most for bifacial modules, which generate extra power from ground-reflected light hitting their rear surface.
 > - Typical Indian ground albedo runs 0.15-0.30 naturally, and can reach 0.30-0.45 with white gravel ground preparation.
@@ -89,6 +89,8 @@ Site selection. High-albedo sites favoured for bifacial plants, which is why sit
 Ground preparation. White gravel and similar treatments justified by albedo-driven yield.
 
 ## Albedo by surface type
+
+Table: Typical albedo by surface type
 
 | Surface | Albedo range |
 |---|---|
@@ -111,6 +113,8 @@ Ground preparation. White gravel and similar treatments justified by albedo-driv
 
 ### Bifacial gain vs albedo
 
+Table: Approximate bifacial gain by ground albedo
+
 | Albedo | Approximate bifacial gain over monofacial |
 |---|---|
 | 0.10 (dark) | 5-8% |
@@ -125,19 +129,24 @@ Albedo varies with wavelength. Solar cells respond to UV-VIS-NIR (300-1100 nm). 
 
 ### Measurement
 
+> [!FORMULA]
+> Albedo = downward (reflected) reading ÷ upward (incoming) reading
+
 Albedometer: paired pyranometers, one facing up (measuring incoming) and one down (measuring reflected). Albedo = downward / upward.
 
 On-site measurement recommended for utility projects. Multiple measurements across seasons capture variation.
 
 ### Cost-benefit of ground treatment
 
-For a 1 MW utility plant:
-- Baseline albedo 0.20: bifacial gain ~10%
-- White gravel albedo 0.40: bifacial gain ~18%
-- Yield increase: 8% × 1,650 MWh = 132 MWh/year
-- Revenue gain at ₹2.75/kWh: ₹3.6 lakh/year
-- White gravel cost (10,000 m² coverage): ₹10-20 lakh
-- Payback: 3-5 years
+> [!EXAMPLE] White gravel on a 1 MW plant
+> For a 1 MW utility plant:
+>
+> - Baseline albedo 0.20: bifacial gain ~10%
+> - White gravel albedo 0.40: bifacial gain ~18%
+> - Yield increase: 8% × 1,650 MWh = 132 MWh/year
+> - Revenue gain at ₹2.75/kWh: ₹3.6 lakh/year
+> - White gravel cost (10,000 m² coverage): ₹10-20 lakh
+> - Payback: 3-5 years
 
 ## Real-world applications
 
@@ -174,6 +183,8 @@ NIWE data does not specifically include albedo; on-site measurement standard.
 Solar yield modelling tools (PVsyst, SAM) include albedo as input.
 
 ## Standards and certifications
+
+Table: Standards relevant to albedo and bifacial yield
 
 | Standard | Scope |
 |---|---|

@@ -5,7 +5,7 @@ description: "APPC is the DISCOM's blended power procurement cost. Full guide an
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - average pooled cost
   - appc
@@ -77,7 +77,7 @@ APPC is used as a benchmark in several Indian electricity regulations:
 
 Indian state APPCs typically range from ₹4 to ₹5.5/kWh, varying by state and revised annually. APPC has been declining for many states as cheap solar and wind PPAs displace expensive thermal contracts.
 
-> **TL;DR**
+> [!NOTE] In short
 > - APPC is the weighted-average cost at which a DISCOM buys power across its entire portfolio: thermal, hydro, nuclear and renewables.
 > - Indian state APPCs run roughly ₹4 to ₹5.5/kWh and are revised annually in SERC tariff orders.
 > - Some states cash out excess net metering credits at APPC, which is lower than the retail tariff of ₹7 to ₹9/kWh.
@@ -97,6 +97,8 @@ Cross-subsidy. Reference for surcharge calculation on open access.
 Solar economics. Lower APPC pressures renewable tariff bidding.
 
 ## Indian APPC by state (approximate 2024)
+
+Table: Approximate APPC by state, 2024 (₹/kWh)
 
 | State | APPC (₹/kWh) |
 |---|---|
@@ -118,6 +120,8 @@ Solar economics. Lower APPC pressures renewable tariff bidding.
 ## Technical deep dive
 
 ### Components of APPC
+
+Table: Approximate share of a DISCOM's power portfolio by source
 
 | Component | Approximate share |
 |---|---|
@@ -141,6 +145,17 @@ For year-end credit cash-out at APPC:
 - Excess generation valued at ₹4-5/kWh
 - Lower than retail [tariff](/glossary/tariff/) of ₹7-9/kWh
 - Discourages oversizing solar beyond consumption
+
+Table: Where APPC sits against solar PPA tariffs and retail tariffs
+
+| Price | Approximate level (₹/kWh) |
+|---|---|
+| Solar PPA tariff | 2.50 to 3 |
+| State APPC | 4 to 5.5 |
+| Retail tariff | 7 to 9 |
+
+> [!WARNING] Cash-out at APPC pays far less than retail
+> In states that cash out year-end excess net metering credits at APPC, surplus units are valued at about ₹4 to ₹5/kWh, against a retail tariff of ₹7 to ₹9/kWh. That gap discourages sizing a rooftop system beyond annual consumption, so check the state's treatment of excess credits before choosing capacity.
 
 ### REC pricing reference
 
@@ -168,6 +183,9 @@ Account for APPC trajectory in financial modelling.
 
 Understand how excess net metering is treated in state.
 
+> [!TIP] Take the actual figure from the tariff order
+> The state APPC table above is approximate. The binding value is the one published in your state's SERC tariff order for the year, and it is revised annually, so quote that order rather than a rounded number in any proposal.
+
 For RESCO/PPA: compare against APPC to demonstrate DISCOM savings.
 
 ## Indian market context
@@ -181,6 +199,8 @@ Solar at sub-₹3/kWh creates significant cost gap vs ₹5 APPC.
 CERC REC Regulations 2022 reference APPC for floor/forbearance.
 
 ## Standards and certifications
+
+Table: Regulations and orders that publish or use APPC
 
 | Standard | Scope |
 |---|---|

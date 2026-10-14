@@ -5,7 +5,7 @@ description: "DHI is the diffuse component of solar irradiance. Full guide to me
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is dhi
   - diffuse horizontal irradiance
@@ -70,9 +70,10 @@ Diffuse Horizontal Irradiance (DHI) is the solar radiation received on a horizon
 
 Measured in W/m² as irradiance and kWh/m² as integrated [irradiation](/glossary/irradiation/), DHI complements the direct beam ([DNI](/glossary/dni/)) and together with the projected direct beam makes up the total Global Horizontal Irradiance ([GHI](/glossary/ghi/)):
 
-GHI = DNI × cos(θz) + DHI
+> [!FORMULA]
+> GHI = DNI × cos(θz) + DHI
 
-> **TL;DR**
+> [!NOTE] In short
 > - DHI is scattered sky light, not the direct sunbeam, and it is what illuminates a cloudy day.
 > - Indian DHI ranges from about 600 kWh/m²/year in dry, clear regions to 950 kWh/m²/year in humid and monsoon-affected regions.
 > - Diffuse light contributes roughly 15-30% of plane-of-array irradiance for a typical fixed-tilt Indian installation.
@@ -98,6 +99,8 @@ Resource decomposition. Bankable yield models need DNI and DHI separately, not j
 
 DHI can be measured directly or computed indirectly:
 
+Table: Ways to measure diffuse horizontal irradiance
+
 | Method | Description |
 |---|---|
 | Shaded pyranometer | Pyranometer with shadow ball blocking direct beam |
@@ -108,6 +111,8 @@ DHI can be measured directly or computed indirectly:
 ## Technical deep dive
 
 ### Indian DHI by region (annual, kWh/m²)
+
+Table: Indian annual DHI by region, kWh per square metre
 
 | Region | Annual DHI |
 |---|---|
@@ -123,6 +128,8 @@ DHI can be measured directly or computed indirectly:
 | North-east states (humid) | 850 to 950 |
 
 ### Diffuse fraction (DHI/GHI)
+
+Table: Diffuse fraction (DHI/GHI) by climate type
 
 | Climate type | DHI/GHI ratio |
 |---|---|
@@ -181,6 +188,9 @@ Apply local aerosol corrections in dust-heavy regions.
 
 ## Indian market context
 
+> [!TIP] When DHI matters
+> PM Surya Ghar residential systems do not need DHI-specific data, because GHI is sufficient. DHI becomes essential for bifacial rear-side calculation, including SECI tender bids, and for bankable yield models that take DNI and DHI separately.
+
 NIWE limited DHI ground stations; most plants use derived or satellite-based DHI.
 
 Solargis and NSRDB provide Indian DHI from satellite-derived methods.
@@ -190,6 +200,8 @@ Bifacial yield modelling for SECI tender bids uses DHI as input for rear-side ca
 PM Surya Ghar residential systems do not require DHI-specific data; GHI is sufficient.
 
 ## Standards and certifications
+
+Table: Standards for irradiance measurement
 
 | Standard | Scope |
 |---|---|

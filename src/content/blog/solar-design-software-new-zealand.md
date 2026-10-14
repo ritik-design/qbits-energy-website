@@ -4,7 +4,7 @@ excerpt: "Since July 2026 the big four retailers must offer time-varying export 
 description: "Best solar design software New Zealand 2026. SurgePV vs PVsyst, Aurora, PV*SOL on time-varying export rates, retailer buyback spreads from 5c to 40c, AS/NZS 4777.2 and battery dispatch."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-design-software-new-zealand.webp"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ featured: false
 
 [New Zealand](https://www.surgepv.com/best-solar-software/design-new-zealand) quietly became one of the more interesting solar design markets on 1 July 2026. Since that date the four largest retailers, holding roughly 87 percent of connections between them, have been required to offer a plan where the export rate varies through the day. The rule sets the shape of the price, not its level, so retailers place the peaks where they choose and there is no floor. The peaks generally fall in the evening, after solar generation has collapsed. That single fact turns a generation problem into an arbitrage problem, and it means a design tool that cannot dispatch a battery against an hourly price profile cannot size a [New Zealand](/blog/solar-software-new-zealand/) system properly. This guide covers what the market now requires, and which tools deliver it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Since 1 July 2026 the big four retailers must offer a time-varying export plan; the rule sets shape, not level, and there is no floor.
 > - Peak export rates generally fall in the evening, when a solar array is producing nothing.
 > - Published buyback rates span roughly 5 cents at the low end among majors to 17 cents flat, with peaks reaching around 24 cents and up to 40 cents on some winter peak plans.
@@ -59,6 +59,8 @@ For the quoting side see our [best solar proposal software New Zealand](/blog/so
 
 This is the central New Zealand design fact and it is worth stating without hedging. On time-varying export plans, the highest rates are generally paid in the evening. Solar arrays generate nothing in the evening.
 
+Table: Typical export value by time of day on a time-varying plan, and what an array without storage does
+
 | Time of day | Typical export value on a time-varying plan | What an array without storage does |
 | --- | --- | --- |
 | Midday | Trough, potentially very low | Exports heavily into the worst price |
@@ -66,6 +68,7 @@ This is the central New Zealand design fact and it is worth stating without hedg
 | Evening peak | Highest rate of the day | Producing nothing |
 | Overnight | Low | Producing nothing |
 
+> [!IMPORTANT] What most New Zealand sizing gets wrong
 > **What most New Zealand sizing gets wrong.** It applies the customer's headline buyback rate to total annual export. On a flat plan that is roughly correct. On a time-varying plan it can be badly wrong, because the array exports overwhelmingly into the hours when the rate is at its lowest, and the headline figure is usually the peak.
 
 The design response is storage, and the reasoning is unusually clean. A battery charged from midday surplus and discharged into the evening peak is not merely shifting consumption, it is buying energy at the trough rate and selling it at the peak rate, with the array supplying the energy for free. On a plan with a wide spread that is a genuinely attractive arbitrage.
@@ -82,7 +85,8 @@ Two design consequences follow.
 
 **The plan is a design input, not a footnote.** A spread this wide changes the optimal array size, the storage case, and whether the project makes sense at all. Any tool that treats the export rate as a single configurable number, rather than an hourly profile per retailer, is losing most of the available accuracy.
 
-**Rate risk should be tested, not ignored.** Because there is no regulated floor, a design justified by a high peak rate is exposed if the retailer revises it. Testing the design against a lower rate assumption, and preferring configurations whose ranking does not change, is the same robustness discipline that applies in other unregulated export markets. Value that comes from displacing the household's own consumption is insulated from this entirely, which is a point in favour of self-consumption over export arbitrage where the two compete.
+> [!TIP] Test the design against a lower rate
+> **Rate risk should be tested, not ignored.** Because there is no regulated floor, a design justified by a high peak rate is exposed if the retailer revises it. Testing the design against a lower rate assumption, and preferring configurations whose ranking does not change, is the same robustness discipline that applies in other unregulated export markets. Value that comes from displacing the household's own consumption is insulated from this entirely, which is a point in favour of self-consumption over export arbitrage where the two compete.
 
 ## Self-Consumption Still Beats Arbitrage, Usually
 
@@ -131,6 +135,8 @@ Still common in smaller practices, and the most likely place a single flat buyba
 
 ## New Zealand Solar Design Software Comparison
 
+Table: New Zealand solar design software compared on export profiles, battery dispatch, standards and price
+
 | Tool | Hourly export price profiles | Battery dispatch vs load and price | Retailer plan configuration | AS/NZS standards library | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -143,6 +149,8 @@ Still common in smaller practices, and the most likely place a single flat buyba
 ## Worked Example: 6 kW Array, Flat Plan Versus Time-Varying With Storage
 
 An illustrative calculation showing where the value moves, not a specific customer project. Inputs: 6 kW array, household with modest daytime and strong evening consumption, three configurations compared.
+
+Table: 6 kW array: flat plan versus time-varying plan, with and without storage (illustrative)
 
 | | A: flat 17c plan, no storage | B: time-varying plan, no storage | C: time-varying plan with storage |
 | --- | --- | --- | --- |

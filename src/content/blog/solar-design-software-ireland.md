@@ -4,7 +4,7 @@ excerpt: "The best solar design software Ireland installers need handles NC6 and
 description: "Best solar design software Ireland 2026. SurgePV vs OpenSolar, PV*SOL, Aurora on ESB Networks NC6/NC7, SEAI grants, Clean Export Guarantee rates and EN 50549."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-design-software-ireland.webp"
 author: "Keyur Rakholiya"
@@ -36,7 +36,7 @@ featured: false
 
 Irish solar has an unusual quirk that most [design software](https://heavendesigns.in/blog/3d-solar-design-software/) ignores: the export rate depends on which supplier the customer happens to be with, and the standard range runs from 15.2 to 32.0 cents per kWh. That is roughly a two-to-one spread on the same exported kilowatt-hour. On an export-heavy system, moving a customer to a better Clean Export Guarantee tariff can be worth more than adding panels. Layer on an SEAI grant that tapers and stops at 4 kWp, an NC6 notification that must be filed 20 working days before installation, and planning exemptions that vanish inside Architectural Conservation Areas, and [Ireland](/blog/solar-software-ireland/) rewards a design tool that models the specifics. This guide compares the platforms Irish installers should shortlist.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Clean Export Guarantee standard rates run 15.2 to 32.0 cents per kWh by supplier, with Pinergy at 25.0 cents in the standard range.
 > - The first 400 euros of annual export income is tax-exempt through the end of 2028.
 > - SEAI grants taper: 700 euros per kWp for the first 2 kWp, then 200 per kWp for the next 2, capped at 1,800 euros.
@@ -60,6 +60,8 @@ Ireland is a small, fast-growing residential market with a well-informed custome
 
 The SEAI residential grant is not a flat rate and the structure has a direct effect on the sizing conversation.
 
+Table: SEAI grant by system size, showing the taper
+
 | System size | Grant calculation | Total grant |
 | --- | --- | --- |
 | 1 kWp | 700 per kWp | 700 euros |
@@ -73,6 +75,7 @@ That does not mean systems should stop at 4 kWp. It means the proposal should sh
 
 ## The Export Rate Is A Variable, Not A Constant
 
+> [!IMPORTANT] What most Irish quotes get wrong
 > **What most Irish quotes get wrong.** They apply a single national CEG figure. With standard rates spanning 15.2 to 32.0 cents per kWh, a proposal built on a mid-range assumption is materially wrong for customers at either end, and it misses a recommendation worth real money.
 
 On a household exporting 2,500 kWh a year, the difference between a 15.2 cent tariff and a 25.0 cent one is roughly 245 euros annually. Over a typical system life that comfortably exceeds the cost of several additional panels. Advising the customer to review their CEG supplier is therefore a legitimate part of the proposal, and it costs the installer nothing.
@@ -111,6 +114,8 @@ Common among smaller Irish installers. Flexible, and the usual source of a singl
 
 ## Ireland Solar Design Software Comparison
 
+Table: Ireland solar design software compared on CEG, grant, NC6/NC7, self-consumption and price
+
 | Tool | CEG rate configurable per supplier | SEAI grant taper modelled | NC6 and NC7 thresholds flagged | Hourly self-consumption | Proposals included | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Configurable | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -130,6 +135,8 @@ Common among smaller Irish installers. Flexible, and the usual source of a singl
 ## Worked Example: 5 kWp In Cork, Two Different CEG Suppliers
 
 An illustrative calculation, not a specific customer project. Inputs: 5 kWp, 900 kWh per kWp specific yield, 4,500 kWh generation, 4,200 kWh consumption, import at 33 cents per kWh, self-consumption 38%, SEAI grant 1,800 euros.
+
+Table: 5 kWp in Cork under two different Clean Export Guarantee suppliers (illustrative)
 
 | Line | CEG at 15.2 cents | CEG at 25.0 cents |
 | --- | --- | --- |

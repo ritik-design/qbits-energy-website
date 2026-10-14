@@ -5,7 +5,7 @@ description: "EV chargers supply electricity to electric vehicles. Full guide to
 category: "ESG"
 categorySlug: "esg"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is ev charger
   - ev charger india
@@ -67,7 +67,7 @@ author: "Nirav Dhanani"
 
 An EV charger is the equipment that supplies electrical energy from the grid (or directly from renewable sources) to charge the battery of an electric vehicle. EV chargers come in several categories distinguished by power level, AC vs DC delivery, plug standards and intelligence (smart charging features).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - An EV charger delivers AC or DC power to an electric vehicle battery; Indian standards include Bharat AC-001 (3.3 kW), Bharat DC-001, Type 2 AC and CCS-2 DC fast charging.
 > - A residential 3.3 to 7.4 kW AC charger fully charges a typical EV in 6 to 12 hours; DC fast chargers reach 80 percent in 20 to 45 minutes.
 > - A 5 kW rooftop solar system comfortably covers typical daily EV charging load for an Indian household.
@@ -98,6 +98,8 @@ National mission. FAME II, PM e-DRIVE and state EV policies drive deployment.
 
 ## EV charger types
 
+Table: Indian EV charger types by power and use
+
 | Type | Power | Voltage | Use |
 |---|---|---|---|
 | Bharat AC-001 | 3.3 kW | 230 V single-phase | Two and three-wheelers |
@@ -125,6 +127,8 @@ DC fast charging:
 
 ### Indian EV charging power levels
 
+Table: Charging time for a 40 kWh battery by charger level
+
 | Level | Power | Charging time (40 kWh battery) |
 |---|---|---|
 | Bharat AC-001 | 3.3 kW | 12+ hours |
@@ -134,6 +138,8 @@ DC fast charging:
 | CCS-2 DC ultra-fast | 150-350 kW | 15-30 minutes |
 
 ### Solar integration
+
+Table: Ways to integrate solar with EV charging
 
 | Approach | Description |
 |---|---|
@@ -145,6 +151,8 @@ DC fast charging:
 Homeowners planning a dedicated setup can follow a full [solar inverter for EV charging](/blog/solar-inverter-for-ev-charging/) buildout guide, and a licensed residential solar installer can size the system to the charging load. Sites using a battery buffer for high-power charging typically start from a [battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) exercise before selecting a [lithium-ion battery](/glossary/lithium-ion-battery/) bank.
 
 ### Smart charging features
+
+Table: Smart charging features and their benefit
 
 | Feature | Benefit |
 |---|---|
@@ -173,6 +181,8 @@ Solar carport with integrated chargers.
 
 ## Indian EV charging infrastructure (approximate 2026)
 
+Table: Approximate Indian EV charging infrastructure, 2026
+
 | Type | Approximate count |
 |---|---|
 | Public AC chargers | 15,000+ |
@@ -181,6 +191,8 @@ Solar carport with integrated chargers.
 | Private home chargers | 200,000+ (estimated) |
 
 ## Major Indian EV charging operators
+
+Table: Major Indian EV charging operators
 
 | Operator | Network |
 |---|---|
@@ -194,11 +206,13 @@ Solar carport with integrated chargers.
 
 ## Solar EV charging economics
 
-For a residential customer:
-- 5 kW rooftop solar generates ~7,500 kWh/year
-- Typical EV consumption: 200 to 300 km/month × 0.15 kWh/km = 360 to 540 kWh/month
-- Solar comfortably covers EV charging with margin for home loads
-- Combined with PM Surya Ghar subsidy, payback in 3 to 5 years including EV operating cost savings
+> [!EXAMPLE] A 5 kW rooftop system and one EV
+> For a residential customer:
+>
+> - 5 kW rooftop solar generates ~7,500 kWh/year
+> - Typical EV consumption: 200 to 300 km/month × 0.15 kWh/km = 30 to 45 kWh/month
+> - Solar comfortably covers EV charging with margin for home loads
+> - Combined with PM Surya Ghar subsidy, payback in 3 to 5 years including EV operating cost savings
 
 ## Advantages of EV charging
 
@@ -238,6 +252,9 @@ Lack of accessible parking with charger.
 
 ## Best practices
 
+> [!TIP] Two checks when buying a charger
+> BIS certification under IS 17017 and OCPP support matter most. A charger without OCPP limits network integration.
+
 Choose BIS-certified chargers.
 
 Plan grid connection for fast chargers (often requires transformer upgrade).
@@ -263,6 +280,8 @@ CEA grid code addresses EV charger interconnection.
 CCS-2 has become the global passenger car DC fast charging standard.
 
 ## Standards and certifications
+
+Table: Standards and protocols for EV chargers
 
 | Standard | Scope |
 |---|---|

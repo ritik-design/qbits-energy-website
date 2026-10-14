@@ -5,7 +5,7 @@ description: "NPV is the present value of project cash flows minus capex. Full g
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - npv
   - net present value
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 ## What is NPV
 
-> **TL;DR**
+> [!NOTE] In short
 > - NPV is the sum of all discounted future cash flows minus the initial investment; a positive NPV means the project creates value.
 > - Formula: NPV = -Initial Investment + Σ(CF_t / (1+r)^t), where r is typically WACC and t runs over the project life.
 > - For Indian solar, NPV is highly sensitive to capex, yield and tariff assumptions; a 10 percent yield increase can lift NPV by 12 to 15 percent.
@@ -77,8 +77,8 @@ author: "Nirav Dhanani"
 
 Net Present Value (NPV) is the sum of all discounted future cash flows from a project, minus the initial investment. The [discount rate](/glossary/discount-rate/) (typically [WACC](/glossary/wacc/)) converts future cash to present value, accounting for time value of money and risk.
 
-NPV formula:
-NPV = -Initial Investment + Σ (CF_t / (1+r)^t) for t = 1 to T
+> [!FORMULA]
+> NPV = -Initial Investment + Σ (CF_t / (1+r)^t) for t = 1 to T
 
 Where:
 - CF_t = net cash flow in year t (revenue minus opex)
@@ -105,17 +105,22 @@ Capital allocation. Within portfolios, highest NPV projects prioritised.
 
 For a 1 MW Indian utility solar project:
 
+Table: Worked NPV example for a 1 MW Indian utility solar project
+
 | Year | Cash Flow (₹ lakh) | Discount factor (10%) | Present value |
 |---|---|---|---|
 | 0 (capex) | -400 | 1.000 | -400 |
 | 1-25 (operating) | ~37 per year | varies | 335 |
 | NPV | | | -65 |
 
-Need either lower [capex](/glossary/capex/), higher tariff, or lower WACC to make NPV positive.
+> [!EXAMPLE]
+> On this 1 MW project, ₹400 lakh of capex against about ₹37 lakh a year of operating cash flow, discounted at 10%, gives a present value of ₹335 lakh and an NPV of -₹65 lakh. Need either lower [capex](/glossary/capex/), higher tariff, or lower WACC to make NPV positive.
 
 ## Technical deep dive
 
 ### NPV components for solar
+
+Table: Cash flow components in a solar NPV model
 
 | Component | Cash flow direction |
 |---|---|
@@ -130,15 +135,20 @@ Need either lower [capex](/glossary/capex/), higher tariff, or lower WACC to mak
 ### Sensitivity to key inputs
 
 For Indian utility solar:
+
+Table: Sensitivity of NPV to key inputs, Indian utility solar
+
 | Input change | NPV impact |
 |---|---|
 | +10% capex | NPV reduces by 8-10% |
 | +10% yield | NPV increases by 12-15% |
-| +0.25/kWh tariff | NPV increases by 15-18% |
+| +₹0.25/kWh tariff | NPV increases by 15-18% |
 | -0.5% WACC | NPV increases by 8-12% |
 | +1% degradation | NPV reduces by 5-8% |
 
 ### NPV vs IRR
+
+Table: NPV vs IRR compared
 
 | Aspect | NPV | IRR |
 |---|---|---|
@@ -194,6 +204,8 @@ PE/VC funding decisions for solar startups based on NPV models.
 Major Indian solar developers (Adani Green, ReNew, Tata Power Renewables) report NPV-based portfolio metrics.
 
 ## Standards and certifications
+
+Table: Methods and frameworks behind NPV
 
 | Standard | Scope |
 |---|---|

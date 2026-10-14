@@ -4,7 +4,7 @@ excerpt: "The best solar proposal software UK installers need models SEG export,
 description: "Best solar proposal software UK 2026. SurgePV vs Aurora, Solargraf, OpenSolar, Pylon on Smart Export Guarantee, MCS, G98/G99 and 0% VAT handling."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-proposal-software-uk.webp"
 author: "Akash Hirapara"
@@ -36,13 +36,14 @@ featured: false
 
 UK solar proposals fail on export assumptions more often than on design. The [Smart Export Guarantee](https://www.surgepv.com/solar-compliance/uk/guides/smart-export-guarantee) replaced the Feed-in [Tariff](/glossary/tariff/) export element in January 2020, and it removed the thing that made UK quoting simple: a single national rate. Under SEG every licensed supplier sets its own tariff, and the spread between the best and worst is large enough to change payback by years on the same system. Meanwhile self-consumed energy avoids an import price several times higher than any SEG rate, so the sizing logic that made sense under FiT no longer holds. This guide compares the platforms UK installers should shortlist, and judges them on SEG modelling, MCS enforcement, and VAT treatment.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - SEG replaced the FiT export element in January 2020. Rates are set per supplier, must exceed zero pence per kWh, and vary widely.
 > - MCS certification is not legally required to install, but without it the customer cannot claim SEG at all.
 > - Qualifying residential installations in Great Britain currently attract 0% VAT on supply and installation.
 > - G98 covers up to 3.68 kW single-phase as fit-and-inform. G99 needs pre-approval with a 45 working day review.
-> - [SurgePV](https://surgepv.com/) generates the proposal from the same bankable design record, at $1,299 to $1,899 per user per year.
-> - [Book a free SurgePV demo](https://surgepv.com/demo) and quote a live UK job on the call.
+
+- [SurgePV](https://surgepv.com/) generates the proposal from the same bankable design record, at $1,299 to $1,899 per user per year.
+- [Book a free SurgePV demo](https://surgepv.com/demo) and quote a live UK job on the call.
 
 **Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for UK installers in 2026 is SurgePV, because it models SEG export separately from self-consumption savings, applies BS 7671 and G98 or G99 checks at design time, and produces the customer document from the same engineering record. OpenSolar is the strongest free-tier option for simple residential. Solargraf suits crews that already own a design platform.
 
@@ -69,7 +70,8 @@ The UK is a residential-dominated market with thin margins and a well-informed c
 
 Under the old Feed-in Tariff, export was a known national number and quoting was arithmetic. Under SEG it is a commercial variable set by each supplier, and it sits far below the import price.
 
-> **What most UK installers get wrong.** They quote a single blended SEG rate and let the customer assume export drives the return. It does not. Every kWh used in the house avoids the full import price. Every kWh exported earns the SEG rate. The gap between those two numbers is where the entire savings case lives, and a proposal that does not separate them is not describing the economics.
+> [!IMPORTANT] What most UK installers get wrong
+> They quote a single blended SEG rate and let the customer assume export drives the return. It does not. Every kWh used in the house avoids the full import price. Every kWh exported earns the SEG rate. The gap between those two numbers is where the entire savings case lives, and a proposal that does not separate them is not describing the economics.
 
 This has a direct design consequence. Under FiT, oversizing was rational because export paid well. Under SEG, the return comes from self-consumption, which means the useful levers are load shifting, hot water diversion, EV charging schedules, and batteries. A 6 kW array on a house that is empty all day performs very differently from the same array on a house with a heat pump and a home worker, and only an hourly model shows the difference.
 
@@ -100,6 +102,8 @@ Still common among smaller UK installers. Free and flexible, and the main source
 
 ## UK Solar Proposal Software Comparison
 
+Table: UK solar proposal software comparison by capability and price
+
 | Tool | SEG modelled per supplier | Self-consumption hourly | MCS product filtering | 0% VAT handling | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -120,6 +124,8 @@ Still common among smaller UK installers. Free and flexible, and the main source
 ## Worked Example: 4.5 kW In Leeds, Two Households
 
 An illustrative calculation showing why the load profile matters more than the array under SEG. Inputs identical in both cases: 4.5 kW array, 900 kWh per kW specific yield, 4,050 kWh generation, import at 26p per kWh, SEG export at 6p per kWh.
+
+Table: 4.5 kW in Leeds: empty weekdays vs home worker plus EV (illustrative)
 
 | Line | Empty weekdays | Home worker plus EV |
 | --- | --- | --- |

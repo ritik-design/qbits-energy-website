@@ -4,7 +4,7 @@ excerpt: "The best solar proposal software Australia installers need models STC 
 description: "Best solar proposal software Australia 2026. SurgePV vs Aurora, OpenSolar, Solargraf on STC deeming, CEC accreditation, AS/NZS 5033 and DNSP export limits."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-proposal-software-australia.webp"
 author: "Akash Hirapara"
@@ -36,7 +36,7 @@ featured: false
 
 Australian solar quoting has two variables that no other market shares, and generic [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) handles neither. The first is STC deeming: the federal rebate is created from system size, the postcode's solar zone rating, and the years left in a scheme that ends in December 2030, so the same 6.6 kW system is worth less this year than last and different amounts in Cairns and Hobart. The second is export limits: distribution networks increasingly cap or dynamically curtail export, so a proposal built on unconstrained feed-in overstates income on exactly the systems most likely to be constrained. This guide compares the platforms Australian installers should shortlist on those two things first.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - STCs are deemed from system size, solar zone, and years remaining to December 2030, so the rebate shrinks annually and varies by postcode.
 > - STC eligibility requires a CEC-accredited installer and CEC-approved products. Without both, the customer gets nothing.
 > - AS/NZS 5033:2021 governs array installation. AS 4777.2:2020 governs grid connection including volt-watt curtailment. AS/NZS 5139:2019 covers batteries.
@@ -67,11 +67,13 @@ Australian solar quoting has two variables that no other market shares, and gene
 
 ## The Two Errors That Cost Australian Installers Money
 
+> [!IMPORTANT] What most Australian quotes get wrong
 > **What most Australian quotes get wrong.** They treat the STC rebate as a fixed dollars-per-kW figure and the feed-in tariff as unconstrained. Both were roughly true five years ago. Neither is true now, and the two errors compound in the same direction, making the system look cheaper and more productive than it will be.
 
 **The deeming error.** Because the scheme ends in December 2030, the deeming period shortens every year on 1 January. A template carrying last year's per-kW rebate overstates the discount, and the gap widens each year until the scheme closes. Solar zone compounds it: the same system deems differently in Zone 1 and Zone 4, so a national flat rate is wrong nearly everywhere.
 
-**The export limit error.** This one is larger in dollar terms. Consider a 10 kW system on a network segment with a 5 kW export limit. Generation above the limit is curtailed, not sold. On a household with low daytime load, that can remove a meaningful share of the expected feed-in income, and the customer sees it as underperformance rather than as a network constraint that was never modelled.
+> [!WARNING] Curtailed generation is not sold
+> **The export limit error.** This one is larger in dollar terms. Consider a 10 kW system on a network segment with a 5 kW export limit. Generation above the limit is curtailed, not sold. On a household with low daytime load, that can remove a meaningful share of the expected feed-in income, and the customer sees it as underperformance rather than as a network constraint that was never modelled.
 
 The consequence is the same in both cases. The installer who models honestly looks more expensive than the one who does not, and loses deals on a comparison that was never valid. The defence is to show the constraint explicitly in the proposal, because a customer who understands the export limit will accept a smaller system or a battery rather than assume you are padding.
 
@@ -100,6 +102,8 @@ Still common in smaller operations. The main source of stale deeming rates in ci
 
 ## Australia Solar Proposal Software Comparison
 
+Table: Australia solar proposal software compared on STC, export limits, CEC filtering and price
+
 | Tool | STC deeming by zone | DNSP export limits | CEC product filtering | AS/NZS checks | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | AS/NZS 5033, 4777.2, 5139 | Yes | $1,299 to $1,899 |
@@ -120,6 +124,8 @@ Still common in smaller operations. The main source of stale deeming rates in ci
 ## Worked Example: 10 kW In Adelaide, With And Without An Export Limit
 
 An illustrative calculation showing the size of the export limit effect. Inputs: 10 kW array, 1,550 kWh per kW specific yield, 15,500 kWh generation, 6,200 kWh self-consumed, import at 42c per kWh, feed-in at 5c per kWh.
+
+Table: 10 kW in Adelaide with and without a 5 kW export limit (illustrative)
 
 | Line | Unconstrained export | 5 kW export limit |
 | --- | --- | --- |

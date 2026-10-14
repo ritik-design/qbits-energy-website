@@ -5,7 +5,7 @@ description: "CUF measures the actual output of a solar plant relative to its ra
 category: Performance
 categorySlug: performance-efficiency
 priority: P0
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 keywords:
 - what is cuf
 - capacity utilisation factor
@@ -36,19 +36,28 @@ author: Nirav Dhanani
 
 ## What is CUF?
 
+> [!NOTE] In short
+> - CUF is a plant's energy as a share of what it would produce at its stated capacity running continuously over the same period.
+> - It is not an inverter efficiency figure or a stand-alone quality score; a low CUF can simply reflect a low-sun location.
+> - Always state whether capacity means the AC export rating or the DC module nameplate, because the basis changes the percentage.
+
 **Capacity Utilisation Factor (CUF)** expresses a solar plant's actual or modelled energy as a share of the energy it would generate if it operated at its stated capacity continuously throughout the same period. Some Indian reports call a related measure *plant load factor* (PLF); compare the exact definition and capacity basis before treating two published percentages as identical.
 
 CUF is a useful summary for energy budgets and project comparisons. It is **not** an inverter efficiency figure or a stand-alone quality score. Weather, site design, curtailment and maintenance all affect the numerator.
 
 ## Formula and worked example
 
-**CUF (%) = 100 × energy generated ÷ (rated capacity × hours in period)**
+> [!FORMULA]
+> CUF (%) = 100 × energy generated ÷ (rated capacity × hours in period)
 
-For a **1 MW** plant generating **1,752 MWh** during a 365-day year, the continuous-output reference is **1 MW × 8,760 hours = 8,760 MWh**. CUF is **1,752 ÷ 8,760 × 100 = 20%**. The example is arithmetic, not a claim that 20% is a national average or a guaranteed result for an Indian plant.
+> [!EXAMPLE] 1 MW plant over a 365-day year
+> For a **1 MW** plant generating **1,752 MWh** during a 365-day year, the continuous-output reference is **1 MW × 8,760 hours = 8,760 MWh**. CUF is **1,752 ÷ 8,760 × 100 = 20%**. The example is arithmetic, not a claim that 20% is a national average or a guaranteed result for an Indian plant.
 
 For a monthly comparison, use that month's actual hours. For a leap year, use 8,784 annual hours. State whether “capacity” means the AC export rating or the DC module nameplate; a different denominator changes the percentage even if annual energy is unchanged.
 
 ## What changes a solar project's CUF?
+
+Table: Factors that change a solar project's CUF and how each one acts
 
 | Factor | How it affects the comparison |
 | --- | --- |
@@ -63,5 +72,12 @@ There is no honest single “good Indian CUF” independent of these conditions.
 ## CUF versus performance ratio
 
 CUF's denominator assumes full nameplate output for every hour. [Performance ratio](/glossary/pr/) uses an irradiance-adjusted reference to assess how much of the available solar resource the system converted under a specified method. A low CUF can reflect a low-sun location without proving that equipment is faulty. A good performance ratio does not guarantee high annual energy if resource or plant availability is low.
+
+Table: CUF vs performance ratio
+
+| Aspect | CUF | Performance ratio |
+| --- | --- | --- |
+| Reference used | Full nameplate output for every hour | Irradiance-adjusted reference |
+| Limit when read alone | A low value can reflect a low-sun location without proving faulty equipment | A good value does not guarantee high annual energy if resource or plant availability is low |
 
 For financing, ask which energy forecast and assumptions underlie a [P50 or P90 estimate](/glossary/p50-p90/). For operations, keep the meter boundary, curtailment record and maintenance events alongside CUF. The previous version's universal CUF bands, bifacial gains and PPA penalty claims were removed because they did not describe a defined project or cited contract.

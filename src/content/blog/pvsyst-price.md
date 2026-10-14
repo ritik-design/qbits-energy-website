@@ -4,7 +4,7 @@ excerpt: "PVsyst costs roughly €500 per user per year for the Standard licence
 description: "PVsyst price in 2026: Standard and Premium licences, Windows-only hidden costs, and the SurgePV browser-based bankable alternative. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "9 min"
 image: "/og/blog-pvsyst-price.webp"
 author: "Nirav Dhanani"
@@ -34,12 +34,13 @@ faqs:
 
 PVsyst is the bankable yield standard, but the Standard licence price is only one line in the full cost of running PVsyst in production. This guide breaks down the real cost, names the hidden extras, and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat browser-based pricing. For the full feature-by-feature breakdown rather than just the numbers, see our [PVsyst alternative comparison](/blog/pvsyst-alternative/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - PVsyst Standard licence is roughly €500 per user per year. Premium is custom.
 > - Windows-only desktop. Mac and Linux users need a VM.
 > - Positioned as a simulation tool, not a proposal or financial-modelling tool, so most teams run a multi-tool stack.
-> - [SurgePV](https://surgepv.com/) ships the same bankable simulation in the browser, plus proposals plus financials, at $1,299 to $1,899 per user per year.
-> - [Book a free SurgePV demo](https://surgepv.com/demo) and rebuild a PVsyst project on the call.
+
+- [SurgePV](https://surgepv.com/) ships the same bankable simulation in the browser, plus proposals plus financials, at $1,299 to $1,899 per user per year.
+- [Book a free SurgePV demo](https://surgepv.com/demo) and rebuild a PVsyst project on the call.
 
 <div class="inline-cta">
 <h3>Same P50/P75/P90 outputs, in the browser, with a proposal at the end</h3>
@@ -49,6 +50,8 @@ PVsyst is the bankable yield standard, but the Standard licence price is only on
 </div>
 
 ## PVsyst Pricing by Licence
+
+Table: PVsyst price per user per year by licence
 
 | Licence | Per user / year | Notes |
 | --- | --- | --- |
@@ -71,6 +74,8 @@ PVsyst is positioned as a bankable simulation tool, so the items below sit outsi
 - Multi-language proposal output is not a positioned use case
 
 ## Total Cost: PVsyst + Stack vs SurgePV
+
+Table: Annual cost by team size: PVsyst stack vs SurgePV
 
 | Team size | PVsyst stack | SurgePV |
 | --- | --- | --- |

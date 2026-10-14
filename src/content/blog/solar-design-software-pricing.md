@@ -7,7 +7,7 @@ date: 2026-06-14
 readTime: "11 min"
 image: "/og/blog-solar-design-software-pricing.webp"
 author: "Nirav Dhanani"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - solar design software pricing
   - solar design software cost
@@ -34,11 +34,14 @@ faqs:
 
 [Solar design software](/blog/solar-design-software/) pricing in 2026 spans a wide range and the bundling models differ enough that headline numbers can be misleading. This guide breaks down what each major platform publishes, what it only quotes on request, what is gated behind upper tiers, and the real total cost of ownership for teams of 1, 3, and 5 seats. For country-specific tariff, code, and currency detail behind these numbers, see the dedicated guides for [Australia](/blog/solar-design-software-australia/), [Germany](/blog/solar-design-software-germany/), [India](/blog/solar-design-software-india/), the [UK](/blog/solar-design-software-uk/), and the [USA](/blog/solar-design-software-usa/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Published per-seat prices range from $0 (OpenSolar free) to $3,600+ per user per year (HelioScope upper tier). Aurora, Scanifly, Solargraf, PVcase and RatedPower publish nothing and quote per account.
-> - [SurgePV](https://surgepv.com/) is $1,299 to $1,899 per user per year, flat, with no add-on tiers.
 > - At team scale, flat plans almost always beat per-feature or add-on-heavy plans on total cost.
-> - [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your real projects on the call.
+> - Only the SurgePV line in the five-designer total-cost example is a published price; rebuild the comparison with your own quotes for the quote-based tools.
+> - Lost productivity during onboarding is the most underestimated cost line in any software comparison, so ask each vendor to put timelines and training charges in writing.
+
+- [SurgePV](https://surgepv.com/) is $1,299 to $1,899 per user per year, flat, with no add-on tiers.
+- [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your real projects on the call.
 
 <div class="inline-cta">
 <h3>See the real cost math on your team size</h3>
@@ -48,6 +51,8 @@ faqs:
 </div>
 
 ## The 2026 Pricing Table
+
+Table: 2026 solar design software pricing by tool and plan
 
 | Tool | Plan | Per seat / yr | Notes |
 | --- | --- | --- | --- |
@@ -78,6 +83,8 @@ SurgePV, PVsyst and PV*SOL publish list prices, and those are quoted above as pu
 
 ### 1-seat solo designer
 
+Table: Annual cost for a 1-seat solo designer, by tool
+
 | Tool | Annual cost | Hidden extras |
 | --- | --- | --- |
 | **SurgePV Individual** | **$1,899** | None |
@@ -90,6 +97,8 @@ For a solo residential designer, OpenSolar can pencil out if project mix stays s
 
 ### 3-seat team
 
+Table: Annual cost for a 3-seat team, by tool
+
 | Tool | Annual cost | Hidden extras |
 | --- | --- | --- |
 | **SurgePV 3-User Team** | **$4,497 total** | None |
@@ -100,6 +109,8 @@ For a solo residential designer, OpenSolar can pencil out if project mix stays s
 SurgePV 3-User Team is the lowest total cost with the broadest feature set.
 
 ### 5-seat team
+
+Table: Annual cost for a 5-seat team, by tool
 
 | Tool | Annual cost | Hidden extras |
 | --- | --- | --- |
@@ -135,20 +146,23 @@ OpenSolar's model is a free core platform with paid extensions, so check which o
 
 ## Hidden Costs to Watch For
 
-1. **AI add-ons**: Aurora AI Mode is a recurring cost on top of the base plan
-2. **Paid extensions**: check which OpenSolar features you need sit outside the free core
-3. **Volume-based fees**: Scanifly's pricing model scales with project count
-4. **Drone operating cost**: Scanifly workflows
-5. **Windows machine requirement**: PVsyst, PV*SOL
-6. **Separate proposal tool**: HelioScope, PVsyst
-7. **Separate CRM**: most tools (SurgePV pairs with [QuickEstimate](https://quickestimate.co/))
-8. **Onboarding and training**: ask enterprise-quoted vendors such as PVcase and RatedPower whether either is charged separately
-9. **Project allowance caps**: HelioScope entry, some Aurora plans
-10. **Lender-specific report requirements**: occasional parallel PVsyst run
+> [!CHECKLIST] Costs that sit outside the seat price
+> - **AI add-ons**: Aurora AI Mode is a recurring cost on top of the base plan
+> - **Paid extensions**: check which OpenSolar features you need sit outside the free core
+> - **Volume-based fees**: Scanifly's pricing model scales with project count
+> - **Drone operating cost**: Scanifly workflows
+> - **Windows machine requirement**: PVsyst, PV*SOL
+> - **Separate proposal tool**: HelioScope, PVsyst
+> - **Separate CRM**: most tools (SurgePV pairs with [QuickEstimate](https://quickestimate.co/))
+> - **Onboarding and training**: ask enterprise-quoted vendors such as PVcase and RatedPower whether either is charged separately
+> - **Project allowance caps**: HelioScope entry, some Aurora plans
+> - **Lender-specific report requirements**: occasional parallel PVsyst run
 
 ## Total Cost of Ownership: a Realistic Example
 
 A 5-designer EPC that designs 25 residential and 5 C&I projects a month, sells across 2 countries, and needs bankable yield for the C&I work. The scenario below mirrors the team profiles covered in SurgePV's own [customer case studies](https://surgepv.com/case-studies/).
+
+Table: Total cost of ownership for a 5-designer EPC, by stack
 
 | Stack | Annual cost | Notes |
 | --- | --- | --- |
@@ -160,6 +174,8 @@ A 5-designer EPC that designs 25 residential and 5 C&I projects a month, sells a
 Only the SurgePV line is a published price. The others combine published and reported figures for quote-based products, so rebuild the comparison with your own quotes. On the reported numbers, the SurgePV stack is the cheapest of the four and consolidates the workflow into one project of record.
 
 ## Implementation Cost (Often Ignored)
+
+Table: Onboarding model and training cost by tool
 
 | Tool | Onboarding model | Training cost |
 | --- | --- | --- |

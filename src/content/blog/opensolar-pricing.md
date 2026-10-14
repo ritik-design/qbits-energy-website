@@ -4,7 +4,7 @@ excerpt: "OpenSolar starts free, and OpenSolar describes its model as free to in
 description: "OpenSolar pricing in 2026: free tier scope, paid extensions, and realised total cost vs SurgePV flat per-seat. Compare plans now."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "9 min"
 image: "/og/blog-opensolar-pricing.webp"
 author: "Nirav Dhanani"
@@ -34,11 +34,14 @@ faqs:
 
 OpenSolar leads with a free tier and publicly describes its model as free to installers, funded through partner and marketplace relationships rather than seat fees. This guide breaks down the real cost math and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat per-seat pricing. For the feature-by-feature comparison, see our [OpenSolar alternative guide](/blog/opensolar-alternative/) and the broader [solar design software pricing roundup](/blog/solar-design-software-pricing/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - OpenSolar entry tier is free. Paid extensions add up at C&I and on advanced residential.
 > - Realised cost at 5+ systems per designer per month typically exceeds $1,000 per user per year.
-> - [SurgePV](https://surgepv.com/) ships the same residential workflow plus engineering depth at $1,299 to $1,899 per user per year flat.
-> - [Book a free SurgePV demo](https://surgepv.com/demo) and see the real total cost on a project from your pipeline.
+> - Choose OpenSolar free if pure small residential with simple roofs is your entire scope; choose a flat-priced seat if you run 5+ systems per designer per month, design any C&I work, or want bankable simulation.
+> - The free tier uses a lighter shading model, and P50, P75, P90 evidence usually comes from a dedicated simulation tool.
+
+- [SurgePV](https://surgepv.com/) ships the same residential workflow plus engineering depth at $1,299 to $1,899 per user per year flat.
+- [Book a free SurgePV demo](https://surgepv.com/demo) and see the real total cost on a project from your pipeline.
 
 <div class="inline-cta">
 <h3>One flat-priced license vs OpenSolar's add-on stack</h3>
@@ -48,6 +51,8 @@ OpenSolar leads with a free tier and publicly describes its model as free to ins
 </div>
 
 ## OpenSolar Pricing Structure
+
+Table: OpenSolar pricing structure by tier
 
 | Tier | Price | Notes |
 | --- | --- | --- |
@@ -79,6 +84,8 @@ A residential installer doing 10 systems per month per designer, mostly straight
 At 5+ projects per designer per month with any C&I in the mix, the realised cost on OpenSolar typically matches or exceeds SurgePV's published seat price, and SurgePV includes bankable simulation and the integrated proposal stack at that price.
 
 ### Total Cost: OpenSolar vs SurgePV at Team Size
+
+Table: Realised annual cost by team size: OpenSolar vs SurgePV
 
 | Team size | OpenSolar realised cost | SurgePV plan |
 | --- | --- | --- |

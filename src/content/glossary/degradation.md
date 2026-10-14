@@ -5,7 +5,7 @@ description: "Module degradation is the gradual loss of solar panel output over 
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is module degradation
   - solar panel degradation
@@ -76,7 +76,7 @@ For modern [mono PERC](/glossary/perc-cell/) modules, total degradation is appro
 
 Degradation determines lifecycle yield, warranty terms and replacement planning. Bankability of solar projects depends on degradation assumptions matching field reality.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Module degradation is the gradual, permanent decline in solar panel output over its operating life, driven by LID, PID, LeTID and material ageing.
 > - Modern modules lose 1 to 2 percent in the first 100 hours (LID), then degrade linearly at about 0.30 to 0.55 percent per year.
 > - 25-year retention ranges from 84 to 87 percent for mono PERC up to 88 to 92 percent for HJT.
@@ -105,6 +105,8 @@ Technology comparison. Degradation rates differentiate PERC, TOPCon and HJT.
 
 ### LID (Light-Induced Degradation)
 
+Table: Light-induced degradation (LID) at a glance
+
 | Aspect | Detail |
 |---|---|
 | Mechanism | Boron-oxygen defect formation in p-type silicon under illumination |
@@ -113,6 +115,8 @@ Technology comparison. Degradation rates differentiate PERC, TOPCon and HJT.
 | Mitigation | Gallium doping, n-type silicon |
 
 ### PID (Potential-Induced Degradation)
+
+Table: Potential-induced degradation (PID) at a glance
 
 | Aspect | Detail |
 |---|---|
@@ -123,6 +127,8 @@ Technology comparison. Degradation rates differentiate PERC, TOPCon and HJT.
 
 ### LeTID (Light and Elevated Temperature Induced Degradation)
 
+Table: LeTID at a glance
+
 | Aspect | Detail |
 |---|---|
 | Mechanism | Hydrogen-related defect under combined light and heat |
@@ -132,6 +138,8 @@ Technology comparison. Degradation rates differentiate PERC, TOPCon and HJT.
 
 ### Encapsulant degradation
 
+Table: Encapsulant degradation at a glance
+
 | Aspect | Detail |
 |---|---|
 | Mechanism | EVA yellowing under UV |
@@ -140,6 +148,8 @@ Technology comparison. Degradation rates differentiate PERC, TOPCon and HJT.
 
 ### Mechanical degradation
 
+Table: Mechanical degradation at a glance
+
 | Aspect | Detail |
 |---|---|
 | Mechanism | Cell micro-cracks from thermal cycling, hail, handling |
@@ -147,6 +157,8 @@ Technology comparison. Degradation rates differentiate PERC, TOPCon and HJT.
 | Mitigation | Robust manufacturing, careful handling |
 
 ### [Back sheet](/glossary/back-sheet/) degradation
+
+Table: Back sheet degradation at a glance
 
 | Aspect | Detail |
 |---|---|
@@ -158,6 +170,8 @@ Technology comparison. Degradation rates differentiate PERC, TOPCon and HJT.
 
 ### Total degradation timeline
 
+Table: Typical total degradation timeline over 30 years
+
 | Stage | Loss | Cumulative loss |
 |---|---|---|
 | LID (first 100 hours) | 1 to 2% | 1 to 2% |
@@ -168,6 +182,8 @@ Technology comparison. Degradation rates differentiate PERC, TOPCon and HJT.
 
 ### Cell technology comparison
 
+Table: Degradation by cell technology
+
 | Technology | First year (incl. LID) | Year 2 onward | 25-year retention |
 |---|---|---|---|
 | Mono PERC | 2 to 2.5% | 0.45 to 0.55%/yr | 84 to 87% |
@@ -177,13 +193,15 @@ Technology comparison. Degradation rates differentiate PERC, TOPCon and HJT.
 
 ### Warranty curves
 
-Linear performance warranty:
-P(year) = (P_nameplate × (1 − initial_loss)) × (1 − annual_loss × (year − 1))
+> [!FORMULA] Linear performance warranty
+> P(year) = (P_nameplate × (1 − initial_loss)) × (1 − annual_loss × (year − 1))
 
-For Pmax_year_25 ≥ 84 percent:
-- initial_loss = 2 percent (covers LID)
-- annual_loss × 24 ≤ 14 percent
-- annual_loss ≤ 0.583 percent
+> [!EXAMPLE] Allowed annual loss for 84 percent at year 25
+> For Pmax_year_25 ≥ 84 percent:
+>
+> - initial_loss = 2 percent (covers LID)
+> - annual_loss × 24 ≤ 14 percent
+> - annual_loss ≤ 0.583 percent
 
 Tier-1 manufacturers typically warrant 0.45 to 0.55 percent annual against 0.55 percent allowable.
 
@@ -219,7 +237,8 @@ Warranty enforcement requires documentation discipline.
 
 ## Common problems
 
-Field diagnosis follows the same decision tree as general [solar inverter low-output troubleshooting](/blog/solar-inverter-low-output-causes-india/): rule out soiling and shading with a monitoring check before concluding that true panel degradation is responsible.
+> [!TIP] Rule out soiling and shading first
+> Field diagnosis follows the same decision tree as general [solar inverter low-output troubleshooting](/blog/solar-inverter-low-output-causes-india/): rule out soiling and shading with a monitoring check before concluding that true panel degradation is responsible.
 
 PID in legacy modules without PID-resistant materials. 10 to 30 percent loss over 5 years.
 
@@ -251,6 +270,8 @@ Track yield against warranty curve.
 
 ## Comparison: degradation drivers
 
+Table: Degradation drivers and their mitigation
+
 | Driver | Effect | Mitigation |
 |---|---|---|
 | LID | First 100 hours | n-type silicon |
@@ -273,6 +294,8 @@ Climate variation across India (cold Himalayas to hot Rajasthan to humid coast) 
 [PM Surya Ghar](/glossary/pm-surya-ghar/) requires modules with linear performance warranty.
 
 ## Standards and certifications
+
+Table: Standards relevant to module degradation
 
 | Standard | Scope |
 |---|---|

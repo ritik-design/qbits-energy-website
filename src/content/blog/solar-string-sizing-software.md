@@ -4,7 +4,7 @@ excerpt: "Solar string sizing software bounds the panel string length to the inv
 description: "Solar string sizing software 2026: MPPT-bounded auto-sizing, temperature limits, NEC/IEC compliance, plus the SurgePV workflow. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-solar-string-sizing-software.webp"
 author: "Keyur Rakholiya"
@@ -34,11 +34,13 @@ faqs:
 
 Solar [string sizing](https://www.surgepv.com/tools/string-sizing-calculator) software bounds the PV string length to the inverter's MPPT operating window across temperature extremes. Wrong sizing costs real yield and can trigger inverter protection. This guide explains how string sizing works, the inputs that matter, and how [SurgePV](https://surgepv.com/) automates it across 12,000+ inverter models on every paid plan as part of its [solar design platform](https://surgepv.com/solar-designing).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - String sizing keeps the inverter operating at peak MPPT year-round.
 > - [SurgePV](https://surgepv.com/) automates MPPT-bounded string sizing across 12,000 inverters and 70,000 modules.
 > - Free standalone [string sizing calculator](https://www.surgepv.com/blog/solar-string-sizing-calculator) plus the full integrated workflow inside SurgePV.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and see the auto-sizing on a real project.
+> - Two checks bound string length: cold-end string Voc must stay below the inverter Vmax, and hot-end string Vmp must stay above the inverter Vmin.
+> - In the 5 kW dual-MPPT worked example, the workable range is 3 to 10 modules per string per MPPT.
 
 <div class="inline-cta">
 <h3>Auto-sized strings on a real project in 20 minutes</h3>
@@ -51,7 +53,8 @@ Solar [string sizing](https://www.surgepv.com/tools/string-sizing-calculator) so
 
 The inverter's [MPPT](/glossary/mppt/) window has a minimum operating voltage and a maximum allowed input voltage. The PV string voltage varies with temperature, dropping at hot module temperatures and rising at cold start-up. The right string length keeps the operating voltage range inside the MPPT window across the site's temperature extremes.
 
-**Cold-end check:** at the record minimum module temperature (often the coldest sunrise of the year), the string Voc must stay below the inverter Vmax to avoid tripping protection or damaging the inverter.
+> [!CAUTION] Cold sunrise is the limiting case
+> **Cold-end check:** at the record minimum module temperature (often the coldest sunrise of the year), the string Voc must stay below the inverter Vmax to avoid tripping protection or damaging the inverter.
 
 **Hot-end check:** at the record maximum module cell temperature (often a hot summer afternoon), the string Vmp must stay above the inverter Vmin to keep MPPT engaged.
 
@@ -72,6 +75,8 @@ The design canvas runs string sizing as soon as a module and inverter are select
 
 ## NEC, IEC, AS/NZS, IS Code Compliance
 
+Table: String sizing code references and the margin each applies
+
 | Code | Region | Margin |
 | --- | --- | --- |
 | NEC 690.7 | US | +25% factor on cold-extreme Voc |
@@ -82,6 +87,8 @@ The design canvas runs string sizing as soon as a module and inverter are select
 SurgePV applies the relevant code margin based on the project's site location. For India-specific string sizing and overcurrent protection reference values, see our [solar string sizing and OCP guide](/blog/solar-string-sizing-ocp-india/). For projects that need a fully stamped compliance package beyond the calculator output, EPCs often turn to a dedicated rooftop detailed engineering design service.
 
 ## Solar String Sizing Across Competing Tools
+
+Table: String sizing features compared across tools
 
 | Tool | Auto-sizing | Multi-MPPT | Hybrid inverters | Free calculator |
 | --- | --- | --- | --- | --- |
@@ -106,13 +113,14 @@ SurgePV applies the relevant code margin based on the project's site location. F
 - Site hot extreme: 70 °C cell
 - Inverter: 5 kW [hybrid inverter](/glossary/hybrid-inverter/), MPPT 80 V to 550 V, dual MPPT
 
-Cold-Voc at -5 °C cell: 49.5 × (1 + 0.27 × 30) / 100 = 49.5 × 1.081 = ~53.5 V per module.
+Cold-Voc at -5 °C cell: 49.5 × (1 + 0.0027 × 30) = 49.5 × 1.081 = ~53.5 V per module.
 Max string length: 550 / 53.5 = 10 modules per string.
 
-Hot-Vmp at 70 °C cell: 41.8 × (1 - 0.35 × 45) / 100 = 41.8 × 0.842 = ~35.2 V per module.
+Hot-Vmp at 70 °C cell: 41.8 × (1 - 0.0035 × 45) = 41.8 × 0.842 = ~35.2 V per module.
 Min string length: 80 / 35.2 = ~3 modules per string.
 
-Workable range: 3 to 10 modules per string per MPPT. SurgePV picks 5 modules per string for the example layout, fitting 10 modules total split 5 on each MPPT.
+> [!EXAMPLE] Result of the 5 kW example
+> Workable range: 3 to 10 modules per string per MPPT. SurgePV picks 5 modules per string for the example layout, fitting 10 modules total split 5 on each MPPT.
 
 <div class="inline-cta">
 <h3>Auto-sized strings on every project, in the same workflow as the design</h3>

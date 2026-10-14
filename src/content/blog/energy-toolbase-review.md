@@ -4,7 +4,7 @@ excerpt: "An honest Energy Toolbase review for 2026. Published pricing, why its 
 description: "Energy Toolbase review 2026: ETB Developer pricing from $299 per user per month, a 120,000-plus utility rate database, storage dispatch economics, real limitations, and the alternatives worth testing."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-energy-toolbase-review.webp"
 author: "Akash Hirapara"
@@ -37,12 +37,13 @@ featured: false
 
 Most solar software arguments are about geometry. Whose roof model is more accurate, whose shading engine is faster, whose 3D view looks better in a sales meeting. [Energy Toolbase](https://www.surgepv.com/compare/aurora-solar-vs-energy-toolbase) sits outside that argument almost entirely, and that is the single most useful thing to understand before you evaluate it. It is an economics platform. It exists to answer the question of what a solar plus storage system is worth under a specific utility [tariff](/glossary/tariff/), on a specific load profile, with a specific battery dispatch strategy. This review covers what [Energy Toolbase](/blog/energy-toolbase-alternative/) costs according to its own published pricing, where its modelling is genuinely ahead of the field, where its scope stops, and who should buy it. We have judged it against what it claims to be, not against a design platform it never set out to become.
 
-> **TL;DR**
-> - [Energy Toolbase](https://www.surgepv.com/reviews/energy-toolbase) publishes ETB Developer pricing: $299 per user per month billed annually on the Individual plan, and $333 per user per month billed annually on the Business plan, which includes five users.
+> [!KEYTAKEAWAYS]
 > - The Individual plan is capped at 10 solar and storage proposals. Business is unlimited and adds custom tariff editing and white-labelled proposals.
 > - Its real strength is economic modelling: a rate database the company states tracks more than 120,000 verified utility rates, plus demand charge, time-of-use, and battery dispatch simulation.
 > - It is not a 3D array design platform, and does not present itself as one. Layout comes through third-party design tool integration.
 > - For a commercial and industrial storage proposal it is often the right tool. As a general design platform it is the wrong one.
+
+- [Energy Toolbase](https://www.surgepv.com/reviews/energy-toolbase) publishes ETB Developer pricing: $299 per user per month billed annually on the Individual plan, and $333 per user per month billed annually on the Business plan, which includes five users.
 
 **Short version.** Energy Toolbase is solar and storage economic modelling software, priced from $299 per user per month billed annually. It is genuinely strong at complex US commercial utility tariffs, demand charge analysis, and battery dispatch economics, which is exactly what a C&I storage proposal turns on. It is not a design tool, its coverage is deepest in the United States, and its scope is narrower than a full design platform.
 
@@ -59,6 +60,8 @@ ETB Developer itself takes three inputs: an interval load profile, a utility tar
 ## Energy Toolbase Pricing in 2026
 
 Energy Toolbase publishes ETB Developer pricing on its own pricing page, which is more transparency than several competitors offer.
+
+Table: Energy Toolbase published plan pricing
 
 | Plan | Published price | Users | Notable inclusions |
 | --- | --- | --- | --- |
@@ -98,7 +101,8 @@ This is the part of the review that matters most, because the strengths here are
 
 **The proposal is credible to a commercial buyer.** A C&I customer's finance team will interrogate the savings number. An output that shows the tariff, the load profile, the dispatch, and the resulting bill delta survives that interrogation better than a savings figure with no visible derivation. Credibility in front of a CFO is a product feature.
 
-> **What most buyers get wrong.** They evaluate Energy Toolbase by opening it and looking for a 3D roof. That is like judging a mortgage calculator on its photography. Load a real interval meter file and a real commercial tariff instead, and see whether the bill-before figure matches an actual bill you already have. That single test tells you more than a week of feature comparison.
+> [!IMPORTANT] What most buyers get wrong
+> They evaluate Energy Toolbase by opening it and looking for a 3D roof. That is like judging a mortgage calculator on its photography. Load a real interval meter file and a real commercial tariff instead, and see whether the bill-before figure matches an actual bill you already have. That single test tells you more than a week of feature comparison.
 
 ## Where Energy Toolbase Stops
 
@@ -111,6 +115,8 @@ None of what follows is a criticism of the product failing at something it promi
 **Narrower scope than a full platform.** Energy Toolbase covers economics and proposals extremely well and leaves design, permitting documentation, and detailed engineering to others. For a specialist storage developer that focus is a virtue. For a general contractor doing a mixed pipeline of residential rooftops and the occasional commercial job, it means paying for one deep capability and then paying again for everything around it.
 
 **Cost per seat for occasional users.** At $299 per user per month, a project manager who opens a model twice a month is expensive. Economics tools tend to have a small number of genuine power users and a long tail of people who want to look at the output, and per-seat pricing does not distinguish between them.
+
+Table: Energy Toolbase strengths and limits by dimension
 
 | Dimension | Energy Toolbase strength | Where it stops |
 | --- | --- | --- |
@@ -168,11 +174,10 @@ The limits are limits of scope, not of quality. Array layout is handled through 
 
 So the recommendation splits cleanly. If complex commercial tariffs and battery dispatch economics are the hardest part of your proposals, buy Energy Toolbase and pair it with a design tool. If you need one licence covering design, shading, tariffs, and proposals across more than one market, SurgePV at $1,299 to $1,899 per user per year is the better shape for that business.
 
-Three things to do next:
-
-- Load one real interval meter file and one real commercial tariff into a trial, and check the bill-before figure against an actual invoice.
-- Price your true seat mix, separating people who build models from people who only read them.
-- Decide whether you are buying one layer of a stack or a whole workflow, because that answer settles the shortlist on its own.
+> [!CHECKLIST] Three things to do next
+> - Load one real interval meter file and one real commercial tariff into a trial, and check the bill-before figure against an actual invoice.
+> - Price your true seat mix, separating people who build models from people who only read them.
+> - Decide whether you are buying one layer of a stack or a whole workflow, because that answer settles the shortlist on its own.
 
 <div class="inline-cta">
 <h3>Run the comparison on a real commercial project</h3>

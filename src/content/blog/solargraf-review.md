@@ -4,7 +4,7 @@ excerpt: "An honest Solargraf review for 2026. Published pricing from $2,799 a y
 description: "Solargraf review 2026: published plan pricing from $2,799 to $12,999 per year, project-credit billing, Enphase ownership, genuine strengths in fast residential proposals, and the alternatives worth comparing."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solargraf-review.webp"
 author: "Nirav Dhanani"
@@ -37,12 +37,13 @@ featured: false
 
 Solargraf occupies a specific slot in the solar software market: it is a quoting tool first and a design tool second, and it does not pretend otherwise. That focus is why some installers love it and why others outgrow it within a year. This review covers what Solargraf is in 2026, what its published pricing costs a real team, what it does well, where the limitations sit, and which alternatives deserve a look before you sign. It is unusual in this category for publishing a full price list, so the money part of this review rests on the vendor's own numbers rather than on rumour.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Solargraf publishes plan pricing openly: $2,799 a year for Starter (2 users, 240 projects) up to $12,999 for Enterprise (unlimited users, 1,500 projects).
 > - Billing is per plan with included project credits, not per seat, which suits high-headcount sales teams and punishes unpredictable volume.
 > - Solargraf, Inc. is a subsidiary of Enphase Energy, a fact a hardware-neutral buyer should weigh rather than ignore.
 > - Its real strength is speed from address to a presentable customer proposal, with permitting and financing attached.
-> - SurgePV covers design and proposals from one record at $1,299 to $1,899 per user per year with multi-market compliance libraries.
+
+- SurgePV covers design and proposals from one record at $1,299 to $1,899 per user per year with multi-market compliance libraries.
 
 **Short version.** Solargraf is a residential solar quoting and proposal platform owned by Enphase Energy, priced from $2,799 to $12,999 a year by plan with included project credits. It is a good fit for US residential sales teams whose bottleneck is proposal turnaround. It is a weaker fit for commercial pipelines, engineering-led teams, and anyone who needs bankable yield output or non-US compliance handling.
 
@@ -66,7 +67,8 @@ The thing to weigh is structural rather than sinister. Solargraf is built and ma
 
 So the question is practical, not moral. If your business is largely Enphase, ownership is a feature and you should count it as one. If you deliberately quote across several inverter and battery brands to protect margin, test the non-Enphase workflow on a trial specifically and ask how quickly those paths update when a manufacturer releases new SKUs. Buy the answer you get, not the assurance.
 
-> **What most buyers get wrong here.** They treat manufacturer ownership as either irrelevant or disqualifying. It is neither. It is a fact that changes the value of the tool depending on how your own procurement works, and the only way to price it is to run your actual hardware mix through a trial.
+> [!IMPORTANT] What most buyers get wrong here
+> They treat manufacturer ownership as either irrelevant or disqualifying. It is neither. It is a fact that changes the value of the tool depending on how your own procurement works, and the only way to price it is to run your actual hardware mix through a trial.
 
 <div class="inline-cta">
 <h3>Test a hardware-neutral workflow with your own brand mix</h3>
@@ -78,6 +80,8 @@ So the question is practical, not moral. If your business is largely Enphase, ow
 ## Solargraf Pricing in 2026
 
 Solargraf publishes its plans, which is worth crediting because most of this category makes you sit through a sales call to learn a number. These figures come from Solargraf's own pricing page.
+
+Table: Solargraf published plans: annual price, users, project credits and extras
 
 | Plan | Annual price | Users | Projects included | Extras |
 | --- | --- | --- | --- | --- |
@@ -123,6 +127,8 @@ Every criticism here is one you can verify on a trial. Test them rather than tak
 **US residential is the design target.** The rate structures, financing products, and permitting workflows are built for the American residential market. Teams selling under PM Surya Ghar in India, AS/NZS rules in Australia, or a European feed-in tariff should check coverage for their own scheme before committing, because in our experience that is where a US-first platform leaves you rebuilding the financial half of the proposal elsewhere.
 
 **Annual billing as published.** No monthly option is advertised, so the trial does all the work of the decision. Use it on real projects, with the people who will operate the tool.
+
+Table: Solargraf strengths and limitations by dimension
 
 | Dimension | Solargraf strength | Solargraf limitation |
 | --- | --- | --- |
@@ -179,11 +185,10 @@ The reasons to look elsewhere are structural rather than defects. Project-credit
 
 Weighing those together, our recommendation for most teams evaluating Solargraf today is SurgePV, and the argument is arithmetic plus scope rather than preference. At $1,299 to $1,899 per user per year you get a flat bill that does not move with quote volume, design and proposals from one record instead of two tools, and compliance libraries for markets beyond the United States. If your business is US residential, Enphase-heavy, high-headcount, and predictable in volume, Solargraf remains a defensible buy and you should trial it seriously. If any one of those four is not true, the fit starts costing you somewhere.
 
-Three things to do next:
-
-- Model your real annual project count against Solargraf's included credits and overage rates before comparing anything.
-- Run three projects with known production data through a trial and check the numbers against reality yourself.
-- Decide whether commercial work or a non-US market is on your roadmap in the next two years, because that answer settles the shortlist on its own.
+> [!CHECKLIST] Three things to do next
+> - Model your real annual project count against Solargraf's included credits and overage rates before comparing anything.
+> - Run three projects with known production data through a trial and check the numbers against reality yourself.
+> - Decide whether commercial work or a non-US market is on your roadmap in the next two years, because that answer settles the shortlist on its own.
 
 <div class="inline-cta">
 <h3>Run the comparison on your own projects</h3>

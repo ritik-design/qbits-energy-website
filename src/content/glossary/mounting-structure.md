@@ -5,7 +5,7 @@ description: "Mounting structures hold solar panels in place. Full guide to type
 category: "Installation"
 categorySlug: "installation"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is solar mounting structure
   - solar racking
@@ -63,7 +63,7 @@ author: "Nirav Dhanani"
 
 A solar mounting structure is the mechanical framework that supports PV modules at the designed [tilt angle](/glossary/tilt-angle/) and [azimuth](/glossary/azimuth/), transferring wind uplift, snow and gravity loads from the modules to the building roof or the ground. The structure also provides the bonding path for module frames to [earth](/glossary/earthing/).
 
-> **TL;DR**
+> [!NOTE] In short
 > - A mounting structure holds PV modules at the design tilt and orientation, transferring wind, snow and dead loads to the roof or ground, and bonding module frames to earth.
 > - Indian mounting is most commonly hot-dip galvanised iron (GI), with zinc coating from 80 g/m² inland up to 300 g/m² for coastal durability.
 > - Wind load design follows IS 875 Part 3: 47 to 55 m/s for coastal regions versus 39 to 44 m/s for most of the Indian plains.
@@ -91,6 +91,8 @@ Regulatory compliance. [CEIG](/glossary/ceig/) approval and CEA safety regulatio
 
 ## Mounting structure types
 
+Table: Mounting structure types, typical use and structure cost per Wp
+
 | Type | Use | Cost (₹/Wp) |
 |---|---|---|
 | Rooftop RCC penetrating | Most common for concrete roofs | 4 to 5 |
@@ -107,6 +109,8 @@ Regulatory compliance. [CEIG](/glossary/ceig/) approval and CEA safety regulatio
 
 ### Materials and coatings
 
+Table: Mounting materials and zinc coatings by service life and use
+
 | Material | Zinc coating | Service life | Use |
 |---|---|---|---|
 | Hot-dip GI 80 g/m² | Light | 15 to 20 years | Dry inland |
@@ -116,7 +120,12 @@ Regulatory compliance. [CEIG](/glossary/ceig/) approval and CEA safety regulatio
 | Powder-coated aluminium | n/a | 25 to 30 years | Premium rooftop |
 | 316L stainless steel | n/a | 30+ years | Highly corrosive |
 
+> [!WARNING] Match the zinc coating to the site, not the quote
+> An 80 g/m² coating is rated for dry inland sites with a 15 to 20 year life, while coastal sites call for 300 g/m² and 30+ years. Light galvanising in a coastal location is listed twice in this entry as a common problem and a common mistake, because the corrosion shows up as a structural failure rather than a cosmetic one.
+
 ### Wind load (IS 875 Part 3)
+
+Table: IS 875 Part 3 basic wind speed by region
 
 | Region | Basic wind speed (m/s) |
 |---|---|
@@ -128,6 +137,8 @@ Regulatory compliance. [CEIG](/glossary/ceig/) approval and CEA safety regulatio
 
 ### Roof attachment types
 
+Table: Roof attachment types and where each is used
+
 | Type | Description |
 |---|---|
 | L-foot bolted to rafter | Most common RCC |
@@ -137,6 +148,8 @@ Regulatory compliance. [CEIG](/glossary/ceig/) approval and CEA safety regulatio
 | Ballasted weights | Non-penetrating ballast |
 
 ### Hardware components
+
+Table: Mounting hardware components and their function
 
 | Component | Function |
 |---|---|
@@ -148,7 +161,12 @@ Regulatory compliance. [CEIG](/glossary/ceig/) approval and CEA safety regulatio
 | Earth lug | Bonds module frame to earth |
 | Anti-theft hardware | Tamper-resistant fasteners |
 
+> [!CAUTION] Every metallic element needs its earth bond
+> The structure is the bonding path for module frames, which is what the earth lug on each frame connects to. Earthing continuity lost over the years and a missing bond on any metallic element are both on this page's problem lists, so check continuity at every annual torque inspection.
+
 ### Foundations for ground-mount
+
+Table: Ground-mount foundation types and use
 
 | Type | Use |
 |---|---|
@@ -208,6 +226,8 @@ Document mounting structure on the [single line diagram](/glossary/single-line-d
 
 ## Comparison: mounting types
 
+Table: Mounting types compared on capex, O&M, yield and best use
+
 | Type | Capex | O&M | Yield | Best for |
 |---|---|---|---|---|
 | Fixed-tilt rooftop | Lowest | Lowest | Baseline | Rooftops |
@@ -229,6 +249,8 @@ PM Surya Ghar residential typically uses GI rail-and-clamp systems.
 Utility plants under SECI tenders increasingly specify tracker mounting for higher yield.
 
 ## Standards and certifications
+
+Table: Standards that apply to solar mounting structures
 
 | Standard | Scope |
 |---|---|

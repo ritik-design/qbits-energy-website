@@ -5,7 +5,7 @@ description: "Payback period is the time to recover solar investment from saving
 category: "Finance"
 categorySlug: "finance"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is payback period
   - solar payback
@@ -69,7 +69,7 @@ author: "Akash Hirapara"
 
 Payback period is the time required for cumulative cash flows from a solar project to recover the original capital investment. It is one of the most intuitive financial metrics for solar customers, especially for residential and small commercial buyers. Shorter payback means faster capital recovery and reduced risk exposure.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Payback period is the number of years for cumulative savings from a solar system to equal its upfront cost.
 > - Indian residential PM Surya Ghar systems pay back in 2.5 to 5 years; C&I rooftop in 3 to 6 years; utility-scale solar in 6 to 10 years.
 > - Simple payback ignores the time value of money; discounted payback applies a discount rate, usually WACC, and runs 1 to 2 years longer.
@@ -82,7 +82,10 @@ For Indian solar in 2026, payback periods are short by historical standards. Res
 
 ## Payback explained simply
 
-Spend ₹1.65 lakh on a 3 kW rooftop solar system. Save ₹40,000 per year on your electricity bill. After roughly 4 years you have recovered your investment. After that, the next 21 years of generation is basically free electricity. A real Indian example: a [10 kW villa installation in Jaipur reached full payback in just 4 years](/blog/case-study-jaipur-villa/) once subsidy and high peak sun hours were factored in.
+> [!EXAMPLE] A 3 kW rooftop system, before subsidy
+> Spend ₹1.65 lakh on a 3 kW rooftop solar system. Save ₹40,000 per year on your electricity bill. After roughly 4 years you have recovered your investment. After that, the next 21 years of generation is basically free electricity.
+
+A real Indian example: a [10 kW villa installation in Jaipur reached full payback in just 4 years](/blog/case-study-jaipur-villa/) once subsidy and high peak sun hours were factored in.
 
 Payback period is the number of years until cumulative savings cover the cost.
 
@@ -100,7 +103,8 @@ Cash flow planning. Customer plans capex recovery against payback period.
 
 ## How payback is calculated
 
-Simple payback = [Capex](/glossary/capex/) / Annual cash flow
+> [!FORMULA]
+> Simple payback = [Capex](/glossary/capex/) / Annual cash flow
 
 Discounted payback = Number of years for Σ (Annual cash flow / (1+r)^t) to equal Capex, where r is the discount rate.
 
@@ -109,6 +113,8 @@ For a fast estimate without building a full spreadsheet model, tools such as [Su
 ## Technical deep dive
 
 ### Indian residential PM Surya Ghar payback (3 kW illustrative)
+
+Table: Residential PM Surya Ghar payback, 3 kW illustrative
 
 | Parameter | Value |
 |---|---|
@@ -123,6 +129,8 @@ For a fast estimate without building a full spreadsheet model, tools such as [Su
 
 ### C&I rooftop payback (100 kW illustrative)
 
+Table: C&I rooftop payback, 100 kW illustrative
+
 | Parameter | Value |
 |---|---|
 | Capex | ₹40 lakh |
@@ -132,9 +140,11 @@ For a fast estimate without building a full spreadsheet model, tools such as [Su
 | Annual O&M | ₹1.5 lakh |
 | Net annual savings | ₹12 lakh |
 | Simple payback | 3.3 years |
-| Discounted payback (10% discount) | 4.0 years |
+| Discounted payback (10% discount) | 4.3 years |
 
 ### Utility solar payback (1 MW illustrative)
+
+Table: Utility solar payback, 1 MW illustrative
 
 | Parameter | Value |
 |---|---|
@@ -145,9 +155,11 @@ For a fast estimate without building a full spreadsheet model, tools such as [Su
 | Annual O&M | ₹8 lakh |
 | Net annual cash flow | ₹38.75 lakh |
 | Simple payback | 10.3 years |
-| Discounted payback (8% discount) | 12.5 years |
+| Discounted payback (8% discount) | 22.7 years |
 
 ### Payback drivers
+
+Table: Payback drivers and their effect
 
 | Driver | Effect on payback |
 |---|---|
@@ -222,6 +234,8 @@ Stress-test under conservative scenarios.
 
 The [RESCO model](/glossary/resco/) sidesteps this metric entirely for the customer, since there is no capex outlay to recover in the first place.
 
+Table: Payback by project type, India 2026
+
 | Project type | Simple payback | Discounted payback |
 |---|---|---|
 | Residential PM Surya Ghar | 2.5 to 5 years | 3 to 6 years |
@@ -244,6 +258,8 @@ Utility solar payback under SECI [PPAs](/glossary/ppa/) typically 8 to 10 years.
 Marketing materials commonly quote simple payback rather than discounted.
 
 ## Standards and certifications
+
+Table: Standards and guidelines behind payback claims
 
 | Standard | Scope |
 |---|---|

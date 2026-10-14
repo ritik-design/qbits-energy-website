@@ -5,7 +5,7 @@ description: "The Electricity Act 2003 is India's foundational electricity law. 
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - electricity act 2003
   - indian electricity act
@@ -67,7 +67,7 @@ author: "Nirav Dhanani"
 
 The Electricity Act 2003 is India's foundational law governing the electricity sector. Enacted on 10 June 2003, it consolidated and replaced three earlier statutes and restructured the sector around competition, regulation and renewable energy promotion. The Act applies across India to generation, transmission, distribution, trading and use of electricity.
 
-> **TL;DR**
+> [!NOTE] In short
 > - The Electricity Act 2003 is India's foundational electricity law, enacted 10 June 2003, replacing three earlier statutes.
 > - It unbundled state electricity boards into separate generation, transmission and distribution entities and created the independent regulators CERC and SERC.
 > - Section 86(1)(e) is the statutory basis for Renewable Purchase Obligation and state net metering regulations.
@@ -96,7 +96,18 @@ Regulatory structure. CERC, SERC and APTEL all derive from the Act.
 
 Net metering. Operationalised through SERC regulations under Act powers.
 
+> [!IMPORTANT] The Act sets the power, your SERC sets the rules
+> The Act does not itself contain net metering terms. Capacity limits, credit rules and application steps come from the SERC regulation issued under Section 86, so they differ state by state. Read the state regulation before designing for export.
+
 ## Key sections relevant to solar
+
+> [!TIP] Which section answers which solar question
+> - Net metering and Renewable Purchase Obligation: Section 86(1)(e), applied through SERC regulations.
+> - Buying solar power from a third-party plant: open access under Section 42.
+> - Building a dedicated plant for your own use: captive generation under Section 9.
+> - A tariff or licence dispute: appeal to APTEL, then the Supreme Court (Sections 121 and 125 in the table below).
+
+Table: Sections of the Electricity Act 2003 that matter for solar
 
 | Section | Content |
 |---|---|
@@ -174,6 +185,8 @@ Open access for solar procurement is a growing trend, especially in Karnataka, M
 Captive solar under Section 9 has grown significantly for C&I customers seeking sustainability and cost reduction, often delivered through industrial solar installation programmes.
 
 ## Standards and references
+
+Table: Laws, regulations and rulings that sit under the Electricity Act
 
 | Reference | Scope |
 |---|---|

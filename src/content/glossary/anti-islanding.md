@@ -5,7 +5,7 @@ description: "Anti-islanding is the inverter protection that disconnects solar e
 category: "Protection"
 categorySlug: "protection"
 priority: "P0"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is anti-islanding
   - anti-islanding protection
@@ -72,7 +72,7 @@ author: "Keyur Rakholiya"
 
 Anti-islanding is the protection function in a [grid-tied solar inverter](/glossary/on-grid-inverter/) that detects a loss of the utility grid and rapidly disconnects the inverter's AC output. It prevents the inverter from continuing to energise a section of the distribution network after the upstream feeder has been switched off, isolated by a protection device, or damaged. Our [anti-islanding protection guide](/blog/anti-islanding-protection-solar-inverters/) walks through the Indian compliance side of this in more depth.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Anti-islanding is the inverter safety function that detects a utility grid outage and disconnects the inverter's AC output, typically within 100 to 500 ms and always inside the IEC 62116 limit of 2 seconds.
 > - It exists to protect utility lineworkers from being shocked by a rooftop solar inverter that keeps feeding a line the DISCOM believes is dead.
 > - India requires it under the CEA connectivity regulations (tested to IEC 62116 or IS 16169), and DISCOMs verify it at commissioning.
@@ -83,6 +83,9 @@ Anti-islanding is the protection function in a [grid-tied solar inverter](/gloss
 The hazard it addresses is direct and physical. When a feeder is de-energised by the DISCOM for maintenance, fault clearance or a downed line, the lineworker assumes the section is dead. If a solar inverter on a customer's roof continues to push power into that section, the line stays live. The lineman touches it and is electrocuted. Anti-islanding is the layer of protection that keeps this from happening.
 
 In India, anti-islanding compliance, tested to IEC 62116 or IS 16169, is mandatory for every grid-connected solar inverter. The CEA Technical Standards for Connectivity to the Grid 2019 enshrine this requirement and DISCOMs verify it during commissioning.
+
+> [!CAUTION] Never disable anti-islanding
+> Disabling anti-islanding to stop nuisance tripping is illegal, dangerous and voids the warranty. If an inverter trips often, check whether the grid actually left its voltage or frequency window before touching any setting.
 
 ## Anti-islanding explained simply
 
@@ -116,9 +119,23 @@ Modern inverters use multiple detection layers running in parallel.
 
 The full cycle from grid loss to contactor open takes 100 to 500 ms in typical residential inverters, well inside the 2 second limit set by IEC 62116.
 
+Table: Anti-islanding key figures quoted in this guide
+
+| Parameter | Value |
+|---|---|
+| Typical disconnect time, residential inverter | 100 to 500 ms |
+| Maximum disconnect time under IEC 62116 | 2 seconds |
+| Passive voltage trip window | 0.85 to 1.10 pu |
+| Passive frequency trip window | 47.5 to 51.5 Hz |
+| ROCOF trip threshold | above 0.5 Hz/s |
+| Reconnection delay after grid restore | 60 to 300 seconds, 60 seconds minimum |
+| Event log retention suggested | at least 90 days |
+
 ## Technical deep dive
 
 ### Detection methods
+
+Table: Anti-islanding detection methods compared
 
 | Category | Method | How it works | Pros | Cons |
 |---|---|---|---|---|
@@ -201,6 +218,9 @@ Inverter reconnecting too quickly. Some firmware reconnects in less than 60 seco
 
 ## Best practices for anti-islanding
 
+> [!TIP] Get the trip time in writing
+> Verify the anti-islanding test result at commissioning and put the measured trip time on the commissioning report. DISCOMs typically witness the test by opening the customer's main switch with the inverter running at moderate load.
+
 Use only inverters tested to IEC 62116 or IS 16169 in India. Verify on the certificate, not the brochure.
 
 Verify anti-islanding test results at commissioning. Get the trip time in writing on the commissioning report.
@@ -216,6 +236,8 @@ Log anti-islanding events for at least 90 days. Patterns in trip events expose g
 Avoid mixing inverter brands on small sites unless tested for multi-inverter compatibility.
 
 ## Comparison: anti-islanding vs related protections
+
+Table: Anti-islanding vs related inverter protections
 
 | Protection | Function | When it acts |
 |---|---|---|
@@ -235,6 +257,8 @@ For large utility solar plants, anti-islanding is supplemented by upstream prote
 Common Indian inverter brands like Sungrow, Solis, Goodwe, [Growatt](/blog/growatt-solar-inverter-review-india/), Solax, Deye, Huawei, Sineng, Luminous and Tata Power Solar ship with IEC 62116 certified anti-islanding as standard.
 
 ## Standards and certifications
+
+Table: Standards relevant to anti-islanding
 
 | Standard | Scope |
 |---|---|

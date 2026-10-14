@@ -4,7 +4,7 @@ excerpt: "Since July 2026 the big four must offer time-varying export, and the p
 description: "Best solar software New Zealand 2026: the full stack for design, proposals, CRM and compliance. Time-varying export plans, retailer rates from 5c to 40c, no feed-in tariff and AS/NZS 4777.2."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-new-zealand.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 [New Zealand](https://www.surgepv.com/best-solar-software/design-new-zealand) quietly became one of the more demanding solar design markets on 1 July 2026. Since that date the four largest retailers, holding roughly 87 percent of connections between them, must offer a plan where the export rate varies through the day. The rule sets the shape of the price and explicitly not its level, so retailers place the peaks where they choose and there is no floor. The peaks generally fall in the evening, when a solar array produces nothing. A tool holding one flat buyback rate cannot describe that market, and the households it quotes will end up exporting into the trough and buying their evening energy at retail. This guide covers what the [New Zealand](https://www.surgepv.com/best-solar-software/new-zealand) stack has to do.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Since 1 July 2026 the big four retailers must offer a time-varying export plan; the rule sets shape, not level, and there is no floor.
 > - Peak export rates generally fall in the evening, when the array is producing nothing.
 > - Published rates span roughly 5 cents among the majors to 17 cents flat, with peaks around 24 cents and up to 40 cents on some winter peak plans.
@@ -57,6 +57,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And The Plan As A Design Input
 
+Table: The six software categories a New Zealand solar business runs and the New Zealand requirement for each
+
 | Category | What it does | New Zealand requirement |
 | --- | --- | --- |
 | Design and simulation | Layout, yield, battery dispatch against price | Must accept an hourly export price profile |
@@ -66,13 +68,15 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Scheduling, install, commissioning | Standard |
 | Monitoring | Performance, service, warranty | Standalone |
 
+> [!TIP] Record the retailer plan at qualification
 > **The CRM point matters more here than usual.** Because the export rate depends on the retailer and the plan, that field belongs in qualification. A team that records it as standard can model accurately from the first conversation and can spot households whose best available action is changing plan.
 
 ## What Is Genuinely New Zealand-Specific
 
 **The peaks fall when the array is asleep.** This is the central design fact. On a time-varying plan the highest rates are generally paid in the evening, and solar arrays generate nothing then. An array without storage exports overwhelmingly into the midday trough and imports at retail through the evening peak.
 
-**The advertised rate is usually unreachable.** A headline "up to 40 cents" is a peak-hour figure. A proposal applying it to total export overstates the return substantially, and the honest output is an effective achieved rate calculated from exported volume by time of day.
+> [!WARNING] The headline rate is a peak-hour figure
+> **The advertised rate is usually unreachable.** A headline "up to 40 cents" is a peak-hour figure. A proposal applying it to total export overstates the return substantially, and the honest output is an effective achieved rate calculated from exported volume by time of day.
 
 **A two to eight fold spread between plans.** From around 5 cents at the low end among majors to peaks reaching 40 cents in winter on some plans. That range makes the plan choice a larger lever than most hardware decisions.
 
@@ -121,6 +125,8 @@ Common in smaller practices, and the usual home of one flat buyback rate standin
 
 ## New Zealand Solar Software Stack Comparison
 
+Table: New Zealand solar software stack compared by capability
+
 | Capability | SurgePV | OpenSolar | PVsyst | PV*SOL | Aurora |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Partial | Yes | Yes | Yes |
@@ -135,6 +141,8 @@ Common in smaller practices, and the usual home of one flat buyback rate standin
 ## Worked Example: The Trap The July Change Created
 
 An illustrative comparison, not a specific customer project. A 6 kW array, household with modest daytime and strong evening consumption, three configurations.
+
+Table: The July 2026 trap: flat plan versus time-varying plan, with and without storage (illustrative)
 
 | | A: flat 17c plan, no storage | B: time-varying plan, no storage | C: time-varying plan with storage |
 | --- | --- | --- | --- |

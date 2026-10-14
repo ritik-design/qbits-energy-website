@@ -4,7 +4,7 @@ excerpt: "German solar software is still mostly desktop, mostly named-user, and 
 description: "Best solar software Germany 2026: the full stack for design, proposals, CRM, compliance and monitoring. VDE-AR-N 4105, DIN VDE 0100-712, EEG 2023 tariffs and Mieterstrom modelling."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-germany.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ featured: false
 
 German solar engineering has a software culture built around the desktop workstation, and for a long time that was the right answer. PV*SOL is a genuinely deep tool, the component libraries are excellent, and a single engineer with a good machine can produce work that stands up to any scrutiny. The difficulty appears when the business grows past one engineer. Local project files mean the design lives on one machine, a colleague cannot pick it up mid-sale, and each additional concurrent user is another licence. None of that is a criticism of the software. It is a mismatch between a licensing model and how a modern team actually works. This guide covers what the German stack has to do and where the friction sits.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A German solar business runs six software categories, and most of the traditional stack is desktop, named-user and built on local project files.
 > - That model suits a solo engineer and scales awkwardly for a team, because designs cannot move between people easily.
 > - EEG 2023 feed-in rates depend on system category and size, and full feed-in differs from surplus feed-in.
@@ -56,6 +56,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And Which Ones Have To Talk
 
+Table: The six software categories a German solar business runs and how tightly each must integrate
+
 | Category | What it does | How tightly it must integrate |
 | --- | --- | --- |
 | Design and simulation | Layout, shading, yield, VDE compliance | Core. Everything downstream derives from it |
@@ -65,6 +67,7 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Scheduling, install, Abnahme | Should receive the design |
 | Monitoring | Performance, service, warranty | Standalone, connects to the installed base |
 
+> [!IMPORTANT] The German-specific friction
 > **The German-specific friction.** In most markets the question about the design row is whether the tool is capable enough. Here it is often whether more than one person can use it on the same job. A design saved as a local file cannot be revised by a colleague while the original engineer is on site, and in a team that constraint costs programme time on every project.
 
 ## What Is Genuinely Germany-Specific
@@ -118,6 +121,8 @@ Common, and the usual home of Mieterstrom allocation and an EEG rate that was co
 
 ## Germany Solar Software Stack Comparison
 
+Table: Germany solar software stack compared by capability
+
 | Capability | SurgePV | PV*SOL | PVsyst | HelioScope | Aurora |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Yes | Yes |
@@ -132,6 +137,8 @@ Common, and the usual home of Mieterstrom allocation and an EEG rate that was co
 ## Worked Example: One Engineer Versus A Team Of Five
 
 An illustrative comparison, not a specific customer configuration. The same capability requirement, at two team sizes.
+
+Table: Solo engineer versus team of five, same capability requirement (illustrative)
 
 | | Solo engineer | Team of five |
 | --- | --- | --- |

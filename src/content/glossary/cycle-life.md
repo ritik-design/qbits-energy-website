@@ -5,7 +5,7 @@ description: "Cycle life is the number of charge-discharge cycles a battery deli
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is cycle life
   - battery cycle life
@@ -70,7 +70,7 @@ Cycle life is the number of full charge-discharge cycles a battery can deliver b
 
 Cycle life depends on chemistry, depth of discharge per cycle, temperature, charge and discharge rate, and storage conditions between cycles. The relationship is non-linear and chemistry-specific. The same battery may deliver 4,000 cycles at 80 percent [DOD](/glossary/battery-dod/) and 6,000 cycles at 50 percent DOD, which is why cycle life is the deciding factor in the [LiFePO4 vs NMC comparison](/blog/lifepo4-vs-nmc-solar-battery-india/) for Indian solar storage.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Cycle life is the number of full charge-discharge cycles a battery delivers before capacity drops to a defined threshold, typically 80 percent of original capacity.
 > - LFP delivers roughly 4,000 to 8,000 cycles at 80 percent DOD, NMC 2,000 to 4,000, and lead-acid 500 to 1,500.
 > - Cycle life is strongly DOD-dependent and non-linear: shallower discharges, such as 50 percent DOD, extend cycle count well beyond the 80 percent DOD rating.
@@ -100,6 +100,7 @@ Replacement planning. Predicting when to budget for replacement.
 
 Standardised tests apply repeated charge-discharge cycles at defined conditions:
 
+<!-- steps -->
 1. Charge at standard rate to full SOC.
 2. Discharge at standard rate to specified DOD.
 3. Pause for thermal equilibrium.
@@ -118,6 +119,8 @@ Manufacturer warranties may use different conditions, so cycle counts in datashe
 
 ### Chemistry-specific cycle life
 
+Table: Typical cycle life at 80 percent depth of discharge by battery chemistry
+
 | Chemistry | Cycles at 80% DOD (typical) |
 |---|---|
 | LFP | 4,000 to 8,000 |
@@ -132,7 +135,8 @@ Manufacturer warranties may use different conditions, so cycle counts in datashe
 
 The relationship is non-linear. Approximate empirical fits for LFP:
 
-Cycles ≈ 6,000 × (0.5 / DOD)^0.5
+> [!FORMULA] LFP cycle life against depth of discharge
+> Cycles ≈ 6,000 × (0.5 / DOD)^0.5
 
 This gives:
 - 100% DOD: 4,250 cycles
@@ -140,6 +144,20 @@ This gives:
 - 50% DOD: 6,000 cycles
 - 30% DOD: 7,800 cycles
 - 10% DOD: 13,500 cycles
+
+```chart
+type: bar
+title: Approximate LFP cycle life by depth of discharge
+unit: "cycles"
+source: "Calculated in this entry from the approximate LFP fit Cycles = 6,000 x (0.5 / DOD)^0.5, using the values listed above"
+note: "An empirical fit for LFP, not a warranty figure. Shallower discharge gives more cycles."
+data:
+  - { label: "100% DOD", value: 4250 }
+  - { label: "80% DOD", value: 4750 }
+  - { label: "50% DOD", value: 6000 }
+  - { label: "30% DOD", value: 7800 }
+  - { label: "10% DOD", value: 13500 }
+```
 
 ### Calendar life
 
@@ -207,6 +225,9 @@ Different cycle life cited at different DOD assumptions causing customer confusi
 
 Compare batteries on ₹/kWh-cycle at intended DOD, not on nominal capacity alone.
 
+> [!TIP] Read the footnotes behind a headline cycle count
+> A cycle count means little without the DOD, temperature and C-rate it was measured at, and warranty conditions can differ from datasheet conditions. Compare batteries on ₹/kWh-cycle at the DOD you will actually use, and get the cycle warranty terms in writing.
+
 Operate at recommended DOD and temperature.
 
 Use rainflow counting for partial cycle accumulation.
@@ -217,6 +238,8 @@ Get cycle warranty terms in writing.
 
 ## Comparison: cycle life metrics across applications
 
+Table: Cycle life required over 10 years by application
+
 | Application | Daily cycles | Required cycle life for 10 years |
 |---|---|---|
 | Solar storage | 1 | 3,650 |
@@ -224,6 +247,9 @@ Get cycle warranty terms in writing.
 | Telecom backup | 0.05 to 0.2 | 200 to 750 |
 | Frequency regulation | 5 to 20 | 18,000 to 73,000 |
 | Peak shaving | 1 to 2 | 3,650 to 7,300 |
+
+> [!EXAMPLE] Does the chemistry clear a 10-year solar duty?
+> Solar storage cycles about once a day, so 10 years needs 3,650 cycles. LFP at 4,000 to 8,000 cycles at 80 percent DOD clears that. NMC at 2,000 to 4,000 may fall short, and lead acid at 500 to 1,500 falls well short.
 
 ## Indian market context
 
@@ -236,6 +262,8 @@ Utility-scale storage RFPs increasingly specify minimum cycle life as 6,000 cycl
 IS 16893 standard references cycle life testing methodology aligned with IEC 61960.
 
 ## Standards and certifications
+
+Table: Standards and terms that define battery cycle life
 
 | Standard | Scope |
 |---|---|

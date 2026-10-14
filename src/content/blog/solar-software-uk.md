@@ -4,7 +4,7 @@ excerpt: "MCS certification shapes the UK software stack more than any tariff do
 description: "Best solar software UK 2026: the full stack for design, proposals, CRM, MCS documentation and monitoring. BS 7671, G99, SEG tariff modelling and what UK teams overspend on."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-uk.webp"
 author: "Nirav Dhanani"
@@ -35,14 +35,15 @@ featured: false
 
 The UK solar software conversation usually starts with tariffs and should start with paperwork. MCS certification is what unlocks the Smart Export Guarantee for your customer, and it depends on an evidence trail that has to match the installed system. If the design tool produces output in a shape that does not feed that evidence, someone in your back office rebuilds it by hand on every single job. That cost never appears on an invoice, it does not show up in a software comparison table, and across a year it is frequently larger than the licence fee being debated. This guide covers what the UK stack actually has to do and where the time goes.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A UK solar business runs six software categories, with MCS and compliance documentation heavy enough to be its own workstream.
 > - Design and proposals must share one record. CRM and monitoring can connect by API.
 > - MCS shapes the stack more than any [tariff](/glossary/tariff/), because certification unlocks SEG and depends on a matching evidence trail.
 > - SEG rates are supplier-set, not national, so an averaged export figure is wrong for most households.
 > - BS 7671, G99 and MCS standards belong in the tool, not in an engineer's memory.
-> - US-first platforms reference NEC and rate structures with no UK equivalent.
-> - [SurgePV](https://surgepv.com/) covers design, proposals and MCS-ready output from around £1,025 per seat per year on the five-user team plan. [Book a free demo](https://surgepv.com/demo).
+
+- US-first platforms reference NEC and rate structures with no UK equivalent.
+- [SurgePV](https://surgepv.com/) covers design, proposals and MCS-ready output from around £1,025 per seat per year on the five-user team plan. [Book a free demo](https://surgepv.com/demo).
 
 **Short version.** The best solar software for a UK business in 2026 is a stack with one integrated core that produces MCS-ready output. Buy design and proposals together. Insist the output feeds your certification evidence rather than requiring a parallel rebuild. Connect a CRM when volume justifies it.
 
@@ -57,6 +58,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And Which Ones Have To Talk
 
+Table: The six UK solar software categories and how tightly each must integrate
+
 | Category | What it does | How tightly it must integrate |
 | --- | --- | --- |
 | Design and simulation | Layout, shading, yield, BS 7671 compliance | Core. Everything downstream derives from it |
@@ -66,7 +69,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Scheduling, install, handover pack | Should receive the design |
 | Monitoring | Performance, service, warranty | Standalone, connects to the installed base |
 
-> **The UK-specific insight.** In most markets the compliance row is a formality that follows the work. Here it is load-bearing, because MCS certification is what gives the customer access to SEG. A stack that treats it as an afterthought pushes a recurring manual rebuild into the back office and calls it admin.
+> [!IMPORTANT] The UK-specific insight
+> In most markets the compliance row is a formality that follows the work. Here it is load-bearing, because MCS certification is what gives the customer access to SEG. A stack that treats it as an afterthought pushes a recurring manual rebuild into the back office and calls it admin.
 
 The practical test when evaluating any platform is simple. Ask what happens to the MCS evidence when a design changes during the sale. If the answer involves someone remembering to update a separate document, you have found the recurring cost.
 
@@ -121,6 +125,8 @@ Still common in smaller UK practices, and the usual home of an averaged SEG rate
 
 ## UK Solar Software Stack Comparison
 
+Table: UK solar software stack comparison by capability
+
 | Capability | SurgePV | OpenSolar | PVsyst | HelioScope | Aurora |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Partial | Yes | Yes | Yes |
@@ -135,6 +141,8 @@ Still common in smaller UK practices, and the usual home of an averaged SEG rate
 ## Worked Example: Where The Back-Office Hours Actually Go
 
 An illustrative breakdown, not a specific customer measurement. A UK installer completing several residential jobs a week, tracking where non-installation time is spent per job.
+
+Table: Where the back-office hours go: disconnected stack vs integrated core (illustrative)
 
 | Task | With a disconnected stack | With an integrated core |
 | --- | --- | --- |

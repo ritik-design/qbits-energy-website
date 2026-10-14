@@ -4,7 +4,7 @@ excerpt: "The best solar proposal software South Africa installers need sells ba
 description: "Best solar proposal software South Africa 2026. SurgePV vs OpenSolar, Aurora, PVsyst on Section 12B, SSEG approval, NRS 097 limits and hybrid battery sizing."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-proposal-software-south-africa.webp"
 author: "Akash Hirapara"
@@ -35,7 +35,7 @@ featured: false
 
 South African solar proposals have to answer a question that most [proposal software](https://quickestimate.co/blog/solar-proposal-software) was never built to address. Customers here are not primarily buying a [payback period](/glossary/payback-period/). They are buying the certainty that the lights stay on, and the financial return is the justification rather than the motive. A document that reports rands saved and says nothing about which circuits survive an outage is answering the second question and ignoring the first. Layer on a 10 kVA residential connection cap, mandatory SSEG approval before energizing, and a Section 12B deduction that transforms commercial economics, and the local requirements diverge sharply from the global default. This guide compares the platforms South African installers should shortlist.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Residential single-phase is typically capped near 10 kVA, three-phase near 25 kVA, across Eskom and the major metros.
 > - SSEG approval must be in writing before energizing. Energizing without it risks disconnection.
 > - A DoL-registered contractor issues the CoC. ECSA Professional Engineer sign-off applies above 25 kVA, per an October 2025 policy update.
@@ -60,7 +60,8 @@ South African solar proposals have to answer a question that most [proposal soft
 
 **The capacity cap as a design constraint.** With residential single-phase around 10 kVA, a high-consumption household cannot cover its load from the array alone. The proposal has to explain which loads are covered and why, rather than implying full independence.
 
-**Section 12B at the customer's tax rate.** A 125% first-year deduction with no size limit is powerful, but it is a deduction, so the cash effect depends on the buyer's rate. Showing it at a generic rate either overstates or understates the return. SurgePV's [South Africa compliance library](https://www.surgepv.com/solar-compliance/south-africa) covers the wider regulatory picture.
+> [!TIP] Section 12B at the buyer's tax rate
+> **Section 12B at the customer's tax rate.** A 125% first-year deduction with no size limit is powerful, but it is a deduction, so the cash effect depends on the buyer's rate. Showing it at a generic rate either overstates or understates the return. SurgePV's [South Africa compliance library](https://www.surgepv.com/solar-compliance/south-africa) covers the wider regulatory picture.
 
 **SSEG sequence and timing.** Pre-application notification before installation, written approval before energizing. Setting that expectation up front removes the most common source of post-sale friction. See SurgePV's [Eskom SSEG registration guide](https://www.surgepv.com/solar-compliance/south-africa/guides/eskom-sseg-registration).
 
@@ -68,6 +69,7 @@ South African solar proposals have to answer a question that most [proposal soft
 
 ## Selling Resilience Without Overselling It
 
+> [!IMPORTANT] What most South African quotes get wrong
 > **What most South African quotes get wrong.** They either ignore backup entirely and quote a payback, or they promise "backup power" without saying what that means in practice. Both fail. The first ignores the buying motive. The second sets an expectation the system will not meet on a cloudy winter evening, and the customer finds out during an outage.
 
 The honest version is specific: these circuits, this many hours, under these conditions, with this much degradation over the battery's life. That requires modelling the battery against the actual load rather than quoting nameplate capacity. A 10 kWh battery does not deliver 10 kWh of useful backup, and a customer who discovers the difference during load-shedding will not treat it as a technical nuance.
@@ -98,6 +100,8 @@ Common in smaller operations. Flexible, and the usual source of nameplate batter
 
 ## South Africa Solar Proposal Software Comparison
 
+Table: South Africa solar proposal software compared on backup, Section 12B, NRS 097 and price
+
 | Tool | Backup hours quantified | Battery dispatch on real load | Section 12B modelling | NRS 097 and capacity limits | Proposal from design record | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Configurable | Yes | Yes | $1,299 to $1,899 |
@@ -117,6 +121,8 @@ Common in smaller operations. Flexible, and the usual source of nameplate batter
 ## Worked Example: 100 kVA Commercial Rooftop, Section 12B Effect
 
 An illustrative calculation, not a specific customer project. Inputs: 100 kVA three-phase, 120 kWp array, 1,750 kWh per kWp specific yield, 210,000 kWh generation, 85% self-consumed, import at R2.40 per kWh commercial, installed cost R1,800,000, corporate tax rate 27%.
+
+Table: 100 kVA commercial rooftop with and without the Section 12B deduction (illustrative)
 
 | Line | Without Section 12B | With Section 12B |
 | --- | --- | --- |

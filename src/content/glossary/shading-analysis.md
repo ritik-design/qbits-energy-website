@@ -5,7 +5,7 @@ description: "Shading analysis quantifies yield loss from obstructions. Full gui
 category: "System Layout"
 categorySlug: "system-layout"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is shading analysis
   - solar shading
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 Shading analysis is the process of quantifying solar PV yield loss caused by obstructions blocking direct sunlight reaching the array. Obstructions include trees, neighbouring buildings, chimneys, parapets, water tanks, satellite dishes, mounting frames and inter-row shadows from other panels. Shading analysis uses sun-path geometry combined with three-dimensional obstruction mapping to compute the time-dependent shading pattern across the year.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Shading analysis quantifies solar yield loss from obstructions like trees, buildings, parapets and inter-row shadows, using sun-path geometry and 3D obstruction mapping.
 > - A shadow on even one cell can cut a series-connected string's output by 30 to 90 percent without bypass diode protection.
 > - PVsyst and Helioscope are the industry-standard tools for bankable shading analysis on C&I and utility projects.
@@ -95,6 +95,7 @@ System ROI. Shading loss directly reduces revenue.
 
 ## How shading analysis works
 
+<!-- steps -->
 1. [Map site location](/glossary/site-survey/) and orientation.
 2. Identify all obstructions (trees, buildings, structures) with height and position.
 3. Generate a 3D model in shading analysis software.
@@ -107,6 +108,8 @@ System ROI. Shading loss directly reduces revenue.
 
 ### Shading loss components
 
+Table: Components of solar shading loss
+
 | Component | Description |
 |---|---|
 | Direct shading | Direct beam blocked by obstruction |
@@ -116,6 +119,8 @@ System ROI. Shading loss directly reduces revenue.
 | Soiling | Treated separately, not strictly shading |
 
 ### Software tools
+
+Table: Software and field tools used for shading analysis
 
 | Tool | Strength |
 |---|---|
@@ -131,12 +136,14 @@ System ROI. Shading loss directly reduces revenue.
 ### Hand calculation: maximum tree shading
 
 For a tree of height H at distance D south of a south-facing array:
-Shadow length at winter solstice = H / tan(altitude_min)
 
-For Delhi (28° latitude), winter solstice noon altitude ≈ 38°:
-Shadow length = H / tan(38°) = H × 1.28
+> [!FORMULA] Tree shadow length
+> Shadow length at winter solstice = H / tan(altitude_min)
 
-A 10 m tree at 12 m south casts a 12.8 m noon shadow at winter solstice; array within this distance is partially shaded.
+> [!EXAMPLE] A 10 m tree in Delhi
+> For Delhi (28° latitude), winter solstice noon altitude ≈ 38°, so shadow length = H / tan(38°) = H × 1.28.
+>
+> A 10 m tree at 12 m south casts a 12.8 m noon shadow at winter solstice; array within this distance is partially shaded.
 
 ### Inter-row shading
 
@@ -149,6 +156,8 @@ Pitch = 2.3 × cos(25°) + 2.3 × sin(25°) / tan(38°) = 2.08 + 1.24 = 3.32 m
 Most utility plants use 3.5 to 4 m pitch to balance shading and land use.
 
 ### Shading mitigation techniques
+
+Table: Shading mitigation techniques and typical loss recovery
 
 | Technique | Loss recovery |
 |---|---|
@@ -202,6 +211,8 @@ Update analysis if site changes.
 
 ## Comparison: shading mitigation
 
+Table: Shading mitigation techniques compared by cost, effectiveness and use case
+
 | Technique | Cost premium | Effectiveness | Use case |
 |---|---|---|---|
 | Module placement | None | Full | Clean site |
@@ -223,6 +234,8 @@ ALMM-listed modules ship with three bypass diodes per module standard; six-diode
 Microinverter adoption (Enphase) is increasing in shading-heavy Indian residential markets.
 
 ## Standards and certifications
+
+Table: Standards and methods behind shading analysis
 
 | Standard | Scope |
 |---|---|

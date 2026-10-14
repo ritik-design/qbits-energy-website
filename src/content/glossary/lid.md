@@ -5,7 +5,7 @@ description: "LID is the initial drop in solar panel output during early operati
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is lid
   - light induced degradation
@@ -65,7 +65,7 @@ author: "Nirav Dhanani"
 
 ## What is LID
 
-> **TL;DR**
+> [!NOTE] In short
 > - LID is the 1 to 2.5 percent output drop crystalline silicon modules experience in their first 100 hours of sun exposure.
 > - It comes from boron-oxygen defects forming in boron-doped p-type silicon, an effect intrinsic to standard PERC cells.
 > - Gallium-doped PERC cuts LID to roughly 0.5 to 1 percent, while n-type TOPCon and HJT cells effectively eliminate the mechanism.
@@ -113,6 +113,8 @@ The defect is reversible by thermal annealing in the dark, but in field conditio
 
 ### Magnitude by cell technology
 
+Table: LID loss and time to stabilise by cell technology
+
 | Technology | LID loss | Time to stabilise |
 |---|---|---|
 | Standard p-type mono | 2 to 3% | 50 to 100 hours |
@@ -133,6 +135,9 @@ The standard module qualification test includes a light-soaking step to stabilis
 ### Stabilised vs nameplate output
 
 Some manufacturers quote nameplate Pmax including LID effect; others quote pre-LID. Customers should specify "stabilised Pmax" in purchase orders.
+
+> [!EXAMPLE] A 10 kW PERC array
+> If the quoted Pmax is the pre-LID figure, a 10 kW mono PERC array at 1 to 2.5 percent LID settles at about 9.75 to 9.9 kW once stabilised, which is 100 to 250 W less than the headline number. A gallium-doped PERC array at 0.5 to 1 percent loses 50 to 100 W.
 
 ## Real-world applications
 
@@ -176,6 +181,9 @@ Confusion between LID and soiling (LID is permanent, soiling is recoverable).
 
 ## Best practices
 
+> [!TIP] Put "stabilised Pmax" in the purchase order
+> Some manufacturers quote nameplate Pmax including the LID effect and others quote it before LID, so two datasheets with the same wattage can differ. Writing "stabilised Pmax" into the order removes the first-year baseline dispute, which is a common problem listed above.
+
 Specify "stabilised Pmax" in purchase orders.
 
 Apply LID derate in first-year yield models.
@@ -187,6 +195,8 @@ Reference IEC 61215 light-soak test in module specifications.
 Choose gallium-doped PERC or n-type TOPCon for low-LID applications.
 
 ## Comparison: LID across silicon types
+
+Table: LID risk by silicon type
 
 | Silicon type | LID risk |
 |---|---|
@@ -208,6 +218,8 @@ Commissioning-year PR measurements should account for LID.
 PM Surya Ghar performance expectations are typically computed on stabilised output, not nameplate.
 
 ## Standards and certifications
+
+Table: Standards that cover light-soak testing and qualification
 
 | Standard | Scope |
 |---|---|

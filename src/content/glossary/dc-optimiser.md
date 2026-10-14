@@ -5,7 +5,7 @@ description: "DC optimisers do per-module MPPT for string inverter systems. Full
 category: "Inverter Types"
 categorySlug: "inverter-types"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - dc optimiser
   - dc optimizer
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 A DC optimiser is a module-level power electronic device installed behind each solar PV panel that performs per-panel [MPPT](/glossary/mppt/) (Maximum Power Point Tracking) and reports per-panel telemetry. The output of each optimiser is DC, aggregated through a series string and fed to a centralised [string inverter](/glossary/string-inverter/) (compatible with the optimiser system).
 
-> **TL;DR**
+> [!NOTE] In short
 > - A DC optimiser is a module-level device that performs per-panel MPPT and pairs with a centralised string inverter.
 > - It combines shade tolerance and panel-level monitoring from microinverters with the lower cost of string inverters.
 > - SolarEdge and Tigo are the major brands; systems cost 30 to 50 percent more than plain string but 30 to 40 percent less than microinverters.
@@ -107,6 +107,8 @@ Lower cost than microinverters. Roughly 30 percent cheaper than full microinvert
 
 ### Architecture comparison
 
+Table: String inverter only vs string plus DC optimisers vs microinverter
+
 | Architecture | Conversion location | Cost per Wp |
 |---|---|---|
 | String inverter only | Centralised | Lowest |
@@ -114,6 +116,8 @@ Lower cost than microinverters. Roughly 30 percent cheaper than full microinvert
 | Microinverter | Each module fully | Highest |
 
 ### SolarEdge system
+
+Table: Components of a SolarEdge optimiser system
 
 | Component | Function |
 |---|---|
@@ -124,6 +128,8 @@ Lower cost than microinverters. Roughly 30 percent cheaper than full microinvert
 
 ### Tigo system
 
+Table: Components of a Tigo optimiser system
+
 | Component | Function |
 |---|---|
 | TS4 platform | Modular optimiser/monitor/rapid shutdown |
@@ -132,6 +138,8 @@ Lower cost than microinverters. Roughly 30 percent cheaper than full microinvert
 | Monitoring portal | Per-panel data |
 
 ### Yield gain
+
+Table: Yield gain from DC optimisers vs a plain string inverter, by scenario
 
 | Scenario | Yield gain vs plain string |
 |---|---|
@@ -189,6 +197,9 @@ Higher upfront cost limiting adoption.
 
 ## Best practices
 
+> [!WARNING] Check inverter compatibility before you buy optimisers
+> Vendor lock-in is the main limitation: SolarEdge optimisers require a SolarEdge inverter, while Tigo offers a brand-agnostic system that works with various string inverters. A mismatch is one of the listed common problems, so confirm the pairing in writing first.
+
 Verify inverter compatibility before optimiser purchase.
 
 Use only on rooftops where shade tolerance or monitoring justify cost.
@@ -200,6 +211,8 @@ Plan optimiser replacement budget (1 percent over 25 years).
 ## Comparison: DC optimiser vs microinverter
 
 See how DC optimisers stack up against fully distributed conversion in [String Inverter vs Microinverter, The Indian Roof Reality](/blog/string-vs-microinverter/).
+
+Table: DC optimiser vs microinverter
 
 | Feature | DC optimiser | Microinverter |
 |---|---|---|
@@ -221,6 +234,8 @@ Tigo distributes through partner installers.
 Most Indian premium rooftops choose microinverters (Enphase) over optimisers.
 
 ## Standards and certifications
+
+Table: Standards that apply to DC optimiser systems
 
 | Standard | Scope |
 |---|---|

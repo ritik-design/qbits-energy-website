@@ -5,7 +5,7 @@ description: "SOH measures battery long-term degradation. Full guide to estimati
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - state of health battery
   - soh battery
@@ -74,13 +74,16 @@ SOH is distinct from [SOC (State of Charge)](/glossary/battery-soc/). SOC change
 
 For solar storage, SOH tracking is critical for warranty enforcement, replacement planning and lifecycle cost calculation. Modern [BMS](/glossary/bms/) estimate SOH from coulomb counting, internal resistance measurements and voltage characteristics. Customer-facing apps typically display SOH alongside SOC. See [how long do solar batteries last in India](/blog/how-long-solar-batteries-last-india/) for how Indian heat above 45°C accelerates the SOH decline that ends a battery's useful life.
 
-> **TL;DR**
+> [!NOTE] In short
 > - State of Health (SOH) is the percentage of original capacity remaining in a battery; it starts at 100 percent and typically ends at 80 percent, which is the usual end-of-life threshold.
 > - SOH is distinct from SOC: SOC changes constantly with charging and discharging, SOH changes slowly over years of aging.
 > - Cycle count, depth of discharge, temperature, charge rate and calendar age all drive SOH decline.
 > - Indian residential LFP systems typically hold 85-92 percent SOH at 10 years versus 75-85 percent for NMC, which is why LFP has displaced NMC in most new installs.
 > - Modern BMS estimate SOH via coulomb counting, internal resistance and open-circuit voltage curves, typically accurate to within 2-5 percent.
 > - Battery warranties reference minimum SOH thresholds (commonly 70-80 percent) at the warranty end date rather than a fixed cycle count alone.
+
+> [!FORMULA]
+> SOH (%) = usable capacity today ÷ original capacity × 100
 
 ## Why SOH matters
 
@@ -96,6 +99,8 @@ Diagnostics. Slower SOH decline indicates good operation.
 
 ## SOH trajectories
 
+Table: Typical SOH at 10 years and end of life by battery chemistry
+
 | Chemistry | SOH at 10 years | End of life |
 |---|---|---|
 | LFP | 85-92% | 15+ years to 80% |
@@ -110,6 +115,8 @@ Diagnostics. Slower SOH decline indicates good operation.
 
 ### SOH estimation methods
 
+Table: SOH estimation methods and their accuracy
+
 | Method | Accuracy | Description |
 |---|---|---|
 | Coulomb counting baseline | ±3-5% | Cumulative discharge vs original capacity |
@@ -119,6 +126,8 @@ Diagnostics. Slower SOH decline indicates good operation.
 | Kalman filter combination | ±2-3% | Combined methods, most accurate |
 
 ### Factors affecting SOH
+
+Table: Factors that drive SOH decline
 
 | Factor | Impact |
 |---|---|
@@ -130,6 +139,8 @@ Diagnostics. Slower SOH decline indicates good operation.
 | Manufacturing variation | Cell quality variation |
 
 ### Typical Indian residential LFP SOH trajectory
+
+Table: Typical SOH trajectory of an Indian residential LFP system
 
 | Year | SOH | Notes |
 |---|---|---|
@@ -150,6 +161,9 @@ Typical LFP residential warranty:
 - 10 years OR 6,000 cycles
 - Minimum SOH 70-80% at warranty end
 - Replacement or refund if breach
+
+> [!IMPORTANT] Warranties are written in SOH
+> A typical LFP residential warranty runs 10 years or 6,000 cycles, with a minimum SOH of 70 to 80 percent at warranty end, and replacement or refund if that is breached. Document SOH at warranty milestones so a claim has a measured baseline.
 
 ## Real-world applications
 
@@ -186,6 +200,8 @@ Warranty enforcement increasingly references SOH measurement.
 [Second-life](/glossary/second-life-battery/) market emerging for retired EV batteries with SOH 70-80%.
 
 ## Standards and certifications
+
+Table: Standards and documents that define SOH
 
 | Standard | Scope |
 |---|---|

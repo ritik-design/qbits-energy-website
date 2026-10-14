@@ -4,7 +4,7 @@ excerpt: "Salderingsregeling ends 1 January 2027. The best solar design software
 description: "Best solar design software Netherlands 2026. SurgePV vs Aurora, OpenSolar, PV*SOL on the salderingsregeling phase-out, NEN 1010, terugleverkosten and battery sizing."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-design-software-netherlands.webp"
 author: "Keyur Rakholiya"
@@ -36,13 +36,14 @@ featured: false
 
 Dutch residential solar is five months from the largest change in its economics since the salderingsregeling was introduced. Net metering ends on 1 January 2027, confirmed when the Senate approved the termination in December 2024. From that date, exported electricity earns whatever compensation the supplier sets, expected in the range of 5 to 10 cents per kWh, while imported electricity continues to cost retail. Payback periods that run seven to nine years today are projected to move to 12 to 17 years. Every design assumption built on annual netting stops being valid at once, and most solar [design software](https://heavendesigns.in/blog/3d-solar-design-software/) in use in the [Netherlands](/blog/solar-software-netherlands/) still encodes it. This guide compares the platforms Dutch installers should be moving to now.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The salderingsregeling ends on 1 January 2027. The Senate approved termination in December 2024.
 > - Suppliers will set export compensation from that date, expected around 5 to 10 cents per kWh, with a government floor preventing negative rates.
 > - Residential payback is projected to move from roughly 7 to 9 years to roughly 12 to 17 years.
 > - Terugleverkosten already make export negative-value for some customers under several supplier tariffs.
 > - After the change, hourly self-consumption is the only design variable that matters. Annual kWh stops predicting savings.
-> - [SurgePV](https://surgepv.com/) runs 8,760-hour simulation with battery dispatch at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
+
+- [SurgePV](https://surgepv.com/) runs 8,760-hour simulation with battery dispatch at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
 **Short version.** The best solar [design software](https://heavendesigns.in/blog/ai-solar-design-software/) for Dutch installers in 2026 is SurgePV, because the end of the salderingsregeling on 1 January 2027 makes hourly self-consumption the deciding design variable, and SurgePV runs 8,760-hour module-level simulation with battery dispatch against a real load profile. PV*SOL is credible on simulation but desktop-bound. OpenSolar and Aurora encode annual netting logic that expires with the scheme.
 
@@ -61,7 +62,8 @@ Under the salderingsregeling, exported kWh were netted against imported kWh at f
 
 From 1 January 2027 the netting disappears. Suppliers set the export compensation, with a government requirement that it be reasonable and not negative. Expectations cluster around 5 to 10 cents per kWh against retail import prices several times higher. Timing becomes the whole game.
 
-> **What most Dutch quotes will get wrong in 2027.** They will keep sizing arrays against annual consumption. That was correct under netting and is wrong without it. After the change, a system sized to cover 100% of annual usage on a household that is empty during the day will export most of its output at a fraction of what the imported evening electricity costs.
+> [!IMPORTANT] What most Dutch quotes will get wrong in 2027
+> They will keep sizing arrays against annual consumption. That was correct under netting and is wrong without it. After the change, a system sized to cover 100% of annual usage on a household that is empty during the day will export most of its output at a fraction of what the imported evening electricity costs.
 
 There is a second effect already visible. Several suppliers now apply terugleverkosten, feed-in charges levied on customers who export significant volumes. For those customers, export can carry a negative net value even before the scheme ends. A design tool that treats every exported kWh as income is overstating the return today, not just from 2027.
 
@@ -97,6 +99,8 @@ Several Dutch tools handle the consumer-facing calculation and supplier tariff c
 
 ## Netherlands Solar Design Software Comparison
 
+Table: Netherlands solar design software comparison by capability and price
+
 | Tool | 8,760-hour module-level | Battery dispatch on real load profile | Post-2027 export logic | Terugleverkosten handling | Proposals included | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes, all plans | Yes | Yes | Configurable | Yes | $1,299 to $1,899 |
@@ -116,6 +120,8 @@ Several Dutch tools handle the consumer-facing calculation and supplier tariff c
 ## Worked Example: 4.8 kWp Near Utrecht, Before And After 2027
 
 An illustrative calculation using published expectations for post-2027 compensation, not a specific customer project. Inputs: 4.8 kWp, 950 kWh per kWp specific yield, 4,560 kWh generation, 3,400 kWh consumption, import at 30 cents per kWh, post-2027 export compensation at 7 cents per kWh, self-consumption 32% without a battery.
+
+Table: 4.8 kWp near Utrecht, before and after 2027 (illustrative)
 
 | Line | Under salderingsregeling | From 2027, no battery | From 2027, with 5 kWh battery |
 | --- | --- | --- | --- |

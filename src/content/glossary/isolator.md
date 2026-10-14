@@ -5,7 +5,7 @@ description: "An isolator provides safe disconnect during maintenance. Full guid
 category: "Installation"
 categorySlug: "installation"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is isolator
   - dc isolator solar
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 An isolator is a manually operated mechanical switch that creates a visible disconnection between electrical equipment and its power source. Unlike circuit breakers, isolators do not trip automatically on fault conditions; their purpose is safe disconnect for maintenance, inspection or emergency.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - An isolator is a manual safety switch for visible disconnection, not an automatic overcurrent device like an MCB.
 > - Solar plants need both a DC isolator (PV side) and an AC isolator (inverter output), each rated for its own voltage class.
 > - Typical DC isolator ratings are 16, 25 or 32 A continuous at 1000 or 1500 V DC, with 2 or 4 poles depending on string configuration.
@@ -79,6 +79,9 @@ An isolator is a manually operated mechanical switch that creates a visible disc
 > - CEA Measures Relating to Safety require isolators at defined points, and DISCOM commissioning checks for their presence before activation.
 
 For solar PV installations, isolators are required on both DC and AC sides. The DC isolator sits at the inverter DC input or inside the [combiner box](/glossary/combiner-box/), rated for the system DC voltage (1000 V or 1500 V) and arc-interrupting capability designed for DC. The AC isolator sits between the inverter AC output and the distribution board or [bidirectional meter](/glossary/bidirectional-meter/), allowing the inverter to be isolated from the grid for servicing.
+
+> [!CAUTION] Never swap an AC isolator onto a DC circuit
+> DC has no natural zero crossing, so an AC isolator cannot safely interrupt DC current. Check that the DC isolator is rated for the system DC voltage (1000 V or 1500 V) and for the pole count of the string layout: 2 poles for a single string, 4 for two strings bipolar.
 
 CEA Measures Relating to Safety and Electric Supply Regulations 2023 mandate isolators at defined points in any grid-connected solar installation. [DISCOM](/glossary/discom/) commissioning verifies presence of both DC and AC isolators.
 
@@ -96,6 +99,8 @@ Code compliance. [CEIG](/glossary/ceig/) and DISCOM verify isolator presence.
 
 ## Isolator types
 
+Table: Isolator types and where each is used
+
 | Type | Use |
 |---|---|
 | DC rotary isolator | Solar DC side |
@@ -111,6 +116,8 @@ Most modern solar isolators are load-break switch-disconnectors, allowing operat
 
 ### DC isolator specifications
 
+Table: DC isolator typical specifications for solar PV
+
 | Parameter | Typical value |
 |---|---|
 | Voltage rating | 1000 V or 1500 V DC |
@@ -124,6 +131,8 @@ Most modern solar isolators are load-break switch-disconnectors, allowing operat
 
 ### AC isolator specifications
 
+Table: AC isolator typical specifications
+
 | Parameter | Typical value |
 |---|---|
 | Voltage rating | 240 V or 415 V AC |
@@ -132,6 +141,8 @@ Most modern solar isolators are load-break switch-disconnectors, allowing operat
 | Standards | IEC 60947-3, IS 13947 |
 
 ### Placement in solar
+
+Table: Isolator placement in a solar installation
 
 | Location | Isolator type |
 |---|---|
@@ -142,6 +153,8 @@ Most modern solar isolators are load-break switch-disconnectors, allowing operat
 | Battery (hybrid systems) | DC isolator |
 
 ### Lockout-tagout (LOTO)
+
+Table: Lockout-tagout steps before working on equipment
 
 | Step | Action |
 |---|---|
@@ -196,7 +209,12 @@ Operate at least twice yearly to verify function.
 
 Thermography during O&M.
 
+> [!TIP] Make the isolator part of the O&M round
+> Operate each isolator at least twice a year to confirm it still switches, add thermography to catch loose terminations that heat up, and write every rating on the single line diagram so a CEIG or DISCOM reviewer can match the label to the drawing.
+
 ## Comparison: isolator vs related devices
+
+Table: Isolator compared with related switching and protection devices
 
 | Device | Function | Manual or automatic |
 |---|---|---|
@@ -219,6 +237,8 @@ CEIG drawing approval requires isolators marked at correct locations on the SLD,
 PM Surya Ghar residential installations include both DC and AC isolators.
 
 ## Standards and certifications
+
+Table: Standards that apply to solar isolators in India
 
 | Standard | Scope |
 |---|---|

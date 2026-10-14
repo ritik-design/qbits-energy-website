@@ -5,7 +5,7 @@ description: "Harmonics are unwanted higher-frequency components in AC power tha
 category: "Power Quality"
 categorySlug: "power-quality"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what are harmonics
   - power harmonics
@@ -67,7 +67,7 @@ author: "Nirav Dhanani"
 
 Harmonics are sinusoidal components of voltage or current at integer multiples of the fundamental frequency. In a 50 Hz Indian grid, the 3rd harmonic is at 150 Hz, the 5th at 250 Hz, the 7th at 350 Hz, and so on. Any periodic non-sinusoidal waveform can be decomposed into a sum of harmonics through Fourier analysis.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Harmonics are voltage or current components at integer multiples of the 50 Hz fundamental, caused by non-linear loads and switching converters like solar inverters.
 > - IEEE 519 limits most utility connections to under 5 percent current [THD](/glossary/thd/), with tighter limits on individual harmonic orders such as the 5th and 7th.
 > - Modern solar inverters use LCL output filters and high switching frequencies to keep output THD below 3 percent, well within the harmonic limits referenced in the CEA connectivity regulations (IEEE 519).
@@ -115,6 +115,11 @@ A switching converter inside a solar inverter operates at 16 to 50 kHz, well abo
 
 ### Common harmonic orders
 
+> [!FORMULA]
+> Harmonic frequency = harmonic order × 50 Hz fundamental (3rd = 150 Hz, 5th = 250 Hz, 7th = 350 Hz)
+
+Table: Common harmonic orders, their frequency on a 50 Hz grid and typical sources
+
 | Order | Frequency (50 Hz base) | Typical source |
 |---|---|---|
 | 3rd | 150 Hz | Single-phase non-linear loads, triplen |
@@ -125,6 +130,8 @@ A switching converter inside a solar inverter operates at 16 to 50 kHz, well abo
 | 17th, 19th | 850, 950 Hz | Higher rectifier orders |
 
 ### IEEE 519 current limits
+
+Table: IEEE 519 current distortion limits by short-circuit ratio and harmonic order
 
 | Short-circuit ratio | h<11 | 11≤h<17 | 17≤h<23 | TDD |
 |---|---|---|---|---|
@@ -139,6 +146,8 @@ A switching converter inside a solar inverter operates at 16 to 50 kHz, well abo
 IEEE 519 voltage limits for systems below 69 kV: 3 percent individual, 5 percent total. CEA Grid Code uses equivalent limits with state-specific adjustments.
 
 ### Inverter output filters
+
+Table: Inverter output filter types and how each performs
 
 | Filter | Notes |
 |---|---|
@@ -183,6 +192,9 @@ External harmonic loads can saturate the inverter active filter.
 
 ## Common problems
 
+> [!TIP] Ask for THD at partial load, not just at rated load
+> Inverters often have higher THD at low output, and datasheet THD figures are quoted at rated load. For a site with sensitive loads, ask for the light-load figure and measure THD with a power quality analyser at several load levels during commissioning.
+
 High THD at light load. Inverters often have higher THD at low output. Quoted THD figures are at rated load.
 
 Voltage resonance with site capacitor banks. Capacitor failure within months.
@@ -201,6 +213,9 @@ Specify THD compliance in inverter purchase contracts.
 
 Measure THD at commissioning with power quality analyser, at multiple load levels.
 
+> [!CAUTION] Capacitor banks and inverter filters can resonate
+> Harmonics excite LC resonances, and a fixed capacitor bank near the inverter output can turn that into voltage spikes and capacitor failure within months. Run a resonance analysis before putting one there.
+
 Avoid placing fixed capacitor banks near solar inverter output without resonance analysis.
 
 Use active filtering inverters at sites with severe external harmonic loads.
@@ -210,6 +225,8 @@ Audit harmonic levels annually during preventive maintenance.
 Coordinate with DISCOM if grid voltage THD is high upstream.
 
 ## Comparison: harmonic sources and mitigation
+
+Table: Typical THD and mitigation by harmonic source
 
 | Source | Typical THD | Mitigation |
 |---|---|---|
@@ -230,6 +247,8 @@ State DISCOM commissioning protocols often include a harmonic measurement at poi
 C&I customers using VFDs alongside solar increasingly specify active filtering inverters to manage site harmonics holistically.
 
 ## Standards and certifications
+
+Table: Standards that govern harmonic limits and measurement
 
 | Standard | Scope |
 |---|---|

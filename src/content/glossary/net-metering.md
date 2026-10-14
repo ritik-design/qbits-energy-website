@@ -5,7 +5,7 @@ description: "Net metering credits surplus solar power exported to the grid. Ful
 category: "Metering and Grid"
 categorySlug: "metering-grid"
 priority: "P0"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is net metering
   - net metering india
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 ## What is net metering
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Net metering credits solar customers for electricity exported to the grid via a bidirectional meter, so you pay only for import minus export.
 > - It is the default Indian rooftop billing mechanism, mandated under the Electricity Act 2003 and notified by state SERCs.
 > - Export credit is usually valued at the retail tariff, though this varies by state and system size cap.
@@ -105,6 +105,7 @@ Empowerment. Net metering turns a passive electricity consumer into a prosumer w
 
 The mechanical steps from rooftop panels to monthly bill follow a defined sequence.
 
+<!-- steps -->
 1. The solar PV system generates DC. The inverter converts it to AC.
 2. The AC first flows to the household load. Lights, fans, fridge and other appliances consume it.
 3. Surplus AC, when generation exceeds load, flows out through the home distribution board to the service drop.
@@ -126,7 +127,18 @@ A net metering installation needs:
 - Accuracy class 0.5S for tariff-grade metering at residential and small commercial levels, class 0.2S at HT.
 - Tamper detection, time-stamped logs and the DISCOM's authorised seals.
 
+Table: Meter requirements for a net metering installation
+
+| Requirement | Detail |
+|---|---|
+| Meter type | Four-quadrant or bidirectional, with import and export registers |
+| Remote reading | AMI capability, mandatory under CEA Smart Meter Regulations 2023 |
+| Accuracy class | 0.5S for residential and small commercial; 0.2S at HT |
+| Integrity | Tamper detection, time-stamped logs and the DISCOM's authorised seals |
+
 ### State regulatory variations
+
+Table: How net metering rules vary across Indian states
 
 | Aspect | Range across states |
 |---|---|
@@ -144,6 +156,9 @@ Residential systems up to 5 to 10 kW are typically single-phase. Larger resident
 ### Net energy formula
 
 Net energy in any billing cycle = (E_import − E_export). If positive, the customer pays for it. If negative, the absolute value is credited as carry-forward kWh.
+
+> [!FORMULA] Net energy in a billing cycle
+> Net energy = E_import − E_export
 
 Bill amount = (Net energy in slab) × applicable retail tariff + fixed charges.
 
@@ -215,6 +230,9 @@ Get the technical feasibility study in writing. The TFS defines the maximum size
 
 Audit the first three bills carefully. Most DISCOM billing errors show up in the first three months.
 
+> [!TIP] What to check on the first three bills
+> Confirm the export register is configured, the old meter has been removed, the DISCOM is billing on net rather than gross consumption, and any year-end credit follows the state rule. If not, raise a CGRF complaint with copies of the meter reads.
+
 Read the state regulation, not just the brochure. Net metering rules vary materially across states.
 
 Register the system on the PM Surya Ghar portal if applicable. Subsidy disbursement and meter installation are coordinated through the portal. For the exact state-by-state application steps, see [How to Apply for Net Metering in India, State by State (2026)](/blog/how-to-apply-net-metering-india/).
@@ -222,6 +240,8 @@ Register the system on the PM Surya Ghar portal if applicable. Subsidy disbursem
 ## Comparison: net vs gross vs feed-in tariff
 
 Choosing between the two mechanisms depends mainly on daytime self-consumption share; see [Gross Metering vs Net Metering, Which Should You Choose?](/blog/gross-metering-vs-net-metering/) for a worked decision framework.
+
+Table: Net metering, gross metering and feed-in tariff compared
 
 | Feature | Net metering | Gross metering | [Feed-in tariff](/glossary/feed-in-tariff/) |
 |---|---|---|---|
@@ -243,6 +263,8 @@ CEA Smart Meter Regulations 2023 require smart bidirectional meters for all net-
 
 ## Standards and certifications
 
+Table: Regulations and standards behind net metering in India
+
 | Standard | Scope |
 |---|---|
 | CEA Smart Meter Regulations 2023 | Smart meter requirements |
@@ -255,6 +277,9 @@ CEA Smart Meter Regulations 2023 require smart bidirectional meters for all net-
 ## Common mistakes
 
 Installing first, applying for net metering later. The DISCOM may reject post-installation requests.
+
+> [!WARNING] Apply before you install
+> The DISCOM may reject a net metering request made after installation. Apply first, get the technical feasibility study in writing, and keep the inverter within the sanctioned load, since going above it triggers load enhancement, extra fees and delays.
 
 Installing more PV than the sanctioned load allows. Application rejected or load enhancement forced.
 

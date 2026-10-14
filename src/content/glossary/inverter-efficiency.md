@@ -5,7 +5,7 @@ description: "Inverter efficiency is the ratio of AC output to DC input. Full gu
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - inverter efficiency
   - european weighted efficiency
@@ -76,7 +76,7 @@ Inverter efficiency varies with load level, input voltage and operating temperat
 
 For modern Indian [solar inverters](/glossary/solar-inverter/), peak efficiency typically reaches 97 to 98.6 percent for [string inverters](/glossary/string-inverter/), 95 to 97 percent for [microinverters](/glossary/micro-inverter/) and 98.5 to 99 percent for [central inverters](/glossary/central-inverter/). European weighted efficiency lands 0.3 to 1.0 percentage points below peak. For a deeper look at why the gap between 95, 97 and 98 percent matters in practice, see [solar inverter efficiency explained](/blog/solar-inverter-efficiency/).
 
-> **TL;DR**
+> [!NOTE] In short
 > - Inverter efficiency is the ratio of AC output power to DC input power, with the loss dissipated as heat in switching and magnetic components.
 > - Modern Indian string inverters reach 97 to 98.6 percent peak efficiency and 96.5 to 98 percent European weighted (ηEU) efficiency, the bankable figure used for yield modelling.
 > - Efficiency peaks around 50 to 70 percent load and drops off at very light loads and in hot ambient conditions above 40 to 45°C.
@@ -99,6 +99,7 @@ Sizing. Higher efficiency at the same kVA delivers more AC power.
 
 Per EN 50530 standard:
 
+<!-- steps -->
 1. Set DC voltage at three reference levels (Vmpp_low, Vmpp_mid, Vmpp_high).
 2. Sweep DC power from 5% to 100% of rated.
 3. Measure stable AC output power.
@@ -109,7 +110,8 @@ Per EN 50530 standard:
 
 ### European weighted efficiency formula
 
-ηEU = 0.03·η5 + 0.06·η10 + 0.13·η20 + 0.10·η30 + 0.48·η50 + 0.20·η100
+> [!FORMULA] European weighted efficiency
+> ηEU = 0.03·η5 + 0.06·η10 + 0.13·η20 + 0.10·η30 + 0.48·η50 + 0.20·η100
 
 Where ηX is efficiency at X% of rated power.
 
@@ -123,6 +125,8 @@ Higher weight on 75% reflects sunnier California conditions.
 
 ### Efficiency by inverter type
 
+Table: Peak and European weighted efficiency by inverter type
+
 | Type | Peak | European weighted |
 |---|---|---|
 | Residential string | 97-98% | 96.5-97.5% |
@@ -133,6 +137,8 @@ Higher weight on 75% reflects sunnier California conditions.
 | Microinverter | 95-97% | 94.5-96.5% |
 
 ### Loss components
+
+Table: Approximate share of inverter losses by component
 
 | Component | Approximate loss share |
 |---|---|
@@ -157,6 +163,8 @@ LCOE optimisation.
 Inverter selection for premium installations.
 
 ## Comparison: peak vs weighted
+
+Table: Peak efficiency, load-point efficiency and weighted efficiency compared
 
 | Metric | Definition | Use |
 |---|---|---|
@@ -185,6 +193,9 @@ Verify efficiency at multiple load levels in datasheet.
 
 Use ηEU as the bankable figure.
 
+> [!TIP] Read the datasheet at more than one load point
+> Peak efficiency is a single best-case number. Compare inverters on ηEU, then check efficiency at light load (η5, η10) and at 50 to 70 percent load, where an inverter spends most of its time. Remember output derates above 40 to 45°C ambient.
+
 Consider lifetime efficiency [degradation](/glossary/degradation/).
 
 ## Indian market context
@@ -194,6 +205,8 @@ Major Indian brands publish both peak and ηEU in datasheets.
 SECI tender bid documents reference minimum efficiency.
 
 ## Standards and certifications
+
+Table: Standards that define inverter efficiency measurement
 
 | Standard | Scope |
 |---|---|

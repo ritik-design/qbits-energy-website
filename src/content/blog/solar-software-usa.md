@@ -4,7 +4,7 @@ excerpt: "US solar teams pay more for software per install than almost anywhere 
 description: "Best solar software USA 2026: the full stack for design, proposals, CRM, permitting and monitoring. NEC coverage, the 30% ITC, SRECs, time-of-use rates and what to stop paying for."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-software-usa.webp"
 author: "Nirav Dhanani"
@@ -35,14 +35,15 @@ featured: false
 
 American solar businesses spend more on software per installation than almost anyone else, and a surprising share of it goes to seats that never open the product. The typical stack has a design tool priced per user per month, a CRM, a permitting service, a monitoring portal, and a set of spreadsheets holding the SREC values and the utility rate schedules. Each piece works. The connections between them are manual, and the per-seat pricing means every person who might occasionally glance at a design is a recurring line item. This guide covers what the stack has to do, what is genuinely US-specific, and where the budget leaks.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A US solar business runs six software categories, with permitting and interconnection heavy enough to deserve its own line.
 > - Design and proposals must share one record. CRM, permitting and monitoring can connect by API.
-> - The 30% federal ITC runs through 2032 under Section 25D residential and Section 48E commercial, and those are different mechanisms.
 > - SRECs are state-specific and time-of-use rates decide the storage case, so neither can be a national constant.
 > - Per-seat pricing punishes teams that license viewers. Two or three people usually produce, the rest consume.
-> - Aurora runs $159 to $259 per user per month; SurgePV covers comparable ground at $1,299 to $1,899 per user per year.
-> - [SurgePV](https://surgepv.com/) puts design and proposals in one license. [Book a free demo](https://surgepv.com/demo).
+
+- The 30% federal ITC runs through 2032 under Section 25D residential and Section 48E commercial, and those are different mechanisms.
+- Aurora runs $159 to $259 per user per month; SurgePV covers comparable ground at $1,299 to $1,899 per user per year.
+- [SurgePV](https://surgepv.com/) puts design and proposals in one license. [Book a free demo](https://surgepv.com/demo).
 
 **Short version.** The best solar software for a US business in 2026 is not one product, it is a stack with one tightly integrated core. Buy design and proposals together, because the quote derives from the engineering. Connect a CRM when volume justifies it. And audit your seat count, because per-user monthly pricing makes unused licences expensive in a way annual pricing hides.
 
@@ -57,6 +58,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 
 ## The Six Categories, And Which Ones Have To Talk
 
+Table: The six US solar software categories and how tightly each must integrate
+
 | Category | What it does | How tightly it must integrate |
 | --- | --- | --- |
 | Design and simulation | Layout, shading, yield, string sizing, plan sets | Core. Everything downstream derives from it |
@@ -66,7 +69,8 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Project execution | Scheduling, install progress, inspection, PTO | Should receive the design |
 | Monitoring | Performance, service, warranty claims | Standalone, connects to the installed base |
 
-> **The distinction that saves money.** Integration is worth paying for where one system's output is another's input. Design and proposals sit firmly there. CRM and monitoring do not, which is why buying an all-in-one suite to get a bundled CRM alongside a good design tool is usually the wrong trade.
+> [!IMPORTANT] The distinction that saves money
+> Integration is worth paying for where one system's output is another's input. Design and proposals sit firmly there. CRM and monitoring do not, which is why buying an all-in-one suite to get a bundled CRM alongside a good design tool is usually the wrong trade.
 
 Permitting deserves a comment because it is the category most specific to the US. Requirements vary by authority having jurisdiction and interconnection applications vary by utility, which means a national template does not exist. What software can do is ensure the plan set going to the AHJ derives from the same record as the design and the proposal, so a revision made during value engineering does not leave a stale drawing in the permit package.
 
@@ -121,6 +125,8 @@ Reasonable financing presentation and homeowner-facing clarity. See our [Enact S
 
 ## USA Solar Software Stack Comparison
 
+Table: USA solar software stack comparison by capability
+
 | Capability | SurgePV | Aurora | HelioScope | PVsyst | OpenSolar |
 | --- | --- | --- | --- | --- | --- |
 | Design and simulation | Yes | Yes | Yes | Yes | Partial |
@@ -135,6 +141,8 @@ Reasonable financing presentation and homeowner-facing clarity. See our [Enact S
 ## Worked Example: Five-Seat Team, Two Stacks
 
 An illustrative comparison, not a specific customer configuration. A residential and light commercial installer with five people who touch the software.
+
+Table: Five-seat team, incumbent stack vs consolidated stack (illustrative)
 
 | | Incumbent stack | Consolidated stack |
 | --- | --- | --- |

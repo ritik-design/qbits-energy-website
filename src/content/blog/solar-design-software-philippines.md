@@ -4,7 +4,7 @@ excerpt: "The best solar design software Philippines installers need models the 
 description: "Best solar design software Philippines 2026. SurgePV vs Aurora, OpenSolar, PVsyst on ERC net metering, the blended generation rate, PEC code and the DOE 10-day mandate."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-design-software-philippines.webp"
 author: "Keyur Rakholiya"
@@ -36,13 +36,14 @@ featured: false
 
 Philippine solar economics turn on one number that most [design software](https://heavendesigns.in/blog/3d-solar-design-software/) gets wrong by default. Net metering under ERC Resolution No. 09, Series of 2013 credits exported energy at the blended generation rate, not the retail tariff. For a Meralco customer that is roughly PHP 5 to 6 per kWh, around 50 to 60 percent of what the same kWh costs to import. Any tool that assumes retail-rate netting, which is the default in most US and European-built platforms, overstates the return on every system sized to export. The market also just changed shape: an April 2026 DOE circular lifted the non-residential cap from 100 kW to 1 MW. This guide compares the platforms Philippine installers should shortlist.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Net metering credits the blended generation rate, roughly PHP 5 to 6 per kWh for Meralco, about 50 to 60 percent of retail.
 > - An April 2026 DOE circular lifted the non-residential capacity cap from 100 kW to 1 MW.
 > - The Philippine Electrical Code, based on NEC 2008, requires anti-islanding within 2 seconds and DC arc fault protection on longer runs.
 > - Distribution utilities must approve or reject a complete application within 10 working days. LGU permit and CFEI follow within 3 working days of inspection.
 > - Republic Act 9513 makes net metering a statutory right for on-grid RE end-users.
-> - [SurgePV](https://surgepv.com/) runs 8,760-hour simulation with battery dispatch at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
+
+- [SurgePV](https://surgepv.com/) runs 8,760-hour simulation with battery dispatch at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
 **Short version.** The best solar [design software](https://heavendesigns.in/blog/ai-solar-design-software/) for Philippine installers in 2026 is SurgePV, because export pays the blended generation rate rather than retail, which makes hourly self-consumption the variable that decides the return. SurgePV runs 8,760-hour module-level simulation with battery dispatch and produces the proposal from the same record. OpenSolar suits small residential on entry cost. PVsyst remains the bankable reference for large C&I.
 
@@ -69,7 +70,8 @@ The [Philippines](/blog/solar-software-philippines/) has some of the highest ele
 
 ## Why Self-Consumption Decides A Philippine Project
 
-> **What most Philippine proposals get wrong.** They present net metering as though exported energy were worth what imported energy costs. It is worth roughly half. A system that exports heavily is selling at the generation rate and buying back at the full tariff, and the difference is not a rounding error.
+> [!IMPORTANT] What most Philippine proposals get wrong
+> They present net metering as though exported energy were worth what imported energy costs. It is worth roughly half. A system that exports heavily is selling at the generation rate and buying back at the full tariff, and the difference is not a rounding error.
 
 The design response is straightforward once the economics are stated plainly: size to consumption rather than to roof area, and shift load into daylight hours where the customer's operation allows it. Commercial buyers are particularly well placed here, because a factory or a mall runs its heaviest load during exactly the hours the array produces most. That alignment is why Philippine C&I solar pencils better than residential on the same tariff.
 
@@ -99,6 +101,8 @@ Still common. Workable for the design, and the usual source of retail-rate expor
 
 ## Philippines Solar Design Software Comparison
 
+Table: Philippines solar design software comparison by capability and price
+
 | Tool | Export priced at BGC | 8,760-hour module-level | Tropical thermal model | Battery dispatch | Proposals included | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes, all plans | Yes | Yes | Yes | $1,299 to $1,899 |
@@ -118,6 +122,8 @@ Still common. Workable for the design, and the usual source of retail-rate expor
 ## Worked Example: 100 kW Rooftop, Factory Versus Warehouse
 
 An illustrative calculation showing why load profile dominates in a BGC market. Inputs: 100 kW DC, 1,400 kWh per kW specific yield, 140,000 kWh generation, retail import at PHP 12 per kWh, export credited at PHP 5.50 per kWh.
+
+Table: 100 kW rooftop in a BGC-style market, factory vs warehouse (illustrative)
 
 | Line | Factory, daytime shift | Warehouse, low daytime load |
 | --- | --- | --- |

@@ -5,7 +5,7 @@ description: "ESG covers Environmental, Social and Governance reporting. Full gu
 category: "ESG"
 categorySlug: "esg"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is esg
   - esg solar
@@ -69,7 +69,7 @@ For corporates, ESG reporting has shifted from voluntary to increasingly mandato
 
 Solar adoption is the most visible and quantifiable lever for the E (environmental) component. Solar directly reduces Scope 2 emissions (from purchased electricity) and supports corporate net-zero commitments. Indian listed companies report renewable energy share in their BRSR submissions, making solar adoption a tracked metric.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - ESG (Environmental, Social, Governance) is the framework Indian corporates use to report sustainability performance, with BRSR mandatory for the top 1,000 listed companies since FY 2022-23.
 > - Solar is the most direct, auditable lever for the E score, cutting Scope 2 emissions from purchased electricity.
 > - A 5 kW rooftop system avoids about 5.3 tonnes CO2 a year; a 1 MW C&I plant avoids roughly 1,200 tonnes annually, using India's grid emission factor of 0.71 kgCO2/kWh.
@@ -93,6 +93,8 @@ Risk management. Climate risks materially affect business.
 
 ## ESG and solar
 
+Table: How solar contributes to each ESG dimension
+
 | ESG dimension | Solar contribution |
 |---|---|
 | Scope 1 reduction | Replacing diesel gensets |
@@ -109,6 +111,8 @@ Corporates typically start with a turnkey commercial solar installation sized ag
 
 ### Indian BRSR structure
 
+Table: Structure of India's BRSR report
+
 | Section | Content |
 |---|---|
 | Section A | Company profile |
@@ -121,13 +125,16 @@ NGRBC Principles include environment, ethics, employee welfare and stakeholder r
 
 Indian grid emission factor (2024 approximate): 0.71 kgCO2/kWh.
 
-Each MWh of grid electricity replaced by solar avoids 0.71 tonnes CO2.
-
-A [5 kW residential rooftop system](/blog/5kw-solar-system-price-india/) generating 7,500 kWh/year avoids 5.3 tonnes CO2.
-
-A 1 MW [C&I solar plant](/c-i-solution/) avoids 1,200 tonnes CO2 annually.
+> [!EXAMPLE] Avoided emissions at 0.71 kgCO2/kWh
+> Each MWh of grid electricity replaced by solar avoids 0.71 tonnes CO2.
+>
+> A [5 kW residential rooftop system](/blog/5kw-solar-system-price-india/) generating 7,500 kWh/year avoids 5.3 tonnes CO2.
+>
+> A 1 MW [C&I solar plant](/c-i-solution/) avoids 1,200 tonnes CO2 annually.
 
 ### Indian ESG reporting standards
+
+Table: Indian and global ESG reporting standards
 
 | Standard | Application |
 |---|---|
@@ -140,8 +147,8 @@ A 1 MW [C&I solar plant](/c-i-solution/) avoids 1,200 tonnes CO2 annually.
 
 ### Solar contribution to RE share
 
-For a company:
-RE share (%) = (Solar kWh + Other RE kWh) / Total electricity kWh × 100
+> [!FORMULA] Renewable energy share
+> RE share (%) = (Solar kWh + Other RE kWh) / Total electricity kWh × 100
 
 Common Indian C&I corporate targets: 30 to 50 percent RE share by 2030. Corporates modelling the glide path to that target often use [solar financial modeling tools](https://surgepv.com/generation-financial-tool/) to project savings against BRSR-linked commitments.
 
@@ -222,6 +229,8 @@ RE100 (renewable electricity 100 percent target) membership growing among Indian
 Multi-site corporate rollouts often require MW-scale EPC project management to keep BRSR-linked installation timelines on track. Some large industrial ESG programmes now extend decarbonisation beyond electricity to [green hydrogen](/glossary/green-hydrogen/) for hard-to-abate processes and to [EV charger](/glossary/ev-charger/) rollouts for fleet electrification.
 
 ## Standards and certifications
+
+Table: Standards and frameworks relevant to ESG and solar
 
 | Standard | Scope |
 |---|---|

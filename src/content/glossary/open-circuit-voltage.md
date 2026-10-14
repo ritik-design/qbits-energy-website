@@ -5,7 +5,7 @@ description: "Voc is the maximum voltage of a solar module. Full guide to string
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - open circuit voltage
   - voc solar
@@ -67,7 +67,7 @@ author: "Nirav Dhanani"
 
 ## What is open circuit voltage (Voc)
 
-> **TL;DR**
+> [!NOTE] In short
 > - Voc is the maximum voltage a solar module produces with no current flowing; modern modules run 41 to 50 V at STC.
 > - Voc rises in cold weather, roughly 5.4 percent higher at 5°C than at STC for PERC, and this cold Voc value sets the string sizing ceiling.
 > - String Voc equals the number of modules times per-module Voc at the coldest expected cell temperature, and must stay below the inverter's maximum DC input.
@@ -94,7 +94,8 @@ CEIG approval. SLD must demonstrate string Voc within limits.
 
 ## Cold Voc calculation
 
-Voc(cold) = Voc(STC) × (1 + β × (T_min, 25))
+> [!FORMULA] Cold-weather module Voc
+> Voc(cold) = Voc(STC) × (1 + β × (T_min − 25))
 
 Where:
 - β = Voc [temperature coefficient](/glossary/temperature-coefficient/) (typically -0.0027 for [PERC](/glossary/perc-cell/))
@@ -103,11 +104,13 @@ Where:
 For typical Indian conditions with T_min = 5°C:
 Voc(cold) = Voc × (1 + (-0.0027) × (-20)) = Voc × 1.054
 
-So cold Voc is ~5.4 percent higher than STC Voc. Colder zones see a much larger spike, up to 13.5 percent above STC at -20°C in Himalayan winter sites, as detailed in [Inverter Voltage: String Voltage vs MPPT Voltage in Solar Inverters India 2026](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/).
+So cold Voc is ~5.4 percent higher than STC Voc. Colder zones see a much larger spike, up to about 12.2 percent above STC at -20°C (0.0027 × 45) in Himalayan winter sites, as detailed in [Inverter Voltage: String Voltage vs MPPT Voltage in Solar Inverters India 2026](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/).
 
 ## Technical deep dive
 
 ### Voc by cell technology
+
+Table: Open circuit voltage by cell technology
 
 | Cell | Per-cell Voc | Module Voc (72-cell equiv) |
 |---|---|---|
@@ -117,6 +120,8 @@ So cold Voc is ~5.4 percent higher than STC Voc. Colder zones see a much larger 
 | Standard mono | 0.62-0.63 V | 45-46 V |
 
 ### Module configurations
+
+Table: Module configurations and their typical Voc
 
 | Configuration | Per-cell count | Typical Voc |
 |---|---|---|
@@ -130,13 +135,16 @@ So cold Voc is ~5.4 percent higher than STC Voc. Colder zones see a much larger 
 
 String Voc(cold) = N × Voc_module(cold)
 
-For 14 modules at 49.5 V Voc(STC) at -15°C cold:
-Voc(cold per module) = 49.5 × (1 + 0.0027 × 40) = 49.5 × 1.108 = 54.8 V
-String Voc = 14 × 54.8 = 767 V
+> [!EXAMPLE] A 14-module string at -15°C
+> For 14 modules at 49.5 V Voc(STC) at -15°C cold: Voc(cold per module) = 49.5 × (1 + 0.0027 × 40) = 49.5 × 1.108 = 54.8 V.
+>
+> String Voc = 14 × 54.8 = 767 V
 
 Must stay below inverter max DC input (e.g., 1000 V residential, 1500 V utility).
 
 ### Indian regional Tmin assumptions
+
+Table: Design minimum cell temperature by Indian region
 
 | Region | Tmin design |
 |---|---|
@@ -146,6 +154,22 @@ Must stay below inverter max DC input (e.g., 1000 V residential, 1500 V utility)
 | Himachal, Uttarakhand | -2°C |
 | Ladakh | -15°C |
 | Kashmir | -10°C |
+
+```chart
+type: hbar
+title: Cold-weather Voc rise above STC by regional design minimum temperature
+unit: "%"
+source: "Calculated in this entry as 0.27%/°C (PERC Voc coefficient of -0.0027) multiplied by the gap between 25°C and each regional Tmin in the table above"
+decimals: 1
+note: "Higher means a tighter string-length ceiling. Check the module's own datasheet coefficient."
+data:
+  - { label: "Coastal Kerala (18°C)", value: 1.9 }
+  - { label: "Central India (12°C)", value: 3.5 }
+  - { label: "Northern plains (5°C)", value: 5.4 }
+  - { label: "Himachal, Uttarakhand (-2°C)", value: 7.3 }
+  - { label: "Kashmir (-10°C)", value: 9.5 }
+  - { label: "Ladakh (-15°C)", value: 10.8 }
+```
 
 ## Real-world applications
 
@@ -178,6 +202,8 @@ Indian solar inverters max DC input: 600 V residential, 1100 V C&I, 1500 V utili
 CEIG drawing approval verifies string Voc compliance.
 
 ## Standards and certifications
+
+Table: Standards that cover Voc measurement and use
 
 | Standard | Scope |
 |---|---|

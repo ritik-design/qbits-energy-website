@@ -5,7 +5,7 @@ description: "BMS is the electronic controller managing a battery pack. Full gui
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is bms
   - battery management system
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 A Battery Management System (BMS) is the electronic controller integrated into every [lithium-ion battery](/glossary/lithium-ion-battery/) pack. It monitors voltage, current and temperature at the cell and pack level, balances cells to keep voltages aligned, estimates [state of charge](/glossary/battery-soc/) and [state of health](/glossary/soh/), controls charge and discharge through MOSFET switches, enforces protection limits, and communicates with the inverter and external systems.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A BMS is the electronic controller inside every lithium-ion battery pack, mandatory under safety standards like IEC 62619.
 > - It measures cell voltage and temperature, balances cells, estimates SOC and SOH, and enforces protection limits through MOSFET switches.
 > - Communication with the inverter runs mostly over CAN bus, with RS485/Modbus and BLE/Wi-Fi used in some systems.
@@ -116,6 +116,8 @@ Warranty validity. Manufacturer warranties typically require BMS-protected opera
 
 ### BMS functions
 
+Table: What a BMS does
+
 | Function | Purpose |
 |---|---|
 | Cell voltage monitoring | Detect over and under voltage |
@@ -131,6 +133,8 @@ Warranty validity. Manufacturer warranties typically require BMS-protected opera
 
 ### Cell balancing methods
 
+Table: Cell balancing methods compared
+
 | Method | Working | Pros | Cons |
 |---|---|---|---|
 | Passive balancing | Dissipate excess charge in resistor | Simple, low cost | Energy waste, slow |
@@ -142,6 +146,8 @@ Most residential and small commercial BMS use passive balancing. Premium and uti
 
 ### Communication protocols
 
+Table: BMS communication protocols and where they are used
+
 | Protocol | Use case |
 |---|---|
 | CAN bus | Modern standard, used by most hybrid inverter brands |
@@ -151,6 +157,8 @@ Most residential and small commercial BMS use passive balancing. Premium and uti
 | SunSpec | Standardised inverter communication |
 
 ### Protection thresholds (LFP example)
+
+Table: Typical protection thresholds for an LFP pack
 
 | Parameter | Typical limit |
 |---|---|
@@ -202,6 +210,9 @@ Communication compatibility issues across brands.
 
 Limited interoperability between BMS and arbitrary inverters.
 
+> [!WARNING] Check BMS and inverter compatibility first
+> Compatibility between a specific BMS and a specific inverter brand is not guaranteed. Mismatched CAN protocol or addresses are a common fault, and mixing BMS brands within one bank is listed as a common mistake. Verify the pair against the inverter manufacturer's compatibility list before buying.
+
 ## Common problems
 
 CAN bus communication mismatch with inverter. Protocol or address conflict.
@@ -220,6 +231,9 @@ App showing wrong SOC due to BMS-to-app communication delay.
 
 ## Best practices
 
+> [!TIP] Read the BMS event log
+> Audit BMS event logs quarterly and schedule firmware updates per the manufacturer. Never disable protection features just to suppress nuisance trips.
+
 Choose pack with BMS validated against your inverter compatibility list.
 
 Use CAN bus where possible for richest data exchange.
@@ -233,6 +247,8 @@ Avoid pack designs without BMS (DIY builds with off-the-shelf cells).
 Plan for periodic balancing checks during preventive maintenance.
 
 ## Comparison: BMS levels
+
+Table: BMS levels and approximate cost as a share of pack BOM
 
 | Level | Use case | Approximate cost (BOM) |
 |---|---|---|
@@ -253,6 +269,8 @@ Hybrid inverter brands maintain compatibility lists indicating tested BMS-invert
 Domestic BMS design and manufacturing is growing with companies like Inverted Energy, Battrixx and Numeros Motors building Indian BMS capability.
 
 ## Standards and certifications
+
+Table: Standards relevant to battery management systems
 
 | Standard | Scope |
 |---|---|

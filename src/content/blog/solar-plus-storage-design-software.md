@@ -4,7 +4,7 @@ excerpt: "Solar plus storage design software optimises battery and PV jointly fo
 description: "Solar plus storage design software 2026: hybrid PV and battery sizing, ToU arbitrage, peak shaving and backup mode. Included on every SurgePV plan."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-solar-plus-storage-design-software.webp"
 author: "Nirav Dhanani"
@@ -40,11 +40,13 @@ faqs:
 
 Solar plus [storage design software](https://www.surgepv.com/blog/battery-storage-design-software) optimises PV and battery jointly for self-consumption, peak shaving, time-of-use arbitrage, and resilience. The category grew fast as battery costs fell and ToU tariffs spread. This guide covers the 2026 options and explains why [SurgePV](https://surgepv.com/) is the cleanest integrated workflow.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Hybrid PV + [battery design](https://heavendesigns.in/blog/hybrid-solar-diesel-battery-design-guide/) now ships on browser-based platforms.
 > - [SurgePV](https://surgepv.com/) supports DC-coupled and AC-coupled topologies with ToU arbitrage modelling on every paid plan, drafted in seconds via [Clara AI](https://surgepv.com/clara-ai).
 > - Battery sizing, critical-load support, and backup-mode behaviour included.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and design a hybrid system on a real project.
+> - Five operating modes matter: self-consumption, peak shaving, ToU arbitrage, backup and wholesale participation; SurgePV models the first four.
+> - The first common mistake is sizing the battery to the PV array instead of the load profile.
 
 <div class="inline-cta">
 <h3>PV + battery co-optimisation in one workflow</h3>
@@ -82,6 +84,8 @@ SurgePV models the first four; the fifth is specialised utility-grid territory.
 All on every paid plan at $1,299 to $1,899 per user per year.
 
 ## Solar Plus Storage Design Across Competing Tools
+
+Table: Solar plus storage design capabilities compared across five tools
 
 | Tool | DC + AC coupling | ToU arbitrage | Backup mode | Browser | Pricing |
 | --- | --- | --- | --- | --- | --- |

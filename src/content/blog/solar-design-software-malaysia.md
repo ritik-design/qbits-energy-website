@@ -4,7 +4,7 @@ excerpt: "The best solar design software Malaysia installers need respects the N
 description: "Best solar design software Malaysia 2026. SurgePV vs Aurora, PVsyst, HelioScope on NEM 3.0 quota, SEDA registration, TNB standards, GITA and the 75% MD cap."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-design-software-malaysia.webp"
 author: "Keyur Rakholiya"
@@ -36,7 +36,7 @@ featured: false
 
 Malaysian solar design begins with two numbers that have nothing to do with the roof. Domestic NEM 3.0 installations are capped at 12 kWp. Non-domestic installations are capped at 75% of Maximum Demand, which means a large warehouse roof on a low-MD premises simply cannot be filled, regardless of available area. On top of that sits a quota: NEM 3.0 is administered by SEDA in finite periodic rounds, and a system installed without quota approval will not receive TNB's bi-directional meter and therefore cannot legally export. [Design software](https://heavendesigns.in/blog/3d-solar-design-software/) built for markets where you size to the roof and apply later gets Malaysian projects wrong at the first step. This guide compares the platforms Malaysian installers should shortlist.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - NEM 3.0 caps domestic at 12 kWp and non-domestic at 75% of Maximum Demand.
 > - Export is credited 1:1 against imports as a net bill, which is favourable compared with generation-rate schemes nearby.
 > - The scheme is quota-based via SEDA. No quota approval means no bi-directional meter and no legal export.
@@ -58,6 +58,7 @@ Malaysian solar design begins with two numbers that have nothing to do with the 
 
 ## Start From Maximum Demand, Not Roof Area
 
+> [!IMPORTANT] What most Malaysian commercial quotes get wrong
 > **What most Malaysian commercial quotes get wrong.** They size to available roof and discover the 75% of Maximum Demand ceiling at application. A 500 kWp roof on a premises with 400 kW MD can only carry 300 kWp under NEM 3.0. Designing the 500 and cutting it back later wastes the survey and usually the customer's patience.
 
 The correct sequence on any Malaysian non-domestic project is to obtain the MD figure from the TNB bill first, compute 75% of it, and treat that as the hard ceiling before any layout work begins. Roof area then determines whether that ceiling is achievable, not the other way around.
@@ -72,7 +73,8 @@ That 1:1 equivalence has a design consequence worth stating plainly: under NEM 3
 
 **Licensing.** The contractor needs an Electrical Contractor Licence and a Wireman licence from the Energy Commission, plus SEDA Registered Solar PV Contractor status. Three separate credentials, all required.
 
-**The PE stamp.** All grid-connected installations require a single line diagram stamped by a professional engineer registered with the Board of Engineers Malaysia, who carries responsibility for system compliance. That makes SLD quality a gating item rather than a documentation afterthought, and it is a strong argument for design software that auto-generates the SLD from the design rather than leaving it to be drawn separately in CAD. Our [solar SLD software](/blog/solar-sld-software/) guide covers why auto-generated diagrams cannot contradict the string configuration in the way hand-drawn ones can.
+> [!NOTE] The PE stamp
+> **The PE stamp.** All grid-connected installations require a single line diagram stamped by a professional engineer registered with the Board of Engineers Malaysia, who carries responsibility for system compliance. That makes SLD quality a gating item rather than a documentation afterthought, and it is a strong argument for design software that auto-generates the SLD from the design rather than leaving it to be drawn separately in CAD. Our [solar SLD software](/blog/solar-sld-software/) guide covers why auto-generated diagrams cannot contradict the string configuration in the way hand-drawn ones can.
 
 **Technical.** Inverters must disconnect automatically within 2 seconds of loss of TNB supply and comply with MS IEC 62109.
 
@@ -102,6 +104,8 @@ Still common on Malaysian commercial work because of the PE stamp requirement. P
 
 ## Malaysia Solar Design Software Comparison
 
+Table: Malaysia solar design software compared on NEM 3.0 caps, SLD, thermal model and price
+
 | Tool | Capacity caps enforced | Auto SLD for PE stamp | Tropical thermal model | NEM 3.0 net bill logic | Proposals included | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Configurable | Yes | $1,299 to $1,899 |
@@ -121,6 +125,8 @@ Still common on Malaysian commercial work because of the PE stamp requirement. P
 ## Worked Example: 500 kWp Roof, 400 kW Maximum Demand
 
 An illustrative calculation showing the MD ceiling in practice. Inputs: factory with 500 kWp of usable roof, 400 kW Maximum Demand, 1,450 kWh per kWp specific yield, tariff at RM 0.50 per kWh, installed cost RM 2.20 per Wp.
+
+Table: 500 kWp roof with 400 kW Maximum Demand: designed to roof versus designed to the 75% cap (illustrative)
 
 | Line | Designed to roof (not permissible) | Designed to 75% of MD |
 | --- | --- | --- |

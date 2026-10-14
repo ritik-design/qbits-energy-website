@@ -5,7 +5,7 @@ description: "IRR is the discount rate that makes a project NPV zero. Full guide
 category: "Finance"
 categorySlug: "finance"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is irr
   - internal rate of return
@@ -74,7 +74,7 @@ IRR is calculated iteratively from the cash flow stream: [capex](/glossary/capex
 
 For Indian solar, project IRR typically ranges 10 to 18 percent for utility plants, 14 to 22 percent for C&I rooftop, and 18 to 30 percent for residential rooftop with PM Surya Ghar subsidy. Higher IRR reflects favourable tariff, low capex, high yield and short [payback](/glossary/payback-period/).
 
-> **TL;DR**
+> [!NOTE] In short
 > - IRR is the discount rate at which a project's NPV equals zero, and it is the headline return metric investors use for solar.
 > - Indian utility solar runs 10 to 18 percent project IRR (14 to 18 percent equity IRR); C&I rooftop runs 14 to 22 percent.
 > - Residential rooftop with PM Surya Ghar subsidy can reach 18 to 30 percent IRR because the subsidy cuts effective capex.
@@ -103,7 +103,8 @@ Capital allocation. Within renewables portfolios, IRR drives capital flow.
 
 ## How IRR is calculated
 
-[NPV](/glossary/npv/) = Σ (CF_t / (1 + r)^t) for t = 0 to T
+> [!FORMULA]
+> [NPV](/glossary/npv/) = Σ (CF_t / (1 + r)^t) for t = 0 to T
 
 Where:
 - CF_t = net cash flow in year t (negative for capex, positive for operating cash flow)
@@ -116,6 +117,8 @@ IRR is the r at which NPV = 0. Solved iteratively, no closed-form solution.
 
 ### Project IRR vs Equity IRR
 
+Table: Project IRR vs equity IRR
+
 | Aspect | Project IRR | Equity IRR |
 |---|---|---|
 | Cash flows | All project flows | After debt service |
@@ -127,6 +130,8 @@ Equity IRR is higher because debt leverage amplifies equity returns when project
 
 ### IRR drivers (Indian utility solar)
 
+Table: How sensitive IRR is to each driver for Indian utility solar
+
 | Driver | Sensitivity |
 |---|---|
 | Capex change (10%) | IRR change 1.5 to 2.0 percentage points |
@@ -136,6 +141,8 @@ Equity IRR is higher because debt leverage amplifies equity returns when project
 | Debt cost (1%) | Equity IRR change 1 to 1.5 percentage points |
 
 ### Indian solar IRR benchmarks (2026)
+
+Table: Indian solar IRR benchmarks by project type, 2026
 
 | Project type | Project IRR | Equity IRR |
 |---|---|---|
@@ -148,7 +155,10 @@ Equity IRR is higher because debt leverage amplifies equity returns when project
 
 ### IRR vs WACC
 
-For a project to create value, IRR must exceed WACC. Typical Indian utility solar WACC: 8 to 10 percent. IRR of 11 to 14 percent leaves a 2 to 4 percent value creation margin.
+For a project to create value, IRR must exceed WACC. Typical Indian utility solar WACC: 8 to 10 percent. IRR of 11 to 14 percent leaves a margin of about 3 percentage points at the midpoints (12.5 versus 9 percent), and anywhere from 1 to 6 points across the full ranges.
+
+> [!EXAMPLE] The IRR versus WACC test
+> At the page's midpoints, a utility project with a 12.5 percent IRR and a 9 percent WACC clears the hurdle by 3.5 points. If IRR slipped to the 8 to 10 percent WACC band, the project would stop creating value, which is why the two numbers are always reported together.
 
 ## Real-world applications
 
@@ -214,6 +224,8 @@ Use post-tax IRR for realistic investor return.
 
 ## Comparison: IRR by financing structure
 
+Table: Typical project and equity IRR by financing structure
+
 | Structure | Typical project IRR | Typical equity IRR |
 |---|---|---|
 | 70% debt, 30% equity utility | 12% | 17% |
@@ -235,6 +247,8 @@ CERC Tariff Regulations 2024 use IRR-based methodology for benchmark tariff sett
 Lender hurdle rates for solar projects have come down from 13 to 14 percent in 2015 to 10 to 12 percent in 2025.
 
 ## Standards and certifications
+
+Table: Methods and references used for IRR in Indian solar
 
 | Standard | Scope |
 |---|---|

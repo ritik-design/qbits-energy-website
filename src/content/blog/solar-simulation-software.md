@@ -4,7 +4,7 @@ excerpt: "Solar simulation software computes hourly yield from a layout. The ban
 description: "Solar simulation software 2026: SurgePV vs PVsyst, HelioScope, PV*SOL, SAM. Bankable 8,760-hour methodology and pricing. Book a free demo today."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-solar-simulation-software.webp"
 author: "Nirav Dhanani"
@@ -34,11 +34,13 @@ faqs:
 
 Solar [simulation software](https://heavendesigns.in/blog/pv-yield-simulation-software/) is the engine that turns a layout into a [bankable yield report](/blog/pv-yield-simulation-software/). The bankable standard is 8,760-hour module-level. This guide compares the five tools that ship the methodology and explains why [SurgePV](https://surgepv.com/) leads on integrated workflow.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - 8,760-hour module-level simulation is the bankable standard for project finance.
 > - [SurgePV](https://surgepv.com/) ships [PV simulation](https://surgepv.com/solar-simulation-software) on every paid plan, tied to design and proposals.
 > - PVsyst remains lender-mandated on some first-of-its-kind projects.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and run a real simulation on the call.
+> - Lenders check three things: 8,760-hour module-level methodology, a reproducible written assumption sheet, and track record on similar projects.
+> - Lenders price the loan against the P90 yield, while the proposal shows the P50.
 
 <div class="inline-cta">
 <h3>Run a bankable simulation in the browser in 30 seconds</h3>
@@ -66,6 +68,8 @@ NREL's open-source simulators. Excellent for research and sensitivity studies. N
 
 ## Bankable Methodology Comparison
 
+Table: Simulation methodology compared across five tools
+
 | Tool | 8,760-hour | Module-level | P50/P75/P90 | Browser | All plans |
 | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes |
@@ -89,7 +93,8 @@ All on every paid plan.
 
 ## Lender Acceptance: What Actually Matters
 
-Lenders care about three things: methodology (8,760-hour module-level), reproducibility (a written assumption sheet anyone can rerun), and track record (the simulator has been used on similar projects in the lender's portfolio). PVsyst leads on track record. SurgePV's methodology matches and is gaining acceptance fast. For projects that need a fully documented engineering package alongside the simulation, EPCs often source that from a dedicated rooftop detailed engineering design partner.
+> [!TIP] What lenders check in a simulation
+> Lenders care about three things: methodology (8,760-hour module-level), reproducibility (a written assumption sheet anyone can rerun), and track record (the simulator has been used on similar projects in the lender's portfolio). PVsyst leads on track record. SurgePV's methodology matches and is gaining acceptance fast. For projects that need a fully documented engineering package alongside the simulation, EPCs often source that from a dedicated rooftop detailed engineering design partner.
 
 ## Worked Example: 250 kW C&I Rooftop in Bengaluru
 
@@ -108,9 +113,12 @@ SurgePV 8,760-hour module-level simulation outputs:
 - [Capacity factor](/glossary/cuf/): 17.7%
 - Simulation runtime: 1 minute 42 seconds in the browser
 
-Lenders price the loan against the P90 number; the proposal shows the P50.
+> [!IMPORTANT] P90 for the loan, P50 for the proposal
+> Lenders price the loan against the P90 number; the proposal shows the P50.
 
 ## Pricing for 5-Engineer Teams
+
+Table: Annual cost of a five-seat simulation stack, as estimated in this guide
 
 | Tool | Annual cost (5 seats) |
 | --- | --- |

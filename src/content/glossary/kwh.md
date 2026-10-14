@@ -5,7 +5,7 @@ description: "kWh is the unit of electrical energy. Full guide to calculation, b
 category: "Electrical Basics"
 categorySlug: "electrical-basics"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is kwh
   - kilowatt hour
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 A kilowatt-hour (kWh) is the unit of electrical energy equivalent to one kilowatt (kW) of power used for one hour. It is the standard billing unit for electricity in most of the world, including India. 1 kWh = 1000 watt-hours = 3.6 megajoules.
 
-> **TL;DR**
+> [!NOTE] In short
 > - A kWh is the unit of electrical energy equal to 1 kW of power sustained for 1 hour; it is the standard unit on every Indian electricity bill.
 > - kWh = power (kW) × time (hours); a 2 kW AC running 8 hours uses 16 kWh.
 > - A typical Indian home consumes 200 to 500 kWh per month, with retail tariffs ranging roughly ₹3 to ₹12 per kWh depending on the slab.
@@ -97,18 +97,21 @@ Regulatory benchmarking. [CUF](/glossary/cuf/) derived from kWh against capacity
 
 ## How kWh is calculated
 
-kWh = Power (kW) × Time (hours)
+> [!FORMULA]
+> kWh = Power (kW) × Time (hours)
 
 For variable loads: kWh = ∫P(t) dt over the period
 
-Examples:
-- 100 W bulb for 10 hours: 0.1 × 10 = 1 kWh
-- 1.5 ton AC (2 kW) for 8 hours: 2 × 8 = 16 kWh
-- 1 kW solar panel × 5 [peak sun hours](/glossary/peak-sun-hours/) = 5 kWh per day
+> [!EXAMPLE] Worked kWh examples
+> - 100 W bulb for 10 hours: 0.1 × 10 = 1 kWh
+> - 1.5 ton AC (2 kW) for 8 hours: 2 × 8 = 16 kWh
+> - 1 kW solar panel × 5 [peak sun hours](/glossary/peak-sun-hours/) = 5 kWh per day
 
 ## Technical deep dive
 
 ### Typical Indian household kWh consumption
+
+Table: Typical monthly kWh use of common Indian household appliances
 
 | Appliance | Approximate kWh per month |
 |---|---|
@@ -125,6 +128,8 @@ Examples:
 
 ### Indian retail tariff slabs (illustrative)
 
+Table: Illustrative Indian retail tariff slabs
+
 | Slab | Approximate tariff (₹/kWh) |
 |---|---|
 | 0 to 100 kWh | 3.00 to 4.50 |
@@ -135,6 +140,8 @@ Examples:
 State-specific. Always consult the current tariff order.
 
 ### Solar generation per kW per region (annual kWh)
+
+Table: Annual solar generation per kW by region in India
 
 | Region | Annual generation per kW (kWh) |
 |---|---|
@@ -148,6 +155,8 @@ State-specific. Always consult the current tariff order.
 For a full state-by-state breakdown of these benchmarks, see our guide to [solar yield in India](/blog/solar-yield-india/).
 
 ### Multiples and submultiples
+
+Table: kWh and its multiples
 
 | Unit | Value |
 |---|---|
@@ -208,6 +217,8 @@ Smart meter rollout under RDSS provides 15-minute interval kWh data.
 Time-of-day tariff rules notified in 2023 allow differential ₹/kWh pricing across time slots.
 
 ## Standards and certifications
+
+Table: Standards and rules for energy metering
 
 | Standard | Scope |
 |---|---|

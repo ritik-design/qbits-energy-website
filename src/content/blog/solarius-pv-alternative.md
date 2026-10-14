@@ -4,7 +4,7 @@ excerpt: "Looking for a Solarius PV alternative in 2026? Six platforms compared 
 description: "An honest comparison of the best Solarius PV alternatives for 2026: SurgePV, PVsyst, PV*SOL, HelioScope, Aurora Solar, and OpenSolar, judged on BIM and CAD interoperability, hourly self-consumption modelling after the end of Scambio sul Posto, proposal output, and published pricing."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solarius-pv-alternative.webp"
 author: "Keyur Rakholiya"
@@ -37,7 +37,7 @@ featured: false
 
 If you are shortlisting a Solarius PV alternative, you are probably in one of two situations. Either you already run ACCA's photovoltaic suite and something about it has stopped fitting, or you are evaluating it against other platforms and want to know what the rest of the market offers before you commit. Both are reasonable positions, and neither means Solarius PV is a bad product. It is a serious engineering tool with an unusual strength that most solar platforms cannot match. This guide compares six realistic alternatives, leads with the one we build and therefore have to justify hardest, and says plainly where staying put is the right call.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Solarius PV is an engineering suite from Italian BIM publisher ACCA, strongest on IFC and CAD interoperability, IEC 60364 cable sizing, automatic single-line diagrams, and multilingual technical reports.
 > - Pricing is quote-based. At the time of writing we could not find a usable public price on ACCA's page, and third-party directories disagree by an order of magnitude. A free one month trial is advertised.
 > - Two honest reasons to shop around: the customer-facing sales proposal is not the product's focus, and it is Windows desktop delivery.
@@ -70,7 +70,8 @@ Scambio sul Posto, the net-metering-style exchange that shaped Italian residenti
 
 The consequence is arithmetic, not politics. Under the old mechanism an annual energy balance was a defensible approximation, because exports netted against imports. Under the new one, a self-consumed kilowatt-hour is worth several times an exported one, so payback depends on when generation lands relative to the load, and on whether a battery moves it. The decisive modelling capability is now hourly self-consumption and storage dispatch.
 
-That is not a criticism of Solarius PV specifically. It is a test every tool on your shortlist has to pass, including the one you already own. A financial template that still assumes the old netting logic will quietly overstate payback on every proposal it produces.
+> [!WARNING] Old netting logic overstates payback
+> That is not a criticism of Solarius PV specifically. It is a test every tool on your shortlist has to pass, including the one you already own. A financial template that still assumes the old netting logic will quietly overstate payback on every proposal it produces.
 
 <div class="inline-cta">
 <h3>Test the post-Scambio sul Posto maths before you shortlist</h3>
@@ -149,6 +150,8 @@ The free model is funded by add-ons, so hardware integrations and some proposal 
 
 ## Comparison Table
 
+Table: Solarius PV and six alternatives compared on price, BIM interoperability, self-consumption and delivery
+
 | Platform | Published price | BIM and CAD interoperability | Hourly self-consumption | Client-ready proposal | Delivery |
 | --- | --- | --- | --- | --- | --- |
 | Solarius PV | Quote-based, free one month trial | Strongest here: IFC certified, Revit, ArchiCAD, AllPlan, VectorWorks, DXF, DWG | Confirm with ACCA against current rules | Technical report, not a sales document | Windows desktop |
@@ -176,8 +179,10 @@ We should say this clearly, because a comparison page that concludes "switch" re
 
 If your deliverable is a technical report for an Italian design office, and you already work inside a BIM pipeline, Solarius PV's interoperability is a real advantage and there may be no reason to move. Designing the array against a coordinated IFC or Revit model instead of against traced aerial imagery removes an entire class of geometry error, and none of the alternatives in this comparison replicate that path. Add the IEC 60364 cable sizing, the automatic single-line diagrams exportable to PDF, DXF, and DWG, and the technical report output in five languages, and you have a document workflow that most solar platforms are not attempting.
 
-The honest test is a single question: is the thing slowing your business down the drawing, or the deal? If it is the drawing, stay. If it is the deal, the tools built around the customer conversation will help more than another engineering suite will.
+> [!TIP] The one-question test
+> The honest test is a single question: is the thing slowing your business down the drawing, or the deal? If it is the drawing, stay. If it is the deal, the tools built around the customer conversation will help more than another engineering suite will.
 
+> [!IMPORTANT] What most buyers get wrong
 > **What most buyers get wrong.** They benchmark Solarius PV against Aurora or OpenSolar on sales features and conclude it is behind. It was never in that race. The fair comparison set is PVsyst, PV*SOL, and the engineering half of a platform like SurgePV, and against those it argues its case on completely different grounds.
 
 ## Who Should Choose What

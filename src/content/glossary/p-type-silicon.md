@@ -5,7 +5,7 @@ description: "P-type silicon is the traditional solar cell base. Full guide to p
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - p-type silicon
   - p type solar cell
@@ -68,9 +68,9 @@ author: "Nirav Dhanani"
 
 ## What is p-type silicon
 
-P-type silicon is crystalline silicon intentionally doped with a small concentration of boron atoms (typically 1015-1017 atoms/cm³). Boron has three valence electrons (one less than silicon's four), creating "holes" or electron deficiencies that act as positive charge carriers. The result: silicon with hole carriers (p for positive).
+P-type silicon is crystalline silicon intentionally doped with a small concentration of boron atoms (typically 10^15 to 10^17 atoms/cm³). Boron has three valence electrons (one less than silicon's four), creating "holes" or electron deficiencies that act as positive charge carriers. The result: silicon with hole carriers (p for positive).
 
-> **TL;DR**
+> [!NOTE] In short
 > - P-type silicon is boron-doped crystalline silicon that carries current through electron "holes" — the traditional base for PERC cells, which dominated solar from 2017 to 2024.
 > - Its main weakness is boron-oxygen light-induced degradation (LID), cutting efficiency 1-2.5 percent in the first 100 hours; gallium-doped p-type avoids this.
 > - N-type silicon used in TOPCon and HJT cells is displacing p-type in new manufacturing, since it reaches higher efficiency without LID.
@@ -106,6 +106,8 @@ Historical understanding. P-type technology informs ongoing cell development.
 
 ### Comparison: p-type vs n-type
 
+Table: P-type vs n-type silicon, property by property
+
 | Property | P-type | N-type |
 |---|---|---|
 | Dopant | Boron (or Gallium) | Phosphorus |
@@ -122,9 +124,14 @@ Historical understanding. P-type technology informs ongoing cell development.
 
 P-type silicon with boron and dissolved oxygen forms boron-oxygen (B-O) complexes under light. The defects trap charge carriers, reducing efficiency by 1-2.5 percent in the first 100 hours of operation — the same mechanism covered in the [LID](/glossary/lid/) entry. Gallium-doped p-type silicon eliminates this mechanism.
 
+> [!TIP] PERC means p-type, so ask which dopant
+> A PERC module is built on a p-type wafer, so expect the 1-2.5 percent first-100-hours LID unless the wafer is gallium-doped. If you are buying p-type for the lower wafer cost or to match an existing PERC array, ask whether it is gallium-doped, since that variant removes the boron-oxygen mechanism.
+
 ### Cell technologies using p-type
 
 Traditional [polycrystalline](/glossary/polycrystalline/) wafers were also p-type, though most of that capacity has since shifted to mono PERC or TOPCon lines.
+
+Table: Cell technologies built on p-type silicon and their status
 
 | Cell | Status |
 |---|---|
@@ -176,6 +183,8 @@ ALMM List I still includes p-type PERC modules; see [ALMM List Phase III, Comple
 [PM Surya Ghar](/glossary/pm-surya-ghar/) accepts both p-type and n-type modules.
 
 ## Standards and certifications
+
+Table: Standards and listings for p-type modules in India
 
 | Standard | Scope |
 |---|---|

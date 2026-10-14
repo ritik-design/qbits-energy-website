@@ -4,7 +4,7 @@ excerpt: "The best solar design software South Africa installers need handles NR
 description: "Best solar design software South Africa 2026. SurgePV vs Aurora, OpenSolar, PVsyst on NRS 097-2-1:2024, SANS 10142-1, SSEG registration, Section 12B and CoC rules."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-design-software-south-africa.webp"
 author: "Keyur Rakholiya"
@@ -36,13 +36,14 @@ featured: false
 
 South African solar design is constrained before it begins. Residential single-phase connections are typically capped at 10 kVA across Eskom and the major metros, three-phase at 25 kVA, with export restrictions layered on top in some network zones. SSEG approval must be in writing before energizing, and energizing without it risks disconnection. Above 25 kVA an ECSA Professional Engineer has to sign off, under a policy updated in October 2025. None of that is visible in a design tool built for markets where you size to the roof and worry about approval later. This guide compares the platforms South African installers should shortlist, judged on whether they enforce the constraints that actually gate a project here.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Residential single-phase is typically limited to 10 kVA, three-phase to 25 kVA, across Eskom and the major municipalities.
 > - NRS 097-2-1:2024 governs LV grid integration including protection, anti-islanding, export limits and metering.
 > - SANS 10142-1:2020 is the wiring code. SANS 10142-2:2017 covers earthing and bonding. [IEC 62619](/glossary/iec-62619/) covers batteries.
 > - SSEG approval is mandatory before energizing. A DoL-registered contractor issues the CoC. ECSA Professional Engineer sign-off applies above 25 kVA, per an October 2025 policy update.
 > - Section 12B gives businesses a 125% first-year capital deduction with no size limit.
-> - [SurgePV](https://surgepv.com/) applies the limits at design time at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
+
+- [SurgePV](https://surgepv.com/) applies the limits at design time at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
 **Short version.** The best solar [design software](https://quickestimate.co/blog/3d-solar-design-software) for South African installers in 2026 is SurgePV, because it applies NRS 097-2-1 protection settings and network operator capacity limits at design time, and because it dispatches batteries against real load profiles, which matters in a market where most residential demand is hybrid rather than grid-tied. PVsyst remains the bankable reference for large commercial. OpenSolar suits small residential where entry cost dominates.
 
@@ -71,7 +72,8 @@ The October 2025 policy update added an ECSA Professional Engineer requirement f
 
 ## Why The Capacity Cap Changes The Design Question
 
-> **What most South African quotes get wrong.** They design to the roof and the bill, then discover the 10 kVA single-phase limit at approval. The correct sequence is the reverse: establish the connection type and the network operator's limit first, then design within it.
+> [!IMPORTANT] What most South African quotes get wrong
+> They design to the roof and the bill, then discover the 10 kVA single-phase limit at approval. The correct sequence is the reverse: establish the connection type and the network operator's limit first, then design within it.
 
 The 10 kVA residential ceiling has a specific consequence. On a large house with high consumption, the array cannot be sized to cover the load, so the design question becomes which loads to cover and when. That is a battery and load-management question, not a panel-count question, and it needs an hourly model to answer.
 
@@ -101,6 +103,8 @@ Several inverter manufacturers ship free sizing tools that handle their own hard
 
 ## South Africa Solar Design Software Comparison
 
+Table: South Africa solar design software comparison by capability and price
+
 | Tool | NRS 097 protection settings | Network capacity limits | Battery dispatch and backup sizing | Section 12B modelling | Proposals included | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Configurable | Yes | $1,299 to $1,899 |
@@ -120,6 +124,8 @@ Several inverter manufacturers ship free sizing tools that handle their own hard
 ## Worked Example: 8 kVA Residential Hybrid In Johannesburg
 
 An illustrative calculation, not a specific customer project. Inputs: 8 kVA hybrid inverter within the 10 kVA single-phase limit, 9.6 kWp array, 1,750 kWh per kWp specific yield, 16,800 kWh generation, 14,000 kWh household consumption, import at R2.80 per kWh, 10 kWh battery.
+
+Table: 8 kVA residential hybrid in Johannesburg: grid-tied only vs hybrid with 10 kWh battery (illustrative)
 
 | Line | Grid-tied only | Hybrid with 10 kWh battery |
 | --- | --- | --- |

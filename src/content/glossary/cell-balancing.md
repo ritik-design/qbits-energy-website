@@ -5,7 +5,7 @@ description: "Cell balancing equalises voltages across battery cells. Full guide
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - cell balancing
   - battery balancing
@@ -76,7 +76,7 @@ Passive balancing: dissipates excess charge from higher-voltage cells through sm
 
 Active balancing: transfers excess energy from higher cells to lower cells through switched capacitors, transformers or other energy-transfer circuits. Energy-efficient but complex and expensive.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Cell balancing equalises voltages across the individual cells in a series-connected battery pack; without it, pack capacity is limited to the weakest cell.
 > - Passive balancing dissipates excess charge from higher-voltage cells as heat through small resistors, at roughly 50-200 mA per cell.
 > - Active balancing transfers charge between cells via switched capacitors or transformers, recovering 70 to 95 percent of the transferred energy instead of dissipating it.
@@ -98,7 +98,12 @@ Warranty. Manufacturer warranties assume balanced operation.
 
 SOC accuracy. Balanced cells support accurate SOC estimation.
 
+> [!WARNING] Imbalance is a safety issue, not just a capacity issue
+> In a series pack the weakest cell sets usable capacity, and it is also the cell most likely to be overcharged. That overcharge is what raises the risk of thermal runaway, so a pack whose cell spread keeps growing needs attention before it needs replacing.
+
 ## Passive vs active balancing
+
+Table: Passive vs active cell balancing
 
 | Aspect | Passive | Active |
 |---|---|---|
@@ -113,6 +118,8 @@ SOC accuracy. Balanced cells support accurate SOC estimation.
 
 ### Passive balancing circuit
 
+Table: Components of a passive balancing circuit
+
 | Component | Role |
 |---|---|
 | Per-cell voltage sensor | Detects cell voltage |
@@ -124,6 +131,8 @@ Typical passive balancing current: 50-200 mA per cell. Balancing happens during 
 
 ### Active balancing methods
 
+Table: Active balancing methods and how each moves charge
+
 | Method | Description |
 |---|---|
 | Switched capacitor | Transfers charge between adjacent cells via capacitor |
@@ -134,6 +143,8 @@ Typical passive balancing current: 50-200 mA per cell. Balancing happens during 
 
 ### Balancing threshold
 
+Table: Typical cell balancing thresholds
+
 | Parameter | Typical value |
 |---|---|
 | Voltage spread to trigger | 30-100 mV |
@@ -142,6 +153,9 @@ Typical passive balancing current: 50-200 mA per cell. Balancing happens during 
 | Sensing accuracy | ±5 mV typical, ±2 mV premium |
 
 ### Cell aging effects on balance
+
+> [!TIP] Watch the spread, not just the state of charge
+> Balancing typically starts when cells drift 30-100 mV apart, and 200 mV is the maximum allowable spread. A pack that sits near that limit, or whose spread widens month after month, is showing the capacity variation listed below (1-2 percent when new, 5-10 percent by year 10) arriving early.
 
 Cell capacity variations, tracked as declining [State of Health](/glossary/soh/), grow with aging alongside [calendar life](/glossary/calendar-life/) effects:
 - New pack: 1-2% capacity variation
@@ -191,11 +205,13 @@ Indian LFP residential packs, including [Pylontech](/blog/pylontech-battery-indi
 
 Premium packs and EV packs increasingly use active balancing.
 
-ALMM and IS 16893 certification verifies balancing function.
+IS 16893 certification is where balancing function is verified.
 
 Major Indian BMS manufacturers (Inverted Energy, Battrixx, Numeros) support both methods.
 
 ## Standards and certifications
+
+Table: Standards that cover BMS and balancing function
 
 | Standard | Scope |
 |---|---|

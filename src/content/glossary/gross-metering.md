@@ -5,7 +5,7 @@ description: "Gross metering sells all solar generation to the DISCOM at a feed-
 category: "Metering and Grid"
 categorySlug: "metering-grid"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is gross metering
   - gross metering india
@@ -66,7 +66,7 @@ author: "Nirav Dhanani"
 
 ## What is gross metering
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Gross metering exports 100 percent of solar generation to the DISCOM at a contracted [feed-in tariff](/glossary/feed-in-tariff/), while grid consumption is billed separately at retail tariff.
 > - It uses two unidirectional meters: one for generation, one for consumption, unlike [net metering](/glossary/net-metering/), which nets both against a single register.
 > - Indian FIT rates in 2026 typically run ₹2.5 to ₹4.5 per kWh, well below retail tariff, so per-unit returns are lower than net metering.
@@ -84,9 +84,21 @@ In Indian rooftop solar, gross metering is the secondary mechanism after net met
 
 Picture two pipes between your house and the grid. One pipe carries solar power out at a wholesale price. The other pipe carries grid power in at a retail price. The two pipes do not interact. The DISCOM pays you for what flows out, and you pay the DISCOM for what flows in. No netting, no carry-forward, no balance.
 
-If the retail price is ₹7 per kWh and the wholesale price is ₹3 per kWh, you make ₹3 per solar kWh and pay ₹7 per grid kWh. You earn less per unit of solar than under net metering, where every solar unit offsets a retail unit. See [Gross Metering vs Net Metering, Which Should You Choose?](/blog/gross-metering-vs-net-metering/) for a worked payback comparison between the two mechanisms.
+> [!EXAMPLE]
+> If the retail price is ₹7 per kWh and the wholesale price is ₹3 per kWh, you make ₹3 per solar kWh and pay ₹7 per grid kWh. You earn less per unit of solar than under net metering, where every solar unit offsets a retail unit.
+
+See [Gross Metering vs Net Metering, Which Should You Choose?](/blog/gross-metering-vs-net-metering/) for a worked payback comparison between the two mechanisms.
 
 Gross metering exists because some DISCOMs cannot absorb the revenue loss from widespread net metering. Where the regulator has chosen gross, customers either accept the lower returns or stay off the rooftop programme.
+
+Table: Gross metering vs net metering, as described in this guide
+
+| Aspect | Gross metering | Net metering |
+|---|---|---|
+| Meters | Two unidirectional meters, one for generation and one for consumption | Both netted against a single register |
+| Solar paid at | Contracted FIT, typically ₹2.5 to ₹4.5 per kWh in 2026 | Offsets a retail unit |
+| Typical payback, commercial | 6 to 9 years | 4 to 6 years |
+| PM Surya Ghar subsidy | Not available in most state implementations | Restricted to net-metered residential customers in most states |
 
 ## Why gross metering matters
 
@@ -111,6 +123,9 @@ The flow from solar plant to monthly settlement is straightforward.
 5. The DISCOM bills generation at FIT, consumption at retail tariff.
 6. Monthly settlement is the difference: revenue from FIT minus cost of retail consumption.
 
+> [!FORMULA]
+> Monthly settlement = (FIT × generation) − (retail tariff × consumption)
+
 Both meters are [smart, AMI-enabled](/glossary/smart-meter/), and accuracy class 0.5S or better. The generation meter must be sealed and certified by the DISCOM.
 
 ## Technical deep dive
@@ -125,6 +140,8 @@ Two unidirectional meters in distinct physical locations:
 Some DISCOMs use a single four-quadrant meter with separate registers for generation and consumption. This reduces hardware count but requires meter firmware that distinguishes the two streams.
 
 ### Feed-in tariff structure
+
+Table: Illustrative 2026 feed-in tariff ranges by state, in rupees per kWh
 
 | State (illustrative 2026) | FIT range ₹/kWh |
 |---|---|
@@ -170,6 +187,9 @@ Eligible for [accelerated depreciation](/glossary/accelerated-depreciation/), ta
 Simple billing logic. Two meters, two bills, no netting arithmetic.
 
 ## Limitations
+
+> [!WARNING] Gross metering and the subsidy
+> Gross-metered systems do not receive the central PM Surya Ghar subsidy in most state implementations, and a bidirectional meter installed in error voids the gross metering contract. Confirm the metering route with the DISCOM before you commit to a plant size.
 
 Lower per-unit revenue than net metering. FIT is below retail tariff in almost all states.
 
@@ -217,6 +237,8 @@ Document the single-line diagram with both meters clearly identified to avoid fu
 
 ## Comparison: gross vs [net metering](/glossary/net-metering/) vs feed-in tariff
 
+Table: Gross metering vs net metering vs utility feed-in tariff
+
 | Feature | Gross metering | Net metering | FIT (utility) |
 |---|---|---|---|
 | Solar consumed on-site | Counted as DISCOM purchase | Not counted, offsets bill | Not consumed on-site |
@@ -236,6 +258,8 @@ PM Surya Ghar Muft Bijli Yojana is restricted to net-metered residential custome
 State DISCOMs and [SERCs](/glossary/serc/) revise FIT every two to three years through a public consultation process. Existing contracts are usually grandfathered, but new connections enter the latest tariff order.
 
 ## Standards and certifications
+
+Table: Standards and rules that govern gross metering
 
 | Standard | Scope |
 |---|---|

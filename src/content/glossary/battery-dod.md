@@ -5,7 +5,7 @@ description: "DOD is how deeply a battery is discharged in each cycle. Full guid
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is battery dod
   - depth of discharge
@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 Depth of Discharge (DOD) is the percentage of a battery's nominal capacity that has been discharged from full. It is the inverse of [State of Charge](/glossary/battery-soc/): SOC + DOD = 100 percent at any moment. The term is used in two senses: instantaneous DOD (right now) and cycle DOD (the deepest point in a charge-discharge cycle).
 
-> **TL;DR**
+> [!NOTE] In short
 > - DOD is the percentage of a battery's capacity used in a cycle; SOC + DOD always equals 100 percent.
 > - LFP tolerates 80 to 90 percent DOD daily, while lead acid needs 50 percent or shallower for reasonable cycle life.
 > - Deeper DOD per cycle means more usable energy today but fewer total cycles before end of life.
@@ -107,26 +107,41 @@ For LFP, an approximate relationship:
 
 Cycles ≈ 6000 × (1 / DOD)^0.5
 
-At 100 percent DOD: 6,000 cycles.
-At 80 percent DOD: 6,700 cycles.
-At 50 percent DOD: 8,500 cycles.
-At 30 percent DOD: 11,000 cycles.
+For lead acid the dependence is much steeper.
 
-For lead acid the dependence is much steeper:
+Table: Approximate cycle life by depth of discharge, LFP vs lead acid
 
-At 100 percent DOD: 250 cycles.
-At 50 percent DOD: 1,200 cycles.
-At 30 percent DOD: 2,500 cycles.
+| Depth of discharge | LFP cycles (approximate) | Lead acid cycles |
+|---|---|---|
+| 100% | 6,000 | 250 |
+| 80% | 6,700 | not stated |
+| 50% | 8,500 | 1,200 |
+| 30% | 11,000 | 2,500 |
+
+```chart
+type: bar
+title: Approximate LFP cycle life at each depth of discharge
+unit: cycles
+source: "Calculated in this entry from the approximate relationship Cycles = 6000 x (1 / DOD)^0.5 stated above"
+note: "Illustrative model from the formula on this page, not a manufacturer rating. Shallower discharge gives more cycles."
+data:
+  - { label: "100% DOD", value: 6000 }
+  - { label: "80% DOD", value: 6700 }
+  - { label: "50% DOD", value: 8500 }
+  - { label: "30% DOD", value: 11000 }
+```
 
 ## Technical deep dive
 
 ### DOD sizing formula
 
-Required nominal kWh = usable kWh / (DOD × η_rt)
+> [!FORMULA]
+> Required nominal kWh = usable kWh / (DOD × η_rt)
 
-Example: A residence needs 6 kWh usable per day, designs for 80 percent DOD on LFP at 92 percent round-trip:
-Nominal = 6 / (0.80 × 0.92) = 8.15 kWh
-Round up to nearest commercial size, typically 10 kWh nominal. Tools built for [battery and energy storage sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) use this same usable-kWh-over-DOD approach when speccing hybrid solar storage for installers.
+> [!EXAMPLE] 6 kWh a day on LFP
+> A residence needs 6 kWh usable per day, designs for 80 percent DOD on LFP at 92 percent round-trip: Nominal = 6 / (0.80 × 0.92) = 8.15 kWh. Round up to nearest commercial size, typically 10 kWh nominal.
+
+Tools built for [battery and energy storage sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) use this same usable-kWh-over-DOD approach when speccing hybrid solar storage for installers.
 
 ### DOD vs Calendar ageing trade-off
 
@@ -145,6 +160,8 @@ Cumulative cycle equivalents are computed via rainflow counting.
 ### DOD and round-trip efficiency
 
 [Round-trip efficiency](/glossary/round-trip-efficiency/) varies slightly with DOD. Higher DOD includes lower-SOC operation, where coulombic and voltage efficiency dip slightly.
+
+Table: Round-trip efficiency at 50% and 100% DOD by chemistry
 
 | Chemistry | Round-trip at 50% DOD | Round-trip at 100% DOD |
 |---|---|---|
@@ -190,6 +207,9 @@ Customer using full DOD to maximise short-term backup, killing the battery in 18
 
 Inverter EMS configured for higher DOD than the battery warranty allows, voiding cycle warranty.
 
+> [!WARNING] Check the inverter's minimum SOC against the battery's DOD rating
+> A cycle warranty is written for a stated cycle count at a stated DOD. If the inverter EMS lets the battery discharge deeper than that DOD, the operating conditions fall outside the warranty. Set the inverter minimum SOC from the battery maker's recommended DOD and record it in the EPC specification.
+
 Mismatched DOD assumption between EPC and customer expectations.
 
 Calendar ageing ignored in sizing for low-cycle applications.
@@ -212,6 +232,8 @@ Audit actual DOD distribution against design assumption annually.
 
 ## Comparison: typical DOD recommendations
 
+Table: Recommended cycle DOD and calendar-life notes by battery chemistry
+
 | Chemistry | Cycle DOD recommendation | Calendar life consideration |
 |---|---|---|
 | LFP | 80 to 90% | Periodic full charge is fine |
@@ -232,6 +254,8 @@ Inverter compatibility lists from major brands document the assumed DOD for warr
 PM Surya Ghar does not subsidise batteries, so customer choice of DOD is governed only by manufacturer warranty and EPC recommendation.
 
 ## Standards and certifications
+
+Table: Standards that apply to battery cells, storage and DOD warranty terms
 
 | Standard | Scope |
 |---|---|

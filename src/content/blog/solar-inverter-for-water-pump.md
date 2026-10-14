@@ -4,7 +4,7 @@ excerpt: "A solar inverter for a water pump must handle 5–7× inrush current a
 description: "Solar inverter for water pumps in India: KUSUM Component-B, HP-to-kW conversion, inrush current, and sizing for 1 HP to 5 HP agricultural pumps."
 category: "Buying Guide"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "24 min"
 image: "/og/blog-solar-inverter-for-water-pump.webp"
 author: "Keyur Rakholiya"
@@ -45,7 +45,7 @@ The challenge is that pumps are not simple resistive loads. A water pump motor (
 
 This guide explains the difference between a solar pump controller and a grid-tied inverter, the KUSUM components at a high level, and the inputs needed for pump sizing. It does not approve a Qbits model or establish scheme eligibility for a project.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Pump motors draw 5–7× their rated current at start-up, so a plain UPS-style inverter without VFD control will trip repeatedly; a dedicated pump controller or an oversized on-grid inverter is required.
 > - Use the Pump Sizing Triangle: convert HP to kW (×0.746), divide by motor efficiency (÷0.80), then multiply by 1.5–2.0 for inrush headroom.
 > - Standalone off-grid pumps (KUSUM Component-B) need a dedicated solar pump controller with VFD and get 60% total subsidy; grid-connected pumps ([KUSUM Component-C](https://www.heavengreenenergy.com/blog/kusum-component-c-grid-tied-pump)) need a standard on-grid inverter and no DISCOM approval is skipped.
@@ -54,7 +54,10 @@ This guide explains the difference between a solar pump controller and a grid-ti
 
 > **Direct answer.** A solar inverter for a water pump must be sized for inrush current, motors draw 5–7× their rated current at start-up. Use the Pump Sizing Triangle: (1) convert HP to kW (×0.746), (2) divide by motor efficiency (÷0.80), (3) multiply by 1.5 for inrush headroom. For standalone off-grid pumps, choose a dedicated solar pump controller with VFD; for grid-connected pumps under KUSUM Component-C, a standard on-grid inverter sized to the solar array is correct. KUSUM Component-B subsidises standalone solar pumps at 60% total subsidy for 0.5–7.5 HP systems.
 
-The distinction between a solar pump controller and a solar inverter is the most important technical point in this guide, and it is also the most frequently confused. The sections below explain both topologies, walk through the sizing maths, and show where the KUSUM scheme fits into each.
+> [!IMPORTANT] Controller or inverter: decide this first
+> The distinction between a solar pump controller and a solar inverter is the most important technical point in this guide, and it is also the most frequently confused.
+
+The sections below explain both topologies, walk through the sizing maths, and show where the KUSUM scheme fits into each.
 
 ## Solar Pump Controller vs Solar Inverter: The Core Distinction
 
@@ -73,6 +76,8 @@ KUSUM Component-B systems use this topology. The system is self-contained: solar
 In a grid-connected pump setup, the pump motor continues to draw power from the DISCOM feeder as it always has. The solar system (panels and an [on-grid inverter](/on-grid-inverter/)) is installed on the farm to generate power that offsets the electricity consumed by the pump. Net metering (or gross metering, depending on state policy) allows the DISCOM to credit or purchase the exported solar units.
 
 The on-grid inverter does not drive the pump motor directly. It simply exports solar power to the grid or premises bus. The pump's motor starter, direct-on-line contactor, or existing soft-starter remains unchanged. This is a straightforward grid-tied rooftop or ground-mount solar system installed near the agricultural feeder, exactly what Qbits on-grid inverters are designed for.
+
+Table: Solar pump controller compared with an on-grid solar inverter for agricultural pumps
 
 | Feature | Solar Pump Controller | On-Grid Solar Inverter |
 | --- | --- | --- |
@@ -95,7 +100,12 @@ This is the named framework for this guide. Three steps, applied in sequence, gi
 2. **Account for motor efficiency**: Divide by motor efficiency (typically 0.78–0.82 for standard squirrel-cage induction motors). A 1 HP motor with 80% efficiency draws 0.746 ÷ 0.80 = 0.93 kW from the supply. This is the electrical input power, what the inverter or controller must deliver during normal running.
 3. **Add inrush headroom**: Multiply electrical input power by 1.5 to 2.0 to get the minimum inverter rating. A 1 HP motor drawing 0.93 kW at full load will surge to 4.65–6.51 kW during the start-up spike. A solar pump controller with VFD eliminates most of this surge, so the headroom factor drops to 1.25–1.5. An on-grid inverter powering a direct-on-line motor starter needs the full 1.5–2.0× headroom.
 
+> [!FORMULA] Pump Sizing Triangle
+> Minimum inverter or controller rating (kW) = HP × 0.746 ÷ motor efficiency (0.78 to 0.82) × inrush factor (1.5 to 2.0, or 1.25 to 1.5 with a VFD controller)
+
 Apply the Pump Sizing Triangle to any HP rating before ordering equipment:
+
+Table: Pump Sizing Triangle results by pump rating, for a VFD controller and for a grid-tied inverter (80% motor efficiency)
 
 | Pump Rating | Shaft Power (kW) | Input Power at 80% eff. | Min VFD Controller Rating | Min On-Grid Inverter (if grid-tied) |
 | --- | --- | --- | --- | --- |
@@ -136,6 +146,8 @@ Component-C covers solarisation routes for grid-connected agricultural pumps or 
 
 The solar system is installed on farm land or building rooftops near the agricultural pump. The inverter feeds solar power to the agricultural feeder. The DISCOM either offsets the pump electricity charges (net metering) or purchases surplus power at a feed-in tariff (gross or net, depending on the state's policy). Individual farmers with one pump connection, water user associations, and cooperatives are all eligible.
 
+Table: Which KUSUM component, product and grid connection fits each common farm scenario
+
 | Scenario | Component | Product Needed | Grid Required? |
 | --- | --- | --- | --- |
 | Replace diesel pump with solar | Component-B | Solar pump controller + panel array | No |
@@ -163,16 +175,32 @@ For a conservative sizing exercise, use 4.5 peak sun hours and include a 20% sys
 
 ### Array Sizing Formula
 
-Array size (kWp) = Daily energy demand (kWh) ÷ (Peak sun hours × 0.80 system efficiency)
+> [!FORMULA] Array sizing
+> Array size (kWp) = Daily energy demand (kWh) ÷ (Peak sun hours × 0.80 system efficiency)
 
-Applied to a 2 HP pump running 8 hours in Maharashtra (5.0 PSH):
-Array = 14.9 ÷ (5.0 × 0.80) = 14.9 ÷ 4.0 = **3.73 kWp**
+> [!EXAMPLE] A 2 HP pump running 8 hours in Maharashtra
+> Applied to a 2 HP pump running 8 hours in Maharashtra (5.0 PSH):
+> Array = 14.9 ÷ (5.0 × 0.80) = 14.9 ÷ 4.0 = **3.73 kWp**
 
 In practice, MNRE-approved Component-B packages use:
 - **1 HP pump**: 1.2 to 1.6 kWp panel array
 - **2 HP pump**: 2.0 to 2.5 kWp panel array
 - **3 HP pump**: 2.7 to 3.5 kWp panel array
 - **5 HP pump**: 4.5 to 5.5 kWp panel array
+
+```chart
+type: hbar
+title: Typical panel array size for MNRE-approved Component-B pump packages
+unit: "kWp"
+source: "Package array sizes as stated in this article for MNRE-approved KUSUM Component-B pump systems (MNRE KUSUM programme, 2026); not a design calculation"
+note: "Ranges, not single values. The array-sizing formula above gives larger figures when a pump runs a full 8 hours."
+decimals: 1
+data:
+  - { label: "1 HP pump", min: 1.2, max: 1.6 }
+  - { label: "2 HP pump", min: 2.0, max: 2.5 }
+  - { label: "3 HP pump", min: 2.7, max: 3.5 }
+  - { label: "5 HP pump", min: 4.5, max: 5.5 }
+```
 
 For Component-C (grid-tied), the array is sized not to run the pump directly but to offset monthly electricity consumption from the DISCOM. A 5 HP pump consuming 900–1,100 kWh per month would ideally have a 5–7 kWp grid-tied solar system to offset 50–70% of those units, depending on state tariff and feed-in rate.
 
@@ -192,6 +220,8 @@ Surface pumps draw water from open wells, canals, ponds, or rivers. They are sim
 
 Surface mono-block pumps in the 0.5–2 HP range are typically single-phase. The starting surge is lower (5–6×) than deep-well submersibles, but VFD control still protects the motor and extends its service life. For solar, the advantage of surface pumps is that they can operate at variable speeds without significant loss of efficiency, a VFD controller's ability to vary pump speed with sunlight availability is well-matched to surface centrifugal pump curves.
 
+Table: Submersible, surface, turbine and mixed-flow pumps compared by phase, inrush factor and solar controller compatibility
+
 | Pump Type | Typical HP Range | Phase | Inrush Factor | Solar Controller Compatibility |
 | --- | --- | --- | --- | --- |
 | Submersible (borewell) | 0.5–7.5 HP | 1-phase (≤2 HP), 3-phase (>2 HP) | 6–7× | Excellent with 3-phase VFD controller |
@@ -204,6 +234,8 @@ Surface mono-block pumps in the 0.5–2 HP range are typically single-phase. The
 Different farm situations call for different solar topologies. The right choice depends on grid availability at the farm, pump operating hours, water availability, and budget.
 
 **Pros and Cons by Topology**
+
+Table: Pros and cons of standalone, grid-connected and hybrid solar for agricultural pumps
 
 | | Pros | Cons |
 | --- | --- | --- |
@@ -219,11 +251,13 @@ Read the full [on-grid vs hybrid decision guide](/blog/on-grid-vs-hybrid-vs-off-
 
 Even experienced EPC installers make errors on solar pump projects. These are the seven most frequent mistakes seen in the field across India.
 
-- **Mistake 1: Using a standard UPS-type inverter as a pump driver**: A UPS or home inverter is designed for resistive loads (lights, fans, computers). It has no VFD capability and cannot handle the inrush surge of a pump motor. Using a UPS inverter for a pump typically results in daily tripping, premature inverter failure, or damaged motor windings.
+> [!WARNING] Mistake 1: Using a standard UPS-type inverter as a pump driver
+> A UPS or home inverter is designed for resistive loads (lights, fans, computers). It has no VFD capability and cannot handle the inrush surge of a pump motor. Using a UPS inverter for a pump typically results in daily tripping, premature inverter failure, or damaged motor windings.
 
 - **Mistake 2: Under-sizing the panel array**: Selecting panels only for the motor's shaft power (HP × 0.746) without adding efficiency losses and inrush headroom. The array must cover input power, not output shaft power. A 2 HP pump needs at minimum a 2.2–2.5 kWp array, not a 1.49 kWp array.
 
-- **Mistake 3: Ignoring three-phase vs single-phase matching**: A three-phase pump controller must be connected to a three-phase AC motor. Single-phase motor with three-phase controller is an electrical mismatch and will cause motor burn-out. Verify the motor nameplate before ordering the pump drive.
+> [!CAUTION] Mistake 3: Ignoring three-phase vs single-phase matching
+> A three-phase pump controller must be connected to a three-phase AC motor. Single-phase motor with three-phase controller is an electrical mismatch and will cause motor burn-out. Verify the motor nameplate before ordering the pump drive.
 
 - **Mistake 4: Purchasing an off-grid pump controller for a Component-C setup**: Component-C requires a grid-tied inverter that complies with anti-islanding protection ([anti-islanding](/glossary/anti-islanding/)), DISCOM interconnection standards, and net-metering regulations. A standalone pump controller cannot export power to the grid and is the wrong product for Component-C.
 
@@ -241,6 +275,7 @@ Applying for KUSUM Component-B involves state-level agencies, not a central nati
 
 ### The 5-Step KUSUM Component-B Application Process
 
+<!-- steps -->
 1. **Identify the state nodal agency**: Each state has a designated agency (state agriculture department, RREC, TEDA, MSEDCL solar division, etc.). Visit the state agriculture ministry website or check the MNRE KUSUM implementation page to confirm the current nodal agency and their application portal link.
 
 2. **Register on the state portal**: Create an applicant account using your Aadhaar number and mobile. Upload land ownership documents (khasra-khatauni), bank account details, and a photograph of the existing diesel pump or borewell (if replacing an existing pump). New pump installations require proof of agricultural land use.

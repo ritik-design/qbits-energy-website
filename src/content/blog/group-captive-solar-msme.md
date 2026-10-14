@@ -4,7 +4,7 @@ excerpt: "Group captive solar in India lets MSMEs buy 26% equity in a shared sol
 description: "How group captive solar works for Indian MSMEs in 2026: the 26% equity and 51% consumption rules under the Electricity Act, charge exemptions vs third-party PPA, savings per unit, ROI math, and how to evaluate an offer."
 category: "Guide"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-group-captive-solar-msme.webp"
 author: "Akash Hirapara"
@@ -41,7 +41,7 @@ Most MSME owners we talk to have the same solar problem. Their factory roof is t
 
 This guide covers how the structure works under the Electricity Rules 2005. It includes the savings math with real inputs, the comparison with a [third-party PPA](https://www.heavengreenenergy.com/blog/captive-solar-vs-third-party-ppa-roi), and the risks. It ends with a checklist for evaluating any group captive offer that lands on your desk. It is written for C&I and MSME decision makers. If you want the broader picture of open access first, our [open access solar in India explained](/blog/open-access-solar-india-explained/) guide is the right starting point.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Group captive requires at least 26% equity in the plant SPV and 51% consumption of annual output, per Rule 3 of the Electricity Rules 2005.
 > - Captive power is exempt from cross subsidy surcharge (₹1.4 to ₹2.5 per unit in most industrial states) and additional surcharge. That exemption is the main edge over a third-party PPA.
 > - Typical landed cost is ₹4.5 to ₹5.5 per unit versus ₹8 to ₹9.5 on HT grid supply. The saving is ₹2.5 to ₹4 per unit.
@@ -60,7 +60,12 @@ The legal basis is Section 2(8) of the Electricity Act 2003 read with Rule 3 of 
 1. Captive users hold not less than 26% of the ownership of the plant in aggregate, with voting rights.
 2. Captive users consume not less than 51% of the annual generation, in proportion to their ownership shares, with a permitted variation of up to 10%.
 
-The Supreme Court confirmed this in Dakshin Gujarat Vij Company Limited v Gayatri Shakti Paper and Board Limited (2023). An SPV counts as an association of persons, and the proportionality requirement applies to it. The Court also laid down a unitary qualifying ratio. Each captive user should consume roughly 1.96% of generation for every 1% of ownership held, within the 10% band. This comes from the [judgment analysis on Lexology](https://www.lexology.com/library/detail.aspx?g=2658f828-bf96-4bf2-ba7e-0a5a0482791a), 2026.
+The Supreme Court confirmed this in Dakshin Gujarat Vij Company Limited v Gayatri Shakti Paper and Board Limited (2023). An SPV counts as an association of persons, and the proportionality requirement applies to it. The Court also laid down a unitary qualifying ratio. Each captive user should consume roughly 1.96% of generation for every 1% of ownership held, within the 10% band.
+
+> [!FORMULA]
+> Qualifying consumption share ≈ 1.96% of generation per 1% of ownership held (within the 10% band)
+
+This comes from the [judgment analysis on Lexology](https://www.lexology.com/library/detail.aspx?g=2658f828-bf96-4bf2-ba7e-0a5a0482791a), 2026.
 
 In practice, a typical structure looks like this. A developer builds a 5 MW plant. Four to ten MSMEs collectively subscribe 26% or more of the SPV equity, each in proportion to its contracted offtake. Each member signs a power purchase agreement with the SPV for its share of generation. The power is wheeled through the state grid to each member's factory under open access permission.
 
@@ -72,7 +77,12 @@ Section 42(2) of the Electricity Act 2003 requires open access consumers to pay 
 
 CSS alone runs ₹1.4 to ₹2.5 per unit in major industrial states in 2026, according to [Bridgeway Power's CSS rate analysis](https://bridgewaypower.in/blog/cross-subsidy-surcharge-css-2026), 2026. Additional surcharge adds ₹0.2 to ₹1.1 per unit. So a third-party open access buyer pays ₹1.6 to ₹3.6 per unit in charges that a captive buyer does not. That gap is the return on your 26% equity.
 
-The catch: both tests are verified annually, usually by the state commission or the DISCOM. Fail either test in a financial year and the plant is not captive for that year. The power you drew is reclassified as third-party open access. CSS and additional surcharge become payable, sometimes with interest. Every serious group captive agreement therefore includes monthly consumption tracking against the ownership ratio and a default allocation mechanism.
+The catch: both tests are verified annually, usually by the state commission or the DISCOM. 
+
+> [!WARNING] Failing a test loses captive status for that year
+> Fail either test in a financial year and the plant is not captive for that year. The power you drew is reclassified as third-party open access. CSS and additional surcharge become payable, sometimes with interest.
+
+Every serious group captive agreement therefore includes monthly consumption tracking against the ownership ratio and a default allocation mechanism.
 
 The regulatory ground shifted recently. The Ministry of Power notified the Electricity (Amendment) Rules 2025 in September 2025. These formally recognised energy storage and clarified consumers' rights to own or lease storage, according to [CMS IndusLaw](https://cms-induslaw.com/en/ind/publication/energy-infrastructure-natural-resources-law-corner-bulletin-september-and-october-2025), 2025. The captive rule amendments that followed in 2026 kept the 26% and 51% thresholds. They simplified the proportionality compliance that had caused most disputes, according to [Saur Energy](https://www.saurenergy.com/solar-energy-news/govt-amends-captive-power-rules-to-reduce-group-captive-disputes-11216539), 2026. In June 2026 the Karnataka High Court quashed the state regulator's captive verification procedure. It was inconsistent with Rule 3 and the Dakshin Gujarat ruling, according to [Energetica India](https://energetica-india.net/news/karnataka-high-court-quashes-kercs-captive-verification-procedure), 2026. The direction of travel is clearer rules, not looser ones.
 
@@ -93,6 +103,8 @@ There is also a financing angle. Banks and NBFCs now lend against group captive 
 ## Group Captive vs Third-Party PPA: The Charge Stack
 
 The cleanest comparison is the charge stack on one unit of electricity under both models. The numbers below are indicative for a Gujarat or Maharashtra HT consumer in 2026. Your state's rates will differ.
+
+Table: Charge stack per unit, third-party open access PPA versus group captive (indicative, Gujarat or Maharashtra HT consumer, 2026)
 
 | Charge component | Third-party open access PPA | Group captive |
 | --- | --- | --- |
@@ -115,6 +127,8 @@ One more nuance on timing. Solar generates between roughly 9 AM and 5 PM, so gro
 ## Savings Math: A Worked MSME Example
 
 The table below is a labelled hypothetical, not a real project. It uses typical 2026 inputs for a Gujarat engineering MSME with a 400 kVA HT connection.
+
+Table: Worked MSME example, 400 kVA HT connection in Gujarat (hypothetical inputs)
 
 | Input | Value | Note |
 | --- | --- | --- |
@@ -140,13 +154,14 @@ For a deeper treatment, our [solar IRR and payback guide for C&I buyers](/blog/s
 
 When a developer pitches you a slot in a group captive project, run this checklist before signing anything.
 
-1. **Verify the SPV and your shareholding.** You must hold actual equity with voting rights in the company that owns the plant, proportional to your offtake. Ask for the share subscription agreement, not a marketing brochure.
-2. **Get the landed cost in writing.** That means PPA tariff plus wheeling, banking, losses, scheduling fees, and any state electricity duty, for your specific HT connection. If the quote only shows the PPA tariff, it is incomplete.
-3. **Check the captive compliance mechanism.** How is monthly consumption tracked against the 51% and proportionality tests? What happens if another member under-consumes? Look for default allocation and true-up clauses.
-4. **Read the equity exit terms.** Most agreements lock you in for 5 to 15 years. Understand the buy-back formula, who can buy your shares, and what happens if you shut or move your factory.
-5. **Scrutinise the generation guarantee.** A capacity utilisation factor of 17% to 21% is realistic for Indian ground-mount solar. If the savings model assumes 22% or more, discount it.
-6. **Confirm open access permissions and timelines.** The plant needs connectivity and your unit needs open access approval from the state nodal agency. Ask for the application status, not promises.
-7. **Check the developer's operating track record.** Ask for two running group captive plants with reference consumers you can call. Our [Tirupur textile case study](/blog/case-study-tirupur-textile/) shows what documented, verifiable performance looks like in practice.
+> [!CHECKLIST] Group captive offer review
+> - **Verify the SPV and your shareholding.** You must hold actual equity with voting rights in the company that owns the plant, proportional to your offtake. Ask for the share subscription agreement, not a marketing brochure.
+> - **Get the landed cost in writing.** That means PPA tariff plus wheeling, banking, losses, scheduling fees, and any state electricity duty, for your specific HT connection. If the quote only shows the PPA tariff, it is incomplete.
+> - **Check the captive compliance mechanism.** How is monthly consumption tracked against the 51% and proportionality tests? What happens if another member under-consumes? Look for default allocation and true-up clauses.
+> - **Read the equity exit terms.** Most agreements lock you in for 5 to 15 years. Understand the buy-back formula, who can buy your shares, and what happens if you shut or move your factory.
+> - **Scrutinise the generation guarantee.** A capacity utilisation factor of 17% to 21% is realistic for Indian ground-mount solar. If the savings model assumes 22% or more, discount it.
+> - **Confirm open access permissions and timelines.** The plant needs connectivity and your unit needs open access approval from the state nodal agency. Ask for the application status, not promises.
+> - **Check the developer's operating track record.** Ask for two running group captive plants with reference consumers you can call. Our [Tirupur textile case study](/blog/case-study-tirupur-textile/) shows what documented, verifiable performance looks like in practice.
 
 ## Risks and Trade-offs: What Most MSMEs Get Wrong
 
@@ -168,11 +183,12 @@ The exception worth noting: some states currently waive CSS on renewable third-p
 
 Answer five questions honestly.
 
-1. Is your contract demand 100 kW or more? Below that, most states will not grant open access at all.
-2. Do you spend more than ₹3 lakh a month on grid power? Below that, the legal and administrative overhead eats the saving.
-3. Can you commit ₹30 lakh to ₹80 lakh of equity for 5 or more years? If not, look at RESCO or third-party PPA instead.
-4. Is your consumption stable and mostly in daylight hours? Volatile or night-heavy loads weaken both compliance and savings.
-5. Do you lack roof or land for your own plant? If you have a good owned roof, an owned rooftop plant usually beats group captive on total lifetime benefit.
+> [!CHECKLIST] Five fit-test questions
+> - Is your contract demand 100 kW or more? Below that, most states will not grant open access at all.
+> - Do you spend more than ₹3 lakh a month on grid power? Below that, the legal and administrative overhead eats the saving.
+> - Can you commit ₹30 lakh to ₹80 lakh of equity for 5 or more years? If not, look at RESCO or third-party PPA instead.
+> - Is your consumption stable and mostly in daylight hours? Volatile or night-heavy loads weaken both compliance and savings.
+> - Do you lack roof or land for your own plant? If you have a good owned roof, an owned rooftop plant usually beats group captive on total lifetime benefit.
 
 Four or five yes answers means group captive deserves a serious evaluation. Two or fewer means another structure fits better. The [open access solar guide](/blog/open-access-solar-india-explained/) maps the full set of alternatives.
 

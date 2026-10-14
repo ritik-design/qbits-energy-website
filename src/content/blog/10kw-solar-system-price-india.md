@@ -7,7 +7,7 @@ date: 2026-06-05
 readTime: "18 min"
 image: "/og/blog-10kw-solar-system-price-india.webp"
 author: "Akash Hirapara"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - 10kw solar system price
   - 10kw solar system price in india
@@ -39,7 +39,7 @@ faqs:
 
 At ₹10,000+ a month in electricity bills, solar stops being a lifestyle choice. It's a financial obligation. A 10kW system is the entry point for large Indian homes (villas, bungalows, farmhouses) and small commercial premises. It generates enough to actually wipe out most of the DISCOM bill.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A 10kW on-grid system costs ₹4,50,000 to ₹6,50,000 before subsidy in India in 2026.
 > - Residential buyers get the [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy capped at ₹78,000, the same cap as a 3kW system.
 > - Commercial buyers aren't eligible for PM Surya Ghar but can claim 40% [accelerated depreciation](/glossary/accelerated-depreciation/) under Section 32, worth roughly ₹63,600 in year-1 tax savings on a ₹5,09,600 system.
@@ -62,6 +62,8 @@ The **True Cost of Going Solar** framework applies identically to a 10kW system 
 5. **GST**: the 12% slab no longer exists (Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025). Renewable energy devices sit at 5% under Schedule I entry 437, heading 8504 static converters at 18%, and a bundled turnkey contract uses the 70:30 split for an 8.9% effective rate. Total GST on a 10 kW system at that bundled rate: roughly ₹33,000–₹52,000. Confirm the entry your supplier relies on.
 
 Full cost table:
+
+Table: 10kW system cost by component, residential on-grid, residential hybrid and commercial on-grid
 
 | Cost Component | Residential On-Grid | Residential Hybrid | Commercial On-Grid |
 | --- | --- | --- | --- |
@@ -102,11 +104,11 @@ The [solar inverter depreciation tax benefits guide](/blog/solar-inverter-deprec
 
 ## Three-Phase 10kW System: When You Need It
 
-A three-phase 10kW solar inverter is needed when:
-- Your DISCOM connection is three-phase (load sanction above 7.5 kW in most states)
-- You have three-phase equipment (heavy pumps, compressors, three-phase ACs)
-- You want to balance solar generation across all three phases for maximum efficiency
-- You are installing on a commercial premise where phase imbalance penalties apply
+> [!CHECKLIST] A three-phase 10kW inverter is needed when
+> - Your DISCOM connection is three-phase (load sanction above 7.5 kW in most states)
+> - You have three-phase equipment (heavy pumps, compressors, three-phase ACs)
+> - You want to balance solar generation across all three phases for maximum efficiency
+> - You are installing on a commercial premise where phase imbalance penalties apply
 
 ## ITC (Accelerated Depreciation) Benefit for Commercial 10kW Buyers
 
@@ -163,6 +165,8 @@ With a 10kW inverter, you can comfortably run 7,000–9,000 W of actual load sim
 ## State-Wise 10kW Solar System Price in India 2026
 
 System pricing varies by state due to local installer competition, panel sourcing, and state subsidy variations. These are representative installed cost ranges for a residential 10kW on-grid system before central PM Surya Ghar subsidy:
+
+Table: Representative 10kW residential on-grid installed cost ranges by state, before the central subsidy
 
 | State | 10kW On-Grid (before subsidy) | Key variable |
 | --- | --- | --- |

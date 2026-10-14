@@ -4,7 +4,7 @@ excerpt: 'State-wise solar irradiance data for India: sourced GHI, peak sun hour
 description: Sourced annual GHI, daily peak sun hours, optimum tilt and specific yield for a named reference site in every Indian state and union territory, with the formula that turns irradiance into expected units.
 category: Industry
 date: 2026-06-05
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: 12 min
 image: "/og/blog-solar-irradiance-data-india-statewise.webp"
 author: Keyur Rakholiya
@@ -44,11 +44,8 @@ The dataset is the [Global Solar Atlas](https://globalsolaratlas.info/), operate
 
 You will get four things here. First, the difference between GHI, DNI, DHI and plane-of-array irradiation, and which one a fixed-tilt rooftop actually needs. Second, a complete sourced table with annual GHI, daily peak sun hours, optimum tilt, and modelled specific yield. Third, the formula that turns irradiance into expected units, with a worked example. Fourth, the reasons your meter will read lower, and why the sunniest state is rarely the best place to buy.
 
-> **TL;DR**
-> - Daily GHI at Indian reference sites runs from 4.00 kWh/m²/day (Itanagar) to 5.53 kWh/m²/day (Jodhpur), a spread of only 38%, according to the Global Solar Atlas (Solargis v2.2.68, queried 24 September 2026).
-> - Rajasthan leads on GHI, but Ladakh leads on specific yield at 1,921 kWh/kWp, because cold air cuts temperature losses.
-> - Peak sun hours are numerically the same as daily irradiation in kWh/m²/day, because standard test conditions use 1,000 W/m².
-> - A fixed-tilt array needs plane-of-array irradiation, not GHI. Using GHI under-predicts by about 8% in Delhi and 14% in Leh.
+> [!KEYTAKEAWAYS]
+> - Daily GHI at Indian reference sites runs from 4.00 kWh/m²/day (Itanagar) to 5.53 kWh/m²/day (Jodhpur), a spread of only 38%, according to the Global Solar Atlas (Solargis v2.2.68, queried 24 September 2026). Rajasthan leads on GHI, but Ladakh leads on specific yield at 1,921 kWh/kWp, because cold air cuts temperature losses. Peak sun hours are numerically the same as daily irradiation in kWh/m²/day, because standard test conditions use 1,000 W/m². A fixed-tilt array needs plane-of-array irradiation, not GHI. Using GHI under-predicts by about 8% in Delhi and 14% in Leh.
 > - The atlas's own ratio of specific yield to plane-of-array irradiation runs 0.775 to 0.836 across our 36 sites, which is a defensible performance ratio band.
 > - In Punjab, Delhi and Ladakh the worst solar month is January, not a monsoon month.
 > - The central PM Surya Ghar subsidy is flat nationwide, so tariff and net metering rules move payback more than irradiance does.
@@ -59,6 +56,8 @@ You will get four things here. First, the difference between GHI, DNI, DHI and p
 
 Four measures get used interchangeably online. They are not interchangeable. Picking the wrong one is the single most common error on irradiance pages.
 
+Table: Four irradiance measures: the surface each applies to and what to use it for
+
 | Measure | Surface it applies to | Use it for |
 | --- | --- | --- |
 | [GHI](/glossary/ghi/) | Horizontal plane | Comparing sites, screening markets |
@@ -66,7 +65,8 @@ Four measures get used interchangeably online. They are not interchangeable. Pic
 | DHI | Horizontal plane, sky-scattered light only | Explaining cloud, haze and monsoon behaviour |
 | [Plane-of-array](/glossary/plane-of-array/) (GTI) | The actual module plane | Fixed-tilt PV yield, rooftop quotes |
 
-For a fixed-tilt rooftop array, the answer is plane-of-array irradiation. Your modules are not horizontal, so GHI is the wrong plane. Plane-of-array irradiation projects the direct beam onto the tilted surface, then adds the diffuse component the tilted plane can see, plus ground-reflected light.
+> [!IMPORTANT] Use plane-of-array irradiation, not GHI, for a tilted roof
+> For a fixed-tilt rooftop array, the answer is plane-of-array irradiation. Your modules are not horizontal, so GHI is the wrong plane. Plane-of-array irradiation projects the direct beam onto the tilted surface, then adds the diffuse component the tilted plane can see, plus ground-reflected light.
 
 A second frequent error is writing GHI = DNI + DHI. The beam term has to be projected first. The correct relation is GHI = DNI × cos(solar zenith angle) + DHI, subject to the measurement convention. Also keep units straight. Irradiance is a power flux in W/m². Irradiation is energy, in kWh/m² per day, month or year.
 
@@ -81,6 +81,8 @@ That equivalence is why peak sun hours are useful for mental arithmetic and usel
 ## State-wise solar irradiance data for India
 
 All rows come from the Global Solar Atlas (World Bank and ESMAP, Solargis model v2.2.68, layers updated 1 April 2026, satellite record through 2025), queried at the named city on 24 September 2026. Daily GHI equals annual GHI divided by 365.25. Peak sun hours are given at the local optimum tilt, facing south. Specific yield is the atlas's modelled PVOUT for crystalline silicon.
+
+Table: State and UT reference-site solar irradiance: Global Solar Atlas, Solargis v2.2.68, queried 24 September 2026
 
 | State / UT | Reference site | Annual GHI (kWh/m²) | Daily GHI (kWh/m²/day) | Peak sun hours at optimum tilt | Optimum tilt (°) | Specific yield (kWh/kWp/yr) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -121,6 +123,23 @@ All rows come from the Global Solar Atlas (World Bank and ESMAP, Solargis model 
 | Nagaland | Kohima | 1,523 | 4.17 | 4.58 | 29 | 1,381 |
 | Arunachal Pradesh | Itanagar | 1,460 | 4.00 | 4.40 | 29 | 1,282 |
 
+```chart
+type: hbar
+title: Modelled specific yield at selected reference sites
+unit: "kWh/kWp/yr"
+source: "Global Solar Atlas (World Bank and ESMAP, Solargis model v2.2.68, layers updated 1 April 2026), queried 24 September 2026; selected rows from the 36-site table above"
+note: "Selected sites only, to show the range: the full table above lists all 36. Point values at named cities, not state averages."
+data:
+  - { label: "Leh (Ladakh)", value: 1921 }
+  - { label: "Jodhpur (Rajasthan)", value: 1746 }
+  - { label: "Ahmedabad (Gujarat)", value: 1701 }
+  - { label: "Mumbai (Maharashtra)", value: 1593 }
+  - { label: "Bengaluru (Karnataka)", value: 1578 }
+  - { label: "New Delhi", value: 1466 }
+  - { label: "Kolkata (West Bengal)", value: 1408 }
+  - { label: "Itanagar (Arunachal Pradesh)", value: 1282 }
+```
+
 Read the last two columns together. Leh ranks sixth on GHI but first on specific yield, ahead of Jodhpur. Shimla ranks twenty-second on GHI but eleventh on specific yield. Cold air is worth more than raw sunlight in a PV model.
 
 ## Why this is a table of cities, not a table of states
@@ -135,23 +154,27 @@ Within-state spread is real and worth respecting. In Rajasthan, Jaipur reads 1,8
 
 The governing equation is short. Annual AC energy equals array DC rating, times annual plane-of-array irradiation, times the [performance ratio](/glossary/pr/), divided by the 1 kW/m² reference irradiance.
 
-**E (kWh/yr) = P_dc (kWp) × H_poa (kWh/m²/yr) × PR ÷ G_ref (1 kW/m²)**
+> [!FORMULA] Annual energy from irradiation
+> E (kWh/yr) = P_dc (kWp) × H_poa (kWh/m²/yr) × PR ÷ G_ref (1 kW/m²)
 
-**Worked example.** A 5 kWp rooftop array in Ahmedabad, fixed at 26 degrees, facing south.
-
-1. Array rating: 5 kWp.
-2. Plane-of-array irradiation at 26 degrees: 2,195 kWh/m² per year (Global Solar Atlas, Solargis v2.2.68, queried 24 September 2026).
-3. Performance ratio: 0.775, taken from the same dataset's own ratio of specific yield to plane-of-array irradiation at this site.
-4. Reference irradiance: 1 kW/m².
-5. Result: 5 × 2,195 × 0.775 ÷ 1 = 8,506 kWh per year.
-
-Cross-check that against the atlas's published specific yield for Ahmedabad, 1,701 kWh/kWp. Multiplied by 5 kWp, that gives 8,505 kWh per year. The two agree, which is what a sound method should do.
+> [!EXAMPLE] Worked example: 5 kWp rooftop array in Ahmedabad
+> A 5 kWp rooftop array in Ahmedabad, fixed at 26 degrees, facing south.
+>
+> 1. Array rating: 5 kWp.
+> 2. Plane-of-array irradiation at 26 degrees: 2,195 kWh/m² per year (Global Solar Atlas, Solargis v2.2.68, queried 24 September 2026).
+> 3. Performance ratio: 0.775, taken from the same dataset's own ratio of specific yield to plane-of-array irradiation at this site.
+> 4. Reference irradiance: 1 kW/m².
+> 5. Result: 5 × 2,195 × 0.775 ÷ 1 = 8,506 kWh per year.
+>
+> Cross-check that against the atlas's published specific yield for Ahmedabad, 1,701 kWh/kWp. Multiplied by 5 kWp, that gives 8,505 kWh per year. The two agree, which is what a sound method should do.
 
 Now the two ways this goes wrong. Substitute GHI, 2,010 kWh/m², and you get 7,789 kWh, 8.4% low. Drop the performance ratio entirely and you get 10,975 kWh, 29% high. Both errors appear in real quotes.
 
 ## Why your meter reads less than the atlas
 
 Atlas irradiation describes energy arriving at the module plane. Your meter records energy leaving the inverter. Nine loss mechanisms sit in between, and a credible estimate names each one.
+
+Table: Loss mechanisms between plane-of-array irradiation and the meter, with reference magnitudes and sources
 
 | Loss mechanism | Reference magnitude | Source |
 | --- | --- | --- |
@@ -172,6 +195,8 @@ For a defensible [performance ratio](/glossary/pr/) band, use the atlas against 
 ## Seasonal variation, and why the monsoon is not the whole story
 
 Most pages reduce Indian seasonality to "the monsoon cuts output". That is only true for part of the country. The worst month varies by region, and in the north it is not a monsoon month at all.
+
+Table: Best and worst month of GHI at nine reference sites, from the same Global Solar Atlas query
 
 | Reference site | Best month (kWh/m²/day) | Worst month (kWh/m²/day) | Worst as % of best |
 | --- | --- | --- | --- |
@@ -217,6 +242,7 @@ So the ranking that matters is tariff times exported units, under your DISCOM's 
 
 Irradiance sets energy, not electrical limits. That distinction decides which tool you reach for.
 
+<!-- steps -->
 1. Size the array from consumption. Work out target annual units, divide by the site's specific yield in kWh/kWp, and you have the DC size in kWp.
 2. Constrain it by roof area, shade and your sanctioned DISCOM load. Any one of these can cap the array below the energy-derived size.
 3. Choose the DC to AC ratio. Higher irradiance sites and steeper tilts push more hours near the inverter ceiling, which is where clipping enters the economics.

@@ -4,7 +4,7 @@ excerpt: The headline number of years is the least useful part. What decides a c
 description: How to compare solar inverter warranties in India. Covered faults, remedy type, labour and freight liability, start date traps, exclusions and claim records.
 category: Technology
 date: 2026-06-05
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: 9 min
 image: "/og/blog-solar-inverter-warranty.webp"
 author: Nirav Dhanani
@@ -34,11 +34,9 @@ relatedSlugs:
 - download-datasheets
 ---
 
-> **Quick answers**
->
+> [!KEYTAKEAWAYS]
 > - Duration is the headline. Remedy, cost liability and exclusions decide what you actually receive.
-> - Full unit replacement, repair and parts only are three different promises.
-> - Labour, freight and reinstallation are frequently excluded on rooftop claims.
+> - Full unit replacement, repair and parts only are three different promises. Labour, freight and reinstallation are frequently excluded on rooftop claims.
 > - The start date can be invoice, commissioning or registration, and the difference can cost months.
 > - A product warranty does not cover installation workmanship. That is a separate contract.
 > - Ask for the written policy before paying, not after a fault.
@@ -55,6 +53,8 @@ The number of years is the start of the comparison, not the conclusion.
 
 ## The five terms that decide a claim
 
+Table: The five warranty terms that decide a claim
+
 | Term | The question to ask | Why it matters |
 | --- | --- | --- |
 | Start date and registration | Invoice, commissioning or registration? Is registration mandatory within a window? | Storage and delay can consume months of cover |
@@ -68,6 +68,14 @@ Note that a panel performance warranty, a battery capacity warranty and an inver
 ## Replacement, repair and parts are not the same promise
 
 This distinction deserves separating out because it is where expectation and document most often diverge.
+
+Table: What each remedy means for the owner of a rooftop inverter
+
+| Remedy | What it means | What the owner should expect |
+| --- | --- | --- |
+| Full unit replacement | A working unit is supplied in place of the failed one | The cleanest outcome; downtime depends mostly on logistics rather than diagnosis and repair turnaround |
+| Repair | The unit is fixed, often at a service centre | Removal, transport in both directions, queue time and reinstallation; the system is down throughout and lost generation is rarely compensated |
+| Parts only | A component is supplied | Somebody else pays for the labour to fit it |
 
 **Full unit replacement** means a working unit is supplied in place of the failed one. For the owner this is the cleanest outcome, because downtime depends mostly on logistics rather than diagnosis and repair turnaround.
 
@@ -83,7 +91,8 @@ On a residential rooftop, the replacement unit is often not the largest line ite
 
 A site visit, safe isolation, removal from a wall at height, packing and freight to a service location, return freight, reinstallation, recommissioning and any DISCOM notification all carry cost. A warranty that covers the hardware and excludes the rest leaves those with you.
 
-Ask for a written answer to one specific question: if this unit fails in year seven, what will I pay? A supplier who can answer that clearly is describing a warranty they understand. One who cannot is describing a headline.
+> [!TIP] Ask the year-seven question
+> Ask for a written answer to one specific question: if this unit fails in year seven, what will I pay? A supplier who can answer that clearly is describing a warranty they understand. One who cannot is describing a headline.
 
 ## Start dates and registration traps
 
@@ -116,14 +125,16 @@ Keep both documents, the commissioning test results and all later service report
 
 Assemble this before opening a claim.
 
-1. Invoice with date, and the commissioning date and records.
-2. Model designation and serial number read from the unit label.
-3. The written warranty document that applied at the time of sale.
-4. The exact fault message or event code, copied rather than paraphrased, with timestamps.
-5. Photographs of the installation and the displayed fault, taken without opening the enclosure.
-6. Any support ticket reference and the agreed next step.
+> [!CHECKLIST] Claim file to assemble first
+> - Invoice with date, and the commissioning date and records.
+> - Model designation and serial number read from the unit label.
+> - The written warranty document that applied at the time of sale.
+> - The exact fault message or event code, copied rather than paraphrased, with timestamps.
+> - Photographs of the installation and the displayed fault, taken without opening the enclosure.
+> - Any support ticket reference and the agreed next step.
 
-Avoid repeatedly resetting the unit or changing protection settings to keep it running. It feels productive and it erases the fault history that would otherwise support your claim. The [error code guide](/blog/solar-inverter-error-codes-guide/) helps organise symptoms into something an engineer can assess.
+> [!WARNING] Resetting erases the evidence
+> Avoid repeatedly resetting the unit or changing protection settings to keep it running. It feels productive and it erases the fault history that would otherwise support your claim. The [error code guide](/blog/solar-inverter-error-codes-guide/) helps organise symptoms into something an engineer can assess.
 
 ## What Qbits states
 

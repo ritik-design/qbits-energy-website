@@ -5,7 +5,7 @@ excerpt: 'Choose a three-phase solar inverter by connection approval, exact capa
 description: 'Learn when a three-phase solar inverter fits, how to choose capacity, and what the Qbits QB-6/8/10/12/15/17KTLC datasheet actually establishes.'
 category: Buying Guide
 date: 2026-06-05
-updatedDate: 2026-09-26
+updatedDate: 2026-10-14
 readTime: 12 min
 image: /og/blog-3-phase-solar-inverter.webp
 author: Keyur Rakholiya
@@ -40,17 +40,26 @@ In Qbits' published three-phase on-grid datasheet, the models named are QB-6KTLC
 
 Qbits publishes this article and sells the KTLC family. We did not independently test the inverters, inspect installations, or verify current stock, prices, warranty remedies, service outcomes, certificate validity, scheme eligibility, or acceptance by a particular DISCOM.
 
+> [!KEYTAKEAWAYS]
+> - The right three-phase inverter is the exact model that matches the approved grid service, proposed AC capacity, PV strings, topology and current documents.
+> - No single nationwide kW threshold forces a three-phase inverter. Ask for a written connection decision from the utility rather than relying on a rule of thumb.
+> - The Qbits KTLC datasheet covers six on-grid models, QB-6KTLC to QB-17KTLC, all 400 V three-phase and dual-MPPT. It lists no battery input or backup output.
+> - The family sheet publishes 1,100 V maximum DC and a 180 to 1,000 V MPPT range. Corrected cold string Voc must stay below the 1,100 V limit.
+> - The public PDF has no QB-5KTLC column, and the 98.5 to 98.7% efficiency spread should not be used to rank the models.
+
+
 ## Make the phase decision before the brand decision
 
 Start with the electricity connection, not the solar quote. Collect:
 
-- the latest bill and sanction letter;
-- the recorded service phase and voltage;
-- sanctioned or contracted load;
-- the meter and interconnection arrangement;
-- the proposed solar AC capacity;
-- the current state and DISCOM interconnection requirements;
-- any approved load or phase change that must occur before commissioning.
+> [!CHECKLIST] Collect these before choosing a three-phase inverter
+> - the latest bill and sanction letter;
+> - the recorded service phase and voltage;
+> - sanctioned or contracted load;
+> - the meter and interconnection arrangement;
+> - the proposed solar AC capacity;
+> - the current state and DISCOM interconnection requirements;
+> - any approved load or phase change that must occur before commissioning.
 
 The common shortcut is to say that every property above one nationwide capacity must use a three-phase inverter. There is no single nationwide capacity rule that applies everywhere. A threshold may apply in a specific utility, tariff category, connection agreement, or project route. Put the controlling document and clause in the design file.
 
@@ -62,13 +71,16 @@ The [single-phase versus three-phase inverter guide](/blog/single-vs-3-phase-inv
 
 The QB-6/8/10/12/15/17KTLC document is titled `On-grid Inverter`. It does not list battery input, backup output, islanded operation, or power-cut transfer behaviour.
 
-That matters for homes and small businesses with three-phase service. A [three-phase on-grid inverter](/on-grid-inverter/) can reduce grid imports when the utility is present, subject to the approved design. It should not be bought to keep lights, pumps, air conditioners, or other loads running during an outage.
+> [!WARNING] An on-grid KTLC does not keep loads running in an outage
+> That matters for homes and small businesses with three-phase service. A [three-phase on-grid inverter](/on-grid-inverter/) can reduce grid imports when the utility is present, subject to the approved design. It should not be bought to keep lights, pumps, air conditioners, or other loads running during an outage.
 
 If backup is required, define the protected circuits, phase arrangement, running and starting loads, battery, isolation method, and transfer requirement first. Then compare exact [hybrid or backup models](/hybrid-inverter/) whose documents cover those functions. The [on-grid, hybrid, and off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) owns that topology choice.
 
 ## What the Qbits KTLC datasheet states
 
 The current Qbits product record routes buyers to `QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf`. We visually checked that PDF on 26 September 2026.
+
+Table: Qbits QB-6/8/10/12/15/17KTLC datasheet fields by exact model (checked 26 September 2026)
 
 | Exact model | Rated AC output | Maximum AC apparent output | Maximum DC input power | Maximum DC input current | Strings per MPPT | Maximum efficiency |
 | --- | ---: | ---: | ---: | --- | --- | ---: |
@@ -78,6 +90,33 @@ The current Qbits product record routes buyers to `QB_Data-Sheet_6.0-17.0-kw_2MP
 | QB-12KTLC | 12,000 W | 13.2 kVA | 18,000 W | 20 A / 20 A | 1 / 1 | 98.7% |
 | QB-15KTLC | 15,000 W | 16.5 kVA | 22,500 W | 20 A / 30 A | 1 / 2 | 98.7% |
 | QB-17KTLC | 17,000 W | 18.7 kVA | 25,500 W | 20 A / 30 A | 1 / 2 | 98.7% |
+
+```chart
+type: bar
+title: Rated AC output and maximum DC input power by model (W)
+unit: "W"
+source: "Qbits QB-6/8/10/12/15/17KTLC three-phase on-grid datasheet (QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf), visually checked 26 September 2026, as shown in the table above"
+sourceUrl: https://qbitsenergy.com/datasheets/products/QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf
+note: "Manufacturer-published fields, not independent performance results."
+series:
+  - name: "Rated AC output"
+    data:
+      - { label: "QB-6KTLC", value: 6000 }
+      - { label: "QB-8KTLC", value: 8000 }
+      - { label: "QB-10KTLC", value: 10000 }
+      - { label: "QB-12KTLC", value: 12000 }
+      - { label: "QB-15KTLC", value: 15000 }
+      - { label: "QB-17KTLC", value: 17000 }
+  - name: "Maximum DC input power"
+    data:
+      - { label: "QB-6KTLC", value: 9000 }
+      - { label: "QB-8KTLC", value: 12000 }
+      - { label: "QB-10KTLC", value: 15000 }
+      - { label: "QB-12KTLC", value: 18000 }
+      - { label: "QB-15KTLC", value: 22500 }
+      - { label: "QB-17KTLC", value: 25500 }
+```
+
 
 Shared family fields in the datasheet include:
 
@@ -100,7 +139,8 @@ These are manufacturer-published specification fields, not independent performan
 
 The current repository product name says `QB 5/6/8/10/12/15/17KTLC` and records a 5 to 17 kW range. The linked public PDF is headed `QB-6/8/10/12/15/17KTLC` and contains no QB-5KTLC column.
 
-The PDF is the stronger technical evidence for the values above. If a seller quotes `QB-5KTLC`, ask for the exact current datasheet, product label, certificate scope, installation manual, and warranty document for that SKU. Do not assume that the 6 kW column also covers 5 kW.
+> [!IMPORTANT] If a seller quotes QB-5KTLC
+> The PDF is the stronger technical evidence for the values above. If a seller quotes `QB-5KTLC`, ask for the exact current datasheet, product label, certificate scope, installation manual, and warranty document for that SKU. Do not assume that the 6 kW column also covers 5 kW.
 
 This discrepancy should also be corrected in the product record before a 5 kW KTLC claim is published as settled. Until then, the defensible public family begins at QB-6KTLC.
 
@@ -170,6 +210,8 @@ The same caution applies to the `Expandable Warranty` badge. The public datashee
 ## The quote should contain more than an inverter model
 
 Require a controlled document set before payment:
+
+Table: Documents to require before payment and what to confirm in each
 
 | Required item | What to confirm |
 | --- | --- |

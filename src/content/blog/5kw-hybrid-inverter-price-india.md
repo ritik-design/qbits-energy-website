@@ -45,8 +45,7 @@ A **5 kW hybrid inverter price in India is not one dependable number**. Public l
 
 Qbits does not publish a price for its 5 kW hybrid models, the single-phase QBH 5KS48P and the three-phase QBH-5KS48P3. They are quoted through dealers, so the useful Qbits comparison is the datasheet, not a rupee figure. This guide covers 5 kW only. For 3, 8 and 10 kW and for the on-grid comparison, use the [hybrid inverter price guide for all sizes](/blog/hybrid-inverter-price-india/).
 
-> **Price evidence at a glance, checked 14 October 2026**
->
+> [!KEYTAKEAWAYS] Price evidence at a glance, checked 14 October 2026
 > - Manufacturer and brand-store listings: Luminous ₹63,899 (including all taxes), Devsol ₹68,250 (MRP including GST), Nexus ₹81,375 (MRP including GST).
 > - Indian retailer listings of imported brands: Solis S6-EH1P5K-L-PLUS ₹1,09,899 and Deye SUN-5K-SG04LP1-EU ₹1,35,888. Both pages showed "Sold out" on the day and did not state tax treatment.
 > - Complete kit: the Waaree Radiance-Lite 5 kW hybrid kit at ₹4,12,999 including taxes, with modules, inverter and a lithium battery.
@@ -57,6 +56,8 @@ Qbits does not publish a price for its 5 kW hybrid models, the single-phase QBH 
 
 The table lists named, non-Qbits 5 kW models with the price, the source and the details that change what the price buys. It is not a ranking and does not compare performance. One row is a 48 V platform, two are 24 V and two accept low-voltage batteries in the 40 to 60 V range, which is why the same "5 kW" label does not mean the same product.
 
+Table: Named 5 kW hybrid inverter listings checked 14 October 2026: price shown, source type and battery platform (not a ranking)
+
 | Brand and model | Price shown | Source type | Battery platform and key listing facts |
 | --- | ---: | --- | --- |
 | [Luminous Solar Hybrid TX 5 kVA](https://www.luminousindia.com/solar-inverters/solar-hybrid-tx-5kva) | ₹63,899 (MRP ₹1,10,000), inclusive of all taxes | Manufacturer store | Single-phase, 5 kW rated output, 48 V, 36-month warranty on the page, one inverter in the box |
@@ -66,7 +67,22 @@ The table lists named, non-Qbits 5 kW models with the price, the source and the 
 | [Deye SUN-5K-SG04LP1-EU](https://shop.enleadenergy.com/products/deye-sun-5k-sg03lp1-eu) | ₹1,35,888 (regular price ₹1,55,999) | Indian retailer (Enlead Energy) | Low-voltage battery, 135 A maximum charge or discharge current, 2 MPPT, single-phase; page showed sold out; tax treatment not stated |
 | Qbits QBH 5KS48P and QBH-5KS48P3 | Written quote required | Qbits datasheet | See the Qbits section below |
 
-Three points keep this table honest. First, the retailer rows are for imported-brand units and the retailer's own margin, freight and import costs sit in those numbers. Second, a sold-out page shows the last listed price, not a price you can buy at today. Third, a secondary blog from June 2026 listed a Deye 5 kW hybrid at ₹68,000 with no tax or scope stated, half of what the retailer shows, which is exactly why a price "band" without a source and a scope is a weak planning tool. Use the table to learn what questions to ask, then collect your own quotes.
+```chart
+type: hbar
+title: Listed price of named 5 kW hybrid inverters, 14 October 2026
+unit: "₹"
+source: "Manufacturer store pages (Luminous, Devsol, Nexus) and Indian retailer pages (Enlead Energy, for Solis and Deye), read 14 October 2026, as shown in the listing table above"
+note: "Not a ranking or a market range. Luminous is the price shown; Devsol and Nexus are MRPs. The Solis and Deye pages showed sold out and did not state tax treatment. Qbits is quote-only and not charted."
+data:
+  - { label: "Luminous Solar Hybrid TX 5 kVA", value: 63899 }
+  - { label: "Devsol INNO 8G 5kW (MRP)", value: 68250 }
+  - { label: "Nexus DEV HYD 5 kW (MRP)", value: 81375 }
+  - { label: "Solis S6-EH1P5K-L-PLUS", value: 109899 }
+  - { label: "Deye SUN-5K-SG04LP1-EU", value: 135888 }
+```
+
+> [!TIP] A sold-out page is not a price you can buy at
+> Three points keep this table honest. First, the retailer rows are for imported-brand units and the retailer's own margin, freight and import costs sit in those numbers. Second, a sold-out page shows the last listed price, not a price you can buy at today. Third, a secondary blog from June 2026 listed a Deye 5 kW hybrid at ₹68,000 with no tax or scope stated, half of what the retailer shows, which is exactly why a price "band" without a source and a scope is a weak planning tool. Use the table to learn what questions to ask, then collect your own quotes.
 
 Nexus has also published a broader ₹75,000 to ₹1,60,000 category band in its manufacturer buying guide. Its method and sample are not disclosed, so it is not used here as a market range.
 
@@ -88,6 +104,8 @@ Two 5 kW hybrids with a ₹70,000 gap are not the same machine at different marg
 
 Both Deye products below came from the same Indian retailer, which makes the comparison cleaner than mixing brands.
 
+Table: Same-retailer and cross-brand on-grid versus hybrid 5 kW price pairs
+
 | Pair | On-grid price | Hybrid price | Gap |
 | --- | ---: | ---: | ---: |
 | Deye 5 kW: 5K-G05 on-grid vs SUN-5K-SG04LP1-EU hybrid (same retailer) | ₹37,999 | ₹1,35,888 | ₹97,889 |
@@ -98,6 +116,8 @@ The Deye pair shows a gap of about 3.6 times, and the cross-brand pair about 1.4
 ## Battery pairing cost for a 5 kW hybrid, with the arithmetic
 
 A 5 kW inverter does not automatically require a 5 kWh battery. Inverter power is kW and battery energy is kWh. Two dated listings show how different chemistries price.
+
+Table: Two dated battery listings for a 5 kW hybrid: price, nominal energy and rated life as printed
 
 | Battery listing | Price shown | Nominal energy | Rated life as printed |
 | --- | ---: | --- | --- |
@@ -117,6 +137,8 @@ For a rough pairing, add the battery to the inverter listing from the same brand
 
 A quote labelled "5 kW hybrid" can cover three very different purchases.
 
+Table: What each kind of "5 kW hybrid" quote should identify and common exclusions
+
 | Quote type | It should identify | Common exclusions to check |
 | --- | --- | --- |
 | Inverter only | Exact model, phase, rated output, tax treatment and supplied accessories | Battery, protection devices, freight, installation and commissioning |
@@ -129,15 +151,18 @@ The one complete-kit listing in this guide is the [Waaree Radiance-Lite 5 kW hyb
 
 Start with these five checks before comparing the rupee figure.
 
-1. **kW versus kVA.** kW is real power. kVA is apparent power. A 5 kVA name is not enough by itself; check the rated output in kW and power factor.
-2. **Single-phase versus three-phase.** The Luminous and Deye listings state single-phase. The QBH-5KS48P3 is three-phase, so check the phase on any listing that does not say.
-3. **Grid output versus backup output.** Some documents show different continuous ratings for the grid and backup ports. Use the rating for the load you expect that port to carry.
-4. **Battery voltage and protocol.** 24 V and 48 V systems are not interchangeable. A CAN or RS485 socket alone does not prove that a specific battery-management system is approved.
-5. **Maximum versus everyday operation.** Maximum PV input, short overload and peak efficiency are limits or test results. They are not continuous output promises.
+> [!CHECKLIST] Five checks before comparing rupee figures
+> - **kW versus kVA.** kW is real power. kVA is apparent power. A 5 kVA name is not enough by itself; check the rated output in kW and power factor.
+> - **Single-phase versus three-phase.** The Luminous and Deye listings state single-phase. The QBH-5KS48P3 is three-phase, so check the phase on any listing that does not say.
+> - **Grid output versus backup output.** Some documents show different continuous ratings for the grid and backup ports. Use the rating for the load you expect that port to carry.
+> - **Battery voltage and protocol.** 24 V and 48 V systems are not interchangeable. A CAN or RS485 socket alone does not prove that a specific battery-management system is approved.
+> - **Maximum versus everyday operation.** Maximum PV input, short overload and peak efficiency are limits or test results. They are not continuous output promises.
 
 ## What the Qbits datasheets establish for 5 kW
 
 Qbits makes two 5 kW hybrid options, and neither has a published price.
+
+Table: Qbits 5 kW hybrid datasheet facts (no published price)
 
 | Model | Phase | Datasheet facts for the 5 kW variant | Links |
 | --- | --- | --- | --- |
@@ -167,14 +192,19 @@ On GST, the rate for the specified renewable energy devices is 5% from 22 Septem
 
 Room count does not size an inverter. Work through this list with your own figures.
 
-1. **List the loads that must stay on.** Write the running watts from each appliance's nameplate. For example, if the fans, lights, fridge and router total 450 W, that is the baseline.
-2. **Add the starting surge of the largest motor load.** A compressor or pump can draw several times its running power for a moment. Compare the total with the inverter's surge rating and how long it holds.
-3. **Check continuous battery discharge.** The inverter cannot deliver more than the battery bank can supply. Use the battery current rating discussed above, not the nameplate kW.
-4. **Pick the outage hours.** Multiply the backup load by the hours you want to cover, then convert to nominal battery size as below.
-5. **Check phase.** If your connection is three-phase, a single-phase unit does not balance it.
-6. **Check whether one air conditioner or two.** Two running together on backup may exceed a single 5 kW unit's continuous rating.
+> [!CHECKLIST] Six checks before sizing a 5 kW hybrid
+> - **List the loads that must stay on.** Write the running watts from each appliance's nameplate. For example, if the fans, lights, fridge and router total 450 W, that is the baseline.
+> - **Add the starting surge of the largest motor load.** A compressor or pump can draw several times its running power for a moment. Compare the total with the inverter's surge rating and how long it holds.
+> - **Check continuous battery discharge.** The inverter cannot deliver more than the battery bank can supply. Use the battery current rating discussed above, not the nameplate kW.
+> - **Pick the outage hours.** Multiply the backup load by the hours you want to cover, then convert to nominal battery size as below.
+> - **Check phase.** If your connection is three-phase, a single-phase unit does not balance it.
+> - **Check whether one air conditioner or two.** Two running together on backup may exceed a single 5 kW unit's continuous rating.
 
-Planning example (assumed round figures, not a product claim): a steady 500 W essential load for four hours is 0.5 kW × 4 h = 2 kWh of AC energy. With an assumed 90% conversion efficiency and 80% usable battery capacity, the nominal battery is 2 kWh ÷ (0.90 × 0.80) = 2.78 kWh. That result still needs checks for starting current, temperature, reserve and ageing. The [battery sizing guide](/blog/battery-sizing-hybrid-solar/) walks the same method load by load, and the [best 5 kW inverter guide](/blog/best-5kw-solar-inverter-india-2026/) compares the 5 kW fit across on-grid and hybrid options.
+> [!FORMULA] Nominal battery size
+> Nominal battery (kWh) = load (kW) × backup hours ÷ (conversion efficiency × usable depth of discharge)
+
+> [!EXAMPLE] 500 W essential load for four hours
+> Planning example (assumed round figures, not a product claim): a steady 500 W essential load for four hours is 0.5 kW × 4 h = 2 kWh of AC energy. With an assumed 90% conversion efficiency and 80% usable battery capacity, the nominal battery is 2 kWh ÷ (0.90 × 0.80) = 2.78 kWh. That result still needs checks for starting current, temperature, reserve and ageing. The [battery sizing guide](/blog/battery-sizing-hybrid-solar/) walks the same method load by load, and the [best 5 kW inverter guide](/blog/best-5kw-solar-inverter-india-2026/) compares the 5 kW fit across on-grid and hybrid options.
 
 ## Buy hybrid now and battery later, or on-grid now?
 

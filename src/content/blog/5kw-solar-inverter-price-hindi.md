@@ -37,18 +37,23 @@ featured: false
 language: hi
 ---
 
+> [!NOTE] सारांश (हिंदी में)
+> - 5 kW सोलर इन्वर्टर की कोई एक तय कीमत नहीं होती। यही वाक्यांश चार अलग चीज़ें बताता है: सिर्फ़ इन्वर्टर, इन्वर्टर के साथ एक्सेसरीज़, बैटरी वाला हाइब्रिड पैकेज, या पूरा रूफटॉप सिस्टम। कोटेशन की तुलना से पहले स्कोप तय करें।
+> - PM सूर्य घर की केंद्रीय सहायता 3 kW पर सीमित हो जाती है, आमतौर पर अधिकतम ₹78,000 (MNRE रेज़िडेंशियल CFA गाइडलाइंस, 2024)। 5 kW सिस्टम को 3 kW से ऊपर की क्षमता पर अतिरिक्त केंद्रीय सहायता नहीं मिलती।
+> - ऑन-ग्रिड से हाइब्रिड में कीमत का बड़ा अंतर बैटरी से आता है। इस गाइड के प्लानिंग फ्रेम में बैटरी, रैक और BMS वायरिंग हाइब्रिड कोटेशन का लगभग 25 से 40 प्रतिशत है।
+> - सिंगल-फेज़ या थ्री-फेज़ का फ़ैसला आपके DISCOM की कनेक्शन शर्तों और स्वीकृत लोड से होता है, इन्वर्टर के लेबल से नहीं।
+> - 5 kW हाइब्रिड इन्वर्टर की सार्वजनिक सूचियों की कीमतें, 14 अक्टूबर 2026 को जाँची गईं, तारीख़ और स्रोत के साथ नीचे एक अलग सेक्शन में हैं। Qbits जैसे ब्रांड डीलर नेटवर्क के ज़रिए कोटेशन पर बेचते हैं, इसलिए Qbits मॉडल की कोई कीमत यहाँ नहीं दी गई है।
+
 5 kW rooftop ka pehla sawal hamesha price hota hai. Lekin "5 kW solar inverter price" ek single number nahi hai. Wahi phrase char alag cheezon ko describe karta hai: akela inverter unit, inverter plus monitoring accessories, hybrid package with battery, ya poora rooftop system. Isi wajah se do quotes ek hi model par bhi bahut alag dikh sakte hain.
 
 Is size par ek doosra point hai jo zyadatar pages chhod dete hain. PM Surya Ghar ki central financial assistance 3 kW par cap ho jati hai. Matlab 5 kW system ko 3 kW ke upar wali capacity par koi extra central assistance nahi milti. Top 2 kW ka pura cost aapke gross payable mein rehta hai. Yeh 5 kW decision ka sabse bada financial fact hai, aur is size par sabse kam bola jata hai.
 
 Yeh guide price ko us tarah todta hai jaise ek quote actually banta hai. Scope, phase, battery, component shares, specs aur warranty, har section mein woh cheez jo aap apne quote par verify kar sakte hain. Kahin bhi kisi Qbits model ka rupee rate nahi hai, kyunki Qbits apne dealer network ke through quote-based bechta hai. Aakhir mein ek worked payback example hai, poori assumptions ke saath, bina kisi guarantee ke.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - "5 kW inverter price" ke char alag scopes hote hain. Quote compare karne se pehle scope pin karein, warna comparison meaningless hai.
-> - PM Surya Ghar assistance 3 kW par cap hoti hai, usual ceiling ₹78,000. 5 kW ko extra central assistance nahi milti, according to MNRE residential CFA operational guidelines (2024).
-> - MNRE ke residential CFA guidelines (13 February 2024 se) ka benchmark cost ₹50,000 per kW hai pehle 2 kW par aur ₹45,000 per additional kW. Yeh poore system ka benchmark hai, inverter ka rate nahi.
-> - Single-phase ya three-phase ka faisla aapke DISCOM ki connection conditions aur sanctioned load se hota hai, inverter label se nahi.
-> - On-grid se hybrid ka price jump battery se aata hai, inverter se nahi.
+> - PM Surya Ghar assistance 3 kW par cap hoti hai, usual ceiling ₹78,000. 5 kW ko extra central assistance nahi milti, according to MNRE residential CFA operational guidelines (2024). MNRE ke residential CFA guidelines (13 February 2024 se) ka benchmark cost ₹50,000 per kW hai pehle 2 kW par aur ₹45,000 per additional kW. Yeh poore system ka benchmark hai, inverter ka rate nahi.
+> - Single-phase ya three-phase ka faisla aapke DISCOM ki connection conditions aur sanctioned load se hota hai, inverter label se nahi. On-grid se hybrid ka price jump battery se aata hai, inverter se nahi.
 > - 20 A maximum DC input current aur 18 A class G12 modules ka combination string paralleling ko block kar deta hai. Yeh design constraint quote badal deta hai.
 > - MNRE ne March 2026 mein collateral-free loan repo rate plus 50 basis points par rakha, us date par 5.75 percent per annum.
 
@@ -68,6 +73,8 @@ Agar aapki consumption kam hai to 5 kW over-sizing ho sakta hai. Us case mein [3
 
 Yeh section sabse zyada paisa bachata hai. Same phrase par milne wale char quotes structurally different hote hain, aur unko side by side rakhna galat conclusion deta hai. Pehle scope identify karein, phir number compare karein.
 
+Table: 5 kW inverter quote ke chaar scope, aur har scope mein kya included ya miss hota hai
+
 | Quote ka scope | Kya included hota hai | Kya miss hota hai |
 | --- | --- | --- |
 | Inverter only | Sirf inverter unit | Modules, structure, cabling, labour, metering |
@@ -76,6 +83,8 @@ Yeh section sabse zyada paisa bachata hai. Same phrase par milne wale char quote
 | Complete rooftop system | Modules, structure, inverter, cabling, protection, earthing, installation, testing | Metering aur DISCOM charges kabhi customer scope mein |
 
 Quote par yeh fields likhi honi chahiye. Inke bina do quotes ka gap measure nahi ho sakta.
+
+Table: Fields jo har 5 kW inverter quote par likhi honi chahiye
 
 | Field | Required detail |
 | --- | --- |
@@ -96,6 +105,8 @@ Har vendor se same bill of quantities par gross total maangein. Tabhi rupee gap 
 Mechanism samajhna zaroori hai. Net metering approval aapke sanctioned load aur connection type se linked hota hai, aur governing documents CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations aur aapke DISCOM ki apni connection conditions hain. Voltage aur frequency trip windows in documents aur model manual se lein, kisi blog se nahi.
 
 MNRE ne March 2026 mein is process ka friction kam kiya. Technical feasibility requirement waive hui, 10 kW tak auto load enhancement introduce hua, aur net metering agreement National Portal application mein fold ho gaya, according to MNRE and PIB material (March 2026). Yeh load enhancement easier banata hai, lekin phase requirement DISCOM ke paas hi rehti hai.
+
+Table: Single-phase aur three-phase 5 kW system ka comparison
 
 | Factor | Single-phase 5 kW | Three-phase 5 kW |
 | --- | --- | --- |
@@ -126,9 +137,42 @@ Qbits ki hybrid range mein single-phase QBH 3KS to 6KS48P family 97.6 percent ma
 
 Operating difference ke liye [hybrid solar inverter ka Hindi guide](/blog/hybrid-solar-inverter-hindi/) padhein. Product-level comparison [hybrid inverter page](/hybrid-inverter/) par hai, aur grid-tied options [on-grid inverter page](/on-grid-inverter/) par.
 
+## 5 kW hybrid inverter ki listed prices: 14 October 2026 ke dated sources
+
+Hybrid ke liye ek rupee number ki jagah dated, named listings dekhna better hai. Neeche ki prices 14 October 2026 ko public listings par check ki gayi thi, aur har row ka source type likha hai. Detail aur links hamari [5 kW hybrid inverter price guide](/blog/5kw-hybrid-inverter-price-india/) mein hain. Yeh sirf inverter ki listed prices hain. Yeh installed system ka price nahi hain, aur inme Qbits ka koi model shamil nahi hai.
+
+Table: 5 kW hybrid inverters ki public listed prices, 14 October 2026 ko check ki gayi (inverter only)
+
+| Model | Listed price | Source type | Note |
+| --- | ---: | --- | --- |
+| Luminous Solar Hybrid TX 5 kVA | ₹63,899 | Manufacturer store | Single-phase, 48 V; sabhi taxes included; MRP ₹1,10,000 |
+| Devsol INNO 8G 5 kW | ₹68,250 | Manufacturer site | 24 V; MRP including GST |
+| Nexus DEV HYD 5 kW | ₹81,375 | Manufacturer site | 24 V; MRP, GST included |
+| Solis S6-EH1P5K-L-PLUS | ₹1,09,899 | Indian retailer (Enlead Energy) | Page par sold out; tax treatment stated nahi |
+| Deye SUN-5K-SG04LP1-EU | ₹1,35,888 | Indian retailer (Enlead Energy) | Page par sold out; tax treatment stated nahi |
+
+```chart
+type: hbar
+title: 5 kW hybrid inverter listed prices, inverter only, checked 14 October 2026
+unit: "₹"
+source: "Public listings checked 14 October 2026: Luminous store, Devsol and Nexus manufacturer sites, Enlead Energy retailer pages (Solis, Deye), as compiled in the Qbits 5 kW hybrid inverter price guide"
+sourceUrl: https://qbitsenergy.com/blog/5kw-hybrid-inverter-price-india/
+note: "Listed prices, not installed prices. Luminous is inclusive of taxes; Devsol and Nexus are MRP including GST; the two retailer rows did not state tax treatment and showed sold out."
+data:
+  - { label: "Luminous TX 5 kVA", value: 63899 }
+  - { label: "Devsol INNO 8G 5 kW", value: 68250 }
+  - { label: "Nexus DEV HYD 5 kW", value: 81375 }
+  - { label: "Solis S6-EH1P5K-L-PLUS", value: 109899 }
+  - { label: "Deye SUN-5K-SG04LP1-EU", value: 135888 }
+```
+
+Teen baatein dhyan mein rakhein. Pehli, retailer rows imported brands ki hain, jinme retailer ka margin, freight aur import cost shamil hota hai. Doosri, sold-out page last listed price dikhata hai, aisi price jis par aap aaj kharid nahi sakte. Teesri, battery alag lagti hai: same-brand listings jodne par Luminous TX 5 kVA (₹63,899) plus chaar Luminous LPTT 12150H 150 Ah tubular batteries (₹17,999 each) lagbhag ₹1,35,895 ka inverter-plus-battery subtotal deta hai. Yeh bhi installed price nahi hai, kyunki modules, structure, protection, wiring aur installation isme nahi hain.
+
 ## Itemised quote mein har hisse ka share kitna hota hai
 
 Fixed rupee lines ki jagah shares dekhna better hai. Rupee rates market ke saath badalte hain, lekin structure roughly stable rehta hai. Neeche wala frame industry-observed planning frame hai, published dataset nahi. Ise apne actual quotes par verify karein.
+
+Table: Industry-observed planning frame: 5 kW quote ke component groups ka share, on-grid aur hybrid (published dataset nahi)
 
 | Component group | On-grid 5 kW mein share | Hybrid 5 kW mein share |
 | --- | ---: | ---: |
@@ -146,9 +190,12 @@ Agar koi quote in groups ko ek single "supply and installation" line mein merge 
 
 ## PM Surya Ghar: derived per-kW benchmark aur 3 kW cap ka 5 kW par asar
 
-Yeh 5 kW ka sabse important honest point hai. Central assistance 3 kW par cap hoti hai, isliye 5 kW system ko upar ki capacity par extra central assistance nahi milti. Isko proportional na samjhein. 5 kW par assistance ko 5 guna karna galat hai.
+> [!IMPORTANT] 5 kW par assistance 5 guna nahi hoti
+> Yeh 5 kW ka sabse important honest point hai. Central assistance 3 kW par cap hoti hai, isliye 5 kW system ko upar ki capacity par extra central assistance nahi milti. Isko proportional na samjhein. 5 kW par assistance ko 5 guna karna galat hai.
 
 MNRE residential CFA guidelines (2024) ka published structure yeh hai.
+
+Table: PM Surya Ghar standard central assistance by installed solar module capacity (MNRE residential CFA guidelines, 2024)
 
 | Installed solar module capacity | Standard central assistance |
 | --- | ---: |
@@ -157,6 +204,22 @@ MNRE residential CFA guidelines (2024) ka published structure yeh hai.
 | 3 kW ya usse zyada | Up to ₹78,000 |
 
 Formula PIB (2024) mein publish hua hai: pehle 2 kW par benchmark cost ka 60 percent, aur 2 se 3 kW slice par additional cost ka 40 percent, 3 kW par capped. In dono ko milakar benchmark derive kiya ja sakta hai.
+
+> [!FORMULA]
+> Central assistance = 60% × benchmark cost (pehle 2 kW) + 40% × benchmark cost (teesra kW), 3 kW par capped
+
+```chart
+type: bar
+title: Standard central assistance by system size
+unit: "₹"
+source: "MNRE operational guidelines for the residential CFA component of PM Surya Ghar: Muft Bijli Yojana (2024), as cited in the table above; assistance stops rising at 3 kW"
+note: "A 5 kW system receives the same central assistance as a 3 kW system (up to the usual ceiling). Special category states have higher rates."
+data:
+  - { label: "1 kW", value: 30000 }
+  - { label: "2 kW", value: 60000 }
+  - { label: "3 kW", value: 78000 }
+  - { label: "5 kW", value: 78000 }
+```
 
 **Cross-check: benchmark aur CFA ka rishta (arithmetic):**
 
@@ -184,6 +247,8 @@ Rules state aur DISCOM ke hisaab se badalte hain, aur koi slab kisi reader ke li
 
 Same capacity par do quotes ka gap random nahi hota. Usually char ya paanch identifiable drivers hote hain. Gap ko in drivers par map karein, phir negotiate karein.
 
+Table: Do dealers ke 5 kW quote mein rupee gap ke saat source
+
 | Gap ka source | Kaise pehchanein |
 | --- | --- |
 | Different scope | Ek quote mein metering ya approvals customer scope mein hai |
@@ -200,6 +265,8 @@ Tax point par thodi clarity useful hai. Notification 9/2025-Integrated Tax (Rate
 
 Yahan se decision technical ho jata hai. Ek mehanga inverter tab justified hai jab uske specs aapke roof ke liye actually relevant hon. Neeche 5 kW class ke Qbits options ke published specs hain, taaki aap dekh sakein ki kaun sa spec kis design ko possible banata hai. 5 kW on-grid ke liye [QB 4.2/4.6/5/5.4/6KTLS family](/our-products/QB-4.6-6KTLS/) aur battery backup ke liye [QBH 3 se 6KS48P family](/our-products/QBH-3-6KS48P/) ke model pages dekhein. Datasheet PDFs [download datasheets](/download-datasheets/) page par milte hain.
 
+Table: 5 kW class ke Qbits on-grid aur hybrid series ke published specs
+
 | Series | Phase | MPPT | MPPT voltage window | Maximum DC | Efficiency | Enclosure |
 | --- | --- | --- | --- | --- | --- | --- |
 | QB 4.2/4.6/5/5.4/6KTLS | Single | 1 | 40 to 600 V | 600 V | 98.0 to 98.1 percent by model | IP66 |
@@ -212,7 +279,8 @@ Char specs par focus karein. **MPPT count** decide karta hai ki do alag roof fac
 
 Aakhri spec 2026 mein sabse zyada matter karta hai. Single-MPPT KTLS family 20 A maximum DC input current list karti hai, aur dual-MPPT KTLD family 20 A per MPPT. Modern G12 modules ka Isc isi 18 A band mein aa gaya hai. Adani ASB-M12-132-650 ka Isc 18.85 A hai, Waaree BiN-03-700 ka 18.31 A, aur Vikram VSMDH.66.680.05 ka 18.23 A, un manufacturers ke published datasheets ke mutabik.
 
-Iska practical matlab yeh hai. Ek single string of 18 A class modules 20 A input par fit ho jati hai, margin kam hone ke baad bhi. Do such strings parallel karna 20 A input par possible nahi hai, kyunki combined Isc limit se kaafi upar chala jata hai. Isliye high-current G12 modules ke saath aapko separate MPPT inputs chahiye, sirf ek bada input nahi.
+> [!WARNING] 18 A class G12 modules ke saath do strings parallel nahi hoti
+> Iska practical matlab yeh hai. Ek single string of 18 A class modules 20 A input par fit ho jati hai, margin kam hone ke baad bhi. Do such strings parallel karna 20 A input par possible nahi hai, kyunki combined Isc limit se kaafi upar chala jata hai. Isliye high-current G12 modules ke saath aapko separate MPPT inputs chahiye, sirf ek bada input nahi.
 
 Wahi baat lower-Isc modules par ulti hai. Adani ASB-M10-144-580 ka Isc 13.95 A hai aur AB-G12R-132-640 ka 16.09 A, to yeh modules input current budget par aasan hain. Yeh single MPPT design ko viable rakhta hai.
 
@@ -227,6 +295,8 @@ Warranty price ka hissa hai, isliye usko spec ki tarah compare karein. Number se
 Qbits ki public datasheets expandable warranty describe karti hain, lekin base term, remedy, registration deadline aur exclusions define nahi karti. Published material mein yeh bhi note hai ki public datasheets base warranty term define nahi karte, isliye current written terms dealer se lena zaroori hai. Hybrid units par published phrase UPS switching within 10 seconds hai.
 
 Warranty compare karte waqt yeh sawal chalaein.
+
+Table: Warranty compare karte waqt dealer se kya likhit maangein
 
 | Point | Kya likhit maangein |
 | --- | --- |
@@ -253,8 +323,12 @@ Yeh ek illustrative calculation hai, prediction nahi. Har input assumption hai, 
 - Central assistance ₹78,000, jo 3 kW cap par based hai.
 - Self-consumption 70 percent, retail tariff ₹7.00 per kWh. Export 30 percent, export credit ₹3.00 per kWh. Dono assumptions hain, actual rates state tariff order se aate hain.
 
+> [!FORMULA] Simple payback
+> Simple payback (saal) = (Benchmark cost − central assistance) ÷ saalana value of bill savings aur export credit
+
 **Calculation:**
 
+<!-- steps -->
 1. Annual generation = 5 kW times 4.0 kWh per kWp per day times 365 = 7,300 kWh.
 2. Self-consumed units = 7,300 times 0.70 = 5,110 kWh. Value = 5,110 times ₹7.00 = ₹35,770.
 3. Exported units = 7,300 times 0.30 = 2,190 kWh. Value = 2,190 times ₹3.00 = ₹6,570.
@@ -270,18 +344,19 @@ Yeh arithmetic annual degradation, O and M cost, insurance aur inflation ko igno
 
 Quote sign karne se pehle yeh list chalaein. Sab jawab likhit mein maangein, WhatsApp message par nahi.
 
-1. Exact inverter model code aur module model code kya hai?
-2. Is model ka MPPT count, MPPT voltage window, maximum DC voltage aur maximum DC input current kya hai?
-3. Mere roof layout par kitni strings hain, aur har string mein kitne modules?
-4. Cold-temperature Voc check kiya gaya hai? Uska calculation dikhaein.
-5. Quote single-phase hai ya three-phase, aur mere DISCOM ne kya confirm kiya hai?
-6. Metering, DISCOM charges, liaisoning aur documentation kiske scope mein hain?
-7. Line-wise GST rate aur HSN code kya hai?
-8. Warranty ka written term, exclusions aur claim route kya hai?
-9. Hybrid hai to approved battery models aur backup output rating kya hai?
-10. Local authorised service partner kaun hai aur uska response scope kya hai?
-11. Commissioning ke baad 5 saal ka maintenance contract kaun de raha hai?
-12. Subsidy estimate ko approved payment ke roop mein nahi likha gaya hai, yeh confirm karein.
+> [!CHECKLIST] Quote sign karne se pehle dealer se poochein
+> - Exact inverter model code aur module model code kya hai?
+> - Is model ka MPPT count, MPPT voltage window, maximum DC voltage aur maximum DC input current kya hai?
+> - Mere roof layout par kitni strings hain, aur har string mein kitne modules?
+> - Cold-temperature Voc check kiya gaya hai? Uska calculation dikhaein.
+> - Quote single-phase hai ya three-phase, aur mere DISCOM ne kya confirm kiya hai?
+> - Metering, DISCOM charges, liaisoning aur documentation kiske scope mein hain?
+> - Line-wise GST rate aur HSN code kya hai?
+> - Warranty ka written term, exclusions aur claim route kya hai?
+> - Hybrid hai to approved battery models aur backup output rating kya hai?
+> - Local authorised service partner kaun hai aur uska response scope kya hai?
+> - Commissioning ke baad 5 saal ka maintenance contract kaun de raha hai?
+> - Subsidy estimate ko approved payment ke roop mein nahi likha gaya hai, yeh confirm karein.
 
 ## The Bottom Line
 

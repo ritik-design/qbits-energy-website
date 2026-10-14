@@ -4,7 +4,7 @@ excerpt: "Reactive power support from solar inverters can eliminate DISCOM power
 description: "Reactive power from solar inverters can eliminate DISCOM power factor penalties. Learn what VARs and CEA Grid Code 2020 require for plants above 100 kW."
 category: Technology
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "15 min"
 image: "/og/blog-reactive-power-solar-inverters-india.webp"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ faqs:
 
 Every DISCOM in India has a [power factor](https://heavendesigns.in/blog/solar-pv-and-the-power-factor-trap-how-industrial-plants-can-avoid-penalties-after-going-solar/) clause in its tariff schedule. Maintain power factor above 0.95 and you pay the base rate. Drop below 0.95 (as most factories with induction motors do) and the surcharge appears on every bill, month after month. A solar inverter with [reactive power](/glossary/reactive-power/) support capability can compensate for the lagging reactive demand of inductive loads during daylight hours, eliminating or reducing the penalty without buying a dedicated power [factor correction](https://www.surgepv.com/blog/power-factor-correction-solar-inverter) panel.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - CEA [Grid Code](https://www.surgepv.com/glossary/grid-code) 2020 requires solar plants above 100 kW to operate within 0.95 lagging to 0.95 leading power factor; plants above 1 MW must also support automatic voltage regulation (AVR) mode.
 > - A factory at 0.85 power factor can incur a 10-15% DISCOM surcharge, roughly ₹1-2 Lakh per month on a ₹10 Lakh electricity bill.
 > - A solar inverter running below its full kVA rating has spare [reactive-power](https://www.surgepv.com/blog/reactive-power-compensation-solar-inverter) headroom (kVAR² = kVA² − kW²) that can supply a facility's daytime reactive demand at no extra hardware cost.
@@ -52,7 +52,12 @@ Understanding reactive power starts with the distinction between real power and 
 
 [Power factor](/glossary/power-factor/) is the ratio of real power to apparent power: PF = kW / kVA. A perfect system has PF = 1.0, meaning all apparent power is real power. An inductive system (a factory full of motors) has PF of 0.7–0.85, meaning 20–30% of the apparent power drawn from the grid performs no useful work.
 
+> [!FORMULA] Power factor
+> PF = kW ÷ kVA
+
 The reactive power component (measured in kVAR, kilovolt-ampere reactive) flows back and forth in the cables, transformers, and switchgear, heating them without delivering energy to the load. DISCOMs incur infrastructure cost to deliver this reactive current, which is why they penalise facilities that maintain poor power factor.
+
+Table: Power factor, reactive power per 100 kW of load and typical DISCOM surcharge
 
 | Power factor | kVAR per 100 kW of load | Monthly surcharge (typical DISCOM) | Category |
 | --- | --- | --- | --- |
@@ -70,6 +75,9 @@ The reactive power component (measured in kVAR, kilovolt-ampere reactive) flows 
 The financial case for reactive power correction from the solar inverter rests on three numbers: the current power factor penalty, the cost of dedicated power factor correction equipment, and the inverter's reactive power headroom at typical solar generation levels.
 
 If the building's inductive load demand is 150 kVAR during the same hours, the inverter can supply all of it, eliminating the daytime power factor deficit and with it the associated penalty on daytime consumption.
+
+> [!FORMULA] Reactive power headroom of an inverter
+> kVAR² = kVA² − kW²
 
 The alternative (a dedicated automatic power factor correction (APFC) panel) costs ₹3–6 Lakh for a 150 kVAR installation. If the solar inverter can supply that reactive power for free during solar hours, the APFC panel becomes smaller or unnecessary.
 
@@ -101,6 +109,8 @@ The traditional approach to power factor correction is a passive capacitor bank,
 
 Solar inverters with reactive power capability represent an active approach: the inverter's power electronics can synthesise reactive current of any magnitude and phase angle within its rated kVA capability, responding dynamically to load changes.
 
+Table: Capacitor bank against solar inverter reactive support
+
 | Feature | Capacitor bank (passive APFC) | Solar inverter (active reactive support) | Recommendation |
 | --- | --- | --- | --- |
 | Response time | Seconds (relay + contactor) | Milliseconds (PWM control) | Inverter faster |
@@ -110,12 +120,14 @@ Solar inverters with reactive power capability represent an active approach: the
 | Maintenance | Annual inspection of caps + relays | Covered by inverter O&M | Inverter lower |
 | Overcompensation risk | Yes (leading PF) | Yes if misconfigured | Both need commissioning |
 
-The recommended approach for solar C&I installations: use the solar inverter's reactive power capability during solar hours, and retain a reduced-size capacitor bank for night hours and low-solar periods. This hybrid configuration minimises total capital cost while maintaining compliance at all times.
+> [!TIP] Inverter by day, smaller capacitor bank for night
+> The recommended approach for solar C&I installations: use the solar inverter's reactive power capability during solar hours, and retain a reduced-size capacitor bank for night hours and low-solar periods. This hybrid configuration minimises total capital cost while maintaining compliance at all times.
 
 ## The Reactive Power Compliance Test
 
 This four-step framework defines how an EPC team should verify reactive power compliance before DISCOM commissioning inspection. Completing this test during pre-commissioning saves the delay of a failed inspection:
 
+<!-- steps -->
 1. **Baseline measurement**: At the DISCOM meter, measure the existing power factor without solar inverter reactive support active. Record the worst-case (minimum) power factor during typical operating hours using a power quality analyser. This is the target condition the inverter must correct.
 2. **Inverter reactive capability confirmation**: At the expected average solar generation level, calculate the available reactive power headroom. For a 100 kW inverter operating at 70 kW: available kVAR = √(100² − 70²) = 71 kVAR. Confirm this exceeds the reactive demand from step 1.
 3. **Mode configuration and testing**: Configure the inverter's reactive power mode per the DISCOM's interconnection agreement (fixed PF, Q mode, or droop). Apply the configuration and measure the resulting power factor at the DISCOM meter under typical load. Confirm it meets the 0.95 minimum requirement.

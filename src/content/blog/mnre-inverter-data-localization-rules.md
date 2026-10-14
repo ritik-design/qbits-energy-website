@@ -42,15 +42,12 @@ An EPC running rooftop volume under PM Surya Ghar usually has one inverter brand
 
 > **Direct answer.** MNRE requires that all application servers, monitoring and control servers, cloud platforms, and the real-time data associated with rooftop solar systems under [PM Surya Ghar Muft Bijli Yojana](/glossary/pm-surya-ghar/) reside within India, in an encrypted and protected environment. Every inverter OEM must send a written confirmation in the prescribed Annexure-I format to REC, copied to MNRE, within 30 days of issue. An OEM that misses that window is not permitted to install its systems on rooftop solar installations under the scheme. OEMs must also fold datalogger warranty into the inverter warranty and push daily generation data to the national portal through a uniform interface.
 
-**Short version for an EPC:**
-
-- The obligation is the manufacturer's. The project risk is yours.
-- Data residency means servers, cloud, and real-time data inside India's geographical boundaries.
-- Written confirmation goes to REC with a copy to MNRE, in the Annexure-I format, within 30 days of issue.
-- Trade press reports the memorandum as dated 17 August 2026. Verify the operative date with your supplier before you rely on it.
-- Datalogger warranty must sit inside the inverter warranty, so the dongle stops being a separate 1-year part.
-- Daily cumulative generation data to the national portal, not live telemetry at PM KUSUM intervals.
-- This is a third compliance check alongside [ALMM listing](/glossary/almm-list/) and [BIS certification](/glossary/bis-certification/), not a replacement for either.
+> [!KEYTAKEAWAYS] Short version for an EPC
+> - The obligation is the manufacturer's. The project risk is yours. Data residency means servers, cloud, and real-time data inside India's geographical boundaries.
+> - Written confirmation goes to REC with a copy to MNRE, in the Annexure-I format, within 30 days of issue. Trade press reports the memorandum as dated 17 August 2026. Verify the operative date with your supplier before you rely on it.
+> - Datalogger warranty must sit inside the inverter warranty, so the dongle stops being a separate 1-year part.
+> - Daily cumulative generation data to the national portal, not live telemetry at PM KUSUM intervals.
+> - This is a third compliance check alongside [ALMM listing](/glossary/almm-list/) and [BIS certification](/glossary/bis-certification/), not a replacement for either.
 
 This guide is written for the EPC contractor or PM Surya Ghar registered vendor running rooftop volume across one or more DISCOM territories. It does not summarise the scheme back to you. It covers which of your open projects carry risk, what to ask your inverter supplier this week, and what happens to a net-metering file if the inverter make has to change after submission.
 
@@ -66,11 +63,14 @@ Strip out the preamble and there are four operative requirements. Each one lands
 
 **Daily generation data to the national portal.** OEMs must push daily cumulative generation data through a uniform interface so the scheme has a vendor-neutral view across the installed base.
 
-The enforcement wording is the part worth reading twice. An OEM that does not file inside the window is not allowed to install its systems on rooftop solar installations under the scheme. That is a supply-side exclusion. It does not fine anyone and it does not invalidate a commissioned system. It removes the brand from what you are allowed to quote and install under PM Surya Ghar.
+> [!IMPORTANT] Exclusion applies to the brand, not to commissioned systems
+> The enforcement wording is the part worth reading twice. An OEM that does not file inside the window is not allowed to install its systems on rooftop solar installations under the scheme. That is a supply-side exclusion. It does not fine anyone and it does not invalidate a commissioned system. It removes the brand from what you are allowed to quote and install under PM Surya Ghar.
 
 ## The Compliance Chain Behind This One Memorandum
 
 This memorandum did not arrive on its own. It closes a sequence that has been building since mid 2025, and reading it without the chain makes it look more sudden than it is.
+
+Table: Timeline of MNRE rooftop-inverter security and data instruments, July 2025 to August 2026
 
 | When | Instrument | What it established |
 | --- | --- | --- |
@@ -104,7 +104,8 @@ Four things have to be true of an inverter brand for it to survive this cleanly.
 
 **A uniform reporting interface.** Daily cumulative generation reaches the national portal in the prescribed format, without the EPC or the homeowner doing anything.
 
-Note what is not on that list. Nothing here asks the installer to buy or fit additional equipment. If a supplier tells you that compliance requires a chargeable hardware upgrade on your open projects, ask them to show you where the memorandum says so.
+> [!TIP] Challenge any "chargeable upgrade" claim
+> Note what is not on that list. Nothing here asks the installer to buy or fit additional equipment. If a supplier tells you that compliance requires a chargeable hardware upgrade on your open projects, ask them to show you where the memorandum says so.
 
 ## The Myth: This Is a Live Telemetry Mandate Like PM KUSUM
 
@@ -134,12 +135,13 @@ The regulatory obligation is the manufacturer's. Every commercial consequence is
 
 Send these in writing and keep the reply. A verbal assurance from a regional sales manager is not something you can put in front of a DISCOM or a customer.
 
-1. **Have you filed the Annexure-I confirmation with REC, and on what date?** Ask for the filing date and a copy of what was sent. "We are compliant" and "we have filed" are different statements.
-2. **Where are your monitoring servers physically hosted?** The answer should be a location inside India, not a cloud provider brand name. A global provider with an Indian region is fine; a global provider with an unnamed region is not an answer.
-3. **Which datalogger and communication module variants have been through the MNRE testing framework?** Get part numbers. If you have been fitting a third-party dongle to save cost, this is where that decision surfaces.
-4. **Does the datalogger now carry the same warranty term as the inverter?** The memorandum requires it. Ask them to confirm it in the current warranty document, not just in an email.
-5. **Who pays for M2M connectivity across the system's life, and for how long is it included?** This is the question the memorandum does not answer. Get the OEM's position in writing before it becomes a customer conversation in year three.
-6. **What is your position for systems already installed?** Retrospective application has been argued for publicly but is not settled. Knowing your supplier's plan is better than discovering it from a customer.
+> [!CHECKLIST] Six written questions for each inverter supplier
+> - **Have you filed the Annexure-I confirmation with REC, and on what date?** Ask for the filing date and a copy of what was sent. "We are compliant" and "we have filed" are different statements.
+> - **Where are your monitoring servers physically hosted?** The answer should be a location inside India, not a cloud provider brand name. A global provider with an Indian region is fine; a global provider with an unnamed region is not an answer.
+> - **Which datalogger and communication module variants have been through the MNRE testing framework?** Get part numbers. If you have been fitting a third-party dongle to save cost, this is where that decision surfaces.
+> - **Does the datalogger now carry the same warranty term as the inverter?** The memorandum requires it. Ask them to confirm it in the current warranty document, not just in an email.
+> - **Who pays for M2M connectivity across the system's life, and for how long is it included?** This is the question the memorandum does not answer. Get the OEM's position in writing before it becomes a customer conversation in year three.
+> - **What is your position for systems already installed?** Retrospective application has been argued for publicly but is not settled. Knowing your supplier's plan is better than discovering it from a customer.
 
 If a supplier cannot answer questions one and two within a few days, treat that as information. An OEM that engaged with the testing platform earlier in the year will have both answers ready.
 
@@ -167,7 +169,8 @@ One addition is worth making. Keep a compliance evidence folder per OEM you carr
 
 The predictable mistake is not ignoring the memorandum. It is overreacting to it.
 
-The instinct on reading an exclusion clause is to switch brands immediately. That is usually the wrong move inside a 30-day window, because the filing position of most manufacturers is not yet visible, and switching to a brand that also has not filed achieves nothing except a new set of unfamiliar failure modes and a service network you have not tested. Speculative switching converts a paperwork risk into an operational one.
+> [!WARNING] Do not switch brands speculatively inside the window
+> The instinct on reading an exclusion clause is to switch brands immediately. That is usually the wrong move inside a 30-day window, because the filing position of most manufacturers is not yet visible, and switching to a brand that also has not filed achieves nothing except a new set of unfamiliar failure modes and a service network you have not tested. Speculative switching converts a paperwork risk into an operational one.
 
 The second mistake is treating this as purely a Chinese-import story and assuming an Indian-badged brand is automatically clear. The requirement is about where the servers sit and whether the OEM filed, not where the enclosure was assembled. Plenty of Indian-badged products have run monitoring out of an offshore backend, sometimes the original manufacturer's. Ask the question of every supplier, including the domestic ones, including your primary.
 
@@ -175,7 +178,7 @@ The third mistake is quieter and more expensive. It is assuming your existing da
 
 ## Where Qbits Sits on This
 
-Two things can be stated from published Qbits material, and they are worth being precise about because this is exactly the kind of topic where vague assurance is useless to an installer.
+This page makes no claim about Qbits' data-residency position, Annexure-I filing or datalogger warranty, because none is established in the public material it relies on. That is exactly the kind of topic where vague assurance is useless to an installer, so ask for it in writing using the six questions above.
 
 [Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 

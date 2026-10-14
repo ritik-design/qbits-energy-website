@@ -38,13 +38,19 @@ faqs:
 
 The figures below do not include a Kerala cash top-up, because none was found in official sources as of October 2026. Verify any advertised state benefit against a current government order before budgeting for it, and ask for a site-specific generation estimate and your current KSEB tariff before estimating payback.
 
-> **Short version:** the central subsidy applies in Kerala. KSEB is the distribution licensee. Kerala's net metering rules were rewritten in late 2025, so ask KSEB which metering arrangement and capacity limit apply to your connection before you size the system. Choose a vendor registered on the national portal, and do not count on a state top-up unless you see an order.
+> [!KEYTAKEAWAYS] Short version
+> - The central subsidy applies in Kerala: ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, with the usual ceiling of ₹78,000 at 3 kW.
+> - KSEB is the distribution licensee. Kerala's net metering rules were rewritten in late 2025, so ask KSEB which metering arrangement and capacity limit apply to your connection before you size the system.
+> - Choose a vendor registered on the national portal.
+> - Do not count on a state top-up unless you see an order; none was found in official sources as of October 2026.
 
 **Checked on 14 October 2026.** The scheme facts come from MNRE's PM Surya Ghar guidelines. The Kerala regulatory and portal details come from KSERC documents and secondary summaries, and each one below says which it is.
 
 ## What PM Surya Ghar pays in Kerala
 
 The [MNRE guidelines for central financial assistance (CFA) to residential consumers](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) (clause 5) set the standard calculation. Kerala is not one of the "special category" states, so the standard rates apply.
+
+Table: PM Surya Ghar central assistance by eligible solar-module capacity, standard rates that apply in Kerala
 
 | Eligible solar-module capacity | Central assistance (standard rates) |
 | --- | ---: |
@@ -54,6 +60,21 @@ The [MNRE guidelines for central financial assistance (CFA) to residential consu
 | 1 kW | ₹30,000 |
 | 2 kW | ₹60,000 |
 | 3 kW and above | ₹78,000 (maximum) |
+
+```chart
+type: bar
+title: Central assistance by system size under the standard rates
+unit: "₹"
+source: "MNRE operational guidelines for the residential CFA component of PM Surya Ghar: Muft Bijli Yojana, clause 5, checked 14 October 2026; 1.5 kW, 2.5 kW and 6 kW are the guideline's own worked examples"
+note: "Standard rates apply in Kerala, which is not a special category state. Assistance stops rising at 3 kW."
+data:
+  - { label: "1 kW", value: 30000 }
+  - { label: "1.5 kW", value: 45000 }
+  - { label: "2 kW", value: 60000 }
+  - { label: "2.5 kW", value: 69000 }
+  - { label: "3 kW", value: 78000 }
+  - { label: "6 kW", value: 78000 }
+```
 
 The guideline's own worked examples show how part-kilowatts count: 1.5 kW earns ₹45,000, 2.5 kW earns ₹69,000, and a 6 kW plant still earns the ₹78,000 maximum. Assistance is calculated on the rated DC capacity of the modules, not on the inverter's size (clause 5k). Adding a battery does not change the calculation (clause 5l).
 
@@ -69,15 +90,18 @@ The assistance is not a separate payment for each panel, inverter or battery, an
 
 Not that we could find. The MNRE guidelines allow a state to add its own residential support, but only if it follows the scheme guidelines and is disbursed through the national portal (clause 5i). We found no such Kerala order for homes as of October 2026. Secondary summaries of Kerala's rooftop-solar position also report no general state cash top-up, and describe the KSEB "Soura" programme as now working alongside the central scheme rather than as a separate payment. Treat that as a reading of third-party sources, not an official statement.
 
-What to do with this:
-
-- If a salesperson mentions a Kerala or ANERT add-on, ask for the current order number, the applicant conditions and the payment path in writing.
-- Check [ANERT](https://anert.gov.in/), the state renewable-energy agency, and your KSEB section office for any new notice.
-- Keep any possible state benefit out of your confirmed project economics until you have the order in hand.
+> [!WARNING] Before you count a Kerala state top-up
+> What to do with this:
+>
+> - If a salesperson mentions a Kerala or ANERT add-on, ask for the current order number, the applicant conditions and the payment path in writing.
+> - Check [ANERT](https://anert.gov.in/), the state renewable-energy agency, and your KSEB section office for any new notice.
+> - Keep any possible state benefit out of your confirmed project economics until you have the order in hand.
 
 ## How the application runs in Kerala
 
 KSEB Ltd is Kerala's main distribution licensee, so the DISCOM field on the national portal reads KSEB for most households. Kerala has two places to look, and they serve the same purpose:
+
+Table: The two Kerala application routes, what each is and how to treat it
 
 | Route | What it is | How to treat it |
 | --- | --- | --- |
@@ -88,6 +112,7 @@ Whichever entry point you use, file one application per plant. Before you start,
 
 ### The steps in order
 
+<!-- steps -->
 1. **Register on the national portal.** Use your mobile number and the KSEB consumer number from your bill, select Kerala and KSEB as the DISCOM, and generate your application ID (clause 6b).
 2. **Check what KSEB requires for feasibility.** Under the central Electricity (Rights of Consumers) Rules, as amended in February 2024, rooftop systems up to 10 kW do not need a technical feasibility study (see the [PIB release of 23 February 2024](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2008289)). The MNRE guidelines add that until a state commission and DISCOM operationalise this, the consumer uploads the documents wherever the state regulation requires it (clause 6h). Ask your KSEB section office whether it asks for a feasibility step on your connection and get the answer in writing.
 3. **Choose a vendor registered on the national portal.** There is no DISCOM tender for the scheme. You may pick any registered vendor at mutually agreed rates (clause 6c). The [vendor verification guide](/blog/empanelled-vendor-pm-surya-ghar/) shows how to check the record, and the [solar quotation checklist](/blog/solar-quotation-checklist/) covers the scope of the quote.
@@ -101,6 +126,7 @@ Those are the clocks written into the rules. They are limits for the authority, 
 
 People search for "Kerala solar subsidy status" mostly because the money has not arrived. Work through it in this order:
 
+<!-- steps -->
 1. Log in to the national portal with the registered mobile number and open your application. Note the stage: application, vendor, installation details, inspection, e-token or claim.
 2. If the stage is "pending with DISCOM", ask the KSEB section office for the inspection date or the objection raised. Ask for it in writing or by email.
 3. If the e-token is active but you have not redeemed it, redeem it with the bank details on your profile. A mismatch between the bank account holder name and the applicant name is a common reason for a claim to be returned.
@@ -124,24 +150,26 @@ What you can do today:
 - Read the final regulation text on the [KSERC website](https://erckerala.org/) and match it against the answer you received.
 - Use the [net metering complete guide](/blog/net-metering-india-complete-guide/) and the [gross metering versus net metering explainer](/blog/gross-metering-vs-net-metering/) for the differences in how each arrangement bills you, and the [application guide](/blog/how-to-apply-net-metering-india/) and [approval timeline guide](/blog/net-meter-approval-timeline/) for the national picture.
 
-Self-consumption is the safer assumption for budgeting. A unit you use directly offsets the tariff you would pay, while an exported unit is valued under whichever mechanism KSERC prescribes. Keep the two apart in any payback sheet.
+> [!TIP] Budget on self-consumption
+> Self-consumption is the safer assumption for budgeting. A unit you use directly offsets the tariff you would pay, while an exported unit is valued under whichever mechanism KSERC prescribes. Keep the two apart in any payback sheet.
 
 ## Monsoon, roof orientation and your generation estimate
 
 Kerala gets two monsoon spells: the south-west monsoon (roughly June to September) and the north-east monsoon (October to November). Cloud cover cuts output in those months, and dense vegetation, coconut palms and neighbouring buildings add shading. A state-wide average cannot stand in for a site estimate, and we have deliberately not printed a table of monthly kilowatt-hours because those numbers depend on your roof.
 
-Ask the installer for:
-
-- a monthly generation model that names the weather dataset (for example the [Global Solar Atlas](https://globalsolaratlas.info/), a World Bank-funded tool) and the loss assumptions;
-- the roof azimuth, tilt and a shading analysis for your plot;
-- a comparison with your own KSEB bills month by month, because Kerala households use less power in some monsoon months than in the summer; and
-- the payback arithmetic, not just the answer.
+> [!CHECKLIST] Ask the installer for
+> - a monthly generation model that names the weather dataset (for example the [Global Solar Atlas](https://globalsolaratlas.info/), a World Bank-funded tool) and the loss assumptions;
+> - the roof azimuth, tilt and a shading analysis for your plot;
+> - a comparison with your own KSEB bills month by month, because Kerala households use less power in some monsoon months than in the summer; and
+> - the payback arithmetic, not just the answer.
 
 Our [irradiance data guide](/blog/solar-irradiance-data-india-statewise/) explains how to find location-specific inputs. If your backup needs matter, because your area has frequent outages, see the [on-grid versus hybrid comparison](/blog/on-grid-vs-hybrid/) and the [Qbits hybrid inverter range](/hybrid-inverter/). A hybrid inverter needs a battery, adds cost and changes the design, so size it against the loads you actually need to keep running.
 
 ## Documents to keep ready
 
 Your portal login shows the current checklist, and KSEB can ask for more. A Kerala household typically gathers:
+
+Table: Documents a Kerala household typically gathers for a PM Surya Ghar application, and why each is needed
 
 | Document | Why it is needed |
 | --- | --- |

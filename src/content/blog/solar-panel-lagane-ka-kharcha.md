@@ -4,7 +4,7 @@ excerpt: "Solar panel lagane ka kharcha 2026: 3 kW aur 5 kW ghar ke liye poora l
 description: "Ghar par solar panel lagane ka kharcha kitna aata hai? Panels, inverter, structure, cable, earthing, net metering aur AMC ka poora breakdown, subsidy ke baad net cost ke saath।"
 category: "Buying Guide"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-panel-lagane-ka-kharcha.webp"
 author: "Nirav Dhanani"
@@ -42,13 +42,12 @@ language: hi
 
 Solar लगवाने की सोच रहे हैं तो सबसे पहला सवाल यही आता है: solar panel lagane ka kharcha आखिर कितना है। Problem यह है कि जो number आपको WhatsApp पर मिलता है वह अक्सर सिर्फ panel और inverter का होता है। असली bill में structure, cable, conduit, earthing, lightning arrestor, net metering fee, labour, transport और AMC भी जुड़ते हैं। यही वजह है कि ₹1.5 lakh का quote final settlement में ₹1.9 lakh बन जाता है और buyer को लगता है कि उसे ठगा गया। यह guide उस पूरे bill को line by line खोलती है, 3 kW और 5 kW दोनों के लिए, फिर [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy घटाकर बताती है कि जेब से actually कितना जाएगा।
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - 3 kW [on-grid](/on-grid-inverter/) system का all-in installed cost 2026 में ₹1.55 lakh से ₹2.10 lakh, 5 kW का ₹2.45 lakh से ₹3.25 lakh।
 > - Hidden line items (earthing, SPD, conduit, net meter, civil work, transport) ₹20,000 से ₹50,000 अलग से जोड़ते हैं।
 > - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy maximum ₹78,000 है और 3 kW पर cap हो जाती है, 5 kW वाले को भी उतना ही मिलता है।
 > - Net out-of-pocket: 3 kW में ₹77,000 से ₹1.32 lakh, 5 kW में ₹1.67 lakh से ₹2.47 lakh।
-> - Subsidy के लिए ALMM listed equipment और DCR panels अनिवार्य हैं, सस्ता non-DCR panel subsidy खा जाता है।
-> - Solar inverter par GST classification ke hisaab se 5% ya 18% hai, 12% slab khatam, और net metering charges हर state [DISCOM](/glossary/discom/) में अलग हैं।
+> - Subsidy के लिए ALMM listed equipment और DCR panels अनिवार्य हैं, सस्ता non-DCR panel subsidy खा जाता है। Solar inverter par GST classification ke hisaab se 5% ya 18% hai, 12% slab khatam, और net metering charges हर state [DISCOM](/glossary/discom/) में अलग हैं।
 
 **Short version.** Ghar par solar panel lagane ka kharcha 2026 में 3 kW के लिए ₹1.55 lakh से ₹2.10 lakh तक है, सब कुछ included। [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) की ₹78,000 subsidy के बाद net ₹77,000 से ₹1.32 lakh पड़ता है। 5 kW का gross ₹2.45 lakh से ₹3.25 lakh है और subsidy वही ₹78,000 रहती है, इसलिए net ₹1.67 lakh से ₹2.47 lakh बनता है।
 
@@ -70,10 +69,11 @@ Solar लगवाने की सोच रहे हैं तो सबस�
 
 यह table 2026 के realistic market ranges पर आधारित है, on-grid residential system के लिए, GST included मानकर। State, roof height और installer tier के हिसाब से हर line ऊपर नीचे होती है।
 
+Table: 3 kW aur 5 kW on-grid residential system ka line-item cost, 2026 ranges (GST included)
+
 | Line item | 3 kW range | 5 kW range |
 | --- | --- | --- |
 | Solar modules (DCR, ALMM listed) | ₹66,000–₹87,000 | ₹1,10,000–₹1,45,000 |
-
 | Mounting structure (GI, standard height) | ₹15,000–₹21,000 | ₹24,000–₹34,000 |
 | DC cable, AC cable, MC4 connectors | ₹7,000–₹12,000 | ₹11,000–₹18,000 |
 | Conduit, cable tray, clamps | ₹4,000–₹9,000 | ₹6,000–₹12,000 |
@@ -102,7 +102,8 @@ Solar लगवाने की सोच रहे हैं तो सबस�
 
 यह section इस guide का असली core है। नीचे वे items हैं जिन पर सबसे ज्यादा dispute होता है, और हर एक के साथ यह भी कि उसे quote में कैसे pin करें।
 
-**Earthing और lightning arrestor।** CEA safety regulations के तहत rooftop system में proper earthing चाहिए, अलग earth pits DC side, AC side और structure के लिए। कई installers एक ही pit में सब जोड़ देते हैं और ₹8,000 बचा लेते हैं। यह सस्ता नहीं है, यह unsafe है। Quote में earth pits की संख्या और lightning arrestor का mention माँगें।
+> [!CAUTION] Earthing ke saath samjhauta unsafe hai
+> **Earthing और lightning arrestor।** CEA safety regulations के तहत rooftop system में proper earthing चाहिए, अलग earth pits DC side, AC side और structure के लिए। कई installers एक ही pit में सब जोड़ देते हैं और ₹8,000 बचा लेते हैं। यह सस्ता नहीं है, यह unsafe है। Quote में earth pits की संख्या और lightning arrestor का mention माँगें।
 
 **Cable length।** DC cable का rate per metre होता है और roof से inverter तक की दूरी हर घर में अलग है। अगर inverter ground floor पर है और panels तीसरी मंजिल पर, तो cable और conduit का cost double हो सकता है। Site survey से पहले दिया गया cable estimate हमेशा provisional रहता है।
 
@@ -116,11 +117,14 @@ Solar लगवाने की सोच रहे हैं तो सबस�
 
 **AMC।** पहले साल free माना जाता है लेकिन दूसरे साल से ₹2,000 से ₹6,000 सालाना। 25 साल के life में यह छोटी line बड़ी बन जाती है।
 
-> **जो सबसे ज्यादा लोग गलत समझते हैं।** सस्ता quote आमतौर पर सस्ता hardware नहीं होता, वह अधूरा scope होता है। ₹1.45 lakh वाली 3 kW quote और ₹1.85 lakh वाली quote में panel अक्सर एक ही brand का होता है। फर्क earthing pits, SPD, conduit और structure grade में होता है, जो पहले साल दिखता नहीं और पाँचवें साल में दिखता है।
+> [!IMPORTANT] जो सबसे ज्यादा लोग गलत समझते हैं
+> सस्ता quote आमतौर पर सस्ता hardware नहीं होता, वह अधूरा scope होता है। ₹1.45 lakh वाली 3 kW quote और ₹1.85 lakh वाली quote में panel अक्सर एक ही brand का होता है। फर्क earthing pits, SPD, conduit और structure grade में होता है, जो पहले साल दिखता नहीं और पाँचवें साल में दिखता है।
 
 ## PM Surya Ghar Subsidy ke Baad Net Kharcha
 
 PM Surya Ghar Muft Bijli Yojana की central financial assistance का structure simple है और यही सबसे बड़ा misunderstanding भी है।
+
+Table: PM Surya Ghar central subsidy capacity ke hisaab se
 
 | Capacity | Subsidy calculation | Subsidy amount |
 | --- | --- | --- |
@@ -132,6 +136,8 @@ PM Surya Ghar Muft Bijli Yojana की central financial assistance का struc
 
 अब इसे actual bill पर लगाइए।
 
+Table: Subsidy ke baad net out-of-pocket kharcha, 3 kW aur 5 kW
+
 | Item | 3 kW system | 5 kW system |
 | --- | --- | --- |
 | Gross installed cost (low end) | ₹1,55,000 | ₹2,45,000 |
@@ -141,7 +147,8 @@ PM Surya Ghar Muft Bijli Yojana की central financial assistance का struc
 | **Net out-of-pocket (high end)** | **₹1,32,000** | **₹2,47,000** |
 | Effective subsidy as % of gross | 37% to 50% | 24% to 32% |
 
-यहाँ key insight यह है: subsidy 3 kW पर सबसे efficient है। 3 kW वाला buyer अपने bill का लगभग आधा government से cover करवा लेता है। 5 kW वाला सिर्फ एक चौथाई। इसका मतलब यह नहीं कि 5 kW गलत choice है, मतलब यह है कि extra 2 kW को आपको full price पर justify करना होगा, subsidy के भरोसे नहीं।
+> [!TIP] 3 kW par subsidy sabse efficient hai
+> यहाँ key insight यह है: subsidy 3 kW पर सबसे efficient है। 3 kW वाला buyer अपने bill का लगभग आधा government से cover करवा लेता है। 5 kW वाला सिर्फ एक चौथाई। इसका मतलब यह नहीं कि 5 kW गलत choice है, मतलब यह है कि extra 2 kW को आपको full price पर justify करना होगा, subsidy के भरोसे नहीं।
 
 कुछ states अपनी अतिरिक्त subsidy भी देते हैं, जो central assistance के ऊपर जुड़ती है। अपने राज्य का status [state-wise solar subsidy list](/blog/solar-subsidy-all-states/) में देखें, और subsidy claim करने का step by step process [solar subsidy kaise milegi](/blog/solar-subsidy-kaise-milegi-hindi/) में है।
 
@@ -149,6 +156,7 @@ PM Surya Ghar Muft Bijli Yojana की central financial assistance का struc
 
 Subsidy सिर्फ इसलिए नहीं मिलती कि आपने solar लगवा लिया। तीन conditions हैं जो अक्सर rejection की वजह बनती हैं।
 
+1. **ALMM listed modules।** MNRE का ALMM page solar PV modules और cells की list प्रकाशित करता है, inverter की नहीं। Inverter के exact model documents अलग से verify करें।
 2. **DCR panels।** Residential subsidy component में domestically manufactured cell और module अनिवार्य हैं। Imported panel per watt सस्ता पड़ता है लेकिन subsidy खत्म कर देता है।
 3. **Empanelled vendor।** Installation registered vendor से होनी चाहिए, नहीं तो portal पर claim आगे नहीं बढ़ती। [Empanelled vendor कैसे verify करें](/blog/empanelled-vendor-pm-surya-ghar/) में checklist है।
 
@@ -163,7 +171,10 @@ Rejection की बाकी common वजहें [PM Surya Ghar rejection re
 
 ## Ek Worked Example: Illustrative Hisab
 
-यह example illustrative है, किसी real customer का data नहीं। मान लीजिए Ahmedabad में एक घर, monthly bill ₹2,200, roof पर 260 sq ft shadow-free area, inverter ground floor के meter room में।
+> [!EXAMPLE] Ahmedabad ka 3 kW ghar, illustrative hisab
+> यह example illustrative है, किसी real customer का data नहीं। मान लीजिए Ahmedabad में एक घर, monthly bill ₹2,200, roof पर 260 sq ft shadow-free area, inverter ground floor के meter room में।
+
+Table: Ahmedabad ke 3 kW ghar ka illustrative line-item hisab aur subsidy ke baad net cost
 
 | Line item | Amount |
 | --- | --- |
@@ -184,9 +195,14 @@ Rejection की बाकी common वजहें [PM Surya Ghar rejection re
 
 अब savings side। 3 kW system Gujarat जैसी irradiance में लगभग 4.2 से 4.5 units प्रति kW प्रति दिन देता है, यानी महीने में करीब 380 से 405 units। ₹2,200 का bill लगभग पूरा offset हो जाता है और थोड़ा export credit भी बनता है। सालाना savings लगभग ₹26,000 से ₹28,000।
 
+> [!FORMULA]
+> Payback = net out-of-pocket cost ÷ annual savings
+
 Payback = ₹1,03,000 ÷ ₹27,000 ≈ 3.8 साल। इसमें AMC ₹3,000 सालाना घटा दें तो लगभग 4.3 साल। System की life 25 साल है, inverter एक बार बदलना पड़ सकता है 12 से 15 साल के बीच। Detailed payback math के लिए [solar payback period guide](/blog/solar-inverter-payback-period/) देखें।
 
 ## Kharcha Kis Cheez Se Ghatta ya Badhta Hai
+
+Table: Kharcha kis factor se ghatta ya badhta hai
 
 | Factor | Cost impact | क्यों |
 | --- | --- | --- |
@@ -195,26 +211,29 @@ Payback = ₹1,03,000 ÷ ₹27,000 ≈ 3.8 साल। इसमें AMC ₹3
 | DC cable run length | +₹3,000 से ₹12,000 | Per metre rate, multi-storey घरों में ज्यादा |
 | State DISCOM charges | ₹3,000 से ₹12,000 | हर DISCOM की fee और meter policy अलग |
 | Panel technology (TOPCon vs older) | +₹4 से ₹8 प्रति watt | ज्यादा efficiency, कम roof area |
-| Inverter warranty tier | +₹8,000 से ₹15,000 | 5 साल vs 12 साल replacement warranty |
+| Inverter warranty tier | +₹8,000 से ₹15,000 | लंबी vs छोटी warranty term (written terms देखें) |
 | Coastal या heavy monsoon location | +₹5,000 से ₹12,000 | Galvanisation grade, IP66 inverter, better earthing |
 
 ## Quote Compare Karne ka Sahi Tarika
 
 तीन quotes लेना काफी नहीं है, तीनों को एक ही scope पर लाना जरूरी है। यह करें:
 
-1. **Line-item quote माँगें**, "turnkey" एक line वाली quote reject करें।
-2. **GST inclusive या exclusive** लिखवाएँ, verbal confirmation पर भरोसा न करें।
-
-4. **DCR declaration** written में लें अगर subsidy claim करनी है।
-5. **Earth pits की संख्या और lightning arrestor** का explicit mention हो।
-6. **Structure का steel grade और elevation** mm में लिखा हो।
-7. **Net metering scope** किसका है, vendor का या आपका, यह तय हो।
-8. **Free O&M period और उसके बाद का AMC rate** पहले से लिखवा लें।
-9. **Payment schedule** milestone-linked रखें, पूरा advance कभी नहीं।
+> [!CHECKLIST] Quote compare karne ke 9 points
+> - **Line-item quote माँगें**, "turnkey" एक line वाली quote reject करें।
+> - **GST inclusive या exclusive** लिखवाएँ, verbal confirmation पर भरोसा न करें।
+> - **Inverter का exact model और warranty terms** written में लें।
+> - **DCR declaration** written में लें अगर subsidy claim करनी है।
+> - **Earth pits की संख्या और lightning arrestor** का explicit mention हो।
+> - **Structure का steel grade और elevation** mm में लिखा हो।
+> - **Net metering scope** किसका है, vendor का या आपका, यह तय हो।
+> - **Free O&M period और उसके बाद का AMC rate** पहले से लिखवा लें।
+> - **Payment schedule** milestone-linked रखें, पूरा advance कभी नहीं।
 
 इन नौ points के बाद जो quote सबसे सस्ती बचती है, वह सच में सबसे सस्ती है। इससे पहले जो सस्ती दिखती है वह सिर्फ छोटी लिखी हुई है।
 
 ## Kya 3 kW Lein Ya 5 kW
+
+Table: Aapki situation ke hisaab se 3 kW, 4 kW, 5 kW ya hybrid
 
 | Aapki situation | Recommendation |
 | --- | --- |
@@ -234,6 +253,7 @@ Sirf inverter ka rate dekhna ho to [solar inverter ka rate](/blog/solar-inverter
 
 - 3 kW ghar system का all-in kharcha ₹1.55 lakh से ₹2.10 lakh है, और PM Surya Ghar subsidy ₹78,000 के बाद net ₹77,000 से ₹1.32 lakh बचता है।
 - Subsidy 3 kW पर cap है, इसलिए 5 kW लेने का फैसला subsidy पर नहीं, अपनी actual consumption और roof area पर करें।
+
 [Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 <div class="inline-cta">

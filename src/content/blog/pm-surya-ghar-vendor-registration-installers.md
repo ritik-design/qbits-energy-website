@@ -38,7 +38,12 @@ MNRE's current process calls this vendor registration. Earlier documents also us
 
 The [Ministry of New and Renewable Energy's vendor-registration notice](https://mnre.gov.in/en/notice/process-of-vendor-registration-for-pm-surya-ghar-scheme-on-the-national-portal/) names REC Limited as the national registering authority. It also continues the earlier state-registration process through the relevant state authority. Before arranging a performance bank guarantee, or PBG, verify the current instructions with that authority. A dated PDF should not be treated as a bank instruction.
 
-> **Short version:** Choose the operating geography first. Align the firm's legal name across GST, PAN, the declaration, the PBG, and the portal. Prepare evidence of technical and service capacity. Submit only through the current official route. Registration creates continuing installation, documentation, maintenance, and complaint-handling duties. It does not guarantee leads, subsidy release, project approval, or a Qbits partnership.
+> [!KEYTAKEAWAYS] Short version
+> - Choose the operating geography first. MNRE documents state a Rs 2.5 lakh PBG for state registration and Rs 25 lakh for national registration.
+> - Align the firm's legal name across GST, PAN, the declaration, the PBG, and the portal.
+> - Prepare evidence of technical and service capacity. Submit only through the current official route.
+> - Registration creates continuing installation, documentation, maintenance, and complaint-handling duties.
+> - It does not guarantee leads, subsidy release, project approval, or a Qbits partnership.
 
 > **Homeowner checking a vendor, not registering one?** Use the [homeowner guide to finding and verifying a PM Surya Ghar vendor](/blog/empanelled-vendor-pm-surya-ghar/). This page is for installers.
 
@@ -47,6 +52,8 @@ The [Ministry of New and Renewable Energy's vendor-registration notice](https://
 **State registration suits an installer that can serve and maintain projects within one state. National registration suits a business with genuine multi-state delivery and service capacity.** The wider badge carries a much larger PBG requirement in the MNRE process document, so it should not be chosen for appearance alone.
 
 MNRE documents checked on 26 September 2026 state the following:
+
+Table: State registration compared with national registration for PM Surya Ghar vendors, per MNRE documents checked 26 September 2026
 
 | Decision point | State registration | National registration |
 | --- | --- | --- |
@@ -57,6 +64,17 @@ MNRE documents checked on 26 September 2026 state the following:
 | Registration term stated | Initially one year, then extended year by year when the PBG condition is met | Five years, renewable for another five years when the PBG condition is met |
 | Practical fit | One-state installation and service operation | Multi-state operation with matching delivery and maintenance capacity |
 
+```chart
+type: bar
+title: Performance bank guarantee stated for PM Surya Ghar vendor registration
+unit: "₹"
+source: "MNRE vendor-registration process of 7 May 2024 and its attached memoranda of 10 June 2022 and 17 May 2023, checked 26 September 2026 (state: one guarantee for the entire state; national: REC Limited)"
+note: "The state amount is for the whole state. Confirm the current amount with the registering authority before arranging a guarantee."
+data:
+  - { label: "State registration", value: 250000 }
+  - { label: "National registration", value: 2500000 }
+```
+
 These figures come from MNRE's 2022, 2023, and 7 May 2024 memoranda referenced in the current notice. They can be amended. Confirm the amount, beneficiary, prescribed wording, validity, claim period, issuance method, and submission route before asking a bank to issue anything.
 
 Do not assume an old Phase II certificate needs a fresh application without checking. The 7 May 2024 memorandum deemed earlier Grid Connected Rooftop Phase II vendors registered for PM Surya Ghar. It also carried their existing documents, including bank guarantees, into the new scheme process. The registering authority must confirm how that transition applies to the firm's current record.
@@ -65,6 +83,7 @@ Do not assume an old Phase II certificate needs a fresh application without chec
 
 Portal labels and field sequences can change. That makes the safest order **authority first, paperwork second, PBG last**. This guide therefore does not reproduce a button-by-button screen flow or promise a processing time.
 
+<!-- steps -->
 1. **Define the service area.** List only the states and districts where the firm can survey, install, commission, maintain, and attend complaints.
 2. **Identify the registering authority.** For a state route, confirm the designated DISCOM or state agency. For national registration, use the current REC and National Portal instructions linked from the MNRE notice.
 3. **Reconcile the legal identity.** Use the same firm name, entity status, GSTIN, PAN, authorised signatory, and address across every current record. Resolve spelling or entity-name differences before submission.
@@ -75,11 +94,14 @@ Portal labels and field sequences can change. That makes the safest order **auth
 8. **Answer queries against the submitted record.** Do not create a second version of the firm's name, districts, staff count, or service contact merely to satisfy a follow-up.
 9. **Confirm the live registration.** Check the legal name, registration status, operating area, public contact, and profile details after approval. A successful login alone is not proof of active scope.
 
-Start from the [official PM Surya Ghar portal](https://pmsuryaghar.gov.in/) rather than a saved login page, message link, or third-party form. Never share an OTP or portal password with someone offering paid registration assistance.
+> [!CAUTION] Use only the official route
+> Start from the [official PM Surya Ghar portal](https://pmsuryaghar.gov.in/) rather than a saved login page, message link, or third-party form. Never share an OTP or portal password with someone offering paid registration assistance.
 
 ## Vendor login: first sign-in and what the dashboard does
 
 The login is the second stage, after the firm has a registration record. MNRE's **Vendor Manual dated 26 June 2024** (hosted by a state DISCOM) describes it as follows.
+
+Table: Vendor login: first sign-in stages as described in the MNRE Vendor Manual of 26 June 2024
 
 | Stage | What the manual describes |
 | --- | --- |
@@ -107,6 +129,8 @@ Login is not proof of live registration. A firm can hold credentials and still b
 
 The June 2022 and May 2023 state-registration memoranda and the 2024 national process point to the same core set. Which items are uploaded, signed or posted in original depends on the registering authority, so use its checklist as the final word.
 
+Table: Documents and details to have ready for vendor registration, with the common mismatch to avoid
+
 | Item | Why it is needed | Common mismatch to avoid |
 | --- | --- | --- |
 | PAN and company type | Identity step of national registration and login credential creation | Entity name differs from GST or bank records |
@@ -124,6 +148,8 @@ The June 2022 and May 2023 state-registration memoranda and the 2024 national pr
 The referenced declaration is more than a list of identity documents. It tests whether the installer has technical, safety, maintenance, and complaint-handling capacity.
 
 The 2022 declaration attached to MNRE's current process notice asks for or confirms:
+
+Table: What the referenced 2022 state declaration asks a firm to confirm
 
 | Declaration area | Preparation check for the installer |
 | --- | --- |
@@ -149,18 +175,20 @@ Build a controlled application folder before submitting. Keep the final declarat
 
 Use this pre-issuance check with the registering authority and bank:
 
-- exact beneficiary name and address;
-- applicant's exact legal name and constitution;
-- required amount and currency wording;
-- prescribed guarantee text and reference number;
-- issue date, validity date, and any separate claim period;
-- stamp, signature, electronic messaging, or confirmation requirements;
-- original-document delivery or portal-upload requirement;
-- amendment process if the authority finds an error;
-- renewal trigger and internal reminder owner; and
-- release, return, or cancellation evidence at the end of the obligation.
+> [!CHECKLIST] PBG pre-issuance check
+> - exact beneficiary name and address;
+> - applicant's exact legal name and constitution;
+> - required amount and currency wording;
+> - prescribed guarantee text and reference number;
+> - issue date, validity date, and any separate claim period;
+> - stamp, signature, electronic messaging, or confirmation requirements;
+> - original-document delivery or portal-upload requirement;
+> - amendment process if the authority finds an error;
+> - renewal trigger and internal reminder owner; and
+> - release, return, or cancellation evidence at the end of the obligation.
 
-Do not copy a PBG from another state, another firm, or an old application. Do not describe the guarantee as a registration fee. The cited MNRE documents describe it as a performance bank guarantee connected to the vendor's continuing obligations.
+> [!WARNING] A nearly correct PBG can still be rejected
+> Do not copy a PBG from another state, another firm, or an old application. Do not describe the guarantee as a registration fee. The cited MNRE documents describe it as a performance bank guarantee connected to the vendor's continuing obligations.
 
 The older state process also allows action including blacklisting and PBG forfeiture for misleading information or failure to meet declared conditions. The [PM Surya Ghar residential CFA operational guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) separately allow deregistration or penalties for non-compliant systems after notice. Treat every declaration as an operating commitment, not formality.
 
@@ -182,6 +210,8 @@ MNRE's residential CFA guidelines state that a registered vendor profile can inc
 
 Responsibilities should be mapped before accepting a project. A simple control sheet can prevent hand-off failures:
 
+Table: Control sheet mapping each project stage to its record and a named owner
+
 | Stage | Record to control | Named owner |
 | --- | --- | --- |
 | Enquiry | Consumer request, service area, proposed capacity, site constraints | Sales or survey lead |
@@ -197,6 +227,8 @@ The most dangerous gap is usually ownership, not a missing spreadsheet. If no on
 ## What vendor registration does not guarantee
 
 **Registration establishes entry into the scheme process, subject to current rules. It does not promise commercial success or approval of every project.** Keep these decisions separate:
+
+Table: What PM Surya Ghar vendor registration does not guarantee, and why
 
 | Registration does not guarantee | Why |
 | --- | --- |
@@ -223,13 +255,14 @@ If your government registration is accurate and you are looking for an inverter 
 
 Before submitting, confirm that:
 
-- the chosen registration level matches the service operation you can sustain;
-- the legal name is consistent across GST, PAN, declaration, portal, PBG, and bank records;
-- every declaration can be supported by current evidence;
-- the service districts are realistic for five-year maintenance and complaint work;
-- the current authority has confirmed the PBG format and submission route;
-- the business has named owners for design, installation, commissioning, portal records, and service;
-- no marketing material promises subsidy, approval, leads, or income; and
-- the government registration and manufacturer-partner applications remain separate records.
+> [!CHECKLIST] Final application review
+> - the chosen registration level matches the service operation you can sustain;
+> - the legal name is consistent across GST, PAN, declaration, portal, PBG, and bank records;
+> - every declaration can be supported by current evidence;
+> - the service districts are realistic for five-year maintenance and complaint work;
+> - the current authority has confirmed the PBG format and submission route;
+> - the business has named owners for design, installation, commissioning, portal records, and service;
+> - no marketing material promises subsidy, approval, leads, or income; and
+> - the government registration and manufacturer-partner applications remain separate records.
 
 **Official sources, checked 26 September and re-read 14 October 2026:** MNRE's [7 May 2024 vendor-registration process](https://mnre.gov.in/en/notice/process-of-vendor-registration-for-pm-surya-ghar-scheme-on-the-national-portal/) with its attached 10 June 2022 and 17 May 2023 office memoranda, and MNRE's National Portal Vendor Manual of 26 June 2024. The review also used MNRE's residential CFA operational guidelines of July 2024. MNRE amended those guidelines on 7 July 2025, and the amendment is published as a scanned image that could not be read clause by clause. pmsuryaghar.gov.in returned an access error to our automated checks, so live portal labels were not viewed directly. Confirm later amendments and the current registering authority's instructions before acting.

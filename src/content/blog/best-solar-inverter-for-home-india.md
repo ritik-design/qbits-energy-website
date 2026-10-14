@@ -46,8 +46,7 @@ If you already have a quote and want to test it, use [the 8-point checklist for 
 
 **Disclosure:** Qbits publishes this guide and sells solar inverters. Qbits models appear next to models from other brands, using each maker's own published documents. Prices and payback periods are left out on purpose: Qbits pricing is quote-based through dealers, and public prices rarely cover the same scope.
 
-> **Short answer**
->
+> [!KEYTAKEAWAYS]
 > - Start from your electricity bills, not the number of rooms. Anchor the rooftop size on monthly units, then check roof area, phase and your DISCOM's limits.
 > - Small homes with a reliable grid usually need a 1 to 3 kW single-phase on-grid inverter. Mid-size homes often land at 3 to 6 kW. Larger homes and villas go above that and often need a three-phase inverter.
 > - Frequent power cuts change the system type, not just the size: you need a hybrid inverter and a battery.
@@ -56,6 +55,8 @@ If you already have a quote and want to test it, use [the 8-point checklist for 
 ## Why home sizing is different from commercial sizing
 
 A factory's load is steady and predictable. A home's load is spiky: a compressor starts, a pump runs, an air conditioner cycles with the weather. Three separate numbers matter and homeowners often merge them:
+
+Table: The three numbers that size a home solar system
 
 | Number | What it is | What sets it |
 | --- | --- | --- |
@@ -69,6 +70,8 @@ An inverter for a 5 kWp array is not always a 5 kW inverter. Many designs run th
 
 Home types are a rough guide only. Two three-bedroom homes can use very different amounts of power. The capacity ranges below follow the monthly-consumption guide in a PIB release on the PM Surya Ghar scheme dated 5 December 2024: [0 to 150 units a month suits 1 to 2 kW, 150 to 300 units suits 2 to 3 kW, and above 300 units suits above 3 kW](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2081250), read October 2026. Above that threshold, the right size is a design decision.
 
+Table: Typical rooftop capacity, inverter type and example families to read, by home size
+
 | Home type (rough guide) | Typical rooftop capacity range | Inverter type to check | Phase to check | Example families to read |
 | --- | --- | --- | --- | --- |
 | Small flat or 1 BHK, low consumption | 1 to 2 kW | On-grid; hybrid if cuts are frequent | Single | QB 1.5 to 4.0 KTLS; see per-size picks below |
@@ -77,7 +80,8 @@ Home types are a rough guide only. Two three-bedroom homes can use very differen
 | 4 BHK, bungalow or large home | 5 to 10 kW | On-grid or hybrid | Often three-phase; check | QB 6 to 17 KTLC three-phase; QBH 7 to 8 KS48P |
 | Villa or home with heavy loads (EV, multiple air conditioners, pumps) | 8 kW and above | Hybrid if backup matters | Usually three-phase | QB 6 to 17 KTLC; QBH 5 to 12 KS48P3 hybrid |
 
-Use the table to pick which datasheets to open, not to buy. The PIB guide is a planning range for the scheme. A designer must confirm the size from bills, roof and DISCOM limits. As a sanity check, the same PIB release says a 3 kW system can generate over 300 units a month on average, which implies roughly 100 units per kW per month. Actual yield varies with location, tilt, shade and season.
+> [!TIP] Use the table to choose datasheets, not to buy
+> Use the table to pick which datasheets to open, not to buy. The PIB guide is a planning range for the scheme. A designer must confirm the size from bills, roof and DISCOM limits. As a sanity check, the same PIB release says a 3 kW system can generate over 300 units a month on average, which implies roughly 100 units per kW per month. Actual yield varies with location, tilt, shade and season.
 
 ## The home fit matrix
 
@@ -86,6 +90,8 @@ Work down three questions. Each narrows the answer. The output is a category and
 1. **Home size and consumption:** gives the kW band from the table above.
 2. **Power-cut frequency:** decides the type. Occasional cuts of an hour or so rarely justify a battery; a home that loses power for hours every day, or at the times when air conditioners or pumps run, is a hybrid candidate.
 3. **Connection:** single-phase or three-phase, and what your DISCOM allows.
+
+Table: Home fit matrix: output category by home size and power-cut frequency
 
 | Home size | Power cuts | Output category |
 | --- | --- | --- |
@@ -102,12 +108,15 @@ The matrix is a starting point. A site survey can move the answer by a size. Use
 
 The biggest decision is on-grid or hybrid, and it is hard to reverse later.
 
+Table: On-grid against hybrid inverters for Indian homes: strengths and limits
+
 | | Strengths | Limits |
 | --- | --- | --- |
 | **On-grid** | Simplest design; suited to grid-connected generation and net metering; fewer parts to service | Stops feeding power when the grid fails, so no solar-backed loads during a cut; no battery port |
 | **Hybrid** | Can run selected loads from a battery during a cut; the battery can charge from solar; can support export-limit settings on some models | More parts and a battery to buy and service; backup covers defined loads, not necessarily the whole home; the battery must be on the maker's supported list |
 
-The **power-cut exception** is the key rule. If your feeder has long or frequent outages, an on-grid system is effectively off exactly when you need power, because anti-islanding protection disconnects it when the utility supply fails. That safety behaviour protects line workers and is not a defect. In such homes, define the loads that must run, then evaluate a hybrid design and battery. See the [power-cut backup guide](/blog/solar-inverter-power-cut-backup/), the [on-grid versus hybrid guide](/blog/on-grid-vs-hybrid/) and the ROI comparison.
+> [!IMPORTANT] The power-cut exception
+> The **power-cut exception** is the key rule. If your feeder has long or frequent outages, an on-grid system is effectively off exactly when you need power, because anti-islanding protection disconnects it when the utility supply fails. That safety behaviour protects line workers and is not a defect. In such homes, define the loads that must run, then evaluate a hybrid design and battery. See the [power-cut backup guide](/blog/solar-inverter-power-cut-backup/), the [on-grid versus hybrid guide](/blog/on-grid-vs-hybrid/) and the ROI comparison.
 
 If a hybrid is out of reach today but may be needed later, ask whether the inverter can support a battery later, and which battery models, in writing. A grid-tied string inverter normally has no battery port.
 
@@ -116,6 +125,8 @@ If a hybrid is out of reach today but may be needed later, ask whether the inver
 These are example families to read, not recommendations. Every figure comes from the maker's own datasheet or product record, read October 2026. Do not copy a figure from one model to another.
 
 ### 1 BHK and small flats (about 1 to 2 kW)
+
+Table: Example inverter families for 1 BHK and small flats, with datasheet figures
 
 | Model | Phase | MPPT | MPPT window | Max input current | Max efficiency | IP | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -127,6 +138,8 @@ A single MPPT is usually enough for one roof plane. Check that the planned strin
 
 ### 2 BHK (about 2 to 3 kW)
 
+Table: Example inverter families for a 2 BHK home, with datasheet figures
+
 | Model | Phase | MPPT | MPPT window | Max input current | Max efficiency | IP | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Qbits QB 3.0/3.3/3.6 KTLS (in the QB 1.5 to 4.0 KTLS family) | Single | 1 | 40–550 V | 20 A | 98% (family) | IP66 | [Qbits datasheet](/datasheets/products/QB_Data-Sheet_2.0-4.0-kw_1MPPT_1Phs.pdf) |
@@ -136,6 +149,8 @@ A single MPPT is usually enough for one roof plane. Check that the planned strin
 For a 3 kW comparison across more brands see the [3 kW inverter guide](/blog/best-3kw-solar-inverter-india-2026/). The 2 kW guide and 1 kW guide cover the smaller sizes.
 
 ### 3 BHK (about 3 to 6 kW, on-grid)
+
+Table: Example on-grid inverter families for a 3 BHK home, with datasheet figures
 
 | Model | Phase | MPPT | MPPT window | Max input current | Max efficiency | IP | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -148,6 +163,8 @@ More 5 kW models, with the same fields, are in the [10-brand comparison](/blog/b
 
 ### 3 BHK or larger homes in power-cut areas (about 3 to 6 kW, hybrid)
 
+Table: Example hybrid inverter families for 3 BHK and larger homes in power-cut areas
+
 | Model | Phase | MPPT | MPPT window | Max DC | Max input current | IP | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Qbits QBH 3/3.6/4/4.6/5/6 KS48P hybrid | Single | 1 or 2 by model | 150–450 V | 500 V | 3KS48P: 18 A; others 18/18 A | IP66 | [Qbits hybrid catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf), [model page](/our-products/QBH-3-6KS48P/) |
@@ -156,6 +173,8 @@ More 5 kW models, with the same fields, are in the [10-brand comparison](/blog/b
 The QBH family has a 48 V battery input, 75 to 120 A battery current by model, and accepts lead-acid or lithium subject to compatibility. Ask which exact battery models are supported, who warrants the battery, and which circuits sit on the backup path. Fronius documents a battery-ready platform with an integrated backup socket; confirm the India variant. See the [hybrid inverter range](/hybrid-inverter/), the [hybrid inverter guide](/blog/best-hybrid-solar-inverter-india-2026/) and the [battery sizing guide](/blog/battery-sizing-hybrid-solar/).
 
 ### 4 BHK, bungalows and villas (about 6 to 10 kW and above)
+
+Table: Example three-phase inverter families for bungalows and villas, with datasheet figures
 
 | Model | Phase | MPPT | MPPT window | Max DC | Max input current | IP | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -184,7 +203,11 @@ Two 1.5-tonne air conditioners (about 3,000 W together), a refrigerator (200 W),
 
 ### 3 BHK example with backup (illustrative)
 
-Suppose the loads that must survive a cut are a refrigerator (200 W), five fans (375 W), lights (200 W), a router and TV (150 W) and one air conditioner (1,500 W). That is about 2,400 W of backup power. Run for six hours and the energy is about 14 kWh. The nominal battery capacity must be larger than the energy you need, because only a fraction of a battery is usable: divide by the usable fraction in the battery's datasheet. Dropping the air conditioner from the backup path reduces the energy to about 5.5 kWh for the same six hours, which is why defining critical loads is the biggest lever on cost and size. See [battery sizing for hybrid solar](/blog/battery-sizing-hybrid-solar/) for the method, and solar inverter for AC before promising air-conditioner backup.
+> [!EXAMPLE] Backup for a 3 BHK home: 2,400 W for six hours
+> Suppose the loads that must survive a cut are a refrigerator (200 W), five fans (375 W), lights (200 W), a router and TV (150 W) and one air conditioner (1,500 W). That is about 2,400 W of backup power. Run for six hours and the energy is about 14 kWh. The nominal battery capacity must be larger than the energy you need, because only a fraction of a battery is usable: divide by the usable fraction in the battery's datasheet. Dropping the air conditioner from the backup path reduces the energy to about 5.5 kWh for the same six hours, which is why defining critical loads is the biggest lever on cost and size. See [battery sizing for hybrid solar](/blog/battery-sizing-hybrid-solar/) for the method, and solar inverter for AC before promising air-conditioner backup.
+
+> [!FORMULA] Nominal battery capacity for backup
+> Nominal battery kWh = Backup energy needed (kWh) ÷ usable fraction from the battery datasheet
 
 ## Phase and connection by home size
 

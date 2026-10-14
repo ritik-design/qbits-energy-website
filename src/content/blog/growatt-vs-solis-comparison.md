@@ -37,7 +37,7 @@ faqs:
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 > - Neither brand wins on every row. Compare two exact models intended for the same job, not the brand names.
 > - In the 5 kW single-phase class the published datasheets are close on rated output and tracker count. They differ on voltage window, start-up voltage, strings per tracker and efficiency figures.
 > - Growatt's datasheet lists a 5-year standard warranty with a 10-year option. Solis publishes a regional warranty document whose body text does not state the years, so ask for the term in writing.
@@ -63,6 +63,8 @@ Both listings were read on 14 October 2026 and can change. An entity and an emai
 ## Matched 5 kW single-phase specification comparison
 
 The table compares the 5 kW model from each family, using the manufacturers' own datasheets as of 14 October 2026. Both are single-phase, dual-MPPT, transformerless string inverters. Regional versions of a datasheet differ, so confirm the figures against the version that ships with your unit.
+
+Table: Matched 5 kW single-phase specifications, Growatt MIN 5000TL-X2 and Solis S6-GR1P5K-S, from manufacturer datasheets read 14 October 2026
 
 | Item | Growatt MIN 5000TL-X2 | Solis S6-GR1P5K-S (India datasheet) |
 | --- | --- | --- |
@@ -109,13 +111,16 @@ The two models above are on-grid and do not provide backup. For context on how d
 
 Growatt's monitoring runs through its own app and cloud platform, with Wi-Fi, 4G, LAN or RF accessories listed as options on the datasheet. Solis monitoring uses SolisCloud, and the datasheet lists RS485 and USB with optional Wi-Fi or GPRS. Rather than comparing the interface, settle these questions with whoever supplies the unit:
 
-1. Does the model need a separate logger, dongle or SIM before it reports at all?
-2. Who owns the plant account, and how is it transferred if you change installers?
-3. Is per-tracker data visible, or only plant totals?
-4. Which faults raise an alert, and who receives it?
-5. How long is history kept?
+> [!CHECKLIST] Monitoring questions for the supplier
+> - Does the model need a separate logger, dongle or SIM before it reports at all?
+> - Who owns the plant account, and how is it transferred if you change installers?
+> - Is per-tracker data visible, or only plant totals?
+> - Which faults raise an alert, and who receives it?
+> - How long is history kept?
 
 ## Warranty as published
+
+Table: Growatt and Solis warranty clauses as published, read 14 October 2026
 
 | Clause | Growatt | Solis |
 | --- | --- | --- |
@@ -129,11 +134,17 @@ Growatt's monitoring runs through its own app and cloud platform, with Wi-Fi, 4G
 
 Sources: [Growatt warranty page](https://en.growatt.com/support/warranty) and [Solis product warranty page](https://www.solisinverters.com/global/productwarranty), read 14 October 2026. Solis's document names a South Asia regional version, and neither page is an India-specific contract. Ask the seller for the document that actually applies to your sale.
 
-Two practical points follow. The clock can start before you switch the inverter on, so read the delivery or production date and the installation date and put both on the handover record. And "replacement" in a clause is only as good as who pays for removal, transport and refit, so ask who bears those costs.
+> [!TIP] Put both dates on the handover record
+> The warranty clock can start before you switch the inverter on, so read the delivery or production date and the installation date and put both on the handover record.
+
+Two practical points follow. The clock can start before you switch the inverter on, as the tip above says. And "replacement" in a clause is only as good as who pays for removal, transport and refit, so ask who bears those costs.
 
 ## ALMM and certification
 
-MNRE's ALMM page lists PV modules (List-I) and cells (List-II). It has no inverter list, so no inverter can be "ALMM listed" the way a module can. For subsidy and DISCOM purposes, ask for the exact model's BIS registration and test reports, and read the scheme and DISCOM conditions separately. [IEC 62109](/glossary/iec-62109/) is the safety standard to look for, with IS 16221 (Part 2) as the Indian counterpart and IS 16169, the Indian adoption of IEC 62116, covering islanding prevention. The [certification guide](/blog/solar-inverter-certifications/) walks through what to ask for.
+> [!IMPORTANT] No inverter is "ALMM listed"
+> MNRE's ALMM page lists PV modules (List-I) and cells (List-II). It has no inverter list, so no inverter can be "ALMM listed" the way a module can.
+
+For subsidy and DISCOM purposes, ask for the exact model's BIS registration and test reports, and read the scheme and DISCOM conditions separately. [IEC 62109](/glossary/iec-62109/) is the safety standard to look for, with IS 16221 (Part 2) as the Indian counterpart and IS 16169, the Indian adoption of IEC 62116, covering islanding prevention. The [certification guide](/blog/solar-inverter-certifications/) walks through what to ask for.
 
 ## Price
 

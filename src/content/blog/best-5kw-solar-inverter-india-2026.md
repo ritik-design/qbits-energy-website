@@ -39,7 +39,7 @@ A 5 kW rooftop system is where residential solar stops being simple. At 3 kW alm
 
 Brand rankings do not help, because they mix single-phase and three-phase hardware, on-grid and hybrid topologies, and single-MPPT and dual-MPPT designs into one league table. This guide runs the other way round. It starts with the load a 5 kW system covers, gives a generation calculation with every input visible, then settles phase and topology before touching a model name. You also get the datasheet lines that matter here, seven exact 5 kW models compared from their own datasheets, the PM Surya Ghar arithmetic, a worked string layout from real datasheet values, a fit test, and a commissioning list. One section argues against advice most buyers hear: the panel to inverter ratio matters more than the brand.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Seven exact 5 kW models are compared below from their own datasheets, with no scores and no winner.
 > - A 5 kW class array is 8 to 10 modules, because panels sold in India now span roughly 535 W to 715 W.
 > - A 5.5 kWp array at 4.5 peak sun hours and a 0.78 performance ratio yields about 19.3 kWh per day, or 7,046 kWh per year.
@@ -76,13 +76,15 @@ Competitor figures come from the datasheet named in each entry. Ask your supplie
 
 ## Quick pick by use case
 
+Table: Quick pick by use case, with candidates from this guide and what the datasheet shows (filters, not rankings)
+
 | Use case | Candidates from this guide | What the datasheet shows |
 | --- | --- | --- |
 | One clean roof plane, single-phase | Qbits QB 5KTLS | One tracker, 40 V to 600 V window, 20 A input |
-| East and west planes, or two string lengths | Qbits QB 5KTLD, Sungrow SG5.0RS, GoodWe GW5000D-NS, Growatt MIN 5000TL-X, Solis S6-GR1P5K-S | Each lists two independent trackers |
+| East and west planes, or two string lengths | GoodWe GW5000D-NS, Growatt MIN 5000TL-X, Qbits QB 5KTLD, Solis S6-GR1P5K-S, Sungrow SG5.0RS | Each lists two independent trackers |
 | Outage cover for essentials | Qbits QBH 5KS48P | Battery port, 75 A to 120 A battery current across the family, UPS switching within 10 seconds |
 | 700 W class modules | Qbits QB 5KTLD, Qbits QB 5KTLS | 20 A input per tracker, the highest printed among the seven |
-| Wide AC grid window | Qbits QB 5KTLS, Growatt MIN 5000TL-X | 90 V to 290 Vac adjustable and 160 V to 300 V printed |
+| Wide AC grid window | Growatt MIN 5000TL-X, Qbits QB 5KTLS | 90 V to 290 Vac adjustable and 160 V to 300 V printed |
 | Shorter strings, low window floor | Qbits QB 5KTLS, Sungrow SG5.0RS | 40 V window floor |
 
 These are filters, not rankings. Whether a candidate fits depends on your module's operating current and string voltage, so test it before you buy.
@@ -108,6 +110,9 @@ Inputs:
 - Peak sun hours: 4.5 per day (mid-range Indian value; verify your state irradiation data)
 - Performance ratio: 0.78 (temperature, soiling, cabling, and conversion loss)
 
+> [!FORMULA]
+> Daily output (kWh) = array kWp × peak sun hours × performance ratio
+
 Daily output = 5.5 kWp x 4.5 peak sun hours x 0.78 = **19.3 kWh per day**.
 
 Annual output = 19.3 x 365 = about **7,046 kWh per year**, or roughly 587 kWh per month.
@@ -132,6 +137,9 @@ An on-grid inverter exports surplus and shuts down during an outage, which is re
 
 The cost structure is where quotations blur. At 5 kW the hybrid inverter is a modest premium. A battery bank sized for even three hours of essential load is usually the largest line item, and it ages on a cycle-life clock the modules do not share.
 
+> [!IMPORTANT] Subsidy stops at 3 kW
+> Central assistance is capped at 3 kW of rated DC module capacity, so a 5 kW system attracts the same published maximum (₹78,000) as a 3 kW one.
+
 Subsidy does not tilt this the way buyers expect. Central financial assistance under PM Surya Ghar: Muft Bijli Yojana (MNRE) is capped at 3 kW of rated DC module capacity, so a 5 kW system attracts the same published maximum as a 3 kW one. The MNRE scheme guideline puts that cap at ₹78,000 for systems of 3 kW and above (₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW), and the assistance is computed irrespective of inverter size.
 
 Financing moved instead, with collateral-free loans at the repo rate plus 50 basis points, 5.75% per annum at that date, in the same MNRE material. Work through the [on-grid versus hybrid comparison](/blog/on-grid-vs-hybrid/) if backup is on the table.
@@ -143,6 +151,8 @@ Answer capsule: central financial assistance under PM Surya Ghar is capped at 3 
 The published residential slabs are ₹30,000 for 1 kW, ₹60,000 for 2 kW and ₹78,000 for 3 kW and above in a general-category state, according to the [PIB Cabinet release of 29 February 2024](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2010130&reg=48&lang=2) and the [MNRE operational guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/), checked on 14 October 2026. Approval is a DISCOM decision and nothing here is a promise. Confirm the current slab on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/).
 
 The next table uses assumed contract values for a 5 kW system. They are not market prices and not any brand's price. They show how the fixed ₹78,000 behaves as the contract rises.
+
+Table: Central assistance as a share of an assumed 5 kW contract value (illustrative contract values, not market prices)
 
 | Assumed contract value | Central assistance | Net cost | Assistance as share of contract |
 | --- | --- | --- | --- |
@@ -164,7 +174,10 @@ Answer capsule: six lines decide performance at this size. Phase against your co
 
 **Grid window.** Indian low-tension feeders swing, and a narrow AC window trips on overvoltage and stops exporting. KTLS lists a 90 V to 290 Vac adjustable range.
 
-**Maximum DC input current.** This line has quietly tightened, and it now decides more 5 kW designs than any other. The KTLS family lists 20 A maximum DC input and the KTLD family 20 A per MPPT. Modules now sold in India press against that: a Waaree BiN-03-700 is rated 18.31 A short-circuit, a Vikram VSMDH.66.680.05 18.23 A, and an Adani ASB-M12-132-650 reaches 18.85 A. One such string fits a 20 A input with 6% to 9% headroom. Two paralleled draw 36.62 A, which is 83% over the limit and not a design you can commission.
+**Maximum DC input current.** This line has quietly tightened, and it now decides more 5 kW designs than any other. The KTLS family lists 20 A maximum DC input and the KTLD family 20 A per MPPT. Modules now sold in India press against that: a Waaree BiN-03-700 is rated 18.31 A short-circuit, a Vikram VSMDH.66.680.05 18.23 A, and an Adani ASB-M12-132-650 reaches 18.85 A. One such string fits a 20 A input with 6% to 9% headroom.
+
+> [!WARNING] Two strings on one 20 A tracker
+> Two strings of Waaree BiN-03-700 modules paralleled draw 36.62 A, which is 83% over a 20 A limit and not a design you can commission.
 
 Installers who learned sizing on 330 W modules drawing 9 A routinely paralleled two strings per tracker. Repeat that with 700 W hardware and the design fails on current while every voltage check passes.
 
@@ -172,7 +185,23 @@ Hybrid units are tighter still. The Qbits QBH 5KS48P is listed at 18 A per track
 
 ## Seven 5 kW inverters compared
 
-Answer capsule: seven exact 5 kW models, three from Qbits and four from other makers, listed by use case and then alphabetically. Every figure comes from the datasheet named in the entry. They cover single-phase on-grid with one or two trackers, and a hybrid.
+Answer capsule: seven exact 5 kW models, three from Qbits and four from other makers, listed alphabetically by brand. Every figure comes from the datasheet named in the entry. They cover single-phase on-grid with one or two trackers, and a hybrid.
+
+### GoodWe GW5000D-NS: single-phase on-grid, two MPPTs
+
+From the [GoodWe DNS series datasheet](https://en.goodwe.com/Ftp/EN/Downloads/Datasheet/GW_DNS_Datasheet-EN.pdf) (V2.1, 17 April 2023, as of October 2026): 5,000 W nominal, two trackers with one string each, 80 V to 550 V MPPT, 600 V maximum input, 80 V start-up, 11 A input and 13.8 A short-circuit per tracker, 97.8% maximum efficiency, IP65, 22.8 A maximum output current.
+
+**Suits:** compact single-phase installs with two moderate strings.
+
+**Check before buying:** the 11 A line against your module's operating current.
+
+### Growatt MIN 5000TL-X: single-phase on-grid, two MPPTs
+
+From the [Growatt MIN 2500~6000TL-X datasheet, India folder copy hosted by Krannich Solar](https://krannich-solar.com/fileadmin/user_upload/IND/Datasheets/Growatt/Datasheet_Growatt_MIN_3-6TL-X.pdf) (as of October 2026): 5,000 W, two trackers, 80 V to 550 V MPP range, 550 V maximum DC, 100 V start-up, 12.5 A input and 16 A short-circuit per tracker, 98.4% maximum efficiency, IP65, 160 V to 300 V AC, with a recommended maximum of 7,000 W of PV.
+
+**Suits:** two-plane homes on feeders with wide voltage swings.
+
+**Check before buying:** which datasheet edition ships, because regional editions list different current and AC lines.
 
 ### Qbits QB 5KTLS (QB-4.6-6KTLS family): single-phase on-grid, one MPPT
 
@@ -198,22 +227,6 @@ The [QBH 3KS/3K6S/4KS/4K6S/5KS/6KS48P family](/our-products/QBH-3-6KS48P/) lists
 
 **Check before buying:** the 18 A inputs sit below the 18.3 A short-circuit rating of some 700 W class modules, so compare the exact module. Confirm battery types and interface on the datasheet, and size the battery with the [battery sizing guide](/blog/battery-sizing-hybrid-solar/).
 
-### GoodWe GW5000D-NS: single-phase on-grid, two MPPTs
-
-From the [GoodWe DNS series datasheet](https://en.goodwe.com/Ftp/EN/Downloads/Datasheet/GW_DNS_Datasheet-EN.pdf) (V2.1, 17 April 2023, as of October 2026): 5,000 W nominal, two trackers with one string each, 80 V to 550 V MPPT, 600 V maximum input, 80 V start-up, 11 A input and 13.8 A short-circuit per tracker, 97.8% maximum efficiency, IP65, 22.8 A maximum output current.
-
-**Suits:** compact single-phase installs with two moderate strings.
-
-**Check before buying:** the 11 A line against your module's operating current.
-
-### Growatt MIN 5000TL-X: single-phase on-grid, two MPPTs
-
-From the [Growatt MIN 2500~6000TL-X datasheet, India folder copy hosted by Krannich Solar](https://krannich-solar.com/fileadmin/user_upload/IND/Datasheets/Growatt/Datasheet_Growatt_MIN_3-6TL-X.pdf) (as of October 2026): 5,000 W, two trackers, 80 V to 550 V MPP range, 550 V maximum DC, 100 V start-up, 12.5 A input and 16 A short-circuit per tracker, 98.4% maximum efficiency, IP65, 160 V to 300 V AC, with a recommended maximum of 7,000 W of PV.
-
-**Suits:** two-plane homes on feeders with wide voltage swings.
-
-**Check before buying:** which datasheet edition ships, because regional editions list different current and AC lines.
-
 ### Solis S6-GR1P5K-S: single-phase on-grid, two MPPTs
 
 From the [Solis S6-GR1P(2.5-6)K-S India datasheet](https://www.solisinverters.com/uploads/file/Solis_datasheet_S6-GR1P(2,5-6)K-S_IND_V1,2_2023_04.pdf) (IND V1.2, April 2023, as of October 2026): 5 kW rated, two MPPTs with two input strings each, 90 V to 550 V MPPT, 550 V maximum, 100 V start-up, 16 A input and 22 A short-circuit per tracker, 97.7% maximum efficiency, IP66, 1/N/PE 220 or 230 V. The sheet lists IS 16169 and IS 16221 (BIS) among its grid standards, with arc-fault protection available on activation.
@@ -232,19 +245,40 @@ From the [Sungrow SG3.0/5.0RS datasheet](https://info-support.sungrowpower.com/a
 
 ## Side-by-side: seven 5 kW inverters
 
+```chart
+type: hbar
+title: Maximum DC input current per MPPT, seven 5 kW inverters
+unit: "A"
+source: "Manufacturer datasheets for each model as named in the entries above (Qbits, GoodWe, Growatt, Solis, Sungrow), read October 2026"
+note: "Listed alphabetically by brand. Compare against your module's short-circuit current. Not a ranking."
+decimals: 1
+data:
+  - { label: "GoodWe GW5000D-NS", value: 11 }
+  - { label: "Growatt MIN 5000TL-X", value: 12.5 }
+  - { label: "Qbits QB 5KTLD", value: 20 }
+  - { label: "Qbits QB 5KTLS", value: 20 }
+  - { label: "Qbits QBH 5KS48P", value: 18 }
+  - { label: "Solis S6-GR1P5K-S", value: 16 }
+  - { label: "Sungrow SG5.0RS", value: 16 }
+```
+
+Table: Seven 5 kW inverters side by side from their own datasheets, listed alphabetically by brand
+
 | Model | Type | MPPTs | MPPT window | Max DC | Input current per MPPT | Max efficiency | IP |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| GoodWe GW5000D-NS | On-grid | 2 | 80 to 550 V | 600 V | 11 A | 97.8% | IP65 |
+| Growatt MIN 5000TL-X | On-grid | 2 | 80 to 550 V | 550 V | 12.5 A | 98.4% | IP65 |
 | Qbits QB 5KTLS | On-grid | 1 | 40 to 600 V | 600 V | 20 A | 98.0% to 98.1% (family) | IP66 |
 | Qbits QB 5KTLD | On-grid | 2 | 80 to 550 V | 550 V | 20 A | 98.1% | IP66 |
 | Qbits QBH 5KS48P | Hybrid | 2 | 150 to 450 V | 500 V | 18 A | 97.6% max (family) | IP66 |
-| GoodWe GW5000D-NS | On-grid | 2 | 80 to 550 V | 600 V | 11 A | 97.8% | IP65 |
-| Growatt MIN 5000TL-X | On-grid | 2 | 80 to 550 V | 550 V | 12.5 A | 98.4% | IP65 |
 | Solis S6-GR1P5K-S | On-grid | 2 | 90 to 550 V | 550 V | 16 A | 97.7% | IP66 |
 | Sungrow SG5.0RS | On-grid | 2 | 40 to 560 V | 600 V | 16 A | 97.9% | IP65 |
 
 Read the table for configuration, not for a winner. Tenths of a percent on peak efficiency matter far less than a wrong string. Warranty years tell you nothing alone: compare the remedy, the registration deadline, who pays freight and labour, the exclusion list, and which entity answers in year six. Qbits' public datasheets do not define the base term, so get it in writing for the exact model, along with the service process. MNRE publishes ALMM lists for modules and cells rather than inverters, so ask the seller for the exact model's BIS registration and current certificates, and confirm PM Surya Ghar requirements with the DISCOM. For a reputation-led view, see the [solar inverter brand ranking for 2026](/blog/top-10-solar-inverter-brands-india-2026/).
 
 ## On-grid versus hybrid at 5 kW, side by side
+
+Table: On-grid versus hybrid at 5 kW
 
 | | On-grid | Hybrid |
 | --- | --- | --- |
@@ -260,6 +294,7 @@ Answer capsule: the DC to AC ratio is array kWp divided by inverter AC rating. B
 
 Here is a worked layout using published module datasheet values.
 
+<!-- steps -->
 1. Array: 8 modules at 700 W (Waaree BiN-03-700) = 5.6 kWp. DC to AC ratio on a 5 kW inverter = **1.12**.
 2. Cold correction: open-circuit voltage 48.58 V, temperature coefficient -0.26% per °C, minimum design temperature 5 °C. That is 20 °C below standard test conditions, so voltage rises 5.2% to **51.11 V** per module.
 3. Single-string option on the single-MPPT KTLS unit: 8 x 51.11 = **408.9 V** against a 600 V maximum DC. Theoretical maximum string is 600 / 51.11 = 11 modules.
@@ -289,6 +324,8 @@ Now the uncomfortable comparison. Moving from a 1.0 ratio to a 1.15 ratio change
 
 Answer capsule: five common Indian situations at this size map onto five different answers. Identify your row before shortlisting any model, because the situation eliminates most of the market in one step.
 
+Table: Which 5 kW inverter configuration suits which situation
+
 | Your situation | What to buy | Why |
 | --- | --- | --- |
 | Single-phase service, one clean roof plane, reliable grid | Single-phase, single-MPPT on-grid | A second tracker recovers nothing, and the 600 V ceiling allows one long string |
@@ -311,6 +348,7 @@ If you are still deciding size rather than model, the same framework applies one
 
 Answer capsule: commissioning converts a good specification into a good system. Most first-year underperformance traces to installation shortcuts, not hardware defects. At 5 kW the current-side checks matter more than at 3 kW, because the margins are narrower.
 
+<!-- steps -->
 1. Confirm the model number on the unit matches the quotation and the approved design.
 2. Verify the sanctioned connection and phase on the meter match the inverter installed.
 3. Measure each string's open-circuit voltage against your calculated cold value.

@@ -4,7 +4,7 @@ excerpt: "How to read your solar inverter monitoring app India: today's generati
 description: "How to read your solar inverter monitoring app: today's generation, grid export, self-consumption ratio, temperature, and the 6 daily numbers that matter."
 category: Guide
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-how-to-read-solar-monitoring-app-india.webp"
 author: "Keyur Rakholiya"
@@ -37,7 +37,7 @@ Your solar monitoring app shows dozens of numbers, graphs, and alerts every day.
 
 > **Direct answer.** The Solar App Daily Check: 6 Numbers That Matter are, Today's Generation (kWh), Lifetime Generation (kWh), Grid Export (kWh), Self-Consumption Ratio (%), Inverter Temperature (°C), and Current Power (W). Compare today's generation to the expected output for your system size and weather, track self-consumption above 70%, alert at inverter temperature above 65 °C, and verify MPPT voltage is within the inverter's operating range. The full interpretation guide for each metric is below.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Today's Generation below 60% of your state's clear-sky benchmark on a clear day signals a fault worth investigating.
 > - Self-consumption ratio above 70% is the target; below 50% is a missed financial opportunity worth shifting loads to fix.
 > - Inverter temperature above 65°C is a warning threshold, above 70°C usually indicates a cooling fault.
@@ -51,6 +51,8 @@ After you understand the monitoring app, the natural next step is understanding 
 Today's Generation is the total electrical energy your solar panels produced since midnight, displayed in kilowatt-hours (kWh). It is the single most important daily metric.
 
 **What is a good number?**
+
+Table: Expected Today's Generation on a clear day, by system size and state
 
 | System Size | Rajasthan (Clear) | Karnataka (Clear) | Kerala (Monsoon) |
 | --- | --- | --- | --- |
@@ -96,9 +98,13 @@ Grid Export is the total energy your solar system sent to the [DISCOM](/glossary
 
 Self-consumption ratio is the percentage of your solar generation consumed directly by your own appliances: `Self-consumption % = (Generated kWh − Exported kWh) ÷ Generated kWh × 100`.
 
+> [!FORMULA] Self-consumption ratio
+> Self-consumption % = (Generated kWh − Exported kWh) ÷ Generated kWh × 100
+
 **Target:** Above 70%. Below 50% is a missed opportunity.
 
-**Why it matters financially:** Self-consumed units save you the full grid tariff (e.g., ₹9/unit). Exported units earn the typically lower net-metering credit (e.g., ₹4.5/unit in Karnataka). A 1,000 kWh/month system with 80% self-consumption earns ₹7,200 from solar (800 × ₹9 + 200 × ₹4.5). The same system with 50% self-consumption earns ₹6,750 (500 × ₹9 + 500 × ₹4.5) - ₹450 less per month from the same generation.
+> [!EXAMPLE] 80% against 50% self-consumption, 1,000 kWh a month
+> **Why it matters financially:** Self-consumed units save you the full grid tariff (e.g., ₹9/unit). Exported units earn the typically lower net-metering credit (e.g., ₹4.5/unit in Karnataka). A 1,000 kWh/month system with 80% self-consumption earns ₹7,200 from solar (800 × ₹9 + 200 × ₹4.5). The same system with 50% self-consumption earns ₹6,750 (500 × ₹9 + 500 × ₹4.5) - ₹450 less per month from the same generation.
 
 **How to improve self-consumption:** Schedule high-consumption appliances (washing machine, dishwasher, pressure pump, EV charging) to run between 10 AM and 3 PM. In hybrid systems, programme the battery to absorb surplus generation rather than exporting it, correct [battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) determines how much surplus the system can actually absorb before it has to export.
 
@@ -108,7 +114,8 @@ Inverter temperature is the internal operating temperature of the inverter, typi
 
 **Normal operating range:** 35–60 °C during peak generation hours on a hot Indian summer day.
 
-**Warning threshold:** Above 65 °C sustained. Above 70 °C indicates a fault (blocked vents, ambient overheating, cooling fan failure).
+> [!WARNING] Inverter temperature thresholds
+> **Warning threshold:** Above 65 °C sustained. Above 70 °C indicates a fault (blocked vents, ambient overheating, cooling fan failure).
 
 **What to check if temperature is high:**
 - Is the inverter mounted with at least 20 cm clearance on all sides?
@@ -134,17 +141,18 @@ Consolidating the six metrics into a daily 2-minute review routine.
 
 ### The Solar App Daily Check: 6 Numbers That Matter
 
-1. **Today's Generation (kWh)**: Compare to clear-sky benchmark for your system and state. Below 60% on a clear day = investigate.
-
-2. **Lifetime Generation (kWh)**: Update your running savings calculation: Lifetime kWh × ₹[tariff] = money saved. Compare annual increment to installer's estimate.
-
-3. **Grid Export (kWh)**: Verify monthly total matches your DISCOM bill's export credit line. High export = opportunity to shift loads to daytime.
-
-4. **Self-Consumption Ratio (%)**: Target above 70%. Below 50% is a financial opportunity, shift loads to solar hours.
-
-5. **Inverter Temperature (°C)**: Alert above 65 °C. Check ventilation, shade, and cooling fan if threshold is exceeded.
-
-6. **Current Power (W) vs Expected**: On a clear day, Current Power should be 80–95% of system nameplate kW at peak irradiance. Below 70% on clear days = investigate string faults or MPPT issues.
+> [!CHECKLIST] The daily 2-minute app check: 6 numbers
+> - **Today's Generation (kWh)**: Compare to clear-sky benchmark for your system and state. Below 60% on a clear day = investigate.
+>
+> - **Lifetime Generation (kWh)**: Update your running savings calculation: Lifetime kWh × ₹[tariff] = money saved. Compare annual increment to installer's estimate.
+>
+> - **Grid Export (kWh)**: Verify monthly total matches your DISCOM bill's export credit line. High export = opportunity to shift loads to daytime.
+>
+> - **Self-Consumption Ratio (%)**: Target above 70%. Below 50% is a financial opportunity, shift loads to solar hours.
+>
+> - **Inverter Temperature (°C)**: Alert above 65 °C. Check ventilation, shade, and cooling fan if threshold is exceeded.
+>
+> - **Current Power (W) vs Expected**: On a clear day, Current Power should be 80–95% of system nameplate kW at peak irradiance. Below 70% on clear days = investigate string faults or MPPT issues.
 
 ## What to verify in Qbits monitoring documentation
 

@@ -4,7 +4,7 @@ excerpt: "How to make a solar inverter warranty claim in India: evidence, docume
 description: "A step by step guide to the solar inverter warranty claim process in India, covering fault evidence, commissioning documents, claim order, exclusions, freight and labour liability, and escalation options."
 category: "Buying Guide"
 date: 2026-09-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "20 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -38,7 +38,7 @@ It assumes you already know what your warranty says. If you do not, read the [wa
 
 What follows covers the evidence to gather before you call, the documents your installer should have handed over at commissioning, who to approach first among installer, distributor and manufacturer, what the manufacturer will ask for and why each item matters, the approval step that actually starts the replacement clock, the exclusions that sink claims in Indian conditions, who pays freight and labour, and what to do if a claim is refused. A printable checklist sits near the end.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A product warranty covers the inverter only. Array, earthing, cabling, monitoring and grid faults are installer or DISCOM matters, and misfiling them is the commonest reason a claim stalls.
 > - Claim in order: installer first if their contract is live, then the distributor named on the invoice, then the manufacturer's authorised service channel.
 > - Any dispatch window you are quoted starts at claim approval, not at your first complaint, and Qbits' public documents do not state one.
@@ -54,6 +54,8 @@ A warranty claim is a statement that the product is defective. If the real fault
 
 Four different faults look identical from the ground floor.
 
+Table: Common inverter symptoms and what else could cause them
+
 | Symptom | Could be the inverter | Could be something else |
 | --- | --- | --- |
 | No display, no output | Failed power supply board inside the unit | AC isolator tripped, MCB open, DISCOM outage |
@@ -64,7 +66,8 @@ Four different faults look identical from the ground floor.
 
 Work through the diagnosis ladder in the [troubleshooting guide](/blog/solar-inverter-troubleshooting/) before filing, and check the meaning of the code in the [error code reference](/blog/solar-inverter-error-codes-guide/). Do not open the enclosure. Opening it voids the warranty on most Indian inverter policies, and it converts a claimable defect into an excluded one.
 
-One test settles the grid question cheaply. Ask the installer to log AC voltage and frequency at the inverter terminals across a full day. If the supply sits outside the window printed in your model's manual, the trips are the grid behaving badly, not the inverter failing. The governing limits come from the Central Electricity Authority connectivity regulations and your DISCOM's connection conditions, so take the numbers from those documents rather than from a forum post.
+> [!TIP] Log AC voltage and frequency for a full day
+> One test settles the grid question cheaply. Ask the installer to log AC voltage and frequency at the inverter terminals across a full day. If the supply sits outside the window printed in your model's manual, the trips are the grid behaving badly, not the inverter failing. The governing limits come from the Central Electricity Authority connectivity regulations and your DISCOM's connection conditions, so take the numbers from those documents rather than from a forum post.
 
 ## The documents you should have kept at commissioning
 
@@ -96,11 +99,14 @@ Capture six things.
 
 Write this as a short dated log rather than a WhatsApp thread you will have to reconstruct later. If the fault is intermittent, log each occurrence. Three dated instances of the same code are far more persuasive than one description of a persistent problem.
 
-Two safety rules override all of the above. Do not reset a repeated insulation, ground fault or arc alarm to keep the system running. And treat any burning smell, visible scorching, or buzzing from the enclosure as a stop condition, to be handled by a qualified technician and not by you.
+> [!CAUTION] Do not reset repeated insulation, ground fault or arc alarms
+> Two safety rules override all of the above. Do not reset a repeated insulation, ground fault or arc alarm to keep the system running. And treat any burning smell, visible scorching, or buzzing from the enclosure as a stop condition, to be handled by a qualified technician and not by you.
 
 ## Who to claim against, and in what order
 
 Three parties can be responsible and they have different roles. Readers usually call the manufacturer first, which is the slowest route, because the manufacturer's opening question is the site diagnosis only the installer can supply.
+
+Table: Who is answerable for what, and when to approach each party
 
 | Party | What they are answerable for | When to go to them |
 | --- | --- | --- |
@@ -115,6 +121,8 @@ Two practical notes. First, always obtain a ticket number in writing, from whoev
 ## What the manufacturer will ask for, and why each item matters
 
 The request list looks bureaucratic. It is not. Each item exists to answer one specific question the assessor has to answer before approving a claim, and knowing the question tells you what a good answer looks like.
+
+Table: What the manufacturer asks for during a claim and the question each item answers
 
 | What they ask for | The question it answers |
 | --- | --- |
@@ -140,6 +148,8 @@ Approval gates three things: whether the unit is in term, whether the cause is a
 
 So the honest timeline has two halves.
 
+Table: Stages of a warranty claim, who controls each and what is published
+
 | Stage | Who controls it | Published duration |
 | --- | --- | --- |
 | Fault to first ticket | You | Not applicable; same day is achievable |
@@ -158,6 +168,8 @@ The practical consequence is a planning one. Your system will be down for the wh
 ## What typically voids an inverter warranty in India
 
 Exclusions are not fine print. They are the substance of the decision, and in Indian rooftop conditions most rejected claims fall into a handful of categories. None of them is about the electronics.
+
+Table: Typical exclusions that sink inverter warranty claims in India
 
 | Cause | Typical position | What decides it |
 | --- | --- | --- |
@@ -182,19 +194,20 @@ Here is the surprise that catches most claimants. An approved claim is not a cos
 
 The usual exclusions are removal and refitting labour, recommissioning and reconfiguration, two-way transport of the faulty and replacement units, transit risk, technician travel, and access equipment such as scaffolding, a ladder platform or a crane. Some policies cover freight one way only. A few cover labour for an initial period and not afterwards. The only way to know is the clause in your own document.
 
-**Worked example (assumed inputs, not quoted rates).** Use your own local figures; the point is the structure, not the numbers.
-
-Out-of-pocket cost on an approved claim equals freight, plus labour, plus access, plus revisits, plus lost generation.
-
-For a 15 kW three-phase rooftop system, wall-mounted at first-floor terrace level, with these assumptions: two-way courier ₹2,500, one electrician for half a day ₹1,800, no access equipment needed ₹0, one revisit for recommissioning ₹1,200.
-
-- Direct cost = ₹2,500 + ₹1,800 + ₹0 + ₹1,200 = **₹5,500**
-
-Now the generation loss over a 12 day total downtime, at an assumed 4.2 kWh per kWp per day and an assumed offset tariff of ₹7 per kWh:
-
-- Lost units = 15 kW × 4.2 kWh/kWp/day × 12 days = 756 kWh
-- Lost value = 756 kWh × ₹7 = **₹5,292**
-- Total exposure = ₹5,500 + ₹5,292 = **₹10,792**
+> [!EXAMPLE] Out-of-pocket cost of an approved claim: 15 kW system
+> **Worked example (assumed inputs, not quoted rates).** Use your own local figures; the point is the structure, not the numbers.
+>
+> Out-of-pocket cost on an approved claim equals freight, plus labour, plus access, plus revisits, plus lost generation.
+>
+> For a 15 kW three-phase rooftop system, wall-mounted at first-floor terrace level, with these assumptions: two-way courier ₹2,500, one electrician for half a day ₹1,800, no access equipment needed ₹0, one revisit for recommissioning ₹1,200.
+>
+> - Direct cost = ₹2,500 + ₹1,800 + ₹0 + ₹1,200 = **₹5,500**
+>
+> Now the generation loss over a 12 day total downtime, at an assumed 4.2 kWh per kWp per day and an assumed offset tariff of ₹7 per kWh:
+>
+> - Lost units = 15 kW × 4.2 kWh/kWp/day × 12 days = 756 kWh
+> - Lost value = 756 kWh × ₹7 = **₹5,292**
+> - Total exposure = ₹5,500 + ₹5,292 = **₹10,792**
 
 Scale the access line and the answer changes shape. A large unit on a factory roof needing a crane, two technicians and freight on a transporter can push the direct cost several times higher, which is why commercial buyers negotiate labour and freight into the supply contract rather than relying on the warranty. Where a maintenance contract exists, it often absorbs the labour line, and our [AMC cost guide](/blog/solar-inverter-amc-cost-india/) covers what that typically includes.
 
@@ -218,6 +231,7 @@ A refusal is a decision, and decisions can be challenged. What cannot be challen
 
 Then work the ladder in order. Skipping steps weakens the later ones, because each forum asks what you did before you arrived.
 
+<!-- steps -->
 1. **Written refusal with reasons.** Request the clause, the diagnosis, and the evidence relied on. Ask for the technician's report.
 2. **Rebut on the evidence, not the tone.** If the refusal blames earthing, produce the commissioning earth test. If it blames the grid, produce your logged voltage data. Most reversals happen here.
 3. **Escalate inside the service structure.** Go through an authorised service partner to the regional or national service head, quoting the ticket number and the dated history.
@@ -232,21 +246,22 @@ For most residential inverter disputes, the District Commission is the relevant 
 
 Work top to bottom. Items 1 to 8 happen before you call anyone.
 
-1. Isolate nothing yet, and photograph the display or LED state exactly as found.
-2. Copy the error code character for character, with the date and time.
-3. Screenshot the monitoring app, including the previous 7 days of generation.
-4. Note the conditions: weather, any grid outage, any other tripped device in the building.
-5. Check the AC and DC isolators and MCBs, without opening the inverter enclosure.
-6. Run the external checks in the troubleshooting guide to rule out array, grid and monitoring faults.
-7. Pull the file: invoice, written warranty terms, commissioning report, serial number photograph, DISCOM approval.
-8. Write a one-page fault summary: model, serial, commissioning date, code, timestamp, symptom, what you checked.
-9. Raise the ticket with the installer if their contract is live, otherwise the dealer, otherwise the authorised service network.
-10. Get the ticket number in writing and confirm the submission was received in full.
-11. Ask what evidence is outstanding and when the approval decision is expected.
-12. Cooperate with remote diagnosis and, if requested, the site inspection.
-13. On approval, confirm in writing the remedy, the remaining term, who pays freight and labour, and the return condition for the old unit.
-14. On refusal, request the written reason and the clause relied on, then work the escalation ladder.
-15. Keep the whole file for the full warranty term, not for the current year.
+> [!CHECKLIST] Claim-preparation checklist
+> 1. Isolate nothing yet, and photograph the display or LED state exactly as found.
+> 2. Copy the error code character for character, with the date and time.
+> 3. Screenshot the monitoring app, including the previous 7 days of generation.
+> 4. Note the conditions: weather, any grid outage, any other tripped device in the building.
+> 5. Check the AC and DC isolators and MCBs, without opening the inverter enclosure.
+> 6. Run the external checks in the troubleshooting guide to rule out array, grid and monitoring faults.
+> 7. Pull the file: invoice, written warranty terms, commissioning report, serial number photograph, DISCOM approval.
+> 8. Write a one-page fault summary: model, serial, commissioning date, code, timestamp, symptom, what you checked.
+> 9. Raise the ticket with the installer if their contract is live, otherwise the dealer, otherwise the authorised service network.
+> 10. Get the ticket number in writing and confirm the submission was received in full.
+> 11. Ask what evidence is outstanding and when the approval decision is expected.
+> 12. Cooperate with remote diagnosis and, if requested, the site inspection.
+> 13. On approval, confirm in writing the remedy, the remaining term, who pays freight and labour, and the return condition for the old unit.
+> 14. On refusal, request the written reason and the clause relied on, then work the escalation ladder.
+> 15. Keep the whole file for the full warranty term, not for the current year.
 
 ## The Bottom Line
 

@@ -38,7 +38,7 @@ relatedSlugs:
 - solar-inverter-wiring-diagram
 ---
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 >
 > - Phase choice follows your sanctioned connection, not your rooftop capacity.
 > - A three-phase inverter cannot work on a single-phase service. There are no phases to synchronise with.
@@ -61,6 +61,7 @@ The reverse direction is physically possible. A single-phase inverter can be con
 
 Do this before you discuss equipment with anyone.
 
+<!-- steps -->
 1. **Read the bill.** It normally states the sanctioned load and whether the connection is single or three phase. Sanctioned load is the number that matters for DISCOM thresholds, not your typical consumption.
 2. **Look at the main incoming breaker.** One wide breaker fed by a single live conductor plus neutral indicates single phase. Three mechanically linked poles fed by three live conductors indicates three phase.
 3. **Count the meter terminals** if accessible, or note the meter model. Three-phase meters are visibly larger and have more terminals.
@@ -79,6 +80,8 @@ Answer capsule: four questions, in order, settle the phase before you talk to an
 
 ## The comparison that matters
 
+Table: Single-phase versus three-phase inverter, the comparison that matters
+
 | Question | Single-phase inverter | Three-phase inverter |
 | --- | --- | --- |
 | Requires | One live phase and neutral | Three live phases |
@@ -95,7 +98,14 @@ This is a selection framework, not a national legal cutoff. Your DISCOM's curren
 
 Answer capsule: the same power needs about three times the current on one phase as it does spread across three. That is one reason single-phase limits exist, and the arithmetic is simple enough to check yourself.
 
-For a single-phase inverter at unity power factor, current is power divided by 230 V. For a three-phase inverter at 415 V line-to-line, current per phase is power divided by 1.732 x 415 V. These are rated-power figures, before any overload margin, and an actual datasheet lists the maximum output current of the model.
+> [!FORMULA] Rated AC current
+> Single-phase at 230 V and unity power factor: current = power ÷ 230 V.
+>
+> Three-phase at 415 V line-to-line: current per phase = power ÷ (1.732 × 415 V).
+
+These are rated-power figures, before any overload margin, and an actual datasheet lists the maximum output current of the model.
+
+Table: Rated AC current by phase and system size, single-phase 230 V against three-phase 415 V
 
 | Inverter rating | Single-phase, 230 V | Three-phase, 415 V per phase |
 | --- | --- | --- |
@@ -104,6 +114,30 @@ For a single-phase inverter at unity power factor, current is power divided by 2
 | 6 kW | 26.1 A | 8.3 A |
 | 8 kW | 34.8 A | 11.1 A |
 | 10 kW | 43.5 A | 13.9 A |
+
+```chart
+type: bar
+title: Rated AC current per phase by inverter size, single-phase 230 V against three-phase 415 V
+unit: "A"
+source: "Calculated in this article from rated power, as power divided by 230 V (single-phase) and by 1.732 x 415 V (three-phase), at unity power factor and before any overload margin; see the table above"
+note: "A datasheet lists the real maximum output current for each model."
+decimals: 1
+series:
+  - name: Single-phase, 230 V
+    data:
+      - { label: "3 kW", value: 13.0 }
+      - { label: "5 kW", value: 21.7 }
+      - { label: "6 kW", value: 26.1 }
+      - { label: "8 kW", value: 34.8 }
+      - { label: "10 kW", value: 43.5 }
+  - name: Three-phase, 415 V per phase
+    data:
+      - { label: "3 kW", value: 4.2 }
+      - { label: "5 kW", value: 7.0 }
+      - { label: "6 kW", value: 8.3 }
+      - { label: "8 kW", value: 11.1 }
+      - { label: "10 kW", value: 13.9 }
+```
 
 Two things follow. A 10 kW single-phase inverter would export about 43.5 A on one conductor, which is above the 40 A single-phase supply limit in the MERC Supply Code and well above the current a typical home service is built for. And a 5 kW single-phase unit at about 21.7 A is a comfortable load for a 40 A service but is a larger share of a smaller sanctioned connection. This is why inverter datasheets state maximum AC output current, and why the AC cable and breaker rating must match it.
 
@@ -117,11 +151,13 @@ Some DISCOMs settle net metering on the total across all three phases. Others se
 
 The result is that you can be billed for imports on two phases while the export credit on the third is settled separately, sometimes at a less favourable rate or capped. The meter is behaving correctly. The design simply did not match the settlement method.
 
-A simple example shows the gap. A three-phase home has a single-phase inverter on the first phase producing 3 kW at noon. Each phase carries 1 kW of load. On an aggregate settlement the 3 kW of generation offsets the 3 kW of total load, so the net is zero. On a phase-wise settlement the first phase exports 2 kW while the other two phases import 1 kW each, so you export 2 kW and import 2 kW, and the two are credited and billed separately. Whether the export credit equals the import charge depends on your DISCOM's rules, which is why the written answer matters.
+> [!EXAMPLE] Phase-wise versus aggregate settlement
+> A simple example shows the gap. A three-phase home has a single-phase inverter on the first phase producing 3 kW at noon. Each phase carries 1 kW of load. On an aggregate settlement the 3 kW of generation offsets the 3 kW of total load, so the net is zero. On a phase-wise settlement the first phase exports 2 kW while the other two phases import 1 kW each, so you export 2 kW and import 2 kW, and the two are credited and billed separately. Whether the export credit equals the import charge depends on your DISCOM's rules, which is why the written answer matters.
 
 Where a DISCOM nets phase-wise, matching a three-phase inverter to a three-phase connection removes the issue because generation is distributed across all three phases.
 
-Ask two specific questions before signing: does my DISCOM settle net metering per phase or on the aggregate, and if per phase, how will this design be credited? Get the answer in writing. The [net metering application guide](/blog/how-to-apply-net-metering-india/) covers what to confirm during the application.
+> [!IMPORTANT] Two questions to get answered in writing
+> Ask two specific questions before signing: does my DISCOM settle net metering per phase or on the aggregate, and if per phase, how will this design be credited? Get the answer in writing. The [net metering application guide](/blog/how-to-apply-net-metering-india/) covers what to confirm during the application.
 
 ## When three phase is required rather than preferred
 
@@ -134,6 +170,8 @@ Beyond the regulatory threshold, three phase is usually the practical choice whe
 ## DISCOM capacity limits by state
 
 Answer capsule: the capacity at which single-phase connection ends is set by each state's regulations and DISCOM guidelines, and it is not uniform. These examples were read from published documents on 14 October 2026. They are not a substitute for your DISCOM's current order.
+
+Table: Published single-phase and three-phase capacity limits in five states, read 14 October 2026
 
 | State and DISCOM | What the published document says | Document |
 | --- | --- | --- |
@@ -167,6 +205,8 @@ Answer capsule: the inverter does not make a premises three-phase. The loads and
 - **Harmonics and balance.** Large single-phase loads on one leg of a three-phase supply raise neutral current and voltage unbalance. See the [harmonics glossary entry](/glossary/harmonics/) and the [three-phase inverter guide](/blog/3-phase-solar-inverter/).
 
 ## Single-phase versus three-phase inverter: pros and cons
+
+Table: Single-phase versus three-phase inverter, pros and cons
 
 | | Single-phase | Three-phase |
 | --- | --- | --- |
@@ -205,6 +245,8 @@ Answer capsule: three terms appear in phase discussions. Each describes a real e
 
 Answer capsule: Qbits splits its range by phase and by on-grid or hybrid. These are the families in the product data. They show the two categories, and they do not mean a given project can use any of them, because the sanctioned connection and the approved design decide that.
 
+Table: Qbits inverter families by phase and type, from the product data
+
 | Family | Phase | Type | Rating range | MPPTs |
 | --- | --- | --- | --- | --- |
 | [QB 1.5/2.0/2.7/3.0/3.3/3.6/4.0KTLS](/our-products/QB-1.5-4.0KTLS/) | Single | On-grid | 1.5 to 4 kW | 1 |
@@ -224,14 +266,13 @@ Qbits publishes an expandable warranty, and its public datasheets do not define 
 
 ## Quote checklist
 
-Ask for a dated offer that names:
-
-- the exact inverter model and its AC connection type;
-- the sanctioned connection the design assumes;
-- the module and string schedule against the inverter's MPPT limits;
-- who is responsible for the DISCOM application and its timeline;
-- protective equipment and metering scope;
-- the DISCOM's netting method and how this design is credited under it.
+> [!CHECKLIST] Ask for a dated offer that names
+> - the exact inverter model and its AC connection type;
+> - the sanctioned connection the design assumes;
+> - the module and string schedule against the inverter's MPPT limits;
+> - who is responsible for the DISCOM application and its timeline;
+> - protective equipment and metering scope;
+> - the DISCOM's netting method and how this design is credited under it.
 
 Ask the installer to show the inverter on a single line diagram with the output connection point identified. The [wiring guide](/blog/solar-inverter-wiring-diagram/) explains that interface, and the [sizing guide](/blog/solar-inverter-sizing/) covers the separate capacity decision.
 

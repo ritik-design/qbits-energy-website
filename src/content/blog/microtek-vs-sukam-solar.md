@@ -4,7 +4,7 @@ excerpt: "Microtek vs Su-Kam solar inverter compared on price, MPPT range, warra
 description: "Compare current Microtek and Su-Kam solar inverter options by model documents, system type, battery needs, warranty and service availability."
 category: "Comparison"
 date: 2026-07-23
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-microtek-vs-sukam-solar.webp"
 author: "Nirav Dhanani"
@@ -42,7 +42,7 @@ The solar market of 2026 is not the UPS market of 2010. Today's buyer needs [MPP
 
 This post compares Microtek and Su-Kam on what actually matters for a solar purchase in 2026: current solar range, technology currency, warranty depth, service reality, and price. We also show where a modern specialist brand fits, because the honest answer for many buyers is neither of the two.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Microtek wins this head-to-head on current range and service. It sells active MPPT solar PCUs and grid-tie inverters from 1 kW to 5 kW, with up to 10 years warranty on grid-tie models.
 > - Su-Kam went through insolvency around 2019; products still sell, but the service network that made the brand famous largely dissolved.
 > - Microtek 3 kW solar inverters cost ₹32,000 to ₹48,000; Su-Kam solar PCUs range from ₹7,000 small UPS units to ₹1.2 Lakh 5 kVA hybrids.
@@ -90,6 +90,8 @@ Su-Kam solar PCUs commonly carry 2 to 3 year warranties through current dealer l
 
 Prices below are inverter-only street prices for mid-2026, excluding panels, batteries, structure, and installation. Treat them as bands, not quotes.
 
+Table: What to verify for Microtek, Su-Kam and Qbits before buying (no prices are quoted)
+
 | Comparison item | Microtek | Su-Kam | Qbits |
 | --- | --- | --- | --- |
 | Exact model and electrical role | Verify current document | Verify current document | Use the current product library and model datasheet |
@@ -125,13 +127,14 @@ No comparison is honest without admitting where the other side wins. Here is the
 
 ## How to Verify Before You Buy Either Brand
 
-Whichever way you lean, run these five checks with your dealer before paying an advance:
-
-1. Ask for the exact model number and its BIS registration and current certificates, and check that the modules are ALMM-listed if you want subsidy.
-2. Confirm MPPT, not PWM, on the specific unit's datasheet for anything above 1 kW.
-3. Get the warranty term in writing, including whether it is full replacement or repair-only, and who honours it locally.
-4. Ask the dealer how many warranty claims they have processed for that brand in the past 12 months.
-5. Compare at least one quote from a modern specialist brand on the same capacity, so the warranty-per-year math is visible.
+> [!CHECKLIST] Five checks before paying an advance
+> Whichever way you lean, run these five checks with your dealer before paying an advance:
+>
+> - Ask for the exact model number and its BIS registration and current certificates, and check that the modules are ALMM-listed if you want subsidy.
+> - Confirm MPPT, not PWM, on the specific unit's datasheet for anything above 1 kW.
+> - Get the warranty term in writing, including whether it is full replacement or repair-only, and who honours it locally.
+> - Ask the dealer how many warranty claims they have processed for that brand in the past 12 months.
+> - Compare at least one quote from a modern specialist brand on the same capacity, so the warranty-per-year math is visible.
 
 The [top 10 solar inverter brands in India 2026](/blog/top-10-solar-inverter-brands-india-2026/) list and the [best 5 kW solar inverter 2026](/blog/best-5kw-solar-inverter-india-2026/) use-case review are good next reads. Both widen the shortlist beyond these two names.
 
@@ -145,4 +148,4 @@ Your three next steps:
 
 - Shortlist by topology first: decide on-grid, hybrid, or off-grid using your outage hours, then compare models within that category.
 - Verify the exact quoted model's certificates and warranty terms, in writing, before paying any advance.
-[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
+- [Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

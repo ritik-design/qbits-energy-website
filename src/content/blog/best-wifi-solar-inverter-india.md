@@ -44,7 +44,7 @@ A connected inverter should be judged at the exact model and installation level.
 
 This page compares the **hardware and connectivity** of five brands on a 5 kW single-phase inverter: **Qbits, GoodWe, Growatt, Sungrow and Solis**. For each, it names the exact model, the Wi-Fi or 4G logger options, the published data interval, what the datasheet says about gaps, and what to confirm before you pay. For the apps themselves, including setup, alerts, export and language, see the separate [solar inverter app comparison](/blog/solar-inverter-app-monitoring/).
 
-> **Quick answer**
+> [!KEYTAKEAWAYS]
 > - There is no universal best. Each brand's logger talks only to its own cloud, so you are choosing a logger, an app and a support route together with the inverter.
 > - Four of the five brands publish a plug-in logger datasheet. GoodWe, Growatt, Solis and Qbits also document a cellular or GPRS option. Sungrow's WiNet-S2 datasheet lists Wi-Fi and Ethernet.
 > - Published data intervals are 5 minutes for the Growatt ShineWiFi-X and the Solis S3-WiFi-ST, and "seconds" for the Sungrow WiNet-S2. We found no interval published for the GoodWe kits or the Qbits product data.
@@ -61,6 +61,8 @@ Qbits Energy publishes this page and sells one of the five inverters. Qbits is h
 4. **Not a market ranking.** Other brands such as Deye or SMA also offer connected inverters. Omission is not disqualification.
 
 ## The five exact models and their loggers, as of October 2026
+
+Table: Exact 5 kW models, their loggers, published data intervals and apps (official documents, October 2026)
 
 | Brand and model | Inverter's own communication | Plug-in logger or dongle options | Published interval and storage | App or portal |
 | --- | --- | --- | --- | --- |
@@ -143,6 +145,8 @@ The sticks are documented in one datasheet: the **S3-WiFi-ST** uses 802.11 b/g/n
 
 Alert types are only useful if they arrive. The published delivery routes differ:
 
+Table: Published alert delivery routes by brand
+
 | Alert route | Qbits | GoodWe | Growatt | Sungrow | Solis |
 | --- | --- | --- | --- | --- | --- |
 | App push | Not found | Notification setting in the SEMS Portal app manual | Not stated in documents checked | Yes, per Sungrow's 2023 release note | Yes, with selectable urgency |
@@ -152,6 +156,7 @@ Alert types are only useful if they arrive. The published delivery routes differ
 
 Ask for the following to be shown on your own installed system, in this order:
 
+<!-- steps -->
 1. **Inverter offline.** Switch the router off and note whether and when a notification arrives.
 2. **Grid fault.** Ask the installer to use the manufacturer's permitted test, not a real electrical fault.
 3. **Fault with an explanation.** An alert that says only "E045" with no text sends you to a manual. See whether the app explains it.
@@ -159,6 +164,8 @@ Ask for the following to be shown on your own installed system, in this order:
 5. **Delay.** Time the gap between the event and the message. Platforms rarely publish this.
 
 ## Offline behaviour, side by side
+
+Table: What each logger document says about offline behaviour
 
 | Logger | What the document says |
 | --- | --- |
@@ -169,20 +176,22 @@ Ask for the following to be shown on your own installed system, in this order:
 | Solis S3-WiFi-ST and S3-GPRS-ST | No outage buffer stated; data collected every 5 minutes |
 | Qbits | Not found in the public product data |
 
-Where no buffer is stated, assume a gap appears in the cloud history and test it. A cloud gap does not mean the generation is lost, because the DISCOM's meter keeps counting. It does mean you have a hole in the record you may need for a [net-metering](/glossary/net-metering/) reconciliation.
+> [!NOTE] A cloud gap is not lost generation
+> Where no buffer is stated, assume a gap appears in the cloud history and test it. A cloud gap does not mean the generation is lost, because the DISCOM's meter keeps counting. It does mean you have a hole in the record you may need for a [net-metering](/glossary/net-metering/) reconciliation.
 
 ## What data your connected inverter should show
 
 Use this as a checklist at handover. Items marked model-specific need a live demonstration, not a brochure.
 
-- Current AC power and today's, month's and total energy
-- Plant status and inverter identity, with the serial number matching the nameplate
-- Dated alarm and event history
-- Per-MPPT voltage and current (model-specific, and useful with a dual-MPPT inverter on a split roof)
-- Grid voltage and frequency (model-specific)
-- Temperature (model-specific)
-- Consumption or export data, which usually needs a meter or current transformer
-- Battery state of charge and power on hybrids
+> [!CHECKLIST] Data the owner account should show
+> - Current AC power and today's, month's and total energy
+> - Plant status and inverter identity, with the serial number matching the nameplate
+> - Dated alarm and event history
+> - Per-MPPT voltage and current (model-specific, and useful with a dual-MPPT inverter on a split roof)
+> - Grid voltage and frequency (model-specific)
+> - Temperature (model-specific)
+> - Consumption or export data, which usually needs a meter or current transformer
+> - Battery state of charge and power on hybrids
 
 If your roof has two orientations, per-MPPT data tells you whether one string is underperforming. The [dual-MPPT comparison](/blog/dual-mppt-vs-single-mppt/) explains why that matters.
 
@@ -190,12 +199,15 @@ If your roof has two orientations, per-MPPT data tells you whether one string is
 
 Where home broadband is unreliable, a logger with its own SIM removes the router from the chain. The options documented above are the Qbits optional GPRS interface, the Growatt Shine4G-X, the Solis S3-GPRS-ST and the GoodWe 4G Kit-G20. Before choosing one, settle four things in writing.
 
-1. **Band match.** Ask the local operator which bands it runs in your area, and compare with the module's list. For example, the Growatt Shine4G-X datasheet lists LTE-FDD B1, B3, B5, B7, B8 and B20, LTE-TDD B38, B40 and B41, WCDMA B1, B5 and B8, and GSM 900 and 1800 MHz.
-2. **Who pays for the SIM and data.** A recurring cost should not be a surprise at month two.
-3. **Signal at the inverter.** Test it where the inverter hangs, not where the installer stands.
-4. **Replacement if the network changes.** A GPRS-only module depends on 2G service, which operators may withdraw.
+> [!CHECKLIST] Four things to settle in writing for a cellular logger
+> - **Band match.** Ask the local operator which bands it runs in your area, and compare with the module's list. For example, the Growatt Shine4G-X datasheet lists LTE-FDD B1, B3, B5, B7, B8 and B20, LTE-TDD B38, B40 and B41, WCDMA B1, B5 and B8, and GSM 900 and 1800 MHz.
+> - **Who pays for the SIM and data.** A recurring cost should not be a surprise at month two.
+> - **Signal at the inverter.** Test it where the inverter hangs, not where the installer stands.
+> - **Replacement if the network changes.** A GPRS-only module depends on 2G service, which operators may withdraw.
 
 ## Buying checklist: put these in the written quote
+
+Table: Buying checklist for the written quote
 
 | Question | Acceptable evidence | Why it matters |
 | --- | --- | --- |
@@ -210,12 +222,14 @@ Where home broadband is unreliable, a logger with its own SIM removes the router
 | Who diagnoses an alert | Named entity, and whether a visit is chargeable | Decides what happens after the alarm |
 | Data controller and hosting location | Privacy statement for the platform | Tells you where your site data sits and how to close the account |
 
-Do not accept "supported" as an answer to an inclusion question. A supported Wi-Fi logger can still be a separately priced accessory.
+> [!IMPORTANT] Supported does not mean included
+> Do not accept "supported" as an answer to an inclusion question. A supported Wi-Fi logger can still be a separately priced accessory.
 
 ## Adding monitoring to an inverter you already own
 
 Most of the loggers above are USB or RS485 plug-ins built for their own brand's models. To add one:
 
+<!-- steps -->
 1. Find the inverter's exact model and firmware on the nameplate or display.
 2. Look up that model in the manufacturer's current compatibility list. GoodWe's list carries firmware conditions, and Sungrow's manual says to confirm firmware compatibility with the module before use.
 3. Order the listed logger part, not a look-alike from a marketplace.
@@ -235,6 +249,8 @@ If the inverter has no supported logger, a new inverter is a clearer route than 
 If a system already installed has gone quiet, the [Wi-Fi connection troubleshooting sequence](/blog/solar-inverter-wifi-not-connecting-fix/) is the next page to read.
 
 ## Which hardware route suits which site
+
+Table: Which hardware route suits which site
 
 | Situation | What to look for |
 | --- | --- |

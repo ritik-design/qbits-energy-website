@@ -4,7 +4,7 @@ excerpt: "PM Surya Ghar pays assistance on module DC capacity, not on your inver
 description: "How to choose a solar inverter under PM Surya Ghar. The CFA is paid irrespective of inverter size, there is no MNRE inverter list, and the CMC is not the warranty."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-inverter-with-subsidy-pm-surya-ghar.webp"
 author: "Nirav Dhanani"
@@ -42,7 +42,7 @@ The [MNRE operational guidelines](https://mnre.gov.in/en/notice/operational-guid
 
 Once the subsidy is fixed by module capacity, the inverter stops being a subsidy question and becomes an engineering and warranty question. This guide covers what the scheme does and does not specify about inverters, which standards bind the hardware, how to pick a DC to AC ratio under a capped subsidy, whether a hybrid changes anything, what a registered vendor owes you for 5 years after commissioning, and what to read on the datasheet before you sign.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The MNRE operational guidelines state the CFA is provided irrespective of the size of the inverter installed, computed on rated DC module capacity.
 > - Published central slabs are ₹30,000 at 1 kW, ₹60,000 at 2 kW and ₹78,000 at 3 kW and above, according to the Press Information Bureau (2024).
 > - There is no ALMM list for inverters. List I covers solar PV modules, List II covers solar PV cells and is in force from 1 June 2026.
@@ -64,15 +64,31 @@ For the full scheme walkthrough, see our [PM Surya Ghar complete guide](/blog/pm
 
 Search results on this keyword are full of advice about picking a bigger inverter for more subsidy, or picking a brand because it is "subsidy approved". Both are wrong under the current guidelines.
 
-The CFA is computed on rated DC module capacity, irrespective of inverter size. A 3 kW module array with a 3 kW inverter and the same array with a 5 kW inverter attract exactly the same central assistance. The larger inverter simply costs more.
+> [!IMPORTANT] The CFA does not move with inverter size
+> The CFA is computed on rated DC module capacity, irrespective of inverter size. A 3 kW module array with a 3 kW inverter and the same array with a 5 kW inverter attract exactly the same central assistance. The larger inverter simply costs more.
 
 Published slabs, per the Press Information Bureau (2024):
+
+Table: General central assistance by module DC capacity, per the Press Information Bureau (2024)
 
 | Module DC capacity used for the calculation | General central assistance |
 | --- | ---: |
 | 1 kW | ₹30,000 |
 | 2 kW | ₹60,000 |
 | 3 kW and above | ₹78,000 |
+
+```chart
+type: bar
+title: General central assistance under PM Surya Ghar by module DC capacity
+unit: "₹"
+source: "Press Information Bureau (2024), as cited in this article; MNRE operational guidelines for the residential CFA component. General-category states"
+note: "Assistance follows module DC capacity, not inverter size, and stops growing above 3 kW. Special-category states use different rates."
+decimals: 0
+data:
+  - { label: "1 kW", value: 30000 }
+  - { label: "2 kW", value: 60000 }
+  - { label: "3 kW and above", value: 78000 }
+```
 
 Special category states and UTs use ₹33,000 and ₹19,800 in place of ₹30,000 and ₹18,000, per the same guidelines. Dividing the published outputs by the published formula gives an implied benchmark of ₹50,000 per kW for the first 2 kW and ₹45,000 for the third. That is arithmetic from the formula, not a figure MNRE quotes directly.
 
@@ -104,20 +120,23 @@ Use the model documents instead. The [ALMM glossary entry](/glossary/almm-list/)
 
 Assistance stops growing above 3 kW of module capacity. So the sizing question becomes: given a fixed subsidy, which inverter serves the array best? Here is the arithmetic, with design assumptions labelled.
 
-**Inputs.** Six modules of 580 Wp, giving 3,480 Wp DC. Temperature coefficient of power -0.32% per degree C. Assumed cell temperature 55 degrees C, which is 30 degrees above the 25 degrees C standard test condition. Assumed combined soiling, mismatch and cable loss 5%. Inverter efficiency 98%.
-
-**Calculation.**
-
-1. Temperature derate: -0.32% x 30 = -9.6%, so about 90.4% of nameplate.
-2. 3,480 W x 0.904 = 3,146 W at the array terminals.
-3. System losses: 3,146 x 0.95 = 2,988 W.
-4. Inverter efficiency: 2,988 x 0.98 = about 2,928 W of AC output.
-
-**Reading.** A 3.0 kW AC inverter is not clipping that array at 55 degrees C. The CFA is ₹78,000 either way, so the only question is what a larger unit buys. It buys headroom on cool bright mornings, and it costs more. The temperature and loss figures are assumptions for illustration, not measured site data. Run them for your own roof.
+> [!EXAMPLE] Sizing a 3 kW inverter for a 3,480 Wp array
+> **Inputs.** Six modules of 580 Wp, giving 3,480 Wp DC. Temperature coefficient of power -0.32% per degree C. Assumed cell temperature 55 degrees C, which is 30 degrees above the 25 degrees C standard test condition. Assumed combined soiling, mismatch and cable loss 5%. Inverter efficiency 98%.
+>
+> **Calculation.**
+>
+> 1. Temperature derate: -0.32% x 30 = -9.6%, so about 90.4% of nameplate.
+> 2. 3,480 W x 0.904 = 3,146 W at the array terminals.
+> 3. System losses: 3,146 x 0.95 = 2,988 W.
+> 4. Inverter efficiency: 2,988 x 0.98 = about 2,928 W of AC output.
+>
+> **Reading.** A 3.0 kW AC inverter is not clipping that array at 55 degrees C. The CFA is ₹78,000 either way, so the only question is what a larger unit buys. It buys headroom on cool bright mornings, and it costs more. The temperature and loss figures are assumptions for illustration, not measured site data. Run them for your own roof.
 
 ## Choosing a DC to AC ratio when the money is fixed
 
 Because the subsidy is fixed by module capacity, the DC to AC ratio is a pure engineering and cost decision. No ratio earns a larger CFA.
+
+Table: DC to AC ratio for a 3,480 Wp array at three inverter ratings
 
 | AC rating for a 3,480 Wp array | DC to AC ratio | What it means |
 | --- | ---: | --- |
@@ -149,6 +168,8 @@ Verify the vendor's current registration for your area on the [official consumer
 
 Readers conflate these two constantly, and vendors are not always keen to separate them. They are different documents with different counterparties, terms and failure modes.
 
+Table: The 5-year CMC compared with the manufacturer warranty
+
 | | 5-year CMC | Manufacturer warranty |
 | --- | --- | --- |
 | Who owes it | The registered vendor | The equipment manufacturer |
@@ -165,16 +186,20 @@ Qbits publishes an expandable warranty, and its public datasheets do not define 
 
 Ask for the model datasheet as a PDF. A whole-brand claim is not evidence about the unit going on your wall. These fields decide whether the proposed design is even legal on paper.
 
-1. **Exact model number.** Series names cover many ratings with different limits.
-2. **Maximum DC input voltage.** A hard ceiling. Exceeding it at cold temperature is a safety problem.
-3. **MPPT voltage window.** Strings below the lower bound will not start.
-4. **Maximum DC input current per MPPT.** High-current modules hit this before the power limit.
-5. **Number of MPPTs.** Sets how many roof orientations you can serve cleanly.
-6. **AC output rating and phase.** Must match the sanctioned load and the DISCOM connection.
-7. **Ingress protection rating.** Qbits lists IP66 across its series in its published product data.
-8. **Model-specific efficiency.** Qbits publishes 98% maximum on the single-phase 1.5 to 4 kW on-grid models, 98.5 to 98.7% by model on the three-phase 5 to 17 kW units, and 97.6% maximum on the 3 to 6 kW single-phase hybrids. Never apply a top-model figure to a whole range.
+> [!CHECKLIST] Datasheet fields to read before you sign
+> - **Exact model number.** Series names cover many ratings with different limits.
+> - **Maximum DC input voltage.** A hard ceiling. Exceeding it at cold temperature is a safety problem.
+> - **MPPT voltage window.** Strings below the lower bound will not start.
+> - **Maximum DC input current per MPPT.** High-current modules hit this before the power limit.
+> - **Number of MPPTs.** Sets how many roof orientations you can serve cleanly.
+> - **AC output rating and phase.** Must match the sanctioned load and the DISCOM connection.
+> - **Ingress protection rating.** Qbits lists IP66 across its series in its published product data.
+> - **Model-specific efficiency.** Qbits publishes 98% maximum on the single-phase 1.5 to 4 kW on-grid models, 98.5 to 98.7% by model on the three-phase 5 to 17 kW units, and 97.6% maximum on the 3 to 6 kW single-phase hybrids. Never apply a top-model figure to a whole range.
 
-A quick voltage check shows why this matters. Take a 580 Wp module with 52.50 V open circuit voltage and a Voc temperature coefficient of -0.24% per degree C. At 5 degrees C, Voc rises to about 55.0 V. On an inverter with a 550 V maximum DC input, 10 modules in series reach about 550.2 V and breach the ceiling, while 9 sit at about 495 V and pass. One extra module added on site can put the string out of specification. Our guide on [reading inverter datasheets](/blog/how-to-read-solar-inverter-datasheets/) covers the rest.
+> [!WARNING] One extra module can breach the DC voltage ceiling
+> A quick voltage check shows why this matters. Take a 580 Wp module with 52.50 V open circuit voltage and a Voc temperature coefficient of -0.24% per degree C. At 5 degrees C, Voc rises to about 55.0 V. On an inverter with a 550 V maximum DC input, 10 modules in series reach about 550.2 V and breach the ceiling, while 9 sit at about 495 V and pass. One extra module added on site can put the string out of specification.
+
+Our guide on [reading inverter datasheets](/blog/how-to-read-solar-inverter-datasheets/) covers the rest.
 
 ## Common mistakes
 

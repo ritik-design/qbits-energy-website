@@ -44,13 +44,12 @@ Guessing is the problem. These faults follow a short list of causes with a very 
 
 This guide gives you that order. It explains how inverter WiFi actually works, walks the ladder from most common cause to least, and closes with the part most readers get wrong: telling a communication fault apart from a cloud outage or a real inverter fault.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Most inverter WiFi dongles are 2.4 GHz only, so a dual-band router broadcasting one merged SSID is the biggest single cause of failed pairing.
 > - A monitoring gap is not a generation gap. Most inverters buffer data locally and backfill the portal once the link returns.
 > - Signal below roughly -70 dBm at the dongle drops out through the day, as an industry-observed range.
 > - A replaced ISP router is the usual trigger when a working link dies on a fixed date, because SSID and password both changed.
-> - AP mode is only for commissioning. Station mode, the dongle joining your network, is the running state.
-> - Reset the dongle, never the inverter. Grid and protection parameters stay with the installer.
+> - AP mode is only for commissioning. Station mode, the dongle joining your network, is the running state. Reset the dongle, never the inverter. Grid and protection parameters stay with the installer.
 
 **Short version.** Solar inverter WiFi usually fails for one of five reasons, in this order: the dongle cannot see a 2.4 GHz network, the SSID or password is wrong or holds characters the dongle rejects, the signal at the inverter is too weak, a router setting such as MAC filtering or AP isolation blocks it, or the ISP router was replaced. Work them in that order before resetting anything.
 
@@ -68,6 +67,8 @@ Three consequences follow. The chain has four independent links (inverter to don
 
 Match your symptom to the table first, then run the ladder.
 
+Table: Symptom-to-cause table for solar inverter WiFi faults: most likely cause and what to check first
+
 | Symptom | Most likely cause | Look at first |
 | --- | --- | --- |
 | Pairing fails at commissioning, never connected | Dongle cannot see a 2.4 GHz SSID | Router band settings |
@@ -81,6 +82,7 @@ Match your symptom to the table first, then run the ladder.
 
 Now the ladder. Stop at the step that fixes it.
 
+<!-- steps -->
 1. **Confirm the inverter is running.** A displayed fault is a generation problem wearing a monitoring problem's clothes, so use the [solar inverter error codes guide](/blog/solar-inverter-error-codes-guide/) instead.
 2. **Check that a 2.4 GHz network exists and is visible.** Highest yield step by a wide margin.
 3. **Check the LED pattern against the dongle's own datasheet.** LED meanings are not standardised, so pull the right sheet from [product datasheets](/download-datasheets/), not a forum post about another brand.
@@ -101,6 +103,7 @@ The trap is the modern dual-band router. Most ISP routers in India now ship with
 
 The fix is to stop the router deciding.
 
+<!-- steps -->
 1. Log into the router admin page using the address on the router label.
 2. Open wireless settings. The control is usually called Band Steering, Smart Connect, Dual Band, or One SSID, depending on vendor.
 3. Turn it off so the two radios broadcast separately.
@@ -113,6 +116,8 @@ Some mesh kits will not split bands from the app. If yours refuses, an inexpensi
 ## Cause 2: SSID and Password Characters
 
 The second most common cause looks like hardware and is not. The dongle reports a wrong password, you retype the correct one, and it fails again. Dongle firmware is small, and its input handling is stricter than a phone's.
+
+Table: SSID and password characters that break dongle pairing, what happens and the fix
 
 | Problem | What happens | Fix |
 | --- | --- | --- |
@@ -131,6 +136,8 @@ Inverters live where installers can mount them, which is usually the worst place
 
 Received signal is measured in dBm, always negative, closer to zero being stronger. As an industry-observed range for 2.4 GHz client devices:
 
+Table: Received signal strength at the dongle in dBm and what it means in practice (industry-observed range for 2.4 GHz client devices)
+
 | Reading | Practical meaning |
 | --- | --- |
 | -30 to -50 dBm | Strong. No action needed. |
@@ -141,7 +148,8 @@ Received signal is measured in dBm, always negative, closer to zero being strong
 
 Read this on the portal device page or the commissioning screen. Your phone has a far better antenna and will show a usable link where the dongle has none.
 
-Four remedies, in order of cost and reliability. Move the router first, since a unit lifted off the floor and away from the meter board often gains 6 to 10 dB for free. Next, add a mesh node or access point in line of sight of the inverter wall. Third, use a powerline adapter pair, checking that the run stays on one phase. Fourth, fit an external antenna, but only on models that document a connector. A plain repeater is weakest, because it halves throughput and often adds a second SSID the dongle bounces between.
+> [!TIP] Fix weak signal in this order
+> Four remedies, in order of cost and reliability. Move the router first, since a unit lifted off the floor and away from the meter board often gains 6 to 10 dB for free. Next, add a mesh node or access point in line of sight of the inverter wall. Third, use a powerline adapter pair, checking that the run stays on one phase. Fourth, fit an external antenna, but only on models that document a connector. A plain repeater is weakest, because it halves throughput and often adds a second SSID the dongle bounces between.
 
 ## Cause 4: Router Settings That Quietly Block the Dongle
 
@@ -173,7 +181,8 @@ The same pattern follows a password change, a mesh system installed over the old
 
 Physical and firmware causes sit near the bottom of the ladder because they are genuinely less common. That does not make them rare.
 
-Check seating first. Vibration, thermal cycling, and monsoon humidity all work a connector loose. A dongle with a dark LED, or one that never appeared in any router list, is a seating or hardware candidate. Reseating means switching off at the isolator per the manual, unplugging, inspecting for corrosion or bent pins, then reseating firmly. If the job needs the enclosure opened, stop and call your installer.
+> [!CAUTION] Opening the enclosure is installer work
+> Check seating first. Vibration, thermal cycling, and monsoon humidity all work a connector loose. A dongle with a dark LED, or one that never appeared in any router list, is a seating or hardware candidate. Reseating means switching off at the isolator per the manual, unplugging, inspecting for corrosion or bent pins, then reseating firmly. If the job needs the enclosure opened, stop and call your installer.
 
 Firmware matters for WPA3 and newer router chipsets. Updates arrive through the portal once the device is briefly online, which is circular if it never connects. A temporary phone hotspot on 2.4 GHz with WPA2 often gets it online long enough to update.
 
@@ -206,14 +215,15 @@ Generation and reporting are separate functions. The inverter converts DC to AC 
 
 There is a real cost, and it deserves naming honestly. What you lose during a gap is **fault visibility**. Had a string failed on day two, nobody would have known until the link came back. That argues for fixing the connection promptly, not for assuming production stopped.
 
-**Worked example, reconciling a six-day gap.** Use your meter, not the app. These inputs are illustrative, so substitute your own readings.
-
-- Export meter reading before the gap: 4,210 kWh
-- Export meter reading after the gap: 4,468 kWh
-- Length of gap: 6 days
-- Daily export average over the 14 clear days before the gap: 41 kWh
-
-The arithmetic: 4,468 minus 4,210 gives 258 kWh exported during the gap. Divide 258 by 6 days and you get 43 kWh per day, against a 41 kWh baseline. Export ran slightly above normal, so the system generated fine and the fault was communication only.
+> [!EXAMPLE] Reconciling a six-day monitoring gap from the export meter
+> **Worked example, reconciling a six-day gap.** Use your meter, not the app. These inputs are illustrative, so substitute your own readings.
+>
+> - Export meter reading before the gap: 4,210 kWh
+> - Export meter reading after the gap: 4,468 kWh
+> - Length of gap: 6 days
+> - Daily export average over the 14 clear days before the gap: 41 kWh
+>
+> The arithmetic: 4,468 minus 4,210 gives 258 kWh exported during the gap. Divide 258 by 6 days and you get 43 kWh per day, against a 41 kWh baseline. Export ran slightly above normal, so the system generated fine and the fault was communication only.
 
 Run this before any complaint that references lost generation. If the comparison instead shows a sharp fall, you have evidence of a real production issue.
 
@@ -223,15 +233,16 @@ Escalate after the ladder, not during it. Escalate if the dongle LED stays dark 
 
 Prepare this list before you call. Every item removes a round trip.
 
-1. Inverter model and serial number, photographed from the label.
-2. Dongle model and serial number.
-3. A video of the LED pattern, long enough to show the full blink cycle.
-4. The exact app error text, not a paraphrase.
-5. The last successful upload timestamp from the portal.
-6. Router make, model, and whether 2.4 GHz is enabled and separately named.
-7. The date the problem started and what changed near it.
-8. Every ladder step already completed, with each result.
-9. Export meter readings, if you are raising any generation concern.
+> [!CHECKLIST] Prepare before the support call
+> - Inverter model and serial number, photographed from the label.
+> - Dongle model and serial number.
+> - A video of the LED pattern, long enough to show the full blink cycle.
+> - The exact app error text, not a paraphrase.
+> - The last successful upload timestamp from the portal.
+> - Router make, model, and whether 2.4 GHz is enabled and separately named.
+> - The date the problem started and what changed near it.
+> - Every ladder step already completed, with each result.
+> - Export meter readings, if you are raising any generation concern.
 
 Never send WiFi passwords, account passwords, or one-time passwords in a public thread or to an unverified number.
 

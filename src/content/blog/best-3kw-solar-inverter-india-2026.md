@@ -41,13 +41,11 @@ This guide works the other way round. It starts with the load a 3 kW system actu
 
 One section argues against advice most buyers hear. Oversizing the inverter to leave room for expansion usually costs generation and money.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A 3 kW class system means roughly 6 modules, because panels sold in India in 2026 are commonly rated 535 W to 590 W.
 > - A 3.3 kWp array at 4.5 peak sun hours and a 0.78 performance ratio yields about 11.6 kWh per day, or 4,230 kWh per year.
-> - Two MPPTs only earn their cost on a split roof. On one clean plane, a single MPPT loses nothing.
-> - Maximum DC input current, not rated power, limits you when you parallel modern high-current strings.
-> - A 1.10 to 1.30 DC to AC ratio is normal. Oversizing the inverter instead of the array is the expensive mistake.
-> - Five exact 3 kW models are compared below from their own datasheets. Three of them list two MPPTs, so tracker count is a spec to read, not a size rule.
+> - Two MPPTs only earn their cost on a split roof. On one clean plane, a single MPPT loses nothing. Maximum DC input current, not rated power, limits you when you parallel modern high-current strings.
+> - A 1.10 to 1.30 DC to AC ratio is normal. Oversizing the inverter instead of the array is the expensive mistake. Five exact 3 kW models are compared below from their own datasheets. Three of them list two MPPTs, so tracker count is a spec to read, not a size rule.
 > - Systems of 3 kW and above sit in the top central assistance slab under PM Surya Ghar (MNRE), published at a ₹78,000 maximum.
 
 **Short version.** The best 3 kW solar inverter in India is the single-phase on-grid unit whose voltage window, maximum DC input current, and MPPT count match your actual string layout. Warranty and service terms must be in writing. Choose dual MPPT only for a split roof. Size the array at roughly 1.1 times the inverter rating, and confirm every spec on the current datasheet.
@@ -68,19 +66,24 @@ Answer capsule: 3 kW is a common size because it matches a typical 2BHK load and
 
 The Press Information Bureau's [Cabinet release of 29 February 2024](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2010130&reg=48&lang=2) describes the residential assistance as 60% of benchmark cost up to 2 kW plus 40% of the additional cost for the 2 kW to 3 kW slice, capped at 3 kW. The [MNRE operational guidelines for the residential component](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) turn that into published slabs. For a general-category state, checked on 14 October 2026:
 
+Table: Central assistance by system size under PM Surya Ghar, general-category state (checked 14 October 2026)
+
 | System size | Published central assistance | How it builds up |
 | --- | --- | --- |
 | 1 kW | ₹30,000 | ₹30,000 per kW for the first 2 kW |
 | 2 kW | ₹60,000 | 2 x ₹30,000 |
 | 3 kW and above | ₹78,000 | ₹60,000 plus ₹18,000 for the third kW |
 
-The fourth kilowatt earns nothing extra from the central scheme. So for a household whose load fits inside 3 kW there is no subsidy reason to go larger, and a household that needs more should size for its load and accept that the extra capacity is unsubsidised. State top-ups exist in some states. Read your state agency's own notice before counting on one, because we have not assumed any here. Confirm the current slab on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) before you sign, and see the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) for the application steps.
+> [!TIP] No subsidy reason to go beyond 3 kW
+> The fourth kilowatt earns nothing extra from the central scheme. So for a household whose load fits inside 3 kW there is no subsidy reason to go larger, and a household that needs more should size for its load and accept that the extra capacity is unsubsidised. State top-ups exist in some states. Read your state agency's own notice before counting on one, because we have not assumed any here. Confirm the current slab on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) before you sign, and see the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) for the application steps.
 
 ## 3 kW load check: what a 2BHK actually draws
 
 Answer capsule: an on-grid inverter does not limit what your home can run, because the grid supplies any shortfall. The load check matters for two things. It tells you whether a 3 kW array roughly matches your daily energy use, and it tells you whether a 3 kW hybrid can carry your essential loads in an outage.
 
 The figures below are typical nameplate ranges and illustrative usage hours. Read the label on your own appliances and replace them.
+
+Table: Typical running watts, start-up surge and daily energy for common home appliances (illustrative hours)
 
 | Appliance | Typical running watts | Typical start-up surge | Illustrative hours per day | Energy per day |
 | --- | --- | --- | --- | --- |
@@ -102,15 +105,19 @@ The figures below are typical nameplate ranges and illustrative usage hours. Rea
 
 Generation figures quoted without inputs are marketing. Here is the arithmetic with every input visible, so you can substitute your own site data.
 
-Inputs for this worked example:
+> [!FORMULA] Daily output
+> Daily output (kWh) = array kWp × peak sun hours × performance ratio
 
-- Array size: 6 modules at 550 W = 3.3 kWp
-- Peak sun hours: 4.5 per day (mid-range Indian value; verify state irradiation data)
-- Performance ratio: 0.78 (temperature, soiling, cabling, and conversion loss)
-
-Daily output = 3.3 kWp x 4.5 peak sun hours x 0.78 = **11.58 kWh per day**.
-
-Annual output = 11.58 x 365 = about **4,230 kWh per year**, or roughly 352 kWh per month.
+> [!EXAMPLE] 3.3 kWp array, 4.5 peak sun hours
+> Inputs for this worked example:
+>
+> - Array size: 6 modules at 550 W = 3.3 kWp
+> - Peak sun hours: 4.5 per day (mid-range Indian value; verify state irradiation data)
+> - Performance ratio: 0.78 (temperature, soiling, cabling, and conversion loss)
+>
+> Daily output = 3.3 kWp x 4.5 peak sun hours x 0.78 = **11.58 kWh per day**.
+>
+> Annual output = 11.58 x 365 = about **4,230 kWh per year**, or roughly 352 kWh per month.
 
 Now a conservative case. At 4.0 peak sun hours and a 0.75 performance ratio, the same array gives 9.9 kWh per day, about 3,614 kWh per year. That 17% spread comes from site conditions, not from the inverter brand.
 
@@ -118,7 +125,7 @@ Apply your own tariff. At an effective residential rate of ₹8 per kWh, 4,230 k
 
 ## How these 3 kW inverters were compared
 
-Answer capsule: every model below was compared from the manufacturer's own datasheet, read in October 2026. Nothing was bench-tested, nothing is scored, and there is no winner. Models are listed by use case, Qbits first only because this is the Qbits Energy site.
+Answer capsule: every model below was compared from the manufacturer's own datasheet, read in October 2026. Nothing was bench-tested, nothing is scored, and there is no winner. Models are listed alphabetically by brand, not ranked. Qbits publishes this guide and its two models are held to the same checks as the other three.
 
 The comparison uses seven lines that decide whether a 3 kW inverter suits a roof:
 
@@ -141,6 +148,8 @@ Answer capsule: three questions narrow the choice. Does the application qualify 
 **Step 2: count the outage hours.** Add up unscheduled cuts over a typical summer week. If outages are short and rare, an on-grid inverter is simpler and converts at higher efficiency. If they are frequent or long, a hybrid inverter with a battery is the only design that keeps essential loads running, and the battery will cost more than the inverter premium. The [on-grid versus hybrid comparison](/blog/on-grid-vs-hybrid/) and the [power-cut backup guide](/blog/solar-inverter-power-cut-backup/) cover the sums.
 
 **Step 3: set the whole-system budget.** An inverter is one line of a quotation. Modules, mounting structure, cabling, protection, net metering and installation make up the rest. Ask for a line-item quote and compare totals. The [3 kW solar system price guide](/blog/3kw-solar-system-price-india/) shows the structure of a quote.
+
+Table: Which 3 kW inverter to start with by roof, grid and outage situation
 
 | If this describes you | Start with | Check next |
 | --- | --- | --- |
@@ -181,6 +190,22 @@ Answer capsule: five datasheet lines decide performance at this size. MPPT count
 
 Answer capsule: five models, two from Qbits and three from other makers, each with the figures its own datasheet prints. All five are rated 3 kW AC output. They differ in tracker count, voltage window, input current, ingress rating and, for the hybrid, battery side.
 
+### GoodWe GW3000D-NS: dual-MPPT on-grid
+
+From the [GoodWe DNS series datasheet](https://en.goodwe.com/Ftp/EN/Downloads/Datasheet/GW_DNS_Datasheet-EN.pdf) (document V2.1, 17 April 2023, as of October 2026): 3,000 W nominal output, two MPPTs with one string each, 80 V to 550 V MPPT range, 600 V maximum input, 80 V start-up, 11 A maximum input current per tracker with a 13.8 A short-circuit rating, 97.8% maximum efficiency, IP65, 13 kg.
+
+**Suits:** compact two-plane residential installs.
+
+**Check before buying:** compare your module's operating current against the 11 A line and its short-circuit current against the 13.8 A line, because many 2026 modules sit near or above them.
+
+### Growatt MIN 3000TL-X: dual-MPPT on-grid
+
+From the [Growatt MIN 2500~6000TL-X datasheet, India folder copy hosted by Krannich Solar](https://krannich-solar.com/fileadmin/user_upload/IND/Datasheets/Growatt/Datasheet_Growatt_MIN_3-6TL-X.pdf) (as of October 2026): 3,000 W rated, two MPPTs with one string each, 80 V to 500 V MPP range and 500 V maximum DC for the 3000 model, 100 V start-up, 12.5 A input and 16 A short-circuit per tracker, 98.2% maximum efficiency, IP65, and a 160 V to 300 V AC range.
+
+**Suits:** two-plane residential installs with moderate string lengths.
+
+**Check before buying:** the 500 V ceiling on the 3000 model is lower than the 550 V of the larger MIN models, so run the cold-morning string voltage against it.
+
 ### Qbits QB 3.0KTLS (QB-1.5-4.0KTLS family): single-phase on-grid, single MPPT
 
 The [QB 1.5/2.0/2.7/3.0/3.3/3.6/4.0KTLS family](/our-products/QB-1.5-4.0KTLS/) lists a 3,000 W rated output for the 3.0KTLS. Family figures from the [Qbits datasheet](/datasheets/products/QB_Data-Sheet_2.0-4.0-kw_1MPPT_1Phs.pdf) and model page: one MPPT, 40 V to 550 V MPPT window, 550 V maximum DC, 50 V starting voltage, 20 A maximum DC input, 98% maximum efficiency, IP66, a 90 V to 290 Vac grid range, and operation from -25 to +60 °C. Wi-Fi is standard, with RS485 or GPRS as options.
@@ -205,37 +230,40 @@ From the [Sungrow SG3.0/5.0RS datasheet](https://info-support.sungrowpower.com/a
 
 **Check before buying:** this edition is for another region. Ask for the India datasheet of the exact variant, including its AC range.
 
-### GoodWe GW3000D-NS: dual-MPPT on-grid
-
-From the [GoodWe DNS series datasheet](https://en.goodwe.com/Ftp/EN/Downloads/Datasheet/GW_DNS_Datasheet-EN.pdf) (document V2.1, 17 April 2023, as of October 2026): 3,000 W nominal output, two MPPTs with one string each, 80 V to 550 V MPPT range, 600 V maximum input, 80 V start-up, 11 A maximum input current per tracker with a 13.8 A short-circuit rating, 97.8% maximum efficiency, IP65, 13 kg.
-
-**Suits:** compact two-plane residential installs.
-
-**Check before buying:** compare your module's operating current against the 11 A line and its short-circuit current against the 13.8 A line, because many 2026 modules sit near or above them.
-
-### Growatt MIN 3000TL-X: dual-MPPT on-grid
-
-From the [Growatt MIN 2500~6000TL-X datasheet, India folder copy hosted by Krannich Solar](https://krannich-solar.com/fileadmin/user_upload/IND/Datasheets/Growatt/Datasheet_Growatt_MIN_3-6TL-X.pdf) (as of October 2026): 3,000 W rated, two MPPTs with one string each, 80 V to 500 V MPP range and 500 V maximum DC for the 3000 model, 100 V start-up, 12.5 A input and 16 A short-circuit per tracker, 98.2% maximum efficiency, IP65, and a 160 V to 300 V AC range.
-
-**Suits:** two-plane residential installs with moderate string lengths.
-
-**Check before buying:** the 500 V ceiling on the 3000 model is lower than the 550 V of the larger MIN models, so run the cold-morning string voltage against it.
-
 ## Side-by-side: five 3 kW inverters
+
+Table: Five 3 kW inverters side by side from their own datasheets (alphabetical, not ranked)
 
 | Model | Type | MPPTs | MPPT window | Max DC voltage | Max input current | Max efficiency | IP | Source document |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| GoodWe GW3000D-NS | On-grid, single-phase | 2 | 80 to 550 V | 600 V | 11 A per MPPT | 97.8% | IP65 | GoodWe V2.1, 17 Apr 2023 |
+| Growatt MIN 3000TL-X | On-grid, single-phase | 2 | 80 to 500 V | 500 V | 12.5 A per MPPT | 98.2% | IP65 | Growatt India folder datasheet |
 | Qbits QB 3.0KTLS | On-grid, single-phase | 1 | 40 to 550 V | 550 V | 20 A | 98% (family) | IP66 | Qbits datasheet and model page |
 | Qbits QBH 3KS48P | Hybrid, single-phase | 1 | 150 to 450 V | 500 V | 18 A | 97.6% max (family) | IP66 | Qbits hybrid catalogue |
 | Sungrow SG3.0RS | On-grid, single-phase | 2 | 40 to 560 V | 600 V | 16 A per MPPT | 97.9% | IP65 | Sungrow V12, 2022 |
-| GoodWe GW3000D-NS | On-grid, single-phase | 2 | 80 to 550 V | 600 V | 11 A per MPPT | 97.8% | IP65 | GoodWe V2.1, 17 Apr 2023 |
-| Growatt MIN 3000TL-X | On-grid, single-phase | 2 | 80 to 500 V | 500 V | 12.5 A per MPPT | 98.2% | IP65 | Growatt India folder datasheet |
+
+```chart
+type: hbar
+title: Maximum DC input current printed for each of the five 3 kW models
+unit: "A"
+source: "Each manufacturer's datasheet named in the entries above, read October 2026 (Qbits: QB 1.5 to 4.0KTLS and QBH 3-6KS48P datasheets); see the side-by-side table"
+note: "Alphabetical, not ranked. Sungrow, GoodWe and Growatt print the limit per MPPT tracker; Qbits QB has one tracker and QBH 3KS48P is printed as 18 A. Check your module current against the limit."
+data:
+  - { label: "GoodWe GW3000D-NS (per MPPT)", value: 11 }
+  - { label: "Growatt MIN 3000TL-X (per MPPT)", value: 12.5 }
+  - { label: "Qbits QB 3.0KTLS", value: 20 }
+  - { label: "Qbits QBH 3KS48P", value: 18 }
+  - { label: "Sungrow SG3.0RS (per MPPT)", value: 16 }
+```
 
 Read the table for configuration, not for a winner. A higher efficiency figure by a few tenths of a point is dwarfed by a wrong string length. Because efficiency is a peak figure, ask for the European or weighted efficiency line when the datasheet gives one. Qbits' public datasheets do not publish that line for these models.
 
-Two cautions. Most comparison articles claim 3 kW inverters are single-MPPT, but three of the five above list two trackers, so tracker count is a spec to read and not a size rule. And MNRE's ALMM lists cover modules and cells, not inverters, so ask the seller for the exact model's BIS registration and current certificates, and confirm PM Surya Ghar requirements with your DISCOM. Pull model-specific documents from the [Qbits datasheet library](/download-datasheets/) and the other makers' sites rather than a brochure summary.
+> [!IMPORTANT] Tracker count is a spec, and ALMM does not cover inverters
+> Two cautions. Most comparison articles claim 3 kW inverters are single-MPPT, but three of the five above list two trackers, so tracker count is a spec to read and not a size rule. And MNRE's ALMM lists cover modules and cells, not inverters, so ask the seller for the exact model's BIS registration and current certificates, and confirm PM Surya Ghar requirements with your DISCOM. Pull model-specific documents from the [Qbits datasheet library](/download-datasheets/) and the other makers' sites rather than a brochure summary.
 
 ## Quick pick by use case
+
+Table: Quick pick by use case: candidates from this comparison and why (filters, not rankings)
 
 | Use case | Candidates from this comparison | Why |
 | --- | --- | --- |
@@ -250,6 +278,8 @@ These are filters, not rankings. The right row depends on your roof, so pull the
 ## Warranty terms, compared properly
 
 Answer capsule: warranty comparison fails when buyers compare only the number of years. The remedy, registration deadline, freight responsibility, and exclusion list decide whether those years are worth anything. A 10-year repair-only term with the customer paying freight can be worse than a shorter replacement term.
+
+Table: Warranty terms to compare in writing and why each decides the outcome
 
 | Term to compare | Ask for in writing | Why it decides the outcome |
 | --- | --- | --- |
@@ -308,6 +338,8 @@ The panel to inverter ratio is a number you control. Brand choice is no substitu
 
 Answer capsule: four common Indian rooftop situations map onto four different answers. Identify yours before you shortlist any model, because the situation eliminates most of the market in one step.
 
+Table: Who should buy what at 3 kW, by roof and outage situation
+
 | Your situation | What to buy | Why |
 | --- | --- | --- |
 | One clean south-facing plane, reliable grid | Single-phase, single-MPPT on-grid | A second MPPT recovers nothing here |
@@ -323,6 +355,8 @@ Answer capsule: the cleanest way to see the subsidy effect is to start from the 
 
 The slabs above imply the benchmark. If ₹30,000 is 60% of cost for the first 2 kW, the benchmark is ₹50,000 per kW. If ₹18,000 is 40% of the additional cost for the third kW, that kW is benchmarked at ₹45,000. The [3 kW system price guide](/blog/3kw-solar-system-price-india/) works through this derivation and cites the PIB and MNRE documents.
 
+Table: Derived MNRE benchmark and central assistance for a 3 kW system
+
 | Line | Amount |
 | --- | --- |
 | First 2 kW at ₹50,000 per kW | ₹1,00,000 |
@@ -332,6 +366,8 @@ The slabs above imply the benchmark. If ₹30,000 is 60% of cost for the first 2
 | Net on the benchmark | ₹67,000 |
 
 Your signed contract will differ from the benchmark. This table uses assumed contract values, not market prices and not any brand's price, to show how the net moves:
+
+Table: Net cost to the household at assumed contract values after ₹78,000 assistance (assumptions, not market prices)
 
 | Assumed contract value | Less ₹78,000 assistance | Net cost to household |
 | --- | --- | --- |
@@ -357,16 +393,17 @@ Four points keep the arithmetic honest. Assistance is paid after commissioning a
 
 Answer capsule: commissioning is where a good specification becomes a good system. Most first-year underperformance traces to installation shortcuts, not hardware defects. Run this list on the day and get the results recorded.
 
-1. Confirm the model number on the unit matches the quotation and the approved design.
-2. Verify mounting: shaded, ventilated, vertical, and off direct west-wall heat.
-3. Check DC polarity and MC4 crimps before the first switch-on.
-4. Measure string open-circuit voltage against the calculated value.
-5. Verify earthing continuity and the surge protection device on both DC and AC sides.
-6. Confirm the AC isolator, MCB rating, and cable size against the inverter manual.
-7. Test anti-islanding by opening the grid isolator and confirming shutdown.
-8. Record the firmware version and the grid code setting used.
-9. Register the warranty and the monitoring account in the owner's name that day.
-10. Collect the commissioning report, datasheet, and warranty certificate.
+> [!CHECKLIST] Checks to run and record on commissioning day
+> - Confirm the model number on the unit matches the quotation and the approved design.
+> - Verify mounting: shaded, ventilated, vertical, and off direct west-wall heat.
+> - Check DC polarity and MC4 crimps before the first switch-on.
+> - Measure string open-circuit voltage against the calculated value.
+> - Verify earthing continuity and the surge protection device on both DC and AC sides.
+> - Confirm the AC isolator, MCB rating, and cable size against the inverter manual.
+> - Test anti-islanding by opening the grid isolator and confirming shutdown.
+> - Record the firmware version and the grid code setting used.
+> - Register the warranty and the monitoring account in the owner's name that day.
+> - Collect the commissioning report, datasheet, and warranty certificate.
 
 The full sequence is in the [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-india/).
 

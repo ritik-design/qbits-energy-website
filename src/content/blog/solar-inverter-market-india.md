@@ -39,7 +39,7 @@ faqs:
 
 India's solar inverter market is easy to describe and hard to measure. Every grid-connected system needs an inverter, and capacity additions are well documented. What is not well documented is the market in rupees or in brand shares, where published numbers differ by a factor of two or more. This report keeps to figures that name a source and a date. Where a number cannot be sourced, it says so instead of filling the gap. Data points were checked between 12 and 14 October 2026.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Published 2025 market-size estimates range from USD 386.7 million (IMARC) to USD 0.86 billion (Market Research Future). Treat the spread as the finding.
 > - Capacity is better measured than revenue: India added about 44.6 GW of solar in FY2026 (JMK Research) and 35.2 GW in January to September 2026, of which 9.8 GW was rooftop.
 > - Mercom India reported inverter shipments to Indian solar projects rose 40.8% in 2025, with central inverters at 51% of shipments.
@@ -50,11 +50,26 @@ India's solar inverter market is easy to describe and hard to measure. Every gri
 
 Three research firms publish a headline figure, and no two agree. The differences come from scope (solar PV inverters only, or all inverters), base year, currency conversion and how utility-scale central inverters are counted.
 
+Table: Published estimates of the India solar inverter market, 2025 value and forecast, by research firm
+
 | Publisher | 2025 value | Forecast | Growth rate | Notes |
 | --- | --- | --- | --- | --- |
 | [IMARC Group](https://www.imarcgroup.com/india-solar-pv-inverter-market) | USD 386.7 million | USD 793.5 million by 2034 | 8.07% (2026 to 2034) | Solar PV inverters; page updated 4 Sep 2026 |
 | [TechSci Research](https://www.techsciresearch.com/report/india-solar-inverter-market/15193.html) | USD 612 million | About USD 1,100 million by 2031 | 10.11% (2026 to 2031) | Central, string and micro; on-grid and off-grid |
 | [Market Research Future](https://www.marketresearchfuture.com/reports/india-solar-inverter-market-48568) | USD 0.86 billion | USD 3.12 billion by 2035 | 13.6% (2026 to 2035) | Includes string, central, micro and hybrid or battery-ready |
+
+```chart
+type: hbar
+title: Published 2025 estimates of India's solar inverter market
+unit: "USD million"
+source: "IMARC Group (page updated 4 Sep 2026), TechSci Research and Market Research Future report pages, read 12 to 14 October 2026"
+note: "Modelled estimates with different scope and base years, not measured sales. The spread is the finding."
+decimals: 1
+data:
+  - { label: "IMARC Group", value: 386.7 }
+  - { label: "TechSci Research", value: 612 }
+  - { label: "Market Research Future", value: 860 }
+```
 
 The highest 2025 figure is more than twice the lowest. None of the three is a measured sales total. They are modelled estimates behind a paywall, and each firm's methodology is its own. The practical reading is a range of roughly USD 0.4 to 0.9 billion for 2025, with growth forecasts between about 8% and 14% a year depending on the firm.
 
@@ -63,6 +78,8 @@ A single figure such as "USD 1.4 to 1.6 billion" with 15 to 18% growth is someti
 ## A better yardstick: capacity added and inverters shipped
 
 Revenue estimates differ, but capacity additions are tracked monthly by MNRE and by analysts such as JMK Research. Inverter demand follows the AC capacity of new plants, so these numbers show how much work the market is actually doing.
+
+Table: India solar capacity added and installed, with source and date for each figure
 
 | Measure | Figure | Source and date |
 | --- | --- | --- |
@@ -82,6 +99,8 @@ Two cautions apply. First, those are shares of shipments to solar projects, a me
 
 The three segments buy different products for different reasons, which is why a single national "market share" is of limited use to a buyer.
 
+Table: Inverter segments, typical product and what drives the purchase
+
 | Segment | Typical inverter | What drives the purchase |
 | --- | --- | --- |
 | Residential rooftop | Single-phase or small three-phase string inverter, or a hybrid inverter where backup is wanted | PM Surya Ghar eligibility, installer recommendation, warranty and local service |
@@ -98,6 +117,8 @@ PM Surya Ghar Muft Bijli Yojana is the main driver of residential rooftop demand
 
 Progress figures depend on who is counting and when:
 
+Table: PM Surya Ghar and residential rooftop progress figures, with source and date
+
 | Measure | Figure | Source and date |
 | --- | --- | --- |
 | Residential rooftop installed | 17,561 MW across 59,47,035 households | [JMK Research monthly update](https://jmkresearch.com/monthly-renewable-sector-update-utility-scale-solar-wind/monthly-re-update-september-2026/), September 2026 |
@@ -113,6 +134,8 @@ Within the scheme, state leadership has moved. JMK's September 2026 update showe
 
 Rooftop solar is concentrated. MNRE data compiled by Climate Compatible Futures and reported by [Down To Earth on 23 June 2026](https://www.downtoearth.org.in/energy/indias-rooftop-solar-boom-is-real-and-deeply-lopsided-analysis) put national rooftop capacity at 25.7 GW as of March 2026 and showed these states:
 
+Table: Rooftop solar capacity by state, March 2026, for the states named in the source
+
 | State | Rooftop capacity, March 2026 |
 | --- | --- |
 | Gujarat | 6,882 MW |
@@ -126,15 +149,39 @@ Rooftop solar is concentrated. MNRE data compiled by Climate Compatible Futures 
 | Assam | 344 MW |
 | Uttarakhand | 274 MW |
 
+```chart
+type: hbar
+title: Rooftop solar capacity by state, March 2026
+unit: "MW"
+source: "MNRE data compiled by Climate Compatible Futures, reported by Down To Earth, 23 June 2026"
+sourceUrl: https://www.downtoearth.org.in/energy/indias-rooftop-solar-boom-is-real-and-deeply-lopsided-analysis
+note: "Only the states named in the source are shown. Tamil Nadu and Karnataka are not given."
+decimals: 0
+data:
+  - { label: "Gujarat", value: 6882 }
+  - { label: "Maharashtra", value: 5442 }
+  - { label: "Rajasthan", value: 2090 }
+  - { label: "Kerala", value: 1850 }
+  - { label: "Haryana", value: 1188 }
+  - { label: "Uttar Pradesh", value: 715 }
+  - { label: "Punjab", value: 581 }
+  - { label: "Delhi", value: 410 }
+  - { label: "Assam", value: 344 }
+  - { label: "Uttarakhand", value: 274 }
+```
+
 The article reports that the top ten states account for close to 86% of the national total. Gujarat and Maharashtra together hold 12,324 MW, about 48% of the 25.7 GW. The table lists the states the article names, and the source does not give Tamil Nadu or Karnataka, so it is not a complete top-ten list.
 
 Stock and growth tell different stories. JMK reported that in FY2026 Maharashtra added the most rooftop capacity at 2,144 MW (25% of additions), followed by Gujarat at 1,777 MW (20%) and Tamil Nadu at 600 MW (7%). In August 2026 Gujarat added 628.7 MW, Uttar Pradesh 489.7 MW and Andhra Pradesh 210.8 MW. Uttar Pradesh, with only 715 MW in March, is the state to watch. For state-level subsidy rules see the [Uttar Pradesh solar subsidy guide](/blog/solar-subsidy-uttar-pradesh-2026/) and the [state subsidy overview](/blog/solar-subsidy-all-states/), and for more dated national statistics see [India solar statistics 2026](/blog/india-solar-statistics-2026-data/).
 
-State series and national totals come from different compilations and cut-off dates, so do not add state figures to reach a national number.
+> [!IMPORTANT] Do not add state figures to reach a national number
+> State series and national totals come from different compilations and cut-off dates, so do not add state figures to reach a national number.
 
 ## Who supplies the inverters: what is public, and what is not
 
 The only public, repeatable supplier ranking we found is Mercom India's leaderboard of inverter shipments to solar projects. Mercom named the same five suppliers at the top in recent years, with the order changing:
+
+Table: Top inverter suppliers by share of shipments to solar projects in India, Mercom India leaderboard
 
 | Supplier | 2024 share of shipments | 2025 position |
 | --- | --- | --- |
@@ -144,9 +191,28 @@ The only public, repeatable supplier ranking we found is Mercom India's leaderbo
 | FIMER India | 12.2% | Nearly 7% |
 | Solis (Ginlong) | 6% | Fifth |
 
+```chart
+type: hbar
+title: 2024 share of inverter shipments to solar projects in India, top five suppliers
+unit: "%"
+source: "Mercom India, India Solar Market Leaderboard coverage for 2024 (public articles; full data is paywalled)"
+sourceUrl: https://www.mercomindia.com/leading-solar-inverter-supplies-2024
+note: "Shares of shipments to solar projects, weighted to utility-scale supply. Not a residential brand ranking."
+decimals: 1
+data:
+  - { label: "Sungrow", value: 29.1 }
+  - { label: "TBEA Energy India", value: 21.3 }
+  - { label: "Sineng Electric", value: 13.3 }
+  - { label: "FIMER India", value: 12.2 }
+  - { label: "Solis (Ginlong)", value: 6 }
+```
+
 Source: Mercom India's India Solar Market Leaderboard coverage for [2024](https://www.mercomindia.com/leading-solar-inverter-supplies-2024) and [2025](https://www.mercomindia.com/solar-inverter-suppliers-leading-indias-market-in-2025), as summarised in its public articles. Full leaderboard data is behind Mercom's paywall.
 
-Read this table for what it is. Because central inverters were 51% of 2025 shipments, it reflects utility-scale and large commercial supply. It does not show who sells the most 5 kW home inverters. We found no public source that does, so this page does not rank residential brands. Share estimates in blog posts are not a substitute for shipment data.
+> [!IMPORTANT] This is not a residential ranking
+> Because central inverters were 51% of 2025 shipments, the table reflects utility-scale and large commercial supply. It does not show who sells the most 5 kW home inverters. We found no public source that does, so this page does not rank residential brands.
+
+Read this table for what it is. Share estimates in blog posts are not a substitute for shipment data.
 
 Two developments are worth knowing. TaiyangNews reported on 12 October 2026 that Waaree's planned inverter manufacturing capacity is 4.15 GW a year, and that India is considering local-content rules for inverters. The market for Indian-made inverters is therefore a policy question as well as a commercial one. Qbits Energy is one Indian inverter maker among others in this market, with [on-grid](/on-grid-inverter/) and [hybrid](/hybrid-inverter/) lines. For brand-by-brand comparisons, use our [top 10 solar inverter brands in India](/blog/top-10-solar-inverter-brands-india-2026/), the [Indian brands guide](/blog/best-indian-solar-inverter-brands/) and the [market share explainer](/blog/solar-inverter-market-share-india-2026/).
 
@@ -154,11 +220,12 @@ Two developments are worth knowing. TaiyangNews reported on 12 October 2026 that
 
 A brand that does well in Europe or China still has to cope with Indian grid conditions, heat and service distances. These are the checks procurement teams actually use. They are a checklist, not a score.
 
-1. **Grid compatibility.** Indian feeders see voltage sags, brownouts and frequency excursions. The allowed AC range depends on the model, the DISCOM's connection conditions and the inverter's grid-code setting, so read it from the exact model's datasheet and confirm the anti-islanding test.
-2. **Climate tolerance.** Check the ingress protection rating for the install location, and read the temperature derating curve to see what output the inverter keeps in summer rooftop heat. The datasheet, not the brochure, states both.
-3. **Compliance posture.** BIS registration under the Solar Photovoltaics goods order lists IS 16221 (Part 2) for safety and IS 16169 for islanding prevention. [Saur Energy reported](https://www.saurenergy.com/solar-energy-news/mnre-extends-self-certification-for-200-kw-with-solar-inverters-till-dec-31-2026-12151390) that MNRE extended self-certification for inverters above 200 kW to 31 December 2026 or until further orders. Check the current notice before relying on any date. Our [BIS glossary entry](/glossary/bis-certification/) explains the registration route.
-4. **Service reach.** Ask for the written warranty and service terms for the exact model, and for a service partner who covers your pincode. A warranty is only as useful as the nearest person who can act on it.
-5. **Monitoring.** Check whether fault alerts reach the installer without a dashboard login, and who owns the monitoring data. See our guide to [solar inverter monitoring systems](/blog/solar-inverter-monitoring-systems-in-india/).
+> [!CHECKLIST] Five checks for Indian grid and climate
+> - **Grid compatibility.** Indian feeders see voltage sags, brownouts and frequency excursions. The allowed AC range depends on the model, the DISCOM's connection conditions and the inverter's grid-code setting, so read it from the exact model's datasheet and confirm the anti-islanding test.
+> - **Climate tolerance.** Check the ingress protection rating for the install location, and read the temperature derating curve to see what output the inverter keeps in summer rooftop heat. The datasheet, not the brochure, states both.
+> - **Compliance posture.** BIS registration under the Solar Photovoltaics goods order lists IS 16221 (Part 2) for safety and IS 16169 for islanding prevention. [Saur Energy reported](https://www.saurenergy.com/solar-energy-news/mnre-extends-self-certification-for-200-kw-with-solar-inverters-till-dec-31-2026-12151390) that MNRE extended self-certification for inverters above 200 kW to 31 December 2026 or until further orders. Check the current notice before relying on any date. Our [BIS glossary entry](/glossary/bis-certification/) explains the registration route.
+> - **Service reach.** Ask for the written warranty and service terms for the exact model, and for a service partner who covers your pincode. A warranty is only as useful as the nearest person who can act on it.
+> - **Monitoring.** Check whether fault alerts reach the installer without a dashboard login, and who owns the monitoring data. See our guide to [solar inverter monitoring systems](/blog/solar-inverter-monitoring-systems-in-india/).
 
 ## ALMM and inverter compliance are separate checks
 
@@ -180,6 +247,8 @@ Hybrid inverters, battery storage and remote monitoring all feature in installer
 
 ## Challenges that limit growth
 
+Table: Challenges that limit rooftop solar growth, what each means for a project and how to mitigate
+
 | Challenge | What it means for a project | Mitigation |
 | --- | --- | --- |
 | DISCOM approval and net metering delays | Subsidy and savings start later than the installation date | Confirm the DISCOM process and expected timeline before signing; see [how to apply for net metering](/blog/how-to-apply-net-metering-india/) |
@@ -193,6 +262,8 @@ The [DISCOM](/glossary/discom/) processes remain the hardest constraint to solve
 ## Where to track these numbers yourself
 
 Market figures go stale within a quarter. If you rely on them for a purchase, a tender or a plan, go to the publishers directly and check the date on each figure before you use it.
+
+Table: Where to track India solar inverter market numbers yourself
 
 | Question | Where to look | How often it updates | Limits |
 | --- | --- | --- | --- |

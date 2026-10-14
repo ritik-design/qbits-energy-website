@@ -53,9 +53,8 @@ This guide does three things. It walks the full journey, from the first portal s
 
 Every timeline below is tied to a named regulation with its issuing body and year, and was checked as of October 2026. Net metering rules differ by state and by DISCOM, and practice differs from the written rule. Treat these numbers as the frame, then check the current text for your own state.
 
-> **TL;DR**
-> - The Electricity (Rights of Consumers) Amendment Rules, 2024 (Ministry of Power) cut the feasibility window to 15 days above 10 kW, and exempted systems up to 10 kW entirely.
-> - That amendment added deemed approval: no intimation within 15 days means the proposal is presumed technically feasible.
+> [!KEYTAKEAWAYS]
+> - The Electricity (Rights of Consumers) Amendment Rules, 2024 (Ministry of Power) cut the feasibility window to 15 days above 10 kW, and exempted systems up to 10 kW entirely. That amendment added deemed approval: no intimation within 15 days means the proposal is presumed technically feasible.
 > - Everything after feasibility is state law. MERC's 2019 regulations give 3 working days to acknowledge, 15 working days for feasibility, 7 working days for approval, and 10 plus 10 working days for testing, meter installation and synchronisation.
 > - Delhi reported a move to a two-stage process in a revision issued 16 July 2026 (secondary source; check derc.gov.in).
 > - The real bottlenecks are meter stock, inspector scheduling, and document mismatches, not feasibility.
@@ -73,6 +72,7 @@ That is why two neighbours in different states, with identical 5 kW systems, see
 
 Most state frameworks follow the same underlying sequence, even when names and order differ. Knowing which stage you are in is the entire diagnostic.
 
+<!-- steps -->
 1. **Application submission.** You or your installer file on the state portal or the national PM Surya Ghar portal. Save the reference number.
 2. **Technical feasibility study.** The DISCOM checks transformer headroom, feeder loading, and connection details.
 3. **Sanctioned load check.** Most regulations cap capacity at or below your sanctioned load or contract demand.
@@ -90,6 +90,8 @@ Stages 1 to 4 are pre-approval. Stages 5 to 7 are yours and your installer's to 
 
 This table lists only clocks that appear in a named rule, with the rule cited. Where no uniform clock exists it says so, because an invented "typical" number would mislead you. All entries were checked as of October 2026, and states revise their regulations, so confirm the current consolidated text.
 
+Table: Stage-by-stage clocks that appear in a named rule, with the rule cited (checked October 2026)
+
 | Stage | Clock, where one exists | Source |
 | --- | --- | --- |
 | Application submission | None; portal-dependent | n/a |
@@ -105,7 +107,22 @@ This table lists only clocks that appear in a named rule, with the rule cited. W
 | Agreement | Net metering connection agreement signed after installation and before synchronisation (Maharashtra) | MERC 2019, Annexure 1(h) |
 | Subsidy claim (PM Surya Ghar) | CFA processed within 15 days of DISCOM approval | MNRE residential CFA guidelines, clause 6(t) |
 
-Two cautions. Stages overlap in several states, so you cannot simply add the rows. And a statutory clock only runs from a complete application, which is the most misunderstood point in this process. The MERC clocks above are the original 2019 text; Maharashtra amended the regulations in 2023 and has since consulted on further changes, so read the current consolidated version before quoting them to your DISCOM.
+```chart
+type: bar
+title: Maharashtra statutory clocks for a net metering application, in working days
+unit: "working days"
+source: "MERC (Grid Interactive Rooftop Renewable Energy Generating Systems) Regulations, 2019, Annexure 1, original text as checked directly for this article"
+note: "Original 2019 text. Maharashtra amended the regulations in 2023, so read the current consolidated version. The deficiency cure window is 15 days, not working days, and is not charted."
+data:
+  - { label: "Acknowledge application", value: 3 }
+  - { label: "Feasibility study", value: 15 }
+  - { label: "Convey approval", value: 7 }
+  - { label: "Test and commission", value: 10 }
+  - { label: "Fit meter and synchronise", value: 10 }
+```
+
+> [!IMPORTANT] A clock runs only from a complete application
+> Two cautions. Stages overlap in several states, so you cannot simply add the rows. And a statutory clock only runs from a complete application, which is the most misunderstood point in this process. The MERC clocks above are the original 2019 text; Maharashtra amended the regulations in 2023 and has since consulted on further changes, so read the current consolidated version before quoting them to your DISCOM.
 
 ## What the regulations actually promise
 
@@ -126,18 +143,19 @@ Source: [PIB release, 23 February 2024](https://www.pib.gov.in/PressReleaseIfram
 
 This is arithmetic on published windows, not a forecast for your file. It shows the floor a well-run application can reach under one state's text, and why real elapsed time usually differs.
 
-**Inputs.** A 15 kW rooftop system in Maharashtra under the original MERC 2019 text. A feasibility study applies because the system exceeds 10 kW. No deficiency notice, no transformer constraint.
-
-**Calculation, in working days.**
-
-- Acknowledge the application: 3 working days
-- Feasibility study: 15 working days
-- Approval conveyed: 7 working days
-- Installation and completion report: set by you and your installer, no clock
-- Testing and commissioning: 10 working days
-- Net meter fitted and system synchronised: 10 working days
-
-**Result.** The DISCOM clocks before installation total 25 working days, and the clocks after the completion report total 20 working days. Together that is 45 working days of DISCOM time, roughly nine weeks of calendar time, before counting your own installation time. A 5 kW home in Maharashtra skips the feasibility study under the central rule, so its pre-installation DISCOM time is shorter.
+> [!EXAMPLE] 15 kW system in Maharashtra under the original 2019 text
+> **Inputs.** A 15 kW rooftop system in Maharashtra under the original MERC 2019 text. A feasibility study applies because the system exceeds 10 kW. No deficiency notice, no transformer constraint.
+>
+> **Calculation, in working days.**
+>
+> - Acknowledge the application: 3 working days
+> - Feasibility study: 15 working days
+> - Approval conveyed: 7 working days
+> - Installation and completion report: set by you and your installer, no clock
+> - Testing and commissioning: 10 working days
+> - Net meter fitted and system synchronised: 10 working days
+>
+> **Result.** The DISCOM clocks before installation total 25 working days, and the clocks after the completion report total 20 working days. Together that is 45 working days of DISCOM time, roughly nine weeks of calendar time, before counting your own installation time. A 5 kW home in Maharashtra skips the feasibility study under the central rule, so its pre-installation DISCOM time is shorter.
 
 Add one 15-day deficiency cure or a waiting spell for meter stock and the same file moves out by weeks without any rule being broken. That gap between the written floor and the lived experience is where most complaints sit. We have not published an "average days" figure because no source we could verify measures it.
 
@@ -159,6 +177,8 @@ Feasibility is rarely the true bottleneck any more, especially since the 10 kW e
 
 Here is the uncomfortable part. Most consumers escalate against the DISCOM while the actual blocker sits with their own installer or their own paperwork. The table below separates the two honestly.
 
+Table: Common beliefs about a stalled net metering file and what is usually true
+
 | Common belief | What is usually true |
 | --- | --- |
 | "The DISCOM is sitting on my file." | Often the completion report was never uploaded against the correct reference. |
@@ -173,12 +193,13 @@ You control document completeness, equipment matching the approved proposal, san
 
 Build one folder before you apply, and keep it current. Applications stall on retrieval time far more often than on eligibility. Rules on mandatory documents vary by state and DISCOM.
 
-1. **At application.** Latest electricity bill, consumer number, sanctioned load proof, identity and address proof, and roof ownership or no-objection documentation.
-2. **At approval.** The feasibility outcome or approval letter, its validity date, and the approved capacity in writing.
-3. **At installation.** Itemised invoice, inverter and module model numbers, serial numbers, datasheets, and the single line diagram.
-4. **At inspection.** Installation and test reports, earthing records, and any electrical inspector approval your state requires under the CEA (Measures relating to Safety and Electric Supply) Regulations, 2010.
-5. **At commissioning.** Commissioning certificate, meter serial and seal details, and the executed interconnection agreement.
-6. **At subsidy claim.** Bank details, a cancelled cheque, and the commissioning report, for PM Surya Ghar applicants.
+> [!CHECKLIST] Documents to keep ready at each stage
+> - **At application.** Latest electricity bill, consumer number, sanctioned load proof, identity and address proof, and roof ownership or no-objection documentation.
+> - **At approval.** The feasibility outcome or approval letter, its validity date, and the approved capacity in writing.
+> - **At installation.** Itemised invoice, inverter and module model numbers, serial numbers, datasheets, and the single line diagram.
+> - **At inspection.** Installation and test reports, earthing records, and any electrical inspector approval your state requires under the CEA (Measures relating to Safety and Electric Supply) Regulations, 2010.
+> - **At commissioning.** Commissioning certificate, meter serial and seal details, and the executed interconnection agreement.
+> - **At subsidy claim.** Bank details, a cancelled cheque, and the commissioning report, for PM Surya Ghar applicants.
 
 Keep a dated log alongside the folder. Record every submission, clarification request, and response. That log turns a complaint into a case.
 
@@ -188,10 +209,11 @@ The three mechanisms share most procedural stages. They differ sharply in how ex
 
 Under net metering, exports are netted against imports and you are billed on the difference. Under gross metering, all generation is sold to the utility at a defined rate while you buy all consumption at the retail tariff. Net billing sits between them, crediting exports at a rate usually below retail.
 
-**Worked example, illustrative rates only.** Assume a household imports 600 kWh and exports 400 kWh in a month. Assume a retail tariff of ₹8.00 per kWh and an export rate of ₹3.00 per kWh.
-
-- Net metering: (600 minus 400) × ₹8.00 = ₹1,600 payable.
-- Net billing: (600 × ₹8.00) minus (400 × ₹3.00) = ₹4,800 minus ₹1,200 = ₹3,600 payable.
+> [!EXAMPLE] Net metering against net billing in one month
+> **Worked example, illustrative rates only.** Assume a household imports 600 kWh and exports 400 kWh in a month. Assume a retail tariff of ₹8.00 per kWh and an export rate of ₹3.00 per kWh.
+>
+> - Net metering: (600 minus 400) × ₹8.00 = ₹1,600 payable.
+> - Net billing: (600 × ₹8.00) minus (400 × ₹3.00) = ₹4,800 minus ₹1,200 = ₹3,600 payable.
 
 The difference is ₹2,000 for that month on identical hardware. Rates and rules are state-specific, so substitute your own tariff order values. Our [gross metering versus net metering comparison](/blog/gross-metering-vs-net-metering/) works through the mechanics, and the [net metering guide](/blog/net-metering-india-complete-guide/) covers eligibility.
 
@@ -209,13 +231,15 @@ The following are illustrative, not exhaustive. Each has been amended, so always
 
 Escalate in order, and escalate on paper. A phone call leaves no record, and a record is the only thing that moves a stalled file.
 
+<!-- steps -->
 1. **Fix your side first.** Confirm the completion report was filed against the correct reference, and that installed equipment matches the approval exactly.
 2. **Raise a ticketed complaint.** Use the DISCOM's grievance channel. Quote the application number, attach a dated event log, and save the acknowledgement.
 3. **Cite the applicable window.** If the 15-day feasibility window under the Electricity (Rights of Consumers) Amendment Rules, 2024 has lapsed, invoke the deemed feasibility provision by name.
 4. **Approach the Consumer Grievance Redressal Forum.** Every distribution licensee must maintain one under Section 42(5) of the Electricity Act, 2003. Its procedure and time limit come from your state commission's forum and ombudsman regulations, so read those for your state.
 5. **Represent to the Electricity Ombudsman.** Section 42(6) of the Electricity Act, 2003 allows this where the Forum has not redressed the grievance. The Ombudsman is designated by your State Commission.
 
-Do not modify inverter protection settings or begin export while waiting. The CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 govern the interconnection standard, and unauthorised export complicates commissioning and any subsidy claim. Our [commissioning guide](/blog/solar-inverter-commissioning-in-india/) explains what the utility tests.
+> [!CAUTION] Do not change protection settings or export early
+> Do not modify inverter protection settings or begin export while waiting. The CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 govern the interconnection standard, and unauthorised export complicates commissioning and any subsidy claim. Our [commissioning guide](/blog/solar-inverter-commissioning-in-india/) explains what the utility tests.
 
 ## The Bottom Line
 

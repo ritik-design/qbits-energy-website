@@ -41,7 +41,7 @@ faqs:
 
 Growatt inverters appear on a large share of rooftop quotations in India. This review looks at what Growatt itself publishes: its datasheets, its warranty page and its India contact page. It names the real model families, shows the datasheet figures for one representative model from each, and lists the questions to settle before you buy. It does not score the brand, rank it against others or quote prices.
 
-> **Quick answers**
+> [!KEYTAKEAWAYS] Quick answers
 > - The Growatt MIN series (2.5 to 10 kW, single phase) is the residential on-grid line. MID (15 to 60 kW, three phase) is a commercial line, and MAC and MAX go larger. SPH is the single-phase hybrid line with low-voltage batteries, and MOD XH is the three-phase hybrid line for high-voltage batteries.
 > - The MIN 5000TL-X2 datasheet lists IP66, two MPPTs, a 40 to 550 V MPPT range, 98.4% maximum efficiency and a warranty line of 5 years standard with 10 years optional.
 > - Growatt's warranty page runs the standard period from the installation date on the installation certificate, no later than six months after delivery, and limits the remedy to service replacement and service repair.
@@ -64,6 +64,8 @@ An entity and an email address tell you where to send a claim. They do not tell 
 
 Growatt's product page groups its inverters as follows. Names are model families, and each family covers several kW ratings.
 
+Table: Growatt inverter families sold in India by phase, job, battery type and notes from Growatt's pages
+
 | Family | Phase | Job | Battery | Notes from Growatt's pages |
 | --- | --- | --- | --- | --- |
 | MIN 2500-6000TL-X/X2 and MIN 7000-10000TL-X/X2 | Single | Residential on-grid | None | Two MPPT trackers, Type II DC surge protection, optional AFCI |
@@ -72,13 +74,16 @@ Growatt's product page groups its inverters as follows. Names are model families
 | MID 15-30KTL3-X/X2, 25-40, 30-50, 36-60 | Three | Commercial on-grid | None | Two MPPT trackers on the 15 to 30 kW models |
 | MAC 50-70, MAX 50-80, MAX 100-150 and larger | Three | Large commercial and utility | None | Higher MPPT counts and larger ratings |
 
-The MID series is a commercial three-phase line, and it is not a residential line. Home systems of 3 to 10 kW are served by MIN on-grid and, with a battery, by SPH or MOD XH.
+> [!NOTE] MID is not a residential line
+> The MID series is a commercial three-phase line, and it is not a residential line. Home systems of 3 to 10 kW are served by MIN on-grid and, with a battery, by SPH or MOD XH.
 
 ## Datasheet figures for one model per family
 
 All figures below are copied from Growatt's own datasheets, as of 14 October 2026.
 
 ### MIN 5000TL-X2: residential single-phase on-grid
+
+Table: Growatt MIN 5000TL-X2 datasheet figures (read 14 October 2026)
 
 | Item | Figure |
 | --- | --- |
@@ -99,6 +104,8 @@ Source: [Growatt MIN 2500~6000TL-X2 datasheet](https://en.growatt.com/upload/fil
 
 ### SPH 5000TL BL-UP: single-phase hybrid
 
+Table: Growatt SPH 5000TL BL-UP datasheet figures (April 2026 datasheet, read 14 October 2026)
+
 | Item | Figure |
 | --- | --- |
 | Trackers / strings per tracker | 2 / 1, 13.5 A per tracker |
@@ -114,6 +121,8 @@ Source: [Growatt MIN 2500~6000TL-X2 datasheet](https://en.growatt.com/upload/fil
 Source: [Growatt SPH 3000-6000TL BL-UP datasheet, April 2026](https://en.growatt.com/upload/file/SPH_3000-6000TL_BL-UP_Datasheet_202604.pdf).
 
 ### MOD 5000TL3-XH: three-phase hybrid
+
+Table: Growatt MOD 5000TL3-XH datasheet figures (August 2026 datasheet, read 14 October 2026)
 
 | Item | Figure |
 | --- | --- |
@@ -131,6 +140,8 @@ Source: [Growatt MOD 3000~10000TL3-XH datasheet, August 2026](https://en.growatt
 
 ### MID 20KTL3-X2: commercial three-phase on-grid
 
+Table: Growatt MID 20KTL3-X2 datasheet figures (May 2026 update, read 14 October 2026)
+
 | Item | Figure |
 | --- | --- |
 | Trackers / strings per tracker | 2 / 2, 32 A per tracker |
@@ -147,7 +158,11 @@ Source: [Growatt MID 17~30KTL3-X2 datasheet, May 2026 update](https://en.growatt
 
 ## A worked string check on the MIN 5000TL-X2
 
-This is arithmetic with assumed module values, to show how the datasheet limits are used. It is not a design. Take an illustrative 550 W module with an open-circuit voltage of 49.9 V, a maximum-power voltage of 41.9 V, a short-circuit current of 13.9 A and a voltage temperature coefficient of about -0.29% per °C. Use your own module's datasheet for the real figures.
+> [!FORMULA]
+> Cold-morning Voc = Voc at 25 °C × (1 + temperature coefficient × (cold cell temperature − 25 °C)); string length must keep this total below the inverter's maximum DC voltage
+
+> [!EXAMPLE] A worked string check with assumed module values
+> This is arithmetic with assumed module values, to show how the datasheet limits are used. It is not a design. Take an illustrative 550 W module with an open-circuit voltage of 49.9 V, a maximum-power voltage of 41.9 V, a short-circuit current of 13.9 A and a voltage temperature coefficient of about -0.29% per °C. Use your own module's datasheet for the real figures.
 
 - **Cold-morning limit.** At a cell temperature of 5 °C, 20 °C below the 25 °C test condition, open-circuit voltage rises by about 5.8%, to roughly 52.8 V per module. The inverter's maximum DC voltage is 550 V, so a string of 10 modules would reach about 528 V and stay under it, with some margin. The limit is a hard one, because exceeding it can damage the inverter.
 - **Hot-day limit.** At a cell temperature of 70 °C, 45 °C above the test condition, maximum-power voltage falls by about 13%, to roughly 36.4 V per module. The MPPT window starts at 40 V, so even a short string of 2 modules would sit above the lower edge, though a string that short would be unusual.
@@ -195,7 +210,8 @@ The datasheets for the MIN, SPH and MID models above carry the line "Warranty: 5
 - Claims need the serial number, the original invoice or installation documents, a claim form and a fault description with error codes or photos.
 - Exclusions include a broken seal, transport damage, incorrect installation, failure to follow the manual and force majeure such as lightning or overvoltage.
 
-The page does not mention India or give India-specific terms. Ask the seller for the warranty document that applies to your sale, and put the delivery date and installation date on the handover record. See the [warranty comparison guide](/blog/solar-inverter-warranty/) for how to read clauses of this kind.
+> [!IMPORTANT] Growatt's warranty page gives no India-specific terms
+> The page does not mention India or give India-specific terms. Ask the seller for the warranty document that applies to your sale, and put the delivery date and installation date on the handover record. See the [warranty comparison guide](/blog/solar-inverter-warranty/) for how to read clauses of this kind.
 
 ## Certification and ALMM
 
@@ -215,14 +231,15 @@ For reference, the published Qbits QB-5KTLD datasheet lists two MPPTs with one s
 
 ## Checklist before you buy a Growatt inverter
 
-1. **The exact model number and datasheet version.** MIN, SPH, MOD and MID are different products for different jobs.
-2. **The string design.** Check hot-day maximum-power voltage against the MPPT lower limit, cold-morning open-circuit voltage against the maximum DC voltage and string current against the tracker limit. The [string-sizing calculator](/string-sizing-calculator/) helps with the first pass.
-3. **The warranty document for your sale,** with start date, remedy, exclusions and extension window.
-4. **The BIS registration and certificates for the exact model.**
-5. **The monitoring accessory and account ownership.**
-6. **The named service partner for your pincode,** and whether they stock the spare you would need.
-7. **For hybrids, the battery compatibility document,** naming the exact battery, inverter and firmware.
-8. **The derating curve** if the inverter will sit in direct heat.
+> [!CHECKLIST] Before you buy a Growatt inverter
+> - **The exact model number and datasheet version.** MIN, SPH, MOD and MID are different products for different jobs.
+> - **The string design.** Check hot-day maximum-power voltage against the MPPT lower limit, cold-morning open-circuit voltage against the maximum DC voltage and string current against the tracker limit. The [string-sizing calculator](/string-sizing-calculator/) helps with the first pass.
+> - **The warranty document for your sale,** with start date, remedy, exclusions and extension window.
+> - **The BIS registration and certificates for the exact model.**
+> - **The monitoring accessory and account ownership.**
+> - **The named service partner for your pincode,** and whether they stock the spare you would need.
+> - **For hybrids, the battery compatibility document,** naming the exact battery, inverter and firmware.
+> - **The derating curve** if the inverter will sit in direct heat.
 
 ## Who it can suit, and what to confirm
 

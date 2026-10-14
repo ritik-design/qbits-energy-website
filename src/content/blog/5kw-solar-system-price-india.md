@@ -4,7 +4,7 @@ excerpt: Quoted prices vary widely because quotes cover different work. The line
 description: What a 5 kW solar system costs in India. How to compare installed quotes line by line, what changes the price, and how PM Surya Ghar assistance applies.
 category: Buying Guide
 date: 2026-06-05
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: 9 min
 image: "/og/blog-5kw-solar-system-price-india.webp"
 author: Akash Hirapara
@@ -34,8 +34,7 @@ relatedSlugs:
 - on-grid-vs-hybrid
 ---
 
-> **Quick answers**
->
+> [!KEYTAKEAWAYS]
 > - A 5 kW price is the whole installation, not an inverter or a set of panels.
 > - Quotes differ mainly on scope, not on component quality.
 > - Central assistance is capped at ₹78,000 from 3 kWp and does not rise at 5 kWp.
@@ -46,6 +45,8 @@ relatedSlugs:
 **Short version.** Ask every vendor to quote the same roof, the same array and the same responsibility split, then compare line by line. Most of the spread between 5 kW quotes disappears once the scope is matched, and what remains is a real comparison.
 
 ## What a complete quote has to contain
+
+Table: What a complete 5 kW quote has to contain and what to verify
 
 | Component | What to verify |
 | --- | --- |
@@ -78,7 +79,8 @@ Two 5 kW systems can differ substantially in cost for reasons that have nothing 
 
 It is worth seeing how small a share the visible hardware can be.
 
-Ten 550 W modules give a rated **5,500 Wp**, or 5.5 kWp. At the Waaree official store example of **₹10,299 per module** observed 23 September 2026, that subtotal is **₹102,990**. The [panel price guide](/blog/solar-panel-price-india/) carries the listing and its caveats.
+> [!EXAMPLE] A module-only subtotal is not an installed price
+> Ten 550 W modules give a rated **5,500 Wp**, or 5.5 kWp. At the Waaree official store example of **₹10,299 per module** observed 23 September 2026, that subtotal is **₹102,990**. The [panel price guide](/blog/solar-panel-price-india/) carries the listing and its caveats.
 
 Note two things. That array is 5.5 kWp DC rather than exactly 5 kWp, and the figure excludes the inverter, the structure, all electrical work, installation and approvals. A module subtotal is a component price, not a project price, and adding an inverter listing to it does not produce a turnkey figure either.
 
@@ -90,7 +92,8 @@ For a grid tied project, [browse on-grid inverters](/on-grid-inverter/); a singl
 
 The [MNRE residential guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) set the standard residential central assistance at a maximum of **₹78,000** from 3 kWp for an eligible installation under that slab.
 
-A 5 kWp system does not attract more central assistance than a 3 kWp one. The additional 2 kWp is funded entirely by you, so the decision to go above 3 kWp should rest on your consumption and your state's settlement rules rather than on the scheme.
+> [!IMPORTANT] The extra 2 kWp gets no central assistance
+> A 5 kWp system does not attract more central assistance than a 3 kWp one. The additional 2 kWp is funded entirely by you, so the decision to go above 3 kWp should rest on your consumption and your state's settlement rules rather than on the scheme.
 
 Eligibility, consumer category, vendor status, module conditions and the DISCOM process all still apply and vary by state. Ask the supplier to show the gross contract amount and any expected assistance as separate figures rather than presenting a single net price.
 

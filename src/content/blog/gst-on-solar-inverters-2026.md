@@ -52,7 +52,7 @@ This guide works from the notification text: the 5% entry, the 18% entry on head
 
 This is general information, not tax advice.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Notification 9/2025-Integrated Tax (Rate) superseded Notification 1/2017 and took effect on 22 September 2025.
 > - Schedule I entry 437 puts renewable energy devices, across chapters 84, 85, and 94, at 5%.
 > - Schedule II entry 477 puts heading 8504, transformers and static converters, at 18%, and the Explanation to entry 437 deems bundled installations 70% goods and 30% service.
@@ -73,15 +73,30 @@ Rates across the renewable energy value chain moved from 12% to 5%, and a typica
 
 Older articles and some live quotes still carry the earlier numbers, so it helps to see all three periods side by side. The 12% figure below belongs to the period that closed on 21 September 2025 and applies to nothing after it.
 
+Table: GST rate periods for renewable energy devices: goods rate and effective rate on a deemed 70:30 contract
+
 | Period | Goods rate on entry 437 devices | Deemed 70:30 contract, effective rate |
 | --- | --- | --- |
 | 28 June 2017 to 30 September 2021 | 5% | 8.9% (70:30 Explanation effective 1 January 2019) |
 | 1 October 2021 to 21 September 2025 | 12% | 13.8% |
 | From 22 September 2025 | 5% | 8.9% |
 
+```chart
+type: bar
+title: Effective GST on a deemed 70:30 goods-and-service contract, by period
+unit: "%"
+source: "Calculated in this article as 70% of value at the goods rate plus 30% at the 18% service rate, using the periods compiled by TaxGuru from CBIC notifications 1/2017, 24/2018 and 8/2021, and Notification 9/2025-Integrated Tax (Rate) for the current row"
+note: "Arithmetic on stated rates, not a rate printed on an invoice. The 70:30 Explanation took effect on 1 January 2019."
+data:
+  - { label: "28 Jun 2017 to 30 Sep 2021", value: 8.9 }
+  - { label: "1 Oct 2021 to 21 Sep 2025", value: 13.8 }
+  - { label: "From 22 Sep 2025", value: 8.9 }
+```
+
 The effective rates are arithmetic, not separate legal rates: 70% of the value at the goods rate plus 30% at the 18% service rate. The 2017 to 2021 rows follow the timeline compiled by [TaxGuru](https://taxguru.in/goods-and-service-tax/journey-gst-renewable-energy-devices.html) from CBIC notifications 1/2017, 24/2018 and 8/2021. The current row follows Notification 9/2025 itself.
 
-One trap first. This is an **IGST notification**, so it governs inter-State supplies. An intra-State invoice runs on the parallel Central Tax (Rate) and State entries. Never add 5% IGST on top of CGST and SGST. Our [GST on solar glossary](/glossary/gst-on-solar/) covers the vocabulary.
+> [!IMPORTANT] Never add IGST on top of CGST and SGST
+> One trap first. This is an **IGST notification**, so it governs inter-State supplies. An intra-State invoice runs on the parallel Central Tax (Rate) and State entries. Never add 5% IGST on top of CGST and SGST. Our [GST on solar glossary](/glossary/gst-on-solar/) covers the vocabulary.
 
 ## Why an inverter is not automatically taxed like a panel
 
@@ -94,6 +109,8 @@ The drafting tells you something useful. Entry 438 of Schedule I names one headi
 ## GST rate by component from 22 September 2025
 
 The table below maps each line of a typical solar quote to the entry in Notification 9/2025-Integrated Tax (Rate). The same entries carry half the rate as Central Tax and half as State or Union Territory tax on an intra-State invoice, so 5% reads as 2.5% plus 2.5%, and 18% as 9% plus 9%. We read the notification text published by CBIC and the ICAI GST committee, checked on 14 October 2026.
+
+Table: GST rate by component from 22 September 2025, mapped to entries in Notification 9/2025-Integrated Tax (Rate)
 
 | Line on the quote | Heading | Entry and schedule | Rate | Note |
 | --- | --- | --- | --- | --- |
@@ -112,6 +129,8 @@ Three notes on reading it. First, entry 437 also covers parts for the manufactur
 
 A heading is where classification starts, not where it ends. Use this table to interrogate a quote, not to settle a rate.
 
+Table: HSN starting points line by line, and what to ask the supplier
+
 | Line on the quote | Heading | What to ask |
 | --- | --- | --- |
 | Photovoltaic modules or panels | 8541 | Entry 437 item (h) names photovoltaic cells. Confirm the tariff item. |
@@ -120,17 +139,19 @@ A heading is where classification starts, not where it ends. Use this table to i
 | Structures, cable, connectors, SPD | By material | Separate supplies unless the contract bundles them. |
 | Installation and commissioning | 9954, 9983, or 9987 | Serial 38 is what the 70:30 Explanation points to. |
 
-Never copy an eight-digit HSN from another product's invoice. A wrong code is your problem. Our [solar quotation checklist](/blog/solar-quotation-checklist/) covers the non-tax lines, and [import duty on solar inverters](/blog/bcd-import-duty-solar-inverters-india/) covers the tax upstream of GST.
+> [!TIP] Do not reuse an HSN code from another invoice
+> Never copy an eight-digit HSN from another product's invoice. A wrong code is your problem. Our [solar quotation checklist](/blog/solar-quotation-checklist/) covers the non-tax lines, and [import duty on solar inverters](/blog/bcd-import-duty-solar-inverters-india/) covers the tax upstream of GST.
 
 ## How to read the GST line on an inverter quote
 
 A hybrid inverter is also a static converter in heading 8504, and the notification does not name hybrid inverters separately from on-grid ones. The same classification question applies to both. Five checks make a quote easy to audit.
 
-1. **Description.** The quote should say what the goods are, for example an on-grid solar inverter with a model number, not just "inverter".
-2. **Entry.** Ask for the entry number the supplier relies on, 437 or 477, in writing.
-3. **HSN.** The invoice must carry 4 or 6 digits depending on the supplier's turnover, and the digits must match your description.
-4. **Scope.** Check whether the line is equipment only or part of a contract that also includes installation, which is where the 70:30 Explanation enters.
-5. **Datasheet.** Keep the model datasheet with the quote. The [datasheet library](/download-datasheets/) carries the rated figures a supplier should be quoting from, and the [on-grid inverter range](/on-grid-inverter/) and [hybrid inverter range](/hybrid-inverter/) pages list the Qbits families those datasheets belong to.
+> [!CHECKLIST] Five checks to audit a GST line on an inverter quote
+> - **Description.** The quote should say what the goods are, for example an on-grid solar inverter with a model number, not just "inverter".
+> - **Entry.** Ask for the entry number the supplier relies on, 437 or 477, in writing.
+> - **HSN.** The invoice must carry 4 or 6 digits depending on the supplier's turnover, and the digits must match your description.
+> - **Scope.** Check whether the line is equipment only or part of a contract that also includes installation, which is where the 70:30 Explanation enters.
+> - **Datasheet.** Keep the model datasheet with the quote. The [datasheet library](/download-datasheets/) carries the rated figures a supplier should be quoting from, and the [on-grid inverter range](/on-grid-inverter/) and [hybrid inverter range](/hybrid-inverter/) pages list the Qbits families those datasheets belong to.
 
 Qbits sells through dealers on a quote basis. The tax treatment on a dealer's invoice is the dealer's classification, so put the five questions to the dealer before you pay. [Contact Qbits](/contact-us/) for the model description to take to them.
 
@@ -140,6 +161,7 @@ This is where most buyer confusion sits. Entry 437 carries an Explanation. Where
 
 It is a deeming rule with a defined trigger. Work through it in order.
 
+<!-- steps -->
 1. Confirm the contract supplies entry 437 goods.
 2. Confirm it also supplies the serial 38 taxable service.
 3. If both are present, split the gross consideration 70:30 by deeming.
@@ -154,7 +176,12 @@ Notification 15/2025-Central Tax (Rate), dated 17 September 2025 and effective 2
 
 **This is a worked example using an illustrative amount.** ₹1,00,000 is chosen because the arithmetic rescales easily. It is not a Qbits price and not a statement about what any system costs. Qbits sells through dealers on a quote basis.
 
+> [!FORMULA] Tax on a bundled contract
+> goods = gross × 0.70, service = gross × 0.30, tax = (goods × 5%) + (service × 18%)
+
 Assume the contract matches the Explanation to entry 437, the goods rate is 5%, and the service rate is 18% under serial 38. The formula: goods = gross × 0.70, service = gross × 0.30, tax = (goods × 5%) + (service × 18%).
+
+Table: Tax on an illustrative ₹1,00,000 bundled contract under the 70:30 Explanation
 
 | Component | Deemed value | Rate | Tax |
 | --- | --- | --- | --- |
@@ -164,13 +191,16 @@ Assume the contract matches the Explanation to entry 437, the goods rate is 5%, 
 
 Invoice total in this illustration: **₹1,08,900**.
 
-Now run the same ₹1,00,000 as a standalone equipment sale with no serial 38 service. One goods rate covers the whole value. Entry 437 gives ₹5,000 tax and a ₹1,05,000 total. Entry 477 gives ₹18,000 and ₹1,18,000. That ₹13,000 gap on one line is the classification question made visible.
+> [!EXAMPLE] The same ₹1,00,000 as a standalone equipment sale
+> Now run the same ₹1,00,000 as a standalone equipment sale with no serial 38 service. One goods rate covers the whole value. Entry 437 gives ₹5,000 tax and a ₹1,05,000 total. Entry 477 gives ₹18,000 and ₹1,18,000. That ₹13,000 gap on one line is the classification question made visible.
 
 If a quote is already inclusive of tax at a blended 8.9%, the pre-tax value is the gross divided by 1.089. Never add GST again to a tax inclusive figure. For how equipment and installation scope get separated, see the [5 kW hybrid price guide](/blog/5kw-hybrid-inverter-price-india/) and the [solar panel price guide](/blog/solar-panel-price-india/).
 
 ## Second example: how separate invoices change the blend
 
 The 70:30 deeming applies to a bundled contract. If you instead buy each item on its own invoice, every line takes its own entry and the blend depends on the mix. Per ₹10,000 of taxable value, a 5% line carries ₹500 of tax and an 18% line carries ₹1,800.
+
+Table: Tax per illustrative ₹10,000 line when items are invoiced separately
 
 | Line (illustrative ₹10,000 each) | Rate | Tax |
 | --- | --- | --- |
@@ -229,6 +259,8 @@ An imported inverter or module carries customs duty and IGST at the border befor
 ## What a compliant GST invoice must show
 
 Rule 46 of the CGST Rules, 2017 sets the particulars. Check the supplier's document against the rule, not an online template.
+
+Table: Particulars a GST tax invoice must show under Rule 46 of the CGST Rules, 2017
 
 | Particular | Clause |
 | --- | --- |

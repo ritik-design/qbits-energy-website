@@ -4,7 +4,7 @@ excerpt: "Solar RESCO model India lets C&I buyers get rooftop solar with zero up
 description: "RESCO lets C&I buyers get rooftop solar at zero upfront cost, paying ₹4-6/unit instead of ₹8-14/unit grid tariff. Full PPA terms and top providers inside."
 category: Guide
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-solar-resco-model-india-guide.webp"
 author: "Akash Hirapara"
@@ -37,7 +37,7 @@ faqs:
 
 A factory owner or facility manager evaluating solar in India encounters two fundamental choices: own the system ([CAPEX](/glossary/capex/)) or have someone else own it and pay per unit generated ([RESCO](/glossary/resco/)). This guide focuses entirely on the RESCO model, what it means, what the contract terms look like, which companies provide it, and what due diligence prevents expensive surprises in Year 10 of a 20-year commitment.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - RESCO means a Renewable Energy Service Company owns the solar system on your roof and sells you the electricity at a PPA tariff of ₹4–6/unit versus ₹8–14/unit from the grid, with zero upfront capex.
 > - Savings under RESCO are real (30–40% bill reduction) but lower than the CAPEX model (60–70%), because the RESCO, not the buyer, claims the 80% accelerated depreciation benefit.
 > - PPA contracts run 15–25 years with a typical 2–3% annual tariff escalation; the five-point due diligence checklist covers tariff trajectory, escalation compounding, exit penalties, generation guarantees, and end-of-term ownership.
@@ -84,11 +84,14 @@ Pune-based RESCO focused on green energy procurement for corporate buyers with E
 
 Technology-forward RESCO with a strong portfolio in industrial and commercial rooftop and ground-mounted projects. Known for sophisticated grid integration and SCADA monitoring across portfolios. PPA tariff: ₹4.5–6.5/unit.
 
-**Minimum project sizes:** Most major RESCOs have a minimum project size of 50–100 kW due to transaction costs. For systems below 50 kW, the CAPEX model is more accessible, see [solar EPC India guide](/blog/solar-epc-india/) for the CAPEX procurement process. Buyers pursuing that route often bring in a turnkey commercial solar EPC provider to handle installation once the financing model is decided.
+> [!NOTE] Minimum project sizes
+> **Minimum project sizes:** Most major RESCOs have a minimum project size of 50–100 kW due to transaction costs. For systems below 50 kW, the CAPEX model is more accessible, see [solar EPC India guide](/blog/solar-epc-india/) for the CAPEX procurement process. Buyers pursuing that route often bring in a turnkey commercial solar EPC provider to handle installation once the financing model is decided.
 
 ## How a RESCO PPA Contract Works
 
 A RESCO PPA is a complex legal document. These terms determine financial outcome over the contract lifetime.
+
+Table: Typical terms in a RESCO power purchase agreement
 
 | PPA Term | Typical Range | What It Means |
 | --- | --- | --- |
@@ -107,19 +110,22 @@ Before signing any RESCO PPA, verify all five items in this checklist, each repr
 
 ### The RESCO PPA Due Diligence Checklist
 
-1. **PPA tariff vs grid tariff trajectory**: Compare the Year 1 PPA tariff to your current grid tariff and project both forward using the escalation clause (PPA) and historical tariff hike rate (grid, typically 5–8% per year in India). If grid tariffs rise faster than PPA escalation, your savings grow over time. If grid tariffs stagnate (unlikely but possible), savings narrow. Model this over the full contract term, not just Year 1.
-
-2. **Escalation clause compounding**: A 3% annual escalation on a ₹5/unit Year 1 tariff reaches ₹9.03/unit by Year 20. If the grid tariff at Year 20 is ₹12/unit, you save ₹3/unit, still positive. Stress-test the scenario where grid tariffs rise slower than historical trends over the contract's second half.
-
-3. **Exit penalty calculation**: Understand the exact formula: typically the remaining PPA payment obligations discounted to present value. A ₹2 crore project with 10 years remaining may carry an exit penalty of ₹80–120 lakh. This becomes critical if you sell the building, want to switch to CAPEX, or the RESCO underperforms.
-
-4. **Minimum generation guarantee and enforcement**: Verify whether the minimum generation guarantee is legally enforceable and what the compensation mechanism is. Insist on independent monitoring access so you can verify RESCO's generation claims independently throughout the contract.
-
-5. **End-of-term system ownership**: Determine who owns the system at contract end and whether you have the right to purchase it at a fair residual value. If the RESCO removes the system, your roof returns to its original state, and you need to re-finance a new solar project at whatever tariffs exist in Year 20.
+> [!CHECKLIST] RESCO PPA due diligence: five items to verify before signing
+> - **PPA tariff vs grid tariff trajectory**: Compare the Year 1 PPA tariff to your current grid tariff and project both forward using the escalation clause (PPA) and historical tariff hike rate (grid, typically 5–8% per year in India). If grid tariffs rise faster than PPA escalation, your savings grow over time. If grid tariffs stagnate (unlikely but possible), savings narrow. Model this over the full contract term, not just Year 1.
+>
+> - **Escalation clause compounding**: A 3% annual escalation on a ₹5/unit Year 1 tariff reaches ₹9.03/unit by Year 20. If the grid tariff at Year 20 is ₹12/unit, you save ₹3/unit, still positive. Stress-test the scenario where grid tariffs rise slower than historical trends over the contract's second half.
+>
+> - **Exit penalty calculation**: Understand the exact formula: typically the remaining PPA payment obligations discounted to present value. A ₹2 crore project with 10 years remaining may carry an exit penalty of ₹80–120 lakh. This becomes critical if you sell the building, want to switch to CAPEX, or the RESCO underperforms.
+>
+> - **Minimum generation guarantee and enforcement**: Verify whether the minimum generation guarantee is legally enforceable and what the compensation mechanism is. Insist on independent monitoring access so you can verify RESCO's generation claims independently throughout the contract.
+>
+> - **End-of-term system ownership**: Determine who owns the system at contract end and whether you have the right to purchase it at a fair residual value. If the RESCO removes the system, your roof returns to its original state, and you need to re-finance a new solar project at whatever tariffs exist in Year 20.
 
 ## RESCO vs CAPEX: What the Numbers Look Like
 
 For a 500 kW factory roof in Karnataka:
+
+Table: RESCO against CAPEX for a 500 kW factory roof in Karnataka
 
 | Parameter | RESCO Model | CAPEX Model |
 | --- | --- | --- |

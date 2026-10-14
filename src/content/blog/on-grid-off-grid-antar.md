@@ -4,7 +4,7 @@ excerpt: "On grid off grid antar Hindi me: net metering, power cut backup, PM Su
 description: "On grid, off grid aur hybrid solar system me antar: cost, net metering, subsidy aur power cut backup ek table me. Ghar ke liye Hindi guide."
 category: "Comparison"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-on-grid-off-grid-antar.webp"
 author: "Keyur Rakholiya"
@@ -41,13 +41,12 @@ language: hi
 
 Solar लगवाने से पहले हर घर में यही बहस होती है: on grid लें या [off grid](https://www.heavengreenenergy.com/blog/on-grid-vs-off-grid-vs-hybrid-solar-systems-gujarat)? Vendor दो अलग बातें बोलते हैं, YouTube पर तीसरी मिलती है, और decision अटक जाता है। दिक्कत यह है कि ज्यादातर guides यह अंतर सिर्फ technical तरीके से समझाती हैं, जबकि भारत में यह फैसला technical कम और local ज्यादा है। आपके इलाके में रोज कितने घंटे बिजली जाती है, [DISCOM](/glossary/discom/) में net metering मिल रहा है या नहीं, और आप ₹78,000 की central subsidy छोड़ने को तैयार हैं या नहीं, यही तीन बातें जवाब तय करती हैं। इस guide में on-grid, [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid) और hybrid तीनों को Indian ground reality के हिसाब से compare किया गया है, cost का हिसाब भी है, और आखिर में साफ हो जाएगा कि आपके घर के लिए कौन सा सही है।
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - On-grid system grid से जुड़ा रहता है, battery नहीं लगती, cost सबसे कम, लेकिन power cut में पूरी तरह बंद हो जाता है।
 > - Off-grid system grid से अलग होता है, backup हमेशा रहता है, लेकिन same 3 kW पर 2 से 2.5 गुना महंगा पड़ता है क्योंकि पूरी battery आपको खरीदनी पड़ती है।
 > - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) की central subsidy ₹78,000 तक (3 kW band पर capped) सिर्फ grid-connected system पर मिलती है, off-grid पर नहीं।
 > - Hybrid system दोनों का बीच का रास्ता है, subsidy और net metering भी मिलते हैं और power cut में backup भी चलता है।
-> - Battery ही price का सबसे बड़ा driver है, 10 kWh LFP battery अकेले ₹1.4 लाख से ₹2 लाख की आती है।
-> - Sheher में जहाँ रोज 1 घंटे से कम cut है, वहाँ on-grid सबसे तेज payback देता है; 3 घंटे से ज्यादा cut वाले इलाकों में hybrid ही समझदारी है।
+> - Battery ही price का सबसे बड़ा driver है, 10 kWh LFP battery अकेले ₹1.4 लाख से ₹2 लाख की आती है। Sheher में जहाँ रोज 1 घंटे से कम cut है, वहाँ on-grid सबसे तेज payback देता है; 3 घंटे से ज्यादा cut वाले इलाकों में hybrid ही समझदारी है।
 
 **छोटा जवाब।** On grid off grid antar एक line में यह है: on-grid बिजली grid में भेजता है और battery नहीं रखता, off-grid grid को छूता ही नहीं और पूरी बिजली battery में रखता है। On-grid सस्ता है और subsidy पाता है लेकिन power cut में बंद। Off-grid महँगा है, subsidy नहीं मिलती, लेकिन बिजली कभी नहीं जाती। जिन घरों को दोनों चाहिए, उनके लिए hybrid सही जवाब है।
 
@@ -59,7 +58,8 @@ On-grid system आपके DISCOM के grid के साथ मिलकर 
 
 इसमें battery बिल्कुल नहीं होती। यही वजह है कि यह सबसे सस्ता format है और इसका payback सबसे तेज होता है, आम तौर पर subsidy के बाद 4 से 6 साल।
 
-लेकिन एक बड़ी शर्त है। Grid जाते ही on-grid inverter खुद बंद हो जाता है। यह कोई खराबी नहीं, बल्कि anti-islanding safety rule है, ताकि line पर काम कर रहे lineman को झटका न लगे। मतलब दोपहर 2 बजे तेज धूप में भी अगर बिजली गुल है, तो आपके panel बेकार खड़े रहेंगे।
+> [!WARNING] Grid जाते ही on-grid inverter बंद हो जाता है
+> लेकिन एक बड़ी शर्त है। Grid जाते ही on-grid inverter खुद बंद हो जाता है। यह कोई खराबी नहीं, बल्कि anti-islanding safety rule है, ताकि line पर काम कर रहे lineman को झटका न लगे। मतलब दोपहर 2 बजे तेज धूप में भी अगर बिजली गुल है, तो आपके panel बेकार खड़े रहेंगे।
 
 **On-grid किसके लिए सही है:** Delhi, Mumbai, Bengaluru, Pune, Ahmedabad जैसे शहरों के घर, जहाँ cut रोज 30 से 60 मिनट से कम रहता है और net metering आसानी से मिल जाता है।
 
@@ -78,13 +78,15 @@ Off-grid system का grid से कोई रिश्ता नहीं ह
 
 ## Hybrid System: Zyadatar Indian Ghar Ka Asli Jawab
 
-Hybrid inverter वही सब करता है जो on-grid करता है, और ऊपर से एक battery port और battery management logic रखता है। Grid है तो net metering चलता रहेगा और subsidy भी मिलेगी। Grid गया तो inverter milliseconds में battery पर switch कर देगा और पंखा, light, fridge, router चलते रहेंगे।
+Hybrid inverter वही सब करता है जो on-grid करता है, और ऊपर से एक battery port और battery management logic रखता है। Grid है तो net metering चलता रहेगा और subsidy भी मिलेगी। Grid गया तो inverter कुछ ही देर में battery पर switch कर देगा और पंखा, light, fridge, router चलते रहेंगे।
 
 सबसे बड़ा practical फायदा यह है कि battery आपको off-grid जितनी बड़ी नहीं लेनी पड़ती। आपको सिर्फ cut के घंटों में जरूरी loads चलाने हैं, पूरी रात पूरा घर नहीं। इसलिए 5 kWh से 10 kWh में काम चल जाता है, जबकि off-grid में उसी घर के लिए 15 kWh से ऊपर जाना पड़ता।
 
 एक और बात जो लोग miss करते हैं: hybrid inverter बिना battery के भी चलता है। आप आज hybrid inverter लगवा सकते हैं, subsidy और net metering का फायदा ले सकते हैं, और battery 2 साल बाद जोड़ सकते हैं जब बजट बने या battery के दाम और गिरें। Battery sizing की पूरी method [battery sizing guide](/blog/battery-sizing-hybrid-solar/) में दी गई है।
 
 ## On-Grid vs Off-Grid vs Hybrid: Poora Antar Ek Table Mein
+
+Table: On-grid, off-grid aur hybrid solar system ka antar, point by point
 
 | Point | On-Grid | Off-Grid | Hybrid |
 | --- | --- | --- | --- |
@@ -125,6 +127,8 @@ Off-grid में यह सवाल ही खत्म हो जाता �
 
 Vendor की सलाह से पहले एक हफ्ते तक अपने घर के power cut नोट कर लीजिए। यह छोटा सा काम आपका फैसला लगभग तय कर देगा।
 
+Table: Roz ke power cut ke ghanton ke hisaab se sahi solar system
+
 | रोज़ का cut | सही choice | वजह |
 | --- | --- | --- |
 | 1 घंटे से कम | On-grid | Backup पर पैसा लगाना बेकार है, payback सबसे तेज |
@@ -152,6 +156,8 @@ Hybrid लेने वालों के लिए एक साफ बात 
 
 नीचे 3 kW के तीनों formats की indicative cost है। यह आम market ranges हैं, आपका असली quote roof, structure और location से बदलेगा।
 
+Table: Same 3 kW par on-grid, hybrid aur off-grid ki indicative cost, subsidy ke saath aur bina
+
 | Component | On-Grid 3 kW | Hybrid 3 kW | Off-Grid 3 kW |
 | --- | --- | --- | --- |
 | Solar panels (3 kW) | ₹65,000 से ₹85,000 | ₹65,000 से ₹85,000 | ₹65,000 से ₹85,000 |
@@ -162,37 +168,48 @@ Hybrid लेने वालों के लिए एक साफ बात 
 | PM Surya Ghar subsidy | ₹78,000 | ₹78,000 | ₹0 |
 | **Net cost** | **₹47,000 से ₹99,000** | **₹1.47 लाख से ₹2.52 लाख** | **₹3.07 लाख से ₹4.22 लाख** |
 
+```chart
+type: hbar
+title: Net cost of a 3 kW system after subsidy, by type (indicative range)
+unit: "₹"
+source: "Calculated in this article from the indicative component ranges in the cost table above, less the ₹78,000 PM Surya Ghar central subsidy for on-grid and hybrid; no named price source, so treat as indicative"
+note: "Ranges, not quotes. Excludes battery replacement after 8 to 12 years. Off-grid gets no central subsidy."
+data:
+  - { label: "On-grid 3 kW", min: 47000, max: 99000 }
+  - { label: "Hybrid 3 kW (5 kWh LFP)", min: 147000, max: 252000 }
+  - { label: "Off-grid 3 kW (12 kWh LFP)", min: 307000, max: 422000 }
+```
+
 तीनों में panel और installation लगभग एक जैसे हैं। पूरा फर्क battery पैदा कर रही है, और subsidy उस फर्क को और चौड़ा कर देती है। Off-grid का net cost on-grid से लगभग तीन गुना बैठ रहा है, और यह अभी 10 साल बाद वाली battery replacement को गिने बिना है।
 
-यही असली बात है जो ज्यादातर लोग समझने में देर करते हैं: off-grid की कीमत सिर्फ battery नहीं, battery plus छूटी हुई subsidy plus छूटा हुआ net metering है।
+> [!IMPORTANT] Off-grid की असली cost
+> यही असली बात है जो ज्यादातर लोग समझने में देर करते हैं: off-grid की कीमत सिर्फ battery नहीं, battery plus छूटी हुई subsidy plus छूटा हुआ net metering है।
 
 <div class="inline-cta">
 <h3>Battery चाहिए लेकिन subsidy भी नहीं छोड़नी?</h3>
 
 <a href="/hybrid-inverter/" class="cta-btn">Hybrid Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">ALMM listed, 12 साल की warranty।</p>
+<p class="cta-sub">Exact model की current written warranty terms dealer se maangein।</p>
 </div>
 
 ## Illustrative Example: Delhi Flat vs Rural UP Ghar
 
 नीचे दिया गया comparison एक illustrative example है, किसी असली customer का नहीं। मकसद सिर्फ यह दिखाना है कि एक ही 3 kW system दो अलग जगहों पर कैसे अलग फैसला माँगता है।
 
-**Case A: Delhi का flat, monthly bill ₹3,500, रोज़ लगभग 20 मिनट का cut**
+> [!EXAMPLE] Case A: Delhi का flat, monthly bill ₹3,500, रोज़ लगभग 20 मिनट का cut
+> - On-grid 3 kW, net cost लगभग ₹85,000 subsidy के बाद
+> - सालाना बचत लगभग ₹36,000
+> - Payback करीब 2.5 साल
+> - Battery जोड़ने पर ₹95,000 extra खर्च होता, और साल भर में मुश्किल से 8 से 10 घंटे का cut cover होता
+> - नतीजा: on-grid, और backup के लिए पहले से लगा छोटा UPS काफी है
 
-- On-grid 3 kW, net cost लगभग ₹85,000 subsidy के बाद
-- सालाना बचत लगभग ₹36,000
-- Payback करीब 2.5 साल
-- Battery जोड़ने पर ₹95,000 extra खर्च होता, और साल भर में मुश्किल से 8 से 10 घंटे का cut cover होता
-- नतीजा: on-grid, और backup के लिए पहले से लगा छोटा UPS काफी है
-
-**Case B: Rural UP का घर, monthly bill ₹3,000, रोज़ 5 घंटे का cut, generator पर ₹1,800 महीना**
-
-- On-grid 3 kW लगाया तो दोपहर के cut घंटों में system पूरी तरह बंद, जब बिजली की सबसे ज्यादा जरूरत है
-- Hybrid 3 kW + 10 kWh battery, net cost लगभग ₹2.3 लाख subsidy के बाद
-- Bijli की सालाना बचत लगभग ₹30,000
-- Generator का diesel बचा, लगभग ₹21,600 सालाना
-- कुल सालाना फायदा लगभग ₹51,600, payback करीब 4.5 साल
-- नतीजा: hybrid, क्योंकि cut के घंटे ही सबसे महँगे घंटे हैं
+> [!EXAMPLE] Case B: Rural UP का घर, monthly bill ₹3,000, रोज़ 5 घंटे का cut, generator पर ₹1,800 महीना
+> - On-grid 3 kW लगाया तो दोपहर के cut घंटों में system पूरी तरह बंद, जब बिजली की सबसे ज्यादा जरूरत है
+> - Hybrid 3 kW + 10 kWh battery, net cost लगभग ₹2.3 लाख subsidy के बाद
+> - Bijli की सालाना बचत लगभग ₹30,000
+> - Generator का diesel बचा, लगभग ₹21,600 सालाना
+> - कुल सालाना फायदा लगभग ₹51,600, payback करीब 4.5 साल
+> - नतीजा: hybrid, क्योंकि cut के घंटे ही सबसे महँगे घंटे हैं
 
 Delhi वाले घर के लिए battery insurance है जिसकी जरूरत नहीं पड़ती। UP वाले घर के लिए battery रोज काम आने वाला equipment है। दोनों जगह "सही जवाब" अलग है, और यही वजह है कि generic YouTube सलाह काम नहीं करती।
 
@@ -226,10 +243,11 @@ Panel string आपके inverter के साथ सही बैठेगा
 
 On grid off grid antar समझ लेने के बाद फैसला असल में तीन चीजों पर आकर टिकता है: cut के घंटे, net metering की उपलब्धता, और आप subsidy छोड़ सकते हैं या नहीं।
 
-- एक हफ्ते तक रोज power cut के घंटे लिखिए, यही आपका सबसे भरोसेमंद data है।
-- अपने DISCOM से net metering की मौजूदा status और waiting time पूछिए, इसी से on-grid या hybrid का फर्क तय होगा।
-- Grid connection मौजूद है तो off-grid को हटा दीजिए, और off-grid सिर्फ तब चुनिए जब grid है ही नहीं।
-- तीन vendors से same specification पर all-inclusive quote लीजिए, जिसमें battery capacity kWh में लिखी हो।
+> [!CHECKLIST] अगले कदम
+> - एक हफ्ते तक रोज power cut के घंटे लिखिए, यही आपका सबसे भरोसेमंद data है।
+> - अपने DISCOM से net metering की मौजूदा status और waiting time पूछिए, इसी से on-grid या hybrid का फर्क तय होगा।
+> - Grid connection मौजूद है तो off-grid को हटा दीजिए, और off-grid सिर्फ तब चुनिए जब grid है ही नहीं।
+> - तीन vendors से same specification पर all-inclusive quote लीजिए, जिसमें battery capacity kWh में लिखी हो।
 
 अगर आप English में पूरा decision framework पढ़ना चाहते हैं, [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) में तीनों types का detailed analysis और region-wise सलाह मौजूद है।
 

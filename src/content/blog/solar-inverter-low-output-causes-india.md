@@ -4,7 +4,7 @@ excerpt: Separate low generation from low export before you blame the inverter, 
 description: Diagnose low solar inverter output in India. Separate array, grid, derating and monitoring causes, and understand UAC-low and standby messages safely.
 category: Maintenance
 date: 2026-06-05
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: 10 min
 image: "/og/blog-solar-inverter-low-output-causes-india.webp"
 author: Keyur Rakholiya
@@ -36,12 +36,10 @@ relatedSlugs:
 - solar-inverter-wifi-not-connecting-fix
 ---
 
-> **Quick answers**
->
+> [!KEYTAKEAWAYS] Quick answers
 > - First establish whether generation is low or only export is low. They have different causes.
 > - Compare like with like. Season, time of day and weather move output legitimately.
-> - UAC-low usually points at AC voltage, not weak panels.
-> - Standby is often a normal state rather than a fault.
+> - UAC-low usually points at AC voltage, not weak panels. Standby is often a normal state rather than a fault.
 > - Never widen grid protection thresholds to stop a warning.
 > - One low midday reading is not evidence of a failed inverter.
 
@@ -50,6 +48,8 @@ relatedSlugs:
 ## Start by splitting generation from export
 
 This is the highest value step, because it eliminates most of the possibilities at once.
+
+Table: What each observation points to when inverter output looks low
 
 | Observation | Where to investigate |
 | --- | --- |
@@ -72,6 +72,7 @@ Where you have a year of history, compare the same weeks year on year. Where you
 
 ## A useful order of checks
 
+<!-- steps -->
 1. **Weather and time.** Establish whether the comparison is fair before investigating a fault.
 2. **Shading and soiling.** Observe from a safe position. New shading appears over time as vegetation grows or neighbouring construction rises. Cleaning should follow the module manufacturer's instructions and a safe access plan.
 3. **Local display against app.** If the inverter reports normal generation and the app does not, the problem is in the monitoring chain.
@@ -90,6 +91,8 @@ Record the complete message, the operating state, the time and any displayed AC 
 
 Standby is a related source of confusion. Standby is frequently an expected operating state, at night or while start conditions are unmet. A standby indication combined with a UAC-low message commonly means the unit is waiting for the AC side to return inside its window. It matters when it persists at a time when normal operation would be expected.
 
+Table: What an owner can record safely and what needs a qualified installer for a UAC-low message
+
 | Owner can record safely | Qualified installer or service check |
 | --- | --- |
 | Exact model, serial number and firmware if shown | Confirm the code definition in the matching manual |
@@ -98,7 +101,8 @@ Standby is a related source of confusion. Standby is frequently an expected oper
 | Whether it appears only in standby or while generating | Inspect wiring, terminations, phase and neutral as applicable |
 | Other grid messages, and neighbourhood supply symptoms | Separate an installation issue from a distribution network condition |
 
-Do not widen grid voltage thresholds, bridge a protective device, or restart repeatedly without finding the cause. Where the supply itself is persistently out of range, that belongs with the DISCOM once the site side checks are complete.
+> [!CAUTION] Do not change protection to silence a UAC-low message
+> Do not widen grid voltage thresholds, bridge a protective device, or restart repeatedly without finding the cause. Where the supply itself is persistently out of range, that belongs with the DISCOM once the site side checks are complete.
 
 For a high voltage rather than low voltage message, see the [grid overvoltage guide](/blog/solar-inverter-grid-overvoltage/). For other displayed codes, the [error code guide](/blog/solar-inverter-error-codes-guide/) covers safe first responses.
 
@@ -114,7 +118,8 @@ None of these announce themselves. They show up as a slow divergence from what t
 
 Almost every diagnosis on this page is easier with a record, and almost nobody has one.
 
-Note the generation figure on a few clear days shortly after commissioning, across different seasons if you can, along with the date and rough conditions. Save the commissioning test readings. If your monitoring exports data, keep a periodic copy rather than relying on a portal that may only retain a limited history.
+> [!TIP] Record a baseline on clear days
+> Note the generation figure on a few clear days shortly after commissioning, across different seasons if you can, along with the date and rough conditions. Save the commissioning test readings. If your monitoring exports data, keep a periodic copy rather than relying on a portal that may only retain a limited history.
 
 The value appears years later, when the question is whether the system is genuinely down by a meaningful margin or whether this simply is what November looks like. Without a baseline that is an argument. With one it is a measurement.
 

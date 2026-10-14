@@ -40,7 +40,7 @@ relatedSlugs:
 - solar-scams-india-how-to-avoid
 ---
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 >
 > - There is no government scheme that gives residential solar panels away at zero cost.
 > - PM Surya Ghar pays central financial assistance against a published slab: ₹30,000 per kWp for the first 2 kWp, ₹18,000 for the third, capped at ₹78,000.
@@ -65,6 +65,8 @@ As of 14 October 2026 we found no official announcement extending the scheme pas
 
 The [MNRE operational guidelines for residential CFA](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) set out the standard residential slab. The figures below are from the July 2024 text, which states the slab as effective from 13 February 2024. MNRE amended the guidelines on 7 July 2025, and that amendment is a scanned image we could not read clause by clause, so check it for later changes.
 
+Table: PM Surya Ghar residential central assistance slab, standard and special category states (MNRE operational guidelines, July 2024 text)
+
 | System capacity | Standard states and UTs | Special category states and UTs |
 | --- | --- | --- |
 | First 2 kWp or part thereof | ₹30,000 per kWp | ₹33,000 per kWp |
@@ -72,6 +74,20 @@ The [MNRE operational guidelines for residential CFA](https://mnre.gov.in/en/not
 | Beyond 3 kWp | No additional assistance | No additional assistance |
 
 The guidelines include worked examples. A 1.5 kW system receives ₹45,000. A 2.5 kW system receives ₹69,000. A 6 kW system receives ₹78,000. Special category states in the guidelines are Uttarakhand, Himachal Pradesh, Jammu and Kashmir, Ladakh, the north-eastern states including Sikkim, and the Andaman and Nicobar Islands and Lakshadweep.
+
+```chart
+type: bar
+title: Central assistance in the MNRE guideline examples
+unit: "₹"
+source: "MNRE operational guidelines for residential CFA under PM Surya Ghar: Muft Bijli Yojana, July 2024 text (worked examples, standard states)"
+sourceUrl: https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/
+note: "The 6 kW system receives the cap because assistance does not rise above 3 kWp."
+decimals: 0
+data:
+  - { label: "1.5 kW", value: 45000 }
+  - { label: "2.5 kW", value: 69000 }
+  - { label: "6 kW", value: 78000 }
+```
 
 These are published slabs rather than an entitlement. An individual application is still subject to eligibility, vendor, equipment and DISCOM conditions.
 
@@ -89,9 +105,12 @@ Four implications are frequently missed.
 
 A quote should separate four figures: the gross contract amount, the eligible central assistance, any independently verified state support, and the amount you must fund.
 
-Take an illustrative example. A vendor presents a ₹150,000 installed quote for an eligible 3 kWp system under the standard slab. Subtracting an assumed approved ₹78,000 leaves ₹72,000 to fund, before any finance cost.
+> [!EXAMPLE] Reading a ₹150,000 quote (illustrative)
+> A vendor presents a ₹150,000 installed quote for an eligible 3 kWp system under the standard slab. Subtracting an assumed approved ₹78,000 leaves ₹72,000 to fund, before any finance cost.
 
 That arithmetic is illustrative. It is not a current market price, and the ₹78,000 is assumed rather than approved. The actual project may differ on both numbers, which is exactly why a quote presenting a single "after subsidy price" without showing the components is doing you no favours.
+
+Table: Documents to collect before paying, and why each matters
 
 | Document | Why it matters |
 | --- | --- |
@@ -119,6 +138,8 @@ MNRE's guidelines expect banks to offer standardised low-interest loans for resi
 
 Bank terms move, so use the bank's own page. The [SBI Surya Ghar loan page](https://sbi.bank.in/web/personal-banking/loans/pm-surya-ghar-loan-for-solar-roof-top), read on 14 October 2026, shows these terms:
 
+Table: SBI PM Surya Ghar loan terms as stated on SBI's page, read 14 October 2026
+
 | Term | What SBI's page states |
 | --- | --- |
 | Rate | Floating. 5.75 percent a year for loans up to ₹2 lakh and 7.90 percent for ₹2 lakh to ₹6 lakh, as on 15 December 2025 |
@@ -130,7 +151,8 @@ Bank terms move, so use the bank's own page. The [SBI Surya Ghar loan page](http
 
 Two things follow from the guidelines. If you take a loan, the portal credits the assistance to your loan account, up to the outstanding amount. And the loan does not remove the margin or the vendor checks.
 
-Here is an arithmetic illustration, not a quote. Borrow ₹1,50,000 at 5.75 percent for 120 months. The monthly instalment is about ₹1,647, total repayment about ₹1,97,600, and interest about ₹47,600. At 7 percent the same loan costs about ₹1,742 a month and about ₹59,000 in interest. Rates here are floating, so your real numbers will differ.
+> [!EXAMPLE] Loan arithmetic (illustration, not a quote)
+> Borrow ₹1,50,000 at 5.75 percent for 120 months. The monthly instalment is about ₹1,647, total repayment about ₹1,97,600, and interest about ₹47,600. At 7 percent the same loan costs about ₹1,742 a month and about ₹59,000 in interest. Rates here are floating, so your real numbers will differ.
 
 "Pay only your EMI" means no down payment beyond the margin. It does not mean the system costs nothing. Ask for the full repayment figure on paper, and compare it with the quote for the project. If a salesperson will not show it, the word free is doing the selling.
 
@@ -145,18 +167,24 @@ The guidelines also earmark a ₹100 crore Payment Security Mechanism corpus to 
 
 Before signing any such arrangement, settle these points in writing, because the public guidelines do not fix them for you:
 
-- who owns the equipment during the contract and after it ends;
-- the per-unit tariff, how it changes each year, and the total over the full term;
-- what happens if you sell the house, rebuild the terrace or stop paying;
-- who services the system, how quickly, and who pays for repairs;
-- whether the developer or you claim central assistance; and
-- the exit and buyout terms.
+> [!CHECKLIST] Settle in writing before signing a RESCO contract
+> - who owns the equipment during the contract and after it ends;
+> - the per-unit tariff, how it changes each year, and the total over the full term;
+> - what happens if you sell the house, rebuild the terrace or stop paying;
+> - who services the system, how quickly, and who pays for repairs;
+> - whether the developer or you claim central assistance; and
+> - the exit and buyout terms.
 
 A long term payment obligation attached to your roof is a significant commitment. The monthly number is the least informative part of it. Where you can finance ownership at the loan rates above, compare the lifetime cost of owning against the lifetime cost of the tariff. Our guides to the [RESCO model](/blog/solar-resco-model-india-guide/) and [zero-cost RESCO and OPEX contracts](/blog/zero-cost-solar-resco-opex-india/) go through contract terms in more detail.
 
 ## Telling a real offer from a harvesting scam
 
 The scheme is genuine. A substantial volume of advertising invoking it is not, and the tells are consistent.
+
+> [!WARNING] Never share an OTP
+> No application step needs your OTP or banking credentials, and sharing them is account takeover. An advance "processing" or "release" fee to an individual account is also a scam: assistance is released through the portal to your bank or loan account after DISCOM approval. If it has happened, report on cybercrime.gov.in or call 1930.
+
+Table: Red flags in free-solar offers, why each is a problem and what to do
 
 | Red flag | Why it is a problem | What to do |
 | --- | --- | --- |
@@ -174,6 +202,7 @@ For a wider fraud checklist, read [how to avoid solar scams in India](/blog/sola
 
 ## How to verify an offer, step by step
 
+<!-- steps -->
 1. **Type the portal address yourself.** Go to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/). Registration is done by you. The guidelines say the consumer has user rights to do every portal activity without relying on the vendor.
 2. **Check the vendor on the registered-vendor pages** for your state and district, and match the name to the quote. The [vendor verification guide](/blog/empanelled-vendor-pm-surya-ghar/) gives the five-point check.
 3. **Get at least two itemised quotes** that separate contract value from assumed assistance.
@@ -195,6 +224,7 @@ Ask which specific state scheme is being claimed, under which order, and where i
 
 The guidelines describe the order of steps, and each one is a place where a free-solar story falls apart.
 
+<!-- steps -->
 1. You register on the National Portal and apply through your DISCOM details.
 2. The DISCOM feasibility step applies where your state still requires it. The guidelines refer to the Electricity (Rights of Consumers) Rules, under which rooftop systems up to 10 kW are deemed accepted without technical feasibility approval once the regulator or DISCOM puts that into practice.
 3. You choose a registered vendor and agree design, components and financial terms.

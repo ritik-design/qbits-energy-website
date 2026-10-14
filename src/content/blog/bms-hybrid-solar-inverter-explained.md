@@ -4,7 +4,7 @@ excerpt: "What the BMS does in a hybrid solar inverter setup: cell balancing, So
 description: "How the battery management system works with a hybrid solar inverter, covering cell balancing, state of charge estimation, CAN and RS485 closed-loop control, protocol compatibility, and fault diagnosis."
 category: "Technology"
 date: 2026-09-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "13 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -39,11 +39,10 @@ That split decides most of what goes right or wrong on a lithium installation. W
 
 This guide covers what a BMS measures and protects, why lithium needs one and lead-acid does not, passive versus active balancing, how CAN and RS485 links work, what breaks in open loop, the protocol trap, and the four common fault families. Wiring is covered separately in the [inverter and battery connection diagram guide](/blog/inverter-battery-connection-diagram/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A [BMS](/glossary/bms/) does six jobs: cell balancing, charge and health estimation, temperature monitoring, voltage protection, current protection, and contactor control.
 > - Lithium iron phosphate needs a BMS because it has no self-balancing mechanism. Lead-acid self-balances through gassing.
-> - Closed-loop CAN or RS485 beats voltage-only control because the LiFePO4 voltage curve is nearly flat between 20 and 80 percent charge.
-> - A 0.8 V drop under load can shift an open-loop estimate by the full 30 to 80 percent band. The worked example shows the arithmetic.
+> - Closed-loop CAN or RS485 beats voltage-only control because the LiFePO4 voltage curve is nearly flat between 20 and 80 percent charge. A 0.8 V drop under load can shift an open-loop estimate by the full 30 to 80 percent band, as the worked example shows.
 > - Electrical compatibility does not imply protocol compatibility. Check the inverter's supported battery list before buying.
 > - Four fault families cover most complaints: comms loss, cell imbalance, temperature cut-off, and state of charge drift.
 
@@ -65,6 +64,8 @@ A lead-acid cell has a built-in equalising mechanism. Push current into a full l
 
 Lithium iron phosphate has no escape route. A full LiFePO4 cell has nowhere to put extra current, so its voltage climbs sharply past 3.65 V and keeps climbing. One cell slightly ahead hits its limit first, every cycle, and drifts further ahead. That is the whole reason the BMS exists. The full chemistry comparison sits in the [lithium versus lead-acid battery guide](/blog/lithium-vs-lead-acid-solar-battery/).
 
+Table: Lead-acid compared with lithium iron phosphate on balancing, voltage curve, overcharge and protection
+
 | Behaviour | Lead-acid | Lithium iron phosphate |
 | --- | --- | --- |
 | Self-balancing at full charge | Yes, through gassing | No mechanism exists |
@@ -77,6 +78,8 @@ Lithium iron phosphate has no escape route. A full LiFePO4 cell has nowhere to p
 Passive balancing burns excess energy in a resistor to pull high cells down to the pack average. Active balancing moves that energy from high cells to low cells using capacitors or a small transformer. Passive is cheaper and dominant in solar packs; active is faster but costs more.
 
 Passive balancing has a practical limit. Balance currents are typically tens of milliamps, because the resistor has to dissipate heat inside a sealed enclosure. Bleeding 50 mA against a 100 Ah cell takes a long time. A pack with real capacity mismatch never catches up if the system rarely reaches full charge, which is why imbalance shows up in winter. See [cell balancing](/glossary/cell-balancing/).
+
+Table: Passive balancing compared with active balancing
 
 | Factor | Passive balancing | Active balancing |
 | --- | --- | --- |
@@ -110,19 +113,23 @@ Two failure modes follow. Under heavy discharge the pack sags from internal resi
 
 A third case does more damage. If the installer sets the low-voltage cut-off too low to avoid nuisance trips, the inverter keeps pulling until the BMS fires its own under-voltage protection. The DC bus then disappears without warning.
 
-**Worked example.** This is arithmetic on published cell characteristics, not field measurement. Take a 16-cell LiFePO4 pack on a nominal 48 V bus.
+> [!FORMULA]
+> Voltage drop under load (V) = Discharge current (A) × Pack internal resistance (ohms)
 
-- Cells in series: 16
-- Resting cell voltage at 80 percent charge: 3.30 V
-- Resting cell voltage at 30 percent charge: 3.25 V
-- Pack internal resistance: 20 milliohms
-- Discharge current: 40 A
-
-Step 1, the voltage window. Pack resting voltage at 80 percent is 16 x 3.30 = 52.80 V. At 30 percent it is 16 x 3.25 = 52.00 V. The whole band spans 0.80 V, or 16 mV per percentage point.
-
-Step 2, the load error. Voltage drop under load is current times resistance: 40 x 0.020 = 0.80 V.
-
-Step 3, the comparison. One moderate load introduces an error equal to the full width of that band. The inverter sees 52.00 V and calls it 30 percent, when the pack is actually at 80 percent.
+> [!EXAMPLE] Worked example: a 16-cell LiFePO4 pack on a nominal 48 V bus
+> This is arithmetic on published cell characteristics, not field measurement. Take a 16-cell LiFePO4 pack on a nominal 48 V bus.
+>
+> - Cells in series: 16
+> - Resting cell voltage at 80 percent charge: 3.30 V
+> - Resting cell voltage at 30 percent charge: 3.25 V
+> - Pack internal resistance: 20 milliohms
+> - Discharge current: 40 A
+>
+> Step 1, the voltage window. Pack resting voltage at 80 percent is 16 x 3.30 = 52.80 V. At 30 percent it is 16 x 3.25 = 52.00 V. The whole band spans 0.80 V, or 16 mV per percentage point.
+>
+> Step 2, the load error. Voltage drop under load is current times resistance: 40 x 0.020 = 0.80 V.
+>
+> Step 3, the comparison. One moderate load introduces an error equal to the full width of that band. The inverter sees 52.00 V and calls it 30 percent, when the pack is actually at 80 percent.
 
 Cold cells have higher internal resistance, so the same 40 A drops more in January. A BMS reporting a measured 80 percent over CAN removes the problem, because coulomb counting does not care about load. Open loop is acceptable on lead-acid, where voltage tracks capacity. On lithium it is a fallback, not a design choice. See [battery state of charge](/glossary/battery-soc/).
 
@@ -139,6 +146,8 @@ The Qbits QBH hybrid range lists communication as Wi-Fi monitoring with the batt
 ## What the BMS reports to your monitoring app
 
 Most hybrid monitoring apps surface a subset of BMS data. Knowing which numbers are measured and which are derived changes how far to trust each one.
+
+Table: BMS readings shown in a hybrid monitoring app, where each comes from and how to read it
 
 | Reading | Source | How to read it |
 | --- | --- | --- |
@@ -163,7 +172,8 @@ Four fault families cover most real complaints, and each has a signature.
 
 **State of charge drift.** The displayed figure jumps abruptly, commonly to 100 percent or much lower. This is the BMS recalibrating its coulomb count against a recognisable anchor. Let the pack reach a genuine full charge periodically so the reference resets.
 
-One rule covers all four. If the inverter reports a communication or safety fault during commissioning, resolve it rather than widening voltage windows to work around it.
+> [!CAUTION] Do not widen voltage windows to hide a fault
+> One rule covers all four. If the inverter reports a communication or safety fault during commissioning, resolve it rather than widening voltage windows to work around it.
 
 ## Thermal runaway and what the BMS really protects against
 
@@ -177,13 +187,27 @@ Cell-level safety is governed by standards, not vendor claims. IEC 62619 covers 
 
 Run these in order. Failing any one is a reason to change the battery or the inverter.
 
-1. **Voltage window.** The battery operating range, including low cut-off and full charge voltage, must sit inside the inverter's battery input window.
-2. **Current ceiling.** Compare the BMS maximum continuous charge and discharge current against the inverter's battery current rating. Qbits lists 75 to 120 A by model on the single-phase QBH 3KS to 6KS48P range, 175 to 190 A on the QBH 7KS to 8KS48P models, and 120 to 250 A across the three-phase QBH 5 to 12KS48P3 range, according to the Qbits product catalogue data. The lower number is your real limit.
-3. **Protocol.** Confirm the exact battery model on the inverter's supported list, plus the selection setting.
-4. **Parallel behaviour.** For more than one pack, confirm addressing, master and slave roles, maximum unit count, and limit summing.
-5. **Fallback behaviour.** Ask what the inverter does when the link drops.
-6. **Enclosure and siting.** All Qbits series including QBH are listed at IP66 in the product data, but the battery has its own rating and temperature window.
-7. **Written approval.** Get both manufacturers to confirm the pair in writing, with firmware versions named.
+> [!CHECKLIST] Pairing checks, in order
+> - **Voltage window.** The battery operating range, including low cut-off and full charge voltage, must sit inside the inverter's battery input window.
+> - **Current ceiling.** Compare the BMS maximum continuous charge and discharge current against the inverter's battery current rating. Qbits lists 75 to 120 A by model on the single-phase QBH 3KS to 6KS48P range, 175 to 190 A on the QBH 7KS to 8KS48P models, and 120 to 250 A across the three-phase QBH 5 to 12KS48P3 range, according to the Qbits product catalogue data. The lower number is your real limit.
+> - **Protocol.** Confirm the exact battery model on the inverter's supported list, plus the selection setting.
+> - **Parallel behaviour.** For more than one pack, confirm addressing, master and slave roles, maximum unit count, and limit summing.
+> - **Fallback behaviour.** Ask what the inverter does when the link drops.
+> - **Enclosure and siting.** All Qbits series including QBH are listed at IP66 in the product data, but the battery has its own rating and temperature window.
+> - **Written approval.** Get both manufacturers to confirm the pair in writing, with firmware versions named.
+
+```chart
+type: hbar
+title: Qbits QBH hybrid battery current range by series
+unit: "A"
+source: "Qbits product catalogue data (src/data/products.ts), as cited in the current-ceiling check above"
+note: "Ranges by model within each series. Read the line for your exact model; the lower number is your real limit."
+decimals: 0
+data:
+  - { label: "QBH 3KS to 6KS48P (single-phase)", min: 75, max: 120 }
+  - { label: "QBH 7KS to 8KS48P", min: 175, max: 190 }
+  - { label: "QBH 5 to 12KS48P3 (three-phase)", min: 120, max: 250 }
+```
 
 Capacity is a separate exercise, covered in the [battery sizing guide](/blog/battery-sizing-hybrid-solar/). Inverter selection sits on the [hybrid inverter range page](/hybrid-inverter/).
 

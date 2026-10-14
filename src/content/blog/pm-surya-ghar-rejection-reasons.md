@@ -5,7 +5,7 @@ description: "Why PM Surya Ghar applications get rejected, derived from the MNRE
 seoTitle: "PM Surya Ghar Rejection Reasons and the Fix for Each One"
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-pm-surya-ghar-rejection-reasons.webp"
 author: "Nirav Dhanani"
@@ -45,7 +45,7 @@ One warning first. Rejection-rate percentages circulate widely, usually as "abou
 
 Scope is failure modes only, each mapped to the rule it breaks, plus the resubmission route, the escalation clock, and a pre-application checklist. For the scheme itself, read the [complete PM Surya Ghar guide](/blog/pm-surya-ghar-yojana-complete-guide/). Qbits sells solar inverters, not installation or application services.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Only vendors registered on the national portal can deliver the assistance (MNRE, 2024).
 > - Non-DCR modules used in any form render the installation ineligible (MNRE, 2024).
 > - ALMM publishes List-I for modules and List-II for cells. There is no inverter list (MNRE, 2026).
@@ -60,6 +60,8 @@ Scope is failure modes only, each mapped to the rule it breaks, plus the resubmi
 The guidelines give the [DISCOM](/glossary/discom/) three outcomes at inspection: approve the application, send it back for corrections, or reject the claim with adequate justification (MNRE, 2024). Only one of those is a rejection.
 
 So record four things from your login first: the status label, the remark, your application number, and the date. Our [status-check walkthrough](/blog/pm-surya-ghar-status-check/) explains each label. If the remark is blank, ask for the reason in writing, because you cannot correct an unnamed defect.
+
+Table: Common PM Surya Ghar rejection reasons, the remedy and who acts
 
 | Rejection reason | Remedy, and who acts |
 | --- | --- |
@@ -92,14 +94,16 @@ This is the most misdiagnosed rejection, and the one where consumers most often 
 
 Now the part vendors skip. Rule 7A of the Electricity (Rights of Consumers) Rules was inserted by G.S.R. 125(E) dated 22 February 2024. It provides that applications for rooftop solar up to 10 kW, complete in all respects, are deemed accepted without a technical feasibility study. It also puts the matching increase in the consumer's sanctioned load on the distribution licensee (Ministry of Power, 2024). Above 10 kW the study must finish within 15 days, failing which the proposal is presumed technically feasible. So a load shortfall on a small residential system is work assigned to your licensee. MNRE's guidelines cite the same provision, but note you still upload feasibility documents until your state operationalises it (MNRE, 2024).
 
-**Worked example: the pre-application load check.** Arithmetic on published thresholds, not a prediction about your file.
-
-**Inputs.** Residential connection, sanctioned load 3 kW. Proposed module capacity 5 kWp.
-**Formula.** Load gap = proposed capacity minus sanctioned load. Then test capacity against the 10 kW threshold.
-
-1. Load gap = 5 kW minus 3 kW = 2 kW.
-2. Proposed 5 kW is at or below 10 kW, so Rule 7A applies and the licensee carries the 2 kW increase.
-3. Raise the input to 12 kWp and Rule 7A drops away, so the 15-day study clock runs instead.
+> [!EXAMPLE] Worked example: the pre-application load check
+> Arithmetic on published thresholds, not a prediction about your file.
+>
+> Inputs. Residential connection, sanctioned load 3 kW. Proposed module capacity 5 kWp.
+>
+> Formula. Load gap = proposed capacity minus sanctioned load. Then test capacity against the 10 kW threshold.
+>
+> 1. Load gap = 5 kW minus 3 kW = 2 kW.
+> 2. Proposed 5 kW is at or below 10 kW, so Rule 7A applies and the licensee carries the 2 kW increase.
+> 3. Raise the input to 12 kWp and Rule 7A drops away, so the 15-day study clock runs instead.
 
 Our [string sizing calculator](/string-sizing-calculator/) handles the array side.
 
@@ -113,7 +117,12 @@ Fix only the item named in the remark, and upload from your own login. The [docu
 
 ## Vendor registration: the failure that paperwork cannot fix
 
-Most rejections are correctable. This one is not. The guidelines state that the scheme shall be implemented only through vendors registered on the national portal, and that a consumer has to choose a registered vendor to avail the assistance (MNRE, 2024). The requirement attaches to who did the work, so no retrospective paperwork converts an unregistered installer into a registered one.
+Most rejections are correctable. This one is not.
+
+> [!IMPORTANT] Registration cannot be fixed afterwards
+> The requirement attaches to who did the work, so no retrospective paperwork converts an unregistered installer into a registered one. Check the portal before any advance payment.
+
+The guidelines state that the scheme shall be implemented only through vendors registered on the national portal, and that a consumer has to choose a registered vendor to avail the assistance (MNRE, 2024). The requirement attaches to who did the work, so no retrospective paperwork converts an unregistered installer into a registered one.
 
 Registration has levels, which is where confusion creeps in. Vendors may register with state DISCOMs or agencies, or with the national implementing agency for national or multi-state registration. Where a state has several DISCOMs, one nodal DISCOM registers for all of them. So "we are registered" is incomplete. Registered where is the question.
 
@@ -155,6 +164,7 @@ The liability is not yours. Any deficiency leading to non-disbursal or non-commi
 
 Work the existing application before creating a new one. The guidelines give the consumer login rights to update installation status, specifications, and documents, and to raise grievances, without relying on the vendor (MNRE, 2024).
 
+<!-- steps -->
 1. Get the recorded reason in writing, with the application number and date.
 2. Identify the owner. Consumer records and bank proof are yours. Technical documents, design mismatches, and components are the vendor's. Network capacity, inspection, and metering are the DISCOM's.
 3. Correct only the named item, from your own login, and ask whether the existing application can be corrected before starting fresh.
@@ -168,18 +178,19 @@ Two clocks are worth quoting back. Assistance is to be processed within 15 days 
 
 Every item is cheaper to check now than after an installer has been paid.
 
-1. Confirm the connection is residential by tariff category, not by address.
-2. Confirm the recorded holder, and whether a transfer is needed first.
-3. Note the sanctioned load and the gap against your capacity.
-4. Confirm the account is live and free of dispute.
-5. Verify the vendor's registration covers your DISCOM's area.
-6. Get module make, model, and DCR position into the contract.
-7. Get the inverter model number and datasheet for the checklist.
-8. Check whether anyone already claimed on this connection.
-9. Check the mounting plan against the ground-clearance minimum.
-10. Enter bank details once, with proof of the applicant's account.
-11. Ask who bears any network strengthening cost, in writing.
-12. Keep your own portal login credentials.
+> [!CHECKLIST] Before you apply
+> - Confirm the connection is residential by tariff category, not by address.
+> - Confirm the recorded holder, and whether a transfer is needed first.
+> - Note the sanctioned load and the gap against your capacity.
+> - Confirm the account is live and free of dispute.
+> - Verify the vendor's registration covers your DISCOM's area.
+> - Get module make, model, and DCR position into the contract.
+> - Get the inverter model number and datasheet for the checklist.
+> - Check whether anyone already claimed on this connection.
+> - Check the mounting plan against the ground-clearance minimum.
+> - Enter bank details once, with proof of the applicant's account.
+> - Ask who bears any network strengthening cost, in writing.
+> - Keep your own portal login credentials.
 
 ## The Bottom Line
 

@@ -4,7 +4,7 @@ excerpt: "Net metering in India credits exported solar units against your bill. 
 description: "Net metering in India credits exported solar units against your bill. Guide to DISCOM rates, application steps, and the Net Metering ROI Stack."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "25 min"
 image: "/og/blog-net-metering-india-complete-guide.webp"
 author: "Nirav Dhanani"
@@ -47,12 +47,11 @@ This isn't academic. [Net metering](/blog/virtual-net-metering-india/) is the po
 
 > **[Net metering](https://www.heavengreenenergy.com/blog/solar-net-metering) in India credits surplus rooftop solar you export to the grid against your import, so you pay only for the net difference on your monthly bill.** A 3 kW system on a typical Indian home with good sun hours and net metering at retail tariff can offset ₹800–₹1,500 per month in electricity costs, cutting a ₹2,000 bill to near zero and delivering full payback in 4–7 years. This guide covers state-wise DISCOM rates, the application process, and the Net Metering ROI Stack framework for calculating your true benefit.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A bidirectional meter records import and export separately; the DISCOM bills you only on the net difference each cycle.
 > - Export credit rates vary sharply by state: BESCOM and MSEDCL credit at full retail tariff, while JVVNL and DHBVN credit at the lower APPC rate.
 > - The Net Metering ROI Stack has four layers: reduced import units, export credits, depreciation benefit (for business use), and the PM Surya Ghar subsidy.
 > - Net metering gives zero backup during a power cut because the inverter shuts down for anti-islanding protection; a hybrid inverter with battery is required for outage backup.
-
 > - Most applications complete in 30 to 90 days, with the DISCOM's technical feasibility study and physical inspection as the main bottlenecks.
 
 Net metering is enabled by a [bidirectional meter](/glossary/bidirectional-meter/) that records energy flowing in both directions, import from the grid and export from your solar panels. The [DISCOM](/glossary/discom/) reads both registers and subtracts export from import each billing cycle. For a full technical overview of how the mechanism is structured, the [net metering glossary entry](/glossary/net-metering/) covers definitions, meter specifications, and state regulatory variations in detail.
@@ -84,6 +83,8 @@ Export credit rates are where state-level variation cuts most sharply into your 
 
 The table below covers the eight DISCOMs most commonly searched by homeowners considering solar, along with the applicable export credit rate, maximum residential system size, and settlement mechanism as of 2026. State SERC orders are updated periodically; verify the current tariff order on your SERC's website before finalising your system design.
 
+Table: Export credit rate, maximum residential size and settlement for eight major DISCOMs (verify against your SERC's current order)
+
 | DISCOM | State | Export Credit Rate | Max Residential Size | Settlement |
 | --- | --- | --- | --- | --- |
 | **BESCOM** | Karnataka | Retail tariff (₹5.20–₹8.30/unit by slab) | Up to sanctioned load, max 500 kW | Monthly carry-forward; annual cash-out at APPC |
@@ -97,7 +98,8 @@ The table below covers the eight DISCOMs most commonly searched by homeowners co
 
 **Reading the table:** BESCOM and MSEDCL offer the strongest consumer proposition, retail tariff crediting across all slabs means every exported unit erases an equivalent import cost. JVVNL and DHBVN credit at APPC, roughly 40–50% of retail tariff, which still makes financial sense but extends payback by two to three years compared to retail-rate states.
 
-TANGEDCO's dual-track approach (retail credit up to 10 kW, mandatory gross metering above) is the most important nuance in Tamil Nadu. If you are sizing above 10 kW, gross metering with a fixed feed-in tariff replaces net metering, and the financial modelling changes entirely.
+> [!IMPORTANT] Tamil Nadu changes the model above 10 kW
+> TANGEDCO's dual-track approach (retail credit up to 10 kW, mandatory gross metering above) is the most important nuance in Tamil Nadu. If you are sizing above 10 kW, gross metering with a fixed feed-in tariff replaces net metering, and the financial modelling changes entirely.
 
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, disbursed directly to the buyer's bank account after DISCOM commissioning, which includes bidirectional meter installation and net metering activation. *Source - [PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
@@ -135,6 +137,8 @@ For a detailed numerical payback analysis by system size, tariff slab, and state
 ## Net Metering vs Gross Metering vs Battery Storage: When Each Makes Sense
 
 Not every rooftop solar customer in India operates on the same consumption profile or lives in a state that offers retail-rate net metering. The right billing and storage strategy depends on three variables: your self-consumption ratio, your state's policy environment, and your priority (bill elimination vs grid independence).
+
+Table: Net metering, gross metering and battery storage compared
 
 | Dimension | Net Metering | Gross Metering | Battery Storage (Hybrid) |
 | --- | --- | --- | --- |
@@ -185,6 +189,7 @@ For households in states with frequent outages (parts of Uttar Pradesh, Bihar, a
 
 The application process is governed by your state's SERC net metering regulation and, for PM Surya Ghar subsidy cases, the PM Surya Ghar national portal. The two processes run in parallel but have separate steps.
 
+<!-- steps -->
 1. **Check sanctioned load**: Your sanctioned load on the electricity bill sets the maximum solar system size for net metering. Most states allow up to the sanctioned load in kW. If you want a 5 kW system but your sanctioned load is 3 kW, apply for a load enhancement first. This adds 30–60 days but avoids application rejection.
 
 3. **Register on PM Surya Ghar portal**: If claiming the central subsidy, register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/). The portal auto-routes your application to the relevant state nodal agency and DISCOM. Upload identity proof, address proof, electricity bill, and bank account details.
@@ -213,7 +218,8 @@ Net metering is available to all connection categories, residential (LT domestic
 
 ### Sanctioned Load Rule
 
-The sanctioned load cap is the universal rule across all states. Your solar system's peak inverter capacity cannot exceed your sanctioned load in kW. A household with a 5 kW sanctioned load can install up to a 5 kW inverter. If you want to go larger, apply to the DISCOM for a load enhancement before the solar application.
+> [!WARNING] Oversizing against sanctioned load gets the application returned
+> The sanctioned load cap is the universal rule across all states. Your solar system's peak inverter capacity cannot exceed your sanctioned load in kW. A household with a 5 kW sanctioned load can install up to a 5 kW inverter. If you want to go larger, apply to the DISCOM for a load enhancement before the solar application.
 
 ### State-Level Caps
 
@@ -275,7 +281,7 @@ The subsidy amount, timing, and documentation requirements are directly linked t
 - The PM Surya Ghar portal is the primary registration and subsidy-routing channel for residential customers.
 - DISCOM commissioning (including bidirectional meter installation and net metering activation) is the trigger event for subsidy release.
 - Subsidy is disbursed in two instalments in some states: a portion on system installation and the balance on DISCOM commissioning.
-- The central subsidy is ₹30,000/kW for the first kW, ₹18,000/kW for the second kW, and ₹9,000/kW for the third kW, capped at ₹78,000 for 3 kW and above.
+- The central subsidy is ₹30,000/kW for the first and second kW and ₹18,000 for the third kW, capped at ₹78,000 for 3 kW and above.
 - State-level additional subsidies (available in Gujarat, Madhya Pradesh, Kerala, and others) are disbursed separately through state nodal agencies.
 
 The [pm-surya-ghar glossary entry](/glossary/pm-surya-ghar/) covers eligibility criteria, income limits, and the state-by-state list of nodal agencies for state top-up subsidies.

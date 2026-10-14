@@ -35,12 +35,12 @@ faqs:
     a: "Poor grounding accelerates PID significantly. When module frames are inadequately grounded, voltage potential can develop between the cell layer and the frame, causing ion migration that degrades panel output over years - typically 5-15% additional generation loss beyond normal degradation. Quality grounding with frame earthing and proper inverter topology prevents this degradation mechanism. This is one of the most underweighted reasons why proper grounding directly affects long-term ROI."
   - q: "What testing should be done at commissioning to verify proper grounding?"
     a: "Six tests minimum: (1) Earth resistance measurement at the main earth electrode - below 5 ohms. (2) Continuity testing across all earthed components - inverter chassis, module frames, mounting structures, combiner boxes, SPDs all bonded together. (3) Insulation resistance between DC strings and ground - above 1 megohm. (4) AC neutral-to-earth voltage measurement - should be near zero. (5) ISO/IMD functionality verification on transformerless inverters. (6) Visual inspection of all earth connection torque and corrosion protection. Document all six tests with measured values and photographic evidence in the commissioning report."
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 ---
 
 Proper inverter grounding is essential for solar PV installations in India - protecting both equipment and personnel while ensuring regulatory compliance with Indian electrical standards. Inadequate grounding is one of the most common causes of preventable inverter failures, the easiest installation issue to get wrong, and the single most common reason for warranty claim rejections.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - [Earthing](/glossary/earthing/) protects personnel and equipment; grounding establishes the neutral voltage reference - both are mandatory and governed by IS 3043:2018 and CEA Regulations 2013.
 > - Target earth resistance is below 5 ohms (preferably below 1 ohm for commercial sites), with copper conductors mandatory in corrosive coastal zones instead of galvanised iron.
 > - Most modern transformerless inverters use a floating DC input with grounded AC neutrals, requiring an Insulation Monitoring Device (IMD) to detect DC-side faults.
@@ -52,6 +52,8 @@ This guide consolidates the complete EPC grounding framework: earthing and groun
 ## Grounding Fundamentals
 
 ### Earthing vs Grounding
+
+Table: Earthing compared with grounding: definition and purpose
 
 | Term | Definition | Purpose |
 | --- | --- | --- |
@@ -84,6 +86,8 @@ Both are required in any solar installation. The terms are often used interchang
 
 ### Conductor Sizing
 
+Table: Minimum copper earth conductor size by system size
+
 | System size | Minimum copper earth conductor |
 | --- | --- |
 | Residential 1-10 kW | 6 sq mm |
@@ -92,9 +96,12 @@ Both are required in any solar installation. The terms are often used interchang
 | Large commercial 100-500 kW | 25-35 sq mm |
 | Utility-scale 500 kW+ | 35-50+ sq mm (per IS 3043 calculations) |
 
-**Avoid galvanised iron** in corrosive coastal zones (Tamil Nadu coast, Konkan, Goa, Andhra coast). Salt-laden humidity accelerates GI corrosion within 2-3 years, defeating the earth system entirely. Use copper or stainless steel in those environments.
+> [!WARNING] Avoid galvanised iron in coastal zones
+> **Avoid galvanised iron** in corrosive coastal zones (Tamil Nadu coast, Konkan, Goa, Andhra coast). Salt-laden humidity accelerates GI corrosion within 2-3 years, defeating the earth system entirely. Use copper or stainless steel in those environments.
 
 ### Electrode Design
+
+Table: Earth electrode design targets and notes (IS 3043:2018)
 
 | Specification | Target | Notes |
 | --- | --- | --- |
@@ -104,7 +111,8 @@ Both are required in any solar installation. The terms are often used interchang
 | Backfill material | Bentonite or salt-charcoal mix | Improves soil contact in dry conditions |
 | Multiple electrodes | Required when single electrode exceeds threshold | Connected in parallel with proper spacing |
 
-For rocky or arid terrain where achieving 5 ohms is difficult, use multiple parallel electrodes spaced 3-5 metres apart with bentonite backfill. Document soil resistivity in the commissioning report.
+> [!TIP] Rocky or arid ground
+> For rocky or arid terrain where achieving 5 ohms is difficult, use multiple parallel electrodes spaced 3-5 metres apart with bentonite backfill. Document soil resistivity in the commissioning report.
 
 ### AC vs DC Grounding in Modern Inverters
 
@@ -156,6 +164,8 @@ Each of these is a documented warranty rejection reason.
 
 ## Testing Protocol at Commissioning
 
+Table: Six commissioning tests for the earthing system, with the requirement and documentation for each
+
 | Test | Requirement | Documentation |
 | --- | --- | --- |
 | Earth resistance | <5 ohms per IS 3043 | Measured value, instrument calibration date, timestamp |
@@ -165,7 +175,8 @@ Each of these is a documented warranty rejection reason.
 | AC neutral-to-earth voltage | Near zero (under 1V) | Measured under load |
 | Visual inspection | All connections torqued, corrosion-protected | Photographic evidence |
 
-All six tests documented in commissioning report with measured values, instrument calibration data, photographs, and engineer signature.
+> [!NOTE] What the commissioning report must hold
+> All six tests documented in commissioning report with measured values, instrument calibration data, photographs, and engineer signature.
 
 ## System-Specific Considerations
 

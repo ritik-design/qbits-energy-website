@@ -4,7 +4,7 @@ excerpt: "Longest solar inverter warranty in India, compared on published terms:
 description: "A term-by-term comparison of solar inverter warranties in India. Published durations from Qbits, Sungrow, Growatt, GoodWe, Deye, Solis, Havells, Polycab, Luminous, Microtek and UTL, plus the start-date, coastal, freight and replacement clauses that decide what the number is actually worth."
 category: "Buying Guide"
 date: 2026-09-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "20 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -39,13 +39,11 @@ This guide compares what Indian inverter brands actually publish, and then compa
 
 You will also get a worked example showing how a 10-year headline can deliver less cover than a 7-year one, the difference between a manufacturer warranty and the PM Surya Ghar 5-year maintenance contract, and what to ask for before you pay. Qbits publishes this page, so the same test is applied to Qbits terms as to everyone else's, including the point where the public documentation stops.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The longest verifiable published terms in India are 10 years (Havells Enviro GTi datasheets, UTL F Series on-site). Qbits, which publishes this page, does not define a base term in public material and so is not ranked here.
 > - Imported string brands cluster at 5 years, per the published warranty documents of Growatt, GoodWe, Solis and Deye.
-> - Growatt's term runs from the installation certificate and requires installation no more than six months after delivery, so aged stock erodes cover ([Growatt, 2026](https://en.growatt.com/support/warranty)).
-> - Sungrow's APAC terms cut cover to 2 years between 2 km and 5 km of the sea and void it inside 2 km without a C5 enclosure specification ([Sungrow, 2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term)).
-> - The Ningbo Deye hybrid warranty (2025) permits reconditioned parts, and a replacement inherits only the remaining term.
-> - GoodWe's 10-year hybrid extension is conditional on a Lynx battery plus a live monitoring upload, per the GOODWE Limited Warranty for Inverter System, global revision (2026).
+> - Growatt's term runs from the installation certificate and requires installation no more than six months after delivery, so aged stock erodes cover ([Growatt, 2026](https://en.growatt.com/support/warranty)). Sungrow's APAC terms cut cover to 2 years between 2 km and 5 km of the sea and void it inside 2 km without a C5 enclosure specification ([Sungrow, 2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term)).
+> - The Ningbo Deye hybrid warranty (2025) permits reconditioned parts, and a replacement inherits only the remaining term. GoodWe's 10-year hybrid extension is conditional on a Lynx battery plus a live monitoring upload, per the GOODWE Limited Warranty for Inverter System, global revision (2026).
 > - Freight, labour and site access are excluded from most Indian inverter warranties, which is where an approved claim still costs you money.
 
 **Short version.** On terms you can verify from a document, Havells and UTL lead at 10 years on specific lines, Polycab prints 7, and the imported string brands cluster at 5. Qbits publishes this page and is deliberately absent from the ranking, because its public datasheets describe an expandable warranty without fixing a base term. Duration alone does not decide value in any case. Start date, dispatch caps, coastal exclusions, freight and labour liability change the real cover more than the headline does.
@@ -62,6 +60,8 @@ None of that is hidden. It sits in ordinary contract language that brands publis
 
 Here is what the brands sold into India publish, as of their current documents. Read the conditions column before the duration column, because the conditions are what differ.
 
+Table: Published inverter warranty terms of brands sold in India: standard term, start date, notable conditions and source
+
 | Brand | Published standard term | Start date and caps | Notable published condition | Source |
 | --- | --- | --- | --- | --- |
 | Qbits | Not defined in public material | Not defined on the public datasheets | Datasheets describe an expandable warranty without defining the base term, remedy, registration deadline or exclusions, so the written terms must be obtained for the exact model | Qbits product pages, which carry this note publicly |
@@ -75,6 +75,25 @@ Here is what the brands sold into India publish, as of their current documents. 
 | Sungrow | Regional; see the APAC document for the term applying to India | Not stated | Cover drops to 2 years for sites 2 km to 5 km from the coastline, and is void inside 2 km without a C5 enclosure specification | [Sungrow APAC warranty terms, 2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term) |
 | Luminous | 2 years base on many NXG models, some at 3 years | Not stated | Extended plans are sold separately rather than included | [Luminous solar inverters, 2026](https://www.luminousindia.com/solar-inverters/all-products) |
 | Microtek | 2 years on the MPPT Solar PCU line | Not stated | Quoted for units such as the 2KVA/24V model; confirm per SKU | [Microtek product documentation, 2026](https://www.microtek.in/product/solar-solutions/solar-power-conditioning-units/listing/mppt-solar-pcu-2kva24v) |
+
+```chart
+type: hbar
+title: Published standard warranty term by brand, in years
+unit: "years"
+source: "Brand warranty documents and product pages as listed in the table above: Havells (2026), UTL (2026), Polycab Solar Catalogue (2025), Growatt (2026), GoodWe global warranty (2026), Deye hybrid warranty (2025), Solis (2026), Luminous (2026), Microtek (2026)"
+note: "Standard base terms on the lines named in the table, not extensions. Qbits is not shown because its base term is not defined in public material. Luminous is 2 years on many NXG models and 3 on some."
+decimals: 0
+data:
+  - { label: "Havells (grid-tie)", value: 10 }
+  - { label: "UTL F Series (on-site)", value: 10 }
+  - { label: "Polycab (catalogue)", value: 7 }
+  - { label: "Growatt", value: 5 }
+  - { label: "GoodWe", value: 5 }
+  - { label: "Deye", value: 5 }
+  - { label: "Solis", value: 5 }
+  - { label: "Luminous (NXG base)", value: 2 }
+  - { label: "Microtek (MPPT PCU)", value: 2 }
+```
 
 Two patterns are worth naming. The Indian electrical majors and the domestic backup brands sit at the extremes, with Havells and UTL long and Microtek and Luminous short. The imported string specialists sit tightly at 5 years and compete on conditions instead. A fuller brand-level view, including service reach and product depth, sits in the [2026 brand comparison](/blog/top-10-solar-inverter-brands-india-2026/).
 
@@ -94,20 +113,22 @@ Practical consequence: the manufacturing or dispatch date on the rating label is
 
 This is arithmetic on hypothetical dates, not field data from an installation. The dispatch-cap mechanism it models is a real published term; the dates are chosen to show how the clause behaves.
 
-Assume two quotes for the same 5 kW rooftop.
-
-- **Brand A.** Headline 10 years from installation, with a delivery-linked ceiling that caps total cover at 5.5 years. Hypothetical terms, used to show the arithmetic.
-- **Brand B.** 7 years from installation, no dispatch cap.
-
-Inputs for the unit actually supplied:
-
-- Factory dispatch date on the rating label: 1 March 2025.
-- Shipping, customs, distributor warehouse and dealer stock: 11 months.
-- Installation and commissioning: 1 February 2026.
+> [!EXAMPLE] Hypothetical dates: two quotes for the same 5 kW rooftop
+> Assume two quotes for the same 5 kW rooftop.
+>
+> - **Brand A.** Headline 10 years from installation, with a delivery-linked ceiling that caps total cover at 5.5 years. Hypothetical terms, used to show the arithmetic.
+> - **Brand B.** 7 years from installation, no dispatch cap.
+>
+> Inputs for the unit actually supplied:
+>
+> - Factory dispatch date on the rating label: 1 March 2025.
+> - Shipping, customs, distributor warehouse and dealer stock: 11 months.
+> - Installation and commissioning: 1 February 2026.
 
 Formula for effective cover, measured from commissioning:
 
-`Effective cover = minimum of (headline term, dispatch cap minus shelf time)`
+> [!FORMULA]
+> Effective cover = minimum of (headline term, dispatch cap minus shelf time)
 
 Brand A: minimum of (10 years, 5.5 years minus 0.92 years) = **4.58 years**, ending around 1 September 2030.
 
@@ -125,11 +146,10 @@ Sungrow's APAC warranty terms are the clearest published example. Cover falls to
 
 For an Indian buyer that reshapes the shortlist across Gujarat, Maharashtra's Konkan belt, coastal Karnataka, Kerala, Tamil Nadu, Andhra Pradesh and Odisha. A 5-year term with no distance clause can beat a longer term that stops at your pin code.
 
-Three questions to settle in writing before ordering for a coastal site:
-
-1. What is the straight-line distance from the installation to the coastline, and which band of the warranty does it fall in?
-2. Which enclosure or coating specification does the manufacturer require for full-term cover at that distance?
-3. Is the unit being quoted actually built to that specification, evidenced on the datasheet rather than asserted by the dealer?
+> [!TIP] Three questions to settle in writing before ordering for a coastal site
+> - What is the straight-line distance from the installation to the coastline, and which band of the warranty does it fall in?
+> - Which enclosure or coating specification does the manufacturer require for full-term cover at that distance?
+> - Is the unit being quoted actually built to that specification, evidenced on the datasheet rather than asserted by the dealer?
 
 The environmental engineering behind these clauses, including ingress protection grades and conformal coating, is covered in the [coastal inverter specification guide](/blog/solar-inverter-for-coastal/).
 
@@ -149,7 +169,8 @@ Preventive upkeep sits outside all of this, which is what an [annual maintenance
 
 ## Conditional extensions, and whether an extended warranty is worth buying
 
-Conditional extensions are advertised as duration and delivered as compliance. GoodWe's promoted 10-year hybrid extension requires a GoodWe Lynx battery and a live monitoring connection uploading generation data, per the GOODWE Limited Warranty for Inverter System, global revision (2026). Change the battery brand, or lose the internet connection for an extended period, and the extension can lapse without anyone telling you.
+> [!CAUTION] Conditional extensions can lapse without notice
+> Conditional extensions are advertised as duration and delivered as compliance. GoodWe's promoted 10-year hybrid extension requires a GoodWe Lynx battery and a live monitoring connection uploading generation data, per the GOODWE Limited Warranty for Inverter System, global revision (2026). Change the battery brand, or lose the internet connection for an extended period, and the extension can lapse without anyone telling you.
 
 That is not unique to one brand. The general pattern is that the long number depends on a registration inside a deadline, a specific companion product, or continuous data upload. Treat each as an ongoing obligation you have to maintain, not a box ticked at commissioning.
 
@@ -166,7 +187,10 @@ It is usually not worth buying when the extension must be claimed through a chan
 
 Readers conflate these two constantly, and the conflation costs people cover.
 
-Under the MNRE operational guidelines for PM Surya Ghar, a registered vendor owes a 5-year Comprehensive Maintenance Contract (CMC) from commissioning. That is a service obligation on the installer for the installed system. A manufacturer warranty is a product obligation from the factory for a specific serial-numbered unit. Different party, different scope, different enforcement route. They run in parallel and neither replaces the other.
+> [!IMPORTANT] The PM Surya Ghar 5-year CMC is not a manufacturer warranty
+> Under the MNRE operational guidelines for PM Surya Ghar, a registered vendor owes a 5-year Comprehensive Maintenance Contract (CMC) from commissioning. That is a service obligation on the installer for the installed system. A manufacturer warranty is a product obligation from the factory for a specific serial-numbered unit. Different party, different scope, different enforcement route. They run in parallel and neither replaces the other.
+
+Table: PM Surya Ghar 5-year maintenance contract compared with a manufacturer inverter warranty
 
 | | PM Surya Ghar 5-year CMC | Manufacturer inverter warranty |
 | --- | --- | --- |
@@ -185,16 +209,17 @@ Choosing an installer partly on their ability to honour a 5-year CMC is reasonab
 
 A warranty you have not read is a warranty you cannot rely on. The brochure, the specification sheet and the website banner are marketing artefacts. The warranty document is the contract, and it is the only thing a claim is assessed against. Run this sequence before the payment, not after the fault.
 
-1. **Ask for the full written warranty** that applies to the exact model and the date of sale. Not the datasheet. Not a WhatsApp forward. The document.
-2. **Match the model and the seller** on that document against your quotation and invoice. A term published for one series does not automatically extend to another.
-3. **Read the start date and any cap.** Convert both into a calendar end date using the dispatch or manufacturing date on the rating label.
-4. **Read the remedy.** Establish whether the provider may repair, supply parts, replace the unit, or issue prorated credit, and whether the choice is theirs.
-5. **Read the registration clause** and note the deadline in your calendar on commissioning day.
-6. **Read the exclusions**, particularly the geographic, environmental and earthing clauses, against your actual site.
-7. **Read the freight, labour, travel and access clauses** and price what an approved claim would still cost you.
-8. **Read the transferability clause** if there is any chance you sell the property inside the term.
-9. **Check the service route.** Identify the nearest authorised service point and confirm it exists before you rely on it.
-10. **File the pack.** Keep the accepted warranty document, the invoice, the commissioning report, a photograph of the rating label, and any registration confirmation in one place.
+> [!CHECKLIST] Verify a warranty document before you pay
+> - **Ask for the full written warranty** that applies to the exact model and the date of sale. Not the datasheet. Not a WhatsApp forward. The document.
+> - **Match the model and the seller** on that document against your quotation and invoice. A term published for one series does not automatically extend to another.
+> - **Read the start date and any cap.** Convert both into a calendar end date using the dispatch or manufacturing date on the rating label.
+> - **Read the remedy.** Establish whether the provider may repair, supply parts, replace the unit, or issue prorated credit, and whether the choice is theirs.
+> - **Read the registration clause** and note the deadline in your calendar on commissioning day.
+> - **Read the exclusions**, particularly the geographic, environmental and earthing clauses, against your actual site.
+> - **Read the freight, labour, travel and access clauses** and price what an approved claim would still cost you.
+> - **Read the transferability clause** if there is any chance you sell the property inside the term.
+> - **Check the service route.** Identify the nearest authorised service point and confirm it exists before you rely on it.
+> - **File the pack.** Keep the accepted warranty document, the invoice, the commissioning report, a photograph of the rating label, and any registration confirmation in one place.
 
 If a clause is absent from the document, record it as unknown rather than assuming the favourable reading. Do not convert a verbal assurance from a dealer into a scored benefit in your comparison. A short document with clear terms beats a long headline with undefined logistics.
 
@@ -216,6 +241,7 @@ The fair reading is this. A brand that cannot show you a dated, model specific w
 
 A refusal is not the end of the process, but a verbal refusal cannot be escalated. The first move is always to convert it into writing.
 
+<!-- steps -->
 1. **Request the refusal in writing**, naming the specific clause relied on and the diagnosis it rests on.
 2. **Check the clause against your document**, the version that applied at the date of sale rather than the current website text.
 3. **Escalate inside the service structure**, through the distributor named on your invoice and then an authorised service partner, keeping every ticket number and date.
@@ -226,7 +252,7 @@ Most refusals turn on evidence rather than on bad faith: a missing commissioning
 
 ## The Bottom Line
 
-The longest warranty in India, on published duration, is 10 years from Havells and from UTL on its F Series line. Qbits is left out of that ranking because its base term is not published. That ranking is a starting point and not an answer. Growatt's 5.5-year dispatch cap, Sungrow's coastal bands, Deye's remaining-term replacement rule and GoodWe's conditional hybrid extension all change what a year of cover is worth, and every one of them is a disclosed contract term rather than a trick.
+The longest warranty in India, on published duration, is 10 years from Havells and from UTL on its F Series line. Qbits is left out of that ranking because its base term is not published. That ranking is a starting point and not an answer. Growatt's six-month installation window, Sungrow's coastal bands, Deye's remaining-term replacement rule and GoodWe's conditional hybrid extension all change what a year of cover is worth, and every one of them is a disclosed contract term rather than a trick.
 
 Rank the documents, not the numbers. Then keep the paperwork that makes a claim assessable.
 

@@ -5,7 +5,7 @@ excerpt: "Luminous NXI 150 vs Microtek GTI 5KW-M12, compared as two current 5 kW
 description: "Compare Luminous NXI 150 and Microtek GTI 5KW-M12 on topology, rated output, MPPT documentation, efficiency, IP rating, monitoring, warranty evidence and quote checks."
 category: "Comparison"
 date: 2026-06-05
-updatedDate: 2026-09-26
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-luminous-vs-microtek-comparison.webp"
 author: "Nirav Dhanani"
@@ -39,7 +39,7 @@ Luminous or Microtek is the wrong first question if the two quotes contain diffe
 
 **Disclosure:** Qbits publishes this article and sells competing on-grid inverters. The comparison therefore uses current Luminous and Microtek pages, gives both brands credit, and leaves every unpublished field open instead of guessing. It does not use Qbits claims to score either competitor.
 
-> **The short version**
+> [!KEYTAKEAWAYS]
 >
 > - The comparison is like for like: 5 kW, single phase, on-grid, no battery-backup claim.
 > - Luminous publishes IP66, 8.9 kg, optional remote communication and an 8-year standard plus 2-year extended warranty label for the NXI 150.
@@ -64,6 +64,8 @@ The Luminous evidence is the current [NXI 150 product page](https://www.luminous
 ## Luminous NXI 150 vs Microtek GTI 5KW-M12
 
 The table reports what the pages publish. It does not convert a marketing label into a test result.
+
+Table: Luminous NXI 150 against Microtek GTI 5KW-M12, as published on each manufacturer's page checked 26 September 2026
 
 | Decision field | Luminous NXI 150 | Microtek GTI 5KW-M12 | What the difference means |
 | --- | --- | --- | --- |
@@ -101,7 +103,8 @@ Second, the listed weight is 8.9 kg against 10 kg for the Microtek unit. That ca
 
 Luminous also labels the exact product with optional RS485, GSM or Wi-Fi communication. The useful buying question is not whether an app exists. It is whether the quoted unit includes the required logger, who owns the plant account, and which faults create alerts.
 
-The main Luminous evidence problem is electrical detail. Its live page gives conflicting maximum-efficiency figures and does not state MPPT count, the MPPT window, maximum DC voltage or per-MPPT input current. An installer cannot finish a safe string design from that page alone. Request the current NXI 150 datasheet before approving the array.
+> [!IMPORTANT] Luminous string design is blocked until the datasheet arrives
+> The main Luminous evidence problem is electrical detail. Its live page gives conflicting maximum-efficiency figures and does not state MPPT count, the MPPT window, maximum DC voltage or per-MPPT input current. An installer cannot finish a safe string design from that page alone. Request the current NXI 150 datasheet before approving the array.
 
 ## Where Microtek is stronger on the published record
 
@@ -119,15 +122,14 @@ Luminous labels the NXI 150 as **8 years standard plus 2 years extended**. Micro
 
 An extended period may require registration or carry different conditions. A series-level period may or may not apply unchanged to every exact SKU and sale. Neither page supplied the complete governing document reviewed for this comparison.
 
-Ask both sellers for the same seven items:
-
-1. The exact product name and SKU covered.
-2. The start date and any registration deadline.
-3. Repair, replacement, credit or seller-discretion remedy.
-4. Parts, labour, removal and recommissioning coverage.
-5. Freight responsibility in both directions.
-6. Exclusions for surge, water, grid abnormality, pests and unauthorised work.
-7. The party that accepts the claim if the installer closes.
+> [!CHECKLIST] Ask both sellers for the same seven items
+> - The exact product name and SKU covered.
+> - The start date and any registration deadline.
+> - Repair, replacement, credit or seller-discretion remedy.
+> - Parts, labour, removal and recommissioning coverage.
+> - Freight responsibility in both directions.
+> - Exclusions for surge, water, grid abnormality, pests and unauthorised work.
+> - The party that accepts the claim if the installer closes.
 
 Use the same checklist from the [solar inverter warranty guide](/blog/solar-inverter-warranty/) for both brands. A longer-looking label should carry no extra weight until the terms are comparable.
 
@@ -144,6 +146,8 @@ The [on-grid, hybrid and off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off
 Online prices and dealer discounts change. They may also describe different scopes. This article therefore does not declare one brand cheaper.
 
 Ask for two written quotes on the same day and normalise these lines:
+
+Table: Quote lines to normalise before comparing two written quotes
 
 | Quote line | What must match |
 | --- | --- |

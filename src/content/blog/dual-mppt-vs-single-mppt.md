@@ -39,7 +39,7 @@ relatedSlugs:
 - string-sizing-calculator
 ---
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 >
 > - An MPPT finds the voltage at which a string produces the most power, and it can only find one point per tracker.
 > - Two trackers matter when strings differ in orientation, module type or shading.
@@ -70,6 +70,8 @@ Answer capsule: one tracker is the right answer when every module shares an orie
 The question to ask before specifying an inverter is not which datasheet looks better. It is whether the roof creates two different operating conditions. If the answer is no, a correctly sized single-MPPT unit is the correct unit. The [solar inverter sizing guide](/blog/solar-inverter-sizing/) covers capacity against array size, which is a separate decision from tracker count.
 
 ## When the second tracker earns its place
+
+Table: When a second MPPT helps, by array situation
 
 | Array situation | Does a second MPPT help? | Why |
 | --- | --- | --- |
@@ -109,7 +111,10 @@ Factories and warehouses have shed roofs with several bays, skylights and coolin
 
 This is the specification detail that most often gets misread on a quote.
 
-Manufacturers list DC inputs and MPP trackers as separate lines. An inverter can offer two pairs of DC connectors that feed one tracker in parallel. Electrically that is a single MPPT with two physical entry points, and it provides none of the independent tracking benefit.
+> [!IMPORTANT] Count trackers, not connectors
+> An inverter can offer two pairs of DC connectors that feed one tracker in parallel. Electrically that is a single MPPT with two physical entry points, and it provides none of the independent tracking benefit.
+
+Manufacturers list DC inputs and MPP trackers as separate lines.
 
 On the datasheet, look for a line naming the number of independent MPP trackers, and a separate line for strings or connector pairs per tracker. If a quote says "dual input" rather than "dual MPPT", ask which one is meant and get the datasheet.
 
@@ -133,13 +138,29 @@ Use the [string sizing calculator](/string-sizing-calculator/) to screen a propo
 
 Answer capsule: with one tracker you can wire two roof faces in series or in parallel. Series forces the same current through both faces, which loses power when one face is weaker. Parallel keeps voltages matched but adds the two currents, which can exceed the tracker's input limit.
 
-This is an idealised model to show the mechanism, not a measured result. Take a 5.5 kWp array of ten 550 W modules, five on an east face and five on a west face. Assume each module has a maximum-power voltage near 42 V and a maximum-power current near 13 A at full sun, and that current scales with irradiance. At 9 am assume the east face gets 800 W/m² and the west face 300 W/m².
+> [!EXAMPLE] East and west faces at 9 am (idealised model, not a measured result)
+> Take a 5.5 kWp array of ten 550 W modules, five on an east face and five on a west face. Assume each module has a maximum-power voltage near 42 V and a maximum-power current near 13 A at full sun, and that current scales with irradiance. At 9 am assume the east face gets 800 W/m² and the west face 300 W/m².
+
+Table: Idealised 9 am comparison of two-tracker, series and parallel layouts on an east-west roof
 
 | Layout | East face | West face | What the tracker finds | Result |
 | --- | --- | --- | --- | --- |
 | Two trackers, one string per face | 5 x 42 V x 10.4 A = 2.2 kW | 5 x 42 V x 3.9 A = 0.8 kW | Each string at its own point | About 3.0 kW |
 | One tracker, ten modules in series | Limited to 3.9 A | Limited to 3.9 A | One current through all ten | About 1.6 kW |
 | One tracker, two strings in parallel | 10.4 A at 210 V | 3.9 A at 210 V | One voltage, currents add | About 3.0 kW, current 14.3 A |
+
+```chart
+type: bar
+title: Idealised 9 am output by layout, 5.5 kWp east-west array
+unit: "kW"
+source: "Calculated in this article from the idealised east-west model above (assumed 800 and 300 W/m² on the two faces); not measured data"
+note: "Parallel matches two trackers at 9 am but is limited by input current at noon."
+decimals: 1
+data:
+  - { label: "Two trackers", value: 3.0 }
+  - { label: "One tracker, series", value: 1.6 }
+  - { label: "One tracker, parallel", value: 3.0 }
+```
 
 The series case loses about 45% in this model because the weaker face sets the current for everything. Bypass diodes recover part of that in practice, so the real loss is lower, but it shows why mixing faces in one series string is the wrong design.
 
@@ -155,6 +176,7 @@ The generation profile also changes shape. An east and west array on independent
 
 Answer capsule: five steps decide the tracker count for your roof, in order. Stop at the first step that gives a clear answer.
 
+<!-- steps -->
 1. **Map every usable roof section.** Note the compass facing and tilt of each. If every module goes on one section with one facing and one tilt, one tracker is enough.
 2. **Find the fixed shade.** Walk the roof at about 9 am, noon and 4 pm on a clear day and note where tanks, parapets, masts and neighbouring buildings cast shadow. If a fixed shadow reaches planned rows between 9 am and 3 pm, you have a systematic shade split.
 3. **Check whether the shaded and unshaded modules can be wired to separate strings.** A second tracker helps only if the shaded modules can sit on their own string. If every string crosses the shaded zone, consider module-level electronics instead. Use the [string sizing glossary entry](/glossary/string-sizing/) to check each group has enough modules.
@@ -166,6 +188,8 @@ Many buyers sold a two-tracker unit would have found at step 1 that one tracker 
 ## Single, dual and multi-tracker options in the Qbits range
 
 Answer capsule: tracker count rises with capacity. Small single-phase units are one or two trackers, mid-size three-phase units are two, and the large commercial units list three to twelve or more. The values below come from the Qbits product data.
+
+Table: MPPT count and input current per tracker by Qbits family, from the Qbits product data
 
 | Family | Phase | MPPTs | Input current per MPPT |
 | --- | --- | --- | --- |
@@ -185,6 +209,8 @@ All of these are listed by the family, so the exact model matters. The [on-grid 
 
 ## Dual MPPT versus single MPPT: pros, cons and best fit
 
+Table: Single MPPT versus dual MPPT compared
+
 | | Single MPPT | Dual MPPT |
 | --- | --- | --- |
 | Complexity | Simpler wiring and commissioning | A second string group to design and label |
@@ -202,9 +228,12 @@ Answer capsule: the payback on a second tracker is the price premium divided by 
 
 We found no dated, citable price pair for single-tracker and dual-tracker models of the same maker, so we give you the formula and an assumed grid, not a market figure. Ask your supplier to quote both models, then fill in your own numbers.
 
-**Formula:** payback in years = premium in ₹ divided by (annual generation in kWh x energy gain as a fraction x tariff in ₹ per kWh).
+> [!FORMULA]
+> Payback in years = premium in ₹ ÷ (annual generation in kWh × energy gain as a fraction × tariff in ₹ per kWh)
 
 Assumptions for this grid: a 5 kW array generating about 7,000 kWh a year (the 5 kW worked example in our [5 kW guide](/blog/best-5kw-solar-inverter-india-2026/) gives 7,046), a tariff of ₹8 per kWh, and assumed premiums of ₹5,000, ₹10,000 and ₹15,000.
+
+Table: Payback on a second tracker at assumed premiums, 5 kW array, 7,000 kWh a year and ₹8 per kWh (illustrative)
 
 | Energy gain from the second tracker | Annual benefit | Payback at ₹5,000 | At ₹10,000 | At ₹15,000 |
 | --- | --- | --- | --- | --- |
@@ -218,6 +247,8 @@ The gain percentages are illustrative inputs, not measurements. Only a site mode
 ## Decision flowchart: single or dual MPPT
 
 Follow the questions from the top and stop at the first answer.
+
+Table: Decision flowchart for single or dual MPPT
 
 | Question | If yes | If no |
 | --- | --- | --- |
@@ -249,6 +280,8 @@ The [QB 4.2/4.6/5/5.4/6KTLS datasheet](/datasheets/products/QB_Data-Sheet_4.6-6.
 
 Both can be described in conversation as "a Qbits 5 kW", which is exactly why the SKU matters. A capacity label does not tell you the tracking architecture, the input limits or the string flexibility. Ask for the model designation and the datasheet, then check the three string conditions above against it.
 
+Table: Qbits QB 4.2 to 6KTLS (one MPPT) and QB 4/5/6 KTLD (two MPPTs) compared, from the datasheets
+
 | Line | [QB 4.2/4.6/5/5.4/6KTLS](/our-products/QB-4.6-6KTLS/) (one MPPT) | [QB 4/5/6 KTLD](/our-products/QB-4-6KTLD/) (two MPPTs) |
 | --- | --- | --- |
 | MPPT window | 40 V to 600 V | 80 V to 550 V |
@@ -266,12 +299,13 @@ Qbits publishes an expandable warranty, and its public datasheets do not define 
 
 Require the offer to state:
 
-- the exact inverter model designation, not a capacity label;
-- the number of **independent** MPP trackers, quoted from the datasheet;
-- the module model, count and string allocation per tracker;
-- calculated cold open circuit voltage and hot operating voltage per string;
-- string current against the per tracker input limit;
-- the reason a second tracker is specified, if it is.
+> [!CHECKLIST] The quote should state
+> - the exact inverter model designation, not a capacity label;
+> - the number of **independent** MPP trackers, quoted from the datasheet;
+> - the module model, count and string allocation per tracker;
+> - calculated cold open circuit voltage and hot operating voltage per string;
+> - string current against the per tracker input limit;
+> - the reason a second tracker is specified, if it is.
 
 A higher price for two trackers is justified when the roof creates genuinely different string conditions. On a single orientation array it is capability you are unlikely to use.
 

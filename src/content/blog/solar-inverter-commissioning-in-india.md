@@ -4,7 +4,7 @@ excerpt: "A review checklist for qualified EPC teams covering pre-energisation r
 description: "Use a solar inverter commissioning checklist for qualified testing, settings, monitoring, acceptance records and a complete owner handover pack."
 category: "Installation Guide"
 date: 2026-03-16
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-inverter-commissioning-in-india.webp"
 author: "Nirav Dhanani"
@@ -32,11 +32,20 @@ featured: false
 
 The test method and acceptance source belong beside every result. A copied universal threshold can be wrong for the model, system voltage, site or current DISCOM process.
 
+> [!KEYTAKEAWAYS]
+> - A commissioning checklist should prove the installed system matches the approved design, exact equipment documents and applicable connection requirements. It is a review checklist, not a DIY energisation procedure.
+> - Record the test method and acceptance source beside every result, and do not copy universal thresholds from another document.
+> - Start from the approved settings schedule; factory defaults are not evidence of correct configuration, and protection settings must not be widened to hide nuisance trips.
+> - Commission monitoring as an operational system and give the owner administrator access or a documented transfer route.
+> - Do not describe the system as fully commissioned while critical tests, approvals or corrections remain open; use a punch list with owners and closure evidence.
+
 ## What must be approved before commissioning begins?
 
 **Commissioning should begin from a controlled document set and an agreed test plan.** Confirm the final design, equipment revisions, manufacturer manuals, risk controls, inspection status, connection permissions and acceptance responsibilities. If the installed system differs from the approved documents, resolve or formally record the deviation before energisation.
 
 The commissioning lead should have:
+
+Table: Controlled inputs the commissioning lead should hold and what to verify
 
 | Controlled input | What to verify |
 | --- | --- |
@@ -66,13 +75,16 @@ Check the project-defined items, including:
 - Warning labels, emergency information and access restrictions.
 - Unfinished work, water exposure, damage or foreign material.
 
-Do not energise to “see whether it works” when the inspection has an unresolved safety or design item. Record who owns the correction and the reinspection.
+> [!CAUTION] Do not energise to see whether it works
+> Do not energise to “see whether it works” when the inspection has an unresolved safety or design item. Record who owns the correction and the reinspection.
 
 ## Which electrical tests should be documented?
 
 **Document the tests specified by the approved design, equipment instructions, project plan and applicable rules.** Each entry should name the circuit or asset, method, instrument, calibration status, measured value, acceptance source, result and tester. This article deliberately does not prescribe universal test voltages or pass limits.
 
 A commissioning schedule may include, where applicable:
+
+Table: Commissioning test groups and the record to retain for each
 
 | Test group | Record to retain |
 | --- | --- |
@@ -85,7 +97,8 @@ A commissioning schedule may include, where applicable:
 | Functional operation | Start, stop, shutdown and recovery behaviour required by the plan |
 | Battery system | Approved compatibility, isolation, BMS and functional records |
 
-Live testing and stored DC or battery energy can be hazardous. It belongs to qualified personnel using the required equipment and procedure. The owner handover may explain normal indicators and emergency contacts without asking the owner to reproduce commissioning tests.
+> [!CAUTION] Stored DC and battery energy are hazardous
+> Live testing and stored DC or battery energy can be hazardous. It belongs to qualified personnel using the required equipment and procedure. The owner handover may explain normal indicators and emergency contacts without asking the owner to reproduce commissioning tests.
 
 ## How should inverter settings be commissioned?
 
@@ -102,7 +115,8 @@ The settings record should identify:
 - User roles, remote access and firmware-update responsibility.
 - Any deviation, authorisation and retest.
 
-Do not widen voltage, frequency or protection settings to hide nuisance trips. Record the event and investigate the grid, wiring, model configuration and applicable requirements.
+> [!WARNING] Nuisance trips are a symptom, not a setting to widen
+> Do not widen voltage, frequency or protection settings to hide nuisance trips. Record the event and investigate the grid, wiring, model configuration and applicable requirements.
 
 ## How should anti-islanding and grid functions be verified?
 
@@ -154,6 +168,8 @@ Do not describe the system as fully commissioned while critical tests, approvals
 
 Use this handover index:
 
+Table: Owner handover index and the minimum record for each item
+
 | Handover item | Minimum record |
 | --- | --- |
 | Equipment | Final schedule, invoices, models and serial numbers |
@@ -179,16 +195,17 @@ Before sign-off, verify that the serial numbers, settings record and as-built dr
 
 Before releasing the project, confirm that:
 
-- The exact installed models match approved and handed-over documents.
-- Test methods and limits cite the controlling source.
-- Every instrument and result is traceable.
-- Protection and grid settings match the approved schedule.
-- Monitoring access and ownership are transferred.
-- Warranty policies and registrations are retained.
-- DISCOM or connection records are complete for the project stage.
-- Deviations and open items have owners and closure dates.
-- The owner has operation, shutdown and support information.
-- Qualified reviewers have approved engineering and acceptance records.
+> [!CHECKLIST] Release checklist for EPC teams
+> - The exact installed models match approved and handed-over documents.
+> - Test methods and limits cite the controlling source.
+> - Every instrument and result is traceable.
+> - Protection and grid settings match the approved schedule.
+> - Monitoring access and ownership are transferred.
+> - Warranty policies and registrations are retained.
+> - DISCOM or connection records are complete for the project stage.
+> - Deviations and open items have owners and closure dates.
+> - The owner has operation, shutdown and support information.
+> - Qualified reviewers have approved engineering and acceptance records.
 
 [Download current Qbits datasheets](/download-datasheets/) and use the exact product manual when preparing the test plan. For model-specific documents, [contact Qbits](/contact-us/). Commissioning and energisation must remain with qualified parties and follow current project and local requirements.
 

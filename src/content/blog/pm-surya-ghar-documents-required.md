@@ -4,7 +4,7 @@ excerpt: "PM Surya Ghar documents required include Aadhaar, electricity bill, ba
 description: "PM Surya Ghar documents required: Aadhaar, electricity bill, bank details, and property proof. Full checklist to avoid rejection in 2026."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "14 min"
 image: "/og/blog-pm-surya-ghar-documents-required.webp"
 author: "Nirav Dhanani"
@@ -43,9 +43,8 @@ Every week, thousands of homeowners register on the [PM Surya Ghar](https://www.
 
 > **Direct answer.** [PM Surya Ghar](/glossary/pm-surya-ghar/) documents required are: Aadhaar card (with linked mobile for OTP), recent electricity bill in your name, PAN card, bank account passbook or cancelled cheque, property ownership proof, and passport-size photographs. After installation, you also submit the vendor's completion certificate and a photograph of the installed system. All names must match exactly across all documents.
 
-> **TL;DR**
-> - Core documents are Aadhaar, a recent electricity bill (under 90 days old), PAN card, bank passbook or cancelled cheque, and property ownership proof.
-> - After installation, you must also upload the vendor's completion certificate and a photograph of the installed system before the subsidy is released.
+> [!KEYTAKEAWAYS]
+> - Core documents are Aadhaar, a recent electricity bill (under 90 days old), PAN card, bank passbook or cancelled cheque, and property ownership proof. After installation, you must also upload the vendor's completion certificate and a photograph of the installed system before the subsidy is released.
 > - Name mismatch across Aadhaar, the electricity bill, and the bank account is the single largest cause of application rejection.
 > - PAN is effectively mandatory because the subsidy can reach ₹78,000, above the ₹50,000 threshold that triggers the requirement.
 > - Several states (Gujarat, Tamil Nadu, Rajasthan) require additional documents beyond the central checklist, such as Surya Gujarat forms or land revenue records.
@@ -56,6 +55,8 @@ The scheme disburses up to ₹78,000 directly to your bank account for a 3 kW sy
 ## The Complete PM Surya Ghar Documents Checklist
 
 Before diving into each category, here is the master checklist. Tick every item before you begin the online application, missing even one item forces a re-submission and adds two to four weeks to your timeline.
+
+Table: Master checklist of PM Surya Ghar documents, accepted format and the critical check for each
 
 | Document Category | Specific Document | Format Accepted | Critical Check |
 | --- | --- | --- | --- |
@@ -125,6 +126,7 @@ Preparing documents in the right order prevents the most common application erro
 
 ### The 5-Step PM Surya Ghar Document Prep Framework
 
+<!-- steps -->
 1. **Name normalisation**: Write your name exactly as it appears on Aadhaar. Compare this against your electricity bill name and bank account name. Any variation (initials, father's name prefix, spelling difference) must be resolved before step 2.
 2. **Aadhaar-mobile-PAN linkage**: Confirm your Aadhaar is linked to your active mobile number. Confirm PAN is linked to Aadhaar on the Income Tax portal. Both checks take under two minutes online.
 3. **Bill freshness check**: Pull your latest electricity bill (downloaded from DISCOM portal is the cleanest format). Check the bill date, it must be within 90 days of your application date.
@@ -134,6 +136,8 @@ Preparing documents in the right order prevents the most common application erro
 ## State-Specific Document Variations
 
 The central PM Surya Ghar scheme has a standard document set, but individual DISCOMs add their own requirements. The table below covers major states where additional documents are commonly asked.
+
+Table: Additional documents commonly asked by DISCOMs in major states
 
 | State | DISCOM | Additional Documents |
 | --- | --- | --- |
@@ -160,6 +164,9 @@ Understanding why applications get rejected helps you avoid the same errors. Bas
 - **Wrong property document type**: Rental agreement submitted instead of ownership proof. Only ownership or long-term lease (typically 30+ years) qualifies.
 - **Missing post-installation photos**: After installation, many applicants delay uploading completion photos. The subsidy cannot be released until post-installation verification is complete.
 
+> [!TIP] Download a fresh bill from the DISCOM portal
+> A bill older than 90 days is flagged automatically by many state portals, and a bill downloaded from the DISCOM portal is the cleanest format.
+
 For a detailed breakdown of why applications get rejected and how to respond, see the guide on [PM Surya Ghar rejection reasons](/blog/pm-surya-ghar-rejection-reasons/).
 
 ## How to Check Your Application Status After Submission
@@ -168,6 +175,7 @@ Once your documents are submitted and your application is live, monitoring its p
 
 The application moves through these stages:
 
+<!-- steps -->
 1. **Application submitted**: Portal has received your documents
 2. **DISCOM review**: Your local utility verifies your consumer number and documents
 3. **Feasibility approved**: Technical feasibility of your roof confirmed
@@ -183,11 +191,12 @@ For step-by-step guidance on checking where your application currently stands, r
 
 Some applicants waste days chasing documents that are not actually required. The following are commonly misunderstood as mandatory:
 
-- **Income proof**: PM Surya Ghar has no income ceiling. There is no requirement for a salary slip, Form 16, or ITR.
-- **Caste certificate**: The scheme is available to all categories; no reservation-based certification is required.
-- **Roof structural certificate**: Not required at the application stage (though your installer will assess roof strength during the site survey).
-- **NOC from neighbours**: Not required unless local municipal regulations specify otherwise for specific roof configurations.
-- **Original documents**: The portal accepts digital copies only. Original documents are not submitted anywhere in the online process.
+> [!NOTE] Not required at the application stage
+> - **Income proof**: PM Surya Ghar has no income ceiling. There is no requirement for a salary slip, Form 16, or ITR.
+> - **Caste certificate**: The scheme is available to all categories; no reservation-based certification is required.
+> - **Roof structural certificate**: Not required at the application stage (though your installer will assess roof strength during the site survey).
+> - **NOC from neighbours**: Not required unless local municipal regulations specify otherwise for specific roof configurations.
+> - **Original documents**: The portal accepts digital copies only. Original documents are not submitted anywhere in the online process.
 
 ## Where Qbits Fits in Your PM Surya Ghar Journey
 
@@ -199,14 +208,15 @@ Some applicants waste days chasing documents that are not actually required. The
 
 Use this as your last verification before pressing the submit button on the PM Surya Ghar portal:
 
-- Aadhaar number entered correctly (12 digits, no spaces)
-- Mobile OTP received and entered within 30 seconds
-- Electricity bill: applicant's name, consumer number clearly visible, ≤ 90 days old
-- PAN card: correct 10-character alphanumeric, linked to Aadhaar
-- Bank account: correct account number, valid IFSC, account in applicant's name
-- Property document: shows applicant's ownership of the installation site
-- Passport photograph: white background, clear, within file size limit
-- All document names match across Aadhaar, electricity bill, and bank records
+> [!CHECKLIST] Before you click Submit
+> - Aadhaar number entered correctly (12 digits, no spaces)
+> - Mobile OTP received and entered within 30 seconds
+> - Electricity bill: applicant's name, consumer number clearly visible, ≤ 90 days old
+> - PAN card: correct 10-character alphanumeric, linked to Aadhaar
+> - Bank account: correct account number, valid IFSC, account in applicant's name
+> - Property document: shows applicant's ownership of the installation site
+> - Passport photograph: white background, clear, within file size limit
+> - All document names match across Aadhaar, electricity bill, and bank records
 
 Submitting with all items checked reduces average processing time from the national average of 45 days to approximately 25 days in most states with active DISCOM processing teams. The [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) gives you the exact figures to expect once your verified application clears.
 

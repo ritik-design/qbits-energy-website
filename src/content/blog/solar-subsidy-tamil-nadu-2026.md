@@ -39,7 +39,7 @@ faqs:
 
 This guide was re-checked in **October 2026**. It separates what the central guidelines say, what is still unconfirmed for Tamil Nadu, and what you should verify with your own licensee before signing a quote. It avoids the single-number timelines and payback claims that circulate in installer marketing, because none of them comes from a published order.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Central assistance: ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, capped at ₹78,000 (MNRE guidelines, clause 5). The scheme's implementation period runs to 31 March 2027.
 > - State top-up: none confirmed as of 14 October 2026. Any state amount must be integrated with the National Portal, so ask for the order.
 > - Licensee: TNPDCL handles distribution since the 2024 split of TANGEDCO. Use the name on your bill.
@@ -54,6 +54,8 @@ PM Surya Ghar: Muft Bijli Yojana was approved by the Union Cabinet on 29 Februar
 
 The standard assistance for a residential system, from clause 5 of the MNRE guidelines, is:
 
+Table: PM Surya Ghar central assistance by installed solar-module capacity (MNRE guidelines, clause 5)
+
 | Installed solar-module capacity | Central assistance |
 | --- | --- |
 | First 2 kWp | ₹30,000 per kWp |
@@ -65,13 +67,32 @@ The standard assistance for a residential system, from clause 5 of the MNRE guid
 
 Tamil Nadu is not on the special-category list, so the higher ₹33,000 and ₹19,800 rates for the hill states, the North East, Jammu and Kashmir, Ladakh and the island territories do not apply. MNRE's own examples show how part-kilowatts work: a 1.5 kW system gets ₹45,000, a 2.5 kW system gets ₹69,000, and a 6 kW system gets ₹78,000. The assistance is calculated on the installed solar-module capacity, not on the inverter rating or on any battery you add.
 
+```chart
+type: bar
+title: Central assistance by system size, MNRE slab and examples
+unit: "₹"
+source: "MNRE operational guidelines for residential CFA under PM Surya Ghar: Muft Bijli Yojana, clause 5 (slab and worked examples, standard states), as read 14 October 2026"
+note: "Assistance is capped at ₹78,000 from 3 kW upward. Tamil Nadu is not a special-category state."
+decimals: 0
+data:
+  - { label: "1 kW", value: 30000 }
+  - { label: "1.5 kW", value: 45000 }
+  - { label: "2 kW", value: 60000 }
+  - { label: "2.5 kW", value: 69000 }
+  - { label: "3 kW", value: 78000 }
+  - { label: "6 kW", value: 78000 }
+```
+
 The money is not a discount at purchase. You pay the vendor under your contract, and the assistance is released to your bank account, or to your loan account first if you financed the system, after the DISCOM has inspected the system and approved the application on the portal. Our [subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) has the slab arithmetic for every size up to 10 kW.
 
 **Group housing societies and resident welfare associations.** The common-facility rate is ₹18,000 per kWp for up to 500 kWp, at a limit of 3 kWp per house. The guidelines say this limit includes any plants individual residents have already installed, and the connection must be dedicated to common facilities.
 
 ### What the benchmark cost means
 
-The guidelines fix a benchmark cost of ₹50,000 per kW for the first 2 kW and ₹45,000 for the additional kW (₹55,000 and ₹49,500 in special-category states), effective 13 February 2024. The assistance is a share of that benchmark, not of your invoice. For a 3 kW system the benchmark is ₹1,45,000 and the assistance is ₹78,000. Your quotation can be above or below the benchmark, and the assistance does not change with it. The benchmark can be revised at the scheme's mid-term review, so check the portal for the current figure before you do any arithmetic.
+The guidelines fix a benchmark cost of ₹50,000 per kW for the first 2 kW and ₹45,000 for the additional kW (₹55,000 and ₹49,500 in special-category states), effective 13 February 2024. The assistance is a share of that benchmark, not of your invoice. > [!EXAMPLE] 3 kW benchmark versus assistance
+> For a 3 kW system the benchmark is ₹1,45,000 (₹50,000 × 2 plus ₹45,000) and the assistance is ₹78,000, about 54 percent of the benchmark.
+
+Your quotation can be above or below the benchmark, and the assistance does not change with it. The benchmark can be revised at the scheme's mid-term review, so check the portal for the current figure before you do any arithmetic.
 
 ### Three conditions that decide eligibility
 
@@ -89,7 +110,9 @@ What we could and could not confirm on 14 October 2026:
 
 - **No general residential top-up found.** We did not find a Tamil Nadu government, TEDA or TNPDCL order giving a per-kW state subsidy for ordinary households, and a secondary state-subsidy tracker last verified in December 2025 also lists none. That is an absence of evidence in the sources we could open, not proof that nothing exists.
 - **A newer incentive is reported but unconfirmed.** News coverage mentioned a Tamil Nadu incentive linked to portal registrations after early August 2026. We could not reach TEDA's or TNPDCL's pages to confirm it, so this guide does not count it and gives no amount. If a vendor cites it, ask for the government order number, the eligible consumer category, any cap on beneficiaries and the claim channel.
-- **The portal test.** Under clause 5(i) of the MNRE guidelines a state may supplement the central assistance, but the state component's disbursement must be integrated with the National Portal and the state must sign the MoU. A genuine top-up will therefore show up in your portal application.
+
+> [!IMPORTANT] The portal test for any state top-up
+> Under clause 5(i) of the MNRE guidelines a state may supplement the central assistance, but the state component's disbursement must be integrated with the National Portal and the state must sign the MoU. A genuine top-up will therefore show up in your portal application.
 
 Check [teda.in](https://teda.in/) for the live list of open schemes before you build any budget around a state component. If a scheme needs a separate TEDA installer registration, confirm that your vendor holds it, in addition to National Portal registration. Our [state-wise subsidy comparison](/blog/solar-subsidy-all-states/) tracks how other states handle this.
 
@@ -111,6 +134,7 @@ Unlike states with several distribution companies, a Tamil Nadu household does n
 
 ### The process on the National Portal
 
+<!-- steps -->
 1. **Register and apply.** Use your consumer number on the portal. It generates an application ID.
 2. **Choose a registered vendor** and agree the design, components and commercial terms. The guidelines include a model vendor-consumer agreement but say the actual contract can vary.
 3. **Feasibility.** For systems up to 10 kW the guidelines say applications are deemed accepted without a technical feasibility approval, once the regulator and DISCOM operationalise the provision. Until then, upload the documents your state rules require.
@@ -120,6 +144,8 @@ Unlike states with several distribution companies, a Tamil Nadu household does n
 7. **E-token and release.** An e-token is activated after inspection and documents. You redeem it in your profile, and the assistance goes to your account or loan account.
 
 ### The clocks that are actually published
+
+Table: Published official clocks for rooftop solar approval, commissioning and grievances
 
 | Stage | Published clock | Source |
 | --- | --- | --- |
@@ -132,11 +158,12 @@ These are rules, not averages. We found no published TNPDCL average for rooftop 
 
 ### The five-point checklist before you apply
 
-1. **Check your sanctioned load first.** A proposed capacity above your sanctioned load is a classic ground for query. If you need a higher load, ask the licensee how to apply for the enhancement.
-2. **Submit complete documents once.** Bill, ID, bank details, roof ownership or authority, roof photographs, single-line diagram and equipment details. Incomplete uploads restart the queue for that stage.
-3. **Keep written records.** Save the application ID, e-token, dates of every inspection call and any rejection remark.
-4. **Know your export terms.** Get the TNERC order and the billing treatment for your commissioning year in writing.
-5. **Do not pay in full early.** Link payments to milestones in the contract and to commissioning.
+> [!CHECKLIST] Five points before you apply
+> - **Check your sanctioned load first.** A proposed capacity above your sanctioned load is a classic ground for query. If you need a higher load, ask the licensee how to apply for the enhancement.
+> - **Submit complete documents once.** Bill, ID, bank details, roof ownership or authority, roof photographs, single-line diagram and equipment details. Incomplete uploads restart the queue for that stage.
+> - **Keep written records.** Save the application ID, e-token, dates of every inspection call and any rejection remark.
+> - **Know your export terms.** Get the TNERC order and the billing treatment for your commissioning year in writing.
+> - **Do not pay in full early.** Link payments to milestones in the contract and to commissioning.
 
 ## Net metering rules to verify with TNERC and TNPDCL
 
@@ -153,6 +180,8 @@ The gap between what you pay per unit and what you are credited for exports is w
 ## Work out your own payback
 
 We have not printed a Chennai worked example, because a payback built on a guessed installed price and an assumed tariff is not evidence. Use this template with your own quotation and bill instead.
+
+Table: Payback template, where each number comes from (fill in your own quotation and bill)
 
 | Line | Where the number comes from |
 | --- | --- |
@@ -173,6 +202,7 @@ Start with the facts. Ask for the rejection or pending reason in writing, with t
 
 **Escalation ladder for a stuck application**
 
+<!-- steps -->
 1. **The vendor.** Under the MNRE guidelines a deficiency that blocks commissioning or release because of system quality or component issues must be rectified by the vendor.
 2. **The section or divisional office.** Visit with your application ID and ask for the stage status and expected inspection date in writing.
 3. **The portal grievance route.** Consumers can raise a grievance on the National Portal, through the national call centre or the app. A tracking ID is created and the guidelines set a 30-day resolution target.
@@ -180,6 +210,8 @@ Start with the facts. Ask for the rejection or pending reason in writing, with t
 5. **The Electricity Ombudsman.** If the forum does not resolve the matter, the appeal route under Section 42 of the Electricity Act, 2003 applies.
 
 **Common rejection causes and the fix**
+
+Table: Common rejection causes and what to do
 
 | Cause | What to do |
 | --- | --- |

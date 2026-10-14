@@ -4,7 +4,7 @@ excerpt: "A practical EPC checklist for comparing exact models, compliance evide
 description: "Use this solar inverter supplier selection checklist to compare exact models, documents, warranty execution, service capability, and supply risk."
 category: "EPC"
 date: 2026-05-08
-updatedDate: 2026-09-26
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-inverter-suppliers-india.webp"
 author: "Akash Hirapara"
@@ -31,9 +31,18 @@ To choose a **solar inverter supplier for an EPC project**, qualify the exact pr
 
 Use hard gates first. Confirm the model, document set, project fit, compliance route, authorised supply chain, written warranty, and service responsibility. Only then compare commercial terms. This page covers supplier qualification and shortlisting. The separate [bulk inverter procurement guide](/blog/inverter-procurement-india/) covers the RFQ, purchase order, delivery, inspection, and acceptance stage.
 
+> [!KEYTAKEAWAYS]
+> - Qualify the exact product and the organisation behind it at the same time; confirm hard gates first and compare commercial terms only afterwards.
+> - Seven hard gates apply: exact model and document control, technical fit, compliance evidence, traceable and authorised supply, written warranty and service, quality and change-control evidence, and supply and lifecycle support.
+> - Mark each gate `pass`, `clarify`, or `fail`, and do not average a compliance failure away with a strong commercial score.
+> - The MNRE ALMM page publishes PV module and cell lists, not an inverter list (as checked on 26 September 2026); verify BIS registration for the exact model on the CRS portal.
+> - Apply the same gates, evidence table and weights to Qbits and every competing supplier, and price the comparison last on the same scope.
+
 ## Start with the supplier's actual role
 
 `Manufacturer`, `brand owner`, `importer`, `distributor`, `dealer`, and `service partner` are not interchangeable labels. Record the legal entities and ask each one to state what it controls.
+
+Table: Supplier roles an EPC should identify and what to establish for each
 
 | Party to identify | What the EPC needs to establish |
 | --- | --- |
@@ -54,15 +63,16 @@ A supplier cannot be evaluated against a vague request for a `50 kW inverter` or
 
 At minimum, record:
 
-- site location and environmental conditions;
-- grid connection, phase, voltage, and applicable approval route;
-- module make, exact model, string layout, current, and voltage calculations;
-- required AC rating, power-factor or reactive-power functions, and export-control needs;
-- installation location, enclosure exposure, clearances, and temperature range;
-- communications, monitoring, data export, and cybersecurity requirements;
-- battery make, exact model, voltage window, BMS protocol, and backup loads for a hybrid system;
-- commissioning, training, spares, and field-support expectations; and
-- the documents that the owner, lender, insurer, tender, DISCOM, or inspector requires.
+> [!CHECKLIST] Project requirement to give every supplier
+> - site location and environmental conditions;
+> - grid connection, phase, voltage, and applicable approval route;
+> - module make, exact model, string layout, current, and voltage calculations;
+> - required AC rating, power-factor or reactive-power functions, and export-control needs;
+> - installation location, enclosure exposure, clearances, and temperature range;
+> - communications, monitoring, data export, and cybersecurity requirements;
+> - battery make, exact model, voltage window, BMS protocol, and backup loads for a hybrid system;
+> - commissioning, training, spares, and field-support expectations; and
+> - the documents that the owner, lender, insurer, tender, DISCOM, or inspector requires.
 
 Use the [solar inverter datasheet guide](/blog/how-to-read-solar-inverter-datasheets/) to turn this requirement into model-level checks. Capacity alone is not enough. Products with similar names can have different MPPT counts, current limits, voltage windows, optional communications, or environmental limits.
 
@@ -92,7 +102,8 @@ Create a compliance matrix for the actual project rather than copying a generic 
 
 Use official verification routes where available. The [BIS Compulsory Registration Scheme portal](https://www.crsbis.in/BIS/) provides public registration search functions. The [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) publishes PV module and cell lists. As checked on 26 September 2026, it does not publish an inverter list. Use the [BIS vs ALMM stocking checklist](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) to separate model evidence from scheme, tender and DISCOM checks.
 
-Do not treat a standards logo in a brochure as a certificate. Do not assume that a report for one model covers every model in the same family. If the tender, DISCOM, owner, or inspector has a model list or additional test requirement, verify it with that authority before approval.
+> [!CAUTION] A logo is not a certificate
+> Do not treat a standards logo in a brochure as a certificate. Do not assume that a report for one model covers every model in the same family. If the tender, DISCOM, owner, or inspector has a model list or additional test requirement, verify it with that authority before approval.
 
 ### 4. Traceable and authorised supply
 
@@ -135,6 +146,8 @@ Also ask about product discontinuation, compatible replacement models, firmware 
 
 This table keeps a supplier comparison auditable. Add project-specific rows rather than forcing every project into a generic score.
 
+Table: Supplier evidence table with the ten decision areas and pass, clarify or fail status
+
 | Decision area | Evidence to collect | Status |
 | --- | --- | --- |
 | Legal and channel chain | Entity records, quotation party, manufacturer confirmation, warranty obligor | Pass / Clarify / Fail |
@@ -156,7 +169,7 @@ Once hard gates are clear, set weights around the project's real risks. An EPC w
 
 Use the same scoring definition for every candidate. Record a note beside each score and link it to evidence. Keep unknowns as unknowns instead of converting a missing answer into an average score.
 
-Price comparison comes last and must use the same scope. Check whether each quote includes the exact inverter, accessories, meter, communications, monitoring, freight, taxes, commissioning support, training, warranty costs, and required documents. The rank-18 procurement guide will address order-stage normalisation and contract terms in detail.
+Price comparison comes last and must use the same scope. Check whether each quote includes the exact inverter, accessories, meter, communications, monitoring, freight, taxes, commissioning support, training, warranty costs, and required documents. The [bulk inverter procurement guide](/blog/inverter-procurement-india/) addresses order-stage normalisation and contract terms in detail.
 
 ## Check references without asking leading questions
 
@@ -178,13 +191,15 @@ Do not turn one positive call into a reliability statistic. Treat references as 
 
 Where project timing and procurement policy allow it, use a limited first order or an agreed inspection stage before scaling. Define success in advance: correct model and quantity, on-time documentation, serial traceability, packaging condition, included accessories, account setup, commissioning support, and closure of discrepancies.
 
-Do not manufacture a warranty incident to test service. Instead, use a tabletop exercise: give the candidate a realistic fault scenario and ask it to walk through intake, remote diagnosis, evidence, authorisation, parts, field attendance, customer communication, and closure. Compare that explanation with the written warranty and service schedule.
+> [!TIP] Test service with a tabletop exercise
+> Do not manufacture a warranty incident to test service. Instead, use a tabletop exercise: give the candidate a realistic fault scenario and ask it to walk through intake, remote diagnosis, evidence, authorisation, parts, field attendance, customer communication, and closure. Compare that explanation with the written warranty and service schedule.
 
 ## Where Qbits enters the comparison
 
 Qbits publishes [on-grid](/on-grid-inverter/) and [hybrid](/hybrid-inverter/) inverter families, but supplier qualification still has to happen at model level. Start with the [Qbits datasheet library](/download-datasheets/) and identify the exact family and SKU relevant to the design. The library also explains that installation manuals, battery compatibility confirmations, certificates, and written warranty terms should be requested separately for the exact model.
 
-Do not award Qbits a score because Qbits publishes this checklist. Apply the same gates, evidence table, and project-specific weights to Qbits and every competing supplier. Where evidence is unavailable, mark the row `clarify` rather than filling the gap with a marketing claim.
+> [!IMPORTANT] Qbits is held to the same gates
+> Do not award Qbits a score because Qbits publishes this checklist. Apply the same gates, evidence table, and project-specific weights to Qbits and every competing supplier. Where evidence is unavailable, mark the row `clarify` rather than filling the gap with a marketing claim.
 
 Download the relevant [Qbits model datasheets](/download-datasheets/) and attach them to the supplier-comparison sheet. The next decision is whether the exact model and supporting documents pass your project's hard gates.
 

@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+/* Metric-adjusted fallback for Inter. While the web font is loading (font-display: swap) text is set in
+   this face, sized to Inter's metrics, so the swap does not reflow headings and cause layout shift.
+   Values are the standard Inter-vs-Arial overrides; if none of the local faces exist the browser simply
+   uses the next font in the stack, exactly as before. */
+@font-face {
+  font-family: 'Inter Fallback';
+  src: local('Arial'), local('Helvetica Neue'), local('Helvetica'), local('Liberation Sans'), local('Arimo');
+  ascent-override: 90.49%;
+  descent-override: 22.56%;
+  line-gap-override: 0%;
+  size-adjust: 107.4%;
+}
+
 @theme {
   --color-brand-50: #ecfdf5;
   --color-brand-100: #d1fae5;
@@ -21,7 +34,7 @@
   --color-dark-800: #1e293b;
   --color-dark-700: #334155;
 
-  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', 'Inter Fallback', ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {

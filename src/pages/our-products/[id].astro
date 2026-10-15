@@ -39,6 +39,19 @@ const guideEntries = (await Promise.all((product.guides ?? []).map((slug) => get
 const quoteUrl = `/contact-us/?${new URLSearchParams({ subject: 'Product Inquiry', model: product.id, message: `I would like pricing, availability and written warranty terms for the ${product.name}.`, from: `/our-products/${product.id}/` })}#lead-form`;
 const documentUrl = `/contact-us/?${new URLSearchParams({ subject: 'Technical Documents', model: product.id, from: `/our-products/${product.id}/` })}#lead-form`;
 const heroDimensions = product.image ? productImageSizes[product.image] : undefined;
+// 768 px variants of the large hero images, so phones do not download the full-size file.
+const HERO_768 = new Set([
+  '/homepage-new/1kw.webp', '/homepage-new/3kw.webp', '/homepage-new/5kw.webp', '/homepage-new/10kw.webp',
+  '/homepage-new/25kw.webp', '/homepage-new/50kw.webp', '/homepage-new/110kw.webp', '/homepage-new/hybrid.webp',
+  '/product-images/product-image-2.webp', '/product-images/product-image-4.webp',
+]);
+const heroVariant = product.image && HERO_768.has(product.image) ? product.image.replace(/\.webp$/, '-768.webp') : null;
+const heroSrcset = heroVariant && heroDimensions
+  ? `${heroVariant} 768w, ${product.image} ${heroDimensions.width}w`
+  : product.image === '/product-images/image.webp'
+    ? '/product-images/image-640.webp 640w, /product-images/image.webp 1024w'
+    : undefined;
+const heroSizes = heroSrcset ? '(min-width: 1024px) 50vw, 100vw' : undefined;
 const datasheetNotes: Record<string, string> = {
   'QB-4.6-6KTLS': 'The linked datasheet lists 4.6, 5 and 6 kW variants. Ask for the exact-model document before selecting other variants named in this family.',
   'QB-6-17KTLC': 'The linked datasheet lists 6, 8, 10, 12, 15 and 17 kW variants. Request the exact-model document before specifying a 5 kW variant.',
@@ -147,8 +160,8 @@ const breadcrumbSchema = {
             <div class="aspect-square bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl flex items-center justify-center relative overflow-hidden">
               {product.image ? (
                 <img width={heroDimensions?.width} height={heroDimensions?.height} src={product.image}
-                  srcset={product.image === '/product-images/image.webp' ? '/product-images/image-640.webp 640w, /product-images/image.webp 1024w' : undefined}
-                  sizes={product.image === '/product-images/image.webp' ? '(min-width: 1024px) 50vw, 100vw' : undefined}
+                  srcset={heroSrcset}
+                  sizes={heroSizes}
                   alt={product.name} class="w-full h-full object-contain" loading="eager" fetchpriority="high" decoding="async" />
               ) : (
                 <div class="text-center relative z-10">

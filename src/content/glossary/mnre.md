@@ -70,7 +70,7 @@ The Ministry of New and Renewable Energy (MNRE) is the central government minist
 
 > [!NOTE] In short
 > - MNRE (Ministry of New and Renewable Energy) is India's central renewable energy ministry, tracing back to 1982 and renamed to its current form in 2006.
-> - It runs PM Surya Ghar, PM-KUSUM, the solar PLI manufacturing scheme, and controls ALMM equipment listing for subsidised projects.
+> - It runs PM Surya Ghar, PM-KUSUM, the solar PLI manufacturing scheme, and controls the ALMM list of PV modules and cells used in subsidised projects.
 > - MNRE sets policy and disburses subsidy; it does not set tariffs (CERC/SERC) or write technical grid standards (CEA).
 > - SECI, IREDA and NISE are the main implementing institutions that report to MNRE.
 > - India's target is 500 GW of non-fossil capacity by 2030, with roughly 280-300 GW expected to come from solar.
@@ -89,7 +89,7 @@ National policy. MNRE drafts the renewable strategy that flows into state implem
 
 Subsidy administration. Central subsidies for PM Surya Ghar, PM-KUSUM and prior schemes flow through MNRE.
 
-Equipment standards. ALMM and MNRE technical specifications gate which products can be used in subsidised projects.
+Equipment standards. ALMM (modules and cells) and MNRE technical specifications gate which products can be used in subsidised projects.
 
 Target setting. India's 500 GW non-fossil 2030 target was articulated through MNRE at COP26.
 
@@ -227,7 +227,7 @@ Table: MNRE rules, specifications and listings that apply to solar projects
 |---|---|
 | MNRE Scheme Guidelines | Per-programme rules |
 | MNRE Specifications for Solar PV | Inverter and module technical requirements |
-| ALMM | Approved equipment list |
+| ALMM | Approved list of PV modules and cells |
 | BIS certification framework | Quality compliance |
 | MNRE empanelment criteria | Vendor qualification |
 

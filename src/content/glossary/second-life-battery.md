@@ -228,7 +228,7 @@ Table: Standards and rules for second-life batteries
 | Standard | Scope |
 |---|---|
 | IEC 63330 (under development) | Second-life battery requirements |
-| IS 16893 | Indian stationary storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | IEC 62619 | Battery safety |
 | Battery Waste Management Rules 2022 | Indian framework |
 | Manufacturer-specific | Reused pack standards |
@@ -250,7 +250,7 @@ For how Second-Life Battery plays out in real projects, these guides go deeper:
 
 - Battery Waste Management Rules 2022.
 - IEC 63330 (under development).
-- IS 16893, Indian stationary storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - BloombergNEF Second-Life Battery Outlook.
 - Lithion Power and ACE Green Recycling publications.
 - IEA Battery Storage Outlook 2024.

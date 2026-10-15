@@ -55,9 +55,9 @@ Yeh numbers ranges hain, promise nahi। Do bilkul same model ke inverter, ek Ke
 
 Har inverter ek jaisa nahi chalta। Andar ke components aur unka duty cycle life decide karte hain।
 
-Table: Component aur equipment ki typical life (India) aur sabse pehle kya kharab karta hai
+Table: Component aur equipment ki planning life (is guide ke planning ranges, measured data nahi) aur sabse pehle kya kharab karta hai
 
-| Component / Equipment | Typical life (India) | Sabse pehle kya kharab karta hai |
+| Component / Equipment | Planning life | Sabse pehle kya kharab karta hai |
 | --- | --- | --- |
 | Solar panels | 25 se 30 saal | Micro-cracks, delamination, hail damage |
 | Mounting structure | 20 se 25 saal | Rust, coastal salt corrosion |
@@ -68,7 +68,7 @@ Table: Component aur equipment ki typical life (India) aur sabse pehle kya khara
 | Lead acid battery | 3 se 5 saal | Deep discharge, heat |
 | LiFePO4 battery | 8 se 12 saal | Cycle count, high temperature |
 
-Dhyaan dijiye ki inverter aur panel ki life mein lagbhag 12 se 15 saal ka gap hai। Yeh gap hi replacement planning ki jad hai।
+Dhyaan dijiye ki is table ke planning ranges mein inverter aur panel ki life mein kai saal ka gap hai। Yeh gap hi replacement planning ki jad hai।
 
 Inverter ke andar sabse kamzor cheez electrolytic capacitors hoti hain। Yeh temperature ke saath ageing karti hain, aur thumb rule yeh hai ki ambient temperature har 10 degree badhne par unki effective life lagbhag aadhi ho jaati hai। Isliye ek hi model 30 degree wale shaded porch mein aur 50 degree wale terrace parapet par bilkul alag behave karta hai। Hybrid units mein battery charging stage ka extra heat aur switching load hota hai, isliye unki expected life on-grid se thodi kam rakhni chahiye। [Hybrid solar inverter guide](/blog/hybrid-solar-inverter-hindi/) mein iska detail hai।
 
@@ -139,7 +139,7 @@ Yeh exclusions kharidne se pehle padhiye। Claim ke din padhna bahut mehnga sab
 Ab sabse important table। Yeh upfront price ka nahi, poore system life ka comparison hai।
 
 > [!EXAMPLE] 25 saal ka illustrative TCO
-> **Illustrative example, 5 kW residential system, 2026 prices।** Yeh ek hypothetical calculation hai jo typical market ranges par based hai, kisi ek customer ka actual bill nahi। Har replacement ke saath ₹4,000 labour aur commissioning maana gaya hai, aur inverter prices ko constant rakha gaya hai taaki comparison saaf rahe।
+> **Illustrative example, 5 kW residential system, 2026 prices।** Yeh ek hypothetical calculation hai jo assumed inputs par based hai (market data nahi), kisi ek customer ka actual bill nahi। Har replacement ke saath ₹4,000 labour aur commissioning maana gaya hai, aur inverter prices ko constant rakha gaya hai taaki comparison saaf rahe।
 
 Table: 5 kW residential system ka 25 saal ka illustrative TCO, teen inverter options ke saath
 

@@ -21,7 +21,7 @@ faqs:
   - q: "How much is an old solar inverter worth in scrap?"
     a: "Scrap value depends on weight and copper content. A transformer-based off-grid or UPS-type inverter can fetch ₹800 to ₹2,500 because of its copper winding. A modern transformerless string inverter of 3 kW to 5 kW weighs 12 to 20 kg and is mostly aluminium heatsink, steel casing, and PCB, so scrap dealers typically pay ₹300 to ₹1,500. These are industry-observed ranges, not fixed prices, and vary by city and dealer."
   - q: "Should I repair or replace a solar inverter that failed after warranty?"
-    a: "Repair makes sense if the fault is minor (fan, display, WiFi card, relay) and the quote stays under about 25% of a new inverter's price, roughly ₹8,000 to ₹15,000 for a 5 kW unit. Replace when the main power PCB or IGBT module has failed, when the model is discontinued and spares are unavailable, or when the inverter is over 8 years old. A ₹18,000 PCB repair on a 9-year-old inverter that could fail again in 18 months is usually poor economics compared to a ₹50,000 new unit with a fresh model-specific written warranty."
+    a: "Repair makes sense if the fault is minor (fan, display, WiFi card, relay) and the quote stays under about 25% of a new inverter's price (this guide's rule of thumb), which on the dated 5 kW listings is roughly ₹7,000 to ₹34,000 depending on the unit. Replace when the main power PCB or IGBT module has failed, when the model is discontinued and spares are unavailable, or when the inverter is over 8 years old. A ₹18,000 PCB repair on a 9-year-old inverter that could fail again in 18 months is usually poor economics compared to a new unit with a fresh model-specific written warranty."
   - q: "Is it legal to throw an old solar inverter in regular scrap in India?"
     a: "An old solar inverter is classified as e-waste under the E-Waste (Management) Rules, 2022, notified by the Ministry of Environment, Forest and Climate Change. The rules require e-waste to go to authorised recyclers or dismantlers, not informal kabadi channels. In practice, household enforcement is weak, but the correct route is a CPCB-registered e-waste recycler, a brand take-back arrangement, or your installer's disposal channel. Solar PV modules have stricter duties under Chapter V of the same rules, including storage requirements until 2034-35 for producers."
   - q: "Do solar inverter brands in India offer buyback or exchange offers?"
@@ -29,7 +29,7 @@ faqs:
   - q: "Can I upgrade from an on-grid inverter to a hybrid inverter and keep my panels?"
     a: "Yes, in most cases. Your existing panels, mounting structure, and AC wiring can usually be retained when swapping an on-grid inverter for a hybrid of the same or larger capacity. Check three things: string voltage compatibility with the new inverter's MPPT range, DC cable sizing if you change string configuration, and whether your DISCOM net-metering approval needs an update for the new inverter model. Budget ₹20,000 to ₹40,000 more than an equivalent on-grid replacement, plus battery cost if you add storage immediately."
   - q: "How much does it cost to replace a 5kW solar inverter in India?"
-    a: "A replacement 5 kW on-grid inverter costs ₹45,000 to ₹65,000 for mid-market Indian brands and ₹65,000 to ₹90,000 for a 5 kW hybrid, based on 2026 market prices. Add ₹3,000 to ₹8,000 for labour, cabling changes, and recommissioning. Net cost drops by ₹1,000 to ₹4,000 if your installer offers a buyback deduction on the old unit. Full replacement for a 5 kW system, inverter plus labour minus buyback, typically lands between ₹45,000 and ₹95,000 depending on topology."
+    a: "Dated listings on 14 October 2026 put a 5 kW on-grid inverter at ₹29,320 to ₹46,500 and a 5 kW hybrid at ₹63,899 to ₹1,35,888 (see the [5 kW hybrid inverter price guide](/blog/5kw-hybrid-inverter-price-india/)); these are equipment listings, not quotes. Add labour, cabling changes and recommissioning from your installer's written quote, and subtract any buyback deduction on the old unit. Replacement cost = new unit + labour and recommissioning − buyback."
   - q: "Does a new inverter improve solar generation compared to a 10-year-old unit?"
     a: "Yes, but modestly. String inverters from 2014 to 2016 typically had 95% to 96% peak efficiency, while current models reach 97.5% to 98.2%. On a 5 kW system generating 7,000 units a year, that gap is worth roughly 100 to 200 units annually, about ₹700 to ₹1,600 at typical tariffs. Efficiency alone rarely justifies replacement. The real gains are reliability, monitoring, warranty cover, and the option to add batteries, which older on-grid units cannot support."
 featured: false
@@ -45,12 +45,15 @@ Searches for old inverter exchange in solar usually come from exactly this situa
 
 > [!KEYTAKEAWAYS]
 > - No formal OEM exchange program exists for solar inverters in India in 2026. Installer buyback deductions of ₹1,000 to ₹4,000 on working 3 to 5 kW units are the practical norm.
-> - Scrap value of a transformerless [string inverter](/glossary/string-inverter/) is ₹300 to ₹1,500; transformer-based units fetch ₹800 to ₹2,500 for their copper (industry-observed ranges).
+> - Scrap value of a transformerless [string inverter](/glossary/string-inverter/) is typically lower than that of a transformer-based unit, which carries copper; ask local scrap dealers for a quote (this guide gives practitioner ranges below, not published prices).
 > - Repair is worth it only when the quote stays under about 25% of new-inverter price. That is roughly ₹8,000 to ₹15,000 on a 5 kW unit, and spares must exist.
-> - Replacing a 5 kW [on-grid inverter](/glossary/on-grid-inverter/) costs ₹45,000 to ₹65,000 for the unit, ₹65,000 to ₹90,000 for hybrid, plus ₹3,000 to ₹8,000 labour.
+> - Dated listings on 14 October 2026: a 5 kW [on-grid inverter](/glossary/on-grid-inverter/) at ₹29,320 to ₹46,500 and a 5 kW hybrid at ₹63,899 to ₹1,35,888, before labour (these are listings, not quotes).
 > - Old inverters are e-waste under the E-Waste (Management) Rules, 2022, and should go to CPCB-authorised recyclers, not informal scrap channels.
 > - Efficiency gain from swapping a 2015-era inverter for a 2026 model is roughly 1.5 to 2.5%. On a 5 kW system that is worth ₹700 to ₹1,600 a year, so efficiency alone never justifies replacement.
 > - The strongest upgrade case is adding battery backup: old on-grid inverters cannot take batteries, and a hybrid swap adds storage plus backup.
+
+> [!NOTE] About the ranges in this guide
+> The buyback, scrap, trade-in and repair amounts below are practitioner estimates with no published price source; use them as negotiation starting points and replace them with local written quotes. Replacement-unit prices are dated listings.
 
 **Short version.** Old solar inverter exchange in India works through installer buyback (₹1,000 to ₹4,000 on working units). Scrap sales fetch ₹300 to ₹2,500, and working units can also be resold. Replace rather than repair when the main PCB has failed, the model is discontinued, or the unit is over 8 years old. Dispose of the old unit through a CPCB-authorised e-waste recycler. That is the route the E-Waste (Management) Rules, 2022 require.
 
@@ -84,8 +87,8 @@ Table: Repair versus replace for a 5 kW class inverter, typical costs and verdic
 | Main power PCB or IGBT module replacement | ₹12,000 to ₹20,000 | Repair only if under 5 years old and spares are genuine |
 | Repeated faults, second repair in 18 months | ₹6,000 to ₹15,000 each time | Replace |
 | Discontinued model, no authorised spares | Quote varies, often ₹15,000+ with local boards | Replace |
-| New 5 kW on-grid inverter (mid-market) | ₹45,000 to ₹65,000 | Reference point |
-| New 5 kW hybrid inverter | ₹65,000 to ₹90,000 | Reference point for upgrade |
+| New 5 kW on-grid inverter (dated listings, 14 Oct 2026) | ₹29,320 to ₹46,500 | Reference point |
+| New 5 kW hybrid inverter (dated listings, 14 Oct 2026) | ₹63,899 to ₹1,35,888 | Reference point for upgrade |
 
 These are industry-observed ranges from the Indian service market in 2026, not published price lists. Minor inverter repairs in international markets run $150 to $400. Surge or wiring damage repairs cost $300 to $700, according to [GreenLancer](https://www.greenlancer.com/post/solar-inverter-repair), 2026. Indian labour rates bring those figures down somewhat while spare parts stay comparable.
 
@@ -143,7 +146,7 @@ Three technical checks decide whether your existing system carries over:
 2. **DC and AC cabling.** Same-capacity swaps usually reuse everything. Capacity increases or string reconfiguration may need thicker DC cable or a new AC distribution board.
 3. **Net-metering paperwork.** Some DISCOMs treat an inverter swap as a modification requiring an updated approval, especially if the model or capacity changes. Your installer should handle this, but ask explicitly.
 
-Battery cost is the real budget line. A 5 kWh lithium (LiFePO4) battery adds ₹60,000 to ₹1,00,000 in 2026 depending on brand and depth of discharge. You can install the hybrid inverter now and add the battery later, since hybrid units run fine as on-grid inverters until storage is connected. That staging spreads the cost without repeating labour.
+Battery cost is the real budget line. A Deye SE-F5 PLUS 5.12 kWh lithium battery was listed at ₹1,23,000 on 14 October 2026 (about ₹24,000 per kWh), and prices differ by brand and depth of discharge. You can install the hybrid inverter now and add the battery later, since hybrid units run fine as on-grid inverters until storage is connected. That staging spreads the cost without repeating labour.
 
 ## E-Waste Rules and Responsible Disposal
 

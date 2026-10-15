@@ -168,7 +168,7 @@ Policy conversations in the Indian solar industry tend to focus on installation 
 
 ### Reform 1: MNRE Minimum Service Standards
 
-[MNRE](/glossary/mnre/) should mandate minimum after-sales service standards as a condition of ALMM listing. Specifically: brands must declare a written SLA covering ticket acknowledgement, on-site response, and system restoration times. The SLA must be made available to buyers and registered with MNRE. Brands that fail to meet their declared SLA in more than 5% of service events in any quarter should face ALMM listing suspension until corrective action is demonstrated.
+[MNRE](/glossary/mnre/) should mandate minimum after-sales service standards as a condition of eligibility for subsidised projects (ALMM today covers only modules and cells, so this would be a new requirement for inverter brands). Specifically: brands must declare a written SLA covering ticket acknowledgement, on-site response, and system restoration times. The SLA must be made available to buyers and registered with MNRE. Brands that fail to meet their declared SLA in more than 5% of service events in any quarter should face ALMM listing suspension until corrective action is demonstrated.
 
 This is not a radical requirement. The Bureau of Energy Efficiency already mandates performance standards for appliances. The [BIS certification](/glossary/bis-certification/) regime mandates product quality. Service quality is the logical third pillar.
 
@@ -214,7 +214,7 @@ Table: Service SLA issues, the current state as the post describes it and what i
 
 | Issue | Current State | What Is Needed |
 | --- | --- | --- |
-| Declared SLA | Not required by MNRE; few warranties state a measurable one | MNRE to mandate as ALMM listing condition |
+| Declared SLA | Not required by MNRE; few warranties state a measurable one | MNRE to mandate as a condition of subsidised-project eligibility |
 | Resolution time | No published industry figure | Proposed target of 7 days or less with a Gate 5 credit |
 | Tier-2/3 service density | No MNRE disclosure requirement | Public service centre map mandatory with listing |
 | Spare-parts inventory model | Varies by brand | Regional warehouse model with state-level inventory |

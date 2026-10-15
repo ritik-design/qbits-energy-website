@@ -216,7 +216,7 @@ Some states provide GST refund on renewable equipment.
 
 PLI scheme partially offsets GST through manufacturing incentive.
 
-ALMM-listed equipment is treated under the same GST rates as other solar equipment.
+ALMM-listed modules are treated under the same GST rates as other solar equipment.
 
 ## Standards and certifications
 

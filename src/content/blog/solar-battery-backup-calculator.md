@@ -180,8 +180,6 @@ Without the efficiency correction, you would have calculated 8.0 ÷ 1.4 = 5.71 h
 
 [Round-trip efficiency](/glossary/round-trip-efficiency/) (the combined efficiency of charging the battery from solar and then discharging it through the inverter) is a separate but related figure. LFP batteries have a round-trip efficiency of 92–96%, meaning a small additional loss occurs during the charge cycle. For backup-time calculations, what matters is the discharge efficiency (the inverter's DC-to-AC conversion), which is the 95–97% figure cited above.
 
-> *Source - [IEA Renewables 2024 Report](https://www.iea.org/reports/renewables-2024), International Energy Agency, 2025.* Battery storage round-trip efficiency for lithium-ion technologies ranges from 85–95% across the charge-discharge cycle, with newer LFP cells reaching the upper end of this range.
-
 ## The Backup Hours Reference Table: Battery Size × Load
 
 Use this table to find your approximate backup time at a glance. All calculations use LFP at 80% DoD and 95% inverter efficiency. For lead-acid batteries, multiply the hours by 0.56 (50% DoD ÷ 80% DoD × same efficiency).
@@ -291,8 +289,6 @@ That 5 kWh recovery means the battery effectively gained 3.4 hours of additional
 
 This is why [hybrid inverter](/blog/on-grid-vs-hybrid/) selection matters as much as battery selection. A hybrid inverter that can simultaneously supply loads from solar and charge the battery (rather than one that only does one at a time) delivers meaningfully longer effective backup during daytime outages.
 
-> *Source - [IRENA Electricity Storage and Renewables Report](https://www.irena.org/Publications/2017/Oct/Electricity-Storage-and-Renewables-Costs-and-Markets), International Renewable Energy Agency.* Residential storage systems with co-located solar generation show 40–65% longer effective backup duration during daytime outages compared to standalone battery-only systems of the same capacity.
-
 ## Common Myths About Solar Battery Backup Time
 
 Several misconceptions circulate in WhatsApp groups and among installers who quote backup hours without doing the actual calculation. Addressing them directly saves Indian homeowners from costly surprises.
@@ -394,8 +390,6 @@ The [on-grid versus hybrid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-d
 
 For homeowners uncertain whether to invest in solar backup or stick with a conventional UPS, the [solar inverter versus UPS comparison](/blog/solar-inverter-vs-ups/) quantifies the cost per backup-hour from each technology across a five-year horizon.
 
-> *Source - [NREL Battery Technology Report](https://www.nrel.gov/docs/fy21osti/79736.pdf), National Renewable Energy Laboratory, 2021.* LFP batteries have demonstrated calendar life of 10–15 years in residential applications when operating between 20% and 90% State of Charge and maintained below 45 °C.
-
 ## Avoiding the Five Sizing Mistakes Indian Homeowners Make
 
 Backup system sizing errors can create overload, inadequate runtime or incompatible equipment. The five mistakes below are the ones to check before you finalise the design.
@@ -415,9 +409,7 @@ The battery must recover its charge within one day of normal sunlight (see Phase
 **Mistake 5: Buying the cheapest inverter with a premium battery**
 The battery's [BMS](/glossary/bms/) communicates cell-level health data to the inverter. A budget inverter without proper BMS protocol support will ignore this data and apply generic charge curves, potentially overcharging lithium cells or under-utilizing capacity. The inverter-battery pair must be validated together, not purchased from separate bottom-of-market vendors.
 
-For guidance on identifying reliable inverter vendors in your region, the [best hybrid solar inverter guide for India](/blog/best-hybrid-solar-inverter-india-2026/) provides a ranked comparison with battery compatibility data for the top models, and Heaven Green Energy's find a local solar installer directory helps homeowners verify installer credentials before committing to a battery quote.
-
-> *Source - [CEA Annual Report on Power Sector](https://cea.nic.in/annual-growth-report/), Central Electricity Authority of India, 2025.* Average transmission and distribution losses in Indian states ranged from 14% to 31% in FY 2023–24, with rural feeders in UP and Bihar experiencing the highest reported values, a direct indicator of grid instability and power-cut frequency in these regions.
+For guidance on identifying reliable inverter vendors in your region, the [best hybrid solar inverter guide for India](/blog/best-hybrid-solar-inverter-india-2026/) provides model-by-model details with battery compatibility notes, and Heaven Green Energy's find a local solar installer directory helps homeowners verify installer credentials before committing to a battery quote.
 
 ## Qbits model documentation
 
@@ -426,5 +418,3 @@ For guidance on identifying reliable inverter vendors in your region, the [best 
 - **[Residential Solutions](/residential-solution/)**: Ask which equipment and project services are available, then obtain the scope, responsible party, exclusions and fees in writing.
 
 [Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
-
-> *Source - [Mercom India Q1 2026 Solar Market Report](https://www.mercomindia.com/india-solar-installations-q1-2026), Mercom Capital Group, 2026.* Residential rooftop solar with battery storage grew 68% year-on-year in Q1 2026, with hybrid systems now accounting for 43% of all new residential installations, driven primarily by homeowners in high-outage states prioritising backup hours over grid export economics.

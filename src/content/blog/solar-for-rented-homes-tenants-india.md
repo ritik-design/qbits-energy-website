@@ -33,7 +33,7 @@ faqs:
     a: "Yes. Tenants in high-rise apartments have three options: (1) Participate in the society's common area solar programme, where savings are distributed through maintenance charge reduction; (2) Install a small balcony solar system (100–400 Wp) without needing any approval; (3) Negotiate with the landlord for a dedicated small system (1–2 kW) on the terrace or balcony with a shared savings model. High-rise tenants in states with virtual net metering (Maharashtra) may also benefit from society-wide solar generation distributed to individual meters."
 ---
 
-Tenants account for approximately 30% of India's urban households, an estimated 70 million rented households in cities and towns. Most of these renters pay electricity bills of ₹1,500 to ₹5,000 per month, often at commercial tariffs if the meter is in the landlord's name. Yet the common assumption is that solar is only for property owners.
+Millions of urban households rent their homes. Most renters pay electricity bills that can run to several thousand rupees a month, sometimes at commercial tariffs if the meter is in the landlord's name. Yet the common assumption is that solar is only for property owners.
 
 That assumption is wrong. Tenants in India have more solar options in 2026 than most people realise, from portable plug-in systems that require no permission to full rooftop installations negotiated into the lease. The path depends on your tenure, your landlord's cooperation, and your state's net metering rules.
 
@@ -45,7 +45,7 @@ This guide maps every option available to Indian tenants and renters, with the n
 > - Tenants have four realistic solar paths: portable power stations, balcony-mounted panels, a landlord-owned system with shared savings, or negotiated ownership rights in the lease.
 > - Portable and balcony solar (under 1 kW, plug-in) need no landlord NOC or DISCOM approval because they do not export to the grid.
 > - PM Surya Ghar subsidy goes to the electricity meter holder, usually the landlord in Indian rentals, so subsidy sharing must be negotiated upfront.
-> - A landlord-owned 2 kW system can cut a tenant's electricity rate from ₹8–10/unit grid tariff to roughly ₹4–5/unit in exchange for a modest rent increase.
+> - A landlord-owned 2 kW system can cut a tenant's electricity rate to a negotiated solar rate below the grid tariff, in exchange for a modest rent increase.
 > - Net metering in a tenant's name is possible in Maharashtra, Karnataka, Gujarat, Rajasthan, and Delhi, but requires the meter to be in the tenant's name plus landlord NOC.
 > - Every ownership term (who owns the system, removal rights, subsidy sharing) should be documented in a lease addendum before installation begins.
 
@@ -77,17 +77,17 @@ The simplest solar option for a tenant requires no permission, no installation, 
 - **Portable power station:** A battery-inverter unit that stores solar energy and provides AC outlets and USB ports. 200–2,000 Wh capacity.
 - **Connection:** A simple MC4-to-DC cable from panel to power station. Plug-in, no electrician required.
 
-Table: Portable solar systems for tenants by size, use and indicative price
+Table: Portable solar systems for tenants by size and use (compare current listings for price)
 
-| System | Panel | Battery | Best for | Price (India) |
-| --- | --- | --- | --- | --- |
-| Portable entry | 100 Wp panel | 200 Wh station | Phone, fan, lighting | ₹12,000–₹18,000 |
-| Portable mid | 200 Wp panel | 500 Wh station | Laptop, fan, small TV | ₹22,000–₹35,000 |
-| Portable premium | 400 Wp + 2 panels | 1,000–2,000 Wh | Fan + laptop + lighting all day | ₹45,000–₹80,000 |
+| System | Panel | Battery | Best for |
+| --- | --- | --- | --- |
+| Portable entry | 100 Wp panel | 200 Wh station | Phone, fan, lighting |
+| Portable mid | 200 Wp panel | 500 Wh station | Laptop, fan, small TV |
+| Portable premium | 400 Wp + 2 panels | 1,000–2,000 Wh | Fan + laptop + lighting all day |
 
 **Limitations:** Portable systems cannot power air conditioners or large appliances. They are best for critical backup (phones, fans, lights) and reducing grid bill for small loads. No DISCOM connection, no net metering benefit.
 
-**Best suited for:** Tenants who pay ₹500–₹2,000/month on electricity and want independence from power cuts without any installation complexity.
+**Best suited for:** Tenants with a small monthly electricity bill who want independence from power cuts without any installation complexity.
 
 ## Option 2: Balcony Solar (Plug-In Solar India)
 
@@ -104,13 +104,10 @@ Balcony solar (called "plug-in solar" or "balkonkraftwerk" in Germany where it i
 **Legal status in India (2026):**
 Balcony solar systems below 1 kW connected through a household socket are not subject to DISCOM net metering regulations because they do not export to the grid, they simply reduce import. They are consumer electronics, not grid-connected solar installations. No NOC, no DISCOM approval, no landlord permission is legally required for the installation itself (though informing the landlord is advisable).
 
-> **Balcony solar opportunity.** Germany legalized "Balkonkraftwerk" plug-in solar in 2023, triggering a market of 500,000+ installations within 18 months. India's urban apartment market (with millions of south-facing balconies) represents a similar opportunity for tenant solar without the installation and approval barriers. *Source - [IEA Renewable Energy Global Status Report 2024](https://www.iea.org/reports/renewables-2024){target="_blank" rel="noopener"}, 2024.*
-
 **Practical considerations for Indian balcony solar:**
 - Most Indian apartments have balconies with south or west-facing orientation, suitable for solar.
-- A 400 Wp balcony panel generates approximately 1.5–2 kWh/day, enough to power a ceiling fan for 6–8 hours.
-- The system offsets approximately ₹180–₹220/month of electricity at ₹8–10/unit tariff.
-- Full payback on a ₹20,000–₹25,000 balcony system: 8–12 years at this offset rate.
+- A 400 Wp balcony panel generates roughly 1.6 kWh/day (0.4 kW × 5 peak sun hours × 0.8), enough to power a ceiling fan for many hours.
+- If every unit is used at home, the offset is about 1.6 × 30 × ₹8 to ₹10 = ₹384 to ₹480 a month; payback is the listed price divided by the yearly offset, so compare current listings first.
 
 ## Option 3: Landlord-Tenant Solar Agreement
 
@@ -143,12 +140,12 @@ Table: Landlord-owns model versus tenant-installs model, term by term
 **Negotiating the landlord-owns model:**
 
 > [!EXAMPLE] The pitch to the landlord
-> 1. The landlord invests ₹1–2 Lakh (after subsidy) in a 2 kW system.
-> 2. The tenant signs a 3-year lease at a slightly higher monthly rent (₹500–₹1,000/month to contribute to payback).
-> 3. The tenant gets electricity at the solar rate (₹4–5/unit) instead of the grid rate (₹8–10/unit).
+> 1. The landlord invests in a 2 kW system. The MNRE benchmark cost for 2 kW is ₹1,00,000, or ₹40,000 after the ₹60,000 central subsidy (benchmark of 13 February 2024; your quote may differ).
+> 2. The tenant signs a 3-year lease at a slightly higher monthly rent (an amount you negotiate, to contribute to payback).
+> 3. The tenant gets electricity at a negotiated solar rate that is below the grid rate.
 > 4. At the end of the tenancy, the landlord owns an appreciating asset that increases rental value.
 
-This model is gaining traction in Pune, Bangalore, and Hyderabad rental markets where tech-sector tenants are aware of solar benefits and willing to pay a green premium. For comparison with commercial CAPEX and RESCO models, see the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/). A landlord weighing whether the 2 kW investment pencils out can estimate the payback with Heaven Green Energy's solar cost and savings calculator before committing.
+For comparison with commercial CAPEX and RESCO models, see the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/). A landlord weighing whether the 2 kW investment pencils out can estimate the payback with Heaven Green Energy's solar cost and savings calculator before committing.
 
 ## Option 4: Negotiating PM Surya Ghar with Your Landlord
 
@@ -156,7 +153,7 @@ PM Surya Ghar Muft Bijli Yojana provides subsidies of ₹30,000 for the first kW
 
 **Script for tenant negotiation with landlord:**
 
-*"Under PM Surya Ghar, you as the meter holder can get a ₹78,000 government subsidy on a 3 kW solar system. The system will cost approximately ₹90,000 after subsidy. It generates electricity worth ₹6,000–₹7,000 per year (600 free units). I'll commit to a 3-year lease renewal if we install solar, and I'll pay ₹500/month extra rent to contribute to the remaining cost. You get a 3-year committed tenant, a paid-off solar asset in 10 years, and a higher-value property."*
+*"Under PM Surya Ghar, you as the meter holder can get a ₹78,000 government subsidy on a 3 kW solar system. The MNRE benchmark cost for 3 kW is ₹1,45,000, so about ₹67,000 after the subsidy (get a written quote for the real figure). It generates about 4,380 units a year (3 kW × 5 peak sun hours × 365 × 0.8), worth about ₹35,000 a year at ₹8 a unit. I'll commit to a 3-year lease renewal if we install solar, and I'll pay an agreed amount of extra rent each month to contribute to the cost. You get a committed tenant, a solar asset that pays for itself, and a higher-value property."*
 
 This framing aligns the landlord's incentive (property value, tenant commitment) with the tenant's incentive (lower bills, backup power).
 
@@ -181,7 +178,7 @@ Table: Tenant net metering by state and the key requirement in each
 The [how to apply for net metering in India guide](/blog/how-to-apply-net-metering-india/) covers the application process in detail. > [!TIP] Transfer the meter first
 > For tenants, the most important pre-step is getting the electricity meter transferred to their name, contact the local [DISCOM](/glossary/discom/) for the meter transfer process.
 
-[NREL's distributed energy and housing tenure research](https://www.nrel.gov/){target="_blank" rel="noopener"} documents that renters in developing markets who gain access to solar through landlord agreements see 15–30% reduction in effective electricity costs without any capital investment, confirming the financial viability of the landlord-tenant solar model for both parties. [MNRE's net metering framework](https://mnre.gov.in/){target="_blank" rel="noopener"} does not explicitly restrict net metering to property owners, it applies to the electricity consumer. Many DISCOMs have extended this interpretation to allow tenant-name meter applications with property owner NOC. [IRENA's research on distributed solar for urban renters](https://www.irena.org/Publications){target="_blank" rel="noopener"} identifies regulatory barriers for tenants as one of the top constraints on residential solar adoption in Asian cities, and recommends tenant-inclusive net metering policies as a priority reform.
+[MNRE's net metering framework](https://mnre.gov.in/){target="_blank" rel="noopener"} does not explicitly restrict net metering to property owners, it applies to the electricity consumer. Many DISCOMs have extended this interpretation to allow tenant-name meter applications with property owner NOC.
 
 ## Common Mistakes Tenants Make with Solar
 
@@ -191,7 +188,7 @@ The [how to apply for net metering in India guide](/blog/how-to-apply-net-meteri
 - **Not getting the ownership agreement in writing**: verbal agreements about who owns the solar system at end of tenancy are routinely disputed. Document ownership in the lease addendum with the exact clause: "Solar system installed at [address] remains the property of the tenant and may be removed by the tenant at end of tenancy."
 - **Ignoring the net metering meter transfer**: a tenant who installs solar with the meter in the landlord's name loses all net metering export benefit to the landlord. Transfer the meter to the tenant's name before applying for net metering.
 
-For the full context on residential solar systems including sizing and pricing, read the [solar system for 2 BHK guide](/blog/solar-system-for-2bhk-india/) and the [best solar system under 1 lakh guide](/blog/best-solar-system-under-1-lakh/) for budget-conscious options. [JMK Research's India residential solar adoption study](https://jmkresearch.com/){target="_blank" rel="noopener"} documents that tenant households represent 28% of India's urban electricity consumers but less than 3% of rooftop solar installations, a gap that will close as portable and balcony solar options become better known.
+For the full context on residential solar systems including sizing and pricing, read the [solar system for 2 BHK guide](/blog/solar-system-for-2bhk-india/) and the [best solar system under 1 lakh guide](/blog/best-solar-system-under-1-lakh/) for budget-conscious options.
 
 ## Planning Your Solar Exit: What Happens When You Move
 

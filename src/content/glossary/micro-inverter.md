@@ -18,7 +18,7 @@ quickFacts:
   industry: "Solar PV / Module Level Power Electronics"
   primaryUse: "Panel-level DC-to-AC conversion in residential and small commercial solar"
   commonUsers: "Homeowners with shaded or complex roofs, premium residential installers, small commercial"
-  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, CEA Connectivity Regulations, MNRE ALMM, UL 1741"
+  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, CEA Connectivity Regulations, UL 1741"
   relatedTechnologies: "DC optimisers, AC modules, smart inverters, MLPE"
 relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }

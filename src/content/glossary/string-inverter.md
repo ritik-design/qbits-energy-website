@@ -18,7 +18,7 @@ quickFacts:
   industry: "Solar PV / Power Electronics"
   primaryUse: "Conversion of string-level DC into AC for grid or load"
   commonUsers: "Homeowners, EPCs, C&I plants, utility-scale developers"
-  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, CEA Connectivity Regulations, MNRE ALMM"
+  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, CEA Connectivity Regulations"
   relatedTechnologies: "MPPT, IGBT, SiC, transformerless topology, multilevel inverters"
 relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }

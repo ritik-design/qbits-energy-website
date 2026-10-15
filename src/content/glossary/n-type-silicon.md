@@ -147,7 +147,7 @@ Table: Which silicon base and emitter each cell technology uses
 
 ## Real-world applications
 
-TOPCon modules from Waaree, Adani Green Solar, Tata Power Solar, with 700W+ n-type bifacial panels increasingly common on Indian showcase floors (see [REI Expo 2026 Recap, Top Trends from India's Biggest Solar Exhibition](/blog/rei-expo-recap/)).
+TOPCon modules from Waaree, Adani Green Solar, Tata Power Solar, with 700W+ n-type bifacial panels increasingly common on Indian showcase floors (see [REI Expo 2026 preview: what to look for](/blog/rei-expo-recap/)).
 
 HJT modules from premium manufacturers.
 

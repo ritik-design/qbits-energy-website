@@ -12,12 +12,12 @@ keywords:
   - solar storage india
   - utility battery
   - grid storage
-shortDefinition: "BESS (Battery Energy Storage System) is a grid-connected or behind-the-meter battery storage installation, ranging from kWh-scale residential to MWh-scale utility. Indian BESS market growing rapidly through VGF scheme, with 4 GWh utility BESS tendered by SECI for grid services and renewable firming."
+shortDefinition: "BESS (Battery Energy Storage System) is a grid-connected or behind-the-meter battery storage installation, ranging from kWh-scale residential to MWh-scale utility. Indian BESS is growing through the Viability Gap Funding scheme, with 4,000 MWh approved in 2023 and a 30 GWh second tranche announced in 2025, for grid services and renewable firming."
 quickFacts:
   industry: "Energy Storage"
   primaryUse: "Grid services and renewable firming"
   commonUsers: "Utilities, IPPs, C&I customers"
-  relevantStandards: "IEC 62619, IS 16893, UL 9540"
+  relevantStandards: "IEC 62619, UL 9540"
   relatedTechnologies: "Lithium-ion, BMS, PCS (Power Conversion System)"
 relatedTerms:
   - { slug: "lithium-ion-battery", term: "Lithium Ion Battery" }
@@ -42,11 +42,11 @@ faqs:
   - q: "What chemistry?"
     a: "LFP dominates stationary BESS. NMC in some EV-derived applications. Lead acid in cost-sensitive backup."
   - q: "What is the Indian BESS pipeline?"
-    a: "SECI tendered 4 GWh under VGF. Additional tenders planned through 2027. Total Indian utility BESS pipeline: 15-20 GWh by 2027."
+    a: "The Union Cabinet approved VGF for 4,000 MWh of BESS in September 2023, and the Ministry of Power announced a second tranche for 30 GWh (₹5,400 crore, ₹18 lakh per MWh) in June 2025. CEA has said India needs about 37 GWh of BESS by 2027 and 236 GWh by 2031-32 (as reported by pv magazine India, June 2025)."
   - q: "What services does BESS provide?"
     a: "Renewable firming (solar/wind RTC), frequency regulation, peak shaving, load shifting, voltage support, blackstart."
   - q: "What is the typical BESS capex?"
-    a: "₹2.5-3.0 crore per MWh for utility 4-hour storage. Falling 10-15 percent annually."
+    a: "It depends on chemistry, duration and scope, and has been falling. Use recent tender results and current EPC quotes for the project instead of a fixed figure."
   - q: "Is BESS economic?"
     a: "Increasingly so. VGF + falling cell prices + grid service revenue support utility BESS economics."
   - q: "What is PCS?"
@@ -60,7 +60,7 @@ faqs:
   - q: "What is grid-scale BESS?"
     a: "Utility-scale BESS connected to transmission or distribution grid. Provides grid services and renewable firming."
   - q: "Is BESS the future?"
-    a: "Yes for high-renewable grids. India targets 50+ GWh BESS by 2030 alongside 500 GW renewable capacity."
+    a: "Yes for high-renewable grids. CEA has put India's requirement at about 37 GWh by 2027 and 236 GWh by 2031-32 (as reported by pv magazine India, June 2025)."
   - q: "What is the lifetime?"
     a: "Utility LFP BESS: 15-20 years calendar, 5,000-8,000 cycles. Replacement may be needed after 12-15 years for some components."
 author: "Nirav Dhanani"
@@ -73,8 +73,8 @@ BESS (Battery Energy Storage System) is a grid-connected or behind-the-meter bat
 > [!NOTE] In short
 > - BESS is battery storage at any scale, from kWh residential home batteries to GWh utility installations, though the term is most often used for utility and large commercial deployments.
 > - A complete BESS bundles the battery (usually LFP), a BMS, a Power Conversion System, an Energy Management System, thermal management and fire suppression.
-> - India's SECI has tendered 4 GWh of utility BESS under the Viability Gap Funding scheme, with the total pipeline expected to reach 30 to 50+ GWh by 2030.
-> - Utility 4-hour BESS costs roughly ₹2.5 to 3.5 crore per MWh, with cell costs falling 10 to 15 percent annually.
+> - India's Viability Gap Funding scheme backed 4,000 MWh of BESS in 2023 and a further 30 GWh in 2025; CEA's stated requirement is about 236 GWh by 2031-32.
+> - BESS capex varies with chemistry, duration and scope and has been falling, so use recent tender results and current quotes rather than a fixed per-MWh figure.
 > - BESS provides renewable firming, frequency regulation, peak shaving and blackstart, on top of storing solar and wind generation for round-the-clock dispatch.
 > - Utility LFP BESS is rated for 15 to 20 years calendar life and 5,000 to 8,000 cycles.
 
@@ -86,7 +86,7 @@ A complete BESS includes:
 - Thermal management: cooling and ventilation
 - Safety systems: fire suppression, monitoring against [thermal runaway](/glossary/thermal-runaway/)
 
-For Indian solar, BESS is rapidly emerging as a critical complement to renewable generation. SECI's 2023-launched [Viability Gap Funding](/glossary/viability-gap-funding/) (VGF) scheme targets 4 GWh of grid-connected BESS by 2027. Major developers (Adani Green, ReNew Power, Tata Power Renewables, NTPC, JSW Energy) are building Indian BESS pipeline. Total Indian utility BESS capacity is expected to reach 50+ GWh by 2030.
+For Indian solar, BESS is rapidly emerging as a critical complement to renewable generation. the [Viability Gap Funding](/glossary/viability-gap-funding/) (VGF) scheme approved in 2023 backed 4,000 MWh of grid-connected BESS, and a second tranche in 2025 supports 30 GWh. Major developers (Adani Green, ReNew Power, Tata Power Renewables, NTPC, JSW Energy) are building Indian BESS pipelines. CEA has put the requirement at about 236 GWh by 2031-32.
 
 ## Why BESS matters
 
@@ -119,15 +119,7 @@ Table: BESS scale categories by capacity and typical use
 
 ### Indian BESS pipeline
 
-Table: Indian BESS pipeline by source (the 2027-30 total is a stated target, not the sum of the rows)
-
-| Source | Pipeline |
-|---|---|
-| SECI VGF tenders | 4 GWh (2023-27) |
-| Additional SECI tenders | 5-10 GWh |
-| State utility BESS | 5-10 GWh |
-| C&I behind-the-meter | 2-5 GWh |
-| Total 2027-30 target | 30-50+ GWh |
+Tranche 1 of the Viability Gap Funding scheme (September 2023) covers 4,000 MWh and was later reported as 13.2 GWh approved under the ongoing scheme; tranche 2 (June 2025) covers 30 GWh at ₹18 lakh per MWh. CEA's stated requirement is about 37 GWh by 2027 and 236 GWh by 2031-32 (pv magazine India, 10 June 2025). Rows for additional tenders, state utilities and C&I behind-the-meter capacity were removed because no dated source was available.
 
 ### Major Indian BESS players
 
@@ -145,21 +137,7 @@ Table: Major Indian BESS developers and their stated status
 
 ### BESS economics
 
-Table: Approximate cost components of a 4-hour utility BESS, ₹/kWh (component ranges do not sum exactly to the total)
-
-| Component | Approximate cost (4-hour, ₹/kWh) |
-|---|---|
-| Cells | 7,000-9,000 |
-| Pack + BMS | 10,000-12,000 |
-| PCS (inverter) | 4,000-5,000 |
-| Containerisation | 1,500-2,500 |
-| EPC + civil + installation | 2,000-3,000 |
-| Total | 25,000-35,000 |
-
-> [!EXAMPLE] From ₹/kWh to ₹ crore per MWh
-> The table total of ₹25,000 to ₹35,000 per kWh becomes ₹2.5 to ₹3.5 crore per MWh once multiplied by the 1,000 kWh in a MWh, which is the roughly ₹2.5 to 3.5 crore figure quoted for 4-hour utility BESS.
-
-Per MWh: ₹2.5-3.5 crore for 4-hour utility BESS. Sizing this correctly, whether for a utility tender or a smaller commercial system, follows the same [battery and energy storage sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) discipline used across the industry.
+A BESS cost stack has cells, pack and BMS, power conversion system (PCS), containerisation, and EPC, civil and installation work. Prices have been falling, and the split differs by project, so use current tender results and supplier quotes. A per-kWh component table was removed from this page because no dated source was available. Sizing this correctly, whether for a utility tender or a smaller commercial system, follows the same [battery and energy storage sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) discipline used across the industry.
 
 ### Grid services revenue
 
@@ -205,9 +183,9 @@ Document grid services capability, including [grid-forming inverter](/glossary/g
 
 ## Indian market context
 
-VGF support transformed BESS economics.
+VGF support has improved BESS economics.
 
-ALMM extension to batteries supports domestic supply.
+MNRE's Solar Systems, Devices and Components Goods Order, 2025 brings storage batteries into a conformity regime; ALMM itself lists only PV modules and cells.
 
 PLI for advanced chemistry cells (ACC) building domestic capability.
 
@@ -222,7 +200,7 @@ Table: Standards relevant to BESS safety and grid interconnection
 | Standard | Scope |
 |---|---|
 | IEC 62619 | Industrial lithium safety |
-| IS 16893 | Indian stationary storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | UL 1973 | US stationary battery |
 | UL 9540 | Energy storage system |
 | UL 9540A | Fire test methodology |
@@ -230,7 +208,7 @@ Table: Standards relevant to BESS safety and grid interconnection
 
 ## Key takeaways
 
-BESS (Battery Energy Storage System) is grid-connected or behind-the-meter battery storage. Indian BESS market in early-to-mid growth phase, with 4 GWh SECI VGF tender driving initial pipeline. LFP dominates due to safety and lifecycle cost. Major Indian developers (Adani Green, ReNew, Tata, NTPC) building pipeline targeting 50+ GWh by 2030. Critical for high-renewable Indian grid evolution.
+BESS (Battery Energy Storage System) is grid-connected or behind-the-meter battery storage. Indian BESS market in early-to-mid growth phase, supported by the Viability Gap Funding scheme (4,000 MWh in 2023, 30 GWh in 2025). LFP dominates due to safety and lifecycle cost. Major Indian developers (Adani Green, ReNew, Tata, NTPC) building pipelines. Critical for high-renewable Indian grid evolution.
 
 ## Further reading
 
@@ -243,10 +221,10 @@ For how BESS plays out in real projects, these guides go deeper:
 
 ## Sources
 
-- MNRE BESS VGF Scheme Guidelines 2023.
+- Union Cabinet approval of the BESS VGF scheme, 6 September 2023 (newsonair.gov.in), and Ministry of Power tranche 2 announcement, June 2025 (pv magazine India).
 - SECI BESS tender documents.
 - IEC 62619, Industrial lithium safety.
-- IS 16893, Indian stationary storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - UL 9540 and UL 9540A, US BESS standards.
 - BloombergNEF Battery Storage Outlook.
 - IEA Energy Storage Outlook 2024.

@@ -1,7 +1,7 @@
 ---
 title: "PM Surya Ghar: What Works, What Doesn't"
-excerpt: "An honest pm surya ghar opinion from inside the industry: the portal works, ALMM standards are real, but DISCOM backlogs and apartment exclusions are stalling 30 million rooftops."
-description: "An honest PM Surya Ghar assessment from the industry: the portal works, ALMM standards are real, but DISCOM backlogs are stalling 30 million rooftops."
+excerpt: "An honest pm surya ghar opinion from inside the industry: the portal works, ALMM standards are real, but DISCOM backlogs and apartment exclusions are holding back rooftops."
+description: "An honest PM Surya Ghar assessment from the industry: the portal works, ALMM standards are real, but DISCOM backlogs are holding back rooftops."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-10-14
@@ -22,7 +22,7 @@ faqs:
   - q: "Can apartment and flat owners get PM Surya Ghar subsidy?"
     a: "Currently the subsidy route for apartment owners is limited. Individual flat owners can apply for rooftop systems on their own terrace portion with a Resident Welfare Association no-objection certificate. The RWA can also apply for a common-area system at ₹18,000 per kW up to 500 kW. However, the community solar or virtual net metering route that would allow a single rooftop plant to credit multiple flat owners' bills does not yet exist at scale under the scheme."
   - q: "How long does PM Surya Ghar subsidy disbursement actually take?"
-    a: "MNRE targets 30 days from commissioning report submission to bank transfer. In practice, Gujarat and Maharashtra disburse within 30–60 days. States with slower smart meter rollout - parts of UP, Bihar, Madhya Pradesh - can take 90–120 days or longer. The main delay drivers are smart meter shortages, DISCOM inspection backlogs, and Aadhaar-linked bank account mismatches at the PFMS payment gateway."
+    a: "MNRE targets 30 days from commissioning report submission to bank transfer. In practice, disbursal times differ by state; states with slower smart meter rollout can take much longer. The main delay drivers are smart meter shortages, DISCOM inspection backlogs, and Aadhaar-linked bank account mismatches at the PFMS payment gateway."
   - q: "Is the current ALMM scope mandate helping or hurting the solar market?"
     a: "It does both, and the effect depends on the buyer. ALMM covers solar PV modules (List-I) and cells (List-II), and its main benefit is a quality and traceability floor for the equipment that qualifies for subsidy. The trade-off is a narrower choice of modules and, at times, tighter supply. MNRE publishes no ALMM list for inverters, so the mandate does not set an inverter quality floor, and buyers still need to check each inverter's certificates separately."
   - q: "What is the vendor empanelment problem in PM Surya Ghar?"
@@ -39,18 +39,18 @@ faqs:
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-Three years into [PM Surya Ghar](https://www.surgepv.com/blog/pm-surya-ghar-subsidy-calculator) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/), about 8.5 million households have registered on the portal, roughly 3.5 million installations have been commissioned, and the government has disbursed several thousand crore rupees in direct subsidies. By any absolute measure, this is the largest rooftop solar programme India has ever run. By the measure of its own ambition (1 crore rooftop installations by the end of the target period) the scheme is approximately one-third of the way there, and progress is slowing in the states that matter most.
+Three years into [PM Surya Ghar](https://www.surgepv.com/blog/pm-surya-ghar-subsidy-calculator) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/), MNRE announced on 4 August 2026 that more than 50.6 lakh households had installed rooftop solar, with ₹28,024 crore of subsidy released ([DD India](https://ddindia.co.in/2026/08/pm-surya-ghar-scheme-crosses-50-lakh-rooftop-solar-installations/), 4 August 2026). By any absolute measure, this is the largest rooftop solar programme India has ever run. By the measure of its own ambition (1 crore rooftop installations by the end of the target period) the scheme is roughly half of the way there, and the pace differs sharply between states.
 
 As someone who works daily with the installers, DISCOMs, and homeowners who are inside this system, I want to offer a view that goes beyond the press release and the complaint thread. [PM Surya Ghar](https://www.surgepv.com/solar-compliance/india/guides/pm-surya-ghar) has achieved real things. It has also created real structural problems that will not resolve themselves. Both deserve honest treatment.
 
 > [!KEYTAKEAWAYS]
-> - PM Surya Ghar has commissioned roughly 3.5 million rooftops out of 8.5 million registrations, about one-third of the way to its 1 crore target.
+> - MNRE reported more than 50.6 lakh households with rooftop solar by 4 August 2026, about half of the 1 crore target.
 > - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify both equipment categories separately.
 > - Apartment and flat owners, roughly 30–35% of urban India, have no viable subsidy pathway because a virtual net metering mechanism does not yet exist at scale.
 > - Subsidy disbursement targets 30 days but often takes 90–120+ days in states with slower smart meter rollout. Gujarat, Karnataka, and Maharashtra process applications fastest; Bihar, Jharkhand, and parts of Uttar Pradesh lag furthest behind.
-> - The five reforms in our scorecard, DISCOM SLAs, community solar, empanelment reform, AMC standards, and PFMS pre-validation, could add 2–3 million installations a year to the current trajectory.
+> - The five reforms in our scorecard, DISCOM SLAs, community solar, empanelment reform, AMC standards, and PFMS pre-validation, would speed up the current trajectory.
 
-> **The honest pm surya ghar opinion.** PM Surya Ghar works best as a demand-generation engine: the ₹78,000 subsidy cap converts curious homeowners into paying customers, the ALMM mandate is raising equipment standards, and the online portal has reduced paperwork by several orders of magnitude compared to the pre-2024 era. What it has not solved is the supply-side infrastructure problem, DISCOM interconnection processing that takes 4–9 months in too many states, a vendor empanelment framework that excludes quality smaller installers, and no clear pathway for the 30–40 million urban households who live in apartments.
+> **The honest pm surya ghar opinion.** PM Surya Ghar works best as a demand-generation engine: the ₹78,000 subsidy cap converts curious homeowners into paying customers, the ALMM mandate is raising equipment standards, and the online portal has moved the application process online. What it has not solved is the supply-side infrastructure problem, DISCOM interconnection processing that is slow in too many states, a vendor empanelment framework that excludes quality smaller installers, and no clear pathway for the 30–40 million urban households who live in apartments.
 
 This is not a complaint piece. Every point below includes a specific policy lever that would address it, because the goal of writing this is to contribute to a better programme rather than to catalogue its failures.
 
@@ -69,7 +69,7 @@ That is a compelling financial case, and the government deserves credit for sett
 
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar for a 3 kW or larger residential system, transferred directly to the homeowner's Aadhaar-linked bank account after DISCOM commissioning verification. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-**The 1 crore target is driving installer market growth.** Whatever its implementation problems, the sheer scale of PM Surya Ghar's ambition has attracted capital and talent into the rooftop solar installation market. EPC companies that were doing 20 installs per month in 2023 are now doing 80. Equipment distributors have expanded into Tier-2 and Tier-3 cities where they had no presence before. The scheme has functioned as a market-formation event, which is exactly what a government programme of this type should do. India's rooftop solar market grew by an estimated 65% year-on-year in 2025, a trajectory that [Mercom India](https://www.mercomindia.com/) attributes primarily to the PM Surya Ghar demand wave. Our overview of [solar EPC business dynamics in India](/blog/solar-epc-india/) covers how installer markets respond to large-scale policy demand.
+**The 1 crore target is driving installer market growth.** Whatever its implementation problems, the sheer scale of PM Surya Ghar's ambition has attracted capital and talent into the rooftop solar installation market. Equipment distributors have expanded into Tier-2 and Tier-3 cities where they had no presence before. The scheme has functioned as a market-formation event, which is exactly what a government programme of this type should do. Our overview of [solar EPC business dynamics in India](/blog/solar-epc-india/) covers how installer markets respond to large-scale policy demand.
 
 ## Where the Scheme Is Falling Short
 
@@ -98,23 +98,23 @@ Our post on [empanelled vendor selection for PM Surya Ghar](/blog/empanelled-ven
 The MNRE portal targets 30-day disbursement from commissioning report submission to bank transfer. This target is met in Gujarat and Maharashtra. It is not consistently met elsewhere. The delay drivers are:
 
 - **Smart meter shortage**: commissioning cannot be formally completed without a working bidirectional smart meter, and meter inventory is unevenly distributed.
-- **PFMS gateway mismatches**: the Public Financial Management System that handles direct benefit transfer requires exact Aadhaar-bank account linkage; any discrepancy triggers a manual review that can take 30–60 additional days.
+- **PFMS gateway mismatches**: the Public Financial Management System that handles direct benefit transfer requires exact Aadhaar-bank account linkage; any discrepancy triggers a manual review and delays the credit.
 - **DISCOM inspection queuing**: the physical inspection that must precede commissioning report submission is scheduled by the DISCOM, not the homeowner; in backlogged states this queue itself takes weeks.
 
 > [!WARNING] Plan for the subsidy wait
-> For a homeowner who has invested ₹1 Lakh or more in a system, a 4–6 month wait for a ₹78,000 subsidy is financially significant. Several homeowners we have spoken to have taken personal loans to bridge the gap, which adds interest cost that partially offsets the subsidy benefit.
+> For a homeowner who has invested ₹1 Lakh or more in a system, a long wait for a ₹78,000 subsidy is financially significant. A homeowner who takes a personal loan to bridge the gap pays interest that partially offsets the subsidy benefit.
 
 ### Apartment and Flat Owner Exclusion
 
 This is perhaps the most important structural gap, given that approximately 30–35% of urban India lives in multi-storey apartment buildings. The current scheme has two routes for apartment residents: (1) individual installation on your own terrace portion with RWA NOC, which is only practically feasible for penthouse or top-floor residents; (2) RWA-level installation for common areas at ₹18,000 per kW up to 500 kW.
 
-What does not exist is a virtual [net metering](/glossary/net-metering/) mechanism that would allow a single rooftop plant (installed by the RWA or a developer) to distribute energy credits across all flat owners' electricity bills. This is the mechanism that makes community solar viable in markets like the United States and several European countries. Without it, the 30–40 million households in urban apartment blocks are effectively excluded from PM Surya Ghar's core benefit, regardless of their willingness to pay.
+What does not exist is a virtual [net metering](/glossary/net-metering/) mechanism that would allow a single rooftop plant (installed by the RWA or a developer) to distribute energy credits across all flat owners' electricity bills. This is the mechanism that makes community solar viable in markets like the United States and several European countries. Without it, households in urban apartment blocks are effectively excluded from PM Surya Ghar's core benefit, regardless of their willingness to pay.
 
 The government is aware of this gap. Several state electricity regulatory commissions have published draft virtual net metering regulations. But the implementation has not kept pace with the demand. Our analysis of [gross metering versus net metering](/blog/gross-metering-vs-net-metering/) explains how metering policy directly affects whether apartment installations pencil out financially. A proposed [PM Surya Ghar 2.0 update](/blog/pm-surya-ghar-battery-storage-update/) reportedly under government review would address this directly through a shared rooftop model, alongside battery storage subsidies, though it remains unnotified.
 
 ### Limited Rural DISCOM Bandwidth
 
-For households in rural areas, the scheme works where modern DISCOM infrastructure exists, roughly 60% of rural India by 2026 estimates. In the remaining 40%, the absence of smart meter infrastructure, the limited technical capacity of rural DISCOM offices, and the unreliable grid voltage profiles that make grid-tie inverters trip frequently all combine to make the scheme functionally inaccessible. Farmers and agricultural communities are better served by the PM-KUSUM scheme, which has a different structure. According to [IRENA's India Renewable Energy Country Profile](https://www.irena.org/Countries/India), rural grid reliability and distribution infrastructure remain the primary bottleneck to residential solar adoption in semi-urban and rural zones. Rural residential households who genuinely want rooftop solar and are prepared to invest face barriers that the scheme does not address.
+For households in rural areas, the scheme works where modern DISCOM infrastructure exists. Where it does not, the absence of smart meter infrastructure, the limited technical capacity of rural DISCOM offices, and the unreliable grid voltage profiles that make grid-tie inverters trip frequently all combine to make the scheme functionally inaccessible. Farmers and agricultural communities are better served by the PM-KUSUM scheme, which has a different structure. Rural residential households who genuinely want rooftop solar and are prepared to invest face barriers that the scheme does not address.
 
 ## The 5-Point PM Surya Ghar Reform Scorecard
 
@@ -130,7 +130,7 @@ This is our proprietary framework for evaluating what structural changes would h
 
 4. **AMC minimum standards for empanelled vendors**: Mandate a post-installation Annual Maintenance Contract commitment with a guaranteed 48-hour on-site response SLA. Today there is no post-installation service obligation. Systems that fail and sit unserviced for months damage the government's programme reputation. Feasibility: 9/10. Adoption impact: 6/10.
 
-5. **PFMS pre-validation for Aadhaar-bank linkage**: Allow applicants to validate their Aadhaar-bank linkage at the registration stage, before installation, rather than discovering a mismatch during disbursement. This single UX change would eliminate approximately 20% of disbursement delays. Feasibility: 10/10. Adoption impact: 5/10.
+5. **PFMS pre-validation for Aadhaar-bank linkage**: Allow applicants to validate their Aadhaar-bank linkage at the registration stage, before installation, rather than discovering a mismatch during disbursement. This single UX change would remove one common cause of disbursement delays. Feasibility: 10/10. Adoption impact: 5/10.
 
 Table: The five reforms scored for implementation feasibility and adoption impact, out of 10 (this article's own editorial scores)
 
@@ -142,7 +142,7 @@ Table: The five reforms scored for implementation feasibility and adoption impac
 | AMC minimum standards for empanelled vendors | 9 | 6 |
 | PFMS pre-validation for Aadhaar-bank linkage | 10 | 5 |
 
-Applied together, these five reforms would likely add 2–3 million installations per year to the current trajectory. The [IEA's Solar PV Policy and Deployment Report](https://www.iea.org/reports/solar-pv) notes that subsidy programme performance globally correlates most strongly with administrative processing speed, not subsidy quantum, which is precisely why DISCOM SLA reform would outperform any increase in the subsidy amount itself.
+Applied together, these five reforms would speed up installations, and our view is that DISCOM SLA reform would do more than any increase in the subsidy amount itself, because the main constraint is processing speed, not the subsidy.
 
 ## How the Leading States Compare on Programme Delivery
 
@@ -158,7 +158,7 @@ BESCOM's rooftop solar team is perhaps the most digitally capable DISCOM team in
 
 ### Maharashtra: Scale with Inconsistency
 
-MSEDCL handles a far larger application volume than either GUVNL or BESCOM. Its digitised inspection workflow works well in Pune and Mumbai. In the Vidarbha and Marathwada regions, where DISCOM infrastructure is older and installer density is lower, processing times stretch to 90–120 days. Maharashtra demonstrates that a large state with heterogeneous infrastructure cannot simply replicate the Gujarat model, it requires a differentiated approach for different regional contexts.
+MSEDCL handles a far larger application volume than either GUVNL or BESCOM. Its digitised inspection workflow works well in Pune and Mumbai. In the Vidarbha and Marathwada regions, where DISCOM infrastructure is older and installer density is lower, processing times stretch. Maharashtra demonstrates that a large state with heterogeneous infrastructure cannot simply replicate the Gujarat model, it requires a differentiated approach for different regional contexts.
 
 ### States Needing Structural Support
 

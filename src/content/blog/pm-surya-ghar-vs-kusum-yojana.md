@@ -46,7 +46,7 @@ Two major government schemes, two different beneficiary groups, and considerable
 > - PM Surya Ghar applications average 45–90 days through a single national portal; KUSUM applications run 3–12 months through state nodal agencies.
 > - A household with both a home and farmland can apply to both schemes at once, since they cover separate connections and separate installations.
 
-Both schemes fall under [MNRE's rooftop solar programme](/blog/mnre-rooftop-solar-scheme/) framework but address fundamentally different energy problems. According to [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"}, India's residential solar market and agricultural solar market are both growing at over 35% annually but require completely different policy interventions. Understanding the distinction takes five minutes and prevents weeks of misdirected applications.
+Both schemes fall under [MNRE's rooftop solar programme](/blog/mnre-rooftop-solar-scheme/) framework but address fundamentally different energy problems. Residential rooftop solar and agricultural solar pumping need completely different policy interventions. Understanding the distinction takes five minutes and prevents weeks of misdirected applications.
 
 ## Scheme Overview: Side-by-Side Comparison
 
@@ -78,7 +78,7 @@ Table: PM Surya Ghar and KUSUM Yojana compared on beneficiary, subsidy, portal, 
 > - You pay a monthly electricity bill of ₹2,000 or more that you want to reduce
 > - You are eligible for the DISCOM's net metering programme in your state
 
-The subsidy of up to ₹78,000 for a 3 kW system, combined with net metering income, typically delivers a 5 to 8 year payback period on a standard residential installation, as supported by [IRENA's India solar analysis](https://www.irena.org/){target="_blank" rel="noopener"} showing residential solar [IRRs](/glossary/irr/) of 15 to 22% in Indian metro markets. After payback, the solar system generates effectively free electricity for its remaining 20+ year life.
+The subsidy of up to ₹78,000 for a 3 kW system, combined with net metering income, shortens the [payback period](/glossary/payback-period/) of a residential installation; the exact figure depends on system cost, tariff and self-consumption (the [solar IRR and payback guide](/blog/solar-irr-payback-ci-india/) shows the arithmetic). After payback, the solar system generates effectively free electricity for its remaining 20+ year life.
 
 For the complete application process, see [how to apply for PM Surya Ghar online](/blog/pm-surya-ghar-apply-online/). For required documents, see the [PM Surya Ghar documents checklist](/blog/pm-surya-ghar-documents-required/).
 
@@ -97,7 +97,7 @@ This component is best for large landholders with land that has low agricultural
 Farmers without a grid connection who rely on diesel pumps for irrigation can replace them with standalone solar pumps. The central subsidy covers 30% of the benchmark cost; state subsidies add 30%; the farmer pays 40% (or takes a soft loan for 40%).
 
 > [!FORMULA]
-> Farmer's share under KUSUM Component B = 100% − 30% central − 30% state = 40% of the benchmark cost The solar pump runs entirely off solar panels, no grid needed. A 5 HP solar pump costs approximately ₹1.5 lakh after subsidies in most states, replacing a diesel pump that costs ₹80,000 to ₹1.5 lakh per year to operate. According to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, over 200,000 standalone solar pumps have been installed under KUSUM Component B since 2020, with Rajasthan and Maharashtra leading installations. India has approximately 20 million agricultural pump sets, representing a massive long-term market for pump solarisation as diesel subsidies reduce. The programme also helps DISCOMs by reducing peak agricultural demand load that strains state grids during summer irrigation season.
+> Farmer's share under KUSUM Component B = 100% − 30% central − 30% state = 40% of the benchmark cost The solar pump runs entirely off solar panels, no grid needed. The solar pump runs on solar panels without relying on grid power for pumping, and it replaces diesel fuel cost. The programme also helps DISCOMs by reducing peak agricultural demand load that strains state grids during summer irrigation season.
 
 This component is ideal for farmers in areas with poor or absent grid connectivity.
 

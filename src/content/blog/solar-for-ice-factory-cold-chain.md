@@ -127,7 +127,7 @@ Two adjustments to apply. First, older reciprocating compressors run 10 to 20 pe
 
 ## What Solar Costs for an Ice Factory in 2026
 
-Grid-connected C&I rooftop solar in India installs at Rs 45,000 to Rs 55,000 per kW all-in for plants above 100 kW. That is the industry-observed range for 2026. Larger ground-mount or shed-mount plants trend toward the low end.
+For reference, dated 2026 vendor figures for a 50 kW rooftop plant were Rs 22 to 28 lakh (Kondaas, 27 May 2026) and Rs 45 to 60 per watt (Fulminous, 8 July 2026), which is roughly Rs 45,000 to Rs 60,000 per kW. Larger plants may price lower; get written quotes for your size.
 
 Table: Solar plant cost and sizing by ice factory scale (hypothetical, at Rs 48,000 per kW)
 
@@ -192,7 +192,7 @@ Table: Three night-load strategies for a 200 kW solar plant
 | Ice bank as thermal storage | Zero to Rs 3 Lakh (controls) | 2 to 4 hours of compressor coasting | Free capacity, use it first |
 | Battery, 200 kWh LFP | Rs 44 to 56 Lakh | Roughly 2 hours of full night load | Rarely pays back under 8 years |
 
-A full night block for a 20 TPD plant is about 590 kWh. At Rs 22,000 to 28,000 per kWh installed, that is Rs 1.3 Crore or more. Night tariff is only Rs 7 to 8 per unit. The battery saves about Rs 45 per kWh of its cost per year in that scenario. It does not pay back inside its calendar life.
+A full night block for a 20 TPD plant is about 590 kWh. At Rs 22,000 to 28,000 per kWh installed, that is Rs 1.3 Crore or more. Night tariff is only Rs 7 to 8 per unit. Each kWh of battery capacity can shift at most one kWh a day, so at Rs 7.5 per unit and 330 cycles a year the best case is about Rs 2,500 a year per kWh of capacity, against Rs 22,000 to 28,000 installed. That is a simple payback of roughly 9 to 11 years before round-trip losses, and it ignores that the same solar energy could offset daytime load at a similar tariff. It does not pay back inside its calendar life.
 
 The exception is real. If your plant sits on a low-voltage industrial feeder with 3 to 6 hours of daily outages, melting ice costs you product, not just power. A modest hybrid setup, one compressor plus controls on 50 to 100 kWh of battery, protects product quality for a fraction of full-load storage cost. The [battery sizing for hybrid solar](/blog/battery-sizing-hybrid-solar/) guide walks the sizing method.
 

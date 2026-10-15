@@ -1,7 +1,7 @@
 ---
 title: "How Long Does Solar Installation Take in India?"
-excerpt: "Solar installation time in India ranges from 1 to 4 months. Physical installation takes 1–2 days; DISCOM net metering approval takes 15–90 days and is the main bottleneck in most states."
-description: "Solar installation in India takes 1 to 4 months overall. Physical setup takes 1–2 days; DISCOM net metering approval is the main bottleneck at 15–90 days."
+excerpt: "How long solar installation takes in India: the six stages, who is responsible for each, and what to get in writing. Physical installation is short; DISCOM approval and the subsidy credit vary by DISCOM."
+description: "How long solar installation takes in India: the six stages, who owns each, what to get in writing, and why DISCOM approval varies by DISCOM."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-10-14
@@ -16,56 +16,56 @@ keywords:
   - PM Surya Ghar timeline
 faqs:
   - q: "How long does solar installation take in India?"
-    a: "A residential solar installation in India takes 1–4 months from enquiry to full commissioning with net metering. The physical installation of panels, inverter, and wiring takes just 1–2 days. The main delay is DISCOM approval for net metering, which ranges from 15 days in Gujarat and Rajasthan to 60–90 days in Kerala and parts of West Bengal. PM Surya Ghar registered projects follow a mandated timeline, but actual compliance varies significantly by state."
+    a: "There is no published standard for the whole process, and third-party guides disagree: one puts a rooftop project at about 6 to 8 weeks and another at 90 to 120 days from application to subsidy. What is clear is that the work splits into a short physical installation, which many installers quote as one to two days for a small residential system, and the DISCOM steps (feasibility, inspection, net meter and commissioning), which depend on your DISCOM and are the usual bottleneck. Ask your installer for written dates for each stage and ask your DISCOM for its current timelines."
   - q: "Which Indian state has the fastest solar net metering approval?"
-    a: "Gujarat consistently has the fastest DISCOM net metering approval in India, typically completing the process in 15–30 days from application. Rajasthan, Maharashtra, and Karnataka also have relatively efficient approval processes, usually completing within 30–45 days. Kerala is the most challenging state, with KSEB approvals frequently taking 60–90 days and sometimes longer in rural feeders. Delhi has improved significantly since PM Surya Ghar centralised the application process."
+    a: "We found no official state-wise ranking of net metering approval times, so we name no state as fastest or slowest. Processing differs by DISCOM, by division within a state, by season and by whether the application is complete. Ask your DISCOM's solar cell for its current timeline, and ask installers who have recently completed projects in your DISCOM area how long each step took."
   - q: "What is the PM Surya Ghar registration timeline?"
-    a: "The PM Surya Ghar registration process follows this sequence: homeowner registers at pmsuryaghar.gov.in, the DISCOM receives the application and assigns an inspection date (typically within 10–30 days), the DISCOM technical inspector visits and approves the site, the homeowner selects an approved empanelled installer, the installer completes the installation, the DISCOM installs the net meter and issues a commissioning certificate, and the subsidy is disbursed to the bank account within 30 days of verification."
+    a: "The sequence is: the homeowner registers at pmsuryaghar.gov.in, the DISCOM gives technical feasibility approval, the homeowner selects an empanelled installer, the installer completes the installation, the DISCOM inspects it, installs the net meter and issues a commissioning certificate, and the subsidy is credited to the bank account. We found no primary-source set of day counts for the DISCOM steps, and third-party guides quote different figures, so check the portal and your DISCOM for the current time limits and ask the installer to track each step."
   - q: "Can I use my solar system before net metering approval?"
-    a: "Technically, the inverter can run in zero-export mode before the DISCOM net meter is installed, but this significantly limits the system's value - surplus generation is wasted rather than credited. Some installers configure a temporary zero-export setting using the inverter's built-in function. Operating in full export mode without an approved net meter is illegal under most state electricity regulations and can result in DISCOM penalties."
+    a: "Technically, the inverter can run in zero-export mode before the DISCOM net meter is installed, but this significantly limits the system's value because surplus generation is not credited. Some installers configure a temporary zero-export setting using the inverter's built-in function. Whether exporting before the net meter is installed is permitted depends on your state's regulations and your DISCOM's conditions, so confirm with the DISCOM before operating in export mode."
   - q: "Why does DISCOM net metering approval take so long in India?"
-    a: "DISCOM net metering delays stem from multiple factors: understaffed DISCOM solar cells with insufficient inspectors, manual application processing in many states despite PM Surya Ghar portal digitisation, grid protection studies required for systems above 3 kW in some states, and slow interdepartmental approvals between commercial, technical, and metering divisions. Kerala's KSEB is particularly slow due to feeder-level congestion concerns and a conservative approach to distributed generation approvals."
+    a: "Delays can come from several places: limited DISCOM inspection capacity, manual processing, incomplete applications, feeder or protection studies the DISCOM requires in some cases, and waiting for meters. Which of these applies depends on your DISCOM, so ask for the status and the reason for any delay in writing, and use the portal's grievance route if a time limit has been missed."
   - q: "How long does the physical solar panel installation take?"
-    a: "Physical installation of a residential 3–5 kW solar system takes 1–2 days with a crew of 3–4 experienced workers. Day 1 typically covers mounting structure installation and panel mounting. Day 2 covers DC wiring, inverter mounting, AC connection to the distribution board, and commissioning. Commissioning (the inverter self-test and initial power-on sequence) happens on the same day as physical completion."
+    a: "Many installers quote one to two days for a small residential rooftop system with a crew of a few workers, but the time depends on the roof, the structure, the cable routes and the system size, so ask for the crew-days in the quote. Day one usually covers the mounting structure and panels, and day two covers DC wiring, inverter mounting, AC connection to the distribution board, earthing and commissioning tests."
   - q: "What documents do I need for solar installation and net metering in India?"
-    a: "Standard documents required include: property ownership proof (sale deed or Patta), electricity bill (showing DISCOM account number), Aadhaar card (for PM Surya Ghar subsidy), bank account details (for subsidy disbursement), passport-size photograph, and the installer's empanelment certificate (required under PM Surya Ghar). Some DISCOMs also require a structural stability certificate for the roof mounting and a single-line diagram certified by a licensed electrical contractor."
+    a: "Standard documents typically include: property ownership proof, an electricity bill showing the DISCOM account number, Aadhaar (for PM Surya Ghar), bank account details for the subsidy, a photograph and the installer's empanelment details (required under PM Surya Ghar). Some DISCOMs also require a structural stability certificate for the roof mounting and a single-line diagram certified by a licensed electrical contractor. Confirm your DISCOM's checklist before applying, because incomplete applications are a common cause of delay."
   - q: "How long after installation does the PM Surya Ghar subsidy arrive?"
-    a: "The PM Surya Ghar central subsidy is typically disbursed within 30 days of the DISCOM issuing the commissioning certificate and verifying the installation on the portal. The money is credited directly to the bank account registered on pmsuryaghar.gov.in, which must be linked to the Aadhaar number of the electricity connection holder. State-level additional subsidies may take a further 30–60 days via separate state DISCOM channels."
+    a: "It varies. Third-party guides quote about 30 days from the commissioning certificate and one installer's kit page quotes up to 90 days after commissioning, so we cannot give a single figure; check the status on the portal. The money is credited to the bank account registered on pmsuryaghar.gov.in, which should be linked to the Aadhaar number of the electricity connection holder. State top-ups, where they exist, follow separate state channels and timelines."
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-You have decided to go solar. The quotes are in, the subsidy is understood, the system is sized, and now the most practical question: how long before the panels are on the roof and the meter is running backwards? The honest answer involves two very different timelines: the physical installation (fast) and the [DISCOM approval](https://quickestimate.co/blog/discom-approval-time-benchmark) (slow and variable by state). This guide maps every stage with realistic durations.
+You have decided to go solar. The quotes are in, the subsidy is understood, the system is sized, and now the most practical question: how long before the panels are on the roof and the meter is running backwards? The honest answer involves two very different parts: the physical installation (fast) and the [DISCOM approval](https://quickestimate.co/blog/discom-approval-time-benchmark) (slower and variable by DISCOM). This guide maps every stage and what to get in writing for each. It quotes no state-wise approval times because we found no official source for them.
 
 > [!KEYTAKEAWAYS]
-> - Total time from enquiry to commissioning is 1-4 months; physical installation itself takes only 1-2 days.
-> - DISCOM [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) approval is the real bottleneck, 15-30 days in Gujarat versus 60-90 days in Kerala.
-> - Equipment procurement typically adds 5-10 days for residential systems, longer for large commercial orders, so picking an installer who already holds inverter and panel stock is the single biggest lever homeowners have over the timeline.
-> - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-disbursement-timeline) mandates DISCOM timelines (15 days feasibility, 30 days inspection, 10 days for the net meter), but state-level enforcement varies widely.
-> - Subsidy disbursement follows about 30 days after the DISCOM issues the commissioning certificate.
+> - There is no published standard for the total time, and third-party guides disagree, from about 6 to 8 weeks to 90 to 120 days from application to subsidy.
+> - Physical installation is the shortest stage; many installers quote one to two days for a small residential system.
+> - DISCOM [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) approval is the usual bottleneck, and its duration depends on your DISCOM; we found no official state-wise ranking.
+> - Equipment procurement depends on the installer's stock, so asking an installer for the stock position and delivery date in writing is the most direct lever a homeowner has over the timeline.
+> - The PM Surya Ghar subsidy arrives after the DISCOM commissioning steps; sources quote about 30 days to up to 90 days, so check the portal.
 
-> **Direct answer.** Solar installation time in India is 1–4 months total. The physical installation of panels, inverter, and wiring takes 1–2 days. Equipment procurement adds 5–10 days. The dominant delay is DISCOM [net metering](https://www.heavengreenenergy.com/blog/solar-net-metering) approval, 15 days in Gujarat, 30–60 days in most states, 60–90 days in Kerala. The "Solar Installation Timeline: 6 Stages" framework below maps every phase with state-specific DISCOM data.
+> **Direct answer.** No source we can cite gives a standard installation time for India. Physical installation of a small residential system is commonly quoted as one to two days; the DISCOM steps (feasibility, inspection, net meter and commissioning) and the subsidy credit depend on your DISCOM and on the portal. The "Solar Installation Timeline: 6 Stages" framework below maps every phase, who is responsible and what to get in writing.
 
-For what to expect after your system is commissioned, see [what to expect in Year 1 of solar ownership India](/blog/solar-year-1-ownership-guide-india/). According to [JMK Research's India Rooftop Solar H2 2025 Report](https://jmkresearch.com/), India added a record 5.2 GW of rooftop solar in FY2025, with residential installations accounting for the majority, making DISCOM net metering capacity the new national constraint.
+For what to expect after your system is commissioned, see [what to expect in Year 1 of solar ownership India](/blog/solar-year-1-ownership-guide-india/).
 
-## Stage 1: Site Survey (Day 1)
+## Stage 1: Site Survey
 
 The [site survey](/glossary/site-survey/) is the starting gun. A qualified site assessor from your chosen installer visits your home to capture the technical data needed for system design. Larger commercial projects often commission a formal site survey and land feasibility study before design work even begins, since roof load, shading, and grid access all need sign-off first.
 
 > [!CHECKLIST] What a thorough site survey covers
 > - **Roof area and dimensions**: measuring usable shadow-free area and identifying orientation (south/east/west)
 > - **Shade mapping**: documenting obstructions: water overhead tanks, parapet walls, TV antennas, trees, neighbouring buildings
-> - **Structural assessment**: confirming the roof can bear the load of mounting structure plus panels (approximately 15 kg/m² for a typical system)
+> - **Structural assessment**: confirming the roof can bear the load of the mounting structure plus panels; ask for the assumed load in the report
 > - **Existing electrical infrastructure**: assessing the main distribution board, existing wiring, and the metering point
 > - **Inverter and cable routing**: identifying the optimal location for the inverter (shaded, ventilated wall) and the path for DC conduit from panels to inverter
 
-A serious site survey takes 45–90 minutes and should produce a written report. If an installer offers to design your system without a site visit, that is a significant warning sign. Remote surveys based on satellite images are acceptable as a preliminary step but not as a substitute for the physical visit.
+A serious site survey should produce a written report. If an installer offers to design your system without a site visit, that is a significant warning sign. Remote surveys based on satellite images are acceptable as a preliminary step but not as a substitute for the physical visit.
 
-**Duration: 1 day (scheduling the visit may take 2–5 days)**
+**What to get in writing:** the survey date and the report date.
 
-## Stage 2: Quotation and Agreement (3–7 Days)
+## Stage 2: Quotation and Agreement
 
-After the site survey, a competent installer produces a detailed quotation within 3–5 working days. Installers running dedicated [quotation software](https://quickestimate.co/features/quotation-system/) instead of manual spreadsheets typically turn this stage around faster and with fewer line-item errors. The quotation should include:
+After the site survey, an installer produces a detailed quotation. Installers running dedicated [quotation software](https://quickestimate.co/features/quotation-system/) instead of manual spreadsheets can turn this stage around faster and with fewer line-item errors. The quotation should include:
 
 - Panel make, model, wattage, and [ALMM](/glossary/almm-list/) certification status
 - Inverter make, model, rated capacity, and warranty terms
@@ -78,31 +78,31 @@ After the site survey, a competent installer produces a detailed quotation withi
 > [!WARNING] Check empanelment before you sign
 > For PM Surya Ghar subsidy eligibility, the installer must be empanelled on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/). Verify this before signing any agreement. An unapproved installer means no central government subsidy. See the [PM Surya Ghar Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) for the full subsidy application process.
 
-After accepting the quotation and paying the advance (typically 30–50% of the contract value), the installer places the equipment order.
+After you accept the quotation and pay any advance, the installer places the equipment order; agree the advance and the payment milestones in writing.
 
-**Duration: 3–7 days for quotation and agreement signing**
+**What to get in writing:** the quotation validity, the advance amount and the proposed dates for each stage.
 
-## Stage 3: Equipment Procurement (5–10 Days)
+## Stage 3: Equipment Procurement
 
-Equipment procurement is the phase between order placement and delivery at your site.
+Equipment procurement is the phase between order placement and delivery at your site, and it depends on the installer's stock and the supplier's lead time.
 
-- **Inverter availability**: leading brands with local warehouses can deliver within 5–7 days.
-- **Panel availability**: ALMM-listed panels from top manufacturers are typically available from distributor stock within 3–7 days in most metro and tier-2 cities.
-- **Mounting structure**: standard aluminium structures are typically fabricated locally within 3–5 days of measurement confirmation.
+- **Inverter availability**: ask whether the exact model is in stock locally.
+- **Panel availability**: ask whether the exact ALMM-listed panel model is in stock or must be ordered.
+- **Mounting structure**: ask whether it is stocked or fabricated to measurement.
 
-For large commercial projects (50 kW+), procurement from [ALMM-listed suppliers](https://mnre.gov.in/almm-list/) may take 3–6 weeks if custom panel quantities require a factory order. Residential projects rarely face this constraint.
+For large commercial projects (50 kW and above), procurement from [ALMM-listed suppliers](https://mnre.gov.in/almm-list/) can take longer if custom panel quantities require a factory order; ask for the supplier's committed delivery date.
 
-**Duration: 5–10 days for residential; 3–6 weeks for large commercial**
+**What to get in writing:** the committed delivery date for each major item and the remedy if it slips.
 
-## Stage 4: Physical Installation (1–2 Days)
+## Stage 4: Physical Installation
 
-This is the fastest stage. A residential 3–6 kW system is physically installed in 1–2 days by a crew of 3–4 experienced workers.
+This is usually the fastest stage. Many installers quote one to two days for a small residential system installed by a crew of a few workers; ask for the crew-days in your quote.
 
 **Day 1:** Mounting structure installation on the roof, drilling anchor bolts into the concrete (or using ballast weight blocks on flat roofs), placing aluminium rails, and securing panels to the rails.
 
 **Day 2 (or afternoon of Day 1 for smaller systems):** DC wiring from panels to inverter; inverter mounting on the wall; AC wiring from inverter to the distribution board; earthing and bonding; final inspection by the site supervisor.
 
-**[Commissioning](/glossary/commissioning/)** happens on the same day as physical completion. The system immediately begins generating electricity, though it may run in zero-export mode until the DISCOM net meter is installed.
+**[Commissioning](/glossary/commissioning/)** of the inverter can happen on the same day as physical completion. The system may run in zero-export mode until the DISCOM net meter is installed.
 
 Key safety tasks during installation include:
 - DC cable routing through conduit (UV-protected, rodent-proof)
@@ -112,11 +112,11 @@ Key safety tasks during installation include:
 
 For the commissioning checklist, see [solar inverter commissioning in India](/blog/solar-inverter-commissioning-in-india/).
 
-**Duration: 1–2 days for residential (3–6 kW)**
+**What to get in writing:** the installation start date and the date the installer will submit the DISCOM documents.
 
-## Stage 5: DISCOM Application and Net Metering Approval (15–90 Days)
+## Stage 5: DISCOM Application and Net Metering Approval
 
-This is the stage that determines whether your total timeline is 1 month or 4 months. The DISCOM application for net metering involves:
+This is the stage that most often decides how long the whole process takes, and its duration depends on your DISCOM. The DISCOM steps usually involve:
 
 <!-- steps -->
 1. Submission of application (physical or online via state DISCOM portal or PM Surya Ghar portal)
@@ -129,94 +129,50 @@ This is the stage that determines whether your total timeline is 1 month or 4 mo
 
 ### The Solar Installation Timeline: 6 Stages
 
-Table: Solar installation timeline in six stages, with duration and who is responsible
+Table: Solar installation timeline in six stages, who is responsible and what to get in writing (no durations are quoted, because none has an official source)
 
-| Stage | Duration | Who is responsible |
+| Stage | Who is responsible | What to get in writing |
 | --- | --- | --- |
-| 1. Site survey | 1 day | Installer or surveyor |
-| 2. Quotation and agreement | 3–7 days | Installer |
-| 3. Equipment procurement | 5–10 days | Installer |
-| 4. Physical installation | 1–2 days | Installer crew |
-| 5. DISCOM application and net meter | **15–90 days** | DISCOM (the bottleneck) |
-| 6. Subsidy disbursement (if applicable) | 30 days post-commissioning | MNRE and DISCOM |
-| **Total** | **~1–4 months** | |
+| 1. Site survey | Installer or surveyor | Survey date and written report |
+| 2. Quotation and agreement | Installer | Quotation validity, advance and stage dates |
+| 3. Equipment procurement | Installer | Committed delivery dates and remedy if late |
+| 4. Physical installation | Installer crew | Start date and crew-days |
+| 5. DISCOM application and net meter | DISCOM (usually the bottleneck) | DISCOM's current timelines and the application reference |
+| 6. Subsidy disbursement (if applicable) | MNRE and DISCOM, through the portal | Portal status and the bank account linked |
 
-**State-by-state DISCOM approval time:**
+We found no official state-wise net metering approval times and the third-party figures we saw conflict, so there is no state table here. Ask your DISCOM's solar cell for its current timelines, and ask installers who have recently completed projects in your DISCOM area how long each step took.
 
-Table: Typical DISCOM net metering approval time by state, in days
+Common bottlenecks reported for DISCOM steps include limited inspection capacity, manual processing, incomplete applications and waiting for meters; which applies to you depends on your DISCOM.
 
-| State | Typical Approval Duration | Notes |
-| --- | --- | --- |
-| Gujarat | 15–30 days | Fastest in India; dedicated DISCOM solar cell |
-| Rajasthan | 20–40 days | Improving; PM Surya Ghar portal active |
-| Maharashtra | 25–45 days | MSEDCL improving; urban faster than rural |
-| Karnataka | 25–45 days | BESCOM efficient; GESCOM and HESCOM slower |
-| Tamil Nadu | 30–50 days | TANGEDCO shows variation by division |
-| Delhi | 20–40 days | Improved significantly under PM Surya Ghar |
-| UP | 30–60 days | UPPCL improving but backlogs common |
-| West Bengal | 40–70 days | WBSEDCL has significant backlogs |
-| **Kerala** | **60–90 days** | KSEB slowest; feeder congestion concerns |
+## Stage 6: Subsidy Disbursement
 
-*Source - [MNRE PM Surya Ghar Implementation Status Reports](https://pmsuryaghar.gov.in/), June 2026.*
+For PM Surya Ghar registered installations, the central government subsidy is credited to the registered bank account after the DISCOM's commissioning report is accepted on the portal. The time varies: third-party guides quote about 30 days from the commissioning certificate, and one installer's kit page quotes up to 90 days after commissioning, so check the portal status and your DISCOM.
 
-```chart
-type: hbar
-title: Typical DISCOM approval time by state (range, days)
-unit: "days"
-source: "MNRE PM Surya Ghar Implementation Status Reports, June 2026, as cited in the state table above"
-sourceUrl: https://pmsuryaghar.gov.in/
-note: "Each bar spans the low to high end of the typical range. Actual timelines vary by division and application."
-data:
-  - { label: "Gujarat", min: 15, max: 30 }
-  - { label: "Rajasthan", min: 20, max: 40 }
-  - { label: "Delhi", min: 20, max: 40 }
-  - { label: "Maharashtra", min: 25, max: 45 }
-  - { label: "Karnataka", min: 25, max: 45 }
-  - { label: "Tamil Nadu", min: 30, max: 50 }
-  - { label: "UP", min: 30, max: 60 }
-  - { label: "West Bengal", min: 40, max: 70 }
-  - { label: "Kerala", min: 60, max: 90 }
-```
+The central subsidy slabs for a residential system (MNRE guidelines, as in our [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) guide):
+- 1 kW: ₹30,000
+- 2 kW: ₹60,000 (₹30,000 per kW for the first 2 kW)
+- 3 kW and above: ₹78,000 (the third kW adds ₹18,000, and the amount is capped at ₹78,000)
 
-Primary bottlenecks: insufficient DISCOM solar inspection staff, manual application processing, and grid protection studies that some DISCOMs require for systems above 3 kW.
+State-level subsidies vary and are disbursed separately via state channels.
 
-## Stage 6: Subsidy Disbursement (30 Days Post-Commissioning)
-
-For PM Surya Ghar registered installations, the central government subsidy is disbursed directly to the registered bank account, typically within 30 days of the DISCOM issuing the commissioning certificate.
-
-The subsidy amounts (as of 2026):
-- 1–2 kW: ₹30,000 per kW
-- 2–3 kW: ₹18,000 per kW for the second kW onwards
-- Above 3 kW: Maximum ₹78,000 (fixed cap)
-
-State-level subsidies vary and are disbursed separately via state DISCOM channels.
-
-**Duration: 30 days from DISCOM commissioning certificate**
+**What to get in writing:** the bank account linked to the portal and the portal status after commissioning.
 
 ## What Causes Delays: And What You Can Do
 
 > [!TIP] Delay 1: DISCOM inspection backlog
-> **Delay 1: DISCOM inspection backlog.** Follow up with the DISCOM's solar helpline at least once a week after application submission. Escalation to the DISCOM's consumer grievance cell is available if timelines are violated under the PM Surya Ghar mandate.
+> **Delay 1: DISCOM inspection backlog.** Follow up with the DISCOM's solar helpline regularly after application submission, and use its grievance route, including the portal's, if a stated time limit has been missed.
 
 **Delay 2: Missing or incorrect documents.** Ensure all documents are complete before application: property ownership proof, DISCOM account number, Aadhaar linked to bank account, and installer's empanelment certificate.
 
 **Delay 3: Equipment procurement delays.** Choose an installer who already holds inverter and panel stock rather than one who orders after signing. Ask the installer for the current stock position at the time of agreement.
 
-**Delay 4: Structural issues discovered during installation.** If the roof requires reinforcement or the distribution board needs upgrading, add 3–7 days for remedial work.
+**Delay 4: Structural issues discovered during installation.** If the roof requires reinforcement or the distribution board needs upgrading, the remedial work adds time; the site survey should find these issues early.
 
 The [find a reliable solar installer](/blog/find-reliable-solar-installer/) guide covers how to evaluate installers on their DISCOM approval track record, an underrated criterion that directly affects your total timeline. Homeowners comparing full-service solar EPC companies against smaller local installers should weigh this track record alongside price, since a turnkey EPC typically owns the DISCOM follow-up rather than leaving it to the homeowner.
 
 ## How PM Surya Ghar Has Changed the Timeline
 
-The PM Surya Ghar Muft Bijli Yojana, launched in February 2024, has introduced a centralised portal that mandates specific timelines for DISCOM actions. Under the scheme:
-
-- DISCOM must issue technical feasibility within 15 days
-- DISCOM must complete inspection within 30 days of installation completion
-- Net meter must be installed within 10 days of inspection approval
-
-In practice, enforcement varies by state. Gujarat and Maharashtra have largely complied with these timelines. Kerala and parts of UP remain behind schedule. Homeowners who register on the PM Surya Ghar portal gain visibility into their application status and a formal escalation path when timelines are violated.
-
-According to [MNRE data on the PM Surya Ghar portal](https://pmsuryaghar.gov.in/), over 1 crore households had registered for the scheme by mid-2026, with the fastest-adopting states showing sub-45-day end-to-end timelines.
+The PM Surya Ghar Muft Bijli Yojana, launched in February 2024, introduced a national portal that tracks each application through registration, feasibility, installation, inspection and subsidy. Homeowners who register on the portal gain visibility into their application status and a formal route to raise a delay. We found no primary-source day limits for the DISCOM steps, so ask the DISCOM and the portal for the time limits that apply to your application.
 
 ## Common Timeline Mistakes and How to Avoid Them
 
@@ -226,7 +182,7 @@ Table: Common timeline mistakes, their impact and how to prevent them
 | --- | --- | --- |
 | Not verifying installer's empanelment status | Cannot claim PM Surya Ghar subsidy | Check installer on portal before signing |
 | Accepting verbal timelines without documentation | No recourse for delays | Insist on written delivery and commissioning dates |
-| Paying 100% upfront | No recourse if installer delays | Use milestone-based payment (30% advance, 50% delivery, 20% commissioning) |
+| Paying 100% upfront | No recourse if installer delays | Use milestone-based payment tied to delivery and commissioning, agreed in writing |
 | Not tracking DISCOM application status | Delays compound unnoticed | Check portal weekly; call DISCOM solar cell |
 | Skipping site survey | Wrong system size or orientation | Always require written site survey report |
 

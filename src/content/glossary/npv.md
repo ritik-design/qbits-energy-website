@@ -223,7 +223,7 @@ For how NPV plays out in real projects, these guides go deeper:
 
 - [Solar Financial Modeling Software 2026 Guide](/blog/solar-financial-modeling-software/)
 - [Solar IRR and Payback for C&I in India, Real Math](/blog/solar-irr-payback-ci-india/)
-- [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/)
+- [LCOE of Solar in India: ₹4.8/kWh for a 50 kW C&I Plant](/blog/lcoe-solar-india/)
 - [Solar CAPEX vs OPEX: Which Model Fits Your Business?](/blog/solar-capex-vs-opex-business-india/)
 
 ## Sources

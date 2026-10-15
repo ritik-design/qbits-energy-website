@@ -112,7 +112,7 @@ This four-step framework lets you compute your expected annual generation from a
 ### The State-by-State Solar Yield Calculator
 
 <!-- steps -->
-1. **Look up your state's GHI**: Use the table above or the MNRE's India Solar Resource Map available at [mnre.gov.in](https://mnre.gov.in/). For precision, use your pincode-level irradiance from NREL's PVWatts tool.
+1. **Look up your state's GHI**: Use the table above, or look up your location in the [Global Solar Atlas](https://globalsolaratlas.info/) (World Bank Group, Solargis). For precision, use your pincode-level irradiance from NREL's PVWatts tool.
 
 2. **Calculate your annual specific yield**: Apply a [performance ratio (PR)](/glossary/pr/) of 0.75–0.82 depending on system quality. Formula: `Annual Yield (kWh/kW) = GHI (kWh/m²/day) × 365 × PR`. For Bangalore with GHI of 5.2 and PR 0.80: `5.2 × 365 × 0.80 = 1,518 kWh/kW/yr`.
 

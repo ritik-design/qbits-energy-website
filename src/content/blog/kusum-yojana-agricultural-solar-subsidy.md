@@ -1,7 +1,7 @@
 ---
 title: "KUSUM Yojana: Agricultural Solar Subsidy Guide"
-excerpt: "KUSUM Yojana subsidises 60% of solar pump and plant costs for Indian farmers. This complete 2026 guide covers all three components, eligibility, state programs, and how to apply."
-description: "KUSUM Yojana subsidises 60% of agricultural solar costs: solar plants, standalone pumps, and grid pump solarisation. Full guide to eligibility."
+excerpt: "KUSUM Yojana funding for solar pumps and plants in India: the three components, the MNRE funding split (30% central, at least 30% state on pumps), eligibility, state nodal agencies and how to apply."
+description: "KUSUM Yojana explained: solar plants, standalone pumps and grid pump solarisation, MNRE funding split, eligibility and how to apply via state agencies."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-10-14
@@ -16,345 +16,262 @@ keywords:
   - kusum component a b c
 faqs:
   - q: "Can a farmer with 2 acres of land apply for KUSUM Yojana?"
-    a: "Yes. Under Component A, farmers with as little as 0.5 acres of barren or fallow land can participate by leasing their land to a developer or applying independently for a smaller plant. Under Component B, land ownership is not a criterion - the pump must be for agricultural use. Under Component C, the farmer must have an existing grid-connected agricultural pump connection. There is no minimum acreage requirement for Components B or C. Even a farmer with 1 to 2 acres who irrigates with a diesel pump can apply for Component B."
+    a: "The MNRE PM-KUSUM page sets no minimum acreage for any component, and eligibility conditions are set in each state's guidelines, so a farmer with 1 to 2 acres should ask the state nodal agency. Component B covers standalone solar pumps up to 7.5 HP replacing off-grid pumps, Component C covers solarisation of grid-connected pumps and feeders, and Component A covers 500 kW to 2 MW decentralised plants, which need far more land than 2 acres. Which component fits depends on whether your existing pump is off-grid, grid-connected or absent."
   - q: "What pump sizes are covered under KUSUM Component B?"
-    a: "MNRE specifications for Component B cover standalone solar pumps from 0.5 HP to 7.5 HP. These sizes address the vast majority of smallholder irrigation requirements across India, from shallow drip systems on 1–2 acres to submersible pumps serving medium-sized fields. Higher HP requirements are addressed through Component C, which solarises existing grid-connected pumps and can cover larger motors through feeder-level aggregation at the substation."
+    a: "The MNRE page lists Component B as standalone solar agriculture pumps up to 7.5 HP in off-grid areas, with a target of 14 lakh pumps. Component C covers solarisation of grid-connected agricultural pumps, individually or at feeder level, with a target of 35 lakh pumps. The benchmark cost and the HP ratings the state accepts come from the state nodal agency's current guidelines."
   - q: "Can I sell power to the DISCOM under KUSUM Yojana?"
-    a: "Yes, under two different routes. Under Component A, the developer installs a solar plant on your land, sells power to the DISCOM at a state-determined feed-in tariff, and pays you a land lease of ₹0.30 to ₹1 per kWh equivalent or a fixed annual rent. Under Component C, surplus solar generation from your solarised pump goes to the DISCOM grid at the state feed-in tariff, giving you a monthly income on top of free pump operation. Component B standalone pumps are off-grid and do not sell to the DISCOM."
+    a: "Yes, under two routes. Under Component A, 500 kW to 2 MW decentralised plants sell power to the DISCOM at a tariff set by the state regulator, and a landowner who leases land to a developer is paid the lease that the contract specifies. Under Component C, a solarised grid-connected pump or feeder can feed surplus power to the DISCOM on the terms in the state's guidelines. Component B standalone pumps are off-grid and do not sell power. We quote no tariff or lease figure because we found no sourced current state figure."
   - q: "Is there an income limit to qualify for KUSUM Yojana?"
-    a: "No. KUSUM Yojana has no income ceiling or means test for individual farmers. Eligibility is based on land ownership, agricultural activity, and pump ownership rather than income. Farmers, farmer producer organisations (FPOs), water user associations, and panchayats are all eligible. This is a deliberate policy choice by MNRE to reduce administrative overhead and extend the scheme to the broadest possible farmer base across India."
+    a: "The MNRE PM-KUSUM page lists no income limit. Eligibility is set by the component (agricultural land, an eligible pump or a suitable site) and by each state's guidelines, which can add conditions, so confirm with the state nodal agency. The page's component descriptions refer to farmers and other agricultural entities; ask your state agency whether FPOs, water user associations and panchayats are eligible in your state."
   - q: "How is the KUSUM loan disbursed and who provides it?"
-    a: "Under Component B, the farmer pays 10% of the pump cost upfront. The remaining 30% is financed through a bank loan. Designated banks include NABARD, SBI, Bank of Baroda, rural cooperative banks, and district cooperative banks empanelled by the state nodal agency. The bank disburses the loan directly to the empanelled vendor, not to the farmer. The central government contributes 30% and the state government contributes 30% as direct subsidies. The farmer repays only the bank loan portion - typically over 5 to 7 years at concessional rates."
+    a: "The MNRE page gives the Component B funding split as central financial assistance of 30% of the benchmark or tender cost (whichever is lower; 50% in the North Eastern states, Sikkim, J&K, Himachal Pradesh, Uttarakhand, Lakshadweep and A&N Islands), a state share of at least 30% and a farmer share of at most 40% (at most 20% in the special states). How the farmer's share is financed, whether through a bank loan or in cash, is set by the state nodal agency, so ask it which banks and terms apply. We quote no loan tenor or interest rate."
   - q: "What documents are required to apply for KUSUM Yojana?"
-    a: "Required documents vary by component but typically include: (1) Aadhaar card for identity verification; (2) land ownership records or khasra-khatauni showing agricultural land; (3) bank account details, Aadhaar-linked preferred; (4) existing electricity connection bill if applying for Component C; (5) caste certificate if applicable for priority category; (6) photograph of the existing diesel pump or borewell for Component B replacement; (7) village revenue records confirming agricultural use; (8) mobile number linked to Aadhaar for OTP. Applications are submitted on state agriculture department portals or state nodal agency websites, not on a central national portal."
+    a: "Required documents vary by component and by state, but typically include: (1) Aadhaar for identity verification; (2) land ownership records showing agricultural land; (3) bank account details; (4) an existing electricity connection bill if applying for Component C; (5) details of the existing diesel pump or borewell for a Component B replacement; and (6) a mobile number linked to Aadhaar for OTP. Applications are processed through the state nodal agency or state agriculture department portals; the national PM-KUSUM portal is a resource and a gateway to state contacts. Ask your nodal agency for its exact checklist."
   - q: "How is KUSUM Yojana different from PM Surya Ghar Yojana?"
-    a: "PM Surya Ghar is a residential rooftop solar scheme for homeowners with DISCOM connections, offering up to ₹78,000 central subsidy for 1–3 kW grid-connected rooftop systems and operating through the national portal pmsuryaghar.gov.in. KUSUM Yojana targets agricultural energy - solar pumps, farm-based power plants, and solarisation of agricultural grid connections. KUSUM applications are state-level, implemented through state agriculture departments and state nodal agencies. The two schemes are entirely separate and a farmer can theoretically be eligible for both."
+    a: "PM Surya Ghar is a residential rooftop solar scheme for homeowners with DISCOM connections, offering up to ₹78,000 central subsidy for 1–3 kW grid-connected rooftop systems and operating through the national portal pmsuryaghar.gov.in. KUSUM Yojana targets agricultural energy: solar pumps, farm-based power plants, and solarisation of agricultural grid connections, implemented through state nodal agencies. The two schemes are separate, and a farmer can be eligible for both: PM Surya Ghar for the home and KUSUM for the farm."
   - q: "Which states have the most active KUSUM implementation in 2026?"
-    a: "Rajasthan leads nationally in Component B standalone pump installations, followed by Maharashtra, Madhya Pradesh, Gujarat, and Karnataka. Punjab and Haryana are active in Component C feeder solarisation given their high density of grid-connected agricultural pump connections. Maharashtra has the most active Component A pipeline through MSEDCL tenders. States vary significantly in subsidy disbursement speed and empanelled vendor density - Rajasthan and Maharashtra generally show the fastest processing timelines in 2026."
+    a: "We found no published, current state-wise ranking, and the MNRE PM-KUSUM page reports no achievement figures itself (it links to RE statistics reports). Implementation, vendor empanelment and subsidy processing differ by state, so ask your state nodal agency (for example RREC in Rajasthan, MEDA in Maharashtra, GEDA in Gujarat, PEDA in Punjab and UPNEDA in Uttar Pradesh) for its current status, empanelled vendor list and processing practice."
   - q: "How long does KUSUM Yojana application and installation take?"
-    a: "Under Component B, from application submission to pump installation, the typical timeline is 60 to 120 days. This includes state agency verification (15–30 days), bank loan processing (20–45 days), vendor assignment and equipment procurement (15–30 days), and installation (3–5 days). Component A timelines are longer - 6 to 18 months from land registration to commissioning, because land aggregation, DISCOM PPA negotiation, and tender award take significant time. Component C varies by state and DISCOM, ranging from 90 days to over a year for feeder-level projects."
+    a: "No source we can cite publishes standard timelines, because they depend on the component, the state agency's verification, financing arrangements, vendor assignment and equipment procurement. Component A projects, which involve land aggregation, a DISCOM power purchase agreement and a tender, generally take longer than a single pump installation. Ask your state nodal agency for its current timeline for your component, and note that the MNRE page gives the scheme period as till 31 March 2026, with later extensions issued for some projects, so check the current status before planning."
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-Every year, Indian farmers spend an estimated ₹70,000 crore on diesel to power agricultural pumps, money that leaves farm budgets, pollutes village air, and funds fuel imports. PM-KUSUM Yojana (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan) is the Government of India's answer: a scheme that turns every diesel pump into a potential solar asset and every patch of barren farm land into a power generation site, with 60% of the capital cost covered by central and state subsidies.
+Farmers who irrigate with diesel pumps pay for the fuel every season, and diesel pump prices on 14 October 2026 ranged from ₹95.20 to ₹104.23 per litre across four major cities (CarDekho). PM-KUSUM Yojana (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan) is the Government of India's scheme to move agricultural pumping and farm-based generation onto solar, with central financial assistance of 30% of the benchmark or tender cost on standalone and grid-connected pumps (50% in the special states) and a state share of at least 30%.
 
-Launched in March 2019 by [MNRE](/glossary/mnre/), KUSUM targets 35 GW of solar capacity in agriculture by 2026. It is one of the largest agricultural solar programmes in the world by target capacity, and one of the most complex, because it operates across three distinct components that serve three entirely different farmer needs. Understanding which component applies to your situation is the difference between a smooth application and months of confusion.
+Launched in 2019 by [MNRE](/glossary/mnre/), the scheme's page lists a target of 34,800 MW of solar capacity, central financial support of ₹34,422 crore, and a scheme period till 31 March 2026 (page last updated 7 November 2025, read 14 October 2026). It operates across three components that serve three different needs, so understanding which one applies to your situation is the difference between a smooth application and months of confusion.
 
-> **KUSUM Yojana** is India's flagship agricultural solar scheme, covering Component A (decentralised solar plants on barren farm land), [Component B](https://www.heavengreenenergy.com/blog/kusum-component-b-application-guide) (standalone solar pumps for off-grid farmers), and [Component C](https://www.heavengreenenergy.com/blog/kusum-component-c-grid-tied-pump) (solarisation of grid-connected agricultural pumps). Under Component B (the most widely used) the central government covers 30% of pump cost, the state covers 30%, the farmer pays 10% upfront, and a bank loan covers the remaining 30%. This means a farmer with a diesel pump pays only one-tenth of the replacement cost out of pocket.
+> **KUSUM Yojana** is India's agricultural solar scheme, covering Component A (decentralised solar plants of 500 kW to 2 MW), [Component B](https://www.heavengreenenergy.com/blog/kusum-component-b-application-guide) (standalone solar pumps up to 7.5 HP for off-grid areas), and [Component C](https://www.heavengreenenergy.com/blog/kusum-component-c-grid-tied-pump) (solarisation of grid-connected agricultural pumps, individually or at feeder level). Under Component B, central financial assistance is 30% of the benchmark or tender cost (whichever is lower), the state gives at least 30%, and the farmer pays at most 40%.
 
-The [KUSUM scheme](/glossary/kusum/) sits alongside but entirely separate from [PM Surya Ghar](https://quickestimate.co/blog/what-is-pm-surya-ghar-yojana), which targets residential rooftop solar. KUSUM is agricultural-first, state-implemented, and addresses energy poverty in rural India at its root, the cost of lifting water from the ground. This guide explains every component, every subsidy number, who qualifies, how to apply state by state, and the key mistakes that delay or kill applications.
+The [KUSUM scheme](/glossary/kusum/) sits alongside but entirely separate from [PM Surya Ghar](https://quickestimate.co/blog/what-is-pm-surya-ghar-yojana), which targets residential rooftop solar. KUSUM is agricultural-first and state-implemented. This guide explains every component, the funding split MNRE publishes, who may qualify, how to apply through state agencies, and the key mistakes that delay applications.
 
 > [!KEYTAKEAWAYS]
-> - KUSUM has three components: Component A (solar plants on barren land), Component B (standalone off-grid pumps), and Component C (solarisation of grid-connected pumps).
-> - Under Component B, the farmer pays only 10% of pump cost upfront; central and state governments each cover 30%, and a bank loan covers the remaining 30%.
-> - There is no income ceiling or minimum acreage; farmers, FPOs, water user associations, and panchayats are all eligible.
-> - Applications go through state nodal agencies (RREC, MEDA, GEDA, PEDA, UPNEDA, etc.), not a central portal, unlike [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy)'s pmsuryaghar.gov.in.
-> - Component B leads implementation at 24% of its 14-lakh-pump target, while Component A (7%) and Component C (4%) lag well behind.
+> - KUSUM has three components: Component A (500 kW to 2 MW decentralised plants, target 10,000 MW), Component B (standalone pumps up to 7.5 HP, target 14 lakh pumps), and Component C (solarisation of grid-connected pumps, target 35 lakh pumps).
+> - Under Component B, central assistance is 30% of the benchmark or tender cost, the state gives at least 30%, and the farmer pays at most 40%; how the farmer's share is financed is set by the state agency.
+> - The MNRE page lists no income ceiling or minimum acreage, but states set the detailed conditions.
+> - Applications go through state nodal agencies (RREC, MEDA, GEDA, PEDA, UPNEDA, etc.), not [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy)'s pmsuryaghar.gov.in; the national PM-KUSUM portal is a resource and gateway to state contacts.
+> - The MNRE page gives the scheme period as till 31 March 2026 and reports no achievement figures, so check MNRE's current status and your state's rules before planning around it.
 
 ## KUSUM Yojana's Three Components: What Each One Does
 
-The most important thing to understand about [KUSUM](/glossary/kusum/) is that it is not a single scheme with one application path. It is three distinct programmes bundled under one name, each solving a different agricultural energy problem. Applying under the wrong component wastes months.
+The most important thing to understand about [KUSUM](/glossary/kusum/) is that it is not a single scheme with one application path. It is three distinct programmes bundled under one name, each solving a different agricultural energy problem. Applying under the wrong component wastes time.
 
-### Component A: Decentralised Solar Power Plants on Farm Land
+### Component A: Decentralised Solar Power Plants
 
-Component A addresses a specific problem: India has tens of millions of acres of barren, fallow, or otherwise unproductive farm land. Component A allows this land to be used for small solar power plants (between 500 kW and 2 MW each) that sell electricity directly to the local [DISCOM](/glossary/discom/) at a state-determined feed-in tariff.
+Component A covers ground- or stilt-mounted renewable power plants of 500 kW to 2 MW that sell power to the local [DISCOM](/glossary/discom/) at a tariff set by the state regulator. It is a power-plant component for developers, farmer groups and similar entities, and the MNRE page states no capital subsidy percentage for it; instead, DISCOMs receive a performance-based incentive of ₹0.40 per unit or ₹6.6 lakh per MW, whichever is less, for five years from commercial operation.
 
-The farmer (or farmer group, FPO, panchayat, or water user association) participates in one of two ways:
+A landowner can take part by leasing land to a developer on terms in the contract, or by developing a plant with a developer's help and a power purchase agreement with the DISCOM. We quote no lease rate or feed-in tariff because we found no sourced current state figure; get them in writing from the developer and the state's tender documents. Before committing to a multi-decade lease, confirm soil condition, grid proximity and access, and have a land feasibility and site survey assessment done before signing.
 
-1. **As a land lessor**: The farmer leases the land to a developer selected through a state tender process. The developer builds, owns, and operates the plant. The farmer receives annual land lease income of ₹0.30 to ₹1 per kWh equivalent (typically ₹20,000 to ₹40,000 per acre per year, depending on the state and FIT) without investing capital or managing the plant.
-2. **As an independent power producer**: The farmer installs the plant independently (or through a developer they commission directly), enters a Power Purchase Agreement with the local DISCOM, and receives the full feed-in tariff revenue. This route requires more capital and project management skill but returns higher income.
-
-Before committing to either route, it is worth confirming the land is actually suitable for a multi-decade solar lease. Soil condition, grid proximity, and access roads all affect feasibility, and a land feasibility and site survey assessment done before signing a 25-year lease avoids costly surprises after a developer has already been selected.
-
-The central government provides no direct capex subsidy for Component A. The economics work through the feed-in tariff, states like Rajasthan, Maharashtra, and Gujarat have set FITs in the range of ₹3.10 to ₹4.50 per kWh for KUSUM Component A plants.
-
-**Target:** 10 GW of decentralised solar capacity. As of Q1 2026, approximately 0.7 GW has been installed, Component A has the largest gap between target and achievement due to land aggregation complexity and DISCOM PPA negotiation delays.
+**Target:** 10,000 MW of decentralised capacity (MNRE page).
 
 ### Component B: Standalone Solar Pumps for Off-Grid Farmers
 
-Component B is the most widely accessed part of KUSUM and the one most farmers mean when they say "KUSUM scheme." It replaces diesel-powered standalone pumps (not connected to the grid) with solar-powered alternatives, eliminating fuel costs permanently.
+Component B is the part most farmers mean when they say "KUSUM scheme." It replaces diesel-powered standalone pumps not connected to the grid with solar pumps, up to 7.5 HP, eliminating fuel costs.
 
-The target is 14 lakh (1.4 million) standalone solar pumps, covering pump sizes from 0.5 HP to 7.5 HP. As of Q1 2026, approximately 3.4 lakh pumps have been installed, the strongest progress of all three components.
+**Target:** 14 lakh standalone solar pumps (MNRE page).
 
-**Who qualifies:** Individual farmers with agricultural land who irrigate using a diesel or kerosene pump not connected to the electricity grid. FPOs, water user associations, and gram panchayats managing shared irrigation infrastructure also qualify.
+**Funding split on the MNRE page:**
+- Central financial assistance: 30% of the benchmark or tender cost, whichever is lower (50% in the North Eastern states, Sikkim, J&K, Himachal Pradesh, Uttarakhand, Lakshadweep and A&N Islands)
+- State share: at least 30%
+- Farmer share: at most 40% (at most 20% in the special states)
 
-**Subsidy structure:**
-- Central government subsidy: 30% of pump capital cost
-- State government subsidy: 30% of pump capital cost
-- Bank loan (concessional): 30% of pump capital cost
-- Farmer's own contribution: 10% of pump capital cost
-
-This means a farmer pays only 10% out of pocket and repays the 30% bank loan over 5 to 7 years, typically with monthly instalments that are well below the monthly diesel savings.
+How the farmer's share is financed, whether in cash or through a bank loan, is set by the state nodal agency, so ask which banks and terms apply.
 
 ### Component C: Solarisation of Grid-Connected Agricultural Pumps
 
-Component C addresses a different problem: farmers who are already connected to the grid use highly subsidised or free electricity for their pumps, creating a massive financial burden on DISCOMs (agricultural power subsidy is estimated at ₹75,000 crore annually nationwide). Component C solarises these pumps (so the farmer generates their own power) and allows them to sell surplus generation to the DISCOM.
+Component C covers farmers who are already connected to the grid. Two sub-tracks exist:
+- **Individual pump solarisation:** the farmer's pump is solarised with a dedicated array. Central assistance is 30% of the solar PV component cost (50% in the special states), the state gives at least 30%, and the farmer pays at most 40% (at most 20% in the special states). Surplus power can flow to the grid on the terms in the state's guidelines.
+- **Feeder-level solarisation:** a DISCOM or implementing agency solarises the feeder. Central assistance is 30% of the installation cost, up to ₹1.05 crore per MW (50%, up to ₹1.75 crore per MW, in the special states). Individual farmers do not install anything.
 
-Two sub-tracks exist:
-- **Individual pump solarisation:** The farmer's specific pump motor is solarised with a dedicated solar array. Surplus power flows to the grid at a [feed-in tariff](/glossary/feed-in-tariff/).
-- **Feeder-level solarisation:** A DISCOM aggregates all agricultural connections on a feeder and installs a solar plant at the substation level. The generation offsets the feeder's agricultural load in bulk. Individual farmers do not install anything, the DISCOM handles it.
-
-**Target:** 35 lakh (3.5 million) grid-connected pumps. As of Q1 2026, only about 1.5 lakh have been solarised, Component C faces the most implementation challenges because DISCOM coordination, metering, and power purchase agreements require extensive bureaucratic alignment.
+**Target:** 35 lakh grid-connected pumps (MNRE page).
 
 ## The KUSUM Subsidy Numbers: What a Farmer Actually Pays
 
-The headline "60% subsidy" is accurate but needs unpacking. Here is the complete cost structure for Component B, the component where the subsidy most directly benefits an individual farmer.
+The funding split above applies to a benchmark or tender cost that each state publishes, so the rupee amounts depend on your state's benchmark. The table applies the MNRE percentages to illustrative pump costs, which are assumed inputs and not state benchmarks.
 
-Table: KUSUM Component B cost split by pump size, with central subsidy, state subsidy, bank loan and farmer share (indicative costs)
+Table: KUSUM Component B funding split on illustrative pump costs (assumed inputs, MNRE percentages)
 
-| Pump Size | Approximate Total Cost | Central Subsidy (30%) | State Subsidy (30%) | Bank Loan (30%) | Farmer Pays (10%) |
-| --- | --- | --- | --- | --- | --- |
-| 2 HP | ₹1,20,000 | ₹36,000 | ₹36,000 | ₹36,000 | ₹12,000 |
-| 3 HP | ₹1,80,000 | ₹54,000 | ₹54,000 | ₹54,000 | ₹18,000 |
-| 5 HP | ₹2,50,000 | ₹75,000 | ₹75,000 | ₹75,000 | ₹25,000 |
-| 7.5 HP | ₹3,50,000 | ₹1,05,000 | ₹1,05,000 | ₹1,05,000 | ₹35,000 |
+| Pump Size | Illustrative Cost | Central Assistance (30%) | State Share (at least 30%) | Farmer Share (at most 40%) |
+| --- | --- | --- | --- | --- |
+| 2 HP | ₹1,20,000 | ₹36,000 | ₹36,000 | ₹48,000 |
+| 3 HP | ₹1,80,000 | ₹54,000 | ₹54,000 | ₹72,000 |
+| 5 HP | ₹2,50,000 | ₹75,000 | ₹75,000 | ₹1,00,000 |
+| 7.5 HP | ₹3,50,000 | ₹1,05,000 | ₹1,05,000 | ₹1,40,000 |
 
-The pump costs in this table are indicative, actual costs vary by state, technology (surface vs submersible, DC vs AC), and whether variable frequency drive (VFD) technology is included. States publish benchmark costs annually through their nodal agencies.
+The costs are illustrative; actual costs vary by state, technology (surface vs submersible, DC vs AC) and whether a variable frequency drive is included. States publish benchmark costs through their nodal agencies. One common arrangement splits the farmer's share into a cash payment and a bank-financed part, but that is set by each state.
 
-The bank loan at 30% is disbursed by the empanelled bank directly to the vendor, the farmer does not handle this money. The annual diesel cost saving for a 3 HP pump running 6 hours per day for 200 days per year is approximately ₹1,62,000, which is 1,800 litres at ₹90 per litre (using 0.5 litres per HP per hour). The 5 to 7 year loan repayment is typically lower than the annual diesel saving, making the economics immediately cash-flow positive for the farmer.
-
-> **₹70,000 crore.** The estimated annual expenditure by Indian farmers on diesel for agricultural pumps, a figure that KUSUM Yojana's 35 lakh pump target is designed to progressively eliminate. *Source - [MNRE PM-KUSUM Scheme Guidelines](https://mnre.gov.in/), 2019 scheme document and subsequent revisions.*
+Diesel savings are a farmer's own arithmetic. For a 3 HP pump running 6 hours a day for 200 days a year at an assumed 0.3 litre per HP per hour (check your engine's rating) and ₹96 per litre (within the ₹95.20 to ₹104.23 range of pump prices on 14 October 2026, CarDekho): 3 × 6 × 200 × 0.3 = 1,080 litres, or about ₹1,03,680 a year.
 
 ## Who Is Eligible for KUSUM Yojana
 
-Eligibility varies by component, but the scheme is deliberately broad. MNRE designed KUSUM without income caps because means-testing at scale across 140 million farm households would be administratively unworkable.
+Eligibility varies by component and by state. The MNRE page lists no income limit and no minimum acreage, but each state's guidelines set the detailed conditions, so confirm with the state nodal agency.
 
 **Individual farmers:**
-- Agricultural land ownership (for Components A and B)
-- Existing diesel/kerosene pump for Component B replacement
-- Existing grid-connected agricultural electricity connection for Component C
+- Agricultural land (for Components A and B)
+- An existing off-grid pump for Component B replacement
+- An existing grid-connected agricultural electricity connection for Component C
 - Aadhaar-linked bank account
 - Land records establishing agricultural use
 
-**Farmer Producer Organisations (FPOs):**
-- Registered FPO or farmer cooperative
-- Aggregate land qualifying for Component A plant size (minimum 500 kW requires approximately 3–4 acres depending on ground coverage ratio)
-- Board resolution authorising the application
-
-**Water User Associations:**
-- Registered water user association or irrigation society
-- Common irrigation infrastructure (canal outlets, water tanks, or shared borewell) that the solar system will power
-- State water resources department recognition
-
-**Panchayats:**
-- Gram panchayat or village body seeking solar for common agricultural irrigation
-- Resolution passed by gram sabha
-- Willingness to enter land lease or plant ownership agreement
-
-**No eligibility requirements** that KUSUM explicitly excludes: there is no maximum land size, no maximum income threshold, no restriction on farmers who have previously received other agricultural schemes, and no restriction based on crop type.
+**Farmer groups, FPOs, water user associations and panchayats:** whether and how they can apply varies by state and component; ask the nodal agency for its current rules, the documents it requires (such as registration certificates or resolutions) and how pooled land counts toward the 500 kW minimum of Component A.
 
 ## The KUSUM Component Match: Which Track Is Right for You?
 
-This named framework helps farmers identify the right KUSUM component before approaching their state nodal agency. Using the wrong track wastes time at every application step.
+This framework helps farmers identify the right KUSUM component before approaching their state nodal agency. Using the wrong track wastes time at every application step.
 
-### The KUSUM Component Match: A Binary Decision Framework
+### The KUSUM Component Match: A Decision Framework
 
 Work through the following questions in order:
 
-1. **Do you have barren or fallow land (0.5 acres or more) that is not under regular cultivation?**
-   - Yes → **Consider Component A** (lease the land or install a plant; generates income without capital if you choose the lessor route)
+1. **Do you have barren or fallow land suitable for a 500 kW to 2 MW plant, or a way to pool land with others?**
+   - Yes → **Consider Component A** (lease the land or develop a plant with a developer)
    - No → Continue to question 2
 
 2. **Do you currently irrigate with a diesel or kerosene pump that is NOT connected to the electricity grid?**
-   - Yes → **Apply for Component B** (standalone solar pump; 10% farmer contribution, 60% subsidised, 30% bank loan)
+   - Yes → **Apply for Component B** (standalone solar pump)
    - No → Continue to question 3
 
-3. **Do you have an existing agricultural electricity connection (metered or flat-rate) for a pump?**
-   - Yes → **Apply for Component C** (solarise your grid-connected pump; sell surplus power to DISCOM)
-   - No → You are not yet eligible for KUSUM but may qualify once you obtain a grid connection or develop barren land
+3. **Do you have an existing agricultural electricity connection for a pump?**
+   - Yes → **Apply for Component C** (solarise your grid-connected pump, or find out whether your feeder is being solarised)
+   - No → You may not yet be eligible for KUSUM; ask your nodal agency what applies when you obtain a grid connection
 
 4. **Do you qualify under multiple components?**
-   - A farmer with both barren land AND a diesel pump can pursue both Component A (for the land) and Component B (for the pump) simultaneously through separate applications. There is no restriction on applying under multiple components, they are independent schemes.
+   - A farmer with both suitable land AND a diesel pump may be able to pursue Component A and Component B through separate applications. Ask your nodal agency whether your state allows it.
 
-5. **Are you an FPO, panchayat, or water user association?**
-   - All three entities qualify for all three components. Component A is particularly well-suited for aggregated farmer groups because individual farmer land parcels may be too small for the 500 kW minimum plant size, but multiple farmers' land pooled together easily meets it.
-
-This framework resolves the single most common confusion in KUSUM applications: farmers approaching a state office for "KUSUM" without knowing which component they need, resulting in referrals across multiple departments.
+This framework resolves a common confusion in KUSUM applications: approaching a state office for "KUSUM" without knowing which component you need.
 
 ## How to Apply: State Portals and DISCOM Processes
 
-KUSUM is emphatically a state-level scheme. There is no single national application portal comparable to pmsuryaghar.gov.in for PM Surya Ghar. Applications go through the state nodal agency for renewable energy or the state agriculture department, and the process differs between states.
+KUSUM is a state-implemented scheme. There is no single national application portal comparable to pmsuryaghar.gov.in for PM Surya Ghar. Applications go through the state nodal agency for renewable energy or the state agriculture department, and the process differs between states.
 
 > [!IMPORTANT] There is no central KUSUM application portal
-> Applications are submitted at the state level. The official [PM-KUSUM national resource page](https://pmkusum.mnre.gov.in/) at MNRE lists state-wise nodal agency contacts and guidelines, but actual applications are processed through state agriculture or energy department portals.
+> Applications are submitted at the state level. The [PM-KUSUM national portal](https://pmkusum.mnre.gov.in/) lists state-wise nodal agency contacts and guidelines, but applications are processed through state agriculture or energy department portals.
 
 **General application sequence for Component B (the most common track):**
 
 <!-- steps -->
-1. **Locate your state nodal agency**: Find your state's contact on the MNRE KUSUM page. Common nodal agencies include MNRE's designated state renewable energy departments (e.g., MEDA in Maharashtra, RREC in Rajasthan, GEDA in Gujarat, PEDA in Punjab, UPNEDA in Uttar Pradesh).
+1. **Locate your state nodal agency**: Find your state's contact on the PM-KUSUM national portal. Common nodal agencies include MEDA in Maharashtra, RREC in Rajasthan, GEDA in Gujarat, PEDA in Punjab and UPNEDA in Uttar Pradesh.
 
-2. **Register on the state portal**: Each state operates its own digital portal. You will need Aadhaar number, land records (khasra number), bank account details, and existing pump/borewell details.
+2. **Register on the state portal**: Each state operates its own digital portal. You will typically need Aadhaar number, land records, bank account details and existing pump or borewell details.
 
-3. **Submit application and upload documents**: Documents include land ownership certificate, Aadhaar, bank passbook, and photographs of the existing diesel pump. State nodal agencies verify agricultural use and pump specifications.
+3. **Submit application and upload documents**: Documents typically include the land ownership record, Aadhaar, bank passbook and photographs of the existing diesel pump. State nodal agencies verify agricultural use and pump specifications.
 
-4. **State verification and approval**: The nodal agency verifies the application, checks for duplicate applications on the same land parcel or connection, and issues a provisional approval letter typically within 15 to 45 days.
+4. **State verification and approval**: The nodal agency verifies the application, checks for duplicate applications on the same land parcel or connection, and issues an approval letter.
 
-5. **Bank loan processing**: If applying for the bank-financed 30%, the farmer approaches an empanelled bank (NABARD, SBI, Bank of Baroda, or state cooperative banks) with the provisional approval letter. The bank processes the loan, typically in 20 to 45 days. Loan disbursement goes directly to the vendor, not the farmer.
+5. **Arrange the farmer's share**: If part of the farmer's share is bank-financed, approach a bank the state agency accepts, with the approval letter.
 
-7. **Commissioning and subsidy claim**: After installation, the vendor submits a commissioning report. The state nodal agency verifies and triggers subsidy disbursement to the vendor (for the subsidy portions) and activates the bank loan for the farmer's loan portion.
+6. **Commissioning and subsidy claim**: After installation, the vendor submits a commissioning report. The state nodal agency verifies it and releases the subsidy portions as its guidelines provide.
 
-## State-by-State KUSUM Implementation: Where It Works Best
+## State Nodal Agencies: Where to Apply
 
-KUSUM implementation varies dramatically by state. Here are the major implementing states and their specific characteristics in 2026.
+Implementation varies by state, so ask your state agency for its current status, empanelled vendor list and processing practice. The agencies below are examples:
 
-### Rajasthan
-
-Rajasthan leads nationally in Component B installations with approximately 1.2 lakh standalone pumps commissioned. The state's Rajasthan Renewable Energy Corporation (RREC) has the most mature empanelled vendor network and the fastest verification timelines, provisional approvals typically come in 10 to 20 days. Component A is also active through DISCOM (AVVNL, JDVVNL, JVVNL) tenders in agricultural zones across the Thar region. The state has set Component A FITs at ₹3.14 per kWh (as of the 2025 tender round), making it one of the more attractive revenue environments for small plant developers. Farmers in the state combining KUSUM with a residential rooftop application can also review the [Rajasthan solar subsidy guide](/blog/solar-subsidy-rajasthan-2026/) for the separate PM Surya Ghar process.
-
-### Maharashtra
-
-Maharashtra implements KUSUM primarily through MEDA (Maharashtra Energy Development Agency) for Components A and B, and MSEDCL for Component C. The state has been active in DISCOM feeder solarisation pilots under Component C, particularly in Vidarbha and Marathwada where high agricultural pump density meets high diesel dependence. Maharashtra's Component B process is digitised end-to-end on the MEDA portal. For farmers in Maharashtra seeking solar inverter systems compatible with agricultural KUSUM installations, the [net metering India complete guide](/blog/net-metering-india-complete-guide/) covers the MSEDCL-specific regulations relevant to Component C surplus sales.
-
-### Punjab
-
-Punjab's agriculture relies almost entirely on grid-connected tubewells, making it a natural fit for Component C feeder solarisation. PEDA (Punjab Energy Development Agency) leads implementation. The challenge in Punjab is that most agricultural connections are unmetered flat-rate connections, complicating the accounting for surplus solar generation. PEDA has piloted individual pump solarisation in several districts. Component B has lower relevance in Punjab given near-universal grid coverage of agricultural pumps. EPCs bidding on feeder-level DISCOM tenders will find Heaven Green Energy's PM-KUSUM/DREGP feeder solarisation overview a useful reference for how these bundled tenders are typically scoped.
-
-### Uttar Pradesh
-
-UP implements KUSUM through UPNEDA (Uttar Pradesh New and Renewable Energy Development Agency). The state has the second-highest number of diesel pump users in India after Rajasthan, making Component B the priority. UPNEDA's component B target is 1.5 lakh pumps. Processing timelines are longer than Rajasthan, expect 45 to 90 days for verification. UP also includes KUSUM provisions within the state's broader Kisan Urja Suraksha scheme, with additional state subsidies for SC/ST farmer applicants.
-
-### Gujarat
-
-Gujarat's GEDA (Gujarat Energy Development Agency) manages KUSUM with characteristic efficiency. Component B applications process in 20 to 35 days. Gujarat combines KUSUM subsidies with the state's own solar pump scheme, bringing the effective farmer contribution below 10% in some districts. Component A is active through GUVNL tenders in dryland agricultural zones, particularly in Kutch and Saurashtra. The state's residential Surya Gujarat top-up is covered separately in the [Gujarat solar subsidy guide](/blog/surya-gujarat-scheme-guide/) for farming households that also want to solarise their home.
+- **Rajasthan:** Rajasthan Renewable Energy Corporation (RREC). Farmers in the state combining KUSUM with a residential rooftop application can also review the [Rajasthan solar subsidy guide](/blog/solar-subsidy-rajasthan-2026/) for the separate PM Surya Ghar process.
+- **Maharashtra:** Maharashtra Energy Development Agency (MEDA), with MSEDCL involved for grid-connected solarisation. The [net metering India complete guide](/blog/net-metering-india-complete-guide/) covers the MSEDCL-specific regulations relevant to Component C surplus sales.
+- **Punjab:** Punjab Energy Development Agency (PEDA). Punjab's agriculture relies heavily on grid-connected tubewells, so grid-connected solarisation (Component C) is the relevant track for many farmers. EPCs bidding on feeder-level DISCOM tenders will find Heaven Green Energy's PM-KUSUM/DREGP feeder solarisation overview a useful reference for how these bundled tenders are typically scoped.
+- **Uttar Pradesh:** Uttar Pradesh New and Renewable Energy Development Agency (UPNEDA).
+- **Gujarat:** Gujarat Energy Development Agency (GEDA). The state's residential Surya Gujarat top-up is covered separately in the [Gujarat solar subsidy guide](/blog/surya-gujarat-scheme-guide/) for farming households that also want to solarise their home.
 
 ## PM Surya Ghar vs KUSUM Yojana: Understanding the Difference
 
-A significant percentage of farmers who approach state offices for "solar subsidy" confuse these two schemes. The confusion is understandable, both are MNRE schemes, both involve solar, both involve subsidies. But they are designed for entirely different beneficiaries and different infrastructure.
+A significant number of farmers who approach state offices for "solar subsidy" confuse these two schemes. Both are MNRE schemes and both involve solar subsidies, but they are designed for different beneficiaries and different infrastructure.
 
 Table: PM Surya Ghar compared with KUSUM Yojana on beneficiary, system, subsidy, portal and administrator
 
 | Dimension | PM Surya Ghar | KUSUM Yojana |
 | --- | --- | --- |
-| **Primary beneficiary** | Residential homeowner with DISCOM connection | Farmer with agricultural land, pump, or barren land |
+| **Primary beneficiary** | Residential homeowner with DISCOM connection | Farmer with agricultural land, pump, or suitable land |
 | **Energy served** | Household electricity consumption | Agricultural irrigation and farm power |
-| **System type** | Grid-connected rooftop solar (1–3 kW) | Solar pumps (0.5–7.5 HP), solar plants (0.5–2 MW) |
-| **Subsidy structure** | Up to ₹78,000 central subsidy (flat) | 60% capex (30% central + 30% state) + 30% bank loan |
+| **System type** | Grid-connected rooftop solar (1–3 kW slabs) | Solar pumps (up to 7.5 HP), solar plants (500 kW–2 MW) |
+| **Subsidy structure** | Up to ₹78,000 central subsidy (3 kW and above) | Pumps: 30% central (50% in special states) plus at least 30% state; plants: no capital subsidy, DISCOM incentive |
 | **Application portal** | National: pmsuryaghar.gov.in | State-level: RREC, MEDA, GEDA, PEDA, UPNEDA, etc. |
-| **Net metering** | Mandatory for subsidy; surplus sold to DISCOM | Only for Component C; Component B is off-grid |
-| **Farmer eligibility** | Only if farmer has a residential DISCOM connection | As farmer, FPO, panchayat, or water user association |
+| **Net metering** | Mandatory for subsidy; surplus sold to DISCOM | Relevant to Component C; Component B is off-grid |
 | **Scheme administrator** | MNRE via DISCOMs | MNRE via state nodal agencies |
 
-A farmer who owns both a home with a residential electricity connection AND agricultural land with a diesel pump can apply for both schemes independently. PM Surya Ghar covers the home; KUSUM covers the farm. The subsidies are separate, the equipment is separate, and the applications go to different agencies.
+A farmer who owns both a home with a residential electricity connection and agricultural land with a diesel pump can apply for both schemes independently: PM Surya Ghar covers the home and KUSUM covers the farm. The subsidies, equipment and applications are separate.
 
-For a complete guide to PM Surya Ghar for residential applications, the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers eligibility, the five-step application process, ALMM requirements, and state-wise top-up subsidies in detail.
+For a complete guide to PM Surya Ghar for residential applications, the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers eligibility, the application process, ALMM requirements and state-wise top-up subsidies in detail.
 
 ## The Economics of KUSUM: Payback, Diesel Savings, and Income Potential
 
-Understanding the financial case for KUSUM requires looking at each component separately, because the revenue model differs fundamentally.
+The financial case differs by component, because the revenue model differs.
 
 ### Component B Financial Model (Standalone Solar Pump)
 
-For a 5 HP diesel pump replaced with a 5 HP solar pump under Component B:
+For a 5 HP diesel pump replaced with a 5 HP solar pump under Component B, using assumed inputs (replace them with your own):
 
-> [!EXAMPLE] 5 HP pump, Component B
-> - **Diesel cost eliminated:** A 5 HP pump consuming diesel at 0.5 litres per HP per hour, running 8 hours per day for 200 days per year, uses approximately 4,000 litres of diesel annually at ₹90 per litre - **₹3,60,000 per year in fuel cost**.
-> - **Farmer's net outlay:** 10% down (₹25,000 for a ₹2.5 lakh pump) + bank loan repayment over 5 years at approximately ₹20,000 per year = **total annual cash outflow of ₹20,000**.
-> - **Net annual saving:** ₹3,60,000 − ₹20,000 = **₹3,40,000 per year** in net cash improvement.
-> - **Payback on equity:** Less than 1 year (the 10% down payment of ₹25,000 is recovered in weeks from diesel savings).
+> [!EXAMPLE] 5 HP pump, Component B (assumed inputs)
+> - **Diesel cost eliminated:** 5 HP × 8 hours × 200 days × 0.3 litre per HP per hour = 2,400 litres a year, at ₹96 per litre = **₹2,30,400 a year**.
+> - **Farmer's share (at most 40% of an illustrative ₹2,50,000 cost):** ₹1,00,000, assumed here as ₹25,000 in cash plus a ₹75,000 loan over 5 years at an assumed 9%, which is an instalment of about ₹1,557 a month, or about ₹18,700 a year.
+> - **Maintenance (assumed):** ₹7,500 a year.
+> - **Simple payback on the farmer's ₹1,00,000 share:** ₹1,00,000 ÷ (₹2,30,400 − ₹7,500) = about **0.45 years**, before loan interest and any pumping-hours difference between diesel and solar.
 
-Even accounting for solar pump maintenance (₹5,000–₹10,000 per year for cleaning, minor repairs, and inverter servicing), the economics are transformative for smallholder farmers.
-
-> **3 to 5 years.** The typical payback period for a KUSUM Component B solar pump when factoring in the 30% bank loan repayment schedule. Farmers with higher diesel consumption and larger pump sizes often achieve payback in under 3 years. *Source - [IRENA Renewable Energy in Agriculture](https://www.irena.org/), 2024 India assessment.*
+The result depends on hours run, diesel price, engine consumption and the state's actual benchmark, so recompute with your own numbers; solar pumps run only in daylight, which may not match your irrigation schedule.
 
 ### Component A Financial Model (Land Lessor Route)
 
-For a farmer leasing 2 acres of barren land to a Component A developer:
-
-- **Annual land lease income:** ₹40,000 to ₹80,000 per acre per year, depending on state FIT and developer agreement.
-- **Farmer capital required:** Zero (the developer owns and funds the plant).
-- **Duration:** Typically 25 years (matching the solar plant life).
-- **Risk:** DISCOM payment delays can affect lease income in states with weaker DISCOM financial health.
-
-The lease model is passive income for land that was previously generating no agricultural revenue. For farmers with poor-quality land unsuitable for high-value crops, Component A transforms a liability into a long-term income asset.
+A farmer leasing land to a Component A developer carries no capital cost, because the developer owns and funds the plant. The income is whatever lease the contract specifies, so get the lease rate, escalation, term and payment security in writing, and ask the developer how it is protected against DISCOM payment delays. Lease terms are commonly long (tied to the plant's life), so read exit clauses carefully.
 
 ### Component C Financial Model (Grid-Connected Pump Solarisation)
 
-For a farmer with a 5 HP grid-connected agricultural pump running on subsidised electricity:
+For a farmer with a grid-connected pump, the income logic is:
 
-> [!EXAMPLE] 5 HP grid-connected pump, Component C
-> - **Solar generation:** A 5 HP pump solarisation system (approximately 5 to 7 kW solar array) generates 6,000 to 8,400 kWh annually.
-> - **Self-consumption:** 3,000 to 4,000 kWh used by the pump (eliminating electricity bill or reducing subsidised units consumed).
-> - **Surplus sold to DISCOM:** 2,000 to 4,400 kWh at ₹3.10 to ₹4.50 per kWh = **₹6,200 to ₹19,800 per year in solar income**.
-> - **Capital cost (farmer's 10% share):** ₹18,000 to ₹25,000.
-> - **Payback:** 1 to 4 years.
+> [!FORMULA]
+> Annual surplus income = (solar generation − pump consumption) × the tariff the state sets for surplus power
 
-For a deeper analysis of solar payback calculations across different tariff environments and system sizes, the [solar inverter payback period guide](/blog/solar-inverter-payback-period/) includes agricultural pump scenarios.
+The tariff and the settlement rules vary by state and by DISCOM, and many agricultural connections are unmetered, so ask the DISCOM how surplus would be measured and paid before counting on any income. For a deeper analysis of solar payback calculations across different tariff environments and system sizes, the [solar inverter payback period guide](/blog/solar-inverter-payback-period/) includes agricultural pump scenarios.
 
 ## Common KUSUM Application Mistakes: and How to Avoid Them
 
-State nodal agency officers report that the same cluster of errors causes most application rejections and delays. Avoiding these mistakes cuts months from the process.
+These are common reasons for delay or rejection; ask your state nodal agency which apply in your state.
 
-- **Applying on the wrong component**: The single most common mistake. A farmer with a grid-connected pump applying under Component B (standalone) will be rejected because Component B requires a non-grid-connected diesel pump. Match the component to your situation using the KUSUM Component Match framework above before approaching the state office.
-- **Using a non-empanelled vendor**: Only vendors on the state nodal agency's empanelled list can execute KUSUM installations. Using an outside vendor (even a highly reputable one) means the subsidy claim is void. Verify empanelment on the state portal before signing any vendor agreement.
-- **Land record mismatches**: If the khasra number or owner name on your land records does not exactly match the application, the verification fails. Ensure all land documents are updated and consistent before submitting. This is especially common for inherited land not yet transferred in official records.
-- **Applying through the central MNRE website**: MNRE does not accept individual KUSUM applications. The central resource page provides information and contacts; actual applications go to state portals. Applying to a wrong channel wastes weeks.
-- **Ignoring the bank empanelment requirement**: The 30% bank loan must come from a bank on the state nodal agency's empanelled list. Approaching a non-empanelled bank (even a nationalised one) results in the loan not being counted as part of the KUSUM financing structure, which delays subsidy disbursement.
-- **Pump size mismatch**: The solar pump must match the MNRE specifications for the applied HP size. Substituting a different HP motor than what was applied for, without amendment approval, causes commissioning rejection.
-- **Not maintaining the system after installation**: Annual maintenance is a condition of warranty validity for MNRE-specified equipment. Skipping maintenance for 2 to 3 years voids the equipment warranty and reduces pump life significantly. Budget ₹3,000 to ₹8,000 per year for cleaning, inspection, and minor servicing.
+- **Applying on the wrong component**: A farmer with a grid-connected pump applying under Component B (standalone) is likely to be rejected, because Component B covers off-grid pumps. Match the component to your situation using the framework above.
+- **Using a non-empanelled vendor**: Installations are generally executed by vendors on the state nodal agency's empanelled list. Verify empanelment on the state portal before signing any vendor agreement, because a claim through an unlisted vendor may not be accepted.
+- **Land record mismatches**: If the khasra number or owner name on your land records does not match the application, verification can fail. Update land documents before submitting, especially for inherited land not yet transferred in official records.
+- **Applying through the central MNRE website**: Individual KUSUM applications are processed through state channels. The national portal provides information and contacts.
+- **Ignoring financing conditions**: If part of the farmer's share is bank-financed, ask the state agency which banks and conditions it accepts before signing a loan.
+- **Pump size mismatch**: The installed pump must match what was approved. Substituting a different HP rating without an amendment can cause commissioning rejection.
+- **Not maintaining the system after installation**: Maintenance obligations and warranty terms are in the vendor's and manufacturer's documents; read them and keep service records.
 
-> [!WARNING] Vendor and bank must both be empanelled
-> Only vendors on the state nodal agency's empanelled list can execute KUSUM installations, and the 30% bank loan must come from a bank on that list too. An outside vendor voids the subsidy claim, and a non-empanelled bank means the loan is not counted in the KUSUM financing, which delays subsidy disbursement.
+> [!WARNING] Vendor and financing must meet the state's conditions
+> Check the state nodal agency's empanelled vendor list and its financing conditions before you sign. A vendor outside the list may not be accepted for the subsidy claim, and a loan arranged outside the state's arrangement may not count as part of the farmer's share, which can delay disbursement.
 
-For farmers who have completed KUSUM installation and want to understand the broader rural solar infrastructure, the [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) explains how agricultural and residential systems can be integrated on the same farm property.
+For farmers who have completed a KUSUM installation and want to understand the broader rural solar infrastructure, the [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) explains how agricultural and residential systems can be integrated on the same farm property.
 
-## KUSUM and ALMM: Why Equipment Compliance Is Non-Negotiable
+## KUSUM and ALMM: Why Equipment Compliance Matters
 
-The Approved List of Models and Manufacturers ([ALMM](/glossary/almm-list/)) requirement sits at the core of KUSUM, just as it does for PM Surya Ghar. No ALMM listing means no subsidy, the rule is absolute.
+The Approved List of Models and Manufacturers ([ALMM](/glossary/almm-list/)) requirement applies to modules under KUSUM, as it does for PM Surya Ghar; check your state's guidelines for the exact requirement. MNRE publishes no ALMM list for inverters or pump controllers, so those need exact-model documents instead:
 
-Under KUSUM, the ALMM requirement covers the solar PV modules. MNRE publishes no ALMM list for inverters or pump controllers, so those need exact-model documents instead:
-
-1. **Solar PV modules (panels)**: The specific module model and wattage must be on the MNRE ALMM panel list. The list is updated quarterly.
-
-Why does ALMM matter beyond subsidy eligibility? Equipment on the ALMM list has been independently tested against MNRE's technical specifications. For a solar pump running in a remote field with minimal oversight, quality is not an abstract concern, a failed pump controller in June during the Kharif season means crops fail, not just inconvenience. The quality floor that ALMM establishes protects real agricultural outcomes, not just government accounting.
+1. **Solar PV modules (panels)**: The specific module model and wattage must be on the MNRE ALMM list when your state's guidelines require it.
 
 **How to verify ALMM before installation:**
 
 <!-- steps -->
 1. Ask the vendor for the exact make, model, and wattage of every component.
-2. Cross-check each item on the live ALMM list at [mnre.gov.in](https://mnre.gov.in/) (under the ALMM section).
-3. Confirm the listing is active in the current quarterly revision, expired listings do not count.
+2. Cross-check each module on the live ALMM list at [mnre.gov.in](https://mnre.gov.in/) (under the ALMM section).
+3. Confirm the listing is active on the current ALMM list; delisted entries do not count.
 4. Photograph the equipment labels on delivery day and compare model numbers before installation begins.
 
-The economics of KUSUM also intersect with [net metering](/glossary/net-metering/) for Component C farmers who sell surplus power to the DISCOM. Understanding how net metering credits accumulate and how year-end settlements work is important for farmers planning their annual income from surplus solar. The [net metering India complete guide](/blog/net-metering-india-complete-guide/) covers the state-wise regulations governing agricultural [feed-in tariff](/glossary/feed-in-tariff/) settlements.
+The economics of KUSUM also intersect with [net metering](/glossary/net-metering/) for Component C farmers who sell surplus power to the DISCOM. The [net metering India complete guide](/blog/net-metering-india-complete-guide/) covers the state-wise regulations governing agricultural [feed-in tariff](/glossary/feed-in-tariff/) settlements.
 
-## KUSUM Progress in 2026: Where the Scheme Stands
+## Where the Scheme Stands in 2026
 
-KUSUM's 35 GW target by 2026 was always ambitious. The implementation record through Q1 2026 tells a nuanced story: strong progress on Component B (standalone pumps), modest progress on Component A (decentralised plants), and significant underperformance on Component C (grid-connected solarisation).
+The MNRE PM-KUSUM page (read 14 October 2026, last updated 7 November 2025) gives the targets, the funding split and the scheme period, and it reports no achievement figures; it links to RE statistics reports for physical progress. We therefore publish no achievement percentages here.
 
-Table: KUSUM progress against target by component, Q1 2026 (approximate)
+Table: PM-KUSUM targets and funding as published on the MNRE page
 
-| Component | Target | Installed (Q1 2026 approx.) | Achievement |
-| --- | --- | --- | --- |
-| Component A | 10 GW | ~0.7 GW | 7% |
-| Component B | 14 lakh pumps | ~3.4 lakh pumps | 24% |
-| Component C | 35 lakh pumps | ~1.5 lakh pumps | 4% |
+| Component | Target | Central financial assistance |
+| --- | --- | --- |
+| Component A: decentralised plants (500 kW to 2 MW) | 10,000 MW | No capital subsidy; DISCOM incentive of ₹0.40 per unit or ₹6.6 lakh per MW, whichever is less, for 5 years |
+| Component B: standalone solar pumps (up to 7.5 HP) | 14 lakh pumps | 30% of benchmark or tender cost (50% in special states) |
+| Component C: solarisation of grid-connected pumps | 35 lakh pumps | Individual pumps: 30% of solar PV cost (50% in special states); feeders: 30% of installation cost up to ₹1.05 crore per MW |
+| **Overall** | 34,800 MW by March 2026 | ₹34,422 crore of central financial support, including service charges |
 
-```chart
-type: hbar
-title: KUSUM achievement against target by component, Q1 2026 (approximate)
-unit: "%"
-source: "MNRE PM-KUSUM Portal and JMK Research, India Renewable Energy Market Update, Q1 2026, as cited in this article (achievement = installed divided by target in the table above)"
-note: "Component A is measured in GW, Components B and C in number of pumps."
-data:
-  - { label: "Component A (10 GW target)", value: 7 }
-  - { label: "Component B (14 lakh pumps)", value: 24 }
-  - { label: "Component C (35 lakh pumps)", value: 4 }
-```
+The page gives the scheme period as till 31 March 2026, and MNRE has issued later extensions for some projects, so check the current status and your state's rules before planning around it.
 
-**Why Component B leads:** The economic case is immediately visible to individual farmers, diesel savings are tangible and begin on day one. The application process, while state-dependent, is manageable for individual farmers with modest documentation. Vendor networks have expanded rapidly in states like Rajasthan and Gujarat.
-
-**Why Component A lags:** Land aggregation at the 500 kW minimum scale requires coordination among multiple farmers or with state land banks. DISCOM PPA negotiation and FIT determination adds 6 to 12 months to project timelines. Power purchase agreement payment discipline varies by DISCOM, farmers and developers in states with weaker DISCOMs face payment uncertainty that deters Component A investment.
-
-**Why Component C significantly underperforms:** Solarising grid-connected agricultural pumps requires extensive DISCOM coordination, metering upgrades, and surplus settlement mechanisms. DISCOMs have historically resisted feeder-level solarisation because it reduces the volume of subsidised agricultural sales that they can claim state government reimbursement for, a perverse incentive structure that MNRE is working to address. Additionally, most agricultural connections in India are unmetered, making individual pump surplus accounting technically challenging.
-
-> **7%.** Component A's achievement rate against its 10 GW target as of Q1 2026, the sharpest gap in the KUSUM scheme. *Source - [MNRE PM-KUSUM Portal](https://pmkusum.mnre.gov.in/) and [JMK Research](https://jmkresearch.com/) India Renewable Energy Market Update, Q1 2026.*
-
-MNRE has extended the overall KUSUM target timeline and revised scheme guidelines through multiple office memoranda to address these gaps. The Ministry has specifically simplified Component A land aggregation rules and introduced a deemed approval mechanism to reduce DISCOM PPA processing delays.
-
-For farmers who have already installed KUSUM systems and are thinking about the next step (whether additional backup power for farm operations or inverter upgrades) the [inverter financing options guide](/blog/inverter-financing-options-in-india/) covers concessional loan schemes available through NABARD and the Solar Energy Corporation of India.
+For farmers who have already installed KUSUM systems and are thinking about the next step (whether additional backup power for farm operations or inverter upgrades) the [inverter financing options guide](/blog/inverter-financing-options-in-india/) covers financing options.
 
 ## Where Qbits Fits in KUSUM Installations
 
@@ -368,30 +285,28 @@ For any Qbits quote, ask the seller to confirm in writing the manufacturing orig
 
 ## Comparing Diesel, Grid Power, and KUSUM Solar: The Full Picture
 
-Farmers evaluating KUSUM often ask whether solar genuinely beats their current arrangement, especially farmers in states where agricultural electricity is heavily subsidised or even free. Here is the honest comparison.
+Farmers evaluating KUSUM often ask whether solar beats their current arrangement, especially where agricultural electricity is subsidised. The honest comparison depends on your own numbers.
 
 Table: Diesel pump, grid-subsidised pump and KUSUM solar pump compared on cost, availability, revenue and maintenance
 
 | | Diesel Pump | Grid-Subsidised Pump | KUSUM Solar Pump |
 | --- | --- | --- | --- |
-| **Fuel cost** | ₹90/litre ongoing | Zero or ₹0.50–₹2/kWh (subsidised) | Zero (after installation) |
-| **Upfront cost (farmer)** | Diesel pump only (₹15,000–₹40,000) | Grid connection fee (₹3,000–₹20,000) | 10% of system (₹12,000–₹35,000) |
-| **Availability** | Anytime, fuel permitting | Only when grid is available (often 6–10 hr/day in rural areas) | During daylight (6–10 hr/day depending on season) |
+| **Fuel cost** | Diesel at ₹95.20 to ₹104.23 per litre in four major cities, 14 Oct 2026 | Your state's agricultural tariff (may be low or zero) | Zero after installation |
+| **Upfront cost (farmer)** | Pump and engine | Connection and pump | Farmer share of at most 40% of benchmark or tender cost |
+| **Availability** | Anytime, fuel permitting | Only when the feeder supplies power | During daylight |
 | **Grid dependence** | None | High | None (Component B) |
 | **Revenue potential** | None | None | Surplus sales possible (Component C) |
-| **CO₂ footprint** | High | Medium (India grid mix) | Near-zero |
-| **25-year cost of ownership** | ₹70,000+ per year (diesel) | Subsidised but DISCOM reliability risk | Near-zero after loan repayment |
 | **Maintenance** | Engine, fuel system, oil changes | Grid supply reliability issues | Panel cleaning, pump servicing, inverter check |
 
 **Best for which farmer:**
-- **Diesel pump, no advantage for new installations.** Diesel costs continue escalating. A farmer starting fresh should apply for KUSUM Component B rather than buying a new diesel pump.
-- **Grid-subsidised pump, rational if already installed and Component C not yet available in the area.** But if Component C feeder solarisation comes to the farmer's feeder, participating adds surplus income without additional investment.
-- **KUSUM solar pump, strongly preferred for new pump installations and for farmers with diesel dependence.** The 90% subsidy-plus-loan structure removes the capital barrier. The economics justify it even where grid power is subsidised, because solar eliminates dependence on unreliable rural feeder schedules.
+- **Diesel pump:** for a new installation, compare the farmer share under Component B with the fuel cost over the pump's life, using your own hours and diesel consumption.
+- **Grid-subsidised pump:** if Component C or feeder-level solarisation is available on your feeder, ask the DISCOM how participating would change your supply hours and any surplus income.
+- **KUSUM solar pump:** worth pricing first for new pump installations and for farmers with diesel dependence, once the state benchmark and financing arrangement are known.
 
 For the complete diesel vs solar financial comparison including payback modelling at different fuel prices, the [solar vs diesel generator guide](/blog/solar-vs-diesel-generator-india/) covers the numbers across agricultural, commercial, and residential scenarios.
 
 ---
 
-KUSUM Yojana is one of the most financially compelling agricultural support schemes India has ever implemented, but its complexity means that farmers who engage without understanding which component applies to them often waste months in the wrong application queue. The three components are distinct programmes with different subsidy structures, different implementing agencies, and different revenue models. Component B's 10% farmer contribution for a standalone solar pump that eliminates diesel costs entirely is perhaps the single best financial deal available to Indian smallholder farmers today.
+KUSUM Yojana is a significant agricultural support scheme, but its complexity means that farmers who engage without understanding which component applies often waste months in the wrong application queue. The three components are distinct programmes with different subsidy structures, different implementing agencies and different revenue models.
 
-The application path runs through your state nodal agency, not MNRE directly, and not the PM Surya Ghar portal. Modules on the ALMM list are non-negotiable. And the economics, even for farmers whose states have subsidised grid electricity, strongly favour participation, because the fuel savings and surplus income from KUSUM solar consistently outperform the status quo over the life of the system.
+The application path runs through your state nodal agency, not MNRE directly and not the PM Surya Ghar portal. Modules on the ALMM list matter where your state requires them. And the economics depend on your own diesel use, hours run, state benchmark and financing, so recompute them with your own numbers before you decide.

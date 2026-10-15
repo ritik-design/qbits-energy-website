@@ -110,16 +110,16 @@ Hybrid ले रहे हैं तो battery sizing अलग exercise ह�
 > मान लीजिए Jaipur में एक 3 BHK घर है, monthly average 380 units, tariff ₹7.5 प्रति unit, यानी महीने का bill लगभग ₹2,850। रोज़ शाम को 1 घंटे का cut आता है और घर में पहले से एक normal UPS लगा है।
 >
 > - Required array: 380 भाग 120 = लगभग 3.2 kW, तो 3 kW round figure ठीक है।
-> - Roof requirement: 3 kW के लिए 25 से 30 square feet shadow-free।
+> - Roof requirement: 3 kW के लिए लगभग 240 से 300 square feet shadow-free जगह (लगभग 80 से 100 square feet प्रति kW, installer से exact layout confirm करें)।
 > - Type: cut सिर्फ 1 घंटा और UPS पहले से है, इसलिए on-grid।
 >
-> - System cost (panels, inverter, structure, cables, labour): लगभग ₹1.5 लाख से ₹1.9 लाख।
+> - System cost (panels, inverter, structure, cables, labour): assumed ₹1.5 लाख से ₹1.9 लाख की quote (MNRE benchmark ₹1,45,000 है; अपनी quote से बदलें)।
 > - PM Surya Ghar subsidy: ₹78,000।
 > - Net outgo: लगभग ₹72,000 से ₹1.12 लाख।
 > - Monthly saving: लगभग ₹2,400 से ₹2,800, क्योंकि fixed charges रहते हैं।
 > - Simple payback: लगभग 2 से 4 साल।
 >
-> अगर यही घर hybrid चुनता, तो inverter ₹25,000 ज़्यादा और 5 kWh LFP battery लगभग ₹90,000 अलग। Monthly saving वही रहता, सिर्फ 1 घंटे का backup मिलता जो UPS पहले से दे रहा था। इसीलिए इस घर के लिए hybrid गलत खर्च होता।
+> अगर यही घर hybrid चुनता, तो inverter महंगा पड़ता और battery अलग खर्च होती: 14 अक्टूबर 2026 की dated listings में 5 kW hybrid inverter ₹63,899 से शुरू थे (5 kW on-grid listings ₹29,320 से) और एक 5.12 kWh LFP battery listing ₹1,23,000 की थी। Monthly saving वही रहता, सिर्फ 1 घंटे का backup मिलता जो UPS पहले से दे रहा था। इसीलिए इस घर के लिए hybrid गलत खर्च होता।
 
 ## ALMM aur Subsidy Eligibility: Yahaan Compromise Mat Kijiye
 

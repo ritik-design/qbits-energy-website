@@ -279,7 +279,7 @@ Table: Standards and listings that apply to hybrid inverters in India
 | IEC 62116 | Anti-islanding |
 | IEC 62619 | Safety of secondary lithium cells and batteries |
 | IS 16221 | Indian inverter safety |
-| IS 16893 | Indian stationary battery storage safety |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | CEA Grid Code | Indian connectivity requirements |
 | MNRE ALMM | Lists PV modules and cells, not inverters |
 
@@ -318,7 +318,7 @@ For how Hybrid Inverter plays out in real projects, these guides go deeper:
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems.
 - IEC 62619:2017, Safety requirements for secondary lithium cells and batteries.
 - IEC 61727:2004 and IEC 62116:2014, Grid interface characteristics and anti-islanding for PV inverters.
-- IS 16221 and IS 16893, Indian Standards for PV inverter safety and stationary battery storage.
+- IS 16221, Indian Standard for PV inverter safety.
 
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.
 - PM Surya Ghar Muft Bijli Yojana, scheme guidelines, MNRE.

@@ -44,7 +44,7 @@ Inverter noise has become a genuine operational concern as rooftop solar prolife
 > - Normal solar inverter noise ranges 25-50 dB overall: residential on-grid 25-40 dB, hybrid 30-45 dB, commercial string 35-50 dB.
 > - Five sources explain almost all inverter noise: cooling fans, transformer hum, loose mounting hardware, grid fluctuation, and capacitor/coil whine.
 > - Grinding, load-varying rattling, and hissing or arcing are red flags that need immediate investigation; soft fan noise and faint hum are normal.
-> - Variable-speed fans and transformerless topology are the two design features that most reliably predict quiet operation.
+> - Variable-speed fans and the absence of a transformer remove two common noise sources, but the only reliable guide is the measured noise figure and its test conditions on the datasheet.
 > - Hot Indian climate conditions (42-48 deg C) can push noise 5-10 dB above the published rating, so placement and ventilation matter as much as the datasheet spec.
 
 This guide presents the complete inverter noise framework Indian EPCs and homeowners use: normal decibel ranges across inverter types, root cause analysis for excessive noise, warning signs that require action, silent-operation technologies in modern inverters, optimal installation placement strategies, climate impact on noise levels, post-installation noise reduction techniques, troubleshooting steps, and EPC noise specification criteria for procurement.

@@ -22,13 +22,13 @@ faqs:
   - q: "Solar subsidy reject क्यों होती है?"
     a: "आम कारण ये हैं: Aadhaar, electricity bill और bank account में नाम या details का mismatch, DISCOM feasibility में feeder capacity या consumer number की गलती, roof के ownership का proof न होना, non-empanelled vendor से installation, scheme की requirement पूरी न करने वाले modules, और commissioning की समय-सीमा चूक जाना। Reject होने पर portal पर कारण देखें, details ठीक करके दोबारा submit करें, और जरूरत हो तो DISCOM से सीधे बात करें।"
   - q: "Solar subsidy bank में कब आती है?"
-    a: "DISCOM inspection clear होने के 20-30 दिन के बाद subsidy PFMS के through direct bank transfer होती है। Application से total time 45-90 दिन। Delay होने पर pm surya ghar portal पर grievance raise करें।"
+    a: "DISCOM inspection aur commissioning ke baad subsidy PFMS ke through direct bank transfer hoti hai; commissioning ke baad lagbhag 30 din ka time commonly report kiya jaata hai (secondary reports; portal par confirm karein)। Application se total time ka koi ek national figure publish nahi hota, aur DISCOM stages state ke hisaab se alag hote hain। Delay hone par pm surya ghar portal पर grievance raise करें।"
   - q: "Solar subsidy के लिए कौन से documents चाहिए?"
     a: "पाँच documents जरूरी हैं: Aadhaar card (mobile linked), latest electricity bill (90 दिन के अंदर की), PAN card, bank passbook/cancelled cheque, और property proof (sale deed या khatauni)।"
   - q: "क्या हम खुद solar subsidy apply कर सकते हैं या vendor जरूरी है?"
     a: "pmsuryaghar.gov.in पर आप खुद register और documents upload कर सकते हैं। लेकिन installation के लिए portal पर listed empanelled vendor को select करना mandatory है - non-empanelled vendor से installation पर subsidy नहीं मिलेगी। Vendor ALMM-compliant components use करे - यह verify करें।"
   - q: "State subsidy और central subsidy में क्या difference है?"
-    a: "Central PM Surya Ghar subsidy ₹78,000 maximum है - यह MNRE देती है। State subsidy कुछ states में central के ऊपर additional amount देती है - जैसे Gujarat, Maharashtra, Rajasthan। State subsidy अलग portal/agency से process होती है।"
+    a: "Central PM Surya Ghar subsidy ₹78,000 maximum है - यह MNRE देती है। State subsidy कुछ states में central के ऊपर additional amount देती है; amount और availability state order के हिसाब से बदलती है, इसलिए अपने State Nodal Agency से confirm करें। State subsidy अलग portal/agency से process होती है।"
   - q: "ALMM क्या है - कैसे verify करें?"
     a: "ALMM यानी Approved List of Models and Manufacturers, जो MNRE maintain करती है। इसमें solar modules (List-I) और cells (List-II) की सूची है। Subsidy वाले project में modules इसी सूची के होने चाहिए, और आप MNRE के ALMM page पर manufacturer और model नाम से verify कर सकते हैं। Inverter के लिए MNRE की कोई ALMM सूची नहीं है, इसलिए inverter के exact model का BIS registration और current certificates vendor से माँगें, और DISCOM से requirements confirm करें।"
 language: hi
@@ -43,11 +43,11 @@ Solar subsidy पाना complicated लगता है, लेकिन proc
 > - Eligibility के लिए domestic connection और घर का मालिक होना जरूरी है, agricultural और commercial connection वाले eligible नहीं हैं।
 > - पाँच documents चाहिए: Aadhaar (mobile-linked), latest electricity bill, PAN card, bank passbook/cheque, aur property proof।
 > - सबसे common rejection reasons हैं wrong DISCOM selection, non-ALMM components, aur bank account Aadhaar से unlinked होना।
-> - Total timeline 45 से 90 दिन है, average आमतौर पर 60-90 दिन लगते हैं। Stage-wise table का कुल जोड़ ~65-142 दिन है, और slow states या rural areas में 90-150 दिन तक लग सकते हैं।
+> - Total timeline का कोई एक national figure publish नहीं होता; DISCOM stages state के हिसाब से अलग हैं। Subsidy credit commissioning के लगभग 30 दिन बाद commonly report किया जाता है (portal पर confirm करें)।
 
 > **Short answer।** Solar subsidy पाने के लिए: pmsuryaghar.gov.in → Aadhaar verify → documents upload → DISCOM visit wait → empanelled vendor से installation (ALMM-listed modules के साथ) → inspection → bank में ₹78,000। Total time 45-90 दिन।
 
-[MNRE का PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} fully online है - कोई दलाल या middleman की जरूरत नहीं। According to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, 2025 में 15 lakh+ households ने successfully subsidy receive की है। Application की सही knowledge से यह number और बढ़ेगा।
+[MNRE का PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} fully online है - कोई दलाल या middleman की जरूरत नहीं।
 
 ## Solar Subsidy: पहले यह जान लें
 
@@ -58,8 +58,8 @@ Table: India mein solar subsidy ke teen types
 | Subsidy Type | Source | Amount | Who Gets |
 | --- | --- | --- | --- |
 | **Central PM Surya Ghar** | MNRE/Government of India | ₹78,000 max (3 kW) | All eligible homeowners |
-| **State subsidy** | State government | ₹0 to ₹25,000 (varies) | State-specific, check locally |
-| **Net metering income** | DISCOM | ₹2.50-3.50/unit export | All grid-connected solar owners |
+| **State subsidy** | State government | State तय करता है | State-specific, check locally |
+| **Net metering income** | DISCOM | Export rate aapke SERC order par depend karta hai | All grid-connected solar owners |
 
 इस guide में primarily central PM Surya Ghar subsidy का process cover होता है - यही सबसे important और widely available है।
 
@@ -148,11 +148,10 @@ Registration के बाद DISCOM का field engineer आपके घर v
 - Electrical panel और wiring condition
 - Distance from grid connection point
 
-**Urban areas:** 7-14 दिन में visit
-**Rural areas:** 15-30 दिन में visit
+Visit ka time aapke DISCOM par depend karta hai; DISCOM se written timeline poochhein।
 
 > [!TIP] 30 din mein visit na aaye to
-> अगर 30 दिन में कोई visit नहीं आया, portal पर grievance raise करें या DISCOM helpline call करें।
+> अगर लंबे समय तक कोई visit नहीं आया (हमारा rule of thumb: 30 दिन), portal पर grievance raise करें या DISCOM helpline call करें।
 
 ## Step 5: Empanelled Vendor Select करें (ALMM-Listed Modules के साथ)
 
@@ -186,7 +185,7 @@ Registration के बाद DISCOM का field engineer आपके घर v
 **Net metering:**
 - Installation complete होते ही vendor net metering application submit करेगा
 - DISCOM पुराना meter bidirectional meter से replace करेगा
-- Urban: 15-30 दिन। Rural: 30-60 दिन।
+- Meter replacement ka time DISCOM par depend karta hai।
 
 > [!IMPORTANT] Net metering active hone se pehle export income nahi
 > Net metering active होने से पहले export income नहीं मिलती - vendor को immediately application submit करने के लिए कहें।
@@ -202,7 +201,7 @@ Registration के बाद DISCOM का field engineer आपके घर v
 
 **Subsidy Disbursement:**
 - Inspection clear → MNRE/PFMS को report
-- 20-30 दिन में bank account में transfer
+- Commissioning ke baad lagbhag 30 din mein bank account mein transfer commonly report kiya jaata hai (portal par confirm karein)
 - SMS और portal notification मिलेगा
 
 > **₹78,000** directly bank में (कोई middleman नहीं, कोई cash नहीं)। PFMS (Public Financial Management System) direct transfer करता है। *Source - [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}*
@@ -221,23 +220,20 @@ Registration के बाद DISCOM का field engineer आपके घर v
 
 ## Subsidy Timeline: Realistic Expectations
 
-Table: Subsidy process ke har stage ka realistic time
+Table: Subsidy process ke stages (koi fixed national duration publish nahi hoti)
 
-| Stage | Time Required |
-| --- | --- |
-| Portal registration | 1 दिन |
-| DISCOM document verification | 7-14 दिन |
-| Feasibility visit | 7-21 दिन |
-| Vendor selection + contract | 7-14 दिन |
-| Installation | 1-3 दिन |
-| Net meter replacement | 15-45 दिन |
-| DISCOM inspection | 7-14 दिन |
-| Subsidy transfer | 20-30 दिन |
-| **Total** | **~65-142 दिन** |
+| Stage | Kaun karta hai | Kya confirm karein |
+| --- | --- | --- |
+| Portal registration | Aap | Aadhaar-linked mobile aur consumer number |
+| DISCOM document verification | DISCOM | Portal status |
+| Feasibility visit | DISCOM | Visit ki date; DISCOM se timeline poochhein |
+| Vendor selection + contract | Aap | Empanelled vendor, feasibility letter ke baad contract |
+| Installation | Vendor | Approved size ke barabar installation |
+| Net meter replacement | DISCOM | Meter installation ki date |
+| DISCOM inspection | DISCOM | Inspection sign-off |
+| Subsidy transfer | MNRE / PFMS | Commonly about 30 din commissioning ke baad (portal par confirm karein) |
 
-**Fast-track (major cities):** 45-60 दिन  
-**Average:** 60-90 दिन  
-**Slow states/rural:** 90-150 दिन
+Timeline DISCOM aur state ke hisaab se alag hoti hai; koi ek figure sab par lagu nahi hota।
 
 ## Net Metering Se Extra Income
 
@@ -246,7 +242,7 @@ Solar subsidy के अलावा [net metering](/glossary/net-metering/) स
 > [!FORMULA] Net metering export income
 > Export income = Export units × DISCOM buy-back rate
 
-Example: 3 kW system, 300 units monthly generation, 200 units self-consumption → 100 units export → ₹2.50/unit = ₹250/month additional income। Apna khud ka number nikaalne ke liye [SurgePV ke free solar tools](https://surgepv.com/tools/){target="_blank" rel="noopener"} use kar sakte hain.
+Example (assumed inputs): 3 kW system, 300 units monthly generation, 200 units self-consumption → 100 units export → assumed ₹2.50/unit = ₹250/month additional income। Aapka export rate aapke SERC order par depend karta hai। Apna khud ka number nikaalne ke liye [SurgePV ke free solar tools](https://surgepv.com/tools/){target="_blank" rel="noopener"} use kar sakte hain.
 
 Over 25 साल: ₹250 × 12 × 25 = ₹75,000 extra income (inflation-adjusted और तेज़)।
 
@@ -255,27 +251,15 @@ Over 25 साल: ₹250 × 12 × 25 = ₹75,000 extra income (inflation-adjust
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Use this as a preliminary screen. A qualified designer must verify the final string, protection and utility design.
 - **[PM Surya Ghar status check guide](/blog/pm-surya-ghar-status-check/)**: Application stuck? यहाँ देखें
 
-[IEA India energy data](https://www.iea.org/){target="_blank" rel="noopener"} के according, India का rooftop solar market 2030 तक $15 billion से ज्यादा का होगा। PM Surya Ghar ने इसे dramatically accelerate किया है।
+PM Surya Ghar ke baare mein latest installation count ke liye MNRE ya DD India ki taaza report dekhein: 4 August 2026 ko MNRE ne bataya ki 50.6 lakh se zyada households ne rooftop solar lagaya hai।
 
 [Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 ## State-Wise Solar Subsidy Status 2026
 
-Different states में PM Surya Ghar processing speed और additional benefits vary करते हैं। यहाँ key states का overview है:
+Different states में PM Surya Ghar processing speed और additional benefits vary करते हैं।
 
-Table: State-wise PM Surya Ghar processing time aur additional state benefit
-
-| State | Processing Time | Additional State Benefit | Notable |
-| --- | --- | --- | --- |
-| Delhi | 30-45 days | BSES/BYPL rebates | Fast urban processing |
-| Gujarat | 45-60 days | GEDA top-up available | Good vendor density |
-| Karnataka | 45-70 days | BESCOM fast track | BESCOM online portal |
-| Rajasthan | 50-75 days | RREC state programs | High irradiance bonus |
-| Maharashtra | 60-90 days | MSEDCL programs | Large state, variable |
-| MP | 50-80 days | No current state top-up | High solar irradiance |
-| UP | 60-100 days | No state top-up | Multiple DISCOMs |
-| Bihar | 75-120 days | No state top-up | Slowest processing |
-| West Bengal | 60-90 days | No state top-up | WBSEDCL vs CESC |
+State-wise processing time aur state top-up ke figures yahan nahi diye gaye, kyunki unhe current order se verify nahi kiya ja saka। Apne State Nodal Agency aur DISCOM se current process aur benefit confirm karein।
 
 State-specific guides: [Delhi](/blog/solar-subsidy-delhi-2026/), [Karnataka](/blog/solar-subsidy-karnataka-2026/), [Rajasthan](/blog/solar-subsidy-rajasthan-2026/), [Kerala](/blog/solar-subsidy-kerala-2026/), [MP](/blog/solar-subsidy-madhya-pradesh-2026/), [Bihar](/blog/solar-subsidy-bihar-2026/)।
 

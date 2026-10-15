@@ -251,7 +251,7 @@ EV two-wheelers and three-wheelers operate at 0.5 to 1C cycling.
 
 DC fast chargers under FAME II and PM e-DRIVE schemes typically operate at 1.5 to 3C for compatible vehicles.
 
-IS 16893 references C-rate testing per IEC 61960.
+C-rate test conditions come from IEC 61960 and the cell datasheet, not from an Indian stationary-storage standard.
 
 ## Standards and certifications
 
@@ -261,7 +261,7 @@ Table: Standards that define and test C-rate
 |---|---|
 | IEC 61960 | Performance of lithium cells, C-rate definitions |
 | IEC 62620 | Industrial lithium cells |
-| IS 16893 | Indian stationary battery storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | AIS 156 / 038 | Indian EV battery safety, C-rate limits |
 | Manufacturer datasheets | Specific cell and pack C-rate limits |
 
@@ -294,7 +294,7 @@ For how C-Rate plays out in real projects, these guides go deeper:
 
 - IEC 61960:2017, Performance requirements for secondary lithium cells.
 - IEC 62620, Performance of lithium cells for industrial applications.
-- IS 16893, Indian Standard for stationary battery storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - AIS 156, AIS 038, Indian EV battery safety standards.
 - Manufacturer cell datasheets from CATL, BYD, EVE, REPT, Lishen, Tata Chemicals.
 - Plett G. L., Battery Management Systems, Volume II, Artech House.

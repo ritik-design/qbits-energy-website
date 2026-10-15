@@ -220,7 +220,7 @@ Table: Commissioning scope and duration by project type
 
 PM Surya Ghar portal tracks commissioning status across DISCOMs.
 
-[ALMM-listed](/glossary/almm-list/) equipment is verified at commissioning.
+The [ALMM](/glossary/almm-list/) listing of the modules is verified at commissioning where the scheme requires it.
 
 CEIG approval is mandatory for installations above state-specific thresholds.
 

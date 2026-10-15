@@ -20,7 +20,7 @@ faqs:
   - q: "Which DISCOM handles solar applications in Rajasthan?"
     a: "Rajasthan has three electricity distribution companies. JVVNL (Jaipur Vidyut Vitran Nigam Limited) covers Jaipur, Bharatpur, Alwar, Sawai Madhopur, and adjoining districts. AVVNL (Ajmer Vidyut Vitran Nigam Limited) covers Ajmer, Pali, Bhilwara, Kota, Bundi, and surrounding areas. JdVVNL (Jodhpur Vidyut Vitran Nigam Limited) covers Jodhpur, Barmer, Jaisalmer, Bikaner, and western Rajasthan. Your electricity bill clearly states your DISCOM name. Each DISCOM has its own divisional offices for technical feasibility assessment and net meter installation."
   - q: "How long does net metering approval take in Rajasthan?"
-    a: "The realistic end-to-end timeline for Rajasthan solar net metering varies by DISCOM and geography. JVVNL in Jaipur typically processes applications in 60 to 75 days for urban areas. AVVNL ranges from 60 to 90 days. JdVVNL, serving the large and sparsely populated western Rajasthan region, can take 75 to 100 days in rural sub-divisions. The physical meter change is the primary bottleneck across all three DISCOMs. Applicants in Tier-2 cities (Kota, Udaipur, Bikaner) should budget for the longer end of these ranges."
+    a: "The realistic end-to-end timeline for Rajasthan solar net metering varies by DISCOM and geography. No DISCOM publishes a verified average, so this guide quotes none. The physical meter change is commonly the slowest step, and JdVVNL's territory is large and sparsely populated, so ask your DISCOM sub-division for its current timeline in writing and plan with a buffer."
   - q: "What is the net metering export rate in Rajasthan?"
     a: "Rajasthan's net metering framework is regulated by the Rajasthan Electricity Regulatory Commission (RERC). The feed-in tariff for residential rooftop solar export is approximately ₹2.50 to ₹3.50 per unit under the applicable RERC order. Rajasthan uses an annual banking mechanism - surplus monthly units carry forward and are settled at year end at the applicable export rate. Import tariffs in Rajasthan range from ₹5.50 to ₹7.50 per unit for residential consumers, creating a significant premium for self-consumption over grid export."
   - q: "What is RRECL's role in Rajasthan solar subsidies?"
@@ -30,7 +30,7 @@ faqs:
   - q: "What documents are needed for Rajasthan solar subsidy?"
     a: "You need a recent electricity bill from your DISCOM (JVVNL, AVVNL or JdVVNL) showing the consumer number, an Aadhaar card linked to your mobile number for the PM Surya Ghar OTP, a PAN card, and bank account proof (passbook or cancelled cheque, Aadhaar-linked). You also need proof of ownership of the property, such as a registered deed, jamabandi for rural land or a property tax receipt, an RWA or society NOC for apartments, and rooftop photographs showing the shadow-free area. Your registered vendor will add the technical documents for the system, including module and inverter details."
   - q: "Is the summer heat in Rajasthan a problem for solar inverters?"
-    a: "Western Rajasthan regularly records ambient temperatures of 45 to 50 °C in summer. Standard inverters specified at 25 °C laboratory conditions begin derating (reducing output) above 40 °C ambient. This means an inverter rated at 5 kW may only deliver 4.2 to 4.5 kW during peak summer afternoons in Jodhpur or Bikaner - precisely when solar irradiance is at its highest. For Rajasthan installations, selecting inverters with full nameplate output guaranteed up to 45 °C ambient is essential. IP66-rated units with superior thermal management perform significantly better in desert conditions than IP65 units without active cooling management."
+    a: "Western Rajasthan regularly records ambient temperatures of 45 to 50 °C in summer. Inverters rated at laboratory conditions can derate (reduce output) at high ambient temperature, and the temperature at which this starts and how steeply output falls differ by model. Read the derating curve in the datasheet for the exact model, because it matters most on peak summer afternoons in Jodhpur or Bikaner, when irradiance is highest. IP66-rated units with superior thermal management perform significantly better in desert conditions than IP65 units without active cooling management."
   - q: "What makes Rajasthan solar payback so attractive compared to other states?"
     a: "Rajasthan has the highest solar irradiance in India - approximately 6.0 to 6.5 kWh/m²/day in the Thar Desert region (Jodhpur, Barmer, Jaisalmer, Bikaner) versus the national average of 4.5 to 5.5 kWh/m²/day. A 3 kW system in Jodhpur generates approximately 6,200 kWh per year compared to approximately 4,500 kWh for the same system in Delhi or 5,000 kWh in Bangalore. At equivalent electricity tariffs, the Rajasthan homeowner earns 20 to 35 percent more annual value from the same investment, cutting post-subsidy payback to 2.5 to 3.5 years in high-irradiance districts."
 featured: false
@@ -45,9 +45,9 @@ The challenge is navigating three DISCOMs (JVVNL in Jaipur, AVVNL in Ajmer, and 
 > [!KEYTAKEAWAYS]
 > - Rajasthan's solar subsidy in 2026 is the central [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) scheme: up to ₹78,000 for a 3 kW system, with no separate state cash top-up.
 > - Rajasthan has India's highest solar irradiance at 6.0–6.5 kWh/m²/day in the western desert, generating 20–35% more electricity than most Indian cities.
-> - Three DISCOMs handle applications: JVVNL (Jaipur), AVVNL (Ajmer), and JdVVNL (Jodhpur), with realistic timelines of 60 to 100 days.
+> - Three DISCOMs handle applications: JVVNL (Jaipur), AVVNL (Ajmer), and JdVVNL (Jodhpur), and each has its own timeline, so ask for it in writing.
 > - RRECL manages state renewable policy and KUSUM Component A but does not process residential PM Surya Ghar applications directly.
-> - Summers above 45 °C cause inverters without proper thermal derating specs to lose 10–15% of output during peak-irradiance months.
+> - Summer heat can cause inverters to derate, so check the datasheet derating curve of the exact model for 45 °C ambient.
 > - An illustrative Jaipur example (3 kW, ₹1,12,000 net cost) works out to about 3.7 years post-subsidy on the post's own inputs.
 
 > **Rajasthan's solar subsidy in 2026 is led by PM Surya Ghar's ₹78,000 maximum for a 3 kW system.** The state's unique advantage is not a cash top-up (Rajasthan does not currently offer a separate residential state subsidy) but its 6.0 kWh/m²/day irradiance, which means the same system generates 20–35% more electricity than in most Indian cities. Three DISCOMs (JVVNL, AVVNL, JdVVNL) handle [net metering](https://quickestimate.co/blog/jvvnl-net-metering-guide) through their divisional offices, with timelines of 60–100 days depending on location.
@@ -71,23 +71,10 @@ Table: PM Surya Ghar central subsidy by system size
 
 ## The High DNI Advantage: Why Rajasthan Gets More From the Same Subsidy
 
-The financial case for solar in Rajasthan rests on the state's extraordinary solar resource. The Direct Normal Irradiance (DNI) across western Rajasthan is the highest in India and among the highest in the world.
+The financial case for solar in Rajasthan rests on the state's strong solar resource: western Rajasthan has some of the highest irradiance in India. Specific yields differ by site, so use a formula rather than a quoted figure: annual generation = system kW × annual specific yield. The formula-based state table in [how much electricity solar generates in India](/blog/how-much-electricity-solar-generates-india/) puts Rajasthan at 1,650 to 1,850 kWh per kW per year, which is about 4,950 to 5,550 kWh for a 3 kW system. For your own site, run [PVGIS](https://re.jrc.ec.europa.eu/pvg_tools/en/) or the [Global Solar Atlas](https://globalsolaratlas.info/).
 
-Table: Average annual DNI and estimated 3 kW annual generation by Rajasthan location
-
-| Location | Average Annual DNI | Estimated 3 kW Annual Generation |
-| --- | --- | --- |
-| Jodhpur | ~2,200 kWh/m²/year | ~6,200 kWh |
-| Jaisalmer | ~2,400 kWh/m²/year | ~6,600 kWh |
-| Bikaner | ~2,200 kWh/m²/year | ~6,100 kWh |
-| Jaipur | ~1,900 kWh/m²/year | ~5,400 kWh |
-| Kota | ~1,850 kWh/m²/year | ~5,200 kWh |
-| National average | ~1,600 kWh/m²/year | ~4,500 kWh |
-
-> **6.0 kWh/m²/day.** The average solar irradiance in Jodhpur, making the Thar Desert region the strongest solar resource zone in India for residential and utility-scale solar alike. *Source - [NREL Global Solar Atlas](https://globalsolaratlas.info/), 2026.*
-
-> [!EXAMPLE] Jodhpur 3 kW payback
-> The implication for payback calculation is significant. A Jodhpur homeowner with a 3 kW system at ₹1,22,000 net cost post-subsidy, generating 6,200 kWh per year with 85% self-consumption, saves approximately ₹36,900 annually at ₹7/unit average tariff. Post-subsidy payback: approximately 3.3 years. The same economics in a lower-irradiance city would take 4.5 to 5.5 years.
+> [!EXAMPLE] Payback at the table's mid-point (assumed net cost)
+> A 3 kW system at the table's mid-point of 1,750 kWh/kW generates 5,250 kWh a year. At an average tariff of ₹7 per unit that saves ₹36,750 a year. With an assumed net cost of ₹1,00,000 after the subsidy, simple payback is 1,00,000 ÷ 36,750 = 2.7 years. A lower-irradiance city has a lower yield, so the same arithmetic gives a longer payback.
 
 ## The 5-Pillar Rajasthan Subsidy Stack Framework
 
@@ -98,9 +85,9 @@ Rajasthan homeowners must navigate five sequential steps to successfully claim t
 <!-- steps -->
 1. **PM Surya Ghar portal registration**: Register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) with your DISCOM (JVVNL, AVVNL, or JdVVNL) consumer number, Aadhaar details, and Aadhaar-linked bank account before installation begins. Registration sequence matters, installers should not begin physical work until the portal registration is completed.
 
-2. **DISCOM technical feasibility**: Submit to your DISCOM for technical feasibility approval. All three Rajasthan DISCOMs process this through divisional offices; online tracking is available through the PM Surya Ghar portal but physical office contact may be needed for follow-up. Timeline: 20–40 days.
+2. **DISCOM technical feasibility**: Submit to your DISCOM for technical feasibility approval. All three Rajasthan DISCOMs process this through divisional offices; online tracking is available through the PM Surya Ghar portal but physical office contact may be needed for follow-up.
 
-3. **Installation by an empanelled vendor**: Once DISCOM feasibility approval is in hand, a vendor empanelled with your DISCOM completes the installation. Timeline: 7–14 days (10–20 days in JdVVNL rural areas).
+3. **Installation by an empanelled vendor**: Once DISCOM feasibility approval is in hand, a vendor empanelled with your DISCOM completes the installation.
 
 4. **Net meter installation**: After installation inspection by the DISCOM, a bidirectional meter replaces the existing meter. This is the primary delay step across all three DISCOMs. In JdVVNL's western Rajasthan territory, the technical workforce is thinner relative to geographic coverage, extending timelines.
 
@@ -120,13 +107,13 @@ AVVNL (Ajmer Vidyut Vitran Nigam Limited) covers Ajmer, Pali, Bhilwara, Kota, Bu
 
 JdVVNL (Jodhpur Vidyut Vitran Nigam Limited) covers Jodhpur, Barmer, Jaisalmer, Bikaner, Churu, Nagaur, Jalore, Sirohi, and Hanumangarh. This is the geographically largest DISCOM territory in India and covers the highest solar irradiance zones in the country. However, sparse population density relative to territory size means JdVVNL has a thinner field workforce. Jodhpur and Bikaner city applications process in 60 to 80 days; rural sub-divisions can extend to 90 to 100 days. Portal: [jdvvnl.com](https://jdvvnl.com/).
 
-Table: Rajasthan DISCOMs by coverage and average timeline
+Table: Rajasthan DISCOMs by coverage (ask each for its current timeline in writing)
 
-| DISCOM | Coverage | Average Timeline |
-| --- | --- | --- |
-| **JVVNL** | Jaipur + eastern Rajasthan | 60–75 days |
-| **AVVNL** | Ajmer + central/south Rajasthan | 60–90 days |
-| **JdVVNL** | Jodhpur + western Rajasthan | 60–100 days |
+| DISCOM | Coverage |
+| --- | --- |
+| **JVVNL** | Jaipur + eastern Rajasthan |
+| **AVVNL** | Ajmer + central/south Rajasthan |
+| **JdVVNL** | Jodhpur + western Rajasthan |
 
 ## RRECL's Role: What It Does and Does Not Do for Homeowners
 
@@ -160,16 +147,16 @@ The [KUSUM yojana complete guide](/blog/kusum-yojana-agricultural-solar-subsidy/
 ## Inverter Selection in Rajasthan's Extreme Heat: A Critical Factor
 
 > [!WARNING] Thermal derating costs generation in peak months
-> Standard inverter datasheets specify output at 25 °C ambient. Most inverters begin thermal derating above 40 °C, reducing output by 2 to 5 percent per degree above the threshold. An inverter rated at 3 kW at 25 °C may only deliver 2.7 to 2.8 kW at 45 °C ambient, precisely when generation potential is highest.
+> Standard inverter datasheets specify output at 25 °C ambient. Inverters can begin thermal derating above a model-specific temperature, and the output at 45 °C ambient differs by model, precisely when generation potential is highest. Read the derating curve in the datasheet.
 
 **What to look for in Rajasthan inverter selection**:
 
 - **Full power output guarantee up to 45 °C ambient**: Not just rated output at 25 °C lab conditions
 - **IP66 rating**: Protects against the fine desert dust (particulates significantly smaller than monsoon rain) that penetrates IP65 enclosures
 - **Natural convection or intelligent fan management**: Forced-air cooling with fans clogged by dust is a common failure mode in Rajasthan
-- **Wide [MPPT](/glossary/mppt/) voltage range**: High-temperature strings see lower open-circuit voltage; a wide MPPT range (80–600 V) ensures the system operates optimally across Rajasthan's temperature swing
+- **Wide [MPPT](/glossary/mppt/) voltage range**: High-temperature strings see lower open-circuit voltage; a wide MPPT range ensures the system operates optimally across Rajasthan's temperature swing
 
-The [DC oversizing guide](/blog/dc-oversizing-in-solar/) explains how to specify string configuration correctly for Rajasthan's temperature conditions, the DC-to-AC oversizing ratio recommended for the Thar Desert zone is typically 1.35 to 1.45× to compensate for temperature-related power reduction.
+The [DC oversizing guide](/blog/dc-oversizing-in-solar/) explains how to specify string configuration correctly for Rajasthan's temperature conditions, and the DC-to-AC oversizing ratio should come from the inverter maker's written guidance for your module and site rather than a general figure.
 
 ## Documents Required for Rajasthan Solar Subsidy
 
@@ -184,16 +171,17 @@ The [DC oversizing guide](/blog/dc-oversizing-in-solar/) explains how to specify
 
 ## Timeline: What Is Realistic for Rajasthan in 2026
 
-Table: Stage-by-stage timeline by Rajasthan DISCOM, urban and rural
+Table: Stages of the Rajasthan subsidy process and what to confirm (no fixed durations are published)
 
-| Stage | JVVNL Urban | AVVNL Urban | JdVVNL Urban | JdVVNL Rural |
-| --- | --- | --- | --- | --- |
-| Portal registration | 1–2 days | 1–2 days | 1–2 days | 1–2 days |
-| Technical feasibility | 20–30 days | 25–35 days | 25–35 days | 35–50 days |
-| Installation | 7–14 days | 7–14 days | 7–14 days | 10–20 days |
-| Inspection + meter change | 30–45 days | 35–50 days | 35–50 days | 45–60 days |
-| Subsidy disbursement | 30 days | 30 days | 30 days | 30 days |
-| **Total end-to-end** | **88–121 days** | **98–131 days** | **98–131 days** | **121–162 days** |
+| Stage | Who acts | What to confirm |
+| --- | --- | --- |
+| Portal registration | You | Aadhaar-linked mobile and consumer number |
+| Technical feasibility | DISCOM | Feasibility letter and approved size |
+| Installation | Empanelled vendor | Installed size matches the approved size |
+| Inspection + meter change | DISCOM | Inspection date and meter installation; usually the slowest step |
+| Subsidy disbursement | MNRE / PFMS | Commonly reported as about 30 days after commissioning (confirm on the portal) |
+
+Ask your DISCOM sub-division for its current timeline in writing, and plan with a buffer.
 
 ## A Jaipur Homeowner Example: 3 kW, JVVNL (Illustrative)
 

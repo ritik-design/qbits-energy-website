@@ -24,11 +24,11 @@ faqs:
   - q: "Can a clinic qualify for PM Surya Ghar subsidy?"
     a: "Private clinics and nursing homes operate on commercial electricity connections and are not eligible for the PM Surya Ghar residential subsidy, which is limited to domestic consumers. However, clinics may qualify for state-level commercial solar incentives, MSME financing through CGTMSE-guaranteed loans at subsidised rates, or depreciation benefits under Section 32 of the Income Tax Act (40% accelerated depreciation on solar assets). Government health centres (PHCs, CHCs) may qualify for SECI RESCO schemes. Private healthcare providers should evaluate commercial solar financing - the ROI is strong without subsidy given high daytime consumption."
   - q: "How does a clinic integrate solar with an existing diesel generator?"
-    a: "Most clinics already operate a diesel generator as backup. The recommended hierarchy is: grid power plus solar (primary source) → hybrid inverter plus battery (backup for 4–8 hours of critical loads) → DG set (auto-start when battery reaches 20% state of charge). The hybrid inverter must include a dry-contact DG start signal output, which most quality inverters provide. This arrangement reduces DG running hours by 60–80%, cutting diesel costs significantly while preserving full backup for extended outages. The DG and solar-hybrid system must never run in parallel unless the inverter specifically supports grid-parallel DG synchronisation."
+    a: "Most clinics already operate a diesel generator as backup. The recommended hierarchy is: grid power plus solar (primary source) → hybrid inverter plus battery (backup for 4–8 hours of critical loads) → DG set (auto-start when battery reaches 20% state of charge). The hybrid inverter must include a dry-contact DG start signal output, which most quality inverters provide. This arrangement cuts DG running hours, and so diesel cost, while preserving full backup for extended outages; how much depends on your outage pattern and battery size. The DG and solar-hybrid system must never run in parallel unless the inverter specifically supports grid-parallel DG synchronisation."
   - q: "What CPCB and fire safety rules apply to battery installations in clinics?"
     a: "The Central Pollution Control Board (CPCB) regulates hazardous waste, and lithium battery disposal falls within this framework. For installation safety, the National Building Code of India and IS 16046 (Safety of portable rechargeable cells and batteries for use in portable applications) apply. Battery rooms in healthcare facilities require: forced ventilation (minimum 10 air changes per hour), temperature monitoring (ambient below 35 °C is recommended for LFP longevity), a minimum 1-metre clearance from combustible materials, a smoke detector and automatic suppression system, and proximity to the nearest fire exit. The Fire NOC from the local fire department must be obtained before energising the battery bank."
   - q: "What is the payback period for solar in a clinic or nursing home?"
-    a: "A clinic or nursing home with a monthly electricity bill of ₹50,000–₹2 Lakh is an excellent solar candidate. At ₹10 per unit, a 20 kW solar system saving ₹48,000 per month gives a simple payback of approximately 2.5–3 years on a ₹15 Lakh on-grid system. Adding a 30 kWh LFP battery for critical load backup adds approximately ₹6 Lakh to capital cost, extending payback to roughly 3.5–4 years while eliminating 60–80% of diesel generator running costs - potentially delivering an additional ₹20,000–₹40,000 per month in savings."
+    a: "A clinic or nursing home with a monthly electricity bill of ₹50,000–₹2 Lakh is an excellent solar candidate. At ₹10 per unit, a 20 kW solar system generating about 2,400 kWh a month (20 kW × 5.0 peak sun hours × 30 days × 0.8 performance ratio) saves about ₹24,000 a month, a simple payback of about 5.2 years on an assumed ₹15 Lakh on-grid system. Adding a 30 kWh LFP battery for critical load backup adds capital cost and extends the payback. Diesel savings, where a generator runs, come on top and depend on its running hours, load and the diesel price."
   - q: "How does solar affect the power quality for sensitive diagnostic equipment?"
     a: "High-quality solar inverters with double-conversion or near-sinusoidal output (THD below 3%) provide better power quality than a raw grid connection in many parts of India, where voltage fluctuations and harmonics from neighbouring commercial loads are common. Clinics with sensitive equipment - digital X-ray, ECG machines, laboratory analysers - may actually experience fewer equipment faults with a solar-plus-UPS combination than with a direct grid connection subject to voltage surges and harmonic interference. The key requirement is to verify the inverter's THD specification at 50%, 75%, and 100% load in the manufacturer's datasheet."
   - q: "What is net metering and can a clinic use it?"
@@ -46,7 +46,7 @@ This is an illustrative scenario, not a documented case, but power outages and u
 > - Output THD must stay below 3% at 50%, 75%, and 100% load for medical equipment; double-conversion UPS topology delivers this consistently.
 > - Vaccine refrigerator battery autonomy should cover at least 8 hours, with a 20% sizing margin on top of measured refrigerator wattage.
 > - CPCB-compliant battery rooms need forced ventilation, fire NOC, smoke detection, and 1-metre clearance from combustibles.
-> - A 20 kW hybrid system with 30 kWh battery typically pays back in roughly 3.2 years while cutting diesel generator running hours by 60-80%. Private clinics do not qualify for the PM Surya Ghar residential subsidy but can access MSME financing and Section 32 accelerated depreciation instead.
+> - In the assumed example in the payback table, a 20 kW hybrid plus 15 kW on-grid system with a 30 kWh battery has a simple payback of about 4.4 years before any diesel saving. Private clinics do not qualify for the PM Surya Ghar residential subsidy but can access MSME financing and Section 32 accelerated depreciation instead.
 
 The good news: the load profile of most Indian clinics and nursing homes (heavy daytime AC, continuous refrigeration, and round-the-clock medical equipment) is an exceptionally strong match for solar generation. A 10–50 kW clinic can achieve a 3–4 year payback while simultaneously improving backup reliability well beyond what a raw grid connection provides.
 
@@ -69,7 +69,7 @@ Table: On-grid versus hybrid inverter for a clinic, by backup, transfer time and
 | Transfer time on grid failure | N/A (disconnects) | < 10–30 ms depending on model |
 | Suitable for vaccine refrigerators | No | Yes (with correct battery sizing) |
 | Suitable for ventilators / ICU | No | With double-conversion UPS topology |
-| Cost premium over on-grid | - | 25–40% higher capital cost |
+| Cost premium over on-grid | - | Higher capital cost (hybrid inverter plus battery) |
 | Recommended for clinics | Only for non-critical loads | Mandatory for all critical loads |
 
 For a deeper comparison of these topologies, the [on-grid vs hybrid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) and the [on-grid vs hybrid ROI analysis](/blog/on-grid-vs-hybrid/) cover the financial trade-offs in detail.
@@ -145,7 +145,7 @@ Key load categories to measure before sizing:
 - **Surgical lights and OT equipment**: high-intensity surgical lights draw 300–600 W per unit; OT electrosurgical units have peak draws of 1–2 kW.
 - **Medical oxygen systems**: oxygen concentrators draw 300–600 W per unit; larger piped oxygen compressor systems draw 3–5 kW.
 
-> **₹3 Lakh annual diesel savings.** A 50-bed nursing home running a diesel generator for 8 hours daily at ₹80/litre burns approximately ₹40–50 Lakh in diesel over 10 years. A properly sized hybrid solar system with battery backup can eliminate 70–80% of this DG running time, saving ₹3–4 Lakh annually from fuel costs alone, independent of electricity bill savings. *Source - [Central Electricity Authority (CEA), Annual Generation Report](https://cea.nic.in/), 2025.*
+> **Diesel cost is arithmetic.** Annual diesel cost = litres per hour × hours per day × 365 × price per litre. For example, a generator burning 5 litres an hour for 8 hours a day at ₹98.48 per litre (Maharashtra pump price, CarDekho, 14 October 2026) costs 5 × 8 × 365 × 98.48 = ₹14.4 lakh a year. Solar and a battery can only cut the hours they actually cover, so measure your generator's real running hours before you count a diesel saving. *Illustrative calculation; the 5 litres an hour is an assumption.*
 
 ## THD, Power Quality, and Medical Equipment Protection
 
@@ -189,7 +189,7 @@ Clinics operating during daytime hours (typically 8 AM to 8 PM) consume most of 
 
 ## ROI and Payback Analysis for Healthcare Solar
 
-The financial case for healthcare solar is among the strongest of any commercial segment in India. According to [IRENA's Renewable Power Generation Costs 2024](https://www.irena.org/){target="_blank" rel="noopener"}, utility-scale solar in India now generates electricity at ₹2.0–2.5 per kWh, making commercial rooftop solar at ₹3.5–4.5 per kWh (installed cost levelised) consistently cheaper than any grid tariff above ₹6/unit. For clinics on ₹10–12/unit commercial tariffs, the savings per unit are enormous. The reasons:
+The financial case for healthcare solar is among the strongest of any commercial segment in India. A rooftop plant's levelised cost can be calculated from its own inputs (the [LCOE guide](/blog/lcoe-solar-india/) works a 50 kW example at about ₹4.8 per kWh), and where a clinic's commercial tariff is well above that, each solar unit saves the difference. The reasons:
 
 - **High daytime AC load**: clinic ACs run 8–12 hours daily during peak solar generation hours. Solar offsets the highest-tariff consumption directly.
 - **Continuous refrigeration**: vaccine refrigerators and pharmacy cold storage run 24 hours. Solar charges the battery during the day; the battery runs refrigeration at night.
@@ -199,30 +199,31 @@ The financial case for healthcare solar is among the strongest of any commercial
 The table below shows representative payback scenarios:
 
 > [!FORMULA] Simple payback used in the table
+> Monthly savings = solar kW × 5.0 peak sun hours × 30 days × 0.8 performance ratio × ₹10 per unit
 > Simple payback (years) = Capital cost ÷ (Monthly savings × 12)
 
 Table: Representative payback for three clinic system sizes, at ₹10/unit and 5.0 peak sun hours a day
 
 | Monthly Bill | System Size | Capital Cost (approx.) | Monthly Savings | Simple Payback |
 | --- | --- | --- | --- | --- |
-| ₹30,000 | 10 kW hybrid + 20 kWh battery | ₹10 Lakh | ₹22,000 | 3.8 years |
-| ₹80,000 | 20 kW hybrid + 15 kW on-grid + 30 kWh battery | ₹22 Lakh | ₹58,000 | 3.2 years |
-| ₹2 Lakh | 40 kW hybrid + 25 kW on-grid + 50 kWh battery | ₹48 Lakh | ₹1.4 Lakh | 2.9 years |
+| ₹30,000 | 10 kW hybrid + 20 kWh battery | ₹10 Lakh (assumed) | ₹12,000 | 6.9 years |
+| ₹80,000 | 20 kW hybrid + 15 kW on-grid + 30 kWh battery | ₹22 Lakh (assumed) | ₹42,000 | 4.4 years |
+| ₹2 Lakh | 40 kW hybrid + 25 kW on-grid + 50 kWh battery | ₹48 Lakh (assumed) | ₹78,000 | 5.1 years |
 
 ```chart
 type: bar
 title: Simple payback for three clinic solar systems, in years
 unit: "years"
-source: "Calculated in this article as capital cost divided by (monthly savings x 12), using the approximate capital costs and savings in the table above; illustrative, assumes ₹10/unit tariff, 5.0 peak sun hours a day and 80% of savings from direct solar consumption"
+source: "Calculated in this article as capital cost divided by (monthly savings x 12), using the assumed capital costs and the calculated savings in the table above; illustrative, assumes ₹10/unit tariff, 5.0 peak sun hours a day and a 0.8 performance ratio, with no diesel saving counted"
 note: "Illustrative scenarios, not measured results."
 decimals: 1
 data:
-  - { label: "10 kW hybrid + 20 kWh", value: 3.8 }
-  - { label: "20 kW hybrid + 15 kW on-grid + 30 kWh", value: 3.2 }
-  - { label: "40 kW hybrid + 25 kW on-grid + 50 kWh", value: 2.9 }
+  - { label: "10 kW hybrid + 20 kWh", value: 6.9 }
+  - { label: "20 kW hybrid + 15 kW on-grid + 30 kWh", value: 4.4 }
+  - { label: "40 kW hybrid + 25 kW on-grid + 50 kWh", value: 5.1 }
 ```
 
-These figures assume ₹10/unit tariff, 5.0 peak sun hours/day, and 80% of savings from direct solar consumption. Income Tax Section 32 [accelerated depreciation](/glossary/accelerated-depreciation/) (40% in Year 1) can further reduce the effective payback by 6–12 months for tax-paying entities.
+These figures assume ₹10/unit tariff, 5.0 peak sun hours/day and a 0.8 performance ratio, and count no diesel saving. Income Tax Section 32 [accelerated depreciation](/glossary/accelerated-depreciation/) (40% in Year 1) can further reduce the effective payback by 6–12 months for tax-paying entities.
 
 The [solar battery backup calculator](/blog/solar-battery-backup-calculator/) allows you to input your clinic's specific loads and generate a site-specific battery and inverter sizing estimate.
 
@@ -253,8 +254,6 @@ The following healthcare-project errors require qualified design and owner revie
 For a detailed evaluation of inverter reliability standards, see the [how to evaluate solar inverter reliability guide](/blog/how-to-evaluate-solar-inverter-reliability/).
 
 The Bangalore hospital case study at [case study: Bangalore hospital](/blog/case-study-bangalore-hospital/) is a published case-study narrative on this site describing a healthcare solar installation, including the critical load circuit design and payback outcomes; its figures are not independently verified. For battery chemistry selection for healthcare applications, the [LiFePO4 vs NMC battery comparison](/blog/lifepo4-vs-nmc-solar-battery-india/) explains why LiFePO4 is the only appropriate chemistry for medical facility installations. For the RESCO alternative to CAPEX investment, see the [zero cost solar RESCO guide](/blog/zero-cost-solar-resco-opex-india/).
-
-[IRENA's renewable energy for healthcare in developing countries report](https://www.irena.org/Publications){target="_blank" rel="noopener"} documents that healthcare facilities in South Asia lose 4–8% of perishable medication inventory annually due to power interruptions, confirming the financial case for solar-plus-storage beyond electricity bill reduction. [WHO guidelines for energy in health facilities](https://www.who.int/){target="_blank" rel="noopener"} identify reliable electricity for cold chain as the single most critical infrastructure requirement for primary healthcare facilities, reinforcing the backup-first solar design approach. [JMK Research's India healthcare solar market data](https://jmkresearch.com/){target="_blank" rel="noopener"} shows the healthcare vertical grew 55% year-on-year in 2024 as awareness of solar-plus-battery for critical loads increased among clinic owners. [IEA's India energy data](https://www.iea.org/countries/india){target="_blank" rel="noopener"} confirms that commercial electricity tariffs in Tier-2 cities where most private clinics operate average ₹9–12/unit, creating the conditions for sub-5-year payback on 10–25 kW systems.
 
 ## Where Qbits Fits
 

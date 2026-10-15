@@ -33,7 +33,7 @@ faqs:
 
 The **best solar inverter for a weak grid is the exact model whose permitted AC operating range fits measured site conditions and the approved grid profile**. Do not choose from a brand-level claim such as “India tuned,” and do not mistake the solar-panel MPPT range for the AC grid range.
 
-In this documented 5 kW shortlist, Qbits QB-5KTLS publishes the widest numerical AC range, 90 to 290 Vac adjustable. GoodWe GW5000-DNS-30 publishes the highest upper boundary, 311 V. Sungrow SG5.0RS-L publishes 154 to 276 V. Solis S6-GR1P5K-S says it maintains stable generation under weak-grid conditions, but its public flyer does not state a comparable AC operating range.
+In this documented 5 kW shortlist, the published AC ranges differ: GoodWe GW5000-DNS-30 publishes an upper boundary of 311 V, Qbits QB-5KTLS publishes 90 to 290 Vac adjustable, and Sungrow SG5.0RS-L publishes 154 to 276 V. Solis S6-GR1P5K-S says it maintains stable generation under weak-grid conditions, but its public flyer does not state a comparable AC operating range.
 
 Those are manufacturer-published specifications, not permission to widen protection thresholds. The approved country profile, exact model manual, DISCOM condition, and commissioning record still control how a unit may be set.
 
@@ -72,7 +72,7 @@ data:
   - { label: "Sungrow SG5.0RS-L", min: 154, max: 276 }
 ```
 
-There is no honest universal winner. Qbits has the widest published span here, GoodWe has the highest published upper boundary, Sungrow supplies a clear range and detailed manual, and Solis supplies a weak-grid positioning statement without the comparable number needed for a range verdict.
+There is no honest universal winner. GoodWe publishes the highest upper boundary, Qbits publishes a 90 to 290 Vac adjustable range, Sungrow supplies a clear range and detailed manual, and Solis supplies a weak-grid positioning statement without the comparable number needed for a range verdict.
 
 ## How this comparison was built
 

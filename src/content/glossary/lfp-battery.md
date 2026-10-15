@@ -17,7 +17,7 @@ quickFacts:
   industry: "Energy Storage / Solar Hybrid Systems"
   primaryUse: "Stationary solar storage, two-wheeler EVs, telecom backup"
   commonUsers: "Hybrid solar customers, telecom operators, EV makers, EPCs"
-  relevantStandards: "IEC 62619, IS 16893, UL 1973, UL 9540"
+  relevantStandards: "IEC 62619, UL 1973, UL 9540"
   relatedTechnologies: "BMS, hybrid inverter, NMC, sodium-ion"
 relatedTerms:
   - { slug: "lithium-ion-battery", term: "Lithium Ion Battery" }
@@ -257,7 +257,7 @@ The PLI for Advanced Chemistry Cells (ACC) aims for 50 GWh of domestic cell manu
 
 Major LFP pack brands sold in India include Pylon Tech, Goodwe Storage, Sungrow, Inverted Energy, Loom Solar, Luminous and Microtek, along with hybrid inverter brand-specific packs from Solis, Solax and Deye; our [best solar battery brands in India](/blog/best-solar-battery-brands-india-2026/) guide reviews them, and our [solar battery price guide](/blog/solar-battery-price-guide-india-2026/) breaks down current pack pricing by capacity. Buyers comparing a full hybrid system rather than the battery alone can also check our [best hybrid solar inverter in India](/blog/best-hybrid-solar-inverter-india-2026/) roundup, which ranks models by battery compatibility.
 
-BIS certification under IS 16893 applies to stationary LFP packs. IEC 62619 type test certificates are required by quality-conscious customers.
+IS 16893 is an EV propulsion cell standard, not a stationary-storage standard, so confirm the applicable Indian registration route for stationary packs separately. IEC 62619 type test certificates are required by quality-conscious customers.
 
 ## Standards and certifications
 
@@ -267,7 +267,7 @@ Table: Standards and certifications for LFP batteries
 |---|---|
 | IEC 62619 | Safety of secondary lithium cells |
 | IEC 62620 | Performance of lithium-ion cells |
-| IS 16893 | Indian Standard for stationary battery storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | UN 38.3 | Transport safety |
 | UL 1973 | Stationary applications |
 | UL 9540 | Energy storage system safety |
@@ -305,7 +305,7 @@ For how LFP Battery plays out in real projects, these guides go deeper:
 ## Sources
 
 - IEC 62619:2017, Safety requirements for secondary lithium cells.
-- IS 16893, Indian Standard for stationary battery storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - UL 1973, UL 9540, energy storage safety.
 - AIS 156 / AIS 038, Indian EV battery safety standards, Automotive Research Association of India.
 - PLI Scheme for Advanced Chemistry Cell Battery Storage, Ministry of Heavy Industries.

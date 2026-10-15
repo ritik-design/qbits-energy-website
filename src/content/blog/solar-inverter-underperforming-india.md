@@ -85,8 +85,6 @@ Expected (kWh) = Installed kWp × Peak sun hours × 0.78 (baseline PR)
 
 Peak sun hours for each location and month can be retrieved from the [MNRE solar resource atlas](https://mnre.gov.in/){target="_blank" rel="noopener"} or from the monitoring application's irradiance sensor if the system has one fitted.
 
-> **60%.** The proportion of Indian rooftop solar systems above five years old found to have at least one undiagnosed yield loss cause, identifiable through monitoring data analysis. *Source - [Mercom India, India Solar Rooftop O&M Market Report](https://www.mercomindia.com/){target="_blank" rel="noopener"}, 2025.*
-
 ## Causes 1–5: Diagnose Without Any Equipment
 
 The first five causes account for approximately 85% of underperformance cases in Indian installations. None require a technician or test equipment, monitoring app data and a visual inspection are sufficient.
@@ -100,7 +98,7 @@ The first five causes account for approximately 85% of underperformance cases in
 > [!TIP] Cause 1 fix: clean early, then recheck
 > **Fix:** Clean panels before 9:00 AM with clean water and a soft microfibre cloth. Recheck output on the following clear day. If output recovers by more than 8%, soiling was the primary cause. For high-dust zones (Rajasthan, Gujarat, northern agricultural belt), clean every 3–4 weeks during the dry season. See the [solar output maximisation guide](/blog/maximize-solar-output-indian-climate/) for the full zone-matched cleaning schedule.
 
-[NREL soiling research on Indian rooftop installations](https://www.nrel.gov/docs/fy16osti/65498.pdf){target="_blank" rel="noopener"} documents that Indian sites lose 15–30% of irradiance annually from dust accumulation, among the highest soiling rates globally for a grid-connected solar market of this scale.
+Soiling losses depend on your location, season and how recently rain has fallen, so measure yours by comparing generation before and after a cleaning.
 
 ### Cause 2: Thermal Derating
 
@@ -132,7 +130,7 @@ The first five causes account for approximately 85% of underperformance cases in
 
 **Self-diagnosis:** Compare current output against the same period in Year 1 at matching irradiance conditions. A decline greater than 0.5% multiplied by the system age in years suggests above-average degradation. For a 7-year-old system: expected maximum decline is 3.5%; a measured 7% decline warrants further investigation.
 
-**Fix:** Degradation within the warranted annual rate (typically 0.5%/year) is normal and expected. Degradation above the warranted rate justifies a warranty claim with the panel manufacturer. Severe or localised degradation is detectable with an infrared thermal scan during peak irradiance hours. [IEA data on Indian solar PV field performance](https://www.iea.org/countries/india){target="_blank" rel="noopener"} shows average degradation of 0.4–0.7% per year for polycrystalline panels and 0.3–0.5% for monocrystalline PERC under Indian field conditions.
+**Fix:** Degradation within the warranted annual rate (typically 0.5%/year) is normal and expected. Degradation above the warranted rate justifies a warranty claim with the panel manufacturer. Severe or localised degradation is detectable with an infrared thermal scan during peak irradiance hours. Check the module datasheet for the warranted annual degradation rate.
 
 ## The 10-Cause Underperformance Audit: Named Framework
 
@@ -249,7 +247,7 @@ Table: Decision matrix for the ten causes, showing self-diagnosis, technician ne
 > - A DC arc fault or ground fault event appears in the inverter event log
 > - The performance ratio has declined more than 1.5% year-on-year for two consecutive years
 
-[NREL solar PV operations and maintenance guidance](https://www.nrel.gov/grid/distributed-generation.html){target="_blank" rel="noopener"} recommends annual performance ratio audits as the minimum standard for systems above 5 kWp. [IRENA's solar O&M report](https://www.irena.org/publications/2022/Oct/Renewable-Power-Generation-Costs-in-2021){target="_blank" rel="noopener"} found that monitoring-equipped systems resolve yield loss causes 60% faster than systems diagnosed only at annual site visits.
+An annual performance ratio audit is a sensible minimum for any system above 5 kWp, and monitoring data lets you find yield-loss causes faster than waiting for an annual site visit.
 
 ## How Multiple Causes Stack: Multi-Cause Underperformance in Practice
 

@@ -1,6 +1,6 @@
 ---
 title: "Solar System for 2 BHK India, Sizing and Cost"
-excerpt: "A 2 BHK Indian home needs a 3kW solar system. Monthly consumption is 400–550 units. Net cost after ₹78,000 PM Surya Ghar subsidy is ₹72,000–₹1,30,000. Complete sizing guide inside."
+excerpt: "A 2 BHK Indian home needs a 3kW solar system. Monthly consumption is 400–550 units. The MNRE benchmark cost after the ₹78,000 subsidy is ₹67,000. Sizing guide inside."
 description: "Right-sized solar for a 2 BHK Indian home: load calculation, why 3kW is standard, PM Surya Ghar subsidy, net cost breakdown, and the best inverter picks."
 category: "Buying Guide"
 date: 2026-06-05
@@ -22,7 +22,7 @@ faqs:
   - q: "What is the monthly electricity consumption of a 2 BHK home in India?"
     a: "A typical 2 BHK Indian home consumes 400 to 600 units of electricity per month. The primary loads are 2 inverter air conditioners (1-ton each, 6 hours/day), a refrigerator (200L, 24 hours), a washing machine (1 load/day), 4 ceiling fans (10 hours each), 10 LED lights (5 hours each), and a television. Heavy users with a 1.5-ton AC or a washing machine dryer may reach 600 to 700 units/month."
   - q: "How much can solar reduce the electricity bill for a 2 BHK?"
-    a: "A 3kW solar system for a 2 BHK generates 380 to 500 units per month, reducing the monthly DISCOM bill by ₹2,300 to ₹4,000 at ₹6 to ₹8 per unit. Annual savings are ₹27,000 to ₹48,000. Over 25 years (the typical panel life), total savings at a conservative ₹7/unit with 3% annual tariff increase reach ₹12 to ₹18 lakh. The system pays back in 4 to 6 years, then generates effectively free electricity."
+    a: "A 3kW solar system for a 2 BHK generates about 325 to 400 units per month (3 kW × 4.5 to 5.5 peak sun hours × 30 days × 0.8), reducing the monthly DISCOM bill by roughly ₹1,950 to ₹3,200 at ₹6 to ₹8 per unit. Annual savings are about ₹23,000 to ₹38,000. Over 25 years, savings at ₹7 per unit with a 3% annual tariff increase come to about ₹11 lakh before degradation (30,660 × 36.5). Payback is the net cost you pay divided by the yearly saving: about 3 to 4 years on an assumed ₹1,00,000 net cost."
   - q: "What is the PM Surya Ghar subsidy for a 3kW system (suitable for 2 BHK)?"
     a: "The PM Surya Ghar Muft Bijli Yojana central subsidy for a 3kW residential system is ₹78,000, calculated as ₹30,000 per kW for the first 2kW (₹60,000) plus ₹18,000 for the third kW. This subsidy is credited directly to the homeowner's bank account after DISCOM installation verification. Some states offer additional top-up subsidies of ₹10,000 to ₹20,000."
   - q: "Can a 3kW solar system run 2 air conditioners in a 2 BHK?"
@@ -44,8 +44,8 @@ Before you sign anything, you need to understand what a 2 BHK home actually cons
 > [!KEYTAKEAWAYS]
 > - A 2 BHK home typically needs a 3kW on-grid solar system; monthly consumption runs 400–600 units.
 > - A [3kW system](https://www.heavengreenenergy.com/blog/3kw-solar-system-in-india) generates 350–500 units per month, covering 60–90% of the bill.
-> - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy is ₹78,000 for 3kW, the maximum any household can claim, cutting net cost to ₹72,000–₹1,32,000.
-> - Payback lands in 3–5 years at ₹6–₹8 per unit tariffs.
+> - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy is ₹78,000 for 3kW, the maximum any household can claim, cutting net cost to ₹67,000 on the MNRE benchmark of ₹1,45,000 (real quotes vary).
+> - Payback lands in about 3 to 4 years at ₹6–₹8 per unit on an assumed ₹1,00,000 net cost.
 
 ## 2 BHK Load Profile: Calculating What You Actually Need
 
@@ -103,9 +103,9 @@ Table: 3kW solar system cost for a 2 BHK, budget versus premium, with PM Surya G
 | Less: PM Surya Ghar ₹78,000 | −₹78,000 | −₹78,000 |
 | **Net cost** | **₹52,680** | **₹98,420** |
 
-*Practical installer quotes range from ₹1,50,000 to ₹2,10,000 gross, with net cost after subsidy of ₹72,000 to ₹1,32,000.*
+*The component amounts above are assumed planning inputs, not dated quotes. The only published anchor is the MNRE benchmark of ₹1,45,000 for 3 kW (₹50,000 per kW for the first 2 kW and ₹45,000 per kW beyond, 13 February 2024), which leaves ₹67,000 after the ₹78,000 subsidy. Get itemised written quotes.*
 
-> **₹78,000.** The PM Surya Ghar central subsidy for a 3kW system, the maximum any household can claim. For a 2 BHK purchasing the most appropriate system size, this subsidy covers 37 to 52% of the gross system cost, making 3kW the best-value residential solar proposition in India. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The PM Surya Ghar central subsidy for a 3kW system, the maximum any household can claim. For a 2 BHK purchasing the most appropriate system size, this subsidy covers 53.8% of the MNRE benchmark cost (₹78,000 ÷ ₹1,45,000), and it stops rising at 3 kW. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
 
 For the complete subsidy application and eligibility guide, read [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/).
 
@@ -126,14 +126,13 @@ Table: On-grid versus hybrid 3kW for a 2 BHK
 
 | | On-Grid 3kW | Hybrid 3kW + 5kWh battery |
 | --- | --- | --- |
-| **Gross cost** | ₹1,50,000–₹2,10,000 | ₹2,90,000–₹3,70,000 |
-| **Net cost after subsidy** | ₹72,000–₹1,32,000 | ₹2,12,000–₹2,92,000 |
-| **Payback period** | 3–5 years | 8–12 years |
-| **Backup during outage** | ✗ | ✓ (6–8 hrs on critical load) |
+| **Cost** | MNRE benchmark ₹1,45,000 (₹67,000 after subsidy) | Hybrid inverter plus battery add to this; get a written quote |
+| **Payback period** | Shorter | Longer (battery cost) |
+| **Backup during outage** | ✗ | ✓ (duration depends on battery size and load) |
 | **Suitable for** | Cities with stable grid | Areas with 3+ hrs/day outage |
 
 > [!TIP] Metro and Tier-1 2 BHK: choose on-grid 3kW
-> The on-grid payback is 3 to 5 years; the hybrid payback is 8 to 12 years. The financial case for hybrid only makes sense if outage hours are significant (UP, Bihar, rural Rajasthan) or if the homeowner places high value on energy independence.
+> The on-grid payback is shorter; the hybrid payback is longer because the battery adds cost. The financial case for hybrid only makes sense if outage hours are significant (UP, Bihar, rural Rajasthan) or if the homeowner places high value on energy independence.
 
 For the full on-grid vs hybrid decision tree, read the [on-grid vs hybrid guide](/blog/on-grid-vs-hybrid/).
 
@@ -142,46 +141,31 @@ For the full on-grid vs hybrid decision tree, read the [on-grid vs hybrid guide]
 > [!FORMULA] Simple payback
 > Payback (years) = net system cost ÷ (annual generation × tariff per unit)
 
-> [!EXAMPLE] 3kW payback at three tariffs (5,475 kWh a year)
+> [!EXAMPLE] 3kW payback at three tariffs (4,380 kWh a year, assumed ₹1,00,000 net cost)
 > **At ₹7/unit (Maharashtra, Karnataka, Tamil Nadu):**
-> - Daily generation: 15 kWh
-> - Annual generation: 5,475 kWh
-> - Annual savings: 5,475 × ₹7 = ₹38,325
-> - Net system cost (mid-range): ₹1,00,000
-> - **Payback: 2.6 years**
+> - Daily generation: 3 kW × 5 peak sun hours × 0.8 = 12 kWh
+> - Annual generation: 12 × 365 = 4,380 kWh
+> - Annual savings: 4,380 × ₹7 = ₹30,660
+> - Net system cost (assumed): ₹1,00,000
+> - **Payback: 3.3 years**
 >
 > **At ₹6/unit (Gujarat, Rajasthan):**
-> - Annual savings: 5,475 × ₹6 = ₹32,850
-> - Net cost: ₹90,000
-> - **Payback: 2.7 years**
+> - Annual savings: 4,380 × ₹6 = ₹26,280
+> - Net cost (assumed): ₹1,00,000
+> - **Payback: 3.8 years**
 >
 > **At ₹8/unit (Delhi, Haryana upper slabs):**
-> - Annual savings: 5,475 × ₹8 = ₹43,800
-> - Net cost: ₹1,10,000
-> - **Payback: 2.5 years**
+> - Annual savings: 4,380 × ₹8 = ₹35,040
+> - Net cost (assumed): ₹1,00,000
+> - **Payback: 2.9 years**
 
-India's residential electricity tariffs have risen an average of 6–8% per year over the past decade according to [CERC tariff order data](https://cerc.gov.in/), meaning the savings from solar increase each year even without any change in consumption patterns. At 6% annual tariff escalation, the effective IRR on a 3kW solar investment for a 2 BHK exceeds 18% over 25 years, a return profile explained in more depth in the [solar inverter payback period guide](/blog/solar-inverter-payback-period/). *Source - [IRENA Renewable Power Generation Costs 2024](https://www.irena.org/Publications/2025/Mar/Renewable-Power-Generation-Costs-in-2024), IRENA 2025.*
+Residential tariffs differ by state and change with each tariff order, so the savings from solar can rise over time even without any change in consumption. Model your own escalation: at an assumed 6% annual tariff escalation, a ₹10,000 first-year saving becomes about ₹10,000 × 1.06^9 = ₹16,900 in year 10. The [solar inverter payback period guide](/blog/solar-inverter-payback-period/) explains the payback and IRR arithmetic in more depth.
 
-> **26% growth.** India's rooftop solar market grew 26% year-on-year in 2024, driven primarily by PM Surya Ghar applications from 2 and 3 BHK households. The 3kW tier (matching peak subsidy at ₹78,000) accounts for the largest share of new residential connections. *Source - [JMK Research India Solar Market](https://jmkresearch.com/), 2025.*
+## State Variation in 3kW System Cost for 2 BHK Homes
 
-## State-Wise 3kW System Cost for 2 BHK Homes
+Labour rates, DISCOM net-meter charges and any state top-up subsidy vary across India. This guide quotes no state-wise costs or top-ups because none could be verified against a current order. Take the MNRE benchmark (₹1,45,000, or ₹67,000 after the central subsidy) as the reference, add any state top-up your State Nodal Agency confirms in writing, and compare it with itemised quotes.
 
-Labour rates, DISCOM net-meter charges, and state subsidies vary significantly across India:
-
-Table: State-wise 3kW system cost, subsidy and net cost for a 2 BHK
-
-| State | Gross System Cost | Central + State Subsidy | Net Cost |
-| --- | --- | --- | --- |
-| Gujarat | ₹1.5L–₹1.9L | ₹78,000 + ₹15,000–₹25,000 | ₹47,000–₹97,000 |
-| Rajasthan | ₹1.5L–₹1.9L | ₹78,000 + ₹15,000 | ₹57,000–₹97,000 |
-| Maharashtra | ₹1.6L–₹2.1L | ₹78,000 | ₹82,000–₹1.32L |
-| Karnataka | ₹1.6L–₹2.0L | ₹78,000 | ₹82,000–₹1.22L |
-| Uttar Pradesh | ₹1.5L–₹1.9L | ₹78,000 + ₹10,000–₹15,000 | ₹57,000–₹1.02L |
-| Tamil Nadu | ₹1.6L–₹2.0L | ₹78,000 | ₹82,000–₹1.22L |
-
-Always verify state subsidy amounts at the [MNRE portal](https://mnre.gov.in/) before proceeding, as amounts are updated periodically.
-
-These payback periods are genuinely outstanding for any household investment. After payback, the system generates 20+ years of effectively free electricity, with panels carrying a 25-year performance guarantee from reputable manufacturers.
+A short payback is attractive for a household investment. After payback, the system generates 20+ years of effectively free electricity, with panels carrying a 25-year performance guarantee from reputable manufacturers.
 
 ## Best Inverter Picks for a 2 BHK 3kW System
 

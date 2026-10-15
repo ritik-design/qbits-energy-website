@@ -18,7 +18,7 @@ faqs:
   - q: "Why is battery backup essential for poultry farm solar?"
     a: "Poultry farms - especially broiler farms - depend on continuous ventilation to maintain air quality and temperature. Ventilation fans run 24 hours a day in summer months; even a 15–30 minute power interruption can cause heat stress and mortality in broiler birds, particularly during Indian summer when ambient temperatures exceed 40 °C. Solar panels generate electricity only during daylight hours, so a battery backup is essential for uninterrupted fan operation during nighttime, cloudy periods, and grid outages. Battery sizing should cover a minimum of 6–8 hours of ventilation fan load."
   - q: "What is the typical solar system size for a 1,000-bird poultry shed?"
-    a: "A 1,000-bird broiler shed in India typically runs 6–10 ventilation fans of 0.3–0.5 kW each (3–5 kW total), plus lighting (0.5–1 kW) and a water system (0.5 kW). Total connected load is approximately 5–8 kW. A 5–10 kW solar system with a 15–20 kWh battery backup covers this load adequately for a daytime solar + battery overnight configuration. Larger sheds (10,000 birds) need proportionally larger systems - approximately 30–50 kW solar with 100 kWh battery for full 24/7 coverage."
+    a: "A 1,000-bird broiler shed in India typically runs 6–10 ventilation fans of 0.3–0.5 kW each (3–5 kW total), plus lighting (0.5–1 kW) and a water system (0.5 kW). Total connected load is approximately 5–8 kW. A 5–10 kW solar system covers the daytime load, and the battery must cover the critical (Tier 1) load overnight: in this guide's worked example, 5.5 kW of critical load for 8 hours at 80% depth of discharge needs about 55 kWh. Larger sheds (10,000 birds) need proportionally larger systems, and at that scale the battery cost is high enough that a generator as tertiary backup is worth pricing alongside it."
   - q: "Does KUSUM scheme apply to poultry farms in India?"
     a: "Usually not directly. Under the MNRE PM-KUSUM page (read 14 October 2026), Component B covers standalone solar pumps up to 7.5 HP, Component C covers solar for grid-connected agricultural pumps (individual pump solarisation, or feeder-level solarisation), and Component A covers 500 kW to 2 MW decentralised plants selling power to the DISCOM. The central financial assistance on Components B and C is 30 percent of the benchmark or tender cost (50 percent in the North Eastern states, Sikkim, J&K, Himachal Pradesh, Uttarakhand, Lakshadweep and A&N Islands), with the state giving at least 30 percent. The page does not mention poultry or other non-pump loads, so ventilation fans, chillers and lighting are not covered by a pump subsidy. A poultry farm with a water pump may be able to use the pump component; confirm with your state nodal agency or DISCOM. The page gives the scheme period as till 31 March 2026, and MNRE issued later extensions for some projects, so check current status before planning around it."
   - q: "What is the difference in solar requirements between broiler and layer poultry farms?"
@@ -35,15 +35,15 @@ In poultry farming, power cuts are not inconveniences. They are emergencies. Ven
 
 This makes solar for poultry farms a fundamentally different engineering problem from solar for offices or homes. The critical load (ventilation) runs 24/7, not just during school hours or office hours. That means a simple on-grid system is insufficient. Battery backup is not optional; it is the difference between a functioning system and a liability.
 
-> **Direct answer.** Poultry farm solar in India must prioritise uninterrupted ventilation using battery backup, not just daytime grid offset. A 1,000-bird shed needs about 10 kW solar with a 40–50 kWh battery (5 kW critical load × 8 hours ÷ 0.80 depth of discharge). PM-KUSUM subsidises solar pumps and agricultural feeders, not poultry ventilation loads; check whether any part of your farm qualifies. Use the Poultry Farm Solar Priority Matrix in this guide to rank loads and size correctly for your farm type.
+> **Direct answer.** Poultry farm solar in India must prioritise uninterrupted ventilation using battery backup, not just daytime grid offset. A 1,000-bird shed in the worked example needs about 10 kW solar with a 55 to 60 kWh battery (5.5 kW critical load × 8 hours ÷ 0.80 depth of discharge = 55 kWh). PM-KUSUM subsidises solar pumps and agricultural feeders, not poultry ventilation loads; check whether any part of your farm qualifies. Use the Poultry Farm Solar Priority Matrix in this guide to rank loads and size correctly for your farm type.
 
 > [!KEYTAKEAWAYS]
 > - Ventilation fans are the Tier 1 critical load for poultry farms; even a 30-minute interruption during Indian summer can trigger heat-stress mortality.
-> - A 1,000-bird broiler shed needs roughly 10 kW solar with a 40-50 kWh battery; a 10,000-bird farm scales to 60-75 kW solar with around 250 kWh of battery.
+> - In the worked example, a 1,000-bird broiler shed needs roughly 10 kW solar with a 55 to 60 kWh battery; a 10,000-bird farm scales that roughly tenfold, which is why a generator as tertiary backup is worth pricing.
 > - LFP batteries are strongly preferred over lead-acid for poultry applications because of their deep-discharge tolerance and 3,000+ cycle life.
 > - PM-KUSUM's 30% (50% in special-category states) central assistance applies to solar pumps (Components B and C) as published by MNRE; it does not list poultry ventilation loads, so confirm eligibility with your state nodal agency before counting on it.
 > - Battery backup should cover Tier 1 loads for a minimum of 8 hours to bridge overnight and cloudy-day gaps.
-> - A 10,000-bird farm's payback is typically longer (around 7.9 years) than other commercial verticals because of high battery cost, but mortality-prevention value adds real economic benefit beyond grid savings alone.
+> - A large battery raises the capital cost and lengthens the payback, but mortality-prevention value adds economic benefit beyond grid savings alone; model both with your own inputs.
 
 ## Understanding Poultry Farm Loads
 
@@ -118,11 +118,11 @@ Table: Battery sizing for a 1,000-bird broiler shed in peak summer
 | Ventilation fan load (Tier 1) | 4 kW |
 | Cooling pad pump (Tier 1) | 1.5 kW |
 | Total Tier 1 load | 5.5 kW |
-| Required backup duration | 10 hours (overnight + cloudy morning) |
-| Battery capacity needed (at 80% [DoD](/glossary/battery-dod/), [LFP](/glossary/lfp-battery/)) | 5.5 × 10 / 0.80 = **68.75 kWh** |
-| Recommended battery size | **75 kWh LFP battery** |
+| Required backup duration | 8 hours (the minimum overnight window) |
+| Battery capacity needed (at 80% [DoD](/glossary/battery-dod/), [LFP](/glossary/lfp-battery/)) | 5.5 × 8 / 0.80 = **55 kWh** |
+| Recommended battery size | **55 to 60 kWh LFP battery** |
 
-For a 10,000-bird farm, scale proportionally: 750 kWh battery, at this scale, a gas generator (LPG/CNG) as tertiary backup is cost-effective alongside 200–300 kWh of battery as primary backup.
+For a 10,000-bird farm, scaling proportionally gives about 550 kWh of battery; at that scale, price a gas generator (LPG/CNG) as tertiary backup alongside a smaller battery as primary backup, and compare the totals.
 
 > [!IMPORTANT] Critical context
 > An assumed scenario, not a measured rate: if a 2-hour power cut in extreme heat kills 500 of a 10,000-bird broiler flock (5%) and each bird would have sold for an assumed ₹80 to ₹100, the loss is ₹40,000 to ₹50,000 (500 × ₹80 to ₹100). Use your own flock size, bird value and past loss record to size the risk.

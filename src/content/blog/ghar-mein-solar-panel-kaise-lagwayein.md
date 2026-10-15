@@ -16,17 +16,17 @@ keywords:
   - solar installation guide hindi
 faqs:
   - q: "घर में solar panel लगवाने में कितना खर्च आता है?"
-    a: "3 kW solar system (panels + inverter + installation) का total खर्च ₹1.5 lakh से ₹2.2 lakh है। PM Surya Ghar subsidy ₹78,000 मिलने के बाद net cost ₹72,000 से ₹1.07 lakh हो जाती है। System 25 साल चलता है।"
+    a: "3 kW system का कोई एक national price नहीं है। MNRE का residential benchmark 3 kW के लिए ₹1,45,000 है (पहले 2 kW के लिए ₹50,000 प्रति kW और तीसरे kW के लिए ₹45,000), PM Surya Ghar subsidy ₹78,000 है, यानी benchmark पर net ₹67,000। यह scheme का reference है, quote नहीं; आपका असली quote अलग होगा, इसलिए itemised quotes से तुलना करें।"
   - q: "Solar panel लगवाने में कितना समय लगता है?"
-    a: "Physical installation 1-3 दिन में complete हो जाती है। लेकिन पूरा process - PM Surya Ghar application, DISCOM feasibility visit, vendor selection, installation, net metering activation - 2-4 महीने का है। Installation सबसे fast step है।"
+    a: "Physical installation 1-3 दिन में complete हो जाती है। लेकिन पूरा process - PM Surya Ghar application, DISCOM feasibility visit, vendor selection, installation, net metering activation - DISCOM और portal की processing पर निर्भर है, इसलिए अपने DISCOM से current timeline पूछें। Installation सबसे fast step है।"
   - q: "Solar panel किस direction में लगाना चाहिए?"
-    a: "India में south-facing roof maximum generation देता है। अगर pure south नहीं है तो south-east या south-west भी acceptable है - 5-10% less generation। East-facing morning में generation, west-facing afternoon में। North-facing avoid करें - 30-40% less generation।"
+    a: "India में south-facing roof maximum generation देता है। अगर pure south नहीं है तो south-east या south-west भी acceptable हो सकता है, पर generation कम होती है। East-facing morning में generation, west-facing afternoon में। North-facing avoid करें - generation काफ़ी कम होती है। Exact फर्क आपके location के लिए installer की simulation से देखें।"
   - q: "कितने square feet roof में कितने kW solar लगाता है?"
     a: "एक kW solar system के लिए 8-10 square feet shadow-free area चाहिए। 3 kW के लिए 25-30 square feet। 5 kW के लिए 40-50 square feet। Shadow-free area important है - partial shade से भी generation drastically कम हो सकती है।"
   - q: "Solar panel की warranty कितनी होती है?"
-    a: "Solar panels पर दो warranties होती हैं: (1) Product warranty 10-12 साल (manufacturing defects), (2) Performance warranty 25-30 साल (minimum 80-90% output guarantee)। Inverter warranty separately 5-12 साल। Good brands दोनों warranties written में देते हैं।"
+    a: "Solar panels पर दो warranties होती हैं: (1) Product warranty (manufacturing defects), (2) Performance warranty (output guarantee)। दोनों की अवधि brand और model के हिसाब से अलग होती है और Inverter warranty अलग से होती है, इसलिए exact model की written warranty (term, remedy, conditions) माँगें।"
   - q: "Flat roof vs slanted roof - solar installation में क्या difference है?"
-    a: "Flat roof पर panels mounting structure में tilt angle देना होता है (10-25 degrees south-facing) जिससे self-cleaning और optimum generation होती है। Slanted roof पर angle पहले से होता है - mounting simpler होती है। Flat roof installation ₹5,000-10,000 extra cost हो सकती है।"
+    a: "Flat roof पर panels mounting structure में tilt angle देना होता है (10-25 degrees south-facing) जिससे self-cleaning और optimum generation होती है। Slanted roof पर angle पहले से होता है - mounting simpler होती है। Flat roof पर mounting structure का खर्च अलग line item के रूप में quote में देखें।"
   - q: "क्या rented house में solar panel लगा सकते हैं?"
     a: "Rented house में solar panel लगाने के लिए मकान मालिक (house owner) की written consent जरूरी है। PM Surya Ghar subsidy के लिए application house owner के नाम पर होगी (उनकी electricity bill पर)। Tenant अपने नाम से directly subsidy नहीं ले सकता।"
   - q: "क्या solar panel खुद लगा सकते हैं (DIY)?"
@@ -41,12 +41,12 @@ language: hi
 > [!KEYTAKEAWAYS]
 > - Ghar mein solar lagwane ke 7 steps hain: site check, system sizing, [PM Surya Ghar application](https://quickestimate.co/blog/pm-surya-ghar-application-process), vendor selection, installation, [net metering](https://quickestimate.co/blog/net-metering-hindi-mein), subsidy receipt
 > - Physical installation sirf 1-3 din ka kaam hai, lekin poora process (application se subsidy tak) 2-4 mahine leta hai
-> - 3 kW system ki gross cost ₹1.5-2.2 lakh hai, subsidy ke baad net cost ₹72,000-1.42 lakh reh jaati hai
-> - South-facing roof best generation deta hai, north-facing roof mein 30-40% kam generation hota hai
+> - 3 kW system ka MNRE benchmark ₹1,45,000 hai aur subsidy ₹78,000, yaani benchmark par net ₹67,000; asli quote alag hoga
+> - South-facing roof best generation deta hai, north-facing roof mein generation kaafi kam hoti hai (exact farq installer ki simulation se dekhein)
 
 > **Process overview।** घर में solar लगवाने के 7 steps हैं: (1) Eligibility और site check, (2) System sizing, (3) PM Surya Ghar application, (4) Vendor selection, (5) Installation, (6) Net metering, (7) Subsidy receipt। Physical installation सिर्फ 1-3 दिन का काम है।
 
-[MNRE data](https://mnre.gov.in/){target="_blank" rel="noopener"} के अनुसार, 2025-26 में India में 15 lakh+ residential solar systems install हुए। [PM Surya Ghar](/glossary/pm-surya-ghar/) ने process को significant simplify किया है। जानिए exactly क्या करना है।
+[PM Surya Ghar](/glossary/pm-surya-ghar/) ने residential solar का process एक national portal से जोड़ा है। जानिए exactly क्या करना है।
 
 ## Step 1: Site Assessment - Roof Suitable Hai?
 
@@ -65,10 +65,10 @@ Solar panel लगाने से पहले roof की suitability check �
 - Partial shadow भी production significantly कम करती है
 
 **Check 3, Roof [Azimuth](/glossary/azimuth/) / Direction**
-- South-facing: Best, 100% generation potential
-- South-East / South-West: Good, 90-95%
-- East या West only: Acceptable, 70-80%
-- North-facing: Avoid, 60-65% only
+- South-facing: Best generation potential
+- South-East / South-West: Good, thodi kam generation
+- East या West only: Acceptable, kam generation (installer ki simulation se exact farq dekhein)
+- North-facing: Avoid
 
 **Check 4, Structural Condition**
 - Roof 25+ साल तक panels का weight (15-25 kg per panel) support करे
@@ -125,7 +125,7 @@ Table: Power cut ke hisaab se on-grid ya hybrid
    - Bank passbook/cancelled cheque
    - Property proof
 
-Application submit होने के बाद DISCOM feasibility visit होगी - 7-21 दिन।
+Application submit होने के बाद DISCOM feasibility approval देती है; इसमें लगने वाला समय आपके DISCOM पर निर्भर है।
 
 [PM Surya Ghar documents complete guide](/blog/pm-surya-ghar-documents-required/), state-wise requirements।
 
@@ -206,9 +206,7 @@ Installation के same day या next day vendor net metering application sub
 3. [Bidirectional meter](/glossary/bidirectional-meter/) install होता है (old meter replace)
 4. Net metering active, import और export दोनों track होता है
 
-**Timeline:**
-- Urban areas: 15-30 दिन
-- Rural areas: 30-60 दिन
+**Timeline:** Net meter लगने का समय DISCOM और क्षेत्र (शहर या ग्रामीण) के हिसाब से अलग होता है; अपने DISCOM से current timeline पूछें।
 
 > [!IMPORTANT] Net meter se pehle export credit nahi
 > Net meter active होने से पहले export credit नहीं मिलता। Generation होती है लेकिन exported units waste होते हैं। इसलिए immediately application जरूरी है।
@@ -228,7 +226,7 @@ Net meter install होने के बाद DISCOM inspector आता ह�
 **After inspection:**
 - DISCOM clearance certificate
 - MNRE को report
-- 20-30 दिन में subsidy bank में
+- Subsidy bank में आने का समय portal और DISCOM की processing पर निर्भर है
 
 > **₹78,000** directly आपके bank account में - PFMS के through। SMS notification आएगा।
 
@@ -258,9 +256,9 @@ Solar system install होने के बाद:
 
 - **Installation से पहले PM Surya Ghar apply न करना**: Subsidy नहीं मिलेगी
 - **ALMM verify न करना**: Non-ALMM से rejection
-- **Single vendor से quote**: ₹20,000-40,000 overpay risk
+- **Single vendor से quote**: Price aur scope compare nahi ho paata; kam se kam do itemised quotes lein
 - **Net metering application delay**: Weeks of export wasted
-- **Cheap inverter लेना**: 3-4 साल में replacement, subsidy भी नहीं
+- **Cheap inverter लेना**: Written warranty, certificates aur service route check kiye bina lene par replacement aur subsidy risk
 
 [Solar inverter buying mistakes guide](/blog/solar-inverter-buying-mistakes/), complete avoid list।
 
@@ -271,28 +269,11 @@ Solar system install होने के बाद:
 - **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Use this as a preliminary screen. A qualified designer must verify the final string, protection and utility design.
 
-According to [IEA India solar data](https://www.iea.org/){target="_blank" rel="noopener"}, residential solar installation cost India में 2020 से 45% कम हुई है - making this the best time to invest।
-
 [Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
-## Solar Panel Installation: State-wise Timeline Comparison
+## Solar Panel Installation: Timelines Apne DISCOM Se Poochhein
 
-Different states में PM Surya Ghar installation timelines vary significantly:
-
-Table: State-wise PM Surya Ghar timeline, indicative ranges as stated in this article
-
-| State | Registration to Installation | Net Meter | Total to Subsidy |
-| --- | --- | --- | --- |
-| Delhi | 15-30 days | 15-30 days | 45-75 days |
-| Gujarat | 20-35 days | 20-35 days | 50-80 days |
-| Karnataka | 20-40 days | 21-45 days | 55-90 days |
-| Rajasthan | 25-40 days | 21-40 days | 55-90 days |
-| MP | 20-35 days | 15-30 days | 50-80 days |
-| UP | 30-50 days | 30-60 days | 75-120 days |
-| Bihar | 35-60 days | 30-60 days | 90-150 days |
-| West Bengal | 25-45 days | 21-45 days | 60-100 days |
-
-Major city areas within each state process faster. Rural districts take significantly longer due to fewer DISCOM field staff. Plan your timeline expectations accordingly.
+PM Surya Ghar ke steps ka samay state, DISCOM aur portal ki processing ke hisaab se alag hota hai. Humein koi sourced state-wise timeline nahi mili, isliye is guide mein koi din-wise table nahi hai. Apne DISCOM se registration, feasibility approval, net meter aur subsidy credit ke liye current timelines poochhein, aur apne installer se unhein likhit mein dene ko kahein। Plan your timeline expectations accordingly.
 
 ## First Month After Installation: What to Monitor
 
@@ -318,7 +299,7 @@ The first 30 days after installation are critical for catching any issues early:
 - Net metering credit should appear (if meter is installed)
 - If bill has not reduced at all, investigate: system may not be connected to the main panel correctly
 
-According to [Mercom India's solar performance tracking data](https://www.mercomindia.com/){target="_blank" rel="noopener"}, systems that are actively monitored in the first 30 days show 15-20% better long-term performance because issues are caught and corrected early.
+Monitoring ke pehle 30 din mein issues jaldi pakad mein aate hain, isliye app aur apne meter readings dono check karte rahein.
 
 ## How Solar Panels Work with Different Roof Types
 
@@ -349,17 +330,16 @@ Poora kharcha ka breakdown [solar panel lagane ka kharcha](/blog/solar-panel-lag
 
 Understanding sizing for different home sizes helps in budgeting:
 
-Table: Ghar ke size ke hisaab se system, gross cost aur subsidy ke baad cost
+Table: Ghar ke size ke hisaab se system, MNRE benchmark cost aur subsidy ke baad benchmark net cost (scheme reference, quote nahi)
 
-| Home Size | Typical Monthly Units | Recommended System | Gross Cost | After Subsidy |
+| Home Size | Typical Monthly Units | Recommended System | MNRE Benchmark Cost | After Subsidy (benchmark net) |
 | --- | --- | --- | --- | --- |
-| 1 BHK (no AC) | 80-150 units | 1-2 kW | ₹70,000-1,30,000 | ₹40,000-70,000 |
-| 2 BHK (1 AC) | 200-300 units | 3 kW | ₹1,55,000-1,85,000 | ₹77,000-1,07,000 |
-| 3 BHK (2 AC) | 350-500 units | 3-5 kW | ₹1,80,000-3,00,000 | ₹1,02,000-2,22,000 |
-| 4-5 BHK (3+ AC) | 500-800 units | 5-8 kW | ₹2,50,000-4,50,000 | ₹1,72,000-3,72,000 |
+| 1 BHK (no AC) | 80-150 units | 1-2 kW | ₹50,000-1,00,000 | ₹20,000-40,000 |
+| 2 BHK (1 AC) | 200-300 units | 3 kW | ₹1,45,000 | ₹67,000 |
+| 3 BHK (2 AC) | 350-500 units | 3-5 kW | ₹1,45,000-2,35,000 | ₹67,000-1,57,000 |
+| 4-5 BHK (3+ AC) | 500-800 units | 5-8 kW | ₹2,35,000-3,70,000 | ₹1,57,000-2,92,000 |
 
-Note: PM Surya Ghar subsidy caps at ₹78,000 regardless of system size above 3 kW. But larger systems generate more savings that justify the additional investment.
+Note: Benchmark cost = ₹50,000 per kW for the first 2 kW plus ₹45,000 per additional kW (MNRE residential guidelines, 13 February 2024); the units column is a rough guide, not a sourced norm. PM Surya Ghar subsidy caps at ₹78,000 regardless of system size above 3 kW. But larger systems generate more savings that justify the additional investment.
 
 [Solar system for 1 BHK](/blog/solar-system-for-1bhk-india/), [2 BHK](/blog/solar-system-for-2bhk-india/), [3 kW system guide](/blog/3kw-solar-system-price-india/), size-specific guides with detailed cost breakdowns.
 
-According to [IEA's India Renewable Energy report](https://www.iea.org/){target="_blank" rel="noopener"}, the average time for a homeowner to decide, install, and receive solar subsidy in India has come down from 8-12 months in 2022 to 3-5 months in 2026, making the process much more accessible. Starting your application today means your system could be generating electricity within the next quarter.

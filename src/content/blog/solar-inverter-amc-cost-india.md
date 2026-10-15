@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter AMC Cost in India 2026: What's Fair and What's a Rip-off"
-excerpt: "Solar inverter AMC cost in India runs ₹1,500 to ₹5,000 per kW per year. See fair price bands, red flags, and when a warranty beats an AMC."
-description: "Fair solar inverter AMC cost in India 2026 by system size, what an AMC covers, AMC vs warranty vs pay-per-visit economics, and the contract red flags to reject."
+excerpt: "Solar inverter AMC cost in India runs ₹1,500 to ₹5,000 per kW per year. See how to read a quote, red flags, and when a warranty beats an AMC."
+description: "Solar inverter AMC cost in India 2026: how to read a quote, what an AMC covers, AMC vs warranty vs pay-per-visit, and the contract red flags to reject."
 category: "Guide"
 date: 2026-07-23
 updatedDate: 2026-10-14
@@ -69,23 +69,13 @@ Notice what is usually missing: inverter parts. Most AMCs cover labour and consu
 
 The [solar inverter maintenance guide for India](/blog/inverter-maintenance-india/) details what genuine inverter upkeep involves, so you can check whether the AMC scope lists real work or filler.
 
-## Solar Inverter AMC Cost in India 2026: Fair Price Bands
+## Solar Inverter AMC Cost in India 2026: Reading the Price Spread
 
-AMC quotes in the Indian market range from ₹1,500 to ₹8,000 per kW per year for residential systems, according to Heaven Green Energy (2026). That spread is the problem. Here is what fair pricing looks like by system size and scope.
+AMC quotes in the Indian market range from ₹1,500 to ₹8,000 per kW per year for residential systems, according to Heaven Green Energy (2026). That spread is the problem. The way to handle it is to convert each quote to a per-kW figure and itemise the scope.
 
-### Fair AMC price bands by system size
+### How to read an AMC quote
 
-Table: Fair solar AMC price bands by system size and scope, India 2026
-
-| System size | Cleaning-only plan | Standard AMC (cleaning + checks) | Comprehensive AMC (with priority service) |
-| --- | --- | --- | --- |
-| 3 kW home | ₹3,000 to ₹5,000/yr | ₹7,500 to ₹12,000/yr | ₹12,000 to ₹15,000/yr |
-| 5 kW home | ₹4,000 to ₹6,500/yr | ₹12,500 to ₹20,000/yr | ₹20,000 to ₹25,000/yr |
-| 10 kW home/small business | ₹7,000 to ₹11,000/yr | ₹25,000 to ₹40,000/yr | ₹40,000 to ₹50,000/yr |
-| 25 kW commercial | ₹15,000 to ₹25,000/yr | ₹37,500 to ₹50,000/yr | ₹50,000 to ₹75,000/yr |
-| 100 kW commercial | ₹40,000 to ₹60,000/yr | ₹1,00,000 to ₹2,00,000/yr | Quoted per site |
-
-Two patterns stand out. First, per-kW cost falls sharply with size, because a technician visit costs the same whether the roof holds 3 kW or 30 kW. Second, the jump from standard to comprehensive pricing is 40 to 60 percent, and what you get for that premium is often just a response-time promise.
+No official or audited price list exists for solar AMCs, so this guide does not publish a table of "fair" bands by system size. Instead, convert every quote to a per-kW figure (annual price ÷ system kW), compare it with the third-party ranges quoted in this guide, and ask each vendor to itemise what the price buys: number of cleaning visits, electrical and earthing checks, inverter inspection, parts and labour, and the written response time. A technician visit costs about the same on a small roof as a larger one, so expect the per-kW price to fall as the system grows, and treat a large jump from a standard to a comprehensive plan as a reason to ask what the extra money buys.
 
 Overall annual maintenance spend for an Indian rooftop system runs ₹1,000 to ₹3,000 per kW per year, according to Freyr Energy (2026). If your quote sits well above that band for a residential system, the vendor owes you a line-item explanation.
 
@@ -118,7 +108,7 @@ Table: Manufacturer warranty, AMC and pay-per-visit compared on cover, cost and 
 | --- | --- | --- | --- |
 | What it covers | Defects, failure, replacement | Prevention, cleaning, minor labour | Whatever you book |
 | Typical cost | Included at purchase | ₹2,500 to ₹4,000/kW/yr residential | ₹300 to ₹500 per cleaning visit |
-| Inverter failure in year 7 | Covered (if within term) | Usually parts excluded | You pay ₹40,000+ |
+| Inverter failure in year 7 | Covered (if within term) | Usually parts excluded | You pay the repair or replacement cost |
 | Panel cleaning | Not covered | Covered | Book as needed |
 | Response guarantee | RMA terms vary | Written SLA (if contract is good) | None |
 | Best for | Failure risk | Large or hard-to-access systems | Small, accessible, well-warrantied systems |

@@ -1,6 +1,6 @@
 ---
 title: "Group Captive Solar for MSMEs 2026: Rules, Savings, and ROI"
-excerpt: "Group captive solar in India lets MSMEs buy 26% equity in a shared solar plant, cut power cost to ₹5 per unit, and skip cross subsidy surcharge."
+excerpt: "Group captive solar in India lets MSMEs buy 26% equity in a shared solar plant, cut power cost to about ₹5 per unit in the worked example, and skip cross subsidy surcharge."
 description: "How group captive solar works for Indian MSMEs in 2026: the 26% equity and 51% consumption rules under the Electricity Act, charge exemptions vs third-party PPA, savings per unit, ROI math, and how to evaluate an offer."
 category: "Guide"
 date: 2026-07-23
@@ -25,7 +25,7 @@ faqs:
   - q: "What is the difference between group captive and third-party PPA solar?"
     a: "In a third-party PPA you buy power from a developer's plant with zero investment. That power attracts cross subsidy surcharge of ₹1.4 to ₹2.5 per unit in most industrial states, and often an additional surcharge. In group captive you invest at least 26% equity and consume at least 51% of output. That makes the plant captive and exempt from both surcharges under the Electricity Act 2003. Group captive delivers higher net savings but needs capital, lock-in, and annual compliance with the consumption test."
   - q: "Who qualifies for group captive solar in India?"
-    a: "Any consumer with an HT connection and open access eligibility can join a group captive structure. Most states allow open access for consumers with a contract demand of 100 kW or more. Rajasthan allows it at 100 kW under its green energy open access rules. MSMEs such as textile units, cold storages, engineering workshops, pharma units, and food processors are the most common members. Their individual loads are usually too small for a standalone captive plant."
+    a: "Any consumer with an HT connection and open access eligibility can join a group captive structure. The national Electricity (Promoting Renewable Energy Through Green Energy Open Access) Rules, 2022 open green energy open access to consumers with a connected load of 100 kW or more, and states set their own conditions on top, so check your state commission's current order. MSMEs such as textile units, cold storages, engineering workshops, pharma units, and food processors are the most common members. Their individual loads are usually too small for a standalone captive plant."
   - q: "What happens if consumption falls below 51% in a year?"
     a: "If the captive users collectively consume less than 51% of annual generation, the plant loses captive status for that financial year. The power drawn is then treated as third-party open access. The DISCOM can levy cross subsidy surcharge and additional surcharge on it, sometimes retroactively. Good group captive agreements include quarterly compliance monitoring and default clauses. This stops one member's shortfall from pushing the whole plant below the threshold."
   - q: "Is accelerated depreciation available on group captive equity?"
@@ -96,9 +96,9 @@ Group captive solves four problems that stop most MSMEs from going solar at mean
 
 **Problem 3: no project management capacity.** A captive plant needs land acquisition, connectivity approval, EPC contracting, and 25 years of O&M. In group captive the developer does all of this. The MSME's job is to buy equity, sign a PPA, and consume power.
 
-**Problem 4: capital discipline.** An MSME with a 300 kW load might invest ₹40 lakh to ₹70 lakh in group captive equity for its proportional share. That is one quarter to one third the cost of owning a 300 kW rooftop plant outright. It also avoids the roof problem entirely. For businesses weighing ownership structures, our [solar CAPEX vs OPEX guide for Indian businesses](/blog/solar-capex-vs-opex-business-india/) lays out the balance sheet trade-offs. The [RESCO model guide](/blog/solar-resco-model-india-guide/) covers the pure zero-investment alternative.
+**Problem 4: capital discipline.** Under the assumptions of the worked example below, an MSME with a 300 kW offtake share would carry about ₹1.11 crore of proportional capex (300 kW × ₹3.7 crore/MW) and put in about ₹33 lakh of equity (30%), with debt funding the rest of the plant. It also avoids the roof problem entirely. For businesses weighing ownership structures, our [solar CAPEX vs OPEX guide for Indian businesses](/blog/solar-capex-vs-opex-business-india/) lays out the balance sheet trade-offs. The [RESCO model guide](/blog/solar-resco-model-india-guide/) covers the pure zero-investment alternative.
 
-There is also a financing angle. Banks and NBFCs now lend against group captive equity subscriptions. They treat the contracted PPA savings as repayment capacity. If you are weighing debt for the equity cheque, the [solar loan options through IREDA and other lenders](/blog/solar-loan-ireda/) post is a useful comparison.
+There is also a financing angle. Some lenders may finance the equity cheque, so ask each how it treats the contracted PPA savings. If you are weighing debt for the equity cheque, the [solar loan options through IREDA and other lenders](/blog/solar-loan-ireda/) post is a useful comparison.
 
 ## Group Captive vs Third-Party PPA: The Charge Stack
 
@@ -122,7 +122,7 @@ Two honest caveats. First, some states waive CSS on renewable open access for a 
 
 For diesel-dependent MSMEs, also compare against your backup economics. Group captive power at ₹5 per unit undercuts diesel generation at about ₹26 to ₹31 per unit in fuel alone (₹95.20 to ₹99.82 per litre in the four metros on 14 October 2026, divided by 3.2 to 3.6 units per litre) by a wide margin. Our [solar vs diesel generator](/blog/solar-vs-diesel-generator-india/) analysis shows the numbers.
 
-One more nuance on timing. Solar generates between roughly 9 AM and 5 PM, so group captive directly replaces your daytime grid draw. Under time-of-day tariffs, the units solar displaces are often the most expensive peak and morning-slot units. That pushes the effective saving above the blended tariff in the table. Ask your developer to model savings against your actual 15-minute load curve, not your annual average. The gap between an average-based model and an interval-data model is often 10% to 15% of claimed savings, in either direction.
+One more nuance on timing. Solar generates between roughly 9 AM and 5 PM, so group captive directly replaces your daytime grid draw. Under time-of-day tariffs, the units solar displaces are often the most expensive peak and morning-slot units. That pushes the effective saving above the blended tariff in the table. Ask your developer to model savings against your actual 15-minute load curve, not your annual average.
 
 ## Savings Math: A Worked MSME Example
 
@@ -149,7 +149,7 @@ Table: Worked MSME example, 400 kVA HT connection in Gujarat (hypothetical input
 
 Solar captive plant capex runs ₹3.5 to ₹4.5 crore per MW in 2026. Capital recovery runs 4 to 6 years across typical captive structures, according to [NST Solar's captive power market guide](https://nstsolarwind.com/solar-financing/captive-power-generation-market-in-india-2026-market-size-roi-executive-implementation-guide/), 2026. The 4.6 year figure on the full proportional capex falls inside that range. The 1.4 year figure on the equity cheque is shorter only because debt funds the other 70% of the plant and the PPA tariff services that debt, so do not read it as a return on all capital, and remember the equity is locked in for years and carries exit risk.
 
-Three sensitivities matter more than anything else in this model. First, the fraction of your load that solar can actually cover, because solar generates only in daylight. A cold storage running 24 hours covers 60% to 70% of consumption. A single-shift factory covers more. Our [Rajkot cold storage case study](/blog/case-study-rajkot-cold-storage/) shows how a real round-the-clock load behaves. Second, grid tariff escalation in your state, because every hike widens your saving. Third, the PPA escalation clause. A 3% annual escalation lifts the PPA tariff from ₹3.90 to about ₹5.90 by year 15 (₹3.90 × 1.03^14), so the landed cost rises from ₹5.00 to ₹7.00. Against a flat ₹8.60 grid tariff, the saving per unit shrinks from ₹3.60 to ₹1.60, which is more than half, unless grid tariffs rise too. Flat or low-escalation PPAs are worth paying a slightly higher starting tariff for.
+Three sensitivities matter more than anything else in this model. First, the fraction of your load that solar can actually cover, because solar generates only in daylight. A cold storage running 24 hours may cover a lower share, as the daylight-only generation does not match a flat load. A single-shift factory covers more. Our [Rajkot cold storage case study](/blog/case-study-rajkot-cold-storage/) shows how a real round-the-clock load behaves. Second, grid tariff escalation in your state, because every hike widens your saving. Third, the PPA escalation clause. A 3% annual escalation lifts the PPA tariff from ₹3.90 to about ₹5.90 by year 15 (₹3.90 × 1.03^14), so the landed cost rises from ₹5.00 to ₹7.00. Against a flat ₹8.60 grid tariff, the saving per unit shrinks from ₹3.60 to ₹1.60, which is more than half, unless grid tariffs rise too. Flat or low-escalation PPAs are worth paying a slightly higher starting tariff for.
 
 For a deeper treatment, our [solar IRR and payback guide for C&I buyers](/blog/solar-irr-payback-ci-india/) shows how to compute project IRR on exactly these inputs. The [LCOE guide for India](/blog/lcoe-solar-india/) explains the per-unit cost logic developers use to price the PPA.
 
@@ -178,7 +178,7 @@ When a developer pitches you a slot in a group captive project, run this checkli
 
 **Generation risk sits with you.** As a shareholder, monsoon-year underperformance is partly your problem, not just the developer's. Check whether the agreement guarantees minimum generation or merely estimates it.
 
-**Regulatory risk cuts both ways.** States have periodically proposed removing or capping the captive CSS exemption. Nothing on the horizon removes it in 2026. But a 25-year PPA will outlive several tariff orders. Price that uncertainty honestly. Even if the exemption halves in year 10, the deal usually still beats grid power.
+**Regulatory risk cuts both ways.** States have periodically proposed removing or capping the captive CSS exemption. A 25-year PPA will outlive several tariff orders, so check your state commission's current orders and price that uncertainty honestly by re-running the landed-cost table with a lower exemption.
 
 The exception worth noting: some states currently waive CSS on renewable third-party PPAs. There the group captive premium shrinks to the additional surcharge and the tariff discount. In that narrow case, zero-investment third-party PPA can be the better deal until the waiver expires.
 
@@ -187,7 +187,7 @@ The exception worth noting: some states currently waive CSS on renewable third-p
 Answer five questions honestly.
 
 > [!CHECKLIST] Five fit-test questions
-> - Is your contract demand 100 kW or more? Below that, most states will not grant open access at all.
+> - Is your contract demand 100 kW or more? Below that, open access is generally not available under the green energy open access rules.
 > - Do you spend more than ₹3 lakh a month on grid power? Below that, the legal and administrative overhead eats the saving.
 > - Can you commit ₹30 lakh to ₹80 lakh of equity for 5 or more years? If not, look at RESCO or third-party PPA instead.
 > - Is your consumption stable and mostly in daylight hours? Volatile or night-heavy loads weaken both compliance and savings.

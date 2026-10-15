@@ -262,7 +262,7 @@ Table: BMS levels and approximate cost as a share of pack BOM
 
 Indian LFP storage packs from Pylon Tech, BYD, Goodwe Storage, Sungrow, Inverted Energy and Loom Solar all include integrated BMS with CAN communication.
 
-IS 16893 references BMS requirements aligned with IEC 62619.
+For stationary batteries, check which BMS and safety requirements the exact model is tested to (for example IEC 62619) and the Indian registration route claimed; IS 16893 is an EV propulsion cell standard, not the stationary-storage standard.
 
 Hybrid inverter brands maintain compatibility lists indicating tested BMS-inverter combinations.
 
@@ -278,7 +278,7 @@ Table: Standards relevant to battery management systems
 | IEC 62133 | Portable lithium cells safety |
 | UL 1973 | Stationary battery safety |
 | ISO 26262 | Functional safety for automotive |
-| IS 16893 | Indian stationary storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | AIS 156 / 038 | Indian EV battery safety |
 
 ## Common mistakes
@@ -315,7 +315,7 @@ For how BMS plays out in real projects, these guides go deeper:
 - IEC 62619:2017, Safety requirements for secondary lithium cells.
 - IEC 62133, Portable lithium cells safety.
 - UL 1973, Stationary battery safety.
-- IS 16893, Indian Standard for stationary battery storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - AIS 156, AIS 038, Indian EV battery safety.
 - Plett G. L., Battery Management Systems, Volume II, Artech House.
 - Manufacturer BMS documentation from Pylon Tech, BYD, Goodwe, Sungrow, Solis.

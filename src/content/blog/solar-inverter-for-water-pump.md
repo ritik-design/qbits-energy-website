@@ -28,9 +28,9 @@ faqs:
   - q: "Which KUSUM component applies to a farmer who already has a grid-connected pump?"
     a: "KUSUM Component-C applies to farmers with existing grid-connected agricultural pump connections. Under Component-C, solar panels are installed on the farm and connected to the existing pump feeder or a dedicated agricultural feeder. The solar generation powers the pump during daylight and surplus units are exported to the DISCOM at a state feed-in tariff. This differs from Component-B, which replaces diesel or manual pumps entirely with standalone solar systems. A grid-connected inverter compliant with DISCOM net-metering or gross-metering rules is required for Component-C setups."
   - q: "How many solar panels are needed for a 2 HP submersible pump?"
-    a: "A 2 HP submersible pump motor draws approximately 1.49 kW shaft power, or about 1.86 kW input power at 80% motor efficiency. To run it for 6–8 peak sun hours per day, you need a solar array of at least 2.2 to 2.5 kWp, accounting for cable losses and panel temperature derating in Indian summer conditions (typically 15–20% loss at 45 °C ambient). In practice, MNRE-approved solar pump packages for 2 HP standalone systems use 2 to 3 kWp panel arrays paired with a pump controller rated at 2.2 kW output."
+    a: "A 2 HP submersible pump motor draws approximately 1.49 kW shaft power, or about 1.86 kW input power at 80% motor efficiency. To run it for 8 hours a day at 5 peak sun hours, the formula in this guide gives an array of about 3.7 kWp (1.86 kW × 8 h = 14.9 kWh a day, divided by 5.0 × 0.80). Standalone pump packages sold under programme tenders are specified differently (the pump may run only while the sun is up, and the daily water volume may be lower), so read the array size and controller rating in the package specification rather than assuming the formula figure."
   - q: "What is the KUSUM scheme subsidy amount for a 5 HP solar pump?"
-    a: "Under KUSUM Component-B, the central government subsidy is 30% of the benchmark cost set by MNRE. For a 5 HP solar pump, MNRE benchmark costs are in the range of ₹2.5 to ₹3.5 lakh depending on pump type (surface or submersible) and state. Central subsidy covers ₹75,000 to ₹1.05 lakh; the state matches this with another 30%. The farmer's net cash outflow is 10% upfront (₹25,000 to ₹35,000) plus loan repayments on 30% over 5–7 years. Actual state-level benchmark costs vary - always verify with the state nodal agency before applying."
+    a: "Under KUSUM Component-B, the central government subsidy is 30% of the benchmark cost set by MNRE. The benchmark cost depends on pump type (surface or submersible), HP and state, so ask the state nodal agency for the current figure. The central subsidy is 30% of that benchmark and the state matches it with another 30% where the state scheme applies, so the farmer's share is 10% upfront plus a loan on the remaining 30%. For example, on an assumed benchmark of ₹3 lakh, the central subsidy would be ₹90,000 (30% × ₹3,00,000). Always verify the benchmark with the state nodal agency before applying."
   - q: "Can a Qbits on-grid inverter power a grid-connected agricultural pump under KUSUM Component-C?"
     a: "Possibly, but it is not something to assume. Qbits publishes grid-tied on-grid and hybrid inverters, not a standalone solar-pump controller, so its range does not fit Component-B pumps. For Component-C, the state implementing agency and the DISCOM set the approved equipment and the package conditions, and Qbits' public documents do not state eligibility for the scheme. Ask the implementing agency for its current equipment requirements, and ask the seller for the exact inverter model's datasheet and current certificates before you commit."
   - q: "What size solar inverter do I need for a 5 HP agricultural pump on a grid-connected setup?"
@@ -48,11 +48,11 @@ This guide explains the difference between a solar pump controller and a grid-ti
 > [!KEYTAKEAWAYS]
 > - Pump motors draw 5–7× their rated current at start-up, so a plain UPS-style inverter without VFD control will trip repeatedly; a dedicated pump controller or an oversized on-grid inverter is required.
 > - Use the Pump Sizing Triangle: convert HP to kW (×0.746), divide by motor efficiency (÷0.80), then multiply by 1.5–2.0 for inrush headroom.
-> - Standalone off-grid pumps (KUSUM Component-B) need a dedicated solar pump controller with VFD and get 60% total subsidy; grid-connected pumps ([KUSUM Component-C](https://www.heavengreenenergy.com/blog/kusum-component-c-grid-tied-pump)) need a standard on-grid inverter and no DISCOM approval is skipped.
-> - A 2 HP submersible pump needs roughly 2.2–2.5 kWp of panels; a 5 HP pump needs 4.5–5.5 kWp.
+> - Standalone off-grid pumps (KUSUM Component-B) need a dedicated solar pump controller with VFD and receive central assistance of 30% of the benchmark cost (state share varies); grid-connected pumps ([KUSUM Component-C](https://www.heavengreenenergy.com/blog/kusum-component-c-grid-tied-pump)) need a standard on-grid inverter and no DISCOM approval is skipped.
+> - A 2 HP pump running 8 hours a day needs about 3.7 kWp by the formula in this guide (for 5.0 peak sun hours); programme packages are specified separately, so read the package specification.
 > - Qbits publishes grid-tied on-grid and hybrid inverter families. Its public documents do not describe a standalone Component-B pump controller or state eligibility for Component-C.
 
-> **Direct answer.** A solar inverter for a water pump must be sized for inrush current, motors draw 5–7× their rated current at start-up. Use the Pump Sizing Triangle: (1) convert HP to kW (×0.746), (2) divide by motor efficiency (÷0.80), (3) multiply by 1.5 for inrush headroom. For standalone off-grid pumps, choose a dedicated solar pump controller with VFD; for grid-connected pumps under KUSUM Component-C, a standard on-grid inverter sized to the solar array is correct. KUSUM Component-B subsidises standalone solar pumps at 60% total subsidy for 0.5–7.5 HP systems.
+> **Direct answer.** A solar inverter for a water pump must be sized for inrush current, motors draw 5–7× their rated current at start-up. Use the Pump Sizing Triangle: (1) convert HP to kW (×0.746), (2) divide by motor efficiency (÷0.80), (3) multiply by 1.5 for inrush headroom. For standalone off-grid pumps, choose a dedicated solar pump controller with VFD; for grid-connected pumps under KUSUM Component-C, a standard on-grid inverter sized to the solar array is correct. KUSUM Component-B supports standalone solar pumps with central financial assistance of 30% of the benchmark cost (50% in special category states, per the MNRE PM-KUSUM page, read 14 October 2026), with any state share set by the state.
 
 > [!IMPORTANT] Controller or inverter: decide this first
 > The distinction between a solar pump controller and a solar inverter is the most important technical point in this guide, and it is also the most frequently confused.
@@ -118,7 +118,7 @@ Table: Pump Sizing Triangle results by pump rating, for a VFD controller and for
 
 > **30 lakh.** The number of diesel-powered agricultural pumps MNRE has targeted for solarisation under PM-KUSUM by 2026 across all three components. Replacing diesel pumps with solar eliminates an estimated 3 to 5 tonnes of CO₂ per pump per year and saves farmers ₹40,000–₹80,000 annually in fuel costs. *Source - [MNRE PM-KUSUM Programme](https://mnre.gov.in/), 2026.*
 
-India's agricultural sector consumes roughly 18% of total national electricity, with pump irrigation forming the single largest share of that demand. According to the [International Energy Agency's India Energy Outlook](https://www.iea.org/reports/india-energy-outlook-2021), agricultural pumping accounts for over 35% of all electricity subsidies the Indian government provides to state DISCOMs. Shifting this load to solar is therefore both an environmental and a fiscal priority, which explains why KUSUM is one of the most generously funded rural energy programmes in the world.
+Pump irrigation is a large agricultural electricity load that many state DISCOMs subsidise, so shifting it to solar is both an environmental and a fiscal priority, which is part of the reason the KUSUM programme exists.
 
 ## KUSUM Scheme: Which Component Applies to Your Pump
 
@@ -182,25 +182,7 @@ For a conservative sizing exercise, use 4.5 peak sun hours and include a 20% sys
 > Applied to a 2 HP pump running 8 hours in Maharashtra (5.0 PSH):
 > Array = 14.9 ÷ (5.0 × 0.80) = 14.9 ÷ 4.0 = **3.73 kWp**
 
-In practice, MNRE-approved Component-B packages use:
-- **1 HP pump**: 1.2 to 1.6 kWp panel array
-- **2 HP pump**: 2.0 to 2.5 kWp panel array
-- **3 HP pump**: 2.7 to 3.5 kWp panel array
-- **5 HP pump**: 4.5 to 5.5 kWp panel array
-
-```chart
-type: hbar
-title: Typical panel array size for MNRE-approved Component-B pump packages
-unit: "kWp"
-source: "Package array sizes as stated in this article for MNRE-approved KUSUM Component-B pump systems (MNRE KUSUM programme, 2026); not a design calculation"
-note: "Ranges, not single values. The array-sizing formula above gives larger figures when a pump runs a full 8 hours."
-decimals: 1
-data:
-  - { label: "1 HP pump", min: 1.2, max: 1.6 }
-  - { label: "2 HP pump", min: 2.0, max: 2.5 }
-  - { label: "3 HP pump", min: 2.7, max: 3.5 }
-  - { label: "5 HP pump", min: 4.5, max: 5.5 }
-```
+Programme packages are specified in the relevant MNRE or state tender documents, and their array sizes can differ from the formula figure above because pump type, daily water volume and running hours differ. Ask the supplier for the array size, controller rating and daily water output in writing, and compare them with the formula result for your own duty.
 
 For Component-C (grid-tied), the array is sized not to run the pump directly but to offset monthly electricity consumption from the DISCOM. A 5 HP pump consuming 900–1,100 kWh per month would ideally have a 5–7 kWp grid-tied solar system to offset 50–70% of those units, depending on state tariff and feed-in rate.
 
@@ -239,7 +221,7 @@ Table: Pros and cons of standalone, grid-connected and hybrid solar for agricult
 
 | | Pros | Cons |
 | --- | --- | --- |
-| **Standalone Solar Pump (off-grid, Component-B)** | ✓ No DISCOM approval needed ✓ 60% subsidy under KUSUM ✓ Eliminates diesel cost entirely ✓ No monthly electricity bill | ✗ Pump runs only when sun shines ✗ Cannot pump at night or in monsoon cloud cover ✗ [Battery storage](https://surgepv.com/hub/energy-storage/battery-sizing/) adds ₹1.5–3 lakh extra |
+| **Standalone Solar Pump (off-grid, Component-B)** | ✓ No DISCOM approval needed ✓ KUSUM central assistance (30%, state share varies) ✓ Eliminates diesel cost entirely ✓ No monthly electricity bill | ✗ Pump runs only when sun shines ✗ Cannot pump at night or in monsoon cloud cover ✗ [Battery storage](https://surgepv.com/hub/energy-storage/battery-sizing/) adds ₹1.5–3 lakh extra |
 | **Grid-Connected Solar (on-grid, Component-C)** | ✓ Pump runs on grid any time ✓ Solar offsets electricity bill ✓ Surplus power earns feed-in income ✓ Higher pump reliability | ✗ Requires stable grid feeder ✗ DISCOM net metering approval required ✗ Lower subsidy compared to Component-B |
 | **Hybrid (solar + battery + grid)** | ✓ Runs pump at night from battery ✓ Grid backup ensures continuity ✓ Maximum energy independence | ✗ Highest capital cost ✗ Battery replacement every 8–12 years ✗ Complex installation |
 
@@ -313,4 +295,4 @@ The final hurdle for most farmers and small EPC contractors on solar pump projec
 
 Read [inverter maintenance best practices for India](/blog/inverter-maintenance-india/) to understand the annual maintenance schedule that applies equally to pump controllers and grid-tied inverters.
 
-The solar pump market in India is large, growing, and supported by one of the most generous agricultural solar subsidy programmes in the world. With KUSUM, PM-KUSUM, and state-level scheme enhancements, a farmer who commits to the application process can install a solar pump system at 10% of its sticker price. The technology is proven, India has commissioned over 3.5 lakh solar pumps under KUSUM as of early 2026, according to [MNRE's KUSUM progress reports](https://mnre.gov.in/). IRENA's 2023 report on [Renewable Power Generation Costs](https://www.irena.org/publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023) confirms that solar PV system costs have fallen over 90% in the past decade, making agricultural solar economically unambiguous for farmers. The key is choosing the right product for the right topology, sizing it correctly with the Pump Sizing Triangle, and following the DISCOM and state nodal agency approval process from the start.
+Solar pumps are supported by the PM-KUSUM programme and by state-level schemes. A farmer who commits to the application process can reduce the upfront share substantially (central assistance of 30% of the benchmark cost, plus any state share, per the MNRE PM-KUSUM page), and the technology is proven. The key is choosing the right product for the right topology, sizing it correctly with the Pump Sizing Triangle, and following the DISCOM and state nodal agency approval process from the start.

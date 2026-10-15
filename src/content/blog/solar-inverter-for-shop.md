@@ -85,8 +85,6 @@ data:
 
 The numbers above are peak simultaneous loads, what the shop draws when everything is running at the same time. Your inverter must handle this peak without tripping, but your daily energy consumption is far lower because not all loads run all day. A kirana store running 10 hours daily at an average draw of 600 W consumes 6 kWh/day. At ₹9/unit commercial tariff, that is ₹54/day or ₹1,620/month, on top of fixed DISCOM charges and demand charges that can add another ₹3,000–₹8,000 monthly.
 
-According to [Mercom India](https://www.mercomindia.com/), commercial and industrial consumers account for over 46% of India's electricity consumption despite being a minority of the metered connections, a direct consequence of the elevated tariff structure that cross-subsidises residential supply.
-
 ## Right Inverter Size for a Small Shop: The 1.5–5 kW Range
 
 The [solar inverter sizing](/blog/solar-inverter-sizing/) decision for a small shop has three inputs: peak load, daily energy generation target, and roof area available. Most single-phase shop connections in India carry a sanctioned load of 3–10 kW, which sets the ceiling on your solar system size under most state net metering regulations.
@@ -137,7 +135,7 @@ The process for a commercial net metering connection in India involves these ste
 
 Under net metering, your DISCOM bill converts to a net-unit bill: units consumed from the grid minus units exported to the grid, multiplied by the commercial tariff. On high-generation days (summer, monsoon rains absent), you may export more than you consume, earning a credit that rolls over to the next billing cycle.
 
-According to the [Central Electricity Regulatory Commission's net metering framework](https://www.cercind.gov.in/), commercial and industrial consumers are permitted to install rooftop solar up to their sanctioned load capacity under net metering, with surplus credits carried forward for up to 12 months.
+Under state net metering rules, commercial consumers can usually install rooftop solar up to their sanctioned load, and how surplus credits are carried forward differs by state, so check your SERC's current order (see the [net metering guide](/blog/net-metering-india-complete-guide/)).
 
 ## GST Input Tax Credit on Solar: The Benefit Residential Buyers Cannot Access
 
@@ -201,7 +199,7 @@ Market environments subject inverters to conditions that a laboratory test envir
 
 An IP65 inverter protects against dust (first digit: 6) and against low-pressure water jets (second digit: 5). An [IP66 inverter](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) adds protection against high-pressure, high-volume water jets from any direction, a meaningful difference when a neighbour's pressure washer sends a spray across your wall.
 
-The IP65 versus IP66 distinction may seem minor, but field data from inverter service teams consistently shows that board-level corrosion from moisture ingress is the leading cause of inverter failure in Tier-2 and Tier-3 market installations. Replacing a circuit board costs ₹8,000–₹15,000 and requires 3–7 days of system downtime, during which your shop absorbs full commercial tariff again. An IP66 inverter typically adds ₹2,000–₹5,000 to the purchase price but eliminates this recurring expense.
+The IP65 versus IP66 distinction may seem minor, but moisture and dust ingress can damage the circuit board of an inverter in a dusty, splash-prone market lane, and while the inverter is down your shop pays the full commercial tariff again. Ask each seller for the price difference between the IP65 and IP66 version of the same model, and weigh it against the repair and downtime risk.
 
 ## On-Grid vs. Hybrid Inverter for a Shop: The Decision Matrix
 
@@ -211,11 +209,11 @@ Table: On-grid versus hybrid inverter for a shop, compared on cost, outage behav
 
 | | On-Grid Inverter | Hybrid Inverter |
 | --- | --- | --- |
-| **Upfront cost (3 kW)** | ₹1.2–1.5 Lakh | ₹2.0–2.5 Lakh (inverter alone) |
-| **Battery additional cost** | Not applicable | ₹60,000–₹1.2 Lakh (10 kWh LFP) |
+| **Inverter cost (dated listings, 14 Oct 2026)** | Deye 5 kW on-grid: ₹37,999 | Deye 5 kW hybrid: ₹1,35,888 |
+| **Battery additional cost** | Not applicable | Extra: Deye SE-F5 PLUS 5.12 kWh listed at ₹1,23,000 |
 | **Power during outage** | No - shuts down | Yes - critical loads stay live |
 | **Net metering compatible** | Yes | Yes (most states) |
-| **Payback period** | 2–4 years | 5–7 years (with battery) |
+| **Payback period** | Shorter (no battery) | Longer (battery adds cost) |
 | **Best for** | Areas with ≤ 1 hr/day outage | Areas with 2+ hrs/day outage |
 | **GST ITC claimable** | Yes | Yes |
 

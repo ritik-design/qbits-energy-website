@@ -16,7 +16,7 @@ keywords:
   - pm surya ghar how to apply
 faqs:
   - q: "How long does the PM Surya Ghar approval process take from application to subsidy?"
-    a: "The end-to-end timeline is typically 45 to 90 days. DISCOM feasibility approval takes 2 to 7 working days. After installation, the inspection and net meter installation take 7 to 21 days. Subsidy is credited to your bank account within 15 to 30 days of submitting the commissioning certificate. Delays most often occur at the DISCOM inspection stage, particularly in high-demand states such as Rajasthan, Maharashtra, and Gujarat."
+    a: "No single national end-to-end timeline is published: DISCOM feasibility approval, inspection and net meter installation depend on your DISCOM and state. Subsidy credit is commonly reported as about 30 days after the commissioning report and bank details are submitted on the portal (secondary reports; confirm on pmsuryaghar.gov.in). Delays most often occur at the DISCOM inspection stage, so ask your DISCOM and installer for the current timeline in writing."
   - q: "Can a tenant or renter apply for the PM Surya Ghar scheme?"
     a: "Yes, renters can apply, but they require a No Objection Certificate (NOC) from the property owner along with the landlord's identity proof. The NOC must confirm the landlord's consent for rooftop solar installation and must be submitted as part of the application. The subsidy amount, however, is credited to the applicant's own bank account, not the landlord's. DISCOM policies on renter applications vary by state, so it is advisable to confirm locally before proceeding."
   - q: "Can residents in apartments or multi-storey buildings apply for PM Surya Ghar?"
@@ -30,7 +30,7 @@ faqs:
   - q: "What is the subsidy amount under PM Surya Ghar in 2026?"
     a: "The central government subsidy is ₹30,000 for a 1 kW system, ₹60,000 for 2 kW, and ₹78,000 for 3 kW or above. Systems above 3 kW receive the same flat cap of ₹78,000 as central subsidy. Several states offer an additional state-level subsidy on top of this. The subsidy is paid directly to your bank account via NACH after the DISCOM verifies the commissioning certificate. It is not deducted upfront from the installation cost."
   - q: "What happens if I miss submitting the commissioning certificate within the deadline?"
-    a: "MNRE and the portal set timelines for commissioning after feasibility approval. If you exceed the permitted window (typically 90 to 180 days depending on state), your application may lapse and you may need to reapply. The portal sends reminder notifications via SMS and email. If genuine delays occur - for example, due to equipment availability or monsoon-related installation delays - contact your DISCOM with a written explanation. Keeping your installer informed and maintaining documentation of delays protects your eligibility."
+    a: "MNRE and the portal set timelines for commissioning after feasibility approval. If you exceed the permitted window (set by the state and the portal), your application may lapse and you may need to reapply. The portal sends reminder notifications via SMS and email. If genuine delays occur - for example, due to equipment availability or monsoon-related installation delays - contact your DISCOM with a written explanation. Keeping your installer informed and maintaining documentation of delays protects your eligibility."
   - q: "Is a property tax receipt mandatory for all PM Surya Ghar applications?"
     a: "A property tax receipt is not universally mandatory but is required by certain DISCOMs as proof of property ownership, particularly in urban municipal areas. Where required, the receipt should be the most recent year's document. Applicants in areas where property tax is not collected (rural gram panchayat areas) typically substitute this with a panchayat certificate or land record. Always check your specific DISCOM's document list on the portal before submitting."
 ---
@@ -39,16 +39,16 @@ faqs:
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-Every month, more than 45,000 Indian households search for how to apply for [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) online, and a significant number of them abandon the process midway because of confusing portal instructions, unclear document requirements, or unexpected DISCOM rejections. The scheme is genuinely generous: up to ₹78,000 in central subsidy, paid directly to the applicant's bank account, for a rooftop solar system that eliminates or sharply reduces the monthly electricity bill. The application, however, has eight distinct stages that must be completed in sequence, each with its own set of requirements.
+Many Indian households search for how to apply for [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) online, and a significant number of them abandon the process midway because of confusing portal instructions, unclear document requirements, or unexpected DISCOM rejections. The scheme is genuinely generous: up to ₹78,000 in central subsidy, paid directly to the applicant's bank account, for a rooftop solar system that eliminates or sharply reduces the monthly electricity bill. The application, however, has eight distinct stages that must be completed in sequence, each with its own set of requirements.
 
 This guide walks through every stage of the [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-application-mistakes) [application process](https://quickestimate.co/blog/pm-surya-ghar-application-process) on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in) (from initial registration to subsidy credit) with the complete document checklist, a stage-by-stage timeline table, and the most common rejection reasons along with specific steps to avoid them.
 
-> **Direct answer.** To apply for PM Surya Ghar online, register on pmsuryaghar.gov.in with your Aadhaar-linked mobile number and electricity consumer number, submit rooftop details for DISCOM feasibility approval (2–7 working days), choose an ALMM-listed empanelled installer, complete the installation, pass DISCOM inspection with net meter installation, upload the commissioning certificate, and receive the subsidy (up to ₹78,000) directly in your bank account within 15–30 days.
+> **Direct answer.** To apply for PM Surya Ghar online, register on pmsuryaghar.gov.in with your Aadhaar-linked mobile number and electricity consumer number, submit rooftop details for DISCOM feasibility approval, choose an ALMM-listed empanelled installer, complete the installation, pass DISCOM inspection with net meter installation, upload the commissioning certificate, and receive the subsidy (up to ₹78,000) directly in your bank account, commonly reported as about 30 days after commissioning.
 
 > [!KEYTAKEAWAYS]
 > - The application runs through 8 sequential steps on pmsuryaghar.gov.in, from Aadhaar-based registration through DISCOM feasibility, installer selection, installation, inspection, and subsidy credit.
 > - Central subsidy is ₹30,000 for 1 kW, ₹60,000 for 2 kW, and ₹78,000 for 3 kW or above, credited via NACH after DISCOM verification.
-> - End-to-end timeline is typically 30 to 90 days, with DISCOM inspection (Step 6) as the most variable stage.
+> - There is no fixed national end-to-end timeline; DISCOM inspection (Step 6) is the most variable stage, so ask for the current timeline in writing.
 > - Renters can apply with a landlord NOC, but the subsidy is credited to the applicant's own bank account, not the landlord's.
 > - Applications most often fail at three checkpoints: portal submission (document quality, consumer number mismatch), DISCOM feasibility review (network capacity), and DISCOM inspection (non-ALMM equipment, SLD mismatch).
 
@@ -138,7 +138,7 @@ This is the full eight-step PM Surya Ghar application process as structured on p
 
 7. **Submit the commissioning certificate online**: Once the net meter is installed and the system is live, your installer provides a commissioning certificate on their company letterhead. Log in to the portal and upload this certificate along with the DISCOM's net meter installation confirmation. This is the trigger event for subsidy processing.
 
-8. **Subsidy credited to bank account via NACH**: After the DISCOM marks the application as complete on the backend, MNRE processes the subsidy amount and transfers it directly to the bank account you registered in Step 2. This takes 15 to 30 days from commissioning certificate submission under normal processing timelines.
+8. **Subsidy credited to bank account via NACH**: After the DISCOM marks the application as complete on the backend, MNRE processes the subsidy amount and transfers it directly to the bank account you registered in Step 2. This is commonly reported as taking about 30 days from commissioning certificate submission (secondary reports; confirm on the portal).
 
 > [!IMPORTANT] Installer is locked after Step 4
 > Each step must be completed in the above sequence. The portal does not allow skipping stages, and the system locks out installer changes after Step 4 is confirmed.
@@ -148,22 +148,21 @@ This is the full eight-step PM Surya Ghar application process as structured on p
 Planning the PM Surya Ghar timeline helps homeowners manage cash flow, since they pay the installer upfront and receive the subsidy later.
 
 > [!TIP] Keep cash for the full wait
-> You pay the installer the full cost first. The subsidy follows 15 to 30 days after the commissioning certificate is submitted, and the whole journey from application to subsidy is typically 30 to 90 days, so plan your cash for the long end.
+> You pay the installer the full cost first. The subsidy is commonly reported to follow about 30 days after the commissioning certificate and bank details are submitted (secondary reports; confirm on the portal), and the DISCOM stages vary, so plan your cash for a long wait.
 
-Table: Typical duration of each PM Surya Ghar stage, from registration to subsidy credit
+Table: Who acts at each PM Surya Ghar stage and what to confirm (no fixed national durations are published)
 
-| Stage | Action | Typical Duration |
+| Stage | Action | What to confirm |
 | --- | --- | --- |
-| Step 1–2 | Registration and application submission | 1 day |
-| Step 3 | DISCOM feasibility approval | 2–7 working days |
-| Step 4 | Installer selection and work order | 3–7 days |
-| Step 5 | Solar system installation | 1–3 days |
-| Step 6 | DISCOM inspection + net meter installation | 7–21 days |
-| Step 7 | Commissioning certificate upload | 1 day |
-| Step 8 | Subsidy credit to bank account | 15–30 days |
-| **Total end-to-end** | **Application to subsidy received** | **30–90 days** |
+| Step 1–2 | Registration and application submission | Aadhaar-linked mobile and consumer number match |
+| Step 3 | DISCOM feasibility approval | Approval status on the portal; ask the DISCOM for its current time |
+| Step 4 | Installer selection and work order | Installer is empanelled; modules are on the ALMM list |
+| Step 5 | Solar system installation | Installation finishes inside the commissioning window set for your state |
+| Step 6 | DISCOM inspection + net meter installation | Inspection date; DISCOM timeline varies and is the most variable stage |
+| Step 7 | Commissioning certificate upload | Certificate generated on the portal |
+| Step 8 | Subsidy credit to bank account | Commonly reported as about 30 days after commissioning (secondary reports; confirm on the portal) |
 
-The most variable stage is Step 6 (DISCOM inspection). In states with high application volumes, Gujarat, Rajasthan, and Maharashtra have collectively accounted for a disproportionate share of PM Surya Ghar applications according to [Mercom India's programme tracking](https://www.mercomindia.com/), inspection queues can stretch the timeline considerably. Applicants in these states should submit the commissioning certificate as soon as possible after the net meter is installed to avoid further delays.
+The most variable stage is Step 6 (DISCOM inspection). In states with high application volumes, inspection queues can stretch the timeline. Applicants in these states should submit the commissioning certificate as soon as possible after the net meter is installed to avoid further delays.
 
 ## ALMM and inverter compliance are separate checks
 
@@ -206,7 +205,7 @@ For most 3 kW residential systems in India receiving 4 to 5 peak sun hours per d
 
 > **1 crore households.** The Government of India's target for PM Surya Ghar Muft Bijli Yojana by 2027, representing the world's largest residential rooftop solar subsidy programme by number of beneficiaries. *Source - [MNRE Scheme Notification](https://mnre.gov.in/), 2024.*
 
-According to analysis by [JMK Research](https://jmkresearch.com/), rooftop solar uptake under PM Surya Ghar has accelerated substantially in the 2025–26 period, with applications growing faster than DISCOM processing capacity in several high-demand states. This makes early application and complete documentation even more important, the queue is long and incomplete applications return to the back of the line.
+Early application and complete documentation matter: an incomplete application can be returned and may lose its place in the DISCOM's queue.
 
 ## After Subsidy: Monitoring, Maintenance, and Warranty
 
@@ -247,6 +246,6 @@ Three pages worth reviewing before finalising your installer and equipment:
 
 ## PM Surya Ghar Progress and What It Means for Applicants in 2026
 
-The scheme has moved significantly faster than initial projections. Analysis by [Bridge to India](https://bridgetoindia.com/) noted that PM Surya Ghar crossed several million applications in its first year, with DISCOM infrastructure in high-uptake states coming under strain. This has a practical implication: DISCOM processing times are longer in 2026 than they were in 2024, and applicants should factor 60 to 90 days rather than 45 days as a realistic end-to-end timeline in states with high application density.
+Processing times vary by DISCOM and state, and no single national figure is published, so ask your DISCOM or vendor for the current inspection and commissioning timeline in writing and plan with a buffer.
 
 The scheme's budget allocation, MNRE's empanelment of new installers, and state government co-funding arrangements are all evolving. Checking the [PM Surya Ghar portal](https://pmsuryaghar.gov.in) for the latest circulars and your state's current DISCOM processing time estimates is advisable before finalising your application date. States such as Uttar Pradesh, Madhya Pradesh, and Odisha have expanded installer empanelment significantly in 2025–26, improving processing capacity.

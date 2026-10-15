@@ -17,7 +17,7 @@ quickFacts:
   industry: "Battery Storage Engineering"
   primaryUse: "Battery sizing and lifecycle planning"
   commonUsers: "EPCs, EMS designers, customers, manufacturers"
-  relevantStandards: "IEC 61960, IEC 62619, IS 16893"
+  relevantStandards: "IEC 61960, IEC 62619"
   relatedTechnologies: "BMS, LFP, NMC, lead acid"
 relatedTerms:
   - { slug: "battery-soc", term: "Battery SOC" }
@@ -261,7 +261,7 @@ Table: Standards that apply to battery cells, storage and DOD warranty terms
 |---|---|
 | IEC 61960 | Performance of secondary lithium cells |
 | IEC 62619 | Safety of secondary lithium cells |
-| IS 16893 | Indian stationary battery storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | IEEE 1188 | VRLA maintenance |
 | Manufacturer warranty documents | Cycle count at specified DOD |
 
@@ -296,7 +296,7 @@ For how Battery DOD plays out in real projects, these guides go deeper:
 
 - IEC 61960:2017, Performance requirements for secondary lithium cells.
 - IEC 62619:2017, Safety requirements for secondary lithium cells.
-- IS 16893, Indian Standard for stationary battery storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - Manufacturer warranty documents from Pylon Tech, BYD, Goodwe, Sungrow, Solis, Tata Green.
 - Plett G. L., Battery Management Systems, Volume I and II, Artech House.
 - Reddy T. B., Linden's Handbook of Batteries, McGraw-Hill.

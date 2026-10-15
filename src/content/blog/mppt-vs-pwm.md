@@ -1,6 +1,6 @@
 ---
 title: "MPPT vs PWM Charge Controller Comparison"
-excerpt: "MPPT vs PWM: MPPT charge controllers extract 10–30% more energy from the same panels by tracking the maximum power point. Learn when PWM still makes sense and when MPPT is mandatory."
+excerpt: "MPPT vs PWM: on a modern panel charging a 12 V battery, an MPPT controller can harvest about 2 to 2.5 times the energy of a PWM controller; on a legacy 36-cell panel the gap is about 17%. Learn when PWM still makes sense and when MPPT is mandatory."
 description: "Compare MPPT vs PWM charge controllers: how each works, energy loss in PWM systems, a worked 300W example, and when to choose MPPT for off-grid solar."
 category: "Comparison"
 date: 2026-06-05
@@ -16,17 +16,17 @@ keywords:
   - mppt vs pwm efficiency
 faqs:
   - q: "What is MPPT in a solar inverter?"
-    a: "MPPT stands for Maximum Power Point Tracking. It is an algorithm - paired with a DC-DC converter - built into every modern solar inverter and charge controller. MPPT continuously adjusts the operating voltage of the PV array to find the point where panels produce the most power at any given moment. As sunlight, temperature, and shading change, the maximum power point moves, and MPPT chases it in real time, typically recovering 15 to 30 percent more energy than a fixed-voltage or PWM controller when the panel is close to battery voltage, and more than double on a modern 60-cell or 72-cell panel charging a 12 V battery (see the table in this article)."
+    a: "MPPT stands for Maximum Power Point Tracking. It is an algorithm - paired with a DC-DC converter - built into every modern solar inverter and charge controller. MPPT continuously adjusts the operating voltage of the PV array to find the point where panels produce the most power at any given moment. As sunlight, temperature, and shading change, the maximum power point moves, and MPPT chases it in real time, recovering about 15 to 20 percent more energy than a PWM controller when the panel is close to battery voltage (a legacy 75 W 36-cell panel), and about two to two and a half times as much on a modern 60-cell or 72-cell panel charging a 12 V battery (calculated in the table in this article)."
   - q: "Is MPPT better than PWM for home solar?"
     a: "Yes, for almost all home solar installations in India. A standard rooftop system uses 375 W to 545 W panels with Vmp between 30 V and 42 V. Pairing those panels with a PWM charge controller forces the panel to operate at battery voltage - typically 12 V or 24 V - and wastes the voltage difference as heat. MPPT avoids this loss entirely. The only exception is a very small system below 100 W using an older 36-cell, 17 V panel that already matches a 12 V battery class."
   - q: "How much more efficient is MPPT than PWM?"
-    a: "The efficiency gain depends on the mismatch between panel Vmp and battery voltage: about 10 to 30 percent when the panel is close to the battery class, and much larger on modern panels. For a 300 W panel with Vmp 36 V charging a 12 V battery at 14.4 V absorption, PWM can only use (14.4 V ÷ 36 V) × 100 = 40 percent of the panel's rated power, about 120 W. MPPT captures the full power at Vmp and steps it down with 95 to 98 percent conversion efficiency, about 288 W at 96 percent. That is roughly 2.4 times the energy per day, or about 140 percent more."
+    a: "The efficiency gain depends on the mismatch between panel Vmp and battery voltage: about 15 to 20 percent when the panel is close to the battery class (a PWM yield ratio of 82 percent for a legacy 75 W panel), and about 2 to 2.5 times on a 12 V battery with a modern panel. For a 300 W panel with Vmp 36 V charging a 12 V battery at 14.4 V absorption, PWM can only use (14.4 V ÷ 36 V) × 100 = 40 percent of the panel's rated power, about 120 W. MPPT captures the full power at Vmp and steps it down with 95 to 98 percent conversion efficiency, about 288 W at 96 percent. That is roughly 2.4 times the energy per day, or about 140 percent more."
   - q: "Do grid-tied solar inverters use MPPT?"
     a: "Yes, all of them. Every grid-tied, hybrid, and off-grid inverter sold in India - and anywhere in the world - uses MPPT internally to track the maximum power point of the connected string. The MPPT vs PWM choice described in this article applies specifically to standalone charge controllers used in off-grid systems. When people ask about MPPT in an on-grid inverter context, they are usually asking about the number of MPPT channels, the voltage range, or tracking efficiency - not comparing it against PWM."
   - q: "Can I upgrade from a PWM charge controller to an MPPT controller?"
-    a: "Yes, and in most cases you should. Replacing a PWM charge controller with an MPPT unit is straightforward: disconnect the old unit, connect the new MPPT controller between the PV array and battery, set the battery type and voltage class, and commission. You do not need to change the panels or battery. If your panels have Vmp significantly higher than battery voltage - which is true for any modern 60-cell or 72-cell panel - the energy gain from the upgrade will typically pay for the MPPT controller within about 2 to 4 years on a single 300 W panel, and faster on larger arrays."
+    a: "Yes, and in most cases you should. Replacing a PWM charge controller with an MPPT unit is straightforward: disconnect the old unit, connect the new MPPT controller between the PV array and battery, set the battery type and voltage class, and commission. You do not need to change the panels or battery. If your panels have Vmp significantly higher than battery voltage - which is true for any modern 60-cell or 72-cell panel - the energy gain from the upgrade can pay back the MPPT controller's price premium in about three years on a single 300 W panel at the assumed ₹7 per unit used in this article's worked example, and faster on larger arrays."
   - q: "What is the price difference between MPPT and PWM charge controllers in India?"
-    a: "A basic PWM charge controller rated 10 A at 12 V costs approximately ₹400 to ₹900 in India. An equivalent 10 A MPPT controller starts around ₹2,500 to ₹4,500. At the 30 A level - suitable for a 300 to 400 W off-grid system - PWM controllers cost ₹1,200 to ₹2,500, while MPPT controllers range from ₹5,000 to ₹12,000 depending on brand and features. The higher upfront cost of MPPT is usually recovered within about two to four years through additional energy yield (worked example in the article, one 300 W panel)."
+    a: "On Moglix on 14 October 2026, 10 A 12 V PWM charge controllers were listed at ₹619 to ₹669 (UTL, Solar Universe India, SUI and Servotech), while MPPT controllers were listed at ₹5,999 for a Smarten Prime+ 12/24 V 50 A and ₹6,249 for a Solar Universe India 12 V 20 A. We could not verify a dated listing for a 10 A or 30 A MPPT unit, and some listings sold as \"MPPT\" are PWM units: one retailer's 30 A \"MPPT\" page says in its own FAQ that the unit uses PWM architecture. Check the controller's stated technology and maximum input voltage. At about ₹6,249 for the MPPT and ₹669 for the PWM, the premium is about ₹5,580, which the energy gain on one 300 W panel recovers in about 2.6 years at the assumed ₹7 per unit (worked example in the article)."
   - q: "When does PWM still make sense?"
     a: "PWM is still reasonable in three specific situations: systems below 100 to 150 W using older 36-cell panels designed to match 12 V batteries; very budget-constrained applications like solar lanterns, small rural lighting kits, or DC fans where the cost of MPPT hardware exceeds the value of recovered energy over the system's life; and situations where a functioning PWM controller is already installed and the cost of replacement cannot be justified by the marginal yield gain."
   - q: "Can I use a PWM charge controller with a 300W modern solar panel?"
@@ -40,14 +40,14 @@ Every off-grid solar system needs something to manage the flow of power from the
 This guide explains how each technology works, why the efficiency gap is as large as it is, and exactly when MPPT is mandatory, versus the narrow situations where PWM might still make sense.
 
 > [!KEYTAKEAWAYS]
-> - MPPT extracts 10 to 30 percent more energy than PWM when panel and battery voltage are close (legacy 36-cell panels), and about 2 to 2.5 times as much on modern panels, by tracking the maximum power point instead of clamping the panel to battery voltage.
+> - MPPT extracts about 15 to 20 percent more energy than PWM when panel and battery voltage are close (a legacy 75 W 36-cell panel), and about 2 to 2.5 times as much on modern panels on a 12 V battery, by tracking the maximum power point instead of clamping the panel to battery voltage.
 > - For a 300 W panel (Vmp about 36 V) on a 12 V battery, PWM delivers about 40% of rated power (120 W) while MPPT delivers roughly 96% (288 W), about 2.4x more daily energy.
 > - PWM still makes sense for legacy 36-cell panels under 100 W matched to a 12 V battery, or for extremely budget-constrained lighting kits.
 > - Every grid-tied and hybrid inverter already has MPPT built in; the PWM vs MPPT question only applies to standalone off-grid charge controllers.
-> - A 30 A MPPT controller (₹5,000–₹12,000) typically pays back its premium over PWM within 2 to 4 years through recovered energy.
-> - Any modern panel above 150 W, which is virtually every panel sold in India today, wastes 40 to 65 percent of its potential power on PWM.
+> - On dated Moglix listings (14 October 2026), a 20 A MPPT controller at ₹6,249 against a 10 A PWM controller at ₹669 is a premium of about ₹5,580, which one 300 W panel's recovered energy repays in about 2.6 years at an assumed ₹7 per unit.
+> - A modern panel on a PWM controller wastes about 30 to 60 percent of its potential power in the table below (31 percent for a 545 W panel on a 24 V battery, 53 to 62 percent on a 12 V battery).
 
-> **Direct answer.** MPPT charge controllers extract 10 to 30 percent more energy than PWM controllers when the panel is close to the battery voltage class, and about 2 to 2.5 times as much from a modern 60-cell or 72-cell panel on a 12 V battery, by operating the panels at their maximum power point voltage rather than clamping them to battery voltage. For any modern panel above 150 W (including every 375 W to 545 W panel sold in India today) MPPT is mandatory. PWM makes sense only for very small systems below 100 W using older 36-cell panels designed to match a 12 V battery.
+> **Direct answer.** MPPT charge controllers extract about 15 to 20 percent more energy than PWM controllers when the panel is close to the battery voltage class, and about 2 to 2.5 times as much from a modern 60-cell or 72-cell panel on a 12 V battery, by operating the panels at their maximum power point voltage rather than clamping them to battery voltage. For any modern panel above 150 W (including every 375 W to 545 W panel sold in India today) MPPT is mandatory. PWM makes sense only for very small systems below 100 W using older 36-cell panels designed to match a 12 V battery.
 
 The distinction matters most in off-grid and standalone systems that use a separate [charge controller](https://quickestimate.co/glossary/solar-charge-controller). In grid-tied and hybrid inverters, [MPPT](/glossary/mppt/) is already embedded, the debate does not apply to them.
 
@@ -59,7 +59,7 @@ This is the source of every efficiency problem with PWM.
 
 A solar panel does not produce constant voltage. It produces maximum power at a specific voltage called Vmp, the Maximum Power Point voltage. For a standard 300 W panel, Vmp is approximately 34 to 38 V. For a smaller 36-cell panel designed in the early solar era, Vmp is around 17 V, which was deliberately close to the 14.4 V absorption voltage of a 12 V lead-acid battery.
 
-When a PWM controller connects a modern 300 W panel (Vmp 36 V) to a 12 V battery charging at 14.4 V, the panel is pulled down from 36 V to 14.4 V. The voltage difference, 21.6 V, is not converted into current. It is dissipated as heat inside the panel itself. The panel behaves as if its Vmp were 14.4 V, not 36 V.
+When a PWM controller connects a modern 300 W panel (Vmp 36 V) to a 12 V battery charging at 14.4 V, the panel is pulled down from 36 V to 14.4 V. The voltage difference, 21.6 V, is not harvested: the panel delivers its current at the battery's voltage, so the power it could have delivered at Vmp is never collected. The panel behaves as if its Vmp were 14.4 V, not 36 V.
 
 > [!FORMULA]
 > Power lost in a PWM system = Ipanel × (Vmp − Vbatt)
@@ -69,7 +69,7 @@ For a 300 W panel at Vmp 36 V, Imp approximately 8.33 A:
 - Power delivered to 12 V battery at PWM: 8.33 A × 14.4 V = 120 W
 - Power wasted: 180 W, approximately 60% lost (the PWM controller passes about 40%)
 
-The panel generates current freely. But 60% of the electrical energy that should reach the battery is instead converted to waste heat inside the panel junction. The PWM controller's own switching losses are low (95 to 99% efficient internally) but the system-level efficiency is catastrophic.
+The panel generates current freely, but about 60% of the power it could deliver at Vmp never reaches the battery. The PWM controller's own switching losses are low, but the system-level efficiency is poor.
 
 ## How MPPT Recovers That Lost Energy
 
@@ -77,7 +77,7 @@ An [MPPT](/glossary/mppt/) charge controller inserts a DC-DC converter between t
 
 The MPPT algorithm (typically Perturb and Observe or Incremental Conductance) runs continuously on the controller's microprocessor. Every few milliseconds it samples the panel's voltage and current, nudges the operating point slightly, measures whether power went up or down, and adjusts accordingly. The result: the panel always operates within a fraction of a percent of its true maximum power point.
 
-When the sun angle changes, when a cloud passes, when temperature rises in the afternoon and Vmp shifts, the MPPT algorithm chases the moving target automatically. According to [NREL research on MPPT algorithm performance](https://www.nrel.gov/docs/fy99osti/26594.pdf), modern Perturb-and-Observe trackers achieve 95 to 99% tracking accuracy under most real-world conditions.
+When the sun angle changes, when a cloud passes, when temperature rises in the afternoon and Vmp shifts, the MPPT algorithm chases the moving target automatically. Esram and Chapman's survey of MPPT techniques ([IEEE Transactions on Energy Conversion, 2007](https://ieeexplore.ieee.org/document/4253523)) compares these methods; a controller's tracking efficiency is a datasheet figure, so ask for it.
 
 The DC-DC converter then steps the panel's high MPP voltage down to whatever voltage the battery needs at that moment, 13 V, 14.4 V, or 27 V for a 24 V bank, delivering the full converted power to the battery.
 
@@ -143,11 +143,11 @@ A 300 W panel in central India receives approximately 5.2 [peak sun hours](/glos
 - MPPT daily yield: 300 W × 96% × 5.2 h = 1,498 Wh
 - Annual difference: (1,498 − 655) Wh × 365 = 307 kWh per year
 
-At ₹7/unit (diesel generator equivalent for off-grid), that is ₹2,149 in energy value per year, from a single 300 W panel.
+At an assumed ₹7 per unit, that is ₹2,149 in energy value per year, from a single 300 W panel.
 
-A 30 A MPPT controller costs approximately ₹5,000 to ₹8,000. Payback: 2.3 to 3.7 years from energy savings alone, then pure benefit for the remaining system life.
+An MPPT controller listed at ₹6,249 (Solar Universe India 20 A 12 V, Moglix, 14 October 2026) against a ₹669 PWM controller (Servotech 10 A) is a premium of ₹5,580. Payback: ₹5,580 ÷ ₹2,149 = about 2.6 years from energy savings alone, before any difference in the controller's own life.
 
-> **307 kWh per year.** The additional energy a 300 W panel delivers through an MPPT controller versus a PWM controller on a 12 V battery, enough to run an efficient ceiling fan 24 hours a day for over a year. *Source - [NREL PV performance analysis](https://www.nrel.gov/), methodology applied to Indian irradiance data.*
+> **307 kWh per year.** The additional energy a 300 W panel delivers through an MPPT controller versus a PWM controller on a 12 V battery, in the example above. *Calculated in this article: (1,498 − 655) Wh × 365 days, from the stated panel, 42% and 96% yields and 5.2 peak sun hours.*
 
 ## The 300 W Panel Worked Example: In Full Detail
 
@@ -190,11 +190,11 @@ PWM is not obsolete for every application. There is a precise set of conditions 
 
 ### Very Small Systems Below 100 W With Legacy 36-Cell Panels
 
-The original 36-cell panel design was specifically created to work with PWM 12 V controllers. A 75 W, 36-cell panel has Vmp around 17.5 V, close enough to a 12 V battery's 14.4 V absorption voltage that the PWM yield ratio reaches 82%. The energy gap against MPPT narrows to 14 to 18%, and for a system worth ₹3,000 to ₹5,000 total, a ₹500 PWM controller might still make financial sense.
+The original 36-cell panel design was specifically created to work with PWM 12 V controllers. A 75 W, 36-cell panel has Vmp around 17.5 V, close enough to a 12 V battery's 14.4 V absorption voltage that the PWM yield ratio reaches 82%. The energy gap against MPPT narrows to about 17% (0.96 ÷ 0.82 − 1), and for a very small system a low-cost PWM controller might still make financial sense.
 
 ### Extremely Budget-Constrained Applications
 
-Solar lanterns, solar home lighting kits (1 LED, 1 mobile charger, DC fan), and rural electrification programmes targeting sub-₹1,000 system budgets cannot accommodate a ₹3,000 MPPT controller. In these applications, the panel is sized to the battery class, the energy loss is accepted, and the lower component cost is the overriding priority.
+Solar lanterns, solar home lighting kits (1 LED, 1 mobile charger, DC fan), and very low-budget rural electrification programmes cannot accommodate the price of an MPPT controller. In these applications, the panel is sized to the battery class, the energy loss is accepted, and the lower component cost is the overriding priority.
 
 ### Systems With an Already-Functioning PWM Controller
 
@@ -209,7 +209,7 @@ MPPT is not optional in these situations. Using PWM in any of these cases produc
 
 ### Any System Above 200 W Using Modern Panels
 
-Every 60-cell, 72-cell, or half-cut modern panel has Vmp between 30 V and 44 V. On a 12 V or 24 V battery, the voltage mismatch with PWM wastes 40 to 65% of available power. These systems simply do not work adequately with PWM.
+Every 60-cell, 72-cell, or half-cut modern panel has Vmp between 30 V and 44 V. On a 12 V or 24 V battery, the voltage mismatch with PWM wastes roughly 30 to 60% of available power (see the table above). These systems simply do not work adequately with PWM.
 
 ### Systems Where Panel Vmp Is Significantly Higher Than Battery Voltage
 
@@ -235,11 +235,10 @@ Table: MPPT vs PWM charge controller, side by side
 | How it works | DC-DC converter tracks panel's maximum power point | Direct switch connects panel to battery at battery voltage |
 | Energy efficiency | 95–98% of panel's rated output delivered | 38–82% of panel's rated output delivered on a 12 V battery (depends on voltage match) |
 | Compatible panels | Any panel with Vmp up to the MPPT input rating | Only panels with Vmp matched to battery voltage class |
-| Modern 375–545 W panels | ✓ Fully compatible | ✗ Wastes 40–65% of potential |
+| Modern 375–545 W panels | ✓ Fully compatible | ✗ Wastes about 31–62% of potential (table above) |
 | Lithium battery compatible | ✓ Yes | ✓ Yes (with correct profile, but energy loss still applies) |
-| Cost (10 A, 12 V) | ₹2,500–₹4,500 | ₹400–₹900 |
-| Cost (30 A, 12/24 V) | ₹5,000–₹12,000 | ₹1,200–₹2,500 |
-| Payback vs PWM | About 2 to 4 years on one 300 W panel (see Step 3) | Not applicable |
+| Listed price, 14 Oct 2026 (Moglix) | ₹5,999 (Smarten Prime+ 12/24 V 50 A) to ₹6,249 (Solar Universe 12 V 20 A) | ₹619 to ₹669 (10 A, 12 V) |
+| Payback vs PWM | About 2.6 years on one 300 W panel (see Step 3) | Not applicable |
 | Recommended system size | Any off-grid system above 100 W | Only below 100 W with matched 36-cell panels |
 | Grid-tied / hybrid use | Built into every inverter | Not applicable |
 
@@ -250,7 +249,7 @@ Table: Pros and cons of MPPT and PWM charge controllers
 | | Pros | Cons |
 | --- | --- | --- |
 | **MPPT** | ✓ Full panel power utilisation; ✓ Compatible with all modern panels; ✓ Supports higher string voltages; ✓ Mandatory for any serious off-grid install | ✗ Higher upfront cost; ✗ Overkill for tiny legacy systems |
-| **PWM** | ✓ Low cost; ✓ Simple, few failure modes; ✓ Still viable for matched 36-cell + 12 V systems | ✗ Wastes 20–65% of energy with modern panels; ✗ Cannot handle high-voltage strings; ✗ Not suitable for any system above 200 W |
+| **PWM** | ✓ Low cost; ✓ Simple, few failure modes; ✓ Still viable for matched 36-cell + 12 V systems | ✗ Wastes about 31–62% of energy with modern panels; ✗ Cannot handle high-voltage strings; ✗ Not suitable for any system above 200 W |
 
 ## India-Specific Context: What MPPT Means for On-Grid and Hybrid Solar
 
@@ -260,7 +259,7 @@ Most homeowners in India who encounter the term "MPPT" are actually reading abou
 
 **Hybrid system:** A hybrid inverter may include MPPT control for the PV input and separate battery-control functions. Check the exact QBH model architecture, battery compatibility and operating modes in current documents.
 
-> According to [IRENA's renewable energy statistics](https://www.irena.org/Publications/2025/Mar/Renewable-capacity-statistics-2025), India added over 24 GW of solar capacity in 2024, virtually all of it grid-connected and using MPPT-based inverters. The off-grid charge controller market is a small but important segment for remote areas, agriculture, and hybrid backup systems.
+> According to [Mercom India](https://www.pv-magazine-india.com/2025/02/25/india-added-25-gw-of-solar-in-2024-says-mercom/), India added about 25 GW of solar capacity in 2024, nearly all of it grid-connected and using MPPT-based inverters. The off-grid charge controller market is a small but important segment for remote areas, agriculture, and hybrid backup systems.
 
 The India-specific nuance: many rural and peri-urban installations use a hybrid of on-grid and off-grid thinking, a grid-tied inverter during the day and a standalone battery with charge controller for night backup. In these mixed systems, the charge controller is where the MPPT vs PWM decision still matters.
 
@@ -272,7 +271,7 @@ These are the errors that show up repeatedly in off-grid solar installations acr
 
 ### Pairing a Modern Panel With a PWM Controller to Save Cost
 
-A 300 W panel at Vmp 36 V on a 12 V PWM controller effectively delivers about 120 W (40% of rated power). The owner spends ₹8,000 on a 300 W panel and receives 100 W of performance. Adding a ₹6,000 MPPT controller would have recovered the full 288 W, a net gain of ₹2,000 to ₹3,000 per year in energy value. Within about three years, the lost energy is worth more than the MPPT hardware.
+A 300 W panel at Vmp 36 V on a 12 V PWM controller effectively delivers about 120 W (40% of rated power). The owner pays for a 300 W panel and receives about 120 W of performance. Using an MPPT controller instead would have delivered about 288 W, worth about ₹2,100 a year at an assumed ₹7 per unit. At the listed premium of about ₹5,580, the lost energy is worth more than the MPPT hardware in under three years.
 
 ### Choosing the Wrong MPPT Voltage Rating
 
@@ -292,7 +291,7 @@ An MPPT controller set to lead-acid charging profile will overcharge an LFP batt
 
 ### Assuming the Cheapest MPPT Is Equivalent to a Quality Unit
 
-The MPPT tracking accuracy varies significantly between brands. A budget controller claiming "MPPT" may implement a simple constant-voltage algorithm with occasional voltage sweeps, achieving 85 to 90% tracking efficiency rather than the 97 to 99% of a proper Perturb-and-Observe or Incremental Conductance implementation. Always check if the controller is certified to [IEC 62109](https://www.iec.ch/homepage) or references EN 50530 tracking efficiency data.
+The MPPT tracking accuracy varies significantly between brands. Tracking quality varies between controllers, and some listings sold as "MPPT" are PWM units: on 14 October 2026 one Indian retailer's 30 A "MPPT" page said in its own FAQ that the unit uses PWM architecture. Check the stated technology, the maximum input voltage and the datasheet's tracking efficiency, and ask which standards the controller was tested to.
 
 ### Using a PWM Controller as a Placeholder Before "Upgrading Later"
 
@@ -314,8 +313,6 @@ For homeowners building hybrid systems (where an on-grid inverter handles the da
 
 The engineering case is not close. For any solar installation using modern panels (which today means virtually every panel sold in India above 150 W) MPPT is the only controller technology that delivers the system's intended performance. PWM has a narrow remaining role in legacy-panel small systems and the lowest-budget lighting applications.
 
-The IEA's [Snapshot of Global PV Markets 2025](https://www.iea.org/reports/snapshot-of-global-pv-markets-2025) notes that off-grid solar is growing fastest in markets where reliable grid access remains limited, precisely the environments where high-quality MPPT controllers deliver the greatest return on investment.
-
 The numbers tell the story: on a 300 W panel (Vmp about 36 V) charging a 12 V battery, MPPT delivers about 2.4 times more daily energy than PWM. Over five years, that difference funds a complete additional panel. Over ten years, it funds a battery upgrade.
 
 PWM was a reasonable choice in 2005 when 36-cell, 17 V panels were the standard. In 2026, with 545 W panels and 42 V Vmp now the entry-level product, PWM leaves more than half of the system's potential energy on the floor. MPPT does not.
@@ -324,4 +321,4 @@ For installers evaluating charge controllers alongside inverter selection for la
 
 ---
 
-*Technical references: [IEEE Transactions on Energy Conversion, MPPT Algorithm Comparison](https://ieeexplore.ieee.org/document/4253523) (Esram & Chapman, 2007); [NREL MPPT Algorithm Evaluation Report](https://www.nrel.gov/docs/fy99osti/26594.pdf); [IEC 62509:2010 Battery Charge Controller Safety Standard](https://www.iec.ch/homepage); [MNRE Specifications for Standalone Solar PV Systems](https://mnre.gov.in/).*
+*Technical references: [IEEE Transactions on Energy Conversion, Comparison of Photovoltaic Array Maximum Power Point Tracking Techniques](https://ieeexplore.ieee.org/document/4253523) (Esram & Chapman, 2007); IEC 62509:2010, Battery charge controllers for photovoltaic systems: performance and functioning.*

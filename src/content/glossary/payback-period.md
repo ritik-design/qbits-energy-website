@@ -47,7 +47,7 @@ faqs:
   - q: "What is discounted payback?"
     a: "Time required for cumulative discounted cash flows to recover capex. Discounting at WACC."
   - q: "Why is residential payback faster than utility?"
-    a: "Residential offsets retail tariff (₹7 to ₹10/kWh). Utility sells at wholesale (₹2.50 to ₹3.50/kWh). The retail offset is 2 to 4 times more valuable per kWh."
+    a: "Residential offsets retail tariff (₹7 to ₹10/kWh). A utility-scale plant sells at its PPA tariff, which is far lower than retail: SECI's record-low solar auction bid was ₹2.00/kWh (November 2020). A retail offset is therefore worth several times more per kWh than a utility sale."
   - q: "How does location affect payback?"
     a: "Higher PSH locations generate more energy per kW, shortening payback. Rajasthan rooftop pays back faster than Bihar rooftop."
   - q: "Does payback depend on tariff?"

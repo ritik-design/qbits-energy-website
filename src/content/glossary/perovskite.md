@@ -192,7 +192,7 @@ Table: Major perovskite developers and their focus
 
 ## Real-world applications
 
-Premium tandem solar modules (entering market 2026+), following the same wattage and efficiency escalation already visible in the 700W+ [n-type silicon](/glossary/n-type-silicon/) TOPCon panels shown at Indian trade shows (see [REI Expo 2026 Recap, Top Trends from India's Biggest Solar Exhibition](/blog/rei-expo-recap/)).
+Premium tandem solar modules (entering market 2026+), following the same wattage and efficiency escalation already visible in the 700W+ [n-type silicon](/glossary/n-type-silicon/) TOPCon panels shown at Indian trade shows (see [REI Expo 2026 preview: what to look for](/blog/rei-expo-recap/)).
 
 BIPV with semi-transparent perovskite.
 
@@ -258,7 +258,7 @@ Perovskite is the most promising next-generation solar technology, with tandem p
 
 ## Watching perovskite developments?
 
-QBits Energy tracks emerging solar technologies including perovskite tandem cells for future Indian deployment.
+Perovskite and tandem cells are module technologies. Qbits makes on-grid and hybrid inverters, not solar modules, so whichever cell technology a site uses, the inverter is matched to the module's electrical ratings on the module datasheet.
 
 ## Further reading
 

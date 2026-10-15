@@ -44,7 +44,7 @@ Indian households install solar panels every year expecting lower bills and ener
 > [!KEYTAKEAWAYS]
 > - A solar inverter converts panel DC into 230 V, 50 Hz AC through a 5-stage chain: input filtering, MPPT regulation, DC link stabilisation, IGBT switching, and output filtering.
 > - MPPT tracking recovers 20-30% more energy than a fixed-voltage system on a partly cloudy day.
-> - India uses three inverter topologies: [on-grid](/on-grid-inverter/) (cheapest, no backup), hybrid (battery backup with 20 ms switchover), and off-grid (fully battery-dependent).
+> - India uses three inverter topologies: [on-grid](/on-grid-inverter/) (cheapest, no backup), hybrid (battery backup; check each model's published transfer time), and off-grid (fully battery-dependent).
 > - Indian grid voltage can swing well outside the nominal 230 V, so inverters need India-tuned firmware, not narrow-band European designs.
 > - Inverters cause 60-70% of solar service calls, making IP66 sealing and a model-specific written warranty the two specs worth checking first.
 
@@ -124,7 +124,7 @@ Table: On-grid, hybrid and off-grid inverters compared on grid connection, batte
 | --- | --- | --- | --- |
 | Grid connection | Required | Required | Not required |
 | Battery | No | Yes (optional to start) | Yes (mandatory) |
-| Backup during outage | No | Yes (20 ms switchover) | Yes (always on) |
+| Backup during outage | No | Yes (transfer time per the model's datasheet) | Yes (always on) |
 | Subsidy eligibility | Yes (ALMM covers the modules) | Yes (ALMM covers the modules) | Limited |
 | Payback period | 4–6 years | 7–10 years | 10–15 years |
 | Best for | Cities, stable grid | Frequent power-cut zones | Remote locations |
@@ -162,7 +162,7 @@ An inverter without MPPT would fix the operating voltage at a preset level, miss
 
 3. **Global MPPT scanning**: Critical for partially shaded arrays. Shading creates multiple local peaks on the P-V curve, and basic P&O can lock onto a sub-optimal local peak rather than the global maximum. Global MPPT algorithms periodically scan the full voltage range to confirm they are tracking the highest peak, recovering power that would otherwise be lost.
 
-> **India deploys over 90 GW of solar capacity as of early 2026, with rooftop solar accounting for approximately 16 GW of that total.** MPPT efficiency improvements across the installed base represent a meaningful national energy gain. *Source - [IRENA Renewable Capacity Statistics 2026](https://www.irena.org/) and [Bridge to India India Solar Rooftop Report](https://bridgetoindia.com/).*
+> **171.05 GW.** India's cumulative installed solar capacity on 30 September 2026, of which 33.41 GW was grid-connected rooftop solar; nearly all of it runs through inverters with MPPT. *Source - MNRE capacity data as reported by [Saur Energy](https://www.saurenergy.com/solar-energy-news/india-adds-2456-gw-renewable-energy-capacity-in-h1-fy-2026-27-12637483), 8 October 2026.*
 
 > [!TIP] Check the MPPT range at hot-panel temperature
 > The practical takeaway for a homeowner: always verify that your inverter's MPPT voltage range covers your string's operating voltage across all temperature conditions, not just at Standard Test Conditions (25 °C panel temperature). In Indian summers, panel temperature frequently reaches 65–70 °C, pushing Vmp down by 15–20% compared to STC. If the inverter's MPPT minimum voltage is set too high, it will fail to track the panels at their hottest operating point and the system will clip or go offline during peak afternoon hours.
@@ -218,13 +218,13 @@ Hybrid inverters with battery backup sidestep this problem by operating in islan
 
 ### 50 Hz Frequency Stability
 
-The Indian grid operates at 50 Hz, but the actual frequency fluctuates more than in synchronous European grids. Under-frequency events (below 49.5 Hz) indicate generation shortfall; over-frequency events (above 50.5 Hz) indicate surplus generation. Grid codes from [CERC](https://www.cerc.gov.in/) and state regulators require solar inverters to respond to frequency events by curtailing output (in over-frequency) or riding through them without tripping (in under-frequency), a function called [fault ride-through](/glossary/fault-ride-through/) capability. Inverters without proper frequency response firmware can be rejected during grid interconnection approval, the electrical drawing and CEIG documentation stage most DISCOMs require before commissioning.
+The Indian grid operates at 50 Hz, but the actual frequency fluctuates more than in synchronous European grids. Under-frequency events (below 49.5 Hz) indicate generation shortfall; over-frequency events (above 50.5 Hz) indicate surplus generation. Grid codes and connectivity standards from the central and state regulators and the CEA set how solar inverters must respond to frequency events, for example by curtailing output in over-frequency or riding through under-frequency events without tripping, a function called [fault ride-through](/glossary/fault-ride-through/) capability. The exact requirement depends on the connection level and the DISCOM, so ask for the model's grid-code settings and the DISCOM's interconnection checklist before commissioning.
 
 The [dc-oversizing in solar](/blog/dc-oversizing-in-solar/) article explains how these Indian grid realities interact with array sizing decisions, particularly DC oversizing ratios appropriate for different Indian climate zones.
 
 ## Inverter Pros, Cons, and Common Failure Points
 
-Understanding what can go wrong is as important as understanding how the inverter works when everything is right. The solar inverter industry's own data, compiled by [NREL](https://www.nrel.gov/) and confirmed by Indian field studies, consistently shows that inverters are the most failure-prone component in a solar system, responsible for 60–70% of all service calls.
+Understanding what can go wrong is as important as understanding how the inverter works when everything is right. Inverters contain power electronics, fans and connectors that wear, and they sit in hot, dusty or humid locations, so they are a common point of service calls in solar systems; we cite no service-call share because we found no published India-wide figure.
 
 Table: Pros and cons of on-grid, hybrid, transformerless and transformer-based inverter designs
 
@@ -266,7 +266,7 @@ Two efficiency figures appear on every quality datasheet:
 
 **Weighted or European efficiency (Euro η)**: A weighted average of efficiency at six different load levels (5%, 10%, 20%, 30%, 50%, 100% of rated power) using a weighting scheme that reflects a typical central-European irradiance distribution. The weighted figure is a better predictor of annual energy yield than peak efficiency because the inverter spends most of the day at partial load.
 
-For Indian conditions, the [IEA PVPS methodology](https://www.iea.org/) recommends a weighted efficiency calculation using a tropical irradiance distribution (more hours at higher irradiance levels than the European weighting assumes), which tends to favour inverters that maintain high efficiency at 75–100% load, the range where Indian summer afternoons operate.
+Weighted efficiency (Euro or CEC) is calculated with an irradiance distribution built for another climate, so check which weighting a datasheet quotes and look at the efficiency curve at the load levels your array will actually produce.
 
 The output quality dimension (total harmonic distortion (THD) and power factor) matters as much as efficiency for some installations. Residential loads are generally tolerant of modest THD levels. Commercial and industrial loads with sensitive electronic equipment or large motor loads require THD below 3% and [power factor](/glossary/power-factor/) above 0.99. Every quality inverter datasheet should state the THD at full load and the adjustable power factor range.
 

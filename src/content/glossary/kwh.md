@@ -239,7 +239,7 @@ For how kWh plays out in real projects, these guides go deeper:
 - [How Much Electricity Does Solar Generate in India?](/blog/how-much-electricity-solar-generates-india/)
 - [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/)
 - [Off-Grid Solar Battery Bank Sizing for India](/blog/off-grid-battery-bank-sizing-india/)
-- [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/)
+- [LCOE of Solar in India: ₹4.8/kWh for a 50 kW C&I Plant](/blog/lcoe-solar-india/)
 
 ## Sources
 

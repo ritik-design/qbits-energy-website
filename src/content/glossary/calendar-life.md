@@ -211,7 +211,7 @@ Table: Standards and documents that specify calendar life
 |---|---|
 | IEC 61960 | Cell performance and calendar testing |
 | IEC 62619 | Battery safety |
-| IS 16893 | Indian stationary storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | Manufacturer warranty documents | Calendar period specification |
 
 ## Key takeaways
@@ -231,7 +231,7 @@ For how Calendar Life plays out in real projects, these guides go deeper:
 
 - IEC 61960, Cell performance.
 - IEC 62619, Battery safety.
-- IS 16893, Indian stationary storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - Manufacturer warranty documents.
 - Plett G. L., Battery Management Systems, Artech House.
 - NREL Battery Lifetime Analysis Studies.

@@ -57,7 +57,7 @@ faqs:
   - q: "How does Component C work?"
     a: "Existing grid-connected agricultural pumps solarised through feeder-level or individual installations. DISCOM purchases surplus."
   - q: "Are PM-KUSUM components ALMM-required?"
-    a: "Yes. ALMM-listed equipment is required for subsidy disbursement."
+    a: "The ALMM lists solar PV modules and cells, so solar modules supplied under the scheme must meet whatever ALMM requirement applies to that component. It does not list pumps or inverters, which follow the scheme's own technical specifications. Check the current MNRE and state agency guidelines."
   - q: "Is net metering applicable?"
     a: "For Component C with grid-connected pumps, yes. Component B standalone does not require it."
   - q: "What is the typical farmer payback?"
@@ -75,7 +75,7 @@ PM-KUSUM, Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan, is the Gov
 
 The scheme addresses three distinct agricultural energy challenges: barren farm land that can host solar plants (Component A), farmers without grid access who rely on diesel pumps (Component B), and grid-connected pumps that subsidise DISCOMs (Component C). Each component has its own subsidy structure, eligible technology and implementation pathway.
 
-Implementation runs through state agencies (state nodal agencies for renewable energy) with central financial support from [MNRE](/glossary/mnre/). Banks provide concessional finance for the farmer share of capex. [ALMM-listed](/glossary/almm-list/) equipment is required for subsidy disbursement.
+Implementation runs through state agencies (state nodal agencies for renewable energy) with central financial support from [MNRE](/glossary/mnre/). Banks provide concessional finance for the farmer share of capex. Solar modules and cells fall under the [ALMM](/glossary/almm-list/) requirement where it applies; pumps and inverters follow the scheme's technical specifications.
 
 > [!NOTE] In short
 > - PM-KUSUM targets 35 GW of agricultural solar by 2026 across three components: A (decentralised plants), B (standalone pumps) and C (grid-connected pump solarisation).

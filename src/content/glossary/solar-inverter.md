@@ -56,7 +56,7 @@ faqs:
   - q: "What is MPPT in a solar inverter?"
     a: "MPPT (Maximum Power Point Tracking) is an algorithm that constantly adjusts the DC operating voltage of the array to extract the maximum available power from the panels as sunlight, temperature and shading change. A typical inverter has 1–6 independent MPPT channels."
   - q: "What certifications must a solar inverter have in India?"
-    a: "Mandatory: BIS certification under IS 16221 and listing in the MNRE's ALMM List of Models and Manufacturers for grid-tie operation. Quality benchmarks include IEC 62109 (safety), IEC 61727 (grid interconnection) and IEC 62116 (anti-islanding)."
+    a: "BIS certification under IS 16221 and DISCOM approval for grid-tie operation. MNRE's ALMM lists only solar modules and cells, not inverters. Quality benchmarks include IEC 62109 (safety), IEC 61727 (grid interconnection) and IEC 62116 (anti-islanding)."
   - q: "Can a solar inverter work without sunlight?"
     a: "An on-grid inverter cannot - it shuts down at night and during low irradiance. A hybrid inverter can continue to power loads from the battery and/or grid. Off-grid inverters rely entirely on the battery bank when the sun is not available."
   - q: "How is a solar inverter sized?"
@@ -296,7 +296,7 @@ Table: Standards and listings that apply to solar inverters in India
 | **IS 16221-1 & -2** | Indian adoption of IEC 62109 |
 | **UL 1741 / UL 1741-SA** | North American grid support (reference benchmark) |
 | **VDE-AR-N 4105 / 4110** | German grid code, widely referenced |
-| **MNRE ALMM** | Indian eligibility for subsidy programmes |
+| **MNRE ALMM** | Module and cell list; not an inverter list |
 | **CEA Grid Code Amendment 2019** | LVRT/FRT and reactive power obligations |
 
 ## Common Misconceptions

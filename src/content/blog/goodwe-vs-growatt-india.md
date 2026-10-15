@@ -1,7 +1,7 @@
 ---
 title: "GoodWe vs Growatt, India Honest Comparison 2026"
-excerpt: "GoodWe vs Growatt for India 2026: residential fit, ALMM status, app quality, India service network, hybrid options, and pricing, a data-grounded editorial verdict."
-description: "Both GoodWe and Growatt are mid-market Chinese OEMs. GoodWe leads in hybrid (ES/EH series); Growatt leads in India market share. See which suits you."
+excerpt: "GoodWe vs Growatt for India 2026: matched 5 kW on-grid and hybrid datasheets, India contact points, monitoring, warranty as published and a decision guide by buyer need, with no scores."
+description: "GoodWe vs Growatt in India: matched 5 kW on-grid and hybrid datasheets, India contact points, warranty as published and which to choose when."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-10-14
@@ -16,19 +16,19 @@ keywords:
   - best mid-market solar inverter india
 faqs:
   - q: "Is GoodWe or Growatt better for Indian homes?"
-    a: "Neither is better for every home. GoodWe has the stronger hybrid range, with flexible battery pairing and a capable monitoring portal. Growatt has the larger India installed base and the wider distributor and service network. For a plain on-grid system, pick the brand whose distributor can show a service centre near you and put the remedy and turnaround in writing. For a hybrid system with a battery, GoodWe's range deserves more weight."
+    a: "Neither wins on every row, and a brand cannot be ranked from a brochure. On the matched datasheets, GoodWe's GW5000-ES-20 hybrid lists a 120 A battery current and 5,000 VA nominal backup, while Growatt's SPH 5000TL BL-UP lists 85 A and a 4,000 W maximum backup output; on the on-grid pair, Growatt's MIN 5000TL-X lists 12.5 A per tracker and GoodWe's GW5000D-NS 11 A. Pick by the exact models' datasheets for your roof and load, then ask the seller for the written warranty, the named service partner for your pincode and a dated quote."
   - q: "Does GoodWe have good service in India?"
-    a: "GoodWe has established an India distributor network with service partner coverage across major states, but its India presence is smaller and newer than Growatt's. GoodWe India service is strongest in Gujarat, Maharashtra, Tamil Nadu, and parts of Rajasthan. In Tier-2 and Tier-3 markets outside these states, GoodWe service can be difficult to access without shipping the unit to a regional hub. Growatt's broader distributor network gives it a meaningful service geography advantage over GoodWe in the residential market."
+    a: "We cannot say, because no public source gives service times or coverage for either brand. GoodWe's India page (read 14 October 2026) lists an office at G-Square Business Park, Vashi, Navi Mumbai, with a service phone number and email, names no India legal entity and lists no India service centres. Growatt's contact page lists Growatt New Projects PVT LTD in Hyderabad with a toll-free number and a service email. A contact point shows who to call to open a claim, not who visits your site or how fast, so ask the installer or distributor for the named service partner for your pincode and the committed time in writing."
   - q: "What is GoodWe's warranty in India?"
-    a: "GoodWe offers a 5-year standard warranty on its inverters in India, with extended warranty options available for purchase up to 10 years for select product lines. The warranty covers repair of defective units. GoodWe warranty claims are handled through the Indian distributor network - GoodWe does not operate a directly registered India entity for warranty purposes in the way that Sungrow India Pvt. Ltd. does. Buyers should confirm with the distributor which specific service centre covers their area before purchase."
+    a: "GoodWe's global limited warranty for its inverter systems lists 5 years as the standard term by series, and its promoted 10-year hybrid extension requires a GoodWe Lynx battery, a live SEMS connection and serial-number registration; those programme terms are region-specific and we found no India-specific document. The GoodWe India page links a general warranty page and gives no India-specific terms. Ask the seller for the written warranty that applies to your exact model and sale, including who issues it, the remedy (repair or replacement) and who pays removal and freight."
   - q: "Is GoodWe better than Growatt for hybrid solar?"
-    a: "Yes, GoodWe has a stronger hybrid inverter product line than Growatt for residential applications. The GoodWe ES series (single-phase, 3–6 kW) and EH series (single-phase, 3–10 kW) are purpose-built hybrid inverters with flexible battery compatibility, a clean monitoring interface through the GoodWe SEMS Portal, and fast backup switchover. While Growatt's SPH hybrid series is functional and well-proven, GoodWe's hybrid range has been more focused and technically refined for residential hybrid applications. Buyers who are hybrid-primary should give GoodWe serious weight."
+    a: "The datasheets differ in ways that matter by design: GoodWe's GW5000-ES-20 lists a 40 to 60 V battery window, 120 A charge and discharge current, 5,000 W maximum charge power, CAN communication and 5,000 VA nominal backup (10,000 VA for 10 seconds), while Growatt's SPH 5000TL BL-UP lists a 42 to 59 V window, 85 A, 4,000 W charge power and a 4,000 W maximum backup output. Whether one suits you depends on your essential-load list, the battery you will use and the approved-battery list, which you should get in writing for the exact inverter model and firmware. We do not rank the two."
   - q: "Is Growatt ALMM listed in India 2026?"
     a: "MNRE publishes ALMM List-I for solar modules and List-II for cells, and no ALMM list for inverters, so there is no inverter ALMM listing to check for either brand. Ask the seller for the exact Growatt or GoodWe model's BIS registration and current certificates. For a PM Surya Ghar subsidy, confirm the inverter requirements with your DISCOM before you buy."
   - q: "Which has better monitoring - GoodWe SEMS Portal or Growatt ShinePhone?"
-    a: "GoodWe's SEMS (Smart Energy Management System) Portal is generally considered more capable than Growatt's ShinePhone application. SEMS offers cleaner data visualisation, better fault diagnostic depth, and stronger hybrid energy flow monitoring for GoodWe hybrid inverter owners. ShinePhone has a larger Indian user base due to Growatt's installed fleet size and has more localised support resources available. For a single on-grid residential installation, both platforms perform adequately for daily monitoring. For hybrid system monitoring with battery state-of-charge tracking, GoodWe SEMS is the more capable platform."
+    a: "We have not tested the two side by side, so this page does not rank them. GoodWe hybrids are monitored through the SEMS platform and Growatt through ShinePhone. What matters in practice is whether your model needs a separate logger or SIM, who owns the plant account, whether battery state of charge and energy flow are shown, and which faults raise an alert. Ask each seller for a demo or screenshots for the exact model."
   - q: "What is the price difference between GoodWe and Growatt in India?"
-    a: "In the residential on-grid segment (3–10 kW), GoodWe and Growatt are broadly comparable in price - both are mid-market Chinese OEMs. GoodWe may carry a modest 5–15% premium over Growatt in some markets due to lower India distribution volume and a slightly more premium positioning. In the hybrid segment, GoodWe's ES/EH series is priced similarly to or slightly above Growatt's SPH series. Exact pricing varies by state, distributor, and purchase volume. For budget-primary buyers, the price difference between the two brands is not large enough to be the decisive factor."
+    a: "We cannot state a reliable price gap, because we found no dated Indian listing for the matched models, so none is quoted. Dealer prices vary with model variant, tax treatment and channel, so get dated, itemised quotes for the exact GoodWe and Growatt models, with the same battery, mounting, cabling, protection and commissioning scope, and compare them line by line."
   - q: "How does Qbits compare to GoodWe and Growatt?"
     a: "Qbits makes on-grid and hybrid inverters, so the comparison is by phase, MPPT count and backup need. Single-phase on-grid sits in the QB 1.5 to 4.0KTLS and QB 4.2 to 6KTLS ranges, three-phase on-grid in the QB 5 to 17KTLC range, and hybrids in the QBH single-phase and three-phase ranges. Compare the exact model's datasheet from /download-datasheets/ with the GoodWe or Growatt datasheet line by line, and get the written warranty and service process for each brand before choosing."
 ---
@@ -37,210 +37,105 @@ faqs:
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-GoodWe and Growatt occupy similar territory in the Indian solar market: both are Chinese OEMs, both are mid-market priced, both sell through Indian distributor networks, and both compete vigorously in the 3–10 kW residential segment. The comparison is closer than most, but it is not identical. GoodWe has built a stronger hybrid product line. Growatt has built a larger India market share and a wider distributor network. Understanding where the genuine differences lie is what separates a good buying decision from an arbitrary one.
+GoodWe and Growatt both sell single-phase on-grid and hybrid inverters in India through distributors, and each sells several families, so a brand name alone settles little. This page compares one matched 5 kW on-grid model and one matched 5 kW hybrid model from each maker using the manufacturers' own datasheets, then covers India contact points, monitoring, warranty as published, price evidence and a plain "which to choose when" guide. It does not score or rank the brands.
 
 > [!KEYTAKEAWAYS]
 > - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify both equipment categories separately.
-> - Both brands carry a 5-year repair-based standard warranty, the shared weakness for a 25-year solar asset.
-> - Overall scored total: Growatt 31/40 versus GoodWe 29/40 on the 4-Point Mid-Market Inverter Assessment.
-> - GoodWe's India service is strongest in Gujarat, Maharashtra, Tamil Nadu, and Rajasthan; outside these states, coverage thins quickly.
-> - Growatt's repair-and-return warranty model still takes 3–6 weeks per claim despite its wider service footprint.
-
-This comparison applies the **4-Point Mid-Market Inverter Assessment**: a framework designed specifically for Chinese OEM brands competing in the Indian mid-market, to evaluate both brands honestly. The goal is a clear, evidence-grounded verdict for Indian residential buyers who have shortlisted both brands.
+> - On the hybrid pair, GoodWe's GW5000-ES-20 lists a 120 A battery current and 5,000 VA nominal backup; Growatt's SPH 5000TL BL-UP lists 85 A and a 4,000 W maximum backup output.
+> - On the on-grid pair, Growatt's MIN 5000TL-X lists 12.5 A per tracker and a 98.4% maximum efficiency; GoodWe's GW5000D-NS lists 11 A and 97.8%. Compare them with your module's current and your string layout.
+> - GoodWe's India page lists an office in Navi Mumbai with a service contact and names no India legal entity; Growatt's contact page lists Growatt New Projects PVT LTD in Hyderabad.
+> - Both makers list 5 years as the standard term in the documents we read; neither datasheet shows the India remedy, so ask for the written warranty and the named service partner.
 
 For broader market context, see the [top 10 solar inverter brands India 2026](/blog/top-10-solar-inverter-brands-india-2026/) and the [best on-grid solar inverter India guide](/blog/best-on-grid-solar-inverter-india-2026/).
 
-## The Mid-Market Inverter Reality in India
+## How this comparison works
 
-India's residential solar market is dominated by mid-market Chinese OEM brands, not because they are the best available, but because they offer the right combination of acceptable quality, wide dealer reach, and competitive pricing for the ₹8,000–₹15,000 monthly bill household that is the core PM Surya Ghar buyer. [Ember Climate's India Power Dashboard](https://ember-climate.org/data/data-tools/data-explorer/) tracks India's solar capacity growth quarterly, providing the broader context in which these brand decisions are being made.
+This page gives neither brand a score or a ranking. A number out of 10 or a total out of 40 would rest on judgements about price, service reach and monitoring that no public source supports, and it would imply a precision the evidence cannot deliver.
 
-> **65%.** Approximate share of new residential solar inverter installations in India in 2025 using mid-market Chinese OEM brands (not premium globals, not Indian budget assemblers). *Source - [JMK Research India Solar Inverter Market Report](https://jmkresearch.com/), Q4 2025.*
+What replaces it is a factual table of published specifications for matched models, the warranty and contact information as the manufacturers publish it, and decision rules that say which facts matter for which buyer. Where a fact cannot be verified from a manufacturer's own document, this page says so instead of estimating it.
 
-Within this mid-market segment, GoodWe and Growatt compete directly. Both have:
+## How to reach the two companies in India
 
-- Inverter models that need a model-by-model check of BIS registration and certificates
-- 5-year standard warranties (repair-based)
-- Mobile monitoring applications
-- India distributor networks (of different densities)
-- Residential and hybrid product lines
+GoodWe's India page (read 14 October 2026) lists an office at 1202, G-Square Business Park, Sector 30A, Opposite Sanpada Railway Station, Vashi, Navi Mumbai 400703, with a service phone number and a service email. It names no India legal entity, lists no India service centres and gives no India-specific warranty terms; it links a general warranty page.
 
-The differences are real but specific, and understanding which difference matters most for your installation type is the key to making the right choice.
+Growatt's contact page lists Growatt New Projects PVT LTD in Hyderabad with a toll-free number (1800 120 600 600) and a service email.
 
-## The 4-Point Mid-Market Inverter Assessment
+A listed entity or phone number is a way to open a claim. It does not show who would drive to your site, how fast, or what spares they hold, and it does not say which legal entity issues the warranty on your unit. Ask the installer or distributor who the warranty provider is and for the named service partner for your pincode.
 
-### How the Framework Works
+## Matched 5 kW single-phase on-grid comparison
 
-1. **Residential Fit**: How well does the product range match the standard Indian 2–4 BHK rooftop installation? MPPT configuration, DC input range, on-grid compliance.
-2. **Hybrid Capability**: For buyers who want battery readiness, which brand's hybrid range is more capable and flexible?
-3. **India Service Network**: Distributor density, Tier-2/3 reach, RMA turnaround time, spare parts availability.
-4. **Certificates and Value**: How easy is it to verify the exact model's BIS registration and certificates, and how does installed price compare for a typical 5 kW system?
+Table: GoodWe GW5000D-NS and Growatt MIN 5000TL-X, from manufacturer datasheets (as of October 2026)
 
-## Axis 1: Residential On-Grid Fit
-
-### GoodWe
-
-GoodWe's residential on-grid range (DNS and DT series, 1.5–10 kW) covers the standard Indian residential capacity range with dual-MPPT configurations suitable for south-facing and east-west split roof layouts. The [MPPT](/glossary/mppt/) voltage window of 80–500 V accommodates most Indian residential panel string configurations.
-
-GoodWe's residential on-grid products are anti-islanding compliant, [BIS certified](/glossary/bis-certification/) for relevant models, and have India-grade firmware on current production stock. The brand's on-grid residential range is functional and competitive, though it is not GoodWe's primary differentiator, the hybrid range is where GoodWe distinguishes itself.
-
-MNRE publishes no ALMM list for inverters, so ask the seller for the exact GoodWe model's BIS registration and current certificates, and for PM Surya Ghar confirm the inverter requirements with your DISCOM before purchase.
-
-**Score: 7/10**: Solid dual-MPPT residential range; certificates to be checked per model; on-grid is not GoodWe's strongest product tier.
-
-### Growatt
-
-Growatt's residential on-grid range (MIN series, 1.5–10 kW) is the brand's core product in India and has a decade of Indian market presence to back it. The MIN series has [dual MPPT](/blog/dual-mppt-vs-single-mppt/) inputs, competitive DC voltage windows, and proven firmware for Indian grid conditions. Growatt's on-grid products are among the most widely installed residential inverters in India, which means a large community of experienced installers, abundant online troubleshooting resources, and widely available spare parts.
-
-As with GoodWe, MNRE publishes no ALMM list for inverters, so ask for the exact Growatt model's BIS registration and current certificates, and confirm the inverter requirements for PM Surya Ghar with your DISCOM.
-
-**Score: 8/10**: Mature dual-MPPT residential range with the largest installed base in this comparison and proven firmware for Indian grid conditions.
-
-Table: GoodWe versus Growatt on residential on-grid fit
-
-| On-Grid Fit | GoodWe | Growatt |
+| Item | GoodWe GW5000D-NS | Growatt MIN 5000TL-X |
 | --- | --- | --- |
-| MPPT configuration (residential) | 2 MPPT | 2 MPPT |
-| DC voltage window | 80–500 V | 70–550 V |
-| India installed base | Moderate | Large (10+ years) |
-| Certificates | Verify the exact model's BIS registration | Verify the exact model's BIS registration |
-| Score | 7/10 | 8/10 |
+| Rated AC output | 5,000 W | 5,000 W |
+| MPPTs | 2 trackers, one string each | 2 trackers |
+| MPPT window | 80 to 550 V | 80 to 550 V |
+| Maximum DC voltage | 600 V | 550 V |
+| Start-up voltage | 80 V | 100 V |
+| Input current per tracker | 11 A (13.8 A short-circuit) | 12.5 A (16 A short-circuit) |
+| Maximum efficiency | 97.8% | 98.4% |
+| Enclosure | IP65 | IP65 |
+| AC voltage range | See the datasheet for the exact variant | 160 to 300 V |
+| Recommended maximum PV | See the datasheet for the exact variant | 7,000 W |
 
-## Axis 2: Hybrid Inverter Capability
+The GoodWe figures come from the DNS series datasheet (V2.1, 17 April 2023); the Growatt figures come from the MIN 2500 to 6000TL-X datasheet in the India folder copy hosted by Krannich Solar. Regional editions list different current and AC lines, so confirm the figures against the document that ships with your unit.
 
-This is the axis where GoodWe genuinely differentiates itself.
+## Matched 5 kW single-phase hybrid comparison
 
-### GoodWe: Hybrid Strength
+Table: GoodWe GW5000-ES-20 and Growatt SPH 5000TL BL-UP, from manufacturer datasheets (as of October 2026)
 
-GoodWe's hybrid range (the **ES series** (single-phase, 3–6 kW) and **EH series** (single-phase, 3–10 kW)) is one of the most refined residential hybrid product lines available in the Indian mid-market. Key features:
-
-- DC-coupled hybrid architecture with integrated battery charger
-- Compatible with LFP and lead-acid batteries from multiple manufacturers via CAN/RS485 BMS communication
-- Fast backup switchover (under 20 milliseconds)
-- Zero-export mode for states where grid export is not permitted
-- SEMS Portal monitoring with real-time battery state-of-charge and hybrid energy flow visualisation
-
-GoodWe's hybrid range has been adopted by Indian EPCs who prioritise battery flexibility, the ability to pair with Pylontech, BYD, or domestic Indian battery brands without being locked into a proprietary battery network. Getting the battery bank capacity right before comparing inverter brands matters just as much as the brand choice itself, a proper [battery storage sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) exercise should come first. See [the complete hybrid inverter buying guide](/blog/how-to-choose-hybrid-solar-inverter/) for the framework to evaluate hybrid options.
-
-**Score: 9/10**: Purpose-built hybrid architecture with excellent BMS flexibility; SEMS Portal monitoring is strong; genuine market differentiator.
-
-### Growatt: Hybrid Adequate
-
-Growatt's hybrid range (SPH series, 3–10 kW) is functional and well-proven but less specialised than GoodWe's ES/EH series. The SPH series supports lithium and lead-acid batteries, with the strongest BMS integration designed for Growatt's own ARK battery system. Third-party battery compatibility is available but varies by firmware version and has been reported as inconsistent by some Indian installers.
-
-Growatt's hybrid advantage is its larger India service network, when an SPH hybrid inverter needs service, the geographic coverage of Growatt's distributor network means service is more accessible than for GoodWe hybrid owners in smaller cities.
-
-**Score: 7/10**: Proven hybrid range; adequate BMS support; service network advantage. Less flexible battery compatibility than GoodWe.
-
-Table: GoodWe versus Growatt on hybrid inverter capability
-
-| Hybrid Capability | GoodWe | Growatt |
+| Item | GoodWe GW5000-ES-20 | Growatt SPH 5000TL BL-UP |
 | --- | --- | --- |
-| Dedicated hybrid product line | ✓ ES/EH series | ✓ SPH series |
-| BMS flexibility (multi-brand) | ✓ Excellent | ✓ Adequate (best with ARK) |
-| Backup switchover speed | < 20 ms | ~20–30 ms |
-| SEMS / ShinePhone hybrid monitoring | SEMS (stronger) | ShinePhone (functional) |
-| Score | 9/10 | 7/10 |
+| Battery window | 40 to 60 V (48 V nominal) | 42 to 59 V |
+| Maximum battery charge and discharge current | 120 A | 85 A |
+| Maximum charge power | 5,000 W | 4,000 W (3,000 W if charging from AC only) |
+| BMS communication | CAN | Interfaces list RS485, CAN, USB; the protocol is not stated |
+| MPPTs and current | 2 MPPTs, 16 A each | 2 MPPTs, 13.5 A each |
+| MPPT window and maximum PV | 60 to 550 V; 7,500 W | 120 to 550 V; 9,500 W recommended |
+| Backup output | 5,000 VA nominal; 10,000 VA for 10 seconds | 4,000 W maximum |
+| Peak efficiency | 97.6% | 97.5% |
+| Enclosure | IP65 | IP65 |
+| Warranty as printed | Not in the datasheet | 5 years standard, 10 years optional |
 
-## Axis 3: India Service Network
+The GoodWe datasheet lists a variant (GW5000M-ES-20) at only 60 A, so read the column for the exact suffix on your quote. The Growatt "5000" model name is not a 5 kW backup rating: its maximum backup output is 4,000 W. A home whose essential-load list is below 4 kW may not need more, but confirm the starting surges of the circuits assigned to backup. Both datasheets are global documents, so Indian availability, battery approval and local terms need confirming for each.
 
-### Growatt
+## Monitoring
 
-Growatt's India service network is its most significant competitive advantage over GoodWe. With approximately 10 years of India market presence, Growatt has built a distributor and service network that spans all major states including meaningful Tier-2 city presence. Installers who have worked with Growatt products are widely available, spare parts are accessible from regional distributors, and troubleshooting resources in Hindi and regional languages are more readily available than for GoodWe.
+GoodWe hybrids are monitored through the SEMS platform and Growatt through ShinePhone. We have not tested the two side by side, so this page does not rank them. The checklist that matters: does your model need a separate logger or SIM, who owns the plant account, are battery state of charge and energy flow shown, which faults raise an alert, and which languages are supported. Ask for a demo or screenshots for the exact model.
 
-> [!WARNING] Repair-and-return means weeks without generation
-> The limitation shared by both brands is the repair-and-return model: a faulty inverter under warranty typically takes 3–6 weeks to repair and return, during which the system generates no power. This is not a Growatt-specific issue, it is an industry-wide limitation that is only overcome by brands offering outright replacement warranties. See [the service SLA crisis guide](/blog/service-sla-crisis-solar/) for the financial impact of this on Indian homeowners.
+## Warranty as published
 
-**Score: 8/10**: Strongest India service network in the mid-market tier; wide installer familiarity.
+Table: GoodWe and Growatt warranty information as published, read in 2026
 
-### GoodWe
-
-GoodWe's India service network is adequate in the states where it has strong distributor presence, Gujarat, Maharashtra, Tamil Nadu, Karnataka, and parts of Rajasthan. Outside these markets, service can be difficult to access without shipping the unit. The brand's India presence is approximately 5–6 years old, which means fewer experienced field technicians and less troubleshooting community knowledge than Growatt.
-
-GoodWe India does not operate as a directly registered local entity in the same way that [Sungrow India Pvt. Ltd.](/blog/sungrow-solar-inverter-review-india/) does, which means warranty claims are distributor-dependent. The quality of warranty claim resolution varies by distributor.
-
-**Score: 6/10**: Adequate service in solar-active states; thin coverage in Tier-2/3 markets outside those states.
-
-## Axis 4: Certificates and Value
-
-Both brands compete on price in the Indian mid-market. The [ALMM list](/glossary/almm-list/) covers modules and cells, not inverters, so for PM Surya Ghar subsidy-eligible installations the inverter is checked through the exact model's certificates and the DISCOM's requirements.
-
-> **₹78,000.** Maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, disbursed directly to the buyer's bank account after DISCOM verification. *Source - [PM Surya Ghar Portal, MNRE](https://pmsuryaghar.gov.in/), 2026.*
-
-> [!CHECKLIST] Before you pay a token amount
-> - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify the exact module/cell models and check inverter documents separately.
-> - **Both brands:** ask for the exact model's BIS registration and current certificates before you pay a token amount. GoodWe's India range is smaller, so confirm early that the specific model you want is actually stocked in India.
-
-Table: GoodWe versus Growatt on certificates and value (approximate installed prices)
-
-| Value Axis | GoodWe | Growatt |
+| Item | GoodWe | Growatt |
 | --- | --- | --- |
-| 5 kW on-grid installed price (approx.) | ₹32,000–₹46,000 | ₹30,000–₹45,000 |
-| 5 kW hybrid installed price (approx.) | ₹34,000–₹50,000 | ₹32,000–₹48,000 |
-| Certificates | Verify the exact model's BIS registration | Verify the exact model's BIS registration |
-| Standard warranty | 5 years repair | 5 years repair |
-| Score | 7/10 | 8/10 |
+| Standard term | 5 years, listed by series in its global limited warranty for inverter systems | 5 years standard, named in the warranty procedure, which defers to a product table, the sales order and the warranty card |
+| Longer option | A 10-year hybrid extension in the EMEA 2026 and AU/NZ programmes, conditional on a Lynx battery, a live SEMS connection and registration; region-specific | 10 years optional on the SPH datasheet |
+| Start of the term | Check the document for your region | From the installation-certificate date, and no more than six months after delivery from Growatt |
+| Who issues it in India | Not stated; ask the seller | Growatt's contact page lists an India entity; ask the seller who issues it |
 
-## Overall Verdict
+Neither page is an India-specific contract. Ask the seller for the document that applies to your sale, and for who pays removal, transport and refit if the remedy is a replacement. A 5-year standard term ends well before a 25-year system does, so plan for inverter replacement within the system life; see [the solar inverter warranty guide](/blog/solar-inverter-warranty/).
 
-Table: Scores on the 4-Point Mid-Market Inverter Assessment, out of 10 per axis
+## Price
 
-| Axis | GoodWe | Growatt |
-| --- | --- | --- |
-| Residential On-Grid Fit | 7/10 | 8/10 |
-| Hybrid Inverter Capability | 9/10 | 7/10 |
-| India Service Network | 6/10 | 8/10 |
-| Certificates and Value | 7/10 | 8/10 |
-| **Total** | **29/40** | **31/40** |
+This page quotes no price gap, because we found no dated Indian listing for the matched GoodWe and Growatt models. A dated Deye 5 kW hybrid listing and two dated battery listings are in our [5 kW hybrid inverter price](/blog/5kw-hybrid-inverter-price-india/) guide for reference. To compare two offers fairly, check that both name the same exact model, battery, mounting, cabling, protection devices, monitoring hardware, DISCOM application and commissioning, and that both list exclusions.
 
-```chart
-type: bar
-title: GoodWe versus Growatt scores by assessment axis
-unit: "/10"
-source: "4-Point Mid-Market Inverter Assessment scores assigned in this article (GoodWe total 29/40, Growatt total 31/40)"
-note: "These are this article's editorial scores from published and installer-reported evidence, not measured performance data."
-series:
-  - name: "GoodWe"
-    data:
-      - { label: "On-grid fit", value: 7 }
-      - { label: "Hybrid capability", value: 9 }
-      - { label: "India service network", value: 6 }
-      - { label: "Certificates and value", value: 7 }
-  - name: "Growatt"
-    data:
-      - { label: "On-grid fit", value: 8 }
-      - { label: "Hybrid capability", value: 7 }
-      - { label: "India service network", value: 8 }
-      - { label: "Certificates and value", value: 8 }
-```
+## Which to choose when
 
-### GoodWe
-
-Table: GoodWe pros and cons
-
-| | Pros | Cons |
-| --- | --- | --- |
-| **GoodWe** | ✓ Superior hybrid product line (ES/EH series) | ✗ Narrower India service network than Growatt |
-| | ✓ Excellent BMS flexibility for multi-brand batteries | ✗ Fewer experienced field technicians in smaller cities |
-| | ✓ Dual-MPPT residential on-grid range | ✗ Certificates must be checked model by model |
-| | ✓ Mid-market pricing in the same band as Growatt | ✗ 5-year repair warranty - same structural limitation |
-
-### Growatt
-
-Table: Growatt pros and cons
-
-| | Pros | Cons |
-| --- | --- | --- |
-| **Growatt** | ✓ Widest India installer and service network in mid-market | ✗ Hybrid BMS best with Growatt's own ARK batteries |
-| | ✓ Mature dual-MPPT residential on-grid range | ✗ Certificates must be checked model by model |
-| | ✓ Largest India installed base = most troubleshooting knowledge | ✗ 5-year repair warranty - same structural limitation |
-| | ✓ Competitive pricing on residential on-grid | ✗ On-grid product line not meaningfully stronger than GoodWe |
+- **You have a split roof with two strings:** both matched on-grid models have two trackers; compare their per-tracker current limits and MPPT windows against your module's operating and short-circuit current and your string lengths.
+- **You want backup for a measured essential-load list:** compare the hybrid backup outputs (5,000 VA nominal for the GoodWe model, 4,000 W maximum for the Growatt model) with your list and the starting surges, and ask for the approved-battery list for the exact inverter and firmware.
+- **You plan a large battery:** compare the maximum charge and discharge currents and the BMS protocol (CAN on the GoodWe sheet; the Growatt sheet lists interfaces only) against your battery's own limits.
+- **You want the warranty settled before you buy:** get the document that applies to your sale, the remedy and who issues it, for either brand.
+- **You choose by installer familiarity:** that is a legitimate factor, but ask the installer for the named service partner and the written remedy rather than relying on familiarity.
 
 ## Common Mistakes When Choosing Between These Brands
 
-- **Choosing Growatt purely on installer familiarity**: While Growatt's wider installer community is a real advantage, choosing any brand solely because "my installer knows it best" defers a warranty and service decision that the homeowner lives with for 25 years.
-- **Buying GoodWe hybrid without checking local service availability**: GoodWe's hybrid inverters are technically strong, but if your city does not have an authorised GoodWe service centre within 100 km, a warranty claim becomes a logistical challenge. Always confirm before purchase.
-- **Treating a brand name as a certificate**: Neither brand's name replaces model-level documents. MNRE publishes no ALMM list for inverters, so ask for the exact model's BIS registration and current certificates before committing. See the [ALMM guide](/blog/almm-list-phase-iii-guide/) for what the ALMM lists do cover.
-- **Not accounting for the 5-year warranty cliff**: Both GoodWe and Growatt standard warranties expire at year 5. A solar system designed for 25 years has 20 years of ownership outside the standard warranty window. Budget for one or two replacement events if staying with either brand at standard warranty terms.
+- **Choosing on installer familiarity alone**: it can help, but it defers a warranty and service decision that the homeowner lives with for the system life.
+- **Buying a hybrid without checking local service availability**: ask for the named service partner for your pincode and the committed time from ticket to fix, in writing.
+- **Treating a brand name as a certificate**: neither brand's name replaces model-level documents. MNRE publishes no ALMM list for inverters, so ask for the exact model's BIS registration and current certificates before committing. See the [ALMM guide](/blog/almm-list-phase-iii-guide/) for what the ALMM lists do cover.
+- **Ignoring the warranty cliff**: both makers list 5 years as the standard term, so a system designed for 25 years has years outside the standard window; budget for a possible replacement.
+- **Reading the model name as the rating**: the "5000" in a model name is not always the backup rating; read the datasheet row for the output you need.
 
 ## Where Qbits Fits as a Third Option
 

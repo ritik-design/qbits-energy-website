@@ -17,7 +17,7 @@ quickFacts:
   industry: "Battery Safety"
   primaryUse: "Safety risk assessment"
   commonUsers: "Manufacturers, regulators, EPCs"
-  relevantStandards: "IEC 62619, IS 16893, UL 9540A"
+  relevantStandards: "IEC 62619, UL 9540A"
   relatedTechnologies: "BMS, thermal management"
 relatedTerms:
   - { slug: "lithium-ion-battery", term: "Lithium Ion Battery" }
@@ -63,7 +63,7 @@ faqs:
   - q: "What is fire suppression?"
     a: "Water deluge, aerosol, gas-based systems. LFP fires need different approach than typical fires."
   - q: "Are Indian battery cabinets safe?"
-    a: "ALMM-listed packs meet IS 16893 safety. Outdoor cabinet design includes thermal management and runaway prevention."
+    a: "Safety depends on the exact cabinet and battery model: ask for its IEC 62619 test report and fire-test evidence (for example UL 9540A). ALMM does not cover batteries. Outdoor cabinet design should include thermal management and runaway prevention."
 author: "Nirav Dhanani"
 ---
 
@@ -75,7 +75,7 @@ author: "Nirav Dhanani"
 > - Triggers include overcharge, over-discharge, internal or external short circuits, mechanical damage and manufacturing defects.
 > - BMS protection, thermal management and correct cabinet design are the primary safeguards.
 > - LFP dominates Indian residential and small commercial storage largely because of this safety margin.
-> - IEC 62619, IS 16893 and UL 9540A set the relevant certification and fire-test benchmarks.
+> - IEC 62619 and UL 9540A set the relevant certification and fire-test benchmarks.
 
 Thermal runaway is uncontrolled self-heating of a battery cell, where rising temperature triggers exothermic chemical reactions that release additional heat, further increasing temperature in a positive feedback loop. Without intervention, thermal runaway leads to cell venting, fire and potential explosion. In [lithium-ion batteries](/glossary/lithium-ion-battery/), thermal runaway is the most serious safety concern.
 
@@ -193,7 +193,7 @@ Customer safety education.
 
 ## Best practices
 
-Use only [IEC 62619](/glossary/iec-62619/) / IS 16893 certified cells.
+Use only cells with an [IEC 62619](/glossary/iec-62619/) test report for the exact model.
 
 Choose LFP for stationary residential storage; see [Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/) for the safety and TCO case against lead acid.
 
@@ -214,13 +214,13 @@ Document UL 9540A test results.
 
 LFP dominates Indian residential and small commercial storage.
 
-IS 16893 certification is the basic safety benchmark.
+An IEC 62619 test report for the exact model is the basic safety benchmark.
 
 Major Indian brands (Goodwe Storage, Sungrow, [Pylon Tech](/blog/pylontech-battery-india-review/), BYD) ship LFP with BMS protection.
 
 EV LFP adoption (Ola Electric, BYD) supported by safety profile.
 
-Cabinet design standards developing through IS 16893 framework.
+Cabinet design standards for stationary storage are still developing; ask for the exact model's fire-test evidence.
 
 ## Standards and certifications
 
@@ -229,14 +229,14 @@ Table: Battery safety standards and fire-test methods
 | Standard | Scope |
 |---|---|
 | IEC 62619 | Industrial lithium safety |
-| IS 16893 | Indian stationary storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | UL 1973 | US stationary safety |
 | UL 9540A | Fire test methodology |
 | AIS 156, 038 | Indian EV battery safety |
 
 ## Key takeaways
 
-Thermal runaway is uncontrolled battery overheating leading to fire or explosion. LFP highly resistant (threshold 270°C); NMC more vulnerable (150-180°C). LFP dominant in Indian stationary storage due to safety. BMS protection, thermal management and proper cabinet design prevent occurrence. UL 9540A testing provides quantified fire risk assessment. Indian regulations through IEC 62619 / IS 16893 establish minimum safety.
+Thermal runaway is uncontrolled battery overheating leading to fire or explosion. LFP highly resistant (threshold 270°C); NMC more vulnerable (150-180°C). LFP dominant in Indian stationary storage due to safety. BMS protection, thermal management and proper cabinet design prevent occurrence. UL 9540A testing provides quantified fire risk assessment. IEC 62619 test reports establish minimum cell and battery safety evidence.
 
 ## Further reading
 
@@ -250,7 +250,7 @@ For how Thermal Runaway plays out in real projects, these guides go deeper:
 ## Sources
 
 - IEC 62619, Industrial lithium safety.
-- IS 16893, Indian stationary storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - UL 1973, UL 9540A, US safety standards.
 - AIS 156, AIS 038, Indian EV safety.
 - NREL Battery Safety Studies.

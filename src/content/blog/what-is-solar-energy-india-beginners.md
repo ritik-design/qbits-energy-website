@@ -68,7 +68,7 @@ A single silicon cell produces roughly 0.5–0.6 volts, far too little for house
 
 The current produced by all these cells is **direct current (DC)**: the same type of current in a battery. Household appliances run on **alternating current (AC)** at 230 V, 50 Hz in India. The conversion job belongs to the [solar inverter](/glossary/solar-inverter/), the most critical component in the system.
 
-> **173,000 terawatts.** The amount of solar energy continuously reaching Earth's surface, approximately 10,000 times global electricity demand. *Source - [International Energy Agency, World Energy Outlook](https://www.iea.org/), 2025.*
+> **173,000 terawatts.** The solar power continuously reaching Earth's surface, roughly 10,000 times the world's total energy use. This is a physical figure from the solar constant and Earth's cross-section; the share you can use depends on your roof and panels.
 
 ### The Role of the Inverter
 
@@ -91,7 +91,7 @@ Table: Irradiance, sunny days and annual yield per kW by Indian region
 | West Bengal, Odisha | 4.5–5.0 | 250–270 | 1,300–1,500 kWh |
 | Kerala, Assam | 4.0–4.8 | 200–240 | 1,100–1,300 kWh |
 
-*Source - [NREL India Solar Resource Data](https://www.nrel.gov/international/ra_india.html), 2024; [IRENA Solar Resource Atlas](https://www.irena.org/), 2025.*
+*Peak sun hours and yields are approximate planning ranges, not measurements; check your site on [PVGIS](https://re.jrc.ec.europa.eu/pvg_tools/en/) or the [Global Solar Atlas](https://globalsolaratlas.info/).*
 
 ```chart
 type: hbar

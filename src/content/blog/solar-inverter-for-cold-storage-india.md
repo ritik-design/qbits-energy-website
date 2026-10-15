@@ -1,6 +1,6 @@
 ---
 title: "Solar Inverter for Cold Storage, Sizing and VFDs"
-excerpt: "Solar inverter for cold storage India must handle compressor startup surges (6–8× nameplate), THD < 5%, and 24/7 load. A 40 kW cold storage typically needs 30–50 kW solar."
+excerpt: "Solar inverter for cold storage India must handle compressor startup surges (6–8× nameplate), THD < 5%, and 24/7 load. Size the solar from your own load audit."
 description: "Guide to solar inverter selection for cold storage in India: VFD compatibility, THD limits, surge capacity, and 3-phase inverter sizing protocol."
 category: Buying Guide
 date: 2026-06-05
@@ -28,7 +28,7 @@ faqs:
   - q: "What solar panels are typically used for cold storage rooftop installations?"
     a: "Cold storage buildings - typically pre-engineered steel or concrete structures - often have large flat or low-pitch rooftops suitable for high-capacity solar arrays. Bifacial monocrystalline modules (550–650 Wp) are standard for commercial cold storage, maximising generation per unit of roof area. Aluminium mounting structures are used to minimise roof penetration and load. The roof structure must be assessed by a structural engineer before installation, especially for pre-engineered buildings with lightweight steel roofing."
   - q: "What is the ROI on solar for cold storage in India?"
-    a: "Cold storage facilities typically pay ₹8–12 per unit for electricity and operate 12–24 hours per day, creating very high consumption. A 50 kW solar system generating 250 units per day saves ₹2,000–₹3,000 daily - approximately ₹7–9 Lakh per year. At a system cost of ₹25–30 Lakh, the simple payback period is 3–4 years. For a 15-year system life, the net savings are ₹75–100 Lakh on a ₹25–30 Lakh investment - an exceptional return on a non-discretionary operating cost."
+    a: "Cold storage facilities operate 12 to 24 hours a day, creating very high consumption. In the worked example in this guide, a 50 kW solar system generates about 73,000 units a year (50 kW × 5 peak sun hours × 365 × 0.8), which at an assumed ₹10 per unit saves about ₹7.3 Lakh a year. At an assumed system cost of ₹30 Lakh (₹60,000 per kW, the top of the ₹45 to ₹60 per watt range Fulminous quoted for 50 kW on 8 July 2026), the simple payback is about 4.1 years. Use your own tariff and a written quote."
   - q: "Are there special DISCOM permissions for cold storage solar in India?"
     a: "Cold storage facilities connected to HT (High Tension) or LT (Low Tension) commercial connections must apply for net metering through the respective state DISCOM. Large cold storage units above 100 kW may require open access approval for third-party solar or RESCO arrangements. The standard grid-tied solar connection process - single-line diagram approval, anti-islanding certification, bidirectional meter installation - applies. State-specific regulations vary; Karnataka, Maharashtra, Tamil Nadu, and Gujarat have well-established commercial net metering processes."
 ---
@@ -46,7 +46,7 @@ Get the solar system design right, and a cold storage facility sees some of the 
 > - The inverter output must hold THD below 5% (below 3% is safer) to avoid interacting with the harmonics that VFD-driven compressors generate.
 > - Battery backup of at least 4 hours is strongly recommended for critical [cold](/blog/solar-for-ice-factory-cold-chain/) rooms, since even a brief outage can spoil temperature-sensitive inventory.
 > - A single-phase inverter cannot serve a cold storage facility; compressors, fans, and pumps all run on 3-phase motors.
-> - A 50 kW system typically pays back in about 4 years, saving roughly ₹7.5 Lakh a year in electricity for a ₹30 Lakh investment.
+> - In the worked example, a 50 kW system at an assumed ₹10 per unit and ₹30 Lakh cost pays back in about 4.1 years, saving about ₹7.3 Lakh a year.
 
 > **Direct answer.** A 40 kW cold storage facility in India requires a 30–50 kW 3-phase solar system (the [30-40 kW QB KTLC-Pro three-phase inverter](/our-products/QB-30-40KTLC-Pro/) covers part of that range), with the inverter specified for THD < 5%, high surge capacity (6–8× nameplate for DOL-start compressors), and VFD compatibility. Battery backup is strongly recommended for facilities in power-cut zones. Use the Cold Storage Solar Sizing Protocol in this guide to design correctly from the first day.
 
@@ -107,11 +107,11 @@ The most technically critical factor in cold storage solar design is the compres
 - **VFD starting**: limits startup current to 1.5–2.5× nameplate by ramping up voltage and frequency gradually.
 
 The solar inverter must either:
-1. **Handle the startup surge directly**: by specifying an inverter with 150–200% transient overload capability (most commercial 3-phase inverters support 110–120% for 60 seconds and 150% for a few seconds).
+1. **Handle the startup surge directly**: by specifying an inverter with 150–200% transient overload capability (overload capability differs by model; read the datasheet's overload curve).
 2. **Or pair with a VFD**: which limits the startup surge to within the inverter's operating range.
 
 > [!IMPORTANT] Key specification
-> Cold storage solar inverters should have a peak/transient overload capacity of at least 150% of rated output for ≥ 5 seconds, and 120% for 60 seconds. Always verify the inverter's overload curve against the largest motor's startup current. For DOL compressor starts, the inverter size may need to exceed the total connected load by 20–30% to absorb startup transients. *Source - [IEC 61727 Solar Grid Connection Standard](https://www.iec.ch/), 2024.*
+> Overload capability differs by inverter model and no general standard sets a number for it, so read the overload curve in the datasheet and compare it with the largest motor's startup current. For direct-on-line compressor starts, the inverter size may need to exceed the connected load to absorb startup transients; ask the maker to confirm the sizing in writing for your motor.
 
 ## THD and Harmonic Management
 
@@ -176,21 +176,19 @@ For a real-world reference point, the [case study on a 40kW solar installation a
 A 50 kW rooftop solar system on a medium cold storage facility:
 
 > [!EXAMPLE] 50 kW on a medium cold storage facility
-> - **Generation**: 50 kW × 5 PSH × 300 days = 75,000 kWh/year (accounting for downtime)
-> - **Electricity saving**: 75,000 × ₹10 = **₹7,50,000/year**
-> - **System cost**: 50 kW × ₹60,000/kW = ₹30,00,000
-> - **Simple payback**: 30,00,000 / 7,50,000 = **4 years**
-> - **Net savings over 20 years**: ₹1.2 crore after deducting the ₹30 lakh system cost (₹1.5 crore gross, before tariff escalation)
+> - **Generation**: 50 kW × 5 PSH × 365 days × 0.8 performance ratio = 73,000 kWh/year
+> - **Electricity saving**: 73,000 × ₹10 (assumed tariff) = **₹7,30,000/year**
+> - **System cost**: 50 kW × ₹60,000/kW (assumed) = ₹30,00,000
+> - **Simple payback**: 30,00,000 / 7,30,000 = **4.1 years**
+> - **Savings over 20 years**: ₹1.46 crore gross (₹1.16 crore after the ₹30 lakh system cost), before degradation and tariff changes
 
 Whether to fund this as a capital purchase or a zero-upfront RESCO/OPEX arrangement is a separate financing question; the [solar CAPEX vs OPEX guide for C&I buyers](/blog/solar-capex-vs-opex-business-india/) walks through both models for exactly this kind of high-consumption, constant-load facility.
-
-> **Market data.** Cold chain and food processing facilities account for approximately 15% of commercial rooftop solar capacity in India, driven by high electricity consumption and strong ROI. The segment is growing at 25%+ annually as government policy incentivises cold chain development. *Source - [JMK Research India Solar Market Report](https://jmkresearch.com/), 2025.*
 
 For DG displacement economics (often as relevant as grid savings for 24/7 cold storage) see the [solar vs diesel generator guide](/blog/solar-vs-diesel-generator-india/).
 
 For factories with similar 3-phase requirements, the [solar inverter for factory guide](/blog/solar-inverter-for-factory/) covers multi-load industrial sizing.
 
-[IRENA's report on commercial and industrial solar applications](https://www.irena.org/Energy-Transition/Technology/Solar-energy){target="_blank" rel="noopener"} identifies cold chain infrastructure as one of the highest-ROI applications for commercial rooftop solar in South and Southeast Asia, driven by high electricity tariffs, constant loads, and large roof areas. [NREL's commercial solar sizing guidelines](https://www.nrel.gov/){target="_blank" rel="noopener"} provide the engineering basis for harmonic distortion limits and VFD compatibility requirements that cold storage solar designers must meet. [IEC 61000-3-2](https://www.iec.ch/){target="_blank" rel="noopener"} sets the harmonic emission limits for equipment connected to the grid, which applies to VFDs and solar inverters in cold storage facilities.
+Harmonic limits and VFD compatibility are design requirements for any cold storage solar plant: ask the inverter maker for the THD figures on its datasheet and the VFD compatibility in writing.
 
 ## Common Mistakes in Cold Storage Solar Design
 

@@ -22,7 +22,7 @@ faqs:
   - q: "Kya 5 kW ke liye three-phase connection zaroori hai?"
     a: "Yeh aapke DISCOM ki connection conditions aur aapke sanctioned load par depend karta hai, na ki inverter ke label par. Kuch DISCOM 5 kW single-phase service par net metering allow karte hain, kuch three-phase maangte hain. MNRE ne March 2026 mein 10 kW tak auto load enhancement introduce kiya, lekin phase requirement DISCOM hi decide karta hai. Application se pehle likhit confirmation lein."
   - q: "5 kW on-grid aur hybrid quote mein kitna farak hota hai?"
-    a: "Sabse bada difference battery hai, inverter nahi. Hybrid quote mein battery bank, rack, BMS wiring, essential-load board aur extra commissioning shamil hota hai. Ek industry-observed planning frame mein battery akele hi hybrid quote ka 25 se 40 percent ban jata hai. Battery cost ko inverter ki unit line mein chhupne na dein."
+    a: "Sabse bada difference battery hai, inverter nahi. Hybrid quote mein battery bank, rack, BMS wiring, essential-load board aur extra commissioning shamil hota hai. Dated listing pairs (14 October 2026) mein battery inverter-plus-battery subtotal ka lagbhag 47 se 53 percent nikli (Deye ₹1,23,000 of ₹2,58,888; Luminous ₹71,996 of ₹1,35,895), yeh poore system ka share nahi hai. Battery cost ko inverter ki unit line mein chhupne na dein."
   - q: "Kya 5 kW inverter ALMM listed hona chahiye?"
     a: "Nahi. MNRE ka ALMM sirf solar PV module aur cell lists publish karta hai. List-I modules ke liye hai aur List-II cells ke liye, jo 1 June 2026 se in force hai. MNRE koi inverter list publish nahi karta, isliye 'ALMM listed inverter' scheme requirement nahi hai. Inverter ke apne model documents aur DISCOM ki technical conditions separately verify karein."
   - q: "5 kW inverter mein single MPPT chalega ya dual MPPT lena chahiye?"
@@ -40,7 +40,7 @@ language: hi
 > [!NOTE] सारांश (हिंदी में)
 > - 5 kW सोलर इन्वर्टर की कोई एक तय कीमत नहीं होती। यही वाक्यांश चार अलग चीज़ें बताता है: सिर्फ़ इन्वर्टर, इन्वर्टर के साथ एक्सेसरीज़, बैटरी वाला हाइब्रिड पैकेज, या पूरा रूफटॉप सिस्टम। कोटेशन की तुलना से पहले स्कोप तय करें।
 > - PM सूर्य घर की केंद्रीय सहायता 3 kW पर सीमित हो जाती है, आमतौर पर अधिकतम ₹78,000 (MNRE रेज़िडेंशियल CFA गाइडलाइंस, 2024)। 5 kW सिस्टम को 3 kW से ऊपर की क्षमता पर अतिरिक्त केंद्रीय सहायता नहीं मिलती।
-> - ऑन-ग्रिड से हाइब्रिड में कीमत का बड़ा अंतर बैटरी से आता है। इस गाइड के प्लानिंग फ्रेम में बैटरी, रैक और BMS वायरिंग हाइब्रिड कोटेशन का लगभग 25 से 40 प्रतिशत है।
+> - ऑन-ग्रिड से हाइब्रिड में कीमत का बड़ा अंतर बैटरी से आता है। 14 अक्टूबर 2026 की दो सूची-जोड़ियों में बैटरी इन्वर्टर-प्लस-बैटरी सबटोटल का लगभग 47 से 53 प्रतिशत निकली (यह पूरे सिस्टम का हिस्सा नहीं है)।
 > - सिंगल-फेज़ या थ्री-फेज़ का फ़ैसला आपके DISCOM की कनेक्शन शर्तों और स्वीकृत लोड से होता है, इन्वर्टर के लेबल से नहीं।
 > - 5 kW हाइब्रिड इन्वर्टर की सार्वजनिक सूचियों की कीमतें, 14 अक्टूबर 2026 को जाँची गईं, तारीख़ और स्रोत के साथ नीचे एक अलग सेक्शन में हैं। Qbits जैसे ब्रांड डीलर नेटवर्क के ज़रिए कोटेशन पर बेचते हैं, इसलिए Qbits मॉडल की कोई कीमत यहाँ नहीं दी गई है।
 
@@ -170,23 +170,18 @@ Teen baatein dhyan mein rakhein. Pehli, retailer rows imported brands ki hain, j
 
 ## Itemised quote mein har hisse ka share kitna hota hai
 
-Fixed rupee lines ki jagah shares dekhna better hai. Rupee rates market ke saath badalte hain, lekin structure roughly stable rehta hai. Neeche wala frame industry-observed planning frame hai, published dataset nahi. Ise apne actual quotes par verify karein.
+Hybrid quote mein battery ka share dekhne ke liye hum do dated listing pairs ka hisaab lagate hain (14 October 2026). Yeh poore system ka breakup nahi hai: modules, structure aur installation ke liye humare paas dated source nahi mila, isliye unka share yahan nahi diya gaya.
 
-Table: Industry-observed planning frame: 5 kW quote ke component groups ka share, on-grid aur hybrid (published dataset nahi)
+Table: Inverter plus battery subtotal mein battery ka share, do dated listing pairs (14 October 2026, equipment only)
 
-| Component group | On-grid 5 kW mein share | Hybrid 5 kW mein share |
-| --- | ---: | ---: |
-| Solar modules | 40 to 50 percent | 25 to 32 percent |
-| Inverter aur monitoring | 12 to 18 percent | 10 to 15 percent |
-| Battery bank, rack, BMS wiring | Not applicable | 25 to 40 percent |
-| Mounting structure | 10 to 15 percent | 7 to 10 percent |
-| Cabling, isolators, SPD, MCB, RCCB, earthing | 8 to 12 percent | 6 to 10 percent |
-| Installation, testing, commissioning | 8 to 12 percent | 6 to 10 percent |
-| Metering, approvals, documentation, freight | 3 to 6 percent | 2 to 5 percent |
+| Listing pair | Inverter | Battery | Subtotal | Battery share |
+| --- | --- | --- | --- | --- |
+| Luminous | Solar Hybrid TX 5 kVA ₹63,899 | 4 × Luminous LPTT 12150H 150 Ah ₹17,999 = ₹71,996 | ₹1,35,895 | 53.0 percent |
+| Deye | SUN-5K-SG04LP1-EU ₹1,35,888 | Deye SE-F5 PLUS 5.12 kWh ₹1,23,000 | ₹2,58,888 | 47.5 percent |
 
-Do cheezein is table se clear hoti hain. Pehli, inverter poore system ka minority share hai, isliye sirf inverter par bargain karne se total pe chhota asar padta hai. Doosri, hybrid mein battery ka entry baaki sab ke shares ko compress kar deta hai, isliye percentages ko absolute rupees se confuse na karein.
+Do cheezein is table se clear hoti hain. Pehli, in do pairs mein battery subtotal ka lagbhag aadha hissa hai, isliye hybrid quote mein battery ko inverter line mein chhupne na dein aur uska alag breakup maangein. Doosri, yeh ek retailer-listing snapshot hai (sold-out page, alag battery chemistry aur voltage), isliye shares ko absolute market rule na samjhein.
 
-Agar koi quote in groups ko ek single "supply and installation" line mein merge karta hai to breakup maangein. Merged line comparison ko rok deta hai.
+Agar koi quote modules, structure, installation aur battery ko ek single "supply and installation" line mein merge karta hai to breakup maangein. Merged line comparison ko rok deta hai.
 
 ## PM Surya Ghar: derived per-kW benchmark aur 3 kW cap ka 5 kW par asar
 

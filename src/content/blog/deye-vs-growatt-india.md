@@ -1,7 +1,7 @@
 ---
 title: "Deye vs Growatt: Emerging Brand vs Market Leader"
 excerpt: "Deye vs Growatt for India 2026: hybrid features, BMS compatibility, SOLARMAN vs ShinePhone, India after-sales service, pricing, and warranty terms compared honestly."
-description: "Deye is growing fast in India's hybrid segment; Growatt is the established leader. Compare hybrid features, BMS support, app, service, warranty, and price."
+description: "Deye vs Growatt in India: matched 5 kW hybrid datasheets, battery compatibility, monitoring, published warranty, service contacts and dated price evidence."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-10-14
@@ -41,7 +41,7 @@ Deye and Growatt both sell single-phase hybrid inverters through Indian distribu
 
 > **Direct answer.** Neither brand wins on every row. On the published datasheets, Growatt lists the wider PV voltage window and the higher maximum DC voltage, plus a backup switch time below 10 ms. Deye lists the higher battery charge and discharge current and a rated AC output of 5,000 W against 4,000 W on Growatt's SPH 5000TL BL-UP. No dated price gap could be sourced, so compare written quotes. Warranty term, remedy and service reach for your pincode are not settled by either datasheet, so get them in writing before you buy.
 
-For broader context on the hybrid inverter decision, see the [complete hybrid inverter buying guide](/blog/how-to-choose-hybrid-solar-inverter/) and the [best hybrid solar inverter India 2026](/blog/best-hybrid-solar-inverter-india-2026/). The [IEA Tracking Clean Energy Progress 2025](https://www.iea.org/reports/tracking-clean-energy-progress-2025) report confirms that distributed battery storage is one of the fastest-growing clean energy segments in emerging markets including India.
+For broader context on the hybrid inverter decision, see the [complete hybrid inverter buying guide](/blog/how-to-choose-hybrid-solar-inverter/) and the [best hybrid solar inverter India 2026](/blog/best-hybrid-solar-inverter-india-2026/).
 
 > [!KEYTAKEAWAYS]
 > - On the matched datasheets, Growatt lists a 120 to 550 V MPPT window and 550 V maximum DC input, Deye lists 150 to 425 V and 500 V. Deye lists 120 A maximum battery current against 85 A for Growatt.
@@ -52,9 +52,7 @@ For broader context on the hybrid inverter decision, see the [complete hybrid in
 
 ## The Hybrid Inverter Surge in India: Why This Comparison Matters Now
 
-India's residential solar market has shifted. Through 2022, [on-grid (grid-tied) systems](/blog/on-grid-vs-hybrid/) dominated because net metering was available and power cuts were bearable. By 2025, two trends changed the calculus: power cut frequency increased across UP, Bihar, Rajasthan, and parts of Maharashtra and Andhra Pradesh, and LFP rack batteries became widely listed in India. Dated listings checked on 14 October 2026 worked out to about ₹21,100 to ₹24,000 per nominal kWh for 5.12 kWh packs (Loom Solar CAML-10051 at ₹1,08,000 and Deye SE-F5 PLUS at ₹1,23,000).
-
-> **30%.** Share of new residential solar installations in India in 2025 that included a battery storage component, up from approximately 8% in 2022. *Source - [Mercom India Q4 2025 Solar Report](https://www.mercomindia.com/), Mercom Capital Group.* IRENA's [Battery Storage for Renewables report](https://www.irena.org/publications/2015/Jan/Battery-Storage-for-Renewables-Market-Status-and-Technology-Outlook) tracks global cost decline curves that underpin this residential hybrid adoption shift.
+India's residential solar market has shifted. Through 2022, [on-grid (grid-tied) systems](/blog/on-grid-vs-hybrid/) dominated because net metering was available and power cuts were bearable. Since then, backup has become a bigger part of buyers' requirements wherever the grid is unreliable, and LFP rack batteries are now widely listed in India. Dated listings checked on 14 October 2026 worked out to about ₹21,100 to ₹24,000 per nominal kWh for 5.12 kWh packs (Loom Solar CAML-10051 at ₹1,08,000 and Deye SE-F5 PLUS at ₹1,23,000).
 
 The [hybrid inverter](/glossary/hybrid-inverter/) is the enabling technology for this shift. It manages the solar generation, the grid connection, the battery charge/discharge, and the home loads simultaneously, in a single device. For buyers, choosing the wrong hybrid inverter means being locked into a battery network that limits future choices, or being dependent on a service network that cannot reach them when something fails.
 
@@ -159,7 +157,7 @@ India's [Consumer Protection Act 2019](https://consumeraffairs.nic.in/consumer-p
 
 ## Price
 
-This page quotes no price gap. Pricing evidence is thin, and what exists is below. The [MNRE draft BESS guidelines](https://mnre.gov.in/) set minimum performance standards for battery storage systems used in residential solar, another compliance factor that can affect which batteries can be paired with subsidy-eligible solar systems.
+This page quotes no price gap. Pricing evidence is thin, and what exists is below.
 
 Table: Dated 5 kW hybrid inverter listing evidence, Deye and Growatt (14 October 2026)
 

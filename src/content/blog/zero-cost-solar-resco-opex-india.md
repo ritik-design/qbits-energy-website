@@ -1,6 +1,6 @@
 ---
 title: "Zero Cost Solar India: RESCO & OPEX Models"
-excerpt: "Zero cost solar India via RESCO: pay ₹4–6/unit instead of ₹8–12 grid tariff, with no upfront capex. Understand PPA contracts, OPEX models, and the RESCO Due Diligence Checklist."
+excerpt: "Zero cost solar India via RESCO: pay a PPA tariff below your grid rate with no upfront capex. Understand PPA contracts, OPEX models, and the RESCO Due Diligence Checklist."
 description: "How zero cost solar works in India via RESCO and OPEX models: PPA tariff comparison, who offers RESCO, contract terms, and what happens after 15 years."
 category: Guide
 date: 2026-06-05
@@ -16,11 +16,11 @@ keywords:
   - solar without upfront cost india
 faqs:
   - q: "What is a RESCO solar model in India?"
-    a: "A RESCO (Renewable Energy Service Company) is a company that installs, owns, and operates a solar system on your premises at zero upfront cost to you. Instead of buying the system, you pay the RESCO per unit of electricity generated - called a PPA (Power Purchase Agreement) tariff - typically ₹4–6 per unit. The RESCO owns the panels, inverter, and equipment; handles all maintenance; and charges you for the electricity generated. You save money compared to the grid tariff but do not own the asset."
+    a: "A RESCO (Renewable Energy Service Company) is a company that installs, owns, and operates a solar system on your premises at zero upfront cost to you. Instead of buying the system, you pay the RESCO per unit of electricity generated - called a PPA (Power Purchase Agreement) tariff, fixed in your contract. The RESCO owns the panels, inverter, and equipment; handles all maintenance; and charges you for the electricity generated. You save money compared to the grid tariff but do not own the asset."
   - q: "What is the typical PPA tariff in a RESCO solar agreement in India?"
-    a: "PPA tariffs in India vary by system size, location, and the RESCO's cost of capital, but typically range from ₹4.00 to ₹6.50 per unit for commercial and industrial (C&I) installations. This compares to grid tariffs of ₹8–12 per unit for commercial consumers, making the PPA tariff a direct saving of ₹2–6 per unit generated. Residential RESCO models are less common; most residential financing takes the form of EMI or direct ownership with PM Surya Ghar subsidy."
+    a: "PPA tariffs vary by system size, location and the RESCO's cost of capital, and no published index of them exists, so this guide quotes no range: get written offers. The saving per unit is your grid tariff minus the PPA tariff, so compare each offer with your own last twelve bills. Residential RESCO models are less common; most residential financing takes the form of EMI or direct ownership with PM Surya Ghar subsidy."
   - q: "Who are the main RESCO providers in India in 2026?"
-    a: "The major RESCO providers for commercial and industrial solar in India include Amplus Solar (now a subsidiary of PETRONAS), Fourth Partner Energy, CleanMax Solar, Cleantech Solar, Renew Power, and Azure Power. These companies have large portfolios of rooftop PPA installations across industrial parks, commercial buildings, and institutions. For a specific quote, approach multiple providers and compare the PPA tariff, escalation clause, and contract term."
+    a: "The major RESCO providers for commercial and industrial solar in India include Amplus Solar, Fourth Partner Energy and CleanMax Solar, among others; we have not verified their current ownership, portfolio sizes or tariffs, so verify each independently. For a specific quote, approach multiple providers and compare the PPA tariff, escalation clause, and contract term."
   - q: "What happens after 15 or 25 years in a RESCO contract?"
     a: "RESCO contracts typically run for 15–25 years. At contract expiry, common outcomes include: (1) the RESCO removes the equipment and exits, restoring the roof to its original state; (2) ownership is transferred to the premises owner at a predetermined residual value (often ₹1 nominal or a small amount); or (3) the contract is renewed at a renegotiated PPA tariff. Read the exit clause carefully before signing - some contracts allow early termination with penalties equivalent to 1–3 years of PPA payments."
   - q: "Can I claim PM Surya Ghar subsidy under a RESCO or OPEX model?"
@@ -28,26 +28,26 @@ faqs:
   - q: "What is the difference between RESCO and OPEX in solar?"
     a: "Both RESCO and OPEX are zero-upfront-cost models, but with a structural difference. In a RESCO or PPA model, you pay per unit of electricity generated - variable cost based on generation. In an OPEX model (also called the O&M-based model), you pay a fixed annual fee for operation and maintenance of a system that is owned by the service provider. Some OPEX contracts combine a fixed annual fee with a variable per-unit charge. The RESCO/PPA model better aligns the provider's incentive with generation performance."
   - q: "Is RESCO solar suitable for a factory in India?"
-    a: "Yes. RESCO is particularly well-suited for factories with large, unshaded rooftops in the 100 kW to 2 MW range, where the grid tariff for commercial consumers is ₹8–12 per unit and the building is rented or the management does not want to invest capex in non-core assets. Factories with long leases (10+ years remaining) and stable load profiles are ideal RESCO candidates. Short lease terms, high roof complexity, or planned building expansion are risk factors for RESCO contracts."
+    a: "Yes. RESCO is particularly well-suited for factories with large, unshaded rooftops in the 100 kW to 2 MW range, where the grid tariff for commercial consumers is high relative to the PPA offer and the building is rented or the management does not want to invest capex in non-core assets. Factories with long leases (10+ years remaining) and stable load profiles are ideal RESCO candidates. Short lease terms, high roof complexity, or planned building expansion are risk factors for RESCO contracts."
   - q: "What should I check before signing a RESCO agreement?"
     a: "Key items to verify before signing a RESCO agreement: (1) PPA tariff and annual escalation clause (2–3% escalation is normal; fixed tariff is best); (2) term of contract (15–25 years); (3) minimum generation guarantee clause - does the RESCO compensate you if generation falls below a guaranteed minimum?; (4) exit clause terms and penalties; (5) what happens to the system at contract expiry; (6) insurance responsibility; (7) the RESCO's financials and track record - you need them to last the full contract term."
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
-For a commercial buyer (a factory manager, hotel owner, or school administrator) the pitch for rooftop solar often stalls at one question: who puts up the capital? Solar installations of 100 kW to 1 MW cost ₹40 Lakh to ₹4 crore. That kind of capex competes with machinery purchases, working capital, and inventory. The answer to that stall is the [RESCO model](/glossary/resco/), also called the zero-cost solar or [OPEX model](https://www.heavengreenenergy.com/glossary/opex-model) in India.
+For a commercial buyer (a factory manager, hotel owner, or school administrator) the pitch for rooftop solar often stalls at one question: who puts up the capital? Solar installations of this size need substantial capital (for example, dated 2026 vendor figures put a 50 kW rooftop plant at Rs 22 to 28 lakh, so a 1 MW plant is a multi-crore commitment). That kind of capex competes with machinery purchases, working capital, and inventory. The answer to that stall is the [RESCO model](/glossary/resco/), also called the zero-cost solar or [OPEX model](https://www.heavengreenenergy.com/glossary/opex-model) in India.
 
-Under a RESCO arrangement, a specialised company installs the solar system on your roof at zero cost, owns and operates it for 15–25 years, and sells you the electricity at ₹4–6 per unit, well below the ₹8–12 per unit you currently pay the DISCOM. You save money from day one without spending a rupee on equipment.
+Under a RESCO arrangement, a specialised company installs the solar system on your roof at zero cost, owns and operates it for 15–25 years, and sells you the electricity at a PPA tariff that should be below what you currently pay the DISCOM. You save money from day one only if the PPA rate is below your grid rate, and you spend nothing on equipment.
 
 > [!KEYTAKEAWAYS]
-> - Zero cost solar in India works through the RESCO model: a Renewable Energy Service Company owns the system and sells you electricity under a PPA at ₹4–6/unit, versus ₹8–12/unit from the grid.
+> - Zero cost solar in India works through the RESCO model: a Renewable Energy Service Company owns the system and sells you electricity under a PPA at a contracted rate that should be below the grid tariff.
 > - There is no upfront payment; the RESCO bears the capex, performance, and maintenance risk, while you keep only the electricity savings.
-> - Amplus Solar (PETRONAS), Fourth Partner Energy, and CleanMax Solar are the largest RESCO providers for Indian C&I rooftops.
+> - Compare at least three RESCO offers on the same terms; provider ownership, portfolio sizes and tariffs were not verified for this guide.
 > - The eight-point due diligence checklist covers the escalation clause, contract term, minimum generation guarantee, exit penalty, and post-contract asset disposition.
 > - PM Surya Ghar subsidy is not available under RESCO since the RESCO, not the premises owner, owns the system.
 > - At contract expiry, outcomes are typically system removal, ownership transfer at a nominal price, or renewal at a lower renegotiated tariff.
 
-> **Direct answer.** Zero cost solar in India works through the RESCO (Renewable Energy Service Company) model, where the solar company owns the system and sells electricity to you via a PPA at ₹4–6 per unit, saving ₹2–6 per unit versus grid rates. The RESCO Due Diligence Checklist in this guide covers the contract terms that separate a sound PPA from an expensive mistake.
+> **Direct answer.** Zero cost solar in India works through the RESCO (Renewable Energy Service Company) model, where the solar company owns the system and sells electricity to you via a PPA, saving the difference between your grid tariff and the PPA tariff on every unit. The RESCO Due Diligence Checklist in this guide covers the contract terms that separate a sound PPA from an expensive mistake.
 
 The RESCO model solves the capital constraint but shifts ownership and upside to the developer. Understanding the trade-offs (who owns the asset, who bears the performance risk, and what happens at contract expiry) is essential before signing a 20-year agreement.
 
@@ -61,7 +61,7 @@ The mechanics are straightforward:
 - RESCO designs, funds, and installs the solar system on your roof.
 - You provide rooftop access, structural approval, and sign the PPA.
 - The RESCO's generation meter records every unit produced.
-- You pay the RESCO for those units at the PPA tariff (₹4–6/unit).
+- You pay the RESCO for those units at the PPA tariff set in the contract.
 - The grid continues to supply power when solar generation falls short.
 - The RESCO handles all maintenance, monitoring, and insurance.
 
@@ -85,38 +85,25 @@ This ownership structure is the defining characteristic. The RESCO bears the cap
 
 The business case for RESCO pivots on the spread between the PPA tariff you pay and the grid tariff you would otherwise pay.
 
-Table: Grid tariff, typical PPA tariff and saving per unit by consumer type
+Table: How the saving per unit is worked out (no published PPA index; use your own bills and written offers)
 
-| Consumer Type | Grid Tariff Range (2026) | Typical PPA Tariff | Saving per Unit |
+| Consumer Type | Grid tariff | PPA tariff | Saving per unit |
 | --- | --- | --- | --- |
-| Commercial consumer (LT) | ₹8–10/unit | ₹4.5–6.0/unit | ₹2.0–5.5/unit |
-| Industrial consumer (HT) | ₹7–9/unit | ₹4.0–5.5/unit | ₹1.5–5.0/unit |
-| Institution (hospital, school) | ₹7–10/unit | ₹4.0–5.5/unit | ₹1.5–6.0/unit |
-| Hotel / hospitality | ₹9–12/unit | ₹5.0–6.5/unit | ₹2.5–7.0/unit |
-| Residential (₹ per unit, net metering eligible) | ₹6–9/unit | Not typically offered | - |
+| Commercial, industrial, institution or hotel | Your last twelve bills | Written RESCO offer | Grid tariff − PPA tariff |
+| Residential | Your last twelve bills | Not typically offered | - |
 
-> **₹4–6/unit.** The typical PPA tariff charged by Indian RESCO providers for commercial rooftop solar under long-term contracts, compared to commercial grid tariffs of ₹8–12/unit, a saving of ₹2–8 per unit on every unit the solar system generates. *Source - [Bridge to India Solar Rooftop Market Report](https://bridgetoindia.com/), 2025.*
+> **Compare the contracted rate with your own tariff.** A RESCO's PPA rate is only a saving if it is below the grid rate it replaces: saving per unit = grid tariff − PPA rate. Read the rate and its escalation clause in the contract, and compare both with your last twelve bills.
 
 The saving accrues immediately (from the first month the system is commissioned) without any upfront payment.
 
-> [!EXAMPLE] 100 kW system, ₹3/unit saving
-> For a 100 kW system generating about 385 units per day (1,40,000 units per year), a ₹3/unit saving translates to ₹4.2 Lakh per year, purely from switching to RESCO.
+> [!EXAMPLE] 100 kW system, assumed ₹3/unit saving
+> For a 100 kW system generating about 385 units per day (1,40,000 units per year), an assumed ₹3/unit saving translates to ₹4.2 Lakh per year (1,40,000 × ₹3), purely from switching to RESCO. Use the saving in your own offer.
 
 A [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) lets you run the same comparison against a CAPEX ownership scenario for your own load profile.
 
 ## Who Offers RESCO Solar in India?
 
-### Amplus Solar (PETRONAS)
-
-Amplus is one of India's largest distributed solar developers, with a portfolio of 1.5+ GW across 300+ industrial and commercial sites. Backed by PETRONAS, it offers 15–25 year PPA contracts, typically for installations of 200 kW and above. Amplus has strong presence in Haryana, Maharashtra, Tamil Nadu, Rajasthan, and Karnataka. The minimum viable rooftop area is approximately 2,000–3,000 sq ft for a 100 kW system.
-
-### Fourth Partner Energy
-
-Fourth Partner focuses on the mid-market (100 kW–2 MW range) and is particularly active in Andhra Pradesh, Telangana, Karnataka, and Maharashtra. Their differentiation is on contract flexibility (shorter initial terms with renewal options) and strong generation guarantees in PPA contracts. They also offer hybrid on-grid + battery systems under the RESCO structure.
-
-### CleanMax Solar
-
-CleanMax is one of India's pioneering RESCO developers, with installations across manufacturing, pharma, food processing, and IT parks. They offer both rooftop PPA and open-access (ground-mounted, long-distance PPA) structures. CleanMax is particularly strong in contracts for large multi-location corporate accounts. Buyers managing similar multi-site rollouts often engage independent MW-scale project management support to standardise due diligence across locations.
+We do not profile individual RESCO providers here, because ownership, portfolio sizes and tariffs change and could not be verified for this guide. Compare at least three providers on the same terms: PPA tariff, escalation clause, contract term, buy-out and exit terms, performance guarantees and insurance, and ask each for references from installations of similar size.
 
 ### Smaller and Regional RESCO Providers
 
@@ -179,10 +166,10 @@ Signing a RESCO contract without due diligence has cost many businesses dearly:
 - **Missing the escalation clause**: a 5% annual PPA escalation on a 20-year contract means the tariff in Year 20 is about 2.5× the Year 1 tariff. By Year 12, the PPA tariff may match or exceed the grid tariff.
 - **No generation guarantee**: if the contract does not guarantee minimum generation, and the RESCO's panels underperform due to soiling or shading, you pay a lower bill but the RESCO faces no consequence.
 - **Choosing a small RESCO that cannot sustain 20 years**: RESCO companies with thin capitalisation or no institutional backing have closed operations mid-contract, leaving premises owners with abandoned equipment and no maintenance.
-- **Not reading the roof damage liability clause**: who is responsible if the mounting structure damages the waterproofing membrane? If it is not in the contract, it is your problem. [SECI's RESCO tender documents](https://www.seci.co.in/) provide model contract language that covers liability clearly, use these as a template when reviewing private RESCO contracts.
+- **Not reading the roof damage liability clause**: who is responsible if the mounting structure damages the waterproofing membrane? If it is not in the contract, it is your problem.
 - **Assuming RESCO is always cheaper than CAPEX**: for buyers who own the building, have long tenure (10+ years), and can access low-cost MSME or IREDA loans at 7–8%, CAPEX ownership often delivers a better financial outcome. See the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/) for the comparison.
 
-For an on-grid vs hybrid comparison relevant to C&I buyers, also read [on-grid vs hybrid inverters ROI](/blog/on-grid-vs-hybrid-solar-inverters-roi/). [MNRE RESCO policy guidelines](https://mnre.gov.in/) establish the regulatory framework within which all RESCO operators in India must function, including minimum performance guarantee standards and investor protection norms. [IRENA's analysis of PPA models in developing markets](https://www.irena.org/Finance-and-Investment/Renewable-energy-finance) confirms that PPA contract quality is the single largest determinant of long-term buyer satisfaction in zero-capex solar arrangements.
+For an on-grid vs hybrid comparison relevant to C&I buyers, also read [on-grid vs hybrid inverters ROI](/blog/on-grid-vs-hybrid-solar-inverters-roi/).
 
 ## What Happens After the RESCO Contract Ends?
 

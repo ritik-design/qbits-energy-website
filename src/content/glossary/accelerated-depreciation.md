@@ -162,7 +162,7 @@ Table: What a business needs in place to claim accelerated depreciation
 | Asset ownership | Customer or RESCO |
 | Taxable income | Sufficient to absorb depreciation |
 | Plant commissioning | Within tax year claimed |
-| ALMM-listed equipment | For subsidised projects |
+| ALMM-listed modules | For subsidised projects |
 | Documentation | Commissioning certificates, invoices |
 
 ## Real-world applications
@@ -187,7 +187,7 @@ Coordinate with tax advisor.
 
 Use AD in [financial models](https://surgepv.com/generation-financial-tool/) for accurate IRR.
 
-Document equipment ALMM listing for subsidy compatibility.
+Document the modules' ALMM listing for subsidy compatibility.
 
 ## Indian market context
 
@@ -222,7 +222,7 @@ For how Accelerated Depreciation plays out in real projects, these guides go dee
 
 - [Solar Inverter Depreciation in India: Tax Benefits](/blog/solar-inverter-depreciation-in-india/)
 - [10kW Solar System Price in India 2026, Complete Cost](/blog/10kw-solar-system-price-india/)
-- [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/)
+- [LCOE of Solar in India: ₹4.8/kWh for a 50 kW C&I Plant](/blog/lcoe-solar-india/)
 - [Case Study, 25 kW Solar at a Coimbatore CBSE School](/blog/case-study-coimbatore-school/)
 
 ## Sources

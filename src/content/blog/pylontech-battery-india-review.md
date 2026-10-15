@@ -1,7 +1,7 @@
 ---
 title: "Pylontech Battery India: Review & Pricing"
-excerpt: "Pylontech battery India review: US2000C and US3000C street pricing at time of writing varies by dealer (roughly ₹60,000-85,000), 10-year warranty, CAN bus BMS protocol, and hybrid inverter compatibility."
-description: "Pylontech battery India review: US2000C and US3000C street pricing at time of writing varies by dealer (roughly ₹60,000-85,000), 10-year warranty, CAN bus BMS protocol, and hybrid inverter compatibility."
+excerpt: "Pylontech battery India review: US2000C and US3000C specifications, 10-year warranty, CAN bus BMS protocol and hybrid inverter compatibility. Ask for dated quotes."
+description: "Pylontech battery India review: US2000C and US3000C specs, 10-year warranty, CAN bus BMS protocol, hybrid inverter compatibility. Ask for dated quotes."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-10-14
@@ -16,7 +16,7 @@ keywords:
   - pylontech hybrid inverter compatibility india
 faqs:
   - q: "What is the price of Pylontech battery in India in 2026?"
-    a: "Street pricing at the time of writing varies by dealer, but the quotations we see put the US2000C (2.4kWh) at roughly ₹60,000 to ₹70,000 per module, the US3000C (3.5kWh) at roughly ₹70,000 to ₹85,000, and the US5000 (4.8kWh) at roughly ₹85,000 to ₹1,00,000. Treat these as a starting point for negotiation, not a fixed rate, and ask two distributors for live quotes. As Pylontech is an imported brand, prices are subject to currency fluctuations and import duty changes. Multiple modules can be connected in parallel for larger battery banks - up to 8 US2000C modules for a 19.2kWh bank."
+    a: "We could not find a dated Indian price for Pylontech modules on an official page, so we quote none (see the [best solar battery brands guide](/blog/best-solar-battery-brands-india-2026/) for dated listings of other batteries, including a Loom Solar 5.12 kWh pack at ₹1,08,000 and a Deye 5.12 kWh pack at ₹1,23,000 on 14 October 2026). Ask two distributors for live written quotes for the US2000C (2.4kWh), US3000C (3.5kWh) and US5000 (4.8kWh). As Pylontech is an imported brand, prices are subject to currency fluctuations and import duty changes. Multiple modules can be connected in parallel for larger battery banks - up to 8 US2000C modules for a 19.2kWh bank."
   - q: "Is Pylontech compatible with Indian hybrid solar inverters?"
     a: "Often yes, but compatibility is set by the individual inverter, not by the brand name. The inverter must support the battery's nominal voltage (Pylontech's residential modules are 48 V class), the battery's communication protocol over CAN or RS485, and the charge and discharge current limits the battery reports. For Qbits, the published hybrid families use QBH model names, so check the exact QBH model, its battery interface and its firmware version, and get written confirmation of the pairing from the seller before buying."
   - q: "How long does a Pylontech battery last in India's hot climate?"
@@ -30,7 +30,7 @@ faqs:
   - q: "Can Pylontech batteries be used for off-grid solar in India?"
     a: "Yes. Pylontech batteries are used in both on-grid hybrid and off-grid solar applications. For off-grid use, they are paired with a compatible off-grid inverter/charger that supports LiFePO4 chemistry and Pylontech BMS communication. In rural Indian locations without reliable grid access, a Pylontech bank with a 5–10kW off-grid inverter can carry a household for the better part of a day depending on load and bank size. Two things to weigh: imported product usually carries a price premium, and the distributor service footprint is thinner away from the metros, so confirm who supports the warranty at your location."
   - q: "What is the difference between Pylontech US2000C and US3000C?"
-    a: "The Pylontech US2000C has a rated capacity of 2.4kWh and weighs 22 kg; the US3000C is rated 3.5kWh and weighs 35 kg. On street pricing at the time of writing, the US2000C quotes around ₹60,000–₹70,000 and the US3000C around ₹70,000–₹85,000, which works out to a better cost per kWh on the US3000C. Prices vary by dealer, so run the ₹/kWh sum on your own quotes. Both have identical cycle life (6,000 cycles), warranty (10 years), and BMS protocol (CAN bus + RS485). For most residential Indian installations, the US3000C is the better value choice."
+    a: "The Pylontech US2000C has a rated capacity of 2.4kWh and weighs 22 kg; the US3000C is rated 3.5kWh and weighs 35 kg. No dated Indian prices are quoted here. Run the ₹/kWh sum (module price ÷ rated kWh) on your own written quotes. Both have identical cycle life (6,000 cycles), warranty (10 years), and BMS protocol (CAN bus + RS485). Which is the better value depends on the cost per kWh in your own quotes and on how many modules your bank needs."
 ---
 
 Pylontech has become the default recommendation whenever a solar installer in India mentions "LiFePO4" or "quality lithium battery." But the recommendation is often made without explaining why, or what the actual India-specific performance data looks like in a country where summer rooftop temperatures exceed 47°C.
@@ -38,7 +38,7 @@ Pylontech has become the default recommendation whenever a solar installer in In
 This review covers the Pylontech US2000C and US3000C (the two most common residential modules in India) with specific attention to heat performance, BMS communication compatibility with Indian hybrid inverters, and realistic pricing.
 
 > [!KEYTAKEAWAYS]
-> - Street pricing at the time of writing runs about ₹60,000–₹70,000 per US2000C (2.4kWh) module and ₹70,000–₹85,000 per US3000C (3.5kWh), and both carry a published 10-year/6,000-cycle warranty.
+> - No dated Indian price is quoted for Pylontech modules; ask for written quotes and compute ₹/kWh. Both the US2000C (2.4kWh) and US3000C (3.5kWh) carry a published 10-year/6,000-cycle warranty.
 > - Without a BMS data link over CAN bus or RS485, the inverter falls back on pack voltage sensing, which is less accurate and gives no fault isolation.
 > - The 6,000-cycle rating is quoted at 25°C. Sustained heat reduces cycle life, so install in a shaded, ventilated indoor room, ideally below 35°C.
 > - A single US2000C gives 1.92kWh usable at 80% DoD, barely 3 hours for a 600W load, so most Indian homes need 2 to 4 modules.
@@ -62,7 +62,7 @@ Table: Pylontech US2000C (2.4kWh) specifications as listed in this review
 | Communication | CAN bus, RS485 (Modbus RTU) |
 | Operating temperature | −10°C to +50°C |
 | Weight | 22 kg |
-| Street price at time of writing | ₹60,000–₹70,000 per module |
+| Indian price | Ask for a dated written quote |
 | Max parallel modules | 8 (19.2kWh per bank) |
 
 ### US3000C (3.5kWh)
@@ -80,10 +80,10 @@ Table: Pylontech US3000C (3.5kWh) specifications as listed in this review
 | Max charge/discharge | 37A / 37A |
 | Communication | CAN bus, RS485 (Modbus RTU) |
 | Weight | 35 kg |
-| Street price at time of writing | ₹70,000–₹85,000 per module |
+| Indian price | Ask for a dated written quote |
 | Max parallel modules | 8 (28kWh per bank) |
 
-On the quotations we see, the US3000C carries a smaller price increase than its capacity increase over the US2000C, which makes its cost per kWh the better of the two. Confirm with your own dealer pricing.
+Compare the cost per kWh (module price ÷ rated kWh) of the two modules on your own dealer quotes.
 
 ## BMS Communication Protocol: Why It Matters
 
@@ -168,7 +168,7 @@ Table: Pylontech US3000C compared with Livguard LG-B2522P on published figures
 | Rated cycle life | 6,000 cycles (datasheet) | Check the current Livguard datasheet |
 | Warranty | 10 years (published) | Check the current Livguard warranty document |
 | BMS protocol | CAN bus + RS485 | Confirm with the manufacturer for your SKU |
-| Street price at time of writing | ₹70,000–₹85,000 | Lower per module in the quotes we see |
+| Indian price | Ask for a dated written quote | Compare ₹/kWh on your own quotes |
 | Service network | Distributor-led, concentrated in larger cities | Wider Indian dealer footprint |
 | Made in | China | India |
 
@@ -178,11 +178,11 @@ On the published figures we compared, Pylontech leads on rated cycle life and wa
 
 LiFePO4 chemistry is the most heat-tolerant lithium technology commercially available. This is a critical specification for Indian buyers:
 
-- **Thermal runaway threshold**: LiFePO4 starts thermal runaway above 270°C cathode temperature, versus 150°C for NMC. In India's extreme summer, this chemistry gap is the primary safety advantage.
+- **Thermal runaway threshold**: LiFePO4 starts thermal runaway at a higher temperature than NMC; the exact onset varies by test and cell design, so check the cell maker's data. In India's extreme summer, this chemistry gap is the primary safety advantage.
 - **Cycle life vs temperature**: cycle life falls as sustained operating temperature rises, which is why the 6,000-cycle rating is quoted at 25°C. Manufacturers publish this as a curve rather than a single number, so ask for the curve for your module and plan on fewer cycles than the headline figure at a hot site.
 - **Installation location matters**: install in a shaded, ventilated indoor location. An enclosure in direct summer sun on a terrace runs far hotter than room ambient, and that sustained heat is what erodes cycle life. A utility room or storeroom with cross-ventilation is ideal.
 
-> **270°C.** The thermal runaway onset temperature for LiFePO4 chemistry compared to approximately 150°C for NMC lithium, the primary reason LiFePO4 is the safe choice for enclosed residential installations in India's hot climate. *Source - [IEC 62619 Safety Standard for Secondary Lithium Cells](https://www.iec.ch/), IEC 2022.* India's [MNRE battery storage standards](https://mnre.gov.in/) require lithium batteries to meet IEC 62619 before use in grid-connected solar systems.
+> **Higher onset, not immunity.** LiFePO4 generally starts thermal runaway at a higher temperature than NMC chemistries, which is a reason it is preferred for enclosed residential installations, but the onset temperature varies by test and cell design and no chemistry is immune. Check the cell maker's safety data and the battery's certificates.
 
 ## Pylontech Battery Sizing for Indian Homes
 
@@ -204,7 +204,7 @@ The [off-grid battery bank sizing guide](/blog/off-grid-battery-bank-sizing-indi
 - **Mismatching BMS protocol**: pairing the battery with an inverter that can only do voltage sensing means the pack's BMS data never reaches the inverter, so charge and discharge are managed without it. Verify protocol compatibility with both manufacturers before purchase.
 - **Undersizing the battery bank**: A single US2000C (2.4kWh) at 80% DoD gives 1.92kWh of usable energy, barely 3 hours for a 600W load. Most Indian homeowners need 2 to 4 modules for meaningful backup.
 - **Installing in high-temperature locations**: a battery enclosure on a west-facing terrace in Rajasthan in June runs far hotter than an indoor room, and sustained heat is the main driver of accelerated capacity fade on any lithium pack. Indoors wins on cycle life.
-- **Not budgeting for battery cables and BMS harness**: Pylontech batteries require specific battery interconnect cables and a BMS communication harness. These are not always included in the battery price, confirm with the supplier. Pylontech's official installation guide (available from authorised distributors and at [Pylontech's technical documentation portal](https://www.pylontech.com.cn/)) specifies minimum cable cross-sections and connector ratings for Indian installations. [NREL's battery storage installation guidance](https://www.nrel.gov/docs/fy20osti/74426.pdf) provides additional best practices for thermal management and enclosure requirements that apply to Indian conditions.
+- **Not budgeting for battery cables and BMS harness**: Pylontech batteries require specific battery interconnect cables and a BMS communication harness. These are not always included in the battery price, confirm with the supplier. Ask the supplier for the maker's installation guide, which specifies minimum cable cross-sections and connector ratings for the exact model.
 
 ## How to verify a Qbits and Pylontech pairing
 

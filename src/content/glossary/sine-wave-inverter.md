@@ -237,7 +237,7 @@ For how Sine Wave Inverter plays out in real projects, these guides go deeper:
 - CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - IEEE 519, Harmonic limits.
 - EN 50530, Inverter efficiency.
-- MNRE ALMM Inverter List.
+- MNRE ALMM page (lists PV modules and cells, not inverters).
 - Manufacturer datasheets from leading sine wave inverter brands.
 - Mohan N., Power Electronics, Wiley.
 - IEEE Power Electronics Society publications.

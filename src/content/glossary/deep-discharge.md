@@ -222,7 +222,7 @@ Table: Standards relevant to battery discharge limits
 |---|---|
 | IEC 61960 | Cell performance |
 | IEC 62619 | Battery safety |
-| IS 16893 | Indian stationary storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | Manufacturer warranty | DOD specifications |
 
 ## Key takeaways
@@ -242,7 +242,7 @@ For how Deep Discharge plays out in real projects, these guides go deeper:
 
 - IEC 61960, Cell performance.
 - IEC 62619, Battery safety.
-- IS 16893, Indian stationary storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - Manufacturer warranty documents.
 - Plett G. L., Battery Management Systems, Artech House.
 - Reddy T. B., Linden's Handbook of Batteries, McGraw-Hill.

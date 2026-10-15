@@ -199,7 +199,7 @@ India's distribution grid (particularly in UP, Bihar, Rajasthan, and parts of Ma
 
 ### Dust and Monsoon Resilience
 
-India added over 24 GW of new solar capacity in 2024, making it the third-largest annual solar market globally, and a significant portion of that growth came from residential rooftop installations in climates that test inverter weather protection harder than European lab standards assume. *Source - [IEA Renewables 2024 Report](https://www.iea.org/reports/renewables-2024), 2024.*
+Residential rooftop installations in India run in climates that test inverter weather protection harder than European lab standards assume, so check the enclosure rating and operating temperature range on the exact model's datasheet.
 
 > [!NOTE] IP65 against IP66
 > IP65 (the residential SG series rating) provides protection against dust and water jets, which is adequate for most Indian locations. Coastal buyers (particularly in Kerala, Tamil Nadu coastal, and Goa) and buyers in high-dust industrial zones should consider requesting IP66-rated options (available in the SG RT commercial series) or verify their specific installation clearance and maintenance schedule compensates for the lower IP rating. The IP65 vs IP66 distinction is explained in detail in the [IP65 vs IP66 inverter weather protection guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/).

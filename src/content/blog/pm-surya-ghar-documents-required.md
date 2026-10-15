@@ -50,7 +50,7 @@ Every week, thousands of homeowners register on the [PM Surya Ghar](https://www.
 > - Several states (Gujarat, Tamil Nadu, Rajasthan) require additional documents beyond the central checklist, such as Surya Gujarat forms or land revenue records.
 > - Income proof, caste certificates, and original documents are commonly assumed to be required but are not.
 
-The scheme disburses up to ₹78,000 directly to your bank account for a 3 kW system, so the verification process is strict by design. According to [MNRE data](https://mnre.gov.in/){target="_blank" rel="noopener"}, the scheme targets 10 million households by 2027. Understanding the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/) in full before you begin assembling documents saves significant back-and-forth with your [DISCOM](/glossary/discom/).
+The scheme disburses up to ₹78,000 directly to your bank account for a 3 kW system, so the verification process is strict by design. The scheme targets 1 crore (10 million) households. Understanding the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/) in full before you begin assembling documents saves significant back-and-forth with your [DISCOM](/glossary/discom/).
 
 ## The Complete PM Surya Ghar Documents Checklist
 

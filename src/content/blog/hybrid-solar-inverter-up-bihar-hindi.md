@@ -16,19 +16,19 @@ keywords:
   - hybrid solar up bihar subsidy
 faqs:
   - q: "UP और Bihar में on-grid solar क्यों ज्यादा suitable नहीं है?"
-    a: "UP और Bihar में daily power cut 4-10 घंटे होती है कई districts में। On-grid solar inverter power cut में anti-islanding protection से automatically बंद हो जाता है - power cut के दौरान solar का कोई benefit नहीं मिलता। Hybrid solar with battery power cut में भी battery से घर चलाता है - इसलिए UP-Bihar में hybrid ज्यादा suitable है।"
+    a: "जिन UP और Bihar feeders पर daily power cut कई घंटे चलती है (यह feeder के हिसाब से बदलता है, अपने DISCOM या bill-wale feeder का actual data देखें), वहाँ On-grid solar inverter power cut में anti-islanding protection से automatically बंद हो जाता है - power cut के दौरान solar का कोई benefit नहीं मिलता। Hybrid solar with battery power cut में भी battery से घर चलाता है - इसलिए UP-Bihar में hybrid ज्यादा suitable है।"
   - q: "Hybrid solar system में battery कितनी जरूरी है?"
     a: "Hybrid solar में battery optional नहीं - यही hybrid का purpose है। Battery daytime surplus solar store करती है, power cut या रात में use होती है। 4-6 hour power cut के लिए minimum 5 kWh LFP battery। 8+ hour के लिए 7.5-10 kWh। Battery के बिना hybrid inverter भी grid-off में बंद हो जाता है।"
   - q: "UP-Bihar में hybrid solar system की total cost क्या है?"
-    a: "3 kW hybrid system + 5 kWh LFP battery: is guide ke assumed planning range mein ₹2.8 lakh से ₹3.5 lakh gross (yeh dated quote nahi hai, apna written quotation lein)। PM Surya Ghar subsidy ₹78,000 (solar inverter + panels पर, battery पर नहीं)। Net cost ₹2.0-2.7 lakh। DG generator eliminate होने से additional savings - effective payback 4-6 साल।"
+    a: "3 kW hybrid system + 5 kWh LFP battery: is guide ke assumed planning range mein ₹2.8 lakh से ₹3.5 lakh gross (yeh dated quote nahi hai, apna written quotation lein)। PM Surya Ghar subsidy ₹78,000 (solar inverter + panels पर, battery पर नहीं)। Net cost ₹2.0-2.7 lakh। इस guide के illustrative scenarios (assumed inputs, DG fuel बचत सहित) में payback लगभग 4 से 4.4 साल आता है; अगर आपके पास DG नहीं है तो वही गणना (₹2,32,000 ÷ ₹1,625 प्रति माह) लगभग 12 साल देती है। अपना bill और अपनी quotation डालकर देखें।"
   - q: "UPPCL और BSPHCL में PM Surya Ghar subsidy कैसे मिलेगी?"
     a: "पहले PM Surya Ghar portal पर अपना state, DISCOM (UPPCL या BSPHCL) और consumer number डालकर registration और rooftop application करें। Feasibility approval के बाद DISCOM-empanelled vendor से installation कराएँ, फिर net meter और DISCOM inspection के बाद commissioning certificate के साथ bank details submit करें। Subsidy सीधे bank account में आती है। Panels ALMM List-I के होने चाहिए। Inverter के लिए MNRE कोई ALMM list नहीं देता, इसलिए exact model का BIS registration और DISCOM की requirements vendor से लिखित में confirm करें।"
   - q: "Hybrid solar battery के लिए कौन सी battery best है?"
-    a: "LFP (Lithium Iron Phosphate) battery best है - 3,000-6,000 cycles, safer, heat tolerant। Lead-acid 500-1,200 cycles, 3-4 साल में replace। UP-Bihar में 45°C summers में LFP much better performance देती है। Minimum 5-year warranty on battery mandatory। Popular brands: Luminous (LFP), Okaya (LFP), Nexcharge, BatterySmart।"
+    a: "LFP (Lithium Iron Phosphate) battery hybrid backup के लिए आम तौर पर पसंद की जाती है: datasheets में हज़ारों cycles की rating मिलती है और lead-acid के मुकाबले heat और depth of discharge बेहतर सहती है। Cycle rating को हमेशा उसकी stated depth of discharge और temperature के साथ देखें। Battery warranty कानूनन तय नहीं है, इसलिए manufacturer की लिखित battery warranty (term, cycles, remedy) quotation में माँगें और vendor के नाम पर भरोसा न करें। किसी battery brand की सिफारिश के लिए अपने installer से exact model की datasheet माँगें।"
   - q: "क्या hybrid solar DG generator को replace कर सकता है?"
-    a: "हाँ, UP-Bihar जैसे power cut areas में hybrid solar effectively DG generator replace कर सकता है। 3 kW hybrid + 5 kWh battery combination 4-6 hours backup देता है essential loads (fan, light, refrigerator, TV) के लिए। DG generator ₹80,000-1,50,000/year fuel cost की comparison में hybrid solar 4-6 साल में payback देता है।"
+    a: "हाँ, UP-Bihar जैसे power cut areas में hybrid solar effectively DG generator replace कर सकता है। 3 kW hybrid + 5 kWh battery combination 4-6 hours backup देता है essential loads (fan, light, refrigerator, TV) के लिए। DG का fuel खर्च आपके load और outage hours पर निर्भर करता है; इस guide के scenarios में ₹2,500-2,800 प्रति माह (असल में अपना खर्च डालें) मानकर payback लगभग 4 से 4.4 साल आता है।"
   - q: "क्या net metering UP-Bihar में available है hybrid के लिए?"
-    a: "हाँ, hybrid solar भी net metering के लिए eligible है। Excess generation जब battery full हो और grid available हो, grid को export होती है। UPPCL और BSPHCL दोनों net metering enable करते हैं। Power cut में export नहीं होती - but battery में stored होती है। Net metering income on-grid से कम होगी power cut areas में।"
+    a: "हाँ, hybrid solar भी net metering के लिए eligible है। Excess generation जब battery full हो और grid available हो, grid को export होती है। UPPCL और BSPHCL दोनों net metering enable करते हैं। Power cut में export नहीं होती - but battery में stored होती है। Power cut वाले feeders पर export के घंटे कम हो सकते हैं, इसलिए net metering से कमाई का हिसाब conservative रखें।"
   - q: "UPPCL voltage fluctuation के लिए hybrid inverter में क्या spec चाहिए?"
     a: "UPPCL, खासकर rural और peri-urban areas में, voltage काफ़ी ऊपर नीचे होता है। ऐसे में चौड़ी AC input range और कम reconnect time वाला hybrid inverter चुनें - narrow range inverters nuisance trips करते हैं। Allowed grid range model पर और DISCOM की connection शर्तों तथा inverter की grid-code setting पर निर्भर करती है, इसलिए exact model की datasheet या manual में AC voltage range और reconnect time check करें।"
 language: hi
@@ -36,26 +36,24 @@ language: hi
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
 
-UP और Bihar में solar का scenario बाकी India से fundamentally different है। दिल्ली या बैंगलोर में on-grid solar सबसे sensible choice है। Muzaffarpur, Gorakhpur, या Patna में, जहाँ 6-8 घंटे daily power cut होती है - on-grid solar उन सबसे frustrating investments में से एक हो सकता है जहाँ आप दिन में solar देख रहे हैं और power cut में अंधेरे में बैठे हैं। Hybrid solar इस problem का solution है।
+UP और Bihar में solar का scenario बाकी India से fundamentally different है। दिल्ली या बैंगलोर में on-grid solar सबसे sensible choice है। जिन feeders पर रोज़ कई घंटे power cut होती है (कई ग्रामीण और peri-urban इलाक़ों में ऐसा होता है, शहर-शहर में फर्क है) वहाँ on-grid solar उन सबसे frustrating investments में से एक हो सकता है जहाँ आप दिन में solar देख रहे हैं और power cut में अंधेरे में बैठे हैं। Hybrid solar इस problem का solution है।
 
 > [!KEYTAKEAWAYS]
-> - UP-Bihar mein daily power cut 4-10 ghante hoti hai, aur on-grid solar anti-islanding ki wajah se power cut mein automatically band ho jaata hai
+> - Jin UP-Bihar feeders par daily power cut kai ghante chalti hai, wahan on-grid solar anti-islanding ki wajah se power cut mein automatically band ho jaata hai (apne feeder ke actual ghante check karein)
 > - 4+ ghante daily outage waale areas mein hybrid solar + LFP battery on-grid se better investment hai
 > - 3 kW hybrid + 5 kWh LFP battery ki gross cost is guide ke assumed planning range mein ₹2.8-3.5 lakh hai (dated quote nahi), [PM Surya Ghar subsidy](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) (sirf solar components par, battery par nahi) ke baad net cost ₹2.0-2.7 lakh
-> - Payback period 4-6 saal hai, largely DG generator fuel cost eliminate hone ki wajah se
+> - Is guide ke illustrative scenarios mein payback 4 se 4.4 saal aata hai, aur yeh poori tarah DG fuel bachat par tika hai; DG ke bina wahi hisaab lagbhag 12 saal deta hai
 > - [Hybrid inverter](/glossary/hybrid-inverter/) ke exact grid limits, enclosure rating, temperature range aur derating data ko current manual aur site conditions se verify karein। Ek universal voltage ya temperature number har project par apply nahi hota।
 
-> **Clear answer।** UP और Bihar में, जहाँ daily power cut 4+ घंटे है, hybrid solar inverter with LFP battery on-grid से बेहतर investment है। DG generator cost eliminate होती है, [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy (solar components पर) मिलती है, और effective payback 4-6 साल है।
-
-According to [Central Electricity Authority data](https://cea.nic.in/){target="_blank" rel="noopener"}, UP और Bihar India के सबसे high load-shedding states में से हैं - summers में district towns में 6-10 hours daily outage common है। [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"} reports कि इन states में hybrid solar demand 200%+ grow हुई है 2023 से।
+> **Clear answer।** UP और Bihar में, जहाँ daily power cut 4+ घंटे है, hybrid solar inverter with LFP battery on-grid से बेहतर investment है। DG generator cost eliminate होती है, [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy (solar components पर) मिलती है, और इस guide के illustrative scenarios में payback लगभग 4 से 4.4 साल है (DG fuel बचत मानकर)।
 
 ## UP-Bihar Ki Power Situation: Reality Check
 
 ### Load Shedding Data: State-wise Breakdown
 
-Table: Area-wise indicative daily outage aur solar recommendation (UP-Bihar; yeh DISCOM-published averages nahi hain, apne feeder ke actual ghante check karein)
+Table: Area-wise assumed daily outage aur solar recommendation (illustrative bands for planning; yeh DISCOM-published ya sourced averages nahi hain, apne feeder ke actual ghante check karein)
 
-| Area | Typical Daily Outage | Solar Recommendation |
+| Area | Assumed Daily Outage (illustrative) | Solar Recommendation |
 | --- | --- | --- |
 | Delhi NCR | <1 hour | On-grid |
 | Lucknow, Kanpur | 2-3 hours | On-grid or entry hybrid |
@@ -105,9 +103,9 @@ Table: Muzaffarpur-type ghar ka illustrative hybrid ROI (assumed inputs, not a q
 | Total monthly savings | ₹4,425 |
 | **Payback period** | **~52 months (4.4 years)**, 2,32,000 ÷ 4,425 = 52.4 months |
 
-Note: Bihar में 5.0-5.5 peak sun hours depending on district। Generation slightly varies।
+Note: 5.2 peak sun hours ek assumed input hai। Hamari [generation guide](/blog/how-much-electricity-solar-generates-india/) mein UP-Bihar ke liye approximate GHI 4.8-5.0 kWh/m²/day hai, isliye asli generation is table se kuch kam ho sakti hai।
 
-### Illustrative Scenario: Gorakhpur-type Ghar (PVVNL area, UP, 5 hrs daily cut)
+### Illustrative Scenario: Gorakhpur-type Ghar (PuVVNL area, UP, 5 hrs daily cut)
 
 Yeh bhi ek काल्पनिक scenario hai, real customer nahi, aur numbers assumed hain।
 
@@ -129,16 +127,17 @@ Table: Gorakhpur-type ghar ka illustrative hybrid ROI (assumed inputs, not a quo
 
 ### UPPCL: Uttar Pradesh
 
-UP में multiple [DISCOMs](/glossary/discom/) हैं। अपनी electricity bill से identify करें:
+UP में कई [DISCOMs](/glossary/discom/) हैं (नीचे मुख्य ज़िले दिए हैं; सीमाएँ बदलती रहती हैं, इसलिए अपनी bill से पक्का करें):
 
 Table: UP ke DISCOM aur unka coverage
 
 | DISCOM | Coverage |
 | --- | --- |
-| **PVVNL** (Purvanchal) | Gorakhpur, Varanasi, Allahabad, Azamgarh |
+| **PuVVNL** (Purvanchal) | Gorakhpur, Varanasi, Prayagraj (Allahabad), Azamgarh |
 | **MVVNL** (Madhyanchal) | Lucknow, Unnao, Rae Bareli, Sitapur |
+| **KESCO** | Kanpur city |
 | **DVVNL** (Dakshinanchal) | Agra, Mathura, Firozabad, Jhansi |
-| **PVVNL** (Paschimanchal) | Meerut, Moradabad, Bareilly, Saharanpur |
+| **PVVNL** (Paschimanchal) | Meerut, Moradabad, Saharanpur, Ghaziabad |
 
 ### BSPHCL: Bihar
 
@@ -146,8 +145,8 @@ Table: Bihar ke DISCOM aur unka coverage
 
 | DISCOM | Coverage |
 | --- | --- |
-| **NBPDCL** | Patna, Muzaffarpur, Darbhanga, Bhagalpur (North Bihar) |
-| **SBPDCL** | Gaya, Bhojpur, Rohtas, Aurangabad (South Bihar) |
+| **NBPDCL** | Muzaffarpur, Darbhanga, Samastipur, Purnea (North Bihar) |
+| **SBPDCL** | Patna, Gaya, Bhojpur, Rohtas, Aurangabad (South Bihar) |
 
 ### The UP/Bihar PM Surya Ghar Application Framework
 
@@ -156,8 +155,8 @@ Table: Bihar ke DISCOM aur unka coverage
 2. **pmsuryaghar.gov.in** पर register करें - correct DISCOM select करें
 3. **Aadhaar OTP verify करें**
 4. **Documents upload करें**: Bill, Aadhaar, PAN, bank passbook, property proof
-5. **Feasibility visit wait करें**: Urban: 2-3 weeks, Rural: 3-6 weeks
-6. **Installation**: 2-3 दिन
+5. **Feasibility approval का इंतज़ार करें**: DISCOM की approval के बाद ही installation शुरू करें
+6. **Installation**: DISCOM-empanelled vendor से
 7. **[Net metering](/glossary/net-metering/) application**: Immediately after installation
 8. **DISCOM inspection → Subsidy bank में**
 
@@ -200,7 +199,7 @@ UP-Bihar की electrical conditions:
 - **Wide input voltage range**: चौड़ी AC input range, exact model की datasheet के अनुसार (UPPCL-BSPHCL की voltage swings के लिए)
 - **[LFP battery](/glossary/lfp-battery/) compatibility**: LFP chemistry support mandatory (lead-acid se better)
 - **IP65/IP66**: Monsoon protection (both states have heavy monsoon)
-- **High ambient temperature rating**: 60°C internal, for 45°C+ summers
+- **High ambient temperature rating**: exact model की datasheet में rated ambient range और derating curve देखें (45°C+ summers के लिए)
 - **Seamless switchover**: Grid to battery < 20ms, sensitive equipment protect करे
 
 [How to choose hybrid solar inverter](/blog/how-to-choose-hybrid-solar-inverter/), detailed technical selection guide।
@@ -214,7 +213,7 @@ UP-Bihar की electrical conditions:
 ## Common Mistakes UP-Bihar Solar Applicants Mein
 
 - **On-grid system choose करना**: Power cut area में fundamental mismatch। Solar off during cuts।
-- **DISCOM confusion**: UP में 4 DISCOMs, Bihar में 2, wrong selection से consumer number fail
+- **DISCOM confusion**: UP में कई DISCOMs, Bihar में 2, wrong selection से consumer number fail
 - **Lead-acid battery**: Cheap initially, replace in 3-4 years। LFP lifetime better।
 - **Battery warranty without checking manufacturer**: Vendor name नहीं, manufacturer warranty चाहिए
 - **Oversized battery for small budget**: Start with 5 kWh, expand later if inverter supports it
@@ -234,8 +233,6 @@ UP-Bihar की electrical conditions:
 - **[Authorized Service Partners](/authorized-service-partners/)**: Current directory देखें, फिर exact location और service scope written form में confirm करें।
 - **[Solar battery backup calculator](/blog/solar-battery-backup-calculator/)**: Exact battery sizing
 
-According to [IEA India energy access report](https://www.iea.org/){target="_blank" rel="noopener"}, decentralised solar with storage is the most effective solution for states with high load shedding, UP और Bihar जैसे states में यह finding directly applicable है।
-
 [Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 ## Common Vendor Claims to Verify in UP-Bihar Market
@@ -250,10 +247,10 @@ Reality: Hybrid solar with 5 kWh battery covers 4-6 hours of essential loads. If
 > Reality: PM Surya Ghar subsidy covers solar inverter and panels only, not the battery. This is a common misrepresentation. Budget accordingly.
 
 **Claim: "Same quality as imported brands, half the price"**
-Reality: Verify ALMM listing, check warranty terms, ask for reference site visits. Quality shortcuts show up 2-3 years after installation.
+Reality: Modules ka ALMM listing verify karein, inverter ke certificates aur warranty terms check karein, reference site visits maangein। Quality ki kami baad mein saamne aa sakti hai।
 
 **Claim: "Net metering income will cover EMI"**
-Reality: In high-outage areas, on-grid solar export is limited (grid must be available for export). Net metering income in UP-Bihar is lower than Delhi or Karnataka. Calculate conservatively.
+Reality: In high-outage areas, on-grid solar export is limited (grid must be available for export). Calculate conservatively, aur apne DISCOM ke current net metering terms check karein।
 
 [Find reliable solar installer guide](/blog/find-reliable-solar-installer/), how to evaluate vendors in Tier 2 and Tier 3 cities.
 
@@ -261,7 +258,7 @@ Reality: In high-outage areas, on-grid solar export is limited (grid must be ava
 
 For UP-Bihar hybrid systems, battery specification requirements:
 
-Table: UP-Bihar hybrid system ke liye battery specification, minimum aur recommended
+Table: UP-Bihar hybrid system ke liye battery specification, is guide ke suggested checks (koi standard ya sourced minimum nahi)
 
 | Specification | Minimum | Recommended |
 | --- | --- | --- |
@@ -275,8 +272,6 @@ Table: UP-Bihar hybrid system ke liye battery specification, minimum aur recomme
 Bihar summers (45°C+) are hard on batteries. LFP handles heat better than NMC chemistry. Lead-acid degrades rapidly in high-heat environments. Insist on the battery specification in writing, in the contract, not just verbally.
 
 [Solar battery backup calculator](/blog/solar-battery-backup-calculator/), calculate exact battery size for your UP/Bihar district's outage hours and essential loads.
-
-According to [CEA's energy access data for UP-Bihar](https://cea.nic.in/){target="_blank" rel="noopener"}, rural electrification has expanded significantly but power quality remains a challenge. Hybrid solar addresses both quantity (generation) and quality (backup), making it the most complete solution for these states in 2026.
 
 ## Summary: UP-Bihar Hybrid Solar Decision Checklist
 

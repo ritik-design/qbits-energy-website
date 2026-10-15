@@ -1,6 +1,6 @@
 ---
 title: "Transformerless vs Transformer Solar Inverters"
-excerpt: "Transformerless inverters deliver 97–99% efficiency vs 94–96% for transformer-based designs, and dominate modern Indian solar projects. Here is what every EPC needs to know."
+excerpt: "Transformerless inverters typically list higher peak efficiency than transformer-based designs, and are widely used in modern Indian solar projects. Here is what every EPC needs to know."
 description: "EPC guide: transformerless vs transformer-based solar inverters, efficiency, weight, safety, BIS IS 16169 compliance, and when each design wins."
 category: Technology
 date: 2026-06-05
@@ -48,7 +48,7 @@ The reality is more nuanced. Transformerless design is not a cost-cutting measur
 > - Transformer-based units remain the right call for sites needing hard galvanic isolation, such as sensitive medical or lab equipment, pre-2018 DISCOM tenders that mandate isolation, and floating solar near water.
 > - MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Obtain current model-specific inverter certificates and confirm the applicable scheme and DISCOM requirements separately.
 
-> **Direct answer.** A [transformerless inverter](https://www.surgepv.com/blog/transformer-vs-transformerless-solar-inverter) delivers 97–99% peak efficiency versus 94–96% for transformer-based designs, weighs 30–50% less, and is permitted under the BIS inverter standards (IS 16169 and IS 16221, which adopt IEC 62116 and IEC 62109) for Indian grid-tied installations when the exact model is certified. The "4-Spec Comparison for Indian EPCs" framework (covering efficiency, weight, safety compliance, and tender eligibility) is the fastest way to choose the right topology for each project.
+> **Direct answer.** A [transformerless inverter](https://www.surgepv.com/blog/transformer-vs-transformerless-solar-inverter) typically has higher peak efficiency and lower weight than transformer-based designs (compare the datasheets of the exact models), and is permitted under the BIS inverter standards (IS 16169 and IS 16221, which adopt IEC 62116 and IEC 62109) for Indian grid-tied installations when the exact model is certified. The "4-Spec Comparison for Indian EPCs" framework (covering efficiency, weight, safety compliance, and tender eligibility) is the fastest way to choose the right topology for each project.
 
 The [galvanic isolation](/glossary/anti-islanding/) question is where most of the anxiety lives, and it deserves a direct answer before any technical comparison: modern transformerless inverters do not skip safety, they shift safety from hardware to software, and international standards confirm the outcome is equivalent.
 
@@ -77,7 +77,7 @@ The efficiency improvement is a direct consequence of removing the iron losses. 
 
 The [inverter efficiency](/glossary/inverter-efficiency/) gain is not uniform across the load curve. It is most pronounced at partial loads:
 
-Table: Transformer-based vs transformerless inverter efficiency at different load levels
+Table: Transformer-based vs transformerless inverter efficiency at different load levels (typical datasheet ranges; compare the exact models)
 
 | Load Level | Transformer-Based Efficiency | Transformerless Efficiency | Advantage |
 | --- | --- | --- | --- |
@@ -166,7 +166,7 @@ EPCs can confirm IS 16169 compliance from the BIS Test Certificate issued by a [
 
 ### IEC 62109
 
-[IEC 62109-1](/glossary/iec-62109/) (general) and IEC 62109-2 (grid-connected systems) are the parent international standards. Part 2, Clause 4.3.3 explicitly addresses transformerless inverters and requires: continuous isolation resistance monitoring, DC injection current limiting, and protective shutdown with the specified response times. A device that meets IEC 62109-2 is considered safe for grid connection under the standard's scope.
+[IEC 62109-1](/glossary/iec-62109/) (general) and IEC 62109-2 (grid-connected systems) are the parent international standards. Part 2 covers inverters, including protections that matter for designs without galvanic separation, such as isolation resistance monitoring and residual current detection; read the clause numbers and trip thresholds from your copy of the standard and from the model's test report. DC injection limiting is set separately by the grid connection rules (the CEA regulations cited above). A device with a test report to IEC 62109-2 has been tested against the standard's requirements for its scope.
 
 ### DISCOM Tender Specifications
 
@@ -231,7 +231,7 @@ Table: Pros and cons of transformer-based and transformerless inverters
 | | Pros | Cons |
 | --- | --- | --- |
 | **Transformer-Based** | ✓ Hard galvanic isolation ✓ Compatible with grounded arrays ✓ Meets pre-2018 tender specs | ✗ 2–4% lower efficiency ✗ 30–50% heavier ✗ Higher material cost ✗ Larger footprint |
-| **Transformerless** | ✓ 97–99% efficiency ✓ Lighter and compact ✓ Lower cost ✓ Meets IS 16169/IEC 62109 when the exact model is certified | ✗ Requires correct earthing ✗ Not suited for pre-2018 isolation-clause tenders ✗ PID risk if earthing is incorrect |
+| **Transformerless** | ✓ Higher peak efficiency (per datasheet) ✓ Lighter and compact ✓ Lower cost ✓ Meets IS 16169/IEC 62109 when the exact model is certified | ✗ Requires correct earthing ✗ Not suited for pre-2018 isolation-clause tenders ✗ PID risk if earthing is incorrect |
 
 ## Common Specification Mistakes EPCs Make: and How to Avoid Them
 

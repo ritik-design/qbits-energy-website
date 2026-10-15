@@ -48,7 +48,7 @@ Every solar installer in India quotes a generation number ("your 5 kW system wil
 > - Combined system losses (soiling, shading, inverter, DC cable, mismatch) typically total 10–18% of the gross benchmark yield.
 > - Inverter weighted-average efficiency alone can account for a 1 to 3 percentage-point swing in annual yield, worth tens of thousands of rupees over 12 years on a mid-size system.
 
-> **Direct answer.** Solar yield in India ranges from 1,200 kWh per kWp per year in eastern states to 1,800 kWh per kWp per year in Rajasthan, based on NREL NSRDB and IRENA irradiance data. Apply the 3-Factor Yield Verification Method (benchmark, losses, orientation) to sanity-check any installer's generation promise before you sign.
+> **Direct answer.** Solar yield in India ranges from 1,200 kWh per kWp per year in eastern states to 1,800 kWh per kWp per year in Rajasthan, as planning ranges derived from public irradiance datasets (NSRDB, NIWE) and the formula GHI × 365 × performance ratio; they are not guarantees or site measurements. Apply the 3-Factor Yield Verification Method (benchmark, losses, orientation) to sanity-check any installer's generation promise before you sign.
 
 The [solar yield](/glossary/solar-yield/) metric (formally called [specific yield](https://heavendesigns.in/glossary/specific-yield/)) normalises generation by capacity so a 3 kWp homeowner and a 500 kWp factory manager can use the same benchmark table. This guide gives you that table for every major Indian state, explains what drives the numbers up or down, and shows you exactly how to use the benchmark to evaluate a quote. The underlying [state-wise solar irradiance data](/blog/solar-irradiance-data-india-statewise/) that these yield figures are derived from is covered in a companion reference for readers who want the raw GHI numbers behind each benchmark.
 
@@ -80,7 +80,7 @@ These four metrics describe the same plant from different angles. Specific yield
 
 India spans 30 degrees of latitude and contains climatic zones from hyper-arid desert to humid tropical coast. This creates a 50 percent spread in annual solar yield, from around 1,200 kWh/kWp in the north-eastern states to 1,800 kWh/kWp in western Rajasthan.
 
-> **1,200 to 1,800 kWh/kWp/year.** That is India's rooftop solar yield range, based on NREL NSRDB long-term irradiance data. The median for the Indo-Gangetic plain and peninsular India sits at 1,400 to 1,550 kWh/kWp, meaning most Indian buyers should plan around 1,400 to 1,500 kWh/kWp for a well-designed system. *Source - [NREL National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/), 2026.*
+> **1,200 to 1,800 kWh/kWp/year.** This guide's planning range for India's fixed-tilt rooftop yield by state, from the table below (approximate values, not measurements). The middle of the range, 1,400 to 1,500 kWh/kWp, is a sensible starting point for a well-designed system; replace it with a simulation for your exact site from [PVGIS](https://re.jrc.ec.europa.eu/pvg_tools/en/) or the [Global Solar Atlas](https://globalsolaratlas.info/).
 
 The national average is often cited at 1,500 kWh/kWp, which is a reasonable planning number for the Deccan plateau and most of peninsular India. However, applying a national average to a specific project in Kolkata or Shillong will overestimate generation by 15 to 20 percent, a meaningful error when calculating payback or sizing battery storage.
 
@@ -96,7 +96,7 @@ For C&I projects above 100 kWp, bankable yield studies typically use Solargis or
 
 The following table gives fixed-tilt rooftop yield benchmarks for major Indian states. These figures assume south-facing panels at optimal tilt, monthly cleaning, no significant shading, and a good-quality inverter operating at 95 to 97 percent weighted average efficiency. The benchmark is a gross figure before accounting for soiling variation, specific shading conditions, or suboptimal orientation.
 
-Table: Fixed-tilt rooftop solar yield benchmarks by Indian state (NREL NSRDB, IRENA Global Atlas, NIWE)
+Table: Fixed-tilt rooftop solar yield planning ranges by Indian state (approximate values used in this guide; verify your site on PVGIS or Global Solar Atlas)
 
 | State | Annual GHI (kWh/m²) | Rooftop Yield Range (kWh/kWp/yr) | Benchmark Mid-point |
 | --- | --- | --- | --- |
@@ -120,14 +120,14 @@ Table: Fixed-tilt rooftop solar yield benchmarks by Indian state (NREL NSRDB, IR
 | West Bengal | 1,500 – 1,680 | 1,200 – 1,300 | 1,250 |
 | Assam / NE States | 1,200 – 1,500 | 1,150 – 1,300 | 1,225 |
 
-Sources: [NREL NSRDB](https://nsrdb.nrel.gov/), [IRENA Global Atlas](https://www.irena.org/Data/View-data-by-topic/Energy-Transition/REmap), [NIWE Solar Resource Atlas](https://niwe.res.in/).
+These state figures are this guide's approximate planning ranges. For your site use [PVGIS](https://re.jrc.ec.europa.eu/pvg_tools/en/) or the [Global Solar Atlas](https://globalsolaratlas.info/), and see the formula-based state table in [how much electricity solar generates in India](/blog/how-much-electricity-solar-generates-india/).
 
 ```chart
 type: hbar
 title: Rooftop solar yield range for selected Indian states, kWh per kWp per year
 unit: "kWh/kWp"
-source: "Fixed-tilt rooftop yield benchmarks in this article's state table, derived from NREL NSRDB, IRENA Global Atlas and NIWE Solar Resource Atlas data (2026)"
-sourceUrl: https://nsrdb.nrel.gov/
+source: "Approximate fixed-tilt rooftop yield planning ranges from this article's state table (not measured data); check your site on the Global Solar Atlas"
+sourceUrl: https://globalsolaratlas.info/
 note: "Selected states from the table above. Benchmarks assume south-facing panels at optimal tilt, monthly cleaning and no significant shading."
 decimals: 0
 data:
@@ -176,7 +176,7 @@ Benchmark yields describe a clean, unshaded, correctly oriented system under ave
 
 ### Soiling Losses: India's Biggest Yield Killer
 
-India's combination of dust, agricultural residue, bird activity, and industrial fallout makes soiling the single largest source of generation loss for most rooftop systems. Research published by [IRENA on renewable power generation costs](https://www.irena.org/publications/2025/Jun/Renewable-power-generation-costs-in-2024) and field studies from India-based EPCs document the following loss ranges:
+India's combination of dust, agricultural residue, bird activity, and industrial fallout makes soiling the single largest source of generation loss for most rooftop systems. The planning ranges below are this guide's assumptions, not measured results, and your own monitoring data will show the real figure:
 
 - **Rajasthan / Gujarat (arid)**: 3 to 5 percent per month without cleaning; annual soiling loss of 10 to 15 percent with monthly cleaning.
 - **Punjab / Haryana (agricultural)**: 4 to 6 percent per month in post-harvest periods; 8 to 12 percent annually with bi-weekly cleaning during peak dust months.
@@ -311,7 +311,7 @@ Every rupee in the financial case for solar depends on the yield estimate being 
 
 That 9-month optimism feels small at signing. Three years into operation, when actual generation is running 20 percent below promise, it does not feel small to the buyer. Accurate yield benchmarks protect buyers from this outcome and protect installers from disputes. C&I buyers modelling this trade-off at project scale often run the numbers through a dedicated [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) rather than a static spreadsheet, since IRR and payback are sensitive to small changes in the yield assumption. The [net metering framework](/blog/net-metering-india-complete-guide/) in most states also depends on accurate yield estimates to determine the export credit the buyer will receive, making precision doubly important.
 
-> **India added 24.5 GW of new solar capacity in 2025**, according to [JMK Research India's solar market tracker](https://jmkresearch.com/), bringing cumulative installed capacity above 100 GW. The scale of this expansion means hundreds of thousands of buyers are receiving generation promises every month, and most have no tool to verify them. *Source, JMK Research, 2026.*
+> **171.05 GW.** India's installed solar capacity on 30 September 2026, of which 33.41 GW was grid-connected rooftop (MNRE data via [Saur Energy](https://www.saurenergy.com/solar-energy-news/india-adds-2456-gw-renewable-energy-capacity-in-h1-fy-2026-27-12637483), 8 October 2026). The scale of this expansion means many buyers are receiving generation promises every month, and most have no tool to verify them.
 
 The [Capacity Utilisation Factor (CUF)](/glossary/cuf/) provides a related check: a system promised at 1,500 kWh/kWp annual yield implies a CUF of 1,500 ÷ 8,760 = 17.1 percent. MNRE benchmarks for grid-connected rooftop solar in peninsular India target CUF of 15 to 19 percent. A quoted CUF outside this range for a standard rooftop deserves explanation.
 

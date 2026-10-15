@@ -205,7 +205,7 @@ Indian LFP residential packs, including [Pylontech](/blog/pylontech-battery-indi
 
 Premium packs and EV packs increasingly use active balancing.
 
-IS 16893 certification is where balancing function is verified.
+Balancing function is verified in the pack's own BMS test report and the safety standard the exact model is tested to, such as IEC 62619; ask the supplier for it.
 
 Major Indian BMS manufacturers (Inverted Energy, Battrixx, Numeros) support both methods.
 
@@ -216,7 +216,7 @@ Table: Standards that cover BMS and balancing function
 | Standard | Scope |
 |---|---|
 | IEC 62619 | Battery safety includes BMS function |
-| IS 16893 | Indian stationary storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | Manufacturer BMS specifications | Balancing algorithm details |
 
 ## Key takeaways
@@ -235,7 +235,7 @@ For how Cell Balancing plays out in real projects, these guides go deeper:
 ## Sources
 
 - IEC 62619, Industrial lithium safety.
-- IS 16893, Indian stationary storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - Plett G. L., Battery Management Systems, Artech House.
 - IEEE Power Electronics Society publications on BMS.
 - NREL BMS Studies.

@@ -17,7 +17,7 @@ quickFacts:
   industry: "Energy Storage / Battery Technology"
   primaryUse: "Stationary and mobile energy storage"
   commonUsers: "Hybrid solar customers, EVs, utility storage, telecom, consumer electronics"
-  relevantStandards: "IEC 62619, IEC 62620, IS 16893, UN 38.3, UL 1973"
+  relevantStandards: "IEC 62619, IEC 62620, UN 38.3, UL 1973"
   relatedTechnologies: "LFP, NMC, BMS, lithium-titanate, sodium-ion"
 relatedTerms:
   - { slug: "lfp-battery", term: "LFP Battery" }
@@ -269,7 +269,7 @@ Table: Standards that cover lithium-ion batteries for solar storage
 |---|---|
 | IEC 62619 | Safety of secondary lithium cells and batteries |
 | IEC 62620 | Performance of lithium-ion cells |
-| IS 16893 | Indian Standard for stationary battery storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | UN 38.3 | Transport safety |
 | UL 1973 | Stationary applications |
 | UL 9540 | Energy storage system safety |
@@ -307,7 +307,7 @@ For how Lithium Ion Battery plays out in real projects, these guides go deeper:
 
 - IEC 62619:2017, Safety requirements for secondary lithium cells and batteries.
 - IEC 62620, Performance requirements for lithium-ion cells.
-- IS 16893, Indian Standard for stationary battery storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - UL 1973, UL 9540, energy storage safety standards.
 - Battery Waste Management Rules 2022, Ministry of Environment, Forest and Climate Change.
 - PLI Scheme for Advanced Chemistry Cells, Ministry of Heavy Industries.

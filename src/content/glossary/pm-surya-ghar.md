@@ -186,7 +186,7 @@ Substantial subsidy reducing payback to under 4 years.
 
 Standardised application portal across states.
 
-Mandatory ALMM compliance ensures equipment quality.
+Mandatory ALMM compliance for modules ensures module quality.
 
 Net metering coordination built into the workflow.
 
@@ -220,7 +220,7 @@ Bank account mismatch between portal and DISCOM records.
 
 Subsidy disbursement delay beyond the stated 30-day window.
 
-Non-ALMM equipment installed by mistake, voiding subsidy.
+Non-ALMM modules installed by mistake, voiding subsidy.
 
 Society NOC complications for individual flat owners.
 
@@ -272,7 +272,7 @@ Table: Standards and documents relevant to PM Surya Ghar
 | Standard | Scope |
 |---|---|
 | MNRE Scheme Guidelines | PM Surya Ghar framework |
-| MNRE ALMM | Equipment eligibility |
+| MNRE ALMM | Module eligibility |
 | CEA Smart Meter Regulations 2023 | Meter standards |
 | State SERC net metering regulations | Billing framework |
 | IS 16221 | Inverter safety |
@@ -282,14 +282,14 @@ Table: Standards and documents relevant to PM Surya Ghar
 ## Common mistakes
 
 > [!WARNING] Two mistakes that deny the subsidy
-> Engaging a non-empanelled vendor expecting subsidy, or buying non-ALMM equipment to save cost, means the subsidy is denied. Check the vendor on the portal and the module against the current ALMM list before you sign.
+> Engaging a non-empanelled vendor expecting subsidy, or buying non-ALMM modules to save cost, means the subsidy is denied. Check the vendor on the portal and the module against the current ALMM list before you sign.
 
 Table: Common PM Surya Ghar mistakes and their consequences
 
 | Mistake | Consequence |
 | --- | --- |
 | Engaging a non-empanelled vendor expecting subsidy | Subsidy is denied |
-| Buying non-ALMM equipment to save cost | Subsidy is denied |
+| Buying non-ALMM modules to save cost | Subsidy is denied |
 | Skipping the DISCOM technical feasibility step | Application is rejected |
 | Installing before the portal registration | Subsidy may be denied |
 | Missing the commissioning report upload | Subsidy disbursement stalls |
@@ -298,7 +298,7 @@ Table: Common PM Surya Ghar mistakes and their consequences
 
 ## Key takeaways
 
-PM Surya Ghar Muft Bijli Yojana is India's most significant residential rooftop solar scheme to date, with central subsidy up to ₹78,000 and a target of 10 million homes by 2027. Successful execution depends on the centralised portal, empanelled vendors, ALMM-listed equipment, smart meter installation and DISCOM coordination. Typical payback under the scheme is 2.5 to 4 years.
+PM Surya Ghar Muft Bijli Yojana is India's most significant residential rooftop solar scheme to date, with central subsidy up to ₹78,000 and a target of 10 million homes by 2027. Successful execution depends on the centralised portal, empanelled vendors, ALMM-listed modules, smart meter installation and DISCOM coordination. Typical payback under the scheme is 2.5 to 4 years.
 
 ## Further reading
 

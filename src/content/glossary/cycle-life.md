@@ -17,7 +17,7 @@ quickFacts:
   industry: "Battery Storage Engineering"
   primaryUse: "Lifecycle planning and warranty terms"
   commonUsers: "EPCs, customers, manufacturers, financiers"
-  relevantStandards: "IEC 61960, IEC 62620, IS 16893"
+  relevantStandards: "IEC 61960, IEC 62620"
   relatedTechnologies: "LFP, NMC, lead acid, BMS"
 relatedTerms:
   - { slug: "battery-dod", term: "Battery DOD" }
@@ -259,7 +259,7 @@ Telecom operators planning 15 to 20 year tower lifespans select LFP for cycle li
 
 Utility-scale storage RFPs increasingly specify minimum cycle life as 6,000 cycles for solar firming applications.
 
-IS 16893 standard references cycle life testing methodology aligned with IEC 61960.
+Cycle-life testing methods are set out in IEC 61960 and the cell maker's datasheet; IS 16893 covers EV propulsion cells and is not the stationary-storage standard.
 
 ## Standards and certifications
 
@@ -269,7 +269,7 @@ Table: Standards and terms that define battery cycle life
 |---|---|
 | IEC 61960 | Performance of secondary lithium cells |
 | IEC 62620 | Performance of lithium cells for industrial applications |
-| IS 16893 | Indian stationary battery storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | IEC 60896 | Stationary lead acid |
 | IEEE 1187 | Lead acid sizing |
 | Manufacturer warranty terms | Cycle count under specified conditions |
@@ -305,7 +305,7 @@ For how Cycle Life plays out in real projects, these guides go deeper:
 
 - IEC 61960:2017, Performance requirements for secondary lithium cells.
 - IEC 62620, Performance of lithium cells for industrial applications.
-- IS 16893, Indian Standard for stationary battery storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - IEC 60896, Stationary lead acid batteries.
 - Manufacturer warranty documents from leading LFP and NMC suppliers.
 - Plett G. L., Battery Management Systems, Volume I and II, Artech House.

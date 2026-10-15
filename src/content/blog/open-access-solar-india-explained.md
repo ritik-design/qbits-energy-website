@@ -37,16 +37,15 @@ featured: false
 
 > **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
-A factory owner in Coimbatore pays Rs 9.50 per unit to the [DISCOM](/glossary/discom/). A solar park 200 km away offers the same electron for Rs 3.75. That gap is the entire business case for [open access](https://quickestimate.co/blog/almm-list-2-exemption-net-metering-open-access-2026) solar in India. C&I open access additions hit 7.8 GW in 2025, according to Mercom India (2026). Open access lets a commercial or industrial consumer buy solar power from an off-site plant. The grid delivers it to your premises, and you build nothing on your own roof.
+A factory owner in Coimbatore pays Rs 9.50 per unit to the [DISCOM](/glossary/discom/). A solar park 200 km away offers the same electron for Rs 3.75. That gap is the entire business case for [open access](https://quickestimate.co/blog/almm-list-2-exemption-net-metering-open-access-2026) solar in India. Open access lets a commercial or industrial consumer buy solar power from an off-site plant. The grid delivers it to your premises, and you build nothing on your own roof.
 
 The catch: Rs 3.75 is not what lands on your bill. Between the solar park and your meter sits a stack of regulated charges. Wheeling, [cross-subsidy surcharge](https://www.heavengreenenergy.com/glossary/cross-subsidy-surcharge), additional surcharge, banking, and scheduling fees all apply. In a friendly state the stack adds Rs 1.50 to Rs 2.50 per unit. In a hostile one it adds Rs 3.50 or more and kills the deal. This guide covers what open access is and who qualifies. It also covers every charge, the [group captive](https://www.heavengreenenergy.com/blog/group-captive-detailed) versus [third-party PPA](https://www.heavengreenenergy.com/blog/captive-solar-vs-third-party-ppa-roi) decision, worked savings math, and the states worth the effort in 2026.
 
 > [!KEYTAKEAWAYS]
 > - Open access lets C&I consumers buy off-site solar via the grid. Green open access eligibility dropped from 1 MW to 100 kW under the Green Energy Open Access Rules 2022, according to the Ministry of Power (2022).
-> - C&I open access solar additions reached 7.8 GW in 2025, according to Mercom India (2026).
 > - The charge stack (wheeling, CSS, additional surcharge, banking) adds Rs 1.50 to Rs 3.50 per kWh on top of the PPA tariff, depending on the state.
 > - Group captive projects are exempt from cross-subsidy surcharge, typically landing power Rs 1.50 to Rs 2.00 per kWh cheaper than third-party PPAs.
-> - Landed open access costs rose in 12 of 15 tracked states in Q4 2025 as PPA tariffs firmed up, according to Mercom India (2026).
+> - Open access economics differ by state: wheeling, banking and cross-subsidy charges are set by each state commission, so model your state's current order.
 > - Typical C&I savings run 25% to 45% versus grid tariffs. A 1 MW contract saves roughly Rs 30 to 60 Lakh per year depending on structure and state.
 
 **Short version.** Open access solar in India means buying solar power from an off-site plant, delivered to your factory through the grid. You pay a PPA tariff plus state-set network charges. Any consumer with a connected load of 100 kW or more qualifies in most states. Savings of 25% to 45% versus grid tariffs are achievable. You must model wheeling, cross-subsidy surcharge, and banking charges for your state first, then pick the right structure.
@@ -116,7 +115,7 @@ Table: Third-party PPA, group captive and single captive structures compared
 
 **Group captive** requires consumers to hold at least 26% equity in the project company. They must also consume at least 51% of generation. These are the two captive tests under the Electricity Rules. The payoff is exemption from CSS, worth Rs 1.50 to Rs 2.00 per kWh in most states. A typical shape is five factories each subscribing 1 to 3 MW.
 
-A recent policy shift makes group captive easier. The Ministry of Power now lets the 51% consumption test be met collectively by the group, according to Mercom India (2026). Earlier, strict per-member proportionality applied. One member's minor deviation could strip captive status from the whole project and trigger retroactive CSS. That enforcement risk has materially reduced.
+Group captive status depends on the consumption and ownership tests in the current Electricity Rules, and a member's deviation can put captive status, and the exemption from cross-subsidy surcharge, at risk. Check the current rules and your state commission's order with your advisers before you sign.
 
 **Single captive** suits large consumers, typically 5 MW and above, who can deploy Rs 3.5 to 4.5 Crore per MW of equity. The [solar IRR and payback analysis for C&I](/blog/solar-irr-payback-ci-india/) models the ownership returns.
 
@@ -183,14 +182,14 @@ For context, the [solar vs diesel generator cost analysis](/blog/solar-vs-diesel
 
 Open access economics are decided in state tariff orders, not in the PPA. Here is the current read on major industrial states, compiled from SERC orders and market trackers.
 
-- **Karnataka.** The friendliest large market. Wheeling is Rs 0.29 per kWh for HT, the developer ecosystem is mature, and solar land is abundant. KERC has published a draft roadmap to phase out cross-subsidy and CSS by FY 2029, according to Mercom India (2025). The long-term regulatory direction favours buyers.
+- **Karnataka.** The friendliest large market. Wheeling is Rs 0.29 per kWh for HT, the developer ecosystem is mature, and solar land is abundant. Check KERC's current orders for the cross-subsidy surcharge before modelling.
 - **Gujarat.** Stable and predictable. HT energy charges have stayed flat at Rs 4.30 per unit for three consecutive years under GERC. The grid baseline lands at Rs 7.50 to 8.50. Banking at Rs 1.50 per kWh is the main cost to model. Strong for rooftop-plus-open-access hybrid strategies.
 - **Maharashtra.** Large C&I base with moderate charges. Wheeling is Rs 0.60 HT and CSS sits near Rs 1.60. Third-party PPAs still save Rs 2 or more per unit. Group captive is compelling.
 - **Tamil Nadu.** Rich solar resource but a heavy charge stack. Wheeling is Rs 1.03 and CSS is Rs 2.06 for FY 2026-27 under TNERC. Third-party economics are thin. Group captive and intra-state captive structures dominate here.
-- **Rajasthan, Telangana, Andhra Pradesh.** Attractive on the generation side with reasonable consumer-side charges. Telangana's landed costs fell in Q4 2025 on lower open access charges, according to Mercom India (2026).
+- **Rajasthan, Telangana, Andhra Pradesh.** Attractive on the generation side with reasonable consumer-side charges. Check each state commission's current open access charges.
 - **Uttar Pradesh, Madhya Pradesh, Odisha.** Emerging markets. Odisha offers a 50% CSS concession for renewable open access under its 2022 RE policy, according to the OERC order for FY 2025-26. UP remains paperwork-heavy but the demand base is large.
 
-The overall trend is worth noting. Landed open access costs rose in 12 of 15 tracked states in Q4 2025, according to Mercom India (2026). PPA tariffs firmed up across the market. The window where every state deal pencilled easily is closing. State selection now matters as much as tariff negotiation.
+The overall trend is worth noting. Landed open access costs differ by state and change with each commission order and PPA tariff, so state selection matters as much as tariff negotiation.
 
 These figures shift every April when new tariff orders take effect. Build an annual review into your procurement calendar. Pull the latest SERC tariff order each year, update the charge stack in your model, and re-check the saving delta. A contract signed in 2026 will live through twenty such orders.
 

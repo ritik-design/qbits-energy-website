@@ -16,7 +16,7 @@ keywords:
   - inverter installation india
 faqs:
   - q: "What's the typical residential inverter integration timeline?"
-    a: "1-2 days for on-grid systems including mechanical installation, DC and AC wiring, configuration, monitoring setup, and performance validation. Hybrid systems add approximately 0.5-1 day for battery installation, BMS configuration, and operating mode programming. Commercial installations of 25 kW or larger typically require 2-4 days. The timeline excludes DISCOM net metering approval which is a separate parallel process with state-specific timelines."
+    a: "As an indicative estimate (not a guarantee; get a written schedule), 1-2 days for on-grid systems including mechanical installation, DC and AC wiring, configuration, monitoring setup, and performance validation. Hybrid systems add approximately 0.5-1 day for battery installation, BMS configuration, and operating mode programming. Commercial installations of 25 kW or larger typically require 2-4 days. The timeline excludes DISCOM net metering approval which is a separate parallel process with state-specific timelines."
   - q: "Is DISCOM approval required for grid-connected solar installations?"
     a: "Yes. A grid-connected system needs the DISCOM's approval before it is commissioned or exports power, under the CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations and the state's net-metering and connection rules. The process normally covers a technical feasibility check, an application with documents such as the single-line diagram and equipment datasheets and certificates, inspection, net-meter installation and written permission to synchronise. Forms, fees and timelines vary by DISCOM, so do not energise or export before approval is in hand."
   - q: "What panel compatibility do modern inverters support?"
@@ -32,7 +32,7 @@ faqs:
   - q: "What documentation must be completed at integration handover?"
     a: "Six documents minimum: (1) Commissioning report with all electrical test results and measured values. (2) Digital warranty registration with serial number and commissioning timestamp. (3) BIS and IEC certificates for the installed equipment. (4) As-built electrical drawings reflecting actual installation. (5) Photographic record of cable terminations, sealing, mounting, and earth connections. (6) Customer handover package including user manual, monitoring app credentials, maintenance schedule, and emergency contact list. Without this documentation, warranty claims 2-3 years later face material resistance."
   - q: "How does Indian grid instability affect inverter integration design?"
-    a: "Significantly. Indian grid conditions include voltage swings of +/-15-20% from nominal, frequency variations during peak demand, switching transients from DISCOM substation operations, and occasional outages requiring islanding response. Integration design must account for: wide grid voltage tolerance (+/-15-20%) in inverter selection, robust SPD specification on both DC and AC sides, anti-islanding protection within 2 seconds per IEC 61727, and stable grid synchronisation algorithms. State-specific grid code requirements add additional constraints."
+    a: "Significantly. Indian grid conditions can include wide voltage swings, frequency variations during peak demand, switching transients from DISCOM substation operations, and occasional outages requiring islanding response. Integration design must account for: a voltage tolerance window in inverter selection that matches your feeder (read it from the datasheet and measure your supply), robust SPD specification on both DC and AC sides, anti-islanding protection within 2 seconds per IEC 61727, and stable grid synchronisation algorithms. State-specific grid code requirements add additional constraints."
 updatedDate: 2026-10-14
 ---
 
@@ -284,14 +284,12 @@ Table: Quick reference specifications for inverter integration in India
 
 | Item | Specification |
 | --- | --- |
-| Residential timeline (on-grid) | 1-2 days |
-| Residential timeline (hybrid) | 1.5-3 days |
-| Commercial timeline (25-100 kW) | 2-4 days |
+| Installation timeline | Depends on system size and site; get a written schedule from the installer |
 | Earth resistance | <5 ohms per IS 3043 |
 | Insulation resistance | >1 megohm |
 | Panel wattage support | Up to 750W standard |
 | DC oversizing | 130-150% optimal |
-| Voltage tolerance | +/-15-20% wide tolerance |
+| Voltage tolerance | Wide window; match the datasheet to your measured supply |
 | Anti-islanding | <2 seconds per IEC 61727 |
 | Warranty remedy | Repair, replacement or credit, as set out in the written warranty for the exact model |
 

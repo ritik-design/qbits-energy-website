@@ -252,7 +252,7 @@ Discount rate is the rate converting future cash flows to present value, embeddi
 
 For how Discount Rate plays out in real projects, these guides go deeper:
 
-- [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/)
+- [LCOE of Solar in India: ₹4.8/kWh for a 50 kW C&I Plant](/blog/lcoe-solar-india/)
 - [Solar IRR and Payback for C&I in India, Real Math](/blog/solar-irr-payback-ci-india/)
 - [Most Reliable Solar Inverter in India (2026)](/blog/most-reliable-solar-inverter-india/)
 - [Best Solar Design Software New Zealand: 2026 Guide](/blog/solar-design-software-new-zealand/)

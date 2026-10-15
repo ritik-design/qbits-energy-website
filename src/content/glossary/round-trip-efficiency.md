@@ -204,8 +204,6 @@ Major Indian LFP brands publish system RTE in datasheets.
 
 Hybrid inverter manufacturers report PCS efficiency.
 
-BESS VGF scheme implicitly assumes 90%+ system RTE.
-
 Real-world Indian residential RTE: 85-90 percent typical, a figure worth checking against manufacturer claims when comparing the [best hybrid solar inverters in India](/blog/best-hybrid-solar-inverter-india-2026/).
 
 ## Standards and certifications
@@ -216,7 +214,7 @@ Table: Standards and datasheets behind RTE figures
 |---|---|
 | IEC 61960 | Cell performance |
 | IEC 62619 | Battery safety |
-| IS 16893 | Indian stationary storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | Manufacturer datasheets | System RTE specifications |
 
 ## Key takeaways
@@ -236,7 +234,7 @@ For how Round Trip Efficiency plays out in real projects, these guides go deeper
 
 - IEC 61960, Cell performance.
 - IEC 62619, Battery safety.
-- IS 16893, Indian stationary storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - Manufacturer datasheets from Pylon Tech, BYD, Goodwe.
 - NREL Battery Performance Studies.
 - BloombergNEF Storage Technology Outlook.

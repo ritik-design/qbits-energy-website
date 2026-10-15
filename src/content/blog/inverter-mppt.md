@@ -222,7 +222,7 @@ Many Indian makers now advertise 10 to 12 year warranties, so read what a [12-ye
 
 ### Worked Example: 10 kW Dual-Orientation Rooftop in Ahmedabad
 
-Consider a 10 kW residential rooftop split across south-facing (6 kWp) and east-facing (4 kWp). Panels: 500W modules with Voc 49.5V, Vmpp 41.2V. Min site temperature 5°C; max panel temperature 75°C. This is exactly the kind of calculation a rooftop detailed engineering design package should document before installation begins.
+Consider a 10 kW residential rooftop split across south-facing (6 kWp) and east-facing (4 kWp). Panels: 500W modules with Voc 49.5V, Vmpp 41.2V, so the south slope carries 12 panels (6 kWp) and the east slope 8 panels (4 kWp), one string each. Min site temperature 5°C; max panel temperature 75°C. This is exactly the kind of calculation a rooftop detailed engineering design package should document before installation begins.
 
 **Temperature-corrected Voc at 5°C:**
 
@@ -231,17 +231,21 @@ Consider a 10 kW residential rooftop split across south-facing (6 kWp) and east-
 
 ```
 49.5V × (1 + 0.003 × (25 − 5)) = 52.5V per panel
-12-panel string = 630V max → must stay below inverter max (typically 1000V)
+South string, 12 panels = 630V cold Voc
+East string, 8 panels = 420V cold Voc
+Both must stay below the inverter's absolute maximum DC voltage (read it from the datasheet)
 ```
 
 **Temperature-corrected Vmpp at 75°C:**
 
 ```
 41.2V × (1 − 0.003 × (75 − 25)) = 35.0V per panel
-12-panel string = 420V min operating voltage → must fall within MPPT range
+South string, 12 panels = 420V at 75°C
+East string, 8 panels = 280V at 75°C
+Both must fall within the MPPT operating range; the lower limit is set by the east string
 ```
 
-This system requires a **dual-MPPT inverter** with an MPPT range covering 420V–630V, **global MPPT** for the east-facing slope (afternoon shading from the south slope's structure), and **per-channel monitoring** to track the performance difference between orientations.
+Each string also needs its own tracker because the two slopes see different irradiance, and their voltages differ (420V and 280V at 75°C). This system requires a **dual-MPPT inverter** whose MPPT window reaches down to at most 280V and whose absolute maximum DC voltage exceeds 630V, **global MPPT** for the east-facing slope (afternoon shading from the south slope's structure), and **per-channel monitoring** to track the performance difference between orientations.
 
 ### Hybrid Inverter MPPT Considerations
 

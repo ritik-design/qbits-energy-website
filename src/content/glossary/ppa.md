@@ -308,7 +308,7 @@ For how Power Purchase Agreement plays out in real projects, these guides go dee
 
 - [Solar RESCO Model India: Guide for C&I Buyers](/blog/solar-resco-model-india-guide/)
 - [Zero Cost Solar India: RESCO & OPEX Models](/blog/zero-cost-solar-resco-opex-india/)
-- [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/)
+- [LCOE of Solar in India: ₹4.8/kWh for a 50 kW C&I Plant](/blog/lcoe-solar-india/)
 - [Solar CAPEX vs OPEX: The C&I Buyer Decision Guide](/blog/solar-capex-vs-opex-business-india/)
 
 ## Sources

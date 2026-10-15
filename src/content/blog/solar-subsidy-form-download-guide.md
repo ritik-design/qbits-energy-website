@@ -44,7 +44,7 @@ Searching for a solar panel subsidy form download leads most homeowners to a tan
 > - The application has seven sections: registration, connection details, system specification, document upload, bank details, installer selection, and declaration.
 > - Completing it takes 20 to 40 minutes with pre-scanned documents ready; unprepared applicants average 90 to 120 minutes with more errors.
 > - The most common rejection triggers are consumer-number-vs-account-number mix-ups, non-Aadhaar-linked bank accounts, and non-ALMM equipment selection.
-> - Typical end-to-end timeline from submission to subsidy bank credit is 45 to 90 days, per Mercom India's Q1 2026 tracking.
+> - No single national end-to-end timeline is published; the subsidy credit after commissioning is commonly reported as about 30 days (confirm on the portal).
 
 > **Direct answer.** The PM Surya Ghar solar panel subsidy form is filled entirely online at pmsuryaghar.gov.in, there is no standalone PDF to download for the central scheme. After Aadhaar eKYC registration, the application captures your electricity bill details, personal documents, proposed system capacity, installer selection, and bank account for Direct Benefit Transfer. This guide walks through every field, describes common errors, and explains what confirmation to expect at each stage using the 5-Stage Application Tracker framework.
 
@@ -241,9 +241,9 @@ Once submitted, your application moves through five defined stages. Tracking the
 2. **Site Inspection**: a field officer visits your property or conducts a remote drone survey. They assess roof suitability, structural integrity, and grid connectivity. Expected duration: 15 to 30 working days from document approval. Action needed: ensure roof access is available and an adult is home if a physical inspection is scheduled.
 3. **Technical Feasibility Approval**: the DISCOM issues a formal approval letter, uploaded to your dashboard. This authorises your installer to begin work. Expected duration: 5 to 10 working days after inspection. Action needed: notify your installer immediately upon approval.
 4. **Installation and Net Meter Commissioning**: your installer proceeds with physical installation, then uploads the completion report and system photographs. The DISCOM schedules net meter installation. Expected duration: 30 to 60 days. Action needed: pay the installer as per your agreement; follow up if completion report upload is delayed.
-5. **Subsidy Disbursal**: after the commissioning certificate is uploaded, MNRE processes the DBT via PFMS. Expected duration: 20 to 30 working days after commissioning certificate. Action needed: none, monitor your bank account for the credit.
+5. **Subsidy Disbursal**: after the commissioning certificate is uploaded, MNRE processes the DBT via PFMS. Expected duration: commonly reported as about 30 days after the commissioning certificate (confirm on the portal). Action needed: none, monitor your bank account for the credit.
 
-> **45 to 90 days.** The typical end-to-end timeline from solar panel subsidy form submission to subsidy bank credit, based on applicant experience compiled by [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"} in their Q1 2026 India Solar Market Report. Gujarat and Rajasthan average 45 to 60 days; Uttar Pradesh and Bihar average 70 to 90 days due to DISCOM capacity constraints.
+> **About 30 days.** The subsidy credit after commissioning is commonly reported as about 30 days (secondary reports; confirm on pmsuryaghar.gov.in). No single national end-to-end timeline from form submission to credit is published, and DISCOM stages vary by state.
 
 ## Escalation if the Form or Process Stalls
 
@@ -252,7 +252,7 @@ If your application shows no movement for more than 30 working days at any stage
 - **"Raise Grievance"** on the portal, under the "Help" menu. Carries a mandatory 30-day resolution obligation on the DISCOM.
 - **National helpline 1800-180-3333**: toll-free, Monday to Saturday, 9 AM to 6 PM. Have your Application ID ready.
 - **State Nodal Agency**: each state's SREDA or energy department has a dedicated PM Surya Ghar officer for escalated cases.
-- **SERC complaint**: for persistent DISCOM non-compliance, a consumer complaint to the State Electricity Regulatory Commission under Section 42 of the Electricity Act 2003. Contact details for all SERCs are available at [cerc.gov.in](https://www.cerc.gov.in/){target="_blank" rel="noopener"}.
+- **SERC complaint**: for persistent DISCOM non-compliance, a consumer complaint to the State Electricity Regulatory Commission under Section 42 of the Electricity Act 2003. Your state's SERC website lists its complaint contacts.
 
 For a full list of state-specific supplementary forms (Gujarat Surya Gujarat form, Tamil Nadu TEDA form, Maharashtra MSEDCL physical net metering form), check your respective state DISCOM website. The [PM Surya Ghar Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) links to each state's specific requirements.
 

@@ -140,7 +140,7 @@ At 50 Hz (India's grid frequency), one complete AC cycle takes 20 milliseconds. 
 
 At 100 ms (5 AC cycles), most computers will reboot. Sensitive medical equipment will fault. Motors may experience a torque transient that trips their thermal protection. CCTV recorders lose the last few seconds of footage.
 
-At 500 ms (a figure common in cheaper hybrid inverter products advertised as "automatic transfer") your home behaves as if you manually toggled the main breaker. Everything resets.
+At 500 ms, your home behaves as if you manually toggled the main breaker. Everything resets.
 
 ### The 5-Step Hybrid Inverter Selection Protocol: Transfer Time Check
 
@@ -148,13 +148,13 @@ This is Step 4 of the named framework. Here is how to evaluate transfer time cla
 
 <!-- steps -->
 1. **Request the lab test certificate**: not the brochure claim. Look for a Type Test report issued by a NABL-accredited Indian lab or a CBTL-accredited international lab. The certificate should state the measured transfer time in milliseconds under full-load conditions.
-2. **Check the test condition**: transfer time varies by load level. Ask: "Is the <20 ms figure at 100% rated load, or only at 50% load?" Cheaper inverters may achieve <20 ms at low load but slow to 80+ ms at full load.
+2. **Check the test condition**: transfer time varies by load level. Ask: "Is the <20 ms figure at 100% rated load, or only at 50% load?" A figure measured at low load can be much slower at full load.
 3. **Test yourself during the site survey**: with the inverter energised and a sensitive load (a computer running a stopwatch application), ask the installer to trip the grid breaker manually. Observe whether the computer screen flickers or reboots.
 4. **Confirm the UPS mode**: some hybrid inverters have a separate "UPS mode" that enables fast transfer at the cost of slightly reduced grid interaction efficiency. Confirm whether this mode must be manually enabled or is the default operating state.
 5. **Check the EPS (Emergency Power Supply) rating**: IEC 62040 defines the testing standard for UPS/EPS transfer time. An inverter citing compliance with IEC 62040 has been tested under standardised conditions.
 
 > [!TIP] Ask for the load level behind the millisecond figure
-> A transfer time quoted at 50% load can slow to 80+ ms at full load. Ask whether the < 20 ms figure was measured at 100% rated load, and get the Type Test report that says so.
+> A transfer time quoted at 50% load can be slower at full load. Ask whether the < 20 ms figure was measured at 100% rated load, and get the Type Test report that says so.
 
 Table: Transfer time bands, what the home experiences and what each suits
 
@@ -170,11 +170,11 @@ For homes with a home office, a CCTV system, or a home theatre, demand a certifi
 
 ## Step 5: Verify Certifications (The 4-Document Certification Check)
 
-The fifth and final step of the 5-Step Hybrid Inverter Selection Protocol is the paper audit. A hybrid solar inverter connects to the Indian grid, to a battery, and to your home's electrical circuit simultaneously. That triple connection point carries real electrical risk (fire, shock, grid back-feed) if the inverter is not properly tested and certified. Three out of four inverter-related solar system failures in India are attributed to units lacking proper anti-islanding or over-voltage protection, according to [MNRE field inspection reports](https://mnre.gov.in/).
+The fifth and final step of the 5-Step Hybrid Inverter Selection Protocol is the paper audit. A hybrid solar inverter connects to the Indian grid, to a battery, and to your home's electrical circuit simultaneously. That triple connection point carries real electrical risk (fire, shock, grid back-feed) if the inverter is not properly tested and certified.
 
 ### BIS Compulsory Registration (CRS)
 
-The Bureau of Indian Standards mandates CRS under IS 16221-1 (Safety) and IS 16221-2 (Grid connectivity performance) for all inverters sold in India since 2018. Without a valid CRS number, the inverter is illegal to sell. Ask the dealer for the CRS registration number and verify it on the [BIS portal](https://bis.gov.in/). A fake or expired CRS number voids every warranty claim and disqualifies the installation from DISCOM approval.
+PV inverters fall under the Solar Photovoltaics Systems, Devices and Components Goods (Requirements for Compulsory Registration) Order, 2017, which refers to IS 16221 (Part 2) for safety and IS 16169 for islanding prevention, and which prohibits the sale of non-conforming units ([pv magazine India, 10 April 2019](https://www.pv-magazine-india.com/2019/04/10/mnre-issues-guidelines-for-approval-of-solar-inverters/)). The standards named in the order have been revised since, so check the current scope for your model on BIS. Ask the dealer for the registration number and verify it on the [BIS portal](https://bis.gov.in/). A missing or unverifiable registration number is a reason to stop and ask, because the warranty and the DISCOM's equipment checks may depend on it.
 
 ### IEC 62116 Anti-Islanding Certification
 

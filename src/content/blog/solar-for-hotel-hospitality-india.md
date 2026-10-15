@@ -1,6 +1,6 @@
 ---
 title: "Solar for Hotels and Hospitality India"
-excerpt: "Solar for hotel India: HVAC is the largest load, hybrid inverters cover essential operations, and electricity at ₹8–12/unit makes payback under 5 years typical. Full load analysis inside."
+excerpt: "Solar for hotel India: HVAC is the largest load, hybrid inverters cover essential operations, and a worked 90 kW example shows how the payback is calculated. Full load analysis inside."
 description: "Guide to solar for hotels and hospitality businesses in India: load mapping, on-grid vs hybrid, seasonal variation, and ROI analysis."
 category: Buying Guide
 date: 2026-06-05
@@ -20,9 +20,9 @@ faqs:
   - q: "Should a hotel use an on-grid or hybrid solar system?"
     a: "Most hotels in India benefit from a combination approach: on-grid inverters for large capacity HVAC and common area loads (maximising subsidy and net metering benefits), and a hybrid inverter with battery for essential operations - kitchen, front desk, emergency lighting, POS systems, and CCTV. A pure on-grid system shuts down during grid outages, which is unacceptable for guest-facing operations. A well-designed system keeps critical loads running on battery for 2–4 hours during outages."
   - q: "What is the ROI on solar for a hotel in India?"
-    a: "A mid-market hotel paying ₹10/unit at 15,000 units/month has a ₹1.5 Lakh monthly electricity bill. A 75 kW rooftop solar system generating 10,500–11,000 units/month reduces the bill by 70–75% - saving approximately ₹1.05–1.13 Lakh per month. At ₹12.50 Lakh annual savings and a system cost of ₹45–50 Lakh, simple payback is 3.5–4 years. Over a 20-year system life, net savings approach ₹2.5 crore on a single property."
+    a: "A mid-market hotel paying ₹10/unit at 15,000 units/month has a ₹1.5 Lakh monthly electricity bill. A 75 kW rooftop solar system generating about 9,000 units/month (75 kW × 5 peak sun hours × 30 days × 0.8 performance ratio) offsets 60% of that consumption, saving about ₹90,000 per month or ₹10.8 Lakh a year. At an assumed ₹58,000 per kW (₹43.5 Lakh), simple payback is about 4.0 years. Over 20 years the gross saving is about ₹2.16 crore before degradation and tariff changes, and before the system cost."
   - q: "Does solar affect hotel star category certification or FHRAI membership?"
-    a: "The Federation of Hotel and Restaurant Associations of India (FHRAI) and several state tourism bodies have introduced sustainability criteria for hotel classifications. Green energy adoption - including solar - is increasingly a factor in eco-friendly certification and some state government tourism incentives. While solar installation does not directly affect Ministry of Tourism star rating (which focuses on facilities and service), properties with documented renewable energy usage qualify for FHRAI's Green Hospitality programme and certain ESG reporting credentials."
+    a: "Solar installation does not directly affect a Ministry of Tourism star rating, which focuses on facilities and service. Documented renewable energy use can support eco-friendly certifications and ESG reporting, but we have not verified any specific FHRAI or state tourism programme criteria, so ask the body whose certification you want."
   - q: "How does seasonal load variation affect hotel solar design in India?"
     a: "Hotel electricity load peaks in summer (April–June) when HVAC runs continuously, coinciding with peak solar irradiance - a favourable match. Winter months (November–January) have lower HVAC load and lower solar generation in northern India. Monsoon months (June–September) have lower solar generation but hotels often see peak occupancy in hill stations. The solar system should be sized for the summer peak-load scenario, as this maximises the economic return from the highest-consumption months."
   - q: "What happens to surplus solar generation during low-occupancy periods?"
@@ -35,18 +35,18 @@ faqs:
 
 > **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
-India's hospitality sector runs on electricity. Air conditioning for guest rooms and public spaces. Kitchens operating from early morning until late night. Laundry with industrial washers and dryers. Lighting for corridors, lobbies, banquets, and car parks. And increasingly, EV charging for guests and staff. A mid-market hotel in Pune or Jaipur with 50–80 rooms easily crosses ₹1.5–2 Lakh in monthly electricity bills.
+India's hospitality sector runs on electricity. Air conditioning for guest rooms and public spaces. Kitchens operating from early morning until late night. Laundry with industrial washers and dryers. Lighting for corridors, lobbies, banquets, and car parks. And increasingly, EV charging for guests and staff. A mid-market hotel with 50 or more rooms can spend several lakh rupees a month on electricity; the illustrative 50-room property below, built from its own load table, spends about ₹6.8 Lakh a month.
 
-That number, and the 40% that goes to HVAC alone, explains why hotels are one of the fastest-growing segments for commercial solar in India. The payback math is compelling. The sustainability narrative supports brand positioning. And the FHRAI's green hospitality push gives management a concrete business reason to act.
+That number, and the share that goes to HVAC alone (63% in the illustrative load table below), explains why hotels are one of the fastest-growing segments for commercial solar in India. The payback math is compelling. The sustainability narrative supports brand positioning.
 
-> **Direct answer.** Hotel Solar Load Mapping shows that HVAC accounts for 40–60% of hotel electricity consumption, making it the primary solar offset target. A 75 kW on-grid system covers daytime HVAC while a hybrid inverter with battery protects essential operations during grid outages. At ₹10/unit electricity cost, most hotel solar systems pay back in 3.5–5 years.
+> **Direct answer.** Hotel Solar Load Mapping shows that HVAC is typically the largest single hotel load (63% in the illustrative load table below), making it the primary solar offset target. A 75 kW on-grid system covers daytime HVAC while a hybrid inverter with battery protects essential operations during grid outages. At ₹10/unit electricity cost, the worked 90 kW example below pays back in about 3.9 years; your figure depends on your tariff, roof and system cost.
 
 > [!KEYTAKEAWAYS]
 > - HVAC is the largest hotel load at 40-60% of total consumption, making it the primary target for solar offset.
 > - The right configuration is usually a combination: on-grid for HVAC and common areas, hybrid with battery for essential guest-facing loads like the front desk, kitchen refrigeration, and one elevator.
 > - A 15-20 kW hybrid inverter with 30-50 kWh battery covers essential loads for 3-5 hours during a grid outage.
 > - Summer HVAC demand and peak solar irradiance align closely in India, making the highest-cost months also the highest-generation months.
-> - A representative 50-room mid-market hotel with a 75 kW on-grid plus 15 kW hybrid system pays back in roughly 3.1 years after accelerated depreciation. EV charging is an emerging daytime load that should be factored into system sizing from the start to avoid costly retrofits.
+> - A representative 50-room mid-market hotel with a 75 kW on-grid plus 15 kW hybrid system pays back in roughly 3.9 years after accelerated depreciation (worked example below). EV charging is an emerging daytime load that should be factored into system sizing from the start to avoid costly retrofits.
 
 This guide covers the full hotel solar decision, load analysis, system type selection, seasonal variation, net metering, EV charging integration, and a worked ROI model for a representative 50-room mid-market property.
 
@@ -130,7 +130,7 @@ Table: On-grid and hybrid configurations compared for a hotel
 | **Cost per kW** | Lower | Higher (battery adds cost) |
 | **Grid outage behaviour** | Shuts down | Continues on battery |
 | **Net metering** | Yes | Yes |
-| **Battery payback** | Not applicable | 5–7 years (outage savings) |
+| **Battery payback** | Not applicable | Depends on outage hours and the diesel it displaces |
 
 The recommended configuration for most Indian hotels: **on-grid primary system (50–150 kW) + hybrid essential circuit (15–25 kW with battery).**
 
@@ -151,12 +151,10 @@ This seasonal alignment means the hotel's highest-cost months (summer peak elect
 
 For hill station or monsoon-destination hotels (Shimla, Coorg, Munnar), the load-generation alignment is less favourable since peak occupancy during monsoon coincides with reduced solar generation. These properties should weight battery capacity more heavily.
 
-> **Sustainability driver.** FHRAI's Green Hospitality programme recognises hotels that reduce carbon emissions by measurable amounts. Solar adoption directly contributes to the programme's renewable energy adoption criterion, which is increasingly cited by travel booking platforms as a property attribute for eco-conscious travellers. *Source - [FHRAI](https://www.fhrai.com/), 2025.*
-
 ## ROI Model: 50-Room Mid-Market Hotel
 
 > [!EXAMPLE] 50-room property in Pune
-> Assume a 50-room property in Pune with a ₹1.5 Lakh/month electricity bill and 200 kWh/day solar target.
+> Assume the 50-room property from the load table above (₹22,300 a day, about ₹6.8 Lakh a month) and a 90 kW solar system generating about 360 kWh a day on average (90 kW × 5 PSH × 0.8).
 
 Table: ROI model for a 50-room mid-market hotel with a 75 kW on-grid plus 15 kW hybrid system
 
@@ -164,14 +162,14 @@ Table: ROI model for a 50-room mid-market hotel with a 75 kW on-grid plus 15 kW 
 | --- | --- |
 | Solar system size | 75 kW on-grid + 15 kW hybrid |
 | Total system cost | ₹52 Lakh (90 kW at about ₹58,000/kW blended) |
-| Annual generation | 90 kW × 5 PSH × 330 days = 1,48,500 kWh |
-| Annual electricity saving (₹10/unit) | ₹14,85,000 |
+| Annual generation | 90 kW × 5 PSH × 330 days × 0.8 performance ratio = 1,18,800 kWh |
+| Annual electricity saving (₹10/unit) | ₹11,88,000 |
 | [Accelerated depreciation](/glossary/accelerated-depreciation/) (30% tax, 40% depn) | ₹6.24 Lakh Year 1 tax benefit |
 | Effective net capex (post-tax benefit, Year 1) | ~₹45.8 Lakh |
-| Simple payback (on net capex) | ~3.1 years |
-| Net savings over 20 years | ~₹3.0 crore gross (about ₹2.45 crore after the ₹52 Lakh system cost, before degradation and tariff changes) |
+| Simple payback (on net capex) | ~3.9 years (₹45.8 Lakh ÷ ₹11.88 Lakh) |
+| Savings over 20 years | ~₹2.38 crore gross (about ₹1.86 crore after the ₹52 Lakh system cost, before degradation and tariff changes) |
 
-For a hotel that also displaces diesel generator costs during outages, add the DG cost saving to the numerator, typical DG running cost is ₹20–25/unit versus ₹10 grid or ₹5 PPA. Hotels evaluating RESCO as an alternative to CAPEX can compare the two approaches in detail at the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/). Hotel finance teams comparing multiple EPC quotations often use a dedicated [solar cost estimation tool](https://quickestimate.co/pricing/) to standardise line-item comparisons across vendors before committing capital.
+For a hotel that also displaces diesel generator costs during outages, add the DG cost saving to the numerator, fuel-only DG cost is about ₹26–31 per unit at the October 2026 pump price of ₹95–100 a litre (CarDekho, 14 October 2026), versus ₹10 grid. Hotels evaluating RESCO as an alternative to CAPEX can compare the two approaches in detail at the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/). Hotel finance teams comparing multiple EPC quotations often use a dedicated [solar cost estimation tool](https://quickestimate.co/pricing/) to standardise line-item comparisons across vendors before committing capital.
 
 ## EV Charging Integration
 
@@ -185,21 +183,17 @@ For a complete solar EV charging design framework, read the [solar inverter for 
 
 ## Market Data: Solar Adoption in Indian Hospitality
 
-The commercial hospitality segment is one of the fastest-growing segments in Indian rooftop solar. Key data points for 2026:
+Key data points for 2026:
 
-- Commercial and institutional rooftop solar capacity in India crossed 6 GW in 2025, growing at 30%+ annually.
-- Hotel and hospitality sector represents approximately 8–12% of commercial rooftop installations by capacity.
-- Average ROI cited by FHRAI member hotels with solar: 3.5–5 year payback, 18–22% IRR for building-owning operators.
-- States with highest hotel solar adoption: Rajasthan, Maharashtra, Goa, Tamil Nadu, Karnataka.
-
-[JMK Research's India solar market analysis](https://jmkresearch.com/){target="_blank" rel="noopener"} documents that C&I solar installations grew 45% year-on-year in 2024–25, with hospitality and retail among the top five growing verticals. [IRENA's global solar and energy efficiency for tourism report](https://www.irena.org/){target="_blank" rel="noopener"} identifies India's hotel sector as having among the highest solar ROI potential globally, driven by the combination of high electricity tariffs and high irradiance in major tourist destinations. [IEA's commercial buildings energy efficiency analysis](https://www.iea.org/energy-system/buildings){target="_blank" rel="noopener"} confirms that HVAC electrification and renewable integration in commercial buildings deliver the highest emission reduction per dollar invested across building types. [Bridge to India's C&I solar market data](https://bridgetoindia.com/){target="_blank" rel="noopener"} confirms that commercial rooftop projects under 500 kW have payback periods averaging 4.2 years across India in 2025, with hospitality segments at the shorter end due to high tariff exposure.
+- India had 171.05 GW of installed solar on 30 September 2026, of which 33.41 GW was grid-connected rooftop solar ([MNRE data via Saur Energy](https://www.saurenergy.com/solar-energy-news/india-adds-2456-gw-renewable-energy-capacity-in-h1-fy-2026-27-12637483), 8 October 2026). The same release does not split out hospitality.
+- Sector-level hotel adoption and payback figures are not published by MNRE, so this guide quotes none; use the worked example above with your own inputs.
 
 ## Common Mistakes in Hotel Solar Projects
 
 - **Sizing only for current load**: not building in capacity for EV charging, additional HVAC units in new room blocks, or higher-intensity kitchen equipment.
 - **No essential load segregation**: installing only an on-grid system without a hybrid circuit, then discovering during a grid outage that the front desk and kitchen have no power.
 - **Ignoring laundry load timing**: running industrial laundry equipment during overnight hours when solar is not generating. Shifting laundry to 9 am–3 pm slots increases solar self-consumption and reduces grid import.
-- **Not applying for accelerated depreciation**: hotels are commercial entities and can claim 40% depreciation in Year 1, reducing effective capex by ₹5–10 Lakh on a typical system.
+- **Not applying for accelerated depreciation**: hotels are commercial entities and can claim 40% depreciation in Year 1, reducing effective capex by ₹6.24 Lakh on the ₹52 Lakh example above (40% × 30% tax rate × ₹52 Lakh).
 - **Choosing an unqualified installer for commercial systems**: residential-scale EPCs may not have experience with 3-phase systems, net metering applications for commercial connections, or roof structural assessments.
 
 For guidance on finding a qualified installer for your property, see the [find reliable solar installer guide](/blog/find-reliable-solar-installer/). Hotel groups managing multiple properties often standardise on a single commercial solar EPC partner to keep installation quality and warranty terms consistent across the portfolio.

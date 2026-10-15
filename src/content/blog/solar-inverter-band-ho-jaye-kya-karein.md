@@ -273,8 +273,6 @@ Premium warranty का value वहाँ दिखता है जब fault �
 - **[Hybrid Inverters](/hybrid-inverter/)**: Power cut solutions with battery
 - **[Solar inverter warranty guide](/blog/solar-inverter-warranty/)**: Warranty terms explained
 
-According to [Mercom India service data](https://www.mercomindia.com/){target="_blank" rel="noopener"}, solar inverter service response time सबसे important post-sale metric है - brands जो 72 hours में respond करते हैं वो highest customer satisfaction देते हैं।
-
 [Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 ## Diagnostic Data: Log Se Kaise Samjhein
@@ -307,7 +305,7 @@ Before monsoon (April-May each year), do a pre-monsoon check:
 - **App monitoring**: Set up alerts for performance drops
 - **RCCB test**: Test the earth leakage protection circuit breaker monthly
 
-[Pre-monsoon solar inspection checklist](/blog/pre-monsoon-solar-inspection-checklist/), complete seasonal maintenance guide. According to [NREL India solar performance data](https://www.nrel.gov/){target="_blank" rel="noopener"}, systems with regular preventive maintenance show 8-12% better long-term performance than systems with only corrective maintenance.
+[Pre-monsoon solar inspection checklist](/blog/pre-monsoon-solar-inspection-checklist/), complete seasonal maintenance guide. 
 
 ## Long-Term System Health: Performance Monitoring Over Years
 
@@ -325,4 +323,4 @@ Tracking system health over time helps you catch slow degradation before it beco
 
 [Solar inverter underperforming India guide](/blog/solar-inverter-underperforming-india/), detailed diagnosis for gradual performance issues. [Solar inverter lifespan guide](/blog/solar-inverter-lifespan/), understanding what affects how long your inverter lasts.
 
-According to [Bridge to India solar performance research](https://bridgetoindia.com/){target="_blank" rel="noopener"}, systems with active monitoring and annual maintenance show 85-90% of rated output even after 10 years, compared to 70-75% for unmaintained systems. The difference in total revenue over 25 years is significant, justifying the cost of regular maintenance many times over.
+Active monitoring and annual maintenance help you catch gradual output loss early, and the cost of regular maintenance is small next to the generation it protects.

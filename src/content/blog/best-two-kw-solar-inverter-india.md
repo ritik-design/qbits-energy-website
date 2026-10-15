@@ -48,7 +48,7 @@ This comparison covers four exact single-phase, grid-connected 2 kW models with 
 > - GoodWe is the lightest documented unit at 4.6 kg. Solis explicitly recommends up to 3 kW of PV on its 2 kW model. Polycab prints a 150% maximum usable power statement for its series.
 > - India availability, current transaction price, warranty remedy, local service scope, applicable approval and field reliability are not comparable from the reviewed sources.
 
-**Short answer.** Put Polycab and Qbits on the first technical shortlist when a one-string design needs up to 20 A input. Put GoodWe on it when a compact IP66 unit and 16 A input fit the module. Put Solis on it when its explicit 3 kW recommended PV allowance, 14 A input limit and IP66 enclosure fit the array. Do not choose until the seller provides the India-market model, current warranty, applicable compliance documents and local service route.
+**Short answer.** Put GoodWe on the first technical shortlist when a compact IP66 unit and 16 A input fit the module. Put Polycab and Qbits on it when a one-string design needs up to 20 A input. Put Solis on it when its explicit 3 kW recommended PV allowance, 14 A input limit and IP66 enclosure fit the array. Do not choose until the seller provides the India-market model, current warranty, applicable compliance documents and local service route.
 
 ## How these 2 kW inverters were selected
 
@@ -118,7 +118,7 @@ The catalogue prints 150% maximum usable power for the series and seven years of
 
 The current [Qbits QB 1.5 to 4.0KTLS product route](/our-products/QB-1.5-4.0KTLS/) includes QB-2.0KTLS. The repository product record and family datasheet publish single-phase on-grid operation, one MPPT, a 40 to 550 V MPPT range, 550 V maximum DC voltage, 20 A maximum DC input, 98% maximum efficiency and an IP66 enclosure.
 
-Those fields create a clear conditional advantage inside this four-model comparison: Qbits is the only entry in this set that publishes both a 20 A maximum input and IP66. That is not proof of better reliability, energy yield or service. It is a paper specification that matters only when the proposed module and installation location require it.
+Those fields differ across the four models: Qbits is the only entry in this set that publishes both a 20 A maximum input and IP66. That is not proof of better reliability, energy yield or service. It is a paper specification that matters only when the proposed module and installation location require it.
 
 Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline or exclusions. They also do not state a universal local service response, the applicable certificate for every suffix or any independent field-failure result, so get these in writing for the exact model.
 

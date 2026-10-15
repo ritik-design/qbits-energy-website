@@ -254,7 +254,7 @@ Table: Standards and codes that apply to central inverters
 | IEC 61400-27 | Generic grid code compliance |
 | IS 16221 | Indian inverter safety |
 | CEA Grid Code | Utility connection requirements |
-| MNRE ALMM | Required for tendered plants |
+| MNRE ALMM | Lists PV modules and cells, not inverters; tender specifications set inverter requirements |
 
 ## Common mistakes
 
@@ -292,7 +292,7 @@ For how Central Inverter plays out in real projects, these guides go deeper:
 - IEC 61400-27, Generic electrical simulation models for grid code compliance verification.
 - IS 16221 (Part 1 and 2), Indian Standard for PV inverter safety.
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.
-- MNRE ALMM and SECI tender technical specifications, Ministry of New and Renewable Energy and Solar Energy Corporation of India.
+- SECI tender technical specifications and MNRE ALMM (modules and cells), Ministry of New and Renewable Energy and Solar Energy Corporation of India.
 - NREL Technical Report TP-5D00-74465, Best Practices for Operation and Maintenance of Photovoltaic and Energy Storage Systems.
 - Sandia National Laboratories Report SAND2018-12700, Central vs. String Inverter Comparison for Utility-Scale PV.
 - IEA PVPS Task 13 Report, Operation and Performance of Photovoltaic Systems.

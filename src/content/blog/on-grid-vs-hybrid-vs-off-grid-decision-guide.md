@@ -20,15 +20,15 @@ faqs:
   - q: "Are hybrid inverters eligible for the PM Surya Ghar Muft Bijli Yojana subsidy in India?"
     a: "It depends on the scheme rules and your DISCOM, so confirm before buying. PM Surya Ghar subsidy is for grid-connected residential rooftop solar installed through the national portal by an empanelled vendor, and the central assistance is tied to the solar capacity, not to battery storage. A hybrid inverter running in grid-connected mode may be accepted, but approval of the exact model rests with the DISCOM and the scheme guidelines. MNRE publishes no ALMM list for inverters (the module requirement is separate), so ask the vendor for the exact model's BIS registration and current certificates."
   - q: "How much extra does a hybrid inverter cost compared to an on-grid inverter of the same capacity?"
-    a: "A hybrid inverter typically costs 25–40 percent more than an equivalent on-grid model at the inverter level alone. On top of that, you must budget for a battery bank - a 10 kWh lithium iron phosphate (LFP) battery system in India costs roughly ₹70,000–₹1,20,000 in 2026. Total capex for a hybrid system is usually 50–80 percent higher than a comparable on-grid installation. The higher upfront cost is offset by the value of backup power and future energy independence."
+    a: "A hybrid inverter costs more than an on-grid model of the same rating, and the gap can be large: on one Indian retailer's site on 14 October 2026, the Deye 5 kW on-grid listing was ₹37,999 and the Deye 5 kW hybrid was ₹1,35,888 (see the [5 kW hybrid price guide](/blog/5kw-hybrid-inverter-price-india/)). On top of that you must budget for a battery bank: the Deye SE-F5 PLUS 5.12 kWh lithium battery was listed at ₹1,23,000 on the same date, about ₹24,000 per kWh, so a 10 kWh bank would be roughly ₹2.4 lakh at that rate. These are dated listings for named products, not market ranges. The higher upfront cost buys backup power and the option to add storage."
   - q: "Can I add a battery to my existing on-grid inverter later?"
     a: "Not directly. Standard on-grid inverters do not have a battery port or the control logic required to charge and discharge a battery bank. If you want to add storage to an existing on-grid system, you have two options: replace the inverter with a hybrid model (which involves rewiring), or add an AC-coupled battery system - a separate battery inverter that sits on the AC bus. AC coupling is feasible but adds cost and complexity. If battery expansion is even a possibility in the next five years, buying a hybrid inverter at the outset is almost always more cost-effective."
   - q: "Is off-grid solar practical for a home inside a city in India?"
-    a: "Off-grid systems are rarely the right choice for urban or peri-urban homes with a functioning grid connection. They require significantly larger battery banks (typically 2–3 days of autonomy), larger solar arrays to cover cloudy periods, and have no net-metering benefit. The economics are unfavourable compared to on-grid or hybrid options. Off-grid makes sense for rural plots, agricultural pump houses, telecom towers, and locations where a grid connection would cost more than ₹2–3 Lakh to establish."
+    a: "Off-grid systems are rarely the right choice for urban or peri-urban homes with a functioning grid connection. They require significantly larger battery banks (typically 2–3 days of autonomy), larger solar arrays to cover cloudy periods, and have no net-metering benefit. The economics are unfavourable compared to on-grid or hybrid options. Off-grid makes sense for rural plots, agricultural pump houses, telecom towers, and locations where getting a grid connection costs more than the off-grid system."
   - q: "Which solar inverter type qualifies for net metering in India?"
     a: "Only grid-connected inverters - on-grid and hybrid - are eligible for net metering under the Electricity (Rights of Consumers) Rules 2020. Off-grid systems, by definition, are not connected to the grid and therefore cannot export surplus units or receive net-metering credits. Hybrid inverters qualify for net metering in the on-grid mode; the battery simply absorbs surplus power before any export occurs."
   - q: "What is the typical payback period for each inverter type in India in 2026?"
-    a: "On-grid systems typically achieve payback in 4–6 years for residential installations with PM Surya Ghar subsidy, making them the fastest-payback option. Hybrid systems, due to higher capex, generally require 7–10 years depending on the battery size chosen and local tariff rates. Off-grid systems have the longest payback - often 10–14 years - because the large battery bank both adds cost and needs replacement every 8–12 years. These are estimates; actual payback depends on roof size, sanctioned load, and local electricity tariff."
+    a: "On-grid systems have the shortest payback of the three because they need no battery and qualify for the PM Surya Ghar subsidy. Hybrid systems take longer because the battery adds capital cost that bill savings alone do not recover quickly. Off-grid systems have the longest payback because the large battery bank both adds cost and has to be replaced during the system's life. Payback is a formula, not a fixed number: net cost after subsidy divided by yearly savings, which depend on roof size, sanctioned load and local tariff. The [on-grid vs hybrid ROI analysis](/blog/on-grid-vs-hybrid-solar-inverters-roi/) shows the worked arithmetic."
   - q: "Which Indian states or regions are best suited to each inverter type?"
     a: "On-grid inverters are the dominant choice in states with reliable grids and strong net-metering policies such as Karnataka, Tamil Nadu, Gujarat, Rajasthan (urban), and Maharashtra. Hybrid inverters are the preferred option in high-outage regions - Uttar Pradesh, Bihar, Jharkhand, Odisha, and parts of West Bengal - where daily power cuts routinely exceed two to four hours. Off-grid systems serve remote rural pockets, agricultural feeders in Rajasthan and Madhya Pradesh, and hilly states such as Himachal Pradesh, Uttarakhand, and the north-eastern states."
   - q: "Does a hybrid inverter work without a battery installed?"
@@ -41,14 +41,14 @@ faqs:
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-Every year, roughly 1.5 million Indian homeowners install a rooftop solar system, and a significant number of them choose the wrong inverter type. Not because the technology is difficult to understand, but because most guides compare only two options: on-grid and hybrid. The [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid) inverter (the workhorse of rural India and remote installations) rarely gets equal treatment in the same article.
+Every year, many Indian homeowners install a rooftop solar system, and some of them choose the wrong inverter type. Not because the technology is difficult to understand, but because most guides compare only two options: on-grid and hybrid. The [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid) inverter (the workhorse of rural India and remote installations) rarely gets equal treatment in the same article.
 
 This guide covers all three. Whether you are a homeowner in Lucknow frustrated by four-hour daily cuts, a farmer in Rajasthan with no grid connection, or a Bengaluru resident chasing the fastest subsidy payback, this decision framework will tell you which inverter type fits your situation, and why.
 
 > [!KEYTAKEAWAYS]
-> - On-grid inverters have zero backup during cuts but deliver the fastest payback (4–6 years) and full PM Surya Ghar subsidy eligibility.
-> - Hybrid inverters add battery backup, qualify for the subsidy on the inverter portion, and cost 25–40% more than on-grid at the inverter level alone.
-> - [Off-grid](/blog/on-grid-off-grid-antar/) inverters are reserved for locations with no reliable grid, have no net-metering revenue, and carry the longest payback (10–14 years).
+> - On-grid inverters have zero backup during cuts but deliver the fastest payback and full PM Surya Ghar subsidy eligibility.
+> - Hybrid inverters add battery backup, qualify for the subsidy on the inverter portion, and cost more than on-grid at the inverter level (same-brand Deye 5 kW: ₹37,999 on-grid vs ₹1,35,888 hybrid, 14 Oct 2026).
+> - [Off-grid](/blog/on-grid-off-grid-antar/) inverters are reserved for locations with no reliable grid, have no net-metering revenue, and carry the longest payback.
 > - The 3-Question Inverter Type Test, grid reliability, power-cut duration, and payback vs independence priority, narrows the decision in about three minutes.
 > - Most Indian homes with cuts over 2 hours/day should choose hybrid; most reliable-grid urban homes should choose on-grid.
 
@@ -92,26 +92,13 @@ Table: On-grid, hybrid and off-grid solar inverters compared across twelve dimen
 | **Net metering eligible** | ✓ Yes | ✓ Yes | ✗ No |
 | **PM Surya Ghar subsidy** | ✓ Full | ✓ Inverter qualifies | ✗ Typically not eligible |
 | **Battery required** | ✗ No | Optional (future-ready) | ✓ Mandatory |
-| **Upfront cost (3 kW)** | ₹1.2–1.6 Lakh (post-subsidy) | ₹1.8–2.5 Lakh (without battery) | ₹2.5–4 Lakh (with battery) |
-| **Typical payback** | 4–6 years | 7–10 years | 10–14 years |
+| **Upfront cost** | Lowest (no battery; subsidy-eligible) | Higher (hybrid inverter; battery extra) | Highest (large battery bank) |
+| **Payback** | Shortest | Longer (battery cost) | Longest (large battery, replacement) |
 | **ALMM compliance (modules)** | ✓ Modules must be ALMM-listed | ✓ Modules must be ALMM-listed | Typically not ALMM-regulated |
 | **Installation complexity** | Low | Moderate | High |
 | **Scalability** | Add more panels | Add panels + battery | Limited by battery bank |
 | **Best for** | Urban grid-reliable zones | High-outage urban/semi-urban | Rural / no-grid locations |
 | **Not suitable for** | Frequent outage zones | Remote no-grid sites | Urban homes with grid access |
-
-> **India added 3.1 GW of rooftop solar in FY2025, of which an estimated 68 percent was on-grid and 24 percent was hybrid, according to [JMK Research](https://jmkresearch.com/).** The shift towards hybrid has accelerated over the past two years as battery prices fell roughly 18 percent year-on-year. *Source, JMK Research, India Residential Solar Report, 2025.*
-
-```chart
-type: bar
-title: Estimated share of India's FY2025 rooftop solar additions by inverter type
-unit: "%"
-source: "JMK Research, India Residential Solar Report, 2025, as quoted in this article (estimates; 3.1 GW added in FY2025)"
-note: "The remaining share is not broken out in the source as quoted here."
-data:
-  - { label: "On-grid", value: 68 }
-  - { label: "Hybrid", value: 24 }
-```
 
 ---
 
@@ -157,9 +144,9 @@ The on-grid inverter is also the mandatory choice for PM Surya Ghar Muft Bijli Y
 
 ### How an on-grid inverter generates returns
 
-The return mechanism is straightforward: solar panels produce energy during the day, the inverter exports any surplus to the grid, and your electricity bill is offset by the units exported. Under net metering, the DISCOM credits you for exports at a rate set by the State Electricity Regulatory Commission (SERC). In Karnataka and Tamil Nadu, net-metering rates are typically ₹3.5–5/unit; in Gujarat they can reach ₹5.5/unit with certain DISCOM frameworks.
+The return mechanism is straightforward: solar panels produce energy during the day, the inverter exports any surplus to the grid, and your electricity bill is offset by the units exported. Under net metering, the DISCOM credits you for exports at a rate set by the State Electricity Regulatory Commission (SERC). Rates differ by state and by order, so read your SERC's current order (see the [net metering guide](/blog/net-metering-india-complete-guide/)).
 
-The [payback period analysis](/blog/solar-inverter-payback-period/) shows that a 5 kW on-grid system in Bengaluru, post-subsidy, can achieve a 4.5-year payback at ₹7/unit tariff. That is among the best payback figures for any capital asset in India today.
+The [payback period analysis](/blog/solar-inverter-payback-period/) works the payback through for different system sizes and tariffs; with the subsidy and a high tariff, an on-grid system pays back faster than the other two types.
 
 ### On-Grid Pros and Cons
 
@@ -168,13 +155,13 @@ Table: Pros and cons of an on-grid inverter
 | | Pros | Cons |
 | --- | --- | --- |
 | **On-Grid** | ✓ Lowest upfront cost | ✗ Zero backup during power cuts |
-| | ✓ Fastest payback (4–6 years) | ✗ Cannot expand to battery without rewiring |
+| | ✓ Fastest payback | ✗ Cannot expand to battery without rewiring |
 | | ✓ Full PM Surya Ghar subsidy eligible | ✗ Dependent on DISCOM for net-metering credits |
 | | ✓ Simplest installation and commissioning | ✗ Not suitable for high-outage regions |
 | | ✓ ALMM-listed modules available nationally | ✗ Export revenue subject to policy changes |
 
 - **Sizing**: a common mistake is selecting an inverter with a higher [DC oversizing](/glossary/dc-oversizing/) ratio than the local grid allows. Use the [string sizing calculator](/string-sizing-calculator/) to confirm compatibility before you quote.
-- **Grid export limit**: some DISCOMs cap export at 90 percent of sanctioned load. Over-sizing your system beyond this limit generates panels that rarely produce billable units.
+- **Grid export limit**: some DISCOMs cap export relative to sanctioned load. Over-sizing your system beyond this limit generates panels that rarely produce billable units.
 
 ---
 
@@ -184,7 +171,7 @@ Table: Pros and cons of an on-grid inverter
 
 The hybrid inverter is the right choice for the majority of Indian homes in 2026. The reasoning: India's residential grid is improving but remains unreliable in large swathes of the country. If you experience cuts of more than two hours daily, an on-grid inverter wastes those outage hours, your panels are generating power but the inverter is tripped. A hybrid inverter keeps your load running on solar and battery, converting wasted generation into real consumption.
 
-Beyond backup, the hybrid is the future-proof choice. Electricity tariffs in India have risen at roughly 6–8 percent per annum over the past decade, according to [Mercom India](https://www.mercomindia.com/). A hybrid system with storage allows you to shift consumption away from grid-peak hours, reducing your exposure to rising tariffs. As battery prices continue to fall (LFP cells dropped from ₹22/Wh in 2022 to approximately ₹13–15/Wh in 2026) the economics of hybrid improve each year.
+Beyond backup, the hybrid is the future-proof choice. Electricity tariffs differ by state and change with each tariff order. A hybrid system with storage allows you to shift consumption away from grid-peak hours, reducing your exposure to rising tariffs. If battery prices fall further, the economics of hybrid improve; check current dated listings before you decide.
 
 ### How a hybrid inverter operates
 
@@ -200,9 +187,9 @@ Table: Pros and cons of a hybrid inverter
 
 | | Pros | Cons |
 | --- | --- | --- |
-| **Hybrid** | ✓ Backup power during outages | ✗ 25–40% higher inverter cost vs on-grid |
-| | ✓ Net metering + battery storage together | ✗ Battery adds ₹70,000–₹1,20,000 for 10 kWh |
-| | ✓ Battery-ready: buy now, add battery later | ✗ Longer payback (7–10 years with battery) |
+| **Hybrid** | ✓ Backup power during outages | ✗ Higher inverter cost than on-grid |
+| | ✓ Net metering + battery storage together | ✗ Battery adds a large extra cost (₹1,23,000 for a 5.12 kWh Deye battery listing, 14 Oct 2026) |
+| | ✓ Battery-ready: buy now, add battery later | ✗ Longer payback with a battery |
 | | ✓ Future-proof against tariff rises | ✗ Slightly more complex installation |
 | | ✓ PM Surya Ghar subsidy on inverter | ✗ Battery not subsidised |
 | | ✓ ALMM-listed modules available | |
@@ -221,10 +208,10 @@ Off-grid inverters serve one customer: someone with either no grid connection or
 
 - **Remote rural homes**: villages not yet covered by PM-KUSUM or the Saubhagya scheme, or where the distribution infrastructure is too degraded to be usable.
 - **Agricultural pump houses**: farmers powering drip irrigation, borewells, or cattle water systems in locations where the agricultural feeder runs for only a few hours at night.
-- **Telecom towers and remote monitoring stations**: where a grid connection would cost ₹3–5 Lakh in infrastructure and a solar off-grid system is cheaper over a five-year horizon.
+- **Telecom towers and remote monitoring stations**: where extending a grid connection costs more than a solar off-grid system.
 - **Hilly and forest locations**: Himachal Pradesh, Uttarakhand, Arunachal Pradesh, and similar geographies where grid lines are expensive and unreliable.
 
-For an urban or peri-urban homeowner with a working DISCOM connection, off-grid is almost never the right choice. The absence of net-metering revenue, the large battery requirement, and the need to replace that battery after 8–12 years make the total cost of ownership significantly higher than a hybrid or on-grid system of equivalent capacity. [Bridge to India's rooftop solar research](https://bridgetoindia.com/) consistently shows that off-grid's share of urban residential installations in India is below 5 percent.
+For an urban or peri-urban homeowner with a working DISCOM connection, off-grid is almost never the right choice. The absence of net-metering revenue, the large battery requirement, and the need to replace the battery during the system's life make the total cost of ownership significantly higher than a hybrid or on-grid system of equivalent capacity.
 
 ### Sizing an off-grid system correctly
 
@@ -251,8 +238,8 @@ Table: Pros and cons of an off-grid inverter
 | --- | --- | --- |
 | **Off-Grid** | ✓ Fully energy independent | ✗ No net-metering revenue |
 | | ✓ No DISCOM approval required | ✗ Highest upfront capex |
-| | ✓ Works where grid is absent | ✗ Longest payback (10–14 years) |
-| | ✓ No exposure to grid tariff changes | ✗ Battery replacement cost every 8–12 years |
+| | ✓ Works where grid is absent | ✗ Longest payback |
+| | ✓ No exposure to grid tariff changes | ✗ Battery replacement cost during the system's life |
 | | | ✗ Requires oversized battery + solar for cloudy periods |
 | | | ✗ Not eligible for PM Surya Ghar subsidy |
 
@@ -276,8 +263,6 @@ Table: Recommended inverter type by Indian region, with grid quality and rationa
 | **Remote Rajasthan, MP (agricultural)** | No grid or feeder-only | Off-Grid | Agricultural feeders unavailable for net metering; off-grid for pump houses |
 | **North-East states** | Weak grid, remote terrain | Off-Grid | Grid infrastructure sparse; off-grid serves village clusters and farms |
 
-> **India's rooftop solar capacity crossed 18 GWp in early 2026, with the IEA projecting an additional 22 GWp of distributed solar capacity by 2030.** State-level policies (particularly net-metering regulations) will be the primary determinant of which inverter type dominates in each region. *Source - [IEA India Distributed Solar Outlook](https://www.iea.org/), 2025.*
-
 Homeowners in high-outage states who install on-grid systems frequently report that their system "does not work during load-shedding", a frustration that is entirely predictable from the physics. The choice of inverter type must be matched to the actual grid quality in your specific pincode, not the average quality of your state.
 
 ---
@@ -288,11 +273,11 @@ The four most expensive mistakes Indian solar buyers make when choosing inverter
 
 **Mistake 1: Buying on-grid in a high-outage area to save money**
 
-A homeowner in Gorakhpur installs a 5 kW on-grid system to cut a ₹6,000 monthly electricity bill. The grid in that area fails for an average of five hours daily. The system sits idle for those five hours, not generating a single unit of solar electricity that gets used by the home. The effective generation loss is 30–40 percent of potential yield, and the backup power benefit is zero. The correct system would have been a hybrid with a 10 kWh battery, which would have cost ₹80,000 more upfront but recovered that premium within two to three years through avoided grid purchase during cut hours. The [3 kW vs 5 kW vs 10 kW comparison](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) illustrates how capacity and type decisions interact.
+A homeowner in Gorakhpur installs a 5 kW on-grid system to cut a ₹6,000 monthly electricity bill. The grid in that area fails for an average of five hours daily. The system sits idle for those five hours, not generating a single unit of solar electricity that gets used by the home. Much of the potential yield is lost on those days, and the backup power benefit is zero. The better system would have been a hybrid with a battery sized for the outage hours; whether the extra upfront cost is recovered depends on the battery price and how many outage hours it covers. The [3 kW vs 5 kW vs 10 kW comparison](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) illustrates how capacity and type decisions interact.
 
 **Mistake 2: Choosing off-grid when a grid connection is available**
 
-An off-grid system for a home with a functioning DISCOM connection is almost always a financial mistake. The battery bank (typically 15–20 kWh for a middle-class home seeking two days of autonomy) costs ₹1.5–2.5 Lakh and must be replaced within a decade. A hybrid system of the same solar capacity would cost less, earn net-metering credits, and deliver the same backup benefit with a smaller battery sized only for outage duration (not days of autonomy). Reserve off-grid for locations where the grid is genuinely absent or unusable.
+An off-grid system for a home with a functioning DISCOM connection is almost always a financial mistake. The battery bank needed for two days of autonomy is large (see the [off-grid battery bank sizing guide](/blog/off-grid-battery-bank-sizing-india/)) and must be replaced during the system's life. A hybrid system of the same solar capacity would cost less, earn net-metering credits, and deliver the same backup benefit with a smaller battery sized only for outage duration (not days of autonomy). Reserve off-grid for locations where the grid is genuinely absent or unusable.
 
 **Mistake 3: Under-sizing the battery on a hybrid system**
 

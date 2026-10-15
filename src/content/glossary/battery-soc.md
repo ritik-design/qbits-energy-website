@@ -262,7 +262,7 @@ Table: Standards and specifications relevant to battery SOC
 | Standard | Scope |
 |---|---|
 | IEC 61960 | Performance of lithium cells |
-| IS 16893 | Stationary battery storage |
+| IS 16893 (Part 2) | Lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard |
 | IEEE 1188 | VRLA maintenance |
 | Manufacturer BMS specifications | SOC algorithm and accuracy |
 
@@ -296,7 +296,7 @@ For how Battery SOC plays out in real projects, these guides go deeper:
 ## Sources
 
 - IEC 61960:2017, Performance requirements for secondary lithium cells.
-- IS 16893, Indian Standard for stationary battery storage.
+- IS 16893 (Part 2), BIS (secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard).
 - IEEE 1188, VRLA maintenance.
 - Plett G. L., Extended Kalman Filtering for Battery Management Systems, Journal of Power Sources, 2004.
 - Pop V., Bergveld H. J., Notten P., State-of-Charge Indication in Portable Applications, Springer.

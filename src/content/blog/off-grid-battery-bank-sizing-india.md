@@ -35,14 +35,14 @@ faqs:
 
 In Tier-3 villages across Rajasthan, Jharkhand, Chhattisgarh, and Assam, grid reliability is not a given. For homeowners in these locations (or anyone who needs genuinely grid-independent power) an [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid) solar system with a properly sized battery bank is the answer.
 
-The sizing calculation is not complicated, but it must be done correctly. Undersized batteries run out at 2 AM; oversized batteries waste money on capacity that never gets used. The 20% India-specific heat buffer is the step most guides leave out, an omission that causes real systems to underperform.
+The sizing calculation is not complicated, but it must be done correctly. Undersized batteries run out at 2 AM; oversized batteries waste money on capacity that never gets used. The 20% India-specific heat buffer used here is a design allowance for hot battery rooms, and it is a step many guides leave out.
 
 > [!KEYTAKEAWAYS]
 > - Size an [off-grid](/blog/on-grid-off-grid-antar/) battery bank with the 5-Step Battery Bank Formula: daily load (kWh) × autonomy days ÷ depth of discharge, then add a 20% temperature buffer for Indian heat.
 > - Autonomy needs range from 1–1.5 days in Rajasthan, Gujarat, and MP to 2–3 days in Kerala, Assam, and the Himalayan states.
 > - LiFePO4 batteries support 80% depth of discharge, while VRLA (lead-acid) is limited to 50% to avoid premature failure.
 > - A Tier-3 Rajasthan village home consuming about 7 kWh/day needs roughly a 16 kWh nominal battery bank for 1.5 days of autonomy.
-> - Battery capacity drops to around 78% of rated capacity at 45°C, which is why the temperature buffer step matters in Indian summers.
+> - Battery ratings are given at 25°C, so this guide adds a 20% design margin for hot Indian summers; check your battery datasheet's temperature curve.
 
 ## Why Off-Grid Sizing Is Different From On-Grid
 
@@ -55,7 +55,7 @@ Additionally, off-grid systems must account for:
 - **Battery self-discharge** during periods of low solar input
 - **Inverter efficiency losses** (typically 5–10% for power conversion)
 - **Seasonal irradiance variation**: sizing for the worst month (December/January in northern India, monsoon in coastal and north-east)
-- **Temperature derating**: India's 45°C summers reduce battery effective capacity by 10–20%
+- **Temperature derating**: hot summers can reduce usable battery capacity and shorten life, so add a design margin and read the datasheet temperature curve
 
 ## Step 1: Calculate Daily Load (kWh)
 
@@ -145,31 +145,12 @@ For a closer look at Pylontech module compatibility, pricing, and BMS communicat
 
 ## Step 5: Add 20% Temperature Buffer (India-Specific)
 
-This is the step most guides omit. Battery capacity specifications are given at 25°C. In India's 40–47°C summers, battery actual capacity is 80–90% of rated:
+This is the step most guides omit. Battery capacity specifications are given at 25°C, and Indian battery rooms in summer can run well above that. How much capacity a bank loses to heat, and how quickly it ages, depends on the chemistry and the maker: read the temperature curve in your battery's datasheet rather than relying on a general figure. This guide applies a flat 20% design margin as a conservative allowance for hot, uncooled rooms (an assumption, not a measured derating).
 
-- At 35°C: Effective capacity = ~92% of rated
-- At 40°C: Effective capacity = ~85% of rated
-- At 45°C: Effective capacity = ~78% of rated
-
-For a battery bank in an uncooled Rajasthan utility room reaching 42°C in peak summer, effective capacity is approximately 83% of nominal. Installing 16kWh nominal provides 16 × 0.83 = 13.3kWh usable, meeting the 13.125kWh base requirement with a small margin.
+For a battery bank in an uncooled Rajasthan utility room, installing 16 kWh nominal against the 13.125 kWh base requirement gives 16 ÷ 13.125 = 1.22, so the 20% margin is covered.
 
 > [!TIP] Cool battery room, smaller buffer
-> If the batteries will be installed in an air-conditioned or naturally cool space (below 30°C), the 20% buffer can be reduced to 10%.
-
-```chart
-type: bar
-title: Effective battery capacity as a share of 25°C rated capacity
-unit: "%"
-source: "Figures as stated in this article, which attributes the temperature derating to NREL battery thermal management research (2024); 25°C is the rated-capacity condition"
-note: "Approximate values for a LiFePO4 bank; a hotter room needs a larger buffer."
-data:
-  - { label: "25°C (rated)", value: 100 }
-  - { label: "35°C", value: 92 }
-  - { label: "40°C", value: 85 }
-  - { label: "45°C", value: 78 }
-```
-
-> **20%.** The temperature capacity buffer recommended for off-grid battery banks in India. At 45°C ambient (common in peak summer in Rajasthan, Gujarat, and AP), a LiFePO4 battery operates at ~78% of its 25°C rated capacity. Sizing without the buffer means the battery runs short during the hottest months. *Source - [NREL Battery Thermal Management Research](https://www.nrel.gov/){target="_blank" rel="noopener"}, NREL 2024.*
+> If the batteries will be installed in an air-conditioned or naturally cool space (below 30°C), a smaller margin such as 10% can be reasonable. Confirm against the battery datasheet.
 
 ## Worked Example: Tier-3 Village Home in Jharkhand
 
@@ -211,7 +192,7 @@ Table: Peak sun hours, annual average and worst month, for five Indian locations
 | Tamil Nadu (Chennai) | 5.0 | 4.0 (November) |
 | Kerala (Thiruvananthapuram) | 4.3 | 2.8 (June monsoon) |
 
-Peak sun hour data for Indian states is available from the [MNRE Solar Radiation Resource Assessment database](https://mnre.gov.in/){target="_blank" rel="noopener"}, which provides district-level GHI and DNI data for solar project planning. [IRENA's renewable energy statistics for India](https://www.irena.org/){target="_blank" rel="noopener"} confirm that India averages 4.5 to 6 peak sun hours per day across most inhabited regions, one of the highest averages globally, making off-grid solar economically viable even in lower-irradiance states like Kerala and the Northeast.
+Peak sun hour data for Indian states is available from the [MNRE Solar Radiation Resource Assessment database](https://mnre.gov.in/){target="_blank" rel="noopener"}, which provides district-level GHI and DNI data for solar project planning.
 
 **For Rajasthan village home (7kWh/day), sizing for worst month (4.5 PSH):**
 Panel kWp = (7 × 1.25) ÷ 4.5 = 8.75 ÷ 4.5 = **1.94 kWp → round up to 2 kWp**
@@ -225,7 +206,7 @@ Panel kWp = (2 × 1.25) ÷ 3.2 = 2.5 ÷ 3.2 = **0.78 kWp → round up to 1 kWp**
 - **Ignoring inverter losses**: A 10% loss factor is standard for modern inverters but must be included. A 7kWh load behind a 10%-efficient-loss inverter requires 7.78kWh of solar generation per day.
 - **Using the wrong DoD for VRLA**: Setting inverter low-cut too deep (allowing 80% DoD on VRLA instead of 50%) is the most common cause of premature VRLA failure in off-grid systems in rural India.
 - **Not sizing for the worst solar month**: Sizing for annual average PSH means the system runs short in December (north India) or July (monsoon regions). Always size for the worst month's PSH.
-- **Forgetting battery self-discharge in long-storage scenarios**: Agricultural solar systems may have minimal cycling in winter. VRLA self-discharges at 3–4% per month; over 3 months without cycling, 10–12% capacity is lost. LiFePO4 self-discharges at 1–2% per month, far less of an issue. The [IEC 61427-1 standard for off-grid photovoltaic battery systems](https://www.iec.ch/){target="_blank" rel="noopener"} provides the testing methodology used to verify battery performance claims for solar applications. [NREL's off-grid solar electrification research](https://www.nrel.gov/){target="_blank" rel="noopener"} confirms that battery oversizing (rather than undersizing) is the more common and more costly mistake in off-grid projects, resulting in stranded capital rather than operational failure.
+- **Forgetting battery self-discharge in long-storage scenarios**: Agricultural solar systems may have minimal cycling in winter. VRLA self-discharges at 3–4% per month; over 3 months without cycling, 10–12% capacity is lost. LiFePO4 self-discharges at 1–2% per month, far less of an issue. The [IEC 61427-1 standard for off-grid photovoltaic battery systems](https://www.iec.ch/){target="_blank" rel="noopener"} provides the testing methodology used to verify battery performance claims for solar applications.
 
 > [!WARNING] VRLA low-cut set for 80% DoD
 > Setting the inverter low-cut too deep (allowing 80% DoD on VRLA instead of 50%) is the most common cause of premature VRLA failure in off-grid systems in rural India. For a 12V VRLA system, set low-cut at 11.5V.

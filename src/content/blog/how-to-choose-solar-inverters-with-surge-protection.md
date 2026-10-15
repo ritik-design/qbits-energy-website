@@ -1,6 +1,6 @@
 ---
 title: "How to Choose Solar Inverters with Surge Protection"
-excerpt: "India's grid throws frequent voltage spikes and monsoon lightning at every solar installation. Without robust surge protection, 15-year inverters become 5-year liabilities. Here is the complete specification framework Indian EPCs use to choose surge-protected inverters."
+excerpt: "How to specify surge-protected solar inverters in India: DC and AC SPD types, the ratings to read from a datasheet, certification, warranty wording and a site risk-assessment method for Indian EPCs."
 description: "How to specify surge-protected solar inverters in India: DC/AC SPD requirements, Type 1 vs Type 2, kA ratings, and certification standards to check."
 category: "Buying Guide"
 date: 2026-04-08
@@ -17,53 +17,49 @@ keywords:
   - IEC 61643
 faqs:
   - q: "What SPD ratings are the minimum acceptable for Indian installations?"
-    a: "DC SPD discharge current minimum 20 kA for moderate-risk areas, 40 kA recommended for high-risk lightning zones (Kerala, NE India, Western Ghats, parts of Maharashtra). AC SPD discharge current minimum 40 kA, 60 kA for high-risk regions. Voltage protection level below 3,500V on the DC side and below 1,500V on the AC side. Anything below these thresholds leaves the inverter exposed to monsoon lightning and grid switching transients common across India."
+    a: "There is no single minimum that applies to every site, and we found no Indian standard that sets one for rooftop solar, so we quote no kA figure. SPD ratings should come from a risk assessment for the site and from the inverter's own specification: choose a DC SPD whose maximum continuous operating voltage is above the array's maximum open-circuit voltage at the coldest temperature, whose voltage protection level (Up) is below the withstand level of the equipment it protects, and whose nominal and maximum discharge currents suit the site's exposure and any external lightning protection system. Ask the manufacturer or designer to show these values against IEC 61643-31 (DC) and IEC 61643-11 (AC)."
   - q: "How often should SPDs be inspected and replaced?"
-    a: "High lightning-density areas (Kerala, NE India, parts of Maharashtra): inspect every 6 months, replace every 3-5 years. Moderate-risk areas: inspect annually, replace every 5-7 years. Always follow manufacturer-published guidance for the specific SPD module, and replace immediately if visual status indicators (green/red LED) show SPD activation has occurred. A spent SPD cannot protect against the next surge event."
+    a: "Follow the SPD manufacturer's published guidance for the specific module, because intervals depend on the product and the site. As a practice, check the status indicator at every service visit, replace an SPD whose indicator shows it has operated, and inspect more often after a nearby lightning event or a grid disturbance. A spent SPD cannot protect against the next surge event. We found no sourced replacement interval that applies to every product, so none is quoted."
   - q: "What protection level suits high-rainfall monsoon regions?"
-    a: "Specify 40 kA DC and 60 kA AC SPDs as standard. For the highest lightning density zones (Kerala coast, parts of Maharashtra, North-East India), consider Type 1 SPDs in addition to standard Type 2 protection. Type 1 SPDs handle direct lightning strike currents whereas Type 2 protects against induced surges - the combination provides defence-in-depth for areas where lightning density exceeds 8-10 strikes per sq km per year."
+    a: "Base the choice on a lightning risk assessment for the site rather than on the region's rainfall. Where the assessment or the site design calls for protection against direct strikes, such as an external lightning protection system, a Type 1 (10/350 microsecond) device may be needed at the entry in addition to Type 2 (8/20 microsecond) devices that protect against induced surges. Ask your designer to document the risk assessment and the SPD types chosen. We found no sourced lightning-density figure by Indian region that we could use for sizing, so we publish none."
   - q: "Can I retrofit external SPDs to older inverters without integrated protection?"
-    a: "Yes, but proper specification and installation matter significantly. Use IEC 61643-certified Type 2 SPDs sized for the specific inverter DC and AC ratings, installed close to the inverter terminals with short, low-impedance connections to earth. Integrated SPDs remain superior - they are factory-tuned to the inverter's electrical characteristics, have fewer connection failure points, respond faster to surge events, and are covered under the inverter warranty. Retrofit SPDs are a second-best option compared to specifying an inverter with integrated SPDs from the start."
+    a: "Yes, but proper specification and installation matter significantly. Use SPDs tested to the relevant part of IEC 61643, sized for the specific inverter DC and AC ratings, installed close to the inverter terminals with short, low-impedance connections to earth. Whether an integrated SPD is better than an external one depends on the exact products, so compare the datasheets and the warranty wording rather than assuming. Check with the inverter manufacturer that an added SPD does not affect the warranty."
   - q: "What are the red flags on inverter datasheets indicating weak surge protection?"
-    a: "Five red flags: missing or unclear SPD specifications anywhere in the datasheet, requirement to purchase SPDs separately as paid add-ons, uncertified SPD components from unknown or unverifiable suppliers, discharge ratings below 15 kA DC or 30 kA AC, and absence of SPD monitoring or failure indication features. Any of these signals that the manufacturer has cut cost on surge protection - which translates to higher failure rates in Indian conditions."
+    a: "Red flags include missing or unclear SPD specifications in the datasheet, a requirement to buy SPDs separately without saying so, SPDs from unverifiable suppliers without test reports, no stated Up, In or Imax values, no status indication, and vague warranty wording about surge events. These do not prove poor protection, but each one is a reason to ask for the controlling document before ordering."
   - q: "How does inadequate surge protection affect inverter warranty claims?"
-    a: "Materially. Manufacturers commonly exclude surge-related failures from warranty coverage when the failure can be attributed to inadequate external SPDs or a grid event beyond design specifications. Integrated SPDs shift this risk to the manufacturer - if the inverter is rated for specific surge protection and fails during a covered grid event within those parameters, the warranty applies. Always verify that the warranty terms explicitly cover surge-related failures within published installation specifications."
+    a: "It can, because manufacturers commonly exclude damage from events outside the stated conditions, and some warranty documents list surge or lightning among the exclusions. Read the warranty text for surge, lightning and grid-event wording, ask whether integrated SPDs are covered and whether external SPDs or earthing must be installed to a stated specification, and keep photographs and test records from commissioning in case of a claim."
   - q: "What's the difference between Type 1, Type 2, and Type 3 SPDs?"
-    a: "Type 1 SPDs handle direct lightning strike currents (10/350 microsecond waveform), used at building service entry points or for installations in high-strike zones. Type 2 SPDs handle induced surges from nearby lightning and grid switching events (8/20 microsecond waveform), the most common surge type and standard requirement for most Indian solar installations. Type 3 SPDs provide additional fine protection for sensitive electronics at the equipment level. Most Indian rooftop solar installations require Type 2 SPDs on both DC and AC sides; high-risk zones add Type 1 protection."
+    a: "Type 1 SPDs are tested with the 10/350 microsecond waveform that represents direct lightning current and are used where a lightning protection system or direct-strike exposure requires it, usually at the service entry. Type 2 SPDs are tested with the 8/20 microsecond waveform for induced surges and switching events and are the type commonly fitted in inverters and distribution boards. Type 3 SPDs provide fine protection for sensitive equipment close to the load. Which types a given installation needs comes from the risk assessment and the design."
   - q: "Should DC and AC SPDs be on the same module or separate?"
-    a: "Separate DC and AC SPDs are correct - they protect different circuits with different voltage levels and waveform characteristics. DC SPDs sit between the panel array and the inverter input, handling lightning-induced surges from the rooftop array. AC SPDs sit between the inverter output and the grid connection, handling grid-side switching transients and lightning surges propagating from the utility network. A single combined unit usually compromises one of the two protection functions."
+    a: "They protect different circuits with different voltages and waveform characteristics, so a PV installation normally has DC SPDs rated to IEC 61643-31 on the DC side and AC SPDs rated to IEC 61643-11 on the AC side. DC SPDs sit between the array and the inverter input, and AC SPDs sit between the inverter output and the grid connection. Ask the manufacturer or designer how each side is protected, whether inside the inverter or in the DCDB and ACDB."
   - q: "What surge protection is needed for the panel array beyond inverter-level SPDs?"
-    a: "For systems above 50 kW or in very high lightning-density zones, panel array-level surge protection adds an additional defence layer. Lightning rods, grounding systems for the mounting structure, and DC string-level SPDs at the array combiner box complement the inverter-integrated SPDs. The detailed panel-array surge protection design is project-specific and should be reviewed with the EPC during system design rather than retrofitted later."
+    a: "For larger systems or high-exposure sites, array-level protection can add a further layer: bonding and earthing of the mounting structure, string-level or combiner-box SPDs and, where the risk assessment calls for it, an external lightning protection system. The design is project-specific and should be reviewed with the EPC during system design rather than retrofitted later."
 ---
 
-Selecting solar inverters with adequate [surge protection](https://heavendesigns.in/glossary/spd-surge-protection/) is one of the most critical decisions for installations across India, where unpredictable grid voltage fluctuations, frequent switching transients, and intense monsoon-season lightning pose continuous threats to equipment longevity and project ROI. Inadequate surge protection turns a designed 15-year inverter asset into a 5-7 year liability with cascading warranty disputes.
+Selecting solar inverters with adequate [surge protection](https://heavendesigns.in/glossary/spd-surge-protection/) is an important decision for installations across India, where grid voltage fluctuations, switching transients and monsoon-season lightning can threaten equipment and project returns. This guide gives a specification method based on how SPDs are rated and tested, rather than on rule-of-thumb kA tiers, because we found no Indian standard or sourced study that supports a single set of numbers for every site.
 
 > [!KEYTAKEAWAYS]
-> - Integrated DC and AC [SPDs](/glossary/spd/) outperform external add-ons on response time, connection reliability, and warranty coverage.
-> - Minimum acceptable ratings are 20 kA DC / 40 kA AC discharge current; high-lightning zones (Kerala, NE India, Western Ghats) need 40 kA DC / 60 kA AC and Type 1 protection at the service entry.
-> - Type 2 SPDs (8/20 microsecond waveform) are the standard requirement for most Indian rooftop installations; Type 1 handles direct strikes, Type 3 protects sensitive electronics.
-> - Certification should trace to IEC 61643 (DC: 61643-31, AC: 61643-11) with NABL-accredited test reports, not just a supplier-provided datasheet.
-> - Warranty terms should explicitly cover surge-related failures within rated discharge capacity - generic "environmental damage" exclusions are a red flag. Without adequate surge protection, inverter operational life falls from 15-20 years to 5-7 years in Indian conditions.
+> - Choose SPDs from a site risk assessment and the inverter's own ratings, not from a generic kA tier: ask for the Up (voltage protection level), In (nominal discharge current) and Imax (maximum discharge current) values and the continuous operating voltage on the datasheet.
+> - Type 2 SPDs (8/20 microsecond waveform) protect against induced surges and switching events; Type 1 (10/350) is for direct-strike exposure where a lightning protection system or the risk assessment requires it; Type 3 is fine protection near sensitive equipment.
+> - Certification should trace to IEC 61643 (DC: 61643-31, AC: 61643-11) with test reports for the exact SPD or inverter model, not only a supplier datasheet.
+> - Read the warranty for surge, lightning and grid-event wording, and keep commissioning records.
+> - We found no sourced figure for how much surge protection extends or shortens inverter life, so none is quoted.
 
-This guide presents the complete surge protection framework Indian EPCs and installers use: why surge protection matters in Indian conditions, DC and AC SPD types and design, the six-criterion selection framework, regional lightning risk mapping, certification requirements, warranty implications, common red flags, and inverter selection criteria for surge-resilient operation.
+This guide covers why surge protection matters, DC and AC SPD types and design, a six-criterion selection framework, certification requirements, warranty implications, common red flags, and inverter selection criteria for surge-resilient operation.
 
 ## Why Surge Protection Matters in India
 
-Indian conditions stress inverter electronics in ways the European reference operating conditions never assumed:
+Conditions that stress inverter electronics in many Indian installations include:
 
-- **High lightning density** - parts of India see 8-15 lightning strikes per square kilometre per year, among the highest in the world
-- **Grid voltage fluctuations** - voltage swings of +/-15-20% from nominal during peak demand or DG transitions
-- **Switching transients** - DISCOM substation switching creates voltage spikes hundreds of times per year
-- **Monsoon humidity** - increases the conductivity of any compromised insulation, accelerating surge damage
-- **Weak earth conditions** - rocky terrain and dry summer earth resistance variations affect surge dissipation
+- **Lightning exposure** that varies widely by region and site; ask the designer for a site-specific assessment
+- **Grid voltage fluctuations** during peak demand or DG transitions
+- **Switching transients** from substation and feeder switching and from large motor loads
+- **Monsoon humidity**, which can increase the conductivity of any compromised insulation
+- **Weak earth conditions**, such as rocky terrain and dry-season earth resistance variations, which affect surge dissipation
 
-Cumulative surge damage shortens inverter lifespan dramatically:
+Surge damage can affect panels, monitoring systems and connected loads as well as the inverter, and warranty terms may exclude failures attributed to events outside the stated conditions.
 
-- **Without adequate surge protection**: operational life reduces from 15-20 years to 5-7 years
-- **Failed inverters often void warranty** when failure is attributable to surge events outside design specification
-- **Cascading damage** affects panels, monitoring systems, and connected loads downstream
-
-For any Indian installation, surge protection is not a discretionary feature - it is core engineering.
+For any Indian installation, surge protection is a core engineering decision, not a discretionary feature.
 
 ## SPD Types and Design
 
@@ -73,8 +69,8 @@ Table: SPD types per IEC 61643, with surge waveform and application
 
 | SPD Type | Surge waveform | Application |
 | --- | --- | --- |
-| **Type 1** | 10/350 microsecond | Direct lightning strike protection at building service entry |
-| **Type 2** | 8/20 microsecond | Induced surges from nearby lightning and grid switching - standard requirement |
+| **Type 1** | 10/350 microsecond | Direct lightning current, where an external lightning protection system or the risk assessment requires it |
+| **Type 2** | 8/20 microsecond | Induced surges and switching events; commonly fitted in inverters and distribution boards |
 | **Type 3** | 1.2/50 microsecond | Fine protection for sensitive electronics at equipment level |
 
 ### DC and AC SPDs serve different functions
@@ -84,149 +80,138 @@ Table: What DC, AC and integrated SPDs each protect
 | SPD location | What it protects |
 | --- | --- |
 | **DC SPDs** | Guard solar array inputs against lightning-induced surges from the rooftop array |
-| **AC SPDs** | Protect grid connection against utility-side transients and switching surges |
-| **Integrated SPDs** | Factory-installed inside the inverter, factory-tuned to specific electrical characteristics |
+| **AC SPDs** | Protect the grid connection against utility-side transients and switching surges |
+| **Integrated SPDs** | Factory-installed inside the inverter; ask for their ratings and test reports |
 
-On installations that separate the protection hardware from the inverter, DC and AC SPDs are typically housed within the ACDB/DCDB assembly alongside fuses and isolators - which is why field-installed protection has more connection points and more potential failure modes than a factory-integrated design.
+On installations that separate the protection hardware from the inverter, DC and AC SPDs are typically housed within the ACDB/DCDB assembly alongside fuses and isolators, which adds connection points that must be installed correctly.
 
 ### Integrated vs external SPDs
 
-Table: Integrated SPDs compared with external add-on SPDs
+Table: Integrated SPDs compared with external add-on SPDs, as questions to ask
 
 | Aspect | Integrated | External add-on |
 | --- | --- | --- |
-| Response time | Nanosecond, factory-tuned | Slower, dependent on installation |
-| Connection points | Built into inverter circuit | Additional terminals and cables |
-| Warranty coverage | Included in inverter warranty | Separate warranty, may exclude inverter |
-| Failure modes | Fewer | More (cable connections, terminations) |
-| Installation cost | Included | Additional time and material |
-| Monitoring | Often included | Usually requires separate monitoring |
+| Ratings | Ask for Up, In and Imax on the datasheet | Ask for Up, In and Imax on the SPD datasheet |
+| Connection points | Built into the inverter circuit | Additional terminals and cables to install correctly |
+| Warranty coverage | Check whether it is covered under the inverter warranty | Check whether it is covered and whether it affects the inverter warranty |
+| Monitoring | Ask whether status is shown | Ask whether status is shown |
+| Installation cost | Included in the inverter quote | Additional material and labour |
 
-Integrated SPDs outperform external add-ons across every dimension. Always prefer inverters with integrated DC and AC surge protection as standard.
+Neither option is better by default: compare the exact products' datasheets and warranty wording.
 
 ## The Six-Criterion Selection Framework
 
 ### 1. Evaluate Technical Ratings
 
-Table: Technical SPD ratings, minimum acceptable and high-risk recommendation
+Table: SPD ratings to read from the datasheet and what each one means
 
-| Parameter | Minimum acceptable | High-risk recommendation |
+| Parameter | What it means | What to check |
 | --- | --- | --- |
-| DC SPD discharge current (Imax) | 20 kA | 40 kA |
-| AC SPD discharge current (Imax) | 40 kA | 60 kA |
-| DC voltage protection level (Up) | <3,500V | <2,800V |
-| AC voltage protection level (Up) | <1,500V | <1,200V |
-| DC nominal discharge current (In) | 5 kA minimum | 10 kA |
-| AC nominal discharge current (In) | 10 kA minimum | 20 kA |
+| Continuous operating voltage (Uc / Ucpv) | The highest voltage the SPD can sit across continuously | For DC, above the array's maximum open-circuit voltage at the coldest temperature |
+| Voltage protection level (Up) | The residual voltage that passes through to the protected equipment; lower is better | Below the withstand level of the inverter input or output it protects |
+| Nominal discharge current (In) | The surge current the SPD withstands repeatedly (8/20 microsecond) | Matches the site's exposure and the designer's assessment |
+| Maximum discharge current (Imax) | The maximum single-event surge the SPD can absorb | Matches the site's exposure and the designer's assessment |
+| Impulse current (Iimp) | The 10/350 microsecond current of a Type 1 device | Needed only if a Type 1 device is specified |
 
-The Imax rating defines the maximum single-event surge the SPD can absorb. The Up (voltage protection level) defines the residual voltage that passes through to the protected equipment - lower is better.
+We publish no minimum kA tier because none is set by a standard we could cite and the right value depends on the site.
 
 ### 2. Certification and Compliance
 
 Required certification documentation:
 
 - **IEC 61643** testing for SPD components (DC: IEC 61643-31, AC: IEC 61643-11)
-- **[BIS approval](/glossary/bis-certification/)** for the inverter assembly including integrated SPDs
-- **NABL-accredited test reports** for surge protection performance
-- **Manufacturer datasheet** with explicit Imax, In, and Up values published
+- **[BIS registration](/glossary/bis-certification/)** for the inverter, as the exact model's registration requires
+- **Test reports** for the SPD or the inverter's protection, from an accredited laboratory
+- **Manufacturer datasheet** with explicit Uc, Up, In and Imax values published
 
 ### 3. Integrated SPD System Design
 
-- Factory-tuned to the specific inverter electrical characteristics
-- Single warranty coverage across inverter and protection
-- Fewer connection failure points than retrofit alternatives
-- Faster response time (nanosecond range)
-- Compact installation footprint
+- Ask whether the SPD is factory-fitted and which circuits it protects
+- Ask whether the SPD is covered under the same warranty as the inverter
+- Ask whether the SPD is field-replaceable
+- Ask for the installation manual's earthing requirements
 
 ### 4. Monitoring and Failure Indication
 
-- **Visual indicators** - green/red LED status showing SPD operational state
-- **Remote monitoring** of SPD health through the inverter monitoring platform
-- **Automatic alerts** when replacement is needed (post-activation)
-- **Replacement workflow** - field-replaceable modules without major service event
+- **Visual indicators**, such as a green/red status window showing the SPD's operational state
+- **Remote monitoring** of SPD health through the inverter monitoring platform, if the model offers it
+- **Alerts** when replacement is needed after activation, if the model offers them
+- **Replacement workflow**: whether the SPD is a field-replaceable module
 
 > [!IMPORTANT] A spent SPD gives no protection
-> A spent SPD provides no protection. Monitoring ensures degraded SPDs are replaced before the next surge event.
+> A spent SPD provides no protection. Status indication and routine checks help ensure a degraded SPD is replaced before the next surge event.
 
-### 5. Regional Risk Factor Matching
+### 5. Site Risk Assessment
 
-Table: Lightning density by region and the recommended SPD specification
+Rather than a regional table, which would need lightning-density data we could not source, use a site-specific assessment:
 
-| Region | Lightning density | SPD recommendation |
-| --- | --- | --- |
-| Coastal Kerala, North-East India | Very high (10-15 strikes/sq km/yr) | Type 1 + Type 2 SPDs, 40 kA DC + 60 kA AC |
-| Western Ghats, Konkan | High (6-10 strikes/sq km/yr) | Type 2 SPDs, 40 kA DC + 60 kA AC |
-| Northern plains (Delhi NCR, UP, Punjab) | Moderate (4-6 strikes/sq km/yr) | Type 2 SPDs, 20-40 kA DC + 40-60 kA AC |
-| Southern interior (Bengaluru, Hyderabad) | Moderate (3-5 strikes/sq km/yr) | Type 2 SPDs, 20 kA DC + 40 kA AC standard |
-| Arid Rajasthan, Gujarat | Lower (2-4 strikes/sq km/yr) | Type 2 SPDs, 20 kA DC + 40 kA AC minimum |
-| Eastern coast (Tamil Nadu, Andhra Pradesh) | Moderate-high with cyclonic surge risk | Type 2 SPDs, 40 kA DC + 60 kA AC |
-
-Always specify based on the highest expected exposure, not average conditions.
+- Ask the designer for a lightning risk assessment (the IEC 62305 series covers risk assessment and lightning protection) for the building and the array
+- Record whether an external lightning protection system is present, because it affects the Type 1 decision
+- Note the line lengths between the array and the inverter, and between the inverter and the service entry
+- Note the earthing arrangement and measured earth resistance
+- Specify for the highest exposure the assessment identifies, not average conditions
 
 ### 6. Warranty Coverage for Surge-Related Damage
 
-Verify the inverter warranty terms explicitly cover surge-related failures within published installation specifications. The [model-specific written warranty](/blog/12-year-solar-inverter-warranty/) standard now expected in the Indian market is only meaningful if surge events are explicitly in scope, not carved out - the [honest truth about solar inverter warranty terms](/blog/solar-inverter-warranty/) explains how to spot the difference:
+Verify the inverter warranty terms for surge, lightning and grid-event wording. The [model-specific written warranty](/blog/12-year-solar-inverter-warranty/) is only meaningful if the terms say what is covered, and the [honest truth about solar inverter warranty terms](/blog/solar-inverter-warranty/) explains how to spot the difference:
 
-- **Look for**: "Manufacturer warrants against failures including surge events within rated discharge capacity"
-- **Avoid**: Generic warranties excluding "environmental damage" or "external events"
-- **Confirm**: Integrated SPDs covered under the same warranty as the inverter
-- **Document**: Installation per manufacturer specification with photographic evidence at commissioning
+- **Look for**: explicit wording on surge events and the conditions attached
+- **Check**: whether integrated SPDs are covered under the same warranty as the inverter
+- **Check**: whether external SPDs or earthing to a stated specification are a condition of cover
+- **Document**: installation per the manufacturer's specification, with photographic evidence at commissioning
 
 ## Red Flags to Avoid
 
-Inverters showing any of these red flags should be eliminated from procurement:
+Treat any of these as a reason to ask for the controlling document before ordering:
 
-> [!WARNING] Eliminate the inverter if any of these appear
+> [!WARNING] Ask for the document if any of these appear
 > - **Missing or unclear SPD specifications** anywhere in the datasheet
-> - **Requirement to purchase SPDs separately** as paid add-ons rather than integrated
-> - **Uncertified SPD components** from unknown or unverifiable suppliers
-> - **Discharge ratings below 15 kA DC** or **below 30 kA AC**
+> - **A requirement to purchase SPDs separately** that is not stated up front
+> - **SPD components from unverifiable suppliers** without test reports
+> - **No stated Uc, Up, In or Imax values**
 > - **No SPD monitoring or failure indication** mechanism
 > - **Generic component datasheets** without project-specific test data
 > - **Vague warranty terms** around surge-related events
-> - **Type 1 SPD requirement assumed external** for installations in high-strike zones
 
 ## Installation Best Practices for Maximum Protection
 
-Even premium SPDs underperform with poor installation. Apply these practices:
+Even good SPDs underperform with poor installation. Apply these practices:
 
-- **Short, low-impedance connections** between SPD and earth bar - keep under 50 cm where possible
-- **Heavy-gauge earth conductor** to dedicated SPD earth electrode ([earthing](/glossary/earthing/) design matters as much as SPD selection)
-- **Mounting orientation** per manufacturer specification (typically vertical)
-- **Cable routing** minimising loop area between SPD and protected equipment
-- **Drip loops** in DC and AC cables before entering the inverter to prevent surge tracking
-- **Earth resistance** below 5 ohms per BIS IS 3043 at the SPD ground connection
+- **Short, low-impedance connections** between the SPD and the earth bar; IEC 60364-5-53 recommends keeping the total lead length short, preferably under about 0.5 m
+- **Heavy-gauge earth conductor** to the dedicated earth electrode ([earthing](/glossary/earthing/) design matters as much as SPD selection)
+- **Mounting orientation** per the manufacturer's specification
+- **Cable routing** that minimises loop area between the SPD and the protected equipment
+- **Earth resistance** verified and recorded against the value the designer and the standards specify for the site
 - **Photographic documentation** of all SPD installations at commissioning for warranty defence
 
 For larger commercial and industrial sites, SPD placement and earthing layout are usually captured in the project's electrical drawings and CEIG documentation before installation begins, so the protection scheme is reviewable rather than improvised on site.
 
-## Maintenance and Replacement Schedule
+## Maintenance and Replacement
 
-Table: SPD maintenance and replacement schedule for high-risk and moderate zones
+Table: SPD maintenance activities and how to set the interval
 
-| Activity | Frequency in high-risk zones | Frequency in moderate zones |
-| --- | --- | --- |
-| Visual inspection (LED status check) | Quarterly | Semi-annual |
-| Full SPD performance test | Annual | Biennial |
-| Replacement after activation | Immediate (within 30 days) | Immediate (within 30 days) |
-| Scheduled replacement (no activation) | Every 3-5 years | Every 5-7 years |
-| Earth resistance verification | Annual | Biennial |
+| Activity | How to set the interval |
+| --- | --- |
+| Visual inspection (status indicator check) | At every service visit, and after a nearby lightning event or a grid disturbance |
+| Performance test | Per the SPD manufacturer's guidance for the module |
+| Replacement after activation | As soon as the indicator shows the SPD has operated |
+| Scheduled replacement (no activation) | Per the SPD manufacturer's guidance for the module |
+| Earth resistance verification | Per the designer's specification and the site's exposure |
 
 EPCs running this schedule across a large installed base often fold SPD checks into a broader O&M and turnkey installation programme so inspection cadence stays consistent site to site rather than depending on individual technician memory.
 
 ## Inverter Selection Criteria for Surge-Resilient Operation
 
-When specifying inverters for any Indian installation, require:
+When specifying inverters for any Indian installation, ask for:
 
-> [!CHECKLIST] Require these when specifying an inverter
-> - **Integrated DC and AC SPDs** as standard, not add-ons
-> - **IEC 61643 certified** components from manufacturers like DEHN, Phoenix Contact, Citel, or equivalent
-> - **20 kA+ DC, 40 kA+ AC** Imax discharge currents minimum
-> - **Voltage protection levels** below 3,500V DC and 1,500V AC
+> [!CHECKLIST] Ask for these when specifying an inverter
+> - **Stated DC and AC SPD arrangement**: integrated or external, and the type of each
+> - **IEC 61643 test reports** for the SPD components or the assembly
+> - **Uc, Up, In and Imax values** matched to the array voltage and the site's risk assessment
 > - **Visual or remote SPD status monitoring**
-> - **Field-replaceable SPD modules** for in-life serviceability
-> - **Warranty terms** explicitly covering surge-related failures within installation specifications
-> - **Wide grid voltage tolerance** (+/-15-20%) to absorb non-surge voltage swings
+> - **Field-replaceable SPD modules**, if in-life serviceability matters
+> - **Warranty terms** that address surge-related failures within the installation specification
+> - **The AC voltage window** and grid-code setting, so that ordinary voltage swings do not cause avoidable trips
 
 ## Where Qbits Fits
 
@@ -247,4 +232,4 @@ Related guides:
 
 ## Closing
 
-Surge protection is not optional in India - it is the difference between a 15-year operational asset and a 5-year liability. The Indian grid and climate produce surge events at a frequency and magnitude that European-designed inverters without enhanced surge protection cannot survive. Specify integrated DC and AC SPDs with adequate kA ratings matched to your regional lightning density, demand warranty coverage that explicitly includes surge-related failures, and verify the manufacturer's SPD monitoring capability for proactive replacement. Apply this framework consistently and surge-related failures become a non-event for the life of your installations.
+Surge protection is a core engineering decision in India. Specify DC and AC SPDs from a site risk assessment and the inverter's own ratings, demand test reports and warranty wording that address surge-related failures, and verify status indication so that spent SPDs are replaced before the next event. Apply this framework consistently and surge-related failures become easier to prevent and to document.

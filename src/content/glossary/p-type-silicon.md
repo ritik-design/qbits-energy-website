@@ -142,7 +142,7 @@ Table: Cell technologies built on p-type silicon and their status
 
 ## Real-world applications
 
-Legacy PERC installations, though showcase floors are shifting fast toward n-type panels (see [REI Expo 2026 Recap, Top Trends from India's Biggest Solar Exhibition](/blog/rei-expo-recap/)).
+Legacy PERC installations, though showcase floors are shifting fast toward n-type panels (see [REI Expo 2026 preview: what to look for](/blog/rei-expo-recap/)).
 
 ALMM-listed PERC modules.
 

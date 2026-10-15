@@ -56,7 +56,7 @@ At ₹10,000+ a month in electricity bills, solar stops being a lifestyle choice
 The **True Cost of Going Solar** framework applies identically to a 10kW system as to smaller sizes, five components, all verifiable before you sign:
 
 1. **Solar panels (₹/Wp)**: At 10,000 Wp, panels are the largest line. Dated retail listings checked 14 October 2026 (detail in our [solar panel price guide](/blog/solar-panel-price-india/)) ran ₹18.53 to ₹18.73 per watt for non-DCR panels (Waaree store, taxes included), which is ₹1,85,300 to ₹1,87,300 for 10,000 Wp, and ₹20.97 to ₹40.74 per watt for DCR panels (Luminous, Waaree, Adani and other listings), which is ₹2,09,700 to ₹4,07,400. A subsidised residential system needs DCR modules; a commercial buyer does not.
-2. **Inverter**: Listings checked 14 October 2026 for a 10kW three-phase [on-grid string inverter](/on-grid-inverter/): ₹56,999 ([UTL via Solar World](https://solar-world.in/products/utl-on-grid-solar-inverter-10kw-three-phase), tax included, showed sold out) and ₹61,800 ([Loom Solar Fusion 10 kW](https://www.loomsolar.com/products/fusion-10-kw-on-grid-solar-inverter), tax status not stated). For a three-phase example see our [QB 10KTLC three-phase on-grid](/our-products/QB-6-17KTLC/); Qbits does not publish prices. For 10 kW hybrid inverters, the listings in our [hybrid inverter price guide](/blog/hybrid-inverter-price-india/) ran ₹1,41,750 ([Devsol](https://www.devsolenergy.com/hybrid-8g-inverter)) to ₹2,57,999 ([Deye via Enlead Energy](https://shop.enleadenergy.com/collections/deye)) on 14 October 2026.
+2. **Inverter**: Listings checked 14 October 2026 for a 10kW three-phase [on-grid string inverter](/on-grid-inverter/): ₹56,999 ([UTL via Solar World](https://solar-world.in/products/utl-on-grid-solar-inverter-10kw-three-phase), tax included, showed sold out) and ₹61,800 ([Loom Solar Fusion 10 kW](https://www.loomsolar.com/products/fusion-10-kw-on-grid-solar-inverter), tax status not stated). For 10 kW hybrid inverters, the listings in our [hybrid inverter price guide](/blog/hybrid-inverter-price-india/) ran ₹1,41,750 ([Devsol](https://www.devsolenergy.com/hybrid-8g-inverter)) to ₹2,57,999 ([Deye via Enlead Energy](https://shop.enleadenergy.com/collections/deye)) on 14 October 2026.
 3. **Balance of System (BOS)**: Heavier mounting structure (10kW carries 16 to 18 panels at 550 to 600 W), longer cable runs, larger combiner box, three-phase-rated SPDs, and earthing system. We found no dated source for a 10 kW BOS cost, so get it as a separate line in your quote.
 4. **Installation and commissioning**: Labour for the array, structural work, DISCOM three-phase meter application. We found no dated source for this line either; ask for it itemised.
 5. **GST**: the 12% slab no longer exists (Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025). Renewable energy devices sit at 5% under Schedule I entry 437, heading 8504 static converters at 18%, and a bundled turnkey contract uses the 70:30 split for an 8.9% effective rate (0.70 × 5% + 0.30 × 18%). That is about ₹8,900 of GST per ₹1,00,000 of pre-tax contract value. Confirm the entry your supplier relies on.
@@ -79,7 +79,7 @@ Table: 10kW system cost by component, residential on-grid, residential hybrid an
 
 Sources: [MNRE residential CFA guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) for the benchmark (₹50,000 per kW for the first 2 kW plus ₹45,000 for each of the other 8 kW = ₹1,00,000 + ₹3,60,000), the [Loom Solar 10 kW three-phase kit page](https://www.loomsolar.com/products/10kw-on-grid-solar-system-kit-3-phase-complete-solar-power-solution-for-commercial-residential-use) (sixteen 600 W DCR panels, which is 9.6 kWp, tax status not stated), and the panel and inverter listings above. The benchmark is a planning and subsidy reference for a grid-connected system without battery. Your contract price is negotiated, so replace these with your own quotes.
 
-> **40%.** The accelerated depreciation rate available to commercial solar buyers under Section 32 of the Income Tax Act (plant and machinery category). On an illustrative ₹4,60,000 system, the year-1 tax saving at a 31.2% effective rate is approximately ₹57,400 (₹4,60,000 × 40% × 31.2%), further improving commercial payback. *Source - [Central Board of Direct Taxes (CBDT)](https://www.incometax.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **40%.** The accelerated depreciation rate available to commercial solar buyers under Section 32 of the Income Tax Act (plant and machinery category). On an illustrative ₹4,60,000 system, the year-1 tax saving at a 31.2% effective rate is approximately ₹57,400 (₹4,60,000 × 40% × 31.2%), further improving commercial payback. *Basis: Rule 5 and Appendix I of the Income-tax Rules, 1962 (renewable energy devices block, 40% on written-down value) as commonly stated in solar tax guides; confirm the rate and your eligibility with your chartered accountant, because the rules have been renumbered.*
 
 For complete GST rate breakdowns by component, read the [GST on solar systems guide](/blog/gst-on-solar-inverters-2026/).
 
@@ -95,7 +95,7 @@ The single-phase vs three-phase choice depends on the home's power supply:
 
 ### Small Commercial (Shops, Clinics, Offices, Schools)
 
-Commercial tariffs in India range from ₹8 to ₹14 per unit, significantly higher than residential. A 10kW system at ₹10/unit generating 45 kWh/day saves ₹1,64,250 per year, far faster payback than residential.
+Commercial tariffs differ by state and category and are usually higher than residential ones; this guide assumes ₹10 per unit for illustration, so replace it with your own bill. A 10kW system at ₹10/unit generating 45 kWh/day saves ₹1,64,250 per year, far faster payback than residential.
 
 Commercial buyers do **not** qualify for PM Surya Ghar subsidy but benefit from:
 - **40% accelerated depreciation** under Section 32 (plant and machinery)
@@ -124,7 +124,7 @@ This benefit is frequently overlooked and can dramatically change the economics 
 4. **Tax saving (at 31.2% effective tax rate)**: ₹1,84,000 × 31.2% = ₹57,408
 5. **Effective net cost after tax benefit**: ₹4,60,000 − ₹57,408 = ₹4,02,592
 
-In subsequent years, depreciation continues on the reducing balance. Over 5 years the cumulative deduction is ₹4,60,000 × (1 − 0.60^5) = about ₹4,24,200, which is about ₹1,32,300 of tax saving at 31.2% and about ₹1,06,800 at 25.17%. This holds only if the business has taxable profit to absorb the deduction, and the first-year rate is halved when the plant is used for fewer than 180 days in the year. This benefit is governed by the [Income Tax Act Section 32](https://incometaxindia.gov.in/) and applies to all entities with a PAN and profit from business/profession. Mercom India data shows commercial solar payback in India averaging 2.5 to 3.5 years for entities claiming accelerated depreciation. *Source - [Mercom India Solar Market Brief](https://www.mercomindia.com/), 2025.*
+In subsequent years, depreciation continues on the reducing balance. Over 5 years the cumulative deduction is ₹4,60,000 × (1 − 0.60^5) = about ₹4,24,200, which is about ₹1,32,300 of tax saving at 31.2% and about ₹1,06,800 at 25.17%. This holds only if the business has taxable profit to absorb the deduction, and the first-year rate is halved when the plant is used for fewer than 180 days in the year. This benefit is governed by Section 32 of the Income-tax Act, 1961 and the depreciation rates in the Income-tax Rules, and applies to entities with business or professional income; confirm the current rate and your eligibility with your chartered accountant.
 
 For proprietary firms and partnership firms, the benefit is computed at the applicable income tax slab (up to 30%). For private limited companies, the corporate tax rate (25.17% for turnover below ₹400 Cr) applies.
 
@@ -168,28 +168,16 @@ With a 10kW inverter, you can comfortably run 7,000–9,000 W of actual load sim
 
 ## State-Wise 10kW Solar System Price in India 2026
 
-We found no dated, sourced state-level price data for a 10kW system, so this guide does not publish state price ranges. Pricing does vary by state through local installer competition, logistics and DISCOM process. The table lists the commonly cited variable for each state, without quoting a figure:
-
-Table: Commonly cited variable in 10kW residential on-grid pricing by state, not quantified
-
-| State | Commonly cited variable |
-| --- | --- |
-| Maharashtra | Labour and logistics costs in Mumbai and Pune |
-| Gujarat | Local panel manufacturing may reduce BOS cost |
-| Rajasthan | High irradiance reduces panels needed marginally |
-| Karnataka | Competitive installer market in Bangalore |
-| Tamil Nadu | DISCOM processing speed affects project timeline |
-| Uttar Pradesh | Lower labour costs, but logistics adds for remote areas |
-| Delhi NCR | Urban market pricing |
+We found no dated, sourced state-level price data for a 10kW system, so this guide does not publish state price ranges or rank states by price. Quotes differ with installer competition, logistics, structure design and the DISCOM's process, so collect at least two itemised quotes from vendors registered in your state.
 
 Use the MNRE benchmark of ₹4,60,000 less the ₹78,000 central assistance, which leaves ₹3,82,000, as a scheme reference only; your quote will differ. Some states add their own top-ups on the central subsidy; amounts and eligibility vary, so verify current state subsidy availability at [MNRE's PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}.
 
-For comparison with smaller system sizes and their pricing, read the [5kW solar system price guide](/blog/5kw-solar-system-price-india/) and the [3kW solar system price guide](/blog/3kw-solar-system-price-india/). [JMK Research's India residential solar market data](https://jmkresearch.com/){target="_blank" rel="noopener"} documents that 10kW is the fastest-growing size segment in the residential market, driven by large-home buyers who want genuine electricity independence rather than partial offset.
+For comparison with smaller system sizes and their pricing, read the [5kW solar system price guide](/blog/5kw-solar-system-price-india/) and the [3kW solar system price guide](/blog/3kw-solar-system-price-india/).
 
 ## Common Mistakes in 10kW System Purchases
 
 - **Choosing a single-phase inverter for a three-phase home**: This causes phase imbalance and may trigger DISCOM penalties. Confirm your connection type before purchasing.
-- **Skipping structural engineering**: A 20-panel [mounting structure](/glossary/mounting-structure/) on an RCC terrace carries 500+ kg. Get a structural certification from a licensed engineer, firms offering dedicated structural and civil engineering for rooftop solar can provide this as a standalone service. [IRENA's India country report](https://www.irena.org/countries/India) notes that mounting failures are among the top three causes of rooftop solar underperformance in Asia.
+- **Skipping structural engineering**: A 20-panel [mounting structure](/glossary/mounting-structure/) on an RCC terrace carries 500+ kg. Get a structural certification from a licensed engineer, firms offering dedicated structural and civil engineering for rooftop solar can provide this as a standalone service.
 - **Not claiming accelerated depreciation**: Commercial buyers who miss this benefit forgo about ₹57,000 in year one on the ₹4,60,000 worked example, and more over later years. File with your CA in the same year as installation.
 
 - **No shade analysis**: A 10kW system on a partially shaded terrace can underperform a 7kW system by 20%. [Shading analysis](/glossary/shading-analysis/) is non-negotiable at this investment level, and dedicated [shading analysis tools](https://surgepv.com/shadow-analysis/) used by professional designers model tree and structure shadows hour-by-hour across the year rather than relying on a single site visit. [NREL tools for shade analysis](https://www.nrel.gov/pv/system-advisor-model.html) and satellite-based irradiance software are now standard practice for reputable installers in India.
@@ -197,6 +185,7 @@ For comparison with smaller system sizes and their pricing, read the [5kW solar 
 ## Where Qbits Fits
 
 - **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Three-phase on-grid inverters](/our-products/QB-6-17KTLC/)**: Review the QB 6 to 17KTLC datasheets for the exact model; Qbits publishes no price, so get a dated dealer quote.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Verify your 10kW panel array and string configuration before installation.
 - **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 

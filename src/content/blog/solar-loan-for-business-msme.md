@@ -166,16 +166,16 @@ The exception: your entity may have no taxable profits, as with a new unit or a 
 
 Honest tradeoff: RESCO is not a bad product. For a profitable services firm in a rented office with a 9-year lease, RESCO is often the only sensible route. For a manufacturing MSME with owned premises and steady profits, borrowing and owning is almost always worth several lakh rupees more over the plant's life.
 
-## Five Mistakes MSMEs Make With Business Solar Loans
+## Four Mistakes MSMEs Make With Business Solar Loans
 
-1. **Borrowing short against a long asset.** A 3-year loan on a 25-year plant makes EMIs exceed savings. Match tenure to at least 7 years where possible, or use IREDA's 10 to 15 year terms.
+1. **Borrowing short against a long asset.** A 3-year loan on a 25-year plant makes EMIs exceed savings. Match tenure to the plant's life as far as the lender allows, and compare the longer tenures that lenders such as IREDA publish for business rooftop schemes.
 2. **Ignoring CGTMSE.** Pledging property when a government guarantee would do. Always ask for the guarantee cover first.
 3. **Quoting the wrong tariff.** Using the headline slab rate instead of the blended landed cost from actual bills. That overstates savings and can flip the cash-flow sign.
 4. **Forgetting the O&M and insurance lines.** Budget 1 to 1.5 percent of plant cost per year for operations, maintenance, and insurance. Lenders increasingly ask for an O&M contract before sanction.
 
 ## How to Apply: Documents and Timeline
 
-A clean file sanctions in 2 to 4 weeks at a bank or NBFC, and 4 to 12 weeks at SIDBI or IREDA. Prepare these before you approach any lender:
+Sanction time depends on the lender and how complete your file is; ask each lender for its timeline. Prepare these before you approach any lender:
 
 > [!CHECKLIST] Documents to prepare before approaching a lender
 > - Udyam Registration certificate and promoter KYC.

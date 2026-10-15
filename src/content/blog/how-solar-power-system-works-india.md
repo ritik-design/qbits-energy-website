@@ -28,7 +28,7 @@ faqs:
   - q: "How long does it take for a solar system to start working after installation?"
     a: "Physical installation of a 3 kW residential system takes 1–2 days. However, the system cannot legally generate and export power until the DISCOM installs a net meter and approves the connection - a process that takes 15 to 90 days depending on the state. In states like Gujarat and Rajasthan, DISCOM approval is typically completed within 30 days. In Kerala, it can take 60–90 days. The PM Surya Ghar portal has streamlined approvals for registered systems."
   - q: "What is MPPT and why does it matter?"
-    a: "MPPT stands for Maximum Power Point Tracking - an algorithm inside the solar inverter that continuously adjusts the voltage at which it draws current from the panels to extract maximum available power. As cloud cover, panel temperature, and sun angle change throughout the day, the optimal operating voltage shifts. Without MPPT, the inverter would operate at a fixed voltage and waste 10–30% of available generation. All modern grid-tied inverters use MPPT; the number of MPPT channels determines how many independently oriented strings can be optimised simultaneously."
+    a: "MPPT stands for Maximum Power Point Tracking - an algorithm inside the solar inverter that continuously adjusts the voltage at which it draws current from the panels to extract maximum available power. As cloud cover, panel temperature, and sun angle change throughout the day, the optimal operating voltage shifts. Without MPPT, the inverter would operate at a fixed voltage that can sit away from the maximum power point and waste part of the available generation (the amount depends on the conditions). All modern grid-tied inverters use MPPT; the number of MPPT channels determines how many independently oriented strings can be optimised simultaneously."
   - q: "Do solar panels generate DC or AC power?"
     a: "Solar panels generate direct current (DC) power. The DC output from each panel is typically 30–50 V per module; strings of modules reach 300–800 V DC. The solar inverter converts this DC into 230 V AC at 50 Hz - the standard form of electricity used by Indian homes and businesses. The DC wiring from panels to inverter requires UV-resistant, 1000 V-rated cables; the AC side uses standard electrical cabling."
 ---
@@ -38,7 +38,7 @@ You have seen solar panels on rooftops and heard the word "inverter" many times,
 > [!KEYTAKEAWAYS]
 > - Solar power moves through 7 stages: PV panel to string to combiner box to inverter to distribution board to net meter to your electricity bill.
 > - The inverter (Stage 4) converts DC to 230 V, 50 Hz AC at 97-98% efficiency and is the single highest-leverage quality decision in the system.
-> - MPPT recovers 2-5% more annual energy than a fixed-voltage system by continuously tracking the panels' optimal operating point.
+> - MPPT recovers energy that a fixed-voltage system would miss by continuously tracking the panels' optimal operating point; the amount depends on conditions.
 > - Anti-islanding protection shuts the inverter down automatically during a grid outage, a deliberate safety feature, not a malfunction.
 > - Net metering credits surplus exported units against nighttime grid imports; your bill reflects only the net balance. A well-sized 3 kW system in Karnataka generating 450-500 units/month can push a 400-unit/month household bill to near zero.
 
@@ -94,11 +94,11 @@ The inverter uses high-frequency switching transistors (IGBTs or MOSFETs) to cho
 
 ### Maximum Power Point Tracking (MPPT)
 
-Every second, the inverter's MPPT algorithm sweeps the DC voltage across a range and identifies the operating point that delivers maximum power. As cloud cover moves in and out, panel temperature fluctuates, and the sun angle changes through the day, the optimal voltage shifts continuously. A good MPPT algorithm recovers 2–5% more energy annually than a fixed-voltage system.
+Every second, the inverter's MPPT algorithm sweeps the DC voltage across a range and identifies the operating point that delivers maximum power. As cloud cover moves in and out, panel temperature fluctuates, and the sun angle changes through the day, the optimal voltage shifts continuously. A good MPPT algorithm recovers energy that a fixed-voltage system would miss; the amount depends on irradiance, temperature and the array.
 
 ### Grid Synchronisation and Anti-Islanding
 
-The inverter monitors grid frequency and voltage in real time and synchronises its AC output to match exactly. When the grid fails (power cut), the inverter detects the loss of synchronisation within milliseconds and shuts down automatically, a safety requirement called **[anti-islanding protection](/glossary/anti-islanding/)** mandated by [IEC 62116](https://www.iec.ch/). This is why on-grid systems produce zero power during outages: it is a deliberate safety shutdown, not a malfunction.
+The inverter monitors grid frequency and voltage in real time and synchronises its AC output to match exactly. When the grid fails (power cut), the inverter detects the loss of synchronisation within milliseconds and shuts down automatically, a safety requirement called **[anti-islanding protection](/glossary/anti-islanding/)**, tested under IEC 62116 (adopted in India as IS 16169); ask for the model's test report. This is why on-grid systems produce zero power during outages: it is a deliberate safety shutdown, not a malfunction.
 
 For a deeper technical dive, see [how does a solar inverter work](/blog/how-does-a-solar-inverter-work/).
 
@@ -132,7 +132,7 @@ At the point where your home's AC wiring meets the DISCOM grid, the DISCOM insta
 - **Import**: units drawn from the grid (night, cloudy days, high consumption periods)
 - **Export**: surplus solar units fed to the grid (midday when panels peak and consumption is low)
 
-The net meter sits at the boundary of your property. In India, net metering is regulated by state electricity regulatory commissions under guidelines from the [Ministry of New and Renewable Energy](https://mnre.gov.in/), which mandates that DISCOMs must facilitate net metering for rooftop solar under the PM Surya Ghar scheme. India's installed rooftop solar capacity crossed 15 GW in 2025, according to [Mercom India's Q4 2025 Solar Market Report](https://www.mercomindia.com/), driven largely by net-metering-enabled residential adoption. Most states allow net metering for residential systems up to 10 kW. For a complete walkthrough of the application process, see [how to apply for net metering in India](/blog/how-to-apply-net-metering-india/).
+The net meter sits at the boundary of your property. In India, net metering is regulated by state electricity regulatory commissions under guidelines from the [Ministry of New and Renewable Energy](https://mnre.gov.in/), which mandates that DISCOMs must facilitate net metering for rooftop solar under the PM Surya Ghar scheme. India's grid-connected rooftop solar capacity was 33.41 GW on 30 September 2026, according to MNRE data reported by [Saur Energy](https://www.saurenergy.com/solar-energy-news/india-adds-2456-gw-renewable-energy-capacity-in-h1-fy-2026-27-12637483) (8 October 2026). Net-metering limits differ by state and DISCOM, so check yours. For a complete walkthrough of the application process, see [how to apply for net metering in India](/blog/how-to-apply-net-metering-india/).
 
 The financial mechanism: your monthly bill charges you for `(Import units) − (Export units)`. If export exceeds import in a month, the credit rolls forward to the next billing cycle in most states.
 
@@ -169,17 +169,17 @@ This framework is the complete answer to "how does a solar power system work", f
 
 The 7-stage journey above only delivers the promised financial returns if every component performs at specification. Here is what each quality decision affects:
 
-Table: Component quality gaps and their stated impact on 25-year returns
+Table: Component quality gaps and why they matter (no rupee or percentage impact is quoted; none has a dated source)
 
-| Component | Quality Gap | Impact on 25-Year Returns |
+| Component | Quality Gap | Why it matters |
 | --- | --- | --- |
-| Solar panels | ALMM-listed vs uncertified | ₹80,000–₹1,50,000 in lost generation from higher degradation |
-| DC cables | 1,000 V rated vs undersized | 3–5% resistive loss, potential fire risk from overheating |
-| Inverter | MPPT efficiency + warranty depth | 2–4% generation loss; replacement cost ₹25,000–₹80,000 if it fails in Year 5 |
-| Net meter | DISCOM-approved only | Non-approved meters may fail interconnection inspection; restart the clock on approval |
-| Mounting structure | Hot-dip galvanised vs basic painted | 10–15 year lifespan difference in coastal/humid regions |
+| Solar panels | ALMM-listed vs uncertified | Subsidy eligibility, and degradation and warranty terms differ by model |
+| DC cables | Voltage-rated and correctly sized vs undersized | Resistive loss and potential overheating |
+| Inverter | MPPT efficiency, certificates and warranty depth | Generation and downtime if it fails, plus replacement cost |
+| Net meter | DISCOM-approved only | Non-approved meters may fail interconnection inspection and delay approval |
+| Mounting structure | Hot-dip galvanised vs basic painted | Corrosion resistance, especially in coastal or humid regions |
 
-The inverter is the most consequential quality decision because it sits at Stage 4 (the heart of the system) and because its failure destroys generation from every other component while it is offline. A model-specific written warranty means a failed inverter in Year 7 costs you nothing but a service call. See [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) for the evaluation framework.
+The inverter is the most consequential quality decision because it sits at Stage 4 (the heart of the system) and because its failure destroys generation from every other component while it is offline. A model-specific written warranty with a clear remedy reduces what a late-life failure costs you, but only for the cover the document actually gives. See [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) for the evaluation framework.
 
 ## Common Misunderstandings About How Solar Works
 

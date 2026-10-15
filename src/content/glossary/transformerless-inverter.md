@@ -172,7 +172,7 @@ Lower cost than equivalent transformer-isolated.
 
 Lighter and smaller footprint.
 
-Mature, ALMM-listed widely.
+Mature technology with wide market availability.
 
 Standardised safety design.
 

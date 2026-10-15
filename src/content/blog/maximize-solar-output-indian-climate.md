@@ -18,7 +18,7 @@ faqs:
   - q: "What is the optimal tilt angle for solar panels in different Indian cities?"
     a: "Using PVGIS 5.3 (European Commission Joint Research Centre; ERA5 radiation data 2015 to 2020, 1 kWp, 14% system losses, south-facing, run on 14 October 2026), the optimal fixed annual tilt for a south-facing panel came out at roughly: Jaipur (26.9°N) 31°, Delhi (28.6°N) 32°, Mumbai (19.1°N) 24°, Ahmedabad (23°N) 28°, Bengaluru (12.9°N) 17°, Chennai (13.1°N) 15°, Hyderabad (17.4°N) 22° and Kolkata (22.6°N) 28°, which is about 2 to 5 degrees above each city's latitude. Compared with a flat (0°) installation, the optimal tilt gave about 14% more annual energy in Delhi, 13% in Jaipur, 10% in Ahmedabad, 10% in Kolkata, 7% in Mumbai, 6% in Hyderabad, 3% in Bengaluru and 2% in Chennai. Other datasets can place the optimum a little lower, and roof pitch, wind loading and drainage often decide the practical angle. Flat roofs can take tilt-mounting structures; sloped roofs are typically installed flush with the slope."
   - q: "How often should I clean solar panels in India to maximise output?"
-    a: "Cleaning frequency depends on your local dust environment. North India (UP, Rajasthan, Punjab, Haryana) during the dry season (October–May): clean every 3–4 weeks - dust accumulation rates are among the highest globally. Urban moderate-dust zones (Mumbai, Bengaluru, Hyderabad): every 4–6 weeks. Coastal areas (Chennai, Kochi, Vizag): every 6–8 weeks - salt aerosol rather than dust is the concern. Hill stations and clean-air environments: every 8–12 weeks. Always perform a cleaning after the monsoon season ends in October–November to remove mineral deposits from dried rain."
+    a: "Cleaning frequency depends on your local dust environment. As a planning starting point, dusty dry-season regions such as North India need more frequent cleaning than urban moderate-dust zones, coastal areas deal with salt aerosol rather than dust, and hill stations and clean-air environments need the least; the zone table in this guide gives starting intervals, which you should adjust from your own cleaned-versus-uncleaned comparison. Always perform a cleaning after the monsoon season ends in October–November to remove mineral deposits from dried rain."
   - q: "How much output does a single shaded panel cost a solar system?"
     a: "A single panel fully shaded in a series string can reduce the entire string output by 30–70%, depending on whether bypass diodes are active and how many cells are shaded. Partial shading of one panel (one-third of cells) reduces string output by approximately 10–25%. Bypass diodes limit the damage to approximately one-third of the panel contribution, but the shaded section still draws from unshaded sections. Eliminating shading sources - trimming trees, relocating equipment - typically delivers the highest per-rupee return of any output improvement intervention."
   - q: "What is inverter clipping and does it reduce my output?"
@@ -39,12 +39,12 @@ faqs:
 
 You installed a 5 kW system projected to generate 22 units per day. Fourteen months later, the monitoring app shows an average of 17.5 units on clear days, a 20% shortfall that your installer never warned you about. The units are not permanently lost, but recovering them requires working through the right levers in the right sequence.
 
-This guide covers the six practical interventions that increase solar output in Indian conditions, not optimisations from European installation manuals, but the adjustments that matter in 45 °C Rajasthan summers, post-harvest North Indian dust, and the specific challenge of east-west split rooftops across latitudes from 8°N to 32°N.
+This guide covers the six practical interventions that increase solar output in Indian conditions, not optimisations from European installation manuals, but the adjustments that matter in 45 °C Rajasthan summers, post-harvest North Indian dust, and the specific challenge of east-west split rooftops across latitudes from about 8°N (Kanyakumari) to the far north of the country.
 
-> **Direct answer.** The 6-Lever Solar Output Maximiser for India addresses: (1) cleaning frequency matched to your dust environment, (2) panel tilt angle matched to your latitude (10°–30° N), (3) shade elimination and monitoring, (4) net metering load time-shifting, (5) summer derating mitigation for the inverter, and (6) seasonal tilt steepening in winter (October–February). A well-maintained system in India generates 10–22% more than a poorly maintained equivalent over a 10-year period.
+> **Direct answer.** The 6-Lever Solar Output Maximiser for India addresses: (1) cleaning frequency matched to your dust environment, (2) panel tilt angle matched to your latitude (the PVGIS 5.3 optima below), (3) shade elimination and monitoring, (4) net metering load time-shifting, (5) summer derating mitigation for the inverter, and (6) seasonal tilt steepening in winter (October–February). A well-maintained system generates more than a poorly maintained equivalent; measure the difference on your own monitoring app.
 
 > [!KEYTAKEAWAYS]
-> - Cleaning frequency should match your dust zone, every 2-3 weeks in Rajasthan, every 6-8 weeks on the coast, not a generic quarterly schedule.
+> - Cleaning frequency should match your dust zone and your own measured soiling loss, not a generic quarterly schedule; the zone table gives planning starting points.
 > - A correct tilt adds about 2% (Chennai) to 14% (Delhi) annual generation over a flat installation in PVGIS 5.3 results (ERA5 data 2015 to 2020), with the optimum a few degrees above the latitude.
 > - A single fully shaded panel in a series string can cut the whole string's output by 30-70%, quarterly shade audits catch this before it compounds.
 > - Shifting deferrable loads to 10 AM-2 PM solar hours is worth ₹3-5 more per unit than exporting the same unit through net metering.
@@ -54,13 +54,14 @@ The 6-Lever framework is ordered by return on effort. Start at Lever 1 (cleaning
 
 ## Lever 1: Cleaning Frequency Matched to Your Climate Zone
 
-India's [soiling](/glossary/soiling/) environment is among the harshest in the world for solar. [NREL soiling research on Indian rooftop installations](https://www.nrel.gov/docs/fy16osti/65498.pdf){target="_blank" rel="noopener"} documents that Indian sites lose 15–30% of irradiance annually from dust accumulation, higher than the USA (5–10%) and Europe (3–8%), and comparable to the most dust-prone regions globally.
+[Soiling](/glossary/soiling/) from dust, pollen, bird droppings and salt can cost real output in much of India, and how much depends on the site, the season, the rain and the tilt. We cite no India-wide soiling-loss percentage because we found no primary figure we could verify. The reliable way to find your own number is to compare a cleaned string or panel with an uncleaned one on the monitoring app over a few clear days.
 
-> **10–30%.** The yield loss from dust and soiling on solar panels in Indian conditions over a month without cleaning, depending on proximity to dust sources. *Source - [NREL, Soiling Losses for Solar PV](https://www.nrel.gov/docs/fy16osti/65498.pdf){target="_blank" rel="noopener"}, 2016.*
+> [!TIP] Measure your soiling loss
+> Clean one string and leave another dusty, then compare their output at the same hour on a clear day. The percentage difference is your own soiling loss and tells you how often cleaning pays.
 
-Cleaning frequency is not uniform across India. Use the zone-based schedule below, not a generic "clean quarterly" instruction:
+Cleaning frequency is not uniform across India. The zone-based schedule below gives this guide's planning starting points, not measured intervals; adjust them using your own soiling comparison:
 
-Table: Recommended cleaning interval by climate zone, with example cities and the main soiling agent
+Table: Planning starting points for cleaning interval by climate zone, with example cities and the main soiling agent (adjust from your own measurements)
 
 | Climate Zone | Cities | Recommended Interval | Primary Soiling Agent |
 | --- | --- | --- | --- |
@@ -91,7 +92,7 @@ Beyond the zone schedule, three annual events require immediate unscheduled clea
 
 ## Lever 2: Panel Tilt Angle Optimised for Indian Latitudes
 
-India spans latitudes from approximately 8°N (Kanyakumari) to 37°N (Ladakh), giving a wide range of optimal tilt angles. The [tilt angle](/glossary/tilt-angle/) for maximum annual energy comes out close to, and a few degrees above, the latitude in the [PVGIS 5.3](https://re.jrc.ec.europa.eu/pvg_tools/en/) (European Commission Joint Research Centre; ERA5 radiation data 2015 to 2020, 1 kWp, 14% system losses, south-facing, run on 14 October 2026) results in the table below. The gain over a flat array is largest in the north (Delhi, Jaipur) and small in the south (Chennai, Bengaluru).
+India spans latitudes from approximately 8°N (Kanyakumari) to Ladakh in the far north, giving a wide range of optimal tilt angles. The [tilt angle](/glossary/tilt-angle/) for maximum annual energy comes out close to, and a few degrees above, the latitude in the [PVGIS 5.3](https://re.jrc.ec.europa.eu/pvg_tools/en/) (European Commission Joint Research Centre; ERA5 radiation data 2015 to 2020, 1 kWp, 14% system losses, south-facing, run on 14 October 2026) results in the table below. The gain over a flat array is largest in the north (Delhi, Jaipur) and small in the south (Chennai, Bengaluru).
 
 ### Tilt Angle and Orientation by City
 
@@ -177,14 +178,14 @@ The six levers operate as a hierarchy. Work through them in order, each lever sh
 
 ### The 6-Lever Solar Output Maximiser
 
-1. **Cleaning (Zone-matched interval)**: The highest-return, lowest-cost lever. Resolve before investigating any other cause. A dust-soiled system in Rajasthan without cleaning loses 10–30% of output within 3–4 weeks.
+1. **Cleaning (Zone-matched interval)**: The highest-return, lowest-cost lever. Resolve before investigating any other cause. A dust-soiled system loses output between cleanings, and the amount depends on your site, so measure it as described above.
 2. **Tilt and Orientation (Latitude-optimised)**: In the PVGIS results above, a flat 0° installation loses about 13% to 14% annually in Jaipur and Delhi and about 2% to 3% in Chennai and Bengaluru compared with a correctly tilted south-facing array. A one-time installation decision whose payback depends on your city and the structure cost.
-3. **Shade Elimination (Quarterly audit)**: A permanently shaded string loses 5–50% depending on severity. Quarterly visual walkaround prevents accumulation of undetected shade losses over years.
+3. **Shade Elimination (Quarterly audit)**: A permanently shaded string loses output in proportion to how much of it is shaded. Quarterly visual walkaround prevents accumulation of undetected shade losses over years.
 4. **Net Metering Load Time-shifting (Operational habit)**: Time-shifting deferrable loads (washing machine, water heater, air conditioner pre-cooling) to peak solar hours (10 AM–2 PM) reduces exports and increases direct solar self-consumption, which is always worth more per unit than the export credit rate.
-5. **Summer Derating Mitigation (Inverter ventilation)**: Inverter thermal derating above 45 °C ambient reduces afternoon output by 5–20% on peak summer days. Improving ventilation and shading the inverter enclosure prevents this loss at low cost.
-6. **Seasonal Tilt Adjustment (October–February)**: Steepening tilt by 5–8° in winter months captures low-angle winter sun more effectively, adding 3–7% to Q4/Q1 generation. Practical in systems with adjustable mounting structures.
+5. **Summer Derating Mitigation (Inverter ventilation)**: Inverter thermal derating at high ambient temperature reduces afternoon output on peak summer days by an amount that depends on the model's derating curve. Improving ventilation and shading the inverter enclosure prevents this loss at low cost.
+6. **Seasonal Tilt Adjustment (October–February)**: Steepening tilt by 5–8° in winter months captures low-angle winter sun more effectively, which can add some generation in winter; model the gain for your city in PVGIS before adjusting. Practical in systems with adjustable mounting structures.
 
-These six levers address output losses in descending order of frequency and magnitude. A homeowner who implements all six on a well-sized system can expect to recover 10–22% of previously lost annual [solar yield](/glossary/solar-yield/).
+These six levers address output losses in descending order of frequency and magnitude. Implementing the levers that apply to your site recovers part of previously lost annual [solar yield](/glossary/solar-yield/); measure the result on the monitoring app rather than assuming a figure.
 
 ## Lever 4: Net Metering Optimisation and Load Time-Shifting
 
@@ -222,7 +223,8 @@ This operational discipline does not require any hardware change, it requires on
 
 Solar inverters are designed to derate output when internal or ambient temperature exceeds a threshold, typically 40–45 °C ambient for most inverter models. This protection prevents damage to capacitors and IGBTs but reduces afternoon output precisely during the months when irradiance is highest: April, May, and June.
 
-> **5–20%.** The output reduction from inverter thermal derating on peak summer afternoons (ambient temperature above 45 °C) in Indian conditions, depending on inverter design and installation environment. *Source - [CEA, Annual Report on Solar PV Installations](https://cea.nic.in/){target="_blank" rel="noopener"}, 2025.*
+> [!NOTE] Read the model's derating curve
+> Derating depends on the inverter model and the ambient temperature at the inverter; the datasheet's derating curve shows the output at each temperature. Compare it with the summer temperature at the mounting spot, not the weather-station temperature.
 
 ### The Root Causes of Summer Derating in Indian Installations
 

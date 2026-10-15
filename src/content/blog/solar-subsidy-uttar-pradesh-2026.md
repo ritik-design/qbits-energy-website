@@ -22,7 +22,7 @@ faqs:
   - q: "Which DISCOM should I approach for solar subsidy in UP?"
     a: "You apply to the DISCOM that supplies your electricity connection, identified from your electricity bill. Uttar Pradesh has four DISCOMs: PVVNL (Pashchimanchal) covers western UP including Meerut, Agra, and Saharanpur; DVVNL (Dakshinanchal) covers Allahabad and Jhansi divisions; MVVNL (Madhyanchal) covers Lucknow, Sitapur, and Hardoi; PUVVNL (Purvanchal) covers Varanasi, Gorakhpur, and eastern UP districts. Your DISCOM name appears on your electricity bill. Both the PM Surya Ghar and UPNEDA state applications flow through your respective DISCOM."
   - q: "How long does net metering approval take in Uttar Pradesh?"
-    a: "Net metering approval in Uttar Pradesh typically takes 60 to 90 days end-to-end - longer than the national average due to administrative load on the four DISCOMs and infrastructure constraints in semi-urban and rural areas. Urban applicants in Lucknow (MVVNL) and Kanpur (MVVNL) tend to see faster processing of 45 to 70 days. Rural applicants under PUVVNL and DVVNL should allow 75 to 120 days. The UPERC (UP Electricity Regulatory Commission) mandates a 30-day DISCOM response window from application, though actual timelines vary."
+    a: "No verified end-to-end figure is published for Uttar Pradesh, and timelines differ by DISCOM and by urban or rural feeder. Ask your DISCOM sub-division for its current timeline in writing, check the response window in the current UPERC regulation, and plan with a buffer, especially in semi-urban and rural areas."
   - q: "Is a hybrid inverter better than an on-grid inverter in Uttar Pradesh?"
     a: "It depends on how often you lose power and what you cannot do without. An on-grid inverter shuts down during a grid outage as an anti-islanding safety measure, so it gives no backup. A hybrid inverter with a battery keeps chosen loads running through cuts, but it costs more and the battery needs replacing over the system's life. If cuts are frequent and you run critical loads or a generator, a hybrid system is worth pricing. If cuts are short and rare, an on-grid system is simpler and cheaper. The central subsidy is based on module capacity, not the inverter type, so ask your DISCOM whether it will grant net metering on a hybrid configuration."
   - q: "Can I get solar subsidy on a 5 kW system in UP?"
@@ -45,7 +45,7 @@ Homeowners in Uttar Pradesh asking about rooftop solar in 2026 face a situation 
 > - UP has four DISCOMs, PVVNL, DVVNL, MVVNL, and PUVVNL, and you apply only through the one listed on your electricity bill.
 > - UP's net metering buyback rate (₹2.00–₹3.25/unit) is far below the retail import tariff (₹5.50–₹7.00/unit), so sizing for self-consumption beats maximising export.
 > - With 4 to 8 hours of daily outages common outside major cities, a hybrid inverter with battery backup typically outperforms an on-grid system despite its 25–40% cost premium.
-> - A worked Lucknow example shows a 3 kW hybrid system reaching payback in about 2.8 years once diesel-generator savings of ₹34,200 a year are included.
+> - A worked Lucknow example shows a 3 kW hybrid system reaching payback in about 4.0 years (on assumed inputs) once diesel-generator savings of ₹34,200 a year are included.
 
 This guide covers the full picture: the PM Surya Ghar central [subsidy slabs](https://quickestimate.co/blog/pm-surya-ghar-subsidy-slabs), the UPNEDA state scheme, all four UP DISCOMs, net metering in UP, and a worked example from a Lucknow homeowner, so you can go from reading to applying with a clear checklist.
 
@@ -78,7 +78,7 @@ Table: PM Surya Ghar central scheme compared with the UPNEDA state scheme
 | **ALMM requirement** | Mandatory | Mandatory |
 | **Empanelled vendor** | DISCOM-empanelled | UPNEDA-registered |
 | **Net metering** | Required post-installation | Required post-installation |
-| **Timeline to receive** | 45–90 days post commissioning | 45–90 days post commissioning |
+| **Timeline to receive** | Commonly reported as about 30 days after commissioning (confirm on the portal) | Check UPNEDA |
 
 > **₹78,000.** The maximum central PM Surya Ghar subsidy for a 3 kW residential rooftop solar system in UP, paid as a direct bank transfer after DISCOM commissioning is complete. *Source - [PM Surya Ghar National Portal](https://pmsuryaghar.gov.in/), MNRE, 2026.*
 
@@ -92,22 +92,22 @@ The three-layer stack is specific to Uttar Pradesh's combination of central poli
 
 1. **Layer 1, Central PM Surya Ghar Subsidy**: Fixed nationally at ₹30,000 per kW for the first 2 kW, and ₹18,000 for the third kilowatt (capped at 3 kW). Total: ₹78,000 for a 3 kW system. This is the largest single subsidy available and is identical across all UP DISCOMs and all Indian states. Full details on the slab structure are in the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/).
 
-2. **Layer 2, UPNEDA State Top-Up**: The UP government, through UPNEDA, provides an additional per-kW incentive for residential rooftop solar installations. This amount is updated annually and varies by consumer category. As of this writing, the UPNEDA portal lists incentive rates for residential systems, check [upneda.org.in](https://upneda.org.in/) for the current-year slab before finalising your system size. When the state top-up is active at its full rate, a 3 kW system in UP can see combined subsidies that significantly reduce net cost below ₹1,00,000 gross installation cost.
+2. **Layer 2, UPNEDA State Top-Up**: The UP government, through UPNEDA, provides an additional per-kW incentive for residential rooftop solar installations. This amount is updated annually and varies by consumer category. As of this writing, the UPNEDA portal lists incentive rates for residential systems, check [upneda.org.in](https://upneda.org.in/) for the current-year slab before finalising your system size. If a state top-up is active, add it to the central subsidy to get your combined subsidy; this guide quotes no state amount because none could be verified.
 
-3. **Layer 3, Diesel Displacement and Grid-Failure Savings**: This is the layer that is unique to UP and is frequently ignored in financial calculations. UP homeowners with generators spend ₹15,000–₹40,000 per year on diesel fuel to compensate for power cuts. A hybrid solar system with a battery bank eliminates most of this expenditure. Adding the annual diesel saving to the electricity bill saving produces a combined financial benefit that can reduce effective payback to 3–4 years for a hybrid system, comparable to, or better than, the payback on an on-grid system in a state with reliable grid supply.
+3. **Layer 3, Diesel Displacement and Grid-Failure Savings**: This is the layer that is unique to UP and is frequently ignored in financial calculations. UP homeowners with generators spend money on diesel to compensate for power cuts: litres per month × 12 × the pump price (₹95 a litre in the worked example below). A hybrid solar system with a battery bank can displace part of this expenditure, and adding the annual diesel saving to the electricity bill saving shortens the payback, as the worked example below shows.
 
-Applying all three layers transforms the financial analysis entirely. The UP homeowner who only accounts for Layer 1 and ignores diesel displacement is underestimating their return by 20–35%.
+Applying all three layers transforms the financial analysis entirely. The UP homeowner who only accounts for Layer 1 and ignores diesel displacement understates the return; the worked example below shows by how much on its own inputs.
 
 Table: Gross cost, subsidies, net cost and payback by system size in UP
 
-| System Size | Gross Cost | Central Subsidy | State Top-up (verify UPNEDA) | Net Cost (est.) | Est. Payback |
-| --- | --- | --- | --- | --- | --- |
-| 1 kW | ₹60,000 | ₹30,000 | Check UPNEDA | ₹20,000–₹30,000 | 1.5–2 yr |
-| 2 kW | ₹1,20,000 | ₹60,000 | Check UPNEDA | ₹40,000–₹60,000 | 2–3 yr |
-| 3 kW | ₹1,80,000 | ₹78,000 | Check UPNEDA | ₹70,000–₹90,000 | 3–5 yr |
-| 5 kW | ₹3,00,000 | ₹78,000 | Check UPNEDA | ₹1,80,000–₹2,00,000 | 5–7 yr |
+| System Size | MNRE benchmark cost | Central Subsidy | State top-up | Benchmark cost after central subsidy |
+| --- | --- | --- | --- | --- |
+| 1 kW | ₹50,000 | ₹30,000 | Check UPNEDA | ₹20,000 |
+| 2 kW | ₹1,00,000 | ₹60,000 | Check UPNEDA | ₹40,000 |
+| 3 kW | ₹1,45,000 | ₹78,000 | Check UPNEDA | ₹67,000 |
+| 5 kW | ₹2,35,000 | ₹78,000 | Check UPNEDA | ₹1,57,000 |
 
-*Gross cost estimates based on 2026 UP market rates of ₹55,000–₹65,000 per kW. State top-up column shows indicative range pending verification on UPNEDA portal. Payback assumes ₹6 average tariff and diesel displacement benefit for hybrid systems. With the central subsidy only, the net cost of the 1 kW, 2 kW, 3 kW and 5 kW rows is ₹30,000, ₹60,000, ₹1,02,000 and ₹2,22,000.*
+*Costs are the MNRE benchmark (₹50,000 per kW for the first 2 kW and ₹45,000 per kW beyond, 13 February 2024), a reference for the subsidy and not a quote. No state top-up amount could be verified, so none is shown; confirm it on the UPNEDA portal. Payback depends on your tariff, system cost and any diesel displacement.*
 
 ## UP's Four DISCOMs: Who You Apply To
 
@@ -128,10 +128,10 @@ PVVNL serves the densely populated western UP region, including the economically
 
 **Coverage:** Allahabad (Prayagraj), Jhansi, Mirzapur, Chitrakoot, Banda, and southern UP districts
 
-DVVNL covers the historically underserved southern UP belt, where grid reliability is among the weakest in the state. Prayagraj city has better infrastructure than rural DVVNL areas, where 6–8 hours of daily outages are common in summer. This grid context makes hybrid systems with battery backup the rational default for DVVNL applicants rather than the exception. Net metering timelines under DVVNL average 75 to 100 days, partly due to infrastructure for bidirectional meter installation in rural feeders.
+DVVNL covers the historically underserved southern UP belt, where grid reliability is among the weakest in the state. Prayagraj city has better infrastructure than rural DVVNL areas, where long daily outages are reported in summer. This grid context makes hybrid systems with battery backup the rational default for DVVNL applicants rather than the exception. Ask DVVNL for its current net metering timeline in writing, since bidirectional meter installation on rural feeders can slow it down.
 
 - **Hybrid preference:** DVVNL rural consumers should strongly favour hybrid inverters; the grid cannot be relied upon during peak solar generation hours
-- **Prayagraj city applicants:** Urban DVVNL zones have better processing infrastructure; expect 55 to 70 days
+- **Prayagraj city applicants:** Urban DVVNL zones have better processing infrastructure; ask for the timeline in writing
 
 ### MVVNL: Madhyanchal Vidyut Vitran Nigam Limited
 
@@ -146,10 +146,10 @@ MVVNL is UP's largest DISCOM by consumer count and handles the state capital Luc
 
 **Coverage:** Varanasi, Gorakhpur, Azamgarh, Mau, Ghazipur, Deoria, Ballia, Jaunpur, and eastern UP districts
 
-PUVVNL serves eastern UP, which has some of the state's weakest grid infrastructure and longest average outage durations, 5 to 8 hours per day in many districts. This makes hybrid systems with battery storage not a premium option but an operational necessity for homeowners who want usable electricity during daylight outage hours. Varanasi city has better urban grid quality than surrounding districts. Processing timelines for PM Surya Ghar under PUVVNL are among the longest in the state, plan for 80 to 120 days in semi-urban and rural areas.
+PUVVNL serves eastern UP, which has some of the state's weakest grid infrastructure and long outage durations in many districts. This makes hybrid systems with battery storage not a premium option but an operational necessity for homeowners who want usable electricity during daylight outage hours. Varanasi city has better urban grid quality than surrounding districts. Ask PUVVNL for its current timeline in writing and plan with a buffer in semi-urban and rural areas.
 
 - **Critical PUVVNL consideration:** Do not install an on-grid-only system in rural PUVVNL areas; frequent outages render on-grid systems unproductive for large portions of the day
-- **Varanasi city:** More manageable timelines of 60 to 80 days; larger installer network available
+- **Varanasi city:** Often more manageable than surrounding districts; ask for the timeline in writing
 
 ## Net Metering in UP: UPERC Rates, Process, and What You Actually Earn
 
@@ -180,8 +180,6 @@ The import-export tariff gap is large in UP, averaging ₹3.25–₹3.75 per uni
 
 For a complete walkthrough of the net metering application process nationally, including document requirements and DISCOM submission steps that apply in UP, the [how to apply for net metering in India guide](/blog/how-to-apply-net-metering-india/) is the companion reference. The [net metering India complete guide](/blog/net-metering-india-complete-guide/) covers the regulatory framework in detail.
 
-> **Uttar Pradesh added approximately 450 MW of rooftop solar capacity in FY2025, driven in large part by PM Surya Ghar uptake across all four DISCOMs, with MVVNL (Lucknow zone) leading the state in commissioned household installations.** *Source - [MNRE Annual Report](https://mnre.gov.in/), Government of India, 2025.*
-
 ## On-Grid vs Hybrid Inverter in UP: The Honest Assessment
 
 The on-grid versus hybrid inverter decision is more consequential in Uttar Pradesh than in any other major Indian state. UP's grid reality (4 to 8 hours of daily outages across large rural and semi-urban areas) fundamentally changes the economics and practical utility of each system type. This section covers the decision honestly, without defaulting to either option as universally correct.
@@ -208,7 +206,7 @@ Table: On-grid versus hybrid inverter for UP homes
 
 For the comprehensive multi-factor decision framework including payback calculations by grid reliability tier, the [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) builds the full model.
 
-UP homeowners comparing system types should also note that the additional cost of a hybrid system (typically ₹25,000–₹50,000 over an on-grid equivalent) is partially offset by reduced diesel expenditure in the first year alone. A household spending ₹20,000 annually on diesel generator fuel recovers the hybrid premium in under three years, on top of the electricity bill savings.
+UP homeowners comparing system types should also note that the additional cost of a hybrid system (a same-brand Deye 5 kW pair was listed at ₹37,999 on-grid and ₹1,35,888 hybrid on 14 October 2026, before the battery) is partly offset by reduced diesel expenditure. Divide the premium on your own quote by your annual diesel saving to see how many years it takes to recover, on top of the electricity bill savings.
 
 ## Worked Example: 3 kW Hybrid System in Lucknow (MVVNL)
 
@@ -231,17 +229,17 @@ Table: Financial breakdown for a 3 kW hybrid system with 5 kWh LFP battery in Lu
 
 | Item | Amount |
 | --- | --- |
-| Gross system cost - inverter + panels + mounting (3 kW hybrid) | ₹1,95,000 |
-| Battery pack (5 kWh LFP) | ₹55,000 |
-| **Total gross cost** | **₹2,50,000** |
+| Assumed gross system cost - inverter + panels + mounting (3 kW hybrid) | ₹1,95,000 |
+| Battery pack (5 kWh LFP; Deye 5.12 kWh lithium battery listing, 14 October 2026) | ₹1,23,000 |
+| **Total gross cost (assumed inverter, panels and mounting plus battery listing)** | **₹3,18,000** |
 | Central PM Surya Ghar subsidy (3 kW) | −₹78,000 |
 | UPNEDA state top-up (verify current rate at upneda.org.in) | −₹TBC |
-| **Estimated net cost (central subsidy only)** | **₹1,72,000** |
+| **Estimated net cost (central subsidy only)** | **₹2,40,000** |
 | Annual electricity bill saving (320 units × 12 × ₹6.50 avg.) | ₹24,960 |
 | Annual diesel saving (generator displaced - 30 L × 12 × ₹95) | ₹34,200 |
-| Annual net metering export credit (est. 50 units/month × ₹2.50 × 12) | ₹1,500 |
+| Annual net metering export credit (assumed 50 units/month × ₹2.50 × 12) | ₹1,500 |
 | **Total annual financial benefit** | **₹60,660** |
-| **Simple payback period (central subsidy only, no state top-up)** | **~2.8 years** |
+| **Simple payback period (central subsidy only, no state top-up)** | **~4.0 years** (₹2,40,000 ÷ ₹60,660) |
 | **25-year total saving (at 2026 rates, no tariff escalation)** | **~₹15.2 Lakh** |
 
 ```chart
@@ -256,9 +254,9 @@ data:
   - { label: "Net metering export credit", value: 1500 }
 ```
 
-The diesel displacement saving of ₹34,200 per year is the crucial variable that transforms UP's hybrid economics. Most financial calculators for solar in India are built for Gujarat or Maharashtra contexts where generator fuel is not a major household expense. In UP, it often is, and ignoring it understates the return on a hybrid system by 40–60%.
+The diesel displacement saving of ₹34,200 per year is the crucial variable that transforms UP's hybrid economics. Most financial calculators for solar in India are built for Gujarat or Maharashtra contexts where generator fuel is not a major household expense. In UP, it often is, and ignoring it understates the return on a hybrid system.
 
-With a conservative 5% annual electricity tariff escalation and 3% annual diesel price increase (both consistent with recent Indian trends) the 25-year saving rises to approximately ₹22–₹26 Lakh. The [solar inverter payback period guide](/blog/solar-inverter-payback-period/) provides the full financial model for different tariff escalation scenarios. For a deeper year-by-year projection that layers in battery degradation, tools such as SurgePV's [generation and financial modelling tool](https://surgepv.com/generation-financial-tool/) can build this out for your specific system.
+With an assumed 5% annual electricity tariff escalation and 3% annual diesel price increase, the 25-year saving rises to approximately ₹24 Lakh (24,960 × 47.7 + 34,200 × 36.5 + 1,500 × 25), before battery replacement and degradation. The [solar inverter payback period guide](/blog/solar-inverter-payback-period/) provides the full financial model for different tariff escalation scenarios. For a deeper year-by-year projection that layers in battery degradation, tools such as SurgePV's [generation and financial modelling tool](https://surgepv.com/generation-financial-tool/) can build this out for your specific system.
 
 **Timeline for this Lucknow MVVNL applicant:**
 

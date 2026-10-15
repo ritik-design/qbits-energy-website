@@ -47,7 +47,7 @@ Installing a rooftop solar system is one of the largest single purchases most In
 > - Verify PM Surya Ghar empanelment on the MNRE portal before any site visit; non-empanelled installers cannot process your subsidy.
 > - Visit at least one of three local references in person; phone references alone cannot reveal cable management, earthing, or mounting quality.
 > - Insist on an itemised, model-specific quotation rather than a bundled lump-sum price, which lets an installer swap in cheaper components after signing.
-> - A poorly installed system can cut generation by 15-25%: on a 3 kW system generating about 12 units a day, that is roughly 660-1,100 units a year, or about ₹1.15-2.2 lakh over 25 years at ₹7-8 per unit and a flat tariff.
+> - As an assumed scenario, a poorly installed system losing 15-25% of generation on a 3 kW system producing about 12 units a day means roughly 660-1,100 units a year, or about ₹1.15-2.2 lakh over 25 years at ₹7-8 per unit and a flat tariff (the shortfall is an assumption, not a measured figure).
 > - A written AMC costing ₹3,000-₹6,000 a year, with a 48-72 hour fault response commitment, is the minimum acceptable after-sales agreement.
 
 The quality of your [commissioning](/glossary/commissioning/) outcome (how well your system is wired, earthed, and connected to the grid) depends almost entirely on the competence and honesty of the team that shows up on installation day. Most homeowners spend more time choosing a refrigerator than vetting their solar installer. The eight verification steps below change that.
@@ -56,9 +56,9 @@ The quality of your [commissioning](/glossary/commissioning/) outcome (how well 
 
 The Indian solar industry has seen explosive growth since PM Surya Ghar Muft Bijli Yojana was announced. With millions of households applying for subsidies, thousands of new installation companies have entered the market, many without trained staff, proper certifications, or any intention of honouring warranty commitments.
 
-Independent quality assessments by industry bodies have documented the consequences. Systems installed by unverified contractors show measurable underperformance from the first year: loose DC connections cause resistance heating and arc faults; incorrect string configurations clip generation during peak sun hours; missing surge protection devices allow voltage spikes to damage inverter circuits; and poor earthing creates shock hazards during monsoon season.
+The consequences can show up from the first year: loose DC connections cause resistance heating and arc faults; incorrect string configurations clip generation during peak sun hours; missing surge protection devices allow voltage spikes to damage inverter circuits; and poor earthing creates shock hazards during monsoon season.
 
-> **15–25%.** The generation shortfall documented in poorly installed residential solar systems in India compared to correctly specified and installed systems of the same capacity. *Source - [Bridge to India Solar Market Report](https://bridgetoindia.com/), 2025.*
+> **15–25% (assumed).** The generation shortfall this guide assumes for a poorly installed system in the loss example below. It is an illustrative range used for the arithmetic, not a measured or published figure; your own system's loss depends on what is wrong with it.
 
 The financial implication is direct. A 3 kW system produces roughly 12 units per day (3 kW × 5 peak sun hours × 0.80 performance ratio, about 4,380 units a year), so a 20% shortfall means about 876 fewer units a year, roughly ₹6,100–₹7,000 in lost generation at ₹7–8 per unit, every year. Over 25 years at a flat tariff that is about ₹1.5–1.75 lakh from a single bad installation decision (a 15% shortfall gives about ₹1.15 lakh at ₹7 and a 25% shortfall about ₹2.2 lakh at ₹8). The figures are illustrative; they exclude degradation and any tariff increases.
 
@@ -160,11 +160,9 @@ For the complete net metering approval process and timelines by state, the [net 
 
 ## Step 5: Verify Licensed Electricians on the Installation Team
 
-Under the [Central Electricity Authority (CEA)](/glossary/cea/) Measures Relating to Safety and Electric Supply Regulations, all electrical work on a grid-connected solar installation (including DC wiring, AC connection, and earthing) must be performed or directly supervised by an individual holding a valid electrical wireman or electrical supervisor licence issued by the state government's Electrical Licensing Board.
+The [Central Electricity Authority (CEA)](/glossary/cea/) Measures Relating to Safety and Electric Supply Regulations, 2023 require persons who carry out electrical work to hold a certificate of competency or an electrical work permit issued by the appropriate government, and electrical installation work is generally to be done by a licensed electrical contractor under supervision, with limited exceptions for low-voltage work. Ask the installer which licensed contractor and which licensed supervisor cover your DC wiring, AC connection and earthing, and check the exact clauses in the Regulations ([Gazette notification, June 2023](https://cea.nic.in/wp-content/uploads/notification/2023/06/pdf_100_183_English.pdf)) and your state's licensing rules.
 
 This requirement exists because incorrect electrical work on a solar system creates real risks: arc faults from loose DC connections have caused roof fires in residential solar installations; improper neutral connections have damaged grid equipment during power cuts; and missing surge protection has allowed lightning-induced voltage spikes to destroy inverters and household appliances.
-
-> **CEA Regulation 3(1).** *"No person shall operate and maintain a medium voltage electrical installation unless he holds a certificate of competency or a permit as specified in these regulations."* Source - [Central Electricity Authority, Government of India](https://cea.nic.in/).
 
 What to ask:
 
@@ -172,7 +170,7 @@ What to ask:
 - Verify the licence at your state's Electrical Licensing Board portal (most states have online verification).
 - Confirm that the licence category covers solar PV installation and AC grid connection work.
 
-An installer who employs helpers or general labourers for electrical work without a licensed supervisor is operating outside the law and outside every inverter manufacturer's warranty terms. Do not accept assurances that "the licence is coming" or that it "is with the office."
+An installer who employs helpers or general labourers for electrical work without a licensed supervisor is a red flag: it may breach the licensing rules, and some manufacturers' warranty terms require installation by qualified persons, so check the warranty document for the exact model. Do not accept assurances that "the licence is coming" or that it "is with the office."
 
 ## Step 6: Review the Quotation Structure - Itemised vs Bundled
 
@@ -182,6 +180,7 @@ The substitutions that damage your system typically happen in areas such as:
 
 - **DC cable grade**: Specified as 4 mm² DC-rated solar cable but installed as 2.5 mm² standard electrical cable, causing resistance heating and fire risk.
 - **Earthing quality**: Proper copper earthing conductors and earth pit construction replaced by a connection to the building's common earth without a dedicated system earth.
+- **Inverter or module model**: A different model or an uncertified brand installed in place of the one quoted. The invoice, nameplate and certificates must match the quotation.
 
 An itemised quotation removes this latitude. Professional installers increasingly generate these from dedicated [solar quotation software](https://quickestimate.co/features/quotation-system/) rather than a spreadsheet, which reduces the chance of a line item being quietly dropped. It must include:
 
@@ -229,7 +228,7 @@ Table: Monitoring features that are acceptable versus preferred from an installe
 
 ## Step 8: Evaluate the AMC Offer and Terms
 
-A solar system requires regular maintenance to sustain its 25-year performance trajectory. Dust accumulation on panels alone reduces generation by 5–15% in northern and central Indian cities between monsoon seasons, according to field data published by [Mercom India](https://www.mercomindia.com/). Loose AC and DC connections develop over thermal cycling and require periodic re-torquing. Inverter firmware updates are issued by manufacturers to improve grid compatibility and fault handling.
+A solar system requires regular maintenance to sustain its 25-year performance trajectory. Dust accumulating on panels between rain spells reduces generation, and the loss depends on your site, so ask for a cleaning schedule and track output against the first-month baseline. Loose AC and DC connections develop over thermal cycling and require periodic re-torquing. Inverter firmware updates are issued by manufacturers to improve grid compatibility and fault handling.
 
 An Annual Maintenance Contract (AMC) formalises this ongoing relationship. The absence of a written AMC offer from an installer is a strong signal that they intend to collect payment and move on, leaving you to find support from whoever answers the phone when something eventually goes wrong.
 

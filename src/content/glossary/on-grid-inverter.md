@@ -19,7 +19,7 @@ quickFacts:
   industry: "Solar PV / Grid-Connected Power"
   primaryUse: "Direct DC-to-AC conversion with utility grid export"
   commonUsers: "Homeowners, RWAs, commercial and industrial plants, EPCs, utilities"
-  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, CEA Grid Code, MNRE ALMM"
+  relevantStandards: "IEC 62109, IEC 61727, IEC 62116, IS 16221, CEA Grid Code"
   relatedTechnologies: "MPPT, anti-islanding, net metering, smart meters, IGBT, SiC, transformerless topology"
 relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }
@@ -54,7 +54,7 @@ faqs:
   - q: "What is the efficiency of an on grid inverter?"
     a: "Modern string on-grid inverters deliver 97 to 98.6 percent peak efficiency and 96.5 to 98 percent European weighted efficiency. Microinverters land slightly lower around 95 to 97 percent."
   - q: "What certifications must an on grid inverter have in India?"
-    a: "BIS certification under IS 16221, MNRE ALMM listing for subsidy-eligible projects, plus compliance with IEC 62109 for safety, IEC 61727 for grid interconnection and IEC 62116 for anti-islanding."
+    a: "BIS certification under IS 16221, plus compliance with IEC 62109 for safety, IEC 61727 for grid interconnection and IEC 62116 for anti-islanding. MNRE's ALMM lists only solar modules and cells, so there is no ALMM listing for an inverter; scheme specifications and DISCOM requirements apply separately."
   - q: "Can I install an on grid inverter without DISCOM approval?"
     a: "Technically yes, but you cannot legally export power to the grid without a sanctioned net or gross metering connection. Operating an unapproved grid-tie inverter can violate state electricity rules and void warranties."
   - q: "What happens to extra solar power from an on grid inverter?"

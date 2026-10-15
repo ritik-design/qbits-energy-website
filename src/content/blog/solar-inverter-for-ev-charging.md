@@ -22,9 +22,9 @@ faqs:
   - q: "How many solar panels are required for EV charging?"
     a: "At 545 Wp per panel (a common size in 2026), a 5 kW solar array needs 9–10 panels. That array generates roughly 20–22 kWh per day in most Indian cities. A Type 2 AC home charger at 3.3 kW draws 3.3 kWh per hour, so one hour of direct solar charging consumes about 15% of the array's daily output. For meaningful EV offset you need a minimum of 5 kW panels, and ideally 7–8 kW if your roof allows."
   - q: "Which is better for EV charging - on-grid or hybrid solar inverter?"
-    a: "A hybrid inverter is decisively better for EV charging in India. On-grid inverters export surplus to the grid but cannot dispatch stored energy for nighttime charging. A hybrid inverter with a battery bank stores afternoon solar surplus and releases it when you plug in your EV in the evening, cutting grid dependence for charging by 60–80%. The premium over on-grid is ₹60,000–₹1,20,000 for the battery, but the running cost saving at ₹8–12/unit grid tariff pays back within 5–7 years."
+    a: "A hybrid inverter is decisively better for EV charging in India. On-grid inverters export surplus to the grid but cannot dispatch stored energy for nighttime charging. A hybrid inverter with a battery bank stores afternoon solar surplus and releases it when you plug in your EV in the evening, cutting grid dependence for charging by the share of charging the battery covers. The premium over on-grid is the extra cost of the hybrid inverter and battery, and the payback is that premium divided by the yearly saving at your grid tariff."
   - q: "What is V2G and is it available in India?"
-    a: "Vehicle-to-Grid (V2G) is a technology that allows a bidirectional EV charger to discharge electricity from the car battery back into the home or the grid. As of June 2026, V2G is not yet commercially available in India at a residential scale. Central Electricity Authority draft regulations published in 2025 outline the grid-code requirements for bidirectional charging, and pilot projects are under way with Tata Power and BSES in Delhi. Homeowners planning a new solar installation should choose a hybrid inverter with an AC-coupled port so V2G can be retrofitted once standards are finalised."
+    a: "Vehicle-to-Grid (V2G) is a technology that allows a bidirectional EV charger to discharge electricity from the car battery back into the home or the grid. As of June 2026, V2G is not yet commercially available in India at a residential scale. Check the current status with your DISCOM before relying on it. Homeowners planning a new solar installation can ask whether the hybrid inverter has an AC-coupled port, which keeps the option open if V2G becomes available."
   - q: "Can I charge an EV from solar at night without a battery?"
     a: "No. Without a battery, a solar system produces zero output after sunset. All evening and overnight EV charging must come from the grid. A battery bank of 10 kWh is the practical minimum to meaningfully offset nighttime EV charging for a compact EV such as an Ather 450X or an Ola S1 Pro scooter. Larger EVs such as the Tata Nexon EV or MG ZS EV need 15–20 kWh of storage to cover 50% of a full charge from solar alone."
   - q: "Does a solar EV charging setup qualify for the PM Surya Ghar subsidy?"
@@ -32,24 +32,24 @@ faqs:
   - q: "What inverter capacity do I need for a 7.2 kW EV charger?"
     a: "A 7.2 kW fast home charger (Type 2, 32 A, single-phase) demands 7.2 kW continuously. Add your simultaneous household load - typically 2–4 kW during peak evening hours - and the total demand reaches 9–11 kW. You would need a 10 kW hybrid inverter backed by a 20–30 kWh battery to serve this load from solar alone in the evening. Most homeowners in 2–4 BHK homes are better served by a 3.3 kW slow charger, which pairs comfortably with a 5–7 kW hybrid inverter."
   - q: "What is the payback period for a solar-plus-EV setup in India?"
-    a: "A 5 kW hybrid system costing ₹3.5–4 Lakh (after PM Surya Ghar subsidy) combined with a 10 kWh battery at ₹1.2–1.5 Lakh gives a combined investment of roughly ₹5 Lakh. If the system offsets ₹8,000/month in electricity and EV charging costs, the simple payback is 52–63 months, or 4.5–5.5 years. At rising grid tariffs of 8–10% per year, the actual payback shortens further."
+    a: "Add up your own written quote, then subtract the PM Surya Ghar subsidy. For reference, dated listings on 14 October 2026 showed 5 kW hybrid inverters from ₹63,899 to ₹1,35,888 and a Deye 5.12 kWh lithium battery at ₹1,23,000, before panels, structure and labour. Payback is the net cost divided by the yearly saving; for example, ₹5 Lakh net and savings of ₹8,000 a month (assumed) gives 500,000 ÷ 96,000 = 5.2 years."
   - q: "Which Qbits inverter is recommended for solar EV charging at home?"
     a: "For solar EV charging with an evening or overnight top-up you need a hybrid inverter, so look at the Qbits QBH hybrid series: single-phase QBH 3 to 6 kW and QBH 7 to 8 kW models, and three-phase QBH 5 to 12 kW models. Choose by supply phase, charger power plus simultaneous household load, PV string design, battery voltage and current limits, and the backup you need. Confirm battery compatibility in writing, read the current datasheet at /download-datasheets/, and get the written warranty for the exact model."
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
-The number of electric vehicles on Indian roads crossed 5 million units in early 2026, with Tata Nexon EV, Ather 450X, and Ola S1 Pro leading the residential charging wave. For homeowners already paying ₹8,000–₹15,000 per month in electricity bills, adding an EV charger to that load is genuinely worrying, and it is exactly the kind of load a properly scoped residential solar installation needs to plan for upfront rather than retrofit later. The logical next question ("can I run my EV on solar?") has a real answer, but the setup requires careful thought about inverter type, [system size](https://www.heavengreenenergy.com/blog/home-solar-system-size-guide), and nighttime charging behaviour.
+Electric vehicles are a growing home charging load. For homeowners already paying a large monthly electricity bill, adding an EV charger to that load is genuinely worrying, and it is exactly the kind of load a properly scoped residential solar installation needs to plan for upfront rather than retrofit later. The logical next question ("can I run my EV on solar?") has a real answer, but the setup requires careful thought about inverter type, [system size](https://www.heavengreenenergy.com/blog/home-solar-system-size-guide), and nighttime charging behaviour.
 
 > [!KEYTAKEAWAYS]
 > - A solar-plus-EV setup needs at least a 5 kW [hybrid inverter](/glossary/hybrid-inverter/) with a 10 kWh battery and a 5–7 kW array to meaningfully offset charging costs.
 > - On-grid inverters cannot dispatch stored energy at night, so overnight [EV charging](https://quickestimate.co/blog/solar-ev-charging-india) still comes fully from the grid; only a [hybrid inverter](/glossary/hybrid-inverter/) with a battery solves this.
 > - The EV-Solar Stack framework sizes the system in four steps: EV daily charging load, home base load, required solar array, and battery bank capacity.
 > - A 5 kW hybrid inverter with a 10 kWh battery is the sweet spot for most Indian homeowners with a compact EV like the Tata Nexon, covering roughly 40–55% of charging needs.
-> - V2G (vehicle-to-grid) is not yet commercially available in India as of mid-2026; choosing a hybrid inverter with an AC-coupled port keeps the upgrade path open.
-> - A worked Thane, Maharashtra example shows a 5 kW hybrid system with a 10 kWh battery paying back in roughly 3.5–3.9 years after [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy.
+> - V2G (vehicle-to-grid) is not verified as commercially available at residential scale in India; choosing a hybrid inverter with an AC-coupled port keeps the upgrade path open.
+> - A worked Thane, Maharashtra example shows a 5 kW hybrid system with a 10 kWh battery paying back in roughly 5.4 to 6.5 years (assumed inputs) after [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy.
 
-> **Direct answer.** A solar inverter for EV charging at home requires a minimum 5 kW hybrid inverter paired with a 10 kWh battery and a 5–7 kW solar array. This combination offsets 60–80% of EV charging costs on an Ather or Ola scooter, or 40–55% for a Tata Nexon EV, while also covering household loads. The EV-Solar Stack framework (four sizing steps covering charger wattage, home base load, solar yield, and battery depth) determines the exact configuration before you buy anything.
+> **Direct answer.** A solar inverter for EV charging at home requires a minimum 5 kW hybrid inverter paired with a 10 kWh battery and a 5–7 kW solar array. This combination can offset most of the charging load of a scooter and a share of a car's, depending on your sizing, while also covering household loads. The EV-Solar Stack framework (four sizing steps covering charger wattage, home base load, solar yield, and battery depth) determines the exact configuration before you buy anything.
 
 A [hybrid inverter](/glossary/hybrid-inverter/) is central to this equation because, unlike a pure on-grid system, it stores afternoon solar surplus and dispatches it when you plug the car in at 7 PM. The [on-grid vs hybrid](/blog/on-grid-vs-hybrid/) decision is the first gate every EV-owning homeowner must cross, and this guide works through every layer of it with real numbers.
 
@@ -75,13 +75,13 @@ DC fast chargers require a three-phase commercial connection and are not relevan
 
 ## The Nighttime Charging Problem: Why On-Grid Fails EV Owners
 
-An on-grid solar inverter is the most popular residential choice in India because it qualifies for PM Surya Ghar subsidies, has the lowest upfront cost, and delivers the shortest payback period of 4–6 years for households without EVs. For EV charging, however, it has a structural flaw.
+An on-grid solar inverter is the most popular residential choice in India because it qualifies for PM Surya Ghar subsidies, has the lowest upfront cost, and delivers the shortest payback of the options for households without EVs. For EV charging, however, it has a structural flaw.
 
 An on-grid inverter exports surplus solar generation to the grid during the day and earns net metering credits. Those credits reduce your electricity bill, which indirectly offsets what you spend on overnight EV charging. The math looks like this: if your 5 kW on-grid system exports 8 units per day at ₹7.5/unit credit, you save ₹60/day or ₹1,800/month. If your EV draws 8 units for an overnight charge at ₹8/unit, the net charging cost is approximately zero. On paper, this works.
 
-The reality is more complicated. Net metering credit rates are determined by your state DISCOM and are often lower than the retail tariff you pay, sometimes as low as ₹3–4/unit in states that use avoided-cost pricing. The savings calculation collapses if you are exporting at ₹3.5 and importing for EV charging at ₹9. Beyond economics, on-grid inverters provide no backup during power cuts. If the grid trips while your EV is charging, the charger stops. In Tier-2 cities where 2–4 hour outages still occur, this is a genuine operational problem.
+The reality is more complicated. Net metering credit rates are determined by your state DISCOM and are often lower than the retail tariff you pay, sometimes much lower in states that use avoided-cost pricing. The savings calculation collapses if you export at a low credit rate and import for EV charging at the full tariff. Beyond economics, on-grid inverters provide no backup during power cuts. If the grid trips while your EV is charging, the charger stops. Where outages still occur, this is a genuine operational problem.
 
-> **₹9.50/unit.** The average residential retail electricity tariff in Maharashtra for consumption above 300 units/month as of April 2026. At this rate, charging a Tata Nexon EV (40.5 kWh battery) from grid power costs ₹385 per full charge. A hybrid solar system that covers 60% of charging from stored solar power saves ₹232 per charge, or roughly ₹2,000/month for a family that charges twice a week. *Source - [Maharashtra Electricity Regulatory Commission tariff order 2025–26](https://www.mercindia.org.in/), April 2026.*
+> **₹385 per full charge.** At an assumed grid tariff of ₹9.50 per unit, charging a Tata Nexon EV's 40.5 kWh battery costs 40.5 × 9.50 = ₹385 (battery capacity only; charging losses ignored). If stored solar covers 60% of that, the saving is about ₹231 per charge, or roughly ₹2,000 a month for a family that charges twice a week (231 × 8.7 charges a month). The ₹9.50 tariff and the 60% share are assumptions; use your own bill.
 
 A hybrid inverter resolves both problems. It stores surplus afternoon generation in a battery bank and dispatches that stored energy on demand, including for EV charging at 9 PM or 6 AM. The [MPPT](/glossary/mppt/) charge controller inside the hybrid inverter simultaneously optimises solar harvest and battery charge rate, maximising the units available for the car every evening.
 
@@ -127,16 +127,16 @@ For a two-wheeler EV owner with an Ather or Ola, the numbers compress significan
 
 The EV-Solar Stack produces different system configurations for different household profiles. The table below covers the four most common situations in Indian residential solar-EV setups.
 
-Table: Solar, inverter and battery sizing by household and EV profile (post-subsidy cost ranges)
+Table: Solar, inverter and battery sizing by household and EV profile (illustrative sizing; get a written quote for cost)
 
-| Household profile | EV model | Solar needed | Inverter size | Battery needed | Estimated cost (post-subsidy) |
-| --- | --- | --- | --- | --- | --- |
-| 2 BHK, 1 AC, 30 km/day scooter | Ola S1 Pro / Ather 450X | 3 kW | 3 kW hybrid | 5 kWh LFP | ₹2.2–2.8 Lakh |
-| 3 BHK, 2 AC, 50 km/day compact EV | Tata Nexon EV (partial charge) | 5 kW | 5 kW hybrid | 10 kWh LFP | ₹3.8–4.8 Lakh |
-| 3 BHK, 2 AC, full Nexon EV charge nightly | Tata Nexon EV (full charge) | 7 kW | 7 kW hybrid | 20 kWh LFP | ₹6.5–8.5 Lakh |
-| 4 BHK, 3 AC, SUV EV + 7.2 kW charger | MG ZS EV / BYD Atto 3 | 10 kW | 10 kW hybrid | 30 kWh LFP | ₹11–14 Lakh |
+| Household profile | EV model | Solar needed | Inverter size | Battery needed |
+| --- | --- | --- | --- | --- |
+| 2 BHK, 1 AC, 30 km/day scooter | Ola S1 Pro / Ather 450X | 3 kW | 3 kW hybrid | 5 kWh LFP |
+| 3 BHK, 2 AC, 50 km/day compact EV | Tata Nexon EV (partial charge) | 5 kW | 5 kW hybrid | 10 kWh LFP |
+| 3 BHK, 2 AC, full Nexon EV charge nightly | Tata Nexon EV (full charge) | 7 kW | 7 kW hybrid | 20 kWh LFP |
+| 4 BHK, 3 AC, SUV EV + 7.2 kW charger | MG ZS EV / BYD Atto 3 | 10 kW | 10 kW hybrid | 30 kWh LFP |
 
-The middle row (5 kW hybrid with 10 kWh battery) represents the sweet spot for the largest segment of Indian EV-buying homeowners in 2026. It qualifies for the PM Surya Ghar subsidy on the solar and inverter portions, offsets ₹5,000–₹7,000/month in combined electricity and EV charging costs, and fits comfortably on a 250–300 sq ft south-facing roof.
+The middle row (5 kW hybrid with 10 kWh battery) represents the sweet spot for the largest segment of Indian EV-buying homeowners in 2026. It qualifies for the PM Surya Ghar subsidy on the solar and inverter portions, and a 5 kW system needs a shadow-free roof area of roughly 8 to 10 sq m per kW, so about 40 to 50 sq m.
 
 A useful reference for detailed sizing methodology is the [solar inverter sizing](/blog/solar-inverter-sizing/) guide, which covers MPPT string configuration and DC oversizing ratios for the solar array side of this calculation.
 
@@ -149,9 +149,9 @@ For a homeowner without an EV, the on-grid versus hybrid decision is primarily a
 An on-grid inverter is appropriate for EV owners only if all four conditions hold: (a) the EV is a two-wheeler with a small battery (under 3 kWh daily draw), (b) the household has no power cut issues, (c) the state DISCOM offers net metering credit at the retail rate or close to it, and (d) the homeowner charges the EV at work or at a public charger at least 3 days per week.
 
 **Pros**
-- ✓ Lowest upfront cost - ₹1.2–1.8 Lakh for a 3–5 kW system
+- ✓ Lowest upfront cost of the three options
 - ✓ Qualifies for PM Surya Ghar subsidy
-- ✓ Fastest payback, 4–6 years on home loads alone
+- ✓ Fastest payback on home loads alone
 - ✓ Net metering credits indirectly offset EV grid charging costs
 
 **Cons**
@@ -171,9 +171,9 @@ The hybrid configuration is the correct default for any homeowner with a four-wh
 - ✓ Battery arbitrage, charge battery from cheap off-peak tariff, use for peak hours
 
 **Cons**
-- ✗ 40–60% higher upfront cost than on-grid equivalent
+- ✗ Higher upfront cost than on-grid equivalent (hybrid inverter plus battery)
 - ✗ Battery adds 7–10 year replacement cycle cost
-- ✗ Longer payback, 6–8 years for the combined system
+- ✗ Longer payback for the combined system, because the battery adds cost
 - ✗ Needs adequate roof area for the larger solar array
 
 The [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) covers the broader decision tree in detail. For EV charging specifically, the on-grid option is a compromise; hybrid is the investment.
@@ -182,9 +182,9 @@ The [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-of
 
 Vehicle-to-Grid (V2G) technology allows an EV battery to act as a large household energy storage unit, feeding power back into the home (or eventually into the grid) during peak demand periods. A fully charged Tata Nexon EV carries 40.5 kWh of usable energy; at 5 kW export rate, that is over 8 hours of full household power from the car battery alone.
 
-V2G is not yet commercially available in India at the residential level as of June 2026. The [Central Electricity Authority](https://cea.nic.in/) published draft technical standards for bidirectional grid-connected inverters in Q4 2025, and pilot deployments are running in Delhi and Mumbai. Regulatory finalisation is expected in 2027. When V2G does arrive, the household solar inverter becomes the orchestration layer, it decides when to charge the car from panels, when to discharge to the home, and when to export to the grid.
+We could not verify that V2G is commercially available in India at the residential level, so treat it as a future option and check the current position with your DISCOM. When V2G does arrive, the household solar inverter becomes the orchestration layer, it decides when to charge the car from panels, when to discharge to the home, and when to export to the grid.
 
-> **Smart inverter readiness matters today, not in 2027.** The [ev-charger](/glossary/ev-charger/) standard your installer specifies must be compatible with bidirectional AC charging (ISO 15118 protocol stack). Combined inverters that support AC coupling (where the EV charger connects on the AC side rather than direct DC) are upgradeable to V2G without replacing the solar inverter. *Source - [International Energy Agency, Global EV Outlook 2025](https://www.iea.org/reports/global-ev-outlook-2025).*
+> **Smart inverter readiness matters today, not in 2027.** The [ev-charger](/glossary/ev-charger/) standard your installer specifies must be compatible with bidirectional AC charging (ISO 15118 protocol stack). Combined inverters that support AC coupling (where the EV charger connects on the AC side rather than direct DC) are upgradeable to V2G without replacing the solar inverter.
 
 ## Comparing Inverter Options for Solar EV Charging
 
@@ -230,7 +230,7 @@ Homeowners combining solar and EV charging run into predictable errors that add 
 
 To ground the framework in concrete numbers, here is a worked example for a homeowner in Thane, Maharashtra:
 
-> [!EXAMPLE] 3 BHK in Thane with a Tata Nexon EV, step by step
+> [!EXAMPLE] 3 BHK in Thane with a Tata Nexon EV, step by step (assumed inputs)
 > **Household profile:** 3 BHK flat, 1,500 sq ft, 2 × 1.5-ton inverter AC, refrigerator, water heater, LED lighting. Monthly electricity bill: ₹9,200.
 >
 > **EV:** Tata Nexon EV, 40.5 kWh usable battery, driven 60 km/day, charged at home overnight with a 3.3 kW home charger.
@@ -249,15 +249,13 @@ To ground the framework in concrete numbers, here is a worked example for a home
 > - **Solar:** 5 kW (9 × 545 Wp panels, ~280 sq ft)
 >
 > - **Battery:** 10 kWh LFP, covers EV partial charge (5–6 kWh) + essential overnight home load (4 kWh)
-> - **Total system cost:** ₹2.8 Lakh (solar + inverter) + ₹1.4 Lakh (battery) = ₹4.2 Lakh before subsidy (get this itemised on a [written quotation](https://quickestimate.co/features/quotation-system/) before signing)
+> - **Total system cost (assumed):** ₹2.8 Lakh (solar + inverter, assumed; the MNRE benchmark for 5 kW is ₹2.35 Lakh and a hybrid inverter adds to it) + ₹2.4 Lakh (10 kWh battery at about ₹24,000 per kWh, from a Deye 5.12 kWh listing at ₹1,23,000 on 14 October 2026) = ₹5.2 Lakh before subsidy (get this itemised on a [written quotation](https://quickestimate.co/features/quotation-system/) before signing)
 > - **PM Surya Ghar subsidy:** approximately ₹78,000 (the central cap for systems of 3 kW and above)
-> - **Net investment:** ~₹3.4 Lakh (₹4.2 Lakh − ₹0.78 Lakh)
-> - **Monthly saving:** ₹4,500 (home) + ₹2,800 (EV partial offset) = ₹7,300/month
-> - **Simple payback:** ₹3.42 Lakh ÷ ₹7,300/month = **47 months (3.9 years)**
+> - **Net investment:** ₹4.42 Lakh (₹5.2 Lakh − ₹0.78 Lakh)
+> - **Monthly saving:** the 5 kW system generates 5 × 5 × 0.8 = 20 kWh/day, or 600 kWh a month; at ₹9.5/unit that is at most **₹5,700/month** if every unit displaces grid purchase (battery losses ignored)
+> - **Simple payback:** ₹4.42 Lakh ÷ (₹5,700 × 12) = **6.5 years**
 >
-> At tariff escalation of 8% per year, the actual payback shortens to approximately **3.5 years**.
-
-> **India's residential solar installations crossed 3.5 GW in FY2025–26**, with hybrid systems accounting for 34% of new residential capacity, up from 18% in FY2024–25, driven largely by EV adoption and rising grid tariffs. *Source - [JMK Research, India Rooftop Solar Market Tracker Q1 2026](https://jmkresearch.com/).*
+> If the tariff rises 8% per year (an assumption), the payback shortens to approximately **5.4 years**.
 
 The [solar inverter payback period](/blog/solar-inverter-payback-period/) guide covers the full financial modelling framework including degradation, O&M costs, and tariff escalation scenarios.
 

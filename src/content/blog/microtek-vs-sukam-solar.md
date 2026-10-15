@@ -1,6 +1,6 @@
 ---
 title: "Microtek vs Su-Kam Solar Inverter 2026: Honest Comparison"
-excerpt: "Microtek vs Su-Kam solar inverter compared on price, MPPT range, warranty, and service in 2026, plus a modern Indian alternative worth shortlisting."
+excerpt: "Microtek vs Su-Kam solar inverter compared on product type, warranty evidence and service checks in 2026, plus a modern Indian alternative worth shortlisting."
 description: "Compare current Microtek and Su-Kam solar inverter options by model documents, system type, battery needs, warranty and service availability."
 category: "Comparison"
 date: 2026-07-23
@@ -16,19 +16,19 @@ keywords:
   - best legacy indian inverter brand
 faqs:
   - q: "Is Microtek better than Su-Kam for solar in 2026?"
-    a: "For most buyers in 2026, Microtek is the safer of the two. Microtek still sells a current MPPT-based solar PCU and grid-tie range from 1 kW to 5 kW, advertises up to a 10-year warranty on its grid-tie models, and maintains an active dealer and service network across Tier-2 and Tier-3 towns. Su-Kam went through insolvency proceedings around 2019 and its once-large service network dissolved, so after-sales support today depends heavily on the individual dealer. Su-Kam products remain functional and cheap, but the ownership risk over a 10 to 15 year system life is materially higher."
+    a: "They sell different things, so compare the exact models. Microtek lists a grid-tied solar category and a service-centre locator on its site and advertises up to a 10-year warranty on its grid-tie line. Su-Kam's site lists a Brainy+ Solar Hybrid UPS range. Su-Kam also went through insolvency: IBBI records show the process admitted in April 2018, liquidation ordered on 3 April 2019 and closed on 2 November 2022, so ask the seller which entity issues and honours the warranty today and for the named service route in your pincode. We do not rank the two."
   - q: "What is the price of a Microtek solar inverter in India in 2026?"
-    a: "A Microtek 3 kW solar inverter or PCU typically costs ₹32,000 to ₹48,000 in 2026, according to pmsgcalculator.in. A 5 kW class unit runs roughly ₹45,000 to ₹65,000 depending on whether it is a solar PCU, hybrid, or grid-tie variant. These are inverter-only prices excluding panels, batteries, structure, and installation. Microtek sits 20 to 35 percent below Luminous pricing on comparable capacities, which is its main selling point."
+    a: "We could not verify a dated manufacturer or retailer-store price for a Microtek solar inverter, so we quote none. Third-party price bands circulate, but they are undated and vary by model type (solar PCU, hybrid or grid-tie), and we make no claim about a gap to Luminous. Ask for a dated written quote for the exact model that names the capacity, type, warranty and taxes."
   - q: "Is Su-Kam still in business in 2026?"
-    a: "Su-Kam Power Systems still exists as a company and its products remain on sale through dealers and online marketplaces, but the business is a shadow of its pre-2019 self. The company entered insolvency proceedings around 2019, and its founder has publicly described how the dealer and service network dissolved during that period. You can still buy Su-Kam inverters and solar PCUs, but verify local service availability and spare-parts support before committing to a 10-year-plus ownership horizon."
+    a: "Su-Kam's website lists products today, and its public insolvency record is on IBBI: the process was admitted in April 2018, liquidation was ordered on 3 April 2019 and closed on 2 November 2022. The founder has said in a blog that the dealer network dissolved during that period; that is his own account, not a tribunal finding. Verify who now issues the warranty, the local service availability and spare-parts support for the exact model before committing to a long ownership horizon."
   - q: "Does Microtek make MPPT solar inverters?"
-    a: "Yes. Microtek's current solar range uses MPPT (Maximum Power Point Tracking) charge controllers, which extract 20 to 30 percent more energy than the older PWM technology. However, Microtek still sells legacy PWM-based solar UPS models at the budget end, so check the exact model's specification sheet before buying. For any system above 1 kW, or any installation claiming PM Surya Ghar subsidy, insist on an MPPT-based model with its exact-model certificates in hand, and ALMM-listed modules."
+    a: "Some models do, and some do not. MPPT (Maximum Power Point Tracking) charge control can harvest more energy than the older PWM technology, by an amount that depends on the panel and battery voltage (see our [MPPT vs PWM guide](/blog/mppt-vs-pwm/) for a worked example). Microtek also sells solar UPS models that may use older charge control, so check the exact model's specification sheet before buying. For any system above 1 kW, or any installation claiming PM Surya Ghar subsidy, insist on an MPPT-based model with its exact-model certificates in hand, and ALMM-listed modules."
   - q: "What warranty do Microtek and Su-Kam offer on solar inverters?"
-    a: "Microtek advertises up to 10 years on its grid-tie inverters and typically 2 to 5 years on solar PCUs, depending on the model line. Su-Kam solar PCUs commonly carry 2 to 3 years through current dealer listings, and enforcement after its insolvency depends on the regional support the current company provides. Whichever you choose, get the warranty certificate for the exact model in writing and ask whether the remedy is repair or replacement and who honours claims locally."
+    a: "Microtek advertises up to 10 years on its grid-tie inverters (its grid-tied solar page, 2026). We could not find a warranty term on the Su-Kam solar product pages we read, and we quote no term for Microtek's PCUs. Whichever you choose, get the warranty certificate for the exact model in writing and ask whether the remedy is repair or replacement and who honours claims locally, including who issues it for a Su-Kam unit after the insolvency process."
   - q: "Are Microtek and Su-Kam inverters eligible for PM Surya Ghar subsidy?"
     a: "Subsidy eligibility depends on the system, not the brand. Under PM Surya Ghar the system must be grid-connected, use ALMM-listed modules and go through a registered vendor, so off-grid PCUs from either brand do not qualify. MNRE publishes no ALMM list for inverters, so for an on-grid Microtek or Su-Kam model check the exact model's BIS registration and current certificates, and confirm the DISCOM's requirements."
   - q: "Which is better for a power-cut area, Microtek or Su-Kam?"
-    a: "For a power-cut area you need a unit that stores energy, meaning a solar PCU or hybrid inverter with a battery. Microtek's PCUs are the more current choice, with MPPT charge control and an active dealer network, but most models lack fast automatic switchover, zero-export control and lithium BMS communication. Su-Kam's hybrid PCUs follow an older UPS design with solar charging added, and service depends on the individual dealer. If outages are frequent, shortlist a true hybrid inverter and compare switchover behaviour, battery compatibility and written service terms."
+    a: "For a power-cut area you need a unit that stores energy, meaning a solar PCU or hybrid inverter with a battery. Both brands list solar PCUs for backup; check each exact model's datasheet for the charge control type, the transfer behaviour, whether it supports zero-export control and whether it communicates with a lithium battery's BMS, because we could not confirm those features model by model. If outages are frequent, shortlist hybrid inverters and compare switchover behaviour, battery compatibility and written service terms."
 featured: false
 ---
 
@@ -36,27 +36,27 @@ featured: false
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-About 500 people a month search "microtek vs sukam" before buying a solar inverter. Most of them are in Tier-2 and Tier-3 towns, sitting between two names they grew up with. Both brands earned their reputations in the 2000s backup-power era, when every Indian home needed an inverter and battery to survive load shedding. That history is exactly why this comparison is harder than it looks.
+Many buyers weigh "microtek vs sukam" before buying a solar inverter, often sitting between two names they grew up with. Both brands earned their reputations in the 2000s backup-power era, when every Indian home needed an inverter and battery to survive load shedding. That history is exactly why this comparison is harder than it looks.
 
 The solar market of 2026 is not the UPS market of 2010. Today's buyer needs [MPPT](/glossary/mppt/) charge control, grid-tie compliance, ALMM-listed modules for [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy, and a service network that will still answer the phone in year eight. Legacy brand trust helps, but it does not guarantee any of those four things.
 
 This post compares Microtek and Su-Kam on what actually matters for a solar purchase in 2026: current solar range, technology currency, warranty depth, service reality, and price. We also show where a modern specialist brand fits, because the honest answer for many buyers is neither of the two.
 
 > [!KEYTAKEAWAYS]
-> - Microtek wins this head-to-head on current range and service. It sells active MPPT solar PCUs and grid-tie inverters from 1 kW to 5 kW, with up to 10 years warranty on grid-tie models.
-> - Su-Kam went through insolvency around 2019; products still sell, but the service network that made the brand famous largely dissolved.
-> - Microtek 3 kW solar inverters cost ₹32,000 to ₹48,000; Su-Kam solar PCUs range from ₹7,000 small UPS units to ₹1.2 Lakh 5 kVA hybrids.
-> - Both brands still sell PWM-based models at the budget end; insist on MPPT for any system above 1 kW.
+> - We do not rank the two: Microtek lists a grid-tied solar category and advertises up to a 10-year warranty on its grid-tie line; Su-Kam's site lists a Brainy+ Solar Hybrid UPS range.
+> - Su-Kam went through insolvency (IBBI records: admitted April 2018, liquidation ordered 3 April 2019, closed 2 November 2022), so ask who issues and honours the warranty today.
+> - We found no dated store prices for either brand's solar inverters, so none are quoted; get a dated, itemised quote for the exact model.
+> - For any system above 1 kW, check that the exact model uses MPPT charge control, and read its exact-model certificates.
 
 If you are also weighing the third big legacy name, our [Luminous vs Microtek comparison](/blog/luminous-vs-microtek-comparison/) covers that matchup. Our [Luminous vs Su-Kam comparison](/blog/luminous-vs-sukam-comparison/) follows the same format.
 
 ## The Two Brands at a Glance
 
-Microtek and Su-Kam are both Indian power backup pioneers, but they sit in very different positions today. Microtek remains an active, stable company with a solar range it updates regularly. Su-Kam, founded in 1988 and once India's most innovative inverter brand, went through insolvency proceedings around 2019 and now operates at a fraction of its former scale.
+Microtek and Su-Kam are both Indian power backup pioneers, but they sit in very different positions today. Microtek lists an active solar range on its site. Su-Kam Power Systems, incorporated in 1998, went through insolvency (IBBI records: admitted April 2018, liquidation ordered 3 April 2019, closed 2 November 2022).
 
-Microtek's strength has always been distribution. Its products reach electrical shops in district towns where global brands simply do not stock. Su-Kam's strength was product innovation; it built some of India's first solar PCUs (Power Conditioning Units) and held over 25 patents at its peak. The distinction matters because you are not just buying hardware. You are buying ten to fifteen years of service, spares, and warranty honouring.
+Both brands sell through dealers, and a distribution claim is a question to put to the seller for your pincode. The distinction that matters is that you are not just buying hardware: you are buying years of service, spares, and warranty honouring.
 
-The founder of Su-Kam has described how the company's dealer network dissolved during the insolvency period, per [Inverter Man of India](https://invertermanofindia.com/posts/blog/what-really-happened-to-su-kam), 2026. Long-standing dealers were left stranded. That is not a reason to avoid a working Su-Kam product at the right price. It is a reason to treat after-sales verification as your first checkpoint.
+The founder of Su-Kam has described how the company's dealer network dissolved during the insolvency period, per [Inverter Man of India](https://invertermanofindia.com/posts/blog/what-really-happened-to-su-kam), 2026; that is his own account, not a tribunal finding. It is a reason to treat after-sales verification as your first checkpoint for either brand.
 
 ## Solar Range in 2026: What Each Brand Actually Sells
 
@@ -68,7 +68,7 @@ Microtek's current solar lineup covers three categories:
 - **Grid-tie inverters**: on-grid string inverters for net-metered homes. Warranty is advertised at up to 10 years on the grid-tie line, according to [Microtek's grid-tied solar page](https://www.microtek.in/product/solar-solutions/grid-tied-solar-solutions), 2026.
 - **Solar UPS (PWM legacy)**: budget solar-compatible UPS units still sold widely online, many using older PWM charge control.
 
-For a subsidised residential rooftop system in 2026, Microtek simply offers more valid configurations. Su-Kam's range suits small off-grid backup setups, not a net-metered PM Surya Ghar installation.
+For a subsidised, net-metered residential rooftop system you need a grid-tie inverter, so check whether the exact model you are quoted is one: Microtek lists a grid-tied category, while the Su-Kam pages we read list a Solar Hybrid UPS range and no grid-tie string inverter.
 
 ## Technology Currency: MPPT, Hybrid Options, and Monitoring
 
@@ -82,13 +82,11 @@ Technology currency is where legacy brands most often show their age. Three ques
 
 Warranty is the single biggest financial variable between these brands, and it is where the comparison gets uncomfortable for both.
 
-Microtek advertises up to 10 years warranty on grid-tie inverters and typically 2 to 5 years on solar PCUs, depending on the model line. Service runs through a large dealer network, and response quality varies by town, though electricians familiar with Microtek UPS products are easy to find almost everywhere in India.
+Microtek advertises up to 10 years warranty on its grid-tie line (its grid-tied solar page, 2026); we quote no term for its PCUs. Service runs through dealers and a published service-centre locator, and response quality varies by town, so ask for the named service contact for your pincode.
 
-Su-Kam solar PCUs commonly carry 2 to 3 year warranties through current dealer listings. More important than the term is the enforceability: after the insolvency restructuring, warranty claims depend on the current company's regional support presence and your dealer's willingness to escalate. In metro and Tier-1 cities this can work fine. In smaller towns, ask your dealer directly how many Su-Kam warranty replacements they have processed in the last year.
+We could not find a warranty term on the Su-Kam solar product pages we read. More important than the term is the enforceability: after the insolvency process, ask which entity issues and honours the warranty for your unit and what the service route is in your pincode, and ask your dealer how many warranty claims it has processed for the brand.
 
 ## Price Comparison: Microtek vs Su-Kam vs the Modern Alternative
-
-Prices below are inverter-only street prices for mid-2026, excluding panels, batteries, structure, and installation. Treat them as bands, not quotes.
 
 Table: What to verify for Microtek, Su-Kam and Qbits before buying (no prices are quoted)
 
@@ -101,7 +99,7 @@ Table: What to verify for Microtek, Su-Kam and Qbits before buying (no prices ar
 | Compliance | Match exact model documents to project | Match exact model documents to project | Match exact model documents to project; ALMM is not an inverter list |
 | Service | Confirm postcode and responsible party | Confirm postcode and responsible party | Confirm coverage and response time in writing |
 
-Microtek's 3 kW solar pricing of ₹32,000 to ₹48,000, according to [pmsgcalculator.in](https://pmsgcalculator.in/article-solar-inverter-selection-guide-string-vs-micro-vs-hybrid.html), 2026, makes it one of the cheapest MPPT routes into solar. Su-Kam undercuts even that at the small end, but the saving shrinks fast once you price in warranty risk and limited model availability.
+We found no dated store price for either brand's solar inverters, so this page quotes none and makes no claim about which is cheaper. Get a dated written quote for the exact model that names the capacity, type, warranty and taxes, and compare the warranty term and remedy as well as the price.
 
 ## Subsidy and Compliance: The ALMM Gate
 
@@ -121,9 +119,9 @@ We make inverters, so read this section as an informed party, not a neutral refe
 
 No comparison is honest without admitting where the other side wins. Here is the balanced read.
 
-**Choose Microtek when:** your budget is the binding constraint and you have a good local Microtek dealer. This applies when you are buying a grid-tie model with the advertised 10-year warranty or a basic PCU for a small backup setup. Microtek's price-to-availability ratio in small towns is genuinely hard to beat.
+**Consider Microtek when:** you want a grid-tie model from a brand that advertises up to a 10-year warranty on that line, you have a local dealer who can give a named service contact and the exact model's written warranty confirms the term.
 
-**Choose Su-Kam when:** you need a cheap, simple backup UPS or small solar PCU, you have verified local service, and you accept the shorter warranty. Su-Kam's engineering heritage still shows in its sine wave output quality, and at ₹7,000 to ₹15,000 for small units, the risk is proportionate to the spend.
+**Consider Su-Kam when:** you want a backup-led solar hybrid UPS, you have verified who issues the warranty and the local service, and the exact unit's documents meet your load and battery requirements.
 
 ## How to Verify Before You Buy Either Brand
 
@@ -142,7 +140,7 @@ Elsewhere in the Heaven Group network, see [Luminous versus Microtek](https://ww
 
 ## The Bottom Line
 
-Microtek vs Su-Kam in 2026 is not a close fight. Microtek has the living product range, the wider service network, and the longer warranty on grid-tie models. Su-Kam remains a source of affordable backup hardware, but its solar range and service infrastructure are shadows of what the brand once was. Both, however, belong to an earlier generation of inverter design. Buyers planning a subsidised 3 to 5 kW rooftop system should price a modern hybrid or on-grid alternative before deciding.
+Microtek vs Su-Kam in 2026 comes down to product type and to what each seller will put in writing: Microtek lists a grid-tied category with an advertised warranty of up to 10 years on that line, and Su-Kam's site lists a Solar Hybrid UPS range, with the warranty issuer to be confirmed after its insolvency process. Buyers planning a subsidised 3 to 5 kW rooftop system should price a modern hybrid or on-grid alternative before deciding.
 
 Your three next steps:
 

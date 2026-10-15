@@ -37,7 +37,7 @@ faqs:
   - q: "DNI vs GHI, what is the difference?"
     a: "GHI is total irradiance on horizontal including diffuse and reflected. DNI is only the direct beam, measured perpendicular to the sun."
   - q: "What is the typical Indian DNI?"
-    a: "1,400 to 2,400 kWh/m²/year. Highest in Ladakh (above 2,500), western Rajasthan (above 2,000), lowest in north-east and humid coastal (1,200 to 1,500)."
+    a: "It varies widely by region. DNI is highest in high-altitude Ladakh and the dry west (western Rajasthan and Kutch) and lowest in the humid, cloudy north-east and along the wet coast. Use the NIWE Solar Atlas of India or a satellite dataset for a site-specific annual figure rather than a single national number."
   - q: "Where is DNI most important?"
     a: "CSP plants (mirrors only concentrate direct beam). Single-axis trackers. Bifacial yield modelling. Solar pumping with tracking."
   - q: "How is DNI measured?"
@@ -71,9 +71,9 @@ DNI represents the unscattered solar beam. On a clear day at sea level, peak DNI
 
 > [!NOTE] In short
 > - DNI is the direct beam of sunlight, measured on a surface that always faces the sun, separate from diffuse or reflected light.
-> - Indian annual DNI ranges from about 1,000 kWh/m² in the humid north-east up to 2,600 kWh/m² in Ladakh.
+> - Indian annual DNI is highest in Ladakh and the dry west and lowest in the humid, cloudy north-east; get a site figure from the NIWE Solar Atlas rather than a national average.
 > - It is the resource that matters most for CSP plants, single-axis trackers and bifacial gain modelling, not for fixed-tilt PV alone.
-> - CSP is generally viable only where DNI exceeds roughly 2,000 kWh/m²/year, which is why Indian CSP deployment stays limited to Rajasthan and Ladakh.
+> - CSP is generally viable only where DNI exceeds roughly 2,000 kWh/m²/year, which is why Indian CSP deployment stays limited and concentrated in the dry west such as Rajasthan.
 > - Monsoon cloud cover and regional dust load can cut DNI dramatically, even in sites with strong annual averages.
 > - DNI is measured with a sun-tracking pyrheliometer, distinct from the fixed pyranometer used for GHI.
 
@@ -89,7 +89,7 @@ Bifacial yield. The DNI/DHI ratio affects rear-side reflection gain, together wi
 
 Plant siting. High-DNI sites favour tracker and CSP technologies, and are typically confirmed through a formal site survey and land feasibility assessment before financial close.
 
-Resource assessment. DNI is one of three core measurements alongside GHI and DHI, tracked in the [state-wise Indian solar irradiance data](/blog/solar-irradiance-data-india-statewise/) QBits compiles annually.
+Resource assessment. DNI is one of three core measurements alongside GHI and DHI, covered in Qbits' [state-wise Indian solar irradiance data](/blog/solar-irradiance-data-india-statewise/) article.
 
 ## How DNI is measured
 
@@ -107,35 +107,13 @@ Table: Instruments used to measure or estimate DNI
 
 ## Technical deep dive
 
-### Indian DNI by region (annual, kWh/m²)
+### Indian DNI by region
 
-Table: Annual DNI by Indian region (kWh/m²)
+DNI is highest in high-altitude Ladakh and the dry west (western Rajasthan and Kutch), moderate across the Deccan and central India, and lowest in the humid, cloud-prone north-east and along the wet coast. No state-level DNI table is given here because published ranges differ between datasets (ground-calibrated, satellite and typical-year files) and averaging periods. For a project, take the annual DNI for the exact coordinates from the NIWE Solar Atlas of India, which maps DNI at 3 km resolution from ground measurements and satellite data, and state which dataset and period you used.
 
-| Region | Annual DNI |
-|---|---|
-| Ladakh, Spiti | 2,400 to 2,600 |
-| Western Rajasthan, Kutch | 2,000 to 2,300 |
-| Andhra Pradesh, Telangana | 1,700 to 1,950 |
-| Karnataka, Tamil Nadu | 1,600 to 1,900 |
-| Maharashtra, MP | 1,700 to 1,900 |
-| Gujarat (non-Kutch) | 1,800 to 2,050 |
-| Delhi, Haryana, Punjab | 1,500 to 1,800 |
-| Uttar Pradesh, Bihar | 1,300 to 1,650 |
-| West Bengal, Odisha | 1,300 to 1,600 |
-| Kerala, Goa | 1,300 to 1,650 |
-| North-east states | 1,000 to 1,400 |
+### DNI versus GHI
 
-### DNI vs GHI ratio (clearness index)
-
-Table: DNI to GHI ratio by climate type
-
-| Climate | DNI/GHI ratio (approximate) |
-|---|---|
-| Desert (clear, dry) | 1.2 to 1.4 |
-| Continental dry | 1.0 to 1.2 |
-| Tropical (humid) | 0.7 to 1.0 |
-| Coastal humid | 0.6 to 0.9 |
-| Monsoon (June-Sep India) | 0.3 to 0.6 |
+On clear, dry days the direct beam supplies most of the energy, so DNI makes up most of GHI. Under humid skies, haze or monsoon cloud, DNI collapses faster than GHI because scattering moves energy into the diffuse component. That is why the DNI share of GHI is the number to watch at a site, and why a high GHI does not by itself mean a good CSP or tracker site.
 
 ### Bifacial gain interaction
 
@@ -144,7 +122,7 @@ Higher DNI means more direct light reaching the ground for rear-side reflection.
 ### CSP DNI threshold
 
 > [!IMPORTANT] The 2,000 kWh/m²/year line
-> CSP economic viability roughly requires DNI > 2,000 kWh/m²/year. Indian CSP has limited deployment because most regions fall below this threshold, with exceptions in Rajasthan and Ladakh.
+> CSP economic viability roughly requires DNI > 2,000 kWh/m²/year. Indian CSP has limited deployment because most regions fall below this threshold, with exceptions in the dry west such as Rajasthan.
 
 ## Real-world applications
 
@@ -209,7 +187,7 @@ Table: Standards and references for DNI measurement
 
 ## Key takeaways
 
-DNI is the direct beam solar irradiance, critical for CSP, trackers and bifacial yield. Indian DNI ranges from 1,000 in north-east to over 2,500 in Ladakh. The DNI/GHI ratio distinguishes clear-sky from cloudy and dusty conditions. CSP requires DNI above 2,000 kWh/m²/year. Tracker plants maximise DNI capture through sun-following alignment.
+DNI is the direct beam solar irradiance, critical for CSP, trackers and bifacial yield. Indian DNI is highest in Ladakh and the dry west and lowest in the north-east. The DNI/GHI ratio distinguishes clear-sky from cloudy and dusty conditions. CSP requires DNI above 2,000 kWh/m²/year. Tracker plants maximise DNI capture through sun-following alignment.
 
 ## Further reading
 

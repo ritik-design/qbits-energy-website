@@ -69,7 +69,7 @@ Table: Factors that change winter solar output compared with summer, with rough 
 
 The net result across India is that December–January generation is typically 20–30% below June–August generation for most well-sited residential systems. In North India, fog modifies this further, creating much steeper reductions on foggy days.
 
-> **4.5 hours.** Average peak sun hours per day in Delhi during December, compared to 6.5 hours in June, a 31% reduction driven purely by day length and sun angle. *Source - [NREL National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/), 2024.*
+> **4.5 hours.** The planning value this guide uses for peak sun hours per day in Delhi in December, against about 6.5 in June, a 31% drop (1 − 4.5 ÷ 6.5) from shorter days and a lower sun angle. These are approximate planning values, not measurements: check your own site on [PVGIS](https://re.jrc.ec.europa.eu/pvg_tools/en/).
 
 ## North India Fog: The Factor Most Solar Quotes Ignore
 
@@ -127,7 +127,7 @@ Table: Winter Performance Correction Factor and approximate December output of a
 | Bengaluru | March (≈580 kWh) | 0.78 | ≈452 kWh |
 | Shimla | June (≈450 kWh) | 0.35 | ≈158 kWh |
 
-These are approximate figures based on publicly available [IRENA solar resource data](https://www.irena.org/solar) for India. Buyers should request location-specific data from PVGIS or PVsyst from their installer, or run a preliminary estimate through a solar savings calculator before comparing quotes.
+These are approximate planning figures. Buyers should request location-specific data from PVGIS or PVsyst from their installer, or run a preliminary estimate through a solar savings calculator before comparing quotes.
 
 ## How Net Metering Manages Winter Shortfalls
 
@@ -169,7 +169,7 @@ Table: December and June solar irradiance (GHI) by city, with the seasonal ratio
 | Kolkata | 3.5 | 5.2 | 67% | Moderate |
 | Hyderabad | 4.4 | 6.0 | 73% | Low |
 
-*GHI data sourced from [NREL NSRDB India dataset](https://nsrdb.nrel.gov/), 2024.*
+*GHI values are approximate planning figures used in this guide, not measurements; check your site on [PVGIS](https://re.jrc.ec.europa.eu/pvg_tools/en/).*
 
 ```chart
 type: hbar
@@ -208,7 +208,7 @@ Many first-time solar buyers are shown an annual average monthly generation figu
 > [!TIP] Compare before you call
 > Before raising a warranty or fault call in winter, compare actual output in the monitoring app with predicted output for the weather. That separates a fog-driven drop from genuine equipment underperformance.
 
-According to [JMK Research's analysis of Indian residential solar performance](https://jmkresearch.com/), post-installation customer satisfaction surveys consistently show that unmet winter expectations are among the top three sources of dissatisfaction, a problem entirely solvable through better pre-sale education.
+
 
 ## Where Qbits Fits
 

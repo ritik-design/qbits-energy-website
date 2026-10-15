@@ -152,7 +152,7 @@ Table: Recommended inverter topology by factory size
 
 Factory load profiles are fundamentally different from residential or commercial office loads. Getting the sizing right requires a disciplined, data-driven approach rather than a rule-of-thumb calculation.
 
-India's [Central Electricity Authority grid connectivity standards (2019)](https://cea.nic.in/) set the regulatory floor for all grid-connected solar inverters above 1 kW, covering voltage ride-through, frequency response, anti-islanding, and power factor requirements that every industrial inverter must meet.
+India's [Central Electricity Authority connectivity regulations](https://cea.nic.in/old/connectivityreg.html) and your DISCOM's interconnection agreement set the grid-connection requirements for an industrial inverter; ask your DISCOM which provisions (voltage and frequency ride-through, anti-islanding, power factor) apply to your connection.
 
 The process begins with your factory's monthly electricity bills for the past 12 months. From these, extract:
 
@@ -220,7 +220,7 @@ Key thresholds as of 2026 (per the [net metering regulatory framework](/blog/net
 
 For factories sizing above 500 kWp, it is worth checking whether the DISCOM's net metering policy for HT consumers differs from LT. Several SERCs have issued separate orders for HT consumer solar connectivity that include additional protection relay requirements and substation approval steps.
 
-> **43.33%.** India's mandated total Renewable Purchase Obligation (RPO) target by 2029–30, with solar RPO set at 6.94% of total electricity consumption for obligated entities. *Source - [Ministry of Power, RPO Trajectory 2022–2030](https://powermin.gov.in/), 2025.*
+> **43.33%.** India's mandated total Renewable Purchase Obligation (RPO) target by 2029–30, with solar RPO set at 6.94% of total electricity consumption for obligated entities. *Source - Ministry of Power RPO trajectory notification of 22 July 2022, corrected 19 September 2022; see the [RPO glossary entry](/glossary/rpo/).*
 
 ## RPO Compliance: The Hidden Compliance Driver for Large Factories
 
@@ -228,11 +228,11 @@ The Renewable Purchase Obligation ([RPO](/glossary/rpo/)) is a legally binding r
 
 For factory owners, RPO compliance creates a second financial incentive beyond energy cost savings:
 
-- **RPO shortfall penalties:** SERCs impose penalties (often equal to the applicable Renewable Energy Certificate rate, currently ₹1–3 per unit shortfall) on entities that do not meet their RPO obligation. For a 5 MW captive plant with a 43% RPO obligation falling 10% short, the annual penalty can reach ₹60–90 lakh.
+- **RPO shortfall penalties:** State regulators set the consequences of a shortfall, which can include a requirement to buy Renewable Energy Certificates or pay a penalty, so check your SERC's order. The cost is the shortfall units times the applicable rate: for example, a plant that consumes 10 million units, has a 43% obligation and falls 10 percentage points short misses 1 million units, and at an assumed ₹2 per unit that is ₹20 lakh a year.
 - **RPO fulfilment through captive solar:** Rooftop or ground-mount solar installed as captive generation counts directly towards the installing entity's solar RPO. This makes the effective value of each solar unit higher than the avoided tariff alone, it also eliminates one unit of REC purchase.
 - **RPO banking:** Some states allow excess RPO credits to be banked for future years, making oversized solar installations financially attractive for large obligated consumers.
 
-For factories with sanctioned load above 1 MW or operating captive power plants, RPO compliance should be factored into the solar project sizing, not treated as an afterthought. The [NSEFI RPO compliance tracker](https://nsefi.in/) provides state-by-state RPO status and obligated entity registration guidance for Indian industries.
+For factories with sanctioned load above 1 MW or operating captive power plants, RPO compliance should be factored into the solar project sizing, not treated as an afterthought. 
 
 ## Common Mistakes in Factory Solar Projects: and How to Avoid Them
 

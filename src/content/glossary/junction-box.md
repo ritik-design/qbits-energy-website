@@ -219,7 +219,7 @@ Module junction box failures are a known reliability concern. Quality manufactur
 
 Field junction box brands in India: Schneider, ABB, Phoenix Contact, Boschke, Hensel, Hager. Module reliability, including junction box quality, is one of the factors covered in our [guide to evaluating solar inverter and module reliability](/blog/how-to-evaluate-solar-inverter-reliability/).
 
-ALMM does not list junction boxes separately. Module ALMM listing includes the junction box implicitly.
+ALMM lists solar modules and cells, not junction boxes as separate items. The junction box is part of the module and is covered by the module's own certification.
 
 PM Surya Ghar residential installations may use field junction boxes for protection device housing at the inverter location, typically supplied as part of a residential solar installation package.
 

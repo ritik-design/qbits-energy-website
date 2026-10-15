@@ -194,7 +194,7 @@ India's three major petroleum marketing companies (IOC, HPCL, and BPCL) have iss
 
 Dealers who proactively install PESO-compliant solar systems ahead of mandates gain first-mover advantage in accessing OMC technical support and potentially preferential terms.
 
-[IRENA's analysis of oil and gas sector renewable energy transitions](https://www.irena.org/Energy-Transition/Sectors/Oil-and-Gas){target="_blank" rel="noopener"} confirms that fuel retail outlets are among the most straightforward commercial solar applications globally, with standardised loads and large canopy areas providing consistent ROI. [IEA's India energy sector data](https://www.iea.org/countries/india){target="_blank" rel="noopener"} documents that commercial and industrial solar is growing fastest in high-tariff commercial segments (fuel retail, cold storage, and hospitality) where electricity costs are a significant fraction of operating expenses.
+Fuel retail outlets suit rooftop and canopy solar because they have standardised loads and large canopy areas, but your own load audit and bills decide the return.
 
 For the full commercial solar financing landscape, read the [solar CAPEX vs OPEX India guide](/blog/solar-capex-vs-opex-business-india/).
 

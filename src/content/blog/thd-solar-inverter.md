@@ -106,13 +106,13 @@ IEC 61000-3-6 governs the current emission limits for medium-voltage (MV) connec
 
 ### The Medical and Critical Infrastructure Exception
 
-For hospital operating theatres, ICUs, radiology suites, data centre critical power zones, and pharmaceutical cleanrooms, the effective design target is stricter than the IEEE 519 general limit. [IEC 60601-1](https://www.iec.ch/homepage) (medical electrical equipment) requires that supply voltage THD not exceed 3% for the equipment to operate within specification. Building facilities standards for tier-III and tier-IV data centres recommend supply VTHD below 3% to ensure UPS bypass transfer criteria are met without nuisance transfers. Precision measurement laboratories often specify 1–2% VTHD in supply contracts.
+For hospital operating theatres, ICUs, radiology suites, data centre critical power zones, and pharmaceutical cleanrooms, the effective design target is stricter than the IEEE 519 general limit. Medical equipment makers state the supply quality their devices need in their installation manuals, and data centre UPS makers state the input quality their bypass transfer needs, so take the tightest figure from the equipment documents rather than assuming a general standard sets one. Precision measurement laboratories may specify their own VTHD limit in supply contracts.
 
 The EPC specifying an inverter for these projects must therefore work backwards: if the facility contract requires 3% VTHD, and the distribution network already carries 1.5–2% background distortion, the inverter's ITHD contribution (converted through grid impedance) must stay within the remaining headroom. This is why the procurement specification must state current THD requirements at multiple load points, not only at 100% rated output.
 
 ## What Happens When THD Is Too High: Equipment-Level Consequences
 
-Understanding the failure modes caused by elevated THD is the strongest argument for specifying compliant inverters on C&I projects. The effects are not theoretical, they appear in maintenance logs, warranty claims, and energy audit reports at facilities that installed budget inverters without verifying THD specifications. [NREL research on inverter performance and grid integration](https://www.nrel.gov/solar/grid-connected-pv.html) documents the range of harmonic-related field issues across large solar deployments.
+Understanding the failure modes caused by elevated THD is the strongest argument for specifying compliant inverters on C&I projects. The effects are not theoretical, they appear in maintenance logs, warranty claims, and energy audit reports at facilities that installed budget inverters without verifying THD specifications.
 
 ### Motors and Drives
 
@@ -296,11 +296,11 @@ The [solar inverter specifications decoded guide](/blog/solar-inverter-specifica
 
 THD is not only a commissioning metric. It is a system health indicator that changes over the inverter's service life.
 
-Filter capacitors age. The capacitance in an LCL filter decreases as the capacitor dielectric degrades, typically by 10–20% over ten years in 40–45 °C ambient conditions, which are common on Indian industrial rooftops. As capacitance falls, the filter resonant frequency shifts and attenuation at the original design frequency decreases. THD rises. A preventive maintenance schedule that includes biannual THD measurement at the AC terminals (part of the [inverter maintenance regime for Indian conditions](/blog/inverter-maintenance-india/)) catches this drift before it becomes a compliance problem.
+Filter capacitors age. The capacitance in an LCL filter decreases as the capacitor dielectric degrades, over its life, faster in hot ambient conditions such as those on Indian industrial rooftops. As capacitance falls, the filter resonant frequency shifts and attenuation at the original design frequency decreases. THD rises. A preventive maintenance schedule that includes biannual THD measurement at the AC terminals (part of the [inverter maintenance regime for Indian conditions](/blog/inverter-maintenance-india/)) catches this drift before it becomes a compliance problem.
 
 IGBT gate oxide also ages under thermal cycling. Gate threshold voltage shifts cause subtle changes in switching timing that increase dead-time distortion and raise 3rd harmonic content. The firmware-based harmonic compensation in modern inverters adjusts for this to some extent, but the adjustment range is finite. An ITHD trend that rises more than 0.5% per year above the commissioning baseline is a signal to investigate filter condition and IGBT performance.
 
-> **Approximately 20%.** The increase in filter capacitor current stress that a 5% VTHD supply environment causes compared to a clean 2% VTHD supply, shortening capacitor life from the design target of 10 years to approximately 6–7 years in high-THD sites. *Source - [IEC 61000-4-30 Technical Guidance, International Electrotechnical Commission](https://www.iec.ch/), 2025.*
+> **Capacitor ageing shifts the filter.** As an LCL filter capacitor ages and its capacitance falls, the filter's resonant frequency moves and its attenuation at the design frequency drops, so measured THD can rise over the years. Track THD at the AC terminals at each maintenance visit and compare it with the commissioning figure.
 
 For a complete understanding of how harmonic compliance fits within the broader framework of [inverter reliability evaluation](/blog/how-to-evaluate-solar-inverter-reliability/), the linked guide covers all five reliability dimensions that C&I buyers should assess before finalising a specification.
 
@@ -308,7 +308,7 @@ Elsewhere in the Heaven Group network, see [BIS inverter certification](https://
 
 ## THD in the Context of Indian Grid Conditions
 
-Indian distribution feeders present a distinctive harmonic environment that European and US inverter specifications may not anticipate. [IRENA's analysis of distributed solar integration](https://www.irena.org/solar) highlights harmonic management as one of the key technical challenges for high-penetration rooftop solar in developing-market grids. Several factors increase the India-specific challenge:
+Indian distribution feeders present a distinctive harmonic environment that European and US inverter specifications may not anticipate. Several factors increase the India-specific challenge:
 
 - **High non-linear load density**: Industrial feeders in Gujarat, Tamil Nadu, and Maharashtra carry significant VFD, rectifier, and welding load. Background VTHD of 3–5% before any solar installation is common in manufacturing clusters.
 - **Weak grid impedance in semi-urban areas**: Short-circuit ratios at LT connections in Tier-2 and Tier-3 cities are often below 20, making the voltage THD response to injected harmonic current higher than in urban areas.

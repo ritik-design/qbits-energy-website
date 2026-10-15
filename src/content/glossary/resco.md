@@ -260,7 +260,7 @@ Table: Frameworks and standards behind RESCO projects
 | MNRE RESCO guidelines | Indian framework |
 | State SERC net metering regulations | Eligibility and tariff |
 | Electricity Act 2003 | Statutory basis |
-| ALMM | Equipment requirements |
+| ALMM | Module and cell requirements |
 | BIS certification | Quality compliance |
 
 ## Common mistakes

@@ -18,7 +18,7 @@ faqs:
   - q: "Can a tenant apply for PM Surya Ghar subsidy?"
     a: "A tenant cannot apply independently. The application must be made in the name of the electricity consumer - the person whose name appears on the DISCOM electricity bill. In most states, if a landlord is willing to provide a No Objection Certificate (NOC) and allow the application to proceed under their electricity account, the installation can happen at a rented property. However, the subsidy is credited to the account holder, not the tenant. Tenants should confirm this arrangement in writing before investing in any system."
   - q: "Can apartment owners in a housing society apply?"
-    a: "Yes, apartment owners can apply, but the process depends on the DISCOM and the housing society's setup. Owners with an individual electricity meter can apply for rooftop solar on their exclusive terrace or balcony area. For shared rooftop spaces, the Resident Welfare Association (RWA) or housing society can apply for a collective system. Some DISCOMs in Maharashtra, Karnataka, and Gujarat have published specific guidelines for multi-storey residential complexes. Confirm your DISCOM's policy before committing to a system design."
+    a: "Yes, apartment owners can apply, but the process depends on the DISCOM and the housing society's setup. Owners with an individual electricity meter can apply for rooftop solar on their exclusive terrace or balcony area. For shared rooftop spaces, the Resident Welfare Association (RWA) or housing society can apply for a collective system. Some DISCOMs publish specific guidelines for multi-storey residential complexes. Confirm your DISCOM's policy before committing to a system design."
   - q: "Is there an income limit to apply for PM Surya Ghar?"
     a: "There is no upper income limit for PM Surya Ghar eligibility. Any Indian residential electricity consumer - regardless of whether they fall below poverty line (BPL) or above poverty line (APL) - can apply. The central subsidy structure is the same for all income groups. However, several states have introduced additional subsidies or priority processing for economically weaker sections and BPL families. Applicants in these categories should check their state DISCOM portal for state-top-up benefits."
   - q: "Can an NRI apply for PM Surya Ghar for their property in India?"
@@ -129,7 +129,7 @@ Table: Central subsidy and state top-up by income group (BPL, EWS, APL, middle i
 
 | Income Group | Central Subsidy (up to 3 kW) | State Top-Up (selected states) | Additional Benefits |
 | --- | --- | --- | --- |
-| Below Poverty Line (BPL) | ₹78,000 (for 3 kW) | Up to ₹20,000–₹30,000 in Gujarat, Rajasthan, UP | Priority processing queue in some DISCOMs |
+| Below Poverty Line (BPL) | ₹78,000 (for 3 kW) | Set by the state; check the nodal agency | Priority processing queue in some DISCOMs |
 | Economically Weaker Section (EWS) | ₹78,000 (for 3 kW) | State-specific - check DISCOM portal | Subsidised loan schemes in some states |
 | Above Poverty Line (APL) - any income | ₹78,000 (for 3 kW) | May not qualify for state top-up | Same subsidy as BPL for central component |
 | Middle income (no income cap) | ₹78,000 (for 3 kW) | Varies by state | Standard empanelled vendor route |
@@ -156,7 +156,7 @@ data:
 
 > **₹78,000.** The maximum central subsidy available under PM Surya Ghar for a 3 kW residential rooftop system, disbursed directly to the applicant's Aadhaar-linked bank account after DISCOM verification of installation. *Source - [MNRE PM Surya Ghar Guidelines](https://mnre.gov.in/), 2026.*
 
-State governments are free to augment this with additional subsidies. States like Gujarat and Rajasthan have historically been active in providing state-level top-ups, particularly for BPL and EWS households. According to [Mercom India](https://www.mercomindia.com/), rooftop solar uptake under PM Surya Ghar has been highest in states with strong state-level support mechanisms layered on top of the central subsidy.
+State governments are free to augment this with additional subsidies. Some states provide state-level top-ups, including for BPL and EWS households; amounts and availability differ by state and change by order, so confirm with your State Nodal Agency.
 
 ## Who Is NOT Eligible: Clear Exclusions
 
@@ -182,7 +182,7 @@ Agricultural electricity connections operate under a separate tariff regime and 
 
 Under the [MNRE operational guidelines](https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/07/202407021768035484.pdf), a rooftop installation is eligible for CFA only once. A household that already took CFA under an earlier MNRE rooftop scheme and later enlarges its system can claim only for the balance capacity up to 3 kW overall. The guidelines do not set a seven-year look-back, so ask your DISCOM how it records earlier subsidy on the connection.
 
-The exclusion logic matters. As [JMK Research](https://jmkresearch.com/) has noted in its analysis of rooftop solar adoption barriers, confusion about eligibility boundaries (particularly between residential and commercial tariff classifications) is one of the top reasons for application rejections and delays in DISCOM processing queues.
+The exclusion logic matters. Confusion about eligibility boundaries, particularly between residential and commercial tariff classifications, can lead to application rejections and delays in DISCOM processing queues.
 
 ## Grey Areas and Conditional Scenarios
 
@@ -194,7 +194,7 @@ An apartment owner with an individual electricity meter can apply as an individu
 
 For most apartment buildings, the practical route is a collective application through the Resident Welfare Association or Housing Society. The RWA applies for a system on the shared rooftop, the electricity generated offsets common area consumption or is distributed among members, and the subsidy is calculated based on the aggregate capacity. Some DISCOMs in Maharashtra, Karnataka, and Gujarat have developed specific application pathways for housing societies. Others have not yet formalised this process.
 
-The [Bridge to India](https://bridgetoindia.com/) rooftop eligibility analysis highlights that multi-storey residential buildings represent a significant untapped segment, largely because DISCOM policies on collective applications remain inconsistent across states.
+Multi-storey residential buildings are harder to serve because DISCOM policies on collective applications can differ across states.
 
 ### Tenants
 
@@ -218,22 +218,9 @@ Properties with existing off-grid solar systems that were installed without any 
 
 ## State-Level Eligibility Variations
 
-The central government sets the baseline eligibility criteria, but state governments and DISCOMs add layers. The table below captures key variations across major states as of mid-2026.
+The central government sets the baseline eligibility criteria, but state governments and DISCOMs add layers.
 
-Table: State-level eligibility variations, state top-up and private DISCOM participation
-
-| State | Notable Additional Condition | State Subsidy Top-Up | Private DISCOM Participation |
-| --- | --- | --- | --- |
-| Gujarat | High penetration; GEDCl has specific empanelled vendor lists | Yes - additional for EWS | DGVCL/MGVCL/PGVCL all participate |
-| Maharashtra | MSEDCL has detailed apartment/RWA guidelines | Limited - case-by-case | BEST (Mumbai) - verify separately |
-| Rajasthan | Proof of property ownership document mandatory | Yes - for BPL households | JVVNL/AVVNL participate |
-| Tamil Nadu | TANGEDCO empanelled vendor list is state-specific | No state top-up currently | TANGEDCO only; private areas excluded |
-| Uttar Pradesh | Load enhancement often required before application | No state top-up currently | No major private DISCOMs |
-| Karnataka | BESCOM has a consumer portal integrated with national portal | Limited | CESC (Mysuru) - verify separately |
-| Delhi | BRPL/BYPL/TPDDL all participate; BSES has separate portal | Yes - additional subsidy | All three participate; check TPDDL |
-| Kerala | KSEB participates; proof of ownership must be notarised | No state top-up currently | No major private DISCOMs |
-| Punjab | PSPCL participates; sanctioned load verification is strict | Yes - for BPL | No major private DISCOMs |
-| Andhra Pradesh | APEPDCL/APSPDCL both participate | Limited | No major private DISCOMs |
+This guide does not tabulate state-by-state conditions or top-up amounts, because they change by order and could not be verified against each state's current notification. Check your state DISCOM's portal and your State Nodal Agency.
 
 State variations matter most in three situations: when the property is in an area served by a private DISCOM, when the applicant is claiming a state top-up subsidy, and when the documentation requirements exceed the standard central government checklist. Always verify the current requirements on the state DISCOM's official portal before submitting an application.
 
@@ -251,7 +238,7 @@ Applicants who fail the DISCOM inspection or see their [subsidy rejected](/blog/
 
 - **Proceeding without load verification**: If your sanctioned load is lower than the proposed system size, the DISCOM will reject the connection. A 5 kW system on a connection with 2 kW sanctioned load requires a load enhancement application first, typically a separate process that can take 30–90 days.
 
-- **Missing the [state-specific documentation checklist](/blog/pm-surya-ghar-documents-required/)**: Different states require different supporting documents. Gujarat DISCOMs require ownership proof. Rajasthan requires a notarised property document in some cases. Tamil Nadu's TANGEDCO has its own empanelled vendor requirement. Check the state DISCOM portal, not just the national PM Surya Ghar portal.
+- **Missing the [state-specific documentation checklist](/blog/pm-surya-ghar-documents-required/)**: Different states require different supporting documents. Ownership proof and property documents can differ by DISCOM. Check the state DISCOM portal, not just the national PM Surya Ghar portal.
 
 - **Applying as a tenant without the landlord's cooperation**: Some tenants start the application process assuming the landlord will later sign off. The application cannot progress without the electricity account holder's active participation, since OTP verification is sent to the mobile number registered with the DISCOM.
 

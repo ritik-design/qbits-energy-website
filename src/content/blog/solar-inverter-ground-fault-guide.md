@@ -24,7 +24,7 @@ faqs:
   - q: "How do I perform an insulation resistance test on my solar panels and cables?"
     a: "An insulation resistance test (megger test) on a solar DC circuit requires a DC insulation resistance tester set to 500 V or 1000 V. The test is performed with the inverter disconnected. Connect one test lead to the positive conductor of the string and the other lead to the earthing bus. Measure the resistance; it should exceed 1 MΩ per IEC 62109. Repeat with the negative conductor. A reading below 1 MΩ confirms a ground fault on that string. Then isolate individual panels, connectors, and cable segments to locate the specific fault point. This test requires a qualified solar electrician with appropriate metering equipment and electrical safety training."
   - q: "How long does it take to repair a solar ground fault and what does it cost?"
-    a: "Ground fault repair time and cost depend on the fault location. A single damaged MC4 connector (the most common cause) can be replaced in 1–2 hours at a cost of ₹500–₹2,000 for parts and labour. Damaged DC cable requiring replacement at a roof penetration point typically costs ₹2,000–₹8,000 depending on the cable run length. A faulty panel with damaged bypass diodes requires panel replacement, which is covered under the panel manufacturer's warranty if within the warranty period. Full wiring harness replacement for a severely degraded system can cost ₹15,000–₹40,000 for a typical 5 kW residential system."
+    a: "Ground fault repair time and cost depend on the fault location. A single damaged MC4 connector (the most common cause) is a quick replacement, damaged DC cable at a roof penetration costs more depending on the cable run length, and a faulty panel with damaged bypass diodes requires panel replacement, which is covered under the panel manufacturer's warranty if within the warranty period. Full wiring harness replacement for a severely degraded system is the most expensive outcome. Ask the technician for a written quote after the insulation test identifies the fault location."
   - q: "Does a ground fault error mean my solar inverter itself is faulty?"
     a: "Not necessarily. The ground fault error code indicates the inverter's detection system has found a leakage path in the DC circuit - but the fault is usually in the wiring, connectors, or panels, not in the inverter itself. The inverter is functioning correctly by detecting and reporting the fault. However, in rare cases where the ground fault error persists after all external wiring has been tested and cleared, an internal component in the inverter may be causing the false positive - this requires the manufacturer's technical team to diagnose."
   - q: "Can monsoon rain cause a ground fault error on a solar inverter?"
@@ -37,15 +37,15 @@ A [ground fault](https://heavendesigns.in/glossary/ground-fault/) error on your 
 > A ground fault carries electrocution and fire risk at the same time. Switch the system off, and leave it off until a licensed electrician has tested each string and cleared the fault.
 
 > [!KEYTAKEAWAYS]
-> - A ground fault code (ISO_Fault, GFCI, IsoFault) means DC-to-earth insulation resistance has dropped below 1 MΩ, the threshold set by CEA wiring standards and IEC 62109.
+> - A ground fault code (ISO_Fault, GFCI, IsoFault) means the inverter has measured DC-to-earth insulation resistance below its own trip threshold (model-specific, set under IEC 62109-2). The pass criterion used when you test the strings is 1 MΩ or more for systems above 120 V under IEC 62446-1.
 > - Never reset a ground fault and continue operating; it carries simultaneous electrocution and fire risk until a licensed electrician clears it.
 > - The most common root causes are damaged MC4 connectors, cable insulation damage at roof penetrations, and water ingress into junction boxes.
-> - Diagnosis requires a megger insulation resistance test at 500 V or 1000 V DC; both the positive and negative conductors must read above 1 MΩ. Repair costs range from ₹200-₹500 for a single connector to ₹15,000-₹40,000 for a full DC wiring harness replacement.
+> - Diagnosis requires a megger insulation resistance test at 500 V or 1000 V DC; both the positive and negative conductors must read above 1 MΩ. Repair cost depends on the fault location, from a single connector to a full DC wiring harness; get a written quote after the test.
 > - Ground faults and arc faults are different failure modes: ground faults leak current to earth (electrocution risk), while arc faults ignite within the DC circuit (fire risk) and need AFCI protection to detect.
 
 This guide is written for EPC installers and technically engaged homeowners in India who need to understand ground fault protection in depth: what triggers it, why it is dangerous, how to diagnose it correctly with the right test equipment, and when replacement of components is required rather than just repair.
 
-> **Direct answer.** A solar inverter ground fault error (ISO_Fault, GFCI, IsoFault) indicates that DC-to-earth insulation resistance has dropped below 1 MΩ - the minimum threshold under Indian CEA wiring standards and IEC 62109. The system must be shut down immediately. A licensed electrician must perform an insulation resistance test on each string before restart. Most ground faults originate from damaged MC4 connectors, cable insulation damage at roof penetrations, or water-ingressed junction boxes.
+> **Direct answer.** A solar inverter ground fault error (ISO_Fault, GFCI, IsoFault) indicates that the inverter has measured DC-to-earth insulation resistance below its own trip threshold (model-specific, set under IEC 62109-2). When you test the strings, the commissioning pass criterion under IEC 62446-1 is 1 MΩ or more for systems above 120 V. The system must be shut down immediately. A licensed electrician must perform an insulation resistance test on each string before restart. Most ground faults originate from damaged MC4 connectors, cable insulation damage at roof penetrations, or water-ingressed junction boxes.
 
 ## What Is a Ground Fault in a Solar Photovoltaic System?
 
@@ -67,7 +67,7 @@ Table: Indian climate stress factors that accelerate ground fault development, w
 | Coastal salt aerosol | Metal corrosion at connector contacts | All coastal areas |
 | Agricultural dust + moisture | Conductive contamination on exposed surfaces | North India |
 
-The [Central Electricity Authority](https://cea.nic.in/){target="_blank" rel="noopener"} Technical Standards for Connectivity of Distributed Generation Resources (2013) requires that all residential rooftop solar systems maintain DC-to-earth insulation resistance above 1 MΩ throughout their operational life. Annual insulation testing is recommended practice under these standards.
+Insulation resistance should be tested at commissioning and again periodically: the commissioning pass criterion in [IEC 62446-1](https://www.iec.ch/){target="_blank" rel="noopener"} is at least 1 MΩ for systems above 120 V, and an annual re-test is recommended practice.
 
 ## The Ground Fault Detection Mechanism: How Inverters Monitor Insulation
 
@@ -136,9 +136,9 @@ This is a panel-level fault that requires EL (electroluminescence) inspection to
 
 4. **Test negative to earth:** Swap leads, connect to the other conductor. Measure and record.
 
-5. **Interpret results:** Both readings must exceed 1 MΩ per [IEC 62109-2](https://www.iec.ch/){target="_blank" rel="noopener"} and CEA standards. Readings below 1 MΩ confirm a fault. Readings below 100 kΩ indicate a severe fault with significant leakage current.
+5. **Interpret results:** Both readings must be at least 1 MΩ for a system above 120 V, the minimum in the [IEC 62446-1](https://www.iec.ch/){target="_blank" rel="noopener"} commissioning tests (test at 500 V DC for 120 to 500 V systems and 1,000 V DC above 500 V, within the module's rated limit). Readings below 1 MΩ confirm a fault. Readings below 100 kΩ indicate a severe fault with significant leakage current.
 
-> **1 MΩ minimum.** The insulation resistance threshold required between any DC conductor and earth in a solar PV system, per [Indian CEA Technical Standards](https://cea.nic.in/){target="_blank" rel="noopener"} for Distributed Generation Connectivity and IEC 62109-2. New systems at commissioning typically measure 100 MΩ or more, readings below 10 MΩ, while above the minimum, warrant investigation.
+> **1 MΩ minimum.** The insulation resistance pass criterion for a PV array above 120 V in the [IEC 62446-1](https://www.iec.ch/){target="_blank" rel="noopener"} commissioning tests. New systems at commissioning typically measure far above this; a reading that is only just above the minimum warrants investigation.
 
 ### Isolating the Fault Location
 
@@ -153,16 +153,16 @@ Once a fault string is identified, further isolate by:
 
 The ground fault itself almost never originates in the inverter, the inverter is the detection and protection device, not the fault source. Wiring replacement decisions depend on the fault location:
 
-Table: Repair or replace decision and typical cost by ground fault location
+Table: Repair or replace decision by ground fault location (get a written quote for the cost)
 
-| Fault Location | Repair or Replace? | Typical Cost |
-| --- | --- | --- |
-| Single MC4 connector | Replace the connector pair | ₹200–₹500 |
-| Multiple MC4 connectors (>3) | Replace all connectors in the string | ₹1,500–₹4,000 |
-| Cable insulation damage (localised) | Splice and re-insulate or replace segment | ₹1,000–₹5,000 |
-| Full cable harness degraded | Replace all DC cables | ₹8,000–₹25,000 |
-| Panel junction box water ingress | Reseal if minor; panel replacement if severe | ₹0–₹15,000/panel |
-| Panel insulation degradation (PID) | Panel replacement (warranty claim) | Warranty-covered if within guarantee period |
+| Fault Location | Repair or Replace? |
+| --- | --- |
+| Single MC4 connector | Replace the connector pair |
+| Multiple MC4 connectors (>3) | Replace all connectors in the string |
+| Cable insulation damage (localised) | Splice and re-insulate or replace segment |
+| Full cable harness degraded | Replace all DC cables |
+| Panel junction box water ingress | Reseal if minor; panel replacement if severe |
+| Panel insulation degradation (PID) | Panel replacement (warranty claim) |
 
 Full replacement cost benchmarks across inverter capacities and brand tiers are covered in the [inverter TCO guide for India](/blog/inverter-tco/), and the hour-by-hour recovery sequence once a technician confirms the diagnosis is laid out in [What to Do When Your Solar Inverter Fails](/blog/solar-inverter-failure-action/).
 
@@ -187,22 +187,22 @@ Table: Ground fault compared with arc fault on detection, risk, origin, inverter
 | Primary risk | Electrocution, slow thermal damage | Fire - rapid escalation |
 | Typical origin | MC4 connector, junction box ingress | Loose connection, damaged cable insulation |
 | Inverter response | Shutdown + fault code | Shutdown (if AFCI equipped); no response (without AFCI) |
-| IEC standard | IEC 62109 (isolation fault) | IEC 63026 (AFCI for PV) |
+| IEC standard | IEC 62109-2 (isolation monitoring) | IEC 63027 (DC arc detection and interruption in PV) |
 
-The [International Electrotechnical Commission (IEC)](https://www.iec.ch/){target="_blank" rel="noopener"} IEC 63026 standard for DC arc fault detection in PV systems is still being adopted by Indian inverter manufacturers, but is already mandatory in some markets. Homeowners installing new systems should ask whether their inverter includes AFCI protection, or review whether their existing inverter supports a firmware upgrade to add this capability.
+IEC 63027 covers DC arc detection and interruption in PV systems. Whether an inverter includes AFCI differs by model, so check the datasheet. Homeowners installing new systems should ask whether their inverter includes AFCI protection, or review whether their existing inverter supports a firmware upgrade to add this capability.
 
 For both ground faults and arc faults, the highest-risk period in India is immediately after monsoon season, when wet connectors and degraded cable insulation create conditions for both fault types simultaneously. The [annual solar maintenance checklist](/blog/solar-annual-maintenance-checklist-india/) includes connector and insulation checks timed for the post-monsoon window (October) specifically for this reason.
 
 ## CEA Wiring Safety Standards Relevant to Ground Faults
 
-Indian solar installations are governed by CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations 2013, which require, and EPCs specifying CEIG-compliant electrical drawings at the design stage build these requirements in from the start:
+Indian solar installations are governed by the CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 as amended in 2019, together with your state electrical inspectorate and DISCOM requirements. EPCs specifying CEIG-compliant electrical drawings build the following good-practice measures in from the design stage; check each against the documents that apply to your project:
 
-- All DC conductors to be insulated, rated for the maximum system voltage, UV-resistant and double-insulated
-- DC earthing of the array frame with a proper earthing conductor sized per IS 3043
-- Ground Fault Protection Device (GFPD) or equivalent protection on all systems ≥ 10 kW
-- Annual testing of insulation resistance as part of O&M documentation
+- All DC conductors insulated, rated for the maximum system voltage, UV-resistant and double-insulated.
+- DC earthing of the array frame with a proper earthing conductor sized per IS 3043.
+- Ground fault protection on the DC side, as your inverter and the applicable rules require.
+- Insulation resistance tested at commissioning and recorded in the O&M documentation, with periodic re-tests.
 
-Non-compliance can affect insurance validity and PM Surya Ghar subsidy claims in cases where an inspection is triggered by a fault event. The [Ministry of New and Renewable Energy (MNRE)](https://mnre.gov.in/){target="_blank" rel="noopener"} has also incorporated insulation resistance testing requirements into the PM Surya Ghar technical specifications, meaning annual IR testing is a condition of programme compliance for systems receiving central government subsidy.
+A fault event that triggers an inspection can expose non-compliance, which can affect insurance and subsidy claims. Check the PM Surya Ghar technical specifications for any testing requirement before relying on one.
 
 ## Where Qbits Fits
 

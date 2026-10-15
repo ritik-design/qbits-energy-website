@@ -193,7 +193,7 @@ Modern inverters WiFi ya Bluetooth se mobile app se connect hote hain. App par d
 - Battery level (hybrid systems)
 - Error codes aur alerts
 
-[Solar inverter monitoring app guide](/blog/solar-inverter-app-monitoring/) mein popular apps aur setup instructions hain. According to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, smart monitoring ne solar owners ke system performance awareness ko significantly badhaaya hai.
+[Solar inverter monitoring app guide](/blog/solar-inverter-app-monitoring/) mein popular apps aur setup instructions hain. 
 
 ## Inverter Size Kaise Choose Karein
 
@@ -252,7 +252,7 @@ India ka climate solar inverters ke liye challenging hai:
 - **[Hybrid Inverters](/hybrid-inverter/)**: Review the current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Apne roof ke liye exact sizing
 
-[IRENA ke India solar report](https://www.irena.org/){target="_blank" rel="noopener"} ke anusaar, India mein residential solar adoption sabse tez growing segment hai 2025-26 mein. Sahi inverter choose karna is growth ka sabse important step hai.
+Sahi inverter choose karna is growth ka sabse important step hai.
 
 MPPT ka matlab aur uska asar samajhne ke liye padhein [MPPT kya hota hai](/blog/mppt-kya-hota-hai/).
 
@@ -262,12 +262,12 @@ Elsewhere in the Heaven Group network, see [sahi inverter kaise chunein](https:/
 
 Understanding the brand landscape helps you make an informed choice. Aap Heaven Green Energy's inverter shop par different brands aur models ke specifications directly compare kar sakte hain.
 
-**Indian manufacturers:** Luminous, UTL, Sukam, Microtek, strong distribution network, good service in Tier 2 and Tier 3 cities, warranty 2-5 years standard.
+**Indian manufacturers:** Luminous, UTL, Sukam, Microtek aur anya brands; service aur warranty model-wise alag hote hain, isliye exact model ki written warranty aur apne sheher mein service route confirm karein।
 
 Brand chunte waqt sirf Indian ya international label na dekhein. Exact model ka datasheet, BIS registration aur written warranty terms maangein, aur DISCOM ya scheme ki requirement alag se confirm karein.
 
 [Top 10 solar inverter brands India 2026](/blog/top-10-solar-inverter-brands-india-2026/), detailed brand analysis with market share data.
 
-According to [JMK Research India solar market data](https://jmkresearch.com/){target="_blank" rel="noopener"}, the Indian solar inverter market crossed Rs 8,000 crore in 2025, with residential on-grid inverters being the fastest growing segment driven by PM Surya Ghar adoption. Choosing a reliable brand from this growing market ensures your investment is protected by warranty and service support throughout the 25-year system life.
+Choosing a reliable brand from this growing market ensures your investment is protected by warranty and service support throughout the 25-year system life.
 
 The solar inverter market is evolving rapidly, smart inverters with AI-based MPPT optimization, integrated battery management, and cloud-based fleet monitoring are becoming standard even in residential products. Understanding these features helps you choose a future-proof inverter rather than one that becomes obsolete in 3-5 years.

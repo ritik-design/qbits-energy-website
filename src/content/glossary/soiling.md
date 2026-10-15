@@ -123,7 +123,7 @@ Table: Module cleaning methods compared on pros and cons
 
 ### Cleaning cost economics
 
-> [!EXAMPLE] 1 MW utility plant in Indian conditions
+> [!EXAMPLE] 1 MW utility plant (assumed inputs, not a benchmark)
 > - Manual cleaning labour: ₹3-6 lakh/MW/year
 > - Water cost: ₹0.5-1 lakh/MW/year
 > - Total cleaning OPEX: ₹3.5-7 lakh/MW/year

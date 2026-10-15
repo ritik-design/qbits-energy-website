@@ -17,7 +17,7 @@ keywords:
   - local solar dealer vs epc
 faqs:
   - q: "Solar installation kahan se karaye - local dealer se ya bade EPC se?"
-    a: "Dono chal jaate hain, condition yeh hai ki vendor PM Surya Ghar portal par apke DISCOM ke liye empanelled ho। Local dealer ka fayda service speed hai, breakdown par 24-48 ghante mein bandaa aa jaata hai। National EPC ka fayda process discipline hai, documentation aur net metering follow-up structured hota hai। Rule of thumb: 3 kW se 5 kW residential ke liye acchi reputation wala local empanelled dealer sabse practical hai, 10 kW se upar ya commercial ke liye EPC better hai।"
+    a: "Dono chal jaate hain, condition yeh hai ki vendor PM Surya Ghar portal par apke DISCOM ke liye empanelled ho। Local dealer ka fayda aksar service speed hota hai, par response time dealer-wise alag hai, isliye likhit mein lein। National EPC ka fayda process discipline hai, documentation aur net metering follow-up structured hota hai। Rule of thumb: 3 kW se 5 kW residential ke liye acchi reputation wala local empanelled dealer sabse practical hai, 10 kW se upar ya commercial ke liye EPC better hai।"
   - q: "Kya main kisi bhi solar installer se subsidy wala system lagwa sakta hoon?"
     a: "Nahi। PM Surya Ghar Muft Bijli Yojana mein installation sirf us vendor se ho sakti hai jo apke state DISCOM ke saath national portal par registered ho। Non-empanelled installer ka commissioning report portal par accept nahi hota, isliye subsidy claim reject ho jaata hai chahe installation quality kitni bhi acchi ho। Advance dene se pehle vendor ka registration number pmsuryaghar.gov.in par khud verify karein।"
   - q: "Solar installer se kaunse documents lena zaroori hai?"
@@ -168,10 +168,10 @@ Table: Local empanelled dealer, national EPC aur online marketplace ki tulna
 
 | Parameter | Local empanelled dealer | National EPC | Online marketplace |
 | --- | --- | --- | --- |
-| Price | Aksar sabse competitive | 5 se 15 percent zyada | Listed rate kam, add-ons alag |
+| Price | Aksar sabse competitive | Aksar zyada (overheads) | Listed rate kam, add-ons alag |
 | Site survey quality | Depends on individual | Standardised process | Third-party installer par depend |
 | DISCOM paperwork | Local officer se familiarity | Dedicated liaison team | Aksar customer scope |
-| Breakdown response | 24 se 48 ghante | 3 se 7 din, ticket based | Installer dhoondhna padta hai |
+| Breakdown response | Dealer par depend; likhit mein lein | Aksar ticket based; likhit SLA lein | Installer dhoondhna padta hai |
 | Accountability | Reputation local hai | Contractual, escalation possible | Fragmented, blame shift hota hai |
 | Best fit | 2 kW se 10 kW residential | 10 kW se upar, C&I, multi-site | Sirf equipment purchase, installation nahi |
 

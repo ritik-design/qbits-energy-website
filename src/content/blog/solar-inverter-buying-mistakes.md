@@ -1,6 +1,6 @@
 ---
 title: "5 Mistakes to Avoid When Buying a Solar Inverter"
-excerpt: "Mistakes buying a solar inverter cost Indian homeowners ₹25,000–₹60,000 in avoidable losses. Here are the 5 most expensive errors, and how to sidestep each one."
+excerpt: "Mistakes buying a solar inverter can cost Indian homeowners real money in replacement, downtime and lost subsidy. Here are the 5 most expensive errors, and how to sidestep each one."
 description: "Avoid common solar inverter buying mistakes by checking system type, electrical fit, exact-model evidence, warranty scope and installed cost."
 category: Buying Guide
 date: 2026-06-05
@@ -32,7 +32,7 @@ faqs:
   - q: "What questions should I ask a solar vendor before buying an inverter?"
     a: "Ask for the exact model number and datasheet, the BIS registration and current certificates for that model, the written warranty with its term, remedy, start date and exclusions, and who pays freight and labour on a claim. Ask for the nearest authorised service partner with an address and a response time in writing. Check that the phase, voltage window, MPPT count and maximum DC current suit your array, and ask what monitoring is included. Get all of it itemised in the quotation."
   - q: "How much does the wrong inverter topology actually cost in UP or Bihar?"
-    a: "In areas with 6–8 hours of daily outages, an on-grid inverter produces zero power during those hours. A 3 kW system losing 6 hours of generation daily at ₹8 per unit forfeits roughly ₹5,250 per month, or ₹63,000 per year in potential savings. Over a 12-year life, that is over ₹7 Lakh in lost value - far more than the ₹40,000–₹60,000 premium a hybrid inverter carries at purchase."
+    a: "In areas with long daily outages, an on-grid inverter produces zero power during those hours. As an assumed example, a 3 kW system generates about 12 units a day (3 kW × 5 peak sun hours × 0.8); if daytime outages cost it half of that, it forfeits about 6 units × ₹8 = ₹48 a day, or about ₹17,500 a year, roughly ₹2.1 Lakh over 12 years before tariff changes. Compare that with the extra cost of a hybrid inverter and battery on your own quotes: a same-brand Deye 5 kW pair was listed at ₹37,999 on-grid and ₹1,35,888 hybrid on 14 October 2026, before the battery."
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
@@ -46,7 +46,7 @@ This post maps the five most expensive mistakes Indian homeowners make when buyi
 > - A model-specific written warranty is the safest structure; most budget brands offer only a 2-5 year repair-only warranty with narrow coverage.
 > - Buy a hybrid inverter, not on-grid, if daily power cuts exceed 4 hours; on-grid inverters shut down completely during grid failure due to anti-islanding protection.
 > - Skipping the compliance check can put the PM Surya Ghar subsidy (up to ₹78,000 for a 3 kW system) at risk: modules must come from MNRE's ALMM List-I, and the inverter's certificates should be checked against the DISCOM's requirements.
-> - Around 60% of inverter faults need an on-site technician, so a brand with no local service partner near you means weeks of downtime when something fails.
+> - Many inverter faults need an on-site technician, so a brand with no local service partner near you can mean weeks of downtime when something fails.
 
 If you are still in the early stages of deciding what to buy, the full [solar inverter buying guide for homes in India](/blog/how-to-choose-solar-inverter-for-home-india/) covers sizing, topology, and feature comparison in detail. This post focuses specifically on where buyers go wrong, and what those errors cost in practice.
 
@@ -87,13 +87,13 @@ data:
   - { label: "Quality inverter", min: 33000, max: 35000 }
 ```
 
-The numbers above use standard Indian component pricing and average DISCOM tariffs. The quality inverter wins by ₹23,000–₹42,000 even though it costs ₹13,000 more at the counter. Running the same comparison for your own quotations is easier with a dedicated [solar cost estimation tool](https://quickestimate.co/pricing/) rather than a spreadsheet built from scratch.
+The numbers above are assumed inputs for illustration, not market data or quotes. On those inputs the quality inverter wins by ₹23,000–₹42,000 even though it costs ₹13,000 more at the counter. Running the same comparison for your own quotations is easier with a dedicated [solar cost estimation tool](https://quickestimate.co/pricing/) rather than a spreadsheet built from scratch.
 
 The solution is straightforward: always compare inverters on 12-year total cost, not the day-one price. Ask every vendor: "What is covered by warranty, and for how long?" Then read the warranty document, not the sales brochure.
 
-> **60%.** Share of all solar service calls in India attributed to inverter-related faults, according to field data compiled by Indian EPC associations and corroborated by service records from multiple installers. *Source - [NSEFI Field Service Survey, 2025](https://nsefi.in/).*
+> **5 years of cover, 20 years uncovered.** A 5-year warranty on an inverter used for the 25-year life of the panels leaves 20 years the buyer self-insures (25 − 5 = 20). Read the written term, what it covers and the remedy before you buy.
 
-When inverter faults account for 60% of service calls and the market average warranty is 5 years, the probability that your inverter will need service after warranty expiry (during its 6-to-12-year operational life) is not trivial. Budget for it, or buy a warranty that covers it.
+If your inverter's warranty is short, the chance that it needs service after warranty expiry is not trivial. Budget for it, or buy a written warranty that covers it.
 
 ## Mistake 2: Ignoring Warranty Depth: The ₹25,000 Replacement Risk
 
@@ -104,7 +104,7 @@ Most budget inverter brands offer a 2-year standard warranty that can be extende
 The better-documented brands offer a different structure, and the structure matters more than the duration: full unit replacement rather than repair at the maker's option. Where a document promises replacement, a failed unit is swapped instead of being opened and reworked. Read the remedy clause to confirm which one you are buying, because this is where the value sits:
 
 - **Repair economics are unfavourable**: a board-level repair on a 5 kW inverter costs ₹8,000–₹15,000 in parts alone, and may not restore full efficiency.
-- **Repair timelines are long**: without a local service partner, the faulty unit is shipped to a centralised repair centre. Turnaround times of 6–10 weeks are common outside the top 8 Indian metros.
+- **Repair timelines are long**: without a local service partner, the faulty unit is shipped to a centralised repair centre. Ask for the repair turnaround in writing, because it can be long where there is no local service partner.
 - **Efficiency degrades post-repair**: an inverter that has had multiple component replacements rarely returns to nameplate efficiency. A 3% efficiency drop on a 5 kW system costs roughly ₹1,800 per year in lost generation (5 kW × about 1,500 kWh per kW per year × 3% × ₹8 per unit).
 
 The [true cost of solar inverter replacement in India](/blog/inverter-tco/) sits between ₹18,000 and ₹28,000 for a residential 3–5 kW unit, depending on the brand and capacity. That number does not include installation labour, re-commissioning, or the generation lost during the replacement window.
@@ -118,7 +118,7 @@ The [true cost of solar inverter replacement in India](/blog/inverter-tco/) sits
 > - **Is the warranty transferable**: this affects resale value of the home.
 > - **Who handles the claim**: a local authorised partner or a centralised call centre with no on-site capability?
 
-> **12 years** is the minimum acceptable [solar inverter warranty](/blog/solar-inverter-warranty/) period for a system expected to generate returns over a 25-year panel life. A 5-year warranty means the buyer self-insures the inverter for the remaining 20 years. *Source - [IEA Renewables 2025 report](https://www.iea.org/reports/renewables-2025).*
+> **25 − 5 = 20 years.** A 5-year inverter warranty means the buyer self-insures the inverter for the remaining 20 years of a 25-year panel life. Compare the written [solar inverter warranty](/blog/solar-inverter-warranty/) terms of each model rather than a headline number.
 
 The safest approach is to treat the warranty document as a purchase criterion equal in weight to price. If the vendor cannot produce the physical warranty card or digital certificate at the time of quotation, do not proceed.
 
@@ -127,7 +127,7 @@ The safest approach is to treat the warranty document as a purchase criterion eq
 > [!EXAMPLE] Illustrative scenario, not a real customer: on-grid in an outage-prone area
 > Priya lives in Lucknow. Her electricity bill was ₹9,200 per month. She installed a 3 kW on-grid solar system and waited to see the savings. The savings never materialised, at least not in the way she expected.
 >
-> Lucknow, like most of Uttar Pradesh, experiences 5–8 hours of scheduled and unscheduled grid outages per day, particularly in summer. An [on-grid inverter](/glossary/on-grid-inverter/) shuts down entirely during grid failure. This is mandated behaviour (called anti-islanding protection) required by Indian grid regulations to protect line workers from electrocution during maintenance. Priya's solar panels were generating peak power at noon, but her on-grid inverter had switched off because the grid was down. She gained nothing.
+> In this scenario, Lucknow has long scheduled and unscheduled grid outages, particularly in summer (the hours are an assumption for the example). An [on-grid inverter](/glossary/on-grid-inverter/) shuts down entirely during grid failure. This is mandated behaviour (called anti-islanding protection) required by Indian grid regulations to protect line workers from electrocution during maintenance. Priya's solar panels were generating peak power at noon, but her on-grid inverter had switched off because the grid was down. She gained nothing.
 >
 > After six months, she replaced the on-grid inverter with a hybrid unit and added a 5 kWh lithium battery. The hybrid system allowed her to store morning solar generation and use it during afternoon outages. Her actual monthly savings then reached ₹6,800, close to what the original system had promised.
 >
@@ -172,7 +172,7 @@ A related complication: some DISCOM jurisdictions now require the [empanelled ve
 
 The fifth mistake is the most underestimated. A solar inverter is not a television, you cannot return it to the store if it fails. It is fixed to your roof, wired into your distribution board, and registered with the DISCOM. When it fails, you need someone to come to your house and fix it.
 
-Research from Indian field service data consistently shows that approximately 60% of inverter faults require on-site diagnosis and physical repair. Remote firmware fixes and phone-based troubleshooting resolve the remaining 40%. For the majority of failures, there is no substitute for a technician arriving at your door.
+Some faults can be resolved by remote firmware fixes and phone-based troubleshooting, but many need on-site diagnosis and repair, and for those there is no substitute for a technician arriving at your door.
 
 The problem: many inverter brands spend heavily on national advertising but have sparse service networks outside the top 10 cities. A brand with a full-page advertisement in a solar trade journal may have zero authorised service partners in Nagpur, Coimbatore, Patna, or Surat. When the inverter fails at year 4, the homeowner discovers this reality.
 
@@ -183,9 +183,9 @@ The problem: many inverter brands spend heavily on national advertising but have
 - The local installer who sold the system "will try to handle it" but has no spare boards and no direct contact at the brand's support desk.
 - Repair estimates come in at 60–80% of a new unit's cost, making replacement the only sensible option, but the brand does not cover replacement under a 5-year warranty.
 
-> **180+ days.** Estimated average time-to-repair for residential inverter failures where no local authorised service centre exists within 100 km, based on installer-reported data from Tier-2 and Tier-3 Indian towns. *Source - [Mercom India Solar Market Report, Q4 2025](https://www.mercomindia.com/).*
+> **Ask for the number in writing.** Time-to-repair where no authorised service centre is near you can run to weeks. Get the repair turnaround and who pays the shipping in the written warranty before you buy.
 
-The [solar inverter reliability guide](/blog/how-to-evaluate-solar-inverter-reliability/) tracks service network coverage by brand and state. The data consistently shows that brands with dedicated Tier-2/3 service presence resolve faults 3–4 times faster than those relying solely on centralised repair depots.
+The [solar inverter reliability guide](/blog/how-to-evaluate-solar-inverter-reliability/) tracks service network coverage by brand and state. Ask each brand for its written service route in your town.
 
 ### How to Evaluate a Brand's Service Network Before You Buy
 
@@ -233,7 +233,7 @@ Table: Biggest buying-mistake risk by state, and why
 
 | State | Biggest mistake risk | Why |
 | --- | --- | --- |
-| Uttar Pradesh | Mistake 3 - wrong topology | 6–10 hr daily outages; on-grid systems produce near-zero benefit |
+| Uttar Pradesh | Mistake 3 - wrong topology | Long outages can make on-grid systems produce little usable power |
 | Bihar | Mistake 3 + Mistake 5 | Unreliable grid + thin service networks outside Patna |
 | Maharashtra (rural) | Mistake 3 + Mistake 1 | Agricultural feeder outages + price-first buying culture |
 | Rajasthan | Mistake 4 + Mistake 2 | DISCOM strict on ALMM; extreme heat degrades cheap units faster |

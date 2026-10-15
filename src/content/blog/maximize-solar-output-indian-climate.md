@@ -4,7 +4,7 @@ excerpt: "Maximise solar output in India by tuning tilt angle for your latitude,
 description: "The 6-Lever Solar Output Maximiser for Indian homeowners: tilt angle by latitude, cleaning frequency by climate zone, and summer derating fixes."
 category: "Guide"
 date: 2026-06-05
-updatedDate: 2026-10-14
+updatedDate: 2026-10-15
 readTime: "17 min"
 image: "/og/blog-maximize-solar-output-indian-climate.webp"
 author: "Keyur Rakholiya"
@@ -47,7 +47,7 @@ This guide covers the six practical interventions that increase solar output in 
 > - Cleaning frequency should match your dust zone and your own measured soiling loss, not a generic quarterly schedule; the zone table gives planning starting points.
 > - A correct tilt adds about 2% (Chennai) to 14% (Delhi) annual generation over a flat installation in PVGIS 5.3 results (ERA5 data 2015 to 2020), with the optimum a few degrees above the latitude.
 > - A single fully shaded panel in a series string can cut the whole string's output by 30-70%, quarterly shade audits catch this before it compounds.
-> - Shifting deferrable loads to 10 AM-2 PM solar hours is worth ₹3-5 more per unit than exporting the same unit through net metering.
+> - Shifting deferrable loads to solar hours is worth the gap between your consumption tariff and your DISCOM's credit for an exported unit; check both numbers before counting on a benefit.
 > - Inverter thermal derating above 45°C ambient cuts afternoon output by 5-20%, better ventilation and shading the enclosure largely fixes it. Working through all six levers in order can recover 10-22% of previously lost annual generation on a typical residential system.
 
 The 6-Lever framework is ordered by return on effort. Start at Lever 1 (cleaning) because it costs nothing and restores output within hours. Move to later levers only after confirming the earlier ones are optimised. This prevents expensive structural interventions when a bucket of water and a soft cloth would have resolved the gap.
@@ -193,19 +193,10 @@ These six levers address output losses in descending order of frequency and magn
 
 ### Why Direct Consumption Beats Export
 
-In most Indian states, the net metering credit rate (buyback rate for exported units) is lower than the consumption tariff. Typical gap:
+How exported units are valued depends on your state's net metering or net billing rules. Where exports offset imports one for one in the same billing period, a unit used directly and a unit exported are worth about the same on the bill; where surplus is settled at a lower rate, or credits expire, a unit used directly is worth more than a unit exported. We found no sourced current state-wise settlement rates, so none are quoted here; ask your DISCOM how surplus units are carried forward and settled.
 
-Table: Approximate consumption tariff versus net metering credit by state, and the value lost per exported unit
-
-| State | Approx. Consumption Tariff | Approx. Net Metering Credit | Value Lost per Exported Unit |
-| --- | --- | --- | --- |
-| Rajasthan | ₹6.50–₹8.00/unit | ₹2.50–₹3.50/unit | ₹3.00–₹5.00 |
-| Maharashtra | ₹7.00–₹9.50/unit | ₹3.00–₹4.50/unit | ₹3.00–₹5.00 |
-| Karnataka | ₹6.50–₹8.50/unit | ₹2.00–₹3.00/unit | ₹4.00–₹5.50 |
-| Tamil Nadu | ₹5.50–₹7.50/unit | ₹2.25–₹3.00/unit | ₹3.00–₹4.50 |
-
-> [!TIP] Use solar units directly, do not export them
-> A unit consumed directly from solar at 2:00 PM is worth the full consumption tariff. The same unit exported to the grid earns only the credit rate. The financial benefit of shifting loads to solar hours is the value gap between these two rates - ₹3–₹5 per unit in most states.
+> [!TIP] Use solar units directly where exports are valued lower
+> The value of shifting a load to solar hours is the gap between the consumption tariff and the credit your DISCOM gives for an exported unit, multiplied by the units shifted. Find both numbers on your bill and your DISCOM's net metering terms before counting on a benefit; if exports offset imports one for one, the gap is small.
 
 ### Time-Shifting Checklist
 
@@ -267,15 +258,15 @@ For systems with manually adjustable mounting structures, a single tilt change i
 
 This lever is most practical for ground-mounted systems and some elevated flat-terrace installations with adjustable structures. For flush-mounted sloped-roof installations, the structure prevents seasonal adjustment.
 
-Reference the [MNRE solar resource atlas](https://mnre.gov.in/){target="_blank" rel="noopener"} for monthly irradiance data at your location to calculate whether the additional generation justifies the twice-annual adjustment effort.
+Reference the [Global Solar Atlas](https://globalsolaratlas.info/) for monthly irradiance data at your location to calculate whether the additional generation justifies the twice-annual adjustment effort.
 
 ## Monitoring: Using AI Alerts to Catch Losses Early
 
 Every output lever described above works better with continuous monitoring. Monitoring without alerts is passive, it shows you data when you remember to check. Monitoring with AI alerts is active, it tells you when something is wrong before you lose a full month of generation.
 
-- A shaded panel left undetected for 60 days at 30% yield loss on a 5 kWp system costs approximately ₹1,800–₹2,400 in lost value at ₹8/unit
-- A soiled system left uncleaned for 6 weeks in Rajasthan loses 20–25% output, approximately ₹3,600–₹4,500 on a 5 kWp system in peak irradiance months
-- An inverter derating during peak summer afternoons, if caught in week 1, is resolved by adding a shade canopy for ₹500–₹2,000; left for three months, it costs ₹4,000–₹6,000 in reduced output
+- The cost of an undetected fault is arithmetic: lost units = system output per day × share lost × days undetected; multiply by your tariff. For an assumed 5 kWp system producing 20 units a day with a 30% loss for 60 days, that is 20 × 0.30 × 60 = 360 units, or about ₹2,880 at ₹8 per unit
+- A soiled array and a derating inverter work the same way: measure the percentage loss on your own monitoring app, then multiply by days and tariff
+- Catching a fault in the first week limits the days term, which is why alerts matter
 
 For a full guide to what the monitoring app tracks and how to configure underperformance alerts, see the [solar inverter app monitoring guide](/blog/solar-inverter-app-monitoring/).
 

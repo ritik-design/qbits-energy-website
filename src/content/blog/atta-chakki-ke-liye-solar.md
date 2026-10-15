@@ -4,7 +4,7 @@ excerpt: "Atta chakki ke liye solar: motor HP se system sizing, starting current
 description: "Flour mill ya atta chakki ke liye solar system kaise size karein? Motor HP to kW conversion, starting surge, on-grid vs hybrid, cost aur payback, sab kuch 2026 ke realistic numbers ke saath।"
 category: "Guide"
 date: 2026-08-02
-updatedDate: 2026-10-14
+updatedDate: 2026-10-15
 readTime: "12 min"
 image: "/og/blog-atta-chakki-ke-liye-solar.webp"
 author: "Nirav Dhanani"
@@ -30,7 +30,7 @@ faqs:
   - q: "Solar lagane ke baad chakki ka bijli bill kitna kam hoga?"
     a: "अगर system सही size किया गया है और chakki दिन में चलती है, तो 60 से 85 percent तक energy charges कम हो सकते हैं। Fixed demand charges solar से कम नहीं होते, वे sanctioned load पर लगते रहते हैं। Diesel genset replace करने पर बचत और बड़ी दिखती है, क्योंकि genset की per unit cost grid tariff से कई गुना ज़्यादा बैठती है।"
   - q: "Atta chakki solar system ka payback kitne saal me hota hai?"
-    a: "Commercial tariff ₹8 से ₹10 प्रति unit वाले इलाकों में, अच्छी self-consumption के साथ, 3.5 से 5 साल का payback सामान्य है। अगर आप diesel genset हटाते हैं तो यह 2.5 से 3.5 साल तक आ सकता है। Accelerated depreciation का फायदा लेने वाली registered firms का effective payback और छोटा हो जाता है। Panels की life 25 साल की होती है, इसलिए payback के बाद के साल लगभग pure बचत हैं।"
+    a: "Payback = installed cost ÷ yearly bachat, इसलिए यह आपकी quote, आपके tariff और self-consumption पर निर्भर है; हमें कोई sourced सामान्य range नहीं मिली। इस guide के illustrative 10 HP उदाहरण (assumed ₹6.4 लाख cost, ₹9 प्रति unit) में payback लगभग 4.6 से 4.9 साल आता है, और diesel genset की units हटाने पर बचत बढ़ सकती है। Accelerated depreciation का फायदा लेने वाली registered firms का effective payback और छोटा हो जाता है। Panels की life 25 साल की होती है, इसलिए payback के बाद के साल लगभग pure बचत हैं।"
 featured: false
 language: hi
 ---
@@ -43,7 +43,7 @@ language: hi
 > - Chakki का daytime load generation curve से match करता है, इसलिए self-consumption 80 percent से ऊपर जा सकती है। 1 HP लगभग 0.746 kW, तो 10 HP motor के लिए आमतौर पर 10 से 12 kW का system बैठता है।
 > - सबसे बड़ी गलती starting current ignore करना है; DOL start पर surge कई गुना होता है, इसलिए soft starter, VFD या inverter headroom ज़रूरी है।
 > - [PM Surya Ghar](/glossary/pm-surya-ghar/) residential scheme है; commercial chakki connection आमतौर पर eligible नहीं, इसलिए ₹78,000 का वादा मत मानिए।
-> - Commercial tariff ₹8 से ₹10 प्रति unit पर payback 3.5 से 5 साल, diesel genset replace करने पर 2.5 से 3.5 साल।
+> - Payback = installed cost ÷ yearly bachat; illustrative 10 HP उदाहरण (assumed ₹6.4 लाख, ₹9 प्रति unit) में लगभग 4.6 से 4.9 साल, अपनी quote से दोबारा निकालें।
 > - Grid ठीक हो तो on-grid लीजिए; cuts या genset चल रहा हो तभी hybrid justify होता है।
 
 **छोटा जवाब।** Atta chakki ke liye solar में motor HP से शुरू कीजिए। HP को 0.746 से गुणा करके kW निकालिए, फिर daily running hours जोड़कर actual units। ज़्यादातर 10 HP chakki के लिए 10 से 12 kW on-grid three phase system बैठता है, कीमत लगभग ₹5.5 लाख से ₹7.5 लाख, payback 3.5 से 5 साल।
@@ -140,17 +140,20 @@ Hybrid तब सोचिए जब दिन में रोज़ लंब�
 
 ## Kharcha aur Payback: Mill Size ke Hisaab se
 
-नीचे 2026 के indicative numbers हैं, पूरे installed system की cost यानी panels, inverter, structure, cabling, protection और labour मिलाकर। Payback निकालते समय ₹8 से ₹10 प्रति unit का commercial tariff और अच्छी self-consumption मानी है।
+नीचे की table में सिर्फ़ generation और बचत का हिसाब है, installed cost नहीं, क्योंकि हमें इन sizes के लिए कोई dated sourced cost नहीं मिली। Cost अपनी itemised quote से लें और payback का formula नीचे दिया है। Yearly units = system kW × 1,450 से 1,550 (हमारी [generation guide](/blog/how-much-electricity-solar-generates-india/) के approximate values), और बचत ₹8 से ₹10 प्रति unit के assumed commercial tariff पर, पूरी self-consumption मानकर।
 
-Table: Mill size ke hisaab se indicative system cost, yearly units, bachat aur simple payback (2026)
+> [!FORMULA] Simple payback
+> Payback (years) = installed cost (आपकी quote) ÷ yearly bachat
 
-| Mill size | System size | Installed cost (approx) | Yearly units (approx) | Yearly bachat | Simple payback |
-| --- | --- | --- | --- | --- | --- |
-| 3 HP small chakki | 4 kW | ₹2.2 L to ₹2.8 L | 5,800 to 6,200 | ₹50,000 to ₹60,000 | 4 to 5 yrs |
-| 5 HP chakki | 6 kW | ₹3.2 L to ₹4.0 L | 8,700 to 9,400 | ₹75,000 to ₹90,000 | 4 to 5 yrs |
-| 10 HP chakki | 12 kW | ₹5.5 L to ₹7.5 L | 17,000 to 19,000 | ₹1.5 L to ₹1.8 L | 3.5 to 4.5 yrs |
-| 15 HP chakki | 18 kW | ₹8.0 L to ₹10.5 L | 26,000 to 28,000 | ₹2.2 L to ₹2.7 L | 3.5 to 4.5 yrs |
-| Multi motor mill | 25 kW | ₹11 L to ₹14.5 L | 36,000 to 39,000 | ₹3.0 L to ₹3.7 L | 3.5 to 4.5 yrs |
+Table: Mill size ke hisaab se yearly units aur bachat (assumed tariff ₹8 se ₹10 per unit, poori self-consumption)
+
+| Mill size | System size | Yearly units (kW × 1,450 se 1,550) | Yearly bachat (₹8 se ₹10 per unit) |
+| --- | --- | --- | --- |
+| 3 HP small chakki | 4 kW | 5,800 to 6,200 | ₹46,400 to ₹62,000 |
+| 5 HP chakki | 6 kW | 8,700 to 9,300 | ₹69,600 to ₹93,000 |
+| 10 HP chakki | 12 kW | 17,400 to 18,600 | ₹1.39 L to ₹1.86 L |
+| 15 HP chakki | 18 kW | 26,100 to 27,900 | ₹2.09 L to ₹2.79 L |
+| Multi motor mill | 25 kW | 36,250 to 38,750 | ₹2.90 L to ₹3.88 L |
 
 दो चीज़ें payback छोटा करती हैं, diesel genset की units replace करना और accelerated depreciation, जिस पर detail [capex vs opex वाली guide](/blog/solar-capex-vs-opex-business-india/) में है। एक चीज़ payback लंबा करती है, कम self-consumption। Chakki हफ़्ते में सिर्फ़ तीन दिन चलती है तो बाकी दिनों की generation export होगी और rate कम मिलेगा, ऐसे case में system छोटा रखिए।
 
@@ -166,10 +169,10 @@ Design इस तरह बैठता है।
 - एक QB 12KTLC three phase on-grid inverter, और motor पर soft starter जो पहले नहीं था।
 - Genset backup पर, कोई battery नहीं। Installed cost लगभग ₹6.4 लाख, load enhancement की ज़रूरत नहीं।
 
-Expected नतीजा। सालाना लगभग 18,000 units generation, जिसमें से 80 से 85 percent सीधे mill में खप जाती हैं, और energy charges में लगभग ₹1.55 लाख सालाना की बचत। Fixed charges पहले जैसे रहेंगे। एक ईमानदार caveat, grid जाने पर plain on-grid inverter बंद हो जाता है, इसलिए genset पूरी तरह नहीं हटता। Simple payback लगभग 4 साल। Inverter की warranty का term, remedy और exclusions exact model के current written terms से confirm कीजिए।
+Expected नतीजा। सालाना लगभग 18,000 units generation, जिसमें से 80 से 85 percent सीधे mill में खप जाती हैं, और energy charges में लगभग ₹1.3 से ₹1.4 लाख सालाना की बचत (14,400 से 15,300 units × ₹9, export का मूल्य जोड़े बिना)। Fixed charges पहले जैसे रहेंगे। एक ईमानदार caveat, grid जाने पर plain on-grid inverter बंद हो जाता है, इसलिए genset पूरी तरह नहीं हटता। Simple payback लगभग 4.6 से 4.9 साल (₹6.4 लाख ÷ ₹1.3 से ₹1.4 लाख)। Inverter की warranty का term, remedy और exclusions exact model के current written terms से confirm कीजिए।
 
 > [!EXAMPLE] 10 HP chakki, 12 kW system (illustrative)
-> 12 kW PV, एक QB 12KTLC three phase on-grid inverter, soft starter, genset backup पर। Installed cost लगभग ₹6.4 लाख, सालाना लगभग 18,000 units, जिसमें से 80 से 85 percent mill में खप जाती हैं, energy charges में लगभग ₹1.55 लाख सालाना की बचत, simple payback लगभग 4 साल। यह actual customer case नहीं है।
+> 12 kW PV, एक QB 12KTLC three phase on-grid inverter, soft starter, genset backup पर। Installed cost लगभग ₹6.4 लाख, सालाना लगभग 18,000 units, जिसमें से 80 से 85 percent mill में खप जाती हैं, energy charges में लगभग ₹1.3 से ₹1.4 लाख सालाना की बचत (assumed ₹9 प्रति unit), simple payback लगभग 4.6 से 4.9 साल। यह actual customer case नहीं है।
 
 ## Subsidy aur Scheme: Saaf Baat
 

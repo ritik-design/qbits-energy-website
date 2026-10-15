@@ -1,7 +1,7 @@
 ---
 title: "Bijli Bill Zero Kaise Kare Solar Se (2026)"
 excerpt: "Bijli bill zero kaise kare: solar panel se ₹0 electricity bill possible hai. System size, net metering, PM Surya Ghar subsidy, aur real savings calculation, Hindi mein।"
-description: "Bijli bill zero kaise kare solar se: 3 kW system 300-400 units/month wale ghar ka bill lagbhag zero kar sakta hai. Net metering aur PM Surya Ghar subsidy details."
+description: "Bijli bill zero kaise kare solar se: 3 kW system 300-400 units/month wale ghar ka bill lagbhag zero kar sakta hai. Net metering aur subsidy details."
 category: "Educational"
 date: 2026-06-05
 updatedDate: 2026-10-14

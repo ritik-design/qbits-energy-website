@@ -16,7 +16,7 @@ faqs:
   - q: "Which is better, Qbits, Sungrow or Growatt?"
     a: "There is no universal winner, and the honest answer depends on system size and site. Sungrow has the deepest engineering ladder for large inland commercial and utility work. Growatt has the widest dealer and spares availability for price-led residential jobs. Qbits competes on per-model electrical detail and a published service partner network, though its public datasheets describe an expandable warranty without defining the base term, so that row has to be settled in writing. Compare exact model numbers, not brand names."
   - q: "Does Sungrow's warranty cover coastal sites in India?"
-    a: "Only partly, and the clause is explicit. Sungrow's APAC warranty terms limit cover to 2 years for non-C5 products installed between 2 and 5 kilometres of the coastline, and void the warranty inside 2 kilometres. C5-enclosure products are limited to 2 years within 500 metres of the coastline. Salt mist corrosion beyond the design specification is a listed exclusion. This affects buyers across Gujarat, Kerala, Tamil Nadu, and coastal Odisha, so specify the enclosure grade the manufacturer requires."
+    a: "Possibly, and the published clause is explicit. Sungrow's Asia Pacific warranty terms, which are not an India-specific contract, limit cover to 2 years for non-C5 products installed between 2 and 5 kilometres of the coastline, and void the warranty inside 2 kilometres. C5-enclosure products are limited to 2 years within 500 metres of the coastline. Salt mist corrosion beyond the design specification is a listed exclusion. Sungrow's India page states no warranty term, so a buyer in Gujarat, Kerala, Tamil Nadu or coastal Odisha should ask the seller for the clause that applies to the exact model and sale, and the enclosure grade it requires."
   - q: "What is the Growatt factory dispatch cap on warranty?"
     a: "Growatt's warranty procedure states that the standard period runs from the installation date on the installation certificate, and no more than six months after the delivery date. That means warehouse-aged stock can be installed outside the standard window. The year count itself varies by product line. Ask for the delivery date and the installation certificate date in writing before you accept the unit."
   - q: "Does a longer inverter warranty always mean better protection?"
@@ -30,7 +30,7 @@ faqs:
   - q: "How fast does Qbits replace a failed inverter?"
     a: "No current written Qbits service term sets a dispatch time, so ask your dealer for the committed action after claim approval in writing. Where any brand quotes a dispatch window, read the trigger carefully, because such clocks start at claim approval and not at the moment you report the fault, and the approval step itself usually has no published duration. Also ask how long approval has taken on recent claims for the same model."
   - q: "Which brand should a coastal Indian site choose?"
-    a: "Read the coastal clause before the specification sheet. Sungrow publishes distance-based derogations that reduce or void cover near the coastline without the specified enclosure grade. Any brand can be the right answer if its written terms cover your distance from the sea and its enclosure rating suits the salt load. Get the exclusion clause and the required enclosure grade in writing, for the exact model number."
+    a: "Read the coastal clause before the specification sheet. Sungrow's Asia Pacific terms publish distance-based derogations that reduce or void cover near the coastline without the specified enclosure grade; its India page states no term, so confirm whether they apply to your sale. Any brand can be the right answer if its written terms cover your distance from the sea and its enclosure rating suits the salt load. Get the exclusion clause and the required enclosure grade in writing, for the exact model number."
 ---
 
 Three brands reach the same Indian rooftop shortlist for three different reasons. Sungrow arrives on engineering depth at scale. Growatt arrives on dealer availability and price. Qbits arrives on per-model datasheets and a published service partner network.
@@ -42,7 +42,7 @@ It is built to survive that conflict in one specific way. Every limitation state
 The guide starts with who each company is and what it sells in India. Then a specification table built from published datasheets, with a verify column wherever a source is missing. Then warranty compared as terms rather than years, service and spares reality, monitoring platforms, and grid-code behaviour under Indian rules. It closes with a fit test by buyer type and the exact questions to put to each dealer in writing.
 
 > [!KEYTAKEAWAYS]
-> - Sungrow's APAC terms cut cover to 2 years for non-C5 products installed 2 to 5 km from the coastline and void it inside 2 km ([Sungrow, 2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term)). Sungrow string inverters sold through dealers carry 5 years, capped at 6 years from the production date, per the same terms. Warehouse age eats the term.
+> - Sungrow's Asia Pacific terms (not an India-specific contract; its India page states no term) cut cover to 2 years for non-C5 products installed 2 to 5 km from the coastline and void it inside 2 km ([Sungrow, 2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term)). Sungrow string inverters sold through dealers carry 5 years, capped at 6 years from the production date, per the same terms. Warehouse age eats the term.
 > - Growatt's procedure runs the term from the installation certificate date and no more than six months after the delivery date ([Growatt, 2026](https://en.growatt.com/support/warranty)).
 > - Qbits publishes an expandable warranty and its own datasheets do not define the base term, remedy, registration deadline or exclusions, so it cannot be compared on duration until you hold the document.
 > - Qbits sells inverters only. No panels, no battery SKUs, no installation. That is the real limit on choosing it.
@@ -132,10 +132,10 @@ Two notes on reading that table. Efficiency varies by model inside a single Qbit
 
 A warranty is a set of clauses. The number of years is the least useful of them. Compare the remedy, the start date, any cap measured from production or delivery, the registration deadline, and the geographic exclusions.
 
-**Sungrow.** String inverters sold through authorised dealers and distributors carry 5 years, capped at 6 years from the production date, per Sungrow APAC warranty terms ([2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term)). The same document applies coastal derogations. For non-C5 products, cover falls to 2 years between 2 and 5 kilometres of the coastline, and is voided within 2 kilometres. C5-enclosure products are limited to 2 years within 500 metres of the coastline. Salt mist or corrosion beyond the design specification is a listed exclusion. Extended cover can be purchased up to a total of 25 years.
+**Sungrow.** String inverters sold through authorised dealers and distributors carry 5 years, capped at 6 years from the production date, per Sungrow's Asia Pacific warranty terms ([read 14 October 2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term)). Sungrow's India product page states no warranty term, so this is the closest published document, not an India contract. The same document applies coastal derogations. For non-C5 products, cover falls to 2 years between 2 and 5 kilometres of the coastline, and is voided within 2 kilometres. C5-enclosure products are limited to 2 years within 500 metres of the coastline. Salt mist or corrosion beyond the design specification is a listed exclusion. Extended cover can be purchased up to a total of 25 years for specific product ranges, and the remedy is repair or replacement at Sungrow's choice.
 
 > [!WARNING] Coastal sites can lose Sungrow cover
-> For non-C5 products, cover falls to 2 years between 2 and 5 kilometres of the coastline and is voided within 2 kilometres. C5-enclosure products are limited to 2 years within 500 metres. Salt mist corrosion beyond the design specification is a listed exclusion.
+> In Sungrow's Asia Pacific terms, for non-C5 products, cover falls to 2 years between 2 and 5 kilometres of the coastline and is voided within 2 kilometres. C5-enclosure products are limited to 2 years within 500 metres. Salt mist corrosion beyond the design specification is a listed exclusion. Ask Sungrow India or the seller whether the clause applies to the model you are quoted.
 
 These are ordinary commercial terms, openly published, and they matter enormously across Gujarat, Kerala, Tamil Nadu, and coastal Odisha. Our [coastal inverter guide](/blog/solar-inverter-for-coastal/) sets out what to specify there.
 
@@ -149,12 +149,12 @@ Table: Warranty clauses compared across Sungrow, Growatt and Qbits (published te
 
 | Warranty clause | Sungrow | Growatt | Qbits |
 | --- | --- | --- | --- |
-| Standard term | 5 years, dealer string inverters | Varies by product line | Not defined in public material |
+| Standard term | 5 years, dealer string inverters (Asia Pacific terms; India page states none) | Varies by product line | Not defined in public material |
 | Start date | First installation | Installation certificate date | Confirm in writing |
 | Cap from factory | 6 years from production date | Install within 6 months of delivery | Confirm in writing |
-| Coastal exclusion | Published, distance based | Confirm in writing | Confirm in writing |
-| Remedy | Confirm in writing | Confirm in writing | Confirm in writing |
-| Extension available | Up to 25 years total | Buy within 2 years of install | Described as expandable |
+| Coastal exclusion | Published in Asia Pacific terms, distance based | Confirm in writing | Confirm in writing |
+| Remedy | Repair or replace at Sungrow's choice (Asia Pacific terms) | Confirm in writing | Confirm in writing |
+| Extension available | Up to 25 years total for specific ranges | Buy within 2 years of install | Described as expandable |
 
 ## Worked example: what a production-date cap actually costs
 
@@ -163,7 +163,7 @@ This is arithmetic on a published clause and stated assumptions. It is not field
 > [!FORMULA]
 > Effective cover from installation (months) = 72 months (production-date cap) − months the unit sat in the channel
 
-Take a Sungrow dealer-channel string inverter. The term is 5 years from first installation, capped at 6 years from the production date.
+Take a Sungrow dealer-channel string inverter on the Asia Pacific terms (confirm yours for India). The term is 5 years from first installation, capped at 6 years from the production date.
 
 1. Unit is produced in month 0 and sits in the channel for 14 months.
 2. Installation happens in month 14. Five years from installation would run to month 74.
@@ -225,7 +225,7 @@ These are starting points, and the service partner test above overrides all of t
 - **2 kW to 3 kW home, grid tied, subsidy claimed.** Growatt, if your installer stocks it and can show the delivery date. Qbits if its per-model datasheet fit and written warranty, once you have them, are worth more than a lower sticker price. Verify scheme eligibility for the exact model with your DISCOM, since ALMM lists cover modules and cells, not inverters.
 - **5 kW home, grid tied, no backup.** Growatt on price and spares liquidity. This is the segment where Growatt's channel depth is a genuine advantage over both others, and a buyer with a strong local Growatt dealer should probably take it.
 - **5 kW to 12 kW home with battery backup.** Compare hybrid battery protocol lists first, because compatibility decides this, not the brand. Get written confirmation of the exact battery model, nominal voltage, current limit, and BMS protocol from whichever brand you shortlist. "Lithium compatible" alone proves nothing.
-- **Coastal site, any size.** Read Sungrow's distance clause before anything else, and specify the enclosure grade the manufacturer requires for full cover. If your site is inside 2 kilometres of the coastline, that clause alone may settle the decision against Sungrow. For exactly the same reason, demand each competing brand's written coastal exclusion rather than assuming it has none.
+- **Coastal site, any size.** Read Sungrow's distance clause before anything else, and confirm that it applies to your sale, and specify the enclosure grade the manufacturer requires for full cover. If your site is inside 2 kilometres of the coastline, that clause alone may settle the decision against Sungrow. For exactly the same reason, demand each competing brand's written coastal exclusion rather than assuming it has none.
 - **10 kW to 50 kW commercial rooftop.** All three are live candidates. Decide on service reach and warranty remedy, since the electrical fit is achievable with any of them.
 - **Above 250 kW, industrial or ground mount.** Sungrow, on catalogue breadth and asset-manager familiarity with its platform. Qbits publishes two EHV models with 12 MPPTs as standard, which is a narrower ladder to design around. Note also that Qbits publishes no defined base warranty term at any capacity, so there is no warranty advantage to weigh at this scale until the written terms are produced.
 - **Buyer who wants panels, battery, and installation from one vendor.** None of the three. Qbits sells inverters only, and that is the plainest limitation on choosing it.

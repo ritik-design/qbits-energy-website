@@ -1,7 +1,7 @@
 ---
 term: "Customs Duty"
 title: "Customs Duty on Solar: Definition & Indian Imports"
-description: "Customs duty on imported solar equipment is 40 percent BCD on modules. Full guide to rates and impact."
+description: "Customs duty on imported solar equipment: how BCD, surcharge and IGST stack up, and why you verify the rate on CBIC."
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
@@ -11,8 +11,8 @@ keywords:
   - bcd solar
   - module customs duty
   - solar import duty
-  - bcd 40 percent
-shortDefinition: "Basic Customs Duty (BCD) on imported solar equipment is 40 percent on modules, 25 percent on cells and 7.5 percent on inverters. Plus Social Welfare Surcharge and IGST. Major driver supporting domestic solar manufacturing alongside PLI scheme."
+  - customs duty on solar inverters
+shortDefinition: "Customs duty is the tax charged on solar equipment imported into India: Basic Customs Duty (BCD) on the assessed value, a Social Welfare Surcharge on the BCD, and IGST on the total. Rates differ by tariff line and change with Union Budget notifications, so check the current rate on CBIC."
 quickFacts:
   industry: "Solar Trade Policy"
   primaryUse: "Promoting domestic manufacturing"
@@ -34,13 +34,13 @@ relatedTerms:
   - { slug: "iec-61215", term: "IEC 61215" }
 faqs:
   - q: "What is customs duty on solar in simple words?"
-    a: "Tax on importing solar equipment from outside India. 40 percent on modules makes imported modules expensive compared to Indian-made."
+    a: "Tax on importing solar equipment from outside India. It raises the landed cost of imported modules and inverters compared with Indian-made ones, by an amount that depends on the tariff line and the current notification."
   - q: "What is BCD?"
-    a: "Basic Customs Duty. Primary import tax. 40 percent on modules, 25 percent on cells, 7.5 percent on inverters."
+    a: "Basic Customs Duty. The primary import tax, charged on the assessed customs value. The rate depends on the tariff line, and for solar inverters sources disagree (some tariff listings show 20 percent for HS 85044090, some guides quote about 7.5 percent), so verify it on CBIC before costing."
   - q: "What is the total import burden?"
-    a: "BCD + Social Welfare Surcharge (10% of BCD) + IGST (5-18%) + cess. Effectively 50-65 percent landed cost over invoice."
+    a: "BCD, plus Social Welfare Surcharge (10% of BCD), plus IGST on the combined value, and any other applicable levy. The total over the invoice value depends on the BCD rate for your tariff line, so work it out with the formula in this page and your own rate."
   - q: "When was the duty imposed?"
-    a: "April 2022 for 40% BCD on modules, replacing the earlier safeguard duty regime."
+    a: "A 40 percent BCD on modules and 25 percent on cells was introduced from 1 April 2022, replacing the earlier safeguard duty regime. Union Budgets have revised customs duty on modules and cells since then, so treat those figures as historical and check the current First Schedule."
   - q: "Why was duty imposed?"
     a: "Protect domestic manufacturing. Reduce Chinese import dependence. Support PLI scheme."
   - q: "Has it worked?"
@@ -52,17 +52,17 @@ faqs:
   - q: "Does it affect PM Surya Ghar?"
     a: "Indirectly. Customs duty on imports increases ALMM module prices, affecting subsidy stretch."
   - q: "What is the impact on project cost?"
-    a: "For projects using imported modules: 15-25 percent capex increase. Drives shift to Indian ALMM modules."
+    a: "For projects using imported modules, duty adds to module cost and so to capex. The size depends on the rate in force, the module share of the project and the exchange rate. Compare quotes on a landed-cost basis. It is one reason buyers shift to Indian ALMM modules."
   - q: "Is there a way around BCD?"
     a: "Use ALMM-listed Indian modules. Buy from manufacturers with import authorisations."
   - q: "Has Indian manufacturing capacity caught up?"
     a: "Largely yes for utility module capacity. Cell capacity still ramping. Premium technologies (HJT) import-dependent."
   - q: "What about EV chargers?"
-    a: "Different HSN, different duties. Lower customs duty for EV chargers (15% BCD typical)."
+    a: "Different HSN, different duties. Check the tariff line for the exact charger on CBIC."
   - q: "Does BCD apply to spare parts?"
     a: "Yes for major imported components. Smaller spares may have different rates."
   - q: "Is the duty likely to change?"
-    a: "Government periodically reviews. Major changes unlikely until domestic capacity fully matches demand."
+    a: "Government revises customs duty through Union Budget and CBIC notifications, so rates in older guides can be out of date. Check the current notification before you cost an import."
 author: "Nirav Dhanani"
 ---
 
@@ -70,29 +70,25 @@ author: "Nirav Dhanani"
 
 ## What is customs duty on solar
 
-Basic Customs Duty (BCD) is the import tax applied to solar equipment entering India. The current 40 percent BCD on solar PV modules, imposed in April 2022, is a major Indian trade policy supporting domestic solar manufacturing, discussed in more depth in our [BCD and import duty guide for solar inverters](/blog/bcd-import-duty-solar-inverters-india/). Combined with Social Welfare Surcharge and IGST on imports, the total import burden adds approximately 50-65 percent to invoice value at landed cost.
+Basic Customs Duty (BCD) is the import tax applied to solar equipment entering India. BCD on solar PV modules and cells, introduced in April 2022 and revised in later Union Budgets, is a trade lever supporting domestic solar manufacturing, discussed in more depth in our [BCD and import duty guide for solar inverters](/blog/bcd-import-duty-solar-inverters-india/). Combined with Social Welfare Surcharge and IGST on imports, duty adds to the landed cost over the invoice value, by an amount that depends on the rate for the tariff line.
 
 > [!NOTE] In short
-> - Basic Customs Duty on solar imports is 40 percent on modules, 25 percent on cells and 7.5 percent on inverters, in force since April 2022.
-> - Add Social Welfare Surcharge and IGST and the total landed cost runs 50 to 65 percent above invoice value.
-> - Projects built with imported modules see a 15 to 25 percent capex increase compared with ALMM-listed Indian modules.
-> - The duty is a deliberate lever to grow domestic manufacturing, which scaled from 10 GW of module capacity in 2020 to 60+ GW by 2024.
-> - Sourcing ALMM-listed Indian modules is the standard way developers avoid the duty entirely.
+> - Basic Customs Duty is charged on the assessed value of imported solar equipment, with a Social Welfare Surcharge on the BCD and IGST on the total.
+> - The rate depends on the tariff line and changes with Union Budget notifications. For solar inverters, sources disagree (20 percent on some HS 85044090 listings, about 7.5 percent in some guides), so verify on CBIC.
+> - Module and cell duty was set at 40 percent and 25 percent from April 2022 and has been revised since, so figures in older guides may be out of date.
+> - Projects built with imported modules carry the duty in their capex, so compare quotes on a landed-cost basis.
+> - Sourcing ALMM-listed Indian modules is the standard way developers avoid import duty on the modules.
 
-Customs duty rates on solar equipment:
-- PV modules: 40% BCD
-- PV cells: 25% BCD
-- [Solar inverters](/glossary/solar-inverter/): 7.5% BCD
-- Mounting structures: 10-18% BCD depending on type
-- Cables: 10-18% BCD
-- Batteries (lithium): 15% BCD
-- EV chargers: 15% BCD
+Where to find the duty for each item:
+- PV modules and cells (HS 8541): check the current First Schedule and notifications
+- [Solar inverters](/glossary/solar-inverter/) (HS 8504 40): rate disputed between sources, so verify on CBIC
+- Mounting structures, cables, batteries and EV chargers: each has its own tariff line, so check each item
 
-The 40 percent BCD on modules is one of the highest sectoral customs duties in India and a major driver of domestic manufacturing expansion under PLI scheme. Solar developers and EPCs shift to [ALMM-listed](/glossary/almm-list/) Indian modules to avoid the duty, supporting Indian manufacturers.
+Duty on modules has been one of the higher sectoral customs duties in India and a driver of domestic manufacturing expansion alongside the PLI scheme. Solar developers and EPCs shift to [ALMM-listed](/glossary/almm-list/) Indian modules to avoid the duty, supporting Indian manufacturers.
 
 ## Why customs duty matters
 
-Project cost. Adds 15-25 percent to [capex](/glossary/capex/) for projects using imported modules.
+Project cost. Adds to [capex](/glossary/capex/) for projects using imported modules, by an amount set by the rate in force.
 
 Domestic manufacturing. Drives Indian capacity expansion.
 
@@ -100,17 +96,17 @@ PLI alignment. Customs duty + PLI scheme = comprehensive industrial policy.
 
 ALMM relevance. Indian ALMM modules avoid the duty.
 
-Pricing of Indian modules. Domestic prices can rise to imports, duty without losing competitiveness.
+Pricing of Indian modules. Domestic prices can track import prices plus duty.
 
 ## Total import burden calculation
 
-> [!EXAMPLE] Landed cost of a ₹10 imported module
-> - Basic Customs Duty (40%): ₹4.00
-> - Social Welfare Surcharge (10% of BCD): ₹0.40
-> - [IGST](/glossary/gst-on-solar/) (5% of total, modules are named at Schedule I entry 437): ₹0.72
-> - Total landed: ₹15.12
+> [!EXAMPLE] Landed cost of a ₹10 imported module, at an assumed 20% BCD
+> - Basic Customs Duty (assumed 20%): ₹2.00
+> - Social Welfare Surcharge (10% of BCD): ₹0.20
+> - [IGST](/glossary/gst-on-solar/) (5% on ₹10 + ₹2.00 + ₹0.20): ₹0.61
+> - Total landed: ₹12.81
 >
-> Effective duty: 51% over invoice value.
+> Effective duty: about 28% over invoice value. The 20% rate is an assumption for illustration; replace it with the rate for your tariff line.
 
 The ₹10 figure is the invoice value of the imported module.
 
@@ -118,37 +114,23 @@ The ₹10 figure is the invoice value of the imported module.
 
 ### Customs duty by item
 
-Table: Basic Customs Duty (BCD) rates on solar equipment
+Table: Where to find the Basic Customs Duty (BCD) for each solar item (we quote no rate we could not verify)
 
-| Equipment | BCD rate |
+| Equipment | What to check |
 |---|---|
-| Crystalline silicon modules | 40% |
-| Thin film modules | 40% |
-| Solar cells | 25% |
-| Solar wafers | 5% |
-| Solar inverters | 7.5% |
-| Aluminium mounting | 15% |
-| Solar charge controllers | 5% |
-| Battery (lithium) | 15% |
-| Cables and connectors | 10-18% |
-| Junction boxes | 18% |
-| EV chargers | 15% |
+| Crystalline silicon and thin film modules | Current rate for HS 8541 on CBIC; revised in recent Union Budgets |
+| Solar cells | Current rate for HS 8541; revised in recent Union Budgets |
+| Solar inverters | HS 8504 40; some listings show 20%, some guides about 7.5%; classification decides |
+| Mounting structures, cables, junction boxes | Each item's own tariff line |
+| Batteries and EV chargers | Each item's own tariff line |
 
 ### Project cost impact
 
-For 1 MW utility solar with imported modules:
-
-Table: Cost impact of customs duty on a 1 MW utility plant using imported modules
-
-| Component | Pre-customs | With customs | Increase |
-|---|---|---|---|
-| Modules (₹/W) | 18 | 30 | +67% |
-| Total capex (₹ Cr/MW) | 3.2 | 4.0 | +25% |
-| LCOE increase | Baseline | +20% | n/a |
+Duty enters a project through the landed cost of whatever is imported. For a utility plant using imported modules, the cost effect is the module share of capex multiplied by the duty-driven landed-cost increase. Work it out from dated quotes and the rate in force; do not carry a percentage from an older guide.
 
 ### Indian module manufacturing response
 
-Table: Indian module manufacturing capacity, 2020 to 2026 target
+Table: Indian module manufacturing capacity, 2020 to 2026 target (industry estimates)
 
 | Year | Indian module capacity (GW/year) |
 |---|---|
@@ -198,7 +180,7 @@ Consult customs broker for complex imports.
 
 ## Indian market context
 
-40% BCD on modules has driven major Indian manufacturing expansion.
+Duty on imported modules has supported Indian manufacturing expansion.
 
 PLI Tranche I and II, administered under [MNRE](/glossary/mnre/) guidelines, support gigawatt-scale cell and module factories.
 

@@ -4,7 +4,7 @@ excerpt: "How to read your solar inverter monitoring app India: today's generati
 description: "How to read your solar inverter monitoring app: today's generation, grid export, self-consumption ratio, temperature, and the 6 daily numbers that matter."
 category: Guide
 date: 2026-06-05
-updatedDate: 2026-10-14
+updatedDate: 2026-10-15
 readTime: "16 min"
 image: "/og/blog-how-to-read-solar-monitoring-app-india.webp"
 author: "Keyur Rakholiya"
@@ -41,7 +41,7 @@ Your solar monitoring app shows dozens of numbers, graphs, and alerts every day.
 > - Today's Generation below 60% of your state's clear-sky benchmark on a clear day signals a fault worth investigating.
 > - Self-consumption ratio above 70% is the target; below 50% is a missed financial opportunity worth shifting loads to fix.
 > - Inverter temperature above 65°C is a warning threshold, above 70°C usually indicates a cooling fault.
-> - Grid export and monthly generation figures should match your DISCOM bill within 5%; a persistent gap suggests meter calibration drift.
+> - Grid export figures should be close to your DISCOM bill's exported units; a persistent large gap suggests meter calibration drift or a monitoring fault.
 > - MPPT voltage should sit within the inverter's published range; a persistent reading near the lower limit on clear days suggests a string fault.
 
 After you understand the monitoring app, the natural next step is understanding what to expect across a full year, see [what to expect in Year 1 of solar ownership India](/blog/solar-year-1-ownership-guide-india/) for the month-by-month guide.
@@ -81,7 +81,7 @@ This is an approximation because some of those units were exported at the lower 
 
 **Annual generation verification:** At the end of each year, compare your Lifetime Generation increment (this year's total) against the installer's initial generation estimate. If actual annual generation is consistently below the estimate by more than 10%, raise the issue formally with the installer, this may indicate underperformance covered by the performance guarantee.
 
-According to [IRENA's Renewable Energy Statistics 2025](https://www.irena.org/Publications/2025/Mar/Renewable-Energy-Statistics-2025), India's rooftop solar systems deliver median annual yields of 1,200–1,600 kWh per kW depending on location, consistent with the state-specific data in [how much electricity does solar generate in India](/blog/how-much-electricity-solar-generates-india/).
+For a yield benchmark by state, use the formula and approximate irradiance in [how much electricity does solar generate in India](/blog/how-much-electricity-solar-generates-india/), which gives about 1,140 to 1,850 kWh per kW per year across the states it lists at a performance ratio of 0.78.
 
 ## Metric 3: Grid Export (kWh)
 
@@ -92,7 +92,7 @@ Grid Export is the total energy your solar system sent to the [DISCOM](/glossary
 - If the app shows significant export but your bill shows no export credit, there may be a net meter registration or calibration issue
 - Very high export (above 50% of daily generation) indicates an opportunity to shift loads to solar hours, running the washing machine, water heater, or EV charger between 10 AM and 3 PM rather than in the evening
 
-**Cross-checking with your bill:** Every month, note the app's total export figure. Your DISCOM bill's "units exported" line should match within 5%. A persistent difference suggests either the inverter's internal meter or the DISCOM's net meter has calibration drift. Net metering meters in India must comply with [CEA Metering Regulations](https://cea.nic.in/), if there is a persistent discrepancy, you can request the DISCOM to perform a meter accuracy test. See [how to apply for net metering in India](/blog/how-to-apply-net-metering-india/) for details on the process.
+**Cross-checking with your bill:** Every month, note the app's total export figure. Your DISCOM bill's "units exported" line should be close to it; a small gap is normal because the two meters differ in accuracy and read at different times, and a persistent large gap is worth raising. A persistent difference suggests either the inverter's internal meter or the DISCOM's net meter has calibration drift. Net metering meters in India must comply with the CEA's metering regulations; if there is a persistent discrepancy, you can request the DISCOM to perform a meter accuracy test. See [how to apply for net metering in India](/blog/how-to-apply-net-metering-india/) for details on the process.
 
 ## Metric 4: Self-Consumption Ratio (%)
 
@@ -123,7 +123,7 @@ Inverter temperature is the internal operating temperature of the inverter, typi
 - Are the cooling fins blocked by dust or a wasp nest (common in India)?
 - Is the cooling fan (if the inverter has one) running? Listen for the fan noise at peak afternoon hours.
 
-According to [IEC 62109-1 safety standards for solar inverters](https://www.iec.ch/), inverters must operate safely within their rated temperature range and implement thermal protection mechanisms, meaning the automatic derating or shutdown at high temperatures is a design feature, not a malfunction.
+Inverter safety standards such as IEC 62109-1 expect thermal protection, so automatic derating or shutdown at high temperature is a design feature, not a malfunction; check the model's derating curve.
 
 **Temperature derating:** Most inverters automatically reduce output at high temperature to protect internal components. This shows up in the app as the Current Power reading falling below the expected value during 12–3 PM on a hot day, a characteristic afternoon dip that is more pronounced on summer days above 45 °C ambient. See [inverter overheating](/blog/inverter-overheating/) for the full diagnosis guide.
 

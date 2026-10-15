@@ -140,31 +140,28 @@ async function odooExecute(
   ]);
 }
 
-async function findOrCreateContact(
+// Looks up an existing res.partner by mobile/email so the lead can link to it.
+// It never creates one: sales creates the contact when they run "Convert to
+// Opportunity" on the lead, and a website that created res.partner records
+// turned every spam submission into a permanent contact the API user can't
+// delete. No match (or no mobile/email to match on) = null = an unlinked lead.
+async function findExistingContact(
   env: Env,
   uid: number,
-  { name, mobile, email }: { name: string; mobile?: string; email?: string },
-): Promise<number> {
+  { mobile, email }: { mobile?: string; email?: string },
+): Promise<number | null> {
   const domain: unknown[] = [];
   if (mobile && email) domain.push('|', ['mobile', '=', mobile], ['email', '=', email]);
   else if (mobile) domain.push(['mobile', '=', mobile]);
   else if (email) domain.push(['email', '=', email]);
 
-  if (domain.length) {
-    const existing = await odooExecute(env, uid, 'res.partner', 'search_read', [domain], {
-      fields: ['id'],
-      limit: 1,
-    });
-    if (existing.length) return existing[0].id;
-  }
+  if (!domain.length) return null;
 
-  // Odoo enforces mobile-must-be-unique on this instance, which fires even for
-  // repeated blank values — so blank optional fields must be omitted, not sent as false.
-  const vals: Record<string, unknown> = { name, company_type: 'person' };
-  if (mobile) vals.mobile = mobile;
-  if (email) vals.email = email;
-
-  return odooExecute(env, uid, 'res.partner', 'create', [vals]);
+  const existing = await odooExecute(env, uid, 'res.partner', 'search_read', [domain], {
+    fields: ['id'],
+    limit: 1,
+  });
+  return existing.length ? existing[0].id : null;
 }
 
 function escapeHtml(str: string) {
@@ -366,7 +363,12 @@ export const POST: APIRoute = async ({ request, locals }) => {
   if (odooConfigured) {
     try {
       const uid = await odooLogin(env);
-      const partnerId = await findOrCreateContact(env, uid, { name, mobile, email });
+      // The lookup only enriches the lead (links an existing contact). A partner
+      // fault must never abort crm.lead.create, so degrade to an unlinked lead.
+      const partnerId = await findExistingContact(env, uid, { mobile, email }).catch((err) => {
+        console.error('Odoo partner lookup failed, filing the lead unlinked:', err);
+        return null;
+      });
 
       // Title prefixes make dealer/partner leads easy to find and filter in Odoo.
       // Partner applications: "Channel Partner - <company>" (unchanged, so existing
@@ -380,13 +382,15 @@ export const POST: APIRoute = async ({ request, locals }) => {
 
       const leadVals: Record<string, unknown> = {
         name: leadName,
-        type: 'opportunity',
+        // Website enquiries land in CRM > Leads; the "Convert to Opportunity"
+        // wizard creates/links the customer when sales picks one up.
+        type: 'lead',
         contact_name: name,
-        partner_id: partnerId,
         medium_id: WEBSITE_MEDIUM_ID,
         source_id: sourceId,
         description: isPartnerForm ? buildPartnerDescription(data) : buildDescription(data),
       };
+      if (partnerId) leadVals.partner_id = partnerId;
       if (mobile) leadVals.mobile = mobile;
       if (email) leadVals.email_from = email;
       if (data.city) leadVals.city = data.city;
@@ -396,7 +400,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
         leadVals.partner_name = name;
         if (data.registeredAddress) leadVals.street = data.registeredAddress;
         // Only map website when it looks like a URL: Odoo can reject free text
-        // and that would drop the entire opportunity.
+        // and that would drop the entire lead.
         const website = data.website || '';
         if (website && /^https?:\/\//i.test(website)) leadVals.website = website;
       }

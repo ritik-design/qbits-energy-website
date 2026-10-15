@@ -51,7 +51,9 @@ const heroSrcset = heroVariant && heroDimensions
   : product.image === '/product-images/image.webp'
     ? '/product-images/image-640.webp 640w, /product-images/image.webp 1024w'
     : undefined;
-const heroSizes = heroSrcset ? '(min-width: 1024px) 50vw, 100vw' : undefined;
+// On phones the hero fills the viewport minus the 48 px container padding (342 px at 390 px wide), so a 768 px
+// variant is enough even at 2x density; from 1024 px the layout is two columns.
+const heroSizes = heroSrcset ? '(min-width: 1024px) 50vw, calc(100vw - 48px)' : undefined;
 const datasheetNotes: Record<string, string> = {
   'QB-4.6-6KTLS': 'The linked datasheet lists 4.6, 5 and 6 kW variants. Ask for the exact-model document before selecting other variants named in this family.',
   'QB-6-17KTLC': 'The linked datasheet lists 6, 8, 10, 12, 15 and 17 kW variants. Request the exact-model document before specifying a 5 kW variant.',

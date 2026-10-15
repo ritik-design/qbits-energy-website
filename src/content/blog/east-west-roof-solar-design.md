@@ -77,7 +77,7 @@ An east-west array of the same capacity produces a different shape:
 
 For that same 5 kWp system split east-west, midday combined output might top out near 3.6 to 3.9 kW. But the system is still making 2.5 kW or more at 4:30 pm, when the south array has tapered well below that.
 
-You can model both curves for your exact pin code using [NREL's PVWatts calculator](https://pvwatts.nrel.gov/). Run the azimuth at 90, 180, and 270 degrees and average the east and west outputs. The [solar irradiance data for India, statewise](/blog/solar-irradiance-data-india-statewise/) post has the baseline radiation numbers you need as inputs.
+You can model both curves for your exact pin code using [NREL's PVWatts calculator](https://pvwatts.nlr.gov/). Run the azimuth at 90, 180, and 270 degrees and average the east and west outputs. The [solar irradiance data for India, statewise](/blog/solar-irradiance-data-india-statewise/) post has the baseline radiation numbers you need as inputs.
 
 Season also reshapes the comparison. In winter, when the sun tracks lower in the southern sky, a south-facing array gains its biggest advantage and east-west output dips further. In summer, the sun rises north of east and sets north of west. East-west arrays then close most of the gap, and their morning and evening shoulders grow wider. Monsoon months compress everything toward diffuse light, where orientation matters least of all.
 
@@ -125,7 +125,7 @@ Table: East-west annual yield as a share of south-facing yield, by tilt angle (I
 | 20 degrees | 88 to 92 percent | Common tile-roof pitch |
 | 30 degrees | 83 to 88 percent | Steep roofs, Himalayan foothill homes |
 
-These figures are consistent with published simulation work. Yield losses for non-south orientations at optimised inclination typically lie between 5 and 10 percent. The source is [Fraunhofer ISE's LCOE study](https://www.ise.fraunhofer.de/content/dam/ise/en/documents/publications/studies/EN2021_Fraunhofer-ISE_LCOE_Renewable_Energy_Technologies.pdf) (2021). A controlled Dutch field comparison tested both layouts side by side. The south system produced about 7 percent more annual energy per Wp at moderate tilt, per [Autarco](https://www.autarco.com/en/updates/kwh-face-off-east-west-vs-south) (2018). That gap narrows further at Indian latitudes.
+These figures are consistent with published simulation work. Yield losses for non-south orientations at optimised inclination typically lie between 5 and 10 percent. The source is [Fraunhofer ISE's LCOE study](https://www.ise.fraunhofer.de/content/dam/ise/en/documents/publications/studies/EN2021_Fraunhofer-ISE_LCOE_Renewable_Energy_Technologies.pdf) (2021). A 2018 modelling comparison for Dutch commercial flat roofs, published by Autarco, found the south layout produced about 7 percent more annual energy per Wp at a 10 to 12 degree tilt ([archived copy](https://web.archive.org/web/20260419174524/https://www.autarco.com/en/updates/kwh-face-off-east-west-vs-south)). That gap narrows further at Indian latitudes.
 
 Three factors shrink the penalty further in India:
 

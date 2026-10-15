@@ -136,11 +136,11 @@ RRECL (Rajasthan Renewable Energy Corporation Limited) is frequently mentioned b
 
 ## KUSUM Component A in Rajasthan: The Agricultural Solar Programme
 
-While KUSUM Component A is not a homeowner subsidy, it is worth understanding because many Rajasthan solar inquiries conflate it with PM Surya Ghar. Rajasthan has been the most active state in KUSUM Component A nationally, due to the availability of vast barren land and the government's push to bring agricultural solar generation online.
+While KUSUM Component A is not a homeowner subsidy, it is worth understanding because many Rajasthan solar inquiries conflate it with PM Surya Ghar. Rajasthan is one of the more active states for KUSUM Component A, helped by the availability of vast barren land and the government's push to bring agricultural solar generation online.
 
 KUSUM Component A allows landowners to set up 500 kW to 2 MW solar plants on barren, fallow, or cultivable land, with DISCOMs (JVVNL, AVVNL, JdVVNL) purchasing the power at a fixed tariff. Rajasthan farmers and landowners who meet the land size criteria should explore this through [RRECL](https://rrecl.rajasthan.gov.in/) as a separate income-generating opportunity. It is not a residential rooftop solar scheme.
 
-> **Rajasthan has commissioned more KUSUM Component A capacity than any other Indian state.** The state's barren land availability and RRECL's active facilitation have made it a benchmark for agricultural solar development in India. *Source - [MNRE KUSUM Portal](https://mnre.gov.in/solar-energy/schemes/kusum/), 2026.*
+> **KUSUM Component A is built for landowners and farmers, not homeowners.** It supports decentralised, ground- or stilt-mounted, grid-connected solar plants that sell power to the DISCOM, while rooftop subsidy for homes runs through PM Surya Ghar. *Source - [MNRE PM-KUSUM scheme page](https://mnre.gov.in/en/pradhan-mantri-kisan-urja-suraksha-evam-utthaan-mahabhiyaan-pm-kusum/).*
 
 The [KUSUM yojana complete guide](/blog/kusum-yojana-agricultural-solar-subsidy/) covers KUSUM Component A, B, and C for agricultural consumers in detail.
 

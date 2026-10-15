@@ -256,7 +256,7 @@ Rules change by order and by state, so verify at [pmsuryaghar.gov.in](https://pm
 
 ## Battery sizing for outage scenarios
 
-Outage patterns vary far more by feeder than by state. Ministry of Power replies to Parliament give national average supply for FY 2024-25 of [22.6 hours a day in rural areas and 23.4 hours in urban areas](https://powermin.gov.in/sites/default/files/uploads/LS05022026_Eng.pdf) (Lok Sabha, 5 February 2026). Those are state-reported averages, so short cuts and local faults hide inside them. Use your own outage log, not a regional average, to size storage.
+Outage patterns vary far more by feeder than by state. Ministry of Power replies to Parliament give national average supply for FY 2024-25 of [22.6 hours a day in rural areas and 23.4 hours in urban areas](https://www.powermin.gov.in/static/uploads/2025/08/2d6bae29e1f01268e259e5fdc0f1add4.pdf) (Rajya Sabha Unstarred Question 1746, 4 August 2025). Those are state-reported averages, so short cuts and local faults hide inside them. Use your own outage log, not a regional average, to size storage.
 
 Using the formula above (required nominal kWh = load x hours / 0.72), these are the nominal LFP batteries that cover each load and outage length, before rounding up to the next available module size:
 

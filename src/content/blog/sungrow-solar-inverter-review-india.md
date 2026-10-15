@@ -195,7 +195,7 @@ India's distribution grid (particularly in UP, Bihar, Rajasthan, and parts of Ma
 ### High Ambient Temperature Derating
 
 > [!WARNING] Derating above 45 °C ambient
-> Sungrow's SG5.0RS begins derating output at 45 °C ambient temperature, delivering full nameplate output only below that threshold. In summer months, rooftop ambient temperatures in western India regularly reach 48–52 °C. Under those conditions a 5 kW SG5.0RS will deliver below its nameplate figure during peak afternoon hours, with the exact reduction set by the published derating curve and the ventilation at your mounting position. This is a real yield reduction, not catastrophic, but worth factoring into annual generation estimates. Ask your installer to model the derating impact using actual TMY (Typical Meteorological Year) data for your location. The [NREL PVWatts Calculator](https://pvwatts.nrel.gov/) can assist with this estimation.
+> Sungrow's SG5.0RS begins derating output at 45 °C ambient temperature, delivering full nameplate output only below that threshold. In summer months, rooftop ambient temperatures in western India regularly reach 48–52 °C. Under those conditions a 5 kW SG5.0RS will deliver below its nameplate figure during peak afternoon hours, with the exact reduction set by the published derating curve and the ventilation at your mounting position. This is a real yield reduction, not catastrophic, but worth factoring into annual generation estimates. Ask your installer to model the derating impact using actual TMY (Typical Meteorological Year) data for your location. The [NREL PVWatts Calculator](https://pvwatts.nlr.gov/) can assist with this estimation.
 
 ### Dust and Monsoon Resilience
 

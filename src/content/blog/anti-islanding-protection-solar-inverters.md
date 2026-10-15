@@ -126,7 +126,7 @@ Table: The four documents that govern anti-islanding in India and the version ve
 | [IEC 62116](https://webstore.iec.ch/en/publication/6479) | Islanding-prevention test procedure for grid-tied PV inverters | Edition 2.0, 2014-02, supersedes 2008 |
 | IS 16169 | Indian adoption of IEC 62116:2014 | 2019 revision, replacing 2014 for BIS registration |
 | IS 16221 (Part 2) | Inverter safety, identical to IEC 62109-2:2011, used with Part 1 | 2015; separate from anti-islanding |
-| [CEA Connectivity Regulations](https://cea.nic.in/regulations-category/connectivity-of-distributed-generation-resources/?lang=en) | The binding Indian interconnection requirement | 2013, notified 30.09.2013; First Amendment 06.02.2019 |
+| [CEA Connectivity Regulations](https://www.cbip.org/cearegulations/CEA%20DATA/Connectivity/Connectivity%20Regulation/Con%20Coneectivity%20Regulations%202013.pdf) | The binding Indian interconnection requirement | 2013, notified 30.09.2013; First Amendment 06.02.2019 |
 
 IEC 62116:2014 scopes itself as "a test procedure to evaluate the performance of islanding prevention measures used with utility-interconnected PV systems". That is the whole claim: a laboratory method, not a grid code.
 

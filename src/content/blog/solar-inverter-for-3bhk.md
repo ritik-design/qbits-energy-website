@@ -188,14 +188,14 @@ Table: Estimated monthly and annual generation of a 5 kW system by city
 | Kolkata | 4.0 | 517 | 6,205 |
 | Bhubaneswar | 4.2 | 543 | 6,515 |
 
-Source: Irradiance data from the [NREL National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/), adjusted for 15% system losses (inverter efficiency, cable losses, dust, temperature derating). Monthly generation = 5 kW × peak sun hours × 365 ÷ 12 × 0.85; annual = 5 × peak sun hours × 365 × 0.85.
+Source: Irradiance data from the [NREL National Solar Radiation Database (NSRDB)](https://nsrdb.nlr.gov/), adjusted for 15% system losses (inverter efficiency, cable losses, dust, temperature derating). Monthly generation = 5 kW × peak sun hours × 365 ÷ 12 × 0.85; annual = 5 × peak sun hours × 365 × 0.85.
 
 ```chart
 type: hbar
 title: Estimated monthly generation of a 5 kW system by city
 unit: kWh
 source: "Calculated in this article: 5 kW x peak sun hours x 365 / 12 x 0.85 system efficiency, using the NREL National Solar Radiation Database (NSRDB) irradiance values in the table above (article updated 14 October 2026)"
-sourceUrl: https://nsrdb.nrel.gov/
+sourceUrl: https://nsrdb.nlr.gov/
 note: "Estimates, not guarantees. Actual output depends on roof tilt, shading and dust."
 data:
   - { label: "Jodhpur / Jaisalmer", value: 711 }

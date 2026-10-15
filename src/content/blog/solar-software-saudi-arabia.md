@@ -171,7 +171,7 @@ After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quic
 <h3>Design against the tariff, not the roof</h3>
 <p>Hourly load matching, net billing at 5 halalas and tiered import pricing, time-varying soiling, cleaning optimisation, SASO-aware components and Arabic proposals from $1,299 per user per year.</p>
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/saudi-arabia" target="_blank" rel="noopener noreferrer">Saudi Arabia compliance library</a></p>
+<p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/middle-east" target="_blank" rel="noopener noreferrer">Middle East compliance library</a></p>
 </div>
 
 ## The Bottom Line

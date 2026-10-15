@@ -176,7 +176,7 @@ type: hbar
 title: December GHI as a share of June GHI, by city
 unit: "%"
 source: "NREL National Solar Radiation Database (NSRDB) India dataset, 2024, as listed in the table above; ratio is December GHI divided by June GHI"
-sourceUrl: https://nsrdb.nrel.gov/
+sourceUrl: https://nsrdb.nlr.gov/
 note: "Higher means a milder winter drop. Fog impact is not included in GHI averages."
 data:
   - { label: "Bengaluru", value: 84 }

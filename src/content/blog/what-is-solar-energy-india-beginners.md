@@ -98,7 +98,7 @@ type: hbar
 title: Annual solar yield per kW of rooftop capacity, by Indian region
 unit: "kWh/kW/year"
 source: "NREL India Solar Resource Data, 2024; IRENA Solar Resource Atlas, 2025, as cited in the table above"
-sourceUrl: https://www.nrel.gov/international/ra_india.html
+sourceUrl: https://data.nlr.gov/submissions/43
 note: "Ranges, not point values. Actual yield depends on the site, tilt, shading and system quality."
 data:
   - { label: "Rajasthan, Gujarat", min: 1800, max: 2000 }

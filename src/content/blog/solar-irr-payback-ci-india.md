@@ -58,7 +58,7 @@ Table: Base case inputs for a 100 kW C&I system in Karnataka (illustrative assum
 | --- | --- | --- |
 | System capacity | 100 kW | Reference size for C&I analysis |
 | Total CAPEX | ₹55,00,000 | ₹55,000/kW, an illustrative figure inside the ₹40–60 lakh range installers published for 100 kW commercial systems in 2026 (Kondaas, 27 May 2026: ₹40–50 lakh; Fulminous, 8 July 2026: ₹40–60 lakh). Get written quotes |
-| Annual specific yield | 1,400 kWh/kW/yr | Karnataka average, assumed; cross-check with [NREL India Solar Data](https://www.nrel.gov/international/ra_india.html) |
+| Annual specific yield | 1,400 kWh/kW/yr | Karnataka average, assumed; cross-check with [NREL India Solar Data](https://data.nlr.gov/submissions/43) |
 | Annual generation | 1,40,000 kWh | 100 kW × 1,400 kWh/kW/yr |
 | Avoided grid energy charge (HT commercial) | ₹6.90/unit | KERC tariff order of 3 March 2026 as reported by [ThePrint](https://theprint.in/india/kerc-increases-electricity-tariffs-for-commercial-industrial-consumers/2869823/) (4 March 2026): BESCOM HT-2(b) energy charge ₹6.90/unit plus ₹390/kVA/month demand charge. Solar mainly avoids the energy charge, not the demand charge. Check your own bill and the current order |
 | Self-consumption ratio | 80% | Assumed, typical for manufacturing/industrial load |

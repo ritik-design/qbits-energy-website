@@ -203,7 +203,7 @@ Table: Standards and documents relevant to THD in India
 | IEC 61000-3-2, 61000-3-12 | Emission limits for equipment connected to public low-voltage networks |
 | CEA Technical Standards for Connectivity of the Distributed Generation Resources Regulations, 2013 (as amended, including Regulation 11A) | Indian connectivity requirements below 33 kV: harmonics per IEEE 519, DC injection, flicker, Class A power-quality metering |
 
-Sources: [IEEE 519-2014 summary of limits](https://www.mirusinternational.com/downloads/White%20Paper%20-%20IEEE%20Std%20519-2014%20Harmonic%20Limits.pdf); [CEA regulations on connectivity of distributed generation resources](https://cea.nic.in/regulations-category/connectivity-of-distributed-generation-resources/?lang=en). Checked 14 October 2026.
+Sources: [IEEE 519-2014 summary of limits](https://www.mirusinternational.com/downloads/White%20Paper%20-%20IEEE%20Std%20519-2014%20Harmonic%20Limits.pdf); [CEA regulations on connectivity of distributed generation resources](https://www.cbip.org/cearegulations/CEA%20DATA/Connectivity/Connectivity%20Regulation/Con%20Coneectivity%20Regulations%202013.pdf) (CBIP copy, consolidated with the 2019 amendment). Checked 14 October 2026.
 
 ## Common mistakes
 

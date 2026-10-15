@@ -56,7 +56,7 @@ Three factors drive state-to-state variation in solar electricity generation:
 
 The net result of these three factors is the **annual specific yield**: units generated per kW of installed capacity per year. This number is the single most useful metric for comparing solar potential across Indian states.
 
-> **5–6 kWh/m²/day.** Average solar irradiance across most of India, one of the highest levels in the world for a major developing economy. *Source - [NREL India Solar Resource Data](https://www.nrel.gov/international/ra_india.html), 2024.*
+> **5–6 kWh/m²/day.** Average solar irradiance across most of India, one of the highest levels in the world for a major developing economy. *Source - [NREL India Solar Resource Data](https://data.nlr.gov/submissions/43), 2024.*
 
 ## The State-by-State Solar Yield Table
 
@@ -82,14 +82,14 @@ Table: Annual specific yield and 3 kW and 5 kW system generation by state, calcu
 | Himachal Pradesh | 4.5–5.5 | 1,280–1,570 | 3,840–4,710 units | 6,400–7,850 units |
 | Punjab | 4.8–5.2 | 1,370–1,480 | 4,110–4,440 units | 6,850–7,400 units |
 
-*GHI ranges: approximate state-level values used in this guide, see [NREL India Solar Resource Data](https://www.nrel.gov/international/ra_india.html) for the underlying resource maps. Yields calculated as GHI × 365 × 0.78.*
+*GHI ranges: approximate state-level values used in this guide, see [NREL India Solar Resource Data](https://data.nlr.gov/submissions/43) for the underlying resource maps. Yields calculated as GHI × 365 × 0.78.*
 
 ```chart
 type: hbar
 title: Annual specific yield by state (kWh per kW per year), selected states
 unit: "kWh/kW/yr"
 source: "Calculated in this article as GHI x 365 x 0.78 from the state GHI ranges in the table above (approximate state-level values; resource maps at NREL India Solar Resource Data)"
-sourceUrl: https://www.nrel.gov/international/ra_india.html
+sourceUrl: https://data.nlr.gov/submissions/43
 note: "Bars show the range given in the table. Selected states only; see the table for all fifteen."
 data:
   - { label: "Rajasthan", min: 1650, max: 1850 }

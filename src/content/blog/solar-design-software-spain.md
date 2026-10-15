@@ -173,7 +173,7 @@ None of those options is visible from an annual calculation. All four fall out o
 <h3>Design against the rule that governs the bill</h3>
 <p>Monthly compensación simplificada settlement with the zero floor, hourly spot pricing, collective self-consumption allocation and Spanish-language proposals from $1,299 per user per year.</p>
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/spain" target="_blank" rel="noopener noreferrer">Spain compliance library</a></p>
+<p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/europe" target="_blank" rel="noopener noreferrer">Europe compliance library</a></p>
 </div>
 
 ## The Bottom Line

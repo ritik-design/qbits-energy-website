@@ -89,7 +89,7 @@ Table: How to read the lines on a first net metering bill
 
 **Month 3, First cleaning:** By Month 3, dust accumulation on your panels in India's dry season (October–May) will have reduced output by 10–20% from clean-panel levels. The first cleaning is the highest-ROI maintenance task of the year. Use plain water with a soft brush or cloth; clean in the early morning when panels are cool.
 
-**Months 4–5, Summer peak generation:** April and May are typically the peak generation months for most Indian states (except Kerala and the north-east, where March–April peaks), with [NREL India irradiance data](https://www.nrel.gov/international/ra_india.html) showing monthly GHI peaks in April–May across most states. Your monitoring app should show the highest daily generation figures of the year in April–May.
+**Months 4–5, Summer peak generation:** April and May are typically the peak generation months for most Indian states (except Kerala and the north-east, where March–April peaks), with [NREL India irradiance data](https://data.nlr.gov/submissions/43) showing monthly GHI peaks in April–May across most states. Your monitoring app should show the highest daily generation figures of the year in April–May.
 
 - Compare actual peak-month generation to the installer's estimate for April–May
 - A 5–10% shortfall from estimate is within normal calibration tolerance

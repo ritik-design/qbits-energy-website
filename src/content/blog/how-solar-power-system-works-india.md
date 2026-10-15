@@ -82,7 +82,7 @@ At the inverter's DC input terminals, each string connects to a dedicated **[MPP
 > [!TIP] Split roof, split MPPT
 > If your strings face two directions (for example south and west), connect each to its own MPPT channel so neither string drags the other down.
 
-> **5–6 kWh/m²/day.** Average solar irradiance across most of India, one of the highest levels in the world for a major economy. *Source - [NREL India Solar Resource Data](https://www.nrel.gov/international/ra_india.html), 2024.*
+> **5–6 kWh/m²/day.** Average solar irradiance across most of India, one of the highest levels in the world for a major economy. *Source - [NREL India Solar Resource Data](https://data.nlr.gov/submissions/43), 2024.*
 
 ## Stage 4: The Inverter Converts DC to 230 V AC
 

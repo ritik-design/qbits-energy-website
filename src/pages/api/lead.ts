@@ -140,11 +140,11 @@ async function odooExecute(
   ]);
 }
 
-// Looks up an existing res.partner by mobile/email so the lead can link to it.
-// It never creates one: sales creates the contact when they run "Convert to
-// Opportunity" on the lead, and a website that created res.partner records
+// Looks up an existing res.partner by mobile/email so the opportunity can link
+// to it. It never creates one: a website that created res.partner records
 // turned every spam submission into a permanent contact the API user can't
-// delete. No match (or no mobile/email to match on) = null = an unlinked lead.
+// delete. Contact creation is left to the sales team in Odoo. No match (or no
+// mobile/email to match on) = null = an unlinked opportunity.
 async function findExistingContact(
   env: Env,
   uid: number,
@@ -382,9 +382,9 @@ export const POST: APIRoute = async ({ request, locals }) => {
 
       const leadVals: Record<string, unknown> = {
         name: leadName,
-        // Website enquiries land in CRM > Leads; the "Convert to Opportunity"
-        // wizard creates/links the customer when sales picks one up.
-        type: 'lead',
+        // Website enquiries land in the pipeline as opportunities. No res.partner
+        // is ever created here; contact creation is left to the sales team.
+        type: 'opportunity',
         contact_name: name,
         medium_id: WEBSITE_MEDIUM_ID,
         source_id: sourceId,

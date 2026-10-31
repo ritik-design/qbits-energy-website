@@ -162,7 +162,7 @@ Table: What to document for each protected circuit
 > [!EXAMPLE] Illustrative planning check
 > A measured 0.8 kW average protected load required for four hours represents 3.2 kWh of AC load energy before battery operating-window limits, conversion losses, reserve, temperature, and ageing basis. It is not a battery recommendation.
 
-Motors, compressors, pumps, and some power supplies cannot be approved by adding running watts alone. A refrigerator and water pump may each fit separately but fail when starting together. The inverter's backup-output and short-duration limits, the battery's power limit, and the circuit priorities must be checked as one system.
+Motors, compressors, pumps, and some power supplies cannot be approved by adding running watts alone. A refrigerator and water pump may each fit separately but fail when starting together (see [lift and water pump motor loads](/blog/solar-inverter-for-lift-water-pump-motor-loads/) for the starting-current arithmetic). The inverter's backup-output and short-duration limits, the battery's power limit, and the circuit priorities must be checked as one system.
 
 ## Isolation and the protected-load board are safety requirements
 
@@ -179,7 +179,7 @@ The existing [power-cut explainer](/blog/solar-inverter-power-cut-backup/) owns 
 
 ## Transfer time needs a test condition
 
-GoodWe's page and Growatt's sheet both publish under 10 ms wording. Qbits' current catalogue publishes within 10 seconds. None of those lines tells the homeowner everything needed for acceptance.
+GoodWe's page and Growatt's sheet both publish under 10 ms wording. Qbits' current catalogue publishes within 10 seconds. None of those lines tells the homeowner everything needed for acceptance. For a three-phase 48 V hybrid read against GoodWe's India ET LV sheet, see [Qbits vs GoodWe](/blog/qbits-vs-goodwe/).
 
 Ask:
 

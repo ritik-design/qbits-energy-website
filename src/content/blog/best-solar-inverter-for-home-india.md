@@ -223,7 +223,7 @@ For residential rooftop systems, MNRE's scheme annexure of August 2024 sets cent
 
 ## Monitoring, warranty and service for a home system
 
-**Monitoring.** Confirm the monitoring route for the exact model, who owns the account, and that live data appears at the mounting location. See the monitoring guide.
+**Monitoring.** Confirm the monitoring route for the exact model, who owns the account, and that live data appears at the mounting location. See the monitoring guide. For how each mounting spot compares, see [where to install a solar inverter at home](/blog/where-to-install-solar-inverter-at-home/).
 
 **Warranty.** Ask for the written warranty of the exact model. The public Qbits datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline or exclusions, so request the current terms. Do the same with every other brand. See the [warranty guide](/blog/solar-inverter-warranty/).
 
@@ -241,6 +241,6 @@ For residential rooftop systems, MNRE's scheme annexure of August 2024 sets cent
 
 ## Next steps
 
-Pick your home size band, decide on-grid or hybrid from your outage pattern, then open the datasheets for two or three exact models in that band and compare them on the same fields. If a Qbits model is on your shortlist, start from the [residential solution page](/residential-solution/), and keep your bills, phase, roof layout, outage needs and proposed model documents ready.
+Pick your home size band, decide on-grid or hybrid from your outage pattern, then open the datasheets for two or three exact models in that band and compare them on the same fields. If a Qbits model is on your shortlist, start from the [residential solution page](/residential-solution/), and keep your bills, phase, roof layout, outage needs and proposed model documents ready. If Havells is on your shortlist, [Qbits vs Havells solar inverters](/blog/qbits-vs-havells-solar-inverters/) reads its current datasheets against the Qbits 5 kW, 10 kW and hybrid units.
 
 **Sources checked October 2026:** PIB release of 5 December 2024 on PM Surya Ghar; MNRE scheme annexure (August 2024); Qbits product records and datasheets; Havells GTi brochure; UTL on-grid F series datasheet; Waaree inverter brochure; Sungrow and Fronius India product pages.

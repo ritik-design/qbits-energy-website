@@ -37,7 +37,7 @@ relatedSlugs:
   - solar-inverter-sizing
 ---
 
-A solar inverter datasheet does not become a compliant BOQ merely because it is attached to a bid. An EPC engineer has to translate it through four controlled records: the design input sheet, the BOQ, the tender compliance matrix, and the technical-submittal index.
+A solar inverter datasheet does not become a compliant BOQ merely because it is attached to a bid. An EPC engineer has to translate it through four controlled records: the design input sheet, the BOQ, the tender compliance matrix, and the technical-submittal index. On a GeM bid, the [buyer's ATC adds its own clauses](/blog/buy-solar-inverters-on-gem/) to that matrix.
 
 Each record must point back to the exact model and document revision. If the offered model changes, the chain must be checked again. That is the practical difference between reading a datasheet and using one.
 
@@ -86,7 +86,7 @@ Check all four locations:
 
 These three fields answer different engineering questions.
 
-**Maximum DC voltage** is an equipment ceiling. Compare it with the string open-circuit voltage at the lowest design temperature, using the exact module's voltage-temperature coefficient.
+**Maximum DC voltage** is an equipment ceiling. Compare it with the string open-circuit voltage at the lowest design temperature, using the exact module's voltage-temperature coefficient; for a 1500 V unit, the [cold-Voc string example](/blog/fifteen-hundred-volt-string-inverter-eight-hundred-vac/) shows how thin that margin can be.
 
 **MPPT voltage range** is the window in which Maximum Power Point Tracking can operate. Check that the string operating voltage remains within the usable window at the relevant hot and cold operating conditions.
 
@@ -115,7 +115,7 @@ Voltage compliance does not prove current compliance. Record:
 - the design factor required by the project specification.
 
 > [!TIP] Do not split a family-level current value
-> Do not divide a family-level current value across trackers unless the datasheet explicitly defines it that way. "20/20 A", "40 A total", and "20 A per MPPT" are different statements.
+> Do not divide a family-level current value across trackers unless the datasheet explicitly defines it that way. "20/20 A", "40 A total", and "20 A per MPPT" are different statements. The [25 kW three-phase comparison](/blog/best-twenty-to-thirty-kw-on-grid-inverter-small-factories/) applies this tracker-current check to five datasheets.
 
 For each tracker, record the current check explicitly:
 
@@ -191,7 +191,7 @@ For example, a working line might begin:
 Check these accessory questions before issuing the BOQ:
 
 > [!CHECKLIST] Accessory questions before issuing the BOQ
-> - Is the required Wi-Fi, RS485, GPRS, Ethernet, or other interface included in the quoted SKU?
+> - Is the required Wi-Fi, RS485, GPRS, Ethernet, or other interface included in the quoted SKU, and is the [Modbus register map](/blog/inverter-modbus-rs-scada-integration-ci-om/) available for it?
 > - Does the project require an external meter, current transformer, data logger, or export-control device?
 > - Are DC connectors, communication cables, and termination hardware included or supplied elsewhere?
 > - Are external DC and AC protection devices separate BOQ lines?
@@ -307,7 +307,7 @@ Table: Four-document consistency check before submission
 | Calculations | Inputs, formulae, assumptions, author, and checker are visible |
 | Source traceability | Every tender response points to an attached evidence location |
 
-The most damaging error is often not a bad calculation. It is a correct calculation attached to a different model than the one priced.
+The most damaging error is often not a bad calculation. It is a correct calculation attached to a different model than the one priced. The same applies to quotes, as the [50 kW inverter price post](/blog/fifty-kw-solar-inverter-price-india/) shows with a bid-comparison table.
 
 Start with the [Qbits datasheet library](/download-datasheets/), select the exact model family, and build the document register before writing the BOQ. Request model-specific manuals, certificates, compatibility confirmations, and written warranty terms separately when the datasheet does not state them.
 

@@ -120,7 +120,7 @@ Solis maintains official categories for [residential grid-tied inverters](https:
 
 The strength is the clean distinction between grid-tied and storage categories. The open question is the exact India model. A family visible on the global site may have regional variants, different input limits or a different commercial support route.
 
-**Conditional verdict:** compare Solis for a home that is firmly on-grid, provided the quoted datasheet matches the phase, panel current and string voltage of the proposed array.
+**Conditional verdict:** compare Solis for a home that is firmly on-grid, provided the quoted datasheet matches the phase, panel current and string voltage of the proposed array. For a class-by-class reading of Solis against Qbits from each brand's own India datasheets, see [Qbits vs Solis](/blog/qbits-vs-solis/).
 
 ## 5. Deye: a hybrid-led consideration set
 

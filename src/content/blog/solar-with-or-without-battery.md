@@ -163,6 +163,6 @@ Before signing:
 9. Record technical, financial, policy and service review.
 10. Put acceptance tests, handover and change control into the contract.
 
-Use the [hybrid inverter route](/hybrid-inverter/) to identify candidate Qbits models, then request the exact compatible battery and backup specification. Current quotes, tariff and export rules were not supplied, so no battery ROI or project recommendation is computed.
+Use the [hybrid inverter route](/hybrid-inverter/) to identify candidate Qbits models, then request the exact compatible battery and backup specification. For a three-phase shop or home, the [three-phase hybrid inverter comparison](/blog/best-three-phase-hybrid-inverter-homes-shops/) shows how battery voltage changes the current and the wiring. Current quotes, tariff and export rules were not supplied, so no battery ROI or project recommendation is computed.
 
 **Sources checked 23 September 2026:** current Qbits architecture, power-cut backup, battery-sizing, staged-retrofit, PM Surya Ghar battery and rooftop-solar financial guides. Battery, BMS, product, electrical, policy and financial review is required before purchase.

@@ -138,7 +138,7 @@ Table: Compatibility checks before replacing a grid-connected inverter
 | Communications | Logger, portal, meter, plant controller and account transfer |
 | Compliance | Documents required by the current project and DISCOM process |
 
-Use the [inverter datasheet guide](/blog/how-to-read-solar-inverter-datasheets/) and current manuals. Do not assume a newer inverter with the same kilowatt label is a drop-in replacement.
+Use the [inverter datasheet guide](/blog/how-to-read-solar-inverter-datasheets/) and current manuals. Do not assume a newer inverter with the same kilowatt label is a drop-in replacement. The [replacement compatibility checklist](/blog/replace-failed-solar-inverter-compatibility-checklist/) works through the string voltage, MPPT mapping, grid settings and DISCOM intimation for a plant that is already running.
 
 ## How should repair and replacement costs be compared?
 

@@ -53,7 +53,7 @@ Do this before paying an advance. A portal match confirms one part of the decisi
 > - Non-DCR modules make the installation ineligible for CFA, and CFA follows the installed module capacity, not the quote.
 > - No one can charge a fee to "release" your subsidy. Never share your portal password or OTP, and report fraud on cybercrime.gov.in or 1930.
 
-This guide reflects the MNRE guideline documents and portal routes checked on **14 October 2026**. The portal, state processes and DISCOM instructions change, so confirm anything unclear on the live portal before acting.
+This guide reflects the MNRE guideline documents and portal routes checked on **14 October 2026**. The portal, state processes and DISCOM instructions change, so confirm anything unclear on the live portal before acting, and for Gujarat see how vendors register through the state's DISCOMs in our [Gujarat dealer guide](/blog/solar-dealership-gujarat-after-surya-gujarat/).
 
 ## What an empanelled vendor is under PM Surya Ghar
 

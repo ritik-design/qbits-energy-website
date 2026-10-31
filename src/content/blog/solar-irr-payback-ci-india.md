@@ -62,7 +62,7 @@ Table: Base case inputs for a 100 kW C&I system in Karnataka (illustrative assum
 | Annual generation | 1,40,000 kWh | 100 kW × 1,400 kWh/kW/yr |
 | Avoided grid energy charge (HT commercial) | ₹6.90/unit | KERC tariff order of 3 March 2026 as reported by [ThePrint](https://theprint.in/india/kerc-increases-electricity-tariffs-for-commercial-industrial-consumers/2869823/) (4 March 2026): BESCOM HT-2(b) energy charge ₹6.90/unit plus ₹390/kVA/month demand charge. Solar mainly avoids the energy charge, not the demand charge. Check your own bill and the current order |
 | Self-consumption ratio | 80% | Assumed, typical for manufacturing/industrial load |
-| Export rate ([net metering](/glossary/net-metering/)) | ₹4.5/unit | Assumed; confirm your DISCOM's current export or banking terms |
+| Export rate ([net metering](/glossary/net-metering/), subject to [your state's cap](/blog/net-metering-capacity-limits-commercial-by-state/)) | ₹4.5/unit | Assumed; confirm your DISCOM's current export or banking terms. Gujarat adds a banking charge on solar consumed, as [worked through for Surat textile units](/blog/solar-for-power-looms-textile-units-surat/) |
 | Annual O&M | ₹75,000 (₹750/kW), escalating 3%/yr | Assumed |
 | Inverter replacement | ₹5,00,000 in Year 12 | Assumed for illustration (about 9% of capex) and kept in the base case |
 | Corporate tax rate | 25% | Assumed; actual rate depends on the company |

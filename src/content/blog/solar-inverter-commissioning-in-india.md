@@ -41,7 +41,7 @@ The test method and acceptance source belong beside every result. A copied unive
 
 ## What must be approved before commissioning begins?
 
-**Commissioning should begin from a controlled document set and an agreed test plan.** Confirm the final design, equipment revisions, manufacturer manuals, risk controls, inspection status, connection permissions and acceptance responsibilities. If the installed system differs from the approved documents, resolve or formally record the deviation before energisation.
+**Commissioning should begin from a controlled document set and an agreed test plan.** Confirm the final design, equipment revisions, manufacturer manuals, risk controls, inspection status (the [inspector's inverter-side checks](/blog/ceig-inspection-solar-plant-inverter-checks/) vary by state), connection permissions and acceptance responsibilities. If the installed system differs from the approved documents, resolve or formally record the deviation before energisation.
 
 The commissioning lead should have:
 
@@ -98,7 +98,7 @@ Table: Commissioning test groups and the record to retain for each
 | Battery system | Approved compatibility, isolation, BMS and functional records |
 
 > [!CAUTION] Stored DC and battery energy are hazardous
-> Live testing and stored DC or battery energy can be hazardous. It belongs to qualified personnel using the required equipment and procedure. The owner handover may explain normal indicators and emergency contacts without asking the owner to reproduce commissioning tests.
+> Live testing and stored DC or battery energy can be hazardous. It belongs to qualified personnel using the required equipment and procedure, and the [training plan for commissioning technicians](/blog/training-technicians-inverter-installation-commissioning/) shows how a team gets there. The owner handover may explain normal indicators and emergency contacts without asking the owner to reproduce commissioning tests.
 
 ## How should inverter settings be commissioned?
 

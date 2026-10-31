@@ -148,7 +148,7 @@ Store ratings are deliberately left out. They vary by storefront, rest on small 
 
 **Language.** The SEMS+ Classic manual says language is selectable, along with date format, currency and temperature unit. The SEMS Portal listing shows English plus ten other languages, and Hindi is not among them.
 
-**Check before you commit.** GoodWe's compatibility list (Version 18, 30 September 2026) governs which Wi-Fi, Bluetooth or 4G kit works with which inverter family, and some entries have firmware conditions. Ask which kit ships with your quote.
+**Check before you commit.** GoodWe's compatibility list (Version 18, 30 September 2026) governs which Wi-Fi, Bluetooth or 4G kit works with which inverter family, and some entries have firmware conditions. Ask which kit ships with your quote. For GoodWe's current India DNS G4 sheet read against the Qbits 5 kW unit on identical electrical rows, see [Qbits vs GoodWe](/blog/qbits-vs-goodwe/).
 
 ## ShinePhone (Growatt)
 

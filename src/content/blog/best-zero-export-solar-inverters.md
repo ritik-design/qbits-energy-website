@@ -159,7 +159,7 @@ A menu screenshot proves only that a setting was visible. It does not prove the 
 
 **Off-grid operation** means the system is not synchronised with the utility in the same way. A grid-connected zero-export system remains a grid-connected generator with metering, protection, isolation, and approval questions.
 
-Zero export also does not create backup. The compared products are on-grid inverters. When the grid is absent, ordinary anti-islanding behaviour still applies. Backup needs a separately approved hybrid or off-grid architecture.
+Zero export also does not create backup. The compared products are on-grid inverters. When the grid is absent, ordinary anti-islanding behaviour still applies. Backup needs a separately approved hybrid or off-grid architecture, and running solar beside a diesel set needs its own controller design, covered in [solar and DG synchronisation](/blog/solar-dg-synchronisation-on-grid-inverter/).
 
 ## The regulatory answer is address-specific
 

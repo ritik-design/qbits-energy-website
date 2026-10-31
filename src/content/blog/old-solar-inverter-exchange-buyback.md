@@ -142,7 +142,7 @@ The use case is power cuts. An on-grid inverter shuts down during any grid outag
 
 Three technical checks decide whether your existing system carries over:
 
-1. **String voltage compatibility.** Your panel strings were sized for the old inverter's MPPT voltage window. The new hybrid's MPPT range must cover your string voltage, both open-circuit on a cold morning and operating voltage on a hot afternoon. Most residential strings from 2016 onward land comfortably inside modern MPPT windows, but verify with the datasheets.
+1. **String voltage compatibility.** Your panel strings were sized for the old inverter's MPPT voltage window. The new hybrid's MPPT range must cover your string voltage, both open-circuit on a cold morning and operating voltage on a hot afternoon. Most residential strings from 2016 onward land comfortably inside modern MPPT windows, but verify with the datasheets; the [replacement compatibility checklist](/blog/replace-failed-solar-inverter-compatibility-checklist/) shows the cold and hot voltage arithmetic on an aged array.
 2. **DC and AC cabling.** Same-capacity swaps usually reuse everything. Capacity increases or string reconfiguration may need thicker DC cable or a new AC distribution board.
 3. **Net-metering paperwork.** Some DISCOMs treat an inverter swap as a modification requiring an updated approval, especially if the model or capacity changes. Your installer should handle this, but ask explicitly.
 

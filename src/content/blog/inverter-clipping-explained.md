@@ -67,7 +67,7 @@ Clipping reduces stress compared to rapid power fluctuations from passing clouds
 
 ## 4. What Is DC Oversizing?
 
-Connecting more DC array capacity than the inverter's AC output:
+Connecting more DC array capacity than the inverter's AC output (a home-scale example with panel counts is in [how many solar panels a 5 kW inverter takes](/blog/how-many-solar-panels-for-five-kw-inverter/)):
 
 > [!FORMULA]
 > DC:AC Ratio = DC Array Capacity ÷ Inverter AC Rating
@@ -119,7 +119,7 @@ Use simulation software like **PVsyst** with:
 The software models hour-by-hour production and identifies clipping periods. Purpose-built [PV modeling and simulation software](https://surgepv.com/solar-simulation-software/) can run this analysis automatically alongside the rest of the system design, rather than requiring a separate clipping-loss spreadsheet.
 
 > [!EXAMPLE] 55 kW array on a 50 kW inverter in Ahmedabad
-> Using TMY data: ~**180 hours annually with clipping**, losing **~1,200 kWh**: **about 1.8% of total production**.
+> Using TMY data: ~**180 hours annually with clipping**, losing **~1,200 kWh**: **about 1.8% of total production**. The [50 kW datasheet comparison](/blog/best-fifty-kw-solar-inverter-india/) lists the tracker counts and currents such a unit prints.
 
 ## 8. Does Clipping Affect Warranty?
 

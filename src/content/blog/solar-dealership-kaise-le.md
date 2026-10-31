@@ -45,7 +45,7 @@ Form जमा करना dealership मिल जाने का प्र�
 
 ## सबसे पहले तय करें कि आपको Dealer route ही चाहिए
 
-Qbits partner form में चार business types हैं: Dealer, Distributor, EPC और System Integrator। Solar dealership खोजने वाले हर applicant के लिए `Dealer` सही विकल्प नहीं होगा। वही role चुनें जो आपके वास्तविक काम से मेल खाता हो।
+Qbits partner form में चार business types हैं: Dealer, Distributor, EPC और System Integrator। Solar dealership खोजने वाले हर applicant के लिए `Dealer` सही विकल्प नहीं होगा। वही role चुनें जो आपके वास्तविक काम से मेल खाता हो (state notes: [UP mein solar business](/blog/uttar-pradesh-mein-solar-business-avsar/), [Bihar mein solar dealership](/blog/bihar-mein-solar-dealership-kaise-shuru-karein/))।
 
 Table: Qbits partner form ke chaar business roles aur unka practical matlab
 

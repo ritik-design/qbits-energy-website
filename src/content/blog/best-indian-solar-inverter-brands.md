@@ -174,7 +174,7 @@ The corporate pages name an Indian registered office and corporate office but do
 
 ## Qbits: current model documents, and what to confirm
 
-Qbits' current product record separates TLS and TLD single-phase on-grid families, TLC, Pro and Plus three-phase families, and QBH hybrid families. The [Qbits datasheet library](/download-datasheets/) provides model-family documents that can be matched to a quotation, and the [on-grid inverter range](/on-grid-inverter/) and [hybrid inverter range](/hybrid-inverter/) show the families by phase and capacity.
+Qbits' current product record separates TLS and TLD single-phase on-grid families, TLC, Pro and Plus three-phase families, and QBH hybrid families. The [Qbits datasheet library](/download-datasheets/) provides model-family documents that can be matched to a quotation, and the [on-grid inverter range](/on-grid-inverter/) and [hybrid inverter range](/hybrid-inverter/) show the families by phase and capacity. For the 100 kW class, the [100 kW inverter comparison](/blog/best-hundred-kw-solar-inverter-ci-rooftops/) reads six brands' datasheets on tracker count and tracker current.
 
 That document access is a real strength. It lets a buyer compare phase, MPPT layout, voltage limits and enclosure rating at model level. For example, the QB 4/5/6 KTLD family is single-phase and dual-MPPT with 20 A per input and IP66, while the QB 4.2/4.6/5/5.4/6KTLS family is single-MPPT, so the family name alone does not settle fit.
 

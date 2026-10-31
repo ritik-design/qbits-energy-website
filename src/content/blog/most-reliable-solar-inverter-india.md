@@ -233,7 +233,7 @@ Credit both companies for publishing more process detail than a generic contact 
 
 ### Clearest India-specific contact evidence: GoodWe, Solis and Deye
 
-GoodWe's official contact page identifies an India office and dedicated service contact. Solis publishes an India support page with service hours and an escalation address. Deye lists a Pune service centre with contact details and opening hours.
+GoodWe's official contact page identifies an India office and dedicated service contact. Solis publishes an India support page with service hours and an escalation address. Deye lists a Pune service centre with contact details and opening hours. For datasheet rows rather than service contacts, see [Qbits vs Solis](/blog/qbits-vs-solis/).
 
 Those are useful accountability signals. They do not answer whether the named team services your exact inverter, sends technicians to your district or has the required replacement part. Ask those questions before treating an India address as local coverage.
 

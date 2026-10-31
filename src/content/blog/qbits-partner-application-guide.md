@@ -100,7 +100,7 @@ The business-type choices are `Dealer`, `Distributor`, `EPC`, and `System Integr
 
 Dealer and distributor applicants should not fill the `PM Suryaghar Registered Name` field merely to make the form look complete. The form labels it as applicable to EPCs. If your company also performs EPC work and has a relevant registered name, make sure it matches the actual record.
 
-Annual turnover and current inverter brands provide commercial context. They are not invitations to inflate scale or hide existing supplier relationships. Use one completed financial period for turnover and disclose current brands as the form requests. The public page does not state that a particular turnover or brand portfolio passes or fails the application.
+Annual turnover and current inverter brands provide commercial context. They are not invitations to inflate scale or hide existing supplier relationships. Use one completed financial period for turnover and disclose current brands as the form requests. The public page does not state that a particular turnover or brand portfolio passes or fails the application, and if you are still choosing which solar business to start, our [low-investment business models guide](/blog/solar-business-ideas-india-low-investment/) compares them first.
 
 If you are applying specifically for local dealing, use the [Qbits dealer application guide](/blog/how-to-become-a-solar-inverter-partner-in-india/). If you are proposing regional distribution, use the [Qbits distributor registration walkthrough](/blog/become-qbits-distributor/) to build the role-specific operating file.
 
@@ -138,7 +138,7 @@ The form's wording does not define an accounting methodology or explain how thes
 
 The current public page also does not publish a minimum investment, credit term, security requirement, or stock commitment. Those belong in a later written commercial proposal, if the application progresses.
 
-The [solar dealership investment guide](/blog/solar-dealership-investment-india/) provides a blank cash-timing worksheet and explains why a registration amount, demo purchase, opening stock, and total working capital cannot be treated as the same figure.
+The [solar dealership investment guide](/blog/solar-dealership-investment-india/) provides a blank cash-timing worksheet and explains why a registration amount, demo purchase, opening stock, and total working capital cannot be treated as the same figure, while [how to plan stock by inverter capacity](/blog/solar-inverter-stock-planning-new-dealers/) covers the opening-stock split.
 
 ## Sales fields describe a proposal, not guaranteed demand
 

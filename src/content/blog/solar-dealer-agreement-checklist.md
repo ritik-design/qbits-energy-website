@@ -88,14 +88,14 @@ Ask these questions against the actual wording:
 
 **Review each commercial mechanism as a formula with named inputs, evidence, timing, approval, and reversal rules.** The agreement should distinguish a target from a binding purchase obligation, a list price from the invoiced price, a conditional rebate from earned margin, and requested credit from an approved credit facility.
 
-Use a worksheet rather than a headline percentage.
+Use a worksheet rather than a headline percentage, and apply the same discipline to any lender agreement you sign to refer customers, as [how installers offer solar financing](/blog/installers-offer-solar-financing-customers/) explains.
 
 Table: Commercial terms and the questions to resolve for each
 
 | Term | Questions to resolve |
 | --- | --- |
 | Target | Units or value? Order, invoice, delivery, payment or end-customer sale? Which period and returns treatment? |
-| Purchase commitment | Firm order, forecast, minimum take, stock plan, or best effort? What happens if demand changes? |
+| Purchase commitment | Firm order, forecast, minimum take, stock plan, or best effort? What happens if demand changes? To size your own stock by capacity class first, see [inverter stock planning for new dealers](/blog/solar-inverter-stock-planning-new-dealers/). |
 | Price | Which price list controls? When can it change? How are accepted orders and taxes handled? |
 | Discount or margin | Applied to which base, products, quantities, freight and taxes? |
 | Rebate | When earned, documented, credited, expired, clawed back or set off? |

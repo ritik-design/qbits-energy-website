@@ -166,7 +166,7 @@ For most Indian C&I buyers with a WACC of 12–14%, the NPV of solar over 25 yea
 
 ### Worked Example: A 50 kW Factory in Tamil Nadu
 
-A textile accessories manufacturer in Tirupur runs a 50 kW DG set for eight hours per day to supplement an unreliable grid. This is an illustrative scenario with assumed figures, not a real customer. Here is the DG Displacement IRR Calculator applied to it.
+A textile accessories manufacturer in Tirupur runs a 50 kW DG set for eight hours per day to supplement an unreliable grid (a [moulding unit that rides through outages on a DG set](/blog/solar-for-plastic-injection-moulding-units/) is a similar case). This is an illustrative scenario with assumed figures, not a real customer. Here is the DG Displacement IRR Calculator applied to it.
 
 **The key constraint: solar can only displace the kWh it generates.** The DG produces 50 kW × 8 hours × 365 days = 1,46,000 kWh a year. A 50 kW solar plant at 4.5 peak sun hours and 0.80 performance ratio generates 65,700 kWh in Year 1 (about 45% of the DG's annual output), so it cannot remove the whole DG fuel bill. The best case assumes all 65,700 kWh replaces DG output, which needs the DG load to stay above the set's minimum loading while solar is running; check this against a load profile.
 

@@ -31,7 +31,7 @@ faqs:
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-Most conversations about solar in India focus on the customer's perspective: bill reduction, subsidy, payback period. For EPC teams looking to understand the customer's financial framework during a commercial sale, the [solar IRR and payback guide for C&I](/blog/solar-irr-payback-ci-india/) provides the financial model most C&I buyers use internally.  This post is about the installer's perspective, specifically, the unit economics of running a solar [EPC business](https://quickestimate.co/blog/how-to-start-solar-epc-business) in India.
+Most conversations about solar in India focus on the customer's perspective: bill reduction, subsidy, payback period. For EPC teams looking to understand the customer's financial framework during a commercial sale, the [solar IRR and payback guide for C&I](/blog/solar-irr-payback-ci-india/) provides the financial model most C&I buyers use internally.  If you have not yet made your first commercial sale, our guide to [low-investment solar business models](/blog/solar-business-ideas-india-low-investment/) compares the starting routes. This post is about the installer's perspective, specifically, the unit economics of running a solar [EPC business](https://quickestimate.co/blog/how-to-start-solar-epc-business) in India.
 
 > [!KEYTAKEAWAYS]
 > - Planning target gross margin for a well-run residential solar EPC in India is 22–30% at the project level (illustrative assumption); net operating margin after CAC, after-sales, and overhead is typically 5–8%.

@@ -50,7 +50,7 @@ For Indian solar projects, MPPT performance is critical because:
 
 ## 1. Number of MPPT Channels
 
-The number of independent MPPT inputs determines how many separate string groups an inverter can optimise simultaneously.
+The number of independent MPPT inputs determines how many separate string groups an inverter can optimise simultaneously, which is why a [central inverter with one or two MPPTs](/blog/string-vs-central-inverter-india/) suits only uniform arrays.
 
 ### When Multiple MPPT Channels Are Essential
 

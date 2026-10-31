@@ -52,7 +52,7 @@ This guide covers the generation math, the roof situations where east-west wins,
 
 East-west solar design is an array layout where half the panels face roughly east and half face roughly west. The two groups are wired as independent strings. The [azimuth](/glossary/azimuth/) of the east group sits near 90 degrees and the west group near 270 degrees. Anything within about 45 degrees of those values behaves similarly.
 
-This is different from simply having a few panels off-south because of a roof obstruction. East-west is a deliberate design choice. The two groups are sized to be roughly equal, mounted at the same [tilt angle](/glossary/tilt-angle/), and connected to separate MPPT inputs on the inverter.
+This is different from simply having a few panels off-south because of a roof obstruction. East-west is a deliberate design choice. The two groups are sized to be roughly equal, mounted at the same [tilt angle](/glossary/tilt-angle/), and connected to separate MPPT inputs on the inverter, a method that [allocating MPPT inputs across several roofs or sheds](/blog/mppt-allocation-multiple-factory-sheds/) extends to larger sites.
 
 You see this layout most often in three places:
 

@@ -56,7 +56,7 @@ A missing input should stay marked as unknown. Replacing it with a typical value
 
 ## Engineering controls for this site
 
-- Separate common-area generation from claims about individual flat bills.
+- Separate common-area generation from claims about individual flat bills, and see [common-area meter and chiller loads in a mall](/blog/solar-for-commercial-complexes-malls/) for the commercial version of the question.
 - Review lift, fire-pump and emergency-supply continuity independently.
 - Document roof rights, access, future repairs and contractor liabilities.
 

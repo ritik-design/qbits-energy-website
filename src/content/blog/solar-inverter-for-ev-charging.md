@@ -71,7 +71,7 @@ Table: Indian home EV charger types by power draw, connector and Nexon EV charge
 | Fast home (Level 2) | 7.2 kW | Type 2 / CCS2 | Nexon EV, MG ZS EV, BYD Atto 3 | 6–7 hours |
 | DC fast charger | 30–60 kW | CCS2 / CHAdeMO | All EVs | 30–60 minutes |
 
-DC fast chargers require a three-phase commercial connection and are not relevant to home solar setups. For this guide, the analysis covers 3.3 kW and 7.2 kW AC home chargers only.
+DC fast chargers require a three-phase commercial connection and are not relevant to home solar setups, though [mall parking and EV charging load on a commercial meter](/blog/solar-for-commercial-complexes-malls/) is a different case. For this guide, the analysis covers 3.3 kW and 7.2 kW AC home chargers only.
 
 ## The Nighttime Charging Problem: Why On-Grid Fails EV Owners
 

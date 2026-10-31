@@ -103,7 +103,7 @@ The right solar configuration for a hotel is rarely purely on-grid or purely hyb
 On-grid inverters are the most cost-effective way to offset large daytime loads. An 80–100 kW on-grid string inverter array can offset 40–60% of daytime electricity consumption, primarily HVAC. On-grid systems are:
 
 - Lower cost per kW (no battery required)
-- Eligible for [net metering](/glossary/net-metering/), surplus daytime generation offsets nighttime grid consumption
+- Eligible for [net metering](/glossary/net-metering/) up to your [state's commercial limit](/blog/net-metering-capacity-limits-commercial-by-state/), where surplus daytime generation offsets nighttime grid consumption
 - Simpler to scale if roof area is available
 
 > [!WARNING] On-grid inverters go dark in an outage

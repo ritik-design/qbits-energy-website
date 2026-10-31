@@ -92,7 +92,7 @@ Table: Territory scope elements to settle in writing and why each changes the ec
 | Cross-border process | Can the distributor sell outside the area or fulfil an inbound request from elsewhere? | Affects lead handling, freight, commission, and conflict risk |
 | Change control | Who can redraw the scope, on what evidence, with what notice? | Determines whether current stock and pipeline remain protected |
 
-The word `exclusive` still needs a second layer. Exclusivity may apply only to a product, channel, customer segment, period, or performance state. It can also coexist with named exceptions.
+The word `exclusive` still needs a second layer, and if the offer is a brand-licence franchise rather than a distributorship, [our franchise vs dealership guide](/blog/solar-franchise-vs-dealership/) shows which legal rules apply to the territory grant. Exclusivity may apply only to a product, channel, customer segment, period, or performance state. It can also coexist with named exceptions.
 
 Use four status labels in your internal model:
 

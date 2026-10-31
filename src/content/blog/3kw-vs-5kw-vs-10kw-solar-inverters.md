@@ -103,7 +103,7 @@ Then check the exact model's maximum DC power, maximum voltage, MPPT window, sta
 
 ### 5. Check the grid connection and approval route
 
-Confirm service phase, sanctioned load, allowable inverter capacity, export arrangement, protection, metering, and the current DISCOM process. A three-phase model cannot be approved from a single-phase assumption. A sanctioned-load upgrade or phase change is a separate project input, not an automatic consequence of choosing a larger inverter.
+Confirm service phase, sanctioned load (each connection has its own, as [this guide to houses with two connections](/blog/solar-for-house-with-two-electricity-connections/) explains), allowable inverter capacity, export arrangement, protection, metering, and the current DISCOM process. A three-phase model cannot be approved from a single-phase assumption. A sanctioned-load upgrade or phase change is a separate project input, not an automatic consequence of choosing a larger inverter.
 
 ## Exact Qbits capacity data
 
@@ -314,4 +314,4 @@ Choose **10 kW** when a larger documented energy target, roof, connection, and s
 
 Keep **3 kW** in the decision when the project is genuinely smaller. It remains a valid capacity, but only after the same checks.
 
-Compare the current [Qbits product families](/our-products/) after the size, phase, topology, and string design are known. The correct capacity is the smallest exact model that satisfies the approved design without crossing its published limits.
+Compare the current [Qbits product families](/our-products/) after the size, phase, topology, and string design are known. The correct capacity is the smallest exact model that satisfies the approved design without crossing its published limits. To see a 5 kW single-phase and a 10 kW three-phase unit read against Havells on the same datasheet rows, see [Qbits vs Havells solar inverters](/blog/qbits-vs-havells-solar-inverters/).

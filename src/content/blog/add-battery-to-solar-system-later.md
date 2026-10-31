@@ -186,7 +186,7 @@ Use the [power-cut backup guide](/blog/solar-inverter-power-cut-backup/) for the
 
 **Array expansion is a separate engineering and approval change.** Recheck module electrical compatibility, cold string voltage, hot operating voltage, current per input, MPPT allocation, DC and AC ratio, inverter and export limits, roof and structure, cable and protection, metering, authority requirements, monitoring, warranty, and the revised generation model.
 
-Do not add panels merely because physical roof space or unused connector positions exist. The [string-sizing guide](/blog/solar-string-sizing-ocp-india/) shows the required exact-model calculation record.
+Do not add panels merely because physical roof space or unused connector positions exist (the [3 kW to 5 kW upgrade guide](/blog/upgrade-three-kw-to-five-kw-solar/) works through a string check for that case). The [string-sizing guide](/blog/solar-string-sizing-ocp-india/) shows the required exact-model calculation record.
 
 ## What should be asked before the initial solar purchase?
 

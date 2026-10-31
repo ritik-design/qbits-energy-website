@@ -106,7 +106,7 @@ Do not silently treat W and VA as the same unit. Real power, apparent power, pow
 
 ### GoodWe GW5000-ES-20: strongest public 5 kVA continuous comparison point
 
-GoodWe's exact model table publishes 5,000 VA maximum grid apparent output and 5,000 VA nominal backup apparent power. It also gives a 40 to 60 V battery range, 120 A maximum continuous charge or discharge current, and 16 A maximum PV input per MPPT.
+GoodWe's exact model table publishes 5,000 VA maximum grid apparent output and 5,000 VA nominal backup apparent power. It also gives a 40 to 60 V battery range, 120 A maximum continuous charge or discharge current, and 16 A maximum PV input per MPPT. For a 10 kW three-phase 48 V comparison with GoodWe, see [Qbits vs GoodWe](/blog/qbits-vs-goodwe/).
 
 The product page says ES G2 can switch to backup in less than 10 ms and is intended to withstand heavy loads such as air conditioners. That supports putting the model on the shortlist. It does not provide the exact peak apparent power, duration, or AC compressor compatibility in the reviewed model table.
 
@@ -171,7 +171,7 @@ The following is an illustration of the method, not a typical Indian home and no
 >
 > For energy, the assumed average load is `1.20 + 0.30 = 1.50 kW`. The AC-side energy for two hours is `1.50 × 2 = 3.00 kWh`. That is not the battery nameplate answer. Usable fraction, inverter losses, reserve, temperature, ageing, and manufacturer rules must still be applied.
 
-Change any input and the result changes. A second AC, pump, induction cooktop, water heater, or electric-vehicle charger can move both the continuous and starting case. The [solar inverter sizing guide](/blog/solar-inverter-sizing/) covers the broader load and array sequence.
+Change any input and the result changes. A second AC, pump, induction cooktop, water heater, or electric-vehicle charger can move both the continuous and starting case; our guide to [lift and water pump motor loads](/blog/solar-inverter-for-lift-water-pump-motor-loads/) works through motor starting current. The [solar inverter sizing guide](/blog/solar-inverter-sizing/) covers the broader load and array sequence.
 
 ## The battery must pass power and energy checks
 
@@ -226,7 +226,7 @@ Before selecting any model, ask the supplier for:
 > - approved battery model, capacity, discharge-power limit, communication, and firmware;
 > - PV module, string calculation, MPPT limits, and array assumptions;
 > - single-line diagram showing grid, PV, battery, backup board, isolation, and protection;
-> - operating-temperature limits and any derating relevant to the installation location;
+> - operating-temperature limits and any derating relevant to the installation location, as in [where to install a solar inverter at home](/blog/where-to-install-solar-inverter-at-home/);
 > - current certificate files required for the project;
 > - complete written warranty, exclusions, registration, remedy, and claim route;
 > - itemised price, included hardware, installation, commissioning, monitoring, and excluded work.

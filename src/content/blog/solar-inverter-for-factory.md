@@ -144,7 +144,7 @@ Table: Recommended inverter topology by factory size
 | Factory Size | Recommended Topology | Rationale |
 | --- | --- | --- |
 | 50–200 kWp | Multiple 3-phase string inverters | Low failure risk, no civil works, modular |
-| 200–500 kWp | Multiple string inverters (50–100 kW each) | Resilience and phased deployment |
+| 200–500 kWp | Multiple string inverters (50–100 kW each) | Resilience and phased deployment; the [worked counts for 100 kW, 500 kW and 1 MW](/blog/how-many-inverters-for-hundred-kw-to-one-mw-rooftop/) compare unit sizes |
 | 500 kWp–1 MWp | String inverters or hybrid (strings + central) | Depends on roof uniformity and shade |
 | Above 1 MWp | Central inverter with string inverter for shed sections | Cost per kW advantage at scale |
 
@@ -161,7 +161,7 @@ The process begins with your factory's monthly electricity bills for the past 12
 - **Average monthly units (kWh)**: your actual consumption
 - **Power factor (PF)**: if shown (aim for above 0.9; poor [power factor](/glossary/power-factor/) inflates kVA without useful kW)
 
-A cotton spinning mill with 300 kVA contract demand and 0.88 power factor has a true active load of approximately 264 kW at peak. If the mill operates two shifts (16 hours) and production runs 10 hours in daylight, the solar opportunity window is 10 hours.
+A cotton spinning mill with 300 kVA contract demand and [0.88 power factor](/blog/solar-for-plastic-injection-moulding-units/) has a true active load of approximately 264 kW at peak. If the mill operates two shifts (16 hours) and production runs 10 hours in daylight, the solar opportunity window is 10 hours, and in Gujarat the GERC set-off window is also limited to 07:00 to 18:00, as [solar for power looms and textile units in Surat](/blog/solar-for-power-looms-textile-units-surat/) shows.
 
 > [!EXAMPLE] Industrial Demand Profile Method, worked example
 > - Contract demand: 500 kVA
@@ -202,7 +202,7 @@ Solar does not simply reduce grid import, it actively displaces diesel generatio
 > - Monthly saving from DG displacement alone: ₹27,000 × 30 = ₹8,10,000
 > - On a ₹1.8 Crore solar investment sized to cover that 1,000 kWh/day, DG displacement alone pays back in about 22 months (₹1.8 Crore ÷ ₹8.1 lakh)
 
-A comparable scenario is described in the [case study on a 100 kW solar installation at a Tirupur textile mill](/blog/case-study-tirupur-textile/), which covers the same DG-displacement economics for a production floor.
+A comparable scenario is described in the [case study on a 100 kW solar installation at a Tirupur textile mill](/blog/case-study-tirupur-textile/), which covers the same DG-displacement economics for a production floor. For the ceramic tile case in more detail, see [solar for ceramic units in Morbi](/blog/solar-for-ceramic-units-morbi/).
 
 The key technical requirement for DG displacement is the inverter's synchronisation capability. When the grid returns after an outage, the inverter must synchronise its output frequency and phase with the grid before reconnecting, and must never back-feed onto the DG bus. Inverters with certified grid synchronisation logic (IEC 62116 compliant anti-islanding) handle this correctly.
 

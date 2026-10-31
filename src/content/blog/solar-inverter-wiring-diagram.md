@@ -145,7 +145,7 @@ Table: Worked voltage-drop calculation for a 25 m, 11 A, 4 sq mm copper DC run
 
 At 4 sq mm the drop is 0.80%, inside the 1% designers usually target on a DC run and well inside the general limits IS 732:2019 sets for an installation. Step to 6 sq mm and the same run falls to 2.02 V, or 0.53%, which buys roughly 11 W at full output. A design sheet should show that tradeoff, not hide it.
 
-The AC side uses the same formula with the AC current. A 5 kW inverter at 230 V draws about 21.7 A; over 12 m in 6 sq mm that gives 1.91 V, or 0.83%. For three-phase the multiplier changes from 2 to the square root of 3, because the return path is shared.
+The AC side uses the same formula with the AC current, and [AC cable sizing from inverter to ACDB](/blog/solar-ac-cable-sizing-inverter-to-acdb/) works it through for larger plants. A 5 kW inverter at 230 V draws about 21.7 A; over 12 m in 6 sq mm that gives 1.91 V, or 0.83%. For three-phase the multiplier changes from 2 to the square root of 3, because the return path is shared.
 
 ## AC side: isolator, breaker rating, RCD type and the board
 

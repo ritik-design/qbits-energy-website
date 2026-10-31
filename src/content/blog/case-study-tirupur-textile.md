@@ -66,7 +66,7 @@ The plant electrical team, process owner and designer should approve the connect
 The responsible electrical professional should sign the single-line diagram, protection settings and commissioning plan. Any safety-critical or production-critical system needs an independent continuity plan.
 
 > [!CAUTION] Monitoring is not plant SCADA
-> A solar monitoring platform does not replace plant SCADA or power-quality instrumentation unless the exact design proves that function. Grid-connected solar is not backup unless the complete design explicitly supports that role.
+> A solar monitoring platform does not replace plant SCADA or power-quality instrumentation unless the exact design proves that function; the [Modbus RS485 and SCADA integration guide](/blog/inverter-modbus-rs-scada-integration-ci-om/) covers the data link. Grid-connected solar is not backup unless the complete design explicitly supports that role.
 
 ## How should the commercial case be calculated?
 

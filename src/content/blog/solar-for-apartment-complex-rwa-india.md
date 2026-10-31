@@ -118,7 +118,7 @@ Under Maharashtra's virtual net metering framework, a 50-flat society can instal
 
 > **Policy reference.** MERC's Electricity Supply Code and various amendments have progressively expanded net metering eligibility for group housing societies. The [MNRE Net Metering Guidelines](https://mnre.gov.in/) provide the national framework, while state electricity regulatory commissions (SERCs) implement state-specific variations. *Source - [MNRE](https://mnre.gov.in/), 2025.*
 
-For the full net metering application process, read the [how to apply for net metering in India guide](/blog/how-to-apply-net-metering-india/).
+For the full net metering application process, read the [how to apply for net metering in India guide](/blog/how-to-apply-net-metering-india/), and for a building with tenants behind one connection see [how a mall picks the meter its solar plant sits behind](/blog/solar-for-commercial-complexes-malls/).
 
 ## Sizing Common Area Solar for an Apartment Complex
 

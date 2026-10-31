@@ -140,7 +140,7 @@ Table: Which public route to investigate first for each intended business model
 | Start with a short category enquiry | Luminous Become a Partner | The first form is brief, but the programme structure must be confirmed after contact |
 | Evaluate publicly named lead support | Servotech | It explicitly describes potential lead sharing, without publishing a quantity or outcome guarantee |
 
-These are route-fit observations, not programme endorsements. A suitable label can still lead to unsuitable terms. An unfamiliar label can still produce a workable agreement if the responsibilities are clear.
+These are route-fit observations, not programme endorsements. A suitable label can still lead to unsuitable terms. An unfamiliar label can still produce a workable agreement if the responsibilities are clear, and a dealer who already sells one brand can use [this second-brand evaluation guide](/blog/add-second-inverter-brand-multi-brand-dealers/) to test a new programme against the existing stock.
 
 ## The due-diligence sheet every brand should complete
 
@@ -180,7 +180,7 @@ If a benefit cannot be translated into an owner, deliverable, condition, and rec
 
 ## Choose the next action that fits your role
 
-First decide whether you want product resale, distribution, retail, project execution, or lead generation. Then request the same evidence pack from each relevant programme and compare only equivalent roles.
+First decide whether you want product resale, distribution, retail, project execution, or lead generation, and if customers are the gap, read [how installers get customers](/blog/how-solar-installers-get-customers/). Then request the same evidence pack from each relevant programme and compare only equivalent roles.
 
 If the Qbits Dealer, Distributor, EPC, or System Integrator route fits your operating model, complete the [Qbits channel partner application](/become-our-partner/) with accurate current information.
 

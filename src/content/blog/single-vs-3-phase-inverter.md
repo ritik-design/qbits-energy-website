@@ -165,7 +165,7 @@ Several DISCOMs set a rooftop capacity or sanctioned load threshold above which 
 
 What is consistent is the process. The DISCOM assesses technical feasibility against your sanctioned connection, and a design that exceeds the permitted single-phase capacity will not be approved as submitted. Discovering that at the feasibility stage costs you weeks. Discovering it after equipment is delivered costs considerably more.
 
-Beyond the regulatory threshold, three phase is usually the practical choice where the building already runs three-phase equipment, where loads would otherwise be badly unbalanced, or where future expansion is likely.
+Beyond the regulatory threshold, three phase is usually the practical choice where the building already runs three-phase equipment, where loads would otherwise be badly unbalanced, or where future expansion is likely. For a worked comparison of five 15 kW three-phase units on tracker current and voltage window, see the [15 kW three-phase inverter comparison](/blog/best-fifteen-kw-solar-inverter-india/).
 
 ## DISCOM capacity limits by state
 

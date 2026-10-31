@@ -56,7 +56,7 @@ A 3 kW rooftop system fits a typical 2 BHK or small 3 BHK Indian home, where mon
 
 It does not cover two or three air conditioners running long hours alongside a borewell pump and an induction kitchen. That profile needs 5 kW or more.
 
-Area matters as much as load. At 535 W to 590 W per module, the common retail band in India in 2026, a 3 kW class array is about 6 panels. Allow 200 to 250 square feet of shadow-free roof with walkway clearance.
+Area matters as much as load. At 535 W to 590 W per module, the common retail band in India in 2026, a 3 kW class array is about 6 panels (the same count for a 5 kW inverter is in [how many solar panels a 5 kW inverter takes](/blog/how-many-solar-panels-for-five-kw-inverter/)). Allow 200 to 250 square feet of shadow-free roof with walkway clearance.
 
 Check your sanctioned load too. Many DISCOMs will not sanction a system larger than your connected load. The [3 kW solar system price in India](/blog/3kw-solar-system-price-india/) also moves with the balance of system, not just the inverter.
 

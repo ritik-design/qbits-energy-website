@@ -90,7 +90,7 @@ GoodWe appears before Qbits, and Qbits does not receive an automatic overall win
 
 **A weak or fluctuating grid is still present, but its measured voltage or frequency varies.** An inverter may reduce output or disconnect when conditions cross its configured operating or protection criteria.
 
-**A grid outage means the utility supply is absent.** A standard on-grid inverter must stop energising the circuit because of anti-islanding protection. A wide AC range cannot turn it into a backup inverter. If your real problem is load shedding, use the [inverter guide for frequent power cuts](/blog/best-solar-inverter-frequent-power-cuts/) before choosing a category.
+**A grid outage means the utility supply is absent.** A standard on-grid inverter must stop energising the circuit because of anti-islanding protection. A wide AC range cannot turn it into a backup inverter, and it does not make the inverter safe to run on a diesel set either ([solar and DG synchronisation](/blog/solar-dg-synchronisation-on-grid-inverter/) explains what that needs). If your real problem is load shedding, use the [inverter guide for frequent power cuts](/blog/best-solar-inverter-frequent-power-cuts/) before choosing a category.
 
 **A high-voltage trip during strong solar export may involve installation voltage rise, network voltage, settings, wiring, or measurement.** Buying another inverter without diagnosing the cause can reproduce the same fault. The [grid-overvoltage diagnosis guide](/blog/solar-inverter-grid-overvoltage/) explains the safe evidence handoff.
 
@@ -179,7 +179,7 @@ Ask every shortlisted seller for the same documents:
 > - Written warranty issuer, term, remedy, exclusions, labour, freight, and registration rules.
 > - Named service route for the installation pincode, without assuming a response time.
 
-The [grid-settings verification guide](/blog/tuning-inverters-indian-grid/) explains how an installer should turn these documents into a commissioning record. A datasheet range is the start of the review, not the final setting.
+The [grid-settings verification guide](/blog/tuning-inverters-indian-grid/) explains how an installer should turn these documents into a commissioning record. A datasheet range is the start of the review, not the final setting, and for MW-scale plants under PM-KUSUM the [rural-grid and monitoring asks in DISCOM tenders](/blog/pm-kusum-inverter-selection/) are covered in a separate guide.
 
 ## What owners and installers must not change
 

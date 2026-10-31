@@ -98,7 +98,7 @@ The efficiency spread is less useful than it looks. The highest and lowest publi
 
 GoodWe's official [XS G3 product page](https://en.goodwe.com/xs-g3) names GW2000-XS-30 inside a 0.7 to 3.3 kW single-phase series. Its current downloadable datasheet gives the exact 2 kW model one MPPT, one string, a 40 to 450 V MPPT range, 600 V maximum input voltage, 16 A maximum input current, 97.6% maximum efficiency and IP66 protection.
 
-The enclosure weighs 4.6 kg, the lowest published weight in this four-model set. That can make wall handling simpler, although installation quality matters more than a few kilograms once the inverter is mounted.
+The enclosure weighs 4.6 kg, the lowest published weight in this four-model set. That can make wall handling simpler, although installation quality matters more than a few kilograms once the inverter is mounted ([where to mount it](/blog/where-to-install-solar-inverter-at-home/) is covered in a separate guide).
 
 The page also describes optional AFCI and optional Type II surge protection. “Optional” must remain attached to those features. A buyer should not assume the quoted unit includes either item without the bill of materials.
 

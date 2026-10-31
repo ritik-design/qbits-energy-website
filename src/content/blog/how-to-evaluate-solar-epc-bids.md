@@ -161,7 +161,7 @@ The bid should not use `comprehensive O&M` without a task, evidence and exclusio
 
 ## How should commercial bids be normalised?
 
-**Reconcile price after technical and scope normalisation.** Identify taxes, duties, escalation, freight, insurance, securities, retention, payment timing, provisional sums, owner costs, finance, working capital, change rules, delay treatment, warranties, liabilities, exclusions, options, O&M, spares, replacements, and end-of-term obligations before comparing the evaluated commercial position.
+**Reconcile price after technical and scope normalisation.** Identify taxes, duties, escalation, freight, insurance, securities, retention, payment timing, provisional sums, owner costs, finance, working capital, change rules, delay treatment, warranties, liabilities, exclusions, options, O&M, spares, replacements, and end-of-term obligations before comparing the evaluated commercial position, as the [100 kW plant cost and how to compare quotes](/blog/hundred-kw-solar-plant-cost-factories-india/) guide does for a factory plant.
 
 Use:
 

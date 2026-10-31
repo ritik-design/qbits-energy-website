@@ -139,7 +139,7 @@ Product evidence answers whether the equipment follows the specified product rou
 
 The [MNRE residential CFA operational guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) dated 13 June 2024 illustrate the distinction. They require vendors to meet the scheme’s technical specifications, and they place physical inspection and portal approval with the relevant DISCOM. Metering arrangements and technical feasibility follow the applicable state and DISCOM process.
 
-For other projects, the controlling document may be a tender schedule, owner specification, State Electricity Regulatory Commission regulation, DISCOM checklist or Electrical Inspector requirement. Build a project evidence matrix rather than applying one residential-scheme checklist to every sale.
+For other projects, the controlling document may be a tender schedule, owner specification, State Electricity Regulatory Commission regulation, DISCOM checklist or Electrical Inspector requirement. Build a project evidence matrix rather than applying one residential-scheme checklist to every sale. For a GeM inverter bid, see how the [GeM page and the buyer's ATC split these requirements](/blog/buy-solar-inverters-on-gem/).
 
 ## The eight checks before stocking an inverter model
 

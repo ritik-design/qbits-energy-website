@@ -38,7 +38,7 @@ featured: false
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-A factory owner in Rajkot paying ₹9.20 per unit to the [DISCOM](/glossary/discom/) does not need to be convinced that solar works. The question is how to pay for it. A 100 kW rooftop plant costs ₹40 to ₹50 lakh installed in 2026. Most MSMEs would rather keep that cash in working capital than on the roof. That is exactly the gap a solar [loan](/blog/solar-ka-loan-hindi/) for business fills.
+A factory owner in Rajkot paying ₹9.20 per unit to the [DISCOM](/glossary/discom/) does not need to be convinced that solar works. The question is how to pay for it. A [100 kW rooftop plant costs](/blog/hundred-kw-solar-plant-cost-factories-india/) ₹40 to ₹50 lakh installed in 2026. Most MSMEs would rather keep that cash in working capital than on the roof. That is exactly the gap a solar [loan](/blog/solar-ka-loan-hindi/) for business fills.
 
 India's business solar financing market has matured fast. Public sector banks run dedicated green loan products. SIDBI and IREDA offer concessional money for [MSME](/blog/group-captive-solar-msme/) energy projects. A new generation of NBFCs sanctions rooftop loans in days with the plant itself as security. And the CGTMSE guarantee scheme lets eligible micro and small enterprises borrow without pledging property at all.
 
@@ -137,7 +137,7 @@ data:
 The plant is cash-flow positive from month one. Add the tax benefits from the next section and year-one economics improve further. The same logic scales: a 500 kW plant at ₹2 crore saves roughly ₹67 lakh per year at ₹9 per unit. For full return modelling across tariff bands, see our [solar IRR and payback guide for C&I](/blog/solar-irr-payback-ci-india/).
 
 > [!WARNING] The ₹9 per unit tariff is an assumption
-> One warning: this math assumes your tariff is genuinely ₹9. Many C&I connections have demand charges and time-of-day rebates that change the effective avoided cost. Pull 12 months of bills and compute your real per-unit landed cost before signing anything.
+> One warning: this math assumes your tariff is genuinely ₹9. Many C&I connections have demand charges and time-of-day rebates that change the effective avoided cost, and the [Gujarat captive set-off and banking clauses read in full](/blog/solar-for-diamond-polishing-units-surat/) show how much. Pull 12 months of bills and compute your real per-unit landed cost before signing anything. In Gujarat a banking charge on solar consumed sits on top, which [our Surat textile guide](/blog/solar-for-power-looms-textile-units-surat/) works through with the DGVCL tariff.
 
 Scale sensitivity matters too. Below about 30 kW, fixed costs keep the plant price near ₹50 per Wp and the savings thinner relative to EMI. Between 50 and 500 kW, prices settle near ₹35 to ₹45 per Wp and the cash-flow gap widens in your favour. That band matches industrial pricing trackers such as [Solnce Energy's 2026 industrial solar price guide](https://www.solnceenergy.com/blog/industrial-solar-panel-price-in-india). Above 1 MW, lenders treat the deal as project finance and shift you toward IREDA-style underwriting. Expect a formal DPR, insurance, and an O&M contract priced into the model.
 

@@ -29,7 +29,7 @@ faqs:
 
 To apply for a **Qbits solar inverter dealership in India**, use the official partner form and choose `Dealer` as the business type. You will need basic company and contact details. The form also gives you room to explain your warehouse, team, working capital, sales plan, and previous inverter experience.
 
-Hindi में यही application process समझने के लिए [solar dealership लेने की पूरी प्रक्रिया](/blog/solar-dealership-kaise-le/) पढ़ें।
+Hindi में यही application process समझने के लिए [solar dealership लेने की पूरी प्रक्रिया](/blog/solar-dealership-kaise-le/) पढ़ें (state guides in Hindi: [Uttar Pradesh solar business guide](/blog/uttar-pradesh-mein-solar-business-avsar/), [Bihar solar dealership guide](/blog/bihar-mein-solar-dealership-kaise-shuru-karein/))।
 
 That is the application route, not an automatic appointment. Qbits reviews each submission. The public page does not publish a minimum investment, guaranteed margin, exclusive territory, credit limit, or approval timeline. If your application moves forward, confirm those points in the proposed agreement before you buy stock or describe your business as an authorised Qbits dealer.
 
@@ -42,7 +42,7 @@ That is the application route, not an automatic appointment. Qbits reviews each 
 
 ## Who is this dealer route for?
 
-The dealer route is for a business that wants to sell Qbits solar inverters in a defined market and can explain how it will reach customers, handle stock, and support sales after delivery. It may suit an electrical-products dealer, solar retailer, or established local business adding an inverter line.
+The dealer route is for a business that wants to sell Qbits solar inverters in a defined market and can explain how it will reach customers (our guide to [Google Business Profile and WhatsApp catalogue setup for dealers](/blog/google-business-profile-whatsapp-catalogue-solar-dealers/) covers the two listings a shop can set up first), handle stock, and support sales after delivery. It may suit an electrical-products dealer, solar retailer, or established local business adding an inverter line.
 
 Choose a different option on the form if the work is different:
 
@@ -55,7 +55,7 @@ Table: Qbits partner form routes and when each fits your business
 | EPC | You survey, design, procure, install, and commission solar projects |
 | System Integrator | You combine inverters with other equipment, controls, or project systems |
 
-These descriptions help you choose a route. They are not a substitute for the role definition in a final agreement. A dealer appointment does not by itself create service authorisation, distribution rights, or an exclusive territory.
+These descriptions help you choose a route. They are not a substitute for the role definition in a final agreement. A dealer appointment does not by itself create service authorisation, distribution rights, or an exclusive territory, so ask any brand for its claim process in writing, as our [dealer inverter service claim process](/blog/dealer-inverter-service-claim-process/) lists.
 
 If more than one description appears to fit, compare the [Dealer, Distributor, EPC, and System Integrator roles](/blog/dealer-vs-distributor-vs-epc/) by customer, stock, project responsibility, and service boundary before selecting the business type.
 
@@ -97,7 +97,7 @@ Table: Information the Qbits partner form requests, by section
 
 Use the [field-by-field Qbits partner application guide](/blog/qbits-partner-application-guide/) to prepare each answer, understand the current required markers, and review the data-handling notice before submission.
 
-EPC applicants completing the PM Suryaghar field can use the separate [PM Surya Ghar vendor registration guide for installers](/blog/pm-surya-ghar-vendor-registration-installers/). Government vendor registration and the Qbits partner review are independent processes.
+EPC applicants completing the PM Suryaghar field can use the separate [PM Surya Ghar vendor registration guide for installers](/blog/pm-surya-ghar-vendor-registration-installers/). Government vendor registration and the Qbits partner review are independent processes, and a Gujarat applicant can see how that state's DISCOMs register vendors in our [Gujarat dealer guide](/blog/solar-dealership-gujarat-after-surya-gujarat/).
 
 There is an important distinction here. A form asking for warehouse size or working capital does not prove that Qbits requires one published minimum. It means the team wants that information for its review. If Qbits later sets a threshold for your proposed appointment, ask for it in writing.
 

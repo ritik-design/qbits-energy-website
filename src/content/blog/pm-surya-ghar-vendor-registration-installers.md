@@ -49,7 +49,7 @@ The [Ministry of New and Renewable Energy's vendor-registration notice](https://
 
 ## State or national registration: choose before preparing documents
 
-**State registration suits an installer that can serve and maintain projects within one state. National registration suits a business with genuine multi-state delivery and service capacity.** The wider badge carries a much larger PBG requirement in the MNRE process document, so it should not be chosen for appearance alone.
+**State registration suits an installer that can serve and maintain projects within one state. National registration suits a business with genuine multi-state delivery and service capacity.** The wider badge carries a much larger PBG requirement in the MNRE process document, so it should not be chosen for appearance alone; for the Uttar Pradesh state route in Hindi, see our guide to the [UPNEDA vendor registration steps](/blog/uttar-pradesh-mein-solar-business-avsar/), and for Bihar see the [Bihar solar dealership and vendor registration guide](/blog/bihar-mein-solar-dealership-kaise-shuru-karein/).
 
 MNRE documents checked on 26 September 2026 state the following:
 
@@ -156,7 +156,7 @@ Table: What the referenced 2022 state declaration asks a firm to confirm
 | Firm identity | Legal name and legal status such as company, proprietorship, partnership, or LLP |
 | Tax identity | GSTIN and PAN |
 | Employment record | Provident Fund number, where applicable |
-| Technical team | At least three people trained for rooftop solar installation work |
+| Technical team | At least three people trained for rooftop solar installation work (a [training plan and record sheet](/blog/training-technicians-inverter-installation-commissioning/) can show it) |
 | Statutory capability | Ability to meet electrical-safety and other applicable legal requirements |
 | Technical compliance | Commitment to install to the applicable MNRE specifications and standards |
 | Maintenance | Commitment to comprehensive maintenance for at least five years |
@@ -232,7 +232,7 @@ Table: What PM Surya Ghar vendor registration does not guarantee, and why
 
 | Registration does not guarantee | Why |
 | --- | --- |
-| Consumer leads | A profile can make the firm discoverable, but it does not promise enquiry volume or conversion |
+| Consumer leads | A profile can make the firm discoverable, but it does not promise enquiry volume or conversion (see [how installers get customers](/blog/how-solar-installers-get-customers/) for answering and tracking enquiries) |
 | Subsidy release | The consumer, system, documents, inspection, bank validation, and authority decisions must still meet current requirements |
 | Grid permission | State regulations, DISCOM processes, inspection, metering, and project facts still apply |
 | Profit or margin | Project price, equipment, labour, travel, corrections, maintenance, tax, finance, and collection determine the result |

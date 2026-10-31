@@ -64,7 +64,7 @@ The phrases `may`, `often`, and `usually` matter. A distributor can also execute
 
 Select **Dealer** when the proposed Qbits relationship is mainly about selling inverters into a local market. Your customers might be homeowners, commercial buyers, installers, or smaller EPCs. You may keep stock, but warehouse ownership is not what makes the role a dealership.
 
-The decisive question is simpler: are you primarily building a local sales route for the manufacturer's products?
+The decisive question is simpler: are you primarily building a local sales route for the manufacturer's products? Before you apply to any brand, [Qbits vs KSolare](/blog/qbits-vs-ksolare/) is an example of comparing two brands from their own datasheets.
 
 A dealer application should be able to describe:
 
@@ -150,7 +150,7 @@ Most overlap is manageable once the revenue stream and responsibility are separa
 
 ### Distributor plus EPC
 
-One division may supply downstream businesses while another signs project contracts. Keep distribution stock, project procurement, customer invoices, warranty records, and liabilities traceable to the correct scope. A distribution appointment should not be treated as permission to make project-performance commitments for the manufacturer.
+One division may supply downstream businesses while another signs project contracts. Keep distribution stock, project procurement, customer invoices, warranty records, and liabilities traceable to the correct scope, and if that business already carries one inverter brand and is weighing another, [how multi-brand dealers evaluate a second inverter brand](/blog/add-second-inverter-brand-multi-brand-dealers/) sets out the checks. A distribution appointment should not be treated as permission to make project-performance commitments for the manufacturer.
 
 ### Dealer plus installer
 
@@ -196,7 +196,7 @@ The application choice starts a conversation. It does not settle the appointment
 > - whether stock is required and who carries title, loss, damage, and ageing risk;
 > - how orders, prices, taxes, freight, payment, credit, and returns work;
 > - who owns design, installation, commissioning, and customer acceptance;
-> - what training grants, and what it does not grant;
+> - what training grants, and what it does not grant (a [technician training plan](/blog/training-technicians-inverter-installation-commissioning/) shows how to keep your own sign-off separate from any certificate);
 > - who receives warranty claims and who performs each remedy stage;
 > - whether field service or service-centre work is authorised;
 > - how brand names, claims, customer data, and monitoring access may be used; and

@@ -162,7 +162,7 @@ Qbits owners can find an [authorised service partner](/authorized-service-partne
 
 ## What should an inverter AMC state?
 
-**An inverter annual maintenance contract should turn maintenance promises into a defined scope, responsibility map, response process, evidence package, and commercial rule.** It should name the covered assets, planned and excluded work, competence requirements, parts treatment, warranty coordination, access, data handling, escalation, additional-work approval, term, renewal, and termination conditions.
+**An inverter annual maintenance contract should turn maintenance promises into a defined scope, responsibility map, response process, evidence package, and commercial rule.** It should name the covered assets, planned and excluded work, competence requirements, parts treatment, warranty coordination, access, data handling, escalation, additional-work approval, term, renewal, and termination conditions, as set out in the [solar O&M contract scope for inverters](/blog/ci-solar-om-contract-inverter-scope/).
 
 Before signing, check whether the document states:
 

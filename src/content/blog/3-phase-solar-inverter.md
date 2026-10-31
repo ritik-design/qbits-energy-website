@@ -65,7 +65,7 @@ The common shortcut is to say that every property above one nationwide capacity 
 
 Likewise, a three-phase electricity bill does not automatically prove that every small PV inverter must be three phase. The permitted arrangement depends on the service, inverter capacity, phase allocation, export rules, and utility approval. Ask for a written connection decision rather than relying on a salesperson's rule of thumb.
 
-The [single-phase versus three-phase inverter guide](/blog/single-vs-3-phase-inverter/) explains the electrical distinction. This page begins after that phase evidence is collected.
+The [single-phase versus three-phase inverter guide](/blog/single-vs-3-phase-inverter/) explains the electrical distinction. This page begins after that phase evidence is collected. For the 20-30 kW class used by small factories, the [25 kW inverter comparison](/blog/best-twenty-to-thirty-kw-on-grid-inverter-small-factories/) reads five three-phase datasheets on the same fields.
 
 ## Decide whether the system is on-grid or backup-capable
 
@@ -74,7 +74,7 @@ The QB-6/8/10/12/15/17KTLC document is titled `On-grid Inverter`. It does not li
 > [!WARNING] An on-grid KTLC does not keep loads running in an outage
 > That matters for homes and small businesses with three-phase service. A [three-phase on-grid inverter](/on-grid-inverter/) can reduce grid imports when the utility is present, subject to the approved design. It should not be bought to keep lights, pumps, air conditioners, or other loads running during an outage.
 
-If backup is required, define the protected circuits, phase arrangement, running and starting loads, battery, isolation method, and transfer requirement first. Then compare exact [hybrid or backup models](/hybrid-inverter/) whose documents cover those functions. The [on-grid, hybrid, and off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) owns that topology choice.
+If backup is required, define the protected circuits, phase arrangement, running and starting loads, battery, isolation method, and transfer requirement first. Then compare exact [hybrid or backup models](/hybrid-inverter/) whose documents cover those functions, as the [three-phase hybrid inverter comparison](/blog/best-three-phase-hybrid-inverter-homes-shops/) does for six models. The [on-grid, hybrid, and off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) owns that topology choice.
 
 ## What the Qbits KTLC datasheet states
 

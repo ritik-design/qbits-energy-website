@@ -29,7 +29,7 @@ faqs:
 
 To choose a **solar inverter supplier for an EPC project**, qualify the exact product and the organisation behind it at the same time. A technically suitable inverter from an unclear supply chain is still a procurement risk. So is a responsive supplier offering a model that does not fit the array, grid connection, environment, or approval route.
 
-Use hard gates first. Confirm the model, document set, project fit, compliance route, authorised supply chain, written warranty, and service responsibility. Only then compare commercial terms. This page covers supplier qualification and shortlisting. The separate [bulk inverter procurement guide](/blog/inverter-procurement-india/) covers the RFQ, purchase order, delivery, inspection, and acceptance stage.
+Use hard gates first. Confirm the model, document set, project fit, compliance route, authorised supply chain, written warranty, and service responsibility. Only then compare commercial terms. This page covers supplier qualification and shortlisting. The separate [bulk inverter procurement guide](/blog/inverter-procurement-india/) covers the purchase order, delivery, inspection, and acceptance stage, and the [solar inverter RFQ template](/blog/solar-inverter-rfq-template-epc/) gives you the document to send the shortlisted bidders.
 
 > [!KEYTAKEAWAYS]
 > - Qualify the exact product and the organisation behind it at the same time; confirm hard gates first and compare commercial terms only afterwards.
@@ -74,7 +74,7 @@ At minimum, record:
 > - commissioning, training, spares, and field-support expectations; and
 > - the documents that the owner, lender, insurer, tender, DISCOM, or inspector requires.
 
-Use the [solar inverter datasheet guide](/blog/how-to-read-solar-inverter-datasheets/) to turn this requirement into model-level checks. Capacity alone is not enough. Products with similar names can have different MPPT counts, current limits, voltage windows, optional communications, or environmental limits.
+Use the [solar inverter datasheet guide](/blog/how-to-read-solar-inverter-datasheets/) to turn this requirement into model-level checks. Capacity alone is not enough. Products with similar names can have different MPPT counts, current limits, voltage windows, optional communications, or environmental limits. For the 50 kW class, the [50 kW inverter comparison](/blog/best-fifty-kw-solar-inverter-india/) reads six brands' datasheets on tracker count and tracker current.
 
 ## Apply seven supplier-selection hard gates
 
@@ -90,7 +90,7 @@ Also ask how the supplier communicates a product change. A model substitution, f
 
 ### 2. Technical fit for the proposed design
 
-Have the project engineer check the proposed model against the array and AC design. The review should include maximum DC voltage, MPPT operating window, current per tracker, number of inputs, rated and maximum AC output, phase, protection functions, environmental limits, and derating information.
+Have the project engineer check the proposed model against the array and AC design. The review should include maximum DC voltage (and, for a 1500 V DC unit with an 800 Vac output, the [transformer and safety checks](/blog/fifteen-hundred-volt-string-inverter-eight-hundred-vac/) it brings), MPPT operating window, current per tracker, number of inputs, rated and maximum AC output, phase, protection functions, environmental limits, and derating information.
 
 For efficiency requirements, write separate rows for maximum conversion, weighted conversion, and MPPT performance. The [peak versus weighted inverter efficiency tender guide](/blog/peak-vs-weighted-inverter-efficiency/) shows how to keep the metrics and evidence comparable across bids.
 
@@ -103,7 +103,7 @@ Create a compliance matrix for the actual project rather than copying a generic 
 Use official verification routes where available. The [BIS Compulsory Registration Scheme portal](https://www.crsbis.in/BIS/) provides public registration search functions. The [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) publishes PV module and cell lists. As checked on 26 September 2026, it does not publish an inverter list. Use the [BIS vs ALMM stocking checklist](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) to separate model evidence from scheme, tender and DISCOM checks.
 
 > [!CAUTION] A logo is not a certificate
-> Do not treat a standards logo in a brochure as a certificate. Do not assume that a report for one model covers every model in the same family. If the tender, DISCOM, owner, or inspector has a model list or additional test requirement, verify it with that authority before approval.
+> Do not treat a standards logo in a brochure as a certificate. Do not assume that a report for one model covers every model in the same family. If the tender, DISCOM, owner, or inspector has a model list or additional test requirement, verify it with that authority before approval. On a GeM bid, the [OEM authorisation and test-report rules](/blog/buy-solar-inverters-on-gem/) sit in the buyer's own terms.
 
 ### 4. Traceable and authorised supply
 

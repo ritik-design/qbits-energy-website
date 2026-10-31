@@ -71,11 +71,11 @@ Table: Five layers that decide whether an inverter is accepted, who issues each 
 
 | Layer | Who typically issues it | What it actually decides | Where it varies |
 |---|---|---|---|
-| State regulation | State electricity regulatory commission | Whether net metering is available to you, and the capacity and tariff conditions | By state, and by amendment |
+| State regulation | State electricity regulatory commission | Whether net metering is available to you, and the capacity and tariff conditions | By state and by amendment; Gujarat's captive settlement rules are worked through in [solar for diamond polishing units in Surat](/blog/solar-for-diamond-polishing-units-surat/) |
 | DISCOM technical circular or equipment list | Your own DISCOM | Whether your exact inverter model is acceptable for interconnection | By DISCOM, and by document revision |
 | Scheme rules | The scheme authority, for a subsidised installation | Vendor and equipment conditions attached to the subsidy | By scheme, and by scheme phase |
 | Product conformity evidence | Test laboratory or certification body named in the DISCOM document | Whether the model can produce the certificates the DISCOM asks for | By model, and by certificate validity |
-| Project specific approval | Your DISCOM's local office | Final acceptance of your particular connection | By application, load and feeder conditions |
+| Project specific approval | Your DISCOM's local office | Final acceptance of your particular connection (a house with two meters has two, see [solar for two electricity connections](/blog/solar-for-house-with-two-electricity-connections/)) | By application, load and feeder conditions |
 
 Nothing in the upper rows guarantees the bottom row. A model can satisfy every standard in the country and still be refused on a specific feeder for a reason that has nothing to do with the product.
 
@@ -84,20 +84,20 @@ Nothing in the upper rows guarantees the bottom row. A model can satisfy every s
 Run these six steps in order. They take a few days and they sit entirely before your equipment instalment.
 
 <!-- steps -->
-1. **Write down the exact model code.** Not the brand, not the capacity, not the series. The full model identifier as it appears on the datasheet, because acceptance decisions are made at that level.
+1. **Write down the exact model code.** Not the brand, not the capacity, not the series. The full model identifier as it appears on the datasheet, because acceptance decisions are made at that level. The [100 kW inverter comparison](/blog/best-hundred-kw-solar-inverter-ci-rooftops/) shows how the rated and maximum output figures differ between datasheets for the same class.
 2. **Identify your DISCOM by name and your division.** Your electricity bill carries both. Acceptance is a property of that utility, not of your state in general.
 3. **Obtain the current controlling document.** Ask the DISCOM, or your installer, for the current equipment list, technical circular or interconnection rule that applies to rooftop net metering in your division. Note its issuing body and its effective date.
 4. **Match the model against that document.** Check that the document covers residential net metering rather than a tender, a vendor empanelment, a module list or unrelated equipment, and that your phase and capacity fall inside its scope.
 5. **Collect the conformity evidence the document names.** Request the specific test reports or certificates it asks for, for your exact model, with their revision dates.
 6. **Get the confirmation in writing.** Ask whoever is submitting your application to confirm in writing that the named model is acceptable to the named DISCOM under the named document. Keep it.
 
-If you are earlier in the process, the [stage by stage net metering application route](/blog/how-to-apply-net-metering-india/) covers what happens after this, and [our net metering guide](/blog/net-metering-india-complete-guide/) covers how the credits themselves work.
+If you are earlier in the process, the [stage by stage net metering application route](/blog/how-to-apply-net-metering-india/) covers what happens after this, and [how to read your net meter bill](/blog/read-net-meter-bill-after-going-solar/) shows how the credits appear on the bill once the meter is live.
 
 ## What to put in writing with your installer
 
 The verification above is only worth the paper it produces. Three sentences in your order confirmation do most of the work.
 
-Name the exact inverter model that is being supplied, and state that substitution requires your written agreement. Model substitution after approval is a common cause of rework, because the approval attaches to the model, not to the order.
+Name the exact inverter model that is being supplied, and state that substitution requires your written agreement. Model substitution after approval is a common cause of rework, because the approval attaches to the model, not to the order, and the same care applies when you later [add capacity to an approved system](/blog/upgrade-three-kw-to-five-kw-solar/). The same applies after commissioning: what two state documents say about replacing a failed inverter on a running plant is set out in the [replacement compatibility checklist](/blog/replace-failed-solar-inverter-compatibility-checklist/).
 
 State that the installer confirms the named model is acceptable to your named DISCOM for net metering under a named, dated document. This moves a verbal assurance into something checkable.
 

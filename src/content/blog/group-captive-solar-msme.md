@@ -187,7 +187,7 @@ The exception worth noting: some states currently waive CSS on renewable third-p
 Answer five questions honestly.
 
 > [!CHECKLIST] Five fit-test questions
-> - Is your contract demand 100 kW or more? Below that, open access is generally not available under the green energy open access rules.
+> - Is your contract demand 100 kW or more? Below that, open access is generally not available under the green energy open access rules, and a rooftop plant within your [state's net-metering limit](/blog/net-metering-capacity-limits-commercial-by-state/) is one alternative.
 > - Do you spend more than ₹3 lakh a month on grid power? Below that, the legal and administrative overhead eats the saving.
 > - Can you commit ₹30 lakh to ₹80 lakh of equity for 5 or more years? If not, look at RESCO or third-party PPA instead.
 > - Is your consumption stable and mostly in daylight hours? Volatile or night-heavy loads weaken both compliance and savings.

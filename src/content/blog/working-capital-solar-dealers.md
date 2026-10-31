@@ -31,7 +31,7 @@ faqs:
     a: "No. Include supplier credit only after the limit, eligible orders, due-date rule, security, suspension rights, and effective date are approved in writing. A discussion, application, or past facility is not current available headroom."
 ---
 
-**Working capital for a solar dealer is the cash needed between paying for stock and collecting from customers.** It is not the dealership registration amount, annual turnover, or expected profit. Calculate the cash gap across actual dates before choosing any finance product.
+**Working capital for a solar dealer is the cash needed between paying for stock and collecting from customers.** It is not the dealership registration amount, annual turnover, or expected profit, and it is not a franchise entry fee, which buys rights rather than stock (see [solar franchise vs dealership](/blog/solar-franchise-vs-dealership/)). Calculate the cash gap across actual dates before choosing any finance product.
 
 A dealer can show profit on an invoice and still run short of cash. Stock may sit in the warehouse. A customer may pay late. Freight and taxes may fall due before the sale proceeds arrive. Finance can bridge a measured timing gap, but it cannot make slow stock or doubtful receivables disappear.
 
@@ -63,7 +63,7 @@ Do not use annual sales as the working-capital number. Turnover measures activit
 
 ## Map the stock cash cycle before asking for finance
 
-Start with one real replenishment cycle. Use the exact products and dates in the proposed order, not an average copied from another dealership.
+Start with one real replenishment cycle. Use the exact products and dates in the proposed order, not an average copied from another dealership. Which models you stock at all also depends on tracker count and current, and [Qbits vs KSolare](/blog/qbits-vs-ksolare/) shows how those rows differ between two brands.
 
 <!-- steps -->
 1. Record the purchase order date and any advance.
@@ -189,7 +189,7 @@ Other common errors are just as costly:
 - treating available supplier credit as permanent;
 - assuming slow stock can be returned, rotated, or bought back;
 - counting a back-end rebate before its target and payment conditions are met;
-- overlooking freight, insurance, damage, redelivery, and warranty logistics;
+- overlooking freight, insurance, damage, redelivery, and warranty logistics, which our [dealer inverter service claim process](/blog/dealer-inverter-service-claim-process/) breaks into trackable stages;
 - using invoice dates as collection dates;
 - using receivables finance for an invoice that has not been accepted or is not eligible; and
 - matching short-lived stock needs with repayments the business cannot support after sales slow.

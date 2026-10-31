@@ -31,7 +31,7 @@ faqs:
     a: "Do not count requested or expected finance as available cash. Use only funds and facilities that are currently available on the reporting date, avoid counting the same limit twice, and have an accountant confirm the treatment for your business."
 ---
 
-**There is no universal minimum investment for a solar dealership in India.** The correct number is the highest cash shortfall in your own launch plan, using the actual programme fee, stock commitment, setup costs, payment terms, customer collection timing, and contingency.
+**There is no universal minimum investment for a solar dealership in India.** The correct number is the highest cash shortfall in your own launch plan, using the actual programme fee, stock commitment, setup costs (and, if you will also install, your [state electrical licensing position](/blog/electrical-contractor-licence-solar-installers/) and, in Gujarat, the [DISCOM vendor registration and PBG](/blog/solar-dealership-gujarat-after-surya-gujarat/)), payment terms, customer collection timing, and contingency, plus what it costs you to find customers (see [how solar installers get customers](/blog/how-solar-installers-get-customers/)).
 
 The current public Qbits partner page does not publish a minimum dealer investment. It asks applicants about working capital, loans, cash-credit limits, other capital, and infrastructure. Those questions are inputs for review, not a published price or approval threshold.
 
@@ -44,7 +44,7 @@ The current public Qbits partner page does not publish a minimum dealer investme
 
 ## What do current solar programmes actually publish?
 
-Published amounts cannot be compared until you identify what each number buys. A registration payment, a demo purchase, opening stock, and total working capital are four different things.
+Published amounts cannot be compared until you identify what each number buys. A registration payment, a demo purchase, opening stock, and total working capital are four different things, and our [stock planning guide for new dealers](/blog/solar-inverter-stock-planning-new-dealers/) shows how to split opening stock across capacity classes under a fixed cash limit.
 
 The table below uses only current pages published by the named companies. It does not turn their terms into an industry average or a Qbits estimate.
 
@@ -77,7 +77,7 @@ Table: Launch budget blocks, what to include and what evidence to use
 | Programme commitments | Registration fee, security, deposit, training charge, demo requirement, licence or onboarding payment | Dated programme sheet, invoice, refund terms |
 | Setup cash | Premises deposit, fit-out, signage, computer, billing system, insurance, tools, safe storage | Supplier quotations and lease terms |
 | Opening stock cash | Exact models, quantities, taxes, freight, transit insurance, unloading, demo units, service spares | Approved opening order and delivered-cost sheet |
-| Operating cash gap | Payroll, rent, utilities, travel, local marketing, customer credit, tax timing, warranty logistics | Month-by-month cash-flow plan |
+| Operating cash gap | Payroll, rent, utilities, travel, local marketing (the Google and WhatsApp listings are set up in [Google Business Profile and WhatsApp catalogue setup for dealers](/blog/google-business-profile-whatsapp-catalogue-solar-dealers/)), customer credit, tax timing, warranty logistics | Month-by-month cash-flow plan |
 | Contingency | Cost increases, delayed collections, slow stock, damaged goods, delayed credit notes | A documented downside scenario chosen by the business |
 
 Do not add every line from a generic dealership article. If you already have suitable premises, record the incremental cost rather than pretending to rent a second shop. If the role is resale only, do not budget an installation team that the agreement does not require. If service tools or spares are compulsory, do not hide them inside contingency.
@@ -144,7 +144,7 @@ The [field-by-field Qbits partner application guide](/blog/qbits-partner-applica
 
 ## Ask these questions before spending
 
-If the application progresses, request a dated written answer for every cash commitment:
+If the application progresses, request a dated written answer for every cash commitment (an established dealer adding a brand can cap that exposure with a [90-day pilot](/blog/add-second-inverter-brand-multi-brand-dealers/)):
 
 > [!CHECKLIST] Questions to put in writing
 > - Is there a registration, onboarding, training, demo, or security payment?
@@ -155,7 +155,7 @@ If the application progresses, request a dated written answer for every cash com
 > - Who owns demo units and slow-moving stock?
 > - What happens when a model changes or the relationship ends?
 > - Which tools, spares, software accounts, signage, and premises are compulsory?
-> - Which service, return, and warranty logistics costs fall to the dealer?
+> - Which service, return, and warranty logistics costs fall to the dealer, and which stages of a claim does the brand own (see our [dealer inverter service claim process](/blog/dealer-inverter-service-claim-process/))?
 > - What happens to payments if the application is declined or onboarding does not finish?
 
 Carry the answers into the [solar dealer agreement checklist](/blog/solar-dealer-agreement-checklist/). A verbal estimate should remain an estimate until the authorised proposal, schedules, invoices, and refund terms agree.

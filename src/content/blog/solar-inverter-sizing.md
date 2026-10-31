@@ -59,7 +59,7 @@ These interact. A string layout that satisfies voltage may exceed per tracker cu
 
 ## Why kWp does not pick the inverter
 
-Ten 550 W modules give **10 times 550, which is 5,500 Wp**, or **5.5 kWp** of rated DC capacity.
+Ten 550 W modules give **10 times 550, which is 5,500 Wp**, or **5.5 kWp** of rated DC capacity (for panel counts at other wattages against a 5 kW inverter, see [how many solar panels a 5 kW inverter takes](/blog/how-many-solar-panels-for-five-kw-inverter/)).
 
 That figure is measured at standard test conditions, which an Indian rooftop rarely sees. Real output is usually below rated, which is why installing somewhat more DC capacity than the inverter's AC rating is a normal design choice rather than an error. The upper bound is the inverter's maximum permitted DC input power and voltage, stated on the datasheet.
 
@@ -123,7 +123,7 @@ The array can be perfect and still fail here.
 List the simultaneous loads or the planned grid connected output, and check the sanctioned connection on the electricity bill. Your permitted capacity is usually tied to sanctioned load rather than roof area, and a three phase inverter requires a three phase service. The [single versus three phase guide](/blog/single-vs-3-phase-inverter/) covers the consequences of getting this wrong.
 
 > [!IMPORTANT] kWp is not permission
-> A rooftop kWp figure is not permission to install a particular AC capacity or to export. That comes from the DISCOM.
+> A rooftop kWp figure is not permission to install a particular AC capacity or to export. That comes from the DISCOM. For plants of 100 kW to 1 MW, the [inverter count guide](/blog/how-many-inverters-for-hundred-kw-to-one-mw-rooftop/) works through how unit size, AC current and connection voltage set the number of inverters.
 
 ## Battery sizing is a separate calculation
 

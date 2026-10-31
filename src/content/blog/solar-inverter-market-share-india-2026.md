@@ -143,7 +143,7 @@ Hybrid is a function (battery-capable string inverters) that overlaps the string
 
 **String inverters** dominate at every scale below large utility because of their modular design, [MPPT](/glossary/mppt/) flexibility, and simpler service. A string inverter failure affects a portion of the array (not the entire plant) reducing downtime risk. This is the [string vs micro-inverter](/blog/string-vs-microinverter/) trade-off most relevant to Indian residential buyers.
 
-**[Central inverters](/glossary/central-inverter/)** remain the cost-per-kW winner at scale for flat, unshaded utility parks where the additional granularity of string inverters is not required. As utility-scale park sizes have grown, central inverter economics have strengthened, and Mercom India reported central inverters at 51% of 2025 shipments.
+**[Central inverters](/glossary/central-inverter/)** remain the cost-per-kW winner at scale for flat, unshaded utility parks where the additional granularity of string inverters is not required. As utility-scale park sizes have grown, central inverter economics have strengthened, and Mercom India reported central inverters at 51% of 2025 shipments. At 1 to 5 MW the choice is closer, as the [string vs central comparison for 1 to 5 MW plants](/blog/string-vs-central-inverter-india/) shows.
 
 **Micro-inverters** face a structural cost barrier in India: a system needs one unit per module (or per pair), so the inverter bill scales with panel count instead of one string inverter. Ask for the per-unit price in writing; this guide quotes none because no dated source was found.
 

@@ -126,7 +126,7 @@ The grid-facing engineering that determines operational reliability.
 
 ### AC installation
 
-- **Grid integration** with proper cable sizing for the inverter rating
+- **Grid integration** with proper [cable sizing for the inverter rating](/blog/solar-ac-cable-sizing-inverter-to-acdb/)
 - **AC SPDs** installed between inverter output and main DB
 - **AC isolators** for service and grid disconnection
 - **Grid synchronisation** parameters configured per CEA standards

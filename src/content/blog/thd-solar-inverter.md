@@ -284,7 +284,7 @@ Different inverter topologies produce different THD profiles due to their power 
 
 ### Central Inverters
 
-Central inverters used for MW-scale ground-mount projects use multilevel or multi-parallel topologies with interleaved PWM carriers. The harmonic cancellation from interleaving multiple parallel stages means central inverters typically achieve below-2% ITHD at rated output, lower than most string inverters. This is one reason utility-scale and large C&I plants (above 500 kW) often use central inverter architecture even where string inverters could technically be used.
+Central inverters used for MW-scale ground-mount projects use multilevel or multi-parallel topologies with interleaved PWM carriers. The harmonic cancellation from interleaving multiple parallel stages means central inverters typically achieve below-2% ITHD at rated output, lower than most string inverters. This is one reason utility-scale and large C&I plants (above 500 kW) often use central inverter architecture even where string inverters could technically be used, though the [1 to 5 MW string vs central comparison](/blog/string-vs-central-inverter-india/) shows the harmonic limit is only one of many tests at that size.
 
 ### Hybrid Inverters
 

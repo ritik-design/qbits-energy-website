@@ -45,7 +45,7 @@ Table: Five documents to request from every bidder, with the gap that should tri
 | Cost-responsibility matrix | Diagnosis, site visit, labour, travel, freight, lifting, removal, refitting, consumables and recommissioning | Costs are described as `as applicable` without an owner |
 | Escalation and continuity list | Named roles, backup contacts, service locations, parts route, discontinued-model plan and open-case ownership | The process depends on one salesperson or channel firm |
 
-Record the document name, owner, version, issue date and quotation reference. A PDF received after the purchase order cannot silently replace the term used to approve the bid.
+Record the document name, owner, version, issue date and quotation reference. A PDF received after the purchase order cannot silently replace the term used to approve the bid. The [50 kW inverter price post](/blog/fifty-kw-solar-inverter-price-india/) shows how a tender buyer's payment retention and onsite-service terms end up inside a unit price.
 
 ## Identify which legal entity owes each action
 
@@ -70,7 +70,7 @@ The purchase order should not use `supplier` as a catch-all if several parties a
 
 ## Put these warranty questions into the RFQ
 
-Ask for answers against every quoted SKU. If models share one document, require the bidder to identify the clause that brings each SKU into scope.
+Ask for answers against every quoted SKU, and carry the same rows into the document and warranty part of the [solar inverter RFQ template](/blog/solar-inverter-rfq-template-epc/). If models share one document, require the bidder to identify the clause that brings each SKU into scope.
 
 1. What is the full model designation and serial-number scope?
 2. Which legal entity issues and honours the warranty in India?
@@ -89,7 +89,7 @@ Do not award a warranty score until the bidder supplies the controlling document
 
 ## Break the service-level agreement into measurable stages
 
-One end-to-end response time hides the hand-off that usually causes delay. Treat the service-level agreement, or **SLA**, as a set of stages. Ask the bidder to define the start event, stop event, responsible party, target, exclusions and evidence for each stage.
+One end-to-end response time hides the hand-off that usually causes delay. Treat the service-level agreement, or **SLA**, as a set of stages. Ask the bidder to define the start event, stop event, responsible party, target, exclusions and evidence for each stage, and carry the same stages into the site-side [O&M contract](/blog/ci-solar-om-contract-inverter-scope/).
 
 Table: Service stages with the start event and completion evidence to define for each
 
@@ -131,7 +131,7 @@ The cheapest unit can become the most expensive service case when the EPC carrie
 
 ## Build the RMA evidence pack before deployment
 
-Return material authorisation, or **RMA**, should begin from controlled fleet records. Do not wait for a fault to discover that serial numbers and commissioning data were never captured.
+Return material authorisation, or **RMA**, should begin from controlled fleet records. Do not wait for a fault to discover that serial numbers and commissioning data were never captured, and build that habit into [how you train new technicians](/blog/training-technicians-inverter-installation-commissioning/).
 
 > [!CHECKLIST] RMA evidence pack, by site and unit
 > - purchase order, invoice, delivery note and seller identity;

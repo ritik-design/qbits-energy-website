@@ -77,7 +77,7 @@ Do not frame all clipping as a design error. A project may accept some modelled 
 
 ## Which inverter limits must be checked before oversizing?
 
-**A proposed ratio is irrelevant if the array violates an electrical, installation or warranty limit.** Check the exact inverter variant and current manual for maximum DC voltage, MPPT window, input current, short-circuit current, tracker architecture and any stated array-power condition. Check every string and MPPT allocation.
+**A proposed ratio is irrelevant if the array violates an electrical, installation or warranty limit.** Check the exact inverter variant and current manual for maximum DC voltage, MPPT window, input current, short-circuit current, tracker architecture and any stated array-power condition. Check every string and MPPT allocation, as the [15 kW three-phase comparison](/blog/best-fifteen-kw-solar-inverter-india/) does with 700 Wp class modules. On multi-inverter plants the rated units must also tile into the AC target, which moves the real ratio; the [100 kW to 1 MW inverter count examples](/blog/how-many-inverters-for-hundred-kw-to-one-mw-rooftop/) show a 960 kW result against a 1 MW target.
 
 Use this gate before energy modelling:
 

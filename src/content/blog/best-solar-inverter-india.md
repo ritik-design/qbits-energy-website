@@ -189,7 +189,7 @@ Each entry lists the exact model, the figures from the source, who it may suit, 
 - **Source:** [Solis India product page for S6-GR1P(4-5)K-S](https://www.solisinverters.com/in/solarinverter20/S6-GR1P(4-5)K-S_in.html) and the [India flyer PDF](https://www.solisinverters.com/uploads/file/S6-GR1P(4-5)K-ND-IN-Flyer-V1,5.pdf), accessed October 2026. Support: [Solis India service page](https://www.solisinverters.com/in/service.html).
 
 **May suit:** a single-phase home with strings on two roof faces.
-**Check before buying:** the 5 kW unit uses an internal fan while the 4 kW variant does not, and AFCI and the DC switch are optional. Ask which options are in the quote. The India warranty terms are in an appendix, so request the written document.
+**Check before buying:** the 5 kW unit uses an internal fan while the 4 kW variant does not, and AFCI and the DC switch are optional. Ask which options are in the quote. The India warranty terms are in an appendix, so request the written document. The [Qbits vs Solis comparison](/blog/qbits-vs-solis/) repeats this check on Solis's current India datasheets across five classes.
 
 ### 8. Sungrow: SG5.0RS-L
 

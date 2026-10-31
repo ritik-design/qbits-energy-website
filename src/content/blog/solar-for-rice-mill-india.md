@@ -74,7 +74,7 @@ Three characteristics define the rice mill load:
 
 1. **Motor-heavy, high starting current.** Dozens of induction motors start across the day. In a grid-tied design, the grid or DG handles inrush, not the inverter. The inverter only needs to match steady-state consumption.
 2. **Daytime-weighted.** Most mills run 10 to 14 hours daily. Progressive owners shift milling toward solar hours once the plant is installed. At 18 to 26 kWh per tonne, a mill doing 18 tonnes a day burns 320 to 470 units.
-3. **Poor power factor without correction.** Induction motors pull a lagging power factor, often 0.8 to 0.85 uncorrected. Check your APFC panel before sizing. A corrected 0.95 plus power factor reduces the kVA you need.
+3. **Poor power factor without correction.** Induction motors pull a lagging power factor, often 0.8 to 0.85 uncorrected. Check your APFC panel before sizing. A corrected 0.95 plus power factor reduces the kVA you need, and the [power factor and demand effects in a plastics unit](/blog/solar-for-plastic-injection-moulding-units/) show the same logic on a different load.
 
 A mill with 60 kW connected load typically runs at 40 to 50 kW during steady milling. Load factor, not connected load, drives the solar sizing math.
 
@@ -130,7 +130,7 @@ Sizing a rice mill plant has three steps: energy sizing, roof check, and inverte
 
 **Step 2: Roof and structure check.** You need roughly 55 to 65 square feet per kW, so 70 kWp takes about 4,000 square feet. Mill roofs are often asbestos sheets. Check the sheet age and purlin condition. Brittle asbestos may need partial replacement or a shed-top structure. Many mills use the grain storage shed roof, often the strongest structure on site.
 
-**Step 3: Inverter selection.** Rice mills are 3-phase loads, full stop. The [3-phase solar inverter guide](/blog/3-phase-solar-inverter/) covers why single-phase units are irrelevant at this scale. For a 70 kWp plant, use one 60 to 75 kW string inverter, or two 30 to 36 kW units for redundancy. We prefer two units on mills. If one trips, the other keeps generating. Mill dust makes the "when it fails" question a matter of time, not if.
+**Step 3: Inverter selection.** Rice mills are 3-phase loads, full stop. The [3-phase solar inverter guide](/blog/3-phase-solar-inverter/) covers why single-phase units are irrelevant at this scale, and the [15 kW three-phase inverter comparison](/blog/best-fifteen-kw-solar-inverter-india/) shows how tracker current limits a layout at the small end. For a 70 kWp plant, use one 60 to 75 kW string inverter, or two 30 to 36 kW units for redundancy. We prefer two units on mills. If one trips, the other keeps generating. Mill dust makes the "when it fails" question a matter of time, not if.
 
 Inverter specifications that matter for a rice mill specifically:
 

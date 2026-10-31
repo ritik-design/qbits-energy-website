@@ -35,7 +35,7 @@ faqs:
 
 A bulk inverter order is ready only when the EPC can match **each site, exact model, quantity, document, delivery milestone, acceptance test, and commercial responsibility** across the design, quotation, and purchase order. EPCs buying Qbits units can [apply as a Qbits dealer or EPC partner](/become-our-partner/).
 
-Do not order from a family brochure or a verbal stock confirmation. Freeze the transaction in a controlled order schedule. Mark every missing answer as `clarification required`, and resolve it before dispatch or through an authorised written exception.
+Do not order from a family brochure or a verbal stock confirmation. If you still need the document that goes out to bidders first, use the [solar inverter RFQ template](/blog/solar-inverter-rfq-template-epc/). Freeze the transaction in a controlled order schedule. Mark every missing answer as `clarification required`, and resolve it before dispatch or through an authorised written exception.
 
 > [!KEYTAKEAWAYS] Order-control summary
 > - Qualify the supplier before asking the purchase order to carry supplier risk.
@@ -85,13 +85,13 @@ Use `TBC` only with an owner and closure date. A blank cell is not flexibility. 
 
 ### Freeze the document revision with the model
 
-A model name alone is not enough. Record the datasheet title or file, revision or issue date where shown, and the date the buyer checked it. If a certificate or manual has a different model string, ask the bidder to map the exact quoted model to the document in writing.
+A model name alone is not enough. Record the datasheet title or file, revision or issue date where shown, and the date the buyer checked it. If a certificate or manual has a different model string, ask the bidder to map the exact quoted model to the document in writing. A [25 kW comparison of five datasheets](/blog/best-twenty-to-thirty-kw-on-grid-inverter-small-factories/) shows how much one capacity label hides.
 
 For Qbits models, begin with the [current public datasheet library](/download-datasheets/). That page separates model families and tells buyers to request the exact-model manual, certificate, battery compatibility confirmation, or written warranty when the public datasheet does not state it.
 
 ## Create a project-specific evidence matrix
 
-There is no safe universal label called `all approvals included`. Requirements can arise from the tender, scheme, regulator, DISCOM, customer specification, insurer, lender, or internal EPC standard. List the source of each requirement beside the evidence offered.
+There is no safe universal label called `all approvals included`. Requirements can arise from the tender, scheme (for a PM-KUSUM plant, see [what the tenders and MNRE specifications ask of the inverter](/blog/pm-kusum-inverter-selection/)), regulator, DISCOM, customer specification, insurer, lender, or internal EPC standard. List the source of each requirement beside the evidence offered.
 
 Table: Project-specific evidence matrix for approvals and certificates
 
@@ -112,7 +112,7 @@ If the project authority has not answered an approval question, record it as an 
 
 ## Make every quotation comparable
 
-Price comparison fails when bidders price different boundaries. Send a response table, not a request for one total.
+Price comparison fails when bidders price different boundaries. Send a response table, not a request for one total. For the 50 kW class, the [50 kW inverter price post](/blog/fifty-kw-solar-inverter-price-india/) shows a worked bid comparison with the missing lines added back.
 
 Ask each bidder to state:
 
@@ -158,7 +158,7 @@ Legal and tax reviewers should confirm the final contract for the transaction. A
 ## Do not accept substitutions through a dispatch note
 
 > [!WARNING] A same-rating model is not automatically equivalent
-> An alternative model can change string design, input current limits, MPPT allocation, protection coordination, communications, physical layout, approval evidence, and service documents. Even a model with the same AC rating is not automatically equivalent.
+> An alternative model can change string design, input current limits, [MPPT allocation across sheds](/blog/mppt-allocation-multiple-factory-sheds/), protection coordination, communications, physical layout, approval evidence, and service documents. Even a model with the same AC rating is not automatically equivalent.
 
 Require a written change request before dispatch. It should contain:
 

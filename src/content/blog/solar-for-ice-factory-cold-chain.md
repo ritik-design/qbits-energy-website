@@ -230,7 +230,7 @@ Most ice plants are MSMEs, and the financing stack matters as much as the engine
 - **MSME solar loans.** Specialized green credit lines from SIDBI, SBI, and IREDA-backed schemes finance C&I rooftop at 9 to 11 percent. The [solar loan for business and MSME](/blog/solar-loan-for-business-msme/) guide compares the structures.
 - **EMI vs saving alignment.** A Rs 96 Lakh plant financed at 10 percent over 7 years costs about Rs 19.1 Lakh per year in EMI (about Rs 1.59 Lakh a month). Net annual saving is Rs 22.6 Lakh. The plant is cash-flow positive from month one by about Rs 3.5 Lakh per year, before depreciation.
 
-OPEX and RESCO models exist at this scale too. A developer builds the plant on your roof and sells you power at Rs 4.50 to 5.50 per unit. You give up the depreciation and the asset, but pay nothing upfront. For owners with capital tied up in cold chain expansion, that trade is often correct.
+OPEX and RESCO models exist at this scale too. A developer builds the plant on your roof and sells you power at Rs 4.50 to 5.50 per unit (the [roof lease and RESCO routes for a warehouse](/blog/solar-for-warehouses-logistics-parks/) work differently for an ambient building). You give up the depreciation and the asset, but pay nothing upfront. For owners with capital tied up in cold chain expansion, that trade is often correct.
 
 Owners evaluating this for the first time should also look at how an actual Gujarat plant performed after commissioning. The Rajkot cold storage case study on this blog tracks real generation against projected savings, which is the sanity check every spreadsheet needs.
 

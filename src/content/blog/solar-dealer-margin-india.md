@@ -56,7 +56,7 @@ Table: What five solar companies publish about dealer margins, as seen on 26 Sep
 | [UTL Solar dealership page](https://www.upsinverter.com/utl/dealership/) | The page describes `High Profit Margins` and links them to pricing, products, and demand | It does not publish a percentage or enough inputs to calculate a dealer's realised gross or net margin. The page metadata showed an update on 27 July 2026 |
 | [Spectra Solar channel-partner page](https://spectrasolarpower.com/channel-partner-with-us) | It says the agreed margin is credited after the customer has paid the project amount in full, with possible bonuses tied to collections and quarterly targets | It does not publish the agreed percentage. This is a project-closing channel model, not proof of an inventory dealer's inverter-resale margin |
 
-This is why an attractive percentage can still be unusable. The reader may not know what was sold, which costs sit above or below the line, whether the amount is earned immediately, or whether the statement applies to that manufacturer's current programme.
+This is why an attractive percentage can still be unusable, and why a new starter should size the cash at risk first, as in our guide to [low-investment solar business models](/blog/solar-business-ideas-india-low-investment/). The reader may not know what was sold, which costs sit above or below the line, whether the amount is earned immediately, or whether the statement applies to that manufacturer's current programme.
 
 The Tata Power figure is the clearest example. The source labels it as project-execution margin. A rooftop project can include modules, inverter, structure, wiring, design, labour, approvals, travel, and follow-up work. Applying that percentage to an inverter purchase and resale would change both the revenue base and the cost base.
 
@@ -92,7 +92,7 @@ Then a working contribution calculation is:
 > Contribution margin = Dealer contribution / S
 
 > [!WARNING] Do not count a target rebate as earned
-> Do not put a target rebate into `R` merely because it appears in a sales presentation. First verify the qualifying products, measurement period, target, exclusions, return adjustments, credit-note process, and payment trigger.
+> Do not put a target rebate into `R` merely because it appears in a sales presentation, and if the programme is sold as a franchise, add any entry fee and royalty as separate lines (see [solar franchise vs dealership](/blog/solar-franchise-vs-dealership/)). First verify the qualifying products, measurement period, target, exclusions, return adjustments, credit-note process, and payment trigger.
 
 ## Why a large list-price discount can produce a small realised margin
 
@@ -165,7 +165,7 @@ The current public Qbits page is an application route. It is not a commercial of
 > - warranty, technical-support, and service cost allocation; and
 > - termination treatment for stock, open orders, receivables, and unpaid rebates.
 
-Keep the dealer discussion separate from a distributor, EPC, or system-integrator offer. The [role comparison guide](/blog/dealer-vs-distributor-vs-epc/) explains why the revenue base, inventory duty, project responsibility, and service exposure change with the role.
+Keep the dealer discussion separate from a distributor, EPC, or system-integrator offer. The [role comparison guide](/blog/dealer-vs-distributor-vs-epc/) explains why the revenue base, inventory duty, project responsibility, and service exposure change with the role. If you are weighing Qbits against another brand on the product side first, [Qbits vs KSolare](/blog/qbits-vs-ksolare/) shows how to read two brands' own datasheets row by row before any commercial discussion.
 
 ## A margin offer is decision-ready only when you can reproduce it
 

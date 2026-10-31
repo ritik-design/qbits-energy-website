@@ -37,7 +37,7 @@ faqs:
 
 The expensive mistake is treating them as one paperwork bundle. A dealer can be eligible for Udyam while not yet liable for GST. Another dealer can be liable for GST and choose not to register on Udyam. The answer changes with turnover, location, supply type, sales route, and business constitution.
 
-This guide reflects central rules and official portals checked on **26 September 2026**. State registrations, municipal licences, professional tax, Shops and Establishments rules, and local trade permissions sit outside this checklist. Use a chartered accountant or GST practitioner for your facts.
+This guide reflects central rules and official portals checked on **26 September 2026**. State registrations (including the [state electrical contractor licence position](/blog/electrical-contractor-licence-solar-installers/) and, in Gujarat, the [DISCOM vendor registration and PBG](/blog/solar-dealership-gujarat-after-surya-gujarat/)), municipal licences, professional tax, Shops and Establishments rules, and local trade permissions sit outside this checklist. Use a chartered accountant or GST practitioner for your facts.
 
 > [!KEYTAKEAWAYS] Short version
 > - GST registration can be mandatory. Udyam registration is a separate MSME registration.
@@ -111,7 +111,7 @@ The exact evidence depends on the constitution and premises. Build one controlle
 > - bank and business-account details required by the current process; and
 > - a plain description of goods, services, sales channels, and States served.
 
-Match spelling, address format, entity type, and signatory capacity across records before submission. A registration number cannot repair contradictory source documents.
+Match spelling, address format, entity type, and signatory capacity across records before submission. A registration number cannot repair contradictory source documents, and a lender will ask for the same papers when your customers finance a system, as [our guide to installer-assisted solar financing](/blog/installers-offer-solar-financing-customers/) explains.
 
 This is a preparation list, not a promise that the portal or officer will accept a particular document. Check the live form and current GST guidance for the exact constitution and premises.
 
@@ -214,7 +214,7 @@ There is no universal sequence, but this order prevents avoidable contradictions
 4. Complete GST registration if mandatory, or record the basis for a voluntary or not-yet-required position.
 5. Decide whether Udyam serves a real lending, tender, or programme need.
 6. If registering on Udyam, use the official portal and activity codes that match the business.
-7. Reconcile names, addresses, identifiers, and activities across the records.
+7. Reconcile names, addresses, identifiers, and activities across the records, and use the same legal name on your signboard and in your Google and WhatsApp business details (see [Google Business Profile and WhatsApp catalogue setup for dealers](/blog/google-business-profile-whatsapp-catalogue-solar-dealers/)).
 8. Prepare the operational facts requested by the partner form.
 
 Only then use the [Qbits partner application](/become-our-partner/) and choose the role that matches the proposed business. Submission begins a separate review. It does not confirm appointment or commercial terms.

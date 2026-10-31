@@ -258,7 +258,7 @@ The process runs in a predictable order.
 5. Receive the approval decision, after which replacement logistics begin.
 6. Keep the faulty unit available, because returning the defective item is normally a condition of replacement.
 
-Our [warranty claim walkthrough](/blog/solar-inverter-warranty-claim/) covers the documentation in detail, including what a rejected claim usually lacks. The hybrid range carries extra battery-side considerations, so check your [hybrid inverter](/hybrid-inverter/) specification before assuming a battery symptom is an inverter fault.
+Our [warranty claim walkthrough](/blog/solar-inverter-warranty-claim/) covers the documentation in detail, including what a rejected claim usually lacks. The hybrid range carries extra battery-side considerations, so check your [hybrid inverter](/hybrid-inverter/) specification before assuming a battery symptom is an inverter fault. If the unit turns out to be beyond repair, the same record feeds the [replacement compatibility checklist](/blog/replace-failed-solar-inverter-compatibility-checklist/).
 
 ## Preventive maintenance that actually reduces faults
 

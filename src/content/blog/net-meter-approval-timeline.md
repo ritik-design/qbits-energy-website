@@ -75,14 +75,14 @@ Most state frameworks follow the same underlying sequence, even when names and o
 <!-- steps -->
 1. **Application submission.** You or your installer file on the state portal or the national PM Surya Ghar portal. Save the reference number.
 2. **Technical feasibility study.** The DISCOM checks transformer headroom, feeder loading, and connection details.
-3. **Sanctioned load check.** Most regulations cap capacity at or below your sanctioned load or contract demand.
+3. **Sanctioned load check.** Most regulations cap capacity at or below your sanctioned load or contract demand, which is why [warehouse solar sized to contract demand](/blog/solar-for-warehouses-logistics-parks/) starts from the connection and not the roof.
 4. **Approval letter or registration.** The DISCOM conveys permission to install, often with a validity window.
 5. **Installation.** Your installer erects the array and commissions the inverter to the approved specification.
 6. **Completion report submission.** Test records, model and serial details, and the installation certificate are uploaded.
-7. **Inspection.** A DISCOM engineer, and in some states the [Chief Electrical Inspectorate](/glossary/ceig/), inspects and tests the installation.
+7. **Inspection.** A DISCOM engineer, and in some states the [Chief Electrical Inspectorate](/glossary/ceig/), inspects and tests the installation. The [inverter-side safety checks and state thresholds](/blog/ceig-inspection-solar-plant-inverter-checks/) are covered separately.
 8. **Meter testing and installation.** The [bidirectional meter](/glossary/bidirectional-meter/) is tested, sealed, and fitted.
 9. **Commissioning certificate and agreement.** The certificate is issued and the interconnection agreement is executed.
-10. **First settled bill.** Your next cycle reflects imported and exported units under the applicable mechanism.
+10. **First settled bill.** Your next cycle reflects imported and exported units under the applicable mechanism, and [how to read your first net meter bill](/blog/read-net-meter-bill-after-going-solar/) shows what each line means.
 
 Stages 1 to 4 are pre-approval. Stages 5 to 7 are yours and your installer's to drive. Stages 8 to 10 sit with the utility.
 
@@ -171,7 +171,7 @@ Feasibility is rarely the true bottleneck any more, especially since the 10 kW e
 
 **Transformer capacity.** The MERC (Grid Interactive Rooftop Renewable Energy Generating Systems) Regulations, 2019 restrict capacity to the sanctioned load and to 70% of transformer capacity, allocated transformer-wise on a first come, first served basis. A full transformer is a hard stop, not a queue.
 
-**Documentation gaps.** Model number mismatches, capacity above sanctioned load, missing test reports, and unsigned agreements. This is the largest avoidable category, and it sits entirely on your side of the line.
+**Documentation gaps.** Model number mismatches, capacity above sanctioned load (a later capacity increase, such as [moving from 3 kW to 5 kW](/blog/upgrade-three-kw-to-five-kw-solar/), raises the same issue), missing test reports, and unsigned agreements. This is the largest avoidable category, and it sits entirely on your side of the line.
 
 ## What you control and what you do not
 

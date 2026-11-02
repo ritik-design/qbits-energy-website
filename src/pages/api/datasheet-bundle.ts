@@ -107,7 +107,7 @@ function customerHtml(name: string) {
       <!-- Brand bar -->
       <tr><td class="px" style="padding:22px 40px;border-bottom:1px solid #eef2f6">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
-          <td align="left"><a href="${SITE}"><img src="${SITE}/email/logo.png" width="104" height="36" alt="Qbits Energy" style="display:block;border:0;height:36px;width:104px"/></a></td>
+          <td align="left"><a href="${SITE}"><img src="${SITE}/email/logo.png" width="114" height="36" alt="Qbits Energy" style="display:block;border:0;height:36px;width:114px"/></a></td>
           <td align="right" style="font-family:${FONT};font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#94a3b8">Product Catalogue</td>
         </tr></table>
       </td></tr>

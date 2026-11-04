@@ -147,8 +147,35 @@
     }).catch(function () { return false; });
   }
 
-  /** FormSubmit AJAX backup path (kept exactly as before). Resolves true on success. */
+  /**
+   * Shared lead service (Worker thestacc-leads): emails the lead through Resend from team@thestacc.com. Resolves true ONLY when the
+   * service answers success. Added 4 Nov 2026 because formsubmit.co was down (Cloudflare 522).
+   */
+  var LEAD_SERVICE = 'https://thestacc-leads.stacc.workers.dev';
+  var LEAD_SERVICE_TIMEOUT_MS = 12000;
+  function postViaLeadService(fetchImpl, data) {
+    return fetchWithTimeout(fetchImpl, LEAD_SERVICE, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    }, LEAD_SERVICE_TIMEOUT_MS).then(function (res) {
+      if (!res || !res.ok) return false;
+      return res.json().catch(function () { return {}; }).then(function (body) { return body.success === true; });
+    }).catch(function () { return false; });
+  }
+
+  /**
+   * The form's email path. Tries the shared lead service first; FormSubmit (the original path, kept exactly as before) is the
+   * fallback and is tried ONLY when the service did not deliver, so a lead is never emailed twice. Resolves true on success.
+   */
   function postFormSubmit(fetchImpl, endpoint, data) {
+    return postViaLeadService(fetchImpl, data).then(function (delivered) {
+      return delivered ? true : postFormSubmitDirect(fetchImpl, endpoint, data);
+    });
+  }
+
+  /** FormSubmit AJAX path (the original behaviour). Resolves true on success. */
+  function postFormSubmitDirect(fetchImpl, endpoint, data) {
     return fetchWithTimeout(fetchImpl, endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },

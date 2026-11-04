@@ -372,6 +372,41 @@ test('postLead and postFormSubmit abort a hung request instead of spinning forev
   assert.ok(seenSignal && typeof seenSignal.aborted === 'boolean', 'an AbortSignal is passed to fetch');
 });
 
+function loadLeadClient() {
+  const sandbox = { URL, URLSearchParams, Promise, JSON, Date, Math, console, AbortController, setTimeout };
+  sandbox.window = sandbox;
+  vm.createContext(sandbox);
+  vm.runInContext(clientSource, sandbox);
+  return sandbox.QbLead;
+}
+const LEAD_SERVICE_URL = 'https://thestacc-leads.stacc.workers.dev';
+const FORMSUBMIT_URL = 'https://formsubmit.co/ajax/ritik@thestacc.com';
+
+test('postFormSubmit: the shared lead service delivers, FormSubmit is not called (no duplicate email)', async () => {
+  const calls = [];
+  const fetchImpl = (url) => { calls.push(url); return Promise.resolve({ ok: true, json: async () => ({ success: true }) }); };
+  assert.equal(await loadLeadClient().postFormSubmit(fetchImpl, FORMSUBMIT_URL, { name: 'A' }), true);
+  assert.deepEqual(calls, [LEAD_SERVICE_URL]);
+});
+
+test('postFormSubmit: if the lead service fails, FormSubmit is tried and decides the result', async () => {
+  const calls = [];
+  const fetchImpl = (url) => {
+    calls.push(url);
+    if (url === LEAD_SERVICE_URL) return Promise.resolve({ ok: false, json: async () => ({ success: false }) });
+    return Promise.resolve({ ok: true, json: async () => ({ success: 'true' }) });
+  };
+  assert.equal(await loadLeadClient().postFormSubmit(fetchImpl, FORMSUBMIT_URL, { name: 'A' }), true);
+  assert.deepEqual(calls, [LEAD_SERVICE_URL, FORMSUBMIT_URL]);
+});
+
+test('postFormSubmit: service unreachable and FormSubmit down is a failure, never a false success', async () => {
+  const fetchImpl = () => Promise.reject(new Error('522'));
+  assert.equal(await loadLeadClient().postFormSubmit(fetchImpl, FORMSUBMIT_URL, { name: 'A' }), false);
+  const notSuccess = () => Promise.resolve({ ok: true, json: async () => ({ success: 'false' }) });
+  assert.equal(await loadLeadClient().postFormSubmit(notSuccess, FORMSUBMIT_URL, { name: 'A' }), false);
+});
+
 test('honeypot is renamed off autofill-bait words, hidden off-screen from AT and tabbing, on all four forms', () => {
   assert.equal(HONEYPOT_FIELD, 'hp_field_x7');
   assert.equal(/name|mail|phone|company|url|website|address/i.test(HONEYPOT_FIELD), false);

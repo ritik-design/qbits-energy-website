@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import GooglePreferredSource from '../components/GooglePreferredSource.astro';
+import { pageRefFor } from '../data/pageRefs';
 // Shared lead-form helper + first-touch attribution capture (see src/lib/lead-client.js).
 // Comments and indentation are stripped so the inline copy stays small on every page.
 import leadClientRaw from '../lib/lead-client.js?raw';
@@ -36,6 +37,7 @@ const {
 const fullTitle = title.includes('Qbits') ? title : `${title} | Qbits Energy`;
 const SITE = 'https://qbitsenergy.com';
 const canonicalUrl = `${SITE}${canonical}`;
+const pageRef = pageRefFor(Astro.url.pathname);
 const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${SITE}${ogImage}`;
 
 // Build-time env vars (set in Cloudflare Pages dashboard or .env):
@@ -72,6 +74,22 @@ const showPreferredSource =
   <script is:inline set:html={leadClientSource} />
 
   <title>{fullTitle}</title>
+  <meta name="qb-page-ref" content={pageRef} />
+  <!-- QA mode (plan W5): ?qa=<token> marks this tab's form submissions as tests. The server
+       compares it with its QA_TOKEN secret; a wrong token is just a normal lead. -->
+  <script is:inline>
+    (function () {
+      try {
+        var q = new URLSearchParams(location.search);
+        var t = q.get('qa');
+        if (!t) return;
+        sessionStorage.setItem('qb_qa', t.slice(0, 120));
+        q.delete('qa');
+        var rest = q.toString();
+        history.replaceState(null, '', location.pathname + (rest ? '?' + rest : '') + location.hash);
+      } catch (e) {}
+    })();
+  </script>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalUrl} />
   {renderNoindex && <meta name="robots" content="noindex,nofollow" />}
@@ -295,6 +313,34 @@ const showPreferredSource =
           }
         }, 600);
       }, { passive: true });
+    })();
+  </script>
+  <script is:inline>
+    // Page-tagged WhatsApp prefill (plan W8): chats to the Qbits number open with
+    // "[QB-<REF>] Hi, I'm on <page title> (<url>)". The link's own message is kept after the tag.
+    (function () {
+      var NUMBER = '919979192935';
+      var DEFAULT_MSG = "I'd like to know more about Qbits inverters.";
+      var refMeta = document.querySelector('meta[name="qb-page-ref"]');
+      var ref = refMeta ? refMeta.content : 'WEB';
+      var title = (document.title || '').split(/\s+[|–—-]\s+Qbits/)[0].trim().slice(0, 80);
+      var where = 'qbitsenergy.com' + (location.pathname === '/' ? '' : location.pathname.replace(/\/$/, ''));
+      function tag(a) {
+        if (a.dataset.waTagged) return;
+        var u;
+        try { u = new URL(a.href); } catch (e) { return; }
+        if (!/(^|\.)wa\.me$/.test(u.hostname) || u.pathname.replace(/\//g, '') !== NUMBER) return;
+        var original = (u.searchParams.get('text') || '').replace(/^Hi[^,.!]*[,.!]?\s*/i, '').trim() || DEFAULT_MSG;
+        var msg = '[QB-' + ref + '] Hi, I\'m on "' + title + '" (' + where + '). ' + original;
+        a.href = 'https://wa.me/' + NUMBER + '?text=' + encodeURIComponent(msg);
+        a.dataset.waTagged = '1';
+      }
+      function tagAll() { document.querySelectorAll('a[href*="wa.me/' + NUMBER + '"]').forEach(tag); }
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', tagAll); else tagAll();
+      document.addEventListener('click', function (e) {
+        var a = e.target && e.target.closest ? e.target.closest('a[href*="wa.me/' + NUMBER + '"]') : null;
+        if (a) tag(a);
+      }, { capture: true });
     })();
   </script>
 </body>

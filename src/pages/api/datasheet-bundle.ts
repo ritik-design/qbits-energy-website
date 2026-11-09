@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { env } from 'cloudflare:workers';
+import { isQaSubmission, TEAM_COPY } from '../../lib/lead-qa';
 import {
   cleanSubmissionId,
   HONEYPOT_FIELD,
@@ -21,7 +22,8 @@ const CATALOGUE_URL = `${SITE}/datasheets/qbits-inverter-full-catalogue.pdf`;
 // Verified sending domain in Resend must be qbitsenergy.com for this to deliver.
 const FROM = 'Qbits Energy <datasheets@qbitsenergy.com>';
 const REPLY_TO = 'service@qbitsenergy.com';
-const INTERNAL_TO = ['service@qbitsenergy.com'];
+// theStacc is on copy (plan W3: the datasheet team copy was missing). QA tests go to team@ only.
+const INTERNAL_TO = ['service@qbitsenergy.com', TEAM_COPY];
 
 function escapeHtml(str: string) {
   return str.replace(
@@ -244,6 +246,8 @@ export const POST: APIRoute = async ({ request }) => {
     return jsonResponse(200, { success: true });
   }
 
+  const isTest = isQaSubmission(parsed.body, (env as any)?.QA_TOKEN);
+  delete parsed.body.qa_token;
   const cleaned = sanitizeFields(parsed.body, ALLOWED_KEYS, (key) => CAPS[key] ?? 200);
   if (!cleaned.ok) return jsonResponse(400, { success: false, message: cleaned.message });
   const data = cleaned.data;
@@ -283,14 +287,14 @@ export const POST: APIRoute = async ({ request }) => {
   try {
     await sendEmail({
       from: FROM,
-      to: INTERNAL_TO,
+      to: isTest ? [TEAM_COPY] : INTERNAL_TO,
       reply_to: email,
-      subject: `Datasheet bundle request: ${name}${companyName ? ` (${companyName})` : ''}`,
+      subject: `${isTest ? '[TEST] ' : ''}Datasheet bundle request: ${name}${companyName ? ` (${companyName})` : ''}`,
       html: internalHtml({ name, email, phone, companyName, page: data.page, submittedAt: data.submittedAt }),
     });
   } catch (err) {
     console.error('Resend internal notification failed:', err);
   }
 
-  return jsonResponse(200, { success: true });
+  return jsonResponse(200, isTest ? { success: true, test: true } : { success: true });
 };

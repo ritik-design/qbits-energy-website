@@ -154,10 +154,15 @@
   var LEAD_SERVICE = 'https://thestacc-leads.stacc.workers.dev';
   var LEAD_SERVICE_TIMEOUT_MS = 12000;
   function postViaLeadService(fetchImpl, data) {
+    // The QA token is for this site's own endpoints only; the lead service recognises a QA
+    // submission by the "automated form check" marker instead, and emails team@ only.
+    var copy = {};
+    Object.keys(data || {}).forEach(function (k) { if (k !== 'qa_token') copy[k] = data[k]; });
+    if (data && data.qa_token) copy.qa = 'automated form check';
     return fetchWithTimeout(fetchImpl, LEAD_SERVICE, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data),
+      body: JSON.stringify(copy),
     }, LEAD_SERVICE_TIMEOUT_MS).then(function (res) {
       if (!res || !res.ok) return false;
       return res.json().catch(function () { return {}; }).then(function (body) { return body.success === true; });
@@ -169,6 +174,10 @@
    * fallback and is tried ONLY when the service did not deliver, so a lead is never emailed twice. Resolves true on success.
    */
   function postFormSubmit(fetchImpl, endpoint, data) {
+    // Only FormSubmit is replaced by the lead service. The site's own email endpoint
+    // (/api/datasheet-bundle sends the visitor the catalogue and alerts the Qbits team) must
+    // always be called: from 5 Nov the service answered first and that email never went out.
+    if (!/formsubmit\.co/i.test(String(endpoint))) return postFormSubmitDirect(fetchImpl, endpoint, data);
     return postViaLeadService(fetchImpl, data).then(function (delivered) {
       return delivered ? true : postFormSubmitDirect(fetchImpl, endpoint, data);
     });
@@ -191,8 +200,22 @@
    * Send the lead to the CRM and to the form's email path, await both, decide.
    * `sendEmail` is a function returning a promise of true/false (it may also reject).
    */
+  /** page_ref + page_title on every lead (plan W8); qa_token only in a ?qa= tab (plan W5). */
+  function addLeadMeta(data) {
+    try {
+      var doc = root.document;
+      var meta = doc && doc.querySelector && doc.querySelector('meta[name="qb-page-ref"]');
+      if (meta && !data.page_ref) data.page_ref = meta.content;
+      if (doc && doc.title && !data.page_title) data.page_title = String(doc.title).slice(0, 160);
+      var qa = root.sessionStorage && root.sessionStorage.getItem('qb_qa');
+      if (qa) data.qa_token = qa;
+    } catch (e) { /* storage blocked: the lead still goes through */ }
+    return data;
+  }
+
   function submitLead(opts) {
     var fetchImpl = opts.fetchImpl || root.fetch.bind(root);
+    addLeadMeta(opts.data);
     var crm = postLead(fetchImpl, opts.data);
     var email = Promise.resolve().then(function () { return opts.sendEmail(); })
       .then(function (ok) { return ok === true; }, function () { return false; });
@@ -224,6 +247,7 @@
     trackLeadOnce: trackLeadOnce,
     postLead: postLead,
     postFormSubmit: postFormSubmit,
+    addLeadMeta: addLeadMeta,
     submitLead: submitLead,
     collectFields: collectFields,
   };

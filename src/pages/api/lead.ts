@@ -14,6 +14,7 @@ import {
   readJsonObject,
   sanitizeFields,
 } from '../../lib/lead-guard';
+import { isQaSubmission } from '../../lib/lead-qa';
 
 // Runs on-demand (Cloudflare Pages Function), not statically prerendered.
 export const prerender = false;
@@ -50,7 +51,7 @@ const FORM_KEYS = [
   'source', 'page', 'submittedAt', 'submission_id',
   'name', 'email', 'phone', 'city', 'state', 'message',
   'role', 'subject', 'systemSize', 'model', 'quantity', 'requiredDate', 'sourcePage',
-  'companyName', 'website',
+  'companyName', 'website', 'page_ref', 'page_title',
 ];
 const ATTRIBUTION_KEYS = [
   'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content',
@@ -192,6 +193,9 @@ function buildTrackingBlock(data: Record<string, string>) {
   if (attribution.length) {
     parts.push(`<p><b>Attribution (first touch):</b><br/>${attribution.join('<br/>')}</p>`);
   }
+  if (data.page_ref) {
+    parts.push(`<p><b>Page ref:</b> ${escapeHtml(data.page_ref)}${data.page_title ? ` (${escapeHtml(data.page_title)})` : ''}</p>`);
+  }
   if (data.submission_id) {
     parts.push(`<p><i>Submission ID: ${escapeHtml(data.submission_id)}</i></p>`);
   }
@@ -287,6 +291,12 @@ export const POST: APIRoute = async ({ request, locals }) => {
   }
   if (!isPartnerForm) delete body.website;
 
+  // QA submissions (QA_TOKEN secret or the legacy marker): validated like a real lead, then
+  // nothing is stored, so Odoo and the sheet stay test-free. The email copy goes through the
+  // shared lead service, which sends tests to team@thestacc.com only.
+  const isTest = isQaSubmission(body, (env as any)?.QA_TOKEN);
+  delete body.qa_token;
+
   const cleaned = sanitizeFields(body, ALLOWED_KEYS, fieldCap);
   if (!cleaned.ok) return jsonResponse(400, { success: false, message: cleaned.message });
   const data = cleaned.data;
@@ -312,6 +322,10 @@ export const POST: APIRoute = async ({ request, locals }) => {
   }
   if (!name || (!mobile && !email)) {
     return jsonResponse(400, { success: false, message: 'Missing required fields' });
+  }
+
+  if (isTest) {
+    return jsonResponse(200, { success: true, test: true, form: formSource, crm: false, sheet: false });
   }
 
   // Same submission already stored by this isolate (a retry after a lost response):
